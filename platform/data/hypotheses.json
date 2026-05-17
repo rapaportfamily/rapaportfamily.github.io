@@ -174,12 +174,29 @@
         "report": "docs/research/h5_leah_shimon_survival_2026-05-17.md",
         "highest_leverage_action": "Leah's own memoir — extract every concrete detail (street, neighbor, ration-card date) and triangulate against Lviv State Archive (DALO) Legionów 24 building registry"
       },
+      "research_2026_05_17_cc_round2": {
+        "trigger": "New WhatsApp chat export 17 May 22:17-22:45 from Basia + Doron + Dalia",
+        "new_evidence": [
+          "DOCUMENT ANOMALY (Basia): in Polish records 1945-1946 ONLY Lusia is listed, not Dawid. In Brussels DP records ONLY Dawid is listed, not Lusia. → They may have separated during the post-war return. Worth structured archive cross-check.",
+          "NKVD / PASSPORTIZATION HYPOTHESIS (Basia): Soviet 'passportization' campaign in Przemyśl 1939-41 forced citizens to apply for Soviet passports under threat of deportation. Leah was in Przemyśl during this period. Basia raises the possibility Leah's brief stay was connected to this; possibly even that she had NKVD-adjacent contact (delicate topic — Yad Vashem position is Jews should not be prosecuted by NKVD).",
+          "NEW PRIMARY SOURCE: IPN research paper attached (represje-nkwd-wobec-mieszkancow-strefy-przygranicznej-1939-1941, ref 6066) by the Institute of National Remembrance — covers NKVD repressions in the border zone including passportization mechanics in Przemyśl.",
+          "DORON CLARIFICATION: 'Lucia received an affidavit to go to USA. David as a Betar member wanted to go to Israel.' → explains why family split (declaration of departure preferences differed)",
+          "DORON CLARIFICATION: Leah's Przemyśl stay was short — 'most of the war she was elsewhere and doing other things to escape'. Basia confirms this fits the short-lived passportization window."
+        ],
+        "what_this_adds_to_research": [
+          "The 'separation in records' anomaly is now a tracked hypothesis — see h_lusia_dawid_paper_separation (new)",
+          "Passportization campaign is now a documented context — see new related event proposal",
+          "IPN connection strengthened — Basia + IPN paper recommend formal IPN application (already h_ipn_application — escalates priority)"
+        ]
+      },
       "next_steps": [
         "Yad Vashem and ŻIH testimony databases — Lusia/Leah Rapaport née Weitzner",
         "Lwów ghetto registration lists",
         "Cross-reference 'Hormek' / 'Maria Cizlik' identities in Polish wartime records",
         "Leah's own memoir — extract every place/date mention systematically",
-        "Search Żegota archives for Lwów branch document recipients (IPN holds some)"
+        "Search Żegota archives for Lwów branch document recipients (IPN holds some)",
+        "Resolve document anomaly: pull every 1945-1946 Polish ledger entry for 'Rapaport' and every 1946 Brussels DP ledger entry — confirm or refute the absence pattern",
+        "Read the new IPN passportization paper (platform/assets/documents/represje-nkwd-...) for direct context on Przemyśl 1939-41"
       ],
       "related_people": ["p_leah", "p_shimon"]
     },
@@ -251,6 +268,29 @@
         "verdict": "family_oral — plausible; online archive returned no match; physical archive not yet checked"
       },
       "related_people": ["p_david"]
+    },
+    {
+      "id": "h_lusia_dawid_paper_separation",
+      "question": {
+        "en": "Why does Lusia appear in Polish records 1945-46 but not Dawid, while Dawid appears in Brussels DP records but not Lusia? When and where did they reunite for Dov's 1946 Brussels birth?",
+        "he": "מדוע לוסיה מופיעה ברשומות פולין 1945-46 ללא דוד, ואילו דוד מופיע ברישומי העקורים בבריסל ללא לוסיה? מתי והיכן התאחדו לקראת לידת דב בבריסל 1946?",
+        "pl": "Dlaczego Lusia figuruje w polskich rejestrach 1945-46 bez Dawida, a Dawid w brukselskich rejestrach DP bez Lusi? Kiedy i gdzie się ponownie spotkali przed narodzinami Dova w Brukseli 1946?",
+        "fr": "Pourquoi Lusia apparaît-elle dans les registres polonais 1945-46 sans Dawid, tandis que Dawid apparaît dans les registres DP de Bruxelles sans Lusia ? Quand et où se sont-ils retrouvés avant la naissance de Dov à Bruxelles en 1946 ?"
+      },
+      "priority": "HIGH",
+      "status": "active_investigation",
+      "context": "Basia observation 17 May 2026: documentary trail shows them apart in 1945-46. Possible explanations: (a) Lusia traveled separately and joined later; (b) records are incomplete in one location; (c) deliberate separation (different declared destinations — Doron: 'Lucia received affidavit to USA, David as Betar member wanted Israel'); (d) Lusia stayed in Poland longer to wrap up affairs / sell property / find documents.",
+      "candidates": [
+        {"label": "Separate travel, Leah joined Brussels in time for Dov's 1946 birth", "evidence_for": ["Dov born Brussels 1946 (family oral) — must have been together by then"], "evidence_against": ["No direct travel record yet"], "verdict": "candidate"},
+        {"label": "Differing intended destinations (Doron: USA vs Israel) — couple eventually aligned on Israel via Brussels DP", "evidence_for": ["Doron explicit statement 17 May 2026"], "evidence_against": [], "verdict": "candidate"},
+        {"label": "Records incomplete — they were together but Polish record lost Dawid, Brussels record lost Lusia", "evidence_for": ["Common pattern in post-war chaos"], "evidence_against": ["Selective loss across two systems is statistically unlikely"], "verdict": "weak_candidate"}
+      ],
+      "next_steps": [
+        "Pull every 1945-46 Polish ledger entry (ŻIH, CKŻP, repatriation) for 'Rapaport'",
+        "Pull every 1946 Brussels DP registration for 'Rapaport' (also Rapaport women — Leah might be under maiden 'Weitzner')",
+        "Cross-check: maybe Leah is in Brussels under 'Weitzner' or 'Cizlik' alias?"
+      ],
+      "related_people": ["p_david", "p_leah"]
     },
     {
       "id": "h_zip_documents",

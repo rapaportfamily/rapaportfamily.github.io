@@ -72,7 +72,8 @@
       "facts": [
         {"key": "profession", "value": "Forestry engineer", "confidence": "confirmed", "sources": ["doc_david_dp_card"]},
         {"key": "languages", "value": "Polish (native); Italian, German (fluent); Czech, Russian", "confidence": "confirmed", "sources": ["doc_david_dp_card"]},
-        {"key": "movement", "value": "Member of Betar (Poland)", "confidence": "family_oral", "sources": ["oral_doron_14may"]},
+        {"key": "movement", "value": "Member of Betar (Poland)", "confidence": "family_oral", "sources": ["oral_doron_14may", "oral_doron_17may_whatsapp_2229"], "note": "Doron stated 17 May 2026 in WhatsApp: 'David as a Betar member wanted to go to Israel' — corroborating earlier oral testimony. Jabotinsky Institute online archive returned no match (see h_betar_records); physical-file check still pending."},
+        {"key": "1945_destination_preference", "value": "Wanted to go to Israel (as a Betar member, vs Leah whose affidavit was for USA)", "confidence": "family_oral", "sources": ["oral_doron_17may_whatsapp_2229"]},
         {"key": "1938_residence", "value": "Lwów, Poland (1 Jan 1938)", "confidence": "confirmed", "sources": ["doc_david_dp_card"]},
         {"key": "1942", "value": "Stripped of Polish citizenship", "confidence": "confirmed", "sources": ["doc_david_dp_card"]},
         {"key": "1946", "value": "Registered as Displaced Person in Brussels (Belgium), 9 April 1946", "confidence": "confirmed", "sources": ["doc_david_dp_card"]},
@@ -120,7 +121,9 @@
         {"key": "fake_identity", "value": "Lived in Lwów under fake identity 'Maria Cizlik' (borrowed)", "confidence": "family_oral", "sources": ["oral_doron_14may"]},
         {"key": "lwow_residence", "value": "Legionów Street 24, Lwów ghetto (with Hormek fake documents)", "confidence": "family_oral", "sources": ["oral_doron_13may"]},
         {"key": "lwow_job", "value": "Manager of art-effects/antiques store under fake identity, ~1941", "confidence": "family_oral", "sources": ["oral_doron_13may"]},
-        {"key": "przemysl_job", "value": "Worked as teller / passport section in Przemyśl, 1939 (Soviet-occupied side)", "confidence": "family_oral", "sources": ["oral_dana_15may", "oral_doron_15may"]},
+        {"key": "przemysl_job", "value": "Worked as teller / passport section in Przemyśl, 1939 (Soviet-occupied side)", "confidence": "family_oral", "sources": ["oral_dana_15may", "oral_doron_15may"], "note": "Per Basia 17 May 2026: this period coincided with the Soviet 'passportization' campaign — see IPN paper now in documents (represje-nkwd-... 6066). Doron confirmed her Przemyśl stay was short, 'most of the war she was elsewhere'."},
+        {"key": "1945_destination_affidavit", "value": "Received affidavit to emigrate to USA (per Doron 17 May)", "confidence": "family_oral", "sources": ["oral_doron_17may_whatsapp_2229"], "note": "Differed from David's Israel preference. The couple ended up reaching Israel via Brussels DP route. See h_lusia_dawid_paper_separation."},
+        {"key": "1945_46_polish_records", "value": "Listed in Polish post-war records 1945-46; not yet found in Brussels 1946 DP records (separation anomaly noted by Basia 17 May)", "confidence": "hypothesis", "sources": ["oral_basia_17may_whatsapp_2218"]},
         {"key": "mosina_job", "value": "Managed a rental hotel for Polish visitors in 'Mosina' c. 1937-38", "confidence": "family_oral", "sources": ["oral_dana_15may"]},
         {"key": "1936_lwow", "value": "Lived with relatives in Lwów, attended Carpathian forestry school filings", "confidence": "family_oral", "sources": ["oral_dana_15may"]},
         {"key": "memoir", "value": "Wrote memoir of the war (Hebrew)", "confidence": "family_oral", "sources": ["oral_doron_06may"]}
@@ -240,9 +243,10 @@
         "fr": "Lota Rapaport"
       },
       "role": "great_aunt",
-      "note_en": "David's sister. Lived in Lwów.",
+      "note_en": "David's sister. Lived in Lwów. Existence reconfirmed by Dalia 17 May 2026 ('David had sister lota. i am sure.').",
       "facts": [
-        {"key": "residence", "value": "Lived in Lwów", "confidence": "family_oral", "sources": ["oral_doron_13may"]}
+        {"key": "residence", "value": "Lived in Lwów", "confidence": "family_oral", "sources": ["oral_doron_13may"]},
+        {"key": "existence_confirmed_by_dalia", "value": "Dalia confirmed Lota's existence explicitly on 17 May 2026 WhatsApp", "confidence": "family_oral", "sources": ["oral_dalia_17may_whatsapp_2241"]}
       ],
       "father_id": "p_berisz",
       "mother_id": "p_rebeka",

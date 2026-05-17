@@ -317,6 +317,26 @@
       },
       "related_places": ["pl_bolechow", "pl_dolina"],
       "status": "verified"
+    },
+    {
+      "id": "doc_ipn_passportization_paper",
+      "file_pages": ["represje-nkwd-wobec-mieszkancow-strefy-przygranicznej-1939â1941,6066.pdf"],
+      "kind": "pdf",
+      "type": "research_paper",
+      "primary_language": "pl",
+      "title": {
+        "en": "NKVD repressions against residents of the border zone, 1939-1941 (IPN research paper 6066)",
+        "he": "דיכוי הנ.ק.ו.ד. נגד תושבי אזור הגבול, 1939-1941 (מאמר מחקר IPN 6066)",
+        "pl": "Represje NKWD wobec mieszkańców strefy przygranicznej 1939-1941 (Praca naukowa IPN 6066)",
+        "fr": "Répressions du NKVD contre les habitants de la zone frontalière, 1939-1941 (Article de recherche IPN 6066)"
+      },
+      "source_archive": "Polish Institute of National Remembrance (IPN), shared by Basia 17 May 2026 via WhatsApp",
+      "summary": {
+        "en": "IPN academic paper covering Soviet NKVD repressions in the border zone with Germany 1939-1941. Includes detailed section on 'Passportization' — the forced Soviet passport campaign in towns like Przemyśl. Basia highlighted this section because Leah was in Przemyśl during this period and Doron's family memory references her work in 'passport section'. The paper provides historical context for Leah's brief Przemyśl stay and may inform a formal IPN application for Rapaport family records (h_ipn_application)."
+      },
+      "related_people": ["p_leah"],
+      "related_hypotheses": ["h_leah_shimon_survival", "h_ipn_application", "h_lusia_dawid_paper_separation"],
+      "status": "needs_translation"
     }
   ],
   "additional_files": [
