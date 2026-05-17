@@ -2,7 +2,7 @@
 
 > A multilingual research and presentation platform tracing the journey of David and Leah Rapaport — Holocaust survivors who reached Brussels in 1946 — built as an 80th-birthday gift for their son Dov Bernard, 28 August 2026.
 
-**Owner**: Doron Rapaport
+**Compiled by**: Dalia, Dana, Daniel & Doron Rapaport (equal partners)
 **Status**: In development. Foundation built; Firebase migration in progress.
 **Languages**: Hebrew (primary), English, Polish, French — RTL-aware throughout.
 

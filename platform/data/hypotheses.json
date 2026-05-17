@@ -176,17 +176,18 @@
       },
       "research_2026_05_17_cc_round2": {
         "trigger": "New WhatsApp chat export 17 May 22:17-22:45 from Basia + Doron + Dalia",
+        "framing_note": "David and Leah were Holocaust survivors who escaped Nazi persecution under harrowing conditions. This research is about understanding the HISTORICAL CONTEXT they lived through — Soviet and German occupations alike — never about questioning their character or choices. Where archives are silent, we record questions, not accusations.",
         "new_evidence": [
-          "DOCUMENT ANOMALY (Basia): in Polish records 1945-1946 ONLY Lusia is listed, not Dawid. In Brussels DP records ONLY Dawid is listed, not Lusia. → They may have separated during the post-war return. Worth structured archive cross-check.",
-          "NKVD / PASSPORTIZATION HYPOTHESIS (Basia): Soviet 'passportization' campaign in Przemyśl 1939-41 forced citizens to apply for Soviet passports under threat of deportation. Leah was in Przemyśl during this period. Basia raises the possibility Leah's brief stay was connected to this; possibly even that she had NKVD-adjacent contact (delicate topic — Yad Vashem position is Jews should not be prosecuted by NKVD).",
-          "NEW PRIMARY SOURCE: IPN research paper attached (represje-nkwd-wobec-mieszkancow-strefy-przygranicznej-1939-1941, ref 6066) by the Institute of National Remembrance — covers NKVD repressions in the border zone including passportization mechanics in Przemyśl.",
-          "DORON CLARIFICATION: 'Lucia received an affidavit to go to USA. David as a Betar member wanted to go to Israel.' → explains why family split (declaration of departure preferences differed)",
-          "DORON CLARIFICATION: Leah's Przemyśl stay was short — 'most of the war she was elsewhere and doing other things to escape'. Basia confirms this fits the short-lived passportization window."
+          "DOCUMENT ANOMALY (Basia): in Polish records 1945-1946 only Lusia is listed; in Brussels DP records only Dawid is listed. Common in post-war chaos — they likely traveled separately and reunited in Brussels in time for Dov's birth (1946). Worth a targeted archive cross-check to fill the gap.",
+          "HISTORICAL CONTEXT — Soviet 'passportization' in border zones (Basia, IPN paper #6066): During the Soviet occupation 1939-41, ALL residents of border zones were subject to a forced Soviet passport campaign. Leah was briefly in Soviet-occupied Przemyśl in 1939; the IPN paper provides historical context for what life under that occupation looked like. This is context about the period, not a claim about Leah's actions.",
+          "NEW PRIMARY SOURCE: IPN academic paper (represje-nkwd-wobec-mieszkancow-strefy-przygranicznej-1939-1941, ref 6066) by the Polish Institute of National Remembrance. Useful background for what Galician Jews faced under successive Soviet and Nazi occupations.",
+          "DORON CLARIFICATION: 'Lucia received an affidavit to go to USA. David as a Betar member wanted to go to Israel.' → explains the choice they eventually made together to reach Israel via Brussels DP.",
+          "DORON CLARIFICATION: Leah's Przemyśl stay was short — 'most of the war she was elsewhere and doing other things to escape' the Nazi persecution. Consistent with Holocaust-survivor-on-the-run pattern."
         ],
         "what_this_adds_to_research": [
-          "The 'separation in records' anomaly is now a tracked hypothesis — see h_lusia_dawid_paper_separation (new)",
-          "Passportization campaign is now a documented context — see new related event proposal",
-          "IPN connection strengthened — Basia + IPN paper recommend formal IPN application (already h_ipn_application — escalates priority)"
+          "The 'separation in records' anomaly is now a tracked archival question — see h_lusia_dawid_paper_separation (new)",
+          "Soviet occupation context is better documented via the IPN paper — useful for understanding the period",
+          "Formal IPN application (h_ipn_application) escalated to high priority — IPN holds records that could complete the picture of how David and Leah survived"
         ]
       },
       "next_steps": [

@@ -2,8 +2,9 @@
 
 **From**: CAI (web Claude)
 **To**: CC (Claude Code, local)
-**Owner**: Doron Rapaport
-**Deadline**: 28 August 2026 (Dov Bernard's 80th birthday)
+**Compiled by**: Dalia, Dana, Daniel & Doron Rapaport (equal partners)
+**Primary CC liaison**: Doron Rapaport (operational point of contact for CC)
+**Deadline**: 28 August 2026 (Dov Rapaport's 80th birthday)
 
 ---
 

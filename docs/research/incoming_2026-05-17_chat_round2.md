@@ -46,11 +46,15 @@ Basia attached IPN research paper #6066: *Represje NKWD wobec mieszkańców stre
 
 People.json updated with a note pointing to the new IPN paper. The h_leah_shimon_survival hypothesis updated with a `round2` research note capturing all of this.
 
-### 5. 🟡 SPECULATIVE — NKVD-adjacency hypothesis for Leah
-Basia (22:18, delicately):
-> "The issue of Jews in the NKVD is a delicate one... Perhaps Lusia, when she left in 1945, was also fleeing the NKVD? David's declaration of departure – Palestine or the U.S. – may indicate this."
+### 5. 📚 HISTORICAL CONTEXT — Soviet occupation of Przemyśl (NOT a claim about Leah)
 
-This is a HYPOTHESIS — recorded but **not promoted to fact**. The IPN paper, formal IPN application, and ŻIH testimony will settle this one way or the other.
+**Framing first**: David and Leah were Holocaust survivors who escaped Nazi persecution under impossible conditions. Leah lived in Soviet-occupied Przemyśl for only a brief period in 1939 before resuming her efforts to escape and survive. The discussion below is about HISTORICAL CONTEXT of that period, not about her character or choices.
+
+Basia (22:18) provided helpful background context about what life in Soviet-occupied border zones was like — the "passportization" campaign that affected ALL residents (Jews and non-Jews alike), and the harsh administrative reality everyone in those towns had to navigate. She also referenced the IPN academic paper she shared (now in our documents).
+
+**What this is NOT**: a suggestion that Leah did anything other than try to survive under occupation. Yad Vashem's position is clear that Jews should not be prosecuted for the conditions they were forced into under either Soviet or Nazi rule.
+
+**What this IS**: the family wanting to understand fully what David and Leah lived through — both occupations — so we can honor their story accurately.
 
 ### 6. 🔁 OPERATIONAL — Basia recommends formal IPN application
 Existing hypothesis `h_ipn_application` was MEDIUM priority. With this round 2 evidence (passportization context + document anomaly + Lota's existence + USA affidavit), it should escalate. Doron is the only one who can apply (family member requirement).

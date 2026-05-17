@@ -41,7 +41,7 @@
         "1918_1939": "Stanisławów Voivodeship, Poland",
         "1939_": "Soviet, then German occupation, then Soviet, now Ukraine"
       },
-      "significance": "BIRTHPLACE of Leah Weitzner (1913) and her siblings Feige (1911), Moses (1916). The Weitzner family — Elias (cattle dealer / tanner) and Matel (née Weinreb) — lived in Bolechów Ruski (a suburb, incorporated into the city in 1929). Doron's grandmother started here.",
+      "significance": "BIRTHPLACE of Leah Weitzner (1913) and her siblings Feige (1911), Moses (1916). The Weitzner family — Elias (cattle dealer / tanner) and Matel (née Weinreb) — lived in Bolechów Ruski (a suburb, incorporated into the city in 1929). Grandmother of the family started here.",
       "important_events_ids": ["e_leah_birth", "e_feige_birth", "e_moses_birth"]
     },
     {
@@ -169,8 +169,8 @@
       "status": "unresolved_mystery",
       "candidates": [
         {"place_id": "pl_morszyn", "evidence_for": "Kasia (ŻIH) hypothesis", "evidence_against": null},
-        {"place_id": "pl_muszyna", "evidence_for": "Magda's recollection of past conversation with Doron's father", "evidence_against": null},
-        {"place_id": "pl_mszana_dolna", "evidence_for": "Doron's sister Dana's note about 'Rapaports of Mszana' as forest people; family found tagline 'Rapaport Sawmill' or 'The Masina'", "evidence_against": "Not in 1930 industry directory for Mszana"},
+        {"place_id": "pl_muszyna", "evidence_for": "Magda's recollection of a past conversation with Dov Rapaport", "evidence_against": null},
+        {"place_id": "pl_mszana_dolna", "evidence_for": "Dana Rapaport's note about 'Rapaports of Mszana' as forest people; family found tagline 'Rapaport Sawmill' or 'The Masina'", "evidence_against": "Not in 1930 industry directory for Mszana"},
         {"place_id": "pl_dolina", "evidence_for": "Phonetic/spelling similarity (Basia)", "evidence_against": "Doesn't match phonetically when spoken; sawmills there are not Rapaport-owned"}
       ]
     },
@@ -192,7 +192,7 @@
         "fr": "Muszyna"
       },
       "coords": [49.3500, 20.9000],
-      "significance": "Spa resort town near Krynica in southern Poland. Magda recalled discussing this area in a previous conversation with Doron's father. Candidate for 'Mosina'."
+      "significance": "Spa resort town near Krynica in southern Poland. Magda recalled discussing this area in a previous conversation with Dov Rapaport. Candidate for 'Mosina'."
     },
     {
       "id": "pl_mszana_dolna",

@@ -21,7 +21,7 @@
       },
       "aliases": ["Bernard", "Dov", "ברנרד", "דב"],
       "role": "subject_father",
-      "note_en": "Doron's father. The man this research is for — his 80th birthday gift, August 2026.",
+      "note_en": "Dov Rapaport — Dalia's husband, father of Doron, Dana and Daniel. The man this archive is for — an 80th birthday gift from his family, August 2026.",
       "birth": {
         "date": "1946",
         "date_precision": "year",
@@ -45,7 +45,7 @@
       },
       "aliases": ["Dawid", "Memek", "Dawid Mendel", "דוד"],
       "role": "grandfather",
-      "note_en": "Doron's paternal grandfather. Forestry engineer, polyglot, Betar member. Holocaust survivor.",
+      "note_en": "Paternal grandfather of Doron, Dana and Daniel. Father of Dov. Holocaust survivor who escaped Nazi-occupied Galicia, reached Brussels in April 1946, and eventually settled in Israel. Forestry engineer, polyglot, member of Betar (revisionist Zionist youth movement).",
       "birth": {
         "date": "1911-12-25",
         "date_precision": "day",
@@ -92,7 +92,7 @@
       },
       "aliases": ["Lea", "Lusha", "Lusia", "לאה", "Vitsner", "Wizner", "Fitzner", "Weitzner"],
       "role": "grandmother",
-      "note_en": "Doron's paternal grandmother. Wrote a memoir of the war. Survived under multiple false identities including 'Maria Cizlik'.",
+      "note_en": "Paternal grandmother of Doron, Dana and Daniel. Mother of Dov. Holocaust survivor who escaped the Nazi persecution of Galician Jewry by living under multiple false identities (including 'Maria Cizlik'), managing an antiques store in Lwów on the Aryan side. Wrote a memoir of the war.",
       "birth": {
         "date": "1913-04-08",
         "date_precision": "day",
@@ -121,9 +121,9 @@
         {"key": "fake_identity", "value": "Lived in Lwów under fake identity 'Maria Cizlik' (borrowed)", "confidence": "family_oral", "sources": ["oral_doron_14may"]},
         {"key": "lwow_residence", "value": "Legionów Street 24, Lwów ghetto (with Hormek fake documents)", "confidence": "family_oral", "sources": ["oral_doron_13may"]},
         {"key": "lwow_job", "value": "Manager of art-effects/antiques store under fake identity, ~1941", "confidence": "family_oral", "sources": ["oral_doron_13may"]},
-        {"key": "przemysl_job", "value": "Worked as teller / passport section in Przemyśl, 1939 (Soviet-occupied side)", "confidence": "family_oral", "sources": ["oral_dana_15may", "oral_doron_15may"], "note": "Per Basia 17 May 2026: this period coincided with the Soviet 'passportization' campaign — see IPN paper now in documents (represje-nkwd-... 6066). Doron confirmed her Przemyśl stay was short, 'most of the war she was elsewhere'."},
-        {"key": "1945_destination_affidavit", "value": "Received affidavit to emigrate to USA (per Doron 17 May)", "confidence": "family_oral", "sources": ["oral_doron_17may_whatsapp_2229"], "note": "Differed from David's Israel preference. The couple ended up reaching Israel via Brussels DP route. See h_lusia_dawid_paper_separation."},
-        {"key": "1945_46_polish_records", "value": "Listed in Polish post-war records 1945-46; not yet found in Brussels 1946 DP records (separation anomaly noted by Basia 17 May)", "confidence": "hypothesis", "sources": ["oral_basia_17may_whatsapp_2218"]},
+        {"key": "przemysl_job", "value": "Briefly worked as teller / in the passport section in Przemyśl, 1939, during the Soviet occupation", "confidence": "family_oral", "sources": ["oral_dana_15may", "oral_doron_15may"], "note": "The historical context of this period is the Soviet 'passportization' campaign that all residents of border towns had to navigate — see IPN paper (doc_ipn_passportization_paper). Doron and Basia agree her stay was short; she spent most of the war elsewhere, escaping Nazi persecution."},
+        {"key": "1945_destination_affidavit", "value": "Received an affidavit to emigrate to the USA (per Doron 17 May)", "confidence": "family_oral", "sources": ["oral_doron_17may_whatsapp_2229"], "note": "She and David ultimately chose Israel together, reaching it via the Brussels DP route. See h_lusia_dawid_paper_separation for the related archival puzzle."},
+        {"key": "1945_46_polish_records", "value": "Appears in Polish post-war records 1945-46; not yet located in Brussels 1946 DP records under any spelling. Likely traveled separately from David before they reunited in Brussels for Dov's birth.", "confidence": "hypothesis", "sources": ["oral_basia_17may_whatsapp_2218"]},
         {"key": "mosina_job", "value": "Managed a rental hotel for Polish visitors in 'Mosina' c. 1937-38", "confidence": "family_oral", "sources": ["oral_dana_15may"]},
         {"key": "1936_lwow", "value": "Lived with relatives in Lwów, attended Carpathian forestry school filings", "confidence": "family_oral", "sources": ["oral_dana_15may"]},
         {"key": "memoir", "value": "Wrote memoir of the war (Hebrew)", "confidence": "family_oral", "sources": ["oral_doron_06may"]}
@@ -169,7 +169,7 @@
       },
       "aliases": ["Bernard", "Berl"],
       "role": "great_grandfather_paternal",
-      "note_en": "Doron's paternal great-grandfather. Merchant in Nadwórna.",
+      "note_en": "Paternal great-grandfather of Doron, Dana and Daniel. Merchant in Nadwórna. Father of David.",
       "facts": [
         {"key": "occupation", "value": "Merchant (kupiec) in Nadwórna", "confidence": "documented", "sources": ["doc_david_birth_nadworna", "doc_david_dp_card"]},
         {"key": "1910_przemysl", "value": "A Bernard Rapaport appears in Przemyśl records around 1910 — may or may not be him", "confidence": "hypothesis", "sources": ["report_basia_13may"]}
@@ -187,7 +187,7 @@
       },
       "aliases": ["Rebecca", "Regina", "רבקה"],
       "role": "great_grandmother_paternal",
-      "note_en": "Doron's paternal great-grandmother. Birth record from Nadwórna found.",
+      "note_en": "Paternal great-grandmother of Doron, Dana and Daniel. Mother of David. Birth record from Nadwórna found 15 May 2026 by Ms. Kasia at ŻIH Warsaw — the family's breakthrough document.",
       "birth": {
         "date": "1888",
         "date_precision": "year",
@@ -212,7 +212,7 @@
         "fr": "Leizor Griffel"
       },
       "role": "gg_grandfather_paternal_maternal",
-      "note_en": "Doron's paternal-maternal great-great-grandfather. Merchant in Nadwórna.",
+      "note_en": "Great-great-grandfather (paternal-maternal line) of Doron, Dana and Daniel. Merchant in Nadwórna. Father of Rebeka Griffel.",
       "facts": [
         {"key": "occupation", "value": "Merchant in Nadwórna", "confidence": "documented", "sources": ["doc_rebeka_birth_nadworna"]}
       ],
@@ -409,7 +409,7 @@
         "fr": "Dalia Rapaport"
       },
       "role": "mother",
-      "note_en": "Doron's mother. Dov Bernard's wife.",
+      "note_en": "Mother of Doron, Dana and Daniel. Wife of Dov. Equal partner in this family research project.",
       "spouse_id": "p_dov_bernard",
       "children_ids": ["p_doron", "p_dana", "p_daniel"]
     },
