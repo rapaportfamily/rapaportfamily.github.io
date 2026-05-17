@@ -283,16 +283,77 @@ function setupInstallButton() {
   window.addEventListener("beforeinstallprompt", (e) => {
     e.preventDefault();
     _installPromptEvent = e;
+    // Refresh the persistent bar so it shows the "Install now" affordance
+    updatePersistentInstallBar();
+  });
+  // When the app gets installed (any path), hide everything install-related
+  window.addEventListener("appinstalled", () => {
+    document.getElementById("rft-install-bar")?.remove();
+    document.getElementById("rft-install-header-btn")?.remove();
+    document.getElementById("rft-install-modal")?.remove();
   });
 
-  // If already installed (running standalone), don't auto-prompt
+  // If already installed (running standalone), no bar/modal
   if (window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone) return;
-  // Don't auto-prompt again in the same browser within 24h (header button still works)
-  const dismissed = parseInt(localStorage.getItem("rft.install.dismissed_at") || "0", 10);
-  if (dismissed && Date.now() - dismissed < 24 * 60 * 60 * 1000) return;
 
-  // After 30 seconds on the page, auto-prompt
-  setTimeout(showInstallModal, 30000);
+  // PERSISTENT bottom bar — stays until installed (no 24h dismiss).
+  // User can collapse it to a small chip but can't permanently hide it.
+  updatePersistentInstallBar();
+
+  // After 10 seconds, surface the full modal once for first-time users
+  const everShown = sessionStorage.getItem("rft.install.modal.shown");
+  if (!everShown) {
+    setTimeout(() => { showInstallModal(); sessionStorage.setItem("rft.install.modal.shown", "1"); }, 10000);
+  }
+}
+
+function updatePersistentInstallBar() {
+  if (window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone) {
+    document.getElementById("rft-install-bar")?.remove();
+    return;
+  }
+  const collapsed = localStorage.getItem("rft.install.bar.collapsed") === "1";
+
+  let bar = document.getElementById("rft-install-bar");
+  if (bar) bar.remove();
+  bar = document.createElement("div");
+  bar.id = "rft-install-bar";
+
+  if (collapsed) {
+    // Small chip in the bottom-left — tap to expand
+    Object.assign(bar.style, {
+      position: "fixed", bottom: "1.5rem", left: "1.5rem", zIndex: 48,
+      background: "#6b1f1f", color: "#f8f3e8", padding: "0.5rem 0.8rem", borderRadius: "999px",
+      cursor: "pointer", fontFamily: "Inter,sans-serif", fontSize: "0.85rem", fontWeight: "600",
+      boxShadow: "0 2px 8px rgba(0,0,0,0.25)",
+    });
+    bar.innerHTML = "📲 Install app";
+    bar.onclick = () => { localStorage.removeItem("rft.install.bar.collapsed"); updatePersistentInstallBar(); };
+  } else {
+    // Full bar at bottom — visible until installed
+    Object.assign(bar.style, {
+      position: "fixed", bottom: 0, left: 0, right: 0, zIndex: 48,
+      background: "#2b1d10", color: "#f8f3e8", padding: "0.7rem 1rem",
+      display: "flex", alignItems: "center", justifyContent: "center", gap: "0.7rem",
+      fontFamily: "Inter,sans-serif", fontSize: "0.9rem", flexWrap: "wrap",
+      boxShadow: "0 -2px 10px rgba(0,0,0,0.3)",
+    });
+    const msg = _installPromptEvent
+      ? "📲 Install the Rapaport app on your home screen — one tap."
+      : "📲 To install: open Chrome menu (⋮) → tap \"Install app\" or \"Add to Home screen\".";
+    bar.innerHTML = `
+      <span style="flex:1 1 200px;min-width:0;">${msg}</span>
+      <button id="rft-install-bar-go" style="background:#6b1f1f;color:#f8f3e8;border:none;padding:0.4rem 0.9rem;border-radius:4px;font-weight:600;font-size:0.85rem;cursor:pointer;">Install</button>
+      <button id="rft-install-bar-min" style="background:transparent;color:#f8f3e8;border:1px solid #f8f3e8;padding:0.35rem 0.65rem;border-radius:4px;font-size:0.78rem;cursor:pointer;">Hide</button>`;
+    document.body.appendChild(bar);
+    document.getElementById("rft-install-bar-go").onclick = showInstallModal;
+    document.getElementById("rft-install-bar-min").onclick = () => {
+      localStorage.setItem("rft.install.bar.collapsed", "1");
+      updatePersistentInstallBar();
+    };
+    return;
+  }
+  document.body.appendChild(bar);
 }
 
 // When user clicks "Install" in header, force-show even if dismissed before
