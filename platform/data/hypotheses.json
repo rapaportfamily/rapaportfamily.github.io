@@ -285,6 +285,46 @@
       "related_people": ["p_david", "p_leah", "p_shimon"]
     },
     {
+      "id": "h_brussels_to_israel_route",
+      "question": {
+        "en": "Which ship brought the Rapaport family from Brussels DP to Cyprus and on to Israel? Strongest candidate: Theodor Herzl (April 1947).",
+        "he": "באיזו אונייה הגיעה משפחת רפפורט מבריסל לקפריסין ולישראל? המועמדת החזקה ביותר: תיאודור הרצל (אפריל 1947).",
+        "pl": "Którym statkiem rodzina Rapaport dotarła z Brukseli przez Cypr do Izraela? Najsilniejszy kandydat: Theodor Herzl (kwiecień 1947).",
+        "fr": "Quel navire a amené la famille Rapaport de Bruxelles à Chypre puis en Israël? Candidat le plus probable: Theodor Herzl (avril 1947)."
+      },
+      "priority": "HIGH",
+      "status": "active_investigation",
+      "context": "Family memory + DP card: Brussels April 1946 → Dov born Brussels 1946 → 'Cyprus internment camps' → Israel post-1948. Theodor Herzl (Aliyah Bet ship) sailed Sète 2 Apr 1947 with 2,620 survivors, ~500 children, EXPLICITLY some passengers brought by train FROM BELGIUM (Hebrew Wikipedia). Intercepted 13 Apr 1947 → Cyprus → released after Israel founded May 1948. This fits the timeline, geography, and 'Cyprus' detail exactly.",
+      "candidates": [
+        {
+          "label": "Theodor Herzl (תיאודור הרצל), 2 April 1947 from Sète",
+          "evidence_for": [
+            "Hebrew Wikipedia explicitly states 'חלקם הובאו ברכבת מבלגיה' (some brought by train from Belgium)",
+            "2,620 passengers including 500 children — Dov as baby fits",
+            "Intercepted off Tel Aviv 13 Apr 1947 → Cyprus detention (family memory of Cyprus is specific)",
+            "Released to Israel after May 1948 statehood — fits 'reached Israel late 1940s'"
+          ],
+          "evidence_against": [
+            "Median passenger age stated as 20-30 — David 35, Leah 31 or 34, slightly older than median",
+            "No primary-source passenger list checked yet"
+          ],
+          "verdict": "candidate (strong)"
+        }
+      ],
+      "research_2026_05_17_cc": {
+        "summary": "First-pass research identifies Theodor Herzl as the strongest single-ship match for our family's known Brussels → Cyprus → Israel route. Belgian-train origin + ~April 1947 timing + Cyprus deportation are explicit aligned data points.",
+        "report": "docs/research/h_theodor_herzl_2026-05-17.md",
+        "highest_leverage_action": "Search Israel State Archives (catalog.archives.gov.il) for 'תיאודור הרצל' + 'רפפורט', OR email library@archives.gov.il requesting passenger-manifest check for the Rapaport family"
+      },
+      "next_steps": [
+        "Search Israel State Archives catalog for Theodor Herzl passenger files",
+        "Search Central Zionist Archives פנקסי רשימות עולים",
+        "Check JDC Archives Cyprus detainee birth/registration records (Dov was infant)",
+        "Cross-reference with other April-1947 Aliyah Bet ships if Theodor Herzl manifest is negative (Geulah, Yehuda Halevy, Mishmar Haemek were also active that month)"
+      ],
+      "related_people": ["p_david", "p_leah", "p_shimon", "p_dov_bernard"]
+    },
+    {
       "id": "h_cieszyn_check",
       "question": {
         "en": "Even though Nadwórna is confirmed, check Cieszyn archives in Katowice to be exhaustive",
