@@ -255,11 +255,90 @@ function escapeHtml(s) {
   return String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
 }
 
+// ── "Install as app" affordance ────────────────────────────────────
+// On Android/Chrome: catches beforeinstallprompt → shows a button → triggers native install
+// On iOS Safari: shows a one-time hint banner ("Share → Add to Home Screen")
+let _installPromptEvent = null;
+function setupInstallButton() {
+  // If already installed (running standalone), don't show
+  if (window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone) return;
+  if (sessionStorage.getItem("rft.install.dismissed")) return;
+
+  // iOS Safari detection (Apple has no beforeinstallprompt; needs manual hint)
+  const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+  const isSafari = /^((?!chrome|android|crios|fxios).)*safari/i.test(navigator.userAgent);
+
+  if (isIOS && isSafari) {
+    showInstallBanner('📱 Install this as an app: tap <strong>Share</strong> at the bottom, then <strong>"Add to Home Screen"</strong>.');
+    return;
+  }
+
+  // Android / Chrome / Edge: wait for beforeinstallprompt
+  window.addEventListener("beforeinstallprompt", (e) => {
+    e.preventDefault();
+    _installPromptEvent = e;
+    showInstallBanner(
+      '📱 Install this as an app on your home screen?',
+      [
+        { label: "Install", primary: true, action: async () => {
+          if (!_installPromptEvent) return;
+          _installPromptEvent.prompt();
+          await _installPromptEvent.userChoice;
+          _installPromptEvent = null;
+          document.getElementById("rft-install-banner")?.remove();
+        }},
+        { label: "Not now", action: () => {
+          sessionStorage.setItem("rft.install.dismissed", "1");
+          document.getElementById("rft-install-banner")?.remove();
+        }}
+      ]
+    );
+  });
+}
+
+function showInstallBanner(html, buttons) {
+  if (document.getElementById("rft-install-banner")) return;
+  const b = document.createElement("div");
+  b.id = "rft-install-banner";
+  Object.assign(b.style, {
+    position: "fixed", bottom: "5.5rem", left: "1rem", right: "1rem", zIndex: 49,
+    background: "#2b1d10", color: "#f8f3e8", padding: "0.85rem 1rem", borderRadius: "8px",
+    fontFamily: "Inter, sans-serif", fontSize: "0.9rem", lineHeight: "1.4",
+    boxShadow: "0 4px 14px rgba(0,0,0,0.3)", display: "flex",
+    alignItems: "center", justifyContent: "space-between", gap: "0.6rem", flexWrap: "wrap",
+  });
+  const text = document.createElement("div");
+  text.innerHTML = html;
+  text.style.flex = "1 1 200px";
+  b.appendChild(text);
+
+  if (buttons && buttons.length) {
+    const wrap = document.createElement("div");
+    wrap.style.cssText = "display:flex;gap:0.4rem;";
+    buttons.forEach(({ label, primary, action }) => {
+      const btn = document.createElement("button");
+      btn.textContent = label;
+      btn.style.cssText = `border:none;padding:0.45rem 0.8rem;border-radius:4px;cursor:pointer;font-weight:600;font-size:0.85rem;${primary ? 'background:#6b1f1f;color:#f8f3e8;' : 'background:transparent;color:#f8f3e8;border:1px solid #f8f3e8;'}`;
+      btn.onclick = action;
+      wrap.appendChild(btn);
+    });
+    b.appendChild(wrap);
+  } else {
+    const x = document.createElement("button");
+    x.textContent = "×";
+    x.style.cssText = "background:transparent;color:#f8f3e8;border:none;font-size:1.2rem;cursor:pointer;padding:0 0.3rem;";
+    x.onclick = () => { sessionStorage.setItem("rft.install.dismissed", "1"); b.remove(); };
+    b.appendChild(x);
+  }
+  document.body.appendChild(b);
+}
+
 // ── boot ───────────────────────────────────────────────────────────
 // Inject FAB once the SPA's nav has rendered (auth-gate has set window.__rftAuth)
 function boot() {
   if (!ME()) return; // auth-gate hasn't run yet or no token
   injectFab();
+  setupInstallButton();
   // Add an admin-only "Review" nav link
   if (isAdmin()) {
     const primaryNav = document.querySelector(".primary-nav .nav-inner");
