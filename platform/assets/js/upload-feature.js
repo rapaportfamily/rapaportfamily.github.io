@@ -279,25 +279,29 @@ function escapeHtml(s) {
 let _installPromptEvent = null;
 
 function setupInstallButton() {
-  // If already installed (running standalone), don't ask
-  if (window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone) return;
-  // Don't pester again in the same browser within 24h
-  const dismissed = parseInt(localStorage.getItem("rft.install.dismissed_at") || "0", 10);
-  if (dismissed && Date.now() - dismissed < 24 * 60 * 60 * 1000) return;
-
-  // Capture native install event if/when it fires (Android Chrome / Edge)
+  // Always capture native install event so the header Install button can use it
   window.addEventListener("beforeinstallprompt", (e) => {
     e.preventDefault();
     _installPromptEvent = e;
   });
 
-  // After 30 seconds on the page, ask the user
+  // If already installed (running standalone), don't auto-prompt
+  if (window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone) return;
+  // Don't auto-prompt again in the same browser within 24h (header button still works)
+  const dismissed = parseInt(localStorage.getItem("rft.install.dismissed_at") || "0", 10);
+  if (dismissed && Date.now() - dismissed < 24 * 60 * 60 * 1000) return;
+
+  // After 30 seconds on the page, auto-prompt
   setTimeout(showInstallModal, 30000);
 }
 
-function showInstallModal() {
+// When user clicks "Install" in header, force-show even if dismissed before
+function showInstallModal(opts = {}) {
   if (document.getElementById("rft-install-modal")) return;
-  if (window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone) return;
+  if (window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone) {
+    alert("The app is already installed on this device. Look for the Rapaport icon on your home screen.");
+    return;
+  }
 
   const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
   const isSafari = /^((?!chrome|android|crios|fxios).)*safari/i.test(navigator.userAgent);
@@ -369,11 +373,78 @@ function showInstallModal() {
   }
 }
 
+// ── Header toolbar: Share + Install (persistent, mobile-friendly) ──
+function injectHeaderToolbar() {
+  if (document.getElementById("rft-header-toolbar")) return;
+  const header = document.querySelector(".site-header .header-controls") || document.querySelector(".site-header .header-inner");
+  if (!header) return;
+
+  const bar = document.createElement("div");
+  bar.id = "rft-header-toolbar";
+  bar.style.cssText = "display:flex;gap:0.4rem;align-items:center;margin-inline-start:0.6rem;";
+
+  // Share button — always visible if Web Share API supported, else copy-to-clipboard
+  const share = document.createElement("button");
+  share.id = "rft-share-btn";
+  share.innerHTML = "↗ Share";
+  share.title = "Share this page";
+  share.style.cssText = "background:#6b1f1f;color:#f8f3e8;border:none;padding:0.4rem 0.75rem;border-radius:20px;font-size:0.82rem;font-weight:600;cursor:pointer;font-family:Inter,sans-serif;white-space:nowrap;";
+  share.onclick = shareCurrentPage;
+  bar.appendChild(share);
+
+  // Install button — only if not already installed; hidden if PWA standalone
+  const isStandalone = window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone;
+  if (!isStandalone) {
+    const install = document.createElement("button");
+    install.id = "rft-install-header-btn";
+    install.innerHTML = "📲 Install";
+    install.title = "Install as app on home screen";
+    install.style.cssText = "background:transparent;color:#6b1f1f;border:1.5px solid #6b1f1f;padding:0.35rem 0.7rem;border-radius:20px;font-size:0.82rem;font-weight:600;cursor:pointer;font-family:Inter,sans-serif;white-space:nowrap;";
+    install.onclick = showInstallModal;
+    bar.appendChild(install);
+  }
+
+  header.appendChild(bar);
+}
+
+function shareCurrentPage() {
+  // Build a safe share URL — strip ?t=... so we never leak someone's magic link
+  const origin = location.origin + location.pathname;
+  const hash = location.hash || "";
+  const url = origin + hash;
+
+  // Build a context-aware title from the current view
+  let title = "The Rapaport Family Tree";
+  let text = "Our family research archive — from Galicia to Brussels to Israel, 1888-2026. Ask Doron for a personal access link.";
+  const view = (hash.replace(/^#\//, "") || "home").split("/")[0];
+  const viewLabel = {
+    home: "Home", tree: "Family Tree", timeline: "Timeline",
+    people: "People", places: "Places", documents: "Documents",
+    hypotheses: "Open Questions", chat: "Research Chat", about: "About", review: "Pending Review",
+  }[view];
+  if (viewLabel && view !== "home") title = `${viewLabel} — Rapaport Family Tree`;
+
+  if (navigator.share) {
+    navigator.share({ title, text, url }).catch(() => {});
+  } else {
+    // Desktop fallback: copy to clipboard
+    navigator.clipboard.writeText(url).then(() => {
+      const old = document.getElementById("rft-share-btn");
+      if (old) {
+        const orig = old.innerHTML;
+        old.innerHTML = "✓ Copied";
+        setTimeout(() => { old.innerHTML = orig; }, 1500);
+      }
+    }).catch(() => { prompt("Copy this link:", url); });
+  }
+}
+
 // ── boot ───────────────────────────────────────────────────────────
 // Inject FAB once the SPA's nav has rendered (auth-gate has set window.__rftAuth)
 function boot() {
   if (!ME()) return; // auth-gate hasn't run yet or no token
   injectFab();
+  injectHeaderToolbar();
   setupInstallButton();
   // Add an admin-only "Review" nav link
   if (isAdmin()) {
