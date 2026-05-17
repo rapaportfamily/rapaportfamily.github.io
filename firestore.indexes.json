@@ -1,0 +1,76 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "family_events",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {"fieldPath": "date_sort", "order": "ASCENDING"}
+      ]
+    },
+    {
+      "collectionGroup": "family_events",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {"fieldPath": "category", "order": "ASCENDING"},
+        {"fieldPath": "date_sort", "order": "ASCENDING"}
+      ]
+    },
+    {
+      "collectionGroup": "family_events",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {"fieldPath": "place_id", "order": "ASCENDING"},
+        {"fieldPath": "date_sort", "order": "ASCENDING"}
+      ]
+    },
+    {
+      "collectionGroup": "family_documents",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {"fieldPath": "type", "order": "ASCENDING"},
+        {"fieldPath": "primary_language", "order": "ASCENDING"}
+      ]
+    },
+    {
+      "collectionGroup": "family_messages",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {"fieldPath": "timestamp", "order": "ASCENDING"}
+      ]
+    },
+    {
+      "collectionGroup": "family_messages",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {"fieldPath": "author_normalized", "order": "ASCENDING"},
+        {"fieldPath": "timestamp", "order": "ASCENDING"}
+      ]
+    },
+    {
+      "collectionGroup": "family_hypotheses",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {"fieldPath": "priority", "order": "ASCENDING"},
+        {"fieldPath": "status", "order": "ASCENDING"}
+      ]
+    },
+    {
+      "collectionGroup": "family_audit",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {"fieldPath": "uid", "order": "ASCENDING"},
+        {"fieldPath": "ts", "order": "DESCENDING"}
+      ]
+    },
+    {
+      "collectionGroup": "family_audit",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {"fieldPath": "collection", "order": "ASCENDING"},
+        {"fieldPath": "doc_id", "order": "ASCENDING"},
+        {"fieldPath": "ts", "order": "DESCENDING"}
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

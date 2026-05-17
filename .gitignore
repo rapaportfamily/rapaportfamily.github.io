@@ -1,0 +1,37 @@
+# Build / deps
+node_modules/
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+functions/lib/
+functions/node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Secrets
+.env
+.env.local
+*.pem
+serviceAccountKey.json
+.firebaserc.local
+
+# Editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Local-only — DO NOT commit raw WhatsApp export or personal photos
+source/
+*.zip
+
+# Migration outputs
+data/archive_searches/
+
+# Heartbeats are local-only working files (use commit messages instead)
+CC_HEARTBEAT.local.md

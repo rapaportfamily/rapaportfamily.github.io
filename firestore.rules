@@ -1,0 +1,114 @@
+rules_version = '2';
+
+// ╔══════════════════════════════════════════════════════════════════╗
+// ║  Rapaport Family Tree — Firestore Security Rules                 ║
+// ║                                                                  ║
+// ║  These rules live in the same Firebase project as RPA-PORT      ║
+// ║  business systems. They MUST hard-isolate family_* collections   ║
+// ║  from any UID that does not carry the `family: true` custom      ║
+// ║  claim. The RPA-PORT business team has zero access.              ║
+// ╚══════════════════════════════════════════════════════════════════╝
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ─── Helpers ──────────────────────────────────────────────────
+    function isFamily() {
+      return request.auth != null
+          && request.auth.token.family == true;
+    }
+
+    function familyRole() {
+      return request.auth.token.family_role;
+    }
+
+    function isAdmin()      { return isFamily() && familyRole() == 'admin'; }
+    function isReviewer()   { return isFamily() && familyRole() in ['admin', 'reviewer']; }
+    function isResearcher() { return isFamily() && familyRole() in ['admin', 'reviewer', 'researcher']; }
+    function isAnyFamily()  { return isFamily(); }  // includes viewer
+
+    // ─── Read-only entities (viewable by all family members) ──────
+    match /family_people/{personId} {
+      allow read: if isAnyFamily();
+      allow write: if isReviewer();
+    }
+
+    match /family_places/{placeId} {
+      allow read: if isAnyFamily();
+      allow write: if isReviewer();
+    }
+
+    match /family_events/{eventId} {
+      allow read: if isAnyFamily();
+      allow write: if isReviewer();
+    }
+
+    match /family_documents/{docId} {
+      allow read: if isAnyFamily();
+      allow write: if isResearcher();
+    }
+
+    match /family_hypotheses/{hypId} {
+      allow read: if isAnyFamily();
+      allow write: if isResearcher();
+    }
+
+    match /family_messages/{msgId} {
+      allow read: if isAnyFamily();
+      // Messages are imported from WhatsApp via migration; no live writes.
+      allow create: if isAdmin();
+      allow update, delete: if false;
+    }
+
+    match /family_translations/{transId} {
+      allow read: if isAnyFamily();
+      // Translations are created by Cloud Functions (which use admin SDK
+      // and bypass these rules). Direct client writes only by reviewer
+      // saving a final reviewed version.
+      allow create: if isResearcher();
+      allow update: if isReviewer();
+      allow delete: if false;
+    }
+
+    match /family_i18n/{lang} {
+      allow read: if true;  // UI strings are not sensitive
+      allow write: if isAdmin();
+    }
+
+    // ─── Users (sensitive) ────────────────────────────────────────
+    match /family_users/{uid} {
+      // Anyone can read their own; admin can read all
+      allow read: if isAdmin() || (isFamily() && request.auth.uid == uid);
+      // Only admin creates users (via ft_seed_users callable)
+      allow write: if isAdmin();
+    }
+
+    // ─── Audit log (write-once, read-restricted) ──────────────────
+    match /family_audit/{auditId} {
+      allow read: if isAdmin();
+      allow create: if isAnyFamily();
+      allow update, delete: if false;
+    }
+
+    // ─── Archive search results ───────────────────────────────────
+    match /family_archive_searches/{searchId} {
+      allow read: if isResearcher();
+      allow write: if isResearcher();
+    }
+
+    // ─── Default deny for any other family_* collection ───────────
+    match /family_{collection}/{doc=**} {
+      allow read, write: if isAdmin();
+    }
+
+    // ╔══════════════════════════════════════════════════════════════╗
+    // ║  Business collections (rcb_*, rff_*, racc_*) are NOT         ║
+    // ║  managed here. Their rules live in rpa-port-platform repo.   ║
+    // ║  If this file is deployed standalone it will leave business  ║
+    // ║  collections rule-less — DO NOT DEPLOY this file alone.      ║
+    // ║                                                              ║
+    // ║  Correct deployment: merge family rules into the existing    ║
+    // ║  rpa-port-platform firestore.rules and deploy together.      ║
+    // ╚══════════════════════════════════════════════════════════════╝
+  }
+}

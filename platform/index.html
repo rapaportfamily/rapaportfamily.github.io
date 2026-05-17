@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="parchment">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>The Rapaport Family — A Research Archive</title>
+<meta name="description" content="Private genealogy archive for the Rapaport family. From Galicia to Brussels to Israel, 1888–2026." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600;700&family=Heebo:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#/home" class="brand" data-link>
+      <div class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40" width="36" height="36">
+          <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="1.2"/>
+          <path d="M20 6 L20 34 M6 20 L34 20 M10 10 L30 30 M30 10 L10 30" stroke="currentColor" stroke-width="0.6" opacity="0.5"/>
+          <circle cx="20" cy="20" r="3" fill="currentColor"/>
+        </svg>
+      </div>
+      <div class="brand-text">
+        <div class="brand-title" data-i18n="site.title">The Rapaport Family</div>
+        <div class="brand-subtitle" data-i18n="site.subtitle">From Galicia to Brussels to Israel · 1888 — 2026</div>
+      </div>
+    </a>
+    <div class="header-controls">
+      <nav class="lang-switcher" aria-label="Language">
+        <button data-lang="en" class="lang-btn">EN</button>
+        <button data-lang="he" class="lang-btn">עב</button>
+        <button data-lang="pl" class="lang-btn">PL</button>
+        <button data-lang="fr" class="lang-btn">FR</button>
+      </nav>
+    </div>
+  </div>
+  <nav class="primary-nav" aria-label="Primary">
+    <div class="nav-inner">
+      <a href="#/home" data-link data-nav="home" data-i18n="nav.home">Home</a>
+      <a href="#/tree" data-link data-nav="tree" data-i18n="nav.tree">Family Tree</a>
+      <a href="#/timeline" data-link data-nav="timeline" data-i18n="nav.timeline">Timeline</a>
+      <a href="#/people" data-link data-nav="people" data-i18n="nav.people">People</a>
+      <a href="#/places" data-link data-nav="places" data-i18n="nav.places">Places</a>
+      <a href="#/documents" data-link data-nav="documents" data-i18n="nav.documents">Documents</a>
+      <a href="#/hypotheses" data-link data-nav="hypotheses" data-i18n="nav.hypotheses">Open Questions</a>
+      <a href="#/chat" data-link data-nav="chat" data-i18n="nav.chat">Research Chat</a>
+      <a href="#/about" data-link data-nav="about" data-i18n="nav.about">About</a>
+    </div>
+  </nav>
+</header>
+
+<main id="view" class="view-root"></main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div data-i18n="site.for_dov">For Dov Bernard Rapaport on his 80th birthday · August 2026</div>
+    <div class="muted" data-i18n="site.by_doron">Compiled by Doron Rapaport with Magda, Basia, Kasia & Ms. Kasia (ŻIH)</div>
+  </div>
+</footer>
+
+<div id="modal" class="modal" hidden>
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-panel" role="dialog" aria-modal="true">
+    <button class="modal-close" data-close aria-label="Close">×</button>
+    <div class="modal-content" id="modal-content"></div>
+  </div>
+</div>
+
+<script src="assets/js/app.js" type="module"></script>
+</body>
+</html>

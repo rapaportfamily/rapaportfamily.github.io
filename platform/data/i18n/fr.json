@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "lang": "fr",
+    "dir": "ltr",
+    "name": "French",
+    "name_native": "Français"
+  },
+  "site": {
+    "title": "La famille Rapaport — Archives de recherche",
+    "subtitle": "De la Galicie à Bruxelles à Israël · 1888 — 2026",
+    "for_dov": "Pour Dov Bernard Rapaport, à l'occasion de ses 80 ans · août 2026",
+    "by_doron": "Compilé par Doron Rapaport avec Magda, Basia (Cracovie), Kasia (Paris) et Mme Kasia (ŻIH Varsovie)"
+  },
+  "nav": {
+    "home": "Accueil",
+    "tree": "Arbre généalogique",
+    "timeline": "Chronologie",
+    "people": "Personnes",
+    "places": "Lieux",
+    "documents": "Documents",
+    "hypotheses": "Questions ouvertes",
+    "chat": "Chat de recherche",
+    "about": "À propos"
+  },
+  "ui": {
+    "language": "Langue",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "all": "Tous",
+    "back": "Retour",
+    "close": "Fermer",
+    "open": "Ouvrir",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "loading": "Chargement…",
+    "no_results": "Aucun résultat",
+    "view_source": "Voir le document source",
+    "view_in": "Voir en",
+    "show_more": "Afficher plus",
+    "show_less": "Afficher moins",
+    "born": "Né(e)",
+    "died": "Décédé(e)",
+    "spouse": "Conjoint(e)",
+    "children": "Enfants",
+    "father": "Père",
+    "mother": "Mère",
+    "siblings": "Fratrie",
+    "unknown": "Inconnu",
+    "circa": "vers",
+    "year": "Année",
+    "decade": "Décennie",
+    "place": "Lieu",
+    "people_in_event": "Personnes",
+    "sources": "Sources",
+    "translation": "Traduction",
+    "original": "Original",
+    "transcription": "Transcription",
+    "notes": "Notes",
+    "open_questions_short": "Ouvertes",
+    "resolved_short": "Résolues",
+    "evidence_for": "Indices favorables",
+    "evidence_against": "Indices défavorables",
+    "verdict": "Verdict",
+    "next_steps": "Prochaines étapes",
+    "priority": "Priorité",
+    "status": "Statut",
+    "confidence": "Niveau de confiance",
+    "messages_count": "messages",
+    "attachments_count": "pièces jointes",
+    "documents_count": "documents",
+    "people_count": "personnes",
+    "events_count": "événements",
+    "places_count": "lieux"
+  },
+  "confidence": {
+    "confirmed": "Confirmé",
+    "documented": "Documenté",
+    "family_oral": "Mémoire familiale",
+    "hypothesis": "Hypothèse",
+    "ruled_out": "Écarté",
+    "context": "Contexte historique"
+  },
+  "status": {
+    "open": "Ouvert",
+    "active_investigation": "Enquête en cours",
+    "probable_answer": "Réponse probable",
+    "resolved": "Résolu",
+    "blocked_waiting_archive": "En attente d'archives"
+  },
+  "candidate_verdict": {
+    "candidate": "Candidat",
+    "strong_candidate": "Candidat sérieux",
+    "ruled_out": "Écarté",
+    "leading_candidate": "Candidat principal"
+  },
+  "event_type": {
+    "birth": "Naissance",
+    "marriage": "Mariage",
+    "death": "Décès",
+    "migration": "Migration",
+    "occupation": "Profession",
+    "war_event": "Événement de guerre",
+    "registration": "Enregistrement",
+    "discovery": "Découverte de recherche",
+    "context": "Contexte historique"
+  },
+  "doc_type": {
+    "birth_record": "Acte de naissance",
+    "dp_card": "Fiche DP / DIPIS",
+    "registration_card": "Carte d'enregistrement",
+    "newspaper": "Journal",
+    "tree_chart": "Arbre des descendants",
+    "map": "Carte",
+    "photo": "Photographie",
+    "screenshot": "Capture d'écran",
+    "report": "Rapport de recherche",
+    "letter": "Lettre",
+    "death_record": "Acte de décès"
+  },
+  "home": {
+    "lead": "Un projet en cours pour retracer et raconter l'histoire de David et Lusha Rapaport — rescapés de la Shoah — et de leur fils Bernard, né à Bruxelles en 1946.",
+    "intro_p1": "Ce qui a commencé par quelques photos et une page de mémoire est devenu, grâce au travail d'une petite équipe en Israël, en Pologne et en France, un dossier de recherche actif : actes de naissance tirés des archives galiciennes, fiche DIPIS bruxelloise décodée ligne par ligne, un nom mal orthographié sur un formulaire de guerre, et une ville nommée Mosina qui n'est peut-être pas là où on l'imaginait.",
+    "intro_p2": "Ce site est l'archive de recherche dans son état actuel. Rien n'est terminé. Chaque entrée est étiquetée d'un niveau de confiance et de ses sources. Les questions ouvertes sont listées telles quelles. À mesure que les découvertes arrivent, le site s'enrichit.",
+    "stats_title": "Ce que contient l'archive",
+    "latest_finds_title": "Découvertes les plus récentes",
+    "open_questions_title": "Actuellement enquêté",
+    "explore_title": "Explorer l'archive",
+    "explore_tree": "Parcourez l'arbre, quatre générations de chaque côté.",
+    "explore_timeline": "Naviguez de 1888 à aujourd'hui.",
+    "explore_docs": "Lisez chaque document avec sa traduction.",
+    "explore_hypotheses": "Voyez ce que nous ne savons pas encore.",
+    "explore_chat": "Lisez la conversation de recherche elle-même."
+  },
+  "tree": {
+    "title": "L'arbre généalogique",
+    "lead": "Cliquez sur une personne pour lire ce que nous savons. Encadré ombré = rescapé(e) de la Shoah.",
+    "legend_subject": "Sujet de l'archive",
+    "legend_grandparent": "Génération des grands-parents",
+    "legend_greatgrandparent": "Génération des arrière-grands-parents",
+    "legend_uncle": "Génération des oncles / fratrie",
+    "legend_descendant": "Génération des descendants"
+  },
+  "timeline": {
+    "title": "Chronologie",
+    "lead": "Événements familiaux à côté des événements du siècle qu'ils ont traversé.",
+    "filter_all": "Tous les événements",
+    "filter_family": "Famille uniquement",
+    "filter_context": "Avec contexte historique",
+    "filter_discoveries": "Découvertes de recherche"
+  },
+  "documents": {
+    "title": "Documents",
+    "lead": "Tous les documents primaires que nous avons, avec leurs traductions.",
+    "tab_translations": "Traductions",
+    "tab_decoded": "Champs décodés",
+    "tab_notes": "Notes de recherche",
+    "side_original": "Original",
+    "side_translation": "Traduction",
+    "no_translation_yet": "Traduction en cours."
+  },
+  "hypotheses": {
+    "title": "Questions ouvertes",
+    "lead": "Ce que nous ne savons pas encore, et ce que nous faisons pour le savoir.",
+    "by_priority": "Par priorité",
+    "by_status": "Par statut"
+  },
+  "chat": {
+    "title": "Archive du chat de recherche",
+    "lead": "Le groupe de travail WhatsApp, message par message.",
+    "filter_attachments": "Messages avec pièces jointes uniquement",
+    "filter_all": "Tous les messages",
+    "attachment": "Pièce jointe"
+  },
+  "people_page": {
+    "title": "Personnes",
+    "lead": "Toutes les personnes qui apparaissent dans cette archive.",
+    "facts": "Faits",
+    "relationships": "Relations familiales"
+  },
+  "places_page": {
+    "title": "Lieux",
+    "lead": "Les villes galiciennes et au-delà.",
+    "era_context": "Contexte d'époque"
+  },
+  "about": {
+    "title": "À propos de cette archive",
+    "intro": "Ce site est une archive familiale privée, construite par Doron Rapaport pour son père Dov Bernard Rapaport à l'occasion de ses 80 ans, en août 2026.",
+    "method_title": "Méthode",
+    "method_p1": "Chaque affirmation de l'archive est étiquetée d'un niveau de confiance — confirmé (document primaire), documenté (mentionné dans un document mais non encore recoupé), mémoire familiale (tradition orale), hypothèse (théorie de travail), ou écarté. Les sources sont listées pour chaque fait.",
+    "method_p2": "Les traductions entre le polonais, le français, l'anglais et l'hébreu ont été réalisées avec l'aide des chercheuses Basia à Cracovie, Kasia à Paris et Mme Kasia à l'Institut historique juif de Varsovie, ainsi qu'une traduction IA vérifiée ponctuellement par des humains.",
+    "thanks_title": "Merci",
+    "thanks_p": "À Magda, qui a réuni l'équipe. À Basia, qui a parcouru les archives galiciennes. À Kasia, qui a percé la fiche DP en français. À Mme Kasia à ŻIH Varsovie, qui a trouvé le véritable lieu de naissance de David. Et à Dalia, Dana et Daniel — qui ont porté la mémoire."
+  }
+}

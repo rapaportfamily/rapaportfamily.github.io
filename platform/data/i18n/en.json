@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "lang": "en",
+    "dir": "ltr",
+    "name": "English",
+    "name_native": "English"
+  },
+  "site": {
+    "title": "The Rapaport Family — A Research Archive",
+    "subtitle": "From Galicia to Brussels to Israel · 1888 — 2026",
+    "for_dov": "For Dov Bernard Rapaport on his 80th birthday · August 2026",
+    "by_doron": "Compiled by Doron Rapaport with Magda, Basia (Kraków), Kasia (Paris) & Ms. Kasia (ŻIH Warsaw)"
+  },
+  "nav": {
+    "home": "Home",
+    "tree": "Family Tree",
+    "timeline": "Timeline",
+    "people": "People",
+    "places": "Places",
+    "documents": "Documents",
+    "hypotheses": "Open Questions",
+    "chat": "Research Chat",
+    "about": "About"
+  },
+  "ui": {
+    "language": "Language",
+    "search": "Search",
+    "filter": "Filter",
+    "all": "All",
+    "back": "Back",
+    "close": "Close",
+    "open": "Open",
+    "next": "Next",
+    "previous": "Previous",
+    "loading": "Loading…",
+    "no_results": "No results",
+    "view_source": "View source document",
+    "view_in": "View in",
+    "show_more": "Show more",
+    "show_less": "Show less",
+    "born": "Born",
+    "died": "Died",
+    "spouse": "Spouse",
+    "children": "Children",
+    "father": "Father",
+    "mother": "Mother",
+    "siblings": "Siblings",
+    "unknown": "Unknown",
+    "circa": "circa",
+    "year": "Year",
+    "decade": "Decade",
+    "place": "Place",
+    "people_in_event": "People",
+    "sources": "Sources",
+    "translation": "Translation",
+    "original": "Original",
+    "transcription": "Transcription",
+    "notes": "Notes",
+    "open_questions_short": "Open",
+    "resolved_short": "Resolved",
+    "evidence_for": "Evidence for",
+    "evidence_against": "Evidence against",
+    "verdict": "Verdict",
+    "next_steps": "Next steps",
+    "priority": "Priority",
+    "status": "Status",
+    "confidence": "Confidence",
+    "messages_count": "messages",
+    "attachments_count": "attachments",
+    "documents_count": "documents",
+    "people_count": "people",
+    "events_count": "events",
+    "places_count": "places"
+  },
+  "confidence": {
+    "confirmed": "Confirmed",
+    "documented": "Documented",
+    "family_oral": "Family memory",
+    "hypothesis": "Hypothesis",
+    "ruled_out": "Ruled out",
+    "context": "Historical context"
+  },
+  "status": {
+    "open": "Open",
+    "active_investigation": "Actively investigating",
+    "probable_answer": "Probable answer",
+    "resolved": "Resolved",
+    "blocked_waiting_archive": "Waiting on archive"
+  },
+  "candidate_verdict": {
+    "candidate": "Candidate",
+    "strong_candidate": "Strong candidate",
+    "ruled_out": "Ruled out",
+    "leading_candidate": "Leading candidate"
+  },
+  "event_type": {
+    "birth": "Birth",
+    "marriage": "Marriage",
+    "death": "Death",
+    "migration": "Migration",
+    "occupation": "Occupation",
+    "war_event": "Wartime event",
+    "registration": "Registration",
+    "discovery": "Research discovery",
+    "context": "Historical context"
+  },
+  "doc_type": {
+    "birth_record": "Birth record",
+    "dp_card": "DP / DIPIS card",
+    "registration_card": "Registration card",
+    "newspaper": "Newspaper",
+    "tree_chart": "Descendants tree",
+    "map": "Map",
+    "photo": "Photograph",
+    "screenshot": "Screenshot",
+    "report": "Research report",
+    "letter": "Letter",
+    "death_record": "Death record"
+  },
+  "home": {
+    "lead": "An ongoing project to trace and tell the story of David and Lusha Rapaport — Holocaust survivors — and their son Bernard, born in Brussels in 1946.",
+    "intro_p1": "What began as a few photographs and a memoir page became, through the work of a small team in Israel, Poland and France, an active research file: birth records pulled from Galician archives, a Brussels DIPIS card decoded line by line, a name written wrong on a wartime form, and a town called Mosina that may not be where anyone first thought.",
+    "intro_p2": "This site is the research archive in its current state. Nothing is finished. Every entry is tagged with a level of confidence and the sources behind it. Open questions are listed openly. As findings come in, the site grows.",
+    "stats_title": "What is in the archive",
+    "latest_finds_title": "Most recent findings",
+    "open_questions_title": "Currently being investigated",
+    "explore_title": "Explore the archive",
+    "explore_tree": "Walk the family tree, four generations on each side.",
+    "explore_timeline": "Move through the years 1888 to today.",
+    "explore_docs": "Read every document with translation.",
+    "explore_hypotheses": "See what we still don't know.",
+    "explore_chat": "Read the research conversation itself."
+  },
+  "tree": {
+    "title": "The Family Tree",
+    "lead": "Click any person to read what we know. Shaded boxes mean ‘Holocaust survivor’.",
+    "legend_subject": "Subject of this archive",
+    "legend_grandparent": "Grandparent generation",
+    "legend_greatgrandparent": "Great-grandparent generation",
+    "legend_uncle": "Uncle / sibling generation",
+    "legend_descendant": "Descendant generation"
+  },
+  "timeline": {
+    "title": "Timeline",
+    "lead": "Family events alongside the events of the century they lived through.",
+    "filter_all": "All events",
+    "filter_family": "Family only",
+    "filter_context": "Including historical context",
+    "filter_discoveries": "Research discoveries"
+  },
+  "documents": {
+    "title": "Documents",
+    "lead": "Every primary document we have, with translations.",
+    "tab_translations": "Translations",
+    "tab_decoded": "Decoded fields",
+    "tab_notes": "Research notes",
+    "side_original": "Original",
+    "side_translation": "Translation",
+    "no_translation_yet": "Translation in progress."
+  },
+  "hypotheses": {
+    "title": "Open Questions",
+    "lead": "Things we don't yet know, and what we are doing to find out.",
+    "by_priority": "By priority",
+    "by_status": "By status"
+  },
+  "chat": {
+    "title": "Research Chat Archive",
+    "lead": "The WhatsApp working group, message by message.",
+    "filter_attachments": "Only messages with attachments",
+    "filter_all": "All messages",
+    "attachment": "Attachment"
+  },
+  "people_page": {
+    "title": "People",
+    "lead": "Everyone who appears in this archive.",
+    "facts": "Facts",
+    "relationships": "Relationships"
+  },
+  "places_page": {
+    "title": "Places",
+    "lead": "The Galician towns and beyond.",
+    "era_context": "Era context"
+  },
+  "about": {
+    "title": "About this archive",
+    "intro": "This site is a private family research archive, built by Doron Rapaport for his father Dov Bernard Rapaport on the occasion of his 80th birthday, August 2026.",
+    "method_title": "Method",
+    "method_p1": "Every claim in the archive is tagged with a confidence level — confirmed (primary document), documented (stated in a document but not yet cross-checked), family memory (oral tradition), hypothesis (working theory), or ruled out. Sources are listed for every fact.",
+    "method_p2": "Translations between Polish, French, English and Hebrew were made with the help of researchers Basia in Kraków, Kasia in Paris, and Ms. Kasia at the Jewish Historical Institute in Warsaw, alongside AI translation that has been spot-checked by humans.",
+    "thanks_title": "Thank you",
+    "thanks_p": "To Magda, who connected the team. To Basia, who walked the Galician records. To Kasia, who broke the French DP card. To Ms. Kasia at ŻIH Warsaw, who found David's true birthplace. And to Dalia, Dana, and Daniel, who carried the memory."
+  }
+}

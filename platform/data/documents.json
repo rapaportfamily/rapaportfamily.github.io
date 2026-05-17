@@ -1,0 +1,342 @@
+{
+  "_schema": {
+    "description": "Inventory of all documents under research. Each document has source-language transcription and translations into the four working languages.",
+    "fields": {
+      "id": "Stable identifier",
+      "file": "Filename in assets/documents/",
+      "kind": "image | pdf | composite",
+      "type": "Document type tag (birth_record, dp_card, etc.)",
+      "primary_language": "Original document language",
+      "title": "Per-language titles",
+      "source_archive": "Where it came from",
+      "transcription": "Original-language text (when applicable)",
+      "translations": "Translations into en/he/pl/fr",
+      "related_people": "People mentioned",
+      "related_events": "Events this document supports",
+      "status": "verified | needs_translation | needs_ocr | unverified"
+    }
+  },
+  "documents": [
+    {
+      "id": "doc_david_dp_card",
+      "file_pages": ["Karta David Rapaport 1 strona.pdf", "Karta David Rapaport 2 strona.pdf"],
+      "kind": "pdf",
+      "type": "dp_card",
+      "primary_language": "fr",
+      "title": {
+        "en": "Displaced Persons (DIPIS) card — David Rapaport, Brussels 1946",
+        "he": "כרטיס עקורים — דוד רפפורט, בריסל 1946",
+        "pl": "Karta DIPIS — Dawid Rapaport, Bruksela 1946",
+        "fr": "Fiche DIPIS — David Rapaport, Bruxelles 1946"
+      },
+      "source_archive": "Belgian Repatriation Commission, Ministry of Public Health and Family (later stamp 1969). Originally a DIPIS file from teczka DP3299, naming range RANKIS-RAPAPORT.",
+      "transcription_notes": {
+        "en": "Pre-printed English form, filled in by hand in French. Some words stained/illegible. Team decoding: Basia, Wojtek (Polish), Kasia (French expert), Róża.",
+        "fr": "Formulaire pré-imprimé en anglais, rempli à la main en français. Certains mots tachés/illisibles."
+      },
+      "decoded_fields": {
+        "name": "Rapaport, David",
+        "status": "married",
+        "nationality": "Polish",
+        "religion": "Jewish",
+        "date_of_birth": "25.12.1911",
+        "place_of_birth_as_written": "Tesin (Cieszyn) — but SUPERSEDED, see notes",
+        "father_name": "Bernard",
+        "mother_name": "Regina (probably)",
+        "mother_maiden": "Grunfeld",
+        "desired_destination": "Palestine or U.S.A.",
+        "residence_1_jan_1938": "Lwów, Poland",
+        "profession": "Forestry engineer",
+        "languages_fluent": "a) Polish (native) b) Italian, German c) Czech, Russian",
+        "POW_status": "Not a POW",
+        "registration_date": "9 April 1946",
+        "registration_place": "B. (Brussels/Belgium)",
+        "notes": "Deprived/deported in 1942 (text partially stained)",
+        "signature": "Present — David Rapaport signed himself"
+      },
+      "translations": {
+        "en": "See decoded_fields. The 'B.' is Belgium/Brussels. The mother/father names and Cieszyn birthplace differ from family knowledge — explained by clerk's transcription error per the 15 May Nadwórna finding.",
+        "he": "ראה decoded_fields. ה'ב.' הוא בלגיה/בריסל. שמות ההורים ומקום הלידה צ'שין שונים מהידע המשפחתי — מוסבר כשגיאת תעתיק של פקיד לפי הממצא מ-15 במאי בנדבורנא.",
+        "pl": "Patrz decoded_fields. 'B.' to Belgia/Bruksela. Imiona rodziców i miejsce urodzenia Cieszyn różnią się od wiedzy rodzinnej — wyjaśnione jako błąd transkrypcji urzędnika zgodnie z odkryciem z 15 maja w Nadwórnej.",
+        "fr": "Voir decoded_fields. Le 'B.' est Belgique/Bruxelles. Les noms des parents et le lieu de naissance Cieszyn diffèrent de ce que connaît la famille — expliqué comme erreur de transcription du fonctionnaire, suite à la découverte du 15 mai à Nadwórna."
+      },
+      "related_people": ["p_david"],
+      "related_events": ["e_arrival_brussels", "e_david_1938_lwow", "e_david_citizenship_stripped"],
+      "status": "verified",
+      "open_questions": [
+        "Verify David's handwritten signature against any Israeli document (customs records?). Family has been unable to locate his English/Hebrew signature so far.",
+        "Decipher the stained note next to 1942 — 'deforce' (Belgian French for 'deprived') or 'déporté' (deported)?",
+        "Why did the clerk write 'Tesin'? Mishearing 'Nadwórna'? Or perhaps David himself misstated, given the political situation?"
+      ]
+    },
+    {
+      "id": "doc_david_birth_nadworna",
+      "file_pages": ["Dawid Mendel Rapaport birth Nadworna 1911.jpg"],
+      "kind": "image",
+      "type": "birth_record",
+      "primary_language": "de",
+      "title": {
+        "en": "Birth record — Dawid Mendel Rapaport, Nadwórna 1911",
+        "he": "תעודת לידה — דוד מנדל רפפורט, נדבורנא 1911",
+        "pl": "Akt urodzenia — Dawid Mendel Rapaport, Nadwórna 1911",
+        "fr": "Acte de naissance — Dawid Mendel Rapaport, Nadwórna 1911"
+      },
+      "source_archive": "Jewish Historical Institute (Żydowski Instytut Historyczny / ŻIH), Warsaw — Bolechów district records / Galician Jewish vital records",
+      "translations": {
+        "en": "Per Ms. Kasia (ŻIH): 'Dawid Rapaport's parents are Berisz Rapaport and Rebeka Griffel, daughter of Leizor Griffel and Sara née Chajes, merchants of Nadwórna.' Full transcription pending.",
+        "he": "לפי גב' קאסיה (ŻIH): 'הוריו של דוד רפפורט הם בעריש (ברנרד) רפפורט ורבקה גריפל, בתם של ליזר גריפל ושרה לבית חיות, סוחרים בנדבורנא.' תמלול מלא ממתין.",
+        "pl": "Według Pani Kasi (ŻIH): 'Rodzice Dawida Rapaporta to Berisz Rapaport i Rebeka Griffel, córka Leizora Griffela i Sary z domu Chajes, kupców z Nadwórnej.' Pełny zapis w trakcie opracowania.",
+        "fr": "Selon Mme Kasia (ŻIH) : « Les parents de Dawid Rapaport sont Berisz Rapaport et Rebeka Griffel, fille de Leizor Griffel et Sara née Chajes, commerçants de Nadwórna. » Transcription complète en attente."
+      },
+      "related_people": ["p_david", "p_berisz", "p_rebeka", "p_leizor_griffel", "p_sara_chajes"],
+      "related_events": ["e_david_birth", "e_nadworna_breakthrough"],
+      "status": "needs_translation",
+      "primary_importance": true,
+      "open_questions": ["Full transcription of the German Gothic script (Basia is reviewing)"]
+    },
+    {
+      "id": "doc_rebeka_birth_nadworna",
+      "file_pages": ["Rebeka Griffel birth Nadworna 1888.jpg"],
+      "kind": "image",
+      "type": "birth_record",
+      "primary_language": "de",
+      "title": {
+        "en": "Birth record — Rebeka Griffel, Nadwórna 1888",
+        "he": "תעודת לידה — רבקה גריפל, נדבורנא 1888",
+        "pl": "Akt urodzenia — Rebeka Griffel, Nadwórna 1888",
+        "fr": "Acte de naissance — Rebeka Griffel, Nadwórna 1888"
+      },
+      "source_archive": "Jewish Historical Institute (ŻIH), Warsaw — found by Ms. Kasia, 15 May 2026",
+      "translations": {
+        "en": "In German Gothic script. Basia is working on the full reading. Confirms: father Leizor Griffel, mother Sara née Chajes, merchants of Nadwórna.",
+        "he": "בכתב גרמני גותי. בסיה עובדת על הקריאה המלאה. מאשרת: אב — ליזר גריפל, אם — שרה לבית חיות, סוחרים בנדבורנא.",
+        "pl": "Pismo niemieckie gotyckie. Basia pracuje nad pełnym odczytem. Potwierdza: ojciec Leizor Griffel, matka Sara z domu Chajes, kupcy z Nadwórnej.",
+        "fr": "Écriture gothique allemande. Basia travaille sur la lecture complète. Confirme : père Leizor Griffel, mère Sara née Chajes, commerçants de Nadwórna."
+      },
+      "related_people": ["p_rebeka", "p_leizor_griffel", "p_sara_chajes"],
+      "related_events": ["e_rebeka_birth", "e_nadworna_breakthrough"],
+      "status": "needs_translation"
+    },
+    {
+      "id": "doc_leah_birth_bolechow_1913",
+      "file_pages": ["Lea 1913.png"],
+      "kind": "image",
+      "type": "birth_record",
+      "primary_language": "de",
+      "title": {
+        "en": "Birth record — Lea Weitzner, Bolechów 1913",
+        "he": "תעודת לידה — לאה וייצנר, בולוכוב 1913",
+        "pl": "Akt urodzenia — Lea Weitzner, Bolechów 1913",
+        "fr": "Acte de naissance — Léa Weitzner, Bolechów 1913"
+      },
+      "source_archive": "Bolechów Jewish vital records, AGAD Warsaw (former Eastern Borderlands collection) — gmina wyznaniowa Bolechów, powiat Dolina, księga metrykalna urodzeń 1907-1918",
+      "translations": {
+        "en": "Lea Weitzner, born 8 April 1913 in Bolechów. Father Elias Weitzner (cattle dealer), mother Matel née Weinreb. Given her name in the Bolechów synagogue on 12 April. Mother's parents: Samuel Weinreb (tavern keeper in Dolina) and Ester Blima. Elias and Matel married in Dolina, 1905 (statutory marriage).",
+        "he": "לאה וייצנר, נולדה 8 באפריל 1913 בבולוכוב. אב — אליהו וייצנר (סוחר בקר), אם — מתל לבית ויינרב. ניתן לה שם בבית הכנסת בבולוכוב ב-12 באפריל. הורי האם: שמואל ויינרב (בעל פונדק בדולינה) ואסתר בלימה. אליהו ומתל נישאו בדולינה ב-1905 (נישואין אזרחיים).",
+        "pl": "Lea Weitzner, urodzona 8 kwietnia 1913 w Bolechowie. Ojciec Elias Weitzner (handlarz bydłem), matka Matel z domu Weinreb. Imię nadane w synagodze w Bolechowie 12 kwietnia. Rodzice matki: Samuel Weinreb (karczmarz w Dolinie) i Ester Blima. Elias i Matel zawarli ślub w Dolinie w 1905 roku (małżeństwo statutowe).",
+        "fr": "Léa Weitzner, née le 8 avril 1913 à Bolechów. Père Elias Weitzner (marchand de bétail), mère Matel née Weinreb. Nommée à la synagogue de Bolechów le 12 avril. Parents de la mère : Samuel Weinreb (tavernier à Dolina) et Ester Blima. Elias et Matel se sont mariés à Dolina en 1905 (mariage civil)."
+      },
+      "related_people": ["p_leah", "p_elias_weitzner", "p_matel_weinreb", "p_samuel_weinreb", "p_ester_blima"],
+      "related_events": ["e_leah_birth", "e_weitzner_weinreb_marriage"],
+      "status": "verified"
+    },
+    {
+      "id": "doc_feige_birth_1911",
+      "file_pages": ["Feige 1911.png"],
+      "kind": "image",
+      "type": "birth_record",
+      "primary_language": "de",
+      "title": {
+        "en": "Birth record — Feige (Tzipora) Weitzner, 1911",
+        "he": "תעודת לידה — פייגה (ציפורה) וייצנר, 1911",
+        "pl": "Akt urodzenia — Feige (Tzipora) Weitzner, 1911",
+        "fr": "Acte de naissance — Feige (Tzipora) Weitzner, 1911"
+      },
+      "source_archive": "Bolechów Jewish vital records (AGAD Warsaw)",
+      "translations": {
+        "en": "Confirms: Feige Weitzner, born 1911 in Bolechów, daughter of Elias Weitzner (cattle dealer) and Matel née Weinreb. Family memory confirms Feige is the Yiddish name of Tzipora (Hebrew).",
+        "he": "מאשרת: פייגה וייצנר, נולדה 1911 בבולוכוב, בתם של אליהו וייצנר (סוחר בקר) ומתל לבית ויינרב. הזיכרון המשפחתי מאשר שפייגה זה שמה היידי של ציפורה (עברית).",
+        "pl": "Potwierdza: Feige Weitzner, ur. 1911 w Bolechowie, córka Eliasa Weitznera (handlarza bydłem) i Matel z domu Weinreb. Pamięć rodzinna potwierdza, że Feige to imię jidisz dla Tzipora (hebrajskie).",
+        "fr": "Confirme : Feige Weitzner, née en 1911 à Bolechów, fille d'Elias Weitzner (marchand de bétail) et Matel née Weinreb. La mémoire familiale confirme que Feige est le prénom yiddish de Tzipora (hébreu)."
+      },
+      "related_people": ["p_feige", "p_elias_weitzner", "p_matel_weinreb"],
+      "related_events": ["e_feige_birth"],
+      "status": "verified"
+    },
+    {
+      "id": "doc_moses_birth_1916",
+      "file_pages": ["Mojzesz.png"],
+      "kind": "image",
+      "type": "birth_record",
+      "primary_language": "de",
+      "title": {
+        "en": "Birth record — Moses (Mojzesz) Weitzner, 1916",
+        "he": "תעודת לידה — משה וייצנר, 1916",
+        "pl": "Akt urodzenia — Mojzesz Weitzner, 1916",
+        "fr": "Acte de naissance — Moïse Weitzner, 1916"
+      },
+      "source_archive": "Bolechów Jewish vital records (AGAD Warsaw)",
+      "translations": {
+        "en": "Moses (Mojzesz) Weitzner born 1916 in Bolechów, to Elias Weitzner (cattle dealer) and Matel née Weinreb.",
+        "he": "משה (מויז'ש) וייצנר נולד 1916 בבולוכוב, לאליהו וייצנר (סוחר בקר) ומתל לבית ויינרב.",
+        "pl": "Mojzesz Weitzner ur. 1916 w Bolechowie, Eliasa Weitznera (handlarza bydłem) i Matel z domu Weinreb.",
+        "fr": "Moïse (Mojzesz) Weitzner né en 1916 à Bolechów, d'Elias Weitzner (marchand de bétail) et Matel née Weinreb."
+      },
+      "related_people": ["p_moses_weitzner", "p_elias_weitzner", "p_matel_weinreb"],
+      "related_events": ["e_moses_birth"],
+      "status": "verified"
+    },
+    {
+      "id": "doc_szymon_ckzp",
+      "file_pages": ["Szymon Rapaport CKŻP.png", "Szymon Rapaport CKŻP 2.png", "Rapaport Szymon.jpg"],
+      "kind": "composite",
+      "type": "ckzp_registration",
+      "primary_language": "pl",
+      "title": {
+        "en": "CKŻP post-war registration — Szymon Rapaport (1937)",
+        "he": "רישום הוועד המרכזי של יהודי פולין — שמעון רפפורט (1937)",
+        "pl": "Rejestracja CKŻP — Szymon Rapaport (1937)",
+        "fr": "Enregistrement CKŻP — Szymon Rapaport (1937)"
+      },
+      "source_archive": "Central Committee of Polish Jews (Centralny Komitet Żydów w Polsce, CKŻP), post-1945 survivor lists — indexed at Jewish Historical Institute (ŻIH), Warsaw",
+      "translations": {
+        "en": "Szymon Rappaport, son of Lusia and Dawid, year of birth 1937. The CKŻP collected names of Jewish survivors in Poland so families could find each other. Family confirms Shimon's actual DOB as 22.06.1937.",
+        "he": "שמעון רפפורט, בן לוסיה ודוד, שנת לידה 1937. הוועד המרכזי של יהודי פולין אסף שמות של ניצולים יהודים בפולין כדי שמשפחות יוכלו למצוא זה את זה. המשפחה מאשרת שתאריך הלידה האמיתי של שמעון הוא 22.06.1937.",
+        "pl": "Szymon Rappaport, syn Lusi i Dawida, rok urodzenia 1937. CKŻP zbierał nazwiska żydowskich ocalałych w Polsce, aby rodziny mogły się odnaleźć. Rodzina potwierdza rzeczywistą datę urodzenia Szymona jako 22.06.1937.",
+        "fr": "Szymon Rappaport, fils de Lusia et Dawid, année de naissance 1937. Le CKŻP collectait les noms des survivants juifs en Pologne pour que les familles puissent se retrouver. La famille confirme la date de naissance réelle de Szymon : 22.06.1937."
+      },
+      "related_people": ["p_shimon", "p_david", "p_leah"],
+      "related_events": ["e_shimon_birth"],
+      "status": "verified"
+    },
+    {
+      "id": "doc_newspaper_1912_krynica",
+      "file_pages": ["NDIGCZAS002207_1912_011.pdf"],
+      "kind": "pdf",
+      "type": "press_record",
+      "primary_language": "pl",
+      "title": {
+        "en": "Polish press 1912 — Krynica guest register listing Regina Rapaport",
+        "he": "עיתון פולני 1912 — רשימת אורחי קריניצה כולל את רגינה רפפורט",
+        "pl": "Prasa polska 1912 — wykaz gości Krynicy z Reginą Rapaport",
+        "fr": "Presse polonaise 1912 — registre des hôtes de Krynica avec Regina Rapaport"
+      },
+      "source_archive": "Polish digital press archive (NDIGCZAS), 1912 newspaper page 7",
+      "translations": {
+        "en": "On page 7, the newspaper reports that Regina Rapaport, wife of a merchant from Nadwórna, arrived alone at Krynica resort and registered at the 'Alfredówka' guesthouse on 25 July 1912. This independently confirms Rebeka Griffel as Regina Rapaport (married name), wife of David's father.",
+        "he": "בעמוד 7, העיתון מדווח שרגינה רפפורט, אשתו של סוחר מנדבורנא, הגיעה לבדה לעיר הנופש קריניצה ונרשמה באכסניית 'אלפרדובקה' ב-25 ביולי 1912. זה מאשר באופן עצמאי את רבקה גריפל כרגינה רפפורט (שם נישואין), אשתו של אביו של דוד.",
+        "pl": "Na stronie 7 gazeta informuje, że Regina Rapaport, żona kupca z Nadwórnej, przyjechała sama do uzdrowiska Krynica i zameldowała się w pensjonacie 'Alfredówka' 25 lipca 1912 roku. To niezależnie potwierdza Rebekę Griffel jako Reginę Rapaport (nazwisko po mężu), żonę ojca Dawida.",
+        "fr": "À la page 7, le journal rapporte que Regina Rapaport, épouse d'un commerçant de Nadwórna, est arrivée seule à la station thermale de Krynica et s'est inscrite à la pension 'Alfredówka' le 25 juillet 1912. Ceci confirme de manière indépendante que Rebeka Griffel est Regina Rapaport (nom d'épouse), femme du père de Dawid."
+      },
+      "related_people": ["p_rebeka", "p_berisz"],
+      "related_events": ["e_rebeka_krynica_1912"],
+      "status": "verified"
+    },
+    {
+      "id": "doc_rapaport_institute_tree",
+      "file_pages": ["Tablica potomków Moshe Rapaport.pdf"],
+      "kind": "pdf",
+      "type": "family_tree_reference",
+      "primary_language": "en",
+      "title": {
+        "en": "Descendants chart — Moshe Rapaport (Rapaport Research Institute)",
+        "he": "תרשים צאצאי משה רפפורט (מכון מחקר רפפורט)",
+        "pl": "Tablica potomków Moshe Rapaport (Instytut Badań Rapaportów)",
+        "fr": "Tableau de descendance — Moshe Rapaport (Institut de Recherche Rapaport)"
+      },
+      "source_archive": "Rapaport Research Institute, Jerusalem (per Doron, 06 May)",
+      "translations": {
+        "en": "A descendants tree of Moshe & Menucha Rapaport listing many family members tied to 'Mosina'. This chart triggered the original assumption that Mosina (near Poznań) was the family seat. Doron notes it could not be verified anywhere else and the data may be mixed with unrelated branches.",
+        "he": "עץ צאצאים של משה ומנוחה רפפורט המונה רבים מבני המשפחה הקשורים ל'מוסינה'. תרשים זה הוא שיצר את ההנחה המקורית שמוסינה (ליד פוזנן) הייתה מושב המשפחה. דורון מציין שלא ניתן היה לאמת זאת בשום מקום אחר ושהנתונים עשויים להיות מעורבבים עם ענפים לא קשורים.",
+        "pl": "Drzewo potomków Moshe i Menuchi Rapaport wymieniające wielu członków rodziny powiązanych z 'Mosiną'. Ten wykres wywołał pierwotne założenie, że Mosina (pod Poznaniem) była siedzibą rodziny. Doron zaznacza, że nie udało się tego nigdzie indziej potwierdzić, a dane mogą być pomieszane z niepowiązanymi gałęziami.",
+        "fr": "Un arbre de descendance de Moshe et Menucha Rapaport mentionnant de nombreux membres liés à « Mosina ». Ce tableau a engendré l'hypothèse initiale que Mosina (près de Poznań) était le siège familial. Doron note qu'il n'a pu être vérifié nulle part ailleurs et que les données peuvent être mélangées avec des branches non liées."
+      },
+      "related_people": ["p_david", "p_leah"],
+      "status": "unverified"
+    },
+    {
+      "id": "doc_report_basia_13may",
+      "file_pages": ["13_05_2026_ Rapaport.pdf"],
+      "kind": "pdf",
+      "type": "research_report",
+      "primary_language": "pl",
+      "title": {
+        "en": "Research report — Basia, 13 May 2026",
+        "he": "דו״ח מחקר — בסיה, 13 במאי 2026",
+        "pl": "Raport badawczy — Basia, 13 maja 2026",
+        "fr": "Rapport de recherche — Basia, 13 mai 2026"
+      },
+      "translations": {
+        "en": "Basia's findings: (1) Found 'Rapaport S. i Liptan M.' sawmill in Wierzbiany (1930), connection unverified. (2) Difficulty with Polish declension of place names (Lewów = Lwów). (3) Floats hypothesis 'Mosina' = 'Dolina' (same letters/ending). Notes Dolina had multiple sawmills in 1930. (4) Searched Przemyśl: Bernard Rapaport appears around 1910. (5) Found 'Lusia Rapaport' in the Jewish Historical Institute (ŻIH) catalogs — index lists Lusia Rappoport born 1916-04-08, parents Eljan and Mahylda. Will request materials from Warsaw. (6) Confirms Vitsner=Weitzner=Wizner. Weitzner family in Bolechów: Elias + Matel; daughter Lea 8.4.1913; sister Feige 1911. (7) Found SZYMON RAPPAPORT in ŻIH indexes, son of Lusia and Dawid, 1937 — certainly the uncle. (8) Recommends applying to IPN (6+ month wait). (9) Cieszyn records not online; available at Katowice archive. (10) Asks: did David serve in army? Polish September 1939 mobilization? Polish Army West? How did he escape USSR — Anders Army to Iran in 1942? How did Leah and Shimon survive — ghetto or Aryan side? Did they go to Krynica? Did they flee to Nadwórna family or were they deported?",
+        "he": "ממצאי בסיה: (1) נמצאה משרפה של 'רפפורט ש. וליפטן מ.' בוויירזביאני (1930), הקשר לא מאומת. (2) קשיים בנטיית שמות מקומות פולנית. (3) השערה: 'מוסינה' = 'דולינה'. (4) חיפוש בפשמישל: ברנרד רפפורט מופיע סביב 1910. (5) נמצאה 'לוסיה רפפורט' בקטלוגי המכון ההיסטורי היהודי — מצוין לידה 8.4.1916, הורים אליאן ומהילדה. (6) מאשרת Vitsner=Weitzner=Wizner. (7) נמצא שמעון רפפורט בקטלוג ŻIH. (8) ממליצה לפנות ל-IPN (6 חודשי המתנה). (9) רשומות צ'שין באר.כיון קטוביץ. (10) שאלות: שירת בצבא? כיצד יצא מברה״מ — צבא אנדרס לאיראן 1942? כיצד שרדו לאה ושמעון?",
+        "pl": "Pełny raport Basi w polskim oryginale — szczegóły w pliku PDF.",
+        "fr": "Conclusions de Basia : (1) Scierie 'Rapaport S. i Liptan M.' à Wierzbiany (1930), lien non vérifié. (2) Hypothèse 'Mosina' = 'Dolina'. (3) Bernard Rapaport apparaît à Przemyśl vers 1910. (4) Lusia Rapaport trouvée dans les catalogues de l'Institut historique juif (ŻIH). (5) Confirme Vitsner=Weitzner=Wizner. (6) Szymon Rapaport trouvé. (7) Recommande demande à l'IPN (attente 6+ mois). (8) Questions : armée polonaise, Armée Anders, comment Léa et Szymon ont survécu, Krynica ?"
+      },
+      "related_people": ["p_david", "p_leah", "p_shimon", "p_berisz", "p_elias_weitzner", "p_matel_weinreb"],
+      "status": "verified"
+    },
+    {
+      "id": "doc_report_basia_15may",
+      "file_pages": ["15_05_2026_Rapaport.pdf"],
+      "kind": "pdf",
+      "type": "research_report",
+      "primary_language": "pl",
+      "title": {
+        "en": "Research report — Basia, 15 May 2026 (Nadwórna breakthrough)",
+        "he": "דו״ח מחקר — בסיה, 15 במאי 2026 (פריצת דרך נדבורנא)",
+        "pl": "Raport badawczy — Basia, 15 maja 2026 (przełom Nadwórna)",
+        "fr": "Rapport de recherche — Basia, 15 mai 2026 (percée Nadwórna)"
+      },
+      "translations": {
+        "en": "Ms. Kasia at ŻIH found Dawid's birth certificate IN NADWÓRNA — not Cieszyn. Parents Berisz Rapaport and Rebeka Griffel (daughter of Leizor Griffel and Sara née Chajes, merchants of Nadwórna). Also found Rebeka's birth certificate (1888, German Gothic script). 'Mosina' remains a mystery — Ms. Kasia hypothesizes Morszyn (?). Mszana Dolna and Dolina also under consideration. Open question: when Leah fled to Przemyśl after war began, was she fleeing to mother-in-law Regina/Rebeka? Logic suggests fleeing west from Soviets, then east from Germans, then west again as Yalta decided Lwów would remain Soviet. Bolechów records: Polish until end 1939, no records first half 1940, Cyrillic (Ukrainian-style) second half 1940, nothing after. The Weinreb family from Dolina — no records survive there. Ms. Kasia of ŻIH proposes Doron be added to direct email correspondence.",
+        "he": "גב' קאסיה ב-ŻIH מצאה את תעודת הלידה של דוד בנדבורנא — לא בצ'שין. הורים: ברנרד (בעריש) רפפורט ורבקה גריפל (בתם של ליזר גריפל ושרה לבית חיות, סוחרים בנדבורנא). גם נמצאה תעודת הלידה של רבקה (1888, כתב גרמני גותי). 'מוסינה' עדיין תעלומה — גב' קאסיה משערת מורשין (?). משאנה דולנה ודולינה גם הן בבחינה.",
+        "pl": "Pełny raport Basi w polskim oryginale.",
+        "fr": "Mme Kasia au ŻIH a trouvé l'acte de naissance de Dawid À NADWÓRNA — pas à Cieszyn. Parents : Berisz Rapaport et Rebeka Griffel (fille de Leizor Griffel et Sara née Chajes, commerçants de Nadwórna). Acte de naissance de Rebeka aussi trouvé (1888, écriture gothique allemande). « Mosina » reste un mystère — Mme Kasia émet l'hypothèse Morszyn (?)."
+      },
+      "related_people": ["p_david", "p_rebeka", "p_berisz", "p_leizor_griffel", "p_sara_chajes"],
+      "related_events": ["e_nadworna_breakthrough"],
+      "status": "verified"
+    },
+    {
+      "id": "doc_bolechow_dolina_map",
+      "file_pages": ["Bolechów Dolina Bołochów.png"],
+      "kind": "image",
+      "type": "map",
+      "primary_language": "pl",
+      "title": {
+        "en": "Map: Bolechów / Dolina (Galicia)",
+        "he": "מפה: בולוכוב / דולינה (גליציה)",
+        "pl": "Mapa: Bolechów / Dolina (Galicja)",
+        "fr": "Carte : Bolechów / Dolina (Galicie)"
+      },
+      "translations": {
+        "en": "Reference map showing Bolechów (birthplace of the Weitzner children) and Dolina (district seat, origin of the Weinreb family). The two are nearby in former eastern Galicia.",
+        "he": "מפה: בולוכוב (מקום לידת ילדי וייצנר) ודולינה (מושב המחוז, מקור משפחת ויינרב). השניים סמוכים בגליציה המזרחית לשעבר.",
+        "pl": "Mapa referencyjna: Bolechów (miejsce urodzenia dzieci Weitznerów) i Dolina (siedziba powiatu, pochodzenie rodziny Weinreb). Obie miejscowości blisko siebie w byłej Galicji Wschodniej.",
+        "fr": "Carte de référence : Bolechów (lieu de naissance des enfants Weitzner) et Dolina (chef-lieu du district, origine de la famille Weinreb). Les deux localités sont proches l'une de l'autre en ex-Galicie orientale."
+      },
+      "related_places": ["pl_bolechow", "pl_dolina"],
+      "status": "verified"
+    }
+  ],
+  "additional_files": [
+    {"file": "IMG-20260504-WA0006.jpg", "description": "First image Magda sent (04 May) — likely the initial family tree reference"},
+    {"file": "IMG-20260507-WA0057.jpg", "description": "Sent 07 May — '1930' caption — likely 1930 sawmill directory excerpt"},
+    {"file": "IMG-20260507-WA0058.jpg", "description": "Sent 07 May — research image"},
+    {"file": "IMG-20260507-WA0059.jpg", "description": "Sent 07 May — research image"},
+    {"file": "IMG-20260507-WA0061.jpg", "description": "Sent 07 May — research image"},
+    {"file": "IMG-20260508-WA0096.jpg", "description": "Sent 08 May — research image"},
+    {"file": "IMG-20260509-WA0007.jpg", "description": "Sent 09 May by Kasia — focused detail of the DP card showing '1942' deportation note"},
+    {"file": "IMG-20260509-WA0008.jpg", "description": "Sent 09 May by Kasia — additional DP card detail"},
+    {"file": "IMG-20260514-WA0000.jpg", "description": "Sent 14 May — likely 1930 Bolechów tannery directory entry confirming 'Weitzner' spelling"},
+    {"file": "IMG-20260515-WA0084.jpg", "description": "Sent 15 May by Dana — likely family-side research finding"},
+    {"file": "Zrzut ekranu 2026-05-09 224154.png", "description": "Polish screenshot 09 May — research from online archive"},
+    {"file": "Zrzut ekranu 2026-05-12 163118.png", "description": "Polish screenshot 12 May"},
+    {"file": "Zrzut ekranu 2026-05-12 171907.png", "description": "Polish screenshot 12 May"},
+    {"file": "Zrzut ekranu 2026-05-12 184538.png", "description": "Polish screenshot 12 May"},
+    {"file": "Zrzut ekranu 2026-05-13 213050.png", "description": "Polish screenshot 13 May"},
+    {"file": "Zrzut ekranu 2026-05-13 213133.png", "description": "Polish screenshot 13 May"},
+    {"file": "Zrzut ekranu 2026-05-13 213154.png", "description": "Polish screenshot 13 May"},
+    {"file": "Zrzut ekranu 2026-05-13 213308.png", "description": "Polish screenshot 13 May"}
+  ]
+}

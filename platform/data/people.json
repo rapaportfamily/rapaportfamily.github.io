@@ -1,0 +1,439 @@
+{
+  "_schema": {
+    "description": "Family tree people. Each fact has a confidence level and source list.",
+    "confidence_levels": {
+      "confirmed": "Verified by primary document (birth cert, archive record, etc.)",
+      "documented": "Stated in a document; document believed correct but needs cross-check",
+      "family_oral": "Told by family member or written in Leah's memoir",
+      "hypothesis": "Researcher's working theory, not yet supported",
+      "ruled_out": "Tested and rejected"
+    },
+    "sources": "References by id: doc_xxx for documents.json, msg_NNN for messages.json, oral_NN for family oral history, report_XXX for genealogist's reports"
+  },
+  "people": [
+    {
+      "id": "p_dov_bernard",
+      "primary_name": {
+        "en": "Dov Bernard Rapaport",
+        "he": "דב ברנרד רפפורט",
+        "pl": "Dov Bernard Rapaport",
+        "fr": "Dov Bernard Rapaport"
+      },
+      "aliases": ["Bernard", "Dov", "ברנרד", "דב"],
+      "role": "subject_father",
+      "note_en": "Doron's father. The man this research is for — his 80th birthday gift, August 2026.",
+      "birth": {
+        "date": "1946",
+        "date_precision": "year",
+        "place_id": "pl_brussels",
+        "confidence": "family_oral",
+        "sources": ["oral_doron_06may"]
+      },
+      "death": null,
+      "father_id": "p_david",
+      "mother_id": "p_leah",
+      "children_ids": ["p_doron", "p_dana", "p_daniel"],
+      "spouse_id": "p_dalia"
+    },
+    {
+      "id": "p_david",
+      "primary_name": {
+        "en": "David (Memek) Rapaport",
+        "he": "דוד רפפורט",
+        "pl": "Dawid Mendel Rapaport",
+        "fr": "David Rapaport"
+      },
+      "aliases": ["Dawid", "Memek", "Dawid Mendel", "דוד"],
+      "role": "grandfather",
+      "note_en": "Doron's paternal grandfather. Forestry engineer, polyglot, Betar member. Holocaust survivor.",
+      "birth": {
+        "date": "1911-12-25",
+        "date_precision": "day",
+        "place_id": "pl_nadworna",
+        "confidence": "confirmed",
+        "sources": ["doc_david_birth_nadworna", "report_basia_15may"],
+        "note_en": "BREAKTHROUGH 15 May 2026: birth certificate found in Nadwórna by Ms. Kasia at the Jewish Historical Institute. The 1946 Brussels DP card lists Cieszyn/Tesin but that was likely a French clerk's mishearing — Nadwórna is the verified birthplace.",
+        "earlier_hypothesis": {
+          "place_id": "pl_cieszyn",
+          "source": "doc_david_dp_card",
+          "status": "superseded"
+        }
+      },
+      "death": {
+        "date": null,
+        "confidence": "family_oral",
+        "note_en": "Deceased. Specific date to be added by family."
+      },
+      "father_id": "p_berisz",
+      "mother_id": "p_rebeka",
+      "spouse_id": "p_leah",
+      "children_ids": ["p_shimon", "p_dov_bernard"],
+      "siblings_ids": ["p_lota"],
+      "facts": [
+        {"key": "profession", "value": "Forestry engineer", "confidence": "confirmed", "sources": ["doc_david_dp_card"]},
+        {"key": "languages", "value": "Polish (native); Italian, German (fluent); Czech, Russian", "confidence": "confirmed", "sources": ["doc_david_dp_card"]},
+        {"key": "movement", "value": "Member of Betar (Poland)", "confidence": "family_oral", "sources": ["oral_doron_14may"]},
+        {"key": "1938_residence", "value": "Lwów, Poland (1 Jan 1938)", "confidence": "confirmed", "sources": ["doc_david_dp_card"]},
+        {"key": "1942", "value": "Stripped of Polish citizenship", "confidence": "confirmed", "sources": ["doc_david_dp_card"]},
+        {"key": "1946", "value": "Registered as Displaced Person in Brussels (Belgium), 9 April 1946", "confidence": "confirmed", "sources": ["doc_david_dp_card"]},
+        {"key": "post_war", "value": "Wood expert at Israeli customs authority", "confidence": "family_oral", "sources": ["oral_doron_06may"]},
+        {"key": "escape", "value": "Escaped Nadwórna ghetto in a railway wagon hidden in a niche carved between wooden logs, reached Lwów", "confidence": "family_oral", "sources": ["oral_doron_13may"]},
+        {"key": "1941_lwow", "value": "Worked on railway/road construction in Lwów under fake identity", "confidence": "family_oral", "sources": ["oral_doron_13may"]}
+      ]
+    },
+    {
+      "id": "p_leah",
+      "primary_name": {
+        "en": "Leah Lusha Rapaport (née Weitzner)",
+        "he": "לאה (לוסיה) רפפורט (לבית וייצנר)",
+        "pl": "Lea/Lusia Rapaport (z domu Weitzner)",
+        "fr": "Léa Lusha Rapaport (née Weitzner)"
+      },
+      "aliases": ["Lea", "Lusha", "Lusia", "לאה", "Vitsner", "Wizner", "Fitzner", "Weitzner"],
+      "role": "grandmother",
+      "note_en": "Doron's paternal grandmother. Wrote a memoir of the war. Survived under multiple false identities including 'Maria Cizlik'.",
+      "birth": {
+        "date": "1913-04-08",
+        "date_precision": "day",
+        "place_id": "pl_bolechow",
+        "confidence": "documented",
+        "sources": ["doc_leah_birth_bolechow_1913", "report_basia_13may"],
+        "note_en": "Bolechów birth record found for 'Lea' born 8.4.1913 to Elias and Matel Weitzner. Family death certificate lists 6.4.1916. The Polish Jewish Historical Institute index also lists Lusia Rappoport born 1916-04-08. There may be a 1913 vs 1916 conflict between civil record and family record. Lea declared age 18 in 1935 → would imply 1917 birth. Per Basia: brides often understated their age.",
+        "alternative": {
+          "date": "1916-04-06",
+          "source": "family_oral",
+          "status": "competing"
+        }
+      },
+      "death": {
+        "date": null,
+        "confidence": "family_oral"
+      },
+      "father_id": "p_elias_weitzner",
+      "mother_id": "p_matel_weinreb",
+      "spouse_id": "p_david",
+      "children_ids": ["p_shimon", "p_dov_bernard"],
+      "siblings_ids": ["p_feige", "p_moses_weitzner", "p_pnina_weitzner"],
+      "facts": [
+        {"key": "marriage", "value": "Married David Rapaport, February 1938", "confidence": "family_oral", "sources": ["oral_dana_14may"]},
+        {"key": "marriage_age_gap", "value": "She was 18, he was 24 at marriage (per memoir)", "confidence": "family_oral", "sources": ["oral_doron_09may"]},
+        {"key": "fake_identity", "value": "Lived in Lwów under fake identity 'Maria Cizlik' (borrowed)", "confidence": "family_oral", "sources": ["oral_doron_14may"]},
+        {"key": "lwow_residence", "value": "Legionów Street 24, Lwów ghetto (with Hormek fake documents)", "confidence": "family_oral", "sources": ["oral_doron_13may"]},
+        {"key": "lwow_job", "value": "Manager of art-effects/antiques store under fake identity, ~1941", "confidence": "family_oral", "sources": ["oral_doron_13may"]},
+        {"key": "przemysl_job", "value": "Worked as teller / passport section in Przemyśl, 1939 (Soviet-occupied side)", "confidence": "family_oral", "sources": ["oral_dana_15may", "oral_doron_15may"]},
+        {"key": "mosina_job", "value": "Managed a rental hotel for Polish visitors in 'Mosina' c. 1937-38", "confidence": "family_oral", "sources": ["oral_dana_15may"]},
+        {"key": "1936_lwow", "value": "Lived with relatives in Lwów, attended Carpathian forestry school filings", "confidence": "family_oral", "sources": ["oral_dana_15may"]},
+        {"key": "memoir", "value": "Wrote memoir of the war (Hebrew)", "confidence": "family_oral", "sources": ["oral_doron_06may"]}
+      ]
+    },
+    {
+      "id": "p_shimon",
+      "primary_name": {
+        "en": "Shimon Rapaport",
+        "he": "שמעון רפפורט",
+        "pl": "Szymon Rapaport",
+        "fr": "Szymon Rapaport"
+      },
+      "aliases": ["Szymon", "Simon", "שמעון"],
+      "role": "uncle",
+      "note_en": "Doron's uncle. Older brother of Dov Bernard. Survived the war as a child.",
+      "birth": {
+        "date": "1937-06-22",
+        "date_precision": "day",
+        "place_id": "pl_mosina_disputed",
+        "confidence": "documented",
+        "sources": ["doc_szymon_ckzp", "report_basia_13may", "oral_dalia_14may"],
+        "note_en": "Found in CKŻP (Central Committee of Polish Jews) post-war registration records. Birthplace per family memoir was 'Mosina' — but the location of 'Mosina' is itself a research mystery (see hypotheses)."
+      },
+      "death": {
+        "date": null,
+        "confidence": "family_oral"
+      },
+      "father_id": "p_david",
+      "mother_id": "p_leah",
+      "facts": [
+        {"key": "childhood_river", "value": "Memoir mentions taking baby Shimon to a river in 'Mosina'", "confidence": "family_oral", "sources": ["oral_doron_06may"]},
+        {"key": "post_war_registration", "value": "Registered in CKŻP records as son of Lusia and Dawid Rapaport", "confidence": "confirmed", "sources": ["doc_szymon_ckzp"]}
+      ]
+    },
+    {
+      "id": "p_berisz",
+      "primary_name": {
+        "en": "Berisz / Bernard Rapaport",
+        "he": "בעריש / ברנרד רפפורט",
+        "pl": "Berisz / Bernard Rapaport",
+        "fr": "Berisz / Bernard Rapaport"
+      },
+      "aliases": ["Bernard", "Berl"],
+      "role": "great_grandfather_paternal",
+      "note_en": "Doron's paternal great-grandfather. Merchant in Nadwórna.",
+      "facts": [
+        {"key": "occupation", "value": "Merchant (kupiec) in Nadwórna", "confidence": "documented", "sources": ["doc_david_birth_nadworna", "doc_david_dp_card"]},
+        {"key": "1910_przemysl", "value": "A Bernard Rapaport appears in Przemyśl records around 1910 — may or may not be him", "confidence": "hypothesis", "sources": ["report_basia_13may"]}
+      ],
+      "children_ids": ["p_david", "p_lota"],
+      "spouse_id": "p_rebeka"
+    },
+    {
+      "id": "p_rebeka",
+      "primary_name": {
+        "en": "Rebeka / Regina Rapaport (née Griffel)",
+        "he": "רבקה / רגינה רפפורט (לבית גריפל)",
+        "pl": "Rebeka / Regina Rapaport (z domu Griffel)",
+        "fr": "Rebeka / Regina Rapaport (née Griffel)"
+      },
+      "aliases": ["Rebecca", "Regina", "רבקה"],
+      "role": "great_grandmother_paternal",
+      "note_en": "Doron's paternal great-grandmother. Birth record from Nadwórna found.",
+      "birth": {
+        "date": "1888",
+        "date_precision": "year",
+        "place_id": "pl_nadworna",
+        "confidence": "confirmed",
+        "sources": ["doc_rebeka_birth_nadworna"]
+      },
+      "father_id": "p_leizor_griffel",
+      "mother_id": "p_sara_chajes",
+      "children_ids": ["p_david", "p_lota"],
+      "spouse_id": "p_berisz",
+      "facts": [
+        {"key": "1912_krynica", "value": "Vacationed in Krynica (resort) in summer 1912 — registered at Alfredówka on 25 July 1912, listed as wife of a Nadwórna merchant. Newspaper record.", "confidence": "confirmed", "sources": ["doc_newspaper_1912_krynica"]}
+      ]
+    },
+    {
+      "id": "p_leizor_griffel",
+      "primary_name": {
+        "en": "Leizor Griffel",
+        "he": "ליזר גריפל",
+        "pl": "Leizor Griffel",
+        "fr": "Leizor Griffel"
+      },
+      "role": "gg_grandfather_paternal_maternal",
+      "note_en": "Doron's paternal-maternal great-great-grandfather. Merchant in Nadwórna.",
+      "facts": [
+        {"key": "occupation", "value": "Merchant in Nadwórna", "confidence": "documented", "sources": ["doc_rebeka_birth_nadworna"]}
+      ],
+      "spouse_id": "p_sara_chajes",
+      "children_ids": ["p_rebeka"]
+    },
+    {
+      "id": "p_sara_chajes",
+      "primary_name": {
+        "en": "Sara Griffel (née Chajes)",
+        "he": "שרה גריפל (לבית חיות)",
+        "pl": "Sara Griffel (z domu Chajes)",
+        "fr": "Sara Griffel (née Chajes)"
+      },
+      "role": "gg_grandmother_paternal_maternal",
+      "facts": [
+        {"key": "occupation", "value": "Merchant family in Nadwórna", "confidence": "documented", "sources": ["doc_rebeka_birth_nadworna"]}
+      ],
+      "spouse_id": "p_leizor_griffel",
+      "children_ids": ["p_rebeka"]
+    },
+    {
+      "id": "p_lota",
+      "primary_name": {
+        "en": "Lota Rapaport",
+        "he": "לוטה רפפורט",
+        "pl": "Lota Rapaport",
+        "fr": "Lota Rapaport"
+      },
+      "role": "great_aunt",
+      "note_en": "David's sister. Lived in Lwów.",
+      "facts": [
+        {"key": "residence", "value": "Lived in Lwów", "confidence": "family_oral", "sources": ["oral_doron_13may"]}
+      ],
+      "father_id": "p_berisz",
+      "mother_id": "p_rebeka",
+      "siblings_ids": ["p_david"]
+    },
+    {
+      "id": "p_elias_weitzner",
+      "primary_name": {
+        "en": "Elias (Eliyahu) Weitzner",
+        "he": "אליהו וייצנר",
+        "pl": "Elias Weitzner",
+        "fr": "Elias Weitzner"
+      },
+      "aliases": ["Eliyahu", "Elijah"],
+      "role": "great_grandfather_maternal",
+      "note_en": "Leah's father. Started as cattle dealer in Bolechów Ruski, later tannery owner.",
+      "facts": [
+        {"key": "occupation_early", "value": "Cattle dealer (handlarz bydłem) in Bolechów Ruski, c. 1911-16", "confidence": "confirmed", "sources": ["doc_leah_birth_bolechow_1913", "doc_feige_birth_1911", "doc_moses_birth_1916"]},
+        {"key": "occupation_later", "value": "Tannery in Bolechów, listed in 1930 directory — confirmed Weitzner spelling", "confidence": "confirmed", "sources": ["report_basia_14may"]},
+        {"key": "emigration", "value": "Emigrated to Mandatory Palestine in 1933 with capital permit (1000 GBP capitalist visa, British Mandate)", "confidence": "family_oral", "sources": ["oral_dana_15may", "oral_doron_13may"]},
+        {"key": "marriage", "value": "Married Matel Weinreb in Dolina, 1905 (statutory civil marriage)", "confidence": "confirmed", "sources": ["doc_leah_birth_bolechow_1913"]}
+      ],
+      "spouse_id": "p_matel_weinreb",
+      "children_ids": ["p_feige", "p_leah", "p_moses_weitzner", "p_pnina_weitzner"]
+    },
+    {
+      "id": "p_matel_weinreb",
+      "primary_name": {
+        "en": "Matel (Mathilde) Weitzner (née Weinreb)",
+        "he": "מתל (מתילדה) וייצנר (לבית ויינרב)",
+        "pl": "Matel / Matylda Weitzner (z domu Weinreb)",
+        "fr": "Matel (Mathilde) Weitzner (née Weinreb)"
+      },
+      "aliases": ["Mathilde", "Matylda", "Mejtel", "Mattel"],
+      "role": "great_grandmother_maternal",
+      "note_en": "Leah's mother. From Dolina (the district seat near Bolechów).",
+      "father_id": "p_samuel_weinreb",
+      "mother_id": "p_ester_blima",
+      "spouse_id": "p_elias_weitzner",
+      "children_ids": ["p_feige", "p_leah", "p_moses_weitzner", "p_pnina_weitzner"],
+      "facts": [
+        {"key": "origin", "value": "From Dolina", "confidence": "confirmed", "sources": ["doc_leah_birth_bolechow_1913"]}
+      ]
+    },
+    {
+      "id": "p_samuel_weinreb",
+      "primary_name": {
+        "en": "Samuel Weinreb",
+        "he": "שמואל ויינרב",
+        "pl": "Samuel Weinreb",
+        "fr": "Samuel Weinreb"
+      },
+      "role": "gg_grandfather_maternal_maternal",
+      "facts": [
+        {"key": "occupation", "value": "Tavern keeper in Dolina", "confidence": "confirmed", "sources": ["doc_leah_birth_bolechow_1913"]}
+      ],
+      "spouse_id": "p_ester_blima",
+      "children_ids": ["p_matel_weinreb"]
+    },
+    {
+      "id": "p_ester_blima",
+      "primary_name": {
+        "en": "Ester Blima Weinreb",
+        "he": "אסתר בלימה ויינרב",
+        "pl": "Estera Blima Weinreb",
+        "fr": "Ester Blima Weinreb"
+      },
+      "role": "gg_grandmother_maternal_maternal",
+      "spouse_id": "p_samuel_weinreb",
+      "children_ids": ["p_matel_weinreb"]
+    },
+    {
+      "id": "p_feige",
+      "primary_name": {
+        "en": "Feige / Tzipora Weitzner",
+        "he": "פייגה / ציפורה וייצנר",
+        "pl": "Feige Weitzner",
+        "fr": "Feige (Tzipora) Weitzner"
+      },
+      "aliases": ["Tzipora", "ציפורה"],
+      "role": "great_aunt",
+      "note_en": "Leah's older sister. Feige (Yiddish) = Tzipora (Hebrew).",
+      "birth": {
+        "date": "1911",
+        "date_precision": "year",
+        "place_id": "pl_bolechow",
+        "confidence": "confirmed",
+        "sources": ["doc_feige_birth_1911"]
+      },
+      "father_id": "p_elias_weitzner",
+      "mother_id": "p_matel_weinreb",
+      "siblings_ids": ["p_leah", "p_moses_weitzner", "p_pnina_weitzner"],
+      "facts": [
+        {"key": "emigration", "value": "Emigrated to Israel with family ~1933", "confidence": "family_oral", "sources": ["oral_doron_13may"]}
+      ]
+    },
+    {
+      "id": "p_moses_weitzner",
+      "primary_name": {
+        "en": "Moses (Mojzesz) Weitzner",
+        "he": "משה וייצנר",
+        "pl": "Mojzesz Weitzner",
+        "fr": "Moïse Weitzner"
+      },
+      "aliases": ["Mojzesz"],
+      "role": "great_uncle",
+      "note_en": "Leah's younger brother.",
+      "birth": {
+        "date": "1916",
+        "date_precision": "year",
+        "place_id": "pl_bolechow",
+        "confidence": "confirmed",
+        "sources": ["doc_moses_birth_1916"]
+      },
+      "father_id": "p_elias_weitzner",
+      "mother_id": "p_matel_weinreb",
+      "siblings_ids": ["p_feige", "p_leah", "p_pnina_weitzner"],
+      "facts": [
+        {"key": "emigration", "value": "Emigrated to Israel with family ~1933", "confidence": "family_oral", "sources": ["oral_doron_13may"]}
+      ]
+    },
+    {
+      "id": "p_pnina_weitzner",
+      "primary_name": {
+        "en": "Pnina Weitzner",
+        "he": "פנינה וייצנר",
+        "pl": "Pnina Weitzner",
+        "fr": "Pnina Weitzner"
+      },
+      "role": "great_aunt",
+      "note_en": "Leah's youngest sister.",
+      "father_id": "p_elias_weitzner",
+      "mother_id": "p_matel_weinreb",
+      "siblings_ids": ["p_feige", "p_leah", "p_moses_weitzner"],
+      "facts": [
+        {"key": "name_source", "value": "Known by Hebrew name only", "confidence": "family_oral", "sources": ["oral_doron_13may"]},
+        {"key": "emigration", "value": "Emigrated to Israel with family ~1933", "confidence": "family_oral", "sources": ["oral_doron_13may"]}
+      ]
+    },
+    {
+      "id": "p_doron",
+      "primary_name": {
+        "en": "Doron Rapaport",
+        "he": "דורון רפפורט",
+        "pl": "Doron Rapaport",
+        "fr": "Doron Rapaport"
+      },
+      "role": "self",
+      "note_en": "The researcher leading this project for his father's 80th birthday.",
+      "father_id": "p_dov_bernard",
+      "mother_id": "p_dalia",
+      "siblings_ids": ["p_dana", "p_daniel"]
+    },
+    {
+      "id": "p_dalia",
+      "primary_name": {
+        "en": "Dalia Rapaport",
+        "he": "דליה רפפורט",
+        "pl": "Dalia Rapaport",
+        "fr": "Dalia Rapaport"
+      },
+      "role": "mother",
+      "note_en": "Doron's mother. Dov Bernard's wife.",
+      "spouse_id": "p_dov_bernard",
+      "children_ids": ["p_doron", "p_dana", "p_daniel"]
+    },
+    {
+      "id": "p_dana",
+      "primary_name": {
+        "en": "Dana Rapaport",
+        "he": "דנה רפפורט",
+        "pl": "Dana Rapaport",
+        "fr": "Dana Rapaport"
+      },
+      "role": "sister",
+      "father_id": "p_dov_bernard",
+      "mother_id": "p_dalia",
+      "siblings_ids": ["p_doron", "p_daniel"]
+    },
+    {
+      "id": "p_daniel",
+      "primary_name": {
+        "en": "Daniel Rapaport",
+        "he": "דניאל רפפורט",
+        "pl": "Daniel Rapaport",
+        "fr": "Daniel Rapaport"
+      },
+      "role": "brother",
+      "father_id": "p_dov_bernard",
+      "mother_id": "p_dalia",
+      "siblings_ids": ["p_doron", "p_dana"]
+    }
+  ]
+}

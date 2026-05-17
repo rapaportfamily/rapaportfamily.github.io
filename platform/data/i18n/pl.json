@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "lang": "pl",
+    "dir": "ltr",
+    "name": "Polish",
+    "name_native": "Polski"
+  },
+  "site": {
+    "title": "Rodzina Rapaport — Archiwum badawcze",
+    "subtitle": "Z Galicji przez Brukselę do Izraela · 1888 — 2026",
+    "for_dov": "Dla Dova Bernarda Rapaporta na 80. urodziny · sierpień 2026",
+    "by_doron": "Opracowanie: Doron Rapaport z Magdą, Basią (Kraków), Kasią (Paryż) i p. Kasią (ŻIH Warszawa)"
+  },
+  "nav": {
+    "home": "Strona główna",
+    "tree": "Drzewo rodziny",
+    "timeline": "Oś czasu",
+    "people": "Osoby",
+    "places": "Miejsca",
+    "documents": "Dokumenty",
+    "hypotheses": "Pytania otwarte",
+    "chat": "Czat badawczy",
+    "about": "O projekcie"
+  },
+  "ui": {
+    "language": "Język",
+    "search": "Szukaj",
+    "filter": "Filtruj",
+    "all": "Wszystkie",
+    "back": "Wstecz",
+    "close": "Zamknij",
+    "open": "Otwórz",
+    "next": "Dalej",
+    "previous": "Poprzednie",
+    "loading": "Ładowanie…",
+    "no_results": "Brak wyników",
+    "view_source": "Zobacz dokument źródłowy",
+    "view_in": "Zobacz w",
+    "show_more": "Pokaż więcej",
+    "show_less": "Pokaż mniej",
+    "born": "Urodzony/a",
+    "died": "Zmarły/a",
+    "spouse": "Małżonek/małżonka",
+    "children": "Dzieci",
+    "father": "Ojciec",
+    "mother": "Matka",
+    "siblings": "Rodzeństwo",
+    "unknown": "Nieznane",
+    "circa": "około",
+    "year": "Rok",
+    "decade": "Dekada",
+    "place": "Miejsce",
+    "people_in_event": "Osoby",
+    "sources": "Źródła",
+    "translation": "Tłumaczenie",
+    "original": "Oryginał",
+    "transcription": "Transkrypcja",
+    "notes": "Uwagi",
+    "open_questions_short": "Otwarte",
+    "resolved_short": "Rozwiązane",
+    "evidence_for": "Dowody za",
+    "evidence_against": "Dowody przeciw",
+    "verdict": "Werdykt",
+    "next_steps": "Następne kroki",
+    "priority": "Priorytet",
+    "status": "Status",
+    "confidence": "Poziom pewności",
+    "messages_count": "wiadomości",
+    "attachments_count": "załączniki",
+    "documents_count": "dokumenty",
+    "people_count": "osoby",
+    "events_count": "wydarzenia",
+    "places_count": "miejsca"
+  },
+  "confidence": {
+    "confirmed": "Potwierdzone",
+    "documented": "Udokumentowane",
+    "family_oral": "Pamięć rodzinna",
+    "hypothesis": "Hipoteza",
+    "ruled_out": "Wykluczone",
+    "context": "Kontekst historyczny"
+  },
+  "status": {
+    "open": "Otwarte",
+    "active_investigation": "W aktywnym badaniu",
+    "probable_answer": "Prawdopodobna odpowiedź",
+    "resolved": "Rozwiązane",
+    "blocked_waiting_archive": "Oczekuje na archiwum"
+  },
+  "candidate_verdict": {
+    "candidate": "Kandydat",
+    "strong_candidate": "Silny kandydat",
+    "ruled_out": "Wykluczony",
+    "leading_candidate": "Główny kandydat"
+  },
+  "event_type": {
+    "birth": "Narodziny",
+    "marriage": "Ślub",
+    "death": "Śmierć",
+    "migration": "Migracja",
+    "occupation": "Zawód",
+    "war_event": "Wydarzenie wojenne",
+    "registration": "Rejestracja",
+    "discovery": "Odkrycie badawcze",
+    "context": "Kontekst historyczny"
+  },
+  "doc_type": {
+    "birth_record": "Akt urodzenia",
+    "dp_card": "Karta DP / DIPIS",
+    "registration_card": "Karta rejestracyjna",
+    "newspaper": "Gazeta",
+    "tree_chart": "Drzewo potomków",
+    "map": "Mapa",
+    "photo": "Fotografia",
+    "screenshot": "Zrzut ekranu",
+    "report": "Raport badawczy",
+    "letter": "List",
+    "death_record": "Akt zgonu"
+  },
+  "home": {
+    "lead": "Ciągły projekt mający na celu odtworzenie historii Dawida i Łuszy Rapaport — ocalałych z Holokaustu — i ich syna Bernarda, urodzonego w Brukseli w 1946 roku.",
+    "intro_p1": "To, co zaczęło się od kilku zdjęć i strony wspomnień, dzięki pracy małego zespołu w Izraelu, Polsce i Francji stało się aktywnym dossier badawczym: akty urodzenia wydobyte z archiwów galicyjskich, brukselska karta DIPIS odczytana linijka po linijce, błędnie wpisane nazwisko na wojennym formularzu, oraz miejscowość Mosina, która być może nie jest tam, gdzie wszystkim się początkowo wydawało.",
+    "intro_p2": "Ta strona to archiwum w obecnym stanie. Nic nie jest zamknięte. Każdy wpis ma przypisany poziom pewności i listę źródeł. Pytania otwarte są wymienione otwarcie. W miarę napływania odkryć, strona rośnie.",
+    "stats_title": "Co jest w archiwum",
+    "latest_finds_title": "Najnowsze odkrycia",
+    "open_questions_title": "Obecnie badane",
+    "explore_title": "Zwiedź archiwum",
+    "explore_tree": "Spaceruj po drzewie, cztery pokolenia z każdej strony.",
+    "explore_timeline": "Przewijaj lata od 1888 do dziś.",
+    "explore_docs": "Czytaj każdy dokument z tłumaczeniem.",
+    "explore_hypotheses": "Zobacz, czego jeszcze nie wiemy.",
+    "explore_chat": "Czytaj samą rozmowę badawczą."
+  },
+  "tree": {
+    "title": "Drzewo rodziny",
+    "lead": "Kliknij osobę, aby przeczytać, co wiemy. Zacieniony prostokąt = ocalały z Holokaustu.",
+    "legend_subject": "Osoba archiwum",
+    "legend_grandparent": "Pokolenie dziadków",
+    "legend_greatgrandparent": "Pokolenie pradziadków",
+    "legend_uncle": "Pokolenie wujów / rodzeństwa",
+    "legend_descendant": "Pokolenie potomków"
+  },
+  "timeline": {
+    "title": "Oś czasu",
+    "lead": "Wydarzenia rodzinne obok wydarzeń wieku, w którym żyli.",
+    "filter_all": "Wszystkie wydarzenia",
+    "filter_family": "Tylko rodzina",
+    "filter_context": "Z kontekstem historycznym",
+    "filter_discoveries": "Odkrycia badawcze"
+  },
+  "documents": {
+    "title": "Dokumenty",
+    "lead": "Każdy dokument źródłowy, jaki mamy, z tłumaczeniami.",
+    "tab_translations": "Tłumaczenia",
+    "tab_decoded": "Odczytane pola",
+    "tab_notes": "Uwagi badawcze",
+    "side_original": "Oryginał",
+    "side_translation": "Tłumaczenie",
+    "no_translation_yet": "Tłumaczenie w toku."
+  },
+  "hypotheses": {
+    "title": "Pytania otwarte",
+    "lead": "Czego jeszcze nie wiemy i co robimy, aby się dowiedzieć.",
+    "by_priority": "Wg priorytetu",
+    "by_status": "Wg statusu"
+  },
+  "chat": {
+    "title": "Archiwum czatu badawczego",
+    "lead": "Grupa robocza WhatsApp, wiadomość po wiadomości.",
+    "filter_attachments": "Tylko wiadomości z załącznikami",
+    "filter_all": "Wszystkie wiadomości",
+    "attachment": "Załącznik"
+  },
+  "people_page": {
+    "title": "Osoby",
+    "lead": "Wszyscy, którzy pojawiają się w archiwum.",
+    "facts": "Fakty",
+    "relationships": "Relacje rodzinne"
+  },
+  "places_page": {
+    "title": "Miejsca",
+    "lead": "Miasta galicyjskie i nie tylko.",
+    "era_context": "Kontekst epoki"
+  },
+  "about": {
+    "title": "O archiwum",
+    "intro": "Ta strona to prywatne archiwum rodzinne, zbudowane przez Dorona Rapaport dla jego ojca Dova Bernarda Rapaporta z okazji 80. urodzin, w sierpniu 2026 roku.",
+    "method_title": "Metoda",
+    "method_p1": "Każda informacja w archiwum opatrzona jest poziomem pewności — potwierdzone (dokument źródłowy), udokumentowane (wymienione w dokumencie, ale jeszcze nie zweryfikowane), pamięć rodzinna, hipoteza lub wykluczone. Źródła wymieniono dla każdego faktu.",
+    "method_p2": "Tłumaczenia między polskim, francuskim, angielskim i hebrajskim wykonano z pomocą badaczek Basi w Krakowie, Kasi w Paryżu i p. Kasi w Żydowskim Instytucie Historycznym w Warszawie, wraz z tłumaczeniem AI sprawdzonym wyrywkowo przez ludzi.",
+    "thanks_title": "Podziękowania",
+    "thanks_p": "Magdzie, która połączyła zespół. Basi, która przeszła przez archiwa galicyjskie. Kasi, która rozszyfrowała francuską kartę DP. Pani Kasi z ŻIH w Warszawie, która znalazła prawdziwe miejsce urodzenia Dawida. I Dalii, Danie i Danielowi — którzy nieśli pamięć."
+  }
+}

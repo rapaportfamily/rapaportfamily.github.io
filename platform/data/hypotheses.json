@@ -1,0 +1,241 @@
+{
+  "_schema": {
+    "description": "Open research questions. Each has competing hypotheses, evidence for/against, status, and next steps.",
+    "statuses": ["open", "active_investigation", "probable_answer", "resolved", "blocked_waiting_archive"]
+  },
+  "hypotheses": [
+    {
+      "id": "h_mosina_location",
+      "question": {
+        "en": "Where is 'Mosina' — the town where David and Leah married, where Shimon was born, where they lived until 1939?",
+        "he": "היכן 'מוסינה' — העיר בה התחתנו דוד ולאה, בה נולד שמעון, בה גרו עד 1939?",
+        "pl": "Gdzie jest 'Mosina' — miasto, w którym pobrali się Dawid i Lea, gdzie urodził się Szymon, gdzie mieszkali do 1939?",
+        "fr": "Où se trouve « Mosina » — la ville où Dawid et Léa se sont mariés, où Szymon est né, où ils ont vécu jusqu'en 1939 ?"
+      },
+      "priority": "HIGH",
+      "status": "active_investigation",
+      "candidates": [
+        {
+          "label": "Mosina near Poznań (Greater Poland)",
+          "evidence_for": ["Only 'Mosina' in 1933 Polish placenames index", "Listed in Rapaport Research Institute descendants tree"],
+          "evidence_against": ["No Jewish residents by 1930s (last 6 Jews left 1922)", "1911 birth records do not include David", "2 sawmills owned by Polish non-Jewish Władysław Litke and Władysław Urbaniak", "Far from where Leah's family lived"],
+          "verdict": "ruled_out"
+        },
+        {
+          "label": "Morszyn (spa town near Stryj)",
+          "evidence_for": ["Ms. Kasia (ŻIH) hypothesis", "Near Bolechów and Dolina region", "Spa town fits the 'rental hotel for Polish visitors' family memory"],
+          "evidence_against": ["Phonetically a stretch from Mosina"],
+          "verdict": "candidate"
+        },
+        {
+          "label": "Muszyna (spa town near Krynica)",
+          "evidence_for": ["Magda's recollection of past conversation with Doron's father about this area", "Spa town fits 'rental hotel for Polish visitors' memory", "Phonetically closer to 'Mosina'", "Near Krynica where Rebeka was confirmed in 1912"],
+          "evidence_against": ["Far from Lwów / Bolechów"],
+          "verdict": "candidate"
+        },
+        {
+          "label": "Mszana Dolna (Kraków Voivodeship)",
+          "evidence_for": ["Dana found family reference to 'Rapaports of Mszana' as 'forest people' (ludzie lasu) in timber trade", "Memorial/Yizkor books reportedly mention 'Rapaport Sawmill' / 'The Masina'", "Mountain area fitting the family wood-sawmill story"],
+          "evidence_against": ["No Rapaport in 1930 industry directory there (but pre-1930 not yet checked)"],
+          "verdict": "candidate"
+        },
+        {
+          "label": "Dolina (district seat near Bolechów)",
+          "evidence_for": ["Basia's hypothesis — phonetic/orthographic similarity (same length, same -ina ending)", "Multiple sawmills 1930", "Heart of Weinreb territory"],
+          "evidence_against": ["Doesn't sound like 'Mosina' when spoken", "Sawmill owners listed in 1930 are not Rapaports"],
+          "verdict": "weak_candidate"
+        }
+      ],
+      "next_steps": [
+        "Check pre-1930 industrial directories for Mszana Dolna and Mszana area for Rapaport timber business",
+        "Check Yizkor books for Mszana, Morszyn, Muszyna referencing Rapaport sawmills",
+        "Cross-reference with Shimon's 1937 birth records — where exactly was he registered?",
+        "Ask Doron's mother Dalia and the family for any specific landmark/feature memories (the river? mountains? lake? neighbors? language spoken on the street?)"
+      ],
+      "related_people": ["p_david", "p_leah", "p_shimon"],
+      "related_places": ["pl_mosina_disputed", "pl_morszyn", "pl_muszyna", "pl_mszana_dolna", "pl_dolina"]
+    },
+    {
+      "id": "h_leah_dob",
+      "question": {
+        "en": "What is Leah's actual date of birth — 8 April 1913, 6 April 1916, 8 April 1916, or ~1917?",
+        "he": "מהו תאריך לידתה האמיתי של לאה — 8 באפריל 1913, 6 באפריל 1916, 8 באפריל 1916, או ~1917?",
+        "pl": "Jaka jest rzeczywista data urodzenia Lei — 8 kwietnia 1913, 6 kwietnia 1916, 8 kwietnia 1916, czy ~1917?",
+        "fr": "Quelle est la véritable date de naissance de Léa — 8 avril 1913, 6 avril 1916, 8 avril 1916, ou ~1917 ?"
+      },
+      "priority": "MEDIUM",
+      "status": "open",
+      "candidates": [
+        {"label": "8 April 1913", "evidence_for": ["Bolechów civil birth certificate (1913)"], "evidence_against": ["Conflicts with family death certificate"]},
+        {"label": "6 April 1916", "evidence_for": ["Family death certificate"], "evidence_against": ["No civil document found for this exact date"]},
+        {"label": "8 April 1916", "evidence_for": ["ŻIH index lists 'Lusia Rappoport' b. 1916-04-08, parents Eljan/Mahylda — close to Eliyahu/Mathilde"], "evidence_against": ["May be different person; spelling unusual"]},
+        {"label": "~1917", "evidence_for": ["Leah said she was 18 at marriage in 1935 (per memoir) → would imply 1917"], "evidence_against": ["Brides commonly understate age; the 1935 vs 1938 marriage date is also unclear"]}
+      ],
+      "next_steps": [
+        "Wait for the Lusia ŻIH registration card (Basia is requesting from Warsaw archives)",
+        "Look for sibling birth records to triangulate (Pnina's birth record not yet found)"
+      ],
+      "related_people": ["p_leah"]
+    },
+    {
+      "id": "h_david_signature",
+      "question": {
+        "en": "Verify David's signature on the 1946 Brussels DP card against any later document",
+        "he": "אימות חתימת דוד על כרטיס העקור מבריסל 1946 מול כל מסמך מאוחר יותר",
+        "pl": "Weryfikacja podpisu Dawida z karty DP z Brukseli 1946 z jakimkolwiek późniejszym dokumentem",
+        "fr": "Vérifier la signature de Dawid sur la fiche DP de Bruxelles de 1946 par rapport à tout document ultérieur"
+      },
+      "priority": "MEDIUM",
+      "status": "open",
+      "next_steps": [
+        "Family search: Israeli customs authority records of David (he worked there post-war)",
+        "Family search: any letters, official documents, will, or photographs with signature",
+        "The DP card is the highest-trust evidence; signature match would settle remaining doubts"
+      ],
+      "related_people": ["p_david"],
+      "related_documents": ["doc_david_dp_card"]
+    },
+    {
+      "id": "h_david_war_escape",
+      "question": {
+        "en": "How did David survive 1939-1946? Did he serve in the Polish Army? Was he deported to Siberia? Did he escape via Anders' Army to Iran in 1942?",
+        "he": "כיצד שרד דוד בין 1939-1946? האם שירת בצבא הפולני? האם הוגלה לסיביר? האם נמלט עם צבא אנדרס לאיראן ב-1942?",
+        "pl": "Jak Dawid przeżył lata 1939-1946? Czy służył w Wojsku Polskim? Czy został deportowany na Syberię? Czy uciekł z Armią Andersa do Iranu w 1942?",
+        "fr": "Comment Dawid a-t-il survécu de 1939 à 1946 ? A-t-il servi dans l'Armée polonaise ? A-t-il été déporté en Sibérie ? S'est-il évadé via l'Armée Anders en Iran en 1942 ?"
+      },
+      "priority": "HIGH",
+      "status": "open",
+      "context": "The DP card has '1942' as the citizenship-strip / deportation date. Basia notes 1942 corresponds to Anders' Army evacuation through Iran (10% of evacuees were Jewish). Family memory: David escaped Nadwórna ghetto in a railway wagon, reached Lwów, worked railway construction. These don't fully reconcile — family memory has him in Lwów, DP card lists Lwów as 1938 residence and 1942 as the loss-of-status year.",
+      "candidates": [
+        {"label": "Escaped to Lwów, survived in hiding (family memory)", "next_step": "Verify by Lwów ghetto records / forced-labor lists"},
+        {"label": "Deported east in 1942, evacuated with Anders' Army to Iran, joined Polish forces west", "next_step": "Check Sikorski Museum in London, Anders Army records"},
+        {"label": "Both — possibly multiple phases", "next_step": "Trace by document trail"}
+      ],
+      "next_steps": [
+        "Sikorski Museum London — Anders Army personnel files",
+        "Yad Vashem testimony database — David Rapaport b. 1911 Nadwórna",
+        "Betar Poland archives — David was a member (Doron, 14 May)",
+        "Polish IPN application (6+ month wait — but possible)"
+      ],
+      "related_people": ["p_david"]
+    },
+    {
+      "id": "h_leah_shimon_survival",
+      "question": {
+        "en": "How did Leah and 4-year-old Shimon survive in Poland 1941-1944? Were they in the ghetto or on the Aryan side?",
+        "he": "כיצד שרדו לאה ושמעון בן ה-4 בפולין 1941-1944? האם היו בגטו או בצד הארי?",
+        "pl": "Jak Lea i 4-letni Szymon przeżyli w Polsce 1941-1944? Byli w getcie czy po stronie aryjskiej?",
+        "fr": "Comment Léa et Szymon (4 ans) ont-ils survécu en Pologne entre 1941 et 1944 ? Étaient-ils dans le ghetto ou du côté aryen ?"
+      },
+      "priority": "HIGH",
+      "status": "open",
+      "context": "Family memory: Leah at Legionów St 24 Lwów under 'Hormek' fake docs / 'Maria Cizlik' identity, managing art store. Worked as teller / passport section in Przemyśl (1939). Also moved to Nadwórna at some point to David's parents. Survived under multiple identities.",
+      "next_steps": [
+        "Yad Vashem and ŻIH testimony databases — Lusia/Leah Rapaport née Weitzner",
+        "Lwów ghetto registration lists",
+        "Cross-reference 'Hormek' / 'Maria Cizlik' identities in Polish wartime records",
+        "Leah's own memoir — extract every place/date mention systematically"
+      ],
+      "related_people": ["p_leah", "p_shimon"]
+    },
+    {
+      "id": "h_przemysl_who",
+      "question": {
+        "en": "When Leah was in Przemyśl (1939), whose home did she stay at — her mother Matel's (but Matel was in Palestine since 1933) or her mother-in-law Rebeka/Regina's?",
+        "he": "כשלאה הייתה בפשמישל (1939), בבית של מי היא שהתה — אמה מתל (אבל היא הייתה בארץ ישראל מ-1933) או חמותה רבקה/רגינה?",
+        "pl": "Kiedy Lea była w Przemyślu (1939), u kogo mieszkała — swojej matki Matel (ale Matel była w Palestynie od 1933) czy teściowej Rebeki/Reginy?",
+        "fr": "Quand Léa était à Przemyśl (1939), chez qui logeait-elle — chez sa mère Matel (mais Matel était en Palestine depuis 1933) ou chez sa belle-mère Rebeka/Regina ?"
+      },
+      "priority": "MEDIUM",
+      "status": "open",
+      "context": "Basia asks: per the WhatsApp message earlier, Doron said Leah lived with 'my granddaughter's parents in Przemyśl' — likely a typo (granddaughter→grandfather?) — meaning Leah stayed with David's parents Berisz and Rebeka in Przemyśl. If that's correct, Berisz and Rebeka had moved from Nadwórna to Przemyśl by then.",
+      "next_steps": [
+        "Doron to confirm/clarify the message (Basia asked on 08 May)",
+        "Check Przemyśl 1910 records for Bernard Rapaport (Basia found a Bernard there)",
+        "Check Przemyśl 1939 residence registers"
+      ],
+      "related_people": ["p_leah", "p_berisz", "p_rebeka"]
+    },
+    {
+      "id": "h_griffel_chajes_family",
+      "question": {
+        "en": "Extend research to the Griffel and Chajes families of Nadwórna — Doron's gg-grandparents",
+        "he": "להרחיב את המחקר למשפחות גריפל וחיות מנדבורנא — סבי-סבא של דורון",
+        "pl": "Rozszerzyć badania na rodziny Griffel i Chajes z Nadwórnej — pra-pradziadków Dorona",
+        "fr": "Étendre les recherches aux familles Griffel et Chajes de Nadwórna — les arrière-arrière-grands-parents de Doron"
+      },
+      "priority": "MEDIUM",
+      "status": "open",
+      "context": "The 15 May Nadwórna breakthrough opened TWO new generations: Leizor Griffel + Sara née Chajes. Both Galician Jewish surnames — Chajes is a notable rabbinic name family (Tzvi Hirsch Chajes etc., though connection unverified). This branch is now researchable.",
+      "next_steps": [
+        "Nadwórna Jewish vital records — siblings of Rebeka, marriage of Leizor and Sara, parents of Sara Chajes",
+        "Galician Jewish records archive (e.g. JewishGen, Gesher Galicia)"
+      ],
+      "related_people": ["p_leizor_griffel", "p_sara_chajes", "p_rebeka"]
+    },
+    {
+      "id": "h_betar_records",
+      "question": {
+        "en": "Does Betar Poland have archives that would record David's membership?",
+        "he": "האם לבית״ר פולין יש ארכיונים שירשמו את חברותו של דוד?",
+        "pl": "Czy Betar Polska ma archiwa, które rejestrowałyby członkostwo Dawida?",
+        "fr": "Le Betar Pologne possède-t-il des archives où l'adhésion de Dawid serait enregistrée ?"
+      },
+      "priority": "LOW",
+      "status": "open",
+      "next_steps": [
+        "Jabotinsky Institute in Israel (Tel Aviv) — holds Betar Poland archives",
+        "Virtual Shtetl Betar resource: https://share.google/ntEBJi1PH7APKgyPG"
+      ],
+      "related_people": ["p_david"]
+    },
+    {
+      "id": "h_zip_documents",
+      "question": {
+        "en": "What's in the Lusia ŻIH registration cards Basia is requesting from Warsaw?",
+        "he": "מה יש בכרטיסי הרישום של לוסיה ב-ŻIH שבסיה מבקשת מוורשה?",
+        "pl": "Co jest w kartach rejestracyjnych Lusi w ŻIH, których Basia żąda z Warszawy?",
+        "fr": "Que contiennent les fiches d'enregistrement de Lusia au ŻIH que Basia demande à Varsovie ?"
+      },
+      "priority": "HIGH",
+      "status": "blocked_waiting_archive",
+      "next_steps": [
+        "Wait for Basia / ŻIH to send the materials. At least one registration card exists per Basia 13 May."
+      ],
+      "related_people": ["p_leah"]
+    },
+    {
+      "id": "h_ipn_application",
+      "question": {
+        "en": "Apply to IPN (Institute of National Remembrance) for any David / Leah / Shimon Rapaport records — KL camps, Gestapo, Stutthof",
+        "he": "להגיש בקשה ל-IPN (המכון לזכרון לאומי) לכל רשומה של דוד / לאה / שמעון רפפורט",
+        "pl": "Złożyć wniosek do IPN o wszelkie zapisy dotyczące Dawida / Lei / Szymona Rapaport",
+        "fr": "Demander à l'IPN tout dossier concernant Dawid / Léa / Szymon Rapaport"
+      },
+      "priority": "MEDIUM",
+      "status": "open",
+      "context": "Basia notes 6+ month wait. As family member Doron can apply directly. Need to attach: death certificates, David's DP card, ŻIH materials.",
+      "next_steps": [
+        "Doron to fill IPN application (English version, Basia can help)",
+        "Attach death certificates and DP card"
+      ],
+      "related_people": ["p_david", "p_leah", "p_shimon"]
+    },
+    {
+      "id": "h_cieszyn_check",
+      "question": {
+        "en": "Even though Nadwórna is confirmed, check Cieszyn archives in Katowice to be exhaustive",
+        "he": "אף שנדבורנא מאומתת, יש לבדוק את ארכיוני צ'שין בקטוביץ למען השלמות",
+        "pl": "Mimo że Nadwórna jest potwierdzona, sprawdzić archiwa Cieszyna w Katowicach dla kompletności",
+        "fr": "Bien que Nadwórna soit confirmé, vérifier les archives de Cieszyn à Katowice par exhaustivité"
+      },
+      "priority": "LOW",
+      "status": "open",
+      "context": "Cieszyn records not online; available at Archiwum w Katowicach. Could rule out the DP card birthplace one way or the other.",
+      "next_steps": [
+        "Basia to call Katowice archive (noted but not yet done as of 13 May)"
+      ],
+      "related_people": ["p_david"]
+    }
+  ]
+}
