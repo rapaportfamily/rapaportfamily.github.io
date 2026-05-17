@@ -273,8 +273,20 @@ function setupInstallButton() {
     return;
   }
 
+  // Fallback hint — always available via the FAB long-press menu OR if
+  // beforeinstallprompt doesn't fire within 4s, show a manual hint.
+  // This catches desktop Chrome (no auto-banner) and Android Chrome cases
+  // where Chrome suppresses the auto-prompt.
+  const fallbackTimer = setTimeout(() => {
+    if (_installPromptEvent) return; // native flow already triggered
+    showInstallBanner(
+      '📱 To install as an app: open your browser menu (⋮) and tap <strong>"Install app"</strong> or <strong>"Add to Home Screen"</strong>.',
+    );
+  }, 4000);
+
   // Android / Chrome / Edge: wait for beforeinstallprompt
   window.addEventListener("beforeinstallprompt", (e) => {
+    clearTimeout(fallbackTimer);
     e.preventDefault();
     _installPromptEvent = e;
     showInstallBanner(

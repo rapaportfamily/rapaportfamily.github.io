@@ -133,6 +133,11 @@
     history.replaceState(null, "", cleanUrl);
   }
 
+  // Register the service worker — required for the Android Chrome install prompt
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("sw.js", { scope: "./" }).catch(() => {});
+  }
+
   // Inject the actual app + the upload feature module
   const s = document.createElement("script");
   s.type = "module";
