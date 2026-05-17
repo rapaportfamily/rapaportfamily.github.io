@@ -244,6 +244,12 @@
         "Jabotinsky Institute in Israel (Tel Aviv) — holds Betar Poland archives",
         "Virtual Shtetl Betar resource: https://share.google/ntEBJi1PH7APKgyPG"
       ],
+      "research_2026_05_17_cc": {
+        "summary": "UNVERIFIED via open web. Context confirms plausibility: ~50,000 Polish Jews in Betar by late 1930s; Lwów was a center; David's demographic fits perfectly. The Italian fluency on his DP card (cited under H4) actually strengthens this — many Betar members enlisted with Anders Army in WWII (Italian campaign). The Jabotinsky Institute Tel Aviv online archive search (Hebrew only) is the authoritative path: search רפפורט + נדבורנה / לבוב.",
+        "report": "docs/research/h_betar_2026-05-17.md",
+        "highest_leverage_action": "Doron searches the Jabotinsky Institute archive in Hebrew: https://en.jabotinsky.org/archive/search-archive/",
+        "verdict": "family_oral — plausible but not yet primary-source confirmed"
+      },
       "related_people": ["p_david"]
     },
     {
