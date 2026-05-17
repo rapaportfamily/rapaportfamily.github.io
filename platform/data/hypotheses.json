@@ -36,8 +36,8 @@
         {
           "label": "Mszana Dolna (Kraków Voivodeship)",
           "evidence_for": ["Dana found family reference to 'Rapaports of Mszana' as 'forest people' (ludzie lasu) in timber trade", "Memorial/Yizkor books reportedly mention 'Rapaport Sawmill' / 'The Masina'", "Mountain area fitting the family wood-sawmill story"],
-          "evidence_against": ["No Rapaport in 1930 industry directory there (but pre-1930 not yet checked)"],
-          "verdict": "candidate"
+          "evidence_against": ["No Rapaport in 1930 industry directory there (but pre-1930 not yet checked)", "2026-05-17 CC web research: Sztetl Mszana Dolna site enumerates every Jewish timber-trade family pre-WWII (Goldberger, Geller, Wiener, Feuerstein, Kleinmann, Frey, Wachtel, Weinberg, Faber) — no Rapaport. Dedicated descendant pages exist for Rebhun and Rotkopf families but no Rapaport page. Source: docs/research/h1_mosina_2026-05-17.md"],
+          "verdict": "weak_candidate"
         },
         {
           "label": "Dolina (district seat near Bolechów)",
