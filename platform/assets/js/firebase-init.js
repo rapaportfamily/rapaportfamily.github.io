@@ -9,7 +9,7 @@
 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-app.js";
 import { getAuth, signInAnonymously, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-auth.js";
-import { getFirestore, collection, addDoc, query, where, orderBy, getDocs, doc, updateDoc, deleteDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore.js";
+import { getFirestore, collection, addDoc, query, where, orderBy, getDocs, onSnapshot, doc, updateDoc, deleteDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore.js";
 import { getStorage, ref as storageRef, uploadBytes, getDownloadURL, deleteObject } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-storage.js";
 
 export const firebaseConfig = {
@@ -29,7 +29,7 @@ export const storage = getStorage(app);
 // Re-export the bits the rest of the app needs (so app.js stays import-flat).
 export {
   signInAnonymously, onAuthStateChanged,
-  collection, addDoc, query, where, orderBy, getDocs, doc, updateDoc, deleteDoc, serverTimestamp,
+  collection, addDoc, query, where, orderBy, getDocs, onSnapshot, doc, updateDoc, deleteDoc, serverTimestamp,
   storageRef, uploadBytes, getDownloadURL, deleteObject,
 };
 

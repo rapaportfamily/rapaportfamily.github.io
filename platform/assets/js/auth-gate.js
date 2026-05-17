@@ -5,6 +5,22 @@
 (async function () {
   "use strict";
 
+  // Cache-bust static data fetches so GitHub Pages CDN doesn't serve stale JSON.
+  // Only touches relative `data/...` and `assets/auth/pubkey.json` URLs — leaves
+  // Firebase SDK + everything else alone.
+  const _origFetch = window.fetch.bind(window);
+  window.fetch = function (input, init) {
+    try {
+      const url = typeof input === "string" ? input : (input?.url || "");
+      if (/^(data\/|assets\/auth\/)[^?#]*\.json/.test(url)) {
+        const sep = url.includes("?") ? "&" : "?";
+        const busted = url + sep + "v=" + Date.now();
+        return _origFetch(busted, init);
+      }
+    } catch {}
+    return _origFetch(input, init);
+  };
+
   const STORAGE_KEY = "rft.auth.v1";
   const APP_SCRIPT_SRC = "assets/js/app.js";
 

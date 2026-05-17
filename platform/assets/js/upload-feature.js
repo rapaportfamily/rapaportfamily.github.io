@@ -9,7 +9,7 @@
 
 import {
   auth, db, storage, ensureFirebaseAuth,
-  collection, addDoc, query, where, orderBy, getDocs, doc, updateDoc, deleteDoc, serverTimestamp,
+  collection, addDoc, query, where, orderBy, getDocs, onSnapshot, doc, updateDoc, deleteDoc, serverTimestamp,
   storageRef, uploadBytes, getDownloadURL, deleteObject,
 } from "./firebase-init.js";
 
@@ -192,16 +192,23 @@ async function openUploadModal() {
 }
 
 // ── Documents view augmentation — show all family-circle uploads with Gemini verification ─
-let _uploadsListener = null;
+// Uses Firestore onSnapshot for LIVE updates: any new upload or Gemini-verification
+// completion shows up immediately, no refresh needed.
+let _uploadsUnsubscribe = null;
+
+function detachUploadsListener() {
+  if (_uploadsUnsubscribe) { try { _uploadsUnsubscribe(); } catch {} _uploadsUnsubscribe = null; }
+}
+
 async function maybeAugmentDocumentsView() {
   if (!ME()) return;
   const hash = (location.hash || "").replace(/^#\//, "").split("/")[0];
   if (hash !== "documents" && hash !== "" && hash !== "home") return;
 
   const root = document.getElementById("view");
-  if (!root) return;
-  // If we're not on the documents view, bail
-  if (hash !== "documents") return;
+  if (!root) { detachUploadsListener(); return; }
+  // If we're not on the documents view, drop the listener and bail
+  if (hash !== "documents") { detachUploadsListener(); return; }
 
   // Don't double-inject
   if (root.querySelector("#rft-uploads-section")) return;
@@ -213,26 +220,33 @@ async function maybeAugmentDocumentsView() {
   section.id = "rft-uploads-section";
   section.style.cssText = "margin-top:3rem;padding-top:1.5rem;border-top:2px solid #cdb892;";
   section.innerHTML = `
-    <h2 style="font-family:Georgia,serif;color:#6b1f1f;margin:0 0 0.3rem;">📁 Family circle uploads</h2>
+    <h2 style="font-family:Georgia,serif;color:#6b1f1f;margin:0 0 0.3rem;">📁 Family circle uploads <span style="font-size:0.7rem;color:#3a6b3a;font-weight:normal;font-family:Inter,sans-serif;">● live</span></h2>
     <p style="color:#6b5440;font-size:0.9rem;margin:0 0 1rem;">
-      Documents and findings submitted by the research circle. Each is auto-verified by Gemini against the family story.
+      Documents and findings submitted by the research circle. Each is auto-verified by Gemini against the family story. <strong>Updates live</strong> — no refresh needed.
     </p>
     <div id="rft-uploads-list"><em style="color:#6b5440;">Loading…</em></div>`;
   root.appendChild(section);
 
-  await renderUploadsList(section.querySelector("#rft-uploads-list"));
+  attachUploadsListener(section.querySelector("#rft-uploads-list"));
 }
 
-async function renderUploadsList(listEl) {
-  try {
-    const q = query(collection(db, "family_uploads"), orderBy("created_at", "desc"));
-    const snap = await getDocs(q);
-    if (snap.empty) {
-      listEl.innerHTML = `<p style="color:#6b5440;font-style:italic;">No uploads yet. Tap the 📷 Add finding button to be the first.</p>`;
-      return;
-    }
-    listEl.innerHTML = "";
-    snap.forEach(docSnap => {
+function attachUploadsListener(listEl) {
+  detachUploadsListener();
+  const q = query(collection(db, "family_uploads"), orderBy("created_at", "desc"));
+  _uploadsUnsubscribe = onSnapshot(q,
+    (snap) => renderUploadsSnapshot(listEl, snap),
+    (err) => { listEl.innerHTML = `<p style="color:#a04040;">Couldn't load uploads: ${escapeHtml(err.message || err)}</p>`; }
+  );
+}
+
+function renderUploadsSnapshot(listEl, snap) {
+  if (!listEl || !listEl.isConnected) { detachUploadsListener(); return; }
+  if (snap.empty) {
+    listEl.innerHTML = `<p style="color:#6b5440;font-style:italic;">No uploads yet. Tap the 📷 Add finding button to be the first.</p>`;
+    return;
+  }
+  listEl.innerHTML = "";
+  snap.forEach(docSnap => {
       const d = docSnap.data();
       const card = document.createElement("article");
       card.style.cssText = "background:#fff;border:1px solid #cdb892;border-radius:6px;padding:1rem;margin-bottom:1rem;display:grid;grid-template-columns:140px 1fr;gap:1rem;";
@@ -267,9 +281,6 @@ async function renderUploadsList(listEl) {
         </div>`;
       listEl.appendChild(card);
     });
-  } catch (err) {
-    listEl.innerHTML = `<p style="color:#a04040;">Couldn't load uploads: ${escapeHtml(err.message || err)}</p>`;
-  }
 }
 
 // ── admin review queue (rendered as full page when route = #/review) ─
@@ -551,6 +562,19 @@ function injectHeaderToolbar() {
   const bar = document.createElement("div");
   bar.id = "rft-header-toolbar";
   bar.style.cssText = "display:flex;gap:0.4rem;align-items:center;margin-inline-start:0.6rem;";
+
+  // Refresh button — reloads page (forces fresh data fetch with cache-bust)
+  const refresh = document.createElement("button");
+  refresh.id = "rft-refresh-btn";
+  refresh.innerHTML = "🔄";
+  refresh.title = "Refresh — pull the latest chat, people, places, documents from the archive";
+  refresh.style.cssText = "background:transparent;color:#6b1f1f;border:1.5px solid #6b1f1f;padding:0.35rem 0.55rem;border-radius:20px;font-size:0.95rem;cursor:pointer;font-family:Inter,sans-serif;line-height:1;";
+  refresh.onclick = () => {
+    refresh.innerHTML = "⏳";
+    refresh.disabled = true;
+    location.reload();
+  };
+  bar.appendChild(refresh);
 
   // Share button — always visible if Web Share API supported, else copy-to-clipboard
   const share = document.createElement("button");
