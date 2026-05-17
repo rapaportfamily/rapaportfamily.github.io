@@ -1,0 +1,29 @@
+rules_version = '2';
+
+// Storage rules for Rapaport Family Tree uploads.
+// See firestore.rules comment header for the security model.
+
+service firebase.storage {
+  match /b/{bucket}/o {
+
+    // Pending uploads — anyone signed in can write (gated upstream by magic link).
+    // Size limit 10 MB, only images and PDFs.
+    match /uploads/pending/{userSub}/{filename} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null
+                   && request.resource.size < 10 * 1024 * 1024
+                   && request.resource.contentType.matches('image/.*|application/pdf');
+    }
+
+    // Approved uploads — only admin client moves them here.
+    match /uploads/approved/{filename} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null;
+    }
+
+    // Default deny everything else.
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

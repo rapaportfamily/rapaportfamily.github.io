@@ -1,0 +1,17 @@
+{
+  "name": "Rapaport Family Tree",
+  "short_name": "Rapaport",
+  "description": "Private genealogy archive — Galicia to Brussels to Israel · 1888-2026",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f8f3e8",
+  "theme_color": "#6b1f1f",
+  "lang": "en",
+  "dir": "auto",
+  "icons": [
+    { "src": "assets/img/rapaport-coat-of-arms.jpg", "sizes": "600x616", "type": "image/jpeg", "purpose": "any" },
+    { "src": "assets/img/rapaport-coat-of-arms.jpg", "sizes": "600x616", "type": "image/jpeg", "purpose": "maskable" }
+  ]
+}

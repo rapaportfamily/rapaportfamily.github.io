@@ -133,9 +133,14 @@
     history.replaceState(null, "", cleanUrl);
   }
 
-  // Inject the actual app
+  // Inject the actual app + the upload feature module
   const s = document.createElement("script");
   s.type = "module";
   s.src = APP_SCRIPT_SRC;
   document.body.appendChild(s);
+
+  const u = document.createElement("script");
+  u.type = "module";
+  u.src = "assets/js/upload-feature.js";
+  document.body.appendChild(u);
 })();
