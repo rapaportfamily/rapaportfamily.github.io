@@ -1,8 +1,9 @@
 # RESEARCH LOG — Rapaport Family History
 
-**Last updated**: 17 May 2026
+**Last updated**: 17 May 2026 (CC research round 1 added — see `docs/research/_index.md`)
 **Maintainer**: Doron Rapaport
 **Researchers**: Basia (Poland), Kasia (France), Ms. Kasia (ŻIH Warsaw), Magda (connector), Doron, Dalia, Dana, Daniel
+**Automated research**: CC (Claude Code) using WebSearch + WebFetch; reports in `docs/research/`
 
 ---
 
