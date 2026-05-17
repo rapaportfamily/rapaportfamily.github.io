@@ -74,14 +74,19 @@ async function openUploadModal() {
     <button data-close style="background:none;border:none;font-size:1.5rem;cursor:pointer;color:#6b5440;">×</button>
   </div>
   <p style="font-size:0.85rem;color:#6b5440;margin:0 0 1rem;">
-    Uploading as <strong>${me.name}</strong>. Your photo + notes go to Doron's review queue.
+    Uploading as <strong>${me.name}</strong>. Your photo / chat export / document goes to Doron's review queue.
     Nothing appears in the public archive until Doron approves it.
   </p>
   <form id="rft-upload-form">
     <label style="display:block;margin-bottom:0.8rem;">
-      <span style="display:block;font-weight:600;margin-bottom:0.3rem;">Photo or PDF (max 10 MB)</span>
-      <input type="file" name="file" required accept="image/*,application/pdf" capture="environment"
+      <span style="display:block;font-weight:600;margin-bottom:0.3rem;">File (max 10 MB)</span>
+      <input type="file" name="file" required
+             accept="image/*,application/pdf,text/plain,.txt,application/zip,.zip"
+             capture="environment"
              style="width:100%;padding:0.5rem;border:1px solid #cdb892;border-radius:4px;background:#fff;" />
+      <span style="display:block;margin-top:0.35rem;font-size:0.78rem;color:#6b5440;">
+        📷 photo · 📄 PDF · 💬 <strong>WhatsApp chat export</strong> (.txt or .zip — share chat → "Export chat" → "Without media" or "Include media" → save the file → upload here)
+      </span>
     </label>
     <label style="display:block;margin-bottom:0.8rem;">
       <span style="display:block;font-weight:600;margin-bottom:0.3rem;">What is this?</span>
@@ -144,8 +149,19 @@ async function openUploadModal() {
       await uploadBytes(sref, file, { contentType: file.type });
       const url = await getDownloadURL(sref);
 
+      // Categorize: photo / pdf / chat-export / other.
+      // Chat exports get a special flag so CC's session-start protocol
+      // (see docs/CC_SESSION_PROTOCOL.md) processes them differently.
+      const lname = file.name.toLowerCase();
+      let kind = "other";
+      if ((file.type || "").startsWith("image/")) kind = "photo";
+      else if (file.type === "application/pdf" || lname.endsWith(".pdf")) kind = "pdf";
+      else if (lname.endsWith(".txt") || /whatsapp.*chat/i.test(file.name)) kind = "whatsapp_chat";
+      else if (lname.endsWith(".zip") || file.type === "application/zip") kind = "whatsapp_chat_archive";
+
       await addDoc(collection(db, "family_uploads"), {
         status: "pending",
+        kind: kind,
         title: (fd.get("title") || "").toString().trim(),
         notes: (fd.get("notes") || "").toString().trim(),
         person_id: fd.get("person_id") || null,
