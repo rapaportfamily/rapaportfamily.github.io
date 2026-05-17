@@ -236,7 +236,8 @@ export async function renderReview(root) {
             ${place ? `Place: <strong>${placeName(place)}</strong> · ` : ''}
             ${hyp ? `Q: <em>${escapeHtml(hyp.question?.en || hyp.id)}</em>` : ''}
           </div>
-          <div style="display:flex;gap:0.6rem;">
+          ${renderGeminiCard(d.gemini_verification)}
+          <div style="display:flex;gap:0.6rem;margin-top:0.7rem;">
             <button data-approve="${docSnap.id}" style="background:#3a6b3a;color:#fff;border:none;padding:0.5rem 1rem;border-radius:4px;cursor:pointer;font-weight:600;">✓ Approve</button>
             <button data-reject="${docSnap.id}" data-path="${d.file_path}" style="background:#a04040;color:#fff;border:none;padding:0.5rem 1rem;border-radius:4px;cursor:pointer;">✗ Reject &amp; delete</button>
           </div>
@@ -269,6 +270,30 @@ export async function renderReview(root) {
 
 function escapeHtml(s) {
   return String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
+}
+
+function renderGeminiCard(gv) {
+  if (!gv) return `<div style="background:#fff7e1;border:1px solid #d8c280;border-radius:4px;padding:0.55rem 0.7rem;font-size:0.82rem;color:#6b5440;">🤖 Gemini verification: <em>not yet started</em></div>`;
+  if (gv.status === "in_progress") return `<div style="background:#fff7e1;border:1px solid #d8c280;border-radius:4px;padding:0.55rem 0.7rem;font-size:0.82rem;color:#6b5440;">🤖 Gemini is verifying… (usually 10-30 seconds)</div>`;
+  if (gv.status === "error") return `<div style="background:#fde0e0;border:1px solid #a04040;border-radius:4px;padding:0.55rem 0.7rem;font-size:0.82rem;color:#6b1f1f;">🤖 Gemini error: ${escapeHtml(gv.error || 'unknown')}</div>`;
+  if (gv.status === "parse_error") return `<div style="background:#fde0e0;border:1px solid #a04040;border-radius:4px;padding:0.55rem 0.7rem;font-size:0.82rem;color:#6b1f1f;">🤖 Gemini returned malformed JSON. <details><summary>raw</summary><pre style="white-space:pre-wrap;font-size:0.75rem;">${escapeHtml(gv.raw_text || '')}</pre></details></div>`;
+  const r = gv.result || {};
+  const fmtList = (arr, render) => (arr && arr.length) ? `<ul style="margin:0.2rem 0 0.4rem 1rem;padding:0;">${arr.map(render).join("")}</ul>` : `<div style="color:#999;font-style:italic;font-size:0.8rem;">(none)</div>`;
+  return `
+<div style="background:#eef4ee;border:1px solid #8aab8a;border-radius:6px;padding:0.7rem 0.85rem;font-size:0.85rem;line-height:1.5;color:#1a3a1a;">
+  <div style="font-weight:700;margin-bottom:0.3rem;color:#2d5a2d;">🤖 Gemini says</div>
+  <div style="margin-bottom:0.5rem;font-style:italic;">${escapeHtml(r.what_it_is || '')}</div>
+
+  <div style="display:grid;grid-template-columns:1fr;gap:0.4rem;">
+    <div><strong style="color:#2d5a2d;">✓ Confirms:</strong>${fmtList(r.confirms, c => `<li>${escapeHtml(c.fact || '')} ${c.id_ref ? `<span style='color:#6b5440;'>(${escapeHtml(c.id_ref)})</span>` : ''}</li>`)}</div>
+    <div><strong style="color:#a04040;">✗ Contradicts:</strong>${fmtList(r.contradicts, c => `<li>${escapeHtml(c.fact || '')} ${c.id_ref ? `<span style='color:#6b5440;'>(${escapeHtml(c.id_ref)})</span>` : ''}${c.evidence ? `<br><small>evidence: ${escapeHtml(c.evidence)}</small>` : ''}</li>`)}</div>
+    <div><strong style="color:#2b1d10;">+ Adds:</strong>${fmtList(r.adds, a => `<li>${escapeHtml(a.claim || '')} <span style='color:#6b5440;'>[${escapeHtml(a.confidence || '')}]</span></li>`)}</div>
+    ${r.external_searches?.length ? `<div><strong>🌐 External sources:</strong>${fmtList(r.external_searches, s => `<li><a href="${escapeHtml(s.url || '#')}" target="_blank">${escapeHtml(s.url || '')}</a><br><small>"${escapeHtml(s.quote || '')}"</small></li>`)}</div>` : ''}
+    ${r.suggested_next_steps?.length ? `<div><strong>→ Next steps:</strong>${fmtList(r.suggested_next_steps, s => `<li>${escapeHtml(s)}</li>`)}</div>` : ''}
+    ${r.warnings?.length ? `<div style="background:#fff3cd;border:1px solid #d8c280;border-radius:3px;padding:0.3rem 0.5rem;"><strong>⚠ Warnings:</strong>${fmtList(r.warnings, w => `<li>${escapeHtml(w)}</li>`)}</div>` : ''}
+    ${r.overall_assessment ? `<div style="margin-top:0.3rem;padding-top:0.4rem;border-top:1px solid #8aab8a;"><strong>Overall:</strong> ${escapeHtml(r.overall_assessment)}</div>` : ''}
+  </div>
+</div>`;
 }
 
 // ── "Install as app" — auto-prompt after 30 seconds ──────────────

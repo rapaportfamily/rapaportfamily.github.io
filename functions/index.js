@@ -1,266 +1,222 @@
 /**
  * Rapaport Family Tree — Cloud Functions
  *
- * Reuses RPA-PORT Firebase project but with ft_* function prefix and family_*
- * Firestore collections. Strict isolation from business code.
+ * verifyUpload — Firestore trigger on family_uploads/{id} create
+ *   - Reads the upload + family research context
+ *   - Calls Gemini 2.5 Flash with Google Search grounding
+ *   - Asks Gemini to verify against the family story (confirms / contradicts / adds / suggested searches)
+ *   - Writes verification report back to the upload doc, so the admin review queue shows it
  *
- * Functions:
- *   - ft_translate_document    : HTTPS callable, 3-AI consensus translation
- *   - ft_research_assistant    : HTTPS callable, embedded AI Q&A
- *   - ft_audit_log_writer      : Firestore trigger, write audit entries
- *   - ft_seed_users            : HTTPS callable, admin-only, seed user custom claims
- *
- * CC: this is a stub. Fill in TODOs.
+ * The Gemini API key is stored as a Firebase secret (GEMINI_API_KEY) — never in source.
+ * Set with: firebase functions:secrets:set GEMINI_API_KEY
  */
 
-const functions = require("firebase-functions");
+const { onDocumentCreated } = require("firebase-functions/v2/firestore");
+const { setGlobalOptions } = require("firebase-functions/v2");
+const { defineSecret } = require("firebase-functions/params");
+const logger = require("firebase-functions/logger");
 const admin = require("firebase-admin");
+const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 admin.initializeApp();
-const db = admin.firestore();
+setGlobalOptions({ region: "us-central1" });
 
-// ───────────────────────────────────────────────────────────────────
-// Auth guards
-// ───────────────────────────────────────────────────────────────────
+const GEMINI_API_KEY = defineSecret("GEMINI_API_KEY");
 
-function requireFamilyAuth(context) {
-  if (!context.auth) {
-    throw new functions.https.HttpsError("unauthenticated", "Sign-in required");
-  }
-  if (context.auth.token.family !== true) {
-    throw new functions.https.HttpsError("permission-denied", "Not a family member");
-  }
-}
+// Public read URLs for the static research data (GitHub Pages)
+const SITE = "https://doronrpa-hub.github.io/rapaport-family-tree";
+const DATA_URLS = {
+  people:      `${SITE}/data/people.json`,
+  places:      `${SITE}/data/places.json`,
+  events:      `${SITE}/data/events.json`,
+  hypotheses:  `${SITE}/data/hypotheses.json`,
+  documents:   `${SITE}/data/documents.json`,
+};
 
-function requireFamilyRole(context, allowedRoles) {
-  requireFamilyAuth(context);
-  const role = context.auth.token.family_role;
-  if (!allowedRoles.includes(role)) {
-    throw new functions.https.HttpsError(
-      "permission-denied",
-      `Role required: ${allowedRoles.join(" or ")}; you have: ${role}`
-    );
-  }
-}
-
-// ───────────────────────────────────────────────────────────────────
-// ft_translate_document
-// ───────────────────────────────────────────────────────────────────
-
-exports.ft_translate_document = functions
-  .region("europe-west1")
-  .runWith({ timeoutSeconds: 540, memory: "1GB", secrets: ["ANTHROPIC_API_KEY", "GEMINI_API_KEY", "OPENAI_API_KEY"] })
-  .https.onCall(async (data, context) => {
-    requireFamilyAuth(context);
-
-    const { doc_id, target_lang, force_refresh = false } = data;
-    if (!doc_id || !target_lang) {
-      throw new functions.https.HttpsError("invalid-argument", "doc_id and target_lang required");
-    }
-    if (!["en", "he", "pl", "fr"].includes(target_lang)) {
-      throw new functions.https.HttpsError("invalid-argument", "target_lang must be en|he|pl|fr");
-    }
-
-    // Check cache
-    const cacheId = `${doc_id}_${target_lang}_consensus`;
-    const cacheRef = db.collection("family_translations").doc(cacheId);
-    if (!force_refresh) {
-      const cached = await cacheRef.get();
-      if (cached.exists) return cached.data();
-    }
-
-    // Load source document
-    const docRef = db.collection("family_documents").doc(doc_id);
-    const docSnap = await docRef.get();
-    if (!docSnap.exists) {
-      throw new functions.https.HttpsError("not-found", `Document not found: ${doc_id}`);
-    }
-    const doc = docSnap.data();
-
-    // Determine source text. Order of preference:
-    //   1. Existing translation in primary_language
-    //   2. decoded_fields stringified
-    //   3. Trigger OCR via ft_ocr_document (TODO)
-    let sourceText = null;
-    if (doc.translations?.[doc.primary_language]?.text) {
-      sourceText = doc.translations[doc.primary_language].text;
-    } else if (doc.decoded_fields) {
-      sourceText = JSON.stringify(doc.decoded_fields, null, 2);
-    } else {
-      throw new functions.https.HttpsError(
-        "failed-precondition",
-        `No source text for ${doc_id}. Run OCR first.`
-      );
-    }
-
-    // TODO(CC): Implement 3-AI consensus call.
-    // Pattern mirrors lib/ai_consensus.py from rpa-port-platform.
-    // Steps:
-    //   1. Build a translation prompt that preserves names, dates, places, archaic
-    //      spellings (Galician/Yiddish forms must NOT be modernized).
-    //   2. Call Claude opus-4-7, Gemini 2.5 Pro, GPT-4o in parallel.
-    //   3. Reconcile via majority-vote on tokens; flag divergences.
-    //   4. Return consensus + individual versions.
-    const translations = await tripleTranslate(sourceText, doc.primary_language, target_lang, doc);
-
-    // Persist
-    const result = {
-      id: cacheId,
-      doc_id,
-      target_lang,
-      version: "consensus",
-      individual_versions: translations.individual,
-      consensus_text: translations.consensus,
-      consensus_method: "majority_vote_with_name_preservation",
-      divergences: translations.divergences,
-      human_reviewed: false,
-      reviewer_uid: null,
-      cost_usd: translations.cost_usd,
-      created_at: admin.firestore.FieldValue.serverTimestamp(),
-      created_by: context.auth.uid,
-    };
-    await cacheRef.set(result);
-
-    // Audit
-    await db.collection("family_audit").add({
-      ts: admin.firestore.FieldValue.serverTimestamp(),
-      uid: context.auth.uid,
-      collection: "family_translations",
-      doc_id: cacheId,
-      action: "create",
-      summary: `3-AI consensus translation of ${doc_id} → ${target_lang}`,
-    });
-
-    return result;
-  });
-
-// TODO(CC): Implement this. Skeleton:
-async function tripleTranslate(sourceText, sourceLang, targetLang, docMeta) {
-  // const claudeResult = await callClaude(sourceText, sourceLang, targetLang, docMeta);
-  // const geminiResult = await callGemini(sourceText, sourceLang, targetLang, docMeta);
-  // const gptResult = await callGPT(sourceText, sourceLang, targetLang, docMeta);
-  // const consensus = reconcile([claudeResult, geminiResult, gptResult]);
-  // return { individual: {...}, consensus, divergences, cost_usd };
-
-  // PLACEHOLDER:
-  return {
-    individual: {
-      "claude-opus-4-7": { text: "TODO", ts: new Date().toISOString() },
-      "gemini-2.5-pro":  { text: "TODO", ts: new Date().toISOString() },
-      "gpt-4o":          { text: "TODO", ts: new Date().toISOString() },
-    },
-    consensus: "TODO: implement 3-AI consensus pipeline",
-    divergences: [],
-    cost_usd: 0.0,
-  };
-}
-
-// ───────────────────────────────────────────────────────────────────
-// ft_research_assistant
-// ───────────────────────────────────────────────────────────────────
-
-exports.ft_research_assistant = functions
-  .region("europe-west1")
-  .runWith({ timeoutSeconds: 300, memory: "512MB", secrets: ["ANTHROPIC_API_KEY"] })
-  .https.onCall(async (data, context) => {
-    requireFamilyAuth(context);
-
-    const { question, ui_lang = "en", conversation_history = [] } = data;
-    if (!question) {
-      throw new functions.https.HttpsError("invalid-argument", "question required");
-    }
-
-    // Load full corpus
-    const [people, places, events, documents, hypotheses] = await Promise.all([
-      db.collection("family_people").get(),
-      db.collection("family_places").get(),
-      db.collection("family_events").get(),
-      db.collection("family_documents").get(),
-      db.collection("family_hypotheses").get(),
-    ]);
-
-    const corpus = {
-      people: people.docs.map(d => d.data()),
-      places: places.docs.map(d => d.data()),
-      events: events.docs.map(d => d.data()),
-      documents: documents.docs.map(d => ({ ...d.data(), translations: undefined })), // skip translations to save tokens
-      hypotheses: hypotheses.docs.map(d => d.data()),
-    };
-
-    // TODO(CC): Call Claude opus-4-7 with system prompt + corpus + question.
-    // System prompt should enforce:
-    //  - Cite doc IDs inline for every claim
-    //  - Mark confidence: hypothesis where applicable
-    //  - Never invent facts
-    //  - Respond in ui_lang
-    const answer = `TODO: implement. Corpus loaded: ${corpus.people.length} people, ${corpus.events.length} events.`;
-
-    return { answer, ui_lang, sources_cited: [] };
-  });
-
-// ───────────────────────────────────────────────────────────────────
-// ft_audit_log_writer
-// ───────────────────────────────────────────────────────────────────
-
-// Note: actual audit writes happen in client code + functions above.
-// This trigger is a safety net — log any direct admin SDK writes that bypassed normal flow.
-exports.ft_audit_safety_net = functions
-  .region("europe-west1")
-  .firestore.document("family_{collection}/{docId}")
-  .onWrite(async (change, context) => {
-    const { collection, docId } = context.params;
-
-    // Skip the audit collection itself (would infinite loop)
-    if (collection === "audit") return null;
-
-    // Skip if this write came from a function that already audited
-    // (we can't distinguish reliably; rely on dedup by hash in actual audit collection)
-
-    // Just log presence — actual hashing happens in app code
-    return null;
-  });
-
-// ───────────────────────────────────────────────────────────────────
-// ft_seed_users (admin-only setup)
-// ───────────────────────────────────────────────────────────────────
-
-exports.ft_seed_users = functions
-  .region("europe-west1")
-  .https.onCall(async (data, context) => {
-    requireFamilyRole(context, ["admin"]);
-
-    const { email, role = "viewer", display_name, languages_preferred = ["en"] } = data;
-    if (!email) {
-      throw new functions.https.HttpsError("invalid-argument", "email required");
-    }
-    if (!["admin", "reviewer", "researcher", "viewer"].includes(role)) {
-      throw new functions.https.HttpsError("invalid-argument", "invalid role");
-    }
-
-    // Get or create user
-    let user;
+async function loadFamilyContext() {
+  const ctx = {};
+  for (const [key, url] of Object.entries(DATA_URLS)) {
     try {
-      user = await admin.auth().getUserByEmail(email);
+      const r = await fetch(url);
+      ctx[key] = await r.json();
     } catch (e) {
-      user = await admin.auth().createUser({ email, displayName: display_name });
+      logger.warn(`Failed to load ${key}: ${e.message}`);
+      ctx[key] = null;
+    }
+  }
+  return ctx;
+}
+
+function summarizeContext(ctx) {
+  // Compact, model-friendly summary — full JSON would burn tokens.
+  const people = (ctx.people?.people || []).map(p => ({
+    id: p.id,
+    name: p.primary_name?.en || p.id,
+    birth: p.birth?.date,
+    birth_place: p.birth?.place_id,
+    role: p.role,
+    note: p.note_en,
+    facts: (p.facts || []).map(f => `${f.key}: ${f.value} (${f.confidence})`),
+  }));
+  const places = (ctx.places?.places || []).map(p => ({
+    id: p.id,
+    names: p.primary_name || p.names,
+    note: p.notes_en,
+  }));
+  const events = (ctx.events?.events || []).map(e => ({
+    id: e.id, date: e.date, type: e.type, title: e.title,
+  }));
+  const hypotheses = (ctx.hypotheses?.hypotheses || []).map(h => ({
+    id: h.id,
+    question: h.question?.en,
+    status: h.status,
+    context: h.context,
+    candidates: (h.candidates || []).map(c => c.label),
+  }));
+  return { people, places, events, hypotheses };
+}
+
+const SYSTEM_PROMPT = `You are a careful Jewish genealogy researcher assisting the Rapaport family.
+Their research story is about David Mendel Rapaport (b. 25 Dec 1911, Nadworna, Galicia; forestry engineer; survived the Holocaust; reached Brussels Apr 1946; transported to Israel via Cyprus camps) and his wife Leah nee Weitzner (b. 1913 or 1916, Bolechow). Their son Dov Rapaport was born Brussels 1946 - for whom this archive is an 80th-birthday gift.
+
+DOCTRINE (mandatory):
+1. NEVER invent facts. Every claim must trace to a primary source you can cite, or be explicitly labeled as hypothesis.
+2. ELIMINATION IS KING - for any candidate, list what would have to be false for it to hold.
+3. CITE SOURCES - when you use Google Search to corroborate, name the URL and quote the verbatim sentence.
+4. RESPECT what is already CONFIRMED in the family data (do not try to overturn primary documents).
+5. Output STRUCTURED JSON only. No prose outside JSON.
+
+YOUR TASK:
+You will receive (a) the family data summary and (b) a new upload (file + uploader notes).
+Read the upload carefully. Use Google Search to find external corroborating or contradicting evidence.
+Then return a single JSON object with EXACTLY these fields:
+
+{
+  "what_it_is": "1-sentence factual description of the upload (in English)",
+  "confirms": [ { "fact": "existing family-data fact this confirms", "id_ref": "person/place/event/hypothesis id" } ],
+  "contradicts": [ { "fact": "existing family-data fact this contradicts", "id_ref": "...", "evidence": "what in the upload contradicts it" } ],
+  "adds": [ { "claim": "new fact this upload adds", "confidence": "documented | hypothesis | family_oral", "related_id": "id of related person/place/event if any" } ],
+  "external_searches": [ { "query": "what you searched", "url": "result URL", "quote": "verbatim quote from result", "relevance": "how this relates" } ],
+  "suggested_next_steps": [ "what Doron should do next based on this" ],
+  "overall_assessment": "1-2 sentences: is this upload trustworthy? does it move the research forward?",
+  "warnings": [ "any red flag - e.g. possibly fake, mis-attributed, low quality scan" ]
+}
+
+Return ONLY the JSON object. Do not wrap in markdown fences. Do not add commentary.`;
+
+async function callGemini(upload, contextSummary, fileBytes, fileMime) {
+  const genAI = new GoogleGenerativeAI(GEMINI_API_KEY.value());
+  const model = genAI.getGenerativeModel({
+    model: "gemini-2.5-flash",
+    tools: [{ googleSearch: {} }],
+    systemInstruction: SYSTEM_PROMPT,
+  });
+
+  const userParts = [
+    { text: `FAMILY DATA SUMMARY (compact):\n${JSON.stringify(contextSummary, null, 2)}\n\n` },
+    { text: `NEW UPLOAD:\n` +
+            `- uploader: ${upload.uploader_name} (${upload.uploader_role})\n` +
+            `- kind: ${upload.kind}\n` +
+            `- title: ${upload.title || "(no title)"}\n` +
+            `- notes: ${upload.notes || "(no notes)"}\n` +
+            `- file name: ${upload.file_name}\n` +
+            `- file type: ${upload.file_type}\n` +
+            `- related person_id (uploader said): ${upload.person_id || "none"}\n` +
+            `- related place_id: ${upload.place_id || "none"}\n` +
+            `- related hypothesis_id: ${upload.hypothesis_id || "none"}\n\n` +
+            `Now verify this upload against the family story. Return the JSON object.` },
+  ];
+
+  // Attach the file (image or text) if we have bytes
+  if (fileBytes && fileMime) {
+    const supported = /^image\/(jpeg|png|webp|heic|heif)$|^application\/pdf$|^text\/plain$/.test(fileMime);
+    if (supported) {
+      userParts.push({
+        inlineData: { mimeType: fileMime, data: fileBytes.toString("base64") },
+      });
+    }
+  }
+
+  const result = await model.generateContent({
+    contents: [{ role: "user", parts: userParts }],
+  });
+  return result.response.text();
+}
+
+function safeParseJSON(text) {
+  // Gemini sometimes wraps in ```json ... ``` despite instructions - strip it
+  const cleaned = text
+    .replace(/^```(?:json)?\s*/i, "")
+    .replace(/\s*```\s*$/, "")
+    .trim();
+  try {
+    return { json: JSON.parse(cleaned), error: null };
+  } catch (e) {
+    // Fallback: try to find the largest {...} block
+    const m = cleaned.match(/\{[\s\S]*\}/);
+    if (m) {
+      try { return { json: JSON.parse(m[0]), error: null }; } catch (e2) { /* fallthrough */ }
+    }
+    return { json: null, error: e.message, raw: cleaned.slice(0, 4000) };
+  }
+}
+
+exports.verifyUpload = onDocumentCreated(
+  { document: "family_uploads/{uploadId}", secrets: [GEMINI_API_KEY], memory: "1GiB", timeoutSeconds: 120 },
+  async (event) => {
+    const snap = event.data;
+    if (!snap) return;
+    const upload = snap.data();
+    const ref = snap.ref;
+
+    if (upload.status !== "pending") {
+      logger.info(`Skip ${event.params.uploadId} - status is ${upload.status}`);
+      return;
     }
 
-    // Set custom claims
-    await admin.auth().setCustomUserClaims(user.uid, {
-      family: true,
-      family_role: role,
+    await ref.update({
+      gemini_verification: { status: "in_progress", started_at: admin.firestore.FieldValue.serverTimestamp() },
     });
 
-    // Persist in family_users
-    await db.collection("family_users").doc(user.uid).set({
-      uid: user.uid,
-      email,
-      display_name: display_name || email,
-      role,
-      languages_preferred,
-      added_at: admin.firestore.FieldValue.serverTimestamp(),
-      added_by: context.auth.uid,
-    }, { merge: true });
+    try {
+      const ctx = await loadFamilyContext();
+      const summary = summarizeContext(ctx);
 
-    return { uid: user.uid, email, role };
-  });
+      // Download the uploaded file (small files inline; skip huge ones)
+      let fileBytes = null;
+      const fileSize = upload.file_size || 0;
+      if (upload.file_url && fileSize < 8 * 1024 * 1024) {
+        try {
+          const r = await fetch(upload.file_url);
+          if (r.ok) fileBytes = Buffer.from(await r.arrayBuffer());
+        } catch (e) {
+          logger.warn(`Failed to fetch file: ${e.message}`);
+        }
+      }
+
+      const rawText = await callGemini(upload, summary, fileBytes, upload.file_type);
+      const parsed = safeParseJSON(rawText);
+
+      await ref.update({
+        gemini_verification: {
+          status: parsed.error ? "parse_error" : "done",
+          model: "gemini-2.5-flash",
+          completed_at: admin.firestore.FieldValue.serverTimestamp(),
+          result: parsed.json || null,
+          parse_error: parsed.error || null,
+          raw_text: parsed.error ? parsed.raw : null,
+        },
+      });
+      logger.info(`Verified ${event.params.uploadId} - ${parsed.error ? "PARSE ERROR" : "OK"}`);
+    } catch (e) {
+      logger.error(`verifyUpload failed: ${e.stack || e.message}`);
+      await ref.update({
+        gemini_verification: {
+          status: "error",
+          error: e.message,
+          completed_at: admin.firestore.FieldValue.serverTimestamp(),
+        },
+      });
+    }
+  }
+);
