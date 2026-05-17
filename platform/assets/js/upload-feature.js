@@ -74,8 +74,10 @@ async function openUploadModal() {
     <button data-close style="background:none;border:none;font-size:1.5rem;cursor:pointer;color:#6b5440;">×</button>
   </div>
   <p style="font-size:0.85rem;color:#6b5440;margin:0 0 1rem;">
-    Uploading as <strong>${me.name}</strong>. Your photo / chat export / document goes to Doron's review queue.
-    Nothing appears in the public archive until Doron approves it.
+    Uploading as <strong>${me.name}</strong>. Your file is processed in 3 steps:
+    <span style="display:inline-block;background:#fff;padding:0.15rem 0.5rem;border-radius:3px;margin:0.1rem;">1️⃣ Sent to family archive</span>
+    <span style="display:inline-block;background:#fff;padding:0.15rem 0.5rem;border-radius:3px;margin:0.1rem;">2️⃣ 🤖 Gemini auto-verifies (Google Search + AI cross-check)</span>
+    <span style="display:inline-block;background:#fff;padding:0.15rem 0.5rem;border-radius:3px;margin:0.1rem;">3️⃣ Appears in <strong>Documents</strong> view for everyone</span>
   </p>
   <form id="rft-upload-form">
     <label style="display:block;margin-bottom:0.8rem;">
@@ -178,15 +180,96 @@ async function openUploadModal() {
         created_at: serverTimestamp(),
       });
 
-      status.textContent = "✓ Sent! Doron will review it.";
+      status.innerHTML = '✓ Sent! 🤖 Gemini is now verifying — check the <strong>Documents</strong> view in ~30 seconds.';
       btn.style.background = "#3a6b3a";
-      setTimeout(() => ov.remove(), 1800);
+      setTimeout(() => ov.remove(), 2500);
     } catch (err) {
       console.error(err);
       status.textContent = "Upload failed: " + (err.message || err);
       btn.disabled = false; btn.textContent = "Send to Doron";
     }
   };
+}
+
+// ── Documents view augmentation — show all family-circle uploads with Gemini verification ─
+let _uploadsListener = null;
+async function maybeAugmentDocumentsView() {
+  if (!ME()) return;
+  const hash = (location.hash || "").replace(/^#\//, "").split("/")[0];
+  if (hash !== "documents" && hash !== "" && hash !== "home") return;
+
+  const root = document.getElementById("view");
+  if (!root) return;
+  // If we're not on the documents view, bail
+  if (hash !== "documents") return;
+
+  // Don't double-inject
+  if (root.querySelector("#rft-uploads-section")) return;
+
+  await loadEntities();
+  await ensureFirebaseAuth();
+
+  const section = document.createElement("section");
+  section.id = "rft-uploads-section";
+  section.style.cssText = "margin-top:3rem;padding-top:1.5rem;border-top:2px solid #cdb892;";
+  section.innerHTML = `
+    <h2 style="font-family:Georgia,serif;color:#6b1f1f;margin:0 0 0.3rem;">📁 Family circle uploads</h2>
+    <p style="color:#6b5440;font-size:0.9rem;margin:0 0 1rem;">
+      Documents and findings submitted by the research circle. Each is auto-verified by Gemini against the family story.
+    </p>
+    <div id="rft-uploads-list"><em style="color:#6b5440;">Loading…</em></div>`;
+  root.appendChild(section);
+
+  await renderUploadsList(section.querySelector("#rft-uploads-list"));
+}
+
+async function renderUploadsList(listEl) {
+  try {
+    const q = query(collection(db, "family_uploads"), orderBy("created_at", "desc"));
+    const snap = await getDocs(q);
+    if (snap.empty) {
+      listEl.innerHTML = `<p style="color:#6b5440;font-style:italic;">No uploads yet. Tap the 📷 Add finding button to be the first.</p>`;
+      return;
+    }
+    listEl.innerHTML = "";
+    snap.forEach(docSnap => {
+      const d = docSnap.data();
+      const card = document.createElement("article");
+      card.style.cssText = "background:#fff;border:1px solid #cdb892;border-radius:6px;padding:1rem;margin-bottom:1rem;display:grid;grid-template-columns:140px 1fr;gap:1rem;";
+      const isImage = (d.file_type || "").startsWith("image/");
+      const person = _peopleCache.find(p => p.id === d.person_id);
+      const place = _placesCache.find(p => p.id === d.place_id);
+      const hyp = _hypCache.find(h => h.id === d.hypothesis_id);
+      const statusBadge = {
+        pending:  '<span style="background:#fff7e1;color:#8a6d20;padding:0.15rem 0.45rem;border-radius:3px;font-size:0.72rem;font-weight:600;">PENDING REVIEW</span>',
+        approved: '<span style="background:#e2efe2;color:#2d5a2d;padding:0.15rem 0.45rem;border-radius:3px;font-size:0.72rem;font-weight:600;">APPROVED</span>',
+        rejected: '<span style="background:#fde0e0;color:#a04040;padding:0.15rem 0.45rem;border-radius:3px;font-size:0.72rem;font-weight:600;">REJECTED</span>',
+      }[d.status] || '';
+      card.innerHTML = `
+        <div>
+          ${isImage
+            ? `<a href="${d.file_url}" target="_blank"><img src="${d.file_url}" style="width:140px;height:140px;object-fit:cover;border-radius:4px;border:1px solid #cdb892;" /></a>`
+            : `<a href="${d.file_url}" target="_blank" style="display:flex;align-items:center;justify-content:center;width:140px;height:140px;background:#f0e4cf;border-radius:4px;border:1px solid #cdb892;text-align:center;padding:0.5rem;font-size:0.75rem;line-height:1.3;color:#6b1f1f;text-decoration:none;">📄<br>${escapeHtml(d.file_name || 'file')}</a>`}
+        </div>
+        <div>
+          <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:0.5rem;margin-bottom:0.3rem;">
+            <div style="font-weight:700;color:#2b1d10;font-family:Georgia,serif;font-size:1.05rem;">${escapeHtml(d.title || '(untitled)')}</div>
+            ${statusBadge}
+          </div>
+          <div style="font-size:0.82rem;color:#6b5440;margin-bottom:0.3rem;">From <strong>${escapeHtml(d.uploader_name || 'unknown')}</strong>${d.created_at?.toDate ? ' · ' + d.created_at.toDate().toLocaleString() : ''}</div>
+          ${d.notes ? `<div style="margin:0.5rem 0;color:#2b1d10;font-style:italic;">"${escapeHtml(d.notes)}"</div>` : ''}
+          <div style="font-size:0.8rem;color:#6b5440;margin-bottom:0.6rem;">
+            ${person ? `Person: <strong>${nameOf(person)}</strong> · ` : ''}
+            ${place ? `Place: <strong>${placeName(place)}</strong> · ` : ''}
+            ${hyp ? `Q: <em>${escapeHtml(hyp.question?.en || hyp.id)}</em>` : ''}
+          </div>
+          ${renderGeminiCard(d.gemini_verification)}
+        </div>`;
+      listEl.appendChild(card);
+    });
+  } catch (err) {
+    listEl.innerHTML = `<p style="color:#a04040;">Couldn't load uploads: ${escapeHtml(err.message || err)}</p>`;
+  }
 }
 
 // ── admin review queue (rendered as full page when route = #/review) ─
@@ -550,6 +633,10 @@ function boot() {
     if (hash === "review") {
       const root = document.getElementById("view");
       if (root) renderReview(root);
+    } else if (hash === "documents" || hash === "" || hash === "home") {
+      // Augment Documents view with family-circle uploads (everyone, with Gemini verification cards).
+      // Give the SPA a moment to finish its own render.
+      setTimeout(maybeAugmentDocumentsView, 250);
     }
   }
   window.addEventListener("hashchange", maybeRender);
