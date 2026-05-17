@@ -25,6 +25,8 @@
 | D7 | Physical deliverables for the party | (a) A2 framed tree poster only (b) A2 + printed photo book (c) A2 + book + 5-min MP4 reveal video | (b) | Order by 1 August |
 | D8 | Public visibility after 28 Aug | (a) Stay private (family-only) forever (b) Open to extended Rapaport cousins via Rapaport Research Institute graph (c) Open public-read, signed-in for editing | (a), revisit in September | After reveal |
 | D9 | Backup retention | (a) 90 days rolling + quarterly snapshots 5y (b) Forever (it's family heritage) (c) Custom | (b) for the frozen 1 Aug snapshot, (a) for live data | Before first deploy |
+| D10 | How to deploy family Cloud Functions alongside RPA-PORT Python functions in the same Firebase project | (a) Set `"codebase": "family"` in family-tree `firebase.json`; deploy with `firebase deploy --only functions:family` — same project, isolated codebase, no business-code changes (b) Move family `functions/` into `rpa-port-platform/functions-family/` and deploy as a second codebase from RCB repo (c) Separate Firebase project entirely (`rpa-port-family`) for cleanest isolation | **(a)** — minimal change, the `family_*` collection prefix + `ft_*` function prefix + `codebase: "family"` give 3 layers of isolation without touching RCB | Before WO-0 deploy step |
+| D11 | Firebase project ID for deployment | (a) `rpa-port-customs` — current live RCB project (memory confirms) (b) `rpa-port-prod` — what `README.md` and `ASSIGNMENT_FOR_CC.md` say (likely a CAI typo) (c) Different project altogether | **(a)** — README needs a one-line fix | Before any `firebase use` |
 
 ---
 

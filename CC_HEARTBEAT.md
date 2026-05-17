@@ -57,3 +57,51 @@ $0 — all built in CAI conversation. CC's first work order should also be near-
 **Cost this session**: $X.XX
 
 -->
+
+## Session 1 — WO-0 bootstrap (repo + initial commit + audit)
+**Date**: 2026-05-17
+**WOs touched**: WO-0
+**Author**: CC (home PC, Opus 4.7)
+
+**What got done**:
+- Created private repo `doronrpa-hub/rapaport-family-tree` via `gh repo create`
+- Extracted both handoff zips (`rapaport-family-tree.zip` + `rapaport-handoff-docs.zip`), merged into flat repo root (stripped `familytree/` wrapper)
+- Initial commit + push to `main` — 67 files, includes 30 source-document scans (~13 MB)
+- Audited the handoff against `rpa-port-platform/firebase.json` — found 2 blocking issues for Doron (D10, D11)
+
+**Evidence**:
+- Repo: https://github.com/doronrpa-hub/rapaport-family-tree
+- Initial commit pushed cleanly (`git push -u origin main` succeeded, branch tracking set)
+- Working tree: `C:\Users\User\rapaport-family-tree\` (on Doron's home PC)
+
+**WO-0 status — what I could NOT do autonomously, needs Doron**:
+| Step | Why blocked |
+|---|---|
+| `firebase init` against rpa-port project | Interactive prompts (`firebase login`, project picker); also overwrites existing `firebase.json` |
+| Create hosting site `rapaport-family` | `firebase hosting:sites:create rapaport-family` — Doron needs to run from a logged-in shell |
+| Deploy hosting-only to verify routing | Depends on the two above |
+| Apply Firestore rules to live project | Per warning in `firestore.rules` lines 104-111, family rules must be MERGED into `rpa-port-platform/firestore.rules` before deploy — deploying this file standalone leaves business collections rule-less. See D11. |
+| Custom domain `rpa-port.family` | Cloudflare Registrar work — Doron's account |
+
+**Commands Doron should run from `rpa-port-platform/` shell** (after resolving D10 + D11):
+```bash
+# (1) Confirm project ID
+firebase use rpa-port-customs    # NOT rpa-port-prod (README typo, see D11)
+
+# (2) Create the hosting site
+firebase hosting:sites:create rapaport-family
+firebase target:apply hosting rapaport-family rapaport-family
+
+# (3) Deploy hosting only (from rapaport-family-tree/ working dir)
+cd C:\Users\User\rapaport-family-tree
+firebase deploy --only hosting:rapaport-family
+```
+
+**Next session (WO-0 wrap + WO-1)**:
+- After Doron unblocks D10/D11: verify hosting URL serves the SPA correctly in 4 languages with RTL flip
+- Begin WO-1: complete `scripts/migrate_to_firestore.py` and run idempotent migration of the 7 JSON seed files to `family_*` collections
+- Wire a one-shot test against Firebase emulator before touching prod
+
+**Decisions needed from Doron**: D10, D11 added to `docs/DECISIONS_FOR_DORON.md` (functions codebase collision; project ID typo confirmation)
+
+**Cost this session**: $0.00 — no LLM API calls; only file ops, `gh` API, and git pushes.
