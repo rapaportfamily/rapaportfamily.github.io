@@ -11,6 +11,7 @@
 | D1 | Domain | **`rpa-port.family`** (register .family TLD) | 17 May 2026 | Doron | Use Cloudflare Registrar. Point to Firebase Hosting (rapaport-family site). Add to allowed redirects. |
 | D3 | Dov Bernard access timing | **Wait until 28 August 2026** | 17 May 2026 | Doron | Create his Firebase Auth account now, role=viewer, but set `family_users.{uid}.enabled = false`. Flip manually on the morning of his birthday. The platform is a surprise. |
 | D5 | Monthly API budget cap | **$30 USD / month hard cap** | 17 May 2026 | Doron | Implement a cost meter (see WO-13 below). Auto-disable LLM endpoints once month spend ≥ $30. Doron's admin UID bypasses the cap for emergencies. |
+| D10 | Family Cloud Functions deployment | **(c) Separate Firebase project entirely** | 17 May 2026 | Doron | Totally separated from RPA-PORT business. New Firebase project `rapaport-family` (or similar). No shared rules, no shared functions, no shared collections — full hard isolation. Native app possible after screens are done. |
 | TARGET | Reveal date | **28 August 2026** (Dov Bernard's 80th birthday) | 17 May 2026 | Doron | Frozen snapshot must be taken before this date. |
 
 ---
@@ -25,8 +26,9 @@
 | D7 | Physical deliverables for the party | (a) A2 framed tree poster only (b) A2 + printed photo book (c) A2 + book + 5-min MP4 reveal video | (b) | Order by 1 August |
 | D8 | Public visibility after 28 Aug | (a) Stay private (family-only) forever (b) Open to extended Rapaport cousins via Rapaport Research Institute graph (c) Open public-read, signed-in for editing | (a), revisit in September | After reveal |
 | D9 | Backup retention | (a) 90 days rolling + quarterly snapshots 5y (b) Forever (it's family heritage) (c) Custom | (b) for the frozen 1 Aug snapshot, (a) for live data | Before first deploy |
-| D10 | How to deploy family Cloud Functions alongside RPA-PORT Python functions in the same Firebase project | (a) Set `"codebase": "family"` in family-tree `firebase.json`; deploy with `firebase deploy --only functions:family` — same project, isolated codebase, no business-code changes (b) Move family `functions/` into `rpa-port-platform/functions-family/` and deploy as a second codebase from RCB repo (c) Separate Firebase project entirely (`rpa-port-family`) for cleanest isolation | **(a)** — minimal change, the `family_*` collection prefix + `ft_*` function prefix + `codebase: "family"` give 3 layers of isolation without touching RCB | Before WO-0 deploy step |
-| D11 | Firebase project ID for deployment | (a) `rpa-port-customs` — current live RCB project (memory confirms) (b) `rpa-port-prod` — what `README.md` and `ASSIGNMENT_FOR_CC.md` say (likely a CAI typo) (c) Different project altogether | **(a)** — README needs a one-line fix | Before any `firebase use` |
+<!-- D10 resolved (c), see Resolved table. D11 obsoleted by D10 — new project, not rpa-port-customs. -->
+| D12 | Documents storage strategy | (a) Firebase Hosting static (current — 30 files committed to git) (b) Firestore-as-link store (file metadata in `family_documents`, files in Cloud Storage, URLs in Firestore) — matches "links from Firestore" pattern used elsewhere | **(b)** per Doron's direction "links can be from Firestore as we did for other things" | Before WO-2 |
+| D13 | Native app | (a) Web-only forever (b) Add native app (React Native / Capacitor) after screens done — defer until after Aug 28 reveal | **(a) until reveal, then (b)** per Doron "we can even make an app after we finish the screens" | After 28 Aug 2026 |
 
 ---
 
