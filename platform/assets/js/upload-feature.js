@@ -255,94 +255,102 @@ function escapeHtml(s) {
   return String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
 }
 
-// ── "Install as app" affordance ────────────────────────────────────
-// On Android/Chrome: catches beforeinstallprompt → shows a button → triggers native install
-// On iOS Safari: shows a one-time hint banner ("Share → Add to Home Screen")
+// ── "Install as app" — auto-prompt after 30 seconds ──────────────
+// Shows a center-screen modal asking to install. If the browser supports the
+// native beforeinstallprompt event (Android Chrome), tapping "Install" fires
+// the system install dialog. Otherwise (iOS Safari, or Chrome that suppressed
+// the event), we show explicit step-by-step instructions for that device.
 let _installPromptEvent = null;
+
 function setupInstallButton() {
-  // If already installed (running standalone), don't show
+  // If already installed (running standalone), don't ask
   if (window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone) return;
-  if (sessionStorage.getItem("rft.install.dismissed")) return;
+  // Don't pester again in the same browser within 24h
+  const dismissed = parseInt(localStorage.getItem("rft.install.dismissed_at") || "0", 10);
+  if (dismissed && Date.now() - dismissed < 24 * 60 * 60 * 1000) return;
 
-  // iOS Safari detection (Apple has no beforeinstallprompt; needs manual hint)
-  const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-  const isSafari = /^((?!chrome|android|crios|fxios).)*safari/i.test(navigator.userAgent);
-
-  if (isIOS && isSafari) {
-    showInstallBanner('📱 Install this as an app: tap <strong>Share</strong> at the bottom, then <strong>"Add to Home Screen"</strong>.');
-    return;
-  }
-
-  // Fallback hint — always available via the FAB long-press menu OR if
-  // beforeinstallprompt doesn't fire within 4s, show a manual hint.
-  // This catches desktop Chrome (no auto-banner) and Android Chrome cases
-  // where Chrome suppresses the auto-prompt.
-  const fallbackTimer = setTimeout(() => {
-    if (_installPromptEvent) return; // native flow already triggered
-    showInstallBanner(
-      '📱 To install as an app: open your browser menu (⋮) and tap <strong>"Install app"</strong> or <strong>"Add to Home Screen"</strong>.',
-    );
-  }, 4000);
-
-  // Android / Chrome / Edge: wait for beforeinstallprompt
+  // Capture native install event if/when it fires (Android Chrome / Edge)
   window.addEventListener("beforeinstallprompt", (e) => {
-    clearTimeout(fallbackTimer);
     e.preventDefault();
     _installPromptEvent = e;
-    showInstallBanner(
-      '📱 Install this as an app on your home screen?',
-      [
-        { label: "Install", primary: true, action: async () => {
-          if (!_installPromptEvent) return;
-          _installPromptEvent.prompt();
-          await _installPromptEvent.userChoice;
-          _installPromptEvent = null;
-          document.getElementById("rft-install-banner")?.remove();
-        }},
-        { label: "Not now", action: () => {
-          sessionStorage.setItem("rft.install.dismissed", "1");
-          document.getElementById("rft-install-banner")?.remove();
-        }}
-      ]
-    );
   });
+
+  // After 30 seconds on the page, ask the user
+  setTimeout(showInstallModal, 30000);
 }
 
-function showInstallBanner(html, buttons) {
-  if (document.getElementById("rft-install-banner")) return;
-  const b = document.createElement("div");
-  b.id = "rft-install-banner";
-  Object.assign(b.style, {
-    position: "fixed", bottom: "5.5rem", left: "1rem", right: "1rem", zIndex: 49,
-    background: "#2b1d10", color: "#f8f3e8", padding: "0.85rem 1rem", borderRadius: "8px",
-    fontFamily: "Inter, sans-serif", fontSize: "0.9rem", lineHeight: "1.4",
-    boxShadow: "0 4px 14px rgba(0,0,0,0.3)", display: "flex",
-    alignItems: "center", justifyContent: "space-between", gap: "0.6rem", flexWrap: "wrap",
-  });
-  const text = document.createElement("div");
-  text.innerHTML = html;
-  text.style.flex = "1 1 200px";
-  b.appendChild(text);
+function showInstallModal() {
+  if (document.getElementById("rft-install-modal")) return;
+  if (window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone) return;
 
-  if (buttons && buttons.length) {
-    const wrap = document.createElement("div");
-    wrap.style.cssText = "display:flex;gap:0.4rem;";
-    buttons.forEach(({ label, primary, action }) => {
-      const btn = document.createElement("button");
-      btn.textContent = label;
-      btn.style.cssText = `border:none;padding:0.45rem 0.8rem;border-radius:4px;cursor:pointer;font-weight:600;font-size:0.85rem;${primary ? 'background:#6b1f1f;color:#f8f3e8;' : 'background:transparent;color:#f8f3e8;border:1px solid #f8f3e8;'}`;
-      btn.onclick = action;
-      wrap.appendChild(btn);
-    });
-    b.appendChild(wrap);
+  const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+  const isSafari = /^((?!chrome|android|crios|fxios).)*safari/i.test(navigator.userAgent);
+  const isAndroid = /Android/i.test(navigator.userAgent);
+
+  const ov = document.createElement("div");
+  ov.id = "rft-install-modal";
+  Object.assign(ov.style, {
+    position: "fixed", inset: 0, background: "rgba(0,0,0,0.7)", zIndex: 200,
+    display: "flex", alignItems: "center", justifyContent: "center", padding: "1.5rem",
+  });
+  ov.innerHTML = `
+<div style="background:#f8f3e8;max-width:420px;width:100%;padding:1.8rem 1.5rem;border-radius:10px;font-family:Inter,sans-serif;text-align:center;box-shadow:0 8px 32px rgba(0,0,0,0.4);">
+  <img src="assets/img/rapaport-coat-of-arms.jpg" alt="" style="width:80px;height:80px;object-fit:contain;border-radius:6px;margin-bottom:1rem;" />
+  <h2 style="margin:0 0 0.6rem;color:#6b1f1f;font-family:Georgia,serif;font-size:1.3rem;">Install on your home screen?</h2>
+  <p style="margin:0 0 1.2rem;color:#2b1d10;line-height:1.5;font-size:0.95rem;">
+    The Rapaport family archive can live on your home screen like a real app — one tap to open, no browser bars, stays signed in.
+  </p>
+  <div id="rft-install-body"></div>
+  <button id="rft-install-not-now" style="margin-top:1rem;background:transparent;border:none;color:#6b5440;font-size:0.85rem;cursor:pointer;text-decoration:underline;">Not now</button>
+</div>`;
+  document.body.appendChild(ov);
+
+  const body = ov.querySelector("#rft-install-body");
+  const close = () => { localStorage.setItem("rft.install.dismissed_at", String(Date.now())); ov.remove(); };
+  ov.querySelector("#rft-install-not-now").onclick = close;
+  ov.onclick = (e) => { if (e.target === ov) close(); };
+
+  if (_installPromptEvent) {
+    // Native install (Android Chrome / Edge / desktop Chrome) — one tap
+    const btn = document.createElement("button");
+    btn.textContent = "📲  Install app";
+    btn.style.cssText = "width:100%;background:#6b1f1f;color:#f8f3e8;border:none;padding:0.9rem 1rem;border-radius:6px;font-weight:700;font-size:1rem;cursor:pointer;";
+    btn.onclick = async () => {
+      _installPromptEvent.prompt();
+      const { outcome } = await _installPromptEvent.userChoice;
+      _installPromptEvent = null;
+      close();
+      if (outcome === "accepted") setTimeout(() => alert("Installed! Check your home screen for the Rapaport icon."), 300);
+    };
+    body.appendChild(btn);
+  } else if (isAndroid) {
+    // Android Chrome but no event — show explicit menu steps
+    body.innerHTML = `
+<div style="background:#fff;border:1px solid #cdb892;border-radius:6px;padding:1rem;text-align:left;font-size:0.95rem;line-height:1.6;color:#2b1d10;">
+  <strong>Two taps from your Chrome menu:</strong>
+  <ol style="padding-left:1.4rem;margin:0.6rem 0 0;">
+    <li>Tap the <strong>⋮</strong> menu (top-right of Chrome)</li>
+    <li>Tap <strong>"Install app"</strong> or <strong>"Add to Home screen"</strong></li>
+  </ol>
+</div>`;
+  } else if (isIOS && isSafari) {
+    // iOS Safari — explicit Share-button steps
+    body.innerHTML = `
+<div style="background:#fff;border:1px solid #cdb892;border-radius:6px;padding:1rem;text-align:left;font-size:0.95rem;line-height:1.6;color:#2b1d10;">
+  <strong>Three taps from Safari:</strong>
+  <ol style="padding-left:1.4rem;margin:0.6rem 0 0;">
+    <li>Tap the <strong>Share</strong> button ⬆️ at the bottom of Safari</li>
+    <li>Scroll down and tap <strong>"Add to Home Screen"</strong></li>
+    <li>Tap <strong>Add</strong> top-right</li>
+  </ol>
+</div>`;
   } else {
-    const x = document.createElement("button");
-    x.textContent = "×";
-    x.style.cssText = "background:transparent;color:#f8f3e8;border:none;font-size:1.2rem;cursor:pointer;padding:0 0.3rem;";
-    x.onclick = () => { sessionStorage.setItem("rft.install.dismissed", "1"); b.remove(); };
-    b.appendChild(x);
+    // Desktop fallback
+    body.innerHTML = `
+<div style="background:#fff;border:1px solid #cdb892;border-radius:6px;padding:1rem;text-align:left;font-size:0.95rem;line-height:1.6;color:#2b1d10;">
+  Look for the <strong>install icon</strong> in your browser's address bar (⬇️ in a screen icon), or open the browser menu and tap <strong>"Install Rapaport…"</strong>.
+</div>`;
   }
-  document.body.appendChild(b);
 }
 
 // ── boot ───────────────────────────────────────────────────────────
