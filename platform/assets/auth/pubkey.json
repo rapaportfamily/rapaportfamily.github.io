@@ -1,0 +1,9 @@
+{
+  "kty": "EC",
+  "crv": "P-256",
+  "x": "rQn88Vx0d7qBRtW2g1r42EoSBVT9Pbeu3lNriNSJaQU",
+  "y": "hcPDA-xK0ZHMFIP0UFczrgjPlMHJPtISF6W0YcrjH7U",
+  "alg": "ES256",
+  "use": "sig",
+  "kid": "rft-2026-05-17"
+}

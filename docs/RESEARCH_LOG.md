@@ -130,8 +130,8 @@ Late 1940s:  Emigrated to Israel via Cyprus (British internment camps)
 | **Dana Rapaport** | Doron's sister | Family |
 | **Daniel Rapaport** | Doron's brother | Family |
 | **Magda** | Connector who introduced the team to Polish researchers | Friend of family |
-| **Basia** | Polish genealogist, lead field researcher in Polish archives | +48 507 710 141 |
-| **Kasia** | French-language specialist, Brussels DP records expert | +33 6 82 81 13 25 |
+| **Basia** | Polish genealogist, lead field researcher in Polish archives | (contact via Doron) |
+| **Kasia** | French-language specialist, Brussels DP records expert | (contact via Doron) |
 | **Ms. Kasia** | Jewish Historical Institute (ŻIH), Warsaw — staff archivist who found Nadwórna birth record | ŻIH Warsaw |
 
 WhatsApp message tally (15 Mar – 15 May 2026): Basia 71, Doron 67, Magda 28, Kasia 18, others 11. **Total 195 messages.**

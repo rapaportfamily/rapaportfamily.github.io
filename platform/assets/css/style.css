@@ -126,7 +126,8 @@ html[dir="rtl"] .serif { font-family: var(--font-hebrew); }
   border-bottom: none !important;
 }
 .brand:hover { opacity: 0.85; }
-.brand-mark { color: var(--wine); flex: 0 0 36px; line-height: 0; }
+.brand-mark { color: var(--wine); flex: 0 0 44px; line-height: 0; }
+.brand-mark img { width: 44px; height: 44px; object-fit: contain; border-radius: 3px; }
 .brand-text { line-height: 1.2; }
 .brand-title {
   font-family: var(--font-serif);
