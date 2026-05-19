@@ -422,8 +422,11 @@
         "fr": "Dana Rapaport"
       },
       "role": "sister",
+      "note_en": "Equal partner in this family research project.",
       "father_id": "p_dov_bernard",
       "mother_id": "p_dalia",
+      "spouse_id": "p_lior_hinkus",
+      "children_ids": ["p_yarden_rapaport", "p_itamar_rapaport", "p_carmel_rapaport", "p_rom_rapaport"],
       "siblings_ids": ["p_doron", "p_daniel"]
     },
     {
@@ -435,9 +438,80 @@
         "fr": "Daniel Rapaport"
       },
       "role": "brother",
+      "note_en": "Equal partner in this family research project.",
       "father_id": "p_dov_bernard",
       "mother_id": "p_dalia",
+      "spouse_id": "p_heli_avitan",
+      "children_ids": ["p_alma_rapaport", "p_ema_rapaport"],
       "siblings_ids": ["p_doron", "p_dana"]
+    },
+    {
+      "id": "p_lior_hinkus",
+      "primary_name": { "en": "Lior Hinkus", "he": "ליאור הינקוס", "pl": "Lior Hinkus", "fr": "Lior Hinkus" },
+      "role": "spouse",
+      "note_en": "Dana's husband.",
+      "spouse_id": "p_dana"
+    },
+    {
+      "id": "p_heli_avitan",
+      "primary_name": { "en": "Heli Avitan", "he": "הלי אביטן", "pl": "Heli Avitan", "fr": "Heli Avitan" },
+      "role": "spouse",
+      "note_en": "Daniel's wife.",
+      "spouse_id": "p_daniel"
+    },
+    {
+      "id": "p_yarden_rapaport",
+      "primary_name": { "en": "Yarden Rapaport", "he": "ירדן רפפורט", "pl": "Yarden Rapaport", "fr": "Yarden Rapaport" },
+      "role": "grandchild",
+      "note_en": "Dana and Lior's child; granddaughter/grandson of Dov and Dalia.",
+      "father_id": "p_lior_hinkus",
+      "mother_id": "p_dana",
+      "siblings_ids": ["p_itamar_rapaport", "p_carmel_rapaport", "p_rom_rapaport"]
+    },
+    {
+      "id": "p_itamar_rapaport",
+      "primary_name": { "en": "Itamar Rapaport", "he": "איתמר רפפורט", "pl": "Itamar Rapaport", "fr": "Itamar Rapaport" },
+      "role": "grandchild",
+      "note_en": "Dana and Lior's child.",
+      "father_id": "p_lior_hinkus",
+      "mother_id": "p_dana",
+      "siblings_ids": ["p_yarden_rapaport", "p_carmel_rapaport", "p_rom_rapaport"]
+    },
+    {
+      "id": "p_carmel_rapaport",
+      "primary_name": { "en": "Carmel Rapaport", "he": "כרמל רפפורט", "pl": "Carmel Rapaport", "fr": "Carmel Rapaport" },
+      "role": "grandchild",
+      "note_en": "Dana and Lior's child.",
+      "father_id": "p_lior_hinkus",
+      "mother_id": "p_dana",
+      "siblings_ids": ["p_yarden_rapaport", "p_itamar_rapaport", "p_rom_rapaport"]
+    },
+    {
+      "id": "p_rom_rapaport",
+      "primary_name": { "en": "Rom Rapaport", "he": "רום רפפורט", "pl": "Rom Rapaport", "fr": "Rom Rapaport" },
+      "role": "grandchild",
+      "note_en": "Dana and Lior's child.",
+      "father_id": "p_lior_hinkus",
+      "mother_id": "p_dana",
+      "siblings_ids": ["p_yarden_rapaport", "p_itamar_rapaport", "p_carmel_rapaport"]
+    },
+    {
+      "id": "p_alma_rapaport",
+      "primary_name": { "en": "Alma Rapaport", "he": "אלמה רפפורט", "pl": "Alma Rapaport", "fr": "Alma Rapaport" },
+      "role": "grandchild",
+      "note_en": "Daniel and Heli's child.",
+      "father_id": "p_daniel",
+      "mother_id": "p_heli_avitan",
+      "siblings_ids": ["p_ema_rapaport"]
+    },
+    {
+      "id": "p_ema_rapaport",
+      "primary_name": { "en": "Ema Rapaport", "he": "אמה רפפורט", "pl": "Ema Rapaport", "fr": "Ema Rapaport" },
+      "role": "grandchild",
+      "note_en": "Daniel and Heli's child.",
+      "father_id": "p_daniel",
+      "mother_id": "p_heli_avitan",
+      "siblings_ids": ["p_alma_rapaport"]
     }
   ]
 }

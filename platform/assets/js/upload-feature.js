@@ -366,6 +366,92 @@ function escapeHtml(s) {
   return String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
 }
 
+// ── Ancestry view (#/ancestry) — the wider Rapaport family history ─
+let _ancestryCache = null;
+async function renderAncestry(root) {
+  if (!_ancestryCache) {
+    try {
+      _ancestryCache = await fetch("data/ancestry.json").then(r => r.json());
+    } catch (e) {
+      root.innerHTML = `<div class="page-pad"><h1>Ancestry</h1><p>Couldn't load ancestry data: ${escapeHtml(e.message || e)}</p></div>`;
+      return;
+    }
+  }
+  const lang = (window.State && window.State.lang) || "en";
+  const sec = _ancestryCache.sections || [];
+  const lookup = (obj, key) => obj?.[key]?.[lang] || obj?.[key]?.en || obj?.[key] || "";
+
+  let html = `<div class="page-pad" style="max-width:820px;">
+    <header style="margin-bottom:2rem;text-align:center;">
+      <img src="assets/img/rapaport-coat-of-arms.jpg" alt="Rapaport coat of arms" style="width:140px;height:140px;object-fit:contain;margin-bottom:1rem;" />
+      <h1 style="font-family:Georgia,serif;color:#6b1f1f;margin:0;">The Rapaport family</h1>
+      <p style="color:#6b5440;font-style:italic;margin:0.5rem 0 0;">From 15th-century Italy to our Galician branch — a thousand years of Kohanim</p>
+    </header>`;
+
+  for (const s of sec) {
+    const title = lookup(s, "title");
+    html += `<section style="margin-bottom:2.5rem;padding-bottom:1.5rem;border-bottom:1px solid #cdb892;">
+      <h2 style="font-family:Georgia,serif;color:#6b1f1f;margin:0 0 1rem;">${escapeHtml(title)}</h2>`;
+
+    if (s.documented?.en) {
+      html += `<div style="background:#eef4ee;border-left:4px solid #2d5a2d;padding:0.8rem 1rem;margin-bottom:1rem;border-radius:3px;">
+        <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.08em;color:#2d5a2d;font-weight:700;margin-bottom:0.4rem;">📚 Documented</div>
+        <div style="line-height:1.7;color:#2b1d10;">${escapeHtml(s.documented.en).replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')}</div>
+        ${s.documented.source ? `<div style="font-size:0.78rem;color:#6b5440;margin-top:0.5rem;">Source: ${escapeHtml(s.documented.source)}</div>` : ""}
+      </div>`;
+    }
+    if (s.etymology?.en) {
+      html += `<div style="margin-bottom:1rem;line-height:1.7;color:#2b1d10;font-style:italic;">${escapeHtml(s.etymology.en)}</div>`;
+    }
+    if (s.family_tradition?.en) {
+      html += `<div style="background:#fff7e1;border-left:4px solid #c89020;padding:0.8rem 1rem;margin-bottom:1rem;border-radius:3px;">
+        <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.08em;color:#8a6020;font-weight:700;margin-bottom:0.4rem;">🌳 Family tradition</div>
+        <div style="line-height:1.7;color:#2b1d10;">${escapeHtml(s.family_tradition.en)}</div>
+      </div>`;
+    }
+    if (s.scholarly_view?.en) {
+      html += `<div style="background:#eef0f4;border-left:4px solid #44608a;padding:0.8rem 1rem;margin-bottom:1rem;border-radius:3px;">
+        <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.08em;color:#44608a;font-weight:700;margin-bottom:0.4rem;">🔬 Scholarly view</div>
+        <div style="line-height:1.7;color:#2b1d10;">${escapeHtml(s.scholarly_view.en)}</div>
+      </div>`;
+    }
+    if (s.reconciliation?.en) {
+      html += `<div style="background:#fafafa;border-left:4px solid #6b5440;padding:0.8rem 1rem;margin-bottom:1rem;border-radius:3px;">
+        <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.08em;color:#6b5440;font-weight:700;margin-bottom:0.4rem;">⚖️ Reconciliation</div>
+        <div style="line-height:1.7;color:#2b1d10;">${escapeHtml(s.reconciliation.en)}</div>
+      </div>`;
+    }
+    if (s.portuguese_application_2019?.en) {
+      html += `<div style="background:#eef4ee;border-left:4px solid #2d5a2d;padding:0.8rem 1rem;margin-bottom:1rem;border-radius:3px;">
+        <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.08em;color:#2d5a2d;font-weight:700;margin-bottom:0.4rem;">🇵🇹 Portuguese application (2019)</div>
+        <div style="line-height:1.7;color:#2b1d10;">${escapeHtml(s.portuguese_application_2019.en)}</div>
+      </div>`;
+    }
+    if (s.summary?.stages) {
+      html += `<ul style="line-height:1.8;color:#2b1d10;">`;
+      for (const st of s.summary.stages) html += `<li><strong>${escapeHtml(st.period)}</strong> — ${escapeHtml(st.places)}</li>`;
+      html += `</ul>`;
+    } else if (s.summary?.en) {
+      html += `<div style="line-height:1.7;color:#2b1d10;margin-bottom:0.8rem;">${escapeHtml(s.summary.en)}</div>`;
+    }
+    if (s.people?.length) {
+      html += `<div style="display:grid;gap:0.6rem;">`;
+      for (const p of s.people) {
+        html += `<div style="background:#fff;border:1px solid #cdb892;border-radius:4px;padding:0.6rem 0.9rem;">
+          <div style="font-family:Georgia,serif;font-weight:700;color:#6b1f1f;">${escapeHtml(p.name)}</div>
+          <div style="font-size:0.85rem;color:#6b5440;">${escapeHtml(p.dates || "")} · ${escapeHtml(p.place || "")}</div>
+          ${p.note ? `<div style="margin-top:0.3rem;color:#2b1d10;line-height:1.5;">${escapeHtml(p.note)}</div>` : ""}
+        </div>`;
+      }
+      html += `</div>`;
+    }
+    html += `</section>`;
+  }
+
+  html += `</div>`;
+  root.innerHTML = html;
+}
+
 function renderGeminiCard(gv) {
   if (!gv) return `<div style="background:#fff7e1;border:1px solid #d8c280;border-radius:4px;padding:0.55rem 0.7rem;font-size:0.82rem;color:#6b5440;">🤖 Gemini verification: <em>not yet started</em></div>`;
   if (gv.status === "in_progress") return `<div style="background:#fff7e1;border:1px solid #d8c280;border-radius:4px;padding:0.55rem 0.7rem;font-size:0.82rem;color:#6b5440;">🤖 Gemini is verifying… (usually 10-30 seconds)</div>`;
@@ -563,6 +649,20 @@ function injectHeaderToolbar() {
   bar.id = "rft-header-toolbar";
   bar.style.cssText = "display:flex;gap:0.4rem;align-items:center;margin-inline-start:0.6rem;";
 
+  // Who-am-I chip + Switch-user button (fixes the 'uploader shows Daniel' bug
+  // when someone's browser has a cached different token in localStorage)
+  const who = document.createElement("span");
+  who.id = "rft-who-chip";
+  who.title = "You are currently signed in as " + ME().name + ". Click to switch to a different magic link.";
+  who.style.cssText = "background:#fff7e1;color:#6b5440;border:1px solid #cdb892;padding:0.35rem 0.7rem;border-radius:20px;font-size:0.78rem;cursor:pointer;font-family:Inter,sans-serif;white-space:nowrap;";
+  who.textContent = "👤 " + ME().name.split(" ")[0];
+  who.onclick = () => {
+    if (!confirm(`You are signed in as: ${ME().name}\n\nSign out to use a different magic link?`)) return;
+    localStorage.removeItem("rft.auth.v1");
+    location.href = location.origin + location.pathname; // strip ?t= and reload
+  };
+  bar.appendChild(who);
+
   // Refresh button — reloads page (forces fresh data fetch with cache-bust)
   const refresh = document.createElement("button");
   refresh.id = "rft-refresh-btn";
@@ -639,9 +739,22 @@ function boot() {
   injectFab();
   injectHeaderToolbar();
   setupInstallButton();
+
+  // Add "Ancestry" nav link (visible to all)
+  const primaryNav = document.querySelector(".primary-nav .nav-inner");
+  if (primaryNav && !primaryNav.querySelector('[data-nav="ancestry"]')) {
+    const a = document.createElement("a");
+    a.href = "#/ancestry";
+    a.dataset.link = "";
+    a.dataset.nav = "ancestry";
+    a.textContent = "Ancestry";
+    // Insert before the About link
+    const aboutLink = primaryNav.querySelector('[data-nav="about"]');
+    if (aboutLink) primaryNav.insertBefore(a, aboutLink); else primaryNav.appendChild(a);
+  }
+
   // Add an admin-only "Review" nav link
   if (isAdmin()) {
-    const primaryNav = document.querySelector(".primary-nav .nav-inner");
     if (primaryNav && !primaryNav.querySelector('[data-nav="review"]')) {
       const a = document.createElement("a");
       a.href = "#/review";
@@ -651,15 +764,17 @@ function boot() {
       primaryNav.appendChild(a);
     }
   }
-  // Intercept #/review hash so we render this view instead of the SPA default
+  // Route interception
   function maybeRender() {
     const hash = (location.hash || "").replace(/^#\//, "").split("/")[0];
     if (hash === "review") {
       const root = document.getElementById("view");
       if (root) renderReview(root);
+    } else if (hash === "ancestry") {
+      const root = document.getElementById("view");
+      if (root) renderAncestry(root);
     } else if (hash === "documents" || hash === "" || hash === "home") {
       // Augment Documents view with family-circle uploads (everyone, with Gemini verification cards).
-      // Give the SPA a moment to finish its own render.
       setTimeout(maybeAugmentDocumentsView, 250);
     }
   }

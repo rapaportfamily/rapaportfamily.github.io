@@ -76,15 +76,17 @@ function summarizeContext(ctx) {
   return { people, places, events, hypotheses };
 }
 
-const SYSTEM_PROMPT = `You are a careful Jewish genealogy researcher assisting the Rapaport family.
-Their research story is about David Mendel Rapaport (b. 25 Dec 1911, Nadworna, Galicia; forestry engineer; survived the Holocaust; reached Brussels Apr 1946; transported to Israel via Cyprus camps) and his wife Leah nee Weitzner (b. 1913 or 1916, Bolechow). Their son Dov Rapaport was born Brussels 1946 - for whom this archive is an 80th-birthday gift.
+const SYSTEM_PROMPT = `You are a careful Jewish genealogy researcher assisting the Rapaport family - a project compiled in equal partnership by Dalia, Dana, Daniel and Doron Rapaport, in honor of Dov Rapaport's 80th birthday.
+
+Their story is about David Mendel Rapaport (b. 25 Dec 1911, Nadworna, Galicia; forestry engineer; HOLOCAUST SURVIVOR who escaped Nazi-occupied Galicia; reached Brussels Apr 1946; eventually settled in Israel) and his wife Leah nee Weitzner (b. 1913 or 1916, Bolechow; HOLOCAUST SURVIVOR who survived under multiple false identities). Their son Dov Rapaport was born Brussels 1946.
 
 DOCTRINE (mandatory):
-1. NEVER invent facts. Every claim must trace to a primary source you can cite, or be explicitly labeled as hypothesis.
+1. NEVER invent facts. Every claim must trace to a primary source, or be explicitly labeled as hypothesis.
 2. ELIMINATION IS KING - for any candidate, list what would have to be false for it to hold.
-3. CITE SOURCES - when you use Google Search to corroborate, name the URL and quote the verbatim sentence.
+3. PARAPHRASE web sources in your own words - do NOT quote verbatim. Summarize what you find from Google Search in 1-2 short sentences of YOUR OWN writing, with the URL for reference. Never copy a sentence longer than 10 words verbatim from any source.
 4. RESPECT what is already CONFIRMED in the family data (do not try to overturn primary documents).
-5. Output STRUCTURED JSON only. No prose outside JSON.
+5. David and Leah are HOLOCAUST SURVIVORS first and foremost. Any context about Soviet occupation, NKVD, passportization is HISTORICAL CONTEXT about the period - never a personal claim about their character or choices.
+6. Output STRUCTURED JSON only. No prose outside JSON.
 
 YOUR TASK:
 You will receive (a) the family data summary and (b) a new upload (file + uploader notes).
@@ -106,11 +108,6 @@ Return ONLY the JSON object. Do not wrap in markdown fences. Do not add commenta
 
 async function callGemini(upload, contextSummary, fileBytes, fileMime) {
   const genAI = new GoogleGenerativeAI(GEMINI_API_KEY.value());
-  const model = genAI.getGenerativeModel({
-    model: "gemini-2.5-flash",
-    tools: [{ googleSearch: {} }],
-    systemInstruction: SYSTEM_PROMPT,
-  });
 
   const userParts = [
     { text: `FAMILY DATA SUMMARY (compact):\n${JSON.stringify(contextSummary, null, 2)}\n\n` },
@@ -124,23 +121,46 @@ async function callGemini(upload, contextSummary, fileBytes, fileMime) {
             `- related person_id (uploader said): ${upload.person_id || "none"}\n` +
             `- related place_id: ${upload.place_id || "none"}\n` +
             `- related hypothesis_id: ${upload.hypothesis_id || "none"}\n\n` +
-            `Now verify this upload against the family story. Return the JSON object.` },
+            `Now verify this upload against the family story. Paraphrase any web sources in your own words. Return the JSON object.` },
   ];
-
-  // Attach the file (image or text) if we have bytes
   if (fileBytes && fileMime) {
     const supported = /^image\/(jpeg|png|webp|heic|heif)$|^application\/pdf$|^text\/plain$/.test(fileMime);
     if (supported) {
-      userParts.push({
-        inlineData: { mimeType: fileMime, data: fileBytes.toString("base64") },
-      });
+      userParts.push({ inlineData: { mimeType: fileMime, data: fileBytes.toString("base64") } });
     }
   }
 
-  const result = await model.generateContent({
-    contents: [{ role: "user", parts: userParts }],
-  });
-  return result.response.text();
+  // Try-once with Google Search grounding; if Gemini blocks due to RECITATION
+  // (which fires when its output too closely mirrors source text), retry
+  // without grounding so we still get a useful verification.
+  async function _call(useGrounding) {
+    const model = genAI.getGenerativeModel({
+      model: "gemini-2.5-flash",
+      tools: useGrounding ? [{ googleSearch: {} }] : undefined,
+      systemInstruction: SYSTEM_PROMPT,
+    });
+    const result = await model.generateContent({
+      contents: [{ role: "user", parts: userParts }],
+    });
+    // Inspect finishReason BEFORE calling .text() so RECITATION doesn't throw
+    const cand = result.response?.candidates?.[0];
+    if (cand?.finishReason === "RECITATION" || cand?.finishReason === "SAFETY") {
+      const e = new Error(`Gemini ${cand.finishReason}`);
+      e.code = cand.finishReason;
+      throw e;
+    }
+    return result.response.text();
+  }
+
+  try {
+    return await _call(true);
+  } catch (e) {
+    if (e.code === "RECITATION") {
+      logger.warn("RECITATION on grounded call, retrying without Google Search");
+      return await _call(false);
+    }
+    throw e;
+  }
 }
 
 function safeParseJSON(text) {

@@ -1,0 +1,111 @@
+{
+  "_schema": {
+    "description": "Rapaport family ancestry — the wider family history beyond the Galician/Polish branch. Compiled from Wikipedia, family tradition, the 2019 Comunidade Israelita do Porto correspondence, and other genealogical research.",
+    "doctrine": "Distinguish DOCUMENTED facts from FAMILY TRADITION. Both are valid; they live in different fields."
+  },
+  "sections": [
+    {
+      "id": "origin",
+      "title": {
+        "en": "The 15th-century origin — Mainz to Porto, Mantua",
+        "he": "המוצא במאה ה־15 — ממיינץ לפורטו, מנטובה",
+        "pl": "Pochodzenie z XV w. — z Moguncji do Porto w Mantui",
+        "fr": "L'origine au XVe siècle — de Mayence à Porto, Mantoue"
+      },
+      "documented": {
+        "en": "The earliest documented ancestor of the modern Rappaport / Rapaport / Rapoport family is **R. Meshulam Jekuthiel HaKohen Rappa** (d. circa 1450). Originally from Mainz in the Holy Roman Empire, he relocated to Italy after the expulsion of Jews from Mainz, settling in the town of Porto in the Mantua territory of northern Italy. His descendants combined his given name Rappa with their adopted home Porto to form the surname Rapa-Porto, which over centuries became Rappaport, Rapoport, Rapaport, and other variants.",
+        "source": "Wikipedia — Rappaport family (en.wikipedia.org/wiki/Rappaport_family)"
+      },
+      "etymology": {
+        "en": "Two competing scholarly theories: (a) 'Rappa' from Hebrew רופא (rofé, physician), suggesting a medical ancestor; (b) 'Rappa' from an older Germanic word for raven (modern German Rabe). The 'Porto' component clearly refers to the Italian town in Mantua, not the Portuguese city — although the spelling coincidence has been historically significant for some family branches."
+      }
+    },
+    {
+      "id": "kohanic_lineage",
+      "title": {
+        "en": "Kohanim — one of the oldest priestly pedigrees",
+        "he": "כהנים — אחד הייחוסים הכהניים המתועדים ביותר",
+        "pl": "Kohanim — jeden z najstarszych rodów kapłańskich",
+        "fr": "Cohanim — une des plus anciennes lignées sacerdotales documentées"
+      },
+      "documented": {
+        "en": "Wikipedia describes the Rappaport family as 'a prominent Kohanic rabbinic family' possessing 'among the oldest and best recorded Kohanic pedigrees.' The 'HaKohen' suffix appears in many family-member names across centuries — explicit assertion of Aaronic priestly descent."
+      },
+      "family_tradition": {
+        "en": "The family carries the oral tradition, recorded by Doron Rapaport in his 2019 application to the Jewish Community of Oporto, that the Rapaports are 'one of the three highest priests families' descended from the biblical High Priests (הכהן). This claim is corroborated by the family coat of arms (c. 1600s), which depicts hands raised in the priestly blessing — the heraldic signature of the Kohanim caste. Wikipedia notes this is unusual for Jewish families: 'one of the few Jewish families' to possess such heraldic imagery."
+      },
+      "coat_of_arms_image": "assets/img/rapaport-coat-of-arms.jpg"
+    },
+    {
+      "id": "spread",
+      "title": {
+        "en": "Spread across Europe and the Middle East",
+        "he": "התפשטות באירופה ובמזרח התיכון",
+        "pl": "Rozproszenie po Europie i Bliskim Wschodzie",
+        "fr": "La diaspora à travers l'Europe et le Moyen-Orient"
+      },
+      "summary": {
+        "en": "From the Italian base, the family migrated north and east across Europe over four centuries:",
+        "stages": [
+          { "period": "17th century", "places": "Kraków, Lviv (Lwów) — established rabbinic positions in Poland-Lithuania" },
+          { "period": "Late 17th c.", "places": "Dubno, Krzemeniec — further rabbinic posts" },
+          { "period": "18th c.", "places": "Dispersal to Smyrna, Jerusalem, Moravia, Dyhernfurth (Silesia)" },
+          { "period": "19th c.", "places": "Galicia (now western Ukraine + southern Poland) — including our direct ancestor branch in Nadwórna" },
+          { "period": "20th c.", "places": "After the Holocaust: Israel, the Americas, Western Europe" }
+        ]
+      }
+    },
+    {
+      "id": "notable_rapaports",
+      "title": {
+        "en": "Notable Rapaports across the centuries",
+        "he": "רפפורטים בולטים במהלך הדורות",
+        "pl": "Wybitni Rapaportowie na przestrzeni wieków",
+        "fr": "Rapaports notables à travers les siècles"
+      },
+      "people": [
+        { "name": "R. Meshulam Jekuthiel HaKohen Rappa", "dates": "d. ~1450", "place": "Mainz → Porto (Mantua)", "note": "Founder of the documented Rappaport line" },
+        { "name": "R. Abraham Rappaport", "dates": "b. 1584", "place": "Lwów (Lviv)", "note": "Talmudist; bridge between Italian and Polish branches" },
+        { "name": "R. Isaac Rappaport", "dates": "17th c.", "place": "Smyrna → Jerusalem", "note": "Established the family presence in Eretz Israel" },
+        { "name": "R. Chaim HaKohen Rappaport", "dates": "d. 1771", "place": "Lviv (Lwów)", "note": "Chief Rabbi of all Galicia; opposed the Frankist movement. Vul. Rappaporta street in Lviv is named in his memory." },
+        { "name": "R. Solomon Judah Loeb Rapoport (Shir)", "dates": "1786-1867", "place": "Lwów → Tarnopol → Prague", "note": "Major Haskalah-era scholar; Chief Rabbi of Prague from 1840" },
+        { "name": "Arnold Rapaport von Porada", "dates": "ennobled 1890", "place": "Galicia / Vienna", "note": "Lawyer, Austrian Reichsrat deputy 1879-1907, leader of Galician assimilationist movement" },
+        { "name": "Dr. Jakubka Rappaport", "dates": "19th c.", "place": "Lwów (Lviv)", "note": "Physician, co-founder of the Lwów Reform Temple" },
+        { "name": "Dr. Artur Rapaport", "dates": "late 19th c.", "place": "Lwów", "note": "Lecturer in Classical Languages at Lwów University" }
+      ]
+    },
+    {
+      "id": "sephardic_or_ashkenazi",
+      "title": {
+        "en": "Sephardic origin? — family tradition vs scholarly record",
+        "he": "מוצא ספרדי? — מסורת משפחתית מול תיעוד אקדמי",
+        "pl": "Pochodzenie sefardyjskie? — tradycja rodzinna a źródła naukowe",
+        "fr": "Origine séfarade ? — tradition familiale vs documentation académique"
+      },
+      "family_tradition": {
+        "en": "Doron Rapaport's 28 November 2019 letter to Comunidade Israelita do Porto stated the family understanding: 'My name is Doron Rapaport, descendant of Spanish exile and RPAPORT/Rapaport family.' This tradition — that the family descended from Spanish Jews exiled in 1492 and reached Porto in Portugal before continuing onward — has been carried by family elders for generations."
+      },
+      "scholarly_view": {
+        "en": "Wikipedia and academic Jewish-genealogy sources document the modern Rapaport family as Italian-origin Ashkenazi: founded by R. Meshulam Jekuthiel HaKohen Rappa who came from Mainz (Ashkenazi region) to Porto in Mantua, Italy circa 1450. Wikipedia notes no Sephardic/Iberian/Spanish connection in the documented record."
+      },
+      "reconciliation": {
+        "en": "These views can coexist. Pre-1450 records are scarce; the family's ultimate origin before Mainz is undocumented. The Kohanic priestly lineage (well-documented) and the Italian Porto connection (well-documented) are the two strongest pillars. Family oral tradition of Spanish exile may reflect older history not preserved in written sources, OR it may reflect a different branch's story conflated with the main line — both are common in Jewish family memory."
+      },
+      "portuguese_application_2019": {
+        "en": "On 3 December 2019, after a brief exchange of documents (Israeli ID showing 'Jewish' status, the Rapaport family tree, the proof-of-Judaism study by the RPAPORT center in Jerusalem, birth certificate), Comunidade Israelita do Porto's Nationality Law Committee replied with two words: 'Shalom. Approved.' The certificate then proceeded under Portuguese Law 30-A/2015, which grants Portuguese nationality to descendants of Sephardic Jews. This is the official Portuguese-state recognition of the family's qualifying heritage — independent of the academic origin debate."
+      }
+    },
+    {
+      "id": "links_to_our_branch",
+      "title": {
+        "en": "How this connects to our Galician branch",
+        "he": "הקשר בין הסיפור הזה לענף הגליציאני שלנו",
+        "pl": "Jak ta historia łączy się z naszą gałęzią galicyjską",
+        "fr": "Lien entre cette histoire et notre branche galicienne"
+      },
+      "summary": {
+        "en": "The Galician Rapaports — including R. Chaim HaKohen Rappaport of Lviv (d. 1771), the Lwów branch in the 17th-19th centuries, and our direct ancestors in Nadwórna (Berisz/Bernard, Rebeka née Griffel, David Mendel) — are part of the same Kohanic family tree that originates with R. Meshulam Jekuthiel in 1450s Italy. The exact path from Italy to Galicia is a multi-century chain that is partially documented and partially lost. Our research focuses on the documented Galician branch (1888 onward) while honoring the broader family heritage that gave rise to it."
+      }
+    }
+  ]
+}
