@@ -784,7 +784,8 @@ function boot() {
     } else if (hash === "memoir") {
       const root = document.getElementById("view");
       if (root) {
-        import("./memoir-flipbook.js").then(mod => mod.renderMemoir(root)).catch(e => {
+        // Cache-bust the dynamic import so updates don't wait on browser cache
+        import(`./memoir-flipbook.js?v=${Date.now()}`).then(mod => mod.renderMemoir(root)).catch(e => {
           root.innerHTML = `<div class="page-pad"><h1>Memoir</h1><p>Failed to load: ${escapeHtml(e.message || e)}</p></div>`;
         });
       }

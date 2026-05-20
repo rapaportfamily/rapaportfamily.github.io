@@ -12,7 +12,8 @@
   window.fetch = function (input, init) {
     try {
       const url = typeof input === "string" ? input : (input?.url || "");
-      if (/^(data\/|assets\/auth\/)[^?#]*\.json/.test(url)) {
+      // Cache-bust all relative same-origin assets (JSON + JS modules)
+      if (/^(data\/|assets\/)[^?#]*\.(json|js|mjs|webmanifest)/.test(url)) {
         const sep = url.includes("?") ? "&" : "?";
         const busted = url + sep + "v=" + Date.now();
         return _origFetch(busted, init);
