@@ -740,7 +740,7 @@ function boot() {
   injectHeaderToolbar();
   setupInstallButton();
 
-  // Add "Ancestry" nav link (visible to all)
+  // Add "Ancestry" + "Memoir" nav links (visible to all)
   const primaryNav = document.querySelector(".primary-nav .nav-inner");
   if (primaryNav && !primaryNav.querySelector('[data-nav="ancestry"]')) {
     const a = document.createElement("a");
@@ -748,7 +748,15 @@ function boot() {
     a.dataset.link = "";
     a.dataset.nav = "ancestry";
     a.textContent = "Ancestry";
-    // Insert before the About link
+    const aboutLink = primaryNav.querySelector('[data-nav="about"]');
+    if (aboutLink) primaryNav.insertBefore(a, aboutLink); else primaryNav.appendChild(a);
+  }
+  if (primaryNav && !primaryNav.querySelector('[data-nav="memoir"]')) {
+    const a = document.createElement("a");
+    a.href = "#/memoir";
+    a.dataset.link = "";
+    a.dataset.nav = "memoir";
+    a.textContent = "📖 Memoir";
     const aboutLink = primaryNav.querySelector('[data-nav="about"]');
     if (aboutLink) primaryNav.insertBefore(a, aboutLink); else primaryNav.appendChild(a);
   }
@@ -773,6 +781,13 @@ function boot() {
     } else if (hash === "ancestry") {
       const root = document.getElementById("view");
       if (root) renderAncestry(root);
+    } else if (hash === "memoir") {
+      const root = document.getElementById("view");
+      if (root) {
+        import("./memoir-flipbook.js").then(mod => mod.renderMemoir(root)).catch(e => {
+          root.innerHTML = `<div class="page-pad"><h1>Memoir</h1><p>Failed to load: ${escapeHtml(e.message || e)}</p></div>`;
+        });
+      }
     } else if (hash === "documents" || hash === "" || hash === "home") {
       // Augment Documents view with family-circle uploads (everyone, with Gemini verification cards).
       setTimeout(maybeAugmentDocumentsView, 250);

@@ -442,7 +442,7 @@
       "father_id": "p_dov_bernard",
       "mother_id": "p_dalia",
       "spouse_id": "p_heli_avitan",
-      "children_ids": ["p_alma_rapaport", "p_ema_rapaport"],
+      "children_ids": ["p_alma_rapaport", "p_ema_rapaport", "p_ariel_rapaport"],
       "siblings_ids": ["p_doron", "p_dana"]
     },
     {
@@ -502,7 +502,7 @@
       "note_en": "Daniel and Heli's child.",
       "father_id": "p_daniel",
       "mother_id": "p_heli_avitan",
-      "siblings_ids": ["p_ema_rapaport"]
+      "siblings_ids": ["p_ema_rapaport", "p_ariel_rapaport"]
     },
     {
       "id": "p_ema_rapaport",
@@ -511,7 +511,16 @@
       "note_en": "Daniel and Heli's child.",
       "father_id": "p_daniel",
       "mother_id": "p_heli_avitan",
-      "siblings_ids": ["p_alma_rapaport"]
+      "siblings_ids": ["p_alma_rapaport", "p_ariel_rapaport"]
+    },
+    {
+      "id": "p_ariel_rapaport",
+      "primary_name": { "en": "Ariel Rapaport", "he": "אריאל רפפורט", "pl": "Ariel Rapaport", "fr": "Ariel Rapaport" },
+      "role": "grandchild",
+      "note_en": "Daniel and Heli's youngest daughter (added 2026-05-20 per Doron — not in the 2019 Porto application).",
+      "father_id": "p_daniel",
+      "mother_id": "p_heli_avitan",
+      "siblings_ids": ["p_alma_rapaport", "p_ema_rapaport"]
     }
   ]
 }

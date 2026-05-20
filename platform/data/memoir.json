@@ -1,0 +1,559 @@
+{
+  "source_pdf": "platform/assets/documents/lusia_memoir.pdf",
+  "title_he": "סיפורה של לוסיה",
+  "title_en": "The Story of Lusia",
+  "title_pl": "Historia Lusi",
+  "author": "Leah (Lusia) Rapaport née Weitzner",
+  "language": "he",
+  "pages": 90,
+  "page_text_lengths": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "total_chars": 0,
+  "images": [
+    {
+      "filename": "memoir-img-001.png",
+      "page": 1,
+      "size_bytes": 5770236
+    },
+    {
+      "filename": "memoir-img-002.png",
+      "page": 2,
+      "size_bytes": 737416
+    },
+    {
+      "filename": "memoir-img-003.png",
+      "page": 3,
+      "size_bytes": 475083
+    },
+    {
+      "filename": "memoir-img-004.png",
+      "page": 4,
+      "size_bytes": 1249237
+    },
+    {
+      "filename": "memoir-img-005.png",
+      "page": 5,
+      "size_bytes": 27781
+    },
+    {
+      "filename": "memoir-img-006.png",
+      "page": 6,
+      "size_bytes": 583618
+    },
+    {
+      "filename": "memoir-img-007.png",
+      "page": 7,
+      "size_bytes": 477211
+    },
+    {
+      "filename": "memoir-img-008.png",
+      "page": 8,
+      "size_bytes": 121488
+    },
+    {
+      "filename": "memoir-img-009.png",
+      "page": 9,
+      "size_bytes": 26327
+    },
+    {
+      "filename": "memoir-img-010.png",
+      "page": 10,
+      "size_bytes": 2070754
+    },
+    {
+      "filename": "memoir-img-011.png",
+      "page": 11,
+      "size_bytes": 1255152
+    },
+    {
+      "filename": "memoir-img-012.png",
+      "page": 12,
+      "size_bytes": 1469530
+    },
+    {
+      "filename": "memoir-img-013.png",
+      "page": 13,
+      "size_bytes": 1186580
+    },
+    {
+      "filename": "memoir-img-014.png",
+      "page": 14,
+      "size_bytes": 127691
+    },
+    {
+      "filename": "memoir-img-015.png",
+      "page": 15,
+      "size_bytes": 30442
+    },
+    {
+      "filename": "memoir-img-016.png",
+      "page": 16,
+      "size_bytes": 2080597
+    },
+    {
+      "filename": "memoir-img-017.png",
+      "page": 17,
+      "size_bytes": 1014500
+    },
+    {
+      "filename": "memoir-img-018.png",
+      "page": 18,
+      "size_bytes": 2064891
+    },
+    {
+      "filename": "memoir-img-019.png",
+      "page": 19,
+      "size_bytes": 1048386
+    },
+    {
+      "filename": "memoir-img-020.png",
+      "page": 20,
+      "size_bytes": 167188
+    },
+    {
+      "filename": "memoir-img-021.png",
+      "page": 21,
+      "size_bytes": 31717
+    },
+    {
+      "filename": "memoir-img-022.png",
+      "page": 22,
+      "size_bytes": 1416570
+    },
+    {
+      "filename": "memoir-img-023.png",
+      "page": 23,
+      "size_bytes": 1881435
+    },
+    {
+      "filename": "memoir-img-024.png",
+      "page": 24,
+      "size_bytes": 1554146
+    },
+    {
+      "filename": "memoir-img-025.png",
+      "page": 25,
+      "size_bytes": 1225527
+    },
+    {
+      "filename": "memoir-img-026.png",
+      "page": 26,
+      "size_bytes": 1368566
+    },
+    {
+      "filename": "memoir-img-027.png",
+      "page": 27,
+      "size_bytes": 911627
+    },
+    {
+      "filename": "memoir-img-028.png",
+      "page": 28,
+      "size_bytes": 1309273
+    },
+    {
+      "filename": "memoir-img-029.png",
+      "page": 29,
+      "size_bytes": 1159765
+    },
+    {
+      "filename": "memoir-img-030.png",
+      "page": 30,
+      "size_bytes": 1552933
+    },
+    {
+      "filename": "memoir-img-031.png",
+      "page": 31,
+      "size_bytes": 1056113
+    },
+    {
+      "filename": "memoir-img-032.png",
+      "page": 32,
+      "size_bytes": 1310833
+    },
+    {
+      "filename": "memoir-img-033.png",
+      "page": 33,
+      "size_bytes": 792045
+    },
+    {
+      "filename": "memoir-img-034.png",
+      "page": 34,
+      "size_bytes": 118707
+    },
+    {
+      "filename": "memoir-img-035.png",
+      "page": 35,
+      "size_bytes": 25053
+    },
+    {
+      "filename": "memoir-img-036.png",
+      "page": 36,
+      "size_bytes": 1562458
+    },
+    {
+      "filename": "memoir-img-037.png",
+      "page": 37,
+      "size_bytes": 1185792
+    },
+    {
+      "filename": "memoir-img-038.png",
+      "page": 38,
+      "size_bytes": 1370781
+    },
+    {
+      "filename": "memoir-img-039.png",
+      "page": 39,
+      "size_bytes": 1151602
+    },
+    {
+      "filename": "memoir-img-040.png",
+      "page": 40,
+      "size_bytes": 1359899
+    },
+    {
+      "filename": "memoir-img-041.png",
+      "page": 41,
+      "size_bytes": 1266047
+    },
+    {
+      "filename": "memoir-img-042.png",
+      "page": 42,
+      "size_bytes": 1453935
+    },
+    {
+      "filename": "memoir-img-043.png",
+      "page": 43,
+      "size_bytes": 1084510
+    },
+    {
+      "filename": "memoir-img-044.png",
+      "page": 44,
+      "size_bytes": 1359093
+    },
+    {
+      "filename": "memoir-img-045.png",
+      "page": 45,
+      "size_bytes": 1085384
+    },
+    {
+      "filename": "memoir-img-046.png",
+      "page": 46,
+      "size_bytes": 1200700
+    },
+    {
+      "filename": "memoir-img-047.png",
+      "page": 47,
+      "size_bytes": 1117985
+    },
+    {
+      "filename": "memoir-img-048.png",
+      "page": 48,
+      "size_bytes": 1262762
+    },
+    {
+      "filename": "memoir-img-049.png",
+      "page": 49,
+      "size_bytes": 1190460
+    },
+    {
+      "filename": "memoir-img-050.png",
+      "page": 50,
+      "size_bytes": 1403200
+    },
+    {
+      "filename": "memoir-img-051.png",
+      "page": 51,
+      "size_bytes": 1056537
+    },
+    {
+      "filename": "memoir-img-052.png",
+      "page": 52,
+      "size_bytes": 1382958
+    },
+    {
+      "filename": "memoir-img-053.png",
+      "page": 53,
+      "size_bytes": 1279504
+    },
+    {
+      "filename": "memoir-img-054.png",
+      "page": 54,
+      "size_bytes": 1413741
+    },
+    {
+      "filename": "memoir-img-055.png",
+      "page": 55,
+      "size_bytes": 1110041
+    },
+    {
+      "filename": "memoir-img-056.png",
+      "page": 56,
+      "size_bytes": 1469195
+    },
+    {
+      "filename": "memoir-img-057.png",
+      "page": 57,
+      "size_bytes": 1089440
+    },
+    {
+      "filename": "memoir-img-058.png",
+      "page": 58,
+      "size_bytes": 1214790
+    },
+    {
+      "filename": "memoir-img-059.png",
+      "page": 59,
+      "size_bytes": 24518
+    },
+    {
+      "filename": "memoir-img-060.png",
+      "page": 60,
+      "size_bytes": 177816
+    },
+    {
+      "filename": "memoir-img-061.png",
+      "page": 61,
+      "size_bytes": 25375
+    },
+    {
+      "filename": "memoir-img-062.png",
+      "page": 62,
+      "size_bytes": 1862127
+    },
+    {
+      "filename": "memoir-img-063.png",
+      "page": 63,
+      "size_bytes": 1862893
+    },
+    {
+      "filename": "memoir-img-064.png",
+      "page": 64,
+      "size_bytes": 1458908
+    },
+    {
+      "filename": "memoir-img-065.png",
+      "page": 65,
+      "size_bytes": 3347048
+    },
+    {
+      "filename": "memoir-img-066.png",
+      "page": 66,
+      "size_bytes": 1828897
+    },
+    {
+      "filename": "memoir-img-067.png",
+      "page": 67,
+      "size_bytes": 1688730
+    },
+    {
+      "filename": "memoir-img-068.png",
+      "page": 68,
+      "size_bytes": 1405171
+    },
+    {
+      "filename": "memoir-img-069.png",
+      "page": 69,
+      "size_bytes": 1643636
+    },
+    {
+      "filename": "memoir-img-070.png",
+      "page": 70,
+      "size_bytes": 1499221
+    },
+    {
+      "filename": "memoir-img-071.png",
+      "page": 71,
+      "size_bytes": 1906358
+    },
+    {
+      "filename": "memoir-img-072.png",
+      "page": 72,
+      "size_bytes": 2987614
+    },
+    {
+      "filename": "memoir-img-073.png",
+      "page": 73,
+      "size_bytes": 19305
+    },
+    {
+      "filename": "memoir-img-074.png",
+      "page": 74,
+      "size_bytes": 171450
+    },
+    {
+      "filename": "memoir-img-075.png",
+      "page": 75,
+      "size_bytes": 21430
+    },
+    {
+      "filename": "memoir-img-076.png",
+      "page": 76,
+      "size_bytes": 1510301
+    },
+    {
+      "filename": "memoir-img-077.png",
+      "page": 77,
+      "size_bytes": 861293
+    },
+    {
+      "filename": "memoir-img-078.png",
+      "page": 78,
+      "size_bytes": 1358139
+    },
+    {
+      "filename": "memoir-img-079.png",
+      "page": 79,
+      "size_bytes": 18421
+    },
+    {
+      "filename": "memoir-img-080.png",
+      "page": 80,
+      "size_bytes": 144972
+    },
+    {
+      "filename": "memoir-img-081.png",
+      "page": 81,
+      "size_bytes": 22942
+    },
+    {
+      "filename": "memoir-img-082.png",
+      "page": 82,
+      "size_bytes": 1514994
+    },
+    {
+      "filename": "memoir-img-083.png",
+      "page": 83,
+      "size_bytes": 1525266
+    },
+    {
+      "filename": "memoir-img-084.png",
+      "page": 84,
+      "size_bytes": 113662
+    },
+    {
+      "filename": "memoir-img-085.png",
+      "page": 85,
+      "size_bytes": 24979
+    },
+    {
+      "filename": "memoir-img-086.png",
+      "page": 86,
+      "size_bytes": 1656382
+    },
+    {
+      "filename": "memoir-img-087.png",
+      "page": 87,
+      "size_bytes": 1121229
+    },
+    {
+      "filename": "memoir-img-088.png",
+      "page": 88,
+      "size_bytes": 180126
+    },
+    {
+      "filename": "memoir-img-089.png",
+      "page": 89,
+      "size_bytes": 73788
+    },
+    {
+      "filename": "memoir-img-090.png",
+      "page": 90,
+      "size_bytes": 6537130
+    }
+  ],
+  "translation_status": {
+    "en": "pending",
+    "pl": "pending"
+  },
+  "extracted_at": "2026-05-20"
+}
