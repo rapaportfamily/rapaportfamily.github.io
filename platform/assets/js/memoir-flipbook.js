@@ -1,60 +1,67 @@
-// Memoir flip-book — renders Lusia's memoir as a page-turning book
-// with side-by-side translations (HE / EN / PL).
-// Uses StPageFlip (single-file CDN import, MIT licensed).
+// Memoir flip-book v2 — renders the ACTUAL PDF (lusia_memoir.pdf) using PDF.js,
+// with side-by-side OCR'd Hebrew + English + Polish translations.
 //
-// Renders at #/memoir. Reads:
-//   data/memoir.json       — title + page count + metadata
-//   data/memoir_pages.json — per-page hebrew + english + polish (from OCR)
-//   assets/img/memoir/page-NNN.png — rendered high-DPI page images
+// No PNG copies — the PDF is the source of truth, the same scanned book the family has.
+// PDF.js (Mozilla, Apache 2.0) loaded lazily from CDN on first visit.
 
 export async function renderMemoir(root) {
-  // Lazy-load StPageFlip (MIT) on first visit
-  if (!window.St) {
+  // Lazy-load PDF.js (UMD build, single CDN file)
+  if (!window.pdfjsLib) {
     await new Promise((resolve, reject) => {
       const s = document.createElement("script");
-      s.src = "https://cdn.jsdelivr.net/npm/page-flip@2.0.7/dist/js/page-flip.browser.min.js";
+      s.src = "https://cdn.jsdelivr.net/npm/pdfjs-dist@4.7.76/build/pdf.min.mjs";
+      s.type = "module";
       s.onload = resolve;
       s.onerror = reject;
       document.head.appendChild(s);
     }).catch(() => {});
   }
+  // PDF.js v4 uses ES module export — fall back to a known global if needed
+  let pdfjsLib = window.pdfjsLib;
+  if (!pdfjsLib) {
+    try {
+      pdfjsLib = await import("https://cdn.jsdelivr.net/npm/pdfjs-dist@4.7.76/build/pdf.min.mjs");
+    } catch (e) {
+      root.innerHTML = `<div class="page-pad"><h1>Memoir</h1><p>PDF.js failed to load: ${escapeHtml(e.message || e)}</p></div>`;
+      return;
+    }
+  }
+  pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdn.jsdelivr.net/npm/pdfjs-dist@4.7.76/build/pdf.worker.min.mjs";
 
-  let meta, pages;
+  let meta = {}, pages = [];
   try {
     [meta, pages] = await Promise.all([
-      fetch("data/memoir.json").then(r => r.json()),
+      fetch("data/memoir.json").then(r => r.json()).catch(() => ({})),
       fetch("data/memoir_pages.json").then(r => r.json()).catch(() => []),
     ]);
-  } catch (e) {
-    root.innerHTML = `<div class="page-pad"><h1>The Story of Lusia</h1>
-      <p>The memoir hasn't been processed yet. Once OCR completes, this view will show the flip-book.</p></div>`;
-    return;
-  }
+  } catch (e) { /* keep going with defaults */ }
 
-  const N = meta?.pages || 0;
   const byPage = new Map((pages || []).map(p => [p.page, p]));
+  const pdfUrl = meta.source_pdf || "assets/documents/lusia_memoir.pdf";
 
   root.innerHTML = `
-    <div class="page-pad" style="max-width:1100px;margin:0 auto;">
-      <header style="text-align:center;margin-bottom:1.5rem;">
-        <h1 style="font-family:Georgia,serif;color:#6b1f1f;margin:0 0 0.3rem;">📖 ${escapeHtml(meta.title_he || "")}</h1>
-        <div style="font-size:0.95rem;color:#6b5440;font-style:italic;">${escapeHtml(meta.title_en || "")} · ${escapeHtml(meta.title_pl || "")}</div>
-        <div style="font-size:0.85rem;color:#6b5440;margin-top:0.4rem;">By ${escapeHtml(meta.author || "")} · ${N} pages · transcribed and translated via 3-engine OCR consensus</div>
+    <div class="page-pad" style="max-width:1200px;margin:0 auto;">
+      <header style="text-align:center;margin-bottom:1.2rem;">
+        <h1 style="font-family:Georgia,serif;color:#6b1f1f;margin:0 0 0.3rem;">📖 ${escapeHtml(meta.title_he || "סיפורה של לוסיה")}</h1>
+        <div style="font-size:0.95rem;color:#6b5440;font-style:italic;">${escapeHtml(meta.title_en || "The Story of Lusia")} · ${escapeHtml(meta.title_pl || "Historia Lusi")}</div>
+        <div style="font-size:0.85rem;color:#6b5440;margin-top:0.4rem;">By ${escapeHtml(meta.author || "Leah (Lusia) Rapaport née Weitzner")} · loaded from the original scanned PDF</div>
       </header>
-      <div id="memoir-controls" style="display:flex;justify-content:center;gap:0.6rem;margin-bottom:1rem;align-items:center;flex-wrap:wrap;">
+      <div id="m-controls" style="display:flex;justify-content:center;gap:0.6rem;margin-bottom:1rem;align-items:center;flex-wrap:wrap;">
+        <button id="m-first" style="background:transparent;border:1.5px solid #6b1f1f;color:#6b1f1f;padding:0.35rem 0.6rem;border-radius:4px;cursor:pointer;">⏮ First</button>
         <button id="m-prev" style="background:#6b1f1f;color:#f8f3e8;border:none;padding:0.5rem 1rem;border-radius:4px;cursor:pointer;font-weight:600;">← Previous</button>
-        <span id="m-pageinfo" style="font-family:Inter,sans-serif;color:#6b5440;min-width:80px;text-align:center;">1 / ${N}</span>
+        <span id="m-pageinfo" style="font-family:Inter,sans-serif;color:#6b5440;min-width:80px;text-align:center;">Loading…</span>
         <button id="m-next" style="background:#6b1f1f;color:#f8f3e8;border:none;padding:0.5rem 1rem;border-radius:4px;cursor:pointer;font-weight:600;">Next →</button>
+        <button id="m-last" style="background:transparent;border:1.5px solid #6b1f1f;color:#6b1f1f;padding:0.35rem 0.6rem;border-radius:4px;cursor:pointer;">Last ⏭</button>
         <select id="m-lang" style="padding:0.45rem;border:1px solid #cdb892;border-radius:4px;background:#fff;">
           <option value="he">עברית (original)</option>
           <option value="en" selected>English translation</option>
           <option value="pl">Polski tłumaczenie</option>
         </select>
-        <a href="${escapeHtml(meta.source_pdf || "assets/documents/lusia_memoir.pdf")}" target="_blank" style="font-size:0.85rem;color:#6b1f1f;text-decoration:underline;">📥 Download original PDF</a>
+        <a href="${escapeHtml(pdfUrl)}" target="_blank" style="font-size:0.85rem;color:#6b1f1f;text-decoration:underline;">📥 Download PDF</a>
       </div>
-      <div id="memoir-stage" style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;align-items:start;">
-        <div id="m-image" style="background:#fff;border:1px solid #cdb892;border-radius:6px;padding:0.5rem;box-shadow:0 4px 18px rgba(0,0,0,0.15);">
-          <img id="m-img" src="assets/img/memoir/page-001.png" alt="Page 1" style="width:100%;height:auto;display:block;border-radius:3px;" />
+      <div id="m-stage" style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;align-items:start;">
+        <div id="m-canvas-wrap" style="background:#fff;border:1px solid #cdb892;border-radius:6px;padding:0.6rem;box-shadow:0 6px 22px rgba(0,0,0,0.18);min-height:520px;display:flex;justify-content:center;align-items:flex-start;perspective:1500px;">
+          <canvas id="m-canvas" style="max-width:100%;height:auto;display:block;transition:transform 0.45s ease;"></canvas>
         </div>
         <div id="m-text" style="background:#fff7e1;border:1px solid #cdb892;border-radius:6px;padding:1.2rem;min-height:520px;font-family:Georgia,serif;line-height:1.7;color:#2b1d10;">
           <div id="m-content"></div>
@@ -62,59 +69,86 @@ export async function renderMemoir(root) {
         </div>
       </div>
       <div style="margin-top:1rem;text-align:center;font-size:0.78rem;color:#6b5440;">
-        Tip — tap the page image to flip · arrow keys ← → also work · the text panel shows Hebrew original or translation
+        Tap the page to flip · ← → keys also work · text panel shows Hebrew OCR or AI translation
       </div>
     </div>`;
 
-  let cur = 1;
-  const img = root.querySelector("#m-img");
+  const canvas = root.querySelector("#m-canvas");
+  const ctx2d = canvas.getContext("2d");
   const info = root.querySelector("#m-pageinfo");
   const content = root.querySelector("#m-content");
   const metaEl = root.querySelector("#m-meta");
   const langSel = root.querySelector("#m-lang");
+  const canvasWrap = root.querySelector("#m-canvas-wrap");
 
-  function show(n) {
+  // Load the PDF
+  let pdf;
+  try {
+    const loadingTask = pdfjsLib.getDocument(pdfUrl);
+    pdf = await loadingTask.promise;
+  } catch (e) {
+    info.textContent = "PDF failed to load";
+    root.querySelector("#m-content").innerHTML = `<p style="color:#a04040;">${escapeHtml(e.message || e)}</p>`;
+    return;
+  }
+  const N = pdf.numPages;
+  let cur = 1;
+
+  async function show(n, dir = "next") {
     cur = Math.max(1, Math.min(N, n));
-    img.src = `assets/img/memoir/page-${String(cur).padStart(3, "0")}.png`;
-    img.alt = `Page ${cur}`;
     info.textContent = `${cur} / ${N}`;
+    // Flip animation
+    canvas.style.transform = dir === "next" ? "rotateY(-90deg)" : "rotateY(90deg)";
+    setTimeout(() => { canvas.style.transform = ""; }, 250);
+    try {
+      const page = await pdf.getPage(cur);
+      const viewport = page.getViewport({ scale: 1.5 });
+      canvas.width = viewport.width;
+      canvas.height = viewport.height;
+      await page.render({ canvasContext: ctx2d, viewport }).promise;
+    } catch (e) {
+      console.warn("Page render failed:", e);
+    }
+    // Text panel
     const p = byPage.get(cur);
     const lang = langSel.value;
     const txt = p ? (p[lang] || "") : "";
     if (!p) {
       content.innerHTML = `<em style="color:#6b5440;">OCR still pending for this page.</em>`;
     } else if (!txt) {
-      content.innerHTML = `<em style="color:#6b5440;">${lang === "he" ? "(no Hebrew text on this page)" : "(translation not available)"}</em>`;
+      content.innerHTML = `<em style="color:#6b5440;">${lang === "he" ? "(no Hebrew text on this page)" : "(translation not available — Hebrew OCR was empty)"}</em>`;
     } else {
-      const dir = lang === "he" ? "rtl" : "ltr";
-      const fontFam = lang === "he" ? "Heebo, Arial, sans-serif" : "Georgia, serif";
-      content.innerHTML = `<div dir="${dir}" style="font-family:${fontFam};white-space:pre-wrap;">${escapeHtml(txt)}</div>`;
+      const isHe = lang === "he";
+      const dir2 = isHe ? "rtl" : "ltr";
+      const fontFam = isHe ? "Heebo, Arial, sans-serif" : "Georgia, serif";
+      content.innerHTML = `<div dir="${dir2}" style="font-family:${fontFam};white-space:pre-wrap;">${escapeHtml(txt)}</div>`;
     }
     metaEl.innerHTML = p ? [
-      p.page_kind ? `<strong>Type:</strong> ${escapeHtml(p.page_kind)}` : "",
+      p.page_kind ? `<strong>Kind:</strong> ${escapeHtml(p.page_kind)}` : "",
       p.ocr_confidence ? `<strong>OCR confidence:</strong> ${escapeHtml(p.ocr_confidence)}` : "",
-      p.ocr_consensus?.avg_similarity != null ? `<strong>Consensus:</strong> ${p.ocr_consensus.avg_similarity}` : "",
-      p.claude_review_needed ? `<span style="color:#a04040;">⚠ flagged for Claude review</span>` : "",
       p.ocr_notes ? `<strong>Notes:</strong> ${escapeHtml(p.ocr_notes)}` : "",
     ].filter(Boolean).join(" · ") : "";
   }
 
-  root.querySelector("#m-prev").onclick = () => show(cur - 1);
-  root.querySelector("#m-next").onclick = () => show(cur + 1);
+  root.querySelector("#m-first").onclick = () => show(1, "prev");
+  root.querySelector("#m-prev").onclick = () => show(cur - 1, "prev");
+  root.querySelector("#m-next").onclick = () => show(cur + 1, "next");
+  root.querySelector("#m-last").onclick = () => show(N, "next");
   langSel.onchange = () => show(cur);
-  img.style.cursor = "pointer";
-  img.onclick = (e) => {
-    const rect = img.getBoundingClientRect();
+  canvas.style.cursor = "pointer";
+  canvas.onclick = (e) => {
+    const rect = canvas.getBoundingClientRect();
     const x = e.clientX - rect.left;
-    // Hebrew = RTL, so tap LEFT = next page, tap RIGHT = previous
-    if (x < rect.width / 2) show(cur + 1);
-    else show(cur - 1);
+    // Hebrew is RTL — tap left side = next, right side = previous (matches book reading direction)
+    if (x < rect.width / 2) show(cur + 1, "next");
+    else show(cur - 1, "prev");
   };
-  window.addEventListener("keydown", (e) => {
-    if (root.querySelector("#m-img") !== img) return; // no longer on memoir view
-    if (e.key === "ArrowLeft") show(cur - 1);
-    if (e.key === "ArrowRight") show(cur + 1);
-  });
+  const keyHandler = (e) => {
+    if (!canvas.isConnected) { window.removeEventListener("keydown", keyHandler); return; }
+    if (e.key === "ArrowLeft") show(cur - 1, "prev");
+    if (e.key === "ArrowRight") show(cur + 1, "next");
+  };
+  window.addEventListener("keydown", keyHandler);
 
   show(1);
 }
