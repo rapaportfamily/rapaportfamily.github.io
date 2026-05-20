@@ -38,7 +38,8 @@ export async function renderMemoir(root) {
   } catch (e) { /* keep going with defaults */ }
 
   const byPage = new Map((pages || []).map(p => [p.page, p]));
-  const pdfUrl = meta.source_pdf || "assets/documents/lusia_memoir.pdf";
+  // Strip any leading "platform/" prefix (legacy data files may include it; the SPA's base path already covers it)
+  const pdfUrl = (meta.source_pdf || "assets/documents/lusia_memoir.pdf").replace(/^platform\//, "");
 
   root.innerHTML = `
     <div class="page-pad" style="max-width:1200px;margin:0 auto;">
