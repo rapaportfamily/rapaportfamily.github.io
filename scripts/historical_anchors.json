@@ -1,0 +1,156 @@
+{
+  "_schema": "Known historical anchors for free regex-based verification of memoir/family claims. Each anchor has match patterns (Hebrew + English) and a canonical fact. Used by verify_timeline.py layer 1 — costs $0.",
+  "anchors": [
+    {
+      "id": "wwii_begins",
+      "canonical_fact": "World War II began with Nazi Germany's invasion of Poland",
+      "date_iso": "1939-09-01",
+      "match_patterns": [
+        "1\\s+ב?ספטמבר\\s+1939", "1\\.9\\.1939", "1/9/1939", "1\\s*September\\s+1939",
+        "September\\s+1[,\\s]\\s*1939", "פלישת\\s+גרמניה\\s+לפולין", "פרוץ\\s+מלחמת\\s+העולם",
+        "outbreak\\s+of\\s+(?:WW(?:II)?|World\\s+War\\s+II)"
+      ],
+      "source": "Wikipedia: Invasion of Poland"
+    },
+    {
+      "id": "barbarossa",
+      "canonical_fact": "Operation Barbarossa — Germany invaded the Soviet Union, including the Soviet-occupied eastern Galicia",
+      "date_iso": "1941-06-22",
+      "match_patterns": [
+        "22\\s+ביוני\\s+1941", "22\\.6\\.1941", "22/6/1941", "June\\s+22[,\\s]\\s*1941",
+        "ברברוסה", "מבצע\\s+ברברוסה", "Operation\\s+Barbarossa",
+        "פלישת\\s+גרמניה\\s+לברית\\s+המועצות"
+      ],
+      "source": "Wikipedia: Operation Barbarossa"
+    },
+    {
+      "id": "lvov_pogroms_1941",
+      "canonical_fact": "Pogroms in Lwów (Lviv) following German entry — late June / July 1941",
+      "date_iso": "1941-07",
+      "match_patterns": [
+        "פוגרום\\s+(?:ב)?לבוב", "פוגרומי\\s+לבוב", "Lwów\\s+pogroms?", "Lviv\\s+pogroms?"
+      ],
+      "source": "Wikipedia: Lwów pogroms"
+    },
+    {
+      "id": "nadworna_aktion",
+      "canonical_fact": "Mass aktion in Nadwórna — Germans and Ukrainian police murdered ~2,000 Jews in Bukowinka Forest",
+      "date_iso": "1941-10-06",
+      "match_patterns": [
+        "טבח\\s+ביער\\s+בוקובינקה", "Bukowinka\\s+Forest", "טבח\\s+(?:ה)?יהודים\\s+בנדבורנה",
+        "6\\s+ב?אוקטובר\\s+1941", "October\\s+6[,\\s]\\s*1941",
+        "Massacre\\s+of\\s+Jews\\s+in\\s+Nadwórna", "Massacre\\s+of\\s+Jews\\s+in\\s+Nadworna"
+      ],
+      "source": "Yad Vashem Nadwórna community page"
+    },
+    {
+      "id": "nadworna_ghetto_established",
+      "canonical_fact": "The Nadwórna ghetto was established April 1942 with ~3,600 Jews",
+      "date_iso": "1942-04",
+      "match_patterns": [
+        "גטו\\s+נדבורנה", "Nadwórna\\s+ghetto", "Nadworna\\s+ghetto",
+        "ghetto\\s+(?:in|of)\\s+Nadw(?:ó|o)rna"
+      ],
+      "source": "Yad Vashem: After the Mass Aktion: The Ghetto in Nadwórna"
+    },
+    {
+      "id": "nadworna_ghetto_liquidation",
+      "canonical_fact": "Liquidation of the Nadwórna ghetto — most Jews murdered or deported to Bełżec via Stanisławów",
+      "date_iso": "1942-10-24",
+      "match_patterns": [
+        "חיסול\\s+גטו\\s+נדבורנה", "liquidation\\s+of\\s+(?:the\\s+)?Nadw(?:ó|o)rna\\s+ghetto",
+        "24\\s+ב?אוקטובר\\s+1942", "October\\s+24[,\\s]\\s*1942"
+      ],
+      "source": "Yad Vashem: Liquidation of the Nadwórna Jewish Community"
+    },
+    {
+      "id": "lvov_ghetto_liquidation",
+      "canonical_fact": "Final liquidation of the Lwów ghetto — June 1943",
+      "date_iso": "1943-06",
+      "match_patterns": [
+        "חיסול\\s+גטו\\s+לבוב", "liquidation\\s+of\\s+(?:the\\s+)?L(?:w|v)(?:ó|o)w\\s+ghetto",
+        "Janowska", "יאנובסקה", "ינובסקה"
+      ],
+      "source": "Wikipedia: Lwów ghetto"
+    },
+    {
+      "id": "ve_day",
+      "canonical_fact": "Victory in Europe Day — Nazi Germany's unconditional surrender",
+      "date_iso": "1945-05-08",
+      "match_patterns": [
+        "8\\s+ב?מאי\\s+1945", "May\\s+8[,\\s]\\s*1945", "VE\\s+Day",
+        "כניעת\\s+גרמניה", "סיום\\s+מלחמת\\s+העולם\\s+ה?שנייה"
+      ],
+      "source": "Wikipedia: Victory in Europe Day"
+    },
+    {
+      "id": "exodus_1947",
+      "canonical_fact": "Exodus 1947 — Aliyah Bet ship returned to Europe by the British",
+      "date_iso": "1947-07-18",
+      "match_patterns": ["Exodus\\s+1947", "אקסודוס", "אוניית\\s+אקסודוס"],
+      "source": "Wikipedia: Exodus 1947"
+    },
+    {
+      "id": "theodor_herzl_aliyah_bet",
+      "canonical_fact": "Theodor Herzl Aliyah Bet ship intercepted by British, passengers deported to Cyprus",
+      "date_iso": "1947-04-13",
+      "match_patterns": ["תיאודור\\s+הרצל", "Theodor\\s+Herzl\\s+ship"],
+      "source": "Wikipedia: Theodor Herzl (immigrant ship)"
+    },
+    {
+      "id": "cyprus_detention",
+      "canonical_fact": "British detention camps in Cyprus held ~53,000 Jewish 'illegal' immigrants 1946-1949",
+      "date_iso": "1946..1949",
+      "match_patterns": [
+        "מחנות\\s+המעצר\\s+(?:ב)?קפריסין", "Cyprus\\s+(?:internment|detention)\\s+camps?",
+        "מעפילים\\s+(?:ב)?קפריסין", "Karaolos", "Famagusta", "Caraolos"
+      ],
+      "source": "Wikipedia: Cyprus internment camps"
+    },
+    {
+      "id": "atlit_detention",
+      "canonical_fact": "Atlit detention camp in British Mandate Palestine held intercepted Jewish refugees",
+      "date_iso": "1939..1948",
+      "match_patterns": ["עתלית", "מחנה\\s+עתלית", "Atlit\\s+(?:detention\\s+)?camp"],
+      "source": "Wikipedia: Atlit detainee camp"
+    },
+    {
+      "id": "israel_independence",
+      "canonical_fact": "State of Israel declared independence",
+      "date_iso": "1948-05-14",
+      "match_patterns": [
+        "ה'\\s+באייר", "ה-?14\\s+ב?מאי\\s+1948", "May\\s+14[,\\s]\\s*1948",
+        "הכרזת\\s+(?:ה)?עצמאות", "Israeli\\s+Declaration\\s+of\\s+Independence"
+      ],
+      "source": "Wikipedia: Israeli Declaration of Independence"
+    },
+    {
+      "id": "polish_passportization_1940",
+      "canonical_fact": "Soviet 'passportization' campaign in eastern Polish border zone — residents forced to apply for Soviet passports",
+      "date_iso": "1940",
+      "match_patterns": ["פספורטיזציה", "passport(?:ization|isation)\\s+campaign"],
+      "source": "IPN paper: Represje NKWD wobec mieszkańców strefy przygranicznej 1939-1941"
+    },
+    {
+      "id": "anders_army_evacuation",
+      "canonical_fact": "Anders Army (II Corps) evacuated from USSR to Iran via Krasnovodsk/Pahlavi",
+      "date_iso": "1942-03..1942-08",
+      "match_patterns": [
+        "צבא\\s+אנדרס", "Anders\\s+Army", "Anders'\\s+Army", "II?\\s+Polish\\s+Corps",
+        "פהלווי", "Pahlavi\\s+camp"
+      ],
+      "source": "Wikipedia: Anders' Army"
+    }
+  ],
+  "town_gazetteer": [
+    { "id": "pl_nadworna", "canonical_en": "Nadwórna", "variants": ["Nadworna", "Nadwirna", "נדבורנה", "נדבורנא", "Nadvirna", "Надвірна"], "country_then": "Poland (Galicia)", "country_now": "Ukraine" },
+    { "id": "pl_bolechow", "canonical_en": "Bolechów", "variants": ["Bolechow", "Bolekhov", "בולחוב", "בולכוב", "בולחוף", "Болехів"], "country_then": "Poland (Galicia)", "country_now": "Ukraine" },
+    { "id": "pl_lwow", "canonical_en": "Lwów / Lviv", "variants": ["Lvov", "Lemberg", "לבוב", "לביב", "לבב", "Львів"], "country_then": "Poland (1918-1939) / USSR / Nazi-occupied", "country_now": "Ukraine" },
+    { "id": "pl_stryj", "canonical_en": "Stryj", "variants": ["Stry", "Strey", "סטרי", "סטריי", "Стрий"], "country_then": "Poland (Galicia)", "country_now": "Ukraine" },
+    { "id": "pl_przemysl", "canonical_en": "Przemyśl", "variants": ["Przemysl", "Peremyshl", "פשמישל", "פרזמישל"], "country_then": "Poland", "country_now": "Poland" },
+    { "id": "pl_muszyna", "canonical_en": "Muszyna", "variants": ["Mosina (oral)", "מושינה", "מושינא"], "country_then": "Poland", "country_now": "Poland", "note": "Resort town near Krynica — memoir-confirmed as the marriage town" },
+    { "id": "pl_brussels", "canonical_en": "Brussels (Bruxelles)", "variants": ["Brussel", "Bruxelles", "בריסל", "בריסעל"], "country_then": "Belgium", "country_now": "Belgium" },
+    { "id": "pl_haifa", "canonical_en": "Haifa", "variants": ["חיפה", "Haifa"], "country_then": "British Mandate", "country_now": "Israel" },
+    { "id": "pl_cyprus", "canonical_en": "Cyprus (British detention camps)", "variants": ["קפריסין", "Caraolos", "Karaolos", "Famagusta"], "country_then": "British", "country_now": "Cyprus" }
+  ]
+}
