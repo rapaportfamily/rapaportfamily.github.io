@@ -66,9 +66,9 @@ export async function renderMemoir(root) {
         <button id="m-next" style="background:#6b1f1f;color:#f8f3e8;border:none;padding:0.5rem 1rem;border-radius:4px;cursor:pointer;font-weight:600;">Next →</button>
         <button id="m-last" style="background:transparent;border:1.5px solid #6b1f1f;color:#6b1f1f;padding:0.35rem 0.6rem;border-radius:4px;cursor:pointer;">Last ⏭</button>
         <select id="m-lang" style="padding:0.45rem;border:1px solid #cdb892;border-radius:4px;background:#fff;">
-          <option value="he">עברית (original)</option>
-          <option value="en" selected>English translation</option>
-          <option value="pl">Polski tłumaczenie</option>
+          <option value="hebrew">עברית (original)</option>
+          <option value="english" selected>English translation</option>
+          <option value="polish">Polski tłumaczenie</option>
         </select>
         <a href="${escapeHtml(pdfUrl)}" target="_blank" style="font-size:0.85rem;color:#6b1f1f;text-decoration:underline;">📥 Download PDF</a>
       </div>
@@ -124,14 +124,15 @@ export async function renderMemoir(root) {
     }
     // Text panel
     const p = byPage.get(cur);
-    const lang = langSel.value;
+    const lang = langSel.value;  // now matches data field names: hebrew / english / polish
     const txt = p ? (p[lang] || "") : "";
     if (!p) {
       content.innerHTML = `<em style="color:#6b5440;">OCR still pending for this page.</em>`;
     } else if (!txt) {
-      content.innerHTML = `<em style="color:#6b5440;">${lang === "he" ? "(no Hebrew text on this page)" : "(translation not available — Hebrew OCR was empty)"}</em>`;
+      const isHe = lang === "hebrew";
+      content.innerHTML = `<em style="color:#6b5440;">${isHe ? "(no Hebrew text on this page)" : "(translation not available — Hebrew OCR was empty)"}</em>`;
     } else {
-      const isHe = lang === "he";
+      const isHe = lang === "hebrew";
       const dir2 = isHe ? "rtl" : "ltr";
       const fontFam = isHe ? "Heebo, Arial, sans-serif" : "Georgia, serif";
       content.innerHTML = `<div dir="${dir2}" style="font-family:${fontFam};white-space:pre-wrap;">${escapeHtml(txt)}</div>`;
