@@ -72,13 +72,13 @@ export async function renderMemoir(root) {
         </select>
         <a href="${escapeHtml(pdfUrl)}" target="_blank" style="font-size:0.85rem;color:#6b1f1f;text-decoration:underline;">📥 Download PDF</a>
       </div>
-      <div id="m-stage" style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;align-items:start;">
-        <div id="m-canvas-wrap" style="background:#fff;border:1px solid #cdb892;border-radius:6px;padding:0.6rem;box-shadow:0 6px 22px rgba(0,0,0,0.18);min-height:520px;display:flex;justify-content:center;align-items:flex-start;perspective:1500px;">
-          <canvas id="m-canvas" style="max-width:100%;height:auto;display:block;transition:transform 0.45s ease;"></canvas>
+      <div id="m-stage" style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:1.5rem;align-items:stretch;">
+        <div id="m-canvas-wrap" style="background:#fff;border:1px solid #cdb892;border-radius:6px;padding:0.6rem;box-shadow:0 6px 22px rgba(0,0,0,0.18);display:flex;justify-content:center;align-items:flex-start;perspective:1500px;height:75vh;overflow:hidden;">
+          <canvas id="m-canvas" style="max-width:100%;max-height:100%;height:auto;display:block;transition:transform 0.45s ease;"></canvas>
         </div>
-        <div id="m-text" style="background:#fff7e1;border:1px solid #cdb892;border-radius:6px;padding:1.2rem;min-height:520px;font-family:Georgia,serif;line-height:1.7;color:#2b1d10;">
-          <div id="m-content"></div>
-          <div id="m-meta" style="margin-top:1.2rem;padding-top:0.8rem;border-top:1px solid #cdb892;font-size:0.78rem;color:#6b5440;"></div>
+        <div id="m-text" style="background:#fff7e1;border:1px solid #cdb892;border-radius:6px;padding:1.2rem;font-family:Georgia,serif;line-height:1.7;color:#2b1d10;height:75vh;overflow-y:auto;display:flex;flex-direction:column;">
+          <div id="m-content" style="flex:1 1 auto;"></div>
+          <div id="m-meta" style="margin-top:1.2rem;padding-top:0.8rem;border-top:1px solid #cdb892;font-size:0.78rem;color:#6b5440;flex:0 0 auto;"></div>
         </div>
       </div>
       <div style="margin-top:1rem;text-align:center;font-size:0.78rem;color:#6b5440;">

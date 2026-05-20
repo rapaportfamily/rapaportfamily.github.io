@@ -53,6 +53,14 @@ function injectFab() {
   });
   fab.onclick = openUploadModal;
   document.body.appendChild(fab);
+
+  // Hide the FAB on the memoir page (reading view shouldn't be obstructed)
+  function updateFabVisibility() {
+    const hash = (location.hash || "").replace(/^#\//, "").split("/")[0];
+    fab.style.display = hash === "memoir" ? "none" : "";
+  }
+  window.addEventListener("hashchange", updateFabVisibility);
+  updateFabVisibility();
 }
 
 // ── upload modal ───────────────────────────────────────────────────
