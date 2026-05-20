@@ -32,6 +32,7 @@
       "death": null,
       "father_id": "p_david",
       "mother_id": "p_leah",
+      "siblings_ids": ["p_shimon"],
       "children_ids": ["p_doron", "p_dana", "p_daniel"],
       "spouse_id": "p_dalia"
     },
@@ -139,7 +140,7 @@
       },
       "aliases": ["Szymon", "Simon", "שמעון"],
       "role": "uncle",
-      "note_en": "Doron's uncle. Older brother of Dov Bernard. Survived the war as a child.",
+      "note_en": "Older brother of Dov. Uncle to Doron, Dana and Daniel. Survived the war as a child. Married Tamar; father of Ronen (older) and Hadas.",
       "birth": {
         "date": "1937-06-22",
         "date_precision": "day",
@@ -154,10 +155,40 @@
       },
       "father_id": "p_david",
       "mother_id": "p_leah",
+      "spouse_id": "p_tamar",
+      "children_ids": ["p_ronen_rapaport", "p_hadas_rapaport"],
+      "siblings_ids": ["p_dov_bernard"],
       "facts": [
         {"key": "childhood_river", "value": "Memoir mentions taking baby Shimon to a river in 'Mosina'", "confidence": "family_oral", "sources": ["oral_doron_06may"]},
-        {"key": "post_war_registration", "value": "Registered in CKŻP records as son of Lusia and Dawid Rapaport", "confidence": "confirmed", "sources": ["doc_szymon_ckzp"]}
+        {"key": "post_war_registration", "value": "Registered in CKŻP records as son of Lusia and Dawid Rapaport", "confidence": "confirmed", "sources": ["doc_szymon_ckzp"]},
+        {"key": "marriage", "value": "Married Tamar; two children Ronen (older son) and Hadas (younger sister)", "confidence": "family_oral", "sources": ["oral_doron_20may"]}
       ]
+    },
+    {
+      "id": "p_tamar",
+      "primary_name": { "en": "Tamar Rapaport", "he": "תמר רפפורט", "pl": "Tamar Rapaport", "fr": "Tamar Rapaport" },
+      "role": "aunt",
+      "note_en": "Shimon's wife. Aunt to Doron, Dana and Daniel.",
+      "spouse_id": "p_shimon",
+      "children_ids": ["p_ronen_rapaport", "p_hadas_rapaport"]
+    },
+    {
+      "id": "p_ronen_rapaport",
+      "primary_name": { "en": "Ronen Rapaport", "he": "רונן רפפורט", "pl": "Ronen Rapaport", "fr": "Ronen Rapaport" },
+      "role": "cousin",
+      "note_en": "Older son of Shimon and Tamar. First cousin to Doron, Dana and Daniel.",
+      "father_id": "p_shimon",
+      "mother_id": "p_tamar",
+      "siblings_ids": ["p_hadas_rapaport"]
+    },
+    {
+      "id": "p_hadas_rapaport",
+      "primary_name": { "en": "Hadas Rapaport", "he": "הדס רפפורט", "pl": "Hadas Rapaport", "fr": "Hadas Rapaport" },
+      "role": "cousin",
+      "note_en": "Younger sister of Ronen, daughter of Shimon and Tamar. First cousin to Doron, Dana and Daniel.",
+      "father_id": "p_shimon",
+      "mother_id": "p_tamar",
+      "siblings_ids": ["p_ronen_rapaport"]
     },
     {
       "id": "p_berisz",
