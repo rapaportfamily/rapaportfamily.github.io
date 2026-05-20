@@ -2,6 +2,22 @@
 // Validates a per-person ES256 JWT magic-link token before loading the SPA.
 // Public key lives at assets/auth/pubkey.json. Private key NEVER leaves Doron's home PC.
 
+// Capture the PWA install prompt event AS EARLY AS POSSIBLE so it isn't missed.
+// Chrome only fires beforeinstallprompt once per session — if our listener is added
+// after the gate validates the token, we miss it. So grab it synchronously here at top.
+window.__rftInstallEvent = null;
+window.addEventListener("beforeinstallprompt", (e) => {
+  e.preventDefault();
+  window.__rftInstallEvent = e;
+  // Notify upload-feature.js if it's already loaded
+  if (window.__rftOnInstallReady) try { window.__rftOnInstallReady(e); } catch {}
+});
+window.addEventListener("appinstalled", () => {
+  window.__rftInstallEvent = null;
+  document.getElementById("rft-install-bar")?.remove();
+  document.getElementById("rft-install-modal")?.remove();
+});
+
 (async function () {
   "use strict";
 

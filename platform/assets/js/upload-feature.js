@@ -484,7 +484,16 @@ function renderGeminiCard(gv) {
 let _installPromptEvent = null;
 
 function setupInstallButton() {
-  // Always capture native install event so the header Install button can use it
+  // Inherit any event already captured by auth-gate.js (which loads earlier and is more likely to catch the event)
+  if (window.__rftInstallEvent) {
+    _installPromptEvent = window.__rftInstallEvent;
+  }
+  // Also register a callback for future events
+  window.__rftOnInstallReady = (e) => {
+    _installPromptEvent = e;
+    updatePersistentInstallBar();
+  };
+  // And listen ourselves as a fallback
   window.addEventListener("beforeinstallprompt", (e) => {
     e.preventDefault();
     _installPromptEvent = e;
