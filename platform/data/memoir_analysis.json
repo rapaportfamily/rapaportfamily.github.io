@@ -1,0 +1,242 @@
+{
+  "source": "Lusia Rapaport memoir (סיפורה של לוסיה)",
+  "extracted_by": "Anthropic Claude claude-haiku-4-5",
+  "extracted_at": "2026-05-20",
+  "cross_check": {
+    "confirms": [
+      {
+        "fact": "Leah (Lusia) Weitzner born in Bolechów on 8 April 1913",
+        "id_ref": "e_leah_birth",
+        "page": 12
+      },
+      {
+        "fact": "David Rapaport born in Nadwórna on 25 December 1911",
+        "id_ref": "e_david_birth",
+        "page": null
+      },
+      {
+        "fact": "David and Leah married in February 1938",
+        "id_ref": "e_david_leah_marriage",
+        "page": 16
+      },
+      {
+        "fact": "Shimon Rapaport born in 1937 (specifically June 22, 1937)",
+        "id_ref": "e_shimon_birth",
+        "page": 6
+      },
+      {
+        "fact": "Weitzner family emigrated to Palestine in 1933",
+        "id_ref": "e_weitzner_emigration_1933",
+        "page": 13
+      },
+      {
+        "fact": "World War II began 1 September 1939",
+        "id_ref": "e_war_begins",
+        "page": 22
+      },
+      {
+        "fact": "Lusia was in Przemyśl in 1939",
+        "id_ref": "e_leah_przemysl_1939",
+        "page": 23
+      },
+      {
+        "fact": "David lived under false identity in Lwów during 1941",
+        "id_ref": "e_lwow_period_1941",
+        "page": 41
+      },
+      {
+        "fact": "David escaped from Nadwórna ghetto",
+        "id_ref": "e_david_ghetto_escape",
+        "page": 41
+      },
+      {
+        "fact": "David was registered as Displaced Person in Brussels",
+        "id_ref": "e_arrival_brussels",
+        "page": 62
+      },
+      {
+        "fact": "Dov Bernard Rapaport born in Brussels in 1946",
+        "id_ref": "e_dov_birth",
+        "page": 62
+      },
+      {
+        "fact": "Rebeka Griffel (Regina Rapaport) born in Nadwórna in 1888",
+        "id_ref": "e_rebeka_birth",
+        "page": null
+      }
+    ],
+    "contradicts": [
+      {
+        "fact": "Shimon's birth year",
+        "id_ref": "p_shimon",
+        "evidence": "Memoir indicates Shimon was born in June 1937 (page 82: 'Shimon was born in 1939' is contradicted by page 6 which lists his birth as 1937, and by the narrative that he was 2 years old when war broke out in 1939, making him born in 1937). The family data lists birth_year as 1937 which aligns with memoir narrative.",
+        "page": 82
+      }
+    ],
+    "new_people_proposed": [
+      {
+        "name": "Pietrozycki",
+        "hebrew_name": null,
+        "relationship": "Good-hearted Gentile neighbor in Nadwórna; helped hide David and Lusia in forest while caring for Shimon",
+        "first_appearance_page": 26
+      },
+      {
+        "name": "Ivanov",
+        "hebrew_name": null,
+        "relationship": "Russian Gentile neighbor and father of three in Nadwórna; helped arrange Shimon's transfer to Lwów; warned Lusia of planned action against children",
+        "first_appearance_page": 30
+      },
+      {
+        "name": "Hormak family",
+        "hebrew_name": null,
+        "relationship": "Gentile dealers in Jewish property in Nadwórna and Lwów; helped Lusia with food, housing, and escape to Lwów; sister (Mrs. Inovska) sheltered Shimon in Lwów",
+        "first_appearance_page": 30
+      },
+      {
+        "name": "Maria Ciccelik",
+        "hebrew_name": null,
+        "relationship": "Polish peasant woman from Nadwórna whose birth certificate Lusia used to forge identity documents; protected Shimon in Nadwórna from 1942-1945",
+        "first_appearance_page": 51
+      },
+      {
+        "name": "Pesach",
+        "hebrew_name": null,
+        "relationship": "Friend and fellow worker of David; needed Lusia's help suturing himself to hide circumcision",
+        "first_appearance_page": 46
+      },
+      {
+        "name": "Dr. Korner",
+        "hebrew_name": null,
+        "relationship": "Dentist from Landsberg; murdered by Germans for possessing gold; Lusia helped his 14-year-old daughter",
+        "first_appearance_page": 48
+      },
+      {
+        "name": "Esther Weiss",
+        "hebrew_name": null,
+        "relationship": "Teacher who conducted interviews with Lusia in 1986 and produced original booklet 'Lusia'",
+        "first_appearance_page": 4
+      },
+      {
+        "name": "Penina Hauser",
+        "hebrew_name": null,
+        "relationship": "Co-editor with Esther Weiss; helped produce the memoir 'The Story of Lusia'",
+        "first_appearance_page": 1
+      },
+      {
+        "name": "Moshe Guter",
+        "hebrew_name": null,
+        "relationship": "Journalist editor who brought 'The Story of Lusia' to print",
+        "first_appearance_page": 1
+      },
+      {
+        "name": "Donner",
+        "hebrew_name": null,
+        "relationship": "German manager of Maritzka Square commercial center in Lwów; promoted Lusia to manage art objects shop",
+        "first_appearance_page": 43
+      },
+      {
+        "name": "Lota Rapaport",
+        "hebrew_name": null,
+        "relationship": "Lusia's sister-in-law (Memek's sister); lived in Lwów ghetto; bought forged US documents; disappeared (presumed killed)",
+        "first_appearance_page": 37
+      },
+      {
+        "name": "Dr. Reuben Hackt",
+        "hebrew_name": null,
+        "relationship": "Swiss doctor met in Slovakia after war; urged Lusia to document her Holocaust experiences; later became well-known personality in Haifa (owner of Tenuva grain storage)",
+        "first_appearance_page": 86
+      },
+      {
+        "name": "Tami Rapaport",
+        "hebrew_name": null,
+        "relationship": "Shimon's wife; married after the war",
+        "first_appearance_page": 83
+      },
+      {
+        "name": "Akiva Alder",
+        "hebrew_name": null,
+        "relationship": "Son of Lusia's sister Zippora (Tzipora); political correspondent for Ha'aretz newspaper",
+        "first_appearance_page": 12
+      }
+    ],
+    "new_places_proposed": [
+      {
+        "name": "Stry",
+        "hebrew_name": null,
+        "context": "City in Poland where Lusia attended gymnasium 'Piat-Lokus' (girls' school); about an hour from Bolechów",
+        "first_appearance_page": 11
+      },
+      {
+        "name": "Zakopane",
+        "hebrew_name": null,
+        "context": "Mountain town in Poland where Polish peasants carve art objects; Lusia traveled there with German manager Donner",
+        "first_appearance_page": 47
+      },
+      {
+        "name": "Cyprus",
+        "hebrew_name": null,
+        "context": "Location of British detention camps where Shimon and David were held for about a year after capture of the Theodor Herzl ship",
+        "first_appearance_page": 64
+      },
+      {
+        "name": "Atlit",
+        "hebrew_name": null,
+        "context": "Detention camp in Mandatory Palestine where Shimon was transferred from Cyprus; described as 'the corridor to freedom'",
+        "first_appearance_page": 65
+      },
+      {
+        "name": "Sharon region (Israel)",
+        "hebrew_name": null,
+        "context": "Region in Palestine/Israel where Lusia traveled with her father; known for citrus orchards",
+        "first_appearance_page": 68
+      },
+      {
+        "name": "Tirat HaCarmel",
+        "hebrew_name": null,
+        "context": "Location of school in Israel where Lusia did volunteer work with B'nai B'rith",
+        "first_appearance_page": 72
+      },
+      {
+        "name": "East Berlin",
+        "hebrew_name": null,
+        "context": "Communist section of Berlin where Hitler was buried; Lusia traveled there to see his grave",
+        "first_appearance_page": 78
+      }
+    ]
+  },
+  "themes": [
+    "Maternal instinct and survival",
+    "Identity and deception",
+    "Kindness of strangers",
+    "Resilience and hope",
+    "Memory and testimony",
+    "Separation and reunion"
+  ],
+  "key_quotes": [
+    {
+      "page": 46,
+      "english": "The sight of a flower that moved his heart delighted him. He saw countless horrors, but did not cry or scream."
+    },
+    {
+      "page": 32,
+      "english": "I am not worried about my husband. He works outside the ghetto and is resourceful. But I must travel quickly to Shimon."
+    },
+    {
+      "page": 52,
+      "english": "Do everything so that I won't be Jewish. Do everything so that I won't be Jewish."
+    },
+    {
+      "page": 78,
+      "english": "You human monster, murderer like you, I, my husband and my children have remained alive while you lie here in a grave."
+    },
+    {
+      "page": 86,
+      "english": "It is hard for me to believe that I am the Lusia who is telling this. Where did I find the spiritual strength?"
+    },
+    {
+      "page": 69,
+      "english": "Blessed am I to have achieved my dream."
+    }
+  ],
+  "overall_assessment": "The memoir reveals Lusia's extraordinary resourcefulness and psychological resilience in surviving the Holocaust by successfully passing as a Polish woman while hiding her young son in a wooden box for over a year in Lwów under constant Nazi surveillance. The narrative confirms that David and Lusia were separated during much of the war (David in the Nadwórna ghetto until his escape; Lusia passing as 'Maria' in Lwów), and provides detailed accounts of their post-war journey through Brussels, Cyprus detention camps, and eventual resettlement in Israel. The memoir also establishes the critical role of non-Jewish helpers (Pietrozycki, Ivanov, the Hormak family, and Maria Ciccelik) in the family's survival, countering narratives that overlook gentile assistance during the Holocaust."
+}

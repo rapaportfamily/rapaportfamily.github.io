@@ -167,11 +167,66 @@
     },
     {
       "id": "p_tamar",
-      "primary_name": { "en": "Tamar Rapaport", "he": "תמר רפפורט", "pl": "Tamar Rapaport", "fr": "Tamar Rapaport" },
+      "primary_name": { "en": "Tamar (Tami) Rapaport", "he": "תמר (תמי) רפפורט", "pl": "Tamar (Tami) Rapaport", "fr": "Tamar (Tami) Rapaport" },
+      "aliases": ["Tami", "Tammy", "תמי"],
       "role": "aunt",
-      "note_en": "Shimon's wife. Aunt to Doron, Dana and Daniel.",
+      "note_en": "Shimon's wife. Aunt to Doron, Dana and Daniel. Memoir page 83 names her as 'Tami' — the everyday short form of Tamar.",
       "spouse_id": "p_shimon",
       "children_ids": ["p_ronen_rapaport", "p_hadas_rapaport"]
+    },
+    {
+      "id": "p_maria_ciccelik",
+      "primary_name": { "en": "Maria Ciccelik", "he": "מריה צ'יצ'ליק", "pl": "Maria Ciccelik", "fr": "Maria Ciccelik" },
+      "aliases": ["Maria Cizlik", "Maria Cizelik"],
+      "role": "righteous_gentile",
+      "note_en": "Polish Catholic peasant woman from the Nadwórna area whose birth certificate Lusia used to forge her wartime identity papers (the 'Maria' name). Per memoir p. 51, she protected Shimon in Nadwórna 1942-1945. Lusia called her identity 'Maria Ciccelik' throughout the war — earlier family oral records had this as 'Maria Cizlik' (a memory simplification).",
+      "facts": [
+        {"key": "role", "value": "Lent her birth certificate to Lusia for the wartime Aryan-side false identity", "confidence": "documented", "sources": ["doc_lusia_memoir"]},
+        {"key": "shimon_protection", "value": "Sheltered baby/toddler Shimon in Nadwórna 1942-1945 (per memoir p. 51)", "confidence": "documented", "sources": ["doc_lusia_memoir"]}
+      ]
+    },
+    {
+      "id": "p_pietrozycki",
+      "primary_name": { "en": "Pietrozycki", "he": "פיטרוז'יצקי", "pl": "Pietrożycki", "fr": "Pietrozycki" },
+      "role": "righteous_gentile",
+      "note_en": "Gentile neighbor in Nadwórna who hid David and Lusia in the forest while caring for baby Shimon (memoir p. 26). Risked his life to shelter Jewish friends during the German occupation.",
+      "facts": [
+        {"key": "role", "value": "Hid David and Lusia in the forest near Nadwórna; cared for Shimon while parents hid", "confidence": "documented", "sources": ["doc_lusia_memoir"]}
+      ]
+    },
+    {
+      "id": "p_ivanov",
+      "primary_name": { "en": "Ivanov", "he": "איוונוב", "pl": "Iwanow", "fr": "Ivanov" },
+      "role": "righteous_gentile",
+      "note_en": "Russian Gentile neighbor in Nadwórna, father of three. Per memoir p. 30: arranged the secret transfer of Shimon from Nadwórna to Lwów and warned Lusia of a planned Nazi action against Jewish children.",
+      "facts": [
+        {"key": "role", "value": "Arranged Shimon's transfer from Nadwórna to Lwów; warned of a planned action against children", "confidence": "documented", "sources": ["doc_lusia_memoir"]}
+      ]
+    },
+    {
+      "id": "p_hormak_family",
+      "primary_name": { "en": "Hormak family", "he": "משפחת הורמק", "pl": "Rodzina Hormak", "fr": "Famille Hormak" },
+      "role": "righteous_gentile",
+      "note_en": "Gentile family (Nadwórna + Lwów) who helped Lusia with food, housing, and the escape route to Lwów. The sister Mrs. Inovska sheltered Shimon in Lwów (memoir p. 30). The family name 'Hormak' is the documented source of the 'Hormek papers' family memory previously had recorded.",
+      "facts": [
+        {"key": "role", "value": "Provided food and housing in Nadwórna; helped the family escape to Lwów; sheltered Shimon there", "confidence": "documented", "sources": ["doc_lusia_memoir"]},
+        {"key": "hormek_papers_clarification", "value": "Family memory of 'Hormek papers' likely refers to documents arranged by or through the Hormak family — not a document type name", "confidence": "hypothesis", "sources": ["doc_lusia_memoir"]}
+      ]
+    },
+    {
+      "id": "p_lota",
+      "primary_name": { "en": "Lota Rapaport", "he": "לוטה רפפורט", "pl": "Lota Rapaport", "fr": "Lota Rapaport" },
+      "role": "great_aunt",
+      "note_en": "David's sister. Lived in the Lwów ghetto with her family. Per memoir p. 37: bought forged US emigration documents but was reportedly betrayed by the sellers; later disappeared in the war (presumed murdered in the Holocaust). The family memory of her was reconfirmed by Dalia 17 May 2026.",
+      "facts": [
+        {"key": "residence", "value": "Lived in Lwów (ghetto from 1941)", "confidence": "documented", "sources": ["doc_lusia_memoir"]},
+        {"key": "forged_us_documents", "value": "Bought forged US emigration documents to try to escape the ghetto; sellers reportedly informed (per memoir p. 41)", "confidence": "documented", "sources": ["doc_lusia_memoir"]},
+        {"key": "fate", "value": "Disappeared during the Holocaust — fate not in memoir but inferred to be murdered", "confidence": "hypothesis", "sources": ["doc_lusia_memoir"]},
+        {"key": "existence_confirmed_by_dalia", "value": "Dalia confirmed Lota's existence 17 May 2026 WhatsApp", "confidence": "documented", "sources": ["oral_dalia_17may_whatsapp_2241", "doc_lusia_memoir"]}
+      ],
+      "father_id": "p_berisz",
+      "mother_id": "p_rebeka",
+      "siblings_ids": ["p_david"]
     },
     {
       "id": "p_ronen_rapaport",
@@ -265,25 +320,6 @@
       ],
       "spouse_id": "p_leizor_griffel",
       "children_ids": ["p_rebeka"]
-    },
-    {
-      "id": "p_lota",
-      "primary_name": {
-        "en": "Lota Rapaport",
-        "he": "לוטה רפפורט",
-        "pl": "Lota Rapaport",
-        "fr": "Lota Rapaport"
-      },
-      "role": "great_aunt",
-      "note_en": "David's sister. Lived in Lwów. Existence reconfirmed by Dalia 17 May 2026 ('David had sister lota. i am sure.').",
-      "facts": [
-        {"key": "residence", "value": "Lived in Lwów", "confidence": "documented", "sources": ["oral_doron_13may", "doc_lusia_memoir"], "note": "Confirmed multiple times in Lusia's memoir (2026-05-20 OCR) — Lota is referred to as Lusia's sister-in-law (גיסתה) in Lwów."},
-        {"key": "existence_confirmed_by_dalia", "value": "Dalia confirmed Lota's existence on 17 May 2026 WhatsApp. Memoir confirms (multiple mentions on pp. 37-41).", "confidence": "documented", "sources": ["oral_dalia_17may_whatsapp_2241", "doc_lusia_memoir"]},
-        {"key": "lwow_ghetto_residence", "value": "Lived in the Lwów ghetto with her family during the war; Lusia visited her there", "confidence": "documented", "sources": ["doc_lusia_memoir"]}
-      ],
-      "father_id": "p_berisz",
-      "mother_id": "p_rebeka",
-      "siblings_ids": ["p_david"]
     },
     {
       "id": "p_elias_weitzner",
