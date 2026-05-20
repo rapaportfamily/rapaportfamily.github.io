@@ -60,17 +60,17 @@ export async function renderMemoir(root) {
         <div style="font-size:0.85rem;color:#6b5440;margin-top:0.4rem;">By ${escapeHtml(meta.author || "Leah (Lusia) Rapaport née Weitzner")} · loaded from the original scanned PDF</div>
       </header>
       <div id="m-controls" style="display:flex;justify-content:center;gap:0.6rem;margin-bottom:1rem;align-items:center;flex-wrap:wrap;">
-        <button id="m-first" style="background:transparent;border:1.5px solid #6b1f1f;color:#6b1f1f;padding:0.35rem 0.6rem;border-radius:4px;cursor:pointer;">⏮ First</button>
-        <button id="m-prev" style="background:#6b1f1f;color:#f8f3e8;border:none;padding:0.5rem 1rem;border-radius:4px;cursor:pointer;font-weight:600;">← Previous</button>
-        <span id="m-pageinfo" style="font-family:Inter,sans-serif;color:#6b5440;min-width:80px;text-align:center;">Loading…</span>
-        <button id="m-next" style="background:#6b1f1f;color:#f8f3e8;border:none;padding:0.5rem 1rem;border-radius:4px;cursor:pointer;font-weight:600;">Next →</button>
-        <button id="m-last" style="background:transparent;border:1.5px solid #6b1f1f;color:#6b1f1f;padding:0.35rem 0.6rem;border-radius:4px;cursor:pointer;">Last ⏭</button>
-        <select id="m-lang" style="padding:0.45rem;border:1px solid #cdb892;border-radius:4px;background:#fff;">
-          <option value="hebrew">עברית (original)</option>
-          <option value="english" selected>English translation</option>
-          <option value="polish">Polski tłumaczenie</option>
+        <button id="m-first" style="background:transparent;border:1.5px solid #6b1f1f;color:#6b1f1f;padding:0.35rem 0.55rem;border-radius:4px;cursor:pointer;font-size:0.85rem;">⏮</button>
+        <button id="m-prev" style="background:#6b1f1f;color:#f8f3e8;border:none;padding:0.5rem 0.9rem;border-radius:4px;cursor:pointer;font-weight:600;">←</button>
+        <span id="m-pageinfo" style="font-family:Inter,sans-serif;color:#6b5440;min-width:60px;text-align:center;font-size:0.95rem;">…</span>
+        <button id="m-next" style="background:#6b1f1f;color:#f8f3e8;border:none;padding:0.5rem 0.9rem;border-radius:4px;cursor:pointer;font-weight:600;">→</button>
+        <button id="m-last" style="background:transparent;border:1.5px solid #6b1f1f;color:#6b1f1f;padding:0.35rem 0.55rem;border-radius:4px;cursor:pointer;font-size:0.85rem;">⏭</button>
+        <select id="m-lang" style="padding:0.45rem;border:1px solid #cdb892;border-radius:4px;background:#fff;max-width:180px;">
+          <option value="hebrew">עברית</option>
+          <option value="english" selected>English</option>
+          <option value="polish">Polski</option>
         </select>
-        <a href="${escapeHtml(pdfUrl)}" target="_blank" style="font-size:0.85rem;color:#6b1f1f;text-decoration:underline;">📥 Download PDF</a>
+        <a href="${escapeHtml(pdfUrl)}" target="_blank" style="font-size:0.82rem;color:#6b1f1f;text-decoration:underline;white-space:nowrap;">📥 PDF</a>
       </div>
       <div id="m-stage" class="m-stage">
         <div id="m-canvas-wrap" class="m-canvas-wrap">
