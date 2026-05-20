@@ -1,0 +1,3380 @@
+{
+  "dates": [
+    {
+      "page": 16,
+      "text": "בפברואר 1938",
+      "type": "month_year",
+      "value": {
+        "year": 1938,
+        "month": 2
+      },
+      "id_ref": null,
+      "context_before": "תן עם אידיוט שמתאהב\nבתמונה?\"\nחתונה לבנה",
+      "context_after": ", ביום חורפי קר בו פתיתי שלג יורדים ללא"
+    }
+  ],
+  "years": [
+    {
+      "page": 4,
+      "text": "1986",
+      "type": "year",
+      "value": 1986,
+      "id_ref": null,
+      "context_before": "3\n\nפתח דבר\n\nבקיץ",
+      "context_after": "ניגשה הדס, נכדתה של לוסיה רפפורט, אל מו"
+    },
+    {
+      "page": 12,
+      "text": "1932",
+      "type": "year",
+      "value": 1932,
+      "id_ref": null,
+      "context_before": "אלדר), נישאה בגיל צעיר ועלתה ארצה בשנת",
+      "context_after": ". היא הצילה מהשואה את כל המשפחה (הורים,"
+    },
+    {
+      "page": 13,
+      "text": "1935",
+      "type": "year",
+      "value": 1935,
+      "id_ref": null,
+      "context_before": "תלמוד שנערכו בבית הכנסת של\nהעיירה.\nבשנת",
+      "context_after": "החליטו ההורים לעלות לפלשתינה. כשראה מיש"
+    },
+    {
+      "page": 16,
+      "text": "1936",
+      "type": "year",
+      "value": 1936,
+      "id_ref": null,
+      "context_before": "15\nבשנת",
+      "context_after": "עברה לוסיה להתגורר בלבוב, אצל קרובי משפ"
+    },
+    {
+      "page": 22,
+      "text": "1939",
+      "type": "year",
+      "value": 1939,
+      "id_ref": null,
+      "context_before": "21\n221\nהגסטפו הפקיע את דירתם\nבשנת",
+      "context_after": "לוסיה שמעה כי המלחמה פרצה, אך מאנה להאמ"
+    },
+    {
+      "page": 25,
+      "text": "1941",
+      "type": "year",
+      "value": 1941,
+      "id_ref": null,
+      "context_before": "האופק.\nהרוסים יוצאים והגרמנים באים\nבשנת",
+      "context_after": "המלחמה התדפקה בפתח. שלטון הרוסים הוטל ב"
+    },
+    {
+      "page": 31,
+      "text": "1941",
+      "type": "year",
+      "value": 1941,
+      "id_ref": null,
+      "context_before": "מנים,\nאך היא מיאנה להאמין להם.\nבסוף שנת",
+      "context_after": "החלה גם לוסיה להרגיש במצוקת הרעב והמחסו"
+    },
+    {
+      "page": 62,
+      "text": "1947",
+      "type": "year",
+      "value": 1947,
+      "id_ref": null,
+      "context_before": "ם עבורם את שכר הדירה.\nבבלגיה, נולד בשנת",
+      "context_after": "בנם השני, דב.\nשמעון \"הגדול\" מחזיק בידיו"
+    },
+    {
+      "page": 65,
+      "text": "1947",
+      "type": "year",
+      "value": 1947,
+      "id_ref": null,
+      "context_before": "64",
+      "context_after": "Mala 22 Market 1947.\nThis is to certify"
+    },
+    {
+      "page": 65,
+      "text": "1947",
+      "type": "year",
+      "value": 1947,
+      "id_ref": null,
+      "context_before": "64\n1947\nMala 22 Market",
+      "context_after": ".\nThis is to certify, thRAPAPORT SIN\nwho"
+    },
+    {
+      "page": 82,
+      "text": "1939",
+      "type": "year",
+      "value": 1939,
+      "id_ref": null,
+      "context_before": "זה מוזכר שמעון רפפורט. שמעון נולד בשנת",
+      "context_after": ",\nוכמסופר בפרוטרוט בספר זה חש על גופו את"
+    },
+    {
+      "page": 90,
+      "text": "1935",
+      "type": "year",
+      "value": 1935,
+      "id_ref": null,
+      "context_before": "פחה\nעשירה, מסורתית וציונית.\nבשנת\nהאחיות",
+      "context_after": "ההורים,\nוהאח ע לו.\nלארץ־ישראל והיא נותר"
+    }
+  ],
+  "ages": [
+    {
+      "page": 12,
+      "text": "בת 18",
+      "type": "age",
+      "value": {
+        "gender": "F",
+        "age": 18
+      },
+      "id_ref": null,
+      "context_before": "11\nבהיותה",
+      "context_after": ", בתום 4 שנות לימוד בגימנסיה בסטרי עמדה"
+    },
+    {
+      "page": 12,
+      "text": "בת 16",
+      "type": "age",
+      "value": {
+        "gender": "F",
+        "age": 16
+      },
+      "id_ref": null,
+      "context_before": "(בעלה לעתיד) פגשה לוסיה לראשונה בהיותה",
+      "context_after": ",\nכאשר הוא בא לבקר את משפחתו בבולכוב.\nהכ"
+    },
+    {
+      "page": 17,
+      "text": "בת 18",
+      "type": "age",
+      "value": {
+        "gender": "F",
+        "age": 18
+      },
+      "id_ref": null,
+      "context_before": "16\nהיא",
+      "context_after": ", הוא בן 24, נישאו ב\"חתונה לבנה\" אצל רב,"
+    },
+    {
+      "page": 17,
+      "text": "בן 24",
+      "type": "age",
+      "value": {
+        "gender": "M",
+        "age": 24
+      },
+      "id_ref": null,
+      "context_before": "16\nהיא בת 18, הוא",
+      "context_after": ", נישאו ב\"חתונה לבנה\" אצל רב, ללא בני\nמש"
+    },
+    {
+      "page": 82,
+      "text": "בן 7",
+      "type": "age",
+      "value": {
+        "gender": "M",
+        "age": 7
+      },
+      "id_ref": null,
+      "context_before": "אך גבר מבחינה מנטלית!\nלאחר המלחמה, והוא",
+      "context_after": "בלבד, עברה המשפחה לבריסל, בירת\nבלגיה, ש"
+    },
+    {
+      "page": 90,
+      "text": "בת 21",
+      "type": "age",
+      "value": {
+        "gender": "F",
+        "age": 21
+      },
+      "id_ref": null,
+      "context_before": "ה\". כעבור שנה ילדה את\nבנה בכורה, שמעון.",
+      "context_after": "היתה כאשר פרצה מלחמת העולם\nהשניה, והיא"
+    }
+  ],
+  "places": [
+    {
+      "page": 6,
+      "text": "מושינה",
+      "type": "place",
+      "value": "מושינה",
+      "id_ref": "pl_muszyna",
+      "context_before": "לכוב\nילדות ובגרות\nהמשפחה\n\n9\n11\n\nפרק ב':",
+      "context_after": "חתונת לבנה\nלוסיה יוצאת לעבודה\nניצני האנ"
+    },
+    {
+      "page": 6,
+      "text": "לבוב",
+      "type": "place",
+      "value": "לבוב",
+      "id_ref": "pl_lwow",
+      "context_before": "21\n22\n23\n24\n25\n26\n27\n29\n30\n31\n\nפרק ד':",
+      "context_after": "הפגישה, הפגישה שכואבת\nיהודיה כ\"פולניה\""
+    },
+    {
+      "page": 7,
+      "text": "ישראל",
+      "type": "place",
+      "value": "ישראל",
+      "id_ref": "pl_israel",
+      "context_before": "וממק\n65 ארצה עלינו...\n67 מאושרת במדינת",
+      "context_after": "69 יש דירה! יש עבודה! יש בילויים!\n\nפרק"
+    },
+    {
+      "page": 11,
+      "text": "סטרי",
+      "type": "place",
+      "value": "סטרי",
+      "id_ref": "pl_stryj",
+      "context_before": "ב, רשמו\nאותה הוריה לגימנסיה פולנית בעיר",
+      "context_after": ", מרחק של שעת נסיעה\nמעיר הולדתה.\n\nנערת ג"
+    },
+    {
+      "page": 11,
+      "text": "סטרי",
+      "type": "place",
+      "value": "סטרי",
+      "id_ref": "pl_stryj",
+      "context_before": "ת ולטינית.\n\nהגימנסיה בה למדה לוסיה בעיר",
+      "context_after": "נקראה \"פיאט-לוקוס\". זו\nהיתה גימנסיה לבנ"
+    },
+    {
+      "page": 12,
+      "text": "ישראל",
+      "type": "place",
+      "value": "ישראל",
+      "id_ref": "pl_israel",
+      "context_before": "לידי\nביטוי בחינוך שניתן לילדים לפיו ארץ-",
+      "context_after": "היא המולדת של העם\nהיהודי ומצווה לעלות א"
+    },
+    {
+      "page": 13,
+      "text": "ישראל",
+      "type": "place",
+      "value": "ישראל",
+      "id_ref": "pl_israel",
+      "context_before": "שארה בפולין. אביה האמין שהוא יסתדר בארץ-",
+      "context_after": "ותוך זמן\nמה יישלח כרטיס כדי שתוכל לבוא"
+    },
+    {
+      "page": 13,
+      "text": "חיפה",
+      "type": "place",
+      "value": "חיפה",
+      "id_ref": "pl_haifa",
+      "context_before": "ר יותר.\nבעלותו ארצה רכש שטח אדמה במיפרץ",
+      "context_after": "במטרה להקים שם\nבית חרושת לעורות, כפי שה"
+    },
+    {
+      "page": 13,
+      "text": "ישראל",
+      "type": "place",
+      "value": "ישראל",
+      "id_ref": "pl_israel",
+      "context_before": "ה קצרה: \"אני מעדיף למכור פטרוליזיה\nבארץ-",
+      "context_after": "מאשר להיות אדון (פאן) בפולין\"."
+    },
+    {
+      "page": 14,
+      "text": "מושינה",
+      "type": "place",
+      "value": "מושינה",
+      "id_ref": "pl_muszyna",
+      "context_before": "פרק ב':",
+      "context_after": ""
+    },
+    {
+      "page": 16,
+      "text": "ישראל",
+      "type": "place",
+      "value": "ישראל",
+      "id_ref": "pl_israel",
+      "context_before": "נה.\nתתחתני איתו בגולה ואחר כך תעלו לארץ-",
+      "context_after": "\", כך כתב לה\nאביה באחד המכתבים.\nחייכה לו"
+    },
+    {
+      "page": 17,
+      "text": "מושינה",
+      "type": "place",
+      "value": "מושינה",
+      "id_ref": "pl_muszyna",
+      "context_before": "ני\nמשפחה. חתונתם נערכה בעיר הנופש הקטנה",
+      "context_after": ", בה קבעו את\nמושבם.\nזו היתה תמונה מאוד צ"
+    },
+    {
+      "page": 18,
+      "text": "מושינה",
+      "type": "place",
+      "value": "מושינה",
+      "id_ref": "pl_muszyna",
+      "context_before": "17\nכל השמנא והסלתא החברתית של",
+      "context_after": "הגיעה למלון, אותו\nניהלה לוסיה במרץ רב."
+    },
+    {
+      "page": 22,
+      "text": "ישראל",
+      "type": "place",
+      "value": "ישראל",
+      "id_ref": "pl_israel",
+      "context_before": "ה פתאום?\nלוסיה זוכרת כי טרם נסיעתו לארץ-",
+      "context_after": ", ניסה אביה להשפיע על\nיהודים נוספים לעלו"
+    },
+    {
+      "page": 24,
+      "text": "נדבורנה",
+      "type": "place",
+      "value": "נדבורנה",
+      "id_ref": "pl_nadworna",
+      "context_before": "וסיה, ממק וילדם שמעון עברו להתגורר בעיר",
+      "context_after": ", בה קיבל\nממק עבודה במינסרה. הם התגוררו"
+    },
+    {
+      "page": 27,
+      "text": "נדבורנה",
+      "type": "place",
+      "value": "נדבורנה",
+      "id_ref": "pl_nadworna",
+      "context_before": "האימה הלכו והתעצמו. הגרמנים שלטו באיזור",
+      "context_after": ". ממק\nהועסק בעבודה חיונית - מועדפת, חשוב"
+    },
+    {
+      "page": 28,
+      "text": "נדבורנה",
+      "type": "place",
+      "value": "נדבורנה",
+      "id_ref": "pl_nadworna",
+      "context_before": "נשים וטף – נהרו מהונגריה לפולין, לאיזור",
+      "context_after": ", שם טרם החלו הפוגרומים ועוד לא הוקמו הג"
+    },
+    {
+      "page": 31,
+      "text": "נדבורנה",
+      "type": "place",
+      "value": "נדבורנה",
+      "id_ref": "pl_nadworna",
+      "context_before": "ות מודעה גדולה שהודיעה על\nהקמת הגיטו של",
+      "context_after": ".\nכך הוקם הגיטו: הופקעה קבוצת בתים במספר"
+    },
+    {
+      "page": 34,
+      "text": "לבוב",
+      "type": "place",
+      "value": "לבוב",
+      "id_ref": "pl_lwow",
+      "context_before": "פרק די:",
+      "context_after": ""
+    },
+    {
+      "page": 37,
+      "text": "נדבורנה",
+      "type": "place",
+      "value": "נדבורנה",
+      "id_ref": "pl_nadworna",
+      "context_before": "וטה, אחותו של\nממק ומשפחתה. סיפרה להם על",
+      "context_after": "ועל הזוועות שהתרחשו\nבה: הגיטו, הרעב, הה"
+    },
+    {
+      "page": 42,
+      "text": "לבוב",
+      "type": "place",
+      "value": "לבוב",
+      "id_ref": "pl_lwow",
+      "context_before": "את רואה הצלחתי להגיע עד\nלכאן, לשער גיטו",
+      "context_after": "\".\n-\nלוסיה אמרה לו שכעת תהיה בעיה רצינית"
+    },
+    {
+      "page": 51,
+      "text": "נדבורנה",
+      "type": "place",
+      "value": "נדבורנה",
+      "id_ref": "pl_nadworna",
+      "context_before": "שלה, אשר שימשה בסיס ליתר התעודות תושבת",
+      "context_after": ", היתה\nאחות בלבוב.\n-\nמריה זו החליטה כי ל"
+    },
+    {
+      "page": 55,
+      "text": "לבוב",
+      "type": "place",
+      "value": "לבוב",
+      "id_ref": "pl_lwow",
+      "context_before": "ת הדרכים למצוא שלווה היתה\nביקור בכנסיות",
+      "context_after": "...\nכך נהגה לעשות כל יום ראשון. בבוקר הי"
+    },
+    {
+      "page": 57,
+      "text": "לבוב",
+      "type": "place",
+      "value": "לבוב",
+      "id_ref": "pl_lwow",
+      "context_before": "כאמור, ביתה של לוסיה שכן בקירבת תיאטרון",
+      "context_after": ". התיאטרון\nפעל כל ימות הכיבוש הנאצי ומדי"
+    },
+    {
+      "page": 62,
+      "text": "לבוב",
+      "type": "place",
+      "value": "לבוב",
+      "id_ref": "pl_lwow",
+      "context_before": "ממק ובנה שמעון את החלק\nהרוסי של פולין (",
+      "context_after": ") ונסעו לקטוביץ. זאת, במסגרת\nהריפטראציה."
+    },
+    {
+      "page": 62,
+      "text": "ישראל",
+      "type": "place",
+      "value": "ישראל",
+      "id_ref": "pl_israel",
+      "context_before": "יתה רק תחנת ביניים כשהיעד הסופי היה ארץ-",
+      "context_after": ".\nתחנת ביניים שניה היתה בריסל, בירת בלגי"
+    },
+    {
+      "page": 62,
+      "text": "בריסל",
+      "type": "place",
+      "value": "בריסל",
+      "id_ref": "pl_brussels",
+      "context_before": "פי היה ארץ-ישראל.\nתחנת ביניים שניה היתה",
+      "context_after": ", בירת בלגיה, אליה נסעו\nבאוטובוס. הנסיעה"
+    },
+    {
+      "page": 64,
+      "text": "ישראל",
+      "type": "place",
+      "value": "ישראל",
+      "id_ref": "pl_israel",
+      "context_before": "טרפו למסע שאורגן ע\"י שליחים שהגיעו\nמארץ־",
+      "context_after": ".\nעם תיק חפצים קטן והרבה תקוות בלב החלו"
+    },
+    {
+      "page": 64,
+      "text": "ישראל",
+      "type": "place",
+      "value": "ישראל",
+      "id_ref": "pl_israel",
+      "context_before": "השניה במכסה שנקבעה ע\"י\nהאמריקניים.\nמארץ-",
+      "context_after": "עודד אותה אביה לנסוע לארצו של הדוד סם\","
+    },
+    {
+      "page": 65,
+      "text": "ישראל",
+      "type": "place",
+      "value": "ישראל",
+      "id_ref": "pl_israel",
+      "context_before": "רים במחנה בקפריסין. מאידך, שמעה כי בארץ-",
+      "context_after": "פרצו קרבות במלחמת השחרור של העם היהודי"
+    },
+    {
+      "page": 65,
+      "text": "ישראל",
+      "type": "place",
+      "value": "ישראל",
+      "id_ref": "pl_israel",
+      "context_before": "וצו שמועות שונות ומשונות\nעל המתרחש בארץ-",
+      "context_after": "."
+    },
+    {
+      "page": 67,
+      "text": "חיפה",
+      "type": "place",
+      "value": "חיפה",
+      "id_ref": "pl_haifa",
+      "context_before": "וסיה ודוביק הגיעו עם האוניה \"קדמה\" לנמל",
+      "context_after": "וירדו ממנה\nהיישר לבית הוריה הציונים, שג"
+    },
+    {
+      "page": 67,
+      "text": "ישראל",
+      "type": "place",
+      "value": "ישראל",
+      "id_ref": "pl_israel",
+      "context_before": "ה אינו חלום וכי אכן דורכות רגליה\nבמדינה",
+      "context_after": ".\nכשהיתה הולכת ברחוב התבוננה סביבה ללא ה"
+    },
+    {
+      "page": 68,
+      "text": "ישראל",
+      "type": "place",
+      "value": "ישראל",
+      "id_ref": "pl_israel",
+      "context_before": "67\nמאושרת במדינת",
+      "context_after": "בימיה הראשונים בארץ היתה לוסיה נוסעת עם"
+    },
+    {
+      "page": 68,
+      "text": "ישראל",
+      "type": "place",
+      "value": "ישראל",
+      "id_ref": "pl_israel",
+      "context_before": "לוסיה\n-\n-\nהעובדה שיש לה בית משלה במדינת",
+      "context_after": "- בין יהודים - גרמה\nלה לתחושת אושר אין"
+    },
+    {
+      "page": 69,
+      "text": "ישראל",
+      "type": "place",
+      "value": "ישראל",
+      "id_ref": "pl_israel",
+      "context_before": "ל אושר\nושלווה אושר של חיים חדשים במדינת",
+      "context_after": ", בבית משלה.\nרחוב עבאס בחיפה הוא רחוב דו"
+    },
+    {
+      "page": 69,
+      "text": "ישראל",
+      "type": "place",
+      "value": "ישראל",
+      "id_ref": "pl_israel",
+      "context_before": "צורות כיסה אותן.\nהיא היתה מאושרת במדינת",
+      "context_after": "והודתה לאל על שהצליחה\nלהישרד מהגיהנום א"
+    },
+    {
+      "page": 69,
+      "text": "ישראל",
+      "type": "place",
+      "value": "ישראל",
+      "id_ref": "pl_israel",
+      "context_before": "עברה.\nלוסיה נראית נינוחה ומאושרת במדינת",
+      "context_after": ""
+    },
+    {
+      "page": 90,
+      "text": "סטרי",
+      "type": "place",
+      "value": "סטרי",
+      "id_ref": "pl_stryj",
+      "context_before": "בפולין, היתה\nתלמידה בגימנסיה לבנות\nבעיר",
+      "context_after": "ובת למשפחה\nעשירה, מסורתית וציונית.\nבשנת"
+    },
+    {
+      "page": 90,
+      "text": "ישראל",
+      "type": "place",
+      "value": "ישראל",
+      "id_ref": "pl_israel",
+      "context_before": "שנת\nהאחיות\n1935\nההורים,\nוהאח ע לו.\nלארץ־",
+      "context_after": "והיא נותרה\nלבדה, לסיים לימודיה.\nהיא ניש"
+    },
+    {
+      "page": 90,
+      "text": "ישראל",
+      "type": "place",
+      "value": "ישראל",
+      "id_ref": "pl_israel",
+      "context_before": "עצר בקפריסין ובעתלית לפגישה מחודשת בארץ",
+      "context_after": ".\nזהו סיפורה של אישה אמיצה, שראוי כי ישמ"
+    }
+  ],
+  "people": [
+    {
+      "page": 1,
+      "text": "פנינה",
+      "type": "person",
+      "value": "פנינה",
+      "id_ref": "p_pnina_weitzner",
+      "context_before": "מזל טוב\nרפפורט\n\nאסתר ויס",
+      "context_after": "האוזר\n\nסיפורה של לוסיה\n\nעורך: משה גוטר"
+    },
+    {
+      "page": 1,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "רפפורט\n\nאסתר ויס\nפנינה האוזר\n\nסיפורה של",
+      "context_after": "עורך: משה גוטר"
+    },
+    {
+      "page": 1,
+      "text": "משה",
+      "type": "person",
+      "value": "משה",
+      "id_ref": "p_moses_weitzner",
+      "context_before": "ויס\nפנינה האוזר\n\nסיפורה של לוסיה\n\nעורך:",
+      "context_after": "גוטר"
+    },
+    {
+      "page": 2,
+      "text": "פנינה",
+      "type": "person",
+      "value": "פנינה",
+      "id_ref": "p_pnina_weitzner",
+      "context_before": "אסתר ויס",
+      "context_after": "האודר\n\nסיפורה של לוסיה\n\nגם גדיעת\nגזע עץ"
+    },
+    {
+      "page": 2,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "אסתר ויס\nפנינה האודר\n\nסיפורה של",
+      "context_after": "גם גדיעת\nגזע עץ\nלא תוכל\nהפסק צמיחת\nגבע"
+    },
+    {
+      "page": 2,
+      "text": "משה",
+      "type": "person",
+      "value": "משה",
+      "id_ref": "p_moses_weitzner",
+      "context_before": "חת\nגבעול, לבלוב\nעלה ופרח.\nא. אור\n\nעורך:",
+      "context_after": "גוטר"
+    },
+    {
+      "page": 4,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "פתח דבר\n\nבקיץ 1986 ניגשה הדס, נכדתה של",
+      "context_after": "רפפורט, אל מורתה,\nאסתר ויס, וסיפרה ש\"סב"
+    },
+    {
+      "page": 4,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "פורט, אל מורתה,\nאסתר ויס, וסיפרה ש\"סבתא",
+      "context_after": "\" עברה את השואה ויש לה\nהרבה סיפורים, אך"
+    },
+    {
+      "page": 4,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "סוגלת להעלותם על\nהכתב.\n\nהמורה הזמינה את",
+      "context_after": "לכיתתה כדי שתספר קטעים\nמחוייה במלחמת הע"
+    },
+    {
+      "page": 4,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "יה במלחמת העולם השניה בכלל והשואה בפרט.",
+      "context_after": "נאלצה\nלסרב. היא לא היתה בטוחה ביכולתה ה"
+    },
+    {
+      "page": 4,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "רה כרונולוגית.\nאחר כך הוציאה חוברת בשם \"",
+      "context_after": "\". על סמך אותה חוברת,\nשכאמור שימשה לי כר"
+    },
+    {
+      "page": 4,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "משה לי כרקע, מופיע הספר הזה, \"סיפורה של",
+      "context_after": "\".\n\nלשם כתיבתו נפגשתי עם לוסיה מספר פעמי"
+    },
+    {
+      "page": 4,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "סיפורה של לוסיה\".\n\nלשם כתיבתו נפגשתי עם",
+      "context_after": "מספר פעמים כדי לבדוק איתה\nאת רצף האירוע"
+    },
+    {
+      "page": 4,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ת (שהיא שפת־האם של שתיינו), דבר שהקל על",
+      "context_after": "לשחזר את סיפורה האישי.\n\nמהחוברת המקורית"
+    },
+    {
+      "page": 4,
+      "text": "משה",
+      "type": "person",
+      "value": "משה",
+      "id_ref": "p_moses_weitzner",
+      "context_before": "ה.\n\nבהתקנת הספר לדפוס, סייע לי העיתונאי",
+      "context_after": "גוטר.\nתודתנו לכל אלה שסייעו במלאכה ולמי"
+    },
+    {
+      "page": 4,
+      "text": "פנינה",
+      "type": "person",
+      "value": "פנינה",
+      "id_ref": "p_pnina_weitzner",
+      "context_before": "אלה שסייעו במלאכה ולמינה קסל.\n\nאסתר ויס",
+      "context_after": "האוזר"
+    },
+    {
+      "page": 6,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "המשפחה\n\n9\n11\n\nפרק ב': מושינה\nחתונת לבנה",
+      "context_after": "יוצאת לעבודה\nניצני האנטישמיות\n\n15\n16\n17"
+    },
+    {
+      "page": 6,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "ו גם גויים טובים\nהגיטו בנדבורנה\nבדרך אל",
+      "context_after": "21\n22\n23\n24\n25\n26\n27\n29\n30\n31\n\nפרק ד':"
+    },
+    {
+      "page": 6,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "פגישה שכואבת\nיהודיה כ\"פולניה\"\nבדקה ה-90",
+      "context_after": "הוברח מהגיטו\n\n35\n36\n37"
+    },
+    {
+      "page": 7,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "6\n\n42",
+      "context_after": "מצאה עבודה\n43 מנהלת חנות לחפצי אמנות\n44"
+    },
+    {
+      "page": 7,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "מצאה עבודה\n43 מנהלת חנות לחפצי אמנות\n44",
+      "context_after": "והארגז\n45 \"יתפירות\" אבר המין\n45 כמעט זו"
+    },
+    {
+      "page": 7,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "ירשת?!\n77 ליד קברו של היטלר\n\nפרק ז': על",
+      "context_after": "83 שמעון רפפורט\n\n85 אחרית דבר"
+    },
+    {
+      "page": 7,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "ליד קברו של היטלר\n\nפרק ז': על שמעון\n83",
+      "context_after": "רפפורט\n\n85 אחרית דבר"
+    },
+    {
+      "page": 10,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "בתים כפריים עם גגות אדומים.\n-\nכאן נולדה",
+      "context_after": ". בבית פרטי גדול ויפה. סביב הבית עצי פרי"
+    },
+    {
+      "page": 10,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "בב ופראי. אך \"לייקה\" - זה היה כינויה של",
+      "context_after": "לא ידעה כלל מה זה שד...\nשיערה דובשני, ר"
+    },
+    {
+      "page": 11,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "אה לבנות בגימנסיה פולנית.\n\nבגימנסיה חשה",
+      "context_after": ", לראשונה, באנטישמיות. היה זה פרופסור\nאו"
+    },
+    {
+      "page": 11,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ה וכן יוונית ולטינית.\n\nהגימנסיה בה למדה",
+      "context_after": "בעיר סטרי נקראה \"פיאט-לוקוס\". זו\nהיתה ג"
+    },
+    {
+      "page": 11,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "התלמידות להיפגש\nעם בנים.\n\nיום אחד פגשה",
+      "context_after": "ברחוב את בן-עירה (כיום ד\"ר רוטפלד)\nשלמד"
+    },
+    {
+      "page": 11,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ול חמור: \"מי הבחור שראיתי איתך אתמול!?\"",
+      "context_after": "השיבה שזה בן-דודה והמנהלת ענתה לה: \"אם"
+    },
+    {
+      "page": 12,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": ", בתום 4 שנות לימוד בגימנסיה בסטרי עמדה",
+      "context_after": "בבחינות הבגרות וקיבלה תעודת בגרות ממשלת"
+    },
+    {
+      "page": 12,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "בגרות ממשלתית.\nאת ממק (בעלה לעתיד) פגשה",
+      "context_after": "לראשונה בהיותה בת 16,\nכאשר הוא בא לבקר"
+    },
+    {
+      "page": 12,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "של השניים בלבד\n-\nטרם היתה שם...\nהמשפחה",
+      "context_after": "נולדה למשפחה עשירה. לאביה היה בית חרושת"
+    },
+    {
+      "page": 12,
+      "text": "ציפורה",
+      "type": "person",
+      "value": "ציפורה",
+      "id_ref": "p_feige",
+      "context_before": "חה ולה\nעוד שתי אחיות ואח.\nאחותה הגדולה,",
+      "context_after": "אלדר ז\"ל (אימו של הכתב המדיני של\n\"הארץ\""
+    },
+    {
+      "page": 12,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "כדי ליישבה. עובדה: כל בני המשפחה,\nלמעט",
+      "context_after": ", אכן עלו ארצה וניצלו מהשואה.\nגם סממנים"
+    },
+    {
+      "page": 13,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "בני המשפחה היתה כוסית מיוחדת והכוסית של",
+      "context_after": "היתה\nעשויה בצורת כד קטן, בצבע כחול כהה."
+    },
+    {
+      "page": 13,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "000 ליש\"ט.\nבגלל גילה הצעיר (16) לא יכלה",
+      "context_after": "להצטרף לבני משפחתה\nונשארה בפולין. אביה"
+    },
+    {
+      "page": 13,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "התוכנית לא יצאה אל\nהפועל ולאחר שאביה של",
+      "context_after": "הפסיד את כל כספו, פתח בחיפה\nמכולת בה מכ"
+    },
+    {
+      "page": 16,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "15\nבשנת 1936 עברה",
+      "context_after": "להתגורר בלבוב, אצל קרובי משפחה\nאמידים,"
+    },
+    {
+      "page": 16,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ין,\nלנהל מינסרה, שהיתה בבעלות משפחתו.\n-",
+      "context_after": "היתה מקבלת דרך קבע מכתבים מבני משפחתה ב"
+    },
+    {
+      "page": 16,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "אל\", כך כתב לה\nאביה באחד המכתבים.\nחייכה",
+      "context_after": "לעצמה וחשבה: \"אני אתחתן עם אידיוט שמתאה"
+    },
+    {
+      "page": 16,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "י קר בו פתיתי שלג יורדים ללא הרף,\nנישאו",
+      "context_after": "וממק. היה זה יום לבן\" בגלל פתיתי השלג ש"
+    },
+    {
+      "page": 16,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "פתיתי השלג שכיסו\nהכל בלובן צח.\nמזל טוב!",
+      "context_after": "וממק ביום חתונתם"
+    },
+    {
+      "page": 17,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "לעתיד\nטוב, אפילו כשהם בגולה, בין זרים.",
+      "context_after": "היתה תמימה מאוד עת נישאה. כלל לא ידעה ו"
+    },
+    {
+      "page": 17,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "הריון ולידה.\nכעבור שנה נולד בנה הבכור,",
+      "context_after": ", ולוסיה הפכה לאם צעירה\nונבוכה.\n-\n-\nבפול"
+    },
+    {
+      "page": 17,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "רבי כולו – נהוג היה\nלאפות ולבשל בידיים.",
+      "context_after": "למדה לאפות לחם, עוגות ואיטריות\nוזמן קצר"
+    },
+    {
+      "page": 17,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "איטריות\nוזמן קצר לאחר מכן היתה ידה בכל.",
+      "context_after": "יוצאת לעבודה\nזמן מה לאחר הלידה הגיעה לו"
+    },
+    {
+      "page": 17,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "יה יוצאת לעבודה\nזמן מה לאחר הלידה הגיעה",
+      "context_after": "למסקנה שלא די לה להיות רק\nאם ועקרת בית"
+    },
+    {
+      "page": 18,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ברתית של מושינה הגיעה למלון, אותו\nניהלה",
+      "context_after": "במרץ רב. בשל המראה הצעיר שלה היא לא נרא"
+    },
+    {
+      "page": 18,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "שוכה ההיא.\nניצני האנטישמיות\nבמושינה חשה",
+      "context_after": "באנטישמיות. מקרה שאירע לה \"בישר\" את\nניצ"
+    },
+    {
+      "page": 18,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ניצני הפורענות לעתיד, וזה סיפור המעשה:",
+      "context_after": "נהגה לטייל עם תינוקה ליד הנהר, היתה נכנ"
+    },
+    {
+      "page": 18,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "ר, היתה נכנסת לתוכו\nוטובלת גופה במימיו.",
+      "context_after": "הפעוט היה נשאר בעגלה, משכשך\nברגליו, ממל"
+    },
+    {
+      "page": 18,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "נשאר בעגלה, משכשך\nברגליו, ממלמל וצוחק.",
+      "context_after": "התינוק"
+    },
+    {
+      "page": 19,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "א היטיב לשחות סכנה היתה נשקפת לו.\n-\nעוד",
+      "context_after": "משכשכת גופה בנהר, נהנית ממימיו הצוננים,"
+    },
+    {
+      "page": 19,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "י הנהר הסוחף\nאותם בשצף קצף. או אז מיהרה",
+      "context_after": "להצילם.\nהיו אלו שתי בנות: ילדה בת ארבע"
+    },
+    {
+      "page": 19,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "את גופן ושוב ושוב הרגיעה אותן.\n-\nמשיצאה",
+      "context_after": "מהנהר היתה עייפה עד מאוד. תחושה רעה חשה"
+    },
+    {
+      "page": 22,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "21\n221\nהגסטפו הפקיע את דירתם\nבשנת 1939",
+      "context_after": "שמעה כי המלחמה פרצה, אך מאנה להאמין\nבכך"
+    },
+    {
+      "page": 22,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "הרב ולעלות לפלשתינה, למדבר – מה פתאום?",
+      "context_after": "זוכרת כי טרם נסיעתו לארץ-ישראל, ניסה אב"
+    },
+    {
+      "page": 22,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "הבעל, ממק, הציע לאישתו: \"מוטב שתסעי עם",
+      "context_after": "להורי, עד\nיעבור זעם, ואחר-כך תשובו לכאן"
+    },
+    {
+      "page": 22,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "משמרת בידי\nהעוזרת.\nלימים הסתבר כי בדירת",
+      "context_after": "וממק, התגוררו אנשי גסטפו\nגרמנים. בבית נ"
+    },
+    {
+      "page": 23,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "קום ירו בו למוות.\n-\nנגס הכלב מהנקניק של",
+      "context_after": "ליד הכלב המשפחתי\nעם חמה וחמתה בפשמשל\nלו"
+    },
+    {
+      "page": 23,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ון ליד הכלב המשפחתי\nעם חמה וחמתה בפשמשל",
+      "context_after": "ושמעון הקטן נסעו לחמה וחמתה שהתגוררו בע"
+    },
+    {
+      "page": 23,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ם לא מצאו עבודה ולכן נשארו לשבת\nבבית.\n-",
+      "context_after": ", ששלטה היטב בשפה הרוסית, התקבלה לעבודה"
+    },
+    {
+      "page": 24,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "רית המועצות\nתמורת תכשיטים.\nמעת לעת היתה",
+      "context_after": "סופרת את המלאי. יום אחד גילתה בקופה\nיות"
+    },
+    {
+      "page": 24,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ות רכבת והוסעו לסיביר ובכך ניצלו חייהם.",
+      "context_after": "רצתה מאוד לנסוע לרוסיה, בגלל חששה מהגרמ"
+    },
+    {
+      "page": 24,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "תה התגוררו.\nחיים באווירה כפרית בנדבורנה",
+      "context_after": ", ממק וילדם שמעון עברו להתגורר בעיר נדבו"
+    },
+    {
+      "page": 24,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "באווירה כפרית בנדבורנה\nלוסיה, ממק וילדם",
+      "context_after": "עברו להתגורר בעיר נדבורנה, בה קיבל\nממק"
+    },
+    {
+      "page": 25,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ות היו יפים\nוטובים. תודות לכך, שכניה של",
+      "context_after": ", שהיו מנוסים ממנה בעבודה\nחקלאית, הדריכו"
+    },
+    {
+      "page": 25,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "סוכר. מצרכי יסוד אלה הם הביאו גם לשכנתם",
+      "context_after": ".\nבו-זמנית גברה האנטישמיות. השנאה וההתנפ"
+    },
+    {
+      "page": 26,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ים לא שבו ממנה.\nלילה ביער\nיום אחד בהיות",
+      "context_after": "עוסקת בעבודות הבית, נשמעו דפיקות\nקצובות"
+    },
+    {
+      "page": 26,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "י איתנו\", הם ציון בקול רם.\nאחזה בידה את",
+      "context_after": ", חיבקה את גופו הקט ואחר כך הישירה\nמבט ל"
+    },
+    {
+      "page": 27,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "המתים.\nלעת ערב, כאשר ממק שב הביתה חששה",
+      "context_after": "כי יתפסו אותו\nויקחוהו עם שאר היהודים.\n\""
+    },
+    {
+      "page": 27,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "ע על התלבטותם הציע את עזרתו. הוא לקח את",
+      "context_after": "לביתו וללוסיה ולממק אמר:\n\"אתם בירחו ליע"
+    },
+    {
+      "page": 28,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "יהודים להביא את דברי הערך\nוהפרוות שלהם.",
+      "context_after": "מילאה אחר הצו והביאה פמוטים, טבעת נישוא"
+    },
+    {
+      "page": 28,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "י ערך\nרבים, נוספים. את הפרווה ממעילו של",
+      "context_after": "הוציאה ויחד עם\nשעון זהב יקר ערך הפקידה"
+    },
+    {
+      "page": 28,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "מהמינסרה,\nבמרחק של כמאתיים מטר מביתה של",
+      "context_after": ".\n27\n22"
+    },
+    {
+      "page": 29,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "יוולדם.\nבין הגבעות שנשקפו מחלון ביתה של",
+      "context_after": "היא ראתה בור עמוק\nוגדול ומעליו קרש למעב"
+    },
+    {
+      "page": 30,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "רך וחפצים שונים ומוכרת להם בתמורה מזון.",
+      "context_after": "מכרה להם את כל מה שהיה לה.\n\"זה המעיל הי"
+    },
+    {
+      "page": 30,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "הנדיב. לעת צרה, עזר\nלה הורמק להעביר את",
+      "context_after": "ללבוב.\nשכן היה ללוסיה, ידיד טוב של המשפ"
+    },
+    {
+      "page": 30,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "ביא בשורה רעה זו ללוסיה כדי שתפעל להצלת",
+      "context_after": "הקטן.\nהיא נתמלאה דאגה, הלבישה אותו בבגד"
+    },
+    {
+      "page": 30,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "שירים ושמעון נשאר\nאצלם.\nשכניה הגויים של",
+      "context_after": "נכונים היו תמיד לעזור לה. עברו איתה את"
+    },
+    {
+      "page": 31,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "מיאנה להאמין להם.\nבסוף שנת 1941 החלה גם",
+      "context_after": "להרגיש במצוקת הרעב והמחסור.\nלמזלה היא א"
+    },
+    {
+      "page": 31,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "יבות\nמעשבי סרפד היו ארוחת ערב בעת ההיא.",
+      "context_after": "היתה מלבבת\nבידיה ויוצרת לביבות ירקרקות"
+    },
+    {
+      "page": 31,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "קטן ובקושי רב אפשר היה לשכב\nעל הריצפה.",
+      "context_after": "וממק היו חלוקים בדעותיהם: האם להשאר\nבגי"
+    },
+    {
+      "page": 31,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "בגיטו בנדבורנה או לנסוע ללבוב אל הילד.",
+      "context_after": "רצתה לנסוע אך\nקשה היתה ההחלטה.\nמשהוקם ה"
+    },
+    {
+      "page": 32,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "31",
+      "context_after": "ובעלה לקחו מעט מהמטלטלים שלהם לגיטו ואת"
+    },
+    {
+      "page": 32,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": ", ביחוד עם הפולנית השגורה היטב בפיך...\"",
+      "context_after": "החלה להקפיד על מראה של גויה פולניה והפי"
+    },
+    {
+      "page": 32,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "השכנות נתנה לה תעודת קופת חולים. תמונת",
+      "context_after": "הודבקה\nבתעודה והשכנה שירבטה חתימה. \"כעת"
+    },
+    {
+      "page": 32,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "לבוב אל בנה.\n\"לבעלי אינני דואגת\", הרהרה",
+      "context_after": ", \"הוא עובד מחוץ לגיטו והינו\nבעל תושיה."
+    },
+    {
+      "page": 32,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "טו והינו\nבעל תושיה. אך עלי לנסוע מהר אל",
+      "context_after": "\".\nבדרך אל שמעון\nלוסיה התלבשה כפולניה. ב"
+    },
+    {
+      "page": 32,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "יה. אך עלי לנסוע מהר אל שמעון\".\nבדרך אל",
+      "context_after": "לוסיה התלבשה כפולניה. בידה לקחה סל גדול"
+    },
+    {
+      "page": 32,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "עלי לנסוע מהר אל שמעון\".\nבדרך אל שמעון",
+      "context_after": "התלבשה כפולניה. בידה לקחה סל גדול ובו ס"
+    },
+    {
+      "page": 33,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ולה\nלהמשיך בדרכך\". חייכה והמשיכה לצעוד.",
+      "context_after": "מאוד דאגה לבנה וכמהה היתה לראותו. כל מכ"
+    },
+    {
+      "page": 33,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "גיטו\" אמר לאשתו והוסיף: \"אל תסעי ללבוב.",
+      "context_after": "ודאי מרגיש טוב ואנחנו נתראה איתו מאוחר"
+    },
+    {
+      "page": 36,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": ", הפגישה שכזאת...\nבשעת ליל מאוחרת הגיעה",
+      "context_after": "ללבוב, שם גרו אז 110,000\nיהודים, ולנה א"
+    },
+    {
+      "page": 36,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ת.\nהלילה היה ארוך. השעון כמו נעצר מלכת.",
+      "context_after": "חשבה רק על\nשמעון: איך מרגיש הקטן? מה בל"
+    },
+    {
+      "page": 36,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": ". השעון כמו נעצר מלכת. לוסיה חשבה רק על",
+      "context_after": ": איך מרגיש הקטן? מה בליבו? מה מחשבותיו?"
+    },
+    {
+      "page": 36,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ה.\nקרני שמש חיוורות בישרו את בוא הבוקר.",
+      "context_after": "נעורה וכולה\nציפיה לבנה. הורמק הלך לגיטו"
+    },
+    {
+      "page": 36,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "לה\nציפיה לבנה. הורמק הלך לגיטו להביא את",
+      "context_after": ". הגיטו בלבוב\nהיה אז פתוח ואפשר היה לצאת"
+    },
+    {
+      "page": 36,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "לו תוך כמה ימים יוציאו להורג את\nהילדים.",
+      "context_after": "חשבה כי עליה למהר ולקחת את שמעון כדי לה"
+    },
+    {
+      "page": 36,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "ילדים. לוסיה חשבה כי עליה למהר ולקחת את",
+      "context_after": "כדי להצילו.\nהפגישה עם שמעון היתה נרגשת"
+    },
+    {
+      "page": 36,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "הר ולקחת את שמעון כדי להצילו.\nהפגישה עם",
+      "context_after": "היתה נרגשת מאוד ומלווה הלמות פעימות הלב"
+    },
+    {
+      "page": 36,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "נו בנה והובא\nאליהם כי רצו להצילו ממוות?",
+      "context_after": "הפעוט נותר בחוץ והחל להלך בינות לבתים."
+    },
+    {
+      "page": 36,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "הוא שוטט מעט\nואט אט איבד את בית הורמק.",
+      "context_after": "יצאה להביאו. היא קראה\n\"שמעון, שמעון\" וה"
+    },
+    {
+      "page": 36,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "בית הורמק. לוסיה יצאה להביאו. היא קראה\n\"",
+      "context_after": ", שמעון\" והבן איננו... היא נאלמה דום כלא"
+    },
+    {
+      "page": 36,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "מק. לוסיה יצאה להביאו. היא קראה\n\"שמעון,",
+      "context_after": "\" והבן איננו... היא נאלמה דום כלא מבינה"
+    },
+    {
+      "page": 37,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "שחק בדד באחת הפינות...\nיהודיה כ\"פולניה\"",
+      "context_after": "היתה חייבת לצאת לעבודה, למחייתה ולמחיית"
+    },
+    {
+      "page": 37,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ת פנויות, כיוון שהיהודים עזבו את בתיהם.",
+      "context_after": "מצאה דירה כזו, של יהודים שעברו לגיטו.\nע"
+    },
+    {
+      "page": 37,
+      "text": "לוטה",
+      "type": "person",
+      "value": "לוטה",
+      "id_ref": "p_lota",
+      "context_before": "\".\nטרם התאקלמותה בלבוב, ביקרה את גיסתה,",
+      "context_after": ", אחותו של\nממק ומשפחתה. סיפרה להם על נדב"
+    },
+    {
+      "page": 37,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "אניקה\", אמרה לה אחותו של ממק. הביטה בהם",
+      "context_after": "כשליבה דואב וכאילו ממלמלת לעצמה אמרה: \""
+    },
+    {
+      "page": 38,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "ה מאוד פשוטה\", השיבה לו כמתנצלת.\nומה עם",
+      "context_after": "? כל אותו זמן הוא גר אצל גיסתה של לוסיה,"
+    },
+    {
+      "page": 38,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "שמעון? כל אותו זמן הוא גר אצל גיסתה של",
+      "context_after": ", לוטה,\nבגיטו. כל היהודים הועברו לגיטו ו"
+    },
+    {
+      "page": 38,
+      "text": "לוטה",
+      "type": "person",
+      "value": "לוטה",
+      "id_ref": "p_lota",
+      "context_before": "כל אותו זמן הוא גר אצל גיסתה של לוסיה,",
+      "context_after": ",\nבגיטו. כל היהודים הועברו לגיטו וחוייבו"
+    },
+    {
+      "page": 38,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ם הועברו לגיטו וחוייבו לענוד טלאי צהוב.",
+      "context_after": "שהירבתה לבקר את גיסתה אמרה לה: \"בואי אי"
+    },
+    {
+      "page": 38,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ג את יהודי הגיטו. בואי אלי ותינצלי\".\n-\n\"",
+      "context_after": ", שמעי\" - ענתה לה לוטה - \"את, הנראית כפו"
+    },
+    {
+      "page": 38,
+      "text": "לוטה",
+      "type": "person",
+      "value": "לוטה",
+      "id_ref": "p_lota",
+      "context_before": "אלי ותינצלי\".\n-\n\"לוסיה, שמעי\" - ענתה לה",
+      "context_after": "- \"את, הנראית כפולניה, יכולה\nלהיות מחוץ"
+    },
+    {
+      "page": 38,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "וף תתפסי\nבגללי\",\nלשמע הדברים הללו הבינה",
+      "context_after": "כי אין היהודים בגיטו חשים כלל\nאת מה שצפ"
+    },
+    {
+      "page": 38,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ליהודים.\nלכן, כשהיא באה לגיטו לא נראתה",
+      "context_after": "יוצאת דופן. לא פחדה\nולא חששה להיכנס ולצ"
+    },
+    {
+      "page": 38,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "כנס ולצאת מהגיטו באופן חופשי.\nבדקה ה-90",
+      "context_after": "הוברח מהגיטו\nלוסיה היתה נוהגת ללכת למקו"
+    },
+    {
+      "page": 38,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ופן חופשי.\nבדקה ה-90 שמעון הוברח מהגיטו",
+      "context_after": "היתה נוהגת ללכת למקום עבודתה במסלול קבו"
+    },
+    {
+      "page": 38,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "לי רכב, אך הולכי רגל היו מהלכים\nלאורכו.",
+      "context_after": "וחברתה הפולניה הלכו יחד בדרך המוכרת להן"
+    },
+    {
+      "page": 39,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ים\nהמובלים כצאן לטבח.\nבמשאית אחת הבחינה",
+      "context_after": "באישה צעירה החובקת תינוק\nבזרועותיה, כאי"
+    },
+    {
+      "page": 39,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ם.\n\"אינני יכולה יותר לראות את זה\", אמרה",
+      "context_after": "לחברתה לעבודה,\nהשפילה את מבטה וביקשה: \""
+    },
+    {
+      "page": 39,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "חד מילמל משהו... (אולי ריחם על הילדים!)",
+      "context_after": "ידעה כי זה הרגע להוציא את שמעון מהגיטו."
+    },
+    {
+      "page": 39,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "ילדים!)\nלוסיה ידעה כי זה הרגע להוציא את",
+      "context_after": "מהגיטו. היא גמרה\nאומר בנפשה להציל את שמ"
+    },
+    {
+      "page": 39,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "ון מהגיטו. היא גמרה\nאומר בנפשה להציל את",
+      "context_after": "ויהי מה!"
+    },
+    {
+      "page": 40,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "לחו כל ילדי הגיטו לדרך\nממנה לא שבו עוד.",
+      "context_after": "הביאה את שמעון, שהיה כבן ארבע, לאחותו ש"
+    },
+    {
+      "page": 40,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "טו לדרך\nממנה לא שבו עוד.\nלוסיה הביאה את",
+      "context_after": ", שהיה כבן ארבע, לאחותו של הורמק,\nגברת י"
+    },
+    {
+      "page": 40,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "קטן והמסכן שלה.\nהגיעו השנים לבית הורמק.",
+      "context_after": "שנשמה בכבדות, מיתנה את\nנשימתה, כדי שלא"
+    },
+    {
+      "page": 40,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "רגשת. היא בררה בראשה את\nמלותיה.\nהתיישבה",
+      "context_after": "ליד גברת ינוסקה, הביטה בעיניה ואמרה לה:"
+    },
+    {
+      "page": 40,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "יד גברת ינוסקה, הביטה בעיניה ואמרה לה:\n\"",
+      "context_after": "הוא בני. חששתי לספר לך בעבר, אך האמיני"
+    },
+    {
+      "page": 40,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "י, שאין\nלי כל דרך אחרת. עשי זאת בבקשה!\"",
+      "context_after": "נשאר בבית הורמק.\nפגישה מחודשת עם ממק\nלו"
+    },
+    {
+      "page": 40,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ון נשאר בבית הורמק.\nפגישה מחודשת עם ממק",
+      "context_after": "שבה לגיטו. חשבה כי תוכל לשכנע את לוטה ל"
+    },
+    {
+      "page": 40,
+      "text": "לוטה",
+      "type": "person",
+      "value": "לוטה",
+      "id_ref": "p_lota",
+      "context_before": "לוסיה שבה לגיטו. חשבה כי תוכל לשכנע את",
+      "context_after": "לבוא לדירתה\nשברחוב לגיונוב 24, מול התיא"
+    },
+    {
+      "page": 41,
+      "text": "לוטה",
+      "type": "person",
+      "value": "לוטה",
+      "id_ref": "p_lota",
+      "context_before": "הציל את נפשם ע\"י רכישת התעודות הללו. גם",
+      "context_after": "קנתה תעודה שכזו, אך המוכרים הלשינו על ה"
+    },
+    {
+      "page": 41,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "נלקחו למקום ממנו לא חזרו יותר.\nכשהגיעה",
+      "context_after": "לגיטו הוא היה נעול. בפיתחו של הגיטו ברח"
+    },
+    {
+      "page": 42,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "צלחתי להגיע עד\nלכאן, לשער גיטו לבוב\".\n-",
+      "context_after": "אמרה לו שכעת תהיה בעיה רצינית לדאוג למק"
+    },
+    {
+      "page": 42,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "לו\nולשמעון, אותו הוציאה זה עתה מהגיטו.",
+      "context_after": "נראתה כפולניה לכל דבר וחייה היו יכולים"
+    },
+    {
+      "page": 42,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "בכך סכנה. לי\nולבן אני חייבת לדאוג, לכן",
+      "context_after": "יגור איתי ויהי מה. על אף\nהסכנות, הבן יה"
+    },
+    {
+      "page": 42,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "סן בארגז מעין זה תפוחי אדמה ושאר ירקות.",
+      "context_after": "הוציאה את הקרשים שחיברו את הארגז לקיר ו"
+    },
+    {
+      "page": 43,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "42",
+      "context_after": "מצאה עבודה\nלאחר שמצאה לוסיה \"שיכון\" לשמ"
+    },
+    {
+      "page": 43,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "42\nלוסיה מצאה עבודה\nלאחר שמצאה",
+      "context_after": "\"שיכון\" לשמעון היא החלה לחפש מקום\nעבודה"
+    },
+    {
+      "page": 44,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": ", בהיר שעיר אף הוא. \"זה בעלי\", אמרה,\nאך",
+      "context_after": "זיהתה אותה כיהודיה.\nלימים, עבדה בחורה נ"
+    },
+    {
+      "page": 44,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "חורים הללו.\nכדי להציל אותה מחשיפה, אמרה",
+      "context_after": "בצחוק: \"את חושבת רק\nעל בחורים ולא על הב"
+    },
+    {
+      "page": 44,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "הגסטפו מחפש אחריה ואחרי יהודיות נוספות.",
+      "context_after": "(\"מריה הפולניה\" בעת המלחמה) נצטמררה בשו"
+    },
+    {
+      "page": 45,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "נים וכן\nפנייה לפולנים שלא להרע ליהודים.",
+      "context_after": "והפולניה הצעירה הסתדרו יפה ביניהן והפכו"
+    },
+    {
+      "page": 45,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "י\nמרמה\" קטנים, שהגדילו את הכנסת השתיים.",
+      "context_after": "והארגז\nשמעון גר עם אימו ויום תמים היה נ"
+    },
+    {
+      "page": 45,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": ", שהגדילו את הכנסת השתיים.\nשמעון והארגז",
+      "context_after": "גר עם אימו ויום תמים היה נשאר לבדו בארג"
+    },
+    {
+      "page": 45,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "קום מבטחו.\nבבוקר, טרם לכתה לעבודה, היתה",
+      "context_after": "משאירה לו אוכל בארגז\nולעת ערב, כששבה לב"
+    },
+    {
+      "page": 45,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "ושה את צרכיו. חודשים רבים עברו עליו שם.",
+      "context_after": "הבין את אימת המלחמה. הוא חש כל רגע את ת"
+    },
+    {
+      "page": 45,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "פת עליו ועל אימו. פחדים אפפו את ילדותו.",
+      "context_after": "נאלצה להסביר לו שאם ייצא מהארגז יהיו שנ"
+    },
+    {
+      "page": 46,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "מו. בערב, כאשר היו שכנים נכנסים לבקר\nאת",
+      "context_after": ", היא היתה מפעילה את הפטיפון שהיה מונח ע"
+    },
+    {
+      "page": 46,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "תו.\n\"תפירת\" אבר המין\nממק, בעלה ואביו של",
+      "context_after": ", לא חי עימם. הוא גר לו אי שם בלבוב\nו\"שי"
+    },
+    {
+      "page": 46,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "בצע את הייתפירה\" עבורו...\nכמעט זוהתה...",
+      "context_after": "חיה בחשש מתמיד שמא יזהו אותה וזה יהיה ס"
+    },
+    {
+      "page": 46,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ניה. ישבתי ספסל אחד מאחוריך\" - השיבה\nלה",
+      "context_after": "."
+    },
+    {
+      "page": 47,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "\"איך את מרגישה כאן!\"\nבחן מעושה השיבה לה",
+      "context_after": ": \"טוב מאוד. את רואה כמה יפה\nהחנות, כמה"
+    },
+    {
+      "page": 47,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ו\nהגרמני דונר, העריך מאוד את אישיותה של",
+      "context_after": "וחריצותה בניהול\nהחנות ולכן היה מרבה להת"
+    },
+    {
+      "page": 47,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "יהודים. הירבו להשתמש בהם בעת\nה\"אקציות\".",
+      "context_after": "צעדה לעבר חדר גדול ורחב מימדים. הדרך בב"
+    },
+    {
+      "page": 48,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "מה\nאת?\" \"היכן את גרה?\" \"איפה את עובדת?\"",
+      "context_after": "ענתה לו במבטא פולני מובהק. היא ניצבה מו"
+    },
+    {
+      "page": 48,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "תנות וביטחון, אך לא כך חשה בליבה\nפנימה.",
+      "context_after": "שלטה בעצמה באופן מוחלט, על אף הפחד והאי"
+    },
+    {
+      "page": 48,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "רק\nלגרמנים\" - אמר לה קצרות כנותן פקודה.",
+      "context_after": "נסעה עם מר דונר בקרון שהכניסה אליו היתה"
+    },
+    {
+      "page": 48,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ה בקרעי\nבגדים וממש נראתה עלוב.\nרחמיה של",
+      "context_after": "נכמרו עליה והיא הראתה לה את החנות בה\nעב"
+    },
+    {
+      "page": 49,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "השניה\nשמיד קפצה לראשה היתה: מה יהיה עם",
+      "context_after": "?!\nלוסיה הזדקפה, הישירה מבט, התכרבלה במע"
+    },
+    {
+      "page": 49,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "מיד קפצה לראשה היתה: מה יהיה עם שמעון?!",
+      "context_after": "הזדקפה, הישירה מבט, התכרבלה במעיל, חבשה"
+    },
+    {
+      "page": 49,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "תה...\n\"את גברת רפפורט\" - עצר אותה הגבר.",
+      "context_after": "הביטה בפניו של\n-\nהגוי והדיבור כאילו נעת"
+    },
+    {
+      "page": 49,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "כל פנים, הוא שם את פעמיו\nלאחור ועזבה...",
+      "context_after": ", בחרדה מהולה בשמחה, מיהרה לביתה. כל גופ"
+    },
+    {
+      "page": 50,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ה כאילו דבר לא אירע.\nהבלשים בעקבותיה...",
+      "context_after": "הלכה למחרת לעבודה בדרך הקבועה שבין ביתה"
+    },
+    {
+      "page": 50,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "המשיך מיד: \"חושדים בך\nכי את לא פולניה\".",
+      "context_after": "נשמה נשימה עמוקה. בשקט הושיטה להם את הת"
+    },
+    {
+      "page": 50,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ושוב בחנו את התעודות.\nכל אותו זמן עמדה",
+      "context_after": "ומסתכלת בהם, ערוכה לאפשרות\nשתישאל שאלות"
+    },
+    {
+      "page": 51,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "יה\"\nלמריה צ'צ'ליק - הפולניה שממנה קיבלה",
+      "context_after": "את תעודת הלידה\nשלה, אשר שימשה בסיס ליתר"
+    },
+    {
+      "page": 51,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "באה יחד עם בתה הקטנה, שהיתה בת גילו\nשל",
+      "context_after": ". בעת שהותה בלבוב באה לבקר את לוסיה וזו"
+    },
+    {
+      "page": 51,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ו\nשל שמעון. בעת שהותה בלבוב באה לבקר את",
+      "context_after": "וזו שמחה\nלארח אותה והיתה אסירת תודה על"
+    },
+    {
+      "page": 51,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ות, נשמעו נקישות קצובות וחזקות על\nהדלת.",
+      "context_after": "החווירה וליבה החל פועם במהירות.\n-\n-\nכשנ"
+    },
+    {
+      "page": 51,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "מינל\nפולצייי, הראי לנו את התעודות שלך\".",
+      "context_after": "מסרה להם תעודת זהות ותעודת עבודה. מריה"
+    },
+    {
+      "page": 52,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "\"כביסה\".\nאו אז הרימו את המכסה, מצאו את",
+      "context_after": ", הוציאוהו, העמידוהו\nוהתחילו לתחקר אותו:"
+    },
+    {
+      "page": 52,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "א בכה, לא צעק ולא דיבר.\nבאותו רגע, חשבה",
+      "context_after": "שהיא ובנה אבודים ולכן חובתה להציל\nאת מר"
+    },
+    {
+      "page": 52,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "לכן\nרחמו על מריה ובתה ואל תכו את הילד\".",
+      "context_after": "לא ידעה מה לעשות כדי שיניחו הגרמנים למר"
+    },
+    {
+      "page": 52,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "חשיכה. רק אז עבר בגופה רעד עז וצמרמורת.",
+      "context_after": "לא"
+    },
+    {
+      "page": 53,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "עי, הם כבר הלכו.\nאך במקום לדבר נישקה את",
+      "context_after": ", בכתה וליטפה את גופה\nהמתפתל. בתה בכתה ב"
+    },
+    {
+      "page": 53,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "גופה\nהמתפתל. בתה בכתה בכי חרישי ומתמשך.",
+      "context_after": "עמד, התבונן\nושתק. זו היתה שתיקה רועמת,"
+    },
+    {
+      "page": 53,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "הצעקה.\nחלף עוד זמן והדיבור שב אל מריה: \"",
+      "context_after": ", אני יודעת כי הצלת\nאת חיי וחיי בתי. היו"
+    },
+    {
+      "page": 53,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "יר אותך\nכחברה אמיתית ואמיצה. אני אקח את",
+      "context_after": "הקטן איתי\nלנדברונה וכך לפחות יינצל הילד"
+    },
+    {
+      "page": 53,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "איתי\nלנדברונה וכך לפחות יינצל הילד...\"",
+      "context_after": "החליטה לקבל את הצעתה של מריה, בגלל המתח"
+    },
+    {
+      "page": 53,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": ", ביקיצה ובשינה.\n-\nיטוב יהיה אם תקחי את",
+      "context_after": "\" אמרה וחיבקה את מריה.\nהילד היה חיוור מא"
+    },
+    {
+      "page": 53,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ום ומפוחד.\nיהדותו ניכרה בפניו ובגופו...",
+      "context_after": "הלבישה אותו בבגדי ילדה. תחפושתו התאימה"
+    },
+    {
+      "page": 53,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "נסיעה מלבוב לנדבורנה,\nשנמשכה שעות רבות.",
+      "context_after": "נשאר אצל מריה בנדברונה עד סיומה של המלח"
+    },
+    {
+      "page": 53,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ר אצל מריה בנדברונה עד סיומה של המלחמה.",
+      "context_after": "נותרה בגפה וכאילו אבן כבדה ירדה מעל ליב"
+    },
+    {
+      "page": 53,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "ילו אבן כבדה ירדה מעל ליבה. היא ידעה כי",
+      "context_after": "נמצא במקום בטוח, אך דאגתה וחרדתה לשלומו"
+    },
+    {
+      "page": 54,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "כך...\"\nה\"קרמינל פולציי\" שוב \"מבקרים...\"",
+      "context_after": "ידעה שהפרשה לא הסתיימה ובליבה הכינה עצמ"
+    },
+    {
+      "page": 54,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "היא לא טעתה. מספר חודשים אחרי נסיעתו של",
+      "context_after": "שוב\nנשמעו נקישות חזקות על הדלת, שממש \"ה"
+    },
+    {
+      "page": 54,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "עם השיער השחור - יהודיה היא! זו האמת\".",
+      "context_after": "עשתה\nהפסקה בדבריה וכשראתה שהשניים אכן נ"
+    },
+    {
+      "page": 55,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "הם אוכלים ושותים ומאזינים לסיפור\nהאמין.",
+      "context_after": "צבטה בידה את רגלה, דיברה וצבטה וכל זאת"
+    },
+    {
+      "page": 55,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ת רגלה, דיברה וצבטה וכל זאת כדי\nלהירגע,",
+      "context_after": "הגישה לשניים סוכריות ושוקולדים. בצחוק ו"
+    },
+    {
+      "page": 55,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "גמרו לאכול, קמו ועזבו\nאת הדירה.\nאך סגרה",
+      "context_after": "את הדלת, הרכינה עליו את ראשה, כשמצחה נג"
+    },
+    {
+      "page": 56,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "יץ לו מכות\nרצח.\nכן, זה היה יהודי כמובן!",
+      "context_after": ", \"הפולניה\", לא נעצרה לרגע\nוהמשיכה בדרכה"
+    },
+    {
+      "page": 56,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "דרכה לעבודה או לשוק, לקנות דבר מה, היתה",
+      "context_after": "רואה מדי\nיום ביומו מחזות זוועה אלו.\nיום"
+    },
+    {
+      "page": 56,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "גר ממנו. איש לא עזר לו, איש לא טיפל בו.",
+      "context_after": "חשה רצון עז לרוץ אליו ולהשקות אותו במעט"
+    },
+    {
+      "page": 57,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "א בוכה והעלם הצעיר שותת דם.\nמול ביתה של",
+      "context_after": ", ברחי לגיונוב 24, ליד התיאטרון, נמצא בס"
+    },
+    {
+      "page": 57,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ממנו הם יורים.\nברוסית דיבר הצעיר הנרגש.",
+      "context_after": "ענתה לו בשפתו: \"אם תצא\nמכאן עם מראה כשל"
+    },
+    {
+      "page": 57,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ם.\n\"מוסיקה\" ערבה יותר...\nכאמור, ביתה של",
+      "context_after": "שכן בקירבת תיאטרון לבוב. התיאטרון\nפעל כ"
+    },
+    {
+      "page": 58,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "חזקות עד שכולם\nהיו נופלים מעוצמת ההדף.",
+      "context_after": "חשה את ליבה פועם בקצב רב\nמדאגה כיצד מרג"
+    },
+    {
+      "page": 58,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "ה את ליבה פועם בקצב רב\nמדאגה כיצד מרגיש",
+      "context_after": "באותו רגע...\nאין ספק שה\"מוסיקה\" הזאת הי"
+    },
+    {
+      "page": 58,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "שהה אצל ידידתה\nהפולניה, מריה, בנדבורנה.",
+      "context_after": "שמרה איתה על קשר קבוע.\nמריה שמרה וטיפלה"
+    },
+    {
+      "page": 58,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "להם\nבעיה חמורה היכן לקבור אותו אם ימות.",
+      "context_after": "היה ממלמל ממיטת חוליו ומבקש: \"ישו, תעשה"
+    },
+    {
+      "page": 58,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "משפחת הורמק.\n-\nלבסוף נמצא פתרון לפיו אם",
+      "context_after": "ימות הוא ייקבר בגן, בינות\nלפרחים ולשיחי"
+    },
+    {
+      "page": 58,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "נות\nלפרחים ולשיחים הפורחים.\nלשמחת כולם,",
+      "context_after": "התאושש והבריא."
+    },
+    {
+      "page": 62,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "1\nבן שני ללוסיה וממק\nעם תום המלחמה עזבו",
+      "context_after": ", בעלה ממק ובנה שמעון את החלק\nהרוסי של פ"
+    },
+    {
+      "page": 62,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "עם תום המלחמה עזבו לוסיה, בעלה ממק ובנה",
+      "context_after": "את החלק\nהרוסי של פולין (לבוב) ונסעו לקט"
+    },
+    {
+      "page": 62,
+      "text": "דב",
+      "type": "person",
+      "value": "דב",
+      "id_ref": "p_dov_bernard",
+      "context_before": "הדירה.\nבבלגיה, נולד בשנת 1947 בנם השני,",
+      "context_after": ".\nשמעון \"הגדול\" מחזיק בידיו את אחיו התינ"
+    },
+    {
+      "page": 62,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "ה.\nבבלגיה, נולד בשנת 1947 בנם השני, דב.",
+      "context_after": "\"הגדול\" מחזיק בידיו את אחיו התינוק, דב"
+    },
+    {
+      "page": 62,
+      "text": "דב",
+      "type": "person",
+      "value": "דב",
+      "id_ref": "p_dov_bernard",
+      "context_before": "עון \"הגדול\" מחזיק בידיו את אחיו התינוק,",
+      "context_after": ""
+    },
+    {
+      "page": 63,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "62",
+      "context_after": "גדל והלך לבית הספר. אין ספק שכל אותן זו"
+    },
+    {
+      "page": 63,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "של סבל ופחד מימי העבר - מתקופת המלחמה.",
+      "context_after": "על ספסל בית הספר בבריסל\nשוב נפרם הקשר ה"
+    },
+    {
+      "page": 64,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "63\n—\nלא בלב קל הסכימה",
+      "context_after": "לסידור הזה אך היא נענתה להצעה\nמאחר וידע"
+    },
+    {
+      "page": 64,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "ם תחת שלטון הצורר הנאצי.\nכך מצא את עצמו",
+      "context_after": "בן ה-8 במחנה המעצר בקפריסין. לאחר\nכשנה"
+    },
+    {
+      "page": 64,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ון\nלחופש...\nהקשר המשפחתי שוב נפרם, כאשר",
+      "context_after": "נותרה בבלגיה עם תינוק\nבן שלושה חודשים."
+    },
+    {
+      "page": 64,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "אילו ההיסטוריה חוזרת על עצמה: שוב נותרה",
+      "context_after": "לבדה עם\nתינוק ושוב היא צריכה להתפרנס בכ"
+    },
+    {
+      "page": 64,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "המגורים מאכיל את דוביק התינוק\nומטפל בו,",
+      "context_after": "קיבלה \"אפידייויד\" (היתר כניסה ושהות) לא"
+    },
+    {
+      "page": 64,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "לה כי לאחר שנה תוכל\nלהצטרף אליהם בארץ.",
+      "context_after": "לא הסכימה להתרחק שוב מבעלה ומשמעון ודחת"
+    },
+    {
+      "page": 65,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "IMMIGRATION OPIC\nMaila\nתעודת השחרור של",
+      "context_after": "ממחנה המעצר בעתלית\nבינתים לא הגיעו אליה"
+    },
+    {
+      "page": 65,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "עתלית\nבינתים לא הגיעו אליה כל ידיעות על",
+      "context_after": "וממק. היא לא ידעה\nשהם עצורים במחנה בקפר"
+    },
+    {
+      "page": 66,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "65\nהפגישה, הפגישה שכזאת: האחים",
+      "context_after": "(משמאל) ודוביק (מימין)\nעם בן־דודס עקיבא"
+    },
+    {
+      "page": 66,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "עקיבא אלדר\nארצה עלינו...\nעם קום המדינה",
+      "context_after": "החליטה לעלות לישראל, כדי להתאחד עם\nהבעל"
+    },
+    {
+      "page": 67,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ם...\nגם מסע התלאות בים הרחב הגיע לקיצו.",
+      "context_after": "ודוביק הגיעו עם האוניה \"קדמה\" לנמל חיפה"
+    },
+    {
+      "page": 67,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "גרו בדירה קטנה ברחוב השלום.\nאט אט הבינה",
+      "context_after": "כי כל זה אינו חלום וכי אכן דורכות רגליה"
+    },
+    {
+      "page": 67,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "כאן כולם יהודים. גם\nהשוטרים הם יהודים\".",
+      "context_after": "עם אביה בישראל"
+    },
+    {
+      "page": 68,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ת במדינת ישראל\nבימיה הראשונים בארץ היתה",
+      "context_after": "נוסעת עם אביה לטיולים\nבמרחבי הארץ השוני"
+    },
+    {
+      "page": 68,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "לגעת ולחוש ביופי הזה.\nלאחר זמן מה עברו",
+      "context_after": ", ממק ושני הבנים הקטנים לדירה\nמשלהם, ברח"
+    },
+    {
+      "page": 68,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ם לדירה\nמשלהם, ברחוב עבאס בחיפה.\nאמא של",
+      "context_after": "-\n-\nהעובדה שיש לה בית משלה במדינת ישראל"
+    },
+    {
+      "page": 69,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ודשים הראשונים לשהותה בארץ היו עיניה של",
+      "context_after": "נוצצות\nוברק של דמעות עצורות כיסה אותן."
+    },
+    {
+      "page": 69,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ל על שהצליחה\nלהישרד מהגיהנום אותו עברה.",
+      "context_after": "נראית נינוחה ומאושרת במדינת ישראל"
+    },
+    {
+      "page": 70,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ילויים!\nבכספי השילומים מגרמניה רכשו להם",
+      "context_after": "וממק רפפורט דירה\nבת שני חדרים, מטבח ושי"
+    },
+    {
+      "page": 70,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "רות שהדירה שכנה בקומת קרקע, מתחת לכביש,",
+      "context_after": "היתה\nמאושרת לגור בה. היא זוכרת הרבה איר"
+    },
+    {
+      "page": 70,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "קרובים. הם פינו את\nהריהוט מהדירה לגינה,",
+      "context_after": "הכינה צ'ולנט עם קישקע (\"כמה מטר\nשל קישק"
+    },
+    {
+      "page": 70,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "י הנשף רקדו עד השעות\nהמאוחרות של הלילה.",
+      "context_after": "כיינערה מהוואי\" בנשף פורים שנערך בביתה"
+    },
+    {
+      "page": 70,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "בחנות המכולת הקטנה ולאחר מכן עבד במכס.",
+      "context_after": "עבדה 11 שנים בדואר, במחלקת המברקים לחו\""
+    },
+    {
+      "page": 71,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "משפחת רפפורט בפיקניק.\nמימין לשמאל: ממק,",
+      "context_after": ", לוסיה ודוביק\nמנהל המחלקה הראה לה קלסר"
+    },
+    {
+      "page": 71,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "פפורט בפיקניק.\nמימין לשמאל: ממק, שמעון,",
+      "context_after": "ודוביק\nמנהל המחלקה הראה לה קלסר מלא במכ"
+    },
+    {
+      "page": 71,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "כול\nלפטרה וממילא גם לא לשלם לה פיצויים.",
+      "context_after": "שאלה בתמימות מה לעשות כדי שייפטרו אותה"
+    },
+    {
+      "page": 71,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "לי הרבה פעמים. תאחרי\nלעבודה\" וכדי וכד'.",
+      "context_after": "גמרה אומר בנפשה לא להתנהג בצורה מכוערת"
+    },
+    {
+      "page": 72,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "71\nכשגדלו הילדים החלה",
+      "context_after": "בפעילות התנדבותית בלשכת\nיחרמון\" של \"בני"
+    },
+    {
+      "page": 72,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ו\nמתרומות ולשם כך ערכה גם \"באזר\" בביתה.",
+      "context_after": "נשלחה כציר לוועדה השנתית ה-45 של \"בני ב"
+    },
+    {
+      "page": 72,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "בלבד משתתפים בובות בהודו\nכרטיס הציר של",
+      "context_after": "לועידת \"בני ברית\""
+    },
+    {
+      "page": 76,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "הרצחת וגם ירשת?!\nבסוף שנות החמישים נסעו",
+      "context_after": "וממק למערב גרמניה, לעיר ברלין,\nכדי לטפל"
+    },
+    {
+      "page": 76,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "לסידרת בדיקות\nרפואיות.\n-\n-\nיום אחד פגשה",
+      "context_after": "בלובי של המלון בעורך דין גרמני צעיר, שה"
+    },
+    {
+      "page": 76,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "גרמני צעיר, שהיה\nבראשית דרכו המקצועית.",
+      "context_after": "סיפרה לו את סיפורו של שמעון\nוהוסיפה כי"
+    },
+    {
+      "page": 76,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "ו המקצועית. לוסיה סיפרה לו את סיפורו של",
+      "context_after": "והוסיפה כי עורך הדין הישראלי טען באוזני"
+    },
+    {
+      "page": 77,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "הגרמנית) \"נדלק\" על הסיפור הזה ואמר לה: \"",
+      "context_after": "זכאי יותר מכל\nאחד אחר לקבל פיצויים\".\nבו"
+    },
+    {
+      "page": 77,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "כל\nאחד אחר לקבל פיצויים\".\nבו במקום חתמה",
+      "context_after": "בשמו של שמעון על יפוי כוח לאותו עו\"ד\nשל"
+    },
+    {
+      "page": 77,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "ל פיצויים\".\nבו במקום חתמה לוסיה בשמו של",
+      "context_after": "על יפוי כוח לאותו עו\"ד\nשלאחר מספר שנים"
+    },
+    {
+      "page": 77,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "מגרמניה גם לשמעון.\nכאות תודה והערכה שלח",
+      "context_after": "לאימו את המכתב הבא:\nמעדיד.\n0132\n233\nתגע"
+    },
+    {
+      "page": 78,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "F\nליד קברו של היטלר\nכאשר שהתה",
+      "context_after": "במערב גרמניה, לצורך הסדר השילומים\nהאישי"
+    },
+    {
+      "page": 80,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "פרק ז':\nעל",
+      "context_after": ""
+    },
+    {
+      "page": 82,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "81",
+      "context_after": "רפפורט\nבחלק ניכר מספר זה מוזכר שמעון רפ"
+    },
+    {
+      "page": 82,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "81\nשמעון רפפורט\nבחלק ניכר מספר זה מוזכר",
+      "context_after": "רפפורט. שמעון נולד בשנת 1939,\nוכמסופר ב"
+    },
+    {
+      "page": 82,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "ט\nבחלק ניכר מספר זה מוזכר שמעון רפפורט.",
+      "context_after": "נולד בשנת 1939,\nוכמסופר בפרוטרוט בספר ז"
+    },
+    {
+      "page": 82,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "רפפורט בארץ הם גרו בתחילה אצל הוריה\nשל",
+      "context_after": ", בדירה קטנה. הם היו 10 נפשות בשני חדרים"
+    },
+    {
+      "page": 82,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "ה שקדן אבל\nנחשב כתלמיד מצטיין.\nמחנכו של",
+      "context_after": "אמר לאימו שבנה לא מכין שיעורים, אבל הוא"
+    },
+    {
+      "page": 83,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "82",
+      "context_after": "בן ה-13 עושה על האופניים\n\"טור דה רחוב מ"
+    },
+    {
+      "page": 83,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "עבר לחיפה בה שימש כתב העיתון שנים רבות.",
+      "context_after": "נשוי לתמי ואב להדס ולרונן, שיש לו איי.ק"
+    },
+    {
+      "page": 83,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "ס ולרונן, שיש לו איי.קיו 170 כמו לאביו.",
+      "context_after": "בעת שירותו הצבאי"
+    },
+    {
+      "page": 86,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "עלה בידי להציל מהתופת הנוראה הזו את בני",
+      "context_after": ". אינני יודעת\nבדיוק, אך נדמה לי שחוש אמה"
+    },
+    {
+      "page": 86,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "הודים בתקופת המשטר הנאצי.\n-\n-\nטלטלתי את",
+      "context_after": "הקטן ממקום למקום, החזקתי אותו בחדרי\nבתו"
+    },
+    {
+      "page": 86,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "הוא הבין. הוא נשא את סבלו בשקט. היה זה",
+      "context_after": "שנתן לי את הכוח להמשיך ולהאבק, להעמיד פ"
+    },
+    {
+      "page": 86,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "ה, כדי להישרד.\nלאחר המלחמה כאשר התאחדנו",
+      "context_after": "ואנוכי עם בעלי, נסענו\nלפגוש בסלובקיה את"
+    },
+    {
+      "page": 87,
+      "text": "דב",
+      "type": "person",
+      "value": "דב",
+      "id_ref": "p_dov_bernard",
+      "context_before": "כך. לאחר שהות בבלגיה - בה נולד בני השני",
+      "context_after": "- עלינו ארצה ביישני גלים\": תחילה - בעלי"
+    },
+    {
+      "page": 87,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "רצה ביישני גלים\": תחילה - בעלי ממק ובני",
+      "context_after": ",\nשעלו במסגרת עליה בי ואחר כך דב ואנוכי."
+    },
+    {
+      "page": 87,
+      "text": "דב",
+      "type": "person",
+      "value": "דב",
+      "id_ref": "p_dov_bernard",
+      "context_before": "ובני שמעון,\nשעלו במסגרת עליה בי ואחר כך",
+      "context_after": "ואנוכי.\n-\nמי שהקלה עלי את חבלי הקליטה ב"
+    },
+    {
+      "page": 87,
+      "text": "ציפורה",
+      "type": "person",
+      "value": "ציפורה",
+      "id_ref": "p_feige",
+      "context_before": "הקלה עלי את חבלי הקליטה בארץ היתה אחותי",
+      "context_after": "אלדר ז\"ל (אימו של העיתונאי עקיבא אלדר)"
+    },
+    {
+      "page": 87,
+      "text": "ציפורה",
+      "type": "person",
+      "value": "ציפורה",
+      "id_ref": "p_feige",
+      "context_before": "סכולים שיש למהגר בארץ חדשה.\n-\nלזכותה של",
+      "context_after": "הנפש הטובה והיקרה - ייאמר שבהשפעתה\nעלו"
+    },
+    {
+      "page": 87,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "תביישתי על כי לא מלאתי אחר הבטחתי, עבור",
+      "context_after": "הנושא\nהזה היה טאבו. בעלי ואני דיברנו על"
+    },
+    {
+      "page": 87,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "מערכת החינוך.\nהיתה זו נכדתי הדס, בתו של",
+      "context_after": ", שהעמידה אותי בפני מורתה\nוביקשה שאספר ל"
+    },
+    {
+      "page": 87,
+      "text": "משה",
+      "type": "person",
+      "value": "משה",
+      "id_ref": "p_moses_weitzner",
+      "context_before": "את חובתי לעמי. תודתי גם לעיתונאי החיפני",
+      "context_after": "גוטר, שהביא ספר זה לדפוס.\nכן דייר הכט,"
+    },
+    {
+      "page": 87,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "ממלאת את הבטחתי אם כי באיחור רב.\nסליחה.",
+      "context_after": "רפפורט"
+    },
+    {
+      "page": 90,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "הספר הזה, \"סיפורה של",
+      "context_after": "\", מביא את קורות\nחייה המופלאים של לוסיה"
+    },
+    {
+      "page": 90,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "לוסיה\", מביא את קורות\nחייה המופלאים של",
+      "context_after": "רפפורט (בתמונה), בעת\nמלחמת העולם השניה."
+    },
+    {
+      "page": 90,
+      "text": "לוסיה",
+      "type": "person",
+      "value": "לוסיה",
+      "id_ref": "p_leah",
+      "context_before": "רפפורט (בתמונה), בעת\nמלחמת העולם השניה.",
+      "context_after": ", היא ילידת העיירה\nבולכוב בפולין, היתה\nת"
+    },
+    {
+      "page": 90,
+      "text": "שמעון",
+      "type": "person",
+      "value": "שמעון",
+      "id_ref": "p_shimon",
+      "context_before": "ונה לבנה\". כעבור שנה ילדה את\nבנה בכורה,",
+      "context_after": ". בת 21 היתה כאשר פרצה מלחמת העולם\nהשניה"
+    }
+  ],
+  "addresses": [
+    {
+      "page": 6,
+      "text": "רח מהגיטו\n\n35",
+      "type": "address",
+      "value": {
+        "street": "מהגיטו",
+        "number": "35"
+      },
+      "id_ref": null,
+      "context_before": "אבת\nיהודיה כ\"פולניה\"\nבדקה ה-90 שמעון הוב",
+      "context_after": "36\n37"
+    },
+    {
+      "page": 10,
+      "text": "רח היו",
+      "type": "address",
+      "value": {
+        "street": "היו",
+        "number": null
+      },
+      "id_ref": null,
+      "context_before": "נחלת נוף ילדותה. אהבה את חיק הטבע, עץ ופ",
+      "context_after": "חבריה. שיחקה על העצים - קפצה מעץ לעץ וט"
+    },
+    {
+      "page": 11,
+      "text": "רחוב את",
+      "type": "address",
+      "value": {
+        "street": "את",
+        "number": null
+      },
+      "id_ref": null,
+      "context_before": "ות להיפגש\nעם בנים.\n\nיום אחד פגשה לוסיה ב",
+      "context_after": "בן-עירה (כיום ד\"ר רוטפלד)\nשלמד אף הוא ב"
+    },
+    {
+      "page": 11,
+      "text": "רחוב\nהמנהלת",
+      "type": "address",
+      "value": {
+        "street": "המנהלת",
+        "number": null
+      },
+      "id_ref": null,
+      "context_before": "הוא בסטירי, בגימנסיה לבנים. בדיוק עברה ב",
+      "context_after": "האדמיניסטרטיבית ש\"תפסה\" אותם כשהם משוחח"
+    },
+    {
+      "page": 12,
+      "text": "רח מעל",
+      "type": "address",
+      "value": {
+        "street": "מעל",
+        "number": null
+      },
+      "id_ref": null,
+      "context_before": "חלה ויין. אמא הדליקה נרות, ואור הנרות ז",
+      "context_after": "פמוטים גדולים\nומבהיקים. הכל היו נקיים ל"
+    },
+    {
+      "page": 38,
+      "text": "רח מהגיטו",
+      "type": "address",
+      "value": {
+        "street": "מהגיטו",
+        "number": null
+      },
+      "id_ref": null,
+      "context_before": "מהגיטו באופן חופשי.\nבדקה ה-90 שמעון הוב",
+      "context_after": "לוסיה היתה נוהגת ללכת למקום עבודתה במסל"
+    },
+    {
+      "page": 38,
+      "text": "רחוב קזימוזקה",
+      "type": "address",
+      "value": {
+        "street": "קזימוזקה",
+        "number": null
+      },
+      "id_ref": null,
+      "context_before": "ח את גופה ורוח קרה נשבה בפניה ובצווארה.",
+      "context_after": "נסגר לתנועת כלי רכב, אך הולכי רגל היו מ"
+    },
+    {
+      "page": 40,
+      "text": "רחוב לגיונוב 24",
+      "type": "address",
+      "value": {
+        "street": "לגיונוב",
+        "number": "24"
+      },
+      "id_ref": null,
+      "context_before": "שבה כי תוכל לשכנע את לוטה לבוא לדירתה\nשב",
+      "context_after": ", מול התיאטרון. בגיטו סיפרו לה כי הגיעו"
+    },
+    {
+      "page": 41,
+      "text": "רחוב\nרפפורט",
+      "type": "address",
+      "value": {
+        "street": "רפפורט",
+        "number": null
+      },
+      "id_ref": null,
+      "context_before": "יה לגיטו הוא היה נעול. בפיתחו של הגיטו ב",
+      "context_after": ", היה קיוסק קטן. לפתע ראתה את בעלה עומד"
+    },
+    {
+      "page": 41,
+      "text": "רח ואתחבא",
+      "type": "address",
+      "value": {
+        "street": "ואתחבא",
+        "number": null
+      },
+      "id_ref": null,
+      "context_before": "ם העבים וכאשר יחלו בחיסול היהודים אני\nאב",
+      "context_after": "בין קרשי העצים הללו. זה המקום הבטוח ביו"
+    },
+    {
+      "page": 41,
+      "text": "רח\nברכבות",
+      "type": "address",
+      "value": {
+        "street": "ברכבות",
+        "number": null
+      },
+      "id_ref": null,
+      "context_before": "ו בנדבורנה החלו מריבות בין היהודים מי יב",
+      "context_after": "שהובילו בהם עצים. לבסוף ברחנו 18 איש ומ"
+    },
+    {
+      "page": 42,
+      "text": "רח להיות",
+      "type": "address",
+      "value": {
+        "street": "להיות",
+        "number": null
+      },
+      "id_ref": null,
+      "context_before": "קווה חדשה, עם תחושה\nשיהיה טוב ושבעצם מוכ",
+      "context_after": "טוב.\nבו-זמנית ידעה ששמעון וממק היו בסכנ"
+    },
+    {
+      "page": 45,
+      "text": "רח מלבב",
+      "type": "address",
+      "value": {
+        "street": "מלבב",
+        "number": null
+      },
+      "id_ref": null,
+      "context_before": "הדברים.\nהוא היה ילד רגיש וטוב לב. מראה פ",
+      "context_after": "שימח אותו. הוא\nראה זוועות אין ספור, אך"
+    },
+    {
+      "page": 51,
+      "text": "רח אותה",
+      "type": "address",
+      "value": {
+        "street": "אותה",
+        "number": null
+      },
+      "id_ref": null,
+      "context_before": "הותה בלבוב באה לבקר את לוסיה וזו שמחה\nלא",
+      "context_after": "והיתה אסירת תודה על כל מה שעשתה למענה."
+    },
+    {
+      "page": 56,
+      "text": "רח מהמשאית",
+      "type": "address",
+      "value": {
+        "street": "מהמשאית",
+        "number": null
+      },
+      "id_ref": null,
+      "context_before": "מדרכה\nומתחנן למעט מים. הסתבר שהוא קפץ וב",
+      "context_after": "שבה היו\nהיהודים מובלים ממחנה הסגר לעבוד"
+    },
+    {
+      "page": 63,
+      "text": "רחוב קוראים",
+      "type": "address",
+      "value": {
+        "street": "קוראים",
+        "number": null
+      },
+      "id_ref": null,
+      "context_before": "פשי קשה מנשוא. הוא סיפר ללוסיה\nשהילדים ב",
+      "context_after": "לו \"יהודי ואז היו חוזרות ועולות בזכרונו"
+    },
+    {
+      "page": 67,
+      "text": "רחוב השלום",
+      "type": "address",
+      "value": {
+        "street": "השלום",
+        "number": null
+      },
+      "id_ref": null,
+      "context_before": "שר לבית הוריה הציונים, שגרו בדירה קטנה ב",
+      "context_after": ".\nאט אט הבינה לוסיה כי כל זה אינו חלום ו"
+    },
+    {
+      "page": 67,
+      "text": "רחוב התבוננה",
+      "type": "address",
+      "value": {
+        "street": "התבוננה",
+        "number": null
+      },
+      "id_ref": null,
+      "context_before": "ורכות רגליה\nבמדינה ישראל.\nכשהיתה הולכת ב",
+      "context_after": "סביבה ללא הרף. בראותה שוטר\nבמדים חשה צמ"
+    },
+    {
+      "page": 68,
+      "text": "רחוב עבאס",
+      "type": "address",
+      "value": {
+        "street": "עבאס",
+        "number": null
+      },
+      "id_ref": null,
+      "context_before": "יה, ממק ושני הבנים הקטנים לדירה\nמשלהם, ב",
+      "context_after": "בחיפה.\nאמא של לוסיה\n-\n-\nהעובדה שיש לה ב"
+    },
+    {
+      "page": 69,
+      "text": "רח ונפט",
+      "type": "address",
+      "value": {
+        "street": "ונפט",
+        "number": null
+      },
+      "id_ref": null,
+      "context_before": "יו אז הרבה קשיים. היא בישלה על פרימוס. ק",
+      "context_after": "היה\nצריך לסחוב ביד ולעלות איתם כ־250 מד"
+    },
+    {
+      "page": 69,
+      "text": "רחוב הזה",
+      "type": "address",
+      "value": {
+        "street": "הזה",
+        "number": null
+      },
+      "id_ref": null,
+      "context_before": "לות איתם כ־250 מדרגות. אוטובוס לא הגיע\nל",
+      "context_after": ".\n-\nהיא התעלמה\" מהקשיים \"הקטנים\" הללו ול"
+    },
+    {
+      "page": 69,
+      "text": "רחוב עבאס",
+      "type": "address",
+      "value": {
+        "street": "עבאס",
+        "number": null
+      },
+      "id_ref": null,
+      "context_before": "של חיים חדשים במדינת ישראל, בבית משלה.",
+      "context_after": "בחיפה הוא רחוב דו-לאומי ומתגוררים בו זה"
+    },
+    {
+      "page": 69,
+      "text": "רחוב דו",
+      "type": "address",
+      "value": {
+        "street": "דו",
+        "number": null
+      },
+      "id_ref": null,
+      "context_before": "ת ישראל, בבית משלה.\nרחוב עבאס בחיפה הוא",
+      "context_after": "-לאומי ומתגוררים בו זה לצד זה\nיהודים וער"
+    },
+    {
+      "page": 70,
+      "text": "רחוב מוריה 93",
+      "type": "address",
+      "value": {
+        "street": "מוריה",
+        "number": "93"
+      },
+      "id_ref": null,
+      "context_before": "פפורט דירה\nבת שני חדרים, מטבח ושירותים ב",
+      "context_after": ", בהר הכרמל,\nבחיפה.\nלמרות שהדירה שכנה בק"
+    },
+    {
+      "page": 78,
+      "text": "רח ברלין",
+      "type": "address",
+      "value": {
+        "street": "ברלין",
+        "number": null
+      },
+      "id_ref": null,
+      "context_before": "חית,\nבה היה קבור היטלר, צורר היהודים.\nמז",
+      "context_after": ", הקומוניסטית, טרם השתקמה מאז תום הקרבות"
+    },
+    {
+      "page": 83,
+      "text": "רחוב מוריה\"",
+      "type": "address",
+      "value": {
+        "street": "מוריה\"",
+        "number": null
+      },
+      "id_ref": null,
+      "context_before": "שמעון בן ה-13 עושה על האופניים\n\"טור דה",
+      "context_after": "הוא היה משתתף פעיל בעיתון בית הספר ומכא"
+    }
+  ]
+}

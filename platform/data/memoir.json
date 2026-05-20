@@ -6,7 +6,10 @@
   "author": "Leah (Lusia) Rapaport née Weitzner",
   "language": "he",
   "pages": 90,
+  "total_hebrew_chars": 69398,
+  "total_english_chars": 103432,
+  "total_polish_chars": 98938,
   "ocr_method": "Google Cloud Vision (document_text_detection)",
-  "translation_method": "Anthropic Claude Haiku 4.5 (batched 9 pages/call)",
+  "translation_method": "Anthropic Claude claude-haiku-4-5 (batched 9 pages/call)",
   "extracted_at": "2026-05-20"
 }

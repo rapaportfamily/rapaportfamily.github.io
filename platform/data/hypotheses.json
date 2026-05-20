@@ -13,7 +13,7 @@
         "fr": "Où se trouve « Mosina » — la ville où Dawid et Léa se sont mariés, où Szymon est né, où ils ont vécu jusqu'en 1939 ?"
       },
       "priority": "HIGH",
-      "status": "active_investigation",
+      "status": "RESOLVED — Muszyna confirmed by memoir 2026-05-20",
       "candidates": [
         {
           "label": "Mosina near Poznań (Greater Poland)",
@@ -29,9 +29,9 @@
         },
         {
           "label": "Muszyna (spa town near Krynica)",
-          "evidence_for": ["Magda's recollection of past conversation with Doron's father about this area", "Spa town fits 'rental hotel for Polish visitors' memory", "Phonetically closer to 'Mosina'", "Near Krynica where Rebeka was confirmed in 1912"],
-          "evidence_against": ["Far from Lwów / Bolechów"],
-          "verdict": "candidate"
+          "evidence_for": ["Magda's recollection of past conversation with Dov Rapaport about this area", "Spa town fits 'rental hotel for Polish visitors' memory", "Phonetically closer to 'Mosina'", "Near Krynica where Rebeka was confirmed in 1912", "PRIMARY-SOURCE CONFIRMATION (2026-05-20): Lusia's memoir (סיפורה של לוסיה) explicitly names מושינה (Muszyna) as 'the small resort town' where she and David married in February 1938 (page 17) and where Lusia managed a hotel that hosted 'all the social cream' of the town's visitors (page 18). The memoir uses the Hebrew spelling מושינה consistently. See docs/research/memoir_extraction_2026-05-20.md."],
+          "evidence_against": ["Far from Lwów / Bolechów (but no longer disqualifying — the memoir explicitly places them there)"],
+          "verdict": "RESOLVED — confirmed by primary source (memoir)"
         },
         {
           "label": "Mszana Dolna (Kraków Voivodeship)",
