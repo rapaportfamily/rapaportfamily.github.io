@@ -30,12 +30,23 @@ export async function renderMemoir(root) {
   pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.worker.min.js";
 
   let meta = {}, pages = [];
+  // Hard cache-bust at the call site so even an old service worker can't serve stale
+  const bust = "?v=" + Date.now();
   try {
-    [meta, pages] = await Promise.all([
-      fetch("data/memoir.json").then(r => r.json()).catch(() => ({})),
-      fetch("data/memoir_pages.json").then(r => r.json()).catch(() => []),
+    const [metaResp, pagesResp] = await Promise.all([
+      fetch("data/memoir.json" + bust, { cache: "no-store" }),
+      fetch("data/memoir_pages.json" + bust, { cache: "no-store" }),
     ]);
-  } catch (e) { /* keep going with defaults */ }
+    if (metaResp.ok) meta = await metaResp.json();
+    if (pagesResp.ok) {
+      pages = await pagesResp.json();
+      console.log(`[memoir] loaded ${pages.length} pages, ${pages.filter(p => p.english).length} with English translation`);
+    } else {
+      console.error(`[memoir] memoir_pages.json HTTP ${pagesResp.status}`);
+    }
+  } catch (e) {
+    console.error("[memoir] data load failed:", e);
+  }
 
   const byPage = new Map((pages || []).map(p => [p.page, p]));
   // Strip any leading "platform/" prefix (legacy data files may include it; the SPA's base path already covers it)
