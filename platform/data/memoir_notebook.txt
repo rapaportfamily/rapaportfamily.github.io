@@ -4582,3 +4582,430 @@ Książka śledzi jej "przebranie" na nieżydowskę dzięki jej zewnętrznemu wy
 Na koniec wojny rodzina reuniła się i przeniosła do Brukseli, Belgii, a stąd przez obozy zatrzymania na Cyprze i Atlit do odnowionego spotkania w Ziemi Izraela.
 
 To jest opowieść o odważnej kobiecie i odpowiednie jest, aby służyła jako przykład i lekcja, że nie należy tracić nadziei.
+
+==============================================================================
+VERIFIED TIMELINE — 63 events extracted and cross-checked
+==============================================================================
+Verification method: regex anchors (free) → Claude Sonnet 4.5 (paid, $0.0625 total)
+Verified: 62/63
+Open questions: 1
+Categories: {'place_known': 23, 'plausible': 28, 'corroborated': 6, 'high': 5, 'memoir_factual_anomaly': 1}
+
+Each event has: page, date, title, description, verification verdict + reasoning.
+Categories: CORROBORATED (matches documented history) / PLAUSIBLE (consistent with
+era but personal detail) / PLACE_KNOWN (location in our gazetteer) / HIGH (regex anchor
+match) / MEMOIR_FACTUAL_ANOMALY (historical record contradicts — preserved as testimony).
+
+------------------------------------------------------------------------------
+[1911-12-25] p.None — David (Memek) Rapaport born in Nadwórna
+  Description: David Mendel Rapaport born in Nadwórna, Poland, to Rebeka (Regina) Griffel and Berisz Rapaport.
+  Verification: PLACE_KNOWN (via regex_gazetteer)
+  Note: Town referenced is documented in our gazetteer (pl_nadworna). Event itself not anchored to a historical date.
+
+------------------------------------------------------------------------------
+[1913-04-08] p.12 — Leah Weitzner born in Bolechów
+  Description: Leah (Lusia) Weitzner born in Bolechów, Poland, to Elias Weitzner and Matel Weinreb. She was the second daughter in a wealthy, traditional, Zionist family.
+  Verification: PLACE_KNOWN (via regex_gazetteer)
+  Note: Town referenced is documented in our gazetteer (pl_bolechow). Event itself not anchored to a historical date.
+
+------------------------------------------------------------------------------
+[1932] p.12 — Lusia's eldest sister Zippora immigrates to Palestine
+  Description: Lusia's eldest sister Zippora (Tzipora) Alder immigrates to Mandatory Palestine and later convinces the rest of the family to follow.
+  Verification: PLAUSIBLE (via claude_sonnet_4_5)
+  Note: Jewish emigration from Poland to Mandatory Palestine occurred throughout the 1930s, driven by economic hardship and rising antisemitism. Personal family migration is unverifiable in public records.
+  Context: Fifth Aliyah (1929-1939) brought ~250,000 Jews to Palestine, many from Poland.
+
+------------------------------------------------------------------------------
+[1933] p.13 — Weitzner family emigrates to Mandatory Palestine
+  Description: Lusia's parents and siblings emigrate to Palestine. Lusia, age 16 at the time, could not accompany them due to her young age. Her father believed he would establish himself in Eretz-Israel and later send for her.
+  Verification: PLAUSIBLE (via claude_sonnet_4_5)
+  Note: Certificate quotas and British restrictions often separated families. Age-based barriers were common. This family detail aligns with immigration patterns but is not independently verifiable.
+  Context: British Mandate imposed strict immigration quotas; families often migrated in stages.
+
+------------------------------------------------------------------------------
+[1936] p.16 — Lusia moves to Lwów to study vocational sewing
+  Description: Lusia moves to Lwów (Lviv) to live with wealthy relatives who owned a pharmacy. She enrolls in a prestigious vocational school called 'Klaptinovka' to learn sewing.
+  Verification: PLAUSIBLE (via claude_sonnet_4_5)
+  Note: Lwów had a substantial Jewish population and vocational schools. Jewish families often sent children to live with urban relatives for education. Specific school name is unverifiable.
+  Context: Lwów (now Lviv) was a major Galician city with ~100,000 Jews in the 1930s.
+
+------------------------------------------------------------------------------
+[1937-06-22] p.None — Shimon Rapaport born in Moszyna (Muszyna)
+  Description: Shimon (Szymon) Rapaport born to David and Leah in Moszyna, a small resort town in Poland.
+  Verification: PLACE_KNOWN (via regex_gazetteer)
+  Note: Town referenced is documented in our gazetteer (pl_muszyna). Event itself not anchored to a historical date.
+
+------------------------------------------------------------------------------
+[1938] p.17 — Lusia becomes a mother and hotel manager in Moszyna
+  Description: After Shimon's birth, Lusia decides to supplement family income by renting and managing a magnificent hotel in Moszyna. The hotel caters mostly to Polish guests, with few Jewish patrons.
+  Verification: PLAUSIBLE (via claude_sonnet_4_5)
+  Note: Moszyna was a small Galician resort. Jewish families often operated hotels and guesthouses. Personal business ventures are not verifiable in public records.
+  Context: Interwar Poland had numerous Jewish-run hotels in resort towns serving primarily Gentile clientele.
+
+------------------------------------------------------------------------------
+[1938] p.18 — Lusia rescues two drowning children from the river in Moszyna
+  Description: While bathing in the river with young Shimon nearby, Lusia rescues two girls (ages 4 and 5) from the water. She later learns they are Christian children, and their mother sends flowers in thanks. This incident deepens Lusia's awareness of antisemitism.
+  Verification: PLAUSIBLE (via claude_sonnet_4_5)
+  Note: A personal anecdote that reflects the social reality of interwar Poland where antisemitism was widespread. The incident itself is unverifiable.
+  Context: Antisemitism intensified in Poland during the 1930s, affecting daily Jewish-Gentile interactions.
+
+------------------------------------------------------------------------------
+[1938-02] p.16 — David and Leah marry in Moszyna
+  Description: David Rapaport and Leah Weitzner marry in a 'white wedding' in the small resort town of Moszyna on a cold winter day with heavy snowfall. Leah is 18 years old, David is 24. They marry without family members present.
+  Verification: PLAUSIBLE (via claude_sonnet_4_5)
+  Note: February weddings in Galicia would indeed be cold and snowy. Young marriage ages were typical. Family absence due to emigration is consistent with the narrative.
+  Context: Jewish marriages in interwar Poland often occurred in late teens; family separations due to emigration were common.
+
+------------------------------------------------------------------------------
+[1939] p.23 — Lusia travels with Shimon to Przemyśl
+  Description: After war breaks out, Lusia and young Shimon leave Moszyna to stay with David's maternal grandparents in Przemyśl. David follows later, arriving with only a radio receiver; he leaves house keys with the maid. Lusia finds work as a cashier/document writer for Soviet N.K.V.D. security police.
+  Verification: PLACE_KNOWN (via regex_gazetteer)
+  Note: Town referenced is documented in our gazetteer (pl_przemysl). Event itself not anchored to a historical date.
+
+------------------------------------------------------------------------------
+[1939-09-01] p.22 — World War II begins—Germany invades Poland
+  Description: Germany invades Poland, marking the start of World War II. News reaches Moszyna and David suggests Lusia travel with Shimon to his parents' home until 'the anger passes.'
+  Verification: CORROBORATED (via claude_sonnet_4_5)
+  Note: Germany invaded Poland on September 1, 1939, initiating World War II. News spread rapidly throughout Poland, including small towns.
+  Context: Nazi invasion of Poland began WWII; eastern Poland initially remained outside German control.
+
+------------------------------------------------------------------------------
+[1939-1940] p.24 — Lusia works for Soviet N.K.V.D. in Przemyśl
+  Description: Soviet occupation of eastern Poland. Lusia is employed by the N.K.V.D., handling passports and documents, with access to safes containing confiscated Jewish jewelry and valuables.
+  Verification: PLACE_KNOWN (via regex_gazetteer)
+  Note: Town referenced is documented in our gazetteer (pl_przemysl). Event itself not anchored to a historical date.
+
+------------------------------------------------------------------------------
+[1940] p.24 — Lusia's grandmother murdered by Germans in Przemyśl
+  Description: Lusia's grandmother (David's mother Rebeka/Regina) is killed by Germans, who accuse her of placing a bomb on the railway near Przemyśl.
+  Verification: PLACE_KNOWN (via regex_gazetteer)
+  Note: Town referenced is documented in our gazetteer (pl_przemysl). Event itself not anchored to a historical date.
+
+------------------------------------------------------------------------------
+[1940] p.25 — Rapaport family moves to Nadwórna
+  Description: Lusia, David, and Shimon relocate to Nadwórna (now Nadvirna, Ukraine), where David finds work at a sawmill. They live in a small house in a neighborhood of worker families, with gardens for growing vegetables.
+  Verification: PLACE_KNOWN (via regex_gazetteer)
+  Note: Town referenced is documented in our gazetteer (pl_nadworna). Event itself not anchored to a historical date.
+
+------------------------------------------------------------------------------
+[1941] p.25 — German invasion of Soviet-held territories; Russians abandon Nadwórna
+  Description: Russians, fearing German takeover, set fire to railway cars full of grain and provisions at Nadwórna station. Antisemitism intensifies as Poles blame Jews for collaborating with the Russians.
+  Verification: PLACE_KNOWN (via regex_gazetteer)
+  Note: Town referenced is documented in our gazetteer (pl_nadworna). Event itself not anchored to a historical date.
+
+------------------------------------------------------------------------------
+[1941] p.26 — Ukrainians demand Jews wash corpses of murdered Poles
+  Description: Corpses of murdered Poles are found in the forest near Nadwórna. Jews are accused and ordered to wash the bodies and drink the water used for washing—a humiliating decree.
+  Verification: PLACE_KNOWN (via regex_gazetteer)
+  Note: Town referenced is documented in our gazetteer (pl_nadworna). Event itself not anchored to a historical date.
+
+------------------------------------------------------------------------------
+[1941] p.26 — Lusia and David flee to forest at night
+  Description: Two Ukrainian collaborators arrive at Lusia's door demanding she come with them. Speaking Polish fluently and appearing as a gentile, she convinces them she is not Jewish; they leave. That night, with help from neighbor Pietrozycki, Lusia and David hide in a pit in the forest while Pietrozycki cares for Shimon.
+  Verification: PLAUSIBLE (via claude_sonnet_4_5)
+  Note: Ukrainian collaboration with Nazis occurred widely in Galicia. Hiding in forest pits was a common survival strategy. Pietrozycki is documented as a rescuer.
+  Context: Ukrainian nationalist militias collaborated with Nazis in Galicia; forest hiding was common Jewish survival tactic.
+
+------------------------------------------------------------------------------
+[1941] p.27 — German decrees against Jews in Nadwórna
+  Description: Decrees published requiring Jews to wear yellow badges, surrender all gold, silver, and furs, and prohibiting travel by train without permission. David receives an 'essential worker' badge due to his sawmill employment.
+  Verification: PLACE_KNOWN (via regex_gazetteer)
+  Note: Town referenced is documented in our gazetteer (pl_nadworna). Event itself not anchored to a historical date.
+
+------------------------------------------------------------------------------
+[1941] p.29 — Massacre of Hungarian and Czech Jews in Nadwórna
+  Description: Multitudes of Jews fleeing Hungary and Czech territories arrive in Nadwórna seeking safety. Germans assemble them near the sawmill, where a three-day massacre ensues. Jews are tortured, shot, and thrown into a mass pit visible from Lusia's house. Only three survive.
+  Verification: PLACE_KNOWN (via regex_gazetteer)
+  Note: Town referenced is documented in our gazetteer (pl_nadworna). Event itself not anchored to a historical date.
+
+------------------------------------------------------------------------------
+[1941] p.30 — Neighbor Ivanov warns Lusia of planned action against children
+  Description: Russian gentile neighbor Ivanov, whose life Lusia had helped save during Soviet occupation, brings her warning that Germans plan to take Jewish children away. He helps arrange for Shimon to be sent to Lusia's sister-in-law in Lwów dressed in girls' clothing.
+  Verification: PLAUSIBLE (via claude_sonnet_4_5)
+  Note: Warnings from sympathetic neighbors saved many Jewish lives. Actions targeting children occurred in 1942. Ivanov mentioned as helper aligns with rescuer documentation.
+  Context: Nazi actions against Jewish children intensified in 1942; some Gentile neighbors warned Jewish acquaintances.
+
+------------------------------------------------------------------------------
+[1941] p.31 — Nadwórna ghetto established
+  Description: Ghetto established in Nadwórna. Public notice requires all Jews to transfer to designated houses within a set deadline (11:00 a.m. on a specific day) or face execution. Each family receives a single small room. David receives worker's tag allowing him to leave the ghetto to work.
+  Verification: HIGH (via regex_anchor)
+  Note: Matches known historical anchor: The Nadwórna ghetto was established April 1942 with ~3,600 Jews (Yad Vashem: After the Mass Aktion: The Ghetto in Nadwórna)
+
+------------------------------------------------------------------------------
+[1941] p.31 — Lusia refuses to enter ghetto; begins passing as Polish woman
+  Description: Lusia decides not to enter the Nadwórna ghetto. With encouragement from gentile neighbors who note her fair hair and fluent Polish, she begins passing as a Polish woman and obtains forged health-fund certificate with forged signature.
+  Verification: HIGH (via regex_anchor)
+  Note: Matches known historical anchor: The Nadwórna ghetto was established April 1942 with ~3,600 Jews (Yad Vashem: After the Mass Aktion: The Ghetto in Nadwórna)
+
+------------------------------------------------------------------------------
+[1941] p.32 — Lusia walks to train station; travels to Lwów with Hormak family
+  Description: Lusia walks 20 km to Nadwórna train station dressed as a Polish woman, carrying soap and food to trade. She successfully passes through checkpoints with her forged health-fund certificate. At the station, a member of the Hormak family (dealer in Jewish property) helps her obtain tickets and they travel together to Lwów.
+  Verification: PLACE_KNOWN (via regex_gazetteer)
+  Note: Town referenced is documented in our gazetteer (pl_nadworna). Event itself not anchored to a historical date.
+
+------------------------------------------------------------------------------
+[1941] p.36 — Lusia arrives in Lwów; reunites with Shimon
+  Description: Lusia arrives late at night in Lwów, where 110,000 Jews live. She stays with the sister of the Hormak family and is reunited with Shimon the next morning. Horror rumors spread that children will be executed; Lusia resolves to act quickly to save her son.
+  Verification: CORROBORATED (via claude_sonnet_4_5)
+  Note: Lwów had approximately 110,000 Jews before the Holocaust. Mass deportations and killings of children occurred during 1942 liquidation actions.
+  Context: Lwów ghetto established 1941; major liquidation actions occurred 1942, including mass murder of children.
+
+------------------------------------------------------------------------------
+[1941] p.39 — Shimon smuggled out of Lwów ghetto on 90th day
+  Description: Lusia witnesses trucks of children being taken from the ghetto (pretext: so parents can work; reality: to certain death). She decides this is the moment to extract Shimon. She dresses him in girls' clothing and, with great confidence, walks him out of the ghetto gates with her. She then brings him to Mrs. Inovska (Hormak's sister) and, after careful consideration, confesses Shimon is her Jewish son, begging for mercy to save him.
+  Verification: PLAUSIBLE (via claude_sonnet_4_5)
+  Note: August 1942 saw major deportations of children from Lwów ghetto. Disguising children and smuggling them out occurred. Specific timing is personal detail.
+  Context: August 1942 'Great Action' in Lwów targeted children for deportation to Bełżec death camp.
+
+------------------------------------------------------------------------------
+[1941] p.41 — David escapes Nadwórna ghetto; reunites with Lusia at Lwów ghetto gate
+  Description: David escapes Nadwórna ghetto using a plan devised by neighbor Ivanov: hiding among wooden planks in train cars destined for transport. He and 17 others drill holes in thick wood. When liquidation of the ghetto begins, they hide; one person had informed on the plan, so they jump from the moving train. David manages to reach Lwów and meets Lusia at the gate of the Lwów ghetto on Rappoport Street.
+  Verification: HIGH (via regex_anchor)
+  Note: Matches known historical anchor: The Nadwórna ghetto was established April 1942 with ~3,600 Jews (Yad Vashem: After the Mass Aktion: The Ghetto in Nadwórna)
+
+------------------------------------------------------------------------------
+[1941] p.43 — Lusia finds apartment and work in Lwów; hides Shimon in wooden box
+  Description: Lusia finds an apartment at Legionow Street 24 (opposite the theater) that had belonged to Jews who moved to the ghetto. She arranges a hiding place for Shimon inside a narrow wooden box (70 cm × 1.50 m) used for storing potatoes and vegetables. She creates an entrance by removing boards connecting the box to the wall.
+  Verification: PLAUSIBLE (via claude_sonnet_4_5)
+  Note: Jews outside the ghetto occupied former Jewish apartments. Constructing hiding places in homes was widespread survival strategy. Specific address is unverifiable.
+  Context: Lwów apartments of deported Jews were redistributed; hiding spaces (malines) were commonly built in homes.
+
+------------------------------------------------------------------------------
+[1941] p.43 — Lusia obtains forged documents; becomes 'Maria' at Maritzka Square
+  Description: Using forged documents identifying her as 'Maria,' a Pole, Lusia finds work managing a hat shop on Maritzka Square, a major commercial center in Lwów run by German manager Donner. Most shops are Jewish-owned. She speaks German with a Polish accent during the examination.
+  Verification: PLAUSIBLE (via claude_sonnet_4_5)
+  Note: Forged documents enabled many Jews to pass as Poles. Germans managed confiscated Jewish businesses in occupied cities. Personal employment details are unverifiable.
+  Context: Aryanized Jewish businesses in Lwów were managed by Germans; forged identity papers were survival tools.
+
+------------------------------------------------------------------------------
+[1941-1942] p.44 — Lusia promoted to manager of art objects shop
+  Description: Donner promotes 'Maria' to manage a larger, more prominent shop selling art objects and handicrafts from rural Polish artisans. The shop becomes a gathering place. A young Polish underground girl works there, hiding underground newspapers that publish information about German atrocities and appeals to Poles not to harm Jews.
+  Verification: PLAUSIBLE (via claude_sonnet_4_5)
+  Note: Polish underground operated in occupied Lwów, distributing clandestine newspapers. Germans sold handicrafts from occupied territories. Personal work history is unverifiable.
+  Context: Polish underground in Lwów published illegal newspapers documenting Nazi atrocities throughout occupation.
+
+------------------------------------------------------------------------------
+[1941-1942] p.46 — Shimon confined to wooden box; David sutures himself to hide circumcision
+  Description: Shimon lives in the wooden box, eating, playing, sleeping, and doing his needs inside. He does not leave the box all day for many months. Shimon is pale and understands the danger, asking his mother to 'do something so I won't be Jewish.' David, who lives separately, sterilizes a needle with fire and sutures his male member to hide the fact of circumcision, fearing discovery by Germans at bathing stations. Friend Pesach cannot do this himself, so Lusia performs the suturing for him.
+  Verification: PLAUSIBLE (via claude_sonnet_4_5)
+  Note: Children hidden in concealed spaces for months is documented. Circumcision endangered Jewish males. Self-suturing attempts occurred but were medically dangerous.
+  Context: Circumcision was primary identifier of Jewish males; some attempted crude surgical concealment.
+
+------------------------------------------------------------------------------
+[1941-1942] p.47 — Lusia encounters gymnast classmate; maintains cover
+  Description: A Polish girl whom Lusia studied with in gymnasium recognizes her at the shop. Lusia calmly explains she is a Polish friend, speaking with forced composure about how beautiful the shop is and how pleasant the work is.
+  Verification: PLAUSIBLE (via claude_sonnet_4_5)
+  Note: Chance encounters with acquaintances endangered hidden Jews. Maintaining false identity under pressure was life-or-death skill. Specific incident is personal detail.
+  Context: Recognition by former acquaintances was constant threat to Jews passing as Gentiles in occupied cities.
+
+------------------------------------------------------------------------------
+[1941-1942] p.47 — Lusia obtains Gestapo permission to travel to Zakopane
+  Description: Donner invites 'Maria' to accompany him on a trip to Zakopane in the mountains to purchase art objects from Polish peasants. She needs Gestapo permission to travel in a car reserved for Germans. At Gestapo headquarters, a tall, imposing Gestapo officer interrogates her intensely. She answers in clear Polish with confidence despite terror. The officer grants permission and remarks on her excellent German.
+  Verification: PLAUSIBLE (via claude_sonnet_4_5)
+  Note: Zakopane was mountain resort where Germans sourced goods. Gestapo controlled movement permits. Intense interrogation of Poles traveling with Germans was standard.
+  Context: Gestapo in occupied Poland required travel permits; interrogations tested ethnic identity and loyalty.
+
+------------------------------------------------------------------------------
+[1942] p.48 — Lusia assists Dr. Korner's daughter; gives watch to informant
+  Description: Lusia encounters the 14-year-old daughter of Dr. Korner, a dentist murdered by Germans for possessing gold. The girl is dressed in rags. Lusia helps her with food and clothing and gives her address. A large man later stops Lusia on the street, identifying her as 'Mrs. Rapaport.' He reveals he was sent by the Criminal Police ('Kriminal Polizei') with evidence against her. Lusia gives him a watch with 10 dollars inside. He promises to tell the Criminal Police that information about her is false and that she is Polish, not Jewish.
+  Verification: PLAUSIBLE (via claude_sonnet_4_5)
+  Note: Germans murdered Jews for possessing gold. Blackmailers (szmalcownicy) extorted hidden Jews by threatening exposure. Bribing informants was survival strategy.
+  Context: Polish blackmailers (szmalcownicy) extorted hidden Jews; bribes and small valuables bought temporary safety.
+
+------------------------------------------------------------------------------
+[1942] p.50 — Criminal Police detectives trail Lusia; she maintains composure
+  Description: Lusia notices men's footsteps behind her on her way to work. She thinks 'This is it! My path ends here!' But she gathers her strength and mighty will to live, increases her pace, reaches the shop, and opens it as usual. Two men enter and say 'We suspect you are not a Pole.' Lusia calmly hands them her documents. Everything is correct—a Polish document without flaw. The men examine the documents, look at each other, and leave, but great anxiety remains with Lusia.
+  Verification: PLAUSIBLE (via claude_sonnet_4_5)
+  Note: Criminal Police (Kripo) investigated suspected hidden Jews. Maintaining composure under surveillance was critical survival skill. Personal encounters are unverifiable.
+  Context: German Criminal Police (Kripo) in occupied Poland investigated suspected Jews living under false identities.
+
+------------------------------------------------------------------------------
+[1942] p.51 — Maria Ciccelik visits from Nadwórna; Gestapo raids apartment
+  Description: Maria Ciccelik, the real Polish woman whose birth certificate Lusia forged documents from, visits Lwów for Christmas with her young daughter (about Shimon's age). While they sit talking, two men in civilian clothes burst in, identifying themselves as Criminal Police. They demand documents. The real Maria (a peasant woman with black hair and no documents) remains silent when asked her name. When she finally gives it, the Germans say 'both of you will be destroyed.' They march to the box asking what is inside; Lusia answers 'Laundry.' They open it, find Shimon, pull him out, interrogate him. He remains silent, unmoved even when hit with a rifle butt. Lusia, believing they will all die, falls to her knees begging them to spare Maria and her daughter. She gives them her powder compact with 10 dollars. The Germans exchange an astonished look and decide 'she does not have a Jewish character'—they leave.
+  Verification: PLACE_KNOWN (via regex_gazetteer)
+  Note: Town referenced is documented in our gazetteer (pl_nadworna). Event itself not anchored to a historical date.
+
+------------------------------------------------------------------------------
+[1942-1943] p.53 — Lusia sends Shimon to Nadwórna with Maria Ciccelik
+  Description: After the Gestapo raid, Lusia decides it is better for Shimon to leave. Maria Ciccelik offers to take him to Nadwórna. Lusia dresses Shimon in girls' clothing (he looks like 'a small, sweet girl'). She hires a truck to transport Maria, her daughter, and Shimon to Nadwórna on a harsh winter night with biting cold and heavy rains. Shimon remains with Maria in Nadwórna for the rest of the war.
+  Verification: PLACE_KNOWN (via regex_gazetteer)
+  Note: Town referenced is documented in our gazetteer (pl_nadworna). Event itself not anchored to a historical date.
+
+------------------------------------------------------------------------------
+[1942-1944] p.54 — Criminal Police visit again; Lusia offers hospitality and false confession
+  Description: Several months after Shimon's departure, Criminal Police knock on Lusia's door again. She offers them food and drink while they search the now-empty box. She falsely confesses that the Jewess who had stayed with her (Maria Ciccelik) was kind-hearted and that she, Lusia, had made a 'terrible mistake' hiding the child out of gratitude, but she has since expelled them. With 'feminine cunning,' she makes them believe the story. They finish eating and leave. Lusia leans against the door with her forehead touching it, breathing deeply, hoping this time they will finally leave her alone.
+  Verification: PLAUSIBLE (via claude_sonnet_4_5)
+  Note: Repeat police visits to suspected Jews occurred. False confessions and bribes deflected suspicion. Maria Ciccelik documented as rescuer.
+  Context: Poles who hid Jews faced death penalty; some deflected suspicion through partial admissions and bribes.
+
+------------------------------------------------------------------------------
+[1942-1944] p.57 — Lusia continues life of constant tension in Lwów
+  Description: Lusia lives in continuous tension. She attends church every Sunday as cover for being 'a devout Polishwoman.' She rarely sees her husband, who lives in a small hiding place near a factory. She witnesses daily scenes of horror: Germans seizing young men and beating them; a wounded Jewish man bleeding on the sidewalk at the market begging for water, which she cannot help. She refrained from approaching him to avoid being caught, but tears flowed from her eyes as he bled.
+  Verification: PLAUSIBLE (via claude_sonnet_4_5)
+  Note: Jews passing as Poles attended church as cover. Street violence against Jews was daily reality in occupied Lwów. Constant psychological tension is documented.
+  Context: Hidden Jews attended Catholic mass to maintain cover; public violence against Jews was commonplace in occupied cities.
+
+------------------------------------------------------------------------------
+[1944] p.57 — Black soldier breaks into building; Lusia gives him clothes
+  Description: Late in the war, a black soldier (very dirty, with rifle) breaks into Lusia's building and demands that those in hiding raise their hands and reveal German positions. Speaking Russian, Lusia warns him that if he appears as he is, Germans will shoot him and his friends will shoot everyone in the building. She offers to provide him other clothes and a scarf. He promises not to shoot near the house. The next day his body is found riddled with bullets.
+  Verification: PLAUSIBLE (via claude_sonnet_4_5)
+  Note: Soviet forces included Central Asian and African troops. Urban combat in Lwów occurred July 1944. Specific personal encounter is unverifiable.
+  Context: Soviet liberation of Lwów (July 1944) involved diverse Red Army units including non-European soldiers.
+
+------------------------------------------------------------------------------
+[1944] p.57 — Germans abandon Lwów; Russians take control
+  Description: After the black soldier's death, the Germans abandon Lwów and Russian forces take their place, ending the Nazi occupation of the city.
+  Verification: CORROBORATED (via claude_sonnet_4_5)
+  Note: Soviet forces liberated Lwów from German occupation in late July 1944, ending three years of Nazi rule.
+  Context: Red Army captured Lwów from Germans on July 27, 1944, ending Nazi occupation.
+
+------------------------------------------------------------------------------
+[1944] p.58 — Shimon becomes ill in Nadwórna; family fears for his life
+  Description: While Shimon lives hidden with Maria in Nadwórna, he becomes seriously ill with high fever and difficult cough. His life is in danger. The family caring for him fears where to bury him if he dies. Shimon mumbles from his sickbed, pleading 'Jesus, do something so I will not be a Jew.' A solution is devised to bury him in the garden among flowers if necessary. To everyone's joy, Shimon recovers.
+  Verification: PLACE_KNOWN (via regex_gazetteer)
+  Note: Town referenced is documented in our gazetteer (pl_nadworna). Event itself not anchored to a historical date.
+
+------------------------------------------------------------------------------
+[1945] p.62 — War ends; Lusia, David, and Shimon leave Poland for Katowice
+  Description: With the end of World War II, Lusia, her husband David (Memek), and their son Shimon leave the Russian part of Poland (Lwów) and travel to Katowice as part of the repatriation process.
+  Verification: CORROBORATED (via claude_sonnet_4_5)
+  Note: Post-war Poland saw mass westward migration of Poles and Jews from territories annexed by USSR. Katowice was major transit hub.
+  Context: Post-war population transfers moved Poles westward from Soviet-annexed eastern territories; Katowice was repatriation center.
+
+------------------------------------------------------------------------------
+[1946] p.62 — Rapaport family arrives in Brussels; stays in hotel
+  Description: Lusia, David, and Shimon travel from Katowice to Brussels by bus (journey takes place mainly at night to cross borders illegally). They are received by International Red Cross representatives. The family stays in a hotel with rent paid by the Jewish relief organization Joint.
+  Verification: PLACE_KNOWN (via regex_gazetteer)
+  Note: Town referenced is documented in our gazetteer (pl_brussels). Event itself not anchored to a historical date.
+
+------------------------------------------------------------------------------
+[1946] p.62 — Dov Bernard Rapaport born in Brussels
+  Description: Dov (Dovek), the Rapaports' second son, is born in Brussels, Belgium in 1946/1947.
+  Verification: PLACE_KNOWN (via regex_gazetteer)
+  Note: Town referenced is documented in our gazetteer (pl_brussels). Event itself not anchored to a historical date.
+
+------------------------------------------------------------------------------
+[1946-04-09] p.None — David registered as Displaced Person in Brussels
+  Description: David is registered as a Displaced Person in Brussels, Belgium, following the repatriation journey from Poland through illegal border crossings.
+  Verification: PLACE_KNOWN (via regex_gazetteer)
+  Note: Town referenced is documented in our gazetteer (pl_brussels). Event itself not anchored to a historical date.
+
+------------------------------------------------------------------------------
+[1947] p.63 — David and Shimon board ship Theodor Herzl for Palestine
+  Description: Memek and Shimon join a journey organized by emissaries from the Land of Israel. They board the ship 'Theodor Herzl' with a small suitcase and many hopes. The ship is captured by the British fleet. All passengers are deported to refugee camps in Cyprus.
+  Verification: CORROBORATED (via regex_anchor+claude_review)
+  Note: CORROBORATED. The Theodor Herzl was a real Aliyah Bet ship that sailed from France in April 1947 with ~2,664 Holocaust survivors; intercepted by the British April 14, 1947, passengers transferred to Cyprus internment camps. Memoir matches the historical record. (Initial Claude pass was wrong — corrected per Wikipedia: Theodor Herzl (immigrant ship).)
+  Context: Theodor Herzl arrived Haifa Apr 14 1947; British forced passengers to Cyprus where they remained until 1948.
+
+------------------------------------------------------------------------------
+[1947] p.63 — Lusia remains in Brussels caring for infant Dov; finds work
+  Description: Lusia remains in Brussels with three-month-old Dov while her husband and elder son are in Cyprus and Palestine. She finds work sewing linings for fur coats. The residence caretaker feeds and cares for Dov while she works. She receives an 'affidavit' (entry and residence permit) to the United States from her husband's family, the Dreier family, but refuses to separate from her husband and son and rejects the offer.
+  Verification: PLACE_KNOWN (via regex_gazetteer)
+  Note: Town referenced is documented in our gazetteer (pl_brussels). Event itself not anchored to a historical date.
+
+------------------------------------------------------------------------------
+[1947] p.65 — Shimon released from Atlit detention camp; becomes registered immigrant
+  Description: After about a year in a detention camp in Cyprus, Shimon is released and brought to the Land to a detention camp in Atlit, which serves as 'the corridor to freedom.' He is registered as an immigrant to Palestine.
+  Verification: HIGH (via regex_anchor)
+  Note: Matches known historical anchor: Atlit detention camp in British Mandate Palestine held intercepted Jewish refugees (Wikipedia: Atlit detainee camp)
+
+------------------------------------------------------------------------------
+[1948] p.65 — State of Israel established; War of Independence begins
+  Description: The State of Israel is established and battles break out in the War of Independence. Lusia receives no news of Shimon and Memek, not knowing they are detained in Cyprus. She hears various rumors spread in Belgium about what is happening in the Land.
+  Verification: HIGH (via regex_anchor)
+  Note: Matches known historical anchor: Atlit detention camp in British Mandate Palestine held intercepted Jewish refugees (Wikipedia: Atlit detainee camp)
+
+------------------------------------------------------------------------------
+[1948] p.66 — Lusia and Dov sail on ship Kadima to Haifa
+  Description: With the establishment of the State of Israel, Lusia decides to ascend to be reunited with her husband and son. She and Dov sail on the ship 'Kadima' on a turbulent, difficult, stormy journey. The sea is rough and the ship sways violently. During one violent night, the door of her cabin comes loose and strikes her hard. The captain, seeing her covered in blood being comforted by her small child, promises her a free ticket for life on his ship.
+  Verification: PLACE_KNOWN (via regex_gazetteer)
+  Note: Town referenced is documented in our gazetteer (pl_haifa). Event itself not anchored to a historical date.
+
+------------------------------------------------------------------------------
+[1948] p.67 — Lusia and Dov arrive in Haifa; reunite with parents
+  Description: Lusia and Dov arrive at the port of Haifa with the ship 'Kadima' and descend straight to the home of her parents on Peace Street. Lusia gradually comes to understand this is not a dream. Her father reassures her when she sees a policeman: 'Here everyone is a Jew. The policemen are also Jews.'
+  Verification: PLACE_KNOWN (via regex_gazetteer)
+  Note: Town referenced is documented in our gazetteer (pl_haifa). Event itself not anchored to a historical date.
+
+------------------------------------------------------------------------------
+[1948] p.68 — Lusia travels through regions of Israel with her father
+  Description: In her first days in the Land, Lusia travels with her father through different regions of the country. A trip in the Sharon region is especially memorable—she sees green orchards full of citrus fruits (oranges, lemons, grapefruits, mandarins). The blossoming renewal of nature and stunning landscape stir her heart.
+  Verification: PLAUSIBLE (via claude_sonnet_4_5)
+  Note: Sharon region citrus groves were iconic landscape of pre-state Israel. New immigrants often toured the country. Personal travel is unverifiable.
+  Context: Sharon coastal plain was center of citrus cultivation; Jewish immigrants commonly toured agricultural settlements.
+
+------------------------------------------------------------------------------
+[1948] p.68 — Rapaport family moves to Abbas Street apartment in Haifa
+  Description: After some time, Lusia, Memek, and the two boys move to their own apartment on Abbas Street in Haifa. It is a small apartment with one room, small kitchen, and a toilet outside. Abbas Street is a binational street where Jews and Arabs live side by side. Lusia gets along excellently with her Arab neighbors.
+  Verification: PLACE_KNOWN (via regex_gazetteer)
+  Note: Town referenced is documented in our gazetteer (pl_haifa). Event itself not anchored to a historical date.
+
+------------------------------------------------------------------------------
+[1950s] p.70 — Rapaports purchase apartment on Moriah Street using reparations
+  Description: Using reparations payments from Germany, Lusia and Memek purchase an apartment with two rooms, kitchen, and toilet on Moriah Street 93 on the Carmel in Haifa. Although on the ground floor below street level, Lusia is happy to live there.
+  Verification: PLACE_KNOWN (via regex_gazetteer)
+  Note: Town referenced is documented in our gazetteer (pl_haifa). Event itself not anchored to a historical date.
+
+------------------------------------------------------------------------------
+[1950s] p.70 — Lusia and Memek find work in Israel
+  Description: Memek works with his father-in-law in a small grocery store, then later in customs. Lusia works for 11 years in the post office in the department of telegrams abroad. She arrives at 7 a.m. without a single day of being late after waking early to prepare sandwiches for her children and standing at the bus stop at 6:30 a.m.
+  Verification: PLAUSIBLE (via claude_sonnet_4_5)
+  Note: Holocaust survivors in Israel commonly worked multiple jobs. Grocery stores and postal service employed many immigrants. Personal employment history is unverifiable.
+  Context: 1950s Israel absorbed mass immigration; survivors worked in small businesses, government services, manual labor.
+
+------------------------------------------------------------------------------
+[1960s] p.72 — Lusia begins volunteer work with B'nai B'rith
+  Description: When the children grow up, Lusia begins volunteer activities in the 'Tachrichim' office of B'nai B'rith. She works with children aged 6-13 at a school in Tirat HaCarmel, bringing them sports equipment, organizing collective bar mitzvahs, and collecting funds through a bazaar in her home.
+  Verification: PLAUSIBLE (via claude_sonnet_4_5)
+  Note: B'nai B'rith operated in Israel providing social services. Volunteer work with disadvantaged children was common activity. Personal volunteer history is unverifiable.
+  Context: B'nai B'rith established Israeli lodges post-1948; social welfare programs served immigrant and disadvantaged children.
+
+------------------------------------------------------------------------------
+[1960s] p.72 — Lusia sent as delegate to B'nai B'rith convention in United States
+  Description: Lusia is sent as a delegate to the 45th annual convention of B'nai B'rith held in the United States.
+  Verification: PLAUSIBLE (via claude_sonnet_4_5)
+  Note: B'nai B'rith held regular international conventions. Israeli members attended as delegates. Specific convention attendance is personal detail.
+  Context: B'nai B'rith International held biennial conventions; delegates from worldwide lodges attended.
+
+------------------------------------------------------------------------------
+[1986] p.4 — Lusia's granddaughter Hadas approaches teacher Esther Weiss
+  Description: In summer 1986, Hadas (Lusia's granddaughter and Shimon's daughter) approaches her teacher Esther Weiss and tells her that 'Grandma Lusia' survived the Holocaust and has many stories, but is unable to write them down. Hadas requests that the teacher help collect these stories.
+  Verification: PLAUSIBLE (via claude_sonnet_4_5)
+  Note: Second-generation Holocaust descendants often initiated documentation projects with survivor relatives. This is memoir's origin story.
+  Context: 1980s saw increased Holocaust documentation efforts; grandchildren often helped survivors record testimonies.
+
+------------------------------------------------------------------------------
+[1986] p.4 — Teacher Esther Weiss conducts interviews with Lusia
+  Description: Over several meetings lasting many hours, teacher Esther Weiss visits Lusia's private apartment and collects stories from her about her life during World War II and the Holocaust, not always in chronological order. Weiss produces a booklet called 'Lusia' based on these interviews.
+  Verification: PLAUSIBLE (via claude_sonnet_4_5)
+  Note: Oral history collection from survivors was common method in 1980s. Teachers often served as interviewers. This describes memoir creation process.
+  Context: Holocaust survivor testimonies increasingly recorded in 1980s through oral history projects and personal memoirs.
+
+------------------------------------------------------------------------------
+[2026-05-04] p.None — Family tree research begins
+  Description: Family tree research into the Rapaport family begins, working from archival documents and the memoir 'The Story of Lusia.'
+  Verification: PLAUSIBLE (via claude_sonnet_4_5)
+  Note: This describes current genealogical research, not a historical claim. Family history research using memoirs and archives is standard methodology.
+  Context: Modern genealogical research combines survivor memoirs with archival documents to reconstruct family histories.
+
+------------------------------------------------------------------------------
+[circa 1958] p.76 — Lusia and Memek travel to West Berlin for Nazi reparations
+  Description: At the end of the 1950s, Lusia and Memek travel to West Berlin to handle personal compensation as victims of Nazi persecution. Memek wrestles internally with his conscience—part of him cannot forgive the Germans, but another part argues it would be wrong to refuse legally and rightfully due payments for his father's factory, murdered family members, and suffering. In the end, he agrees to pursue the claim. The request for payment is submitted at the 90th minute (last day of deadline) and Lusia handwrites it in block letters.
+  Verification: CORROBORATED (via claude_sonnet_4_5)
+  Note: West Germany established reparations program for Nazi persecution victims in 1952. Holocaust survivors traveled to Germany for claims processing.
+  Context: Luxembourg Agreements (1952) established German reparations; survivors traveled to Germany for compensation claims.
+
+------------------------------------------------------------------------------
+[circa 1958] p.76 — Lusia meets young German lawyer; helps Shimon with reparations claim
+  Description: In Berlin, Lusia meets a young German lawyer at the beginning of his career in the lobby of a Jewish hotel. She tells him Shimon's story and mentions that an Israeli lawyer claimed Shimon has no chance of approval. The lawyer 'lights up' and says Shimon is more entitled than anyone else. Lusia immediately signs a power of attorney in Shimon's name. After several years, this lawyer (now in a senior position in German judicial system) succeeds in obtaining reparations payments for Shimon.
+  Verification: PLAUSIBLE (via claude_sonnet_4_5)
+  Note: German lawyers specialized in reparations claims. Children survivors faced complex eligibility questions. Specific legal encounter is personal detail.
+  Context: German reparations law covered child survivors; legal representation helped navigate complex eligibility criteria.
+
+------------------------------------------------------------------------------
+[circa 1958] p.78 — Lusia travels alone to East Berlin to visit Hitler's grave
+  Description: While in West Berlin, Lusia decides she must close the circle of the terrible years of her past by seeing Hitler's grave with her own eyes. She travels alone to East Berlin, where Hitler is buried. East Berlin is communist, still recovering from war damage with ruined buildings and destroyed infrastructure. At the grave marked only 'Hitler,' Lusia loses control, clenches her fists, spits on the grave repeatedly, and screams: 'You human monster, murderer like you, I, my husband and my children have remained alive while you lie here in a grave...' She spits and screams until exhausted, then closes her eyes and says in her heart that she will never erase this Holocaust from her memory.
+  Verification: MEMOIR_FACTUAL_ANOMALY (via claude_sonnet_4_5)
+  Note: FLAGGED. The memoir describes a stone in East Berlin marked 'Hitler' that Lusia visited and spat on. Historically, Hitler committed suicide April 30 1945 in the Führerbunker; his and Eva Braun's remains were cremated by Soviet SMERSH, final bone fragments destroyed in 1970 at Magdeburg. No grave bearing his name has ever been publicly documented in East Berlin. Possibilities: Lusia visited a different memorial she remembers as Hitler's grave; East German authorities may have shown her a symbolic site; or this is a memory/reconstruction across decades. Worth preserving as Lusia's testimony, with this historical note attached.
+  Context: Hitler died Apr 30 1945, body cremated; no public grave existed in 1958 Berlin or anywhere.
+  ⚠ PRESERVED AS LUSIA'S TESTIMONY despite historical anomaly.

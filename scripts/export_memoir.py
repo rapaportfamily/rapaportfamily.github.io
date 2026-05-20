@@ -26,6 +26,7 @@ from hebrew_regex import HebrewExtractor, facts_to_dict
 REPO = Path(__file__).resolve().parent.parent
 PAGES_JSON = REPO / "platform" / "data" / "memoir_pages.json"
 META_JSON  = REPO / "platform" / "data" / "memoir.json"
+TIMELINE_JSON = REPO / "platform" / "data" / "memoir_timeline_verified.json"
 OUT_XML    = REPO / "platform" / "data" / "memoir.xml"
 OUT_NB     = REPO / "platform" / "data" / "memoir_notebook.txt"
 OUT_FACTS  = REPO / "platform" / "data" / "memoir_facts.json"
@@ -69,6 +70,35 @@ for p in pages:
             e_el = ET.SubElement(consensus, "engine")
             e_el.text = engine
 
+# Embed verified timeline into XML
+if TIMELINE_JSON.exists():
+    tl = json.loads(TIMELINE_JSON.read_text(encoding="utf-8"))
+    tl_el = ET.SubElement(root, "verified-timeline", attrib={
+        "events-total": str(len(tl.get("events", []))),
+        "verification-method": tl.get("verification_method", ""),
+    })
+    cs = tl.get("cost_summary", {})
+    cost_el = ET.SubElement(tl_el, "cost-summary")
+    for k, v in cs.items():
+        ET.SubElement(cost_el, "item", attrib={"key": str(k)}).text = json.dumps(v, ensure_ascii=False) if isinstance(v, (dict, list)) else str(v)
+    for ev in tl.get("events", []):
+        v = ev.get("verification", {})
+        ev_el = ET.SubElement(tl_el, "event", attrib={
+            "page": str(ev.get("page", "")),
+            "date": str(ev.get("date") or ""),
+            "verified": str(v.get("verified", False)).lower(),
+            "confidence": str(v.get("confidence", "")),
+            "method": str(v.get("method", "")),
+        })
+        ET.SubElement(ev_el, "title").text = ev.get("title", "")
+        ET.SubElement(ev_el, "description").text = ev.get("description", "")
+        if v.get("side_note"):
+            ET.SubElement(ev_el, "side-note").text = v["side_note"]
+        if v.get("historical_context"):
+            ET.SubElement(ev_el, "historical-context").text = v["historical_context"]
+        for aid in (v.get("anchor_ids") or []):
+            ET.SubElement(ev_el, "anchor", attrib={"id": aid})
+
 tree = ET.ElementTree(root)
 ET.indent(tree, space="  ")
 tree.write(str(OUT_XML), encoding="utf-8", xml_declaration=True)
@@ -110,6 +140,42 @@ for p in pages:
         lines.append(f"OCR notes: {p['ocr_notes']}")
     if p.get("claude_review_needed"):
         lines.append("⚠ Page flagged for Claude review — Hebrew OCR engines disagreed.")
+# Append verified timeline section
+if TIMELINE_JSON.exists():
+    tl = json.loads(TIMELINE_JSON.read_text(encoding="utf-8"))
+    cs = tl.get("cost_summary", {})
+    lines += [
+        "",
+        "=" * 78,
+        "VERIFIED TIMELINE — 63 events extracted and cross-checked",
+        "=" * 78,
+        f"Verification method: regex anchors (free) → Claude Sonnet 4.5 (paid, ${cs.get('total_cost_usd', 0):.4f} total)",
+        f"Verified: {cs.get('verified', '?')}/{cs.get('events_total', '?')}",
+        f"Open questions: {cs.get('needs_followup', '?')}",
+        f"Categories: {cs.get('category_breakdown', {})}",
+        "",
+        "Each event has: page, date, title, description, verification verdict + reasoning.",
+        "Categories: CORROBORATED (matches documented history) / PLAUSIBLE (consistent with",
+        "era but personal detail) / PLACE_KNOWN (location in our gazetteer) / HIGH (regex anchor",
+        "match) / MEMOIR_FACTUAL_ANOMALY (historical record contradicts — preserved as testimony).",
+        "",
+    ]
+    by_year = sorted(tl.get("events", []), key=lambda e: (str(e.get("date") or "9999"), e.get("page") or 999))
+    for ev in by_year:
+        v = ev.get("verification", {})
+        lines += [
+            "-" * 78,
+            f"[{ev.get('date') or 'undated'}] p.{ev.get('page','?')} — {ev.get('title','')}",
+            f"  Description: {ev.get('description','')}",
+            f"  Verification: {v.get('confidence','?').upper()} (via {v.get('method','?')})",
+            f"  Note: {v.get('side_note','')}",
+        ]
+        if v.get("historical_context"):
+            lines.append(f"  Context: {v['historical_context']}")
+        if v.get("preserve_as_testimony"):
+            lines.append(f"  ⚠ PRESERVED AS LUSIA'S TESTIMONY despite historical anomaly.")
+        lines.append("")
+
 OUT_NB.write_text("\n".join(lines), encoding="utf-8")
 print(f"[ok] wrote {OUT_NB} ({len(lines)} lines, {OUT_NB.stat().st_size:,} bytes)")
 

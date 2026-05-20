@@ -1,0 +1,289 @@
+{
+  "model": "claude-sonnet-4-5-20250929",
+  "cost_usd": 0.0625,
+  "input_tokens": 4659,
+  "output_tokens": 3235,
+  "events_assessed": 35,
+  "results": [
+    {
+      "event_page": 12,
+      "event_title": "Lusia's eldest sister Zippora immigrates to Palestine",
+      "event_date": "1932",
+      "category": "PLAUSIBLE",
+      "reasoning": "Jewish emigration from Poland to Mandatory Palestine occurred throughout the 1930s, driven by economic hardship and rising antisemitism. Personal family migration is unverifiable in public records.",
+      "historical_context": "Fifth Aliyah (1929-1939) brought ~250,000 Jews to Palestine, many from Poland."
+    },
+    {
+      "event_page": 13,
+      "event_title": "Weitzner family emigrates to Mandatory Palestine",
+      "event_date": "1933",
+      "category": "PLAUSIBLE",
+      "reasoning": "Certificate quotas and British restrictions often separated families. Age-based barriers were common. This family detail aligns with immigration patterns but is not independently verifiable.",
+      "historical_context": "British Mandate imposed strict immigration quotas; families often migrated in stages."
+    },
+    {
+      "event_page": 16,
+      "event_title": "Lusia moves to Lwów to study vocational sewing",
+      "event_date": "1936",
+      "category": "PLAUSIBLE",
+      "reasoning": "Lwów had a substantial Jewish population and vocational schools. Jewish families often sent children to live with urban relatives for education. Specific school name is unverifiable.",
+      "historical_context": "Lwów (now Lviv) was a major Galician city with ~100,000 Jews in the 1930s."
+    },
+    {
+      "event_page": 17,
+      "event_title": "Lusia becomes a mother and hotel manager in Moszyna",
+      "event_date": "1938",
+      "category": "PLAUSIBLE",
+      "reasoning": "Moszyna was a small Galician resort. Jewish families often operated hotels and guesthouses. Personal business ventures are not verifiable in public records.",
+      "historical_context": "Interwar Poland had numerous Jewish-run hotels in resort towns serving primarily Gentile clientele."
+    },
+    {
+      "event_page": 18,
+      "event_title": "Lusia rescues two drowning children from the river in Moszyna",
+      "event_date": "1938",
+      "category": "PLAUSIBLE",
+      "reasoning": "A personal anecdote that reflects the social reality of interwar Poland where antisemitism was widespread. The incident itself is unverifiable.",
+      "historical_context": "Antisemitism intensified in Poland during the 1930s, affecting daily Jewish-Gentile interactions."
+    },
+    {
+      "event_page": 16,
+      "event_title": "David and Leah marry in Moszyna",
+      "event_date": "1938-02",
+      "category": "PLAUSIBLE",
+      "reasoning": "February weddings in Galicia would indeed be cold and snowy. Young marriage ages were typical. Family absence due to emigration is consistent with the narrative.",
+      "historical_context": "Jewish marriages in interwar Poland often occurred in late teens; family separations due to emigration were common."
+    },
+    {
+      "event_page": 22,
+      "event_title": "World War II begins—Germany invades Poland",
+      "event_date": "1939-09-01",
+      "category": "CORROBORATED",
+      "reasoning": "Germany invaded Poland on September 1, 1939, initiating World War II. News spread rapidly throughout Poland, including small towns.",
+      "historical_context": "Nazi invasion of Poland began WWII; eastern Poland initially remained outside German control."
+    },
+    {
+      "event_page": 26,
+      "event_title": "Lusia and David flee to forest at night",
+      "event_date": "1941",
+      "category": "PLAUSIBLE",
+      "reasoning": "Ukrainian collaboration with Nazis occurred widely in Galicia. Hiding in forest pits was a common survival strategy. Pietrozycki is documented as a rescuer.",
+      "historical_context": "Ukrainian nationalist militias collaborated with Nazis in Galicia; forest hiding was common Jewish survival tactic."
+    },
+    {
+      "event_page": 30,
+      "event_title": "Neighbor Ivanov warns Lusia of planned action against children",
+      "event_date": "1941",
+      "category": "PLAUSIBLE",
+      "reasoning": "Warnings from sympathetic neighbors saved many Jewish lives. Actions targeting children occurred in 1942. Ivanov mentioned as helper aligns with rescuer documentation.",
+      "historical_context": "Nazi actions against Jewish children intensified in 1942; some Gentile neighbors warned Jewish acquaintances."
+    },
+    {
+      "event_page": 36,
+      "event_title": "Lusia arrives in Lwów; reunites with Shimon",
+      "event_date": "1941",
+      "category": "CORROBORATED",
+      "reasoning": "Lwów had approximately 110,000 Jews before the Holocaust. Mass deportations and killings of children occurred during 1942 liquidation actions.",
+      "historical_context": "Lwów ghetto established 1941; major liquidation actions occurred 1942, including mass murder of children."
+    },
+    {
+      "event_page": 39,
+      "event_title": "Shimon smuggled out of Lwów ghetto on 90th day",
+      "event_date": "1941",
+      "category": "PLAUSIBLE",
+      "reasoning": "August 1942 saw major deportations of children from Lwów ghetto. Disguising children and smuggling them out occurred. Specific timing is personal detail.",
+      "historical_context": "August 1942 'Great Action' in Lwów targeted children for deportation to Bełżec death camp."
+    },
+    {
+      "event_page": 43,
+      "event_title": "Lusia finds apartment and work in Lwów; hides Shimon in wooden box",
+      "event_date": "1941",
+      "category": "PLAUSIBLE",
+      "reasoning": "Jews outside the ghetto occupied former Jewish apartments. Constructing hiding places in homes was widespread survival strategy. Specific address is unverifiable.",
+      "historical_context": "Lwów apartments of deported Jews were redistributed; hiding spaces (malines) were commonly built in homes."
+    },
+    {
+      "event_page": 43,
+      "event_title": "Lusia obtains forged documents; becomes 'Maria' at Maritzka Square",
+      "event_date": "1941",
+      "category": "PLAUSIBLE",
+      "reasoning": "Forged documents enabled many Jews to pass as Poles. Germans managed confiscated Jewish businesses in occupied cities. Personal employment details are unverifiable.",
+      "historical_context": "Aryanized Jewish businesses in Lwów were managed by Germans; forged identity papers were survival tools."
+    },
+    {
+      "event_page": 44,
+      "event_title": "Lusia promoted to manager of art objects shop",
+      "event_date": "1941-1942",
+      "category": "PLAUSIBLE",
+      "reasoning": "Polish underground operated in occupied Lwów, distributing clandestine newspapers. Germans sold handicrafts from occupied territories. Personal work history is unverifiable.",
+      "historical_context": "Polish underground in Lwów published illegal newspapers documenting Nazi atrocities throughout occupation."
+    },
+    {
+      "event_page": 46,
+      "event_title": "Shimon confined to wooden box; David sutures himself to hide circumcision",
+      "event_date": "1941-1942",
+      "category": "PLAUSIBLE",
+      "reasoning": "Children hidden in concealed spaces for months is documented. Circumcision endangered Jewish males. Self-suturing attempts occurred but were medically dangerous.",
+      "historical_context": "Circumcision was primary identifier of Jewish males; some attempted crude surgical concealment."
+    },
+    {
+      "event_page": 47,
+      "event_title": "Lusia encounters gymnast classmate; maintains cover",
+      "event_date": "1941-1942",
+      "category": "PLAUSIBLE",
+      "reasoning": "Chance encounters with acquaintances endangered hidden Jews. Maintaining false identity under pressure was life-or-death skill. Specific incident is personal detail.",
+      "historical_context": "Recognition by former acquaintances was constant threat to Jews passing as Gentiles in occupied cities."
+    },
+    {
+      "event_page": 47,
+      "event_title": "Lusia obtains Gestapo permission to travel to Zakopane",
+      "event_date": "1941-1942",
+      "category": "PLAUSIBLE",
+      "reasoning": "Zakopane was mountain resort where Germans sourced goods. Gestapo controlled movement permits. Intense interrogation of Poles traveling with Germans was standard.",
+      "historical_context": "Gestapo in occupied Poland required travel permits; interrogations tested ethnic identity and loyalty."
+    },
+    {
+      "event_page": 48,
+      "event_title": "Lusia assists Dr. Korner's daughter; gives watch to informant",
+      "event_date": "1942",
+      "category": "PLAUSIBLE",
+      "reasoning": "Germans murdered Jews for possessing gold. Blackmailers (szmalcownicy) extorted hidden Jews by threatening exposure. Bribing informants was survival strategy.",
+      "historical_context": "Polish blackmailers (szmalcownicy) extorted hidden Jews; bribes and small valuables bought temporary safety."
+    },
+    {
+      "event_page": 50,
+      "event_title": "Criminal Police detectives trail Lusia; she maintains composure",
+      "event_date": "1942",
+      "category": "PLAUSIBLE",
+      "reasoning": "Criminal Police (Kripo) investigated suspected hidden Jews. Maintaining composure under surveillance was critical survival skill. Personal encounters are unverifiable.",
+      "historical_context": "German Criminal Police (Kripo) in occupied Poland investigated suspected Jews living under false identities."
+    },
+    {
+      "event_page": 54,
+      "event_title": "Criminal Police visit again; Lusia offers hospitality and false confession",
+      "event_date": "1942-1944",
+      "category": "PLAUSIBLE",
+      "reasoning": "Repeat police visits to suspected Jews occurred. False confessions and bribes deflected suspicion. Maria Ciccelik documented as rescuer.",
+      "historical_context": "Poles who hid Jews faced death penalty; some deflected suspicion through partial admissions and bribes."
+    },
+    {
+      "event_page": 57,
+      "event_title": "Lusia continues life of constant tension in Lwów",
+      "event_date": "1942-1944",
+      "category": "PLAUSIBLE",
+      "reasoning": "Jews passing as Poles attended church as cover. Street violence against Jews was daily reality in occupied Lwów. Constant psychological tension is documented.",
+      "historical_context": "Hidden Jews attended Catholic mass to maintain cover; public violence against Jews was commonplace in occupied cities."
+    },
+    {
+      "event_page": 57,
+      "event_title": "Black soldier breaks into building; Lusia gives him clothes",
+      "event_date": "1944",
+      "category": "PLAUSIBLE",
+      "reasoning": "Soviet forces included Central Asian and African troops. Urban combat in Lwów occurred July 1944. Specific personal encounter is unverifiable.",
+      "historical_context": "Soviet liberation of Lwów (July 1944) involved diverse Red Army units including non-European soldiers."
+    },
+    {
+      "event_page": 57,
+      "event_title": "Germans abandon Lwów; Russians take control",
+      "event_date": "1944",
+      "category": "CORROBORATED",
+      "reasoning": "Soviet forces liberated Lwów from German occupation in late July 1944, ending three years of Nazi rule.",
+      "historical_context": "Red Army captured Lwów from Germans on July 27, 1944, ending Nazi occupation."
+    },
+    {
+      "event_page": 62,
+      "event_title": "War ends; Lusia, David, and Shimon leave Poland for Katowice",
+      "event_date": "1945",
+      "category": "CORROBORATED",
+      "reasoning": "Post-war Poland saw mass westward migration of Poles and Jews from territories annexed by USSR. Katowice was major transit hub.",
+      "historical_context": "Post-war population transfers moved Poles westward from Soviet-annexed eastern territories; Katowice was repatriation center."
+    },
+    {
+      "event_page": 63,
+      "event_title": "David and Shimon board ship Theodor Herzl for Palestine",
+      "event_date": "1947",
+      "category": "CONTRADICTED",
+      "reasoning": "No ship named Theodor Herzl is documented in Aliyah Bet operations. British interception and Cyprus detention occurred, but the ship name appears incorrect.",
+      "historical_context": "British intercepted illegal immigrant ships 1945-1948; detainees sent to Cyprus camps. No Theodor Herzl documented."
+    },
+    {
+      "event_page": 68,
+      "event_title": "Lusia travels through regions of Israel with her father",
+      "event_date": "1948",
+      "category": "PLAUSIBLE",
+      "reasoning": "Sharon region citrus groves were iconic landscape of pre-state Israel. New immigrants often toured the country. Personal travel is unverifiable.",
+      "historical_context": "Sharon coastal plain was center of citrus cultivation; Jewish immigrants commonly toured agricultural settlements."
+    },
+    {
+      "event_page": 70,
+      "event_title": "Lusia and Memek find work in Israel",
+      "event_date": "1950s",
+      "category": "PLAUSIBLE",
+      "reasoning": "Holocaust survivors in Israel commonly worked multiple jobs. Grocery stores and postal service employed many immigrants. Personal employment history is unverifiable.",
+      "historical_context": "1950s Israel absorbed mass immigration; survivors worked in small businesses, government services, manual labor."
+    },
+    {
+      "event_page": 76,
+      "event_title": "Lusia and Memek travel to West Berlin for Nazi reparations",
+      "event_date": "circa 1958",
+      "category": "CORROBORATED",
+      "reasoning": "West Germany established reparations program for Nazi persecution victims in 1952. Holocaust survivors traveled to Germany for claims processing.",
+      "historical_context": "Luxembourg Agreements (1952) established German reparations; survivors traveled to Germany for compensation claims."
+    },
+    {
+      "event_page": 76,
+      "event_title": "Lusia meets young German lawyer; helps Shimon with reparations claim",
+      "event_date": "circa 1958",
+      "category": "PLAUSIBLE",
+      "reasoning": "German lawyers specialized in reparations claims. Children survivors faced complex eligibility questions. Specific legal encounter is personal detail.",
+      "historical_context": "German reparations law covered child survivors; legal representation helped navigate complex eligibility criteria."
+    },
+    {
+      "event_page": 78,
+      "event_title": "Lusia travels alone to East Berlin to visit Hitler's grave",
+      "event_date": "circa 1958",
+      "category": "CONTRADICTED",
+      "reasoning": "Hitler committed suicide in Berlin bunker April 1945; his body was burned by Soviets. No accessible grave existed in East or West Berlin.",
+      "historical_context": "Hitler's remains were cremated by Soviets in 1945; no grave existed for visitors in Berlin."
+    },
+    {
+      "event_page": 72,
+      "event_title": "Lusia begins volunteer work with B'nai B'rith",
+      "event_date": "1960s",
+      "category": "PLAUSIBLE",
+      "reasoning": "B'nai B'rith operated in Israel providing social services. Volunteer work with disadvantaged children was common activity. Personal volunteer history is unverifiable.",
+      "historical_context": "B'nai B'rith established Israeli lodges post-1948; social welfare programs served immigrant and disadvantaged children."
+    },
+    {
+      "event_page": 72,
+      "event_title": "Lusia sent as delegate to B'nai B'rith convention in United States",
+      "event_date": "1960s",
+      "category": "PLAUSIBLE",
+      "reasoning": "B'nai B'rith held regular international conventions. Israeli members attended as delegates. Specific convention attendance is personal detail.",
+      "historical_context": "B'nai B'rith International held biennial conventions; delegates from worldwide lodges attended."
+    },
+    {
+      "event_page": 4,
+      "event_title": "Lusia's granddaughter Hadas approaches teacher Esther Weiss",
+      "event_date": "1986",
+      "category": "PLAUSIBLE",
+      "reasoning": "Second-generation Holocaust descendants often initiated documentation projects with survivor relatives. This is memoir's origin story.",
+      "historical_context": "1980s saw increased Holocaust documentation efforts; grandchildren often helped survivors record testimonies."
+    },
+    {
+      "event_page": 4,
+      "event_title": "Teacher Esther Weiss conducts interviews with Lusia",
+      "event_date": "1986",
+      "category": "PLAUSIBLE",
+      "reasoning": "Oral history collection from survivors was common method in 1980s. Teachers often served as interviewers. This describes memoir creation process.",
+      "historical_context": "Holocaust survivor testimonies increasingly recorded in 1980s through oral history projects and personal memoirs."
+    },
+    {
+      "event_page": null,
+      "event_title": "Family tree research begins",
+      "event_date": "2026-05-04",
+      "category": "PLAUSIBLE",
+      "reasoning": "This describes current genealogical research, not a historical claim. Family history research using memoirs and archives is standard methodology.",
+      "historical_context": "Modern genealogical research combines survivor memoirs with archival documents to reconstruct family histories."
+    }
+  ]
+}

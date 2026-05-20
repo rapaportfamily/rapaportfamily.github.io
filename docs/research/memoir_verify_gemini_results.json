@@ -1,0 +1,287 @@
+{
+  "model": "gemini-2.5-flash",
+  "cost_usd": 0.0,
+  "events_assessed": 35,
+  "results": [
+    {
+      "event_page": 12,
+      "event_title": "Lusia's eldest sister Zippora immigrates to Palestine",
+      "event_date": "1932",
+      "category": "PLAUSIBLE",
+      "reasoning": "The immigration of a Jewish person from Galicia to Mandatory Palestine in 1932 is consistent with the Fifth Aliyah, a significant wave of Jewish migration from Eastern Europe during that decade. The pattern of one family member immigrating first was also common.",
+      "historical_context": "The 1930s saw substantial Jewish immigration to Mandatory Palestine, known as the Fifth Aliyah, driven by rising antisemitism and economic hardship in Eastern Europe."
+    },
+    {
+      "event_page": 13,
+      "event_title": "Weitzner family emigrates to Mandatory Palestine",
+      "event_date": "1933",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    },
+    {
+      "event_page": 16,
+      "event_title": "Lusia moves to Lwów to study vocational sewing",
+      "event_date": "1936",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    },
+    {
+      "event_page": 17,
+      "event_title": "Lusia becomes a mother and hotel manager in Moszyna",
+      "event_date": "1938",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    },
+    {
+      "event_page": 18,
+      "event_title": "Lusia rescues two drowning children from the river in Moszyna",
+      "event_date": "1938",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    },
+    {
+      "event_page": 16,
+      "event_title": "David and Leah marry in Moszyna",
+      "event_date": "1938-02",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    },
+    {
+      "event_page": 22,
+      "event_title": "World War II begins—Germany invades Poland",
+      "event_date": "1939-09-01",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    },
+    {
+      "event_page": 26,
+      "event_title": "Lusia and David flee to forest at night",
+      "event_date": "1941",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    },
+    {
+      "event_page": 30,
+      "event_title": "Neighbor Ivanov warns Lusia of planned action against children",
+      "event_date": "1941",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    },
+    {
+      "event_page": 36,
+      "event_title": "Lusia arrives in Lwów; reunites with Shimon",
+      "event_date": "1941",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    },
+    {
+      "event_page": 39,
+      "event_title": "Shimon smuggled out of Lwów ghetto on 90th day",
+      "event_date": "1941",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    },
+    {
+      "event_page": 43,
+      "event_title": "Lusia finds apartment and work in Lwów; hides Shimon in wooden box",
+      "event_date": "1941",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    },
+    {
+      "event_page": 43,
+      "event_title": "Lusia obtains forged documents; becomes 'Maria' at Maritzka Square",
+      "event_date": "1941",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    },
+    {
+      "event_page": 44,
+      "event_title": "Lusia promoted to manager of art objects shop",
+      "event_date": "1941-1942",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    },
+    {
+      "event_page": 46,
+      "event_title": "Shimon confined to wooden box; David sutures himself to hide circumcision",
+      "event_date": "1941-1942",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    },
+    {
+      "event_page": 47,
+      "event_title": "Lusia encounters gymnast classmate; maintains cover",
+      "event_date": "1941-1942",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    },
+    {
+      "event_page": 47,
+      "event_title": "Lusia obtains Gestapo permission to travel to Zakopane",
+      "event_date": "1941-1942",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    },
+    {
+      "event_page": 48,
+      "event_title": "Lusia assists Dr. Korner's daughter; gives watch to informant",
+      "event_date": "1942",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    },
+    {
+      "event_page": 50,
+      "event_title": "Criminal Police detectives trail Lusia; she maintains composure",
+      "event_date": "1942",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    },
+    {
+      "event_page": 54,
+      "event_title": "Criminal Police visit again; Lusia offers hospitality and false confession",
+      "event_date": "1942-1944",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    },
+    {
+      "event_page": 57,
+      "event_title": "Lusia continues life of constant tension in Lwów",
+      "event_date": "1942-1944",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    },
+    {
+      "event_page": 57,
+      "event_title": "Black soldier breaks into building; Lusia gives him clothes",
+      "event_date": "1944",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    },
+    {
+      "event_page": 57,
+      "event_title": "Germans abandon Lwów; Russians take control",
+      "event_date": "1944",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    },
+    {
+      "event_page": 62,
+      "event_title": "War ends; Lusia, David, and Shimon leave Poland for Katowice",
+      "event_date": "1945",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    },
+    {
+      "event_page": 63,
+      "event_title": "David and Shimon board ship Theodor Herzl for Palestine",
+      "event_date": "1947",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    },
+    {
+      "event_page": 68,
+      "event_title": "Lusia travels through regions of Israel with her father",
+      "event_date": "1948",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    },
+    {
+      "event_page": 70,
+      "event_title": "Lusia and Memek find work in Israel",
+      "event_date": "1950s",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    },
+    {
+      "event_page": 76,
+      "event_title": "Lusia and Memek travel to West Berlin for Nazi reparations",
+      "event_date": "circa 1958",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    },
+    {
+      "event_page": 76,
+      "event_title": "Lusia meets young German lawyer; helps Shimon with reparations claim",
+      "event_date": "circa 1958",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    },
+    {
+      "event_page": 78,
+      "event_title": "Lusia travels alone to East Berlin to visit Hitler's grave",
+      "event_date": "circa 1958",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    },
+    {
+      "event_page": 72,
+      "event_title": "Lusia begins volunteer work with B'nai B'rith",
+      "event_date": "1960s",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    },
+    {
+      "event_page": 72,
+      "event_title": "Lusia sent as delegate to B'nai B'rith convention in United States",
+      "event_date": "1960s",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    },
+    {
+      "event_page": 4,
+      "event_title": "Lusia's granddaughter Hadas approaches teacher Esther Weiss",
+      "event_date": "1986",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    },
+    {
+      "event_page": 4,
+      "event_title": "Teacher Esther Weiss conducts interviews with Lusia",
+      "event_date": "1986",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    },
+    {
+      "event_page": null,
+      "event_title": "Family tree research begins",
+      "event_date": "2026-05-04",
+      "category": "ERROR",
+      "reasoning": "Gemini call failed: ResourceExhausted",
+      "historical_context": ""
+    }
+  ]
+}
