@@ -5,28 +5,29 @@
 // PDF.js (Mozilla, Apache 2.0) loaded lazily from CDN on first visit.
 
 export async function renderMemoir(root) {
-  // Lazy-load PDF.js (UMD build, single CDN file)
+  root.innerHTML = `<div class="page-pad"><h1 style="font-family:Georgia,serif;color:#6b1f1f;">📖 Loading memoir…</h1></div>`;
+
+  // Load PDF.js v3 (UMD build — works as a regular <script> tag, no module gymnastics)
   if (!window.pdfjsLib) {
-    await new Promise((resolve, reject) => {
-      const s = document.createElement("script");
-      s.src = "https://cdn.jsdelivr.net/npm/pdfjs-dist@4.7.76/build/pdf.min.mjs";
-      s.type = "module";
-      s.onload = resolve;
-      s.onerror = reject;
-      document.head.appendChild(s);
-    }).catch(() => {});
-  }
-  // PDF.js v4 uses ES module export — fall back to a known global if needed
-  let pdfjsLib = window.pdfjsLib;
-  if (!pdfjsLib) {
     try {
-      pdfjsLib = await import("https://cdn.jsdelivr.net/npm/pdfjs-dist@4.7.76/build/pdf.min.mjs");
+      await new Promise((resolve, reject) => {
+        const s = document.createElement("script");
+        s.src = "https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js";
+        s.onload = resolve;
+        s.onerror = reject;
+        document.head.appendChild(s);
+      });
     } catch (e) {
       root.innerHTML = `<div class="page-pad"><h1>Memoir</h1><p>PDF.js failed to load: ${escapeHtml(e.message || e)}</p></div>`;
       return;
     }
   }
-  pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdn.jsdelivr.net/npm/pdfjs-dist@4.7.76/build/pdf.worker.min.mjs";
+  const pdfjsLib = window.pdfjsLib;
+  if (!pdfjsLib) {
+    root.innerHTML = `<div class="page-pad"><h1>Memoir</h1><p>PDF.js library not available after load.</p></div>`;
+    return;
+  }
+  pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.worker.min.js";
 
   let meta = {}, pages = [];
   try {
