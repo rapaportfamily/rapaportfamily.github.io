@@ -72,21 +72,108 @@ export async function renderMemoir(root) {
         </select>
         <a href="${escapeHtml(pdfUrl)}" target="_blank" style="font-size:0.85rem;color:#6b1f1f;text-decoration:underline;">📥 Download PDF</a>
       </div>
-      <div id="m-stage" style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:1.5rem;align-items:stretch;">
-        <div id="m-canvas-wrap" style="background:#fff;border:1px solid #cdb892;border-radius:6px;padding:0.6rem;box-shadow:0 6px 22px rgba(0,0,0,0.18);display:flex;justify-content:center;align-items:flex-start;perspective:1500px;height:78vh;overflow:hidden;">
-          <canvas id="m-canvas" style="max-width:100%;max-height:100%;height:auto;display:block;transition:transform 0.4s ease,opacity 0.2s;"></canvas>
+      <div id="m-stage" class="m-stage">
+        <div id="m-canvas-wrap" class="m-canvas-wrap">
+          <canvas id="m-canvas" class="m-canvas"></canvas>
         </div>
-        <div id="m-text-wrap" style="background:#fff7e1;border:1px solid #cdb892;border-radius:6px;height:78vh;display:flex;flex-direction:column;overflow:hidden;">
-          <div id="m-content" style="flex:1 1 auto;overflow-y:auto;padding:1.5rem 1.5rem 1rem;font-family:Georgia,serif;line-height:1.8;color:#2b1d10;font-size:1.02rem;scrollbar-width:thin;scrollbar-color:#cdb892 transparent;"></div>
-          <div id="m-meta" style="flex:0 0 auto;padding:0.6rem 1rem;background:#f6ecd2;border-top:1px solid #cdb892;font-size:0.78rem;color:#6b5440;font-family:Inter,sans-serif;"></div>
+        <div id="m-text-wrap" class="m-text-wrap">
+          <div id="m-content" class="m-content"></div>
+          <div id="m-meta" class="m-meta"></div>
         </div>
       </div>
       <style>
-        #m-content::-webkit-scrollbar { width: 8px; }
-        #m-content::-webkit-scrollbar-thumb { background: #cdb892; border-radius: 4px; }
-        #m-content::-webkit-scrollbar-track { background: transparent; }
-        .m-chapter { font-weight: 700; color: #6b1f1f; font-size: 1.15rem; margin-top: 1.4rem; margin-bottom: 0.3rem; display: block; }
+        /* Desktop layout (default): side-by-side */
+        .m-stage {
+          display: grid;
+          grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+          gap: 1.5rem;
+          align-items: stretch;
+        }
+        .m-canvas-wrap {
+          background: #fff;
+          border: 1px solid #cdb892;
+          border-radius: 6px;
+          padding: 0.6rem;
+          box-shadow: 0 6px 22px rgba(0,0,0,0.18);
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          perspective: 1500px;
+          height: 78vh;
+          overflow: hidden;
+        }
+        .m-canvas {
+          max-width: 100%;
+          max-height: 100%;
+          height: auto;
+          display: block;
+          transition: transform 0.4s ease, opacity 0.2s;
+        }
+        .m-text-wrap {
+          background: #fff7e1;
+          border: 1px solid #cdb892;
+          border-radius: 6px;
+          height: 78vh;
+          display: flex;
+          flex-direction: column;
+          overflow: hidden;
+        }
+        .m-content {
+          flex: 1 1 auto;
+          overflow-y: auto;
+          padding: 1.5rem 1.5rem 1rem;
+          font-family: Georgia, serif;
+          line-height: 1.8;
+          color: #2b1d10;
+          font-size: 1.02rem;
+          scrollbar-width: thin;
+          scrollbar-color: #cdb892 transparent;
+        }
+        .m-meta {
+          flex: 0 0 auto;
+          padding: 0.6rem 1rem;
+          background: #f6ecd2;
+          border-top: 1px solid #cdb892;
+          font-size: 0.78rem;
+          color: #6b5440;
+          font-family: Inter, sans-serif;
+        }
+        .m-content::-webkit-scrollbar { width: 8px; }
+        .m-content::-webkit-scrollbar-thumb { background: #cdb892; border-radius: 4px; }
+        .m-content::-webkit-scrollbar-track { background: transparent; }
+        .m-chapter {
+          font-weight: 700; color: #6b1f1f; font-size: 1.15rem;
+          margin-top: 1.4rem; margin-bottom: 0.3rem; display: block;
+        }
         .m-pagenum { color: #6b5440; font-size: 0.85rem; }
+
+        /* PHONE / NARROW SCREEN: stack panels, generous text */
+        @media (max-width: 780px) {
+          .m-stage {
+            grid-template-columns: 1fr;
+            gap: 1rem;
+          }
+          .m-canvas-wrap {
+            height: 56vh;
+            padding: 0.4rem;
+          }
+          .m-text-wrap {
+            height: auto;
+            min-height: 40vh;
+            max-height: 70vh;
+          }
+          .m-content {
+            font-size: 1.06rem;
+            padding: 1.1rem 1.1rem 0.8rem;
+            line-height: 1.75;
+          }
+          .m-chapter { font-size: 1.1rem; margin-top: 1.2rem; }
+        }
+
+        /* MOBILE LANDSCAPE: keep side-by-side but shorter */
+        @media (max-height: 600px) and (min-width: 781px) {
+          .m-canvas-wrap, .m-text-wrap { height: 70vh; }
+        }
       </style>
       <div style="margin-top:1rem;text-align:center;font-size:0.78rem;color:#6b5440;">
         Tap the page to flip · ← → keys also work · text panel shows Hebrew OCR or AI translation
