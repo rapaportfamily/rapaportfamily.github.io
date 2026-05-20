@@ -488,7 +488,6 @@ function setupInstallButton() {
   window.addEventListener("beforeinstallprompt", (e) => {
     e.preventDefault();
     _installPromptEvent = e;
-    // Refresh the persistent bar so it shows the "Install now" affordance
     updatePersistentInstallBar();
   });
   // When the app gets installed (any path), hide everything install-related
@@ -501,14 +500,19 @@ function setupInstallButton() {
   // If already installed (running standalone), no bar/modal
   if (window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone) return;
 
-  // PERSISTENT bottom bar — stays until installed (no 24h dismiss).
-  // User can collapse it to a small chip but can't permanently hide it.
+  // Persistent bottom bar — user can still dismiss
   updatePersistentInstallBar();
 
-  // After 10 seconds, surface the full modal once for first-time users
-  const everShown = sessionStorage.getItem("rft.install.modal.shown");
+  // After 60 seconds (was 10), surface the modal — but ONLY ONCE per browser, not every session,
+  // and NEVER on the memoir page (people are reading)
+  const everShown = localStorage.getItem("rft.install.modal.shown_at");
   if (!everShown) {
-    setTimeout(() => { showInstallModal(); sessionStorage.setItem("rft.install.modal.shown", "1"); }, 10000);
+    setTimeout(() => {
+      const hash = (location.hash || "").replace(/^#\//, "").split("/")[0];
+      if (hash === "memoir") return; // don't interrupt reading
+      showInstallModal();
+      localStorage.setItem("rft.install.modal.shown_at", String(Date.now()));
+    }, 60000);
   }
 }
 
