@@ -319,6 +319,30 @@
       "status": "verified"
     },
     {
+      "id": "doc_lusia_memoir",
+      "file_pages": ["lusia_memoir.pdf"],
+      "kind": "pdf",
+      "type": "memoir",
+      "primary_language": "he",
+      "title": {
+        "en": "The Story of Lusia (Sipura shel Lusia)",
+        "he": "סיפורה של לוסיה",
+        "pl": "Historia Lusi",
+        "fr": "L'histoire de Lusia"
+      },
+      "source_archive": "Family — scanned PDF uploaded by Doron 20 May 2026. 90 pages, Hebrew, with embedded photos and dedication page. Compiled in 1986 by Esther Weiss based on Lusia Rapaport's first-person recollections, with extensive multi-session interviews recorded by Esther's pen and later edited by Moshe Goter.",
+      "summary": {
+        "en": "Lusia (Leah) Rapaport née Weitzner's memoir, dictated and compiled in 1986 by her granddaughter's teacher Esther Weiss. The primary historical document for Lusia's life from childhood in Bolechów through marriage in Muszyna (Feb 1938), survival under Nazi occupation in Lwów with false identities, escape with David and Shimon, post-war Brussels and the journey to Israel. Settled in Haifa, Moriah Street 93. OCR'd 2026-05-20 via Google Cloud Vision (~70k Hebrew chars). Translated to English and Polish by Claude Haiku 4.5 (batched). PRIMARY SOURCE for resolving H1 Mosina = Muszyna, and confirming David's wooden-wagon escape, Lota's existence, the Legionów 24 address, and the marriage date Feb 1938."
+      },
+      "translations_available": ["he", "en", "pl"],
+      "ocr_method": "Google Cloud Vision (document_text_detection)",
+      "translation_method": "Anthropic Claude Haiku 4.5 (batched 9 pages/call)",
+      "related_people": ["p_leah", "p_david", "p_shimon", "p_dov_bernard", "p_lota", "p_feige", "p_moses_weitzner", "p_pnina_weitzner"],
+      "related_places": ["pl_muszyna", "pl_lwow", "pl_nadworna", "pl_bolechow", "pl_stryj", "pl_brussels", "pl_haifa", "pl_israel"],
+      "related_hypotheses": ["h_mosina_location"],
+      "status": "verified"
+    },
+    {
       "id": "doc_ipn_passportization_paper",
       "file_pages": ["represje-nkwd-wobec-mieszkancow-strefy-przygranicznej-1939â1941,6066.pdf"],
       "kind": "pdf",
