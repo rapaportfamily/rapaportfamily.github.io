@@ -73,14 +73,21 @@ export async function renderMemoir(root) {
         <a href="${escapeHtml(pdfUrl)}" target="_blank" style="font-size:0.85rem;color:#6b1f1f;text-decoration:underline;">📥 Download PDF</a>
       </div>
       <div id="m-stage" style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:1.5rem;align-items:stretch;">
-        <div id="m-canvas-wrap" style="background:#fff;border:1px solid #cdb892;border-radius:6px;padding:0.6rem;box-shadow:0 6px 22px rgba(0,0,0,0.18);display:flex;justify-content:center;align-items:flex-start;perspective:1500px;height:75vh;overflow:hidden;">
-          <canvas id="m-canvas" style="max-width:100%;max-height:100%;height:auto;display:block;transition:transform 0.45s ease;"></canvas>
+        <div id="m-canvas-wrap" style="background:#fff;border:1px solid #cdb892;border-radius:6px;padding:0.6rem;box-shadow:0 6px 22px rgba(0,0,0,0.18);display:flex;justify-content:center;align-items:flex-start;perspective:1500px;height:78vh;overflow:hidden;">
+          <canvas id="m-canvas" style="max-width:100%;max-height:100%;height:auto;display:block;transition:transform 0.4s ease,opacity 0.2s;"></canvas>
         </div>
-        <div id="m-text" style="background:#fff7e1;border:1px solid #cdb892;border-radius:6px;padding:1.2rem;font-family:Georgia,serif;line-height:1.7;color:#2b1d10;height:75vh;overflow-y:auto;display:flex;flex-direction:column;">
-          <div id="m-content" style="flex:1 1 auto;"></div>
-          <div id="m-meta" style="margin-top:1.2rem;padding-top:0.8rem;border-top:1px solid #cdb892;font-size:0.78rem;color:#6b5440;flex:0 0 auto;"></div>
+        <div id="m-text-wrap" style="background:#fff7e1;border:1px solid #cdb892;border-radius:6px;height:78vh;display:flex;flex-direction:column;overflow:hidden;">
+          <div id="m-content" style="flex:1 1 auto;overflow-y:auto;padding:1.5rem 1.5rem 1rem;font-family:Georgia,serif;line-height:1.8;color:#2b1d10;font-size:1.02rem;scrollbar-width:thin;scrollbar-color:#cdb892 transparent;"></div>
+          <div id="m-meta" style="flex:0 0 auto;padding:0.6rem 1rem;background:#f6ecd2;border-top:1px solid #cdb892;font-size:0.78rem;color:#6b5440;font-family:Inter,sans-serif;"></div>
         </div>
       </div>
+      <style>
+        #m-content::-webkit-scrollbar { width: 8px; }
+        #m-content::-webkit-scrollbar-thumb { background: #cdb892; border-radius: 4px; }
+        #m-content::-webkit-scrollbar-track { background: transparent; }
+        .m-chapter { font-weight: 700; color: #6b1f1f; font-size: 1.15rem; margin-top: 1.4rem; margin-bottom: 0.3rem; display: block; }
+        .m-pagenum { color: #6b5440; font-size: 0.85rem; }
+      </style>
       <div style="margin-top:1rem;text-align:center;font-size:0.78rem;color:#6b5440;">
         Tap the page to flip · ← → keys also work · text panel shows Hebrew OCR or AI translation
       </div>
@@ -92,7 +99,16 @@ export async function renderMemoir(root) {
   const content = root.querySelector("#m-content");
   const metaEl = root.querySelector("#m-meta");
   const langSel = root.querySelector("#m-lang");
-  const canvasWrap = root.querySelector("#m-canvas-wrap");
+
+  // Better page-flip animation: fade + slight scale
+  function animateFlip(dir) {
+    canvas.style.opacity = "0.4";
+    canvas.style.transform = dir === "next" ? "translateX(-12px) scale(0.99)" : "translateX(12px) scale(0.99)";
+    setTimeout(() => {
+      canvas.style.opacity = "1";
+      canvas.style.transform = "";
+    }, 220);
+  }
 
   // Load the PDF
   let pdf;
@@ -110,9 +126,7 @@ export async function renderMemoir(root) {
   async function show(n, dir = "next") {
     cur = Math.max(1, Math.min(N, n));
     info.textContent = `${cur} / ${N}`;
-    // Flip animation
-    canvas.style.transform = dir === "next" ? "rotateY(-90deg)" : "rotateY(90deg)";
-    setTimeout(() => { canvas.style.transform = ""; }, 250);
+    animateFlip(dir);
     try {
       const page = await pdf.getPage(cur);
       const viewport = page.getViewport({ scale: 1.5 });
@@ -124,7 +138,7 @@ export async function renderMemoir(root) {
     }
     // Text panel
     const p = byPage.get(cur);
-    const lang = langSel.value;  // now matches data field names: hebrew / english / polish
+    const lang = langSel.value;
     const txt = p ? (p[lang] || "") : "";
     if (!p) {
       content.innerHTML = `<em style="color:#6b5440;">OCR still pending for this page.</em>`;
@@ -135,7 +149,14 @@ export async function renderMemoir(root) {
       const isHe = lang === "hebrew";
       const dir2 = isHe ? "rtl" : "ltr";
       const fontFam = isHe ? "Heebo, Arial, sans-serif" : "Georgia, serif";
-      content.innerHTML = `<div dir="${dir2}" style="font-family:${fontFam};white-space:pre-wrap;">${escapeHtml(txt)}</div>`;
+      // Style chapter headings (Chapter X: / פרק / Rozdział) and standalone page numbers
+      const styled = escapeHtml(txt)
+        .replace(/^(Chapter [A-Z]+:[^\n]*)/gm, '<span class="m-chapter">$1</span>')
+        .replace(/^(פרק [א-ת]'?:[^\n]*)/gm, '<span class="m-chapter">$1</span>')
+        .replace(/^(Rozdział [^\n]*)/gm, '<span class="m-chapter">$1</span>')
+        .replace(/^(\d{1,3})$/gm, '<span class="m-pagenum">$1</span>');
+      content.innerHTML = `<div dir="${dir2}" style="font-family:${fontFam};white-space:pre-wrap;">${styled}</div>`;
+      content.scrollTop = 0; // reset scroll on page change
     }
     metaEl.innerHTML = p ? [
       p.page_kind ? `<strong>Kind:</strong> ${escapeHtml(p.page_kind)}` : "",
