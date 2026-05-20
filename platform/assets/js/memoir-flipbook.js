@@ -147,27 +147,42 @@ export async function renderMemoir(root) {
         }
         .m-pagenum { color: #6b5440; font-size: 0.85rem; }
 
-        /* PHONE / NARROW SCREEN: stack panels, generous text */
+        /* PHONE / NARROW SCREEN: TEXT FIRST (selected language is what the reader sees) */
         @media (max-width: 780px) {
           .m-stage {
             grid-template-columns: 1fr;
-            gap: 1rem;
+            gap: 0.8rem;
           }
-          .m-canvas-wrap {
-            height: 56vh;
-            padding: 0.4rem;
-          }
-          .m-text-wrap {
-            height: auto;
-            min-height: 40vh;
-            max-height: 70vh;
-          }
+          /* Reorder: text on top, PDF below — easier to read in chosen language first */
+          .m-text-wrap { order: 1; height: auto; min-height: 50vh; max-height: 70vh; }
+          .m-canvas-wrap { order: 2; height: 50vh; padding: 0.3rem; }
           .m-content {
-            font-size: 1.06rem;
-            padding: 1.1rem 1.1rem 0.8rem;
+            font-size: 1.08rem;
+            padding: 1rem 1rem 0.8rem;
             line-height: 1.75;
           }
-          .m-chapter { font-size: 1.1rem; margin-top: 1.2rem; }
+          .m-chapter { font-size: 1.12rem; margin-top: 1.2rem; }
+
+          /* Sticky controls — always visible while scrolling */
+          #memoir-controls {
+            position: sticky !important;
+            top: 0;
+            background: #f8f3e8;
+            padding: 0.6rem 0.4rem !important;
+            margin: 0 -0.5rem 0.8rem !important;
+            border-bottom: 1px solid #cdb892;
+            z-index: 20;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+          }
+          /* Bigger tap targets on phone */
+          #m-prev, #m-next {
+            padding: 0.65rem 1.1rem !important;
+            font-size: 1.05rem !important;
+          }
+          #m-first, #m-last {
+            padding: 0.5rem 0.7rem !important;
+            font-size: 0.95rem !important;
+          }
         }
 
         /* MOBILE LANDSCAPE: keep side-by-side but shorter */
