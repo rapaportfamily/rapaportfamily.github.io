@@ -14,7 +14,10 @@
         "yi": "נאַדווערנע",
         "uk": "Надвірна"
       },
-      "coords": [48.6378, 24.5708],
+      "coords": [
+        48.6378,
+        24.5708
+      ],
       "era_context": {
         "1911": "Kingdom of Galicia and Lodomeria, Austria-Hungary; district seat south of Stanisławów at the foot of the Carpathians",
         "1918_1939": "Stanisławów Voivodeship, Second Polish Republic",
@@ -23,7 +26,11 @@
         "1944_": "Soviet, then independent Ukraine"
       },
       "significance": "BIRTHPLACE of David Rapaport (1911) and Rebeka Griffel (1888). The Griffel-Chajes families were merchants here. Site of the ghetto David escaped from.",
-      "important_events_ids": ["e_david_birth", "e_rebeka_birth", "e_david_ghetto_escape"]
+      "important_events_ids": [
+        "e_david_birth",
+        "e_rebeka_birth",
+        "e_david_ghetto_escape"
+      ]
     },
     {
       "id": "pl_bolechow",
@@ -35,14 +42,21 @@
         "yi": "באָלעכאָוו",
         "uk": "Болехів"
       },
-      "coords": [49.0658, 23.8589],
+      "coords": [
+        49.0658,
+        23.8589
+      ],
       "era_context": {
         "1913": "Kingdom of Galicia, Austria-Hungary; town south of Stryj. Home to the 'Lower Imperial-Royal Forestry School' (Niższa Cesarsko-Królewska Szkoła Lasowa) from 1883 — became Państwowa Szkoła dla Leśniczych in 1922.",
         "1918_1939": "Stanisławów Voivodeship, Poland",
         "1939_": "Soviet, then German occupation, then Soviet, now Ukraine"
       },
       "significance": "BIRTHPLACE of Leah Weitzner (1913) and her siblings Feige (1911), Moses (1916). The Weitzner family — Elias (cattle dealer / tanner) and Matel (née Weinreb) — lived in Bolechów Ruski (a suburb, incorporated into the city in 1929). Grandmother of the family started here.",
-      "important_events_ids": ["e_leah_birth", "e_feige_birth", "e_moses_birth"]
+      "important_events_ids": [
+        "e_leah_birth",
+        "e_feige_birth",
+        "e_moses_birth"
+      ]
     },
     {
       "id": "pl_dolina",
@@ -53,7 +67,10 @@
         "fr": "Dolina",
         "uk": "Долина"
       },
-      "coords": [48.9747, 24.0036],
+      "coords": [
+        48.9747,
+        24.0036
+      ],
       "era_context": {
         "1905": "District seat in Austrian Galicia; the administrative seat for the area including Bolechów",
         "1930": "Had multiple sawmills: Glessinger I. Ph. Sp. Akc., Popadnik J. (steam-driven); Jekel I Jungermann, Jolles I.H., Popper H. (other drive)"
@@ -71,7 +88,10 @@
         "de": "Lemberg",
         "uk": "Львів"
       },
-      "coords": [49.8397, 24.0297],
+      "coords": [
+        49.8397,
+        24.0297
+      ],
       "era_context": {
         "1911_1918": "Lemberg, capital of Austrian Galicia",
         "1918_1939": "Lwów, capital of Lwów Voivodeship, Poland",
@@ -80,7 +100,10 @@
         "1944_": "Soviet, then Ukrainian SSR, now Lviv, Ukraine. Yalta Conference (Feb 1945) confirmed Lviv would remain in USSR."
       },
       "significance": "David Rapaport's residence as of 1 Jan 1938 (per DP card). Where David and Leah lived during the war under false identities. Leah at Legionów Street 24; David working on rail/road construction. David's sister Lota lived there too.",
-      "important_events_ids": ["e_david_1938_lwow", "e_lwow_period_1941"]
+      "important_events_ids": [
+        "e_david_1938_lwow",
+        "e_lwow_period_1941"
+      ]
     },
     {
       "id": "pl_przemysl",
@@ -90,7 +113,10 @@
         "pl": "Przemyśl",
         "fr": "Przemyśl"
       },
-      "coords": [49.7838, 22.7674],
+      "coords": [
+        49.7838,
+        22.7674
+      ],
       "era_context": {
         "1939_09": "After 17 Sep 1939 Soviet invasion: Przemyśl was DIVIDED by the German-Soviet border along the San River — German side vs Soviet side"
       },
@@ -105,7 +131,10 @@
         "fr": "Bruxelles",
         "nl": "Brussel"
       },
-      "coords": [50.8503, 4.3517],
+      "coords": [
+        50.8503,
+        4.3517
+      ],
       "significance": "Where the family arrived after the war. David registered as Displaced Person on 9 April 1946. Dov Bernard born here in 1946. The 'B.' on the DP card stands for Brussels or Belgium."
     },
     {
@@ -116,7 +145,10 @@
         "pl": "Katowice",
         "fr": "Katowice"
       },
-      "coords": [50.2649, 19.0238],
+      "coords": [
+        50.2649,
+        19.0238
+      ],
       "significance": "Last stop in Poland before Brussels (per family memory). Family came here from Lwów; from here travelled by bus to Brussels."
     },
     {
@@ -127,9 +159,14 @@
         "pl": "Krynica",
         "fr": "Krynica"
       },
-      "coords": [49.4197, 20.9569],
+      "coords": [
+        49.4197,
+        20.9569
+      ],
       "significance": "Resort town in southern Poland. Rebeka/Regina Rapaport (David's mother) registered at 'Alfredówka' here on 25 July 1912 as wife of a Nadwórna merchant — confirms her identity in Polish press of the era.",
-      "important_events_ids": ["e_rebeka_krynica_1912"]
+      "important_events_ids": [
+        "e_rebeka_krynica_1912"
+      ]
     },
     {
       "id": "pl_cieszyn",
@@ -141,7 +178,10 @@
         "cs": "Český Těšín",
         "de": "Teschen"
       },
-      "coords": [49.7503, 18.6328],
+      "coords": [
+        49.7503,
+        18.6328
+      ],
       "significance": "Listed on David's 1946 Brussels DP card as his birthplace (Tesin/Cieszyn). SUPERSEDED by the Nadwórna birth certificate (15 May 2026 finding). Likely a French clerk's mishearing of 'Nadwórna' or some other transcription error. The notation looked like a French cursive uppercase letter; team considered T, H, C as possibilities.",
       "status": "ruled_out_birthplace"
     },
@@ -152,7 +192,10 @@
         "pl": "Wierzbiany",
         "uk": "Вірбяни"
       },
-      "coords": [49.9833, 23.5500],
+      "coords": [
+        49.9833,
+        23.55
+      ],
       "significance": "Sawmill owned by 'Rapaport S. i Liptan M.' listed in the 1930 Polish trade directory — northwest of Lwów, near today's Polish border between Niemirów and Jawor. Connection to the family unverified. May be unrelated.",
       "status": "lead_unverified"
     },
@@ -168,10 +211,26 @@
       "significance": "The town where, per Leah's memoir, David managed a family-owned sawmill, where they married, and where Shimon was born (1937). They lived there until 1939. BUT: the only 'Mosina' in 1933 Poland was near Poznań (Greater Poland), where genealogy shows no Jewish Rapaports and no family-owned sawmill (the two Mosina sawmills in 1930 were owned by Władysław Litke and Władysław Urbaniak — Polish, non-Jewish names). Candidates being investigated: Morszyn (resort near Stryj), Muszyna (resort near Krynica), Mszana Dolna, Dolina (sound-alike with similar ending). See hypotheses.",
       "status": "unresolved_mystery",
       "candidates": [
-        {"place_id": "pl_morszyn", "evidence_for": "Kasia (ŻIH) hypothesis", "evidence_against": null},
-        {"place_id": "pl_muszyna", "evidence_for": "Magda's recollection of a past conversation with Dov Rapaport", "evidence_against": null},
-        {"place_id": "pl_mszana_dolna", "evidence_for": "Dana Rapaport's note about 'Rapaports of Mszana' as forest people; family found tagline 'Rapaport Sawmill' or 'The Masina'", "evidence_against": "Not in 1930 industry directory for Mszana"},
-        {"place_id": "pl_dolina", "evidence_for": "Phonetic/spelling similarity (Basia)", "evidence_against": "Doesn't match phonetically when spoken; sawmills there are not Rapaport-owned"}
+        {
+          "place_id": "pl_morszyn",
+          "evidence_for": "Kasia (ŻIH) hypothesis",
+          "evidence_against": null
+        },
+        {
+          "place_id": "pl_muszyna",
+          "evidence_for": "Magda's recollection of a past conversation with Dov Rapaport",
+          "evidence_against": null
+        },
+        {
+          "place_id": "pl_mszana_dolna",
+          "evidence_for": "Dana Rapaport's note about 'Rapaports of Mszana' as forest people; family found tagline 'Rapaport Sawmill' or 'The Masina'",
+          "evidence_against": "Not in 1930 industry directory for Mszana"
+        },
+        {
+          "place_id": "pl_dolina",
+          "evidence_for": "Phonetic/spelling similarity (Basia)",
+          "evidence_against": "Doesn't match phonetically when spoken; sawmills there are not Rapaport-owned"
+        }
       ]
     },
     {
@@ -181,7 +240,10 @@
         "pl": "Morszyn",
         "uk": "Моршин"
       },
-      "coords": [49.0297, 23.7308],
+      "coords": [
+        49.0297,
+        23.7308
+      ],
       "significance": "Spa resort town near Stryj. Kasia of the Jewish Historical Institute (ŻIH) hypothesized this as a candidate for the 'Mosina' in family memory."
     },
     {
@@ -191,7 +253,10 @@
         "pl": "Muszyna",
         "fr": "Muszyna"
       },
-      "coords": [49.3500, 20.9000],
+      "coords": [
+        49.35,
+        20.9
+      ],
       "significance": "Spa resort town near Krynica in southern Poland. Magda recalled discussing this area in a previous conversation with Dov Rapaport. Candidate for 'Mosina'."
     },
     {
@@ -201,7 +266,10 @@
         "pl": "Mszana Dolna",
         "fr": "Mszana Dolna"
       },
-      "coords": [49.6753, 20.0808],
+      "coords": [
+        49.6753,
+        20.0808
+      ],
       "significance": "Town in Kraków Voivodeship. Family research note (Dana, 14 May) mentions 'Rapaports of Mszana' as 'forest people' (ludzie lasu) involved in timber trade. Not in 1930 industry directory but may be relevant pre-1930.",
       "status": "lead"
     },
@@ -212,9 +280,69 @@
         "pl": "Mosina",
         "de": "Moschin"
       },
-      "coords": [52.2466, 16.8408],
+      "coords": [
+        52.2466,
+        16.8408
+      ],
       "significance": "Only 'Mosina' in 1933 Polish placenames index. Greater Poland. Jewish population peaked at 206 in 1871, declined to 0 by 1930s. The 2 sawmills in 1930 were owned by Władysław Litke and Władysław Urbaniak — non-Jewish Polish names. Birth records 1911 do not include David Rapaport.",
       "status": "ruled_out"
+    },
+    {
+      "id": "pl_kolomea",
+      "names": {
+        "en": "Kolomea (now Kolomyia, Ukraine)",
+        "he": "קולומיה",
+        "pl": "Kołomyja",
+        "fr": "Kolomea (aujourd'hui Kolomyia, Ukraine)",
+        "yi": "קאָלאָמיי",
+        "uk": "Коломия"
+      },
+      "coords": [
+        48.5311,
+        25.0419
+      ],
+      "era_context": {
+        "1850": "Kingdom of Galicia and Lodomeria, Austria-Hungary — birthplace of Sarah Matel Chajes",
+        "1918_1939": "Stanisławów Voivodeship, Second Polish Republic",
+        "now": "Ivano-Frankivsk Oblast, Ukraine"
+      },
+      "note_en": "Birthplace of Sarah Matel Chajes (Eliezer Griffel's wife), connecting the family to the Chajes rabbinical dynasty of Kolomea."
+    },
+    {
+      "id": "pl_vienna",
+      "names": {
+        "en": "Vienna",
+        "he": "וינה",
+        "pl": "Wiedeń",
+        "fr": "Vienne",
+        "de": "Wien"
+      },
+      "coords": [
+        48.2082,
+        16.3738
+      ],
+      "era_context": {
+        "1860_1918": "Imperial capital, Austria-Hungary",
+        "now": "Capital of Austria"
+      },
+      "note_en": "Birthplace of cousin Edward Gelles (1927) — published genealogist of the Griffel-Nadwórna dynasty. Also where the Griffel timber business reached commercial Vienna."
+    },
+    {
+      "id": "pl_new_york",
+      "names": {
+        "en": "New York City",
+        "he": "ניו יורק",
+        "pl": "Nowy Jork",
+        "fr": "New York"
+      },
+      "coords": [
+        40.7128,
+        -74.006
+      ],
+      "era_context": {
+        "1945_now": "Post-war home of several Griffel-Nadwórna descendants (Yehuda Nir d.2014, Steven Lamm, Andrew Griffel)"
+      },
+      "note_en": "Several Griffel-line cousins of David Memek Rapaport settled in NYC: Yehuda Nir (1930-2014, author of 'The Lost Childhood'); Dr Steven Lamm (b.1948, NYU Langone); Andrew Griffel (attorney, splits time with Israel)."
     }
   ]
 }

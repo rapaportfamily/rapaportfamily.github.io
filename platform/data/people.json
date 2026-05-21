@@ -19,7 +19,12 @@
         "pl": "Dov Rapaport",
         "fr": "Dov Rapaport"
       },
-      "aliases": ["Bernard", "Dov", "ברנרד", "דב"],
+      "aliases": [
+        "Bernard",
+        "Dov",
+        "ברנרד",
+        "דב"
+      ],
       "role": "subject_father",
       "note_en": "Dov Rapaport — Dalia's husband, father of Doron, Dana and Daniel. The man this archive is for — an 80th birthday gift from his family, August 2026.",
       "birth": {
@@ -27,13 +32,21 @@
         "date_precision": "year",
         "place_id": "pl_brussels",
         "confidence": "family_oral",
-        "sources": ["oral_doron_06may"]
+        "sources": [
+          "oral_doron_06may"
+        ]
       },
       "death": null,
       "father_id": "p_david",
       "mother_id": "p_leah",
-      "siblings_ids": ["p_shimon"],
-      "children_ids": ["p_doron", "p_dana", "p_daniel"],
+      "siblings_ids": [
+        "p_shimon"
+      ],
+      "children_ids": [
+        "p_doron",
+        "p_dana",
+        "p_daniel"
+      ],
       "spouse_id": "p_dalia"
     },
     {
@@ -44,7 +57,12 @@
         "pl": "Dawid Mendel Rapaport",
         "fr": "David Rapaport"
       },
-      "aliases": ["Dawid", "Memek", "Dawid Mendel", "דוד"],
+      "aliases": [
+        "Dawid",
+        "Memek",
+        "Dawid Mendel",
+        "דוד"
+      ],
       "role": "grandfather",
       "note_en": "Paternal grandfather of Doron, Dana and Daniel. Father of Dov. Holocaust survivor who escaped Nazi-occupied Galicia, reached Brussels in April 1946, and eventually settled in Israel. Forestry engineer, polyglot, member of Betar (revisionist Zionist youth movement).",
       "birth": {
@@ -52,7 +70,10 @@
         "date_precision": "day",
         "place_id": "pl_nadworna",
         "confidence": "confirmed",
-        "sources": ["doc_david_birth_nadworna", "report_basia_15may"],
+        "sources": [
+          "doc_david_birth_nadworna",
+          "report_basia_15may"
+        ],
         "note_en": "BREAKTHROUGH 15 May 2026: birth certificate found in Nadwórna by Ms. Kasia at the Jewish Historical Institute. The 1946 Brussels DP card lists Cieszyn/Tesin but that was likely a French clerk's mishearing — Nadwórna is the verified birthplace.",
         "earlier_hypothesis": {
           "place_id": "pl_cieszyn",
@@ -68,20 +89,106 @@
       "father_id": "p_berisz",
       "mother_id": "p_rebeka",
       "spouse_id": "p_leah",
-      "children_ids": ["p_shimon", "p_dov_bernard"],
-      "siblings_ids": ["p_lota"],
+      "children_ids": [
+        "p_shimon",
+        "p_dov_bernard"
+      ],
+      "siblings_ids": [
+        "p_lota"
+      ],
       "facts": [
-        {"key": "profession", "value": "Forestry engineer", "confidence": "confirmed", "sources": ["doc_david_dp_card"]},
-        {"key": "languages", "value": "Polish (native); Italian, German (fluent); Czech, Russian", "confidence": "confirmed", "sources": ["doc_david_dp_card"]},
-        {"key": "movement", "value": "Member of Betar (Poland)", "confidence": "family_oral", "sources": ["oral_doron_14may", "oral_doron_17may_whatsapp_2229"], "note": "Doron stated 17 May 2026 in WhatsApp: 'David as a Betar member wanted to go to Israel'. Jabotinsky Institute online archive returned no match (see h_betar_records); physical-file check still pending."},
-        {"key": "escape_wagon", "value": "Hid in a niche between cut wooden logs in a railway wagon to escape the ghetto liquidation", "confidence": "documented", "sources": ["oral_doron_13may", "doc_lusia_memoir"], "note": "Memoir page 41: 'when they began the liquidation of the Jews I hid between these wooden planks' — confirming the family's escape story."},
-        {"key": "1945_destination_preference", "value": "Wanted to go to Israel (as a Betar member, vs Leah whose affidavit was for USA)", "confidence": "family_oral", "sources": ["oral_doron_17may_whatsapp_2229"]},
-        {"key": "1938_residence", "value": "Lwów, Poland (1 Jan 1938)", "confidence": "confirmed", "sources": ["doc_david_dp_card"]},
-        {"key": "1942", "value": "Stripped of Polish citizenship", "confidence": "confirmed", "sources": ["doc_david_dp_card"]},
-        {"key": "1946", "value": "Registered as Displaced Person in Brussels (Belgium), 9 April 1946", "confidence": "confirmed", "sources": ["doc_david_dp_card"]},
-        {"key": "post_war", "value": "Wood expert at Israeli customs authority", "confidence": "family_oral", "sources": ["oral_doron_06may"]},
-        {"key": "escape", "value": "Escaped Nadwórna ghetto in a railway wagon hidden in a niche carved between wooden logs, reached Lwów", "confidence": "family_oral", "sources": ["oral_doron_13may"]},
-        {"key": "1941_lwow", "value": "Worked on railway/road construction in Lwów under fake identity", "confidence": "family_oral", "sources": ["oral_doron_13may"]}
+        {
+          "key": "profession",
+          "value": "Forestry engineer",
+          "confidence": "confirmed",
+          "sources": [
+            "doc_david_dp_card"
+          ]
+        },
+        {
+          "key": "languages",
+          "value": "Polish (native); Italian, German (fluent); Czech, Russian",
+          "confidence": "confirmed",
+          "sources": [
+            "doc_david_dp_card"
+          ]
+        },
+        {
+          "key": "movement",
+          "value": "Member of Betar (Poland)",
+          "confidence": "family_oral",
+          "sources": [
+            "oral_doron_14may",
+            "oral_doron_17may_whatsapp_2229"
+          ],
+          "note": "Doron stated 17 May 2026 in WhatsApp: 'David as a Betar member wanted to go to Israel'. Jabotinsky Institute online archive returned no match (see h_betar_records); physical-file check still pending."
+        },
+        {
+          "key": "escape_wagon",
+          "value": "Hid in a niche between cut wooden logs in a railway wagon to escape the ghetto liquidation",
+          "confidence": "documented",
+          "sources": [
+            "oral_doron_13may",
+            "doc_lusia_memoir"
+          ],
+          "note": "Memoir page 41: 'when they began the liquidation of the Jews I hid between these wooden planks' — confirming the family's escape story."
+        },
+        {
+          "key": "1945_destination_preference",
+          "value": "Wanted to go to Israel (as a Betar member, vs Leah whose affidavit was for USA)",
+          "confidence": "family_oral",
+          "sources": [
+            "oral_doron_17may_whatsapp_2229"
+          ]
+        },
+        {
+          "key": "1938_residence",
+          "value": "Lwów, Poland (1 Jan 1938)",
+          "confidence": "confirmed",
+          "sources": [
+            "doc_david_dp_card"
+          ]
+        },
+        {
+          "key": "1942",
+          "value": "Stripped of Polish citizenship",
+          "confidence": "confirmed",
+          "sources": [
+            "doc_david_dp_card"
+          ]
+        },
+        {
+          "key": "1946",
+          "value": "Registered as Displaced Person in Brussels (Belgium), 9 April 1946",
+          "confidence": "confirmed",
+          "sources": [
+            "doc_david_dp_card"
+          ]
+        },
+        {
+          "key": "post_war",
+          "value": "Wood expert at Israeli customs authority",
+          "confidence": "family_oral",
+          "sources": [
+            "oral_doron_06may"
+          ]
+        },
+        {
+          "key": "escape",
+          "value": "Escaped Nadwórna ghetto in a railway wagon hidden in a niche carved between wooden logs, reached Lwów",
+          "confidence": "family_oral",
+          "sources": [
+            "oral_doron_13may"
+          ]
+        },
+        {
+          "key": "1941_lwow",
+          "value": "Worked on railway/road construction in Lwów under fake identity",
+          "confidence": "family_oral",
+          "sources": [
+            "oral_doron_13may"
+          ]
+        }
       ]
     },
     {
@@ -92,7 +199,16 @@
         "pl": "Lea/Lusia Rapaport (z domu Weitzner)",
         "fr": "Léa Lusha Rapaport (née Weitzner)"
       },
-      "aliases": ["Lea", "Lusha", "Lusia", "לאה", "Vitsner", "Wizner", "Fitzner", "Weitzner"],
+      "aliases": [
+        "Lea",
+        "Lusha",
+        "Lusia",
+        "לאה",
+        "Vitsner",
+        "Wizner",
+        "Fitzner",
+        "Weitzner"
+      ],
       "role": "grandmother",
       "note_en": "Paternal grandmother of Doron, Dana and Daniel. Mother of Dov. Holocaust survivor who escaped the Nazi persecution of Galician Jewry by living under multiple false identities (including 'Maria Cizlik'), managing an antiques store in Lwów on the Aryan side. Wrote a memoir of the war.",
       "birth": {
@@ -100,7 +216,10 @@
         "date_precision": "day",
         "place_id": "pl_bolechow",
         "confidence": "documented",
-        "sources": ["doc_leah_birth_bolechow_1913", "report_basia_13may"],
+        "sources": [
+          "doc_leah_birth_bolechow_1913",
+          "report_basia_13may"
+        ],
         "note_en": "Bolechów birth record found for 'Lea' born 8.4.1913 to Elias and Matel Weitzner. Family death certificate lists 6.4.1916. The Polish Jewish Historical Institute index also lists Lusia Rappoport born 1916-04-08. There may be a 1913 vs 1916 conflict between civil record and family record. Lea declared age 18 in 1935 → would imply 1917 birth. Per Basia: brides often understated their age.",
         "alternative": {
           "date": "1916-04-06",
@@ -115,20 +234,111 @@
       "father_id": "p_elias_weitzner",
       "mother_id": "p_matel_weinreb",
       "spouse_id": "p_david",
-      "children_ids": ["p_shimon", "p_dov_bernard"],
-      "siblings_ids": ["p_feige", "p_moses_weitzner", "p_pnina_weitzner"],
+      "children_ids": [
+        "p_shimon",
+        "p_dov_bernard"
+      ],
+      "siblings_ids": [
+        "p_feige",
+        "p_moses_weitzner",
+        "p_pnina_weitzner"
+      ],
       "facts": [
-        {"key": "marriage", "value": "Married David Rapaport, February 1938, in Muszyna (מושינה)", "confidence": "documented", "sources": ["oral_dana_14may", "doc_lusia_memoir"], "note": "Memoir page 17 explicitly: marriage took place 'in the small resort town' (Muszyna), where they settled. Memoir page 16 dates the marriage as 'בפברואר 1938' (February 1938)."},
-        {"key": "marriage_age_gap", "value": "She was 18, he was 24 at marriage (per memoir)", "confidence": "documented", "sources": ["doc_lusia_memoir"]},
-        {"key": "fake_identity", "value": "Lived in Lwów under fake identity 'Maria Cizlik' (borrowed)", "confidence": "family_oral", "sources": ["oral_doron_14may"]},
-        {"key": "lwow_residence", "value": "Legionów Street 24, Lwów (with Hormek fake documents) — opposite the theater", "confidence": "documented", "sources": ["oral_doron_13may", "doc_lusia_memoir"], "note": "Memoir page 40 confirms: 'her apartment on Legionów Street 24, opposite the theater'."},
-        {"key": "lwow_job", "value": "Manager of art-effects/antiques store under fake identity, ~1941", "confidence": "family_oral", "sources": ["oral_doron_13may"]},
-        {"key": "przemysl_job", "value": "Briefly worked as teller / in the passport section in Przemyśl, 1939, during the Soviet occupation", "confidence": "family_oral", "sources": ["oral_dana_15may", "oral_doron_15may"], "note": "The historical context of this period is the Soviet 'passportization' campaign that all residents of border towns had to navigate — see IPN paper. Her stay was short; she spent most of the war elsewhere, escaping Nazi persecution."},
-        {"key": "1945_destination_affidavit", "value": "Received an affidavit to emigrate to the USA (per Doron 17 May)", "confidence": "family_oral", "sources": ["oral_doron_17may_whatsapp_2229"]},
-        {"key": "1945_46_polish_records", "value": "Appears in Polish post-war records 1945-46; not yet located in Brussels 1946 DP records under any spelling. Likely traveled separately from David before they reunited in Brussels for Dov's birth.", "confidence": "hypothesis", "sources": ["oral_basia_17may_whatsapp_2218"]},
-        {"key": "muszyna_job", "value": "Managed a hotel in Muszyna (the resort town) where 'all the social cream' of the town's visitors stayed", "confidence": "documented", "sources": ["doc_lusia_memoir"], "note": "Memoir page 18: 'all the social elite of Muszyna came to the hotel which Lusia managed energetically'."},
-        {"key": "1936_lwow", "value": "Lived with relatives in Lwów, attended Carpathian forestry school filings", "confidence": "family_oral", "sources": ["oral_dana_15may"]},
-        {"key": "memoir", "value": "Wrote memoir of the war (Hebrew)", "confidence": "family_oral", "sources": ["oral_doron_06may"]}
+        {
+          "key": "marriage",
+          "value": "Married David Rapaport, February 1938, in Muszyna (מושינה)",
+          "confidence": "documented",
+          "sources": [
+            "oral_dana_14may",
+            "doc_lusia_memoir"
+          ],
+          "note": "Memoir page 17 explicitly: marriage took place 'in the small resort town' (Muszyna), where they settled. Memoir page 16 dates the marriage as 'בפברואר 1938' (February 1938)."
+        },
+        {
+          "key": "marriage_age_gap",
+          "value": "She was 18, he was 24 at marriage (per memoir)",
+          "confidence": "documented",
+          "sources": [
+            "doc_lusia_memoir"
+          ]
+        },
+        {
+          "key": "fake_identity",
+          "value": "Lived in Lwów under fake identity 'Maria Cizlik' (borrowed)",
+          "confidence": "family_oral",
+          "sources": [
+            "oral_doron_14may"
+          ]
+        },
+        {
+          "key": "lwow_residence",
+          "value": "Legionów Street 24, Lwów (with Hormek fake documents) — opposite the theater",
+          "confidence": "documented",
+          "sources": [
+            "oral_doron_13may",
+            "doc_lusia_memoir"
+          ],
+          "note": "Memoir page 40 confirms: 'her apartment on Legionów Street 24, opposite the theater'."
+        },
+        {
+          "key": "lwow_job",
+          "value": "Manager of art-effects/antiques store under fake identity, ~1941",
+          "confidence": "family_oral",
+          "sources": [
+            "oral_doron_13may"
+          ]
+        },
+        {
+          "key": "przemysl_job",
+          "value": "Briefly worked as teller / in the passport section in Przemyśl, 1939, during the Soviet occupation",
+          "confidence": "family_oral",
+          "sources": [
+            "oral_dana_15may",
+            "oral_doron_15may"
+          ],
+          "note": "The historical context of this period is the Soviet 'passportization' campaign that all residents of border towns had to navigate — see IPN paper. Her stay was short; she spent most of the war elsewhere, escaping Nazi persecution."
+        },
+        {
+          "key": "1945_destination_affidavit",
+          "value": "Received an affidavit to emigrate to the USA (per Doron 17 May)",
+          "confidence": "family_oral",
+          "sources": [
+            "oral_doron_17may_whatsapp_2229"
+          ]
+        },
+        {
+          "key": "1945_46_polish_records",
+          "value": "Appears in Polish post-war records 1945-46; not yet located in Brussels 1946 DP records under any spelling. Likely traveled separately from David before they reunited in Brussels for Dov's birth.",
+          "confidence": "hypothesis",
+          "sources": [
+            "oral_basia_17may_whatsapp_2218"
+          ]
+        },
+        {
+          "key": "muszyna_job",
+          "value": "Managed a hotel in Muszyna (the resort town) where 'all the social cream' of the town's visitors stayed",
+          "confidence": "documented",
+          "sources": [
+            "doc_lusia_memoir"
+          ],
+          "note": "Memoir page 18: 'all the social elite of Muszyna came to the hotel which Lusia managed energetically'."
+        },
+        {
+          "key": "1936_lwow",
+          "value": "Lived with relatives in Lwów, attended Carpathian forestry school filings",
+          "confidence": "family_oral",
+          "sources": [
+            "oral_dana_15may"
+          ]
+        },
+        {
+          "key": "memoir",
+          "value": "Wrote memoir of the war (Hebrew)",
+          "confidence": "family_oral",
+          "sources": [
+            "oral_doron_06may"
+          ]
+        }
       ]
     },
     {
@@ -139,7 +349,11 @@
         "pl": "Szymon Rapaport",
         "fr": "Szymon Rapaport"
       },
-      "aliases": ["Szymon", "Simon", "שמעון"],
+      "aliases": [
+        "Szymon",
+        "Simon",
+        "שמעון"
+      ],
       "role": "uncle",
       "note_en": "Older brother of Dov. Uncle to Doron, Dana and Daniel. Survived the war as a child. Married Tamar; father of Ronen (older) and Hadas.",
       "birth": {
@@ -147,7 +361,11 @@
         "date_precision": "day",
         "place_id": "pl_mosina_disputed",
         "confidence": "documented",
-        "sources": ["doc_szymon_ckzp", "report_basia_13may", "oral_dalia_14may"],
+        "sources": [
+          "doc_szymon_ckzp",
+          "report_basia_13may",
+          "oral_dalia_14may"
+        ],
         "note_en": "Found in CKŻP (Central Committee of Polish Jews) post-war registration records. Birthplace per family memoir was 'Mosina' — but the location of 'Mosina' is itself a research mystery (see hypotheses)."
       },
       "death": {
@@ -157,94 +375,247 @@
       "father_id": "p_david",
       "mother_id": "p_leah",
       "spouse_id": "p_tamar",
-      "children_ids": ["p_ronen_rapaport", "p_hadas_rapaport"],
-      "siblings_ids": ["p_dov_bernard"],
+      "children_ids": [
+        "p_ronen_rapaport",
+        "p_hadas_rapaport"
+      ],
+      "siblings_ids": [
+        "p_dov_bernard"
+      ],
       "facts": [
-        {"key": "childhood_river", "value": "Memoir mentions taking baby Shimon to a river in 'Mosina'", "confidence": "family_oral", "sources": ["oral_doron_06may"]},
-        {"key": "post_war_registration", "value": "Registered in CKŻP records as son of Lusia and Dawid Rapaport", "confidence": "confirmed", "sources": ["doc_szymon_ckzp"]},
-        {"key": "marriage", "value": "Married Tamar; two children Ronen (older son) and Hadas (younger sister)", "confidence": "family_oral", "sources": ["oral_doron_20may"]}
+        {
+          "key": "childhood_river",
+          "value": "Memoir mentions taking baby Shimon to a river in 'Mosina'",
+          "confidence": "family_oral",
+          "sources": [
+            "oral_doron_06may"
+          ]
+        },
+        {
+          "key": "post_war_registration",
+          "value": "Registered in CKŻP records as son of Lusia and Dawid Rapaport",
+          "confidence": "confirmed",
+          "sources": [
+            "doc_szymon_ckzp"
+          ]
+        },
+        {
+          "key": "marriage",
+          "value": "Married Tamar; two children Ronen (older son) and Hadas (younger sister)",
+          "confidence": "family_oral",
+          "sources": [
+            "oral_doron_20may"
+          ]
+        }
       ]
     },
     {
       "id": "p_tamar",
-      "primary_name": { "en": "Tamar (Tami) Rapaport", "he": "תמר (תמי) רפפורט", "pl": "Tamar (Tami) Rapaport", "fr": "Tamar (Tami) Rapaport" },
-      "aliases": ["Tami", "Tammy", "תמי"],
+      "primary_name": {
+        "en": "Tamar (Tami) Rapaport",
+        "he": "תמר (תמי) רפפורט",
+        "pl": "Tamar (Tami) Rapaport",
+        "fr": "Tamar (Tami) Rapaport"
+      },
+      "aliases": [
+        "Tami",
+        "Tammy",
+        "תמי"
+      ],
       "role": "aunt",
       "note_en": "Shimon's wife. Aunt to Doron, Dana and Daniel. Memoir page 83 names her as 'Tami' — the everyday short form of Tamar.",
       "spouse_id": "p_shimon",
-      "children_ids": ["p_ronen_rapaport", "p_hadas_rapaport"]
+      "children_ids": [
+        "p_ronen_rapaport",
+        "p_hadas_rapaport"
+      ]
     },
     {
       "id": "p_maria_ciccelik",
-      "primary_name": { "en": "Maria Ciccelik", "he": "מריה צ'יצ'ליק", "pl": "Maria Ciccelik", "fr": "Maria Ciccelik" },
-      "aliases": ["Maria Cizlik", "Maria Cizelik"],
+      "primary_name": {
+        "en": "Maria Ciccelik",
+        "he": "מריה צ'יצ'ליק",
+        "pl": "Maria Ciccelik",
+        "fr": "Maria Ciccelik"
+      },
+      "aliases": [
+        "Maria Cizlik",
+        "Maria Cizelik"
+      ],
       "role": "righteous_gentile",
       "note_en": "Polish Catholic peasant woman from the Nadwórna area whose birth certificate Lusia used to forge her wartime identity papers (the 'Maria' name). Per memoir p. 51, she protected Shimon in Nadwórna 1942-1945. Lusia called her identity 'Maria Ciccelik' throughout the war — earlier family oral records had this as 'Maria Cizlik' (a memory simplification).",
       "facts": [
-        {"key": "role", "value": "Lent her birth certificate to Lusia for the wartime Aryan-side false identity", "confidence": "documented", "sources": ["doc_lusia_memoir"]},
-        {"key": "shimon_protection", "value": "Sheltered baby/toddler Shimon in Nadwórna 1942-1945 (per memoir p. 51)", "confidence": "documented", "sources": ["doc_lusia_memoir"]}
+        {
+          "key": "role",
+          "value": "Lent her birth certificate to Lusia for the wartime Aryan-side false identity",
+          "confidence": "documented",
+          "sources": [
+            "doc_lusia_memoir"
+          ]
+        },
+        {
+          "key": "shimon_protection",
+          "value": "Sheltered baby/toddler Shimon in Nadwórna 1942-1945 (per memoir p. 51)",
+          "confidence": "documented",
+          "sources": [
+            "doc_lusia_memoir"
+          ]
+        }
       ]
     },
     {
       "id": "p_pietrozycki",
-      "primary_name": { "en": "Pietrozycki", "he": "פיטרוז'יצקי", "pl": "Pietrożycki", "fr": "Pietrozycki" },
+      "primary_name": {
+        "en": "Pietrozycki",
+        "he": "פיטרוז'יצקי",
+        "pl": "Pietrożycki",
+        "fr": "Pietrozycki"
+      },
       "role": "righteous_gentile",
       "note_en": "Gentile neighbor in Nadwórna who hid David and Lusia in the forest while caring for baby Shimon (memoir p. 26). Risked his life to shelter Jewish friends during the German occupation.",
       "facts": [
-        {"key": "role", "value": "Hid David and Lusia in the forest near Nadwórna; cared for Shimon while parents hid", "confidence": "documented", "sources": ["doc_lusia_memoir"]}
+        {
+          "key": "role",
+          "value": "Hid David and Lusia in the forest near Nadwórna; cared for Shimon while parents hid",
+          "confidence": "documented",
+          "sources": [
+            "doc_lusia_memoir"
+          ]
+        }
       ]
     },
     {
       "id": "p_ivanov",
-      "primary_name": { "en": "Ivanov", "he": "איוונוב", "pl": "Iwanow", "fr": "Ivanov" },
+      "primary_name": {
+        "en": "Ivanov",
+        "he": "איוונוב",
+        "pl": "Iwanow",
+        "fr": "Ivanov"
+      },
       "role": "righteous_gentile",
       "note_en": "Russian Gentile neighbor in Nadwórna, father of three. Per memoir p. 30: arranged the secret transfer of Shimon from Nadwórna to Lwów and warned Lusia of a planned Nazi action against Jewish children.",
       "facts": [
-        {"key": "role", "value": "Arranged Shimon's transfer from Nadwórna to Lwów; warned of a planned action against children", "confidence": "documented", "sources": ["doc_lusia_memoir"]}
+        {
+          "key": "role",
+          "value": "Arranged Shimon's transfer from Nadwórna to Lwów; warned of a planned action against children",
+          "confidence": "documented",
+          "sources": [
+            "doc_lusia_memoir"
+          ]
+        }
       ]
     },
     {
       "id": "p_hormak_family",
-      "primary_name": { "en": "Hormak family", "he": "משפחת הורמק", "pl": "Rodzina Hormak", "fr": "Famille Hormak" },
+      "primary_name": {
+        "en": "Hormak family",
+        "he": "משפחת הורמק",
+        "pl": "Rodzina Hormak",
+        "fr": "Famille Hormak"
+      },
       "role": "righteous_gentile",
       "note_en": "Gentile family (Nadwórna + Lwów) who helped Lusia with food, housing, and the escape route to Lwów. The sister Mrs. Inovska sheltered Shimon in Lwów (memoir p. 30). The family name 'Hormak' is the documented source of the 'Hormek papers' family memory previously had recorded.",
       "facts": [
-        {"key": "role", "value": "Provided food and housing in Nadwórna; helped the family escape to Lwów; sheltered Shimon there", "confidence": "documented", "sources": ["doc_lusia_memoir"]},
-        {"key": "hormek_papers_clarification", "value": "Family memory of 'Hormek papers' likely refers to documents arranged by or through the Hormak family — not a document type name", "confidence": "hypothesis", "sources": ["doc_lusia_memoir"]}
+        {
+          "key": "role",
+          "value": "Provided food and housing in Nadwórna; helped the family escape to Lwów; sheltered Shimon there",
+          "confidence": "documented",
+          "sources": [
+            "doc_lusia_memoir"
+          ]
+        },
+        {
+          "key": "hormek_papers_clarification",
+          "value": "Family memory of 'Hormek papers' likely refers to documents arranged by or through the Hormak family — not a document type name",
+          "confidence": "hypothesis",
+          "sources": [
+            "doc_lusia_memoir"
+          ]
+        }
       ]
     },
     {
       "id": "p_lota",
-      "primary_name": { "en": "Lota Rapaport", "he": "לוטה רפפורט", "pl": "Lota Rapaport", "fr": "Lota Rapaport" },
+      "primary_name": {
+        "en": "Lota Rapaport",
+        "he": "לוטה רפפורט",
+        "pl": "Lota Rapaport",
+        "fr": "Lota Rapaport"
+      },
       "role": "great_aunt",
       "note_en": "David's sister. Lived in the Lwów ghetto with her family. Per memoir p. 37: bought forged US emigration documents but was reportedly betrayed by the sellers; later disappeared in the war (presumed murdered in the Holocaust). The family memory of her was reconfirmed by Dalia 17 May 2026.",
       "facts": [
-        {"key": "residence", "value": "Lived in Lwów (ghetto from 1941)", "confidence": "documented", "sources": ["doc_lusia_memoir"]},
-        {"key": "forged_us_documents", "value": "Bought forged US emigration documents to try to escape the ghetto; sellers reportedly informed (per memoir p. 41)", "confidence": "documented", "sources": ["doc_lusia_memoir"]},
-        {"key": "fate", "value": "Disappeared during the Holocaust — fate not in memoir but inferred to be murdered", "confidence": "hypothesis", "sources": ["doc_lusia_memoir"]},
-        {"key": "existence_confirmed_by_dalia", "value": "Dalia confirmed Lota's existence 17 May 2026 WhatsApp", "confidence": "documented", "sources": ["oral_dalia_17may_whatsapp_2241", "doc_lusia_memoir"]}
+        {
+          "key": "residence",
+          "value": "Lived in Lwów (ghetto from 1941)",
+          "confidence": "documented",
+          "sources": [
+            "doc_lusia_memoir"
+          ]
+        },
+        {
+          "key": "forged_us_documents",
+          "value": "Bought forged US emigration documents to try to escape the ghetto; sellers reportedly informed (per memoir p. 41)",
+          "confidence": "documented",
+          "sources": [
+            "doc_lusia_memoir"
+          ]
+        },
+        {
+          "key": "fate",
+          "value": "Disappeared during the Holocaust — fate not in memoir but inferred to be murdered",
+          "confidence": "hypothesis",
+          "sources": [
+            "doc_lusia_memoir"
+          ]
+        },
+        {
+          "key": "existence_confirmed_by_dalia",
+          "value": "Dalia confirmed Lota's existence 17 May 2026 WhatsApp",
+          "confidence": "documented",
+          "sources": [
+            "oral_dalia_17may_whatsapp_2241",
+            "doc_lusia_memoir"
+          ]
+        }
       ],
       "father_id": "p_berisz",
       "mother_id": "p_rebeka",
-      "siblings_ids": ["p_david"]
+      "siblings_ids": [
+        "p_david"
+      ]
     },
     {
       "id": "p_ronen_rapaport",
-      "primary_name": { "en": "Ronen Rapaport", "he": "רונן רפפורט", "pl": "Ronen Rapaport", "fr": "Ronen Rapaport" },
+      "primary_name": {
+        "en": "Ronen Rapaport",
+        "he": "רונן רפפורט",
+        "pl": "Ronen Rapaport",
+        "fr": "Ronen Rapaport"
+      },
       "role": "cousin",
       "note_en": "Older son of Shimon and Tamar. First cousin to Doron, Dana and Daniel.",
       "father_id": "p_shimon",
       "mother_id": "p_tamar",
-      "siblings_ids": ["p_hadas_rapaport"]
+      "siblings_ids": [
+        "p_hadas_rapaport"
+      ]
     },
     {
       "id": "p_hadas_rapaport",
-      "primary_name": { "en": "Hadas Rapaport", "he": "הדס רפפורט", "pl": "Hadas Rapaport", "fr": "Hadas Rapaport" },
+      "primary_name": {
+        "en": "Hadas Rapaport",
+        "he": "הדס רפפורט",
+        "pl": "Hadas Rapaport",
+        "fr": "Hadas Rapaport"
+      },
       "role": "cousin",
       "note_en": "Younger sister of Ronen, daughter of Shimon and Tamar. First cousin to Doron, Dana and Daniel.",
       "father_id": "p_shimon",
       "mother_id": "p_tamar",
-      "siblings_ids": ["p_ronen_rapaport"]
+      "siblings_ids": [
+        "p_ronen_rapaport"
+      ]
     },
     {
       "id": "p_berisz",
@@ -254,15 +625,64 @@
         "pl": "Berisz / Bernard Rapaport",
         "fr": "Berisz / Bernard Rapaport"
       },
-      "aliases": ["Bernard", "Berl"],
+      "aliases": [
+        "Bernard",
+        "Berl",
+        "Issachar Berish",
+        "יששכר בעריש"
+      ],
       "role": "great_grandfather_paternal",
       "note_en": "Paternal great-grandfather of Doron, Dana and Daniel. Merchant in Nadwórna. Father of David.",
       "facts": [
-        {"key": "occupation", "value": "Merchant (kupiec) in Nadwórna", "confidence": "documented", "sources": ["doc_david_birth_nadworna", "doc_david_dp_card"]},
-        {"key": "1910_przemysl", "value": "A Bernard Rapaport appears in Przemyśl records around 1910 — may or may not be him", "confidence": "hypothesis", "sources": ["report_basia_13may"]}
+        {
+          "key": "occupation",
+          "value": "Merchant (kupiec) in Nadwórna",
+          "confidence": "documented",
+          "sources": [
+            "doc_david_birth_nadworna",
+            "doc_david_dp_card"
+          ]
+        },
+        {
+          "key": "1910_przemysl",
+          "value": "A Bernard Rapaport appears in Przemyśl records around 1910 — may or may not be him",
+          "confidence": "hypothesis",
+          "sources": [
+            "report_basia_13may"
+          ]
+        },
+        {
+          "key": "hebrew_name",
+          "value": "Issachar Berish (יששכר בעריש)",
+          "confidence": "documented",
+          "sources": [
+            "src_gelles_griffel_nadworna_pdf"
+          ]
+        },
+        {
+          "key": "documented_marriage",
+          "value": "Marriage to Rivka Griffel of Nadwórna documented in print by Edward Gelles, \"Griffel of Nadworna\" (Balliol College Oxford archives), entry #8 in the Eliezer Griffel pedigree.",
+          "confidence": "documented",
+          "sources": [
+            "src_gelles_griffel_nadworna_pdf"
+          ]
+        }
       ],
-      "children_ids": ["p_david", "p_lota"],
-      "spouse_id": "p_rebeka"
+      "children_ids": [
+        "p_david",
+        "p_lota"
+      ],
+      "spouse_id": "p_rebeka",
+      "death": {
+        "date": "1941",
+        "date_precision": "year_likely",
+        "place_id": "pl_nadworna",
+        "confidence": "likely",
+        "sources": [
+          "src_gelles_griffel_nadworna_pdf"
+        ],
+        "note_en": "Almost certainly perished in the Holocaust. Most likely scenario: shot in the 6 October 1941 Bukowinka Forest mass aktion alongside ~2,000 Nadwórna Jews, including his brother-in-law David Mendel Griffel and sister-in-law Chawa Wahl. Alternative: 24 October 1942 final Nadwórna ghetto liquidation. No Page of Testimony was ever filed for him. Notable: Berisz is absent from the 1932 Nadwórna town taxpayer list and from the 1975 Yizkor necrology, suggesting he may have lived in a village outside Nadwórna town — likely tied to the Griffel timber/oil business locations."
+      }
     },
     {
       "id": "p_rebeka",
@@ -272,7 +692,11 @@
         "pl": "Rebeka / Regina Rapaport (z domu Griffel)",
         "fr": "Rebeka / Regina Rapaport (née Griffel)"
       },
-      "aliases": ["Rebecca", "Regina", "רבקה"],
+      "aliases": [
+        "Rebecca",
+        "Regina",
+        "רבקה"
+      ],
       "role": "great_grandmother_paternal",
       "note_en": "Paternal great-grandmother of Doron, Dana and Daniel. Mother of David. Birth record from Nadwórna found 15 May 2026 by Ms. Kasia at ŻIH Warsaw — the family's breakthrough document.",
       "birth": {
@@ -280,46 +704,187 @@
         "date_precision": "year",
         "place_id": "pl_nadworna",
         "confidence": "confirmed",
-        "sources": ["doc_rebeka_birth_nadworna"]
+        "sources": [
+          "doc_rebeka_birth_nadworna"
+        ]
       },
       "father_id": "p_leizor_griffel",
       "mother_id": "p_sara_chajes",
-      "children_ids": ["p_david", "p_lota"],
+      "children_ids": [
+        "p_david",
+        "p_lota"
+      ],
       "spouse_id": "p_berisz",
       "facts": [
-        {"key": "1912_krynica", "value": "Vacationed in Krynica (resort) in summer 1912 — registered at Alfredówka on 25 July 1912, listed as wife of a Nadwórna merchant. Newspaper record.", "confidence": "confirmed", "sources": ["doc_newspaper_1912_krynica"]}
-      ]
+        {
+          "key": "1912_krynica",
+          "value": "Vacationed in Krynica (resort) in summer 1912 — registered at Alfredówka on 25 July 1912, listed as wife of a Nadwórna merchant. Newspaper record.",
+          "confidence": "confirmed",
+          "sources": [
+            "doc_newspaper_1912_krynica"
+          ]
+        },
+        {
+          "key": "gelles_pedigree",
+          "value": "Documented as entry #8 of the 10 children of Eliezer (Zeida) Griffel + Sarah Matel Chajes in Edward Gelles, \"Griffel of Nadworna\".",
+          "confidence": "documented",
+          "sources": [
+            "src_gelles_griffel_nadworna_pdf"
+          ]
+        }
+      ],
+      "death": {
+        "date": "1941",
+        "date_precision": "year_likely",
+        "place_id": "pl_nadworna",
+        "confidence": "likely",
+        "sources": [
+          "src_gelles_griffel_nadworna_pdf"
+        ],
+        "note_en": "Almost certainly perished in the Holocaust alongside her husband Berisz. Most likely scenario: shot in the 6 October 1941 Bukowinka Forest mass aktion alongside her brother David Mendel Griffel and sister-in-law Chawa Wahl. No Page of Testimony was ever filed for her — Doron should file one."
+      }
     },
     {
       "id": "p_leizor_griffel",
       "primary_name": {
-        "en": "Leizor Griffel",
-        "he": "ליזר גריפל",
-        "pl": "Leizor Griffel",
-        "fr": "Leizor Griffel"
+        "en": "Eliezer \"Zeida\" Griffel",
+        "he": "אליעזר 'זיידא' גריפל",
+        "pl": "Eliezer Griffel",
+        "fr": "Eliezer Griffel"
       },
       "role": "gg_grandfather_paternal_maternal",
-      "note_en": "Great-great-grandfather (paternal-maternal line) of Doron, Dana and Daniel. Merchant in Nadwórna. Father of Rebeka Griffel.",
+      "note_en": "Great-great-grandfather (paternal-maternal line) of Doron, Dana and Daniel. Head of the Jewish community of Nadwórna (Av Kehillah). Patriarch of a large extended family. Major Galician industrialist: leased oil deposits and forests, ran a substantial timber export business reaching Vienna. Hager-Ottynia Chasid — he and his sons-in-law prayed at the Ottynia rebbe's synagogue. Documented in Edward Gelles, \"Griffel of Nadworna\" (Balliol College Oxford archives). Had ten children with his wife Sarah Matel Chajes of Kolomea.",
       "facts": [
-        {"key": "occupation", "value": "Merchant in Nadwórna", "confidence": "documented", "sources": ["doc_rebeka_birth_nadworna"]}
+        {
+          "key": "title",
+          "value": "Head of Jewish community (Av Kehillah) of Nadwórna",
+          "confidence": "documented",
+          "sources": [
+            "src_gelles_griffel_nadworna_pdf"
+          ]
+        },
+        {
+          "key": "business",
+          "value": "Oil deposits, forests, timber export across Galicia and to Vienna",
+          "confidence": "documented",
+          "sources": [
+            "src_gelles_griffel_nadworna_pdf"
+          ]
+        },
+        {
+          "key": "religious_affiliation",
+          "value": "Hager Chasid (Ottynia synagogue)",
+          "confidence": "documented",
+          "sources": [
+            "src_gelles_griffel_nadworna_pdf"
+          ]
+        },
+        {
+          "key": "10_children",
+          "value": "Father of 10 children, including Rivka (Rebeka) Griffel-Rapaport b.1888",
+          "confidence": "documented",
+          "sources": [
+            "src_gelles_griffel_nadworna_pdf"
+          ]
+        }
       ],
       "spouse_id": "p_sara_chajes",
-      "children_ids": ["p_rebeka"]
+      "children_ids": [
+        "p_david_mendel_griffel",
+        "p_machla_griffel",
+        "p_zissel_griffel",
+        "p_isaac_chaim_griffel",
+        "p_shaya_griffel",
+        "p_leibish_griffel",
+        "p_benjamin_griffel",
+        "p_rebeka",
+        "p_rachel_griffel",
+        "p_chaya_griffel"
+      ],
+      "aliezer": [
+        "Leizor",
+        "Lazar",
+        "Zeida",
+        "Eliezer Reb"
+      ],
+      "birth": {
+        "date": "1850",
+        "date_precision": "year",
+        "place_id": "pl_nadworna",
+        "confidence": "documented",
+        "sources": [
+          "src_gelles_griffel_nadworna_pdf"
+        ]
+      },
+      "death": {
+        "date": "1918",
+        "date_precision": "year",
+        "place_id": "pl_nadworna",
+        "confidence": "documented",
+        "sources": [
+          "src_gelles_griffel_nadworna_pdf"
+        ]
+      },
+      "father_id": "p_dawid_mendel_griffel_sr",
+      "mother_id": "p_taube_griffel"
     },
     {
       "id": "p_sara_chajes",
       "primary_name": {
-        "en": "Sara Griffel (née Chajes)",
-        "he": "שרה גריפל (לבית חיות)",
-        "pl": "Sara Griffel (z domu Chajes)",
-        "fr": "Sara Griffel (née Chajes)"
+        "en": "Sarah Matel Griffel (née Chajes)",
+        "he": "שרה מאטל גריפל (לבית חיות)",
+        "pl": "Sara Matel Griffel (z domu Chajes)",
+        "fr": "Sarah Matel Griffel (née Chajes)"
       },
       "role": "gg_grandmother_paternal_maternal",
       "facts": [
-        {"key": "occupation", "value": "Merchant family in Nadwórna", "confidence": "documented", "sources": ["doc_rebeka_birth_nadworna"]}
+        {
+          "key": "ancestry",
+          "value": "Chajes rabbinical dynasty of Kolomea",
+          "confidence": "documented",
+          "sources": [
+            "src_gelles_griffel_nadworna_pdf"
+          ]
+        },
+        {
+          "key": "rabbinical_ancestors",
+          "value": "Isaac Chaim Chayes (1823-1866) of Kolomea → Isaac ben Abraham Chayes (1538-1617, Chief Rabbi of Prague). Lineage includes David Halevi Segal (Taz, Lvov) and Joel Sirkes (Bach, Cracow).",
+          "confidence": "documented",
+          "sources": [
+            "src_gelles_griffel_nadworna_pdf"
+          ]
+        }
       ],
       "spouse_id": "p_leizor_griffel",
-      "children_ids": ["p_rebeka"]
+      "children_ids": [
+        "p_david_mendel_griffel",
+        "p_machla_griffel",
+        "p_zissel_griffel",
+        "p_isaac_chaim_griffel",
+        "p_shaya_griffel",
+        "p_leibish_griffel",
+        "p_benjamin_griffel",
+        "p_rebeka",
+        "p_rachel_griffel",
+        "p_chaya_griffel"
+      ],
+      "birth": {
+        "place_id": "pl_kolomea",
+        "confidence": "documented",
+        "sources": [
+          "src_gelles_griffel_nadworna_pdf"
+        ],
+        "note_en": "Born in Kolomea (Kolomyia), Galicia — exact year unknown but ~1855."
+      },
+      "death": {
+        "date": "1940",
+        "date_precision": "year",
+        "confidence": "documented",
+        "sources": [
+          "src_gelles_griffel_nadworna_pdf"
+        ]
+      },
+      "note_en": "Great-great-grandmother (paternal-maternal line) of Doron, Dana and Daniel. Born in Kolomea (Kolomyia), Galicia. Descendant of the Chajes rabbinical dynasty — her ancestor Isaac ben Abraham Chayes (1538-1617) was Chief Rabbi of Prague. Through this line the family connects to David Halevi Segal (the \"Taz\", Chief Rabbi of Lvov) and Joel Sirkes (the \"Bach\", Chief Rabbi of Cracow) — a 350+ year rabbinical pedigree."
     },
     {
       "id": "p_elias_weitzner",
@@ -329,17 +894,56 @@
         "pl": "Elias Weitzner",
         "fr": "Elias Weitzner"
       },
-      "aliases": ["Eliyahu", "Elijah"],
+      "aliases": [
+        "Eliyahu",
+        "Elijah"
+      ],
       "role": "great_grandfather_maternal",
       "note_en": "Leah's father. Started as cattle dealer in Bolechów Ruski, later tannery owner.",
       "facts": [
-        {"key": "occupation_early", "value": "Cattle dealer (handlarz bydłem) in Bolechów Ruski, c. 1911-16", "confidence": "confirmed", "sources": ["doc_leah_birth_bolechow_1913", "doc_feige_birth_1911", "doc_moses_birth_1916"]},
-        {"key": "occupation_later", "value": "Tannery in Bolechów, listed in 1930 directory — confirmed Weitzner spelling", "confidence": "confirmed", "sources": ["report_basia_14may"]},
-        {"key": "emigration", "value": "Emigrated to Mandatory Palestine in 1933 with capital permit (1000 GBP capitalist visa, British Mandate)", "confidence": "family_oral", "sources": ["oral_dana_15may", "oral_doron_13may"]},
-        {"key": "marriage", "value": "Married Matel Weinreb in Dolina, 1905 (statutory civil marriage)", "confidence": "confirmed", "sources": ["doc_leah_birth_bolechow_1913"]}
+        {
+          "key": "occupation_early",
+          "value": "Cattle dealer (handlarz bydłem) in Bolechów Ruski, c. 1911-16",
+          "confidence": "confirmed",
+          "sources": [
+            "doc_leah_birth_bolechow_1913",
+            "doc_feige_birth_1911",
+            "doc_moses_birth_1916"
+          ]
+        },
+        {
+          "key": "occupation_later",
+          "value": "Tannery in Bolechów, listed in 1930 directory — confirmed Weitzner spelling",
+          "confidence": "confirmed",
+          "sources": [
+            "report_basia_14may"
+          ]
+        },
+        {
+          "key": "emigration",
+          "value": "Emigrated to Mandatory Palestine in 1933 with capital permit (1000 GBP capitalist visa, British Mandate)",
+          "confidence": "family_oral",
+          "sources": [
+            "oral_dana_15may",
+            "oral_doron_13may"
+          ]
+        },
+        {
+          "key": "marriage",
+          "value": "Married Matel Weinreb in Dolina, 1905 (statutory civil marriage)",
+          "confidence": "confirmed",
+          "sources": [
+            "doc_leah_birth_bolechow_1913"
+          ]
+        }
       ],
       "spouse_id": "p_matel_weinreb",
-      "children_ids": ["p_feige", "p_leah", "p_moses_weitzner", "p_pnina_weitzner"]
+      "children_ids": [
+        "p_feige",
+        "p_leah",
+        "p_moses_weitzner",
+        "p_pnina_weitzner"
+      ]
     },
     {
       "id": "p_matel_weinreb",
@@ -349,15 +953,32 @@
         "pl": "Matel / Matylda Weitzner (z domu Weinreb)",
         "fr": "Matel (Mathilde) Weitzner (née Weinreb)"
       },
-      "aliases": ["Mathilde", "Matylda", "Mejtel", "Mattel"],
+      "aliases": [
+        "Mathilde",
+        "Matylda",
+        "Mejtel",
+        "Mattel"
+      ],
       "role": "great_grandmother_maternal",
       "note_en": "Leah's mother. From Dolina (the district seat near Bolechów).",
       "father_id": "p_samuel_weinreb",
       "mother_id": "p_ester_blima",
       "spouse_id": "p_elias_weitzner",
-      "children_ids": ["p_feige", "p_leah", "p_moses_weitzner", "p_pnina_weitzner"],
+      "children_ids": [
+        "p_feige",
+        "p_leah",
+        "p_moses_weitzner",
+        "p_pnina_weitzner"
+      ],
       "facts": [
-        {"key": "origin", "value": "From Dolina", "confidence": "confirmed", "sources": ["doc_leah_birth_bolechow_1913"]}
+        {
+          "key": "origin",
+          "value": "From Dolina",
+          "confidence": "confirmed",
+          "sources": [
+            "doc_leah_birth_bolechow_1913"
+          ]
+        }
       ]
     },
     {
@@ -370,10 +991,19 @@
       },
       "role": "gg_grandfather_maternal_maternal",
       "facts": [
-        {"key": "occupation", "value": "Tavern keeper in Dolina", "confidence": "confirmed", "sources": ["doc_leah_birth_bolechow_1913"]}
+        {
+          "key": "occupation",
+          "value": "Tavern keeper in Dolina",
+          "confidence": "confirmed",
+          "sources": [
+            "doc_leah_birth_bolechow_1913"
+          ]
+        }
       ],
       "spouse_id": "p_ester_blima",
-      "children_ids": ["p_matel_weinreb"]
+      "children_ids": [
+        "p_matel_weinreb"
+      ]
     },
     {
       "id": "p_ester_blima",
@@ -385,7 +1015,9 @@
       },
       "role": "gg_grandmother_maternal_maternal",
       "spouse_id": "p_samuel_weinreb",
-      "children_ids": ["p_matel_weinreb"]
+      "children_ids": [
+        "p_matel_weinreb"
+      ]
     },
     {
       "id": "p_feige",
@@ -395,7 +1027,10 @@
         "pl": "Feige Weitzner",
         "fr": "Feige (Tzipora) Weitzner"
       },
-      "aliases": ["Tzipora", "ציפורה"],
+      "aliases": [
+        "Tzipora",
+        "ציפורה"
+      ],
       "role": "great_aunt",
       "note_en": "Leah's older sister. Feige (Yiddish) = Tzipora (Hebrew).",
       "birth": {
@@ -403,13 +1038,26 @@
         "date_precision": "year",
         "place_id": "pl_bolechow",
         "confidence": "confirmed",
-        "sources": ["doc_feige_birth_1911"]
+        "sources": [
+          "doc_feige_birth_1911"
+        ]
       },
       "father_id": "p_elias_weitzner",
       "mother_id": "p_matel_weinreb",
-      "siblings_ids": ["p_leah", "p_moses_weitzner", "p_pnina_weitzner"],
+      "siblings_ids": [
+        "p_leah",
+        "p_moses_weitzner",
+        "p_pnina_weitzner"
+      ],
       "facts": [
-        {"key": "emigration", "value": "Emigrated to Israel with family ~1933", "confidence": "family_oral", "sources": ["oral_doron_13may"]}
+        {
+          "key": "emigration",
+          "value": "Emigrated to Israel with family ~1933",
+          "confidence": "family_oral",
+          "sources": [
+            "oral_doron_13may"
+          ]
+        }
       ]
     },
     {
@@ -420,7 +1068,9 @@
         "pl": "Mojzesz Weitzner",
         "fr": "Moïse Weitzner"
       },
-      "aliases": ["Mojzesz"],
+      "aliases": [
+        "Mojzesz"
+      ],
       "role": "great_uncle",
       "note_en": "Leah's younger brother.",
       "birth": {
@@ -428,13 +1078,26 @@
         "date_precision": "year",
         "place_id": "pl_bolechow",
         "confidence": "confirmed",
-        "sources": ["doc_moses_birth_1916"]
+        "sources": [
+          "doc_moses_birth_1916"
+        ]
       },
       "father_id": "p_elias_weitzner",
       "mother_id": "p_matel_weinreb",
-      "siblings_ids": ["p_feige", "p_leah", "p_pnina_weitzner"],
+      "siblings_ids": [
+        "p_feige",
+        "p_leah",
+        "p_pnina_weitzner"
+      ],
       "facts": [
-        {"key": "emigration", "value": "Emigrated to Israel with family ~1933", "confidence": "family_oral", "sources": ["oral_doron_13may"]}
+        {
+          "key": "emigration",
+          "value": "Emigrated to Israel with family ~1933",
+          "confidence": "family_oral",
+          "sources": [
+            "oral_doron_13may"
+          ]
+        }
       ]
     },
     {
@@ -449,10 +1112,28 @@
       "note_en": "Leah's youngest sister.",
       "father_id": "p_elias_weitzner",
       "mother_id": "p_matel_weinreb",
-      "siblings_ids": ["p_feige", "p_leah", "p_moses_weitzner"],
+      "siblings_ids": [
+        "p_feige",
+        "p_leah",
+        "p_moses_weitzner"
+      ],
       "facts": [
-        {"key": "name_source", "value": "Known by Hebrew name only", "confidence": "family_oral", "sources": ["oral_doron_13may"]},
-        {"key": "emigration", "value": "Emigrated to Israel with family ~1933", "confidence": "family_oral", "sources": ["oral_doron_13may"]}
+        {
+          "key": "name_source",
+          "value": "Known by Hebrew name only",
+          "confidence": "family_oral",
+          "sources": [
+            "oral_doron_13may"
+          ]
+        },
+        {
+          "key": "emigration",
+          "value": "Emigrated to Israel with family ~1933",
+          "confidence": "family_oral",
+          "sources": [
+            "oral_doron_13may"
+          ]
+        }
       ]
     },
     {
@@ -467,7 +1148,10 @@
       "note_en": "The researcher leading this project for his father's 80th birthday.",
       "father_id": "p_dov_bernard",
       "mother_id": "p_dalia",
-      "siblings_ids": ["p_dana", "p_daniel"]
+      "siblings_ids": [
+        "p_dana",
+        "p_daniel"
+      ]
     },
     {
       "id": "p_dalia",
@@ -480,7 +1164,11 @@
       "role": "mother",
       "note_en": "Mother of Doron, Dana and Daniel. Wife of Dov. Equal partner in this family research project.",
       "spouse_id": "p_dov_bernard",
-      "children_ids": ["p_doron", "p_dana", "p_daniel"]
+      "children_ids": [
+        "p_doron",
+        "p_dana",
+        "p_daniel"
+      ]
     },
     {
       "id": "p_dana",
@@ -495,8 +1183,16 @@
       "father_id": "p_dov_bernard",
       "mother_id": "p_dalia",
       "spouse_id": "p_lior_hinkus",
-      "children_ids": ["p_yarden_rapaport", "p_itamar_rapaport", "p_carmel_rapaport", "p_rom_rapaport"],
-      "siblings_ids": ["p_doron", "p_daniel"]
+      "children_ids": [
+        "p_yarden_rapaport",
+        "p_itamar_rapaport",
+        "p_carmel_rapaport",
+        "p_rom_rapaport"
+      ],
+      "siblings_ids": [
+        "p_doron",
+        "p_daniel"
+      ]
     },
     {
       "id": "p_daniel",
@@ -511,85 +1207,900 @@
       "father_id": "p_dov_bernard",
       "mother_id": "p_dalia",
       "spouse_id": "p_heli_avitan",
-      "children_ids": ["p_alma_rapaport", "p_ema_rapaport", "p_ariel_rapaport"],
-      "siblings_ids": ["p_doron", "p_dana"]
+      "children_ids": [
+        "p_alma_rapaport",
+        "p_ema_rapaport",
+        "p_ariel_rapaport"
+      ],
+      "siblings_ids": [
+        "p_doron",
+        "p_dana"
+      ]
     },
     {
       "id": "p_lior_hinkus",
-      "primary_name": { "en": "Lior Hinkus", "he": "ליאור הינקוס", "pl": "Lior Hinkus", "fr": "Lior Hinkus" },
+      "primary_name": {
+        "en": "Lior Hinkus",
+        "he": "ליאור הינקוס",
+        "pl": "Lior Hinkus",
+        "fr": "Lior Hinkus"
+      },
       "role": "spouse",
       "note_en": "Dana's husband.",
       "spouse_id": "p_dana"
     },
     {
       "id": "p_heli_avitan",
-      "primary_name": { "en": "Heli Avitan", "he": "הלי אביטן", "pl": "Heli Avitan", "fr": "Heli Avitan" },
+      "primary_name": {
+        "en": "Heli Avitan",
+        "he": "הלי אביטן",
+        "pl": "Heli Avitan",
+        "fr": "Heli Avitan"
+      },
       "role": "spouse",
       "note_en": "Daniel's wife.",
       "spouse_id": "p_daniel"
     },
     {
       "id": "p_yarden_rapaport",
-      "primary_name": { "en": "Yarden Rapaport", "he": "ירדן רפפורט", "pl": "Yarden Rapaport", "fr": "Yarden Rapaport" },
+      "primary_name": {
+        "en": "Yarden Rapaport",
+        "he": "ירדן רפפורט",
+        "pl": "Yarden Rapaport",
+        "fr": "Yarden Rapaport"
+      },
       "role": "grandchild",
       "note_en": "Dana and Lior's child; granddaughter/grandson of Dov and Dalia.",
       "father_id": "p_lior_hinkus",
       "mother_id": "p_dana",
-      "siblings_ids": ["p_itamar_rapaport", "p_carmel_rapaport", "p_rom_rapaport"]
+      "siblings_ids": [
+        "p_itamar_rapaport",
+        "p_carmel_rapaport",
+        "p_rom_rapaport"
+      ]
     },
     {
       "id": "p_itamar_rapaport",
-      "primary_name": { "en": "Itamar Rapaport", "he": "איתמר רפפורט", "pl": "Itamar Rapaport", "fr": "Itamar Rapaport" },
+      "primary_name": {
+        "en": "Itamar Rapaport",
+        "he": "איתמר רפפורט",
+        "pl": "Itamar Rapaport",
+        "fr": "Itamar Rapaport"
+      },
       "role": "grandchild",
       "note_en": "Dana and Lior's child.",
       "father_id": "p_lior_hinkus",
       "mother_id": "p_dana",
-      "siblings_ids": ["p_yarden_rapaport", "p_carmel_rapaport", "p_rom_rapaport"]
+      "siblings_ids": [
+        "p_yarden_rapaport",
+        "p_carmel_rapaport",
+        "p_rom_rapaport"
+      ]
     },
     {
       "id": "p_carmel_rapaport",
-      "primary_name": { "en": "Carmel Rapaport", "he": "כרמל רפפורט", "pl": "Carmel Rapaport", "fr": "Carmel Rapaport" },
+      "primary_name": {
+        "en": "Carmel Rapaport",
+        "he": "כרמל רפפורט",
+        "pl": "Carmel Rapaport",
+        "fr": "Carmel Rapaport"
+      },
       "role": "grandchild",
       "note_en": "Dana and Lior's child.",
       "father_id": "p_lior_hinkus",
       "mother_id": "p_dana",
-      "siblings_ids": ["p_yarden_rapaport", "p_itamar_rapaport", "p_rom_rapaport"]
+      "siblings_ids": [
+        "p_yarden_rapaport",
+        "p_itamar_rapaport",
+        "p_rom_rapaport"
+      ]
     },
     {
       "id": "p_rom_rapaport",
-      "primary_name": { "en": "Rom Rapaport", "he": "רום רפפורט", "pl": "Rom Rapaport", "fr": "Rom Rapaport" },
+      "primary_name": {
+        "en": "Rom Rapaport",
+        "he": "רום רפפורט",
+        "pl": "Rom Rapaport",
+        "fr": "Rom Rapaport"
+      },
       "role": "grandchild",
       "note_en": "Dana and Lior's child.",
       "father_id": "p_lior_hinkus",
       "mother_id": "p_dana",
-      "siblings_ids": ["p_yarden_rapaport", "p_itamar_rapaport", "p_carmel_rapaport"]
+      "siblings_ids": [
+        "p_yarden_rapaport",
+        "p_itamar_rapaport",
+        "p_carmel_rapaport"
+      ]
     },
     {
       "id": "p_alma_rapaport",
-      "primary_name": { "en": "Alma Rapaport", "he": "אלמה רפפורט", "pl": "Alma Rapaport", "fr": "Alma Rapaport" },
+      "primary_name": {
+        "en": "Alma Rapaport",
+        "he": "אלמה רפפורט",
+        "pl": "Alma Rapaport",
+        "fr": "Alma Rapaport"
+      },
       "role": "grandchild",
       "note_en": "Daniel and Heli's child.",
       "father_id": "p_daniel",
       "mother_id": "p_heli_avitan",
-      "siblings_ids": ["p_ema_rapaport", "p_ariel_rapaport"]
+      "siblings_ids": [
+        "p_ema_rapaport",
+        "p_ariel_rapaport"
+      ]
     },
     {
       "id": "p_ema_rapaport",
-      "primary_name": { "en": "Ema Rapaport", "he": "אמה רפפורט", "pl": "Ema Rapaport", "fr": "Ema Rapaport" },
+      "primary_name": {
+        "en": "Ema Rapaport",
+        "he": "אמה רפפורט",
+        "pl": "Ema Rapaport",
+        "fr": "Ema Rapaport"
+      },
       "role": "grandchild",
       "note_en": "Daniel and Heli's child.",
       "father_id": "p_daniel",
       "mother_id": "p_heli_avitan",
-      "siblings_ids": ["p_alma_rapaport", "p_ariel_rapaport"]
+      "siblings_ids": [
+        "p_alma_rapaport",
+        "p_ariel_rapaport"
+      ]
     },
     {
       "id": "p_ariel_rapaport",
-      "primary_name": { "en": "Ariel Rapaport", "he": "אריאל רפפורט", "pl": "Ariel Rapaport", "fr": "Ariel Rapaport" },
+      "primary_name": {
+        "en": "Ariel Rapaport",
+        "he": "אריאל רפפורט",
+        "pl": "Ariel Rapaport",
+        "fr": "Ariel Rapaport"
+      },
       "role": "grandchild",
       "note_en": "Daniel and Heli's youngest daughter (added 2026-05-20 per Doron — not in the 2019 Porto application).",
       "father_id": "p_daniel",
       "mother_id": "p_heli_avitan",
-      "siblings_ids": ["p_alma_rapaport", "p_ema_rapaport"]
+      "siblings_ids": [
+        "p_alma_rapaport",
+        "p_ema_rapaport"
+      ]
+    },
+    {
+      "id": "p_david_mendel_griffel",
+      "primary_name": {
+        "en": "David Mendel Griffel",
+        "he": "דוד מנדל גריפל",
+        "pl": "David Mendel Griffel",
+        "fr": "David Mendel Griffel"
+      },
+      "aliases": [],
+      "facts": [],
+      "role": "great_great_uncle_aunt",
+      "birth": {
+        "date": "1875",
+        "date_precision": "year",
+        "place_id": "pl_nadworna",
+        "confidence": "documented",
+        "sources": [
+          "src_gelles_griffel_nadworna_pdf"
+        ]
+      },
+      "death": {
+        "date": "1941",
+        "date_precision": "year",
+        "confidence": "documented",
+        "sources": [
+          "src_gelles_griffel_nadworna_pdf"
+        ],
+        "note_en": "Perished in the Holocaust."
+      },
+      "father_id": "p_leizor_griffel",
+      "mother_id": "p_sara_chajes",
+      "note_en": "One of the 10 children of Eliezer Griffel + Sarah Matel Chajes of Nadwórna. Eldest son of Eliezer Griffel. Took over most of the family timber/oil business. Father of Zygmunt (1897-1951), Regina (1900-1954, mother of Edward Gelles), Edward (1904-1959). Murdered with wife Chawa in 1941, almost certainly the 6 October 1941 Bukowinka Forest mass shooting of ~2,000 Nadwórna Jews. David \"Memek\" Rapaport b.1911 was named after him in Ashkenazi naming tradition. Married Chawa Wahl (1877-1941, also perished).",
+      "spouse_id": "p_chawa_wahl",
+      "children_ids": [
+        "p_zygmunt_griffel",
+        "p_regina_gelles",
+        "p_edward_griffel_uncle"
+      ]
+    },
+    {
+      "id": "p_machla_griffel",
+      "primary_name": {
+        "en": "Machla Griffel-Wilner",
+        "he": "מחלה גריפל-וילנר",
+        "pl": "Machla Griffel-Wilner",
+        "fr": "Machla Griffel-Wilner"
+      },
+      "aliases": [],
+      "facts": [],
+      "role": "great_great_uncle_aunt",
+      "birth": {
+        "date": "1876",
+        "date_precision": "year",
+        "place_id": "pl_nadworna",
+        "confidence": "documented",
+        "sources": [
+          "src_gelles_griffel_nadworna_pdf"
+        ]
+      },
+      "father_id": "p_leizor_griffel",
+      "mother_id": "p_sara_chajes",
+      "note_en": "One of the 10 children of Eliezer Griffel + Sarah Matel Chajes of Nadwórna.  Married Benzion Wilner.",
+      "spouse_id": "p_benzion_wilner"
+    },
+    {
+      "id": "p_zissel_griffel",
+      "primary_name": {
+        "en": "Zissel Griffel-Lamm",
+        "he": "זיסל גריפל-לאם",
+        "pl": "Zissel Griffel-Lamm",
+        "fr": "Zissel Griffel-Lamm"
+      },
+      "aliases": [],
+      "facts": [],
+      "role": "great_great_uncle_aunt",
+      "birth": {
+        "date": "1878",
+        "date_precision": "year",
+        "place_id": "pl_nadworna",
+        "confidence": "documented",
+        "sources": [
+          "src_gelles_griffel_nadworna_pdf"
+        ]
+      },
+      "father_id": "p_leizor_griffel",
+      "mother_id": "p_sara_chajes",
+      "note_en": "One of the 10 children of Eliezer Griffel + Sarah Matel Chajes of Nadwórna. Her son was Dr Arnold Lamm; her grandson is Dr Steven Lamm (b.1948, NYC, NYU Langone — living 2nd cousin once removed of David Memek). Married Zygmunt (Shalom) Lamm.",
+      "spouse_id": "p_zygmunt_lamm",
+      "children_ids": [
+        "p_arnold_lamm"
+      ]
+    },
+    {
+      "id": "p_isaac_chaim_griffel",
+      "primary_name": {
+        "en": "Isaac Chaim Griffel",
+        "he": "יצחק חיים גריפל",
+        "pl": "Isaac Chaim Griffel",
+        "fr": "Isaac Chaim Griffel"
+      },
+      "aliases": [],
+      "facts": [],
+      "role": "great_great_uncle_aunt",
+      "birth": {
+        "date": "1880",
+        "date_precision": "year",
+        "place_id": "pl_nadworna",
+        "confidence": "documented",
+        "sources": [
+          "src_gelles_griffel_nadworna_pdf"
+        ]
+      },
+      "death": {
+        "date": "1930",
+        "date_precision": "year",
+        "confidence": "documented",
+        "sources": [
+          "src_gelles_griffel_nadworna_pdf"
+        ]
+      },
+      "father_id": "p_leizor_griffel",
+      "mother_id": "p_sara_chajes",
+      "note_en": "One of the 10 children of Eliezer Griffel + Sarah Matel Chajes of Nadwórna. Had 10 children. His eldest son Dr Jacob Griffel (1900-1962) was a famous Vaad ha-Hatzala rescuer based in Istanbul during WWII. Another son Yehoshua Heshel \"Henry\" Griffel emigrated to New Jersey; his son Andrew Griffel is alive — living 2nd cousin once removed of David Memek. Married Judith Breit (d.1938).",
+      "spouse_id": "p_judith_breit",
+      "children_ids": [
+        "p_dr_jacob_griffel",
+        "p_henry_griffel"
+      ]
+    },
+    {
+      "id": "p_shaya_griffel",
+      "primary_name": {
+        "en": "Shaya Griffel",
+        "he": "שעיה גריפל",
+        "pl": "Shaya Griffel",
+        "fr": "Shaya Griffel"
+      },
+      "aliases": [],
+      "facts": [],
+      "role": "great_great_uncle_aunt",
+      "birth": {
+        "date": "1883",
+        "date_precision": "year",
+        "place_id": "pl_nadworna",
+        "confidence": "documented",
+        "sources": [
+          "src_gelles_griffel_nadworna_pdf"
+        ]
+      },
+      "father_id": "p_leizor_griffel",
+      "mother_id": "p_sara_chajes",
+      "note_en": "One of the 10 children of Eliezer Griffel + Sarah Matel Chajes of Nadwórna.  Married Adela Englard."
+    },
+    {
+      "id": "p_leibish_griffel",
+      "primary_name": {
+        "en": "Leibish Griffel",
+        "he": "לייביש גריפל",
+        "pl": "Leibish Griffel",
+        "fr": "Leibish Griffel"
+      },
+      "aliases": [],
+      "facts": [],
+      "role": "great_great_uncle_aunt",
+      "birth": {
+        "date": "1885",
+        "date_precision": "year",
+        "place_id": "pl_nadworna",
+        "confidence": "documented",
+        "sources": [
+          "src_gelles_griffel_nadworna_pdf"
+        ]
+      },
+      "father_id": "p_leizor_griffel",
+      "mother_id": "p_sara_chajes",
+      "note_en": "One of the 10 children of Eliezer Griffel + Sarah Matel Chajes of Nadwórna.  Married Ziporah."
+    },
+    {
+      "id": "p_benjamin_griffel",
+      "primary_name": {
+        "en": "Benjamin Griffel",
+        "he": "בנימין גריפל",
+        "pl": "Benjamin Griffel",
+        "fr": "Benjamin Griffel"
+      },
+      "aliases": [],
+      "facts": [],
+      "role": "great_great_uncle_aunt",
+      "birth": {
+        "date": "1887",
+        "date_precision": "year",
+        "place_id": "pl_nadworna",
+        "confidence": "documented",
+        "sources": [
+          "src_gelles_griffel_nadworna_pdf"
+        ]
+      },
+      "father_id": "p_leizor_griffel",
+      "mother_id": "p_sara_chajes",
+      "note_en": "One of the 10 children of Eliezer Griffel + Sarah Matel Chajes of Nadwórna.  Married Chana Kahan."
+    },
+    {
+      "id": "p_rachel_griffel",
+      "primary_name": {
+        "en": "Rachel Griffel-Ohrenstein",
+        "he": "רחל גריפל-אורנשטיין",
+        "pl": "Rachel Griffel-Ohrenstein",
+        "fr": "Rachel Griffel-Ohrenstein"
+      },
+      "aliases": [],
+      "facts": [],
+      "role": "great_great_uncle_aunt",
+      "birth": {
+        "date": "1892",
+        "date_precision": "year",
+        "place_id": "pl_nadworna",
+        "confidence": "documented",
+        "sources": [
+          "src_gelles_griffel_nadworna_pdf"
+        ]
+      },
+      "father_id": "p_leizor_griffel",
+      "mother_id": "p_sara_chajes",
+      "note_en": "One of the 10 children of Eliezer Griffel + Sarah Matel Chajes of Nadwórna.  Married Bonya (Abraham) Ohrenstein."
+    },
+    {
+      "id": "p_chaya_griffel",
+      "primary_name": {
+        "en": "Chaya Griffel-Gruenfeld",
+        "he": "חיה גריפל-גרינפלד",
+        "pl": "Chaya Griffel-Gruenfeld",
+        "fr": "Chaya Griffel-Gruenfeld"
+      },
+      "aliases": [],
+      "facts": [],
+      "role": "great_great_uncle_aunt",
+      "death": {
+        "date": "1918",
+        "date_precision": "year",
+        "confidence": "documented",
+        "sources": [
+          "src_gelles_griffel_nadworna_pdf"
+        ]
+      },
+      "father_id": "p_leizor_griffel",
+      "mother_id": "p_sara_chajes",
+      "note_en": "One of the 10 children of Eliezer Griffel + Sarah Matel Chajes of Nadwórna. Her grandson via son Samuel was Yehuda Nir (Juliusz Gruenfeld, 1930-2014 NYC), Holocaust survivor and author of 'The Lost Childhood' memoir — first cousin once removed of David Memek. Married Shlomo Gruenfeld (1869-1953).",
+      "spouse_id": "p_shlomo_gruenfeld"
+    },
+    {
+      "id": "p_dawid_mendel_griffel_sr",
+      "primary_name": {
+        "en": "David Mendel Griffel Sr.",
+        "he": "דוד מנדל גריפל הראשון",
+        "pl": "Dawid Mendel Griffel st.",
+        "fr": "David Mendel Griffel (l'aîné)"
+      },
+      "aliases": [],
+      "facts": [],
+      "birth": {
+        "place_id": "pl_nadworna",
+        "confidence": "documented",
+        "sources": [
+          "src_gelles_griffel_nadworna_pdf"
+        ],
+        "note_en": "Born early 19th century in Nadwórna."
+      },
+      "role": "ggg_grandfather",
+      "note_en": "Father of Eliezer \"Zeida\" Griffel (1850-1918) of Nadwórna. Edward Gelles places the Griffel rabbinical-merchant line in the 18th-century Lemberg circle of Rav Leiser Neches and Rav Jacob Leib.",
+      "spouse_id": "p_taube_griffel",
+      "children_ids": [
+        "p_leizor_griffel"
+      ]
+    },
+    {
+      "id": "p_taube_griffel",
+      "primary_name": {
+        "en": "Taube Griffel",
+        "he": "טויבה גריפל",
+        "pl": "Taube Griffel",
+        "fr": "Taube Griffel"
+      },
+      "aliases": [],
+      "facts": [],
+      "role": "ggg_grandmother",
+      "note_en": "Mother of Eliezer \"Zeida\" Griffel of Nadwórna. Recorded in Edward Gelles, \"Griffel of Nadworna\".",
+      "spouse_id": "p_dawid_mendel_griffel_sr",
+      "children_ids": [
+        "p_leizor_griffel"
+      ]
+    },
+    {
+      "id": "p_steven_lamm_living",
+      "primary_name": {
+        "en": "Dr Steven Lamm, MD",
+        "he": "ד\"ר סטיבן לאם",
+        "pl": "Dr Steven Lamm",
+        "fr": "Dr Steven Lamm"
+      },
+      "aliases": [],
+      "facts": [
+        {
+          "key": "contact",
+          "value": "NYU Langone Preston Robert Tisch Center for Men's Health, NYC",
+          "confidence": "documented",
+          "sources": [
+            "src_gelles_griffel_nadworna_pdf"
+          ]
+        }
+      ],
+      "birth": {
+        "date": "1948",
+        "date_precision": "year",
+        "confidence": "documented",
+        "sources": [
+          "src_gelles_griffel_nadworna_pdf"
+        ]
+      },
+      "role": "living_cousin",
+      "note_en": "LIVING 2nd cousin once removed of David Memek Rapaport (b.1948). Internist at NYU Langone Health, New York City; medical director of the Preston Robert Tisch Center for Men's Health. Author of 'The Hardness Factor', 'No Guts No Glory'. Regular Today Show medical contributor 2000s. Line: Eliezer Griffel → Zissel Griffel-Lamm → Dr Arnold Lamm → Steven Lamm. Public-facing physician; reachable via NYU Langone.",
+      "father_id": "p_arnold_lamm"
+    },
+    {
+      "id": "p_andrew_griffel_living",
+      "primary_name": {
+        "en": "Andrew Griffel",
+        "he": "אנדרו גריפל",
+        "pl": "Andrew Griffel",
+        "fr": "Andrew Griffel"
+      },
+      "aliases": [],
+      "facts": [],
+      "role": "living_cousin",
+      "note_en": "LIVING 2nd cousin once removed of David Memek Rapaport. International attorney; former IDF Military Judge; Hidden-Child Holocaust survivor (parents survived in Poland). Times of Israel blogger. Splits time NYC and Israel. Line: Eliezer Griffel → Isaac Chaim Griffel → Yehoshua Heshel \"Henry\" Griffel → Andrew. Public author page: https://www.timesofisrael.com/writers/andrew-griffel/",
+      "father_id": "p_henry_griffel"
+    },
+    {
+      "id": "p_boruch_griffel_living",
+      "primary_name": {
+        "en": "Boruch Griffel",
+        "he": "ברוך גריפל",
+        "pl": "Boruch Griffel",
+        "fr": "Boruch Griffel"
+      },
+      "aliases": [],
+      "facts": [],
+      "role": "living_cousin",
+      "note_en": "LIVING cousin via Isaac Chaim Griffel → Shmuel Shmelke Griffel → Boruch. Lives in Jerusalem. Named by Edward Gelles as a private-communication source on Griffel-Nadwórna research."
+    },
+    {
+      "id": "p_pinhas_heyn_living",
+      "primary_name": {
+        "en": "Pinhas (Pinchas) Heyn",
+        "he": "פנחס היין",
+        "pl": "Pinhas Heyn",
+        "fr": "Pinhas Heyn"
+      },
+      "aliases": [],
+      "facts": [],
+      "role": "living_cousin",
+      "note_en": "LIVING 3rd cousin of David Memek Rapaport. Lives in Israel. Edward Gelles's DNA-confirmed cousin via autosomal testing. Line: Eliezer Griffel → Chaya Griffel-Gruenfeld → Sima Gruenfeld-Blau → Clara Blau-Heyn → Pinhas."
+    },
+    {
+      "id": "p_haim_gelles_living",
+      "primary_name": {
+        "en": "Haim Gelles",
+        "he": "חיים גלס",
+        "pl": "Haim Gelles",
+        "fr": "Haim Gelles"
+      },
+      "aliases": [],
+      "facts": [],
+      "role": "living_cousin",
+      "note_en": "LIVING son of Edward Gelles (the published genealogist of the Griffel-Nadwórna dynasty). Named in Gelles's PDFs as 'my son Haim, his spouse Shevi'. Has a son Avi Gelles. Likely UK/Israel. Contact via Balliol Archives (archives@balliol.ox.ac.uk).",
+      "father_id": "p_edward_gelles_cousin",
+      "children_ids": [
+        "p_avi_gelles_living"
+      ]
+    },
+    {
+      "id": "p_avi_gelles_living",
+      "primary_name": {
+        "en": "Avi Gelles",
+        "he": "אבי גלס",
+        "pl": "Avi Gelles",
+        "fr": "Avi Gelles"
+      },
+      "aliases": [],
+      "facts": [],
+      "role": "living_cousin",
+      "note_en": "LIVING grandson of Edward Gelles; named in Gelles's published Griffel-Nadwórna pedigree.",
+      "father_id": "p_haim_gelles_living"
+    },
+    {
+      "id": "p_edward_gelles_cousin",
+      "primary_name": {
+        "en": "Edward Gelles",
+        "he": "אדוארד גלס",
+        "pl": "Edward Gelles",
+        "fr": "Edward Gelles"
+      },
+      "aliases": [],
+      "facts": [],
+      "birth": {
+        "date": "1927",
+        "place_id": "pl_vienna",
+        "date_precision": "year",
+        "confidence": "documented",
+        "sources": [
+          "src_gelles_griffel_nadworna_pdf"
+        ]
+      },
+      "death": {
+        "date": "2023",
+        "date_precision": "year",
+        "confidence": "likely",
+        "sources": [
+          "src_gelles_griffel_nadworna_pdf"
+        ],
+        "note_en": "Date approximate; archive papers say recent death."
+      },
+      "role": "cousin",
+      "note_en": "2nd cousin once removed of David Memek Rapaport. Published genealogist whose work at Balliol College Oxford documents the entire Griffel-Chajes-Wahl-Gelles dynasty of Galicia. Authored 'An Ancient Lineage: European Roots of a Jewish Family' (Vallentine Mitchell, 2006). His mother Regina Gelles née Griffel (1900-1954) was David Memek's first cousin. His Balliol PDFs are the single most important written source on our maternal line.",
+      "mother_id": "p_regina_gelles"
+    },
+    {
+      "id": "p_dr_jacob_griffel",
+      "primary_name": {
+        "en": "Dr Jacob Griffel",
+        "he": "ד\"ר יעקב גריפל",
+        "pl": "Dr Jakub Griffel",
+        "fr": "Dr Jacob Griffel"
+      },
+      "aliases": [],
+      "facts": [],
+      "birth": {
+        "date": "1900",
+        "date_precision": "year",
+        "place_id": "pl_nadworna",
+        "confidence": "documented",
+        "sources": [
+          "src_gelles_griffel_nadworna_pdf"
+        ]
+      },
+      "death": {
+        "date": "1962",
+        "date_precision": "year",
+        "confidence": "documented",
+        "sources": [
+          "src_gelles_griffel_nadworna_pdf"
+        ]
+      },
+      "role": "first_cousin",
+      "note_en": "1st cousin of David Memek Rapaport. Famed Vaad ha-Hatzala rescuer in Istanbul during WWII, helping save Polish Jews. Subject of Joseph Friedenson's book 'Dateline: Istanbul: Dr Jacob Griffel's Lone Odyssey Through a Sea of Indifference' (ArtScroll, 1987). Son of Isaac Chaim Griffel + Judith Breit.",
+      "father_id": "p_isaac_chaim_griffel",
+      "mother_id": "p_judith_breit"
+    },
+    {
+      "id": "p_yehuda_nir",
+      "primary_name": {
+        "en": "Yehuda Nir (Juliusz Gruenfeld)",
+        "he": "יהודה ניר (יוליוס גרינפלד)",
+        "pl": "Juliusz Gruenfeld / Yehuda Nir",
+        "fr": "Yehuda Nir (Juliusz Gruenfeld)"
+      },
+      "aliases": [],
+      "facts": [],
+      "birth": {
+        "date": "1930",
+        "date_precision": "year",
+        "place_id": "pl_lwow",
+        "confidence": "documented",
+        "sources": [
+          "src_gelles_griffel_nadworna_pdf"
+        ]
+      },
+      "death": {
+        "date": "2014",
+        "date_precision": "year",
+        "place_id": "pl_new_york",
+        "confidence": "documented",
+        "sources": [
+          "src_gelles_griffel_nadworna_pdf"
+        ]
+      },
+      "role": "first_cousin_once_removed",
+      "note_en": "1st cousin once removed of David Memek Rapaport. Born Juliusz Gruenfeld in Lwów 1930. Holocaust survivor who lived under false papers in Aryan-side Warsaw and Lwów — the same world as our Lusia's survival story. Cornell Professor of Psychiatry. Author of the celebrated 1989 memoir 'The Lost Childhood: A Memoir'. Line: Eliezer Griffel → Chaya Griffel-Gruenfeld → Samuel Gruenfeld → Yehuda."
+    },
+    {
+      "id": "p_zaynvl_rapaport",
+      "primary_name": {
+        "en": "Zaynvl Rapaport",
+        "he": "זיינוול רפפורט",
+        "pl": "Zaynvl Rapaport",
+        "fr": "Zaynvl Rapaport"
+      },
+      "aliases": [],
+      "facts": [],
+      "role": "extended_relative_paternal",
+      "note_en": "Documented in the Bolechów Yizkor 1957 (chapter 'Wood and Other Industries' by Abraham Weber, p.102) as a senior Jewish wood-industry specialist at the Bolechów timber factory. Likely a paternal uncle or older cousin of David Memek Rapaport given the surname, location, and forestry connection."
+    },
+    {
+      "id": "p_zishe_vaytsner",
+      "primary_name": {
+        "en": "Zishe Vaytsner",
+        "he": "זישא וייצנר",
+        "pl": "Zishe Wajcner",
+        "fr": "Zishe Vaytsner"
+      },
+      "aliases": [],
+      "facts": [],
+      "role": "extended_relative_maternal",
+      "note_en": "Documented in the Bolechów Yizkor 1957 (chapter 'Wood and Other Industries' by Abraham Weber, p.102) as owner of one of two large factories in Bolechów (a candle factory at the station). Likely a Weitzner uncle or cousin of Lusia/Leah."
+    },
+    {
+      "id": "p_shlomele_weitzner",
+      "primary_name": {
+        "en": "Shlomele Weitzner",
+        "he": "שלומלה וייצנר",
+        "pl": "Szlomek Weitzner",
+        "fr": "Shlomele Weitzner"
+      },
+      "aliases": [],
+      "facts": [],
+      "role": "extended_relative_maternal",
+      "note_en": "Documented in the Bolechów Yizkor (bol086.html). A Bolechów youth who gave his free time to a youth-movement organization but died young of dysentery pre-war. Possibly a younger brother or cousin of Lusia."
+    },
+    {
+      "id": "p_zygmunt_griffel",
+      "primary_name": {
+        "en": "Zygmunt Griffel",
+        "he": "זיגמונט גריפל",
+        "pl": "Zygmunt Griffel",
+        "fr": "Zygmunt Griffel"
+      },
+      "aliases": [],
+      "facts": [],
+      "birth": {
+        "date": "1897",
+        "date_precision": "year",
+        "place_id": "pl_nadworna",
+        "confidence": "documented",
+        "sources": [
+          "src_gelles_griffel_nadworna_pdf"
+        ]
+      },
+      "death": {
+        "date": "1951",
+        "date_precision": "year",
+        "confidence": "documented",
+        "sources": [
+          "src_gelles_griffel_nadworna_pdf"
+        ]
+      },
+      "role": "first_cousin",
+      "note_en": "1st cousin of David Memek. Son of David Mendel Griffel + Chawa Wahl. Born Nadwórna 1897, died 1951.",
+      "father_id": "p_david_mendel_griffel",
+      "mother_id": "p_chawa_wahl"
+    },
+    {
+      "id": "p_regina_gelles",
+      "primary_name": {
+        "en": "Regina Gelles (née Griffel)",
+        "he": "רגינה גלס (לבית גריפל)",
+        "pl": "Regina Gelles (z domu Griffel)",
+        "fr": "Regina Gelles (née Griffel)"
+      },
+      "aliases": [],
+      "facts": [],
+      "birth": {
+        "date": "1900-03-18",
+        "date_precision": "day",
+        "place_id": "pl_nadworna",
+        "confidence": "documented",
+        "sources": [
+          "src_gelles_griffel_nadworna_pdf",
+          "src_ushmm_stanislawow_passport"
+        ]
+      },
+      "death": {
+        "date": "1954",
+        "date_precision": "year",
+        "confidence": "documented",
+        "sources": [
+          "src_gelles_griffel_nadworna_pdf"
+        ]
+      },
+      "role": "first_cousin",
+      "note_en": "1st cousin of David Memek. Born Nadwórna 18 March 1900 (USHMM Passport Application). Married Dr David Isaac Gelles of Vienna. Reached England 13 Aug 1938 as Nazi refugee with husband and elder son Ludwig. Mother of the genealogist Edward Gelles. Blue eyes, blond hair, medium height (per her 1919 Polish passport application).",
+      "father_id": "p_david_mendel_griffel",
+      "mother_id": "p_chawa_wahl",
+      "children_ids": [
+        "p_edward_gelles_cousin"
+      ]
+    },
+    {
+      "id": "p_edward_griffel_uncle",
+      "primary_name": {
+        "en": "Edward Griffel",
+        "he": "אדוארד גריפל",
+        "pl": "Edward Griffel",
+        "fr": "Edward Griffel"
+      },
+      "aliases": [],
+      "facts": [],
+      "birth": {
+        "date": "1904-10-09",
+        "date_precision": "day",
+        "place_id": "pl_nadworna",
+        "confidence": "documented",
+        "sources": [
+          "src_gelles_griffel_nadworna_pdf",
+          "src_ushmm_stanislawow_passport"
+        ]
+      },
+      "death": {
+        "date": "1959",
+        "date_precision": "year",
+        "confidence": "documented",
+        "sources": [
+          "src_gelles_griffel_nadworna_pdf"
+        ]
+      },
+      "role": "first_cousin",
+      "note_en": "1st cousin of David Memek. Born Nadwórna 9 Oct 1904. Industrialist (Przemysłowiec) resident Stanisławów.",
+      "father_id": "p_david_mendel_griffel",
+      "mother_id": "p_chawa_wahl"
+    },
+    {
+      "id": "p_chawa_wahl",
+      "primary_name": {
+        "en": "Chawa Griffel (née Wahl)",
+        "he": "חוה גריפל (לבית וואהל)",
+        "pl": "Chawa Griffel (z domu Wahl)",
+        "fr": "Chawa Griffel (née Wahl)"
+      },
+      "aliases": [],
+      "facts": [],
+      "birth": {
+        "date": "1877",
+        "date_precision": "year",
+        "confidence": "documented",
+        "sources": [
+          "src_gelles_griffel_nadworna_pdf"
+        ]
+      },
+      "death": {
+        "date": "1941",
+        "date_precision": "year",
+        "place_id": "pl_nadworna",
+        "confidence": "documented",
+        "sources": [
+          "src_gelles_griffel_nadworna_pdf"
+        ],
+        "note_en": "Murdered in 1941 — almost certainly the 6 October 1941 Bukowinka Forest mass shooting in Nadwórna."
+      },
+      "role": "first_cousin_in_law",
+      "note_en": "Wife of David Mendel Griffel (Rebeka's eldest brother). Of the Wahl family — connecting to the Saul Wahl Katzenellenbogen rabbinical dynasty per Edward Gelles.",
+      "spouse_id": "p_david_mendel_griffel"
+    },
+    {
+      "id": "p_benzion_wilner",
+      "primary_name": {
+        "en": "Benzion Wilner",
+        "he": "בנציון וילנר",
+        "pl": "Benzion Wilner",
+        "fr": "Benzion Wilner"
+      },
+      "aliases": [],
+      "facts": [],
+      "role": "uncle_in_law",
+      "note_en": "Husband of Machla Griffel-Wilner."
+    },
+    {
+      "id": "p_zygmunt_lamm",
+      "primary_name": {
+        "en": "Zygmunt (Shalom) Lamm",
+        "he": "זיגמונט (שלום) לאם",
+        "pl": "Zygmunt (Shalom) Lamm",
+        "fr": "Zygmunt (Shalom) Lamm"
+      },
+      "aliases": [],
+      "facts": [],
+      "role": "uncle_in_law",
+      "note_en": "Husband of Zissel Griffel-Lamm. Father of Dr Arnold Lamm; grandfather of Dr Steven Lamm (NYC, living)."
+    },
+    {
+      "id": "p_arnold_lamm",
+      "primary_name": {
+        "en": "Dr Arnold Lamm",
+        "he": "ד\"ר ארנולד לאם",
+        "pl": "Dr Arnold Lamm",
+        "fr": "Dr Arnold Lamm"
+      },
+      "aliases": [],
+      "facts": [],
+      "role": "first_cousin_once_removed",
+      "note_en": "Son of Zissel + Zygmunt Lamm. Father of Dr Steven Lamm."
+    },
+    {
+      "id": "p_judith_breit",
+      "primary_name": {
+        "en": "Judith Griffel (née Breit)",
+        "he": "יהודית גריפל (לבית בריט)",
+        "pl": "Judith Griffel (née Breit)",
+        "fr": "Judith Griffel (née Breit)"
+      },
+      "aliases": [],
+      "facts": [],
+      "role": "first_cousin_in_law",
+      "note_en": "Wife of Isaac Chaim Griffel. Died 1938."
+    },
+    {
+      "id": "p_henry_griffel",
+      "primary_name": {
+        "en": "Yehoshua Heshel \"Henry\" Griffel",
+        "he": "יהושע השל 'הנרי' גריפל",
+        "pl": "Yehoshua Heshel \"Henry\" Griffel",
+        "fr": "Yehoshua Heshel \"Henry\" Griffel"
+      },
+      "aliases": [],
+      "facts": [],
+      "role": "first_cousin",
+      "note_en": "Son of Isaac Chaim Griffel + Judith Breit. Emigrated to New Jersey. Father of Andrew Griffel (NYC/Israel, living)."
+    },
+    {
+      "id": "p_shlomo_gruenfeld",
+      "primary_name": {
+        "en": "Shlomo Gruenfeld",
+        "he": "שלמה גרינפלד",
+        "pl": "Shlomo Gruenfeld",
+        "fr": "Shlomo Gruenfeld"
+      },
+      "aliases": [],
+      "facts": [],
+      "role": "uncle_in_law",
+      "note_en": "Husband of Chaya Griffel-Gruenfeld (1869-1953)."
     }
   ]
 }
