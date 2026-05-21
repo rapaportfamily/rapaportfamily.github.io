@@ -10,6 +10,21 @@
       "intro_he": "המחקר שלנו פועל לפי מסגרת של שלוש עמודות. עמוד 1 (📖 מהספר) מעשיר את היומן של לוסיה משנת 1986 בנתונים ובוויזואלים. עמוד 2 (⚖️ יומן מול היסטוריה) מיישב את סיפורה עם רישומים חיצוניים, מכבד את שניהם. עמוד 3 (🔍 ראיות עצמאיות) מביא עובדות מארכיונים שהיומן לא יכול היה לכלול. אנו אוחזים בשלושתם באיזון — מכבדים את קול המשפחה ופועלים לדיוק היסטורי.",
       "cards": [
         {
+          "id": "jdc_archive_smoking_gun_collections",
+          "pillar": "memoir_vs_history",
+          "title_en": "🎯 JDC Archives smoking-gun list identified — 3 Bricha PDFs are the single best test of the David hypothesis",
+          "title_he": "🎯 רשימת ארכיוני הג'וינט הקריטית זוהתה — 3 קובצי הבריחה הם המבחן הטוב ביותר להשערת דוד",
+          "status": "lead",
+          "summary_en": "JDC Archives publishes a master list of name-indexed collections at https://archives.jdc.org/our-collections/names-index/lists-in-the-names-index/. For the corrected David hypothesis (in-Lwów under disguise → Bricha → Brussels DP → Theodor Herzl), the highest-yield single test is the THREE BRICHA PDFs covering Nachod border-town transit June-December 1946:\n\n   • Polish Jews via Czechoslovakia, June-July 1946\n   • Polish Jews via Czechoslovakia, August 1946\n   • Polish Jews via Czechoslovakia, September-December 1946\n\nEach PDF lists name + birthdate + birthplace. A hit on 'Rapaport' / 'David' / '25 Dec 1911' / 'Nadwórna' = the entire Lwów→Brussels arc confirmed in primary-source 1946 records.\n\nOTHER TIER-1 COLLECTIONS for the same trajectory:\n   • Warsaw Office Emigration Index Cards 1945-49 (6,400 cards)\n   • Prague Office Emigration Case Files 1945-50 (~22,000 individuals)\n   • Paris Office Emigration Cards 1945-53 (~30,000 cards)\n   • Munich + Vienna Offices DP Cards 1945-mid-1950s (~76,000 cards)\n\nTier-3 long shots for Berisz / Eli Weitzner pre-Holocaust:\n   • Polish Jews by Town Requesting US Assistance, 1921 (24 MB)\n   • Vienna Professionals Food Parcels, 1920 (Galicia served by Vienna JDC)\n   • Rohatyn Jewish Men Imprisoned in Siberia, 1916 (Galician town near Nadwórna)\n\nJDC NY 1914-19 Russian Empire remittance PDFs (the ones already scanned) were geographically wrong for our family — Galicia was Austria-Hungary, served by JDC Vienna, not the NY-to-Russia pipeline.",
+          "summary_he": "ארכיוני הג'וינט מפרסמים רשימה מרכזית של אוספים אינדקסים-בשמות בכתובת https://archives.jdc.org/our-collections/names-index/lists-in-the-names-index/. עבור השערת דוד המתוקנת (בלבוב בתחפושת → בריחה → מחנה עקורים בבריסל → תיאודור הרצל), הבדיקה היחידה בעלת הסבירות הגבוהה ביותר היא שלושת קובצי הבריחה המכסים את מעבר עיירת הגבול נחוד יוני-דצמבר 1946: יוני-יולי, אוגוסט, ספטמבר-דצמבר. כל קובץ מציין שם + תאריך לידה + מקום לידה. תוצאה ל-'רפפורט' / 'דוד' / '25 בדצמבר 1911' / 'נדבורנה' תאשר את הקשת המלאה מלבוב לבריסל ברישומי המקור הראשוניים מ-1946.",
+          "action_item_en": "Download the 3 Bricha PDFs from https://archives.jdc.org/our-collections/names-index/lists-in-the-names-index/, drop in OneDrive/Desktop/R.P.A.PORT LTD/, and I will scan immediately. One hit = the entire David trajectory confirmed.",
+          "source": "JDC Archives master Names Index inventory page (extracted via Playwright 2026-05-21)",
+          "urls": [
+            "https://archives.jdc.org/our-collections/names-index/lists-in-the-names-index/",
+            "https://search.archives.jdc.org/"
+          ]
+        },
+        {
           "id": "david_indeks_jdc_manual_search_instructions",
           "title_en": "✅ 1 of 2 done — Indeks NULL confirmed; JDC Cloudflare blocks bots, user must run manually",
           "title_he": "✅ 1 מתוך 2 הושלמו — Indeks אומת ריק; JDC חסום בקלאודפלייר, על המשתמש לבצע ידנית",
@@ -2097,5 +2112,5 @@
       ]
     }
   ],
-  "build_version": "2026-05-21-T30-jdc-cloudflare-blocked-user-must-run"
+  "build_version": "2026-05-21-T32-jdc-smoking-gun-collections-identified"
 }
