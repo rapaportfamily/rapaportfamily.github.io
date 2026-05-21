@@ -1,8 +1,24 @@
 {
   "_schema": {
     "description": "Chronological events for the timeline view. Order by date_sort.",
-    "types": ["birth", "marriage", "death", "migration", "occupation", "war_event", "registration", "discovery", "context"],
-    "confidence_levels": ["confirmed", "documented", "family_oral", "hypothesis", "context"]
+    "types": [
+      "birth",
+      "marriage",
+      "death",
+      "migration",
+      "occupation",
+      "war_event",
+      "registration",
+      "discovery",
+      "context"
+    ],
+    "confidence_levels": [
+      "confirmed",
+      "documented",
+      "family_oral",
+      "hypothesis",
+      "context"
+    ]
   },
   "events": [
     {
@@ -12,7 +28,10 @@
       "date_sort": "1905-01-01",
       "type": "marriage",
       "place_id": "pl_dolina",
-      "people_ids": ["p_elias_weitzner", "p_matel_weinreb"],
+      "people_ids": [
+        "p_elias_weitzner",
+        "p_matel_weinreb"
+      ],
       "title": {
         "en": "Elias Weitzner and Matel Weinreb marry in Dolina",
         "he": "אליהו וייצנר ומתל ויינרב מתחתנים בדולינה",
@@ -26,7 +45,10 @@
         "fr": "Mariage civil statutaire à Dolina. D'après l'acte de naissance de Léa."
       },
       "confidence": "confirmed",
-      "sources": ["doc_leah_birth_bolechow_1913", "report_basia_13may"]
+      "sources": [
+        "doc_leah_birth_bolechow_1913",
+        "report_basia_13may"
+      ]
     },
     {
       "id": "e_rebeka_birth",
@@ -35,7 +57,9 @@
       "date_sort": "1888-01-01",
       "type": "birth",
       "place_id": "pl_nadworna",
-      "people_ids": ["p_rebeka"],
+      "people_ids": [
+        "p_rebeka"
+      ],
       "title": {
         "en": "Rebeka Griffel born in Nadwórna",
         "he": "רבקה גריפל נולדת בנדבורנא",
@@ -49,7 +73,9 @@
         "fr": "Fille de Leizor Griffel et Sara née Chajes, commerçants de Nadwórna."
       },
       "confidence": "confirmed",
-      "sources": ["doc_rebeka_birth_nadworna"]
+      "sources": [
+        "doc_rebeka_birth_nadworna"
+      ]
     },
     {
       "id": "e_feige_birth",
@@ -58,7 +84,9 @@
       "date_sort": "1911-01-01",
       "type": "birth",
       "place_id": "pl_bolechow",
-      "people_ids": ["p_feige"],
+      "people_ids": [
+        "p_feige"
+      ],
       "title": {
         "en": "Feige (Tzipora) Weitzner born in Bolechów",
         "he": "פייגה (ציפורה) וייצנר נולדה בבולוכוב",
@@ -72,7 +100,9 @@
         "fr": "Sœur aînée de Léa. Le père Elias est inscrit comme marchand de bétail."
       },
       "confidence": "confirmed",
-      "sources": ["doc_feige_birth_1911"]
+      "sources": [
+        "doc_feige_birth_1911"
+      ]
     },
     {
       "id": "e_david_birth",
@@ -81,7 +111,9 @@
       "date_sort": "1911-12-25",
       "type": "birth",
       "place_id": "pl_nadworna",
-      "people_ids": ["p_david"],
+      "people_ids": [
+        "p_david"
+      ],
       "title": {
         "en": "David (Dawid Mendel) Rapaport born in Nadwórna",
         "he": "דוד (דוד מנדל) רפפורט נולד בנדבורנא",
@@ -95,7 +127,10 @@
         "fr": "Fils de Berisz Rapaport et Rebeka Griffel. Le lieu de naissance vérifié — la fiche DP de Bruxelles indiquant « Cieszyn (Tesin) » résultait d'une erreur de transcription du fonctionnaire français."
       },
       "confidence": "confirmed",
-      "sources": ["doc_david_birth_nadworna", "report_basia_15may"]
+      "sources": [
+        "doc_david_birth_nadworna",
+        "report_basia_15may"
+      ]
     },
     {
       "id": "e_rebeka_krynica_1912",
@@ -104,7 +139,9 @@
       "date_sort": "1912-07-25",
       "type": "registration",
       "place_id": "pl_krynica",
-      "people_ids": ["p_rebeka"],
+      "people_ids": [
+        "p_rebeka"
+      ],
       "title": {
         "en": "Regina Rapaport registers at Alfredówka in Krynica",
         "he": "רגינה רפפורט נרשמת באלפרדובקה בקריניצה",
@@ -118,7 +155,9 @@
         "fr": "Regina (Rebeka) Rapaport, épouse d'un commerçant de Nadwórna, s'inscrit seule à la pension Alfredówka dans la station thermale de Krynica le 25 juillet 1912 (page 7 du journal)."
       },
       "confidence": "confirmed",
-      "sources": ["doc_newspaper_1912_krynica"]
+      "sources": [
+        "doc_newspaper_1912_krynica"
+      ]
     },
     {
       "id": "e_leah_birth",
@@ -127,7 +166,9 @@
       "date_sort": "1913-04-08",
       "type": "birth",
       "place_id": "pl_bolechow",
-      "people_ids": ["p_leah"],
+      "people_ids": [
+        "p_leah"
+      ],
       "title": {
         "en": "Leah Weitzner born in Bolechów",
         "he": "לאה וייצנר נולדה בבולוכוב",
@@ -141,7 +182,10 @@
         "fr": "Fille d'Elias (marchand de bétail) et Matel (née Weinreb) Weitzner. Nommée à la synagogue de Bolechów le 12 avril. L'acte de décès familial indique 6.4.1916 — un conflit à résoudre."
       },
       "confidence": "documented",
-      "sources": ["doc_leah_birth_bolechow_1913", "report_basia_13may"]
+      "sources": [
+        "doc_leah_birth_bolechow_1913",
+        "report_basia_13may"
+      ]
     },
     {
       "id": "e_moses_birth",
@@ -150,7 +194,9 @@
       "date_sort": "1916-01-01",
       "type": "birth",
       "place_id": "pl_bolechow",
-      "people_ids": ["p_moses_weitzner"],
+      "people_ids": [
+        "p_moses_weitzner"
+      ],
       "title": {
         "en": "Moses (Mojzesz) Weitzner born in Bolechów",
         "he": "משה (מויז'ש) וייצנר נולד בבולוכוב",
@@ -164,7 +210,9 @@
         "fr": "Frère cadet de Léa. Le père Elias est de nouveau inscrit comme marchand de bétail."
       },
       "confidence": "confirmed",
-      "sources": ["doc_moses_birth_1916"]
+      "sources": [
+        "doc_moses_birth_1916"
+      ]
     },
     {
       "id": "e_weitzner_emigration_1933",
@@ -173,7 +221,13 @@
       "date_sort": "1933-01-01",
       "type": "migration",
       "place_id": "pl_bolechow",
-      "people_ids": ["p_elias_weitzner", "p_matel_weinreb", "p_feige", "p_moses_weitzner", "p_pnina_weitzner"],
+      "people_ids": [
+        "p_elias_weitzner",
+        "p_matel_weinreb",
+        "p_feige",
+        "p_moses_weitzner",
+        "p_pnina_weitzner"
+      ],
       "title": {
         "en": "Weitzner family emigrates to Mandatory Palestine",
         "he": "משפחת וייצנר עולה לארץ ישראל",
@@ -187,7 +241,10 @@
         "fr": "Elias et Matel vendent la tannerie et émigrent avec trois de leurs quatre enfants. Elias obtient un visa britannique de « capitaliste » avec 1000 £. Léa ne les accompagne pas — elle reste en Galicie."
       },
       "confidence": "family_oral",
-      "sources": ["oral_doron_13may", "oral_dana_15may"]
+      "sources": [
+        "oral_doron_13may",
+        "oral_dana_15may"
+      ]
     },
     {
       "id": "e_david_leah_marriage",
@@ -196,7 +253,10 @@
       "date_sort": "1938-02-01",
       "type": "marriage",
       "place_id": "pl_mosina_disputed",
-      "people_ids": ["p_david", "p_leah"],
+      "people_ids": [
+        "p_david",
+        "p_leah"
+      ],
       "title": {
         "en": "David Rapaport and Leah Weitzner marry",
         "he": "דוד רפפורט ולאה וייצנר מתחתנים",
@@ -210,7 +270,10 @@
         "fr": "D'après les mémoires familiales, ils se sont mariés en février 1938 dans une petite ville nommée « Mosina » (lieu non résolu — voir hypothèses). Léa avait 18 ans, Dawid 24."
       },
       "confidence": "family_oral",
-      "sources": ["oral_dana_14may", "oral_doron_06may"]
+      "sources": [
+        "oral_dana_14may",
+        "oral_doron_06may"
+      ]
     },
     {
       "id": "e_david_1938_lwow",
@@ -219,7 +282,9 @@
       "date_sort": "1938-01-01",
       "type": "registration",
       "place_id": "pl_lwow",
-      "people_ids": ["p_david"],
+      "people_ids": [
+        "p_david"
+      ],
       "title": {
         "en": "David Rapaport in Lwów (1 Jan 1938)",
         "he": "דוד רפפורט בלבוב (1 בינואר 1938)",
@@ -233,7 +298,9 @@
         "fr": "Selon la fiche DP de Bruxelles de 1946, le lieu de résidence de Dawid au 1er janvier 1938 était Lwów, Pologne."
       },
       "confidence": "confirmed",
-      "sources": ["doc_david_dp_card"]
+      "sources": [
+        "doc_david_dp_card"
+      ]
     },
     {
       "id": "e_shimon_birth",
@@ -242,7 +309,9 @@
       "date_sort": "1937-06-22",
       "type": "birth",
       "place_id": "pl_mosina_disputed",
-      "people_ids": ["p_shimon"],
+      "people_ids": [
+        "p_shimon"
+      ],
       "title": {
         "en": "Shimon (Szymon) Rapaport born",
         "he": "שמעון רפפורט נולד",
@@ -256,7 +325,10 @@
         "fr": "D'après l'enregistrement CKŻP d'après-guerre. Mère Lusia, père Dawid. Le lieu de naissance selon les mémoires est « Mosina » (contesté). Les mémoires mentionnent Léa emmenant le bébé Szymon à une rivière là-bas."
       },
       "confidence": "documented",
-      "sources": ["doc_szymon_ckzp", "oral_doron_06may"]
+      "sources": [
+        "doc_szymon_ckzp",
+        "oral_doron_06may"
+      ]
     },
     {
       "id": "e_war_begins",
@@ -287,7 +359,9 @@
       "date_sort": "1939-10-01",
       "type": "occupation",
       "place_id": "pl_przemysl",
-      "people_ids": ["p_leah"],
+      "people_ids": [
+        "p_leah"
+      ],
       "title": {
         "en": "Leah in Przemyśl, working under Soviet administration",
         "he": "לאה בפשמישל, עובדת תחת השלטון הסובייטי",
@@ -301,7 +375,10 @@
         "fr": "Après le début de la guerre, Léa s'enfuit à Przemyśl. La ville était DIVISÉE le long du San — allemande d'un côté, soviétique de l'autre. Léa travaillait du côté soviétique comme caissière et au service des passeports. Elle y rendait visite aux parents de Dawid (Berisz et Rebeka)."
       },
       "confidence": "family_oral",
-      "sources": ["oral_dana_15may", "oral_doron_15may"]
+      "sources": [
+        "oral_dana_15may",
+        "oral_doron_15may"
+      ]
     },
     {
       "id": "e_lwow_period_1941",
@@ -310,7 +387,10 @@
       "date_sort": "1941-07-01",
       "type": "war_event",
       "place_id": "pl_lwow",
-      "people_ids": ["p_david", "p_leah"],
+      "people_ids": [
+        "p_david",
+        "p_leah"
+      ],
       "title": {
         "en": "David and Leah in Lwów under false identities",
         "he": "דוד ולאה בלבוב תחת זהויות בדויות",
@@ -324,7 +404,9 @@
         "fr": "Après la prise de Lwów par les Allemands en 1941, Dawid et Léa ont survécu sous de fausses identités. Léa habitait rue Legionów 24 avec de faux papiers 'Hormek' — elle utilisait aussi le nom 'Maria Cizlik' (identité empruntée). Elle gérait un magasin d'art/antiquités. Dawid travaillait à la construction ferroviaire/routière. Ils se sont rencontrés rue Rapaport à Lwów. Ils ont vécu séparés par périodes. La sœur de Dawid, Lota, était aussi à Lwów."
       },
       "confidence": "family_oral",
-      "sources": ["oral_doron_13may"]
+      "sources": [
+        "oral_doron_13may"
+      ]
     },
     {
       "id": "e_david_ghetto_escape",
@@ -333,7 +415,9 @@
       "date_sort": "1941-06-01",
       "type": "war_event",
       "place_id": "pl_nadworna",
-      "people_ids": ["p_david"],
+      "people_ids": [
+        "p_david"
+      ],
       "title": {
         "en": "David escapes the Nadwórna ghetto",
         "he": "דוד בורח מגטו נדבורנא",
@@ -347,7 +431,10 @@
         "fr": "Dawid avait un permis de travail dans une scierie de Nadwórna (probablement le « tag de travailleur essentiel » mentionné dans la mémoire familiale). Il s'évada dans un wagon de chemin de fer — caché dans une niche qu'il avait creusée entre des rondins — et atteignit Lwów."
       },
       "confidence": "family_oral",
-      "sources": ["oral_doron_13may", "oral_dana_15may"]
+      "sources": [
+        "oral_doron_13may",
+        "oral_dana_15may"
+      ]
     },
     {
       "id": "e_david_citizenship_stripped",
@@ -356,7 +443,9 @@
       "date_sort": "1942-01-01",
       "type": "war_event",
       "place_id": null,
-      "people_ids": ["p_david"],
+      "people_ids": [
+        "p_david"
+      ],
       "title": {
         "en": "David stripped of Polish citizenship",
         "he": "דוד מאבד את אזרחותו הפולנית",
@@ -370,7 +459,9 @@
         "fr": "La fiche DP note « déforcé » en 1942 — et Kasia (l'experte en français) l'a lu comme « déporté en 1942 ». Indique probablement soit une déportation soit une dénaturalisation formelle."
       },
       "confidence": "documented",
-      "sources": ["doc_david_dp_card"]
+      "sources": [
+        "doc_david_dp_card"
+      ]
     },
     {
       "id": "e_arrival_brussels",
@@ -379,7 +470,9 @@
       "date_sort": "1946-04-09",
       "type": "registration",
       "place_id": "pl_brussels",
-      "people_ids": ["p_david"],
+      "people_ids": [
+        "p_david"
+      ],
       "title": {
         "en": "David registered as Displaced Person in Brussels",
         "he": "דוד נרשם כעקור בבריסל",
@@ -393,7 +486,9 @@
         "fr": "Dawid Rapaport enregistré sur la fiche DIPIS (personnes déplacées) à « B. » (Bruxelles/Belgique) le 9 avril 1946. Marié, Polonais, de confession juive, ingénieur forestier. Destination souhaitée : Palestine ou États-Unis. Il a signé la fiche lui-même. Tamponnée plus tard par le Commissariat belge au Rapatriement en 1969."
       },
       "confidence": "confirmed",
-      "sources": ["doc_david_dp_card"]
+      "sources": [
+        "doc_david_dp_card"
+      ]
     },
     {
       "id": "e_dov_birth",
@@ -402,7 +497,9 @@
       "date_sort": "1946-06-01",
       "type": "birth",
       "place_id": "pl_brussels",
-      "people_ids": ["p_dov_bernard"],
+      "people_ids": [
+        "p_dov_bernard"
+      ],
       "title": {
         "en": "Dov Bernard Rapaport born in Brussels",
         "he": "דב ברנרד רפפורט נולד בבריסל",
@@ -416,7 +513,9 @@
         "fr": "Fils de Dawid et Léa, frère de Szymon. Né après la fin de la guerre."
       },
       "confidence": "family_oral",
-      "sources": ["oral_doron_06may"]
+      "sources": [
+        "oral_doron_06may"
+      ]
     },
     {
       "id": "e_research_begins",
@@ -425,7 +524,9 @@
       "date_sort": "2026-05-04",
       "type": "discovery",
       "place_id": null,
-      "people_ids": ["p_doron"],
+      "people_ids": [
+        "p_doron"
+      ],
       "title": {
         "en": "Family Tree research begins",
         "he": "מחקר עץ המשפחה מתחיל",
@@ -433,10 +534,10 @@
         "fr": "Les recherches sur l'arbre généalogique commencent"
       },
       "description": {
-        "en": "Magda connects Doron with Basia (Polish genealogist) over WhatsApp. The 'Family tree' group is created. The goal: trace David, Leah, and Shimon Rapaport's journey for Dov's 80th birthday in August.",
-        "he": "מגדה מקשרת את דורון עם בסיה (חוקרת גנאלוגיה פולנייה) בוואטסאפ. קבוצת 'עץ המשפחה' נוצרת. המטרה: לעקוב אחר מסלולם של דוד, לאה, ושמעון רפפורט ליום הולדתו ה-80 של דב באוגוסט.",
-        "pl": "Magda łączy Dorona z Basią (polską genealożką) na WhatsAppie. Powstaje grupa 'Family tree'. Cel: prześledzić podróż Dawida, Lei i Szymona Rapaport na 80. urodziny Dova w sierpniu.",
-        "fr": "Magda met en contact Doron avec Basia (généalogiste polonaise) sur WhatsApp. Le groupe « Family tree » est créé. Objectif : retracer le parcours de Dawid, Léa et Szymon Rapaport pour les 80 ans de Dov en août."
+        "en": "Magda connects Dana, Doron and Daniel with Basia (Polish genealogist) over WhatsApp. The 'Family tree' group is created. The goal: trace David, Leah, and Shimon Rapaport's journey for Dov's 80th birthday in August.",
+        "he": "מגדה מקשרת את דנה, דורון ודניאל עם בסיה (חוקרת גנאלוגיה פולנייה) בוואטסאפ. קבוצת 'עץ המשפחה' נוצרת. המטרה: לעקוב אחר מסלולם של דוד, לאה, ושמעון רפפורט ליום הולדתו ה-80 של דב באוגוסט.",
+        "pl": "Magda łączy Danę, Dorona i Daniela z Basią (polską genealożką) na WhatsAppie. Powstaje grupa 'Family tree'. Cel: prześledzić podróż Dawida, Lei i Szymona Rapaport na 80. urodziny Dova w sierpniu.",
+        "fr": "Magda met en contact Dana, Doron et Daniel avec Basia (généalogiste polonaise) sur WhatsApp. Le groupe « Family tree » est créé. Objectif : retracer le parcours de Dawid, Léa et Szymon Rapaport pour les 80 ans de Dov en août."
       },
       "confidence": "context"
     },
@@ -447,7 +548,9 @@
       "date_sort": "2026-05-08",
       "type": "discovery",
       "place_id": "pl_brussels",
-      "people_ids": ["p_david"],
+      "people_ids": [
+        "p_david"
+      ],
       "title": {
         "en": "Brussels DP card identified",
         "he": "כרטיס העקור מבריסל מזוהה",
@@ -461,7 +564,10 @@
         "fr": "Basia trouve une fiche DIPIS pour Dawid Rapaport, né le 25.12.1911, enregistré à B. le 9.04.1946, destination Palestine ou USA. La date de naissance correspond exactement. La fiche indique Cieszyn/Tesin comme lieu de naissance et les parents Bernard et Regina née Grunfeld — ce qui contredit les informations familiales."
       },
       "confidence": "context",
-      "sources": ["doc_david_dp_card", "report_basia_13may"]
+      "sources": [
+        "doc_david_dp_card",
+        "report_basia_13may"
+      ]
     },
     {
       "id": "e_nadworna_breakthrough",
@@ -470,7 +576,10 @@
       "date_sort": "2026-05-15",
       "type": "discovery",
       "place_id": "pl_nadworna",
-      "people_ids": ["p_david", "p_rebeka"],
+      "people_ids": [
+        "p_david",
+        "p_rebeka"
+      ],
       "title": {
         "en": "BREAKTHROUGH: David's birth record found in Nadwórna",
         "he": "פריצת דרך: תעודת הלידה של דוד נמצאת בנדבורנא",
@@ -484,7 +593,11 @@
         "fr": "Mme Kasia de l'Institut historique juif (ŻIH) à Varsovie trouve l'acte de naissance de Dawid à Nadwórna. Confirme : parents Berisz Rapaport et Rebeka Griffel, fille de Leizor Griffel et Sara née Chajes — commerçants de Nadwórna. Trouve AUSSI l'acte de naissance de Rebeka elle-même (1888 Nadwórna). « Cieszyn » sur la fiche DP était une erreur de transcription. Deux nouvelles générations et le lieu de naissance vérifié — le tout en un jour."
       },
       "confidence": "context",
-      "sources": ["doc_david_birth_nadworna", "doc_rebeka_birth_nadworna", "report_basia_15may"]
+      "sources": [
+        "doc_david_birth_nadworna",
+        "doc_rebeka_birth_nadworna",
+        "report_basia_15may"
+      ]
     }
   ]
 }

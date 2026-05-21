@@ -47,11 +47,26 @@
       "summary": {
         "en": "From the Italian base, the family migrated north and east across Europe over four centuries:",
         "stages": [
-          { "period": "17th century", "places": "Kraków, Lviv (Lwów) — established rabbinic positions in Poland-Lithuania" },
-          { "period": "Late 17th c.", "places": "Dubno, Krzemeniec — further rabbinic posts" },
-          { "period": "18th c.", "places": "Dispersal to Smyrna, Jerusalem, Moravia, Dyhernfurth (Silesia)" },
-          { "period": "19th c.", "places": "Galicia (now western Ukraine + southern Poland) — including our direct ancestor branch in Nadwórna" },
-          { "period": "20th c.", "places": "After the Holocaust: Israel, the Americas, Western Europe" }
+          {
+            "period": "17th century",
+            "places": "Kraków, Lviv (Lwów) — established rabbinic positions in Poland-Lithuania"
+          },
+          {
+            "period": "Late 17th c.",
+            "places": "Dubno, Krzemeniec — further rabbinic posts"
+          },
+          {
+            "period": "18th c.",
+            "places": "Dispersal to Smyrna, Jerusalem, Moravia, Dyhernfurth (Silesia)"
+          },
+          {
+            "period": "19th c.",
+            "places": "Galicia (now western Ukraine + southern Poland) — including our direct ancestor branch in Nadwórna"
+          },
+          {
+            "period": "20th c.",
+            "places": "After the Holocaust: Israel, the Americas, Western Europe"
+          }
         ]
       }
     },
@@ -64,14 +79,54 @@
         "fr": "Rapaports notables à travers les siècles"
       },
       "people": [
-        { "name": "R. Meshulam Jekuthiel HaKohen Rappa", "dates": "d. ~1450", "place": "Mainz → Porto (Mantua)", "note": "Founder of the documented Rappaport line" },
-        { "name": "R. Abraham Rappaport", "dates": "b. 1584", "place": "Lwów (Lviv)", "note": "Talmudist; bridge between Italian and Polish branches" },
-        { "name": "R. Isaac Rappaport", "dates": "17th c.", "place": "Smyrna → Jerusalem", "note": "Established the family presence in Eretz Israel" },
-        { "name": "R. Chaim HaKohen Rappaport", "dates": "d. 1771", "place": "Lviv (Lwów)", "note": "Chief Rabbi of all Galicia; opposed the Frankist movement. Vul. Rappaporta street in Lviv is named in his memory." },
-        { "name": "R. Solomon Judah Loeb Rapoport (Shir)", "dates": "1786-1867", "place": "Lwów → Tarnopol → Prague", "note": "Major Haskalah-era scholar; Chief Rabbi of Prague from 1840" },
-        { "name": "Arnold Rapaport von Porada", "dates": "ennobled 1890", "place": "Galicia / Vienna", "note": "Lawyer, Austrian Reichsrat deputy 1879-1907, leader of Galician assimilationist movement" },
-        { "name": "Dr. Jakubka Rappaport", "dates": "19th c.", "place": "Lwów (Lviv)", "note": "Physician, co-founder of the Lwów Reform Temple" },
-        { "name": "Dr. Artur Rapaport", "dates": "late 19th c.", "place": "Lwów", "note": "Lecturer in Classical Languages at Lwów University" }
+        {
+          "name": "R. Meshulam Jekuthiel HaKohen Rappa",
+          "dates": "d. ~1450",
+          "place": "Mainz → Porto (Mantua)",
+          "note": "Founder of the documented Rappaport line"
+        },
+        {
+          "name": "R. Abraham Rappaport",
+          "dates": "b. 1584",
+          "place": "Lwów (Lviv)",
+          "note": "Talmudist; bridge between Italian and Polish branches"
+        },
+        {
+          "name": "R. Isaac Rappaport",
+          "dates": "17th c.",
+          "place": "Smyrna → Jerusalem",
+          "note": "Established the family presence in Eretz Israel"
+        },
+        {
+          "name": "R. Chaim HaKohen Rappaport",
+          "dates": "d. 1771",
+          "place": "Lviv (Lwów)",
+          "note": "Chief Rabbi of all Galicia; opposed the Frankist movement. Vul. Rappaporta street in Lviv is named in his memory."
+        },
+        {
+          "name": "R. Solomon Judah Loeb Rapoport (Shir)",
+          "dates": "1786-1867",
+          "place": "Lwów → Tarnopol → Prague",
+          "note": "Major Haskalah-era scholar; Chief Rabbi of Prague from 1840"
+        },
+        {
+          "name": "Arnold Rapaport von Porada",
+          "dates": "ennobled 1890",
+          "place": "Galicia / Vienna",
+          "note": "Lawyer, Austrian Reichsrat deputy 1879-1907, leader of Galician assimilationist movement"
+        },
+        {
+          "name": "Dr. Jakubka Rappaport",
+          "dates": "19th c.",
+          "place": "Lwów (Lviv)",
+          "note": "Physician, co-founder of the Lwów Reform Temple"
+        },
+        {
+          "name": "Dr. Artur Rapaport",
+          "dates": "late 19th c.",
+          "place": "Lwów",
+          "note": "Lecturer in Classical Languages at Lwów University"
+        }
       ]
     },
     {

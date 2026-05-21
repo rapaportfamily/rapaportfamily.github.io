@@ -1,7 +1,13 @@
 {
   "_schema": {
     "description": "Open research questions. Each has competing hypotheses, evidence for/against, status, and next steps.",
-    "statuses": ["open", "active_investigation", "probable_answer", "resolved", "blocked_waiting_archive"]
+    "statuses": [
+      "open",
+      "active_investigation",
+      "probable_answer",
+      "resolved",
+      "blocked_waiting_archive"
+    ]
   },
   "hypotheses": [
     {
@@ -17,32 +23,68 @@
       "candidates": [
         {
           "label": "Mosina near Poznań (Greater Poland)",
-          "evidence_for": ["Only 'Mosina' in 1933 Polish placenames index", "Listed in Rapaport Research Institute descendants tree"],
-          "evidence_against": ["No Jewish residents by 1930s (last 6 Jews left 1922)", "1911 birth records do not include David", "2 sawmills owned by Polish non-Jewish Władysław Litke and Władysław Urbaniak", "Far from where Leah's family lived"],
+          "evidence_for": [
+            "Only 'Mosina' in 1933 Polish placenames index",
+            "Listed in Rapaport Research Institute descendants tree"
+          ],
+          "evidence_against": [
+            "No Jewish residents by 1930s (last 6 Jews left 1922)",
+            "1911 birth records do not include David",
+            "2 sawmills owned by Polish non-Jewish Władysław Litke and Władysław Urbaniak",
+            "Far from where Leah's family lived"
+          ],
           "verdict": "ruled_out"
         },
         {
           "label": "Morszyn (spa town near Stryj)",
-          "evidence_for": ["Ms. Kasia (ŻIH) hypothesis", "Near Bolechów and Dolina region", "Spa town fits the 'rental hotel for Polish visitors' family memory"],
-          "evidence_against": ["Phonetically a stretch from Mosina"],
+          "evidence_for": [
+            "Ms. Kasia (ŻIH) hypothesis",
+            "Near Bolechów and Dolina region",
+            "Spa town fits the 'rental hotel for Polish visitors' family memory"
+          ],
+          "evidence_against": [
+            "Phonetically a stretch from Mosina"
+          ],
           "verdict": "candidate"
         },
         {
           "label": "Muszyna (spa town near Krynica)",
-          "evidence_for": ["Magda's recollection of past conversation with Dov Rapaport about this area", "Spa town fits 'rental hotel for Polish visitors' memory", "Phonetically closer to 'Mosina'", "Near Krynica where Rebeka was confirmed in 1912", "PRIMARY-SOURCE CONFIRMATION (2026-05-20): Lusia's memoir (סיפורה של לוסיה) explicitly names מושינה (Muszyna) as 'the small resort town' where she and David married in February 1938 (page 17) and where Lusia managed a hotel that hosted 'all the social cream' of the town's visitors (page 18). The memoir uses the Hebrew spelling מושינה consistently. See docs/research/memoir_extraction_2026-05-20.md."],
-          "evidence_against": ["Far from Lwów / Bolechów (but no longer disqualifying — the memoir explicitly places them there)"],
+          "evidence_for": [
+            "Magda's recollection of past conversation with Dov Rapaport about this area",
+            "Spa town fits 'rental hotel for Polish visitors' memory",
+            "Phonetically closer to 'Mosina'",
+            "Near Krynica where Rebeka was confirmed in 1912",
+            "PRIMARY-SOURCE CONFIRMATION (2026-05-20): Lusia's memoir (סיפורה של לוסיה) explicitly names מושינה (Muszyna) as 'the small resort town' where she and David married in February 1938 (page 17) and where Lusia managed a hotel that hosted 'all the social cream' of the town's visitors (page 18). The memoir uses the Hebrew spelling מושינה consistently. See docs/research/memoir_extraction_2026-05-20.md."
+          ],
+          "evidence_against": [
+            "Far from Lwów / Bolechów (but no longer disqualifying — the memoir explicitly places them there)"
+          ],
           "verdict": "RESOLVED — confirmed by primary source (memoir)"
         },
         {
           "label": "Mszana Dolna (Kraków Voivodeship)",
-          "evidence_for": ["Dana found family reference to 'Rapaports of Mszana' as 'forest people' (ludzie lasu) in timber trade", "Memorial/Yizkor books reportedly mention 'Rapaport Sawmill' / 'The Masina'", "Mountain area fitting the family wood-sawmill story"],
-          "evidence_against": ["No Rapaport in 1930 industry directory there (but pre-1930 not yet checked)", "2026-05-17 CC web research: Sztetl Mszana Dolna site enumerates every Jewish timber-trade family pre-WWII (Goldberger, Geller, Wiener, Feuerstein, Kleinmann, Frey, Wachtel, Weinberg, Faber) — no Rapaport. Dedicated descendant pages exist for Rebhun and Rotkopf families but no Rapaport page. Source: docs/research/h1_mosina_2026-05-17.md"],
+          "evidence_for": [
+            "Dana found family reference to 'Rapaports of Mszana' as 'forest people' (ludzie lasu) in timber trade",
+            "Memorial/Yizkor books reportedly mention 'Rapaport Sawmill' / 'The Masina'",
+            "Mountain area fitting the family wood-sawmill story"
+          ],
+          "evidence_against": [
+            "No Rapaport in 1930 industry directory there (but pre-1930 not yet checked)",
+            "2026-05-17 CC web research: Sztetl Mszana Dolna site enumerates every Jewish timber-trade family pre-WWII (Goldberger, Geller, Wiener, Feuerstein, Kleinmann, Frey, Wachtel, Weinberg, Faber) — no Rapaport. Dedicated descendant pages exist for Rebhun and Rotkopf families but no Rapaport page. Source: docs/research/h1_mosina_2026-05-17.md"
+          ],
           "verdict": "weak_candidate"
         },
         {
           "label": "Dolina (district seat near Bolechów)",
-          "evidence_for": ["Basia's hypothesis — phonetic/orthographic similarity (same length, same -ina ending)", "Multiple sawmills 1930", "Heart of Weinreb territory"],
-          "evidence_against": ["Doesn't sound like 'Mosina' when spoken", "Sawmill owners listed in 1930 are not Rapaports"],
+          "evidence_for": [
+            "Basia's hypothesis — phonetic/orthographic similarity (same length, same -ina ending)",
+            "Multiple sawmills 1930",
+            "Heart of Weinreb territory"
+          ],
+          "evidence_against": [
+            "Doesn't sound like 'Mosina' when spoken",
+            "Sawmill owners listed in 1930 are not Rapaports"
+          ],
           "verdict": "weak_candidate"
         }
       ],
@@ -50,10 +92,20 @@
         "Check pre-1930 industrial directories for Mszana Dolna and Mszana area for Rapaport timber business",
         "Check Yizkor books for Mszana, Morszyn, Muszyna referencing Rapaport sawmills",
         "Cross-reference with Shimon's 1937 birth records — where exactly was he registered?",
-        "Ask Doron's mother Dalia and the family for any specific landmark/feature memories (the river? mountains? lake? neighbors? language spoken on the street?)"
+        "Ask Dana, Doron and Daniel's mother Dalia and the family for any specific landmark/feature memories (the river? mountains? lake? neighbors? language spoken on the street?)"
       ],
-      "related_people": ["p_david", "p_leah", "p_shimon"],
-      "related_places": ["pl_mosina_disputed", "pl_morszyn", "pl_muszyna", "pl_mszana_dolna", "pl_dolina"]
+      "related_people": [
+        "p_david",
+        "p_leah",
+        "p_shimon"
+      ],
+      "related_places": [
+        "pl_mosina_disputed",
+        "pl_morszyn",
+        "pl_muszyna",
+        "pl_mszana_dolna",
+        "pl_dolina"
+      ]
     },
     {
       "id": "h_leah_dob",
@@ -66,16 +118,50 @@
       "priority": "MEDIUM",
       "status": "open",
       "candidates": [
-        {"label": "8 April 1913", "evidence_for": ["Bolechów civil birth certificate (1913)"], "evidence_against": ["Conflicts with family death certificate"]},
-        {"label": "6 April 1916", "evidence_for": ["Family death certificate"], "evidence_against": ["No civil document found for this exact date"]},
-        {"label": "8 April 1916", "evidence_for": ["ŻIH index lists 'Lusia Rappoport' b. 1916-04-08, parents Eljan/Mahylda — close to Eliyahu/Mathilde"], "evidence_against": ["May be different person; spelling unusual"]},
-        {"label": "~1917", "evidence_for": ["Leah said she was 18 at marriage in 1935 (per memoir) → would imply 1917"], "evidence_against": ["Brides commonly understate age; the 1935 vs 1938 marriage date is also unclear"]}
+        {
+          "label": "8 April 1913",
+          "evidence_for": [
+            "Bolechów civil birth certificate (1913)"
+          ],
+          "evidence_against": [
+            "Conflicts with family death certificate"
+          ]
+        },
+        {
+          "label": "6 April 1916",
+          "evidence_for": [
+            "Family death certificate"
+          ],
+          "evidence_against": [
+            "No civil document found for this exact date"
+          ]
+        },
+        {
+          "label": "8 April 1916",
+          "evidence_for": [
+            "ŻIH index lists 'Lusia Rappoport' b. 1916-04-08, parents Eljan/Mahylda — close to Eliyahu/Mathilde"
+          ],
+          "evidence_against": [
+            "May be different person; spelling unusual"
+          ]
+        },
+        {
+          "label": "~1917",
+          "evidence_for": [
+            "Leah said she was 18 at marriage in 1935 (per memoir) → would imply 1917"
+          ],
+          "evidence_against": [
+            "Brides commonly understate age; the 1935 vs 1938 marriage date is also unclear"
+          ]
+        }
       ],
       "next_steps": [
         "Wait for the Lusia ŻIH registration card (Basia is requesting from Warsaw archives)",
         "Look for sibling birth records to triangulate (Pnina's birth record not yet found)"
       ],
-      "related_people": ["p_leah"]
+      "related_people": [
+        "p_leah"
+      ]
     },
     {
       "id": "h_david_signature",
@@ -92,8 +178,12 @@
         "Family search: any letters, official documents, will, or photographs with signature",
         "The DP card is the highest-trust evidence; signature match would settle remaining doubts"
       ],
-      "related_people": ["p_david"],
-      "related_documents": ["doc_david_dp_card"]
+      "related_people": [
+        "p_david"
+      ],
+      "related_documents": [
+        "doc_david_dp_card"
+      ]
     },
     {
       "id": "h_david_war_escape",
@@ -140,8 +230,12 @@
         },
         {
           "label": "Path C — Combination (e.g. deported & returned, or escaped & joined partisans)",
-          "evidence_for": ["Logically possible"],
-          "evidence_against": ["Evidence-free at present"],
+          "evidence_for": [
+            "Logically possible"
+          ],
+          "evidence_against": [
+            "Evidence-free at present"
+          ],
           "verdict": "weak_candidate",
           "next_step": "Trace by document trail across both paths"
         }
@@ -156,7 +250,9 @@
         "Betar Poland archives — David was a member (Doron, 14 May)",
         "Polish IPN application (6+ month wait — but possible)"
       ],
-      "related_people": ["p_david"]
+      "related_people": [
+        "p_david"
+      ]
     },
     {
       "id": "h_leah_shimon_survival",
@@ -199,7 +295,10 @@
         "Resolve document anomaly: pull every 1945-1946 Polish ledger entry for 'Rapaport' and every 1946 Brussels DP ledger entry — confirm or refute the absence pattern",
         "Read the new IPN passportization paper (platform/assets/documents/represje-nkwd-...) for direct context on Przemyśl 1939-41"
       ],
-      "related_people": ["p_leah", "p_shimon"]
+      "related_people": [
+        "p_leah",
+        "p_shimon"
+      ]
     },
     {
       "id": "h_przemysl_who",
@@ -217,12 +316,16 @@
         "Check Przemyśl 1910 records for Bernard Rapaport (Basia found a Bernard there)",
         "Check Przemyśl 1939 residence registers"
       ],
-      "related_people": ["p_leah", "p_berisz", "p_rebeka"]
+      "related_people": [
+        "p_leah",
+        "p_berisz",
+        "p_rebeka"
+      ]
     },
     {
       "id": "h_griffel_chajes_family",
       "question": {
-        "en": "Extend research to the Griffel and Chajes families of Nadwórna — Doron's gg-grandparents",
+        "en": "Extend research to the Griffel and Chajes families of Nadwórna — Dana, Doron and Daniel's gg-grandparents",
         "he": "להרחיב את המחקר למשפחות גריפל וחיות מנדבורנא — סבי-סבא של דורון",
         "pl": "Rozszerzyć badania na rodziny Griffel i Chajes z Nadwórnej — pra-pradziadków Dorona",
         "fr": "Étendre les recherches aux familles Griffel et Chajes de Nadwórna — les arrière-arrière-grands-parents de Doron"
@@ -231,7 +334,7 @@
       "status": "open",
       "context": "The 15 May Nadwórna breakthrough opened TWO new generations: Leizor Griffel + Sara née Chajes. Both Galician Jewish surnames — Chajes is a notable rabbinic name family (Tzvi Hirsch Chajes etc., though connection unverified). This branch is now researchable.",
       "research_2026_05_17_cc": {
-        "summary": "Nadwórna Jewish vital records ARE catalogued at Gesher Galicia. High-value finding: Przemyśl State Archive holds a Nadwórna marriage index for 1877-1907 (ref 154/70/313) — Leizor Griffel × Sara Chajes marriage (likely 1883-1887, before Rebeka's 1888 birth) should be directly findable in this index. Rebeka's 1888 birth falls in a GAP in indexed records (1865→1903), so the breakthrough cert Ms. Kasia found must be from a different fond; Doron should ask Ms. Kasia which one to find Rebeka's siblings.",
+        "summary": "Nadwórna Jewish vital records ARE catalogued at Gesher Galicia. High-value finding: Przemyśl State Archive holds a Nadwórna marriage index for 1877-1907 (ref 154/70/313) — Leizor Griffel × Sara Chajes marriage (likely 1883-1887, before Rebeka's 1888 birth) should be directly findable in this index. Rebeka's 1888 birth falls in a GAP in indexed records (1865→1903), so the breakthrough cert Ms. Kasia found must be from a different fond; Dana, Doron and Daniel should ask Ms. Kasia which one to find Rebeka's siblings.",
         "report": "docs/research/h8_griffel_chajes_2026-05-17.md",
         "highest_leverage_action": "Basia → Przemyśl archive ref 154/70/313 (1877-1907 Nadwórna marriage index) — pull the Leizor Griffel × Sara Chajes entry"
       },
@@ -246,7 +349,11 @@
         "Ask Ms. Kasia at ŻIH which fond held Rebeka's 1888 birth cert — that fond likely has her siblings",
         "Investigate possible Chajes family connection to Rabbi Tzvi Hirsch Chajes (1805-1855, prominent Galician rabbi)"
       ],
-      "related_people": ["p_leizor_griffel", "p_sara_chajes", "p_rebeka"]
+      "related_people": [
+        "p_leizor_griffel",
+        "p_sara_chajes",
+        "p_rebeka"
+      ]
     },
     {
       "id": "h_betar_records",
@@ -263,12 +370,14 @@
         "Virtual Shtetl Betar resource: https://share.google/ntEBJi1PH7APKgyPG"
       ],
       "research_2026_05_17_cc": {
-        "summary": "Two rounds: (1) open-web Hebrew search found no direct match; (2) CC drove Doron's Chrome through the Jabotinsky Institute archive (jabotinsky.org/ארכיון/חיפוש-פשוט) — searched 'רפפורט' (37 hits, none our David — Lehi member, Latvia Betar Y., Polish 2nd Division Chaim, sculptor Natan, etc.), 'מנדל רפפורט' (0), 'רפפורט נדבורנה' (0). Partial negative: online portion has no match. NOT full refutation — Institute states only ~44 of 215 archives are online, and the personal files (סימול פ) which would contain individual Betar member files are NOT in the online index at all and must be requested by name from the archivists.",
+        "summary": "Two rounds: (1) open-web Hebrew search found no direct match; (2) CC drove Dana, Doron and Daniel's Chrome through the Jabotinsky Institute archive (jabotinsky.org/ארכיון/חיפוש-פשוט) — searched 'רפפורט' (37 hits, none our David — Lehi member, Latvia Betar Y., Polish 2nd Division Chaim, sculptor Natan, etc.), 'מנדל רפפורט' (0), 'רפפורט נדבורנה' (0). Partial negative: online portion has no match. NOT full refutation — Institute states only ~44 of 215 archives are online, and the personal files (סימול פ) which would contain individual Betar member files are NOT in the online index at all and must be requested by name from the archivists.",
         "report": "docs/research/h_betar_2026-05-17.md",
         "highest_leverage_action": "Doron emails the Jabotinsky Institute archivists in Hebrew requesting a personal-file search for David Mendel Rapaport b. 25.12.1911 Nadwórna. Template Hebrew email is in the research report.",
         "verdict": "family_oral — plausible; online archive returned no match; physical archive not yet checked"
       },
-      "related_people": ["p_david"]
+      "related_people": [
+        "p_david"
+      ]
     },
     {
       "id": "h_lusia_dawid_paper_separation",
@@ -282,16 +391,44 @@
       "status": "active_investigation",
       "context": "Basia observation 17 May 2026: documentary trail shows them apart in 1945-46. Possible explanations: (a) Lusia traveled separately and joined later; (b) records are incomplete in one location; (c) deliberate separation (different declared destinations — Doron: 'Lucia received affidavit to USA, David as Betar member wanted Israel'); (d) Lusia stayed in Poland longer to wrap up affairs / sell property / find documents.",
       "candidates": [
-        {"label": "Separate travel, Leah joined Brussels in time for Dov's 1946 birth", "evidence_for": ["Dov born Brussels 1946 (family oral) — must have been together by then"], "evidence_against": ["No direct travel record yet"], "verdict": "candidate"},
-        {"label": "Differing intended destinations (Doron: USA vs Israel) — couple eventually aligned on Israel via Brussels DP", "evidence_for": ["Doron explicit statement 17 May 2026"], "evidence_against": [], "verdict": "candidate"},
-        {"label": "Records incomplete — they were together but Polish record lost Dawid, Brussels record lost Lusia", "evidence_for": ["Common pattern in post-war chaos"], "evidence_against": ["Selective loss across two systems is statistically unlikely"], "verdict": "weak_candidate"}
+        {
+          "label": "Separate travel, Leah joined Brussels in time for Dov's 1946 birth",
+          "evidence_for": [
+            "Dov born Brussels 1946 (family oral) — must have been together by then"
+          ],
+          "evidence_against": [
+            "No direct travel record yet"
+          ],
+          "verdict": "candidate"
+        },
+        {
+          "label": "Differing intended destinations (Doron: USA vs Israel) — couple eventually aligned on Israel via Brussels DP",
+          "evidence_for": [
+            "Doron explicit statement 17 May 2026"
+          ],
+          "evidence_against": [],
+          "verdict": "candidate"
+        },
+        {
+          "label": "Records incomplete — they were together but Polish record lost Dawid, Brussels record lost Lusia",
+          "evidence_for": [
+            "Common pattern in post-war chaos"
+          ],
+          "evidence_against": [
+            "Selective loss across two systems is statistically unlikely"
+          ],
+          "verdict": "weak_candidate"
+        }
       ],
       "next_steps": [
         "Pull every 1945-46 Polish ledger entry (ŻIH, CKŻP, repatriation) for 'Rapaport'",
         "Pull every 1946 Brussels DP registration for 'Rapaport' (also Rapaport women — Leah might be under maiden 'Weitzner')",
         "Cross-check: maybe Leah is in Brussels under 'Weitzner' or 'Cizlik' alias?"
       ],
-      "related_people": ["p_david", "p_leah"]
+      "related_people": [
+        "p_david",
+        "p_leah"
+      ]
     },
     {
       "id": "h_zip_documents",
@@ -306,7 +443,9 @@
       "next_steps": [
         "Wait for Basia / ŻIH to send the materials. At least one registration card exists per Basia 13 May."
       ],
-      "related_people": ["p_leah"]
+      "related_people": [
+        "p_leah"
+      ]
     },
     {
       "id": "h_ipn_application",
@@ -318,12 +457,16 @@
       },
       "priority": "MEDIUM",
       "status": "open",
-      "context": "Basia notes 6+ month wait. As family member Doron can apply directly. Need to attach: death certificates, David's DP card, ŻIH materials.",
+      "context": "Basia notes 6+ month wait. As family member Dana, Doron and Daniel can apply directly. Need to attach: death certificates, David's DP card, ŻIH materials.",
       "next_steps": [
         "Doron to fill IPN application (English version, Basia can help)",
         "Attach death certificates and DP card"
       ],
-      "related_people": ["p_david", "p_leah", "p_shimon"]
+      "related_people": [
+        "p_david",
+        "p_leah",
+        "p_shimon"
+      ]
     },
     {
       "id": "h_brussels_to_israel_route",
@@ -363,7 +506,12 @@
         "Check JDC Archives Cyprus detainee birth/registration records (Dov was infant)",
         "Cross-reference with other April-1947 Aliyah Bet ships if Theodor Herzl manifest is negative (Geulah, Yehuda Halevy, Mishmar Haemek were also active that month)"
       ],
-      "related_people": ["p_david", "p_leah", "p_shimon", "p_dov_bernard"]
+      "related_people": [
+        "p_david",
+        "p_leah",
+        "p_shimon",
+        "p_dov_bernard"
+      ]
     },
     {
       "id": "h_cieszyn_check",
@@ -379,7 +527,9 @@
       "next_steps": [
         "Basia to call Katowice archive (noted but not yet done as of 13 May)"
       ],
-      "related_people": ["p_david"]
+      "related_people": [
+        "p_david"
+      ]
     }
   ]
 }
