@@ -373,6 +373,113 @@ async def jpress(browser):
         await ctx.close()
 
 
+# ── SITE 7: BillionGraves — Sde Yehoshua cemetery Haifa ───────────────
+async def billiongraves(browser):
+    site = "billiongraves"
+    _safe_print(f"\n[{site}] Searching Sde Yehoshua cemetery Haifa…")
+    ctx = await browser.new_context(user_agent=UA)
+    page = await ctx.new_page()
+    queries = ["Rapaport", "Rapoport", "Goldfischer"]
+    all_results = []
+    try:
+        for q in queries:
+            _safe_print(f"  searching surname: {q}")
+            try:
+                url = f"https://billiongraves.com/search/results?given_name=&family_name={q}&cemetery=Sde+Yehoshua"
+                await page.goto(url, wait_until="domcontentloaded", timeout=45000)
+                await page.wait_for_timeout(4000)
+                text = await page.locator("body").inner_text()
+                # Capture all lines that mention the surname
+                lines = [ln.strip() for ln in text.splitlines() if q.lower() in ln.lower() or "Rapaport" in ln or "Rapoport" in ln][:30]
+                all_results.append({
+                    "query": q,
+                    "url": page.url,
+                    "matching_lines": lines,
+                    "page_snippet": text[:2000],
+                })
+            except Exception as e:
+                all_results.append({"query": q, "error": str(e)})
+        # Also try the direct cemetery page
+        try:
+            await page.goto("https://billiongraves.com/cemetery/Haifa-Sde-Yehoshua-Kfar-Samir-Cemetery/315718",
+                            wait_until="domcontentloaded", timeout=45000)
+            await page.wait_for_timeout(4000)
+            text = await page.locator("body").inner_text()
+            lines = [ln.strip() for ln in text.splitlines() if any(s in ln for s in ["Rapaport", "Rapoport", "רפפורט", "רפופורט"])][:30]
+            all_results.append({
+                "query": "cemetery_page_browse",
+                "url": page.url,
+                "matching_lines": lines,
+            })
+        except Exception as e:
+            all_results.append({"query": "cemetery_page_browse", "error": str(e)})
+        await _save(site, {"queries": queries}, all_results, page=page)
+    finally:
+        await ctx.close()
+
+
+# ── SITE 8: Indeks Represjonowanych (Polish Soviet-exile DB) ──────────
+async def indeks(browser):
+    site = "indeks"
+    _safe_print(f"\n[{site}] Searching Indeks Represjonowanych…")
+    ctx = await browser.new_context(user_agent=UA)
+    page = await ctx.new_page()
+    queries = [
+        ("Rapaport", "Dawid"),
+        ("Rapaport", "David"),
+        ("Rapoport", "Dawid"),
+        ("Rapaport", ""),   # broad
+    ]
+    all_results = []
+    try:
+        # Steve Morse-style or direct site
+        for surname, given in queries:
+            _safe_print(f"  searching: {given} {surname}")
+            try:
+                # The site is in Polish — use the front page search
+                url = "https://indeksrepresjonowanych.pl/int/wyszukiwanie/start.html"
+                await page.goto(url, wait_until="domcontentloaded", timeout=45000)
+                await page.wait_for_timeout(3000)
+                # Try to fill surname + given name
+                filled = False
+                for sel in ['input[name*="naz"]', 'input[name*="last"]', 'input[id*="nazwisko"]']:
+                    try:
+                        await page.fill(sel, surname, timeout=2500)
+                        filled = True
+                        break
+                    except Exception:
+                        pass
+                if given:
+                    for sel in ['input[name*="imi"]', 'input[name*="first"]', 'input[id*="imie"]']:
+                        try:
+                            await page.fill(sel, given, timeout=2500)
+                            break
+                        except Exception:
+                            pass
+                # Submit
+                try:
+                    await page.click('input[type="submit"], button[type="submit"]', timeout=4000)
+                except Exception:
+                    await page.keyboard.press("Enter")
+                await page.wait_for_load_state("domcontentloaded", timeout=30000)
+                await page.wait_for_timeout(4000)
+                text = await page.locator("body").inner_text()
+                # Look for "Rapaport" hits in result table
+                lines = [ln.strip() for ln in text.splitlines() if surname.lower() in ln.lower()][:30]
+                all_results.append({
+                    "query": {"surname": surname, "given": given},
+                    "url": page.url,
+                    "filled_surname": filled,
+                    "matching_lines": lines,
+                    "page_snippet": text[:3000],
+                })
+            except Exception as e:
+                all_results.append({"query": {"surname": surname, "given": given}, "error": str(e)})
+        await _save(site, {"queries": queries}, all_results, page=page)
+    finally:
+        await ctx.close()
+
+
 SITES = {
     "ushmm":     ushmm,
     "yadvashem": yadvashem,
@@ -380,6 +487,8 @@ SITES = {
     "righteous": righteous,
     "jri":       jri,
     "jpress":    jpress,
+    "billiongraves": billiongraves,
+    "indeks":    indeks,
 }
 
 

@@ -1,0 +1,66 @@
+{
+  "site": "indeks",
+  "timestamp": "20260521_165705",
+  "query": {
+    "queries": [
+      [
+        "Rapaport",
+        "Dawid"
+      ],
+      [
+        "Rapaport",
+        "David"
+      ],
+      [
+        "Rapoport",
+        "Dawid"
+      ],
+      [
+        "Rapaport",
+        ""
+      ]
+    ]
+  },
+  "result": [
+    {
+      "query": {
+        "surname": "Rapaport",
+        "given": "Dawid"
+      },
+      "url": "https://indeksrepresjonowanych.pl/int/wyszukiwanie/start.html",
+      "filled_surname": false,
+      "matching_lines": [],
+      "page_snippet": "Oops! An Error Occurred\nThe server returned a \"404 Not Found\".\n\nSomething is broken. Please let us know what you were doing when this error occurred. We will fix it as soon as possible. Sorry for any inconvenience caused."
+    },
+    {
+      "query": {
+        "surname": "Rapaport",
+        "given": "David"
+      },
+      "url": "https://indeksrepresjonowanych.pl/int/wyszukiwanie/start.html",
+      "filled_surname": false,
+      "matching_lines": [],
+      "page_snippet": "Oops! An Error Occurred\nThe server returned a \"404 Not Found\".\n\nSomething is broken. Please let us know what you were doing when this error occurred. We will fix it as soon as possible. Sorry for any inconvenience caused."
+    },
+    {
+      "query": {
+        "surname": "Rapoport",
+        "given": "Dawid"
+      },
+      "url": "https://indeksrepresjonowanych.pl/int/wyszukiwanie/start.html",
+      "filled_surname": false,
+      "matching_lines": [],
+      "page_snippet": "Oops! An Error Occurred\nThe server returned a \"404 Not Found\".\n\nSomething is broken. Please let us know what you were doing when this error occurred. We will fix it as soon as possible. Sorry for any inconvenience caused."
+    },
+    {
+      "query": {
+        "surname": "Rapaport",
+        "given": ""
+      },
+      "url": "https://indeksrepresjonowanych.pl/int/wyszukiwanie/start.html",
+      "filled_surname": false,
+      "matching_lines": [],
+      "page_snippet": "Oops! An Error Occurred\nThe server returned a \"404 Not Found\".\n\nSomething is broken. Please let us know what you were doing when this error occurred. We will fix it as soon as possible. Sorry for any inconvenience caused."
+    }
+  ]
+}
