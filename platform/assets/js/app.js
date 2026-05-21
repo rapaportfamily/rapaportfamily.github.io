@@ -27,18 +27,21 @@ const State = {
 // Data loading
 // ----------------------------------------
 async function loadAll() {
+  // Cache-bust on every load - data files update frequently
+  const v = Date.now();
+  const noCache = { cache: 'no-store' };
   const [en, he, pl, fr, people, places, events, documents, hypotheses, messages, research] = await Promise.all([
-    fetch('data/i18n/en.json').then(r => r.json()),
-    fetch('data/i18n/he.json').then(r => r.json()),
-    fetch('data/i18n/pl.json').then(r => r.json()),
-    fetch('data/i18n/fr.json').then(r => r.json()),
-    fetch('data/people.json').then(r => r.json()),
-    fetch('data/places.json').then(r => r.json()),
-    fetch('data/events.json').then(r => r.json()),
-    fetch('data/documents.json').then(r => r.json()),
-    fetch('data/hypotheses.json').then(r => r.json()),
-    fetch('data/messages.json').then(r => r.json()),
-    fetch('data/research_center.json').then(r => r.json()).catch(() => ({ sections: [] })),
+    fetch(`data/i18n/en.json?v=${v}`, noCache).then(r => r.json()),
+    fetch(`data/i18n/he.json?v=${v}`, noCache).then(r => r.json()),
+    fetch(`data/i18n/pl.json?v=${v}`, noCache).then(r => r.json()),
+    fetch(`data/i18n/fr.json?v=${v}`, noCache).then(r => r.json()),
+    fetch(`data/people.json?v=${v}`, noCache).then(r => r.json()),
+    fetch(`data/places.json?v=${v}`, noCache).then(r => r.json()),
+    fetch(`data/events.json?v=${v}`, noCache).then(r => r.json()),
+    fetch(`data/documents.json?v=${v}`, noCache).then(r => r.json()),
+    fetch(`data/hypotheses.json?v=${v}`, noCache).then(r => r.json()),
+    fetch(`data/messages.json?v=${v}`, noCache).then(r => r.json()),
+    fetch(`data/research_center.json?v=${v}`, noCache).then(r => r.json()).catch(() => ({ sections: [] })),
   ]);
   State.i18n = { en, he, pl, fr };
   State.data.people = people.people;
@@ -562,27 +565,56 @@ function renderPeople(root, paramId) {
   if (paramId && State.byId.people[paramId]) {
     openPersonModal(paramId);
   }
-  // Order: by generation, then by significance
-  const order = ['subject_father','self','grandfather','grandmother','uncle','mother','sister','brother',
-    'great_grandfather_paternal','great_grandmother_paternal','great_grandfather_maternal','great_grandmother_maternal',
-    'great_aunt','great_uncle',
-    'gg_grandfather_paternal_maternal','gg_grandmother_paternal_maternal','gg_grandfather_maternal_maternal','gg_grandmother_maternal_maternal'];
-  const people = [...State.data.people].sort((a,b) => order.indexOf(a.role) - order.indexOf(b.role));
+  // CHRONOLOGICAL ORDER: oldest at top, youngest at bottom.
+  // Anyone without a birth year goes to a separate "no birth date yet" group
+  // at the bottom (kept in role order so living relatives stay together).
+  function birthYear(p) {
+    const raw = p.birth?.date;
+    if (!raw) return null;
+    // Accept formats: "1911-12-25", "1502", "c.1280", "1928-09-08", etc.
+    const m = String(raw).match(/-?\d{3,4}/);
+    return m ? parseInt(m[0], 10) : null;
+  }
+  const withYear = [];
+  const withoutYear = [];
+  for (const p of State.data.people) {
+    const y = birthYear(p);
+    if (y == null) withoutYear.push(p);
+    else withYear.push({ p, y });
+  }
+  withYear.sort((a, b) => a.y - b.y);
+  const dated = withYear.map(o => o.p);
+
+  // Within "no birth date yet" keep an intuitive role-grouping
+  const roleOrder = ['subject_father','self','mother','sister','brother','spouse',
+    'uncle','aunt','grandchild','cousin','first_cousin','first_cousin_once_removed',
+    'second_cousin','third_cousin','living_cousin','living_cousin_in_law',
+    'cousin_in_law','first_cousin_in_law','great_aunt','great_uncle'];
+  withoutYear.sort((a, b) => (roleOrder.indexOf(a.role) === -1 ? 999 : roleOrder.indexOf(a.role)) -
+                              (roleOrder.indexOf(b.role) === -1 ? 999 : roleOrder.indexOf(b.role)));
+
+  const renderCard = (p) => `
+    <div class="person-card" data-person="${escapeHtml(p.id)}">
+      <div class="person-name-big">${escapeHtml(ml(p.primary_name))}</div>
+      <div class="person-role">${escapeHtml(roleLabel(p.role))}</div>
+      <div class="person-dates">
+        ${escapeHtml(fmtDateRange(p))}
+      </div>
+      ${p.note_en ? `<div class="person-note">${escapeHtml(p.note_en)}</div>` : ''}
+    </div>`;
+
+  const lang = State.lang;
+  const datedHeader = lang === 'he' ? 'בסדר כרונולוגי — מהמוקדם ביותר' : 'In chronological order — oldest first';
+  const undatedHeader = lang === 'he' ? 'משפחה חיה (תאריכי לידה טרם נרשמו)' : 'Living family (birth dates pending)';
 
   root.innerHTML = `
     ${pageHeader('people_page.title', 'people_page.lead')}
-    <div class="people-grid">
-      ${people.map(p => `
-        <div class="person-card" data-person="${escapeHtml(p.id)}">
-          <div class="person-name-big">${escapeHtml(ml(p.primary_name))}</div>
-          <div class="person-role">${escapeHtml(roleLabel(p.role))}</div>
-          <div class="person-dates">
-            ${escapeHtml(fmtDateRange(p))}
-          </div>
-          ${p.note_en ? `<div class="person-note">${escapeHtml(p.note_en)}</div>` : ''}
-        </div>
-      `).join('')}
-    </div>
+    <h3 class="section-title" style="margin-top:1.5rem;">${escapeHtml(datedHeader)} <span style="font-family:var(--font-mono);font-size:0.8rem;color:var(--ink-faint);">(${dated.length})</span></h3>
+    <div class="people-grid">${dated.map(renderCard).join('')}</div>
+    ${withoutYear.length ? `
+      <h3 class="section-title" style="margin-top:2.5rem;">${escapeHtml(undatedHeader)} <span style="font-family:var(--font-mono);font-size:0.8rem;color:var(--ink-faint);">(${withoutYear.length})</span></h3>
+      <div class="people-grid">${withoutYear.map(renderCard).join('')}</div>
+    ` : ''}
   `;
   root.querySelectorAll('[data-person]').forEach(el => {
     el.addEventListener('click', () => openPersonModal(el.dataset.person));

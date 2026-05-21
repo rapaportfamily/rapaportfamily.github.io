@@ -867,6 +867,14 @@
           "sources": [
             "src_gelles_griffel_nadworna_pdf"
           ]
+        },
+        {
+          "key": "1938_nadworna_property",
+          "value": "Co-owner of a one-storey brick rental house (Dom czynszowy murowany, jednopiętrowy z poddaszem) at Nadwórna ul. Śródmieście. Listed as 'Rebeka z Griffelów zam. Rapaport' (Rebeka née Griffel, married name Rapaport) in the 13 September 1938 auction notice published by Akcyjny Bank Hipoteczny (Lwów). Property auction valued at 127,294 zł, bid deposit 4,500 zł, auction date 28 November 1938. Co-owners: all 17 surviving heirs of Eliezer Griffel + Chaya Griffel-Grünfeld.",
+          "confidence": "documented",
+          "sources": [
+            "src_basia_archive_finds_2026_05_21"
+          ]
         }
       ],
       "death": {
@@ -2168,6 +2176,46 @@
           "sources": [
             "src_ada_green_nadworna_burial_transcription"
           ]
+        },
+        {
+          "key": "company",
+          "value": "ZYGMUNT GRIFFEL — Tartaki parowe, Przemysł drzewny, Eksport drzewa (steam sawmills, timber industry, wood export)",
+          "confidence": "documented",
+          "sources": [
+            "src_basia_archive_finds_2026_05_21"
+          ]
+        },
+        {
+          "key": "company_address",
+          "value": "Lwów, ul. Kopernika 5",
+          "confidence": "documented",
+          "sources": [
+            "src_basia_archive_finds_2026_05_21"
+          ]
+        },
+        {
+          "key": "company_founded",
+          "value": "1923. Transit warehouses in Gdynia + Gdańsk.",
+          "confidence": "documented",
+          "sources": [
+            "src_basia_archive_finds_2026_05_21"
+          ]
+        },
+        {
+          "key": "company_scale",
+          "value": "1934/35 fiscal year: 60,000 tons of pine timber exported (96.7% sawn materials); >5 million zlotys to England alone. Export split: England 82.8%, Holland 8.3%, Germany 2.9%, Switzerland 2.3%, France 1.9%, others 1.7%.",
+          "confidence": "documented",
+          "sources": [
+            "src_basia_archive_finds_2026_05_21"
+          ]
+        },
+        {
+          "key": "source_directory",
+          "value": "Album-Skorowidz Senatu i Sejmu Rzpltej oraz Sejmu Śląskiego (inter-war Polish Senate + Sejm directory), entry p.110",
+          "confidence": "documented",
+          "sources": [
+            "src_basia_archive_finds_2026_05_21"
+          ]
         }
       ],
       "birth": {
@@ -2190,7 +2238,7 @@
         "note_en": "Buried at Baron Hirsch Cemetery, 1126 Richmond Avenue, Staten Island NY — Nadworner YMBA Section I, Gate 51. Documented in Ada Green's transcription of the Nadworner landsmanshaft burials."
       },
       "role": "first_cousin",
-      "note_en": "1st cousin of David Memek. Son of David Mendel Griffel + Chawa Wahl. Born Nadwórna 1897, died 1951.",
+      "note_en": "1st cousin of David Memek. Son of David Mendel Griffel + Chawa Wahl. Born Nadwórna 1897, died 1951. VERIFIED 21 May 2026 (Basia's archive find): Zygmunt's timber-export firm was located at Lwów, ul. Kopernika 5. Founded 1923. Exporting 60,000 tons of pine timber annually to England (82.8% of output) plus Holland, Germany, Switzerland, France. Transit warehouses in Gdynia + Gdańsk. Confirms the family timber dynasty Eric Griffel described in his ADST oral history.",
       "father_id": "p_david_mendel_griffel",
       "mother_id": "p_chawa_wahl"
     },
