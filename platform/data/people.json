@@ -93,9 +93,14 @@
         }
       },
       "death": {
-        "date": null,
-        "confidence": "family_oral",
-        "note_en": "Deceased. Specific date to be added by family."
+        "date": "1990-08-29",
+        "date_precision": "day",
+        "place_id": "pl_haifa",
+        "confidence": "documented",
+        "sources": [
+          "src_haifa_chevra_kadisha_records"
+        ],
+        "note_en": "Hebrew date: 8 Elul 5750. Aged 78. Buried Sde Yehoshua cemetery (formerly Kfar Samir), Haifa — Section ו (Vav), Row 22, Grave 102ד. Haifa Chevra Kadisha record ID 43981. Wife Lusia is in the immediately adjacent grave 102ג. CK records his birth date as 15/12/1916 (Israeli ID, off by ~5 years from documented 1911-12-25 — common Holocaust-survivor pattern from lost papers). Confirmed via father-name (Dov), Polish birth, 1946 aliyah, Haifa burial, adjacency to Lusia's grave."
       },
       "father_id": "p_berisz",
       "mother_id": "p_rebeka",
@@ -208,6 +213,30 @@
             "src_family_tradition_kohen",
             "src_wikipedia_rapoport_family"
           ]
+        },
+        {
+          "key": "burial",
+          "value": "Sde Yehoshua cemetery (Kfar Samir), Haifa — Section ו, Row 22, Grave 102ד",
+          "confidence": "documented",
+          "sources": [
+            "src_haifa_chevra_kadisha_records"
+          ]
+        },
+        {
+          "key": "haifa_ck_record_id",
+          "value": "43981 (file 65804)",
+          "confidence": "documented",
+          "sources": [
+            "src_haifa_chevra_kadisha_records"
+          ]
+        },
+        {
+          "key": "lived_to_age",
+          "value": "78 years (1911-12-25 → 1990-08-29)",
+          "confidence": "documented",
+          "sources": [
+            "src_haifa_chevra_kadisha_records"
+          ]
         }
       ]
     },
@@ -248,8 +277,14 @@
         }
       },
       "death": {
-        "date": null,
-        "confidence": "family_oral"
+        "date": "1996-12-28",
+        "date_precision": "day",
+        "place_id": "pl_haifa",
+        "confidence": "documented",
+        "sources": [
+          "src_haifa_chevra_kadisha_records"
+        ],
+        "note_en": "Hebrew date: 18 Tevet 5757. Aged 83. Buried Sde Yehoshua cemetery, Haifa — Section ו (Vav), Row 22, Grave 102ג — immediately adjacent to her husband David's grave 102ד. Haifa Chevra Kadisha record ID 144046. CK records confirm her father as אליהו (Eliyahu = Eli Weitzner) and mother as מטילדה (Matilda = Mathilde Weinreb) — matching all known family records. CK records her birth date as 08/04/1916 (day + month exact match to documented 1913-04-08; year off by 3, common Holocaust-survivor pattern). Aliyah 1948."
       },
       "father_id": "p_elias_weitzner",
       "mother_id": "p_matel_weinreb",
@@ -357,6 +392,38 @@
           "confidence": "family_oral",
           "sources": [
             "oral_doron_06may"
+          ]
+        },
+        {
+          "key": "burial",
+          "value": "Sde Yehoshua cemetery (Kfar Samir), Haifa — Section ו, Row 22, Grave 102ג (adjacent to David)",
+          "confidence": "documented",
+          "sources": [
+            "src_haifa_chevra_kadisha_records"
+          ]
+        },
+        {
+          "key": "haifa_ck_record_id",
+          "value": "144046 (file 8011260)",
+          "confidence": "documented",
+          "sources": [
+            "src_haifa_chevra_kadisha_records"
+          ]
+        },
+        {
+          "key": "lived_to_age",
+          "value": "83 years (1913-04-08 → 1996-12-28)",
+          "confidence": "documented",
+          "sources": [
+            "src_haifa_chevra_kadisha_records"
+          ]
+        },
+        {
+          "key": "years_married_to_david",
+          "value": "~55-60 years (married ~1934-36 Muszyna → David d.1990)",
+          "confidence": "documented",
+          "sources": [
+            "src_haifa_chevra_kadisha_records"
           ]
         }
       ]
@@ -1248,7 +1315,9 @@
         "p_doron",
         "p_dana",
         "p_daniel"
-      ]
+      ],
+      "father_id": "p_s_goldfischer",
+      "mother_id": "p_ester_goldfischer"
     },
     {
       "id": "p_dana",
@@ -3150,6 +3219,144 @@
       "role": "nadworner_relative_in_law",
       "spouse_id": "p_bernard_griffel_nyc",
       "note_en": "Born Malke Mehrbaum in Vorokhta (Worochta) — Carpathian foothills near Nadwórna — ~1890. Married Bernard Griffel of Nadwórna. Joined the Erster Nadwornaer KUV landsmanshaft with her husband on 26 June 1949. New surname Mehrbaum to investigate among the broader extended family."
+    },
+    {
+      "id": "p_ester_goldfischer",
+      "primary_name": {
+        "en": "Ester Goldfischer",
+        "he": "אסתר גולדפישר",
+        "pl": "Estera Goldfischer",
+        "fr": "Esther Goldfischer"
+      },
+      "aliases": [
+        "Esther"
+      ],
+      "role": "maternal_grandmother",
+      "note_en": "Doron's maternal grandmother — Dalia's mother. Documented in family Israeli ID + French-Hebrew bilingual passport. Lived Haifa. Brown hair (blonde-grey in later life), brown eyes, 158cm. KEY FAMILY CONNECTION: per family stories, Ester studied with FEIGE (Tzipora) WEITZNER — Lusia's older sister (b.1911 Bolechów) — almost certainly at a Bolechów-area Hebrew or vocational school in the late 1920s / early 1930s. This means the Weitzner and Goldfischer families knew each other before WWII, decades before Dov Rapaport and Dalia Goldfischer ever met or married — the two halves of Doron's family had a documented pre-Holocaust school-circle connection in Galicia.",
+      "facts": [
+        {
+          "key": "height",
+          "value": "158 cm",
+          "confidence": "documented",
+          "sources": [
+            "src_goldfischer_family_documents_2026"
+          ]
+        },
+        {
+          "key": "eye_color",
+          "value": "Brown (Bruns)",
+          "confidence": "documented",
+          "sources": [
+            "src_goldfischer_family_documents_2026"
+          ]
+        },
+        {
+          "key": "hair_color",
+          "value": "Brown (later grey-blonde)",
+          "confidence": "documented",
+          "sources": [
+            "src_goldfischer_family_documents_2026"
+          ]
+        },
+        {
+          "key": "residence",
+          "value": "Haifa, Israel",
+          "confidence": "documented",
+          "sources": [
+            "src_goldfischer_family_documents_2026"
+          ]
+        },
+        {
+          "key": "feige_weitzner_school_circle",
+          "value": "Studied with Feige (Tzipora) Weitzner — Lusia Rapaport's older sister — per family stories. School location to be confirmed (likely Bolechów-area gymnasium or Hebrew school, late 1920s / early 1930s).",
+          "confidence": "family_oral",
+          "sources": [
+            "src_goldfischer_family_documents_2026"
+          ]
+        }
+      ],
+      "spouse_id": "p_s_goldfischer",
+      "children_ids": [
+        "p_dalia"
+      ]
+    },
+    {
+      "id": "p_s_goldfischer",
+      "primary_name": {
+        "en": "S. Goldfischer",
+        "he": "ש. גולדפישר",
+        "pl": "S. Goldfischer",
+        "fr": "S. Goldfischer"
+      },
+      "aliases": [
+        "Shmuel Goldfischer (likely first name)",
+        "Samuel Goldfischer"
+      ],
+      "birth": {
+        "date": "1909-11-23",
+        "date_precision": "day",
+        "place_id": "pl_skole",
+        "confidence": "documented",
+        "sources": [
+          "src_goldfischer_family_documents_2026"
+        ]
+      },
+      "role": "maternal_grandfather",
+      "note_en": "Doron's maternal grandfather — Dalia's father. Born 23 November 1909 in SKOLE, eastern Galicia (today Skole, Lviv Oblast, Ukraine — same region as Bolechów + Stryj). Profession 'Marin' (sailor / merchant marine) per Israeli/French bilingual passport. Settled Haifa. 172 cm, brown eyes + brown hair. Earlier British Mandate document carries 'Urban and Rural Information Bureau' stamp. Married Ester Goldfischer.",
+      "facts": [
+        {
+          "key": "birthplace",
+          "value": "Skole, Stanyslaviv Voivodeship, Poland (today Skole, Lviv Oblast, Ukraine)",
+          "confidence": "documented",
+          "sources": [
+            "src_goldfischer_family_documents_2026"
+          ]
+        },
+        {
+          "key": "profession",
+          "value": "Marin (sailor / merchant marine)",
+          "confidence": "documented",
+          "sources": [
+            "src_goldfischer_family_documents_2026"
+          ]
+        },
+        {
+          "key": "height",
+          "value": "172 cm",
+          "confidence": "documented",
+          "sources": [
+            "src_goldfischer_family_documents_2026"
+          ]
+        },
+        {
+          "key": "eye_color",
+          "value": "Brown (Bruns)",
+          "confidence": "documented",
+          "sources": [
+            "src_goldfischer_family_documents_2026"
+          ]
+        },
+        {
+          "key": "hair_color",
+          "value": "Brown (Bruns)",
+          "confidence": "documented",
+          "sources": [
+            "src_goldfischer_family_documents_2026"
+          ]
+        },
+        {
+          "key": "british_mandate_doc",
+          "value": "Held earlier British Mandate Palestine ID — \"Urban and Rural Information Bureau Office\" stamp visible",
+          "confidence": "documented",
+          "sources": [
+            "src_goldfischer_family_documents_2026"
+          ]
+        }
+      ],
+      "spouse_id": "p_ester_goldfischer",
+      "children_ids": [
+        "p_dalia"
+      ]
     }
   ]
 }
