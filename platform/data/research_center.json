@@ -10,6 +10,33 @@
       "intro_he": "הממצאים החשובים ביותר ממחקר העומק של 21.5.2026 — קישורים מתועדים בין זיכרון המשפחה לרשומה ההיסטורית הציבורית.",
       "cards": [
         {
+          "id": "shimon_crate_at_legionow_24",
+          "title_en": "📦 CORRECTED — Shimon survived 1941-44 HIDDEN IN A CRATE at Legionów 24, NOT in a convent",
+          "title_he": "📦 תוקן — שמעון שרד 1941-44 מוסתר בארגז בלגיונוב 24, ולא במנזר",
+          "status": "confirmed",
+          "summary_en": "PRIMARY-SOURCE CORRECTION via the memoir itself (Chapter D, pages 30-46). The earlier inference that Shimon was hidden in a Lwów Catholic convent was WRONG. What actually happened, in Lusia's own words: (1) In Nadwórna, when the ghetto was established, Lusia refused to enter — but Shimon was first hidden by the HORMAK family, gentile neighbours who traded with the Jews. (2) Lusia's sister-in-law LOTA Rapaport hid Shimon for a period inside the Lwów ghetto. (3) When rumours spread that the Germans would soon execute the children, the Hormaks smuggled Shimon out of the Lwów ghetto and brought him to Lusia (while the ghetto was still briefly open to commerce). (4) From that day until liberation, Shimon lived with Lusia at Legionów 24 inside a CRATE 70 cm × 1.50 m. Lusia left food in it before work; he slept with his mother at night. When neighbours visited, Lusia placed a phonograph on the crate and music burst forth to mask his sounds. He never saw sunlight for years — his complexion went white and pale. He emerged after the July 1944 Soviet liberation.",
+          "summary_he": "תיקון מהמקור הראשוני — היומן עצמו (פרק ד', עמ' 30-46). ההסקה הקודמת שלפיה שמעון הוסתר במנזר קתולי בלבוב הייתה שגויה. מה שקרה באמת, בלשונה של לוסיה: (1) בנדבורנה, כשהוקם הגטו, לוסיה סירבה להיכנס אליו — אך שמעון הוסתר תחילה על-ידי משפחת הורמק, שכנים גויים שסחרו עם היהודים. (2) גיסתה של לוסיה, לוטה רפפורט, הסתירה את שמעון תקופה מסוימת בתוך גטו לבוב. (3) כאשר התפשטו שמועות שהגרמנים עומדים להוציא להורג את הילדים בקרוב, משפחת הורמק הבריחה את שמעון מגטו לבוב והביאה אותו ללוסיה (בעוד הגטו עדיין היה פתוח חלקית למסחר). (4) מאותו יום ועד השחרור התגורר שמעון עם לוסיה בלגיונוב 24 בתוך ארגז של 70 ס\"מ × 1.50 מ'. לוסיה השאירה לו אוכל בארגז לפני שיצאה לעבודה; הוא ישן עם אמו בלילה. כאשר באו שכנים לבקר, לוסיה הניחה פטיפון על גג הארגז ומוזיקה בקעה ממנו כדי להסוות את קולותיו. הוא לא ראה את אור השמש במשך שנים — עורו הלבין והחוויר. הוא יצא מהארגז לאחר שחרור לבוב על-ידי הסובייטים ביולי 1944.",
+          "quote_en": "Shimon lived with his mother and spent entire days alone in a crate whose dimensions were 70 cm × 1.50 m. The crate was his dwelling and his place of safety. ... At night he slept with his mother. In the evening, when neighbors came to visit Lusia, she would operate the phonograph that was placed on the box and music would burst forth from it. ... From the outside, his complexion was white and pale, since he did not see sunlight for many long years.",
+          "source": "Lusia Rapaport, 'Sipura shel Lusia' (The Story of Lusia), ed. Moshe Guter — Chapter D, pages 30, 32-33, 36-38, 44-46",
+          "urls": []
+        },
+        {
+          "id": "lwow_convents_researched_not_applicable",
+          "title_en": "📚 Lwów Catholic convents researched as a possible alternative — NOT how Shimon actually survived",
+          "title_he": "📚 נחקרו מנזרים קתוליים בלבוב כאפשרות חלופית — אך לא כך שרד שמעון בפועל",
+          "status": "lead",
+          "summary_en": "Background research established that several Lwów-area religious networks sheltered Jewish children 1941-1944: Albertine Sisters at Persenkówka 66; Studite Sisters under Metropolitan Andrey Sheptytsky and abbess Mother Iosyfa (Olena Viter), saving 150-200 Jews including rabbis' sons Adam Daniel Rotfeld and Leon Chameides; Sacré-Cœur Sisters; Franciscan Sisters of the Family of Mary (Mother Matylda Getter — ~500 Jewish children nationally). Żegota's Lwów branch (chair Władysława Choms, the 'Angel of Lwów') placed children into these institutions from her base at ul. Nabielaka 14 — walking distance from Legionów 24. The placement pipeline is documented in Choms's own Yad Vashem M.31 file (1966). HOWEVER — the family memoir (see corrected card above) makes clear Shimon was NOT placed in any of these institutions; he was hidden in a crate at his mother's apartment. The convent path is preserved here as historical context for the LLM narrator and as a reminder that the Lwów-area Jewish survival options were broader than the family chose.",
+          "summary_he": "מחקר רקע איתר מספר רשתות דתיות באזור לבוב שהסתירו ילדים יהודים 1941-1944: האחיות האלברטיניות בפרסנקובקה 66; האחיות הסטודיטיות בהנהגת המטרופוליטן אנדריי שפטיצקי והאם יוסיפה (אולנה ויטר), שהצילו 150-200 יהודים כולל בני רבנים אדם דניאל רוטפלד ולאון חמיידס; אחיות לב-ישו הקדוש (Sacré-Cœur); אחיות פרנציסקאניות של משפחת מרים (האם מטילדה גטר — כ-500 ילדים יהודים ארצית). סניף ז'גוטה בלבוב (יו\"ר ולדיסלבה חומס, 'מלאך לבוב') הכניס ילדים למוסדות אלה ממרכז פעולתה ברחוב נביילקה 14 — במרחק הליכה מלגיונוב 24. אבל — היומן המשפחתי (ראה את הכרטיס המתוקן לעיל) מבהיר ששמעון לא הוכנס לאף אחד מהמוסדות הללו; הוא הוסתר בארגז בדירת אמו. מסלול המנזר נשמר כאן כהקשר היסטורי לנרטור ה-LLM ותזכורת שאפשרויות ההישרדות באזור לבוב היו רחבות יותר מהבחירה שעשתה המשפחה.",
+          "source": "Polscy Sprawiedliwi, Lviv Center, Yad Vashem M.31 series — research summarized in dossier 23",
+          "urls": [
+            "https://sprawiedliwi.org.pl/en/stories-of-rescue/story-wladyslawa-choms",
+            "https://lia.lvivcenter.org/en/themes/reherit/zegota/",
+            "https://lia.lvivcenter.org/en/themes/reherit/church/",
+            "https://www.yadvashem.org/righteous/resources/rescue-of-jewish-children-in-polish-convents.html",
+            "https://en.wikipedia.org/wiki/Klymentiy_Sheptytsky"
+          ]
+        },
+        {
           "id": "goldfischer_skole_research_thread",
           "title_en": "🔍 S. Goldfischer of Skole (b.1909) — research thread opened",
           "title_he": "🔍 ש. גולדפישר מסקולה (יליד 1909) — חוט מחקר נפתח",
@@ -57,21 +84,6 @@
           ],
           "open_thread_en": "The traditional family claim that Tzvi Hirsh Filip is a direct Rapaport-Kohen ancestor is currently oral-tradition only. Documentary proof would require matching JewishGen's rabbinic-surnames file or a generation-by-generation tree from Filip's son R. David Aryeh Leib down through Nadwórna's 19th-century Kohanic rabbinical families.",
           "open_thread_he": "המסורת המשפחתית שצבי הירש פיליפ הוא אב קדמון ישיר של שושלת רפפורט-כהן היא כיום מסורת בעל-פה בלבד. הוכחה תיעודית תדרוש התאמה לקובץ שמות הרבנים של JewishGen או עץ דור-אחר-דור מבנו רבי דוד אריה לייב, דרך משפחות הרבנים הכהניים של נדבורנה במאה ה-19."
-        },
-        {
-          "id": "shimon_hidden_separately_lwow_convent",
-          "title_en": "🕯️ Shimon (age 4-7) most likely hidden SEPARATELY from Lusia 1941-1944 — Lwów convent or Polish family on Żegota payroll",
-          "title_he": "🕯️ שמעון (גיל 4-7) ככל הנראה הוסתר בנפרד מלוסיה 1941-1944 — מנזר בלבוב או משפחה פולנית בתשלום ז'גוטה",
-          "status": "lead",
-          "summary_en": "A circumcised 4-7-year-old Jewish boy could not credibly live full-time on the Aryan side with a single Polish woman at Legionów 24. Yad Vashem and USHMM are explicit: circumcision was the single greatest obstacle for boys; most surviving boys of that age in occupied Lwów were placed in convents (Felician, Franciscan, or Albertine sisters all sheltered Jewish children in Lwów) OR with a paid Polish family on Żegota's payroll, while the mother visited under her Aryan identity. The documented Lwów pattern per Joanna Beata Michlic's research on hidden children. Most plausibly reunited with Lusia post-July 1944 Soviet liberation of Lwów.",
-          "summary_he": "ילד יהודי נימול בגיל 4-7 לא יכול היה לחיות באמינות בצד הארי לצד אישה פולנייה רווקה בלגיונוב 24. יד ושם וה-USHMM ברורים: המילה הייתה המכשול הגדול ביותר עבור בנים. רוב הבנים השורדים בגיל הזה בלבוב הכבושה הוסתרו במנזרים (האחיות הפרנציסקאניות, הפרנציסקנים והאלברטינים הסתירו כולן ילדים יהודים בלבוב) או במשפחות פולניות בתשלום ז'גוטה, בעוד האם מבקרת בזהותה הארית. דפוס מתועד לבוב לפי מחקרה של ג'ואנה ביאטה מיכליץ. ככל הנראה התאחד עם לוסיה לאחר שחרור לבוב על-ידי הסובייטים ביולי 1944.",
-          "source": "Yad Vashem + USHMM hidden-children scholarship + Joanna Beata Michlic 'Jewish Children in Nazi-Occupied Poland' (2026-05-21 verification)",
-          "urls": [
-            "https://www.yadvashem.org/articles/general/difficulties-in-rescue-of-children-by-non-jews.html",
-            "https://encyclopedia.ushmm.org/content/en/article/hidden-children-hardships",
-            "https://www.jewishvirtuallibrary.org/jewish-children-on-the-aryan-side",
-            "https://sprawiedliwi.org.pl/en/jews-in-hiding/hiding-places"
-          ]
         },
         {
           "id": "lusia_birth_date_confirmed_1913",
@@ -1720,5 +1732,5 @@
       ]
     }
   ],
-  "build_version": "2026-05-21-T16-verification-+-new-threads"
+  "build_version": "2026-05-21-T17-memoir-corrects-shimon-crate"
 }

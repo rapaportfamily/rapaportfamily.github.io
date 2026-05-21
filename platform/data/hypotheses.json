@@ -280,7 +280,7 @@
         "fr": "Comment Léa et Szymon (4 ans) ont-ils survécu en Pologne entre 1941 et 1944 ? Étaient-ils dans le ghetto ou du côté aryen ?"
       },
       "priority": "HIGH",
-      "status": "probable_answer",
+      "status": "resolved",
       "context": "Family memory: Leah at Legionów St 24 Lwów under 'Hormek' fake docs / 'Maria Cizlik' identity, managing art store. Worked as teller / passport section in Przemyśl (1939). Also moved to Nadwórna at some point to David's parents. Survived under multiple identities.",
       "research_2026_05_17_cc": {
         "summary": "Aryan-side hiding in Lwów was widespread. Per JewishGen Lvov Yizkor (pp. 693-734): 'In 1942-1943, the number of Jews who were hidden by Aryans or who masqueraded as Aryans based on false certificates... reached the thousands.' An industry produced forged identity cards, marriage certs, work permits. Leah's pattern (Maria Cizlik identity + Legionów 24 + antiques shop) is consistent with documented practice. 'Hormek' may relate to Żegota — the Polish underground that produced forged papers in its Kraków and Lwów branches. No 'Maria Cizlik' record found in open web (most cover identities never publicly documented for safety).",
@@ -304,26 +304,26 @@
         ]
       },
       "next_steps": [
-        "Search Lwów archdiocese registers for Catholic convent placements of children 1942-44",
-        "Polscy Sprawiedliwi (Polish Righteous) database — search for Lwów-area shelterers of children",
-        "Direct name-search at USHMM HSV person_advance_search.php",
-        "JHI Warsaw (Jewish Historical Institute) CKŻP records — Lusia's 1945-46 entry would have indicated reunion status with Shimon"
+        "Cross-reference with Shimon's own testimony if one survives (he died — exact date TBD)",
+        "Polscy Sprawiedliwi: search for any post-war recognition of the Hormak family of Nadwórna as Righteous Among the Nations (memoir says they helped smuggle and feed the family — they qualify)",
+        "Lota Rapaport — find her in Lwów ghetto records (Yad Vashem)"
       ],
       "related_people": [
         "p_leah",
         "p_shimon"
       ],
-      "confidence": "hypothesis",
+      "confidence": "confirmed",
       "verdict": {
-        "en": "Shimon (age 4-7) was MOST LIKELY HIDDEN SEPARATELY, NOT with Lusia at Legionów 24. A circumcised Jewish boy of that age could not credibly live full-time with a single Polish woman on the Aryan side — circumcision was the single greatest obstacle for boys per Yad Vashem and USHMM. The documented Lwów pattern (per Joanna Beata Michlic's research): placement in a Catholic convent (Felician, Franciscan or Albertine sisters all sheltered Jewish children in Lwów) OR with a paid Polish family on Żegota's payroll, while the mother visited under her Aryan identity. Reunited with Lusia post-July 1944 Soviet liberation.",
-        "he": "שמעון (בגיל 4-7) ככל הנראה הוסתר בנפרד מלוסיה, ולא במגוריה בלגיונוב 24. ילד יהודי נימול בגיל הזה לא יכול היה לחיות באמינות עם אישה פולנייה רווקה בצד הארי — המילה הייתה המכשול הגדול ביותר עבור בנים לפי יד ושם וה-USHMM. הדפוס המתועד בלבוב (לפי מחקרה של ג'ואנה ביאטה מיכליץ): מסירה למנזר קתולי (האחיות הפרנציסקאניות, הפרנציסקנים והאלברטינים כולן הסתירו ילדים יהודים בלבוב) או למשפחה פולנית בתשלום באמצעות 'ז'גוטה', בעוד האם מבקרת בזהותה הארית. שמעון התאחד עם לוסיה לאחר שחרור לבוב על-ידי הסובייטים ביולי 1944."
+        "en": "RESOLVED via the memoir itself (Chapter D, pages 30-46). Shimon was NOT placed in a convent. Sequence: (1) Hormak family (gentile Nadwórna neighbours) helped move Shimon; (2) Lota Rapaport (David's sister) hid him in the Lwów ghetto for a period; (3) Hormaks smuggled him out of the Lwów ghetto and brought him to Lusia; (4) Shimon then lived in a 70 cm × 1.50 m crate inside Lusia's apartment at Legionów 24 from then until July 1944 Soviet liberation. Lusia operated a phonograph to mask his sounds when visitors came; he never saw sunlight; his complexion went white and pale. David Memek lived separately in Lwów under disguise (grew a mustache, changed his hair) and worked on railroad-track construction with a friend named Pesach — both circumcised Jews passing as gentiles, sewing up their members to bathe with the gentile crews.",
+        "he": "נפתר באמצעות היומן עצמו (פרק ד', עמ' 30-46). שמעון לא הוכנס למנזר. רצף האירועים: (1) משפחת הורמק (שכנים גויים בנדבורנה) עזרה להעביר את שמעון; (2) לוטה רפפורט (אחותו של דוד) הסתירה אותו בגטו לבוב תקופת מה; (3) הורמקים הבריחו אותו מגטו לבוב והביאו אותו ללוסיה; (4) משם והלאה התגורר שמעון בארגז של 70 ס\"מ × 1.50 מ' בתוך דירת לוסיה בלגיונוב 24, עד שחרור לבוב על-ידי הסובייטים ביולי 1944. לוסיה הפעילה פטיפון להסוות את קולותיו כאשר באו אורחים; הוא לא ראה את אור השמש; עורו הלבין והחוויר. דוד ממק התגורר בלבוב בנפרד תחת תחפושת (הצמיח שפם, שינה את תספורתו) ועבד בהנחת מסילות רכבת עם חבר בשם פסח — שניהם יהודים נימולים שעברו כגויים, ותפרו את איבריהם כדי להתקלח עם הצוותים הגויים."
       },
       "evidence_for": [
-        "Yad Vashem + USHMM: circumcision was the single greatest obstacle for Jewish boys passing on the Aryan side",
-        "Most surviving boys of that age in occupied Lwów were placed in convents or with paid Polish families (Michlic, Tec scholarship)",
-        "Żegota's Lwów branch documented exactly this kind of arrangement",
-        "Felician, Franciscan, and Albertine sisters all sheltered Jewish children in Lwów"
-      ]
+        "Memoir Chapter D pages 36-38: Lusia retrieves Shimon from the Lwów ghetto via Hormak family",
+        "Memoir Chapter D page 38: 'All that time he lived with Lucia's sister-in-law, Lota, in the ghetto' (before Lusia retrieved him)",
+        "Memoir Chapter D pages 44-46: 'Shimon and the Crate' chapter — explicit description of the 70cm × 1.50m crate, the phonograph, the sunless skin",
+        "Memoir Chapter D page 46: David Memek lived separately, sewed circumcision to bathe with gentiles"
+      ],
+      "evidence_against": []
     },
     {
       "id": "h_przemysl_who",
