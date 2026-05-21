@@ -1,0 +1,150 @@
+{
+  "site": "jpress",
+  "timestamp": "20260521_161522",
+  "query": {
+    "queries": [
+      [
+        "david_death",
+        "דוד רפפורט",
+        "1990-08-28",
+        "1990-09-30"
+      ],
+      [
+        "david_haifa",
+        "דוד ממק רפפורט",
+        "",
+        ""
+      ],
+      [
+        "lusia_death",
+        "לוסיה רפפורט",
+        "1996-12-25",
+        "1997-01-31"
+      ],
+      [
+        "lusia_leah",
+        "לאה רפפורט",
+        "1996-12-25",
+        "1997-01-31"
+      ],
+      [
+        "shimon_bylines",
+        "שמעון רפפורט",
+        "1958-01-01",
+        "2010-12-31"
+      ],
+      [
+        "dov_bernard",
+        "דב רפפורט",
+        "",
+        ""
+      ],
+      [
+        "nadworna",
+        "נדבורנה רפפורט",
+        "",
+        ""
+      ]
+    ]
+  },
+  "result": [
+    {
+      "query": {
+        "label": "david_death",
+        "q": "דוד רפפורט",
+        "date": [
+          "1990-08-28",
+          "1990-09-30"
+        ]
+      },
+      "url": "https://www.nli.org.il/en/newspapers/search?q=%D7%93%D7%95%D7%93%20%D7%A8%D7%A4%D7%A4%D7%95%D7%A8%D7%98&fromDate=1990-08-28&toDate=1990-09-30",
+      "hit_count_text": [],
+      "year_lines": [],
+      "page_snippet": "www.nli.org.il\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: 9ff3d8bebcad9a56\nPerformance and Security by Cloudflare\nPrivacy"
+    },
+    {
+      "query": {
+        "label": "david_haifa",
+        "q": "דוד ממק רפפורט",
+        "date": [
+          "",
+          ""
+        ]
+      },
+      "url": "https://www.nli.org.il/en/newspapers/search?q=%D7%93%D7%95%D7%93%20%D7%9E%D7%9E%D7%A7%20%D7%A8%D7%A4%D7%A4%D7%95%D7%A8%D7%98",
+      "hit_count_text": [],
+      "year_lines": [],
+      "page_snippet": "www.nli.org.il\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: 9ff3d8d91e2a9a56\nPerformance and Security by Cloudflare\nPrivacy"
+    },
+    {
+      "query": {
+        "label": "lusia_death",
+        "q": "לוסיה רפפורט",
+        "date": [
+          "1996-12-25",
+          "1997-01-31"
+        ]
+      },
+      "url": "https://www.nli.org.il/en/newspapers/search?q=%D7%9C%D7%95%D7%A1%D7%99%D7%94%20%D7%A8%D7%A4%D7%A4%D7%95%D7%A8%D7%98&fromDate=1996-12-25&toDate=1997-01-31",
+      "hit_count_text": [],
+      "year_lines": [],
+      "page_snippet": "www.nli.org.il\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: 9ff3d8f378aa9a56\nPerformance and Security by Cloudflare\nPrivacy"
+    },
+    {
+      "query": {
+        "label": "lusia_leah",
+        "q": "לאה רפפורט",
+        "date": [
+          "1996-12-25",
+          "1997-01-31"
+        ]
+      },
+      "url": "https://www.nli.org.il/en/newspapers/search?q=%D7%9C%D7%90%D7%94%20%D7%A8%D7%A4%D7%A4%D7%95%D7%A8%D7%98&fromDate=1996-12-25&toDate=1997-01-31",
+      "hit_count_text": [],
+      "year_lines": [],
+      "page_snippet": "www.nli.org.il\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: 9ff3d90e3c7a9a56\nPerformance and Security by Cloudflare\nPrivacy"
+    },
+    {
+      "query": {
+        "label": "shimon_bylines",
+        "q": "שמעון רפפורט",
+        "date": [
+          "1958-01-01",
+          "2010-12-31"
+        ]
+      },
+      "url": "https://www.nli.org.il/en/newspapers/search?q=%D7%A9%D7%9E%D7%A2%D7%95%D7%9F%20%D7%A8%D7%A4%D7%A4%D7%95%D7%A8%D7%98&fromDate=1958-01-01&toDate=2010-12-31",
+      "hit_count_text": [],
+      "year_lines": [],
+      "page_snippet": "www.nli.org.il\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: 9ff3d928bf8e9a56\nPerformance and Security by Cloudflare\nPrivacy"
+    },
+    {
+      "query": {
+        "label": "dov_bernard",
+        "q": "דב רפפורט",
+        "date": [
+          "",
+          ""
+        ]
+      },
+      "url": "https://www.nli.org.il/en/newspapers/search?q=%D7%93%D7%91%20%D7%A8%D7%A4%D7%A4%D7%95%D7%A8%D7%98",
+      "hit_count_text": [],
+      "year_lines": [],
+      "page_snippet": "www.nli.org.il\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: 9ff3d9434d609a56\nPerformance and Security by Cloudflare\nPrivacy"
+    },
+    {
+      "query": {
+        "label": "nadworna",
+        "q": "נדבורנה רפפורט",
+        "date": [
+          "",
+          ""
+        ]
+      },
+      "url": "https://www.nli.org.il/en/newspapers/search?q=%D7%A0%D7%93%D7%91%D7%95%D7%A8%D7%A0%D7%94%20%D7%A8%D7%A4%D7%A4%D7%95%D7%A8%D7%98",
+      "hit_count_text": [],
+      "year_lines": [],
+      "page_snippet": "www.nli.org.il\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: 9ff3d95ece3c9a56\nPerformance and Security by Cloudflare\nPrivacy"
+    }
+  ]
+}

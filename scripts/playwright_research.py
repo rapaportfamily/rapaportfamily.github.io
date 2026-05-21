@@ -240,20 +240,46 @@ async def arolsen(browser):
 # ── SITE 4: Polscy Sprawiedliwi ────────────────────────────────────────
 async def righteous(browser):
     site = "righteous"
-    print(f"\n[{site}] Opening Polscy Sprawiedliwi…")
+    _safe_print(f"\n[{site}] Opening Polscy Sprawiedliwi…")
     ctx = await browser.new_context(user_agent=UA)
     page = await ctx.new_page()
     try:
-        for q in ["Hormak", "Hurmak", "Chormak", "Nadworna rescuers"]:
-            print(f"  searching: {q}")
+        # Visit homepage first + dismiss cookie banner
+        await page.goto("https://sprawiedliwi.org.pl/en", wait_until="domcontentloaded", timeout=30000)
+        await page.wait_for_timeout(2000)
+        # Click "Allow all" or "Deny all" on the cookie banner
+        for label in ["Deny all", "Reject all", "Allow all", "Accept all"]:
             try:
-                await page.goto(f"https://sprawiedliwi.org.pl/en/search/{q}",
+                await page.get_by_role("button", name=label).first.click(timeout=2500)
+                _safe_print(f"  (dismissed cookie banner via: {label})")
+                break
+            except Exception:
+                pass
+        await page.wait_for_timeout(1000)
+        # Find the search input — usually a magnifying-glass icon top right opens it
+        for q in ["Hormak", "Hurmak", "Chormak", "Nadworna", "Nadwórna"]:
+            _safe_print(f"  searching: {q}")
+            try:
+                # Their search URL pattern is /en/search/?q=QUERY
+                await page.goto(f"https://sprawiedliwi.org.pl/en/search/?q={q}",
                                 wait_until="domcontentloaded", timeout=30000)
-                await page.wait_for_timeout(2500)
+                await page.wait_for_timeout(3000)
+                # Scroll down so any lazy-loaded results appear
+                await page.evaluate("window.scrollBy(0, 600)")
+                await page.wait_for_timeout(1000)
                 text = await page.locator("body").inner_text()
+                # Look for "Stories of Rescue" hit patterns
+                hit_block = []
+                lower = text.lower()
+                if q.lower() in lower:
+                    # Find context around the hit
+                    idx = lower.index(q.lower())
+                    hit_block.append(text[max(0,idx-200):idx+600])
                 await _save(site, {"query": q}, {
                     "url": page.url,
-                    "page_snippet": text[:2500],
+                    "query_found_on_page": q.lower() in lower,
+                    "hit_blocks": hit_block,
+                    "page_snippet": text[:3000],
                 }, page=page)
             except Exception as e:
                 await _save(site, {"query": q}, {"error": str(e)}, page=page)
@@ -298,12 +324,62 @@ async def jri(browser):
         await ctx.close()
 
 
+# ── SITE 6: JPress / NLI Historical Jewish Press ──────────────────────
+async def jpress(browser):
+    site = "jpress"
+    _safe_print(f"\n[{site}] Opening NLI JPress search…")
+    ctx = await browser.new_context(user_agent=UA)
+    page = await ctx.new_page()
+    queries = [
+        # (label, query, date_from, date_to)
+        ("david_death",   "דוד רפפורט", "1990-08-28", "1990-09-30"),
+        ("david_haifa",   "דוד ממק רפפורט", "", ""),
+        ("lusia_death",   "לוסיה רפפורט", "1996-12-25", "1997-01-31"),
+        ("lusia_leah",    "לאה רפפורט", "1996-12-25", "1997-01-31"),
+        ("shimon_bylines","שמעון רפפורט", "1958-01-01", "2010-12-31"),
+        ("dov_bernard",   "דב רפפורט", "", ""),
+        ("nadworna",      "נדבורנה רפפורט", "", ""),
+    ]
+    all_results = []
+    try:
+        for label, q, df, dt in queries:
+            _safe_print(f"  searching: {label} = '{q}'")
+            try:
+                # JPress uses a viewer URL with embedded search params
+                url = f"https://www.nli.org.il/en/newspapers/search?q={q}"
+                if df: url += f"&fromDate={df}"
+                if dt: url += f"&toDate={dt}"
+                await page.goto(url, wait_until="domcontentloaded", timeout=45000)
+                await page.wait_for_timeout(4000)
+                # Try Hebrew interface — same domain, /he/newspapers/search
+                # JPress is server-rendered + JS — wait for results to populate
+                text = await page.locator("body").inner_text()
+                # Look for "results" / hit count
+                import re
+                hits = re.findall(r"(\d+)\s+(results|tutyot|תוצאות|פריטים)", text, re.IGNORECASE)
+                # Capture any text that looks like a newspaper line
+                lines_with_year = [ln.strip() for ln in text.splitlines() if any(y in ln for y in ["1990","1996","1997","1968","1972","1980"])][:30]
+                all_results.append({
+                    "query": {"label": label, "q": q, "date": [df, dt]},
+                    "url": page.url,
+                    "hit_count_text": hits,
+                    "year_lines": lines_with_year,
+                    "page_snippet": text[:2500],
+                })
+            except Exception as e:
+                all_results.append({"query": {"label": label, "q": q}, "error": str(e)})
+        await _save(site, {"queries": queries}, all_results, page=page)
+    finally:
+        await ctx.close()
+
+
 SITES = {
     "ushmm":     ushmm,
     "yadvashem": yadvashem,
     "arolsen":   arolsen,
     "righteous": righteous,
     "jri":       jri,
+    "jpress":    jpress,
 }
 
 
