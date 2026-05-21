@@ -17,11 +17,15 @@ const { defineSecret } = require("firebase-functions/params");
 const logger = require("firebase-functions/logger");
 const admin = require("firebase-admin");
 const { GoogleGenerativeAI } = require("@google/generative-ai");
+// Optional fallback when Gemini returns 503 / 429 / RECITATION / SAFETY
+let AnthropicClass = null;
+try { AnthropicClass = require("@anthropic-ai/sdk"); } catch (e) { logger.info("Anthropic SDK not installed - Claude fallback disabled"); }
 
 admin.initializeApp();
 setGlobalOptions({ region: "us-central1" });
 
 const GEMINI_API_KEY = defineSecret("GEMINI_API_KEY");
+const ANTHROPIC_API_KEY = defineSecret("ANTHROPIC_API_KEY");
 
 // Public read URLs for the static research data (GitHub Pages)
 const SITE = "https://doronrpa-hub.github.io/rapaport-family-tree";
@@ -163,6 +167,56 @@ async function callGemini(upload, contextSummary, fileBytes, fileMime) {
   }
 }
 
+// Claude Sonnet 4.5 fallback - used when Gemini fails (503 / 429 / RECITATION / SAFETY).
+// Same system prompt + same expected JSON shape so the rest of the pipeline is unchanged.
+async function callClaude(upload, contextSummary, fileBytes, fileMime) {
+  if (!AnthropicClass) throw new Error("Anthropic SDK not available");
+  const Anthropic = AnthropicClass.default || AnthropicClass.Anthropic || AnthropicClass;
+  const client = new Anthropic({ apiKey: ANTHROPIC_API_KEY.value() });
+
+  const userContent = [
+    { type: "text", text: `FAMILY DATA SUMMARY (compact):\n${JSON.stringify(contextSummary, null, 2)}\n\n` },
+    { type: "text", text:
+        `NEW UPLOAD:\n` +
+        `- uploader: ${upload.uploader_name} (${upload.uploader_role})\n` +
+        `- kind: ${upload.kind}\n` +
+        `- title: ${upload.title || "(no title)"}\n` +
+        `- notes: ${upload.notes || "(no notes)"}\n` +
+        `- file name: ${upload.file_name}\n` +
+        `- file type: ${upload.file_type}\n` +
+        `- related person_id (uploader said): ${upload.person_id || "none"}\n` +
+        `- related place_id: ${upload.place_id || "none"}\n` +
+        `- related hypothesis_id: ${upload.hypothesis_id || "none"}\n\n` +
+        `Verify this upload against the family story. Paraphrase any external knowledge in your own words. Return ONLY the JSON object specified in the system prompt - no prose outside JSON.` },
+  ];
+  if (fileBytes && fileMime) {
+    if (fileMime === "application/pdf") {
+      userContent.push({ type: "document", source: { type: "base64", media_type: fileMime, data: fileBytes.toString("base64") } });
+    } else if (/^image\/(jpeg|png|webp|gif)$/.test(fileMime)) {
+      userContent.push({ type: "image", source: { type: "base64", media_type: fileMime, data: fileBytes.toString("base64") } });
+    }
+  }
+
+  const resp = await client.messages.create({
+    model: "claude-sonnet-4-5-20250929",
+    max_tokens: 4096,
+    system: SYSTEM_PROMPT,
+    messages: [{ role: "user", content: userContent }],
+  });
+  const text = (resp.content || []).map(b => b.text || "").join("");
+  return text;
+}
+
+// Determines whether a Gemini error should trigger Claude fallback
+function isRetryableGeminiError(e) {
+  const msg = String(e && (e.message || e)).toLowerCase();
+  if (e && (e.code === "RECITATION" || e.code === "SAFETY")) return true;
+  if (msg.includes("503") || msg.includes("service unavailable")) return true;
+  if (msg.includes("429") || msg.includes("rate limit") || msg.includes("quota")) return true;
+  if (msg.includes("500") || msg.includes("internal")) return true;
+  return false;
+}
+
 function safeParseJSON(text) {
   // Gemini sometimes wraps in ```json ... ``` despite instructions - strip it
   const cleaned = text
@@ -182,7 +236,7 @@ function safeParseJSON(text) {
 }
 
 exports.verifyUpload = onDocumentCreated(
-  { document: "family_uploads/{uploadId}", secrets: [GEMINI_API_KEY], memory: "1GiB", timeoutSeconds: 120 },
+  { document: "family_uploads/{uploadId}", secrets: [GEMINI_API_KEY, ANTHROPIC_API_KEY], memory: "1GiB", timeoutSeconds: 180 },
   async (event) => {
     const snap = event.data;
     if (!snap) return;
@@ -214,20 +268,33 @@ exports.verifyUpload = onDocumentCreated(
         }
       }
 
-      const rawText = await callGemini(upload, summary, fileBytes, upload.file_type);
+      let rawText, modelUsed = "gemini-2.5-flash", fallbackReason = null;
+      try {
+        rawText = await callGemini(upload, summary, fileBytes, upload.file_type);
+      } catch (geminiErr) {
+        if (isRetryableGeminiError(geminiErr) && AnthropicClass) {
+          fallbackReason = geminiErr.code || (geminiErr.message || "gemini_error").slice(0, 200);
+          logger.warn(`Gemini failed (${fallbackReason}); falling back to Claude Sonnet 4.5`);
+          rawText = await callClaude(upload, summary, fileBytes, upload.file_type);
+          modelUsed = "claude-sonnet-4-5";
+        } else {
+          throw geminiErr;
+        }
+      }
       const parsed = safeParseJSON(rawText);
 
       await ref.update({
         gemini_verification: {
           status: parsed.error ? "parse_error" : "done",
-          model: "gemini-2.5-flash",
+          model: modelUsed,
+          fallback_reason: fallbackReason,
           completed_at: admin.firestore.FieldValue.serverTimestamp(),
           result: parsed.json || null,
           parse_error: parsed.error || null,
           raw_text: parsed.error ? parsed.raw : null,
         },
       });
-      logger.info(`Verified ${event.params.uploadId} - ${parsed.error ? "PARSE ERROR" : "OK"}`);
+      logger.info(`Verified ${event.params.uploadId} via ${modelUsed} - ${parsed.error ? "PARSE ERROR" : "OK"}`);
     } catch (e) {
       logger.error(`verifyUpload failed: ${e.stack || e.message}`);
       await ref.update({

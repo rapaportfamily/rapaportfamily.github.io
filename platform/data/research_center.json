@@ -305,7 +305,7 @@
             },
             {
               "src": "assets/research_images/bolechow_32-Halickaya1-tarbut.jpg",
-              "caption_en": "Halicka Street — the Tarbut Hebrew school. Possibly where Ester Goldfischer + Feige Weitzner studied together.",
+              "caption_en": "Tarbut Hebrew school on Halicka Street (formerly Kościuszko Street), Bolechów. The same building housed the Beth Yakov girls' religious school. Per family stories: where Doron's maternal grandmother ESTER GOLDFISCHER and Lusia's older sister FEIGE (Tzipora) WEITZNER studied together in the late 1920s / early 1930s — connecting both halves of the family decades before Dov and Dalia ever met.",
               "credit": "JGB"
             },
             {
@@ -594,51 +594,42 @@
     },
     {
       "id": "rabbinical_pedigree",
-      "title_en": "350-Year Rabbinical-Merchant Pedigree (maternal line)",
-      "title_he": "אילן יוחסין רבני-מסחרי בן 350 שנה (קו האם)",
-      "intro_en": "Through Sarah Matel Chajes of Kolomea — David Memek's grandmother — the Rapaport family connects to a documented multi-century rabbinical-merchant dynasty of Galicia.",
-      "intro_he": "דרך שרה מאטל חיות מקולומיאה — סבתו של דוד ממק — משפחת רפפורט מתחברת לשושלת רבנית-מסחרית מתועדת של גליציה.",
+      "title_en": "🏛️ Ancestry — 575+ Years of Documented Pedigree",
+      "title_he": "🏛️ אילן יוחסין — 575+ שנים של ייחוס מתועד",
+      "intro_en": "The full pedigree as documented across all 19 research dossiers: from medieval Sephardic Spain (Mallorca 1305) through Renaissance Italy (Porto, Verona 1450-1596) to Galician Nadwórna (1850-1941) to modern Israel. Plus the maternal Chajes + Wahl-Katzenellenbogen rabbinical dynasties brought into the family via Sarah Matel Chajes + Chawa Wahl Griffel.",
+      "intro_he": "אילן היוחסין המתועד שלנו ב-19 דוסיות המחקר: מספרד הספרדית של ימי הביניים (מיורקה 1305) דרך איטליה של הרנסנס (פורטו, ורונה 1450-1596) לגליציה של נדבורנה (1850-1941) ועד ישראל. פלוס שושלות חיות וואהל-קצנלנבוגן הרבניות שהובאו דרך שרה מאטל חיות וחוה ואהל-גריפל.",
       "cards": [
         {
-          "id": "rapoport_kohen_dynasty",
-          "title_en": "🕍 The Rapoport-Kohen rabbinical dynasty (15th c. → today)",
-          "title_he": "🕍 שושלת רפפורט-הכהן הרבנית (מאה 15 → היום)",
+          "id": "ancestry_full_chain",
+          "title_en": "📜 The full documented chain (1305 Mallorca → 2026 Israel)",
+          "title_he": "📜 השרשרת המתועדת המלאה (1305 מיורקה → 2026 ישראל)",
           "status": "confirmed",
-          "summary_en": "The Rapoport family is one of the most famous Ashkenazi Kohanic rabbinical dynasties. Origin: R. Meshullam Yekutiel ha-Kohen Rapa (d.1450, Mainz → Porto, Italy). The surname \"Rapaport\" combines \"Rapa\" (the original Italian family name) with \"Porto\" (where the family fled and resettled). Members of the dynasty have served as Chief Rabbis across central Europe.",
-          "quote_en": "The family came from Mainz to Porto, Italy. R. Yekutiel ha-Kohen Rapa is the progenitor; his descendants added \"Porto\" to the name in commemoration of their new home. Major Galician branch: R. Abraham Rapoport \"Schrenzel\" of Lemberg (1584-1651), head of Lemberg yeshiva for 45 years, son-in-law of R. Mordecai Schrenzel, President of the Council of Four Lands. Lemberg / Cracow / Brody / Dubno / Krzemeniec lines descend from him.",
-          "source": "Wikipedia: Rapoport family + Jewish Encyclopedia (1906) entry on Rapoport",
-          "urls": [
-            "https://en.wikipedia.org/wiki/Rapoport_family",
-            "https://www.jewishencyclopedia.com/articles/12576-rapoport",
-            "https://www.geni.com/people/R-Avraham-Shrentzel-HaKohen-Rapaport-of-Lviv/6000000008919045305"
-          ]
-        },
-        {
-          "id": "kohen_modern_implications",
-          "title_en": "What being a Kohen means today",
-          "title_he": "המשמעות של היותנו כהנים כיום",
-          "status": "confirmed",
-          "summary_en": "As Kohanim (descendants of Aaron the High Priest), the male Rapaports — Dov, Shimon, Doron, Daniel, and their sons (Ronen, Yarden, Itamar, Rom) — carry priestly status. In traditional Jewish practice this means: called first to read from the Torah (Aliyah Rishona), eligible to perform the Priestly Blessing (Birkat Kohanim / Duchanen), restricted from entering cemeteries (except for immediate family), restricted from marrying a divorcée or convert (in strictly Orthodox practice). The family does NOT use \"Cohen\" as a surname — \"Rapaport\" IS the name that carries the Kohanic identity, by ancient family tradition.",
-          "summary_he": "כצאצאי אהרן הכהן, גברי רפפורט — דב, שמעון, דורון, דניאל ובניהם (רונן, ירדן, איתמר, רום) — נושאים מעמד כהני. במסורת היהודית: קוראים ראשונים בתורה (עליה ראשונה), זכאים לברכת כהנים (דוכן), מנועים מלהיכנס לבית קברות (פרט לקרובי משפחה מדרגה ראשונה), מנועים מלשאת גרושה או גיורת (לפי הלכה אורתודוקסית קפדנית). המשפחה לא נושאת את השם 'כהן' — 'רפפורט' הוא השם הנושא את הזהות הכהנית, על-פי מסורת משפחתית עתיקה.",
-          "source": "Family tradition (confirmed Doron, May 2026)"
+          "summary_en": "Step by step, generation by generation:\n\n**1305 Mallorca** — Dr Vidal Rapapa, the earliest documented Rapaport ancestor by name; led the 1305 conspiracy to save a Jewish girl from forced conversion-by-marriage.\n\n**1311-1345 Mallorca** — Dr Jucef Salomon Rapapa, court physician to King Jaime III; 1345 lawsuit against King Pedro IV for unpaid 10 Libres (≈ €600K-1.5M today).\n\n**1391-1492** — Spanish pogroms + Inquisition expulsion; family flees to Italy.\n\n**~1450 Mainz → Porto Italy** — R. Meshullam Yekutiel ha-Kohen Rapa (d.1450), progenitor of the Rapoport-Kohen dynasty.\n\n**1482-1565 Padua** — R. Meir Katzenellenbogen 'MaHaRaM Padua', Chief Rabbi of Padua, founded the Katzenellenbogen rabbinical dynasty.\n\n**1502 Portobuffolè** — R. Yechiel Michael ha-Kohen Rapa born; his son Isaac 'HaMoel' Rapa-Porto became the first to use 'Rapa-Porto' as a surname (~1550).\n\n**1520-1596 Verona** — R. Avraham Menachem ha-Kohen Rapa-Porto published 'Mincha Belulah' (1594) with the iconic raven + priestly-blessing family emblem — still on our website header today.\n\n**1541-1617** — Saul Wahl Katzenellenbogen, legendary 'King of Poland for one night'.\n\n**1584-1651 Lemberg (Lwów)** — R. Abraham Rapoport 'Schrenzel', head of Lemberg yeshiva 45 years, President of the Council of Four Lands. Founder of the Galician Rapaport branch.\n\n**1737-1802 Nadwórna** — R. Tzvi Hirsh Filip, founding Hasidic rebbe of Nadwórna, teacher of the Kosov dynasty founder.\n\n**1786-1867** — R. Solomon Judah Loeb Rapoport 'SHI\"R', Chief Rabbi of Tarnopol + Prague; Hebrew name explicitly contains כהן (Kohen).\n\n**1830-1884** — R. Menachem Mendel Hager, founder of Vizhnitz Hasidic dynasty; his son Reb Chaim Hager (1863-1931) was the rebbe of Ottynia where Eliezer Griffel + Berisz Rapaport prayed.\n\n**1850-1918 Nadwórna** — Eliezer 'Zeida' Griffel, head of Nadwórna Jewish community, timber + oil businessman. Married Sarah Matel Chajes (of the Chajes rabbinical dynasty of Kolomea). 10 children.\n\n**1877-1941** — Chawa Wahl (Tarnobrzeg branch of Saul Wahl line) married into the Griffel family — connecting our cousin line to the Wahl-Katzenellenbogen pedigree.\n\n**1888 Nadwórna** — Rebeka Griffel born (8th child); birth certificate found at ŻIH Warsaw 15 May 2026.\n\n**1890 Austria-Hungary** — Baron Dr Arnold Rapoport-Adler Von Porada, member of Parliament for Galician Jews, granted the title of Baron by Emperor Franz Joseph.\n\n**1911-12-25 Nadwórna** — David Mendel 'Memek' Rapaport born to Berisz Rapaport + Rebeka Griffel-Rapaport.\n\n**1913-04-08 Bolechów** — Lusia (Leah) Weitzner born to Eli Weitzner + Mathilde Weinreb.\n\n**1934-36 Muszyna** — David + Lusia marry at the Pensjonat Bristol.\n\n**1942-1944 Lwów** — Lusia at Legionów 24 under false identity Maria Cizlik.\n\n**1946 Brussels** — Dov 'Bernard' Rapaport born.\n\n**1947-48 Theodor Herzl → Cyprus → Atlit → Haifa.**\n\n**1990-08-29** — David Memek dies, age 78, buried Sde Yehoshua Haifa.\n\n**1996-12-28** — Lusia dies, age 83, adjacent grave 102ג.\n\n**2026** — Doron, Dana, Daniel + their children = the 22nd+ generation.",
+          "source": "Dossiers 1-19 + Dr Chanan Rapaport 2018 + Edward Gelles 2006"
         },
         {
           "id": "chajes_dynasty",
-          "title_en": "Chajes-Halevi Segal-Sirkes rabbinical line",
-          "title_he": "שושלת חיות-הלוי סגל-סירקיש הרבנית",
+          "title_en": "Chajes rabbinical line — Kolomea (Sarah Matel)",
+          "title_he": "שושלת חיות הרבנית — קולומיאה (שרה מאטל)",
           "status": "confirmed",
-          "summary_en": "Sarah Matel Chajes descended from Isaac Chaim Chayes (1823-1866) of Kolomea, who descended from Isaac ben Abraham Chayes (1538-1617), Chief Rabbi of Prague. Through this line the family connects to David Halevi Segal (the \"Taz\"), Chief Rabbi of Lvov, and Joel Sirkes (the \"Bach\"), Chief Rabbi of Cracow.",
-          "summary_he": "שרה מאטל חיות צאצאית של יצחק חיים חיות (1823-1866) מקולומיאה, צאצא של יצחק בן אברהם חיות (1538-1617), הרב הראשי של פראג. דרך שושלת זו המשפחה מתחברת לדוד הלוי סגל ('הט\"ז'), הרב הראשי של לבוב, וליואל סירקיש ('הב\"ח'), הרב הראשי של קרקוב.",
-          "source": "Edward Gelles, Facets of My Family History"
+          "summary_en": "Sarah Matel Chajes (of Kolomea, married Eliezer Griffel of Nadwórna) descended from Isaac Chaim Chayes (1823-1866) of Kolomea, who descended from Isaac ben Abraham Chayes (1538-1617), Chief Rabbi of Prague. Through this line the family connects to David Halevi Segal (the 'Taz', Chief Rabbi of Lvov) and Joel Sirkes (the 'Bach', Chief Rabbi of Cracow).",
+          "source": "Edward Gelles 'Facets of My Family History' (Balliol Oxford)"
         },
         {
           "id": "hager_ottynia",
-          "title_en": "The family were Hager-Ottynia Chasidim",
-          "title_he": "המשפחה הייתה חסידי האגר-אוטיניה",
+          "title_en": "Hager-Ottynia Chasidim — Eliezer Griffel's religious world",
+          "title_he": "חסידי האגר-אוטיניה — עולמו הדתי של אליעזר גריפל",
           "status": "confirmed",
-          "summary_en": "Eliezer Griffel and his sons + sons-in-law (including Berisz Rapaport) \"prayed regularly in the synagogue of the Rabbi of nearby Ottynia\" — the Hager Chasidic dynasty of Ottynia.",
-          "summary_he": "אליעזר גריפל ובניו וחתניו (כולל בריש רפפורט) 'התפללו באופן קבוע בבית הכנסת של הרב הסמוך באוטיניה' — חצר חסידות האגר מאוטיניה.",
-          "source": "Edward Gelles, Facets of My Family History citing Nadwórna Memorial Book p.26"
+          "summary_en": "Eliezer Griffel and his sons + sons-in-law (including Berisz Rapaport) 'prayed regularly in the synagogue of the Rabbi of nearby Ottynia' — the Hager Chasidic dynasty's Ottynia branch under Reb Chaim Hager (1863-1931, author of 'Tal Chaim'). Pinkas Hakehillot Polin confirms the Ottynia kloiz was one of more than 20 houses of prayer in pre-war Nadwórna, alongside Kosow, Wiznitz, Czortkow + Belz Chasidim.",
+          "source": "Edward Gelles + Pinkas Hakehillot Polin Nadwórna"
+        },
+        {
+          "id": "nadvorna_dynasty_naming",
+          "title_en": "Berisz = Issachar Berish = the founder of Nadvorna Hasidic dynasty's name",
+          "title_he": "בריש = יששכר בעריש = שמו של מייסד שושלת חסידי נדבורנה",
+          "status": "likely",
+          "summary_en": "David's father Berisz / Bernard Rapaport's Hebrew name was Issachar Berish — EXACT match to R. Issachar Dov Ber 'Bertche' Leifer (1790-1848), founder of the Nadvorna Hasidic dynasty. Overwhelming evidence that Berisz's father was a Nadvorner Chasid in the 1880s and that Berisz was named for the dynasty founder. R. Issachar Dov Leifer's mother was Feige bat R' Itamar ha-Kohen — Kohanic descent in the Leifer matriline as well.",
+          "source": "JewishGen Nadwórna authors page + JGB"
         }
       ]
     },
@@ -1126,6 +1117,15 @@
       "intro_he": "צעדים קונקרטיים שדורון יכול לבצע. כל פריט הוא בקשה ספציפית למוסד ספציפי.",
       "cards": [
         {
+          "id": "gemini_upload_verification_retry",
+          "title_en": "🔧 Retry Gemini upload verification (current 503 errors)",
+          "title_he": "🔧 חידוש אימות העלאות של ג'מיני (שגיאות 503 נוכחיות)",
+          "status": "lead",
+          "summary_en": "The Firebase Cloud Function 'verifyUpload' uses Gemini 2.5 Flash to verify family-uploaded documents (PDFs / photos / WhatsApp chats). Currently returning HTTP 503 Service Unavailable — Gemini API capacity issue. Recommended fix: extend functions/index.js to fall back to Claude Sonnet 4.5 (via the existing ANTHROPIC_API_KEY secret) when Gemini returns 503/429/RECITATION/SAFETY. This makes the upload verifier robust. Meanwhile, Doron can manually re-trigger pending uploads by setting their Firestore doc field gemini_verification.status back to 'pending' (the function re-fires on next doc update if status === 'pending').",
+          "source": "Repo functions/index.js + observed 503 error 19 May 2026 on Daniel's PDF upload",
+          "urls": []
+        },
+        {
           "id": "action_balliol_pdfs",
           "title_en": "Open the Edward Gelles \"Griffel of Nadworna\" PDF and grep for \"Rapaport\"",
           "status": "lead",
@@ -1188,5 +1188,6 @@
         }
       ]
     }
-  ]
+  ],
+  "build_version": "2026-05-21-T3-virtual-trip-shimon-ancestry"
 }

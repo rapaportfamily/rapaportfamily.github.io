@@ -442,7 +442,7 @@
         "שמעון"
       ],
       "role": "uncle",
-      "note_en": "Older brother of Dov. Uncle to Doron, Dana and Daniel. Survived the war as a child. Married Tamar; father of Ronen (older) and Hadas.",
+      "note_en": "Older brother of Dov. Uncle to Doron, Dana and Daniel. Survived the war as a child. Married Tamar; father of Ronen (older) and Hadas. Deceased — exact date to be confirmed via Haifa Chevra Kadisha (53 male Rapaports in their records) or Misrad HaPnim.",
       "birth": {
         "date": "1937-06-22",
         "date_precision": "day",
@@ -3267,11 +3267,12 @@
           ]
         },
         {
-          "key": "feige_weitzner_school_circle",
-          "value": "Studied with Feige (Tzipora) Weitzner — Lusia Rapaport's older sister — per family stories. School location to be confirmed (likely Bolechów-area gymnasium or Hebrew school, late 1920s / early 1930s).",
+          "key": "school_with_feige_weitzner",
+          "value": "Per family stories, studied with Feige (Tzipora) Weitzner — Lusia's older sister, b.1911 Bolechów. Most likely school: the Tarbut Hebrew School on Halicka Street (formerly Kościuszko Street) in Bolechów — a coeducational Hebrew-language secular Zionist school. The same building also housed the Beth Yakov girls' religious school. Tarbut was the natural fit for a tannery-owner's daughter (the Weitzners) and for any Skole-area Jewish girl boarding for education in Bolechów. Alternative: the Stryj I or II Gymnasium (gymnasium-level, 40km commute from Bolechów; Bolechów Yizkor confirms 'the gymnasium students travelled to Stryj each morning').",
           "confidence": "family_oral",
           "sources": [
-            "src_goldfischer_family_documents_2026"
+            "src_family_oral_2026",
+            "src_bolechow_school_research_2026"
           ]
         }
       ],
