@@ -556,8 +556,15 @@
           ],
           "images": [
             {
+              "src": "assets/research_images/trip/legionow24_svobody24_lviv.jpg",
+              "caption_en": "🏠 THE BUILDING ITSELF — Prospekt Svobody 24, Lviv (formerly Legionów 24). The four-storey Biedermeier stone kamienica, built 1836-1837 by Johann Salzmann for F. Adamski. This is Lusia's wartime apartment building, where she lived 1942-1944 as 'Maria Cizlik' on the Aryan side. Polish poet Wincenty Pol lived here 1856-1866.",
+              "caption_he": "🏠 הבניין עצמו — פרוספקט סבובודי 24, לבוב (לשעבר לגיונוב 24). בניין אבן ביידרמייר בן ארבע קומות, נבנה 1836-1837 על-ידי האדריכל יוהן זלצמן עבור פ. אדמסקי. זוהי דירת המגורים של לוסיה בזמן המלחמה, בה התגוררה 1942-1944 בזהות הבדויה 'מריה ציצליק' בצד הארי. המשורר הפולסי וינצנטי פול גר כאן 1856-1866.",
+              "credit": "Wikimedia Commons (CC BY 3.0)"
+            },
+            {
               "src": "assets/research_images/trip/lviv_opera_lead.jpg",
               "caption_en": "The Lviv Opera House (Lviv Theatre of Opera and Ballet, Svobody 28) — DIRECTLY UP THE STREET from Lusia's apartment at Legionów 24. During the Nazi occupation 1941-44 the Opera served as 'Operntheater Lemberg', Wehrmacht entertainment HQ.",
+              "caption_he": "האופרה של לבוב (בניין האופרה והבלט של לבוב, סבובודי 28) — ישירות במעלה הרחוב מדירת לוסיה בלגיונוב 24. בזמן הכיבוש הנאצי 1941-44 שימשה האופרה כ'אופרנתיאטר לֶמברג', מטה הבידור של הוורמאכט.",
               "credit": "Wikipedia Commons (CC-BY-SA)"
             }
           ],
@@ -1601,5 +1608,5 @@
       ]
     }
   ],
-  "build_version": "2026-05-21-T10-dossier20-audit-fixes"
+  "build_version": "2026-05-21-T11-legionow24-house-photo"
 }
