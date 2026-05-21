@@ -281,6 +281,11 @@
           "source": "Wikipedia Nadvirna + Pinkas Hakehillot Polin",
           "images": [
             {
+              "src": "assets/research_images/trip/nadwirna_lead.jpg",
+              "caption_en": "Nadvirna (Nadwórna) today — David Memek's birthplace.",
+              "credit": "Wikipedia Commons (CC-BY-SA)"
+            },
+            {
               "src": "assets/research_images/nadworna_town_hall.jpg",
               "caption_en": "Nadwórna — the historic Town Hall on Hetman Mazepa Street.",
               "credit": "Wikipedia Commons"
@@ -304,6 +309,11 @@
           "summary_en": "Lusia (Leah) Weitzner was born 8 April 1913 in Bolechów (Bolechów Ruski). Her father Eli/Eliyahu Weitzner started as a cattle dealer and became a tannery owner — tanning was the dominant Jewish industry in Bolechów (in 1874 tannery owner Israel Hauptman was elected mayor). The 1957 Bolechów Yizkor names 'D. Rapaport, Eli Weitzner's son-in-law' — documentary print confirmation of David + Lusia's marriage. Today: Bolekhiv, Ivano-Frankivsk Oblast, Ukraine. FAMILY CONNECTION: per family stories, Lusia's older sister Feige (Tzipora) Weitzner studied here with Ester Goldfischer — Doron's maternal grandmother.",
           "source": "Wikipedia Bolekhiv + Bolechów Yizkor 1957 + JGB",
           "images": [
+            {
+              "src": "assets/research_images/trip/bolekhiv_lead.jpg",
+              "caption_en": "Bolekhiv (Bolechów) today — Lusia's birthplace.",
+              "credit": "Wikipedia Commons"
+            },
             {
               "src": "assets/research_images/bolechow_great_synagogue.jpg",
               "caption_en": "The Great Synagogue of Bolechów — northern side.",
@@ -357,7 +367,14 @@
           "status": "confirmed",
           "summary_en": "S. Goldfischer was born 23 November 1909 in Skole — a small town in the Carpathian foothills of eastern Galicia (today Skole, Lviv Oblast, Ukraine). Skole is only ~60km from Bolechów + ~80km from Stryj — the same small Jewish world as the Weitzner and Rapaport families. He was a 'Marin' (sailor / merchant marine) by profession, eventually settling in Haifa. Married Ester Goldfischer. Their daughter Dalia married Dov Rapaport, son of David Memek + Lusia. THE TWO HALVES OF DORON'S FAMILY CONVERGED ON HAIFA from the same Galician Jewish region.",
           "source": "Family Israeli ID + French-Hebrew bilingual passport documents (2026)",
-          "urls": []
+          "urls": [],
+          "images": [
+            {
+              "src": "assets/research_images/trip/stryj_lead.jpg",
+              "caption_en": "Stryj — regional centre near Skole, the birthplace of S. Goldfischer (1909). Same Carpathian-foothills world as Bolechów + Nadwórna.",
+              "credit": "Wikipedia Commons"
+            }
+          ]
         },
         {
           "id": "trip_muszyna",
@@ -423,7 +440,14 @@
           "title_en": "💀 The Nadwórna sawmill — David's escape from the 24 Oct 1942 liquidation  [memoir pp.25-32, 41-42]",
           "status": "confirmed",
           "summary_en": "Under Nazi occupation 1941-1942, the Nadwórna sawmill (the Jewish-owned 'Foresta' operation) employed ~600 Jews who held German 'essential worker' badges. David Rapaport was one of them — his badge let him leave the ghetto. On 24 October 1942, during the final Nadwórna ghetto liquidation, David and 17 other Jews escaped by hiding inside wood-transport train wagons that he had drilled escape-holes into. Lusia smuggled their son Shimon (then 5) out of the ghetto in a modified vegetable crate.",
-          "source": "Memoir pp.25-32, 41-42 + Yad Vashem + Pinkas Polin"
+          "source": "Memoir pp.25-32, 41-42 + Yad Vashem + Pinkas Polin",
+          "images": [
+            {
+              "src": "assets/research_images/trip/nadwirna_lead.jpg",
+              "caption_en": "Nadvirna today — the wartime sawmill site is now built over.",
+              "credit": "Wikipedia Commons"
+            }
+          ]
         },
         {
           "id": "trip_lwow_legionow",
@@ -437,6 +461,13 @@
             "https://www.pslava.info/LvivM_SvobodyProsp_Bud24,222601.html",
             "https://streets.lvivcenter.org/en/Adolf-Hitler-Ring/",
             "https://en.wikipedia.org/wiki/Lviv_Theatre_of_Opera_and_Ballet"
+          ],
+          "images": [
+            {
+              "src": "assets/research_images/trip/lviv_opera_lead.jpg",
+              "caption_en": "The Lviv Opera House (Lviv Theatre of Opera and Ballet, Svobody 28) — DIRECTLY UP THE STREET from Lusia's apartment at Legionów 24. During the Nazi occupation 1941-44 the Opera served as 'Operntheater Lemberg', Wehrmacht entertainment HQ.",
+              "credit": "Wikipedia Commons (CC-BY-SA)"
+            }
           ]
         },
         {
@@ -445,7 +476,14 @@
           "title_he": "🏪 לבוב: חנות חפצי האמנות בכיכר הרינק — הכיסוי של לוסיה  [יומן עמ' 43-50]",
           "status": "confirmed",
           "summary_en": "Lusia managed an art-objects shop in the commercial complex on Rynek Square (the Old Market Square) in Lwów. The financial manager of the whole complex was a German named 'Doner'. Lusia made buying trips for art objects. The shop's display window was famously beautiful. She passed multiple Gestapo inspections of her false papers there. Today's Площа Ринок in central Lviv — a UNESCO World Heritage Site preserving the medieval merchant town.",
-          "source": "Memoir pp.43-50"
+          "source": "Memoir pp.43-50",
+          "images": [
+            {
+              "src": "assets/research_images/trip/lviv_rynek_square_lead.jpg",
+              "caption_en": "Lviv Rynek Square (Площа Ринок) — the UNESCO-listed medieval merchant square. Lusia worked as manager of an art-objects shop in this commercial complex during 1943-1944.",
+              "credit": "Wikipedia Commons (CC-BY-SA)"
+            }
+          ]
         },
         {
           "id": "trip_brussels_1946",
@@ -453,7 +491,14 @@
           "title_he": "🇧🇪 בריסל, אפריל 1946 — תחנת הפליטים והולדת דב  [יומן עמ' 62]",
           "status": "confirmed",
           "summary_en": "After the war's end David, Lusia and Shimon left Lwów, transited Katowice (Poland), and reached Brussels in April 1946. The Jewish relief organisation Joint (JDC) paid their hotel rent. Their second son Dov 'Bernard' Rapaport was born in Brussels in 1946 — Doron's father. They remained ~1 year before sailing for Palestine on the Theodor Herzl in April 1947. The Belgian Aliens Police kept individual dossiers on every adult foreigner — guaranteed to exist for David, Lusia, and Dov at the Archives générales du Royaume.",
-          "source": "Memoir p.62 + Archives générales du Royaume"
+          "source": "Memoir p.62 + Archives générales du Royaume",
+          "images": [
+            {
+              "src": "assets/research_images/trip/brussels_grand_place_lead.jpg",
+              "caption_en": "Brussels Grand-Place — central Brussels square. David, Lusia and Shimon transited Brussels in April 1946; their son Dov 'Bernard' (Doron's father) was born here later that year.",
+              "credit": "Wikipedia Commons (CC-BY-SA)"
+            }
+          ]
         },
         {
           "id": "trip_sete_theodor_herzl",
@@ -464,6 +509,13 @@
           "source": "Memoir pp.63-64 + Palmach/Palyam ship history",
           "urls": [
             "https://www.palyam.org/English/Hahapala/hf/hf_Theodor_Herzl.pdf"
+          ],
+          "images": [
+            {
+              "src": "assets/research_images/trip/sete_lead.jpg",
+              "caption_en": "The French port of Sète — where the Theodor Herzl sailed from on 2 April 1947 with 2,641 Holocaust-survivor Ma'apilim including David, Lusia, Shimon and infant Dov.",
+              "credit": "Wikipedia Commons (CC-BY-SA)"
+            }
           ]
         },
         {
@@ -475,6 +527,13 @@
           "source": "Memoir pp.64-65 + Wikipedia Cyprus internment camps",
           "urls": [
             "https://en.wikipedia.org/wiki/Cyprus_internment_camps"
+          ],
+          "images": [
+            {
+              "src": "assets/research_images/trip/cyprus_caraolos_lead.jpg",
+              "caption_en": "Cyprus internment camps map — held 53,510 Jews from 1946-1949. The Rapaport family was at Karaolos (near Famagusta) ~8 months.",
+              "credit": "Wikipedia Commons"
+            }
           ]
         },
         {
@@ -485,6 +544,13 @@
           "source": "Memoir p.65 + Atlit Detainee Camp Heritage Site",
           "urls": [
             "https://shimur.org/sites/atlit-detention-camp/?lang=en"
+          ],
+          "images": [
+            {
+              "src": "assets/research_images/trip/atlit_lead.jpg",
+              "caption_en": "Atlit detainee camp, British Mandate Palestine — where Shimon Rapaport was held (per memoir p.65 his release document came from Atlit).",
+              "credit": "Wikipedia Commons (CC-BY-SA)"
+            }
           ]
         },
         {
@@ -496,6 +562,18 @@
           "source": "Memoir p.70",
           "urls": [
             "https://en.wikipedia.org/wiki/Mount_Carmel"
+          ],
+          "images": [
+            {
+              "src": "assets/research_images/trip/mount_carmel_lead.jpg",
+              "caption_en": "Mount Carmel, Haifa — David and Lusia's apartment at Moriah Street 93 sat on this ridge. Bought with German Wiedergutmachung reparations.",
+              "credit": "Wikipedia Commons (CC-BY-SA)"
+            },
+            {
+              "src": "assets/research_images/trip/haifa_lead.jpg",
+              "caption_en": "Haifa today, viewed from the Carmel ridge.",
+              "credit": "Wikipedia Commons (CC-BY-SA)"
+            }
           ]
         },
         {
@@ -511,6 +589,13 @@
             "https://kdh.org.il/niftarim-murchav-serch/search-results-deceased-murchav/grave-info-murchav/?deceased=144046",
             "https://gravez.me/deceased/08465D4B-C253-4051-A7B0-3C6EB6C7B79A",
             "https://gravez.me/deceased/5A346C70-E101-4064-88A2-3E447CD62A51"
+          ],
+          "images": [
+            {
+              "src": "assets/research_images/trip/mount_carmel_lead.jpg",
+              "caption_en": "Sde Yehoshua cemetery (formerly Kfar Samir) sits on Haifa's Carmel ridge. David's grave 102ד and Lusia's adjacent grave 102ג are in Section ו, Row 22.",
+              "credit": "Wikipedia Commons"
+            }
           ]
         }
       ]
@@ -1280,5 +1365,5 @@
       ]
     }
   ],
-  "build_version": "2026-05-21-T4-basia-auction-zygmunt-goldfischer-photos"
+  "build_version": "2026-05-21-T6-trip-photos-embedded"
 }
