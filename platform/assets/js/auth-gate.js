@@ -42,7 +42,7 @@ window.addEventListener("appinstalled", () => {
   // BUILD bumps on every deploy so browsers fetch the latest JS modules,
   // not a stale cached copy. If you don't see Research Center updates, this
   // is the line that fixes it.
-  const BUILD = "2026-05-21-t18";
+  const BUILD = "2026-05-21-t19";
   const APP_SCRIPT_SRC = `assets/js/app.js?v=${BUILD}`;
   const UPLOAD_SCRIPT_SRC = `assets/js/upload-feature.js?v=${BUILD}`;
 
@@ -132,58 +132,73 @@ window.addEventListener("appinstalled", () => {
       <p class="muted">— Doron</p>`);
   }
 
+  // Helper — load the SPA scripts. Called for both guest viewers and
+  // authenticated users; auth-aware features (upload, /review) gate
+  // themselves via window.__rftAuth.role inside upload-feature.js.
+  function loadSPA() {
+    // Register the service worker — required for the Android Chrome install prompt
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("sw.js", { scope: "./" }).catch(() => {});
+    }
+    const s = document.createElement("script");
+    s.type = "module";
+    s.src = APP_SCRIPT_SRC;
+    document.body.appendChild(s);
+    const u = document.createElement("script");
+    u.type = "module";
+    u.src = UPLOAD_SCRIPT_SRC;
+    document.body.appendChild(u);
+  }
+
   // ── main ─────────────────────────────────────────────────────────
+  // Read token from URL (?t=...) or from localStorage. A token is OPTIONAL —
+  // unauthenticated visitors get a read-only "guest" view; tokens unlock
+  // identity-based features (upload, review queue, role-based UI).
+  const urlToken = new URLSearchParams(location.search).get("t");
+  let stored = null;
+  try { stored = JSON.parse(localStorage.getItem(STORAGE_KEY) || "null"); } catch {}
+  const candidate = urlToken || (stored && stored.token);
+
+  if (!candidate) {
+    // Guest mode — no token, public viewer.
+    window.__rftAuth = { sub: "guest", name: "Guest", role: "viewer" };
+    loadSPA();
+    return;
+  }
+
+  // Token present — verify it. If valid, attach identity; if invalid, fall
+  // back to guest mode (don't lock people out for a bad/expired link).
   let jwk;
   try {
     jwk = await fetch("assets/auth/pubkey.json").then(r => r.json());
   } catch (e) {
-    console.error("auth-gate: cannot load public key", e);
-    showInvalid();
+    console.warn("auth-gate: cannot load public key, falling back to guest", e);
+    window.__rftAuth = { sub: "guest", name: "Guest", role: "viewer" };
+    loadSPA();
     return;
   }
 
-  // Read token from URL (?t=...) or from localStorage
-  const urlToken = new URLSearchParams(location.search).get("t");
-  let stored = null;
-  try { stored = JSON.parse(localStorage.getItem(STORAGE_KEY) || "null"); } catch {}
-
-  const candidate = urlToken || (stored && stored.token);
-  if (!candidate) { showNoToken(); return; }
-
-  let payload;
   try {
-    payload = await verifyJWT(candidate, jwk);
+    const payload = await verifyJWT(candidate, jwk);
+    // Valid! Persist token + identity.
+    localStorage.setItem(STORAGE_KEY, JSON.stringify({ token: candidate, identity: payload, ts: Date.now() }));
+    window.__rftAuth = payload;
   } catch (e) {
-    if (e.message === "notyet") { showNotYet(e.nbf); return; }
-    console.warn("auth-gate: invalid token", e.message);
-    // If stored token failed, wipe it
+    if (e.message === "notyet") {
+      // Birthday lock is still meaningful for token-bearers — keep the surprise screen.
+      showNotYet(e.nbf);
+      return;
+    }
+    console.warn("auth-gate: invalid token, falling back to guest", e.message);
     if (stored && stored.token === candidate) localStorage.removeItem(STORAGE_KEY);
-    showInvalid();
-    return;
+    window.__rftAuth = { sub: "guest", name: "Guest", role: "viewer" };
   }
 
-  // Valid! Persist token + identity, clear URL, load the SPA.
-  localStorage.setItem(STORAGE_KEY, JSON.stringify({ token: candidate, identity: payload, ts: Date.now() }));
-  window.__rftAuth = payload;
-
+  // Clean ?t= from the URL so reloads don't keep re-validating
   if (urlToken && history.replaceState) {
     const cleanUrl = location.pathname + location.hash;
     history.replaceState(null, "", cleanUrl);
   }
 
-  // Register the service worker — required for the Android Chrome install prompt
-  if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("sw.js", { scope: "./" }).catch(() => {});
-  }
-
-  // Inject the actual app + the upload feature module
-  const s = document.createElement("script");
-  s.type = "module";
-  s.src = APP_SCRIPT_SRC;
-  document.body.appendChild(s);
-
-  const u = document.createElement("script");
-  u.type = "module";
-  u.src = UPLOAD_SCRIPT_SRC;
-  document.body.appendChild(u);
+  loadSPA();
 })();
