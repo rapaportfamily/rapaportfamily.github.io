@@ -75,7 +75,10 @@
   </div>
 </div>
 
-<!-- Auth gate loads first; it injects app.js only if the magic-link token is valid -->
-<script src="assets/js/auth-gate.js"></script>
+<!-- Auth gate loads first; it injects app.js only if the magic-link token is valid.
+     The ?v= query string MUST be bumped every deploy — it's the only thing that
+     forces browsers to re-fetch auth-gate.js (everything downstream is already
+     cache-busted by auth-gate's own BUILD constant). -->
+<script src="assets/js/auth-gate.js?v=20260521-t13"></script>
 </body>
 </html>

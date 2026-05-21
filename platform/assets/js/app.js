@@ -724,7 +724,8 @@ function renderPlaces(root, paramId) {
         <div class="place-card" data-place="${escapeHtml(p.id)}">
           <div class="person-name-big">${escapeHtml(ml(p.names))}</div>
           ${p.coords ? `<div class="place-coords">${p.coords[0].toFixed(4)}, ${p.coords[1].toFixed(4)}</div>` : ''}
-          ${p.significance ? `<p style="margin-top:0.6em;font-size:0.92rem;color:var(--ink-soft);line-height:1.5;">${escapeHtml(p.significance)}</p>` : ''}
+          ${p.significance ? `<p style="margin-top:0.6em;font-size:0.92rem;color:var(--ink-soft);line-height:1.5;">${escapeHtml(p['significance_' + State.lang] || p.significance)}</p>` : ''}
+          ${p.building_now ? `<div style="margin-top:0.5em;font-size:0.9rem;font-family:var(--font-mono);color:var(--accent);"><strong>${escapeHtml(State.lang === 'he' ? 'הכתובת היום' : (State.lang === 'pl' ? 'Dzisiejszy adres' : (State.lang === 'fr' ? 'Adresse aujourd\\'hui' : 'Address today')))}:</strong> ${escapeHtml(p.building_now)}</div>` : ''}
           ${p.era_context ? `
             <div class="place-eras">
               ${Object.entries(p.era_context).map(([period, txt]) => `
