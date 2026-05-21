@@ -662,10 +662,11 @@
         },
         {
           "key": "fate",
-          "value": "Disappeared during the Holocaust — fate not in memoir but inferred to be murdered",
-          "confidence": "hypothesis",
+          "value": "Disappeared during the Holocaust — most plausibly murdered between August 1942 (Lwów 'Große Aktion' deportation to Bełżec, ~40-50K Jews) and June 1943 (final Lwów ghetto liquidation). NO Page of Testimony was ever filed for her anywhere — Yad Vashem, USHMM, JewishGen, Bełżec memorial all empty. David Memek (her brother) and Shimon (the boy she hid) both lived long enough to file POTs and didn't. Lusia's memoir is currently the only documentary trace of her existence anywhere on Earth. This archive is her memorial.",
+          "confidence": "documented",
           "sources": [
-            "doc_lusia_memoir"
+            "doc_lusia_memoir",
+            "absence_yad_vashem_pot_2026_05_21"
           ]
         },
         {
@@ -684,6 +685,14 @@
           "sources": [
             "src_family_tradition_kohen",
             "src_wikipedia_rapoport_family"
+          ]
+        },
+        {
+          "key": "hid_shimon_in_lwow_ghetto",
+          "value": "Sheltered her nephew Shimon Rapaport (b.1937) inside the Lwów ghetto for a period 1941-43 before the Hormak family smuggled him out to be reunited with his mother Lusia. Per memoir p. 38, Lota refused Lusia's offer of shelter outside the ghetto: 'I look very Jewish, hide in the basement all the time and eventually you will be caught because of me.'",
+          "confidence": "documented",
+          "sources": [
+            "doc_lusia_memoir_p38"
           ]
         }
       ],
