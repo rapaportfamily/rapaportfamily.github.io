@@ -11,7 +11,7 @@
  * Set with: firebase functions:secrets:set GEMINI_API_KEY
  */
 
-const { onDocumentCreated } = require("firebase-functions/v2/firestore");
+const { onDocumentCreated, onDocumentWritten } = require("firebase-functions/v2/firestore");
 const { setGlobalOptions } = require("firebase-functions/v2");
 const { defineSecret } = require("firebase-functions/params");
 const logger = require("firebase-functions/logger");
@@ -235,75 +235,110 @@ function safeParseJSON(text) {
   }
 }
 
+// Shared verification logic — used by both the create-trigger and the retry-trigger.
+async function runVerification(upload, ref, uploadId) {
+  await ref.update({
+    gemini_verification: { status: "in_progress", started_at: admin.firestore.FieldValue.serverTimestamp() },
+  });
+
+  try {
+    const ctx = await loadFamilyContext();
+    const summary = summarizeContext(ctx);
+
+    let fileBytes = null;
+    const fileSize = upload.file_size || 0;
+    if (upload.file_url && fileSize < 8 * 1024 * 1024) {
+      try {
+        const r = await fetch(upload.file_url);
+        if (r.ok) fileBytes = Buffer.from(await r.arrayBuffer());
+      } catch (e) {
+        logger.warn(`Failed to fetch file: ${e.message}`);
+      }
+    }
+
+    let rawText, modelUsed = "gemini-2.5-flash", fallbackReason = null;
+    try {
+      rawText = await callGemini(upload, summary, fileBytes, upload.file_type);
+    } catch (geminiErr) {
+      if (isRetryableGeminiError(geminiErr) && AnthropicClass) {
+        fallbackReason = geminiErr.code || (geminiErr.message || "gemini_error").slice(0, 200);
+        logger.warn(`Gemini failed (${fallbackReason}); falling back to Claude Sonnet 4.5`);
+        rawText = await callClaude(upload, summary, fileBytes, upload.file_type);
+        modelUsed = "claude-sonnet-4-5";
+      } else {
+        throw geminiErr;
+      }
+    }
+    let parsed = safeParseJSON(rawText);
+
+    // If Gemini gave us back unparseable JSON, retry with Claude — malformed JSON
+    // is a Gemini failure mode that's worth a Claude pass.
+    if (parsed.error && modelUsed === "gemini-2.5-flash" && AnthropicClass) {
+      logger.warn(`Gemini returned malformed JSON; falling back to Claude Sonnet 4.5`);
+      fallbackReason = "gemini_malformed_json";
+      try {
+        rawText = await callClaude(upload, summary, fileBytes, upload.file_type);
+        modelUsed = "claude-sonnet-4-5";
+        parsed = safeParseJSON(rawText);
+      } catch (claudeErr) {
+        logger.warn(`Claude fallback also failed: ${claudeErr.message}`);
+      }
+    }
+
+    await ref.update({
+      gemini_verification: {
+        status: parsed.error ? "parse_error" : "done",
+        model: modelUsed,
+        fallback_reason: fallbackReason,
+        completed_at: admin.firestore.FieldValue.serverTimestamp(),
+        result: parsed.json || null,
+        parse_error: parsed.error || null,
+        raw_text: parsed.error ? parsed.raw : null,
+      },
+      retry_requested: admin.firestore.FieldValue.delete(),
+    });
+    logger.info(`Verified ${uploadId} via ${modelUsed} - ${parsed.error ? "PARSE ERROR" : "OK"}`);
+  } catch (e) {
+    logger.error(`verifyUpload failed: ${e.stack || e.message}`);
+    await ref.update({
+      gemini_verification: {
+        status: "error",
+        error: e.message,
+        completed_at: admin.firestore.FieldValue.serverTimestamp(),
+      },
+      retry_requested: admin.firestore.FieldValue.delete(),
+    });
+  }
+}
+
 exports.verifyUpload = onDocumentCreated(
   { document: "family_uploads/{uploadId}", secrets: [GEMINI_API_KEY, ANTHROPIC_API_KEY], memory: "1GiB", timeoutSeconds: 180 },
   async (event) => {
     const snap = event.data;
     if (!snap) return;
     const upload = snap.data();
-    const ref = snap.ref;
-
     if (upload.status !== "pending") {
       logger.info(`Skip ${event.params.uploadId} - status is ${upload.status}`);
       return;
     }
+    await runVerification(upload, snap.ref, event.params.uploadId);
+  }
+);
 
-    await ref.update({
-      gemini_verification: { status: "in_progress", started_at: admin.firestore.FieldValue.serverTimestamp() },
-    });
-
-    try {
-      const ctx = await loadFamilyContext();
-      const summary = summarizeContext(ctx);
-
-      // Download the uploaded file (small files inline; skip huge ones)
-      let fileBytes = null;
-      const fileSize = upload.file_size || 0;
-      if (upload.file_url && fileSize < 8 * 1024 * 1024) {
-        try {
-          const r = await fetch(upload.file_url);
-          if (r.ok) fileBytes = Buffer.from(await r.arrayBuffer());
-        } catch (e) {
-          logger.warn(`Failed to fetch file: ${e.message}`);
-        }
-      }
-
-      let rawText, modelUsed = "gemini-2.5-flash", fallbackReason = null;
-      try {
-        rawText = await callGemini(upload, summary, fileBytes, upload.file_type);
-      } catch (geminiErr) {
-        if (isRetryableGeminiError(geminiErr) && AnthropicClass) {
-          fallbackReason = geminiErr.code || (geminiErr.message || "gemini_error").slice(0, 200);
-          logger.warn(`Gemini failed (${fallbackReason}); falling back to Claude Sonnet 4.5`);
-          rawText = await callClaude(upload, summary, fileBytes, upload.file_type);
-          modelUsed = "claude-sonnet-4-5";
-        } else {
-          throw geminiErr;
-        }
-      }
-      const parsed = safeParseJSON(rawText);
-
-      await ref.update({
-        gemini_verification: {
-          status: parsed.error ? "parse_error" : "done",
-          model: modelUsed,
-          fallback_reason: fallbackReason,
-          completed_at: admin.firestore.FieldValue.serverTimestamp(),
-          result: parsed.json || null,
-          parse_error: parsed.error || null,
-          raw_text: parsed.error ? parsed.raw : null,
-        },
-      });
-      logger.info(`Verified ${event.params.uploadId} via ${modelUsed} - ${parsed.error ? "PARSE ERROR" : "OK"}`);
-    } catch (e) {
-      logger.error(`verifyUpload failed: ${e.stack || e.message}`);
-      await ref.update({
-        gemini_verification: {
-          status: "error",
-          error: e.message,
-          completed_at: admin.firestore.FieldValue.serverTimestamp(),
-        },
-      });
-    }
+// Manual retry trigger — set retry_requested: true on a family_uploads doc to re-run
+// verification with the latest fallback logic. Useful for documents whose first
+// verification failed with Gemini 503 / RECITATION / malformed JSON before the
+// Claude fallback was deployed.
+exports.retryVerification = onDocumentWritten(
+  { document: "family_uploads/{uploadId}", secrets: [GEMINI_API_KEY, ANTHROPIC_API_KEY], memory: "1GiB", timeoutSeconds: 180 },
+  async (event) => {
+    const before = event.data?.before?.data() || null;
+    const after = event.data?.after?.data() || null;
+    if (!after) return;
+    // Fire only on the transition false→true on retry_requested
+    if (after.retry_requested !== true) return;
+    if (before && before.retry_requested === true) return;
+    logger.info(`retryVerification fired for ${event.params.uploadId}`);
+    await runVerification(after, event.data.after.ref, event.params.uploadId);
   }
 );

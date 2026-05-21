@@ -285,9 +285,24 @@ function renderUploadsSnapshot(listEl, snap) {
             ${place ? `Place: <strong>${placeName(place)}</strong> · ` : ''}
             ${hyp ? `Q: <em>${escapeHtml(hyp.question?.en || hyp.id)}</em>` : ''}
           </div>
-          ${renderGeminiCard(d.gemini_verification)}
+          ${renderGeminiCard(d.gemini_verification, docSnap.id)}
         </div>`;
       listEl.appendChild(card);
+    });
+
+    // Delegate clicks for the "retry verification" buttons on this list.
+    listEl.onclick = listEl.onclick || (async (e) => {
+      const retryId = e.target.dataset?.uploadId;
+      if (retryId && e.target.dataset?.action === "retry-verify") {
+        e.target.disabled = true; e.target.textContent = "Retrying…";
+        try {
+          await updateDoc(doc(db, "family_uploads", retryId), { retry_requested: true });
+          e.target.textContent = "Retry queued ✓";
+          setTimeout(() => { window.location.reload(); }, 1500);
+        } catch (err) {
+          e.target.textContent = "Retry failed: " + (err.message || err);
+        }
+      }
     });
 }
 
@@ -338,7 +353,7 @@ export async function renderReview(root) {
             ${place ? `Place: <strong>${placeName(place)}</strong> · ` : ''}
             ${hyp ? `Q: <em>${escapeHtml(hyp.question?.en || hyp.id)}</em>` : ''}
           </div>
-          ${renderGeminiCard(d.gemini_verification)}
+          ${renderGeminiCard(d.gemini_verification, docSnap.id)}
           <div style="display:flex;gap:0.6rem;margin-top:0.7rem;">
             <button data-approve="${docSnap.id}" style="background:#3a6b3a;color:#fff;border:none;padding:0.5rem 1rem;border-radius:4px;cursor:pointer;font-weight:600;">✓ Approve</button>
             <button data-reject="${docSnap.id}" data-path="${d.file_path}" style="background:#a04040;color:#fff;border:none;padding:0.5rem 1rem;border-radius:4px;cursor:pointer;">✗ Reject &amp; delete</button>
@@ -350,6 +365,18 @@ export async function renderReview(root) {
     listEl.onclick = async (e) => {
       const aId = e.target.dataset.approve;
       const rId = e.target.dataset.reject;
+      const retryId = e.target.dataset?.action === "retry-verify" ? e.target.dataset.uploadId : null;
+      if (retryId) {
+        e.target.disabled = true; e.target.textContent = "Retrying…";
+        try {
+          await updateDoc(doc(db, "family_uploads", retryId), { retry_requested: true });
+          e.target.textContent = "Retry queued ✓ (will reload in 2s)";
+          setTimeout(() => { window.location.reload(); }, 2000);
+        } catch (err) {
+          e.target.textContent = "Retry failed: " + (err.message || err);
+        }
+        return;
+      }
       if (aId) {
         e.target.disabled = true; e.target.textContent = "Approving…";
         await updateDoc(doc(db, "family_uploads", aId), {
@@ -460,11 +487,14 @@ async function renderAncestry(root) {
   root.innerHTML = html;
 }
 
-function renderGeminiCard(gv) {
+function renderGeminiCard(gv, uploadId) {
+  const retryBtn = uploadId && isAdmin()
+    ? `<button data-action="retry-verify" data-upload-id="${escapeHtml(uploadId)}" style="margin-left:0.5em;background:#6b1f1f;color:#fff;border:none;padding:0.2rem 0.55rem;border-radius:3px;font-size:0.75rem;cursor:pointer;">🔄 Retry with Claude fallback</button>`
+    : '';
   if (!gv) return `<div style="background:#fff7e1;border:1px solid #d8c280;border-radius:4px;padding:0.55rem 0.7rem;font-size:0.82rem;color:#6b5440;">🤖 Gemini verification: <em>not yet started</em></div>`;
   if (gv.status === "in_progress") return `<div style="background:#fff7e1;border:1px solid #d8c280;border-radius:4px;padding:0.55rem 0.7rem;font-size:0.82rem;color:#6b5440;">🤖 Gemini is verifying… (usually 10-30 seconds)</div>`;
-  if (gv.status === "error") return `<div style="background:#fde0e0;border:1px solid #a04040;border-radius:4px;padding:0.55rem 0.7rem;font-size:0.82rem;color:#6b1f1f;">🤖 Gemini error: ${escapeHtml(gv.error || 'unknown')}</div>`;
-  if (gv.status === "parse_error") return `<div style="background:#fde0e0;border:1px solid #a04040;border-radius:4px;padding:0.55rem 0.7rem;font-size:0.82rem;color:#6b1f1f;">🤖 Gemini returned malformed JSON. <details><summary>raw</summary><pre style="white-space:pre-wrap;font-size:0.75rem;">${escapeHtml(gv.raw_text || '')}</pre></details></div>`;
+  if (gv.status === "error") return `<div style="background:#fde0e0;border:1px solid #a04040;border-radius:4px;padding:0.55rem 0.7rem;font-size:0.82rem;color:#6b1f1f;">🤖 Gemini error: ${escapeHtml(gv.error || 'unknown')}${retryBtn}</div>`;
+  if (gv.status === "parse_error") return `<div style="background:#fde0e0;border:1px solid #a04040;border-radius:4px;padding:0.55rem 0.7rem;font-size:0.82rem;color:#6b1f1f;">🤖 Gemini returned malformed JSON.${retryBtn} <details><summary>raw</summary><pre style="white-space:pre-wrap;font-size:0.75rem;">${escapeHtml(gv.raw_text || '')}</pre></details></div>`;
   const r = gv.result || {};
   const fmtList = (arr, render) => (arr && arr.length) ? `<ul style="margin:0.2rem 0 0.4rem 1rem;padding:0;">${arr.map(render).join("")}</ul>` : `<div style="color:#999;font-style:italic;font-size:0.8rem;">(none)</div>`;
   return `
