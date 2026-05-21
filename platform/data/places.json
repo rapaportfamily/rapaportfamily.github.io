@@ -343,6 +343,23 @@
         "1945_now": "Post-war home of several Griffel-Nadwórna descendants (Yehuda Nir d.2014, Steven Lamm, Andrew Griffel)"
       },
       "note_en": "Several Griffel-line cousins of David Memek Rapaport settled in NYC: Yehuda Nir (1930-2014, author of 'The Lost Childhood'); Dr Steven Lamm (b.1948, NYU Langone); Andrew Griffel (attorney, splits time with Israel)."
+    },
+    {
+      "id": "pl_london",
+      "names": {
+        "en": "London",
+        "he": "לונדון",
+        "pl": "Londyn",
+        "fr": "Londres"
+      },
+      "coords": [
+        51.5074,
+        -0.1278
+      ],
+      "era_context": {
+        "now": "Capital of the United Kingdom"
+      },
+      "note_en": "Home of cousin Edward Gelles (b.1927), the published genealogist of our maternal Griffel-Nadwórna dynasty."
     }
   ]
 }

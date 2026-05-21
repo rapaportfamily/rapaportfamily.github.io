@@ -1265,6 +1265,44 @@ html[dir="rtl"] .rc-quote { border-left: none; border-right: 3px solid var(--win
 .rc-link::before { content: "→ "; opacity: 0.6; }
 html[dir="rtl"] .rc-link::before { content: "← "; }
 
+.rc-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.9rem;
+  margin: 0.9em 0;
+}
+.rc-image {
+  margin: 0;
+  padding: 0.4em;
+  background: var(--paper-soft, #faf6ee);
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  overflow: hidden;
+}
+.rc-image a { display: block; }
+.rc-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  cursor: zoom-in;
+  transition: transform 0.2s ease;
+}
+.rc-image:hover img { transform: scale(1.02); }
+.rc-image figcaption {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  line-height: 1.45;
+  color: var(--ink-faint);
+  padding: 0.5em 0.3em 0.2em;
+}
+.rc-image .rc-credit {
+  display: inline;
+  color: var(--ink-faint);
+  font-style: italic;
+  opacity: 0.8;
+}
+
 /* ============================================================
    RESPONSIVE
 ============================================================ */

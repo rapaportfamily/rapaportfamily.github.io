@@ -1014,6 +1014,17 @@ function renderResearch(root, param) {
         const display = u.startsWith('mailto:') ? u.slice(7) : u.replace(/^https?:\/\//, '').replace(/\/$/, '');
         return `<a href="${escapeHtml(u)}" target="_blank" rel="noopener" class="rc-link">${escapeHtml(display.length > 60 ? display.slice(0, 60) + '…' : display)}</a>`;
       }).join('');
+      const imageGallery = (c.images || []).map(img => {
+        const cap = img['caption_' + lang] || img.caption_en || '';
+        return `
+          <figure class="rc-image">
+            <a href="${escapeHtml(img.src)}" target="_blank" rel="noopener">
+              <img src="${escapeHtml(img.src)}" alt="${escapeHtml(cap)}" loading="lazy">
+            </a>
+            <figcaption>${escapeHtml(cap)}${img.credit ? ` <span class="rc-credit">— ${escapeHtml(img.credit)}</span>` : ''}</figcaption>
+          </figure>
+        `;
+      }).join('');
       html += `
         <details class="rc-card" data-card="${escapeHtml(c.id)}">
           <summary>
@@ -1027,6 +1038,7 @@ function renderResearch(root, param) {
             ${quoteLine}
             ${sourceLine}
             ${ctxLine}
+            ${imageGallery ? `<div class="rc-images">${imageGallery}</div>` : ''}
             ${links ? `<div class="rc-links">${links}</div>` : ''}
           </div>
         </details>
