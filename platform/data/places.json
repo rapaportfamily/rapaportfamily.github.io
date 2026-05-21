@@ -396,6 +396,64 @@
         "15th_century": "Jewish refugee community in Italy. R. Meshullam Yekutiel ha-Kohen Rapa (d.1450) settled here from Mainz. His descendants added 'Porto' to their surname — hence Rapa-Porto / Rapoport."
       },
       "note_en": "Where the Rapoport family takes its name. The dynasty's founder settled here after fleeing Mainz."
+    },
+    {
+      "id": "pl_mallorca",
+      "names": {
+        "en": "Mallorca (Palma de Mallorca)",
+        "he": "מיורקה",
+        "pl": "Majorka",
+        "fr": "Majorque",
+        "es": "Mallorca",
+        "ca": "Mallorca"
+      },
+      "coords": [
+        39.5696,
+        2.6502
+      ],
+      "era_context": {
+        "13th_14th_century": "Kingdom of Mallorca — independent Catalan-speaking kingdom. Major medieval Jewish community including the Rapapa physicians (Dr Vidal 1305, Dr Jucef Salomon 1311). After 1391 pogroms and 1435 forced conversions, Mallorcan Jews became 'Chuetas'.",
+        "now": "Capital of the Balearic Islands, Spain"
+      },
+      "note_en": "Birthplace of the documented medieval Rapapa ancestors. The 1305 conspiracy to rescue a Jewish girl from forced conversion-by-marriage was led here by Dr Vidal Rapapa. Court physician Dr Jucef Salomon Rapapa served King Jaime III here. DNA testing confirmed living Mallorcan Chueta family ↔ US Rappoport family direct mitochondrial link."
+    },
+    {
+      "id": "pl_portobuffole",
+      "names": {
+        "en": "Portobuffolè, Italy",
+        "he": "פורטובופוללה",
+        "pl": "Portobuffolè",
+        "fr": "Portobuffolè",
+        "it": "Portobuffolè"
+      },
+      "coords": [
+        45.8,
+        12.5333
+      ],
+      "era_context": {
+        "16th_century": "Renaissance Italian port on the Livaza river, Veneto region. Refuge for Jewish exiles. Birthplace of R. Yechiel Michael ha-Kohen Rapa (b.1502).",
+        "now": "Comune in the Province of Treviso, Veneto, Italy"
+      },
+      "note_en": "Where R. Yechiel Michael ha-Kohen Rapa was born in 1502. His son Isaac 'HaMoel' was the first to use the surname 'Rapa-Porto' (~1550), creating the modern Rapaport name."
+    },
+    {
+      "id": "pl_verona",
+      "names": {
+        "en": "Verona, Italy",
+        "he": "ורונה",
+        "pl": "Werona",
+        "fr": "Vérone",
+        "it": "Verona"
+      },
+      "coords": [
+        45.4384,
+        10.9916
+      ],
+      "era_context": {
+        "16th_century": "Major Italian Jewish printing centre. Rabbi Avraham Menachem ha-Kohen Rapa-Porto (1520-1596) published 'Mincha Belulah' here in 1594 with the iconic raven + priestly blessing family emblem.",
+        "now": "Comune in Veneto, Italy"
+      },
+      "note_en": "Where R. Avraham Menachem ha-Kohen Rapa-Porto published Mincha Belulah in 1594, introducing the raven + priestly blessing family emblem still used by descendants today."
     }
   ]
 }

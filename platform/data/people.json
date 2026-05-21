@@ -2510,6 +2510,244 @@
       },
       "role": "dynasty_ancestor",
       "note_en": "Father of the Galician branch of the Rapoport-Kohen dynasty. Lemberg (Lwów) 1584-1651. Head of the Lemberg yeshiva for 45 years. Son-in-law of R. Mordecai Schrenzel (hence the toponym 'Schrenzel'). President of the Council of Four Lands (Vaad Arba Aratzot) — the supreme governing body of Polish-Lithuanian Jewry. From him descend the Lemberg, Cracow, Brody, Dubno, Krzemeniec, and (by family tradition) Nadwórna branches of the Rapoport family. Our Berisz Rapaport of Nadwórna is descended from this line ~4-6 generations down."
+    },
+    {
+      "id": "p_rapapa_jucef_salomon_mallorca",
+      "primary_name": {
+        "en": "Dr Jucef Salomon Rapapa",
+        "he": "ד\"ר יוסף שלמה רפפא",
+        "pl": "Dr Jucef Salomon Rapapa",
+        "fr": "Dr Jucef Salomon Rapapa",
+        "es": "Dr. Jucef Salomon Rapapa"
+      },
+      "aliases": [
+        "Yosef Shlomo Rapapa",
+        "Physicus Jucef Salomon Rapapa"
+      ],
+      "facts": [
+        {
+          "key": "occupation",
+          "value": "Physicus (court physician), King Jaime III of Mallorca",
+          "confidence": "documented",
+          "sources": [
+            "src_chanan_rapaport_2018"
+          ]
+        },
+        {
+          "key": "1345_lawsuit",
+          "value": "Sued King Pedro IV for unpaid 10 Libres ≈ €150,000+ today",
+          "confidence": "documented",
+          "sources": [
+            "src_chanan_rapaport_2018"
+          ]
+        }
+      ],
+      "birth": {
+        "date": "c.1280",
+        "date_precision": "circa",
+        "place_id": "pl_mallorca",
+        "confidence": "documented",
+        "sources": [
+          "src_chanan_rapaport_2018"
+        ]
+      },
+      "death": {
+        "date": "after 1345",
+        "date_precision": "year",
+        "place_id": "pl_mallorca",
+        "confidence": "documented",
+        "sources": [
+          "src_chanan_rapaport_2018"
+        ]
+      },
+      "role": "documented_medieval_ancestor",
+      "note_en": "Court physician (Physicus) to King Jaime III of Mallorca in the early 14th century. Documented in Contreras Mas Antonio, 'Médicos Judíos en Mallorca durante la Edad Media' (Palma de Mallorca, 1977), p.131. In 1345 he filed suit against King Pedro IV of Mallorca for non-payment of 10 Libres for medical services rendered to his predecessor King Jaime III (10 Libres ≈ €150,000-€600,000 in today's purchasing power). The earliest documented Rapaport ancestor whose profession + station + name are all preserved in primary sources. Dr. Chanan Rapaport identified him as the source of the modern Rapaport name."
+    },
+    {
+      "id": "p_rapapa_vidal_mallorca",
+      "primary_name": {
+        "en": "Dr Vidal Rapapa",
+        "he": "ד\"ר וידאל רפפא",
+        "pl": "Dr Vidal Rapapa",
+        "fr": "Dr Vidal Rapapa",
+        "es": "Dr. Vidal Rapapa"
+      },
+      "aliases": [],
+      "facts": [
+        {
+          "key": "occupation",
+          "value": "Physician, Mallorca",
+          "confidence": "documented",
+          "sources": [
+            "src_chanan_rapaport_2018"
+          ]
+        },
+        {
+          "key": "1305_rescue_attempt",
+          "value": "Led conspiracy to rescue Jewish woman from forced conversion-by-marriage",
+          "confidence": "documented",
+          "sources": [
+            "src_chanan_rapaport_2018"
+          ]
+        }
+      ],
+      "birth": {
+        "date": "c.1270",
+        "date_precision": "circa",
+        "place_id": "pl_mallorca",
+        "confidence": "documented",
+        "sources": [
+          "src_chanan_rapaport_2018"
+        ]
+      },
+      "role": "documented_medieval_ancestor",
+      "note_en": "Physician of Mallorca, documented in Antonio Pons, 'Los Judíos del Reino de Mallorca durante los siglos XIII y XIV' (v2 p.29). In 1305 he led a group of Mallorcan Jews who tried to rescue a young Jewish woman from her planned conversion-by-marriage to a Christian. The plot was uncovered by Spanish Church investigators; the conspirators were sentenced to long imprisonment and heavy fines. King Jaime II reduced the sentences in exchange for secrecy, to which Dr. Vidal Rapapa agreed. This is one of the earliest documented Rapapa records anywhere — proof that the Rapapa name is unambiguously Jewish in medieval Spain."
+    },
+    {
+      "id": "p_yechiel_michael_hacohen_rapa",
+      "primary_name": {
+        "en": "R. Yechiel Michael ha-Kohen Rapa",
+        "he": "ר' יחיאל מיכאל הכהן רפא",
+        "pl": "R. Yechiel Michael ha-Kohen Rapa",
+        "fr": "R. Yechiel Michael ha-Kohen Rapa",
+        "it": "R. Yechiel Michael ha-Kohen Rapa"
+      },
+      "aliases": [],
+      "facts": [],
+      "birth": {
+        "date": "1502",
+        "date_precision": "year",
+        "place_id": "pl_portobuffole",
+        "confidence": "documented",
+        "sources": [
+          "src_chanan_rapaport_2018"
+        ]
+      },
+      "role": "dynasty_ancestor",
+      "note_en": "Born 1502 in Portobuffole, Italy. Father of Isaac 'HaMoel' Rapa-Porto, the first family member to use the 'Porto' suffix and create the surname 'Rapa-Porto' = Rapoport. The Rapa family had fled to Italy from Mainz after the second expulsion from Mainz, then moved through the Adige river ports (Legnago, Mestre, Venice, Portobuffole, Piove di Sacco). Documented by researcher Dr Daniel Nissim, cited in Dr. Chanan Rapaport's 2018 paper."
+    },
+    {
+      "id": "p_isaac_hamoel_rapa_porto",
+      "primary_name": {
+        "en": "Isaac 'HaMoel' Rapa-Porto",
+        "he": "יצחק 'המוהל' רפא-פורטו",
+        "pl": "Isaac 'HaMoel' Rapa-Porto",
+        "fr": "Isaac 'HaMoel' Rapa-Porto",
+        "it": "Isaac 'HaMoel' Rapa-Porto"
+      },
+      "aliases": [],
+      "facts": [],
+      "role": "dynasty_ancestor",
+      "note_en": "Son of R. Yechiel Michael ha-Kohen Rapa (b.1502 Portobuffole). 'HaMoel' = the one who practices circumcision. Around 1550 he was the FIRST family member to complete his name with 'Porto' — creating the modern surname 'Rapa-Porto' which evolved into Rapaport / Rappaport / Rappoport. Also referred to himself as 'HaOrvi' (of the ravens), following the tradition of descriptive surnames. Documented by Dr Daniel Nissim; cited in Dr. Chanan Rapaport's 2018 paper.",
+      "father_id": "p_yechiel_michael_hacohen_rapa"
+    },
+    {
+      "id": "p_avraham_menachem_rapa_verona",
+      "primary_name": {
+        "en": "Rabbi Dr Avraham Menachem ha-Kohen Rapa-Porto",
+        "he": "הרב ד\"ר אברהם מנחם הכהן רפא-פורטו",
+        "pl": "Rabbi Dr Avraham Menachem ha-Kohen Rapa-Porto",
+        "fr": "Rabbi Dr Avraham Menachem ha-Kohen Rapa-Porto",
+        "it": "Rabbino Dr Avraham Menachem ha-Kohen Rapa-Porto"
+      },
+      "aliases": [],
+      "facts": [],
+      "birth": {
+        "date": "1520",
+        "date_precision": "year",
+        "place_id": "pl_porto_italy",
+        "confidence": "documented",
+        "sources": [
+          "src_chanan_rapaport_2018"
+        ]
+      },
+      "death": {
+        "date": "1596",
+        "date_precision": "year",
+        "place_id": "pl_verona",
+        "confidence": "documented",
+        "sources": [
+          "src_chanan_rapaport_2018"
+        ]
+      },
+      "role": "dynasty_ancestor",
+      "note_en": "Son of Yaacov ha-Kohen. Published in Verona 1594 the important rabbinical work 'Mincha Belulah', where he refers to himself as 'Min HaOrvim' (of the ravens). The book's printer's emblem — featuring a raven at the center, flanked by two upraised palms in the 'Birkat Kohanim' (Priestly Blessing) configuration — became the iconic family symbol. This is the earliest published printed evidence of the Rapaport-Kohen family identity. The same raven appears in the Galicia and Lodomeria coat of arms (Austria-Hungary), in Baron Arnold Rapoport-Adler Von Porada's heraldry, and on Doron's family's coat of arms displayed on this archive's website header."
+    },
+    {
+      "id": "p_baron_arnold_rapoport_von_porada",
+      "primary_name": {
+        "en": "Baron Dr Arnold Rapoport-Adler Von Porada",
+        "he": "הברון ד\"ר ארנולד רפפורט-אדלר פון פוראדה",
+        "pl": "Baron Dr Arnold Rapoport-Adler Von Porada",
+        "fr": "Baron Dr Arnold Rapoport-Adler Von Porada",
+        "de": "Baron Dr Arnold Rapoport-Adler Von Porada"
+      },
+      "aliases": [],
+      "facts": [
+        {
+          "key": "title",
+          "value": "Baron of the Austro-Hungarian Empire (granted Sept 6 1890 by Franz Joseph)",
+          "confidence": "documented",
+          "sources": [
+            "src_chanan_rapaport_2018"
+          ]
+        },
+        {
+          "key": "honor",
+          "value": "Knight of the French Legion of Honour",
+          "confidence": "documented",
+          "sources": [
+            "src_chanan_rapaport_2018"
+          ]
+        },
+        {
+          "key": "education",
+          "value": "Dr. Juris (University of Krakow 1863), Economics & Political Science (University of Vienna)",
+          "confidence": "documented",
+          "sources": [
+            "src_chanan_rapaport_2018"
+          ]
+        },
+        {
+          "key": "office",
+          "value": "Member of the Austro-Hungarian Parliament representing Galician Jews",
+          "confidence": "documented",
+          "sources": [
+            "src_chanan_rapaport_2018"
+          ]
+        },
+        {
+          "key": "von_porada_meaning",
+          "value": "Name acronym = POrt + RApa + DAvid (his father's name)",
+          "confidence": "documented",
+          "sources": [
+            "src_chanan_rapaport_2018"
+          ]
+        }
+      ],
+      "role": "dynasty_ancestor_galician",
+      "note_en": "Son of David, son of Shlomoh Yehudah Rapaport (SHI\"R), Chief Rabbi of Prague. Earned Dr. Juris at the University of Krakow in 1863, then completed Economics and Political Science at the University of Vienna. Represented the Jews of Galicia and the Kingdom of Lodomeria in the Austro-Hungarian Parliament. On 6 September 1890, Emperor Franz Joseph conferred upon him and his successors the title of 'Baron' — henceforth Baron Dr Arnold Rapoport-Adler Von Porada. The name 'Von Porada' is an acronym: POrt-RApa-DAvid. He was also a Knight of the French Legion of Honour. His coat of arms displays TWO ravens (the central one for the family, the upper one for the Kingdom of Galicia)."
+    },
+    {
+      "id": "p_dr_chanan_rapaport_living",
+      "primary_name": {
+        "en": "Dr Chanan Rapaport",
+        "he": "ד\"ר חנן רפפורט",
+        "pl": "Dr Chanan Rapaport",
+        "fr": "Dr Chanan Rapaport"
+      },
+      "aliases": [],
+      "facts": [],
+      "birth": {
+        "date": "1928",
+        "date_precision": "year",
+        "confidence": "documented",
+        "sources": [
+          "src_chanan_rapaport_2018"
+        ]
+      },
+      "role": "living_rapaport_genealogist",
+      "note_en": "Living Rapaport genealogist (b.1928). Director General of The Center for the Study of the Rapaport Family; board member of the International Institute for Jewish Genealogy and the Paul Jacobi Center at the National Library in Jerusalem. Served as commander in the Haganah Underground during the British Mandate and in Israel's War of Independence. Director General and Scientific Director of the Henrietta Szold Institute 1965-1982. Adviser to PMs Golda Meir and Yitzhak Rabin. Author of the foundational 2018 paper 'I came looking for the origins of a known and respectable Ashkenazi family and I found them!' establishing the Sephardic origin of the Rapaport family. THE leading living authority on Rapaport family genealogy."
     }
   ]
 }
