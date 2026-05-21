@@ -6,8 +6,8 @@
       "id": "headline_finds",
       "title_en": "Headline Findings",
       "title_he": "ממצאי מפתח",
-      "intro_en": "The most consequential discoveries from the 2026-05-21 deep research pass. These are documentary, externally-verifiable links between our family memory and the public historical record.",
-      "intro_he": "הממצאים החשובים ביותר ממחקר העומק של 21.5.2026 — קישורים מתועדים בין זיכרון המשפחה לרשומה ההיסטורית הציבורית.",
+      "intro_en": "Our research follows a three-column framework. Pillar 1 (📖 from the book) enriches Lusia's 1986 memoir with data and visuals. Pillar 2 (⚖️ memoir vs history) reconciles her account with external records, honoring both. Pillar 3 (🔍 independent evidence) brings facts from archives the memoir could not include. We hold these in balance — respecting the family voice and pursuing historical accuracy.",
+      "intro_he": "המחקר שלנו פועל לפי מסגרת של שלוש עמודות. עמוד 1 (📖 מהספר) מעשיר את היומן של לוסיה משנת 1986 בנתונים ובוויזואלים. עמוד 2 (⚖️ יומן מול היסטוריה) מיישב את סיפורה עם רישומים חיצוניים, מכבד את שניהם. עמוד 3 (🔍 ראיות עצמאיות) מביא עובדות מארכיונים שהיומן לא יכול היה לכלול. אנו אוחזים בשלושתם באיזון — מכבדים את קול המשפחה ופועלים לדיוק היסטורי.",
       "cards": [
         {
           "id": "david_indeks_jdc_manual_search_instructions",
@@ -23,7 +23,8 @@
             "https://stevemorse.org/siberia/siberia.html",
             "https://names.archives.jdc.org",
             "https://archives.jdc.org/our-collections/names-index/"
-          ]
+          ],
+          "pillar": "independent"
         },
         {
           "id": "goldfischer_marin_aliyah_path",
@@ -38,7 +39,8 @@
             "https://www.zionistarchives.org.il",
             "https://genealogy.org.il/AID/",
             "https://www.jewishgen.org/yizkor/galicia4/gal314.html"
-          ]
+          ],
+          "pillar": "independent"
         },
         {
           "id": "goldfischer_stryj_circle_etymology",
@@ -55,7 +57,8 @@
             "https://sztetl.org.pl/en/towns/s/964-skole/99-history/138026-history-of-community",
             "https://portal.ehri-project.eu/units/be-002157-kd_01017",
             "https://www.avotaynu.com/books/DJSG.htm"
-          ]
+          ],
+          "pillar": "independent"
         },
         {
           "id": "eli_weitzner_taniawa_forest_inferred",
@@ -69,7 +72,8 @@
             "https://www.jewishgen.org/yizkor/bolekhov/bol145.html",
             "https://en.wikipedia.org/wiki/Holocaust_in_Bolekhiv",
             "https://www.ushmm.org/online/hsv/source_view.php?SourceId=33476"
-          ]
+          ],
+          "pillar": "memoir_vs_history"
         },
         {
           "id": "bolechow_yizkor_weitzner_lone_mention",
@@ -84,7 +88,8 @@
             "https://www.jewishgen.org/yizkor/bolekhov/bol278.html",
             "https://www.jewishgen.org/yizkor/bolekhov/bolekhov.html",
             "https://www.jewishgen.org/yizkor/indices/Bolekhiv_index.pdf"
-          ]
+          ],
+          "pillar": "from_book"
         },
         {
           "id": "david_actionable_search_targets",
@@ -103,7 +108,8 @@
             "https://billiongraves.com/cemetery/Haifa-Sde-Yehoshua-Kfar-Samir-Cemetery/315718",
             "https://gravez.me/en/search",
             "https://www.findagrave.com/cemetery/2461420/sde-yehoshua-cemetery"
-          ]
+          ],
+          "pillar": "independent"
         },
         {
           "id": "prof_ronen_rapaport_academic_profile",
@@ -116,7 +122,8 @@
           "urls": [
             "https://phys.huji.ac.il/contacts/rapaport_ronen",
             "https://nano.huji.ac.il/people/ronen-rapaport"
-          ]
+          ],
+          "pillar": "independent"
         },
         {
           "id": "hormak_polscy_sprawiedliwi_verified_null",
@@ -129,7 +136,8 @@
           "urls": [
             "https://sprawiedliwi.org.pl",
             "https://www.yadvashem.org/righteous/how-to-apply.html"
-          ]
+          ],
+          "pillar": "independent"
         },
         {
           "id": "pensjonat_bristol_weiss_family",
@@ -142,7 +150,8 @@
           "urls": [
             "http://www.almanachmuszyny.pl/spisy/1998/AM1998_05_zydowski_pensjonat_bristol_w_muszynie.pdf",
             "https://sztetl.org.pl/pl/miejscowosci/m/1209-muszyna/99-historia-spolecznosci/137715-historia-spolecznosci"
-          ]
+          ],
+          "pillar": "independent"
         },
         {
           "id": "maria_cieslik_identification_opens",
@@ -158,7 +167,8 @@
             "https://pamiecbliskich.com/en/files/roman-catholic-metrical-registers-in-lviv-archives/",
             "https://www.rkc.lviv.ua/Nadvirna-pl",
             "https://www.facebook.com/parafianadvirna.rkc/"
-          ]
+          ],
+          "pillar": "independent"
         },
         {
           "id": "isak_goldfischer_skole_1927_lvov_ghetto",
@@ -171,7 +181,8 @@
           "source": "Playwright Chromium browser, USHMM HSV automated search 2026-05-21",
           "urls": [
             "https://www.ushmm.org/online/hsv/person_advance_search.php"
-          ]
+          ],
+          "pillar": "independent"
         },
         {
           "id": "playwright_yad_vashem_null_finding",
@@ -184,7 +195,8 @@
           "urls": [
             "https://collections.yadvashem.org/en/names",
             "https://yvng.yadvashem.org/"
-          ]
+          ],
+          "pillar": "independent"
         },
         {
           "id": "david_primary_documents_trail",
@@ -206,7 +218,8 @@
             "https://genealogy.org.il/request-official-documents-ministry-interior-state-israel/",
             "https://www.yadvashem.org/communities/nadworna/before-holocaust.html",
             "https://www.jpost.com/aliyah/article-893249"
-          ]
+          ],
+          "pillar": "independent"
         },
         {
           "id": "nadworna_yizkor_mining_complete",
@@ -221,7 +234,8 @@
             "https://www.jewishgen.org/yizkor/Nadvornaya/nad900.html",
             "https://www.jewishgen.org/yizkor/Nadvornaya/nad901.html",
             "https://www.jewishgen.org/yizkor/pinkas_poland/pol2_00328.html"
-          ]
+          ],
+          "pillar": "independent"
         },
         {
           "id": "eric_griffel_memoir_corrects_zygmunt_anders",
@@ -236,7 +250,8 @@
             "https://adst.org/oral-history/oral-history-interviews/",
             "http://archives.balliol.ox.ac.uk/Modern%20Papers/gelles/Griffel%20of%20Nadworna.pdf"
           ],
-          "anders_claim_status_en": "IMPORTANT: this Anders-Army claim conflicts with Eric Griffel's 2015 ADST memoir which places Zygmunt in England from 1939 through ~1945, then US via Central America — never in the military. Re-verification required before re-asserting Anders service. See headline_finds card eric_griffel_memoir_corrects_zygmunt_anders."
+          "anders_claim_status_en": "IMPORTANT: this Anders-Army claim conflicts with Eric Griffel's 2015 ADST memoir which places Zygmunt in England from 1939 through ~1945, then US via Central America — never in the military. Re-verification required before re-asserting Anders service. See headline_finds card eric_griffel_memoir_corrects_zygmunt_anders.",
+          "pillar": "memoir_vs_history"
         },
         {
           "id": "hadas_rapaport_linkedin_lead",
@@ -250,7 +265,8 @@
           "urls": [
             "https://il.linkedin.com/in/hadas-rapaport-86478317",
             "https://phys.huji.ac.il/contacts/rapaport_ronen"
-          ]
+          ],
+          "pillar": "independent"
         },
         {
           "id": "lota_husband_unnamed_research_thread",
@@ -266,7 +282,8 @@
             "https://yvng.yadvashem.org/",
             "https://www.jewishgen.org/yizkor/lviv/",
             "https://www.ushmm.org/online/hsv/person_advance_search.php"
-          ]
+          ],
+          "pillar": "independent"
         },
         {
           "id": "lota_us_resident_scheme_lwow",
@@ -283,7 +300,8 @@
             "https://www.auschwitz.org/en/museum/news/the-auschwitz-museum-acquires-the-second-part-of-the-archive-concerning-the-lados-group,1414.html",
             "https://instytutpileckiego.pl/en/wystawy/relacje-z-wystaw/paszporty-wystawa-o-grupie-ladosia",
             "https://passportsforlife.pl/dokumenty/"
-          ]
+          ],
+          "pillar": "memoir_vs_history"
         },
         {
           "id": "shimon_testimony_lacuna_and_dakar_clarification",
@@ -301,7 +319,8 @@
             "https://www.holocaustchildren.com",
             "https://www.nli.org.il/en/newspapers/mar",
             "https://en.wikipedia.org/wiki/INS_Dakar"
-          ]
+          ],
+          "pillar": "memoir_vs_history"
         },
         {
           "id": "lota_rapaport_archive_is_her_memorial",
@@ -317,7 +336,8 @@
             "https://en.wikipedia.org/wiki/Lw%C3%B3w_Ghetto",
             "https://www.belzec.eu/en/timeline",
             "https://jmhum.org/en/news-list/544-this-day-june-16-1943-the-lviv-ghetto-liquidation-took-place"
-          ]
+          ],
+          "pillar": "independent"
         },
         {
           "id": "hormak_family_righteous_nomination",
@@ -335,7 +355,8 @@
             "https://sprawiedliwi.org.pl/en",
             "https://www.ushmm.org/online/hsv/source_view.php?SourceId=33274",
             "https://jri-poland.org/psa/nadworna_surn.htm"
-          ]
+          ],
+          "pillar": "independent"
         },
         {
           "id": "shimon_crate_at_legionow_24",
@@ -346,7 +367,8 @@
           "summary_he": "תיקון מהמקור הראשוני — היומן עצמו (פרק ד', עמ' 30-46). ההסקה הקודמת שלפיה שמעון הוסתר במנזר קתולי בלבוב הייתה שגויה. מה שקרה באמת, בלשונה של לוסיה: (1) בנדבורנה, כשהוקם הגטו, לוסיה סירבה להיכנס אליו — אך שמעון הוסתר תחילה על-ידי משפחת הורמק, שכנים גויים שסחרו עם היהודים. (2) גיסתה של לוסיה, לוטה רפפורט, הסתירה את שמעון תקופה מסוימת בתוך גטו לבוב. (3) כאשר התפשטו שמועות שהגרמנים עומדים להוציא להורג את הילדים בקרוב, משפחת הורמק הבריחה את שמעון מגטו לבוב והביאה אותו ללוסיה (בעוד הגטו עדיין היה פתוח חלקית למסחר). (4) מאותו יום ועד השחרור התגורר שמעון עם לוסיה בלגיונוב 24 בתוך ארגז של 70 ס\"מ × 1.50 מ'. לוסיה השאירה לו אוכל בארגז לפני שיצאה לעבודה; הוא ישן עם אמו בלילה. כאשר באו שכנים לבקר, לוסיה הניחה פטיפון על גג הארגז ומוזיקה בקעה ממנו כדי להסוות את קולותיו. הוא לא ראה את אור השמש במשך שנים — עורו הלבין והחוויר. הוא יצא מהארגז לאחר שחרור לבוב על-ידי הסובייטים ביולי 1944.",
           "quote_en": "Shimon lived with his mother and spent entire days alone in a crate whose dimensions were 70 cm × 1.50 m. The crate was his dwelling and his place of safety. ... At night he slept with his mother. In the evening, when neighbors came to visit Lusia, she would operate the phonograph that was placed on the box and music would burst forth from it. ... From the outside, his complexion was white and pale, since he did not see sunlight for many long years.",
           "source": "Lusia Rapaport, 'Sipura shel Lusia' (The Story of Lusia), ed. Moshe Guter — Chapter D, pages 30, 32-33, 36-38, 44-46",
-          "urls": []
+          "urls": [],
+          "pillar": "memoir_vs_history"
         },
         {
           "id": "lwow_convents_researched_not_applicable",
@@ -362,7 +384,8 @@
             "https://lia.lvivcenter.org/en/themes/reherit/church/",
             "https://www.yadvashem.org/righteous/resources/rescue-of-jewish-children-in-polish-convents.html",
             "https://en.wikipedia.org/wiki/Klymentiy_Sheptytsky"
-          ]
+          ],
+          "pillar": "memoir_vs_history"
         },
         {
           "id": "goldfischer_skole_research_thread",
@@ -378,7 +401,8 @@
             "https://www.geshergalicia.org/all-galicia-database/",
             "https://www.geni.com/projects/Jewish-Families-of-Skole-Poland-Galicia/15777"
           ],
-          "next_steps_en": "JRI-Poland Skole surname search for Goldfischer / Goldfisher / Goldfiszer; Yad Vashem Names DB for any Goldfischer Shoah victims from Skole; Israel State Archives Aliyah file request."
+          "next_steps_en": "JRI-Poland Skole surname search for Goldfischer / Goldfisher / Goldfiszer; Yad Vashem Names DB for any Goldfischer Shoah victims from Skole; Israel State Archives Aliyah file request.",
+          "pillar": "independent"
         },
         {
           "id": "abraham_schrenzel_lineage_verified",
@@ -394,7 +418,8 @@
             "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/rapoport-abraham-ben-israel-jehiel-hakohen",
             "https://www.geni.com/people/R-Avraham-Shrentzel-Rappoport/6000000008919045305"
           ],
-          "open_thread_en": "Specific Berisz Rapaport (David Memek's father) → Abraham Schrenzel chain not yet verified link-by-link. Required next step: scan the genealogy appendix of Eitan ha-Ezrachi 1796 on HebrewBooks.org / Otzar HaHochma and match each generation."
+          "open_thread_en": "Specific Berisz Rapaport (David Memek's father) → Abraham Schrenzel chain not yet verified link-by-link. Required next step: scan the genealogy appendix of Eitan ha-Ezrachi 1796 on HebrewBooks.org / Otzar HaHochma and match each generation.",
+          "pillar": "independent"
         },
         {
           "id": "tzvi_hirsh_filip_lineage_verified",
@@ -411,7 +436,8 @@
             "https://encyclopedia.yivo.org/article.aspx/Kosov-Vizhnits_Hasidic_Dynasty"
           ],
           "open_thread_en": "The traditional family claim that Tzvi Hirsh Filip is a direct Rapaport-Kohen ancestor is currently oral-tradition only. Documentary proof would require matching JewishGen's rabbinic-surnames file or a generation-by-generation tree from Filip's son R. David Aryeh Leib down through Nadwórna's 19th-century Kohanic rabbinical families.",
-          "open_thread_he": "המסורת המשפחתית שצבי הירש פיליפ הוא אב קדמון ישיר של שושלת רפפורט-כהן היא כיום מסורת בעל-פה בלבד. הוכחה תיעודית תדרוש התאמה לקובץ שמות הרבנים של JewishGen או עץ דור-אחר-דור מבנו רבי דוד אריה לייב, דרך משפחות הרבנים הכהניים של נדבורנה במאה ה-19."
+          "open_thread_he": "המסורת המשפחתית שצבי הירש פיליפ הוא אב קדמון ישיר של שושלת רפפורט-כהן היא כיום מסורת בעל-פה בלבד. הוכחה תיעודית תדרוש התאמה לקובץ שמות הרבנים של JewishGen או עץ דור-אחר-דור מבנו רבי דוד אריה לייב, דרך משפחות הרבנים הכהניים של נדבורנה במאה ה-19.",
+          "pillar": "memoir_vs_history"
         },
         {
           "id": "lusia_birth_date_confirmed_1913",
@@ -425,7 +451,8 @@
             "https://wwv.yadvashem.org/yv/en/exhibitions/false-identity/index.asp",
             "https://en.wikipedia.org/wiki/Holocaust_in_Bolekhiv",
             "https://www.geshergalicia.org/all-galicia-database/"
-          ]
+          ],
+          "pillar": "memoir_vs_history"
         },
         {
           "id": "david_soviet_exile_route_hypothesis",
@@ -442,7 +469,8 @@
             "https://en.wikipedia.org/wiki/Berihah",
             "https://www.palyam.org/English/Hahapala/hf/hf_Theodor_Herzl.pdf",
             "https://arolsen-archives.org/en/news/3-000-jewish-refugees-files-have-been-digitized-2/"
-          ]
+          ],
+          "pillar": "memoir_vs_history"
         },
         {
           "id": "basia_1938_auction_notice",
@@ -458,7 +486,8 @@
               "caption_en": "Zygmunt Griffel timber business album entry (1935) — establishing the Griffel family's commercial scale in inter-war Lwów. See separate card for full details.",
               "credit": "Album-Skorowidz Senatu i Sejmu Rzpltej (1935, public domain)"
             }
-          ]
+          ],
+          "pillar": "independent"
         },
         {
           "id": "basia_zygmunt_griffel_kopernika_5",
@@ -474,7 +503,8 @@
               "credit": "Album-Skorowidz Sejmu 1935 (public domain) — sourced by Basia, ŻIH Warsaw"
             }
           ],
-          "summary_he": "אימפריית העץ של זיגמונט גריפל אומתה — לפי המודעה במכרז של 1938, מקום עסקיו היה בלבוב ברחוב קופרניקה 5. ילד-בכור של דוד מנדל גריפל וחווה וואל, ניהל את עסקי העץ הגליציאניים של המשפחה (שנהל-ניוטון 'פורסטה' + 'זטפרול'). אביו של אריק גריפל שנתן עדות בעל-פה ל-ADST ב-2015."
+          "summary_he": "אימפריית העץ של זיגמונט גריפל אומתה — לפי המודעה במכרז של 1938, מקום עסקיו היה בלבוב ברחוב קופרניקה 5. ילד-בכור של דוד מנדל גריפל וחווה וואל, ניהל את עסקי העץ הגליציאניים של המשפחה (שנהל-ניוטון 'פורסטה' + 'זטפרול'). אביו של אריק גריפל שנתן עדות בעל-פה ל-ADST ב-2015.",
+          "pillar": "independent"
         },
         {
           "id": "david_lusia_death_dates_confirmed",
@@ -489,7 +519,8 @@
             "https://kdh.org.il/niftarim-murchav-serch/search-results-deceased-murchav/grave-info-murchav/?deceased=144046",
             "https://gravez.me/deceased/08465D4B-C253-4051-A7B0-3C6EB6C7B79A",
             "https://gravez.me/deceased/5A346C70-E101-4064-88A2-3E447CD62A51"
-          ]
+          ],
+          "pillar": "from_book"
         },
         {
           "id": "goldfischer_weitzner_school_circle",
@@ -499,7 +530,8 @@
           "summary_en": "Per family stories: Dalia, Dana, Doron and Daniel's maternal grandmother ESTER GOLDFISCHER studied with FEIGE (Tzipora) WEITZNER — Lusia's older sister, born 1911 Bolechów — almost certainly at a Bolechów-area Hebrew or vocational school in the late 1920s / early 1930s. Combined with the geographic proximity (S. Goldfischer was born in Skole, ~60km from Bolechów, in the same Galician Carpathian region as Bolechów + Stryj + Nadwórna), this means the WEITZNER and GOLDFISCHER families moved in the same small Galician Jewish circle decades before Dov Rapaport (David + Lusia's son) and Dalia Goldfischer (Ester + S. Goldfischer's daughter) ever met or married. The two halves of Dalia, Dana, Doron and Daniel's family had a documented pre-Holocaust connection. Research into the specific school is in progress.",
           "source": "Family oral history (Doron, 21 May 2026)",
           "urls": [],
-          "summary_he": "שני חצאי משפחתם של דליה, דנה, דורון ודניאל הכירו זה את זה. הסבתא הסבתית אסתר גולדפישר למדה עם פייגה (ציפורה) וייצנר, אחותה הבכורה של לוסיה (נולדה 1911 בבולחוב), כמעט בוודאות בבית ספר עברי או מקצועי אזורי בבולחוב בסוף שנות ה-20 / תחילת שנות ה-30. ש. גולדפישר נולד בסקולה, כ-60 ק\"מ מבולחוב, בא�ותו אזור גליציאני-קרפטי. המשמעות: משפחת וייצנר וגולדפישר נעו באותו עולם יהודי-גליציאני קטן עשרות שנים לפני שדב (בנם של דוד ולוסיה) ודליה (בתם של אסתר וש. גולדפישר) נפגשו ונישאו."
+          "summary_he": "שני חצאי משפחתם של דליה, דנה, דורון ודניאל הכירו זה את זה. הסבתא הסבתית אסתר גולדפישר למדה עם פייגה (ציפורה) וייצנר, אחותה הבכורה של לוסיה (נולדה 1911 בבולחוב), כמעט בוודאות בבית ספר עברי או מקצועי אזורי בבולחוב בסוף שנות ה-20 / תחילת שנות ה-30. ש. גולדפישר נולד בסקולה, כ-60 ק\"מ מבולחוב, בא�ותו אזור גליציאני-קרפטי. המשמעות: משפחת וייצנר וגולדפישר נעו באותו עולם יהודי-גליציאני קטן עשרות שנים לפני שדב (בנם של דוד ולוסיה) ודליה (בתם של אסתר וש. גולדפישר) נפגשו ונישאו.",
+          "pillar": "memoir_vs_history"
         },
         {
           "id": "test_was_david_a_kohen",
@@ -513,7 +545,8 @@
           "urls": [
             "https://en.wikipedia.org/wiki/Rapoport_family",
             "https://www.jewishencyclopedia.com/articles/12576-rapoport"
-          ]
+          ],
+          "pillar": "from_book"
         },
         {
           "id": "bolechow_yizkor_naming",
@@ -536,7 +569,8 @@
               "caption_he": "בולחוב, רחוב הלצקאיה 33 — בית משפחת שטראשמן, הקשר לרישומי שמות יהודיים בבולחוב.",
               "credit": "Family archive"
             }
-          ]
+          ],
+          "pillar": "from_book"
         },
         {
           "id": "griffel_chajes_dynasty",
@@ -550,7 +584,8 @@
             "https://www.geni.com/people/Dawid-David-Griffel/6000000002133380964",
             "https://archives.balliol.ox.ac.uk/Modern%20Papers/gelles/Griffel%20of%20Nadworna.pdf",
             "https://archives.balliol.ox.ac.uk/Modern%20Papers/gelles/An%20Ancient%20Lineage%20-%20%20%20Edward%20Gellles%20%20-%20%20INDEX.pdf"
-          ]
+          ],
+          "pillar": "independent"
         },
         {
           "id": "nadworna_first_betar",
@@ -562,7 +597,8 @@
           "source": "Yad Vashem — Valley of the Communities, Nadwórna",
           "urls": [
             "https://www.yadvashem.org/yv/en/exhibitions/valley/nadworna/before_holocaust.asp"
-          ]
+          ],
+          "pillar": "from_book"
         },
         {
           "id": "foresta_zetperol",
@@ -576,7 +612,8 @@
             "https://www.yadvashem.org/communities/nadworna/before-holocaust.html",
             "https://www.jewishgen.org/yizkor/pinkas_poland/pol2_00328.html"
           ],
-          "quote_en": "The 'Foresta' company was active in the city, leasing woodlands from the Polish authorities in order to chop timber and prepare it for export. Both the managers of the company in the city and its workers were Jewish… In 1937, the government contract with the 'Foresta' company – whose owners and workers in Nadwórna were Jewish – was terminated, due to intervention by antisemitic Ukrainians and Poles. The company's Jewish employees were fired. … Some 600 Jews worked daily at the saw mill (during the German occupation)."
+          "quote_en": "The 'Foresta' company was active in the city, leasing woodlands from the Polish authorities in order to chop timber and prepare it for export. Both the managers of the company in the city and its workers were Jewish… In 1937, the government contract with the 'Foresta' company – whose owners and workers in Nadwórna were Jewish – was terminated, due to intervention by antisemitic Ukrainians and Poles. The company's Jewish employees were fired. … Some 600 Jews worked daily at the saw mill (during the German occupation).",
+          "pillar": "independent"
         },
         {
           "id": "glesinger_timber_aryanised",
@@ -588,7 +625,8 @@
           "urls": [
             "https://www.wikitree.com/wiki/Glesinger-15"
           ],
-          "summary_he": "מסור העצים בנדבורנה שבו עבד דוד היה ככל הנראה מנוכס-אריאני אז ש Glesinger family-owned. תחת הכיבוש הנאצי באוקטובר 1942 כל הנכסים היהודיים הוחרמו והופעלו על-ידי 'נאמני אריאניזציה' גרמנים."
+          "summary_he": "מסור העצים בנדבורנה שבו עבד דוד היה ככל הנראה מנוכס-אריאני אז ש Glesinger family-owned. תחת הכיבוש הנאצי באוקטובר 1942 כל הנכסים היהודיים הוחרמו והופעלו על-ידי 'נאמני אריאניזציה' גרמנים.",
+          "pillar": "independent"
         },
         {
           "id": "eric_griffel_adst_oral_history",
@@ -600,7 +638,8 @@
           "urls": [
             "https://adst.org/OH%20TOCs/Griffel.Eric.pdf"
           ],
-          "summary_he": "📜 העדות בעל-פה של אריק גריפל ל-ADST (2015) מאמתת את שושלת גריפל-נדבורנה. אריק (1933-2017) היה בנם של זיגמונט גריפל ועל-אנה. הוא תיאר את עזיבת המשפחה את לבוב ב-1939, השרות בארמיית אנדרס של אביו, וההתיישבות הסופית בסטטן איילנד, ניו יורק."
+          "summary_he": "📜 העדות בעל-פה של אריק גריפל ל-ADST (2015) מאמתת את שושלת גריפל-נדבורנה. אריק (1933-2017) היה בנם של זיגמונט גריפל ועל-אנה. הוא תיאר את עזיבת המשפחה את לבוב ב-1939, השרות בארמיית אנדרס של אביו, וההתיישבות הסופית בסטטן איילנד, ניו יורק.",
+          "pillar": "independent"
         },
         {
           "id": "achwa_beitar_hachshara",
@@ -612,7 +651,8 @@
           "urls": [
             "https://collections.yadvashem.org/en/photos/9933470"
           ],
-          "summary_he": "🏕️ ההכשרה הבית\"רית הראשונה בפולין נקראה 'קיבוץ אחווה' בנדבורנה. ארכיון התצלומים של יד ושם 9933470 — תצלום מ-1936 של לקסיו הופמן ב'אחווה' מאמת את שם הקיבוץ. ההקדשה על הגב: 'כמזכרת נצח משהותנו הקצרה בקיבוץ, ממני, לקסיו הופמן, נדבורנה, 9 באוגוסט 1936.' ההכשרה הבית\"רית הפולנית הראשונה, שהוקמה ב-1929, פעלה עדיין באוגוסט 1936 כ'קיבוץ אחווה'. דוד רפפורט היה בן 17-18 בשנת ההקמה ובן 24-25 ב-1936 — סביר מאוד שיופיע בתצלום קבוצתי של אחווה."
+          "summary_he": "🏕️ ההכשרה הבית\"רית הראשונה בפולין נקראה 'קיבוץ אחווה' בנדבורנה. ארכיון התצלומים של יד ושם 9933470 — תצלום מ-1936 של לקסיו הופמן ב'אחווה' מאמת את שם הקיבוץ. ההקדשה על הגב: 'כמזכרת נצח משהותנו הקצרה בקיבוץ, ממני, לקסיו הופמן, נדבורנה, 9 באוגוסט 1936.' ההכשרה הבית\"רית הפולנית הראשונה, שהוקמה ב-1929, פעלה עדיין באוגוסט 1936 כ'קיבוץ אחווה'. דוד רפפורט היה בן 17-18 בשנת ההקמה ובן 24-25 ב-1936 — סביר מאוד שיופיע בתצלום קבוצתי של אחווה.",
+          "pillar": "from_book"
         },
         {
           "id": "theodor_herzl_voyage_details",
@@ -624,7 +664,8 @@
           "urls": [
             "https://www.palyam.org/English/Hahapala/hf/hf_Theodor_Herzl.pdf"
           ],
-          "summary_he": "🚢 פרטי הפלגת תיאודור הרצל — אומתו דרך היסטוריית הספינות של פלמ\"ח/פלי\"ם: הפליגה מסט, צרפת, ב-2 באפריל 1947 עם 2,641 מעפילים ממחנות בצרפת ובלגיה. מפקד מקה לימון; קצינים יוש הלוי, בצלאל 'צולו' פלדמן, חיים ויינשלבוים; גדעוני נחמן 'בוב' בורשטיין. יורטה ב-13 באפריל 1947 על-ידי HMS היידון ו-HMS סן ברידס באי. 3 מעפילים נהרגו ביריות הבריטים: אהרון דב, פנחס וייס, מנחם סמט. 27 פצועים. הנוסעים נשלחו למחנות המעצר בקפריסין (קראולוס ליד פמגוסטה) ל-8 חודשים."
+          "summary_he": "🚢 פרטי הפלגת תיאודור הרצל — אומתו דרך היסטוריית הספינות של פלמ\"ח/פלי\"ם: הפליגה מסט, צרפת, ב-2 באפריל 1947 עם 2,641 מעפילים ממחנות בצרפת ובלגיה. מפקד מקה לימון; קצינים יוש הלוי, בצלאל 'צולו' פלדמן, חיים ויינשלבוים; גדעוני נחמן 'בוב' בורשטיין. יורטה ב-13 באפריל 1947 על-ידי HMS היידון ו-HMS סן ברידס באי. 3 מעפילים נהרגו ביריות הבריטים: אהרון דב, פנחס וייס, מנחם סמט. 27 פצועים. הנוסעים נשלחו למחנות המעצר בקפריסין (קראולוס ליד פמגוסטה) ל-8 חודשים.",
+          "pillar": "memoir_vs_history"
         }
       ]
     },
@@ -2060,5 +2101,5 @@
       ]
     }
   ],
-  "build_version": "2026-05-21-T27-bolechow-goldfischer-david-actions"
+  "build_version": "2026-05-21-T28-three-pillars-framework"
 }

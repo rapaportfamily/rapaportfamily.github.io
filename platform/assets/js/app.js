@@ -1084,11 +1084,21 @@ function renderResearch(root, param) {
           </div>
         `;
       }
+      // Pillar badge (3-column research framework — see headline_finds intro)
+      const pillarLabels = {
+        from_book:         { en: "📖 from the book", he: "📖 מהספר",          pl: "📖 z księgi",          fr: "📖 du livre" },
+        memoir_vs_history: { en: "⚖️ memoir + history", he: "⚖️ יומן + היסטוריה", pl: "⚖️ pamiętnik + historia", fr: "⚖️ mémoire + histoire" },
+        independent:       { en: "🔍 independent",   he: "🔍 ראיות עצמאיות",   pl: "🔍 niezależne",       fr: "🔍 indépendant" },
+      };
+      const pillarBadge = c.pillar && pillarLabels[c.pillar]
+        ? `<span class="badge badge-pillar pillar-${c.pillar}">${escapeHtml(pillarLabels[c.pillar][lang] || pillarLabels[c.pillar].en)}</span>`
+        : '';
       html += `
         <details class="rc-card" data-card="${escapeHtml(c.id)}">
           <summary>
             <div class="rc-card-summary">
               <div class="rc-card-title">${escapeHtml(t1)}</div>
+              ${pillarBadge}
               ${statusBadge(c.status)}
             </div>
           </summary>

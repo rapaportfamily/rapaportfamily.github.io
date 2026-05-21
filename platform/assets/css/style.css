@@ -880,6 +880,12 @@ html[dir="rtl"] .hyp-question { font-family: var(--font-hebrew); }
 .badge.status-blocked_waiting_archive { background: #fdf2da; color: #8a6816; border-color: #ead9a8; }
 .badge.confidence-confirmed { background: #e8eee5; color: var(--green); border-color: #cad9c4; }
 .badge.confidence-documented { background: #e6efed; color: var(--teal); border-color: #bfd5d2; }
+
+/* Three-column research-pillar badges */
+.badge.badge-pillar { text-transform: none; letter-spacing: 0.01em; }
+.badge.pillar-from_book         { background: #fdf2da; color: #6b4d10; border-color: #ead9a8; }
+.badge.pillar-memoir_vs_history { background: #ece4f1; color: #4a2870; border-color: #c8b8d5; }
+.badge.pillar-independent       { background: #e6efed; color: #1d4a48; border-color: #b9d0cd; }
 .badge.confidence-family_oral { background: #f5eee0; color: var(--rust); border-color: #e8d4b8; }
 .badge.confidence-hypothesis { background: #fdf2da; color: #8a6816; border-color: #ead9a8; }
 .badge.confidence-ruled_out { background: #f0e8e0; color: var(--muted); border-color: var(--border); text-decoration: line-through; }
