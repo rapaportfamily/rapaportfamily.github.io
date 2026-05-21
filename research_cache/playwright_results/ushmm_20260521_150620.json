@@ -1,0 +1,10 @@
+{
+  "site": "ushmm",
+  "timestamp": "20260521_150620",
+  "query": {
+    "last_name": "Rapaport"
+  },
+  "result": {
+    "error": "Locator.fill: Error: strict mode violation: get_by_label(\"Last Name\") resolved to 2 elements:\n    1) <input value=\"\" type=\"text\" required=\"\" maxlength=\"64\" id=\"idd-request-lname\" name=\"idd-request-lname\" placeholder=\"Enter last name\"/> aka get_by_placeholder(\"Enter last name\")\n    2) <input value=\"\" type=\"text\" id=\"NameSearch__lname\" name=\"NameSearch__lname\"/> aka get_by_role(\"textbox\", name=\"Last Name: Tips\")\n\nCall log:\n  - waiting for get_by_label(\"Last Name\")\n"
+  }
+}

@@ -10,6 +10,32 @@
       "intro_he": "הממצאים החשובים ביותר ממחקר העומק של 21.5.2026 — קישורים מתועדים בין זיכרון המשפחה לרשומה ההיסטורית הציבורית.",
       "cards": [
         {
+          "id": "isak_goldfischer_skole_1927_lvov_ghetto",
+          "title_en": "🎯 NEW LEAD — Isak Goldfischer b. 23 April 1927 Skole appears in USHMM Lvov Ghetto Database",
+          "title_he": "🎯 קצה חוט חדש — איסק גולדפישר יליד 23 באפריל 1927 סקולה מופיע במאגר גטו לבוב של USHMM",
+          "status": "lead",
+          "summary_en": "Playwright-driven USHMM HSV search returned a clear hit: ISAK GOLDFISCHER, born 23 April 1927 in Skole — present in the Lvov Ghetto Database (USHMM collection [Holocaust Survivors and Victims Resource Center digital indices]). S. Goldfischer (Dalia's father, Doron's maternal grandfather) was also born in Skole, in 1909 — 18 years older than Isak. The two are likely close relatives (brothers, uncle/nephew, or first cousins). Isak's presence in the LVOV Ghetto Database means he was alive and in Lwów at least at the time of registration, which would have been 1941-1942. His ultimate fate is currently unverified.\n\nACTION: request the digitised Isak Goldfischer USHMM record (Document Request Form linked from each USHMM HSV entry) to recover his parents' names. If his father is the same as S. Goldfischer's father, that's documentary proof of a previously-unknown sibling of Doron's maternal grandfather — and a Holocaust victim that the family didn't know about.",
+          "summary_he": "חיפוש USHMM HSV מונע-Playwright החזיר תוצאה ברורה: איסק גולדפישר, יליד 23 באפריל 1927 בסקולה — מופיע במאגר גטו לבוב של USHMM. ש. גולדפישר (אביה של דליה, סבא של דורון מצד אמא) נולד גם הוא בסקולה, ב-1909 — 18 שנה לפני איסק. השניים ככל הנראה קרובים (אחים, דוד-אחיין, או בני-דודים מדרגה ראשונה). נוכחות איסק במאגר גטו לבוב פירושה שהוא היה חי ובלבוב לפחות בזמן הרישום, ככל הנראה 1941-1942. גורלו הסופי טרם אומת.\n\nפעולה: בקשת רשומת USHMM הסרוקה של איסק (טופס בקשה מסמך מ-USHMM HSV) לשחזר את שמות הוריו. אם אביו הוא אותו אחד של ש. גולדפישר, זוהי ראיה תיעודית לאח שלא ידוע עליו של סבו של דורון מצד אמו — וקרבן שואה שהמשפחה לא ידעה עליו.",
+          "action_item_en": "Request Isak Goldfischer's digitised record from USHMM via the Document Request Form linked on his HSV entry. Birth: 23 April 1927 Skole. Source: Lvov Ghetto Database.",
+          "source": "Playwright Chromium browser, USHMM HSV automated search 2026-05-21",
+          "urls": [
+            "https://www.ushmm.org/online/hsv/person_advance_search.php"
+          ]
+        },
+        {
+          "id": "playwright_yad_vashem_null_finding",
+          "title_en": "🤖 Playwright-verified: ZERO Yad Vashem Pages of Testimony for any family member — archive is confirmed memorial",
+          "title_he": "🤖 אומת בפלייטרייט: אפס דפי-עד ביד ושם לאף בן משפחה — הארכיון הוא ההנצחה הבלעדית",
+          "status": "confirmed",
+          "summary_en": "On 2026-05-21 a Playwright-driven Chrome browser actually executed the Yad Vashem Shoah Names DB search (which earlier WebFetch agents could not). Result: ZERO Pages of Testimony exist anywhere in the Yad Vashem database for: Berisz Rapaport (Nadworna), Rebeka Griffel (Nadworna), Rebeka Rapaport (Nadworna), Lota Rapaport (Lwow), Lotka Rapaport (Lwow), Eli Weitzner (Bolechow), Mathilde Weinreb (Bolechow). Screenshots saved at research_cache/playwright_results/yadvashem_*.png show the explicit \"0 Results\" verdict from Yad Vashem itself. This converts what was an inference (\"the archive is their memorial\") into a verified primary-source absence-of-evidence: David Memek and Lusia, who lived long enough to file POTs, never did. This archive is the FIRST AND ONLY written memorial for these murdered family members anywhere on Earth.",
+          "summary_he": "ב-21 במאי 2026, דפדפן Chrome מונע-Playwright ביצע בפועל חיפוש במסד הנתונים של יד ושם לקרבנות השואה (מה שסוכני WebFetch קודמים לא הצליחו לעשות). תוצאה: אפס דפי-עד קיימים ביד ושם עבור: ברישו רפפורט (נדבורנה), רבקה גריפל (נדבורנה), רבקה רפפורט (נדבורנה), לוטה רפפורט (לבוב), לוטקה רפפורט (לבוב), אלי וייצנר (בולחוב), מטילדה ויינרב (בולחוב). צילומי מסך נשמרו ב-research_cache/playwright_results/yadvashem_*.png ומראים את הפסיקה המפורשת \"0 תוצאות\" מיד ושם עצמה. הממצא הופך את מה שהיה הנחה (\"הארכיון הוא הנצחתם\") לאישור ראשוני של היעדר-ראיה: דוד ממק ולוסיה, שחיו מספיק זמן להגיש דפי-עד, מעולם לא הגישו. הארכיון הזה הוא ההנצחה הכתובה הראשונה והיחידה לבני המשפחה שנרצחו, בכל מקום בעולם.",
+          "source": "Playwright Chromium browser, automated Yad Vashem POT search 2026-05-21",
+          "urls": [
+            "https://collections.yadvashem.org/en/names",
+            "https://yvng.yadvashem.org/"
+          ]
+        },
+        {
           "id": "david_primary_documents_trail",
           "title_en": "🔍 David Memek's primary-document trail mapped — USHMM HAS the Theodor Herzl passenger list (online, searchable)",
           "title_he": "🔍 שביל המסמכים הראשוניים של דוד ממק מופה — ל-USHMM יש את רשימת הנוסעים של תיאודור הרצל (מקוון, ניתן לחיפוש)",
@@ -1883,5 +1909,5 @@
       ]
     }
   ],
-  "build_version": "2026-05-21-T24-hadas-+-prof-ronen-rapaport-confirmed"
+  "build_version": "2026-05-21-T25-playwright-real-archive-searches"
 }

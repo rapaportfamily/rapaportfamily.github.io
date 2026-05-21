@@ -1,0 +1,173 @@
+{
+  "site": "ushmm",
+  "timestamp": "20260521_150855",
+  "query": {
+    "queries": [
+      {
+        "lname": "Rapaport",
+        "fname": "David",
+        "place_birth": "Nadworna"
+      },
+      {
+        "lname": "Rapaport",
+        "fname": "David",
+        "place_birth": "Nadvorna"
+      },
+      {
+        "lname": "Rapaport",
+        "fname": "Berisz",
+        "place_birth": "Nadworna"
+      },
+      {
+        "lname": "Rapaport",
+        "fname": "Lota",
+        "place_birth": "Nadworna"
+      },
+      {
+        "lname": "Rapaport",
+        "fname": "Shimon",
+        "place_birth": ""
+      },
+      {
+        "lname": "Weitzner",
+        "fname": "Lusia",
+        "place_birth": "Bolechow"
+      },
+      {
+        "lname": "Weitzner",
+        "fname": "Eli",
+        "place_birth": "Bolechow"
+      },
+      {
+        "lname": "Goldfischer",
+        "fname": "",
+        "place_birth": "Skole"
+      },
+      {
+        "lname": "Rapaport",
+        "fname": "",
+        "place_birth": ""
+      }
+    ]
+  },
+  "result": [
+    {
+      "query": {
+        "lname": "Rapaport",
+        "fname": "David",
+        "place_birth": "Nadworna"
+      },
+      "url": "https://www.ushmm.org/online/hsv/person_advance_search.php?NameSearch__lname=Rapaport&NameSearch__fname=David&NameSearch__place_birth=Nadworna&NameSearch__sort=score&NameSearch__MaxPageDocs=50",
+      "match_header": null,
+      "result_blocks": []
+    },
+    {
+      "query": {
+        "lname": "Rapaport",
+        "fname": "David",
+        "place_birth": "Nadvorna"
+      },
+      "url": "https://www.ushmm.org/online/hsv/person_advance_search.php?NameSearch__lname=Rapaport&NameSearch__fname=David&NameSearch__place_birth=Nadvorna&NameSearch__sort=score&NameSearch__MaxPageDocs=50",
+      "match_header": null,
+      "result_blocks": []
+    },
+    {
+      "query": {
+        "lname": "Rapaport",
+        "fname": "Berisz",
+        "place_birth": "Nadworna"
+      },
+      "url": "https://www.ushmm.org/online/hsv/person_advance_search.php?NameSearch__lname=Rapaport&NameSearch__fname=Berisz&NameSearch__place_birth=Nadworna&NameSearch__sort=score&NameSearch__MaxPageDocs=50",
+      "match_header": null,
+      "result_blocks": []
+    },
+    {
+      "query": {
+        "lname": "Rapaport",
+        "fname": "Lota",
+        "place_birth": "Nadworna"
+      },
+      "url": "https://www.ushmm.org/online/hsv/person_advance_search.php?NameSearch__lname=Rapaport&NameSearch__fname=Lota&NameSearch__place_birth=Nadworna&NameSearch__sort=score&NameSearch__MaxPageDocs=50",
+      "match_header": null,
+      "result_blocks": []
+    },
+    {
+      "query": {
+        "lname": "Rapaport",
+        "fname": "Shimon",
+        "place_birth": ""
+      },
+      "url": "https://www.ushmm.org/online/hsv/person_advance_search.php?NameSearch__lname=Rapaport&NameSearch__fname=Shimon&NameSearch__place_birth=&NameSearch__sort=score&NameSearch__MaxPageDocs=50",
+      "match_header": null,
+      "result_blocks": []
+    },
+    {
+      "query": {
+        "lname": "Weitzner",
+        "fname": "Lusia",
+        "place_birth": "Bolechow"
+      },
+      "url": "https://www.ushmm.org/online/hsv/person_advance_search.php?NameSearch__lname=Weitzner&NameSearch__fname=Lusia&NameSearch__place_birth=Bolechow&NameSearch__sort=score&NameSearch__MaxPageDocs=50",
+      "match_header": null,
+      "result_blocks": []
+    },
+    {
+      "query": {
+        "lname": "Weitzner",
+        "fname": "Eli",
+        "place_birth": "Bolechow"
+      },
+      "url": "https://www.ushmm.org/online/hsv/person_advance_search.php?NameSearch__lname=Weitzner&NameSearch__fname=Eli&NameSearch__place_birth=Bolechow&NameSearch__sort=score&NameSearch__MaxPageDocs=50",
+      "match_header": null,
+      "result_blocks": []
+    },
+    {
+      "query": {
+        "lname": "Goldfischer",
+        "fname": "",
+        "place_birth": "Skole"
+      },
+      "url": "https://www.ushmm.org/online/hsv/person_advance_search.php?NameSearch__lname=Goldfischer&NameSearch__fname=&NameSearch__place_birth=Skole&NameSearch__sort=score&NameSearch__MaxPageDocs=50",
+      "match_header": "Displaying 1–2 of 2 matches for LAST NAME: GOLDFISCHER; ACCURACY: EXACT; BIRTH PLACE: SKOLE; ACCURACY: EXACT",
+      "result_blocks": [
+        "2.  Goldfischer, Isak\nPrimary Media: You can request a digitized copy of the original document by submitting the Document Request Form.\nBirth date: 23 Apr 1927\nBirth place: Skole\nSource: Lvov Ghetto Database\nCollection: [Holocaust Survivors and Victims Resource Center digital indices]\nSHARE\nAbout the Museum\nPlan Your Visit\nCurrent Exhibitions\nCalendar of Events\nSupport the Museum\nDONATE\nResources\nLearn\nTeach\nCollections\nAcademic Research\nRemember Survivors and Victims\nGenocide Prevention\nAntisemitism and Holocaust Denial\nOutreach\nMuseum Websites\nHolocaust Encyclopedia\nCollections Search\nHoloca"
+      ]
+    },
+    {
+      "query": {
+        "lname": "Rapaport",
+        "fname": "",
+        "place_birth": ""
+      },
+      "url": "https://www.ushmm.org/online/hsv/person_advance_search.php?NameSearch__lname=Rapaport&NameSearch__fname=&NameSearch__place_birth=&NameSearch__sort=score&NameSearch__MaxPageDocs=50",
+      "match_header": "Displaying 1–50 of 2,982 matches for LAST NAME: RAPAPORT; ACCURACY: EXACT",
+      "result_blocks": [
+        "1.  Rapaport, Chaja\nPrimary Media: You can request a digitized copy of the original document by submitting the Document Request Form.\nBirth date: 20 May 1940\nBirth place: Litzmannstadt Getto\nSource: [Death Notice]\nCollection: The elders of the Jews in the Łódź ghetto",
+        "2.  Rapaport, Reisel\nPrimary Media: You can request a digitized copy of the original document by submitting the Document Request Form.\nSource: [Denied applications]\nCollection: City captain of the city of Krakow, 1939-1945, ID card list",
+        "3.  Rapaport, Jakub\nPrimary Media: You can request a digitized copy of the original document by submitting the Document Request Form.\nSource: [Denied applications]\nCollection: City captain of the city of Krakow, 1939-1945, ID card list",
+        "4. Rapaport, Max\nBirth date: 21 Dec 1885\nBirth place: Leipzig\nOther name: Naftal Rapaport\nSource: Reich flight tax and warrants for apprehension related to this tax 1932-1944\nCollection: [Holocaust Survivors and Victims Resource Center digital indices]",
+        "5.  Rapaport, David\nMedia: You can request a digitized copy of the original document by submitting the Document Request Form.\nBirth date: 17 Jan 1898\nBirth place: Krakau\nOther name: Nathan Rapaport\nSource: List of Jews registered in the Register of Jews\nCollection: Jewish Register of Antwerp",
+        "6.  Rapaport, Scheindel\nMedia: You can request a digitized copy of the original document by submitting the Document Request Form.\nBirth date: 26 May 1905\nBirth place: Krakau\nOther name: Ester Rapaport\nSource: List of Jews registered in the Register of Jews\nCollection: Jewish Register of Antwerp",
+        "7.  Rapaport, Golde\nMedia: You can request a digitized copy of the original document by submitting the Document Request Form.\nBirth date: 3 Oct 1905\nBirth place: Zortkow\nOther name: Gusti Rapaport\nSource: List of Jews registered in the Register of Jews\nCollection: Jewish Register of Antwerp",
+        "9.  Rapaport, Icek Abram\nPrimary Media: You can request a digitized copy of the original document by submitting the Document Request Form.\nBirth date: 17 Aug 1879\nBirth place: Przysucha\nSource: [Death Notice]\nCollection: The elders of the Jews in the Łódź ghetto",
+        "10.  Rapaport, Aron\nPrimary Media: You can request a digitized copy of the original document by submitting the Document Request Form.\nSource: List of Jewish DPs\nCollection: UNRRA selected records AG-018-010 : Austria Mission",
+        "11.  Rapaport, Berisch\nPrimary Media: You can request a digitized copy of the original document by submitting the Document Request Form.\nSource: [Passport Applications]\nCollection: Applications of the Jewish residents on the Stanisławów County of Poland (now Ivano-Frankivsk Region of Ukraine) for obtaining passports (Fond 6, Opis 3)",
+        "12. Rapaport, Meir\nBirth date: 12 Jun 1924\nBirth place: Sosnowiec, Poland\nOther name: Monek Rapaport\nSource: [Index to the Visual History Archive of Holocaust oral testimonies from the USC Shoah Foundation Institute]\nCollection: [Holocaust Survivors and Victims Resource Center digital indices]",
+        "14. Rapaport, Leah Kohl\nBirth date: 22 Jun 1908\nBirth place: Kamionka Strumilowa, Poland\nSource: Names From the Learning Center: ID Cards",
+        "15. Rapaport, Zofia\nBirth date: 6 May 1933\nBirth place: Warsaw, Poland\nSource: Names From the Learning Center: ID Cards",
+        "16. Rapaport, Jozef\nBirth date: 1899\nBirth place: Krystonopol, Poland\nSource: Names From the Learning Center: ID Cards",
+        "17. Rapaport, Eva\nBirth date: 27 Oct 1929\nBirth place: Vienna, Austria\nSource: Names From the Learning Center: ID Cards",
+        "22.  Rapaport, Abraham\nPrimary Media: You can request a digitized copy of the original document by submitting the Document Request Form.\nBirth date: 3 Jan 1874\nBirth place: Luków\nSource: [Protocol]\nCollection: Registration forms for Jewish inhabitants of Kraków, Poland",
+        "23.  Rapaport, Czarna\nPrimary Media: You can request a digitized copy of the original document by submitting the Document Request Form.\nBirth date: 20 Jul 1902\nBirth place: Jalainia\nSource: [Protocol]\nCollection: Registration forms for Jewish inhabitants of Kraków, Poland",
+        "24.  Rapaport, Jakub Michal\nPrimary Media: You can request a digitized copy of the original document by submitting the Document Request Form.\nBirth date: 13 Aug 1892\nBirth place: Krakau\nSource: [Protocol]\nCollection: Registration forms for Jewish inhabitants of Kraków, Poland",
+        "25.  Rapaport, Markus\nPrimary Media: You can request a digitized copy of the original document by submitting the Document Request Form.\nBirth date: 14 Aug 1889\nBirth place: Alt Sambor\nSource: [Protocol]\nCollection: Registration forms for Jewish inhabitants of Kraków, Poland",
+        "26.  Rapaport, Sala\nPrimary Media: You can request a digitized copy of the original document by submitting the Document Request Form.\nBirth date: 11 Dec 1898\nBirth place: Krakau\nSource: [Protocol]\nCollection: Registration forms for Jewish inhabitants of Kraków, Poland",
+        "27.  Rapaport, Sara\nPrimary Media: You can request a digitized copy of the original document by submitting the Document Request Form.\nBirth date: 5 Mar 1876\nSource: [Protocol]\nCollection: Registration forms for Jewish inhabitants of Kraków, Poland",
+        "28.  Rapaport, Eizig\nPrimary Media: You can request a digitized copy of the original document by submitting the Document Request Form.\nBirth date: 1864\nBirth place: Warschau\nSource: [Protocol]\nCollection: Registration forms for Jewish inhabitants of Kraków, Poland",
+        "29.  Rapaport, Perla\nPrimary Media: You can request a digitized copy of the original document by submitting the Document Request Form.\nBirth date: 1897\nBirth place: Noworadomsk\nSource: [Protocol]\nCollection: Registration forms for Jewish inhabitants of Kraków, Poland",
+        "30.  Rapaport, Laura\nPrimary Media: You can request a digitized copy of the original document by submitting the Document Request Form.\nBirth date: 4 Oct 1878\nBirth place: Jaslo\nSource: [Protocol]\nCollection: Registration forms for Jewish inhabitants of Kraków, Poland",
+        "31.  Rapaport, Mindla\nPrimary Media: You can request a digitized copy of the original document by submitting the Document Request Form.\nBirth date: 16 Apr 1906\nBirth place: Krzeszowice\nSource: [Protocol]\nCollection: Registration forms for Jewish inhabitants of Kraków, Poland"
+      ]
+    }
+  ]
+}

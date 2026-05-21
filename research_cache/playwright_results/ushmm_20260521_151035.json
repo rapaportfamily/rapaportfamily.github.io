@@ -1,0 +1,228 @@
+{
+  "site": "ushmm",
+  "timestamp": "20260521_151035",
+  "query": {
+    "queries": [
+      {
+        "lname": "Rapaport",
+        "fname": "",
+        "place_birth": "",
+        "src": "49944",
+        "acc": "broad"
+      },
+      {
+        "lname": "Weitzner",
+        "fname": "",
+        "place_birth": "",
+        "src": "49944",
+        "acc": "broad"
+      },
+      {
+        "lname": "Goldfischer",
+        "fname": "",
+        "place_birth": "",
+        "src": "49944",
+        "acc": "broad"
+      },
+      {
+        "lname": "Rapaport",
+        "fname": "David",
+        "place_birth": "Nadworna",
+        "src": "",
+        "acc": "broad"
+      },
+      {
+        "lname": "Rapaport",
+        "fname": "David",
+        "place_birth": "",
+        "src": "",
+        "acc": "broad"
+      },
+      {
+        "lname": "Rapaport",
+        "fname": "Berisz",
+        "place_birth": "",
+        "src": "",
+        "acc": "broad"
+      },
+      {
+        "lname": "Rapaport",
+        "fname": "Lota",
+        "place_birth": "",
+        "src": "",
+        "acc": "broad"
+      },
+      {
+        "lname": "Rapaport",
+        "fname": "Shimon",
+        "place_birth": "",
+        "src": "",
+        "acc": "broad"
+      },
+      {
+        "lname": "Weitzner",
+        "fname": "Lusia",
+        "place_birth": "",
+        "src": "",
+        "acc": "broad"
+      },
+      {
+        "lname": "Weitzner",
+        "fname": "Eli",
+        "place_birth": "",
+        "src": "",
+        "acc": "broad"
+      },
+      {
+        "lname": "Goldfischer",
+        "fname": "",
+        "place_birth": "Skole",
+        "src": "",
+        "acc": "broad"
+      }
+    ]
+  },
+  "result": [
+    {
+      "query": {
+        "lname": "Rapaport",
+        "fname": "",
+        "place_birth": "",
+        "src": "49944",
+        "acc": "broad"
+      },
+      "url": "https://www.ushmm.org/online/hsv/person_advance_search.php?NameSearch__lname=Rapaport&NameSearch__fname=&NameSearch__place_birth=&NameSearch__lname_accuracy=broad&NameSearch__fname_accuracy=broad&NameSearch__place_birth_accuracy=broad&NameSearch__SourceId=49944&NameSearch__sort=score&NameSearch__MaxPageDocs=50",
+      "match_header": null,
+      "result_blocks": []
+    },
+    {
+      "query": {
+        "lname": "Weitzner",
+        "fname": "",
+        "place_birth": "",
+        "src": "49944",
+        "acc": "broad"
+      },
+      "url": "https://www.ushmm.org/online/hsv/person_advance_search.php?NameSearch__lname=Weitzner&NameSearch__fname=&NameSearch__place_birth=&NameSearch__lname_accuracy=broad&NameSearch__fname_accuracy=broad&NameSearch__place_birth_accuracy=broad&NameSearch__SourceId=49944&NameSearch__sort=score&NameSearch__MaxPageDocs=50",
+      "match_header": null,
+      "result_blocks": []
+    },
+    {
+      "query": {
+        "lname": "Goldfischer",
+        "fname": "",
+        "place_birth": "",
+        "src": "49944",
+        "acc": "broad"
+      },
+      "url": "https://www.ushmm.org/online/hsv/person_advance_search.php?NameSearch__lname=Goldfischer&NameSearch__fname=&NameSearch__place_birth=&NameSearch__lname_accuracy=broad&NameSearch__fname_accuracy=broad&NameSearch__place_birth_accuracy=broad&NameSearch__SourceId=49944&NameSearch__sort=score&NameSearch__MaxPageDocs=50",
+      "match_header": null,
+      "result_blocks": []
+    },
+    {
+      "query": {
+        "lname": "Rapaport",
+        "fname": "David",
+        "place_birth": "Nadworna",
+        "src": "",
+        "acc": "broad"
+      },
+      "url": "https://www.ushmm.org/online/hsv/person_advance_search.php?NameSearch__lname=Rapaport&NameSearch__fname=David&NameSearch__place_birth=Nadworna&NameSearch__lname_accuracy=broad&NameSearch__fname_accuracy=broad&NameSearch__place_birth_accuracy=broad&NameSearch__SourceId=&NameSearch__sort=score&NameSearch__MaxPageDocs=50",
+      "match_header": null,
+      "result_blocks": []
+    },
+    {
+      "query": {
+        "lname": "Rapaport",
+        "fname": "David",
+        "place_birth": "",
+        "src": "",
+        "acc": "broad"
+      },
+      "url": "https://www.ushmm.org/online/hsv/person_advance_search.php?NameSearch__lname=Rapaport&NameSearch__fname=David&NameSearch__place_birth=&NameSearch__lname_accuracy=broad&NameSearch__fname_accuracy=broad&NameSearch__place_birth_accuracy=broad&NameSearch__SourceId=&NameSearch__sort=score&NameSearch__MaxPageDocs=50",
+      "match_header": "Displaying 1–13 of 13 matches for LAST NAME: RAPAPORT; ACCURACY: BROAD; FIRST NAME: DAVID; ACCURACY: BROAD",
+      "result_blocks": [
+        "1.  Rapaport, David\nMedia: You can request a digitized copy of the original document by submitting the Document Request Form.\nBirth date: 17 Jan 1898\nBirth place: Krakau\nOther name: Nathan Rapaport\nSource: List of Jews registered in the Register of Jews\nCollection: Jewish Register of Antwerp",
+        "2.  Rapaport, David\nPrimary Media: You can request a digitized copy of the original document by submitting the Document Request Form.\nBirth date: 1 Apr 1886\nSource: Transport Vienna 2\nCollection: The elders of the Jews in the Łódź ghetto",
+        "5. Rapaport, David\nBirth date: 1 Apr 1886\nSource: (Registration by Name:) Austrian Victims of the Holocaust\nCollection: [Holocaust Survivors and Victims Resource Center digital indices]",
+        "6. Rapaport, David\nBirth date: 5 Jan 1886\nSource: Law as crime\nCollection: [Holocaust Survivors and Victims Resource Center digital indices]",
+        "9. Rapaport, David (View the record on the Das Bundesarchiv Memorial Book’s website)\nBirth date: 26 Jan 1887\nBirth place: Lwow (dt. Lemberg), Galizien, Germany\nSource: Das Bundesarchiv Memorial Book",
+        "12.  Rapaport, Hermina\nMedia: You can request a digitized copy of the original document by submitting the Document Request Form.\nBirth date: 5 Apr 1895\nBirth place: Cusino, Czechoslovakia\nSource: [Documents related to passengers on the S.S. Tiger Hill]\nCollection: Illegal Immigration to Palestine (RG 17)"
+      ]
+    },
+    {
+      "query": {
+        "lname": "Rapaport",
+        "fname": "Berisz",
+        "place_birth": "",
+        "src": "",
+        "acc": "broad"
+      },
+      "url": "https://www.ushmm.org/online/hsv/person_advance_search.php?NameSearch__lname=Rapaport&NameSearch__fname=Berisz&NameSearch__place_birth=&NameSearch__lname_accuracy=broad&NameSearch__fname_accuracy=broad&NameSearch__place_birth_accuracy=broad&NameSearch__SourceId=&NameSearch__sort=score&NameSearch__MaxPageDocs=50",
+      "match_header": null,
+      "result_blocks": []
+    },
+    {
+      "query": {
+        "lname": "Rapaport",
+        "fname": "Lota",
+        "place_birth": "",
+        "src": "",
+        "acc": "broad"
+      },
+      "url": "https://www.ushmm.org/online/hsv/person_advance_search.php?NameSearch__lname=Rapaport&NameSearch__fname=Lota&NameSearch__place_birth=&NameSearch__lname_accuracy=broad&NameSearch__fname_accuracy=broad&NameSearch__place_birth_accuracy=broad&NameSearch__SourceId=&NameSearch__sort=score&NameSearch__MaxPageDocs=50",
+      "match_header": null,
+      "result_blocks": []
+    },
+    {
+      "query": {
+        "lname": "Rapaport",
+        "fname": "Shimon",
+        "place_birth": "",
+        "src": "",
+        "acc": "broad"
+      },
+      "url": "https://www.ushmm.org/online/hsv/person_advance_search.php?NameSearch__lname=Rapaport&NameSearch__fname=Shimon&NameSearch__place_birth=&NameSearch__lname_accuracy=broad&NameSearch__fname_accuracy=broad&NameSearch__place_birth_accuracy=broad&NameSearch__SourceId=&NameSearch__sort=score&NameSearch__MaxPageDocs=50",
+      "match_header": null,
+      "result_blocks": []
+    },
+    {
+      "query": {
+        "lname": "Weitzner",
+        "fname": "Lusia",
+        "place_birth": "",
+        "src": "",
+        "acc": "broad"
+      },
+      "url": "https://www.ushmm.org/online/hsv/person_advance_search.php?NameSearch__lname=Weitzner&NameSearch__fname=Lusia&NameSearch__place_birth=&NameSearch__lname_accuracy=broad&NameSearch__fname_accuracy=broad&NameSearch__place_birth_accuracy=broad&NameSearch__SourceId=&NameSearch__sort=score&NameSearch__MaxPageDocs=50",
+      "match_header": null,
+      "result_blocks": []
+    },
+    {
+      "query": {
+        "lname": "Weitzner",
+        "fname": "Eli",
+        "place_birth": "",
+        "src": "",
+        "acc": "broad"
+      },
+      "url": "https://www.ushmm.org/online/hsv/person_advance_search.php?NameSearch__lname=Weitzner&NameSearch__fname=Eli&NameSearch__place_birth=&NameSearch__lname_accuracy=broad&NameSearch__fname_accuracy=broad&NameSearch__place_birth_accuracy=broad&NameSearch__SourceId=&NameSearch__sort=score&NameSearch__MaxPageDocs=50",
+      "match_header": null,
+      "result_blocks": []
+    },
+    {
+      "query": {
+        "lname": "Goldfischer",
+        "fname": "",
+        "place_birth": "Skole",
+        "src": "",
+        "acc": "broad"
+      },
+      "url": "https://www.ushmm.org/online/hsv/person_advance_search.php?NameSearch__lname=Goldfischer&NameSearch__fname=&NameSearch__place_birth=Skole&NameSearch__lname_accuracy=broad&NameSearch__fname_accuracy=broad&NameSearch__place_birth_accuracy=broad&NameSearch__SourceId=&NameSearch__sort=score&NameSearch__MaxPageDocs=50",
+      "match_header": "Displaying 1–2 of 2 matches for LAST NAME: GOLDFISCHER; ACCURACY: BROAD; BIRTH PLACE: SKOLE; ACCURACY: BROAD",
+      "result_blocks": [
+        "2.  Goldfischer, Isak\nPrimary Media: You can request a digitized copy of the original document by submitting the Document Request Form.\nBirth date: 23 Apr 1927\nBirth place: Skole\nSource: Lvov Ghetto Database\nCollection: [Holocaust Survivors and Victims Resource Center digital indices]\nSHARE\nAbout the Museum\nPlan Your Visit\nCurrent Exhibitions\nCalendar of Events\nSupport the Museum\nDONATE\nResources\nLearn\nTeach\nCollections\nAcademic Research\nRemember Survivors and Victims\nGenocide Prevention\nAntisemitism and Holocaust Denial\nOutreach\nMuseum Websites\nHolocaust Encyclopedia\nCollections Search\nHoloca"
+      ]
+    }
+  ]
+}

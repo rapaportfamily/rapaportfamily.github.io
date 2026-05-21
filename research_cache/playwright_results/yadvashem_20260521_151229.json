@@ -1,0 +1,122 @@
+{
+  "site": "yadvashem",
+  "timestamp": "20260521_151229",
+  "query": {
+    "queries": [
+      [
+        "Berisz",
+        "Rapaport",
+        "Nadworna"
+      ],
+      [
+        "Rebeka",
+        "Griffel",
+        "Nadworna"
+      ],
+      [
+        "Rebeka",
+        "Rapaport",
+        "Nadworna"
+      ],
+      [
+        "Lota",
+        "Rapaport",
+        "Lwow"
+      ],
+      [
+        "Lotka",
+        "Rapaport",
+        "Lwow"
+      ],
+      [
+        "Eli",
+        "Weitzner",
+        "Bolechow"
+      ],
+      [
+        "Mathilde",
+        "Weinreb",
+        "Bolechow"
+      ]
+    ]
+  },
+  "result": [
+    {
+      "query": {
+        "first": "Berisz",
+        "last": "Rapaport",
+        "place": "Nadworna"
+      },
+      "url": "https://collections.yadvashem.org/en/names/search-results-names?page=1&gn_first_name=Berisz&gnt_first_name=yvSynonym&gn_last_name=Rapaport&gnt_last_name=yvSynonym&gn_place=Nadworna&gnt_place=yvSynonym",
+      "no_results": false,
+      "surname_mentions": 0,
+      "page_snippet": "Online Store\nContact us\nAbout us\nJoin us\nReserve a Visit\nDonate\n# Follow us\n Languages\nABOUT THE HOLOCAUST\nRESEARCH & COLLECTIONS\nCOMMEMORATION\nEDUCATION & E-LEARNING\nMUSEUMS & EXHIBITIONS\nRIGHTEOUS\nPLAN A VISIT\nHome > Collections > Names > Search Results\nShoah Names DB\nkeyboard_arrow_down\nFirst Name\nLast name or maiden name\nBirth/prewar/wartime place\nSearch\nAdvanced search\nClear all\nVictim Name\nLast Name\nSynonyms YV\nLiteral\nSoundex\nFirst Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nMaiden Name\nSynonyms YV\nLiteral\nSoundex\nDates\nYear of Birth\nExact\n+/-2\n+/-5\nYear of Death\nExact\n+/-2\n+/-5\nPlaces\nSearch by field\nSearch any location (not field-specific)\nPlace of Birth\nSynonyms YV\nLiteral\nSoundex\nBefore the War\nSynonyms YV\nLiteral\nSoundex\nDuring the War/Shoah\nSynonyms YV\nLiteral\nSoundex\nPlace of Death\nSynonyms YV\nLiteral\nSoundex\nFamily Members\nFather's First Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nMother's First Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nMother's Maiden Name\nSynonyms YV\nLiteral\nSoundex\nSpouse's First Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nSpouse's Last Name\nSynonyms YV\nLiteral\nSoundex\nSubmitter Details (For Pages of Testimony, Survivors' Forms, commemoration materials)\nSubmitter Last Name\nSynonyms YV\nLiteral\nSoundex\nSubmitter First Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nGlobal Search\n\nNote that the global search applies only to the field below, not together with other formatted fields\n\nGlobal Search\n\nSubmit\nClear\n\nRefine & Filter\nClear"
+    },
+    {
+      "query": {
+        "first": "Rebeka",
+        "last": "Griffel",
+        "place": "Nadworna"
+      },
+      "url": "https://collections.yadvashem.org/en/names/search-results-names?page=1&gn_first_name=Rebeka&gnt_first_name=yvSynonym&gn_last_name=Griffel&gnt_last_name=yvSynonym&gn_place=Nadworna&gnt_place=yvSynonym",
+      "no_results": false,
+      "surname_mentions": 0,
+      "page_snippet": "Online Store\nContact us\nAbout us\nJoin us\nReserve a Visit\nDonate\n# Follow us\n Languages\nABOUT THE HOLOCAUST\nRESEARCH & COLLECTIONS\nCOMMEMORATION\nEDUCATION & E-LEARNING\nMUSEUMS & EXHIBITIONS\nRIGHTEOUS\nPLAN A VISIT\nHome > Collections > Names > Search Results\nShoah Names DB\nkeyboard_arrow_down\nFirst Name\nLast name or maiden name\nBirth/prewar/wartime place\nSearch\nAdvanced search\nClear all\nVictim Name\nLast Name\nSynonyms YV\nLiteral\nSoundex\nFirst Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nMaiden Name\nSynonyms YV\nLiteral\nSoundex\nDates\nYear of Birth\nExact\n+/-2\n+/-5\nYear of Death\nExact\n+/-2\n+/-5\nPlaces\nSearch by field\nSearch any location (not field-specific)\nPlace of Birth\nSynonyms YV\nLiteral\nSoundex\nBefore the War\nSynonyms YV\nLiteral\nSoundex\nDuring the War/Shoah\nSynonyms YV\nLiteral\nSoundex\nPlace of Death\nSynonyms YV\nLiteral\nSoundex\nFamily Members\nFather's First Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nMother's First Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nMother's Maiden Name\nSynonyms YV\nLiteral\nSoundex\nSpouse's First Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nSpouse's Last Name\nSynonyms YV\nLiteral\nSoundex\nSubmitter Details (For Pages of Testimony, Survivors' Forms, commemoration materials)\nSubmitter Last Name\nSynonyms YV\nLiteral\nSoundex\nSubmitter First Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nGlobal Search\n\nNote that the global search applies only to the field below, not together with other formatted fields\n\nGlobal Search\n\nSubmit\nClear\n\nRefine & Filter\nClear"
+    },
+    {
+      "query": {
+        "first": "Rebeka",
+        "last": "Rapaport",
+        "place": "Nadworna"
+      },
+      "url": "https://collections.yadvashem.org/en/names/search-results-names?page=1&gn_first_name=Rebeka&gnt_first_name=yvSynonym&gn_last_name=Rapaport&gnt_last_name=yvSynonym&gn_place=Nadworna&gnt_place=yvSynonym",
+      "no_results": false,
+      "surname_mentions": 1,
+      "page_snippet": "Online Store\nContact us\nAbout us\nJoin us\nReserve a Visit\nDonate\n# Follow us\n Languages\nABOUT THE HOLOCAUST\nRESEARCH & COLLECTIONS\nCOMMEMORATION\nEDUCATION & E-LEARNING\nMUSEUMS & EXHIBITIONS\nRIGHTEOUS\nPLAN A VISIT\nHome > Collections > Names > Search Results\nShoah Names DB\nkeyboard_arrow_down\nFirst Name\nLast name or maiden name\nBirth/prewar/wartime place\nSearch\nAdvanced search\nClear all\nVictim Name\nLast Name\nSynonyms YV\nLiteral\nSoundex\nFirst Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nMaiden Name\nSynonyms YV\nLiteral\nSoundex\nDates\nYear of Birth\nExact\n+/-2\n+/-5\nYear of Death\nExact\n+/-2\n+/-5\nPlaces\nSearch by field\nSearch any location (not field-specific)\nPlace of Birth\nSynonyms YV\nLiteral\nSoundex\nBefore the War\nSynonyms YV\nLiteral\nSoundex\nDuring the War/Shoah\nSynonyms YV\nLiteral\nSoundex\nPlace of Death\nSynonyms YV\nLiteral\nSoundex\nFamily Members\nFather's First Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nMother's First Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nMother's Maiden Name\nSynonyms YV\nLiteral\nSoundex\nSpouse's First Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nSpouse's Last Name\nSynonyms YV\nLiteral\nSoundex\nSubmitter Details (For Pages of Testimony, Survivors' Forms, commemoration materials)\nSubmitter Last Name\nSynonyms YV\nLiteral\nSoundex\nSubmitter First Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nGlobal Search\n\nNote that the global search applies only to the field below, not together with other formatted fields\n\nGlobal Search\n\nSubmit\nClear\n\nRefine & Filter\nClear"
+    },
+    {
+      "query": {
+        "first": "Lota",
+        "last": "Rapaport",
+        "place": "Lwow"
+      },
+      "url": "https://collections.yadvashem.org/en/names/search-results-names?page=1&gn_first_name=Lota&gnt_first_name=yvSynonym&gn_last_name=Rapaport&gnt_last_name=yvSynonym&gn_place=Lwow&gnt_place=yvSynonym",
+      "no_results": false,
+      "surname_mentions": 0,
+      "page_snippet": "Online Store\nContact us\nAbout us\nJoin us\nReserve a Visit\nDonate\n# Follow us\n Languages\nABOUT THE HOLOCAUST\nRESEARCH & COLLECTIONS\nCOMMEMORATION\nEDUCATION & E-LEARNING\nMUSEUMS & EXHIBITIONS\nRIGHTEOUS\nPLAN A VISIT\nHome > Collections > Names > Search Results\nShoah Names DB\nkeyboard_arrow_down\nFirst Name\nLast name or maiden name\nBirth/prewar/wartime place\nSearch\nAdvanced search\nClear all\nVictim Name\nLast Name\nSynonyms YV\nLiteral\nSoundex\nFirst Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nMaiden Name\nSynonyms YV\nLiteral\nSoundex\nDates\nYear of Birth\nExact\n+/-2\n+/-5\nYear of Death\nExact\n+/-2\n+/-5\nPlaces\nSearch by field\nSearch any location (not field-specific)\nPlace of Birth\nSynonyms YV\nLiteral\nSoundex\nBefore the War\nSynonyms YV\nLiteral\nSoundex\nDuring the War/Shoah\nSynonyms YV\nLiteral\nSoundex\nPlace of Death\nSynonyms YV\nLiteral\nSoundex\nFamily Members\nFather's First Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nMother's First Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nMother's Maiden Name\nSynonyms YV\nLiteral\nSoundex\nSpouse's First Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nSpouse's Last Name\nSynonyms YV\nLiteral\nSoundex\nSubmitter Details (For Pages of Testimony, Survivors' Forms, commemoration materials)\nSubmitter Last Name\nSynonyms YV\nLiteral\nSoundex\nSubmitter First Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nGlobal Search\n\nNote that the global search applies only to the field below, not together with other formatted fields\n\nGlobal Search\n\nSubmit\nClear\n\nRefine & Filter\nClear"
+    },
+    {
+      "query": {
+        "first": "Lotka",
+        "last": "Rapaport",
+        "place": "Lwow"
+      },
+      "url": "https://collections.yadvashem.org/en/names/search-results-names?page=1&gn_first_name=Lotka&gnt_first_name=yvSynonym&gn_last_name=Rapaport&gnt_last_name=yvSynonym&gn_place=Lwow&gnt_place=yvSynonym",
+      "no_results": false,
+      "surname_mentions": 0,
+      "page_snippet": "Online Store\nContact us\nAbout us\nJoin us\nReserve a Visit\nDonate\n# Follow us\n Languages\nABOUT THE HOLOCAUST\nRESEARCH & COLLECTIONS\nCOMMEMORATION\nEDUCATION & E-LEARNING\nMUSEUMS & EXHIBITIONS\nRIGHTEOUS\nPLAN A VISIT\nHome > Collections > Names > Search Results\nShoah Names DB\nkeyboard_arrow_down\nFirst Name\nLast name or maiden name\nBirth/prewar/wartime place\nSearch\nAdvanced search\nClear all\nVictim Name\nLast Name\nSynonyms YV\nLiteral\nSoundex\nFirst Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nMaiden Name\nSynonyms YV\nLiteral\nSoundex\nDates\nYear of Birth\nExact\n+/-2\n+/-5\nYear of Death\nExact\n+/-2\n+/-5\nPlaces\nSearch by field\nSearch any location (not field-specific)\nPlace of Birth\nSynonyms YV\nLiteral\nSoundex\nBefore the War\nSynonyms YV\nLiteral\nSoundex\nDuring the War/Shoah\nSynonyms YV\nLiteral\nSoundex\nPlace of Death\nSynonyms YV\nLiteral\nSoundex\nFamily Members\nFather's First Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nMother's First Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nMother's Maiden Name\nSynonyms YV\nLiteral\nSoundex\nSpouse's First Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nSpouse's Last Name\nSynonyms YV\nLiteral\nSoundex\nSubmitter Details (For Pages of Testimony, Survivors' Forms, commemoration materials)\nSubmitter Last Name\nSynonyms YV\nLiteral\nSoundex\nSubmitter First Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nGlobal Search\n\nNote that the global search applies only to the field below, not together with other formatted fields\n\nGlobal Search\n\nSubmit\nClear\n\nRefine & Filter\nClear"
+    },
+    {
+      "query": {
+        "first": "Eli",
+        "last": "Weitzner",
+        "place": "Bolechow"
+      },
+      "url": "https://collections.yadvashem.org/en/names/search-results-names?page=1&gn_first_name=Eli&gnt_first_name=yvSynonym&gn_last_name=Weitzner&gnt_last_name=yvSynonym&gn_place=Bolechow&gnt_place=yvSynonym",
+      "no_results": false,
+      "surname_mentions": 0,
+      "page_snippet": "Online Store\nContact us\nAbout us\nJoin us\nReserve a Visit\nDonate\n# Follow us\n Languages\nABOUT THE HOLOCAUST\nRESEARCH & COLLECTIONS\nCOMMEMORATION\nEDUCATION & E-LEARNING\nMUSEUMS & EXHIBITIONS\nRIGHTEOUS\nPLAN A VISIT\nHome > Collections > Names > Search Results\nShoah Names DB\nkeyboard_arrow_down\nFirst Name\nLast name or maiden name\nBirth/prewar/wartime place\nSearch\nAdvanced search\nClear all\nVictim Name\nLast Name\nSynonyms YV\nLiteral\nSoundex\nFirst Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nMaiden Name\nSynonyms YV\nLiteral\nSoundex\nDates\nYear of Birth\nExact\n+/-2\n+/-5\nYear of Death\nExact\n+/-2\n+/-5\nPlaces\nSearch by field\nSearch any location (not field-specific)\nPlace of Birth\nSynonyms YV\nLiteral\nSoundex\nBefore the War\nSynonyms YV\nLiteral\nSoundex\nDuring the War/Shoah\nSynonyms YV\nLiteral\nSoundex\nPlace of Death\nSynonyms YV\nLiteral\nSoundex\nFamily Members\nFather's First Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nMother's First Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nMother's Maiden Name\nSynonyms YV\nLiteral\nSoundex\nSpouse's First Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nSpouse's Last Name\nSynonyms YV\nLiteral\nSoundex\nSubmitter Details (For Pages of Testimony, Survivors' Forms, commemoration materials)\nSubmitter Last Name\nSynonyms YV\nLiteral\nSoundex\nSubmitter First Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nGlobal Search\n\nNote that the global search applies only to the field below, not together with other formatted fields\n\nGlobal Search\n\nSubmit\nClear\n\nRefine & Filter\nClear"
+    },
+    {
+      "query": {
+        "first": "Mathilde",
+        "last": "Weinreb",
+        "place": "Bolechow"
+      },
+      "url": "https://collections.yadvashem.org/en/names/search-results-names?page=1&gn_first_name=Mathilde&gnt_first_name=yvSynonym&gn_last_name=Weinreb&gnt_last_name=yvSynonym&gn_place=Bolechow&gnt_place=yvSynonym",
+      "no_results": false,
+      "surname_mentions": 0,
+      "page_snippet": "Online Store\nContact us\nAbout us\nJoin us\nReserve a Visit\nDonate\n# Follow us\n Languages\nABOUT THE HOLOCAUST\nRESEARCH & COLLECTIONS\nCOMMEMORATION\nEDUCATION & E-LEARNING\nMUSEUMS & EXHIBITIONS\nRIGHTEOUS\nPLAN A VISIT\nHome > Collections > Names > Search Results\nShoah Names DB\nkeyboard_arrow_down\nFirst Name\nLast name or maiden name\nBirth/prewar/wartime place\nSearch\nAdvanced search\nClear all\nVictim Name\nLast Name\nSynonyms YV\nLiteral\nSoundex\nFirst Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nMaiden Name\nSynonyms YV\nLiteral\nSoundex\nDates\nYear of Birth\nExact\n+/-2\n+/-5\nYear of Death\nExact\n+/-2\n+/-5\nPlaces\nSearch by field\nSearch any location (not field-specific)\nPlace of Birth\nSynonyms YV\nLiteral\nSoundex\nBefore the War\nSynonyms YV\nLiteral\nSoundex\nDuring the War/Shoah\nSynonyms YV\nLiteral\nSoundex\nPlace of Death\nSynonyms YV\nLiteral\nSoundex\nFamily Members\nFather's First Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nMother's First Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nMother's Maiden Name\nSynonyms YV\nLiteral\nSoundex\nSpouse's First Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nSpouse's Last Name\nSynonyms YV\nLiteral\nSoundex\nSubmitter Details (For Pages of Testimony, Survivors' Forms, commemoration materials)\nSubmitter Last Name\nSynonyms YV\nLiteral\nSoundex\nSubmitter First Name\nSynonyms YV\nLiteral\nSoundex\nRelated Names\nGlobal Search\n\nNote that the global search applies only to the field below, not together with other formatted fields\n\nGlobal Search\n\nSubmit\nClear\n\nRefine & Filter\nClear"
+    }
+  ]
+}
