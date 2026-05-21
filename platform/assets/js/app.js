@@ -1057,6 +1057,23 @@ function renderResearch(root, param) {
           </figure>
         `;
       }).join('');
+      let mapBlock = '';
+      if (c.map && c.map.coords) {
+        const [lat, lng] = c.map.coords;
+        const mapsLabel = lang === 'he' ? 'מפת גוגל' : 'Google Maps';
+        const svLabel   = lang === 'he' ? 'תצוגת רחוב' : 'Street View';
+        const placeLabel = c.map.label || `${lat}, ${lng}`;
+        mapBlock = `
+          <div class="rc-map">
+            <div class="rc-map-actions">
+              <a href="${escapeHtml(c.map.google_maps)}" target="_blank" rel="noopener" class="rc-map-btn">📍 ${escapeHtml(mapsLabel)}</a>
+              <a href="${escapeHtml(c.map.street_view)}" target="_blank" rel="noopener" class="rc-map-btn">🚶 ${escapeHtml(svLabel)}</a>
+              <span class="rc-map-coords">${escapeHtml(placeLabel)} <span class="rc-credit">(${lat.toFixed(4)}, ${lng.toFixed(4)})</span></span>
+            </div>
+            <iframe class="rc-map-iframe" src="${escapeHtml(c.map.osm_embed)}" loading="lazy" referrerpolicy="no-referrer"></iframe>
+          </div>
+        `;
+      }
       html += `
         <details class="rc-card" data-card="${escapeHtml(c.id)}">
           <summary>
@@ -1071,6 +1088,7 @@ function renderResearch(root, param) {
             ${sourceLine}
             ${ctxLine}
             ${imageGallery ? `<div class="rc-images">${imageGallery}</div>` : ''}
+            ${mapBlock}
             ${links ? `<div class="rc-links">${links}</div>` : ''}
           </div>
         </details>

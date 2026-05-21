@@ -299,7 +299,17 @@
           "urls": [
             "https://en.wikipedia.org/wiki/Nadvirna",
             "https://www.jewishgen.org/yizkor/pinkas_poland/pol2_00328.html"
-          ]
+          ],
+          "map": {
+            "coords": [
+              48.6378,
+              24.5708
+            ],
+            "label": "Nadvirna, Ukraine",
+            "google_maps": "https://www.google.com/maps/search/?api=1&query=48.6378,24.5708",
+            "street_view": "https://www.google.com/maps/@48.6378,24.5708,3a,75y,180h,90t/data=!3m1!1e3",
+            "osm_embed": "https://www.openstreetmap.org/export/embed.html?bbox=24.560799999999997,48.6278,24.5808,48.6478&layer=mapnik&marker=48.6378,24.5708"
+          }
         },
         {
           "id": "trip_bolechow",
@@ -358,7 +368,17 @@
           "urls": [
             "https://en.wikipedia.org/wiki/Bolekhiv",
             "https://www.jewishgen.org/Yizkor/Bolekhov/bol278.html"
-          ]
+          ],
+          "map": {
+            "coords": [
+              49.0658,
+              23.8531
+            ],
+            "label": "Bolekhiv, Ukraine",
+            "google_maps": "https://www.google.com/maps/search/?api=1&query=49.0658,23.8531",
+            "street_view": "https://www.google.com/maps/@49.0658,23.8531,3a,75y,180h,90t/data=!3m1!1e3",
+            "osm_embed": "https://www.openstreetmap.org/export/embed.html?bbox=23.8431,49.055800000000005,23.863100000000003,49.0758&layer=mapnik&marker=49.0658,23.8531"
+          }
         },
         {
           "id": "trip_skole",
@@ -374,7 +394,17 @@
               "caption_en": "Stryj — regional centre near Skole, the birthplace of S. Goldfischer (1909). Same Carpathian-foothills world as Bolechów + Nadwórna.",
               "credit": "Wikipedia Commons"
             }
-          ]
+          ],
+          "map": {
+            "coords": [
+              49.0367,
+              23.5108
+            ],
+            "label": "Skole, Ukraine",
+            "google_maps": "https://www.google.com/maps/search/?api=1&query=49.0367,23.5108",
+            "street_view": "https://www.google.com/maps/@49.0367,23.5108,3a,75y,180h,90t/data=!3m1!1e3",
+            "osm_embed": "https://www.openstreetmap.org/export/embed.html?bbox=23.500799999999998,49.026700000000005,23.5208,49.0467&layer=mapnik&marker=49.0367,23.5108"
+          }
         },
         {
           "id": "trip_muszyna",
@@ -433,7 +463,17 @@
           "urls": [
             "https://sztetl.org.pl/en/towns/m/1209-muszyna",
             "http://www.almanachmuszyny.pl/spisy/1998/AM1998_05_zydowski_pensjonat_bristol_w_muszynie.pdf"
-          ]
+          ],
+          "map": {
+            "coords": [
+              49.3528,
+              20.905
+            ],
+            "label": "Muszyna, Poland",
+            "google_maps": "https://www.google.com/maps/search/?api=1&query=49.3528,20.905",
+            "street_view": "https://www.google.com/maps/@49.3528,20.905,3a,75y,180h,90t/data=!3m1!1e3",
+            "osm_embed": "https://www.openstreetmap.org/export/embed.html?bbox=20.895,49.342800000000004,20.915000000000003,49.3628&layer=mapnik&marker=49.3528,20.905"
+          }
         },
         {
           "id": "trip_nadworna_ghetto",
@@ -447,7 +487,17 @@
               "caption_en": "Nadvirna today — the wartime sawmill site is now built over.",
               "credit": "Wikipedia Commons"
             }
-          ]
+          ],
+          "map": {
+            "coords": [
+              48.6378,
+              24.5708
+            ],
+            "label": "Nadvirna, Ukraine",
+            "google_maps": "https://www.google.com/maps/search/?api=1&query=48.6378,24.5708",
+            "street_view": "https://www.google.com/maps/@48.6378,24.5708,3a,75y,180h,90t/data=!3m1!1e3",
+            "osm_embed": "https://www.openstreetmap.org/export/embed.html?bbox=24.560799999999997,48.6278,24.5808,48.6478&layer=mapnik&marker=48.6378,24.5708"
+          }
         },
         {
           "id": "trip_lwow_legionow",
@@ -468,7 +518,17 @@
               "caption_en": "The Lviv Opera House (Lviv Theatre of Opera and Ballet, Svobody 28) — DIRECTLY UP THE STREET from Lusia's apartment at Legionów 24. During the Nazi occupation 1941-44 the Opera served as 'Operntheater Lemberg', Wehrmacht entertainment HQ.",
               "credit": "Wikipedia Commons (CC-BY-SA)"
             }
-          ]
+          ],
+          "map": {
+            "coords": [
+              49.8419,
+              24.0259
+            ],
+            "label": "Prospekt Svobody 24, Lviv, Ukraine",
+            "google_maps": "https://www.google.com/maps/search/?api=1&query=49.8419,24.0259",
+            "street_view": "https://www.google.com/maps/@49.8419,24.0259,3a,75y,180h,90t/data=!3m1!1e3",
+            "osm_embed": "https://www.openstreetmap.org/export/embed.html?bbox=24.0159,49.831900000000005,24.0359,49.8519&layer=mapnik&marker=49.8419,24.0259"
+          }
         },
         {
           "id": "trip_lwow_rynek_shop",
@@ -483,7 +543,17 @@
               "caption_en": "Lviv Rynek Square (Площа Ринок) — the UNESCO-listed medieval merchant square. Lusia worked as manager of an art-objects shop in this commercial complex during 1943-1944.",
               "credit": "Wikipedia Commons (CC-BY-SA)"
             }
-          ]
+          ],
+          "map": {
+            "coords": [
+              49.8419,
+              24.0316
+            ],
+            "label": "Rynok Square, Lviv, Ukraine",
+            "google_maps": "https://www.google.com/maps/search/?api=1&query=49.8419,24.0316",
+            "street_view": "https://www.google.com/maps/@49.8419,24.0316,3a,75y,180h,90t/data=!3m1!1e3",
+            "osm_embed": "https://www.openstreetmap.org/export/embed.html?bbox=24.0216,49.831900000000005,24.041600000000003,49.8519&layer=mapnik&marker=49.8419,24.0316"
+          }
         },
         {
           "id": "trip_brussels_1946",
@@ -498,7 +568,17 @@
               "caption_en": "Brussels Grand-Place — central Brussels square. David, Lusia and Shimon transited Brussels in April 1946; their son Dov 'Bernard' (Doron's father) was born here later that year.",
               "credit": "Wikipedia Commons (CC-BY-SA)"
             }
-          ]
+          ],
+          "map": {
+            "coords": [
+              50.8467,
+              4.3525
+            ],
+            "label": "Grand-Place, Brussels, Belgium",
+            "google_maps": "https://www.google.com/maps/search/?api=1&query=50.8467,4.3525",
+            "street_view": "https://www.google.com/maps/@50.8467,4.3525,3a,75y,180h,90t/data=!3m1!1e3",
+            "osm_embed": "https://www.openstreetmap.org/export/embed.html?bbox=4.3425,50.8367,4.3625,50.8567&layer=mapnik&marker=50.8467,4.3525"
+          }
         },
         {
           "id": "trip_sete_theodor_herzl",
@@ -516,7 +596,17 @@
               "caption_en": "The French port of Sète — where the Theodor Herzl sailed from on 2 April 1947 with 2,641 Holocaust-survivor Ma'apilim including David, Lusia, Shimon and infant Dov.",
               "credit": "Wikipedia Commons (CC-BY-SA)"
             }
-          ]
+          ],
+          "map": {
+            "coords": [
+              43.4045,
+              3.6963
+            ],
+            "label": "Port of Sète, France",
+            "google_maps": "https://www.google.com/maps/search/?api=1&query=43.4045,3.6963",
+            "street_view": "https://www.google.com/maps/@43.4045,3.6963,3a,75y,180h,90t/data=!3m1!1e3",
+            "osm_embed": "https://www.openstreetmap.org/export/embed.html?bbox=3.6863,43.3945,3.7062999999999997,43.4145&layer=mapnik&marker=43.4045,3.6963"
+          }
         },
         {
           "id": "trip_cyprus_karaolos",
@@ -534,7 +624,17 @@
               "caption_en": "Cyprus internment camps map — held 53,510 Jews from 1946-1949. The Rapaport family was at Karaolos (near Famagusta) ~8 months.",
               "credit": "Wikipedia Commons"
             }
-          ]
+          ],
+          "map": {
+            "coords": [
+              35.1265,
+              33.943
+            ],
+            "label": "Karaolos camp area, Famagusta, Cyprus",
+            "google_maps": "https://www.google.com/maps/search/?api=1&query=35.1265,33.943",
+            "street_view": "https://www.google.com/maps/@35.1265,33.943,3a,75y,180h,90t/data=!3m1!1e3",
+            "osm_embed": "https://www.openstreetmap.org/export/embed.html?bbox=33.933,35.1165,33.952999999999996,35.1365&layer=mapnik&marker=35.1265,33.943"
+          }
         },
         {
           "id": "trip_atlit",
@@ -551,7 +651,17 @@
               "caption_en": "Atlit detainee camp, British Mandate Palestine — where Shimon Rapaport was held (per memoir p.65 his release document came from Atlit).",
               "credit": "Wikipedia Commons (CC-BY-SA)"
             }
-          ]
+          ],
+          "map": {
+            "coords": [
+              32.7264,
+              34.9389
+            ],
+            "label": "Atlit Detainee Camp Heritage Site, Israel",
+            "google_maps": "https://www.google.com/maps/search/?api=1&query=32.7264,34.9389",
+            "street_view": "https://www.google.com/maps/@32.7264,34.9389,3a,75y,180h,90t/data=!3m1!1e3",
+            "osm_embed": "https://www.openstreetmap.org/export/embed.html?bbox=34.9289,32.7164,34.948899999999995,32.736399999999996&layer=mapnik&marker=32.7264,34.9389"
+          }
         },
         {
           "id": "trip_haifa_moriah",
@@ -574,7 +684,17 @@
               "caption_en": "Haifa today, viewed from the Carmel ridge.",
               "credit": "Wikipedia Commons (CC-BY-SA)"
             }
-          ]
+          ],
+          "map": {
+            "coords": [
+              32.805,
+              34.9889
+            ],
+            "label": "Moriah Street 93, Haifa, Israel",
+            "google_maps": "https://www.google.com/maps/search/?api=1&query=32.805,34.9889",
+            "street_view": "https://www.google.com/maps/@32.805,34.9889,3a,75y,180h,90t/data=!3m1!1e3",
+            "osm_embed": "https://www.openstreetmap.org/export/embed.html?bbox=34.9789,32.795,34.9989,32.815&layer=mapnik&marker=32.805,34.9889"
+          }
         },
         {
           "id": "trip_haifa_sde_yehoshua",
@@ -596,7 +716,17 @@
               "caption_en": "Sde Yehoshua cemetery (formerly Kfar Samir) sits on Haifa's Carmel ridge. David's grave 102ד and Lusia's adjacent grave 102ג are in Section ו, Row 22.",
               "credit": "Wikipedia Commons"
             }
-          ]
+          ],
+          "map": {
+            "coords": [
+              32.805,
+              35.0181
+            ],
+            "label": "Sde Yehoshua Cemetery, Haifa, Israel",
+            "google_maps": "https://www.google.com/maps/search/?api=1&query=32.805,35.0181",
+            "street_view": "https://www.google.com/maps/@32.805,35.0181,3a,75y,180h,90t/data=!3m1!1e3",
+            "osm_embed": "https://www.openstreetmap.org/export/embed.html?bbox=35.0081,32.795,35.028099999999995,32.815&layer=mapnik&marker=32.805,35.0181"
+          }
         }
       ]
     },
@@ -1365,5 +1495,5 @@
       ]
     }
   ],
-  "build_version": "2026-05-21-T6-trip-photos-embedded"
+  "build_version": "2026-05-21-T7-maps-streetview-embeds"
 }
