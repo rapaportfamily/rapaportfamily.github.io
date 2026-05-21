@@ -88,6 +88,39 @@
           "urls": [
             "https://www.wikitree.com/wiki/Glesinger-15"
           ]
+        },
+        {
+          "id": "eric_griffel_adst_oral_history",
+          "title_en": "📜 Eric Griffel ADST Oral History (2015) confirms Griffel-Nadwórna timber dynasty",
+          "title_he": "📜 היסטוריה בעל-פה של אריק גריפל (2015) — מאשרת את שושלת העץ של משפחת גריפל מנדבורנה",
+          "status": "confirmed",
+          "summary_en": "Eric Griffel (1930 Krakow – 2020 Rockville MD), David Memek Rapaport's first cousin, gave a 205-page oral history to ADST (Association for Diplomatic Studies and Training) in 2015. He directly confirms: (a) his father Zygmunt Griffel was born near Nadwórna and is buried on Staten Island in the Nadwórna Jewish émigré community organization plot; (b) Zygmunt's timber business — developing tracts of forest and exporting product mainly to England; (c) his uncle Edward Griffel set up business in England before WWII; (d) Eric's mother Maryla née Susser was from a Krakow rabbinical-banking-jewelry family. Holocaust loss anchor: 'Maryla's mother and sister were shot by the Nazis in our apartment in Lwów.' Post-war Polish Government claims: 'three houses in Krakow and an interest in a bank on the central square in Krakow.' Zygmunt also had German reparation claims for 'confiscation of specialized timber in Poland.'",
+          "source": "Eric Griffel, ADST Oral History 'A Non-Forgiving Life', 2015. PDF cached locally at docs/research/family_documents/eric_griffel_adst_oral_history_2015.pdf",
+          "urls": [
+            "https://adst.org/OH%20TOCs/Griffel.Eric.pdf"
+          ]
+        },
+        {
+          "id": "achwa_beitar_hachshara",
+          "title_en": "🏕️ The Nadwórna Beitar hachshara was called 'Kibbutz Achwa' (אחווה / fraternity)",
+          "title_he": "🏕️ הכשרת בית\"ר הראשונה בפולין נקראה 'קיבוץ אחווה' בנדבורנה",
+          "status": "confirmed",
+          "summary_en": "Yad Vashem photo archive 9933470 — a 1936 photograph of Leksio Hoffmann at 'Achwa' Hachshara Kibbutz in Nadwórna — confirms the kibbutz name. Dedication on back: 'as eternal souvenir from our short stay in the Kibbutz, from me, Leksio Hoffmann, Nadworna, August 9, 1936.' The 1929-founded first Polish Beitar hachshara was still operating in August 1936 as 'Kibbutz Achwa'. David Rapaport was 17-18 in 1929 (founding year) and 24-25 in 1936 — very likely appears in any Achwa group photograph.",
+          "source": "Yad Vashem photo archive 9933470",
+          "urls": [
+            "https://collections.yadvashem.org/en/photos/9933470"
+          ]
+        },
+        {
+          "id": "theodor_herzl_voyage_details",
+          "title_en": "🚢 Theodor Herzl voyage details — Sète 2 April 1947, 2,641 passengers, 3 killed",
+          "status": "confirmed",
+          "summary_en": "Confirmed via Palmach/Palyam ship history: Sailed from Sète, France, on 2 April 1947 carrying 2,641 Ma'apilim drawn from camps in France and Belgium. Commander Mecca Limon; officers Yosh Halvei, Betzalel 'Tzolo' Feldman, Chaim Wineshelboim; Gideoni Nachman 'Bob' Burstein. Intercepted 13 April 1947 by HMS Haydon and HMS St Brides Bay. Three Ma'apilim killed by British gunfire: Aharon Dov, Pinchas Weiss, Menachem Samet. 27 wounded. Passengers sent to Cyprus detention camps (Karaolos near Famagusta) for 8 months. Note: William Bernstein, sometimes confused with the Herzl, was killed on the SS Exodus — NOT the Theodor Herzl.",
+          "quote_en": "On 13 April 1947, the Theodor Herzl (2,641 passengers) was intercepted by HMS Haydon and HMS St Brides Bay. Passengers resisted heavily; three were killed and 27 were injured.",
+          "source": "Palmach/Palyam — 'The Voyage of the Theodor Herzl'",
+          "urls": [
+            "https://www.palyam.org/English/Hahapala/hf/hf_Theodor_Herzl.pdf"
+          ]
         }
       ]
     },
@@ -361,6 +394,58 @@
       ]
     },
     {
+      "id": "wahl_katzenellenbogen",
+      "title_en": "👑 Wahl-Katzenellenbogen Ancestry (via Chawa Wahl)",
+      "title_he": "👑 שושלת ואהל-קצנלנבוגן (דרך חוה ואהל)",
+      "intro_en": "Through the Griffel-Wahl marriage (David Mendel Griffel + Chawa Wahl ~1896), the documented Katzenellenbogen rabbinical dynasty of Padua-Venice entered the family tree. Chawa Wahl (1877-1941, perished Holocaust Nadwórna) was a direct descendant of Saul Wahl Katzenellenbogen (1541-1617) — the Polish-Jewish merchant whom legend remembers as 'King of Poland for one night' between Stefan Báthory's death and Sigismund III Vasa's election. This connection runs through the cousin line (Edward Gelles, Steven Lamm, Andrew Griffel, the Nirs, Pinhas Heyn, Boruch Griffel etc.) — all carry both the Chajes pedigree (David Memek's maternal grandmother) and Wahl-Katzenellenbogen pedigree (David Mendel Griffel's wife Chawa).",
+      "cards": [
+        {
+          "id": "saul_wahl_king_for_a_night",
+          "title_en": "Saul Wahl Katzenellenbogen (1541-1617) — 'King of Poland for one night'",
+          "status": "confirmed",
+          "summary_en": "Polish-Jewish merchant. Married Deborah Rivkah Drucker (a relative of Moses Isserles). According to Jewish legend served as 'rex pro tempore' of Poland on 18 August 1587 between Stefan Báthory's death and Sigismund III Vasa's election. Some traditions say he ruled one night only; others a few days. The surname 'Wahl' comes from German 'wahl' = 'election'. 13 children. Y-DNA-confirmed ancestor of multiple modern descendants including Edward Gelles.",
+          "source": "Wikipedia + Jewish Encyclopedia + Edward Gelles 'WAHL of Tarnobrzeg' (Balliol)",
+          "urls": [
+            "https://en.wikipedia.org/wiki/Saul_Wahl",
+            "https://www.jewishencyclopedia.com/articles/14751-wahl-saul",
+            "https://encyclopedia.yivo.org/article.aspx/Wahl_Shaul"
+          ]
+        },
+        {
+          "id": "katzenellenbogen_padua_venice",
+          "title_en": "The Katzenellenbogen Padua-Venice dynasty (1482-1597)",
+          "status": "confirmed",
+          "summary_en": "R. Meir Katzenellenbogen 'MaHaRaM Padua' (c.1482-1565) — Chief Rabbi of Padua; mother Julia-Malka Luria descended from Rashi via daughter Miriam; married Hannah granddaughter of Judah Minz. His son R. Samuel Judah Katzenellenbogen (1521-1597) became Chief Rabbi of Venice. Samuel's son was Saul Wahl. Three documented generations of Italian rabbinical leadership before the family moved into Polish-Lithuanian Jewry.",
+          "source": "Wikipedia + Jewish Encyclopedia",
+          "urls": [
+            "https://en.wikipedia.org/wiki/Meir_Katzenellenbogen",
+            "https://en.wikipedia.org/wiki/Samuel_Judah_Katzenellenbogen"
+          ]
+        },
+        {
+          "id": "tarnobrzeg_wahl_to_chawa",
+          "title_en": "Tarnobrzeg Wahls → Shulim Wahl → Chawa Wahl Griffel (1877-1941)",
+          "status": "confirmed",
+          "summary_en": "The chain from Meir Wahl 'MaHaRaSH' (c.1565-1631, ABD Brest, m. Hinde Horowitz of Cracow) down through 17th-19th-century Galician Wahl/Wohl families in Cracow + Tarnobrzeg → Shulim Wahl + Sarah Safier of Tarnobrzeg → Chawa Wahl (1877-1941) who married David Mendel Griffel of Nadwórna in ~1896. Children: Zygmunt (1897-1951), Regina (1900-1954, mother of Edward Gelles), Edward (1904-1959). Documented by Edward Gelles in 'WAHL of Tarnobrzeg and WOHL of Cracow' (Balliol).",
+          "source": "Edward Gelles, 'WAHL of Tarnobrzeg and WOHL of Cracow' (Balliol College Oxford archives)",
+          "urls": [
+            "https://archives.balliol.ox.ac.uk/Modern%20Papers/gelles/WAHL%20of%20Tarnobrzeg%20and%20WOHL%20of%20Cracow.pdf",
+            "https://archives.balliol.ox.ac.uk/Modern%20Papers/gelles/GellesWahlDescent.pdf"
+          ]
+        },
+        {
+          "id": "ydna_katzenellenbogen_avotaynu",
+          "title_en": "🧬 Y-DNA confirmation — Katzenellenbogen rabbinical lineage (Avotaynu 2016)",
+          "status": "confirmed",
+          "summary_en": "Avotaynu Online published 'The Y-DNA Genetic Signature and Ethnic Origin of the Katzenellenbogen Rabbinical Lineage' (2016). Confirms the Saul Wahl line has documented Y-DNA. Edward Gelles tested his own DNA — the result connects him to both the Wahl-Katzenellenbogen line and Sephardic Benveniste descendants.",
+          "source": "Avotaynu Online 2016",
+          "urls": [
+            "https://avotaynuonline.com/2016/03/y-dna-genetic-signature-ethnic-origin-katzenellenbogen-rabbinical-lineage/"
+          ]
+        }
+      ]
+    },
+    {
       "id": "additional_relatives",
       "title_en": "Additional family members discovered",
       "title_he": "בני משפחה נוספים שנמצאו",
@@ -415,6 +500,55 @@
       "intro_en": "Specific archival files identified by the research as almost-certainly containing records of our family. Listed in priority order by probability of return.",
       "intro_he": "תיקי ארכיון ספציפיים שהמחקר זיהה כמכילים כמעט-בוודאות רישומים של משפחתנו. מסודרים לפי סיכוי החזרה.",
       "cards": [
+        {
+          "id": "burial_records_baron_hirsch_zygmunt",
+          "title_en": "✅ Zygmunt Griffel burial CONFIRMED — Baron Hirsch Staten Island, YMBA Section I Gate 51",
+          "title_he": "✅ קבר זיגמונט גריפל אומת — בית הקברות באראן הירש סטטן איילנד",
+          "status": "confirmed",
+          "summary_en": "Eric Griffel's 2015 ADST testimony is now confirmed by primary source. His father Zygmunt Griffel (1897-1951) is documented in Ada Green's transcription of the Nadworner Young Men's Benevolent Association burial register at Baron Hirsch Cemetery, 1126 Richmond Avenue, Staten Island NY — Section I, Gate 51. Died 16 May 1951, age 53. Edward Griffel (1904-1959) and Susan Manson Griffel (d.1978) are buried in the same plot. Bernard Griffel (1899-1962) + Mollie Mehrbaum (1890-1966) are in nearby Section A, Gate 113. Eric's quote 'on Staten Island in the Nadworna Jewish émigré community organization plot' is documentarily verified.",
+          "source": "Ada Green's transcription of Nadworner landsmanshaft burials, JewishGen KehilaLinks",
+          "urls": [
+            "https://kehilalinks.jewishgen.org/nadvorna/ymba2.asp",
+            "https://kehilalinks.jewishgen.org/nadvorna/sba1.asp",
+            "https://kehilalinks.jewishgen.org/nadvorna/enku2b.asp"
+          ]
+        },
+        {
+          "id": "yivo_rg_1622_smoking_gun",
+          "title_en": "🎯 YIVO RG 1622 — First Nadworna SBA archive (1897-1984), holds Zygmunt's plot file",
+          "title_he": "🎯 YIVO RG 1622 — ארכיון אגודת נדבורנה הראשונה (1897-1984)",
+          "status": "lead",
+          "summary_en": "YIVO Archives RG 1622 holds the complete records of the First Nadworna Sick Benevolent Association (1897-1984): Constitution 1897 (English); Membership books 1900-1963 (German); Income & expense journals 1935-1984; Members' cemetery plot reservation files at Baron de Hirsch; Correspondence with Baron de Hirsch Cemetery. This is where Zygmunt Griffel's ORIGINAL 1951 plot-reservation paperwork lives — plus likely his membership card with parents' names + dates of birth + dates of immigration. Single most valuable original-document target for the Griffel-Nadwórna branch.",
+          "source": "YIVO Archives finding aid",
+          "urls": [
+            "http://yivoarchives.org/index.php?p=collections/controlcard&id=33916&top=1",
+            "mailto:archives@yivo.cjh.org"
+          ]
+        },
+        {
+          "id": "jdc_cyprus_name_index",
+          "title_en": "🎯 JDC Cyprus name index — single most actionable database (16,667 pages indexed)",
+          "title_he": "🎯 אינדקס שמות JDC קפריסין — המסד הזמין ביותר לפעולה",
+          "status": "lead",
+          "summary_en": "The Joint Distribution Committee (JDC) Cyprus Collection is the single most actionable online database for finding our family. It consists of 16,667 pages of textual files digitized from 19 microfilm reels. Quote from JDC topic guide: 'births to Cyprus detainees from 1948-1949 are documented, and there are indexed lists that reveal genealogical information such as names, age, date of birth, place of birth, nationality, group affiliation, family status, and even weight.' A family of three with David b.1911-12-25, Lusia b.1913-04-08, Shimon b.1937-06-22 should be locatable via DOB cross-match alone.",
+          "source": "JDC Archives",
+          "urls": [
+            "https://archives.jdc.org/topic-guides/detained-in-cyprus/",
+            "https://archives.jdc.org/project/cyprus-detention-camps/"
+          ]
+        },
+        {
+          "id": "haifa_chevra_kadisha_david_rapaport",
+          "title_en": "🎯 Haifa Chevra Kadisha — 2 entries for 'דוד רפפורט' may include David Memek",
+          "title_he": "🎯 חברה קדישא חיפה — 2 רישומים ל'דוד רפפורט', אולי דוד ממק",
+          "status": "lead",
+          "summary_en": "The Haifa Chevra Kadisha (Jewish burial society) has indexable entries for at least two 'דוד רפפורט'. Their entries typically list Hebrew date of death + birth year + parents' names — the single most likely place to nail David Memek's exact death date. The two URLs to check manually: deceased ID 10700 (memorial info page) + deceased ID 148324 (funeral info page).",
+          "source": "Haifa Chevra Kadisha (kdh.org.il)",
+          "urls": [
+            "https://kdh.org.il/memorial-info-dates-full/memorial-info-expanded/?deceased=10700",
+            "http://kdh.org.il/funeral-info-dates-full/funeral-info-expanded/?deceased=148324"
+          ]
+        },
         {
           "id": "daifo_r432_krueger",
           "title_en": "🎯 DAIFO R-432/1/1 — Hans Krueger's Nadwórna execution orders Oct-Nov 1941",
@@ -532,6 +666,18 @@
           "urls": [
             "https://www.ancestry.com/search/collections/62570/",
             "https://www.ancestry.com/search/collections/62571/"
+          ]
+        },
+        {
+          "id": "foresta_company_verified",
+          "title_en": "🌲 Foresta company — David Memek's wartime sawmill (Jewish-owned + Aryanised 1941)",
+          "status": "confirmed",
+          "summary_en": "Foresta is confirmed in three independent sources (Yad Vashem, Pinkas Hakehillot Polin, Jewish Galicia & Bukovina) as the Jewish-owned, Jewish-managed Nadwórna timber operation. Leased state woodlands from the Polish authorities, exported timber. Contract cancelled 1937 under antisemitic pressure. Nationalised by Soviets after September 1939 — Jews retained managerial positions. Under German occupation 1941-42, approximately 600 Jews worked daily at the sawmill (= Foresta) to obtain 'essential worker' permits. David Memek Rapaport's wartime work permit was for this operation. Owners' individual names are NOT on the public web — they're in the full Hebrew Pinkas Hakehillot Polin text and likely in the 1975 Carmi Nadwórna Yizkor book.",
+          "source": "Yad Vashem + Pinkas Polin + JGB",
+          "urls": [
+            "https://www.yadvashem.org/communities/nadworna/before-holocaust.html",
+            "https://www.yadvashem.org/communities/nadworna/german-occupation.html",
+            "https://www.jewishgen.org/yizkor/pinkas_poland/pol2_00328.html"
           ]
         }
       ]

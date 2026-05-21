@@ -2091,7 +2091,16 @@
         "fr": "Zygmunt Griffel"
       },
       "aliases": [],
-      "facts": [],
+      "facts": [
+        {
+          "key": "burial",
+          "value": "Baron Hirsch Cemetery, Staten Island NY — Nadworner YMBA Section I, Gate 51",
+          "confidence": "documented",
+          "sources": [
+            "src_ada_green_nadworna_burial_transcription"
+          ]
+        }
+      ],
       "birth": {
         "date": "1897",
         "date_precision": "year",
@@ -2102,12 +2111,14 @@
         ]
       },
       "death": {
-        "date": "1951",
-        "date_precision": "year",
+        "date": "1951-05-16",
+        "date_precision": "day",
+        "place_id": "pl_new_york",
         "confidence": "documented",
         "sources": [
-          "src_gelles_griffel_nadworna_pdf"
-        ]
+          "src_ada_green_nadworna_burial_transcription"
+        ],
+        "note_en": "Buried at Baron Hirsch Cemetery, 1126 Richmond Avenue, Staten Island NY — Nadworner YMBA Section I, Gate 51. Documented in Ada Green's transcription of the Nadworner landsmanshaft burials."
       },
       "role": "first_cousin",
       "note_en": "1st cousin of David Memek. Son of David Mendel Griffel + Chawa Wahl. Born Nadwórna 1897, died 1951.",
@@ -2159,7 +2170,24 @@
         "fr": "Edward Griffel"
       },
       "aliases": [],
-      "facts": [],
+      "facts": [
+        {
+          "key": "hebrew_name",
+          "value": "Aizik Chaim ben Dovid Menachem",
+          "confidence": "documented",
+          "sources": [
+            "src_ada_green_nadworna_burial_transcription"
+          ]
+        },
+        {
+          "key": "burial",
+          "value": "Baron Hirsch Cemetery, Staten Island NY — Nadworner YMBA Section I, Gate 51",
+          "confidence": "documented",
+          "sources": [
+            "src_ada_green_nadworna_burial_transcription"
+          ]
+        }
+      ],
       "birth": {
         "date": "1904-10-09",
         "date_precision": "day",
@@ -2171,12 +2199,14 @@
         ]
       },
       "death": {
-        "date": "1959",
-        "date_precision": "year",
+        "date": "1959-02-08",
+        "date_precision": "day",
+        "place_id": "pl_new_york",
         "confidence": "documented",
         "sources": [
-          "src_gelles_griffel_nadworna_pdf"
-        ]
+          "src_ada_green_nadworna_burial_transcription"
+        ],
+        "note_en": "Buried at Baron Hirsch Cemetery, Staten Island — Nadworner YMBA Section I, Gate 51 (same plot as brother Zygmunt). Hebrew name: Aizik Chaim ben Dovid Menachem."
       },
       "role": "first_cousin",
       "note_en": "1st cousin of David Memek. Born Nadwórna 9 Oct 1904. Industrialist (Przemysłowiec) resident Stanisławów.",
@@ -2192,7 +2222,16 @@
         "fr": "Chawa Griffel (née Wahl)"
       },
       "aliases": [],
-      "facts": [],
+      "facts": [
+        {
+          "key": "wahl_ancestry",
+          "value": "Descendant of Saul Wahl Katzenellenbogen (1541-1617) via the Tarnobrzeg Wahl line, documented by Edward Gelles in 'WAHL of Tarnobrzeg and WOHL of Cracow' (Balliol). Y-DNA confirmed Avotaynu 2016.",
+          "confidence": "documented",
+          "sources": [
+            "src_gelles_griffel_nadworna_pdf"
+          ]
+        }
+      ],
       "birth": {
         "date": "1877",
         "date_precision": "year",
@@ -2213,7 +2252,9 @@
       },
       "role": "first_cousin_in_law",
       "note_en": "Wife of David Mendel Griffel (Rebeka's eldest brother). Of the Wahl family — connecting to the Saul Wahl Katzenellenbogen rabbinical dynasty per Edward Gelles.",
-      "spouse_id": "p_david_mendel_griffel"
+      "spouse_id": "p_david_mendel_griffel",
+      "father_id": "p_shulim_wahl_tarnobrzeg",
+      "mother_id": "p_sarah_safier_tarnobrzeg"
     },
     {
       "id": "p_benzion_wilner",
@@ -2429,7 +2470,7 @@
       "facts": []
     },
     {
-      "id": "p_diana_griffel_living",
+      "id": "p_diana_griffel",
       "primary_name": {
         "en": "Diana Margaret Griffel",
         "he": "דיאנה גריפל",
@@ -2445,11 +2486,20 @@
           "src_gelles_griffel_nadworna_pdf"
         ]
       },
-      "role": "living_cousin",
-      "note_en": "Born London 27 Oct 1943. Daughter of Edward Griffel (uncle of David Memek) + Susan Manson. Status uncertain — would be 82. 2nd cousin of David Memek. Worth a targeted search.",
+      "role": "first_cousin_deceased",
+      "note_en": "Diana Margaret Griffel (born London 27 October 1943, died mid-1960s of cancer). Daughter of Edward Griffel + Susan Manson. 2nd cousin of David Memek. Confirmed deceased in her brother Eric Griffel's 2015 ADST oral history.",
       "father_id": "p_edward_griffel_uncle",
       "aliases": [],
-      "facts": []
+      "facts": [],
+      "death": {
+        "date": "1965",
+        "date_precision": "year_approx",
+        "confidence": "documented",
+        "sources": [
+          "src_eric_griffel_adst_oral_history_2015"
+        ],
+        "note_en": "Died of cancer in mid-sixties per Eric Griffel's 2015 ADST oral history."
+      }
     },
     {
       "id": "p_yekutiel_hakohen_rapa",
@@ -2729,7 +2779,7 @@
       "note_en": "Son of David, son of Shlomoh Yehudah Rapaport (SHI\"R), Chief Rabbi of Prague. Earned Dr. Juris at the University of Krakow in 1863, then completed Economics and Political Science at the University of Vienna. Represented the Jews of Galicia and the Kingdom of Lodomeria in the Austro-Hungarian Parliament. On 6 September 1890, Emperor Franz Joseph conferred upon him and his successors the title of 'Baron' — henceforth Baron Dr Arnold Rapoport-Adler Von Porada. The name 'Von Porada' is an acronym: POrt-RApa-DAvid. He was also a Knight of the French Legion of Honour. His coat of arms displays TWO ravens (the central one for the family, the upper one for the Kingdom of Galicia)."
     },
     {
-      "id": "p_dr_chanan_rapaport_living",
+      "id": "p_dr_chanan_rapaport",
       "primary_name": {
         "en": "Dr Chanan Rapaport",
         "he": "ד\"ר חנן רפפורט",
@@ -2739,15 +2789,367 @@
       "aliases": [],
       "facts": [],
       "birth": {
-        "date": "1928",
+        "date": "1928-09-08",
+        "date_precision": "day",
+        "place_id": "pl_stanislawow",
+        "confidence": "documented",
+        "sources": [
+          "src_nli_authority_record"
+        ]
+      },
+      "role": "rapaport_genealogist_deceased",
+      "note_en": "Dr Chanan Rapaport (1928-09-08 Stanisławów, Poland – 2022-01-02 Israel). Director General of The Center for the Study of the Rapaport Family (founded 1990); board member of the International Institute for Jewish Genealogy at the National Library Jerusalem. Born in Stanisławów — same Galician region as Nadwórna (~50 km away). Commander in the Haganah Underground and IDF. Scientific Director of the Szold Institute 1965-1982. Adviser to PMs Golda Meir and Yitzhak Rabin. Author of the foundational 2018 paper establishing the Sephardic origin of the Rapaport family. THE leading authority on Rapaport family genealogy until his death.",
+      "death": {
+        "date": "2022-01-02",
+        "date_precision": "day",
+        "confidence": "documented",
+        "sources": [
+          "src_nli_authority_record"
+        ]
+      }
+    },
+    {
+      "id": "p_tzvi_hirsh_filip_nadwirna",
+      "primary_name": {
+        "en": "R. Tzvi Hirsh Filip of Nadworna",
+        "he": "ר' צבי הירש פיליפ מנדבורנה",
+        "pl": "Rabbi Tzvi Hirsh Filip z Nadwórnej",
+        "fr": "R. Tzvi Hirsh Filip de Nadworna"
+      },
+      "aliases": [],
+      "facts": [],
+      "birth": {
+        "date": "1737",
+        "date_precision": "year",
+        "place_id": "pl_nadworna",
+        "confidence": "documented",
+        "sources": [
+          "src_jewish_galicia_bukovina"
+        ]
+      },
+      "death": {
+        "date": "1802",
+        "date_precision": "year",
+        "place_id": "pl_nadworna",
+        "confidence": "documented",
+        "sources": [
+          "src_jewish_galicia_bukovina"
+        ]
+      },
+      "role": "rabbinic_context_ancestor",
+      "note_en": "Founding Hasidic rabbi of Nadwórna. From ~1786 served as Maggid Meisharim and Hasidic Rebbe. Father: Shalom Zelig. Author of important rabbinical works: Tsemah Hashem Le-tsvi, Siftei Kdoshim, Mili De-Avot. His pupil was R. Menachem Mendel of Kosov (founder of the Kosov Dynasty, parent of the Vizhnitz dynasty whose Ottynia branch Eliezer Griffel and Berisz Rapaport followed). Succeeded by his son David Arie Leib Filip and son-in-law R. Yitshak of Radzivil (son of the Maggid of Zlochev). Documented in Jewish Galicia & Bukovina person record; cited in Wunder's Meorei Galicia 4:40."
+    },
+    {
+      "id": "p_chaim_hager_ottynia",
+      "primary_name": {
+        "en": "Reb Chaim Hager of Ottynia",
+        "he": "הרב חיים הגר מאוטיניה",
+        "pl": "Rabbi Chaim Hager z Otynia",
+        "fr": "R. Chaim Hager d'Otynia"
+      },
+      "aliases": [],
+      "facts": [],
+      "birth": {
+        "date": "1863",
+        "date_precision": "year",
+        "place_id": "pl_kosov",
+        "confidence": "documented",
+        "sources": [
+          "src_wikipedia"
+        ]
+      },
+      "death": {
+        "date": "1931",
+        "date_precision": "year",
+        "place_id": "pl_ottynia",
+        "confidence": "documented",
+        "sources": [
+          "src_wikipedia"
+        ]
+      },
+      "role": "rabbinic_context_ancestor",
+      "note_en": "Reb Chaim Hager of Ottynia (1863-1931), author of 'Tal Chaim'. Son of Menachem Mendel Hager (1830-1884), founder of the Vizhnitz Hasidic dynasty. Reb Chaim was the Ottynia branch rebbe. Eliezer 'Zeida' Griffel and his sons + sons-in-law (including Berisz Rapaport) prayed at Reb Chaim's Ottynia synagogue. The Nadwórna Hasidic kloiz list confirmed in Pinkas Hakehillot Polin includes Ottynia: 'Hassidim of Kosow, Wiznitz, Czortkow, Ottynia and Belz.'"
+    },
+    {
+      "id": "p_meir_katzenellenbogen_padua",
+      "primary_name": {
+        "en": "R. Meir Katzenellenbogen 'MaHaRaM Padua'",
+        "he": "ר' מאיר קצנלנבוגן 'מהר\"ם פדואה'",
+        "pl": "Rabbi Meir Katzenellenbogen z Padwy",
+        "fr": "R. Meir Katzenellenbogen de Padoue"
+      },
+      "aliases": [],
+      "facts": [],
+      "role": "rabbinical_dynasty_ancestor",
+      "note_en": "Chief Rabbi of Padua. Born in Katzenelnbogen, Germany. Mother Julia-Malka Luria descended from Rashi via daughter Miriam. Studied under Jacob Pollak in Prague. Married Hannah, granddaughter of Judah Minz. Succeeded father-in-law Abraham Minz in the chief rabbinate of Padua. Author of 'She'elot u-Teshuvot Maharam Padua'. Founder of the Katzenellenbogen rabbinical dynasty.",
+      "birth": {
+        "date": "1482",
+        "date_precision": "circa",
+        "place_id": "pl_padua",
+        "confidence": "documented",
+        "sources": [
+          "src_wikipedia",
+          "src_gelles_griffel_nadworna_pdf"
+        ]
+      },
+      "death": {
+        "date": "1565-01-12",
+        "date_precision": "day",
+        "confidence": "documented",
+        "sources": [
+          "src_wikipedia",
+          "src_gelles_griffel_nadworna_pdf"
+        ]
+      },
+      "children_ids": [
+        "p_samuel_judah_katzenellenbogen"
+      ]
+    },
+    {
+      "id": "p_samuel_judah_katzenellenbogen",
+      "primary_name": {
+        "en": "R. Samuel Judah Katzenellenbogen",
+        "he": "ר' שמואל יהודה קצנלנבוגן",
+        "pl": "Rabbi Samuel Judah Katzenellenbogen",
+        "fr": "R. Samuel Judah Katzenellenbogen"
+      },
+      "aliases": [],
+      "facts": [],
+      "role": "rabbinical_dynasty_ancestor",
+      "note_en": "Italian rabbi born in Padua 1521. Chief Rabbi of Venice from 1565. Twelve of his derashot published in Venice 1594. Father of Saul Wahl. Died 25 March 1597. According to the Jewish Encyclopedia: 'received Prince Radziwill with marked respect and treated him very kindly. The rabbi gave the prince a picture of his son Saul, who years before had left for Poland.'",
+      "birth": {
+        "date": "1521",
+        "date_precision": "year",
+        "place_id": "pl_padua",
+        "confidence": "documented",
+        "sources": [
+          "src_wikipedia",
+          "src_gelles_griffel_nadworna_pdf"
+        ]
+      },
+      "death": {
+        "date": "1597-03-25",
+        "date_precision": "day",
+        "confidence": "documented",
+        "sources": [
+          "src_wikipedia",
+          "src_gelles_griffel_nadworna_pdf"
+        ]
+      },
+      "father_id": "p_meir_katzenellenbogen_padua",
+      "children_ids": [
+        "p_saul_wahl_katzenellenbogen"
+      ]
+    },
+    {
+      "id": "p_saul_wahl_katzenellenbogen",
+      "primary_name": {
+        "en": "Saul Wahl Katzenellenbogen",
+        "he": "שאול ואהל קצנלנבוגן",
+        "pl": "Saul Wahl Katzenellenbogen",
+        "fr": "Saul Wahl Katzenellenbogen"
+      },
+      "aliases": [],
+      "facts": [],
+      "role": "rabbinical_dynasty_ancestor",
+      "note_en": "Polish-Jewish merchant. Married Deborah Rivkah Drucker. According to Jewish legend served as 'rex pro tempore' of Poland on 18 August 1587 between Stefan Báthory's death and Sigismund III Vasa's election (some traditions say one night, others a few days). The surname 'Wahl' comes from German 'wahl' = election. 13 children. Y-DNA-confirmed ancestor of multiple modern descendants including our cousin Edward Gelles (via Chawa Wahl).",
+      "birth": {
+        "date": "1541",
+        "date_precision": "year",
+        "place_id": "pl_brest",
+        "confidence": "documented",
+        "sources": [
+          "src_wikipedia",
+          "src_gelles_griffel_nadworna_pdf"
+        ]
+      },
+      "death": {
+        "date": "1617",
         "date_precision": "year",
         "confidence": "documented",
         "sources": [
-          "src_chanan_rapaport_2018"
+          "src_wikipedia",
+          "src_gelles_griffel_nadworna_pdf"
         ]
       },
-      "role": "living_rapaport_genealogist",
-      "note_en": "Living Rapaport genealogist (b.1928). Director General of The Center for the Study of the Rapaport Family; board member of the International Institute for Jewish Genealogy and the Paul Jacobi Center at the National Library in Jerusalem. Served as commander in the Haganah Underground during the British Mandate and in Israel's War of Independence. Director General and Scientific Director of the Henrietta Szold Institute 1965-1982. Adviser to PMs Golda Meir and Yitzhak Rabin. Author of the foundational 2018 paper 'I came looking for the origins of a known and respectable Ashkenazi family and I found them!' establishing the Sephardic origin of the Rapaport family. THE leading living authority on Rapaport family genealogy."
+      "father_id": "p_samuel_judah_katzenellenbogen",
+      "children_ids": [
+        "p_meir_wahl_maharash"
+      ]
+    },
+    {
+      "id": "p_meir_wahl_maharash",
+      "primary_name": {
+        "en": "R. Meir Wahl Katzenellenbogen 'MaHaRaSH'",
+        "he": "ר' מאיר ואהל קצנלנבוגן 'מהר\"ש'",
+        "pl": "Rabbi Meir Wahl",
+        "fr": "R. Meir Wahl"
+      },
+      "aliases": [],
+      "facts": [],
+      "role": "rabbinical_dynasty_ancestor",
+      "note_en": "ABD (Av Beit Din) of Brest, Lithuania. Married Hinde, daughter of Pinchas Halevi Horowitz of Cracow. This is the documented bridge from the Lithuanian Wahls into the Galician Horowitz orbit. Son of Saul Wahl. From him descends the Galician Wahl line reaching Tarnobrzeg and (via Chawa) our family.",
+      "birth": {
+        "date": "1565",
+        "date_precision": "circa",
+        "place_id": "pl_brest",
+        "confidence": "documented",
+        "sources": [
+          "src_wikipedia",
+          "src_gelles_griffel_nadworna_pdf"
+        ]
+      },
+      "death": {
+        "date": "1631",
+        "date_precision": "year",
+        "confidence": "documented",
+        "sources": [
+          "src_wikipedia",
+          "src_gelles_griffel_nadworna_pdf"
+        ]
+      },
+      "father_id": "p_saul_wahl_katzenellenbogen"
+    },
+    {
+      "id": "p_shulim_wahl_tarnobrzeg",
+      "primary_name": {
+        "en": "Shulim Wahl of Tarnobrzeg",
+        "he": "שולים ואהל מטרנוברז'ג",
+        "pl": "Szulim Wahl z Tarnobrzega",
+        "fr": "Shulim Wahl de Tarnobrzeg"
+      },
+      "aliases": [],
+      "facts": [],
+      "role": "rabbinical_dynasty_ancestor",
+      "note_en": "Father of Chawa Wahl (1877-1941). Galician Wahl line carrying documented descent from Saul Wahl Katzenellenbogen. Married Sarah Safier of Tarnobrzeg. Documented in Edward Gelles's 'WAHL of Tarnobrzeg and WOHL of Cracow' (Balliol College Oxford archives).",
+      "spouse_id": "p_sarah_safier_tarnobrzeg",
+      "children_ids": [
+        "p_chawa_wahl"
+      ]
+    },
+    {
+      "id": "p_sarah_safier_tarnobrzeg",
+      "primary_name": {
+        "en": "Sarah Wahl (née Safier) of Tarnobrzeg",
+        "he": "שרה ואהל (לבית ספיר) מטרנוברז'ג",
+        "pl": "Sara Wahl (z domu Safier) z Tarnobrzega",
+        "fr": "Sarah Wahl (née Safier) de Tarnobrzeg"
+      },
+      "aliases": [],
+      "facts": [],
+      "role": "rabbinical_dynasty_ancestor",
+      "note_en": "Mother of Chawa Wahl (1877-1941). Of the Safier family of Tarnobrzeg. Documented in Edward Gelles's 'WAHL of Tarnobrzeg and WOHL of Cracow' (Balliol).",
+      "spouse_id": "p_shulim_wahl_tarnobrzeg",
+      "children_ids": [
+        "p_chawa_wahl"
+      ]
+    },
+    {
+      "id": "p_susan_manson_griffel",
+      "primary_name": {
+        "en": "Susan Manson Griffel",
+        "he": "סוזן מאנסון גריפל",
+        "pl": "Susan Manson Griffel",
+        "fr": "Susan Manson Griffel"
+      },
+      "aliases": [
+        "Sarah bat Yisrael"
+      ],
+      "facts": [],
+      "birth": {
+        "date": "1911",
+        "date_precision": "year_approx",
+        "confidence": "documented",
+        "sources": [
+          "src_ada_green_nadworna_burial_transcription"
+        ],
+        "note_en": "Calculated from age 67 at death (1978)."
+      },
+      "death": {
+        "date": "1978-06-22",
+        "date_precision": "day",
+        "place_id": "pl_new_york",
+        "confidence": "documented",
+        "sources": [
+          "src_ada_green_nadworna_burial_transcription"
+        ],
+        "note_en": "Buried at Baron Hirsch Cemetery, Staten Island — Nadworner YMBA Section I, Gate 51 (same plot as husband Edward Griffel). Hebrew name: Sarah bat Yisrael."
+      },
+      "role": "first_cousin_in_law",
+      "spouse_id": "p_edward_griffel_uncle",
+      "note_en": "Wife of Edward Griffel (1904-1959). Of the Manson rabbinic family (per Edward Gelles's 'Manson Cousins' paper, the Manson line traced back to Israel Friedman of Ruzhin). Mother of David M. Griffel (1946-2021, MIT-educated software entrepreneur) and Diana Margaret Griffel (b.27 Oct 1943, died of cancer in mid-1960s)."
+    },
+    {
+      "id": "p_bernard_griffel_nyc",
+      "primary_name": {
+        "en": "Bernard Griffel (NYC)",
+        "he": "ברנרד גריפל (ניו יורק)",
+        "pl": "Bernard Griffel (NYC)",
+        "fr": "Bernard Griffel (NYC)"
+      },
+      "aliases": [
+        "Yisachar Dov ben Shmuel"
+      ],
+      "facts": [],
+      "birth": {
+        "date": "1899",
+        "date_precision": "year_approx",
+        "place_id": "pl_nadworna",
+        "confidence": "documented",
+        "sources": [
+          "src_ada_green_nadworna_burial_transcription"
+        ],
+        "note_en": "Calculated from age 63 at death (1962). Joined NY landsmanshaft 1949 at age 50."
+      },
+      "death": {
+        "date": "1962-12-13",
+        "date_precision": "day",
+        "place_id": "pl_new_york",
+        "confidence": "documented",
+        "sources": [
+          "src_ada_green_nadworna_burial_transcription"
+        ],
+        "note_en": "Buried at Baron Hirsch Cemetery, Staten Island — First Nadworner SBA Section A, Gate 113."
+      },
+      "role": "nadworner_relative_likely_cousin",
+      "spouse_id": "p_mollie_mehrbaum",
+      "note_en": "Born in Nadwórna ~1899, died NYC 1962. Joined the Erster Nadwornaer KUV landsmanshaft on 26 June 1949 at age 50 — confirming his post-war immigration. Hebrew name 'Yisachar Dov ben Shmuel' suggests his father was Shmuel (a Shmuel Griffel of Nadwórna we have not yet placed). Almost certainly a Griffel cousin of Eliezer's branch, given the Nadwórna origin + landsmanshaft membership. Documented in Ada Green's transcription of the SBA Section A burials and the Erster Nadwornaer KUV membership book vol 2 entry #230."
+    },
+    {
+      "id": "p_mollie_mehrbaum",
+      "primary_name": {
+        "en": "Mollie Griffel (née Mehrbaum)",
+        "he": "מולי גריפל (לבית מרבאום)",
+        "pl": "Mollie Griffel (z domu Mehrbaum)",
+        "fr": "Mollie Griffel (née Mehrbaum)"
+      },
+      "aliases": [
+        "Malke Mehrbaum"
+      ],
+      "facts": [],
+      "birth": {
+        "date": "1890",
+        "date_precision": "year_approx",
+        "place_id": "pl_vorokhta",
+        "confidence": "documented",
+        "sources": [
+          "src_ada_green_nadworna_burial_transcription"
+        ],
+        "note_en": "Calculated from age 46 in 1949 membership and age 76 at death (1966). Born in Vorokhta (Worochta), Carpathian foothills near Nadwórna."
+      },
+      "death": {
+        "date": "1966-04-08",
+        "date_precision": "day",
+        "place_id": "pl_new_york",
+        "confidence": "documented",
+        "sources": [
+          "src_ada_green_nadworna_burial_transcription"
+        ],
+        "note_en": "Buried at Baron Hirsch Cemetery, Staten Island — First Nadworner SBA Section A, Gate 113 (same plot as husband Bernard)."
+      },
+      "role": "nadworner_relative_in_law",
+      "spouse_id": "p_bernard_griffel_nyc",
+      "note_en": "Born Malke Mehrbaum in Vorokhta (Worochta) — Carpathian foothills near Nadwórna — ~1890. Married Bernard Griffel of Nadwórna. Joined the Erster Nadwornaer KUV landsmanshaft with her husband on 26 June 1949. New surname Mehrbaum to investigate among the broader extended family."
     }
   ]
 }

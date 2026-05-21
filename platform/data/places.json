@@ -454,6 +454,138 @@
         "now": "Comune in Veneto, Italy"
       },
       "note_en": "Where R. Avraham Menachem ha-Kohen Rapa-Porto published Mincha Belulah in 1594, introducing the raven + priestly blessing family emblem still used by descendants today."
+    },
+    {
+      "id": "pl_padua",
+      "names": {
+        "en": "Padua, Italy",
+        "he": "פדואה",
+        "pl": "Padwa",
+        "fr": "Padoue",
+        "it": "Padova"
+      },
+      "coords": [
+        45.4064,
+        11.8768
+      ],
+      "era_context": {
+        "15th_16th_century": "Major Renaissance Italian Jewish centre. Birthplace of R. Meir Katzenellenbogen 'MaHaRaM Padua' (1482-1565) and his son R. Samuel Judah Katzenellenbogen (1521-1597), founders of the Katzenellenbogen rabbinical dynasty that ultimately reached our family via Chawa Wahl.",
+        "now": "Comune in Veneto, Italy"
+      },
+      "note_en": "Where the Katzenellenbogen rabbinical dynasty was founded. MaHaRaM Padua served as Chief Rabbi of Padua until 1565."
+    },
+    {
+      "id": "pl_brest",
+      "names": {
+        "en": "Brest (Brest-Litovsk)",
+        "he": "בריסק (ברסט-ליטובסק)",
+        "pl": "Brześć Litewski",
+        "fr": "Brest",
+        "be": "Брэст"
+      },
+      "coords": [
+        52.0976,
+        23.7341
+      ],
+      "era_context": {
+        "16th_17th_century": "Major Polish-Lithuanian Jewish centre. Saul Wahl Katzenellenbogen and his son R. Meir Wahl 'MaHaRaSH' lived here.",
+        "now": "City in Belarus"
+      },
+      "note_en": "Home of Saul Wahl Katzenellenbogen (the legendary 'King for one night' of Poland) and his rabbinical descendants."
+    },
+    {
+      "id": "pl_tarnobrzeg",
+      "names": {
+        "en": "Tarnobrzeg, Poland",
+        "he": "טרנוברז'ג",
+        "pl": "Tarnobrzeg",
+        "fr": "Tarnobrzeg"
+      },
+      "coords": [
+        50.5739,
+        21.6791
+      ],
+      "era_context": {
+        "19th_century": "Galician Jewish town. Birthplace of Shulim Wahl and Sarah Safier — Chawa Wahl Griffel's parents.",
+        "now": "Town in Subcarpathian Voivodeship, Poland"
+      },
+      "note_en": "Where Chawa Wahl (1877-1941), David Mendel Griffel's wife, was born — into the Tarnobrzeg Wahl line documented as descending from Saul Wahl Katzenellenbogen."
+    },
+    {
+      "id": "pl_stanislawow",
+      "names": {
+        "en": "Stanisławów (now Ivano-Frankivsk)",
+        "he": "סטניסלבוב",
+        "pl": "Stanisławów",
+        "fr": "Stanisławów",
+        "uk": "Івано-Франківськ"
+      },
+      "coords": [
+        48.9226,
+        24.7111
+      ],
+      "era_context": {
+        "1918_1939": "Regional capital of Stanisławów Voivodeship (containing Nadwórna).",
+        "now": "Ivano-Frankivsk, Ukraine"
+      },
+      "note_en": "Birthplace of Dr Chanan Rapaport (1928-2022), the Rapaport family genealogist. Regional capital of the voivodeship containing Nadwórna."
+    },
+    {
+      "id": "pl_kosov",
+      "names": {
+        "en": "Kosov (Kosiv)",
+        "he": "קוסוב",
+        "pl": "Kosów",
+        "fr": "Kosov",
+        "uk": "Косів"
+      },
+      "coords": [
+        48.3,
+        25.1
+      ],
+      "era_context": {
+        "19th_century": "Founding seat of the Kosov Hasidic dynasty.",
+        "now": "Kosiv, Ivano-Frankivsk Oblast, Ukraine"
+      },
+      "note_en": "Founding seat of the Hager Kosov-Vizhnitz Hasidic dynasty. Birthplace of Reb Chaim Hager of Ottynia (1863-1931)."
+    },
+    {
+      "id": "pl_ottynia",
+      "names": {
+        "en": "Ottynia",
+        "he": "אוטיניה",
+        "pl": "Otynia",
+        "fr": "Otynia",
+        "uk": "Отинія"
+      },
+      "coords": [
+        48.7367,
+        24.86
+      ],
+      "era_context": {
+        "19th_20th_century": "Seat of the Ottynia branch of the Hager Hasidic dynasty.",
+        "now": "Otynia, Ivano-Frankivsk Oblast, Ukraine"
+      },
+      "note_en": "Where Reb Chaim Hager (1863-1931) was rebbe. Eliezer Griffel and Berisz Rapaport prayed at the Ottynia kloiz."
+    },
+    {
+      "id": "pl_vorokhta",
+      "names": {
+        "en": "Vorokhta (Worochta)",
+        "he": "וורוכטה",
+        "pl": "Worochta",
+        "fr": "Vorokhta",
+        "uk": "Ворохта"
+      },
+      "coords": [
+        48.2833,
+        24.5667
+      ],
+      "era_context": {
+        "19th_20th_century": "Carpathian foothills town near Nadwórna. Birthplace of Mollie (Malke) Mehrbaum (b.~1890), who married Bernard Griffel of Nadwórna.",
+        "now": "Town in Ivano-Frankivsk Oblast, Ukraine"
+      },
+      "note_en": "Birthplace of Mollie Mehrbaum, an in-law of the Nadwórna Griffel family."
     }
   ]
 }
