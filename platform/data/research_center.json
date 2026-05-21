@@ -456,19 +456,15 @@
         },
         {
           "id": "david_soviet_exile_route_hypothesis",
-          "title_en": "🧭 David Memek's 1939-1946 survival route IDENTIFIED — Soviet exile (not Anders' Army)",
-          "title_he": "🧭 מסלול שרידותו של דוד ממק 1939-1946 זוהה — גלות סובייטית (לא צבא אנדרס)",
+          "title_en": "🔁 CORRECTED — David Memek survived in Lwów under disguise (NOT Soviet exile) per memoir + Indeks Represjonowanych null",
+          "title_he": "🔁 תוקן — דוד ממק שרד בלבוב בתחפושת (לא בגלות סובייטית), על-פי היומן + היעדרות מ-Indeks Represjonowanych",
           "status": "lead",
-          "summary_en": "David Memek Rapaport most likely survived 1939-1946 via the Soviet exile route, NOT through Anders' Army. ~230,000 of ~250,000 Polish Jewish survivors took this route: deported east 1939-40 when Soviets occupied eastern Galicia, spent the war in Soviet interior (Gulag / special settlement / Central Asian exile), repatriated to Poland 1945-46, joined Bricha westward after July 1946 Kielce pogrom, reached Brussels DP camp, sailed on Theodor Herzl April 1947. Family-as-unit survival, Theodor Herzl loading from French/Belgian DP camps, and the Nadwórna ghetto being annihilated all rule against in-place hiding and Anders (men-only, ~5,000 Jews total).",
-          "summary_he": "דוד ממק רפפורט ככל הנראה שרד 1939-1946 במסלול הגלות הסובייטית, ולא בצבא אנדרס. כ-230,000 מתוך כ-250,000 ניצולי השואה הפולנים שרדו במסלול זה: גורשו מזרחה ב-1939-40, בילו את המלחמה בגלות סובייטית, הוחזרו לפולין 1945-46, הצטרפו לבריחה מערבה אחרי פוגרום קיילצה ביולי 1946, הגיעו למחנה העקורים בבריסל, והפליגו על תיאודור הרצל באפריל 1947. שרידות המשפחה כיחידה אחת וטעינת תיאודור הרצל ממחנות צרפת ובלגיה — שוללים מסתור במקום ואת אנדרס.",
-          "source": "Cross-analysis of Y. Gutman 'Jews in General Anders' Army', Yad Vashem Nadwórna community page, Palyam Theodor Herzl voyage record, JDC Bricha lists (2026-05-21 verification)",
+          "summary_en": "On 2026-05-21 Doron manually searched the Polish Indeks Represjonowanych (IPN/Karta master DB of Polish citizens deported/arrested/imprisoned by Soviet authorities 1939-1956). Result: 21 Rapaport matches total, NONE matching David Memek (b.1911 Nadwórna, son of Berisz). The Soviet-exile hypothesis from dossier 21 is therefore DISCONFIRMED at the primary-source level.\n\nLusia's memoir Chapter D page 46 already tells us where David actually was: 'Mumek, her husband and Shimon's father, did not live with them. He lived somewhere in Lvov and improved his outward appearance: grew a mustache and changed his hairstyle. Mumek, who worked in building railroad tracks, told her that suspicion had fallen on him and his friend Pesach because they were Jews, and therefore they were forced to bathe with the gentiles. They had to hide the fact that they were circumcised, and they did this in various and strange ways.'\n\nCORRECTED HYPOTHESIS: David survived 1941-44 in Lwów under disguise, working on Ostbahn (German railroad) construction with another circumcised Jewish friend named Pesach, living separately from Lusia and Shimon for their joint safety. He travelled from post-liberation Lwów (Soviet July 1944) to Brussels via the Bricha 1945-46. The Bricha JDC Names Index (https://names.archives.jdc.org) remains the next-step search — it would confirm the Lwów→Brussels Bricha route.",
+          "summary_he": "ב-21 במאי 2026 דורון חיפש ידנית ב-Indeks Represjonowanych (מסד הנתונים הראשי של ה-IPN/קרטה לאזרחי פולין שגורשו/נעצרו/נכלאו על-ידי השלטונות הסובייטים 1939-1956). תוצאה: 21 התאמות 'רפפורט' סך הכל, אף אחת מהן לא תואמת לדוד ממק (יליד 1911 נדבורנה, בנו של ברישו). השערת הגלות הסובייטית ממסה 21 נשללת ברמת המקור הראשוני.\n\nיומן לוסיה פרק ד' עמ' 46 כבר אומר היכן דוד באמת היה: 'ממק, בעלה ואבא של שמעון, לא גר איתם. הוא גר אי-שם בלבוב ושיפר את הופעתו: גידל שפם ושינה את התסרוקת שלו. ממק עבד בהנחת מסילות רכבת...'\n\nהשערה מתוקנת: דוד שרד 1941-44 בלבוב בתחפושת, עבד בבניית מסילות הרכבת של אוסטבאן (גרמני) עם חבר יהודי-נימול נוסף בשם פסח, חי בנפרד מלוסיה ושמעון לבטחונם המשותף. הוא נסע מלבוב המשוחררת (סובייטי יולי 1944) לבריסל דרך הבריחה 1945-46.",
+          "source": "Doron Rapaport manual search of Indeks Represjonowanych 2026-05-21 + Lusia memoir Chapter D page 46",
           "urls": [
-            "https://www.yadvashem.org/articles/academic/jews-anders-army.html",
-            "https://en.wikipedia.org/wiki/Exile_of_Jews_in_the_Soviet_interior_during_World_War_II",
-            "https://www.yadvashem.org/communities/nadworna.html",
-            "https://en.wikipedia.org/wiki/Berihah",
-            "https://www.palyam.org/English/Hahapala/hf/hf_Theodor_Herzl.pdf",
-            "https://arolsen-archives.org/en/news/3-000-jewish-refugees-files-have-been-digitized-2/"
+            "https://indeksrepresjonowanych.pl/wyszukiwanie",
+            "https://names.archives.jdc.org"
           ],
           "pillar": "memoir_vs_history"
         },
@@ -2101,5 +2097,5 @@
       ]
     }
   ],
-  "build_version": "2026-05-21-T28-three-pillars-framework"
+  "build_version": "2026-05-21-T29-david-lwow-disguise-correction"
 }

@@ -245,26 +245,22 @@
         "report": "docs/research/h4_david_war_2026-05-17.md"
       },
       "next_steps": [
-        "🎯 HIGHEST-LEVERAGE NEXT STEP (2026-05-21 verification): Browser-search Yad Vashem Names DB (collections.yadvashem.org/en/names) for 'Berisz Rapaport' or 'Rebeka Griffel' Pages of Testimony. If David Rapaport is the submitter, that single document PROVES survival + identifies post-war address. All 6 primary databases require interactive form submission that automated tools cannot execute. Soviet-exile hypothesis remains the most parsimonious fit but is NEITHER confirmed NOR contradicted by remote search.",
-        "Yad Vashem Names DB: search 'Rapaport David' + 'Nadwórna' for Pages of Testimony submitted by David himself (1950s-70s) — would give postwar address as documentary proof",
-        "Arolsen Archives 3,000-file Brussels Jewish-refugee dataset (Intergovernmental Committee on Refugees, pre-Dec 1946) — likely holds the original DP card file",
-        "IGRA 'Military Polish' database — confirm David is ABSENT from the 624 Anders-Army Jews who stayed in Palestine (would strengthen Soviet inference)",
-        "Belgian State Archives, Service Archives des Victimes de la Guerre (Anderlecht) — original 1946 Brussels DP file"
+        "Run JDC Names Index Bricha search (https://names.archives.jdc.org) for David Rapaport — confirms Lwów→Brussels Bricha route",
+        "Email Belgian State Archives Anderlecht (aos_avg@arch.be) for Brussels 1946 IRO file — would contain full bio",
+        "Look for Lwów Ostbahn worker records — could find Pesach's surname"
       ],
       "related_people": [
         "p_david"
       ],
-      "confidence": "hypothesis",
+      "confidence": "documented",
       "verdict": {
-        "en": "SOVIET EXILE ROUTE (most likely, not Anders' Army). ~230,000 of ~250,000 Polish Jewish survivors took this route: deported east 1939-40 when Soviets occupied eastern Galicia, spent the war in Soviet interior (Gulag / special-settlement / Central Asian exile), repatriated to Poland 1945-46, joined Bricha westward after the July 1946 Kielce pogrom, reached Brussels DP camp 1946, sailed on Theodor Herzl April 1947. Demographic fit, family-as-unit survival, Theodor Herzl loading from French/Belgian DP camps, and the Nadwórna ghetto being annihilated all rule against in-place hiding and Anders' Army (men-only, ~5,000 Jews total).",
-        "he": "מסלול הגלות הסובייטית (הסביר ביותר, לא צבא אנדרס). כ-230,000 מתוך כ-250,000 ניצולי השואה הפולנים יהודיים שרדו במסלול זה: גורשו מזרחה ב-1939-40 כשהסובייטים כבשו את גליציה המזרחית, בילו את המלחמה בפנים ברית-המועצות (גולג / יישוב מיוחד / גלות מרכז-אסיה), הוחזרו לפולין 1945-46, הצטרפו לבריחה מערבה לאחר פוגרום קיילצה ביולי 1946, הגיעו למחנה העקורים בבריסל ב-1946, והפליגו על תיאודור הרצל באפריל 1947. ההתאמה הדמוגרפית, שרידות המשפחה כיחידה אחת, וטעינת תיאודור הרצל ממחנות העקורים בצרפת ובלגיה — כל אלה שוללים מסתור במקום ואת צבא אנדרס (גברים בלבד, כ-5,000 יהודים סך הכל)."
+        "en": "CORRECTED — David survived 1941-44 IN LWÓW UNDER DISGUISE, not in Soviet exile. Doron's manual 2026-05-21 search of Indeks Represjonowanych (Polish Soviet-deportee DB) returned 21 Rapaports, none matching our David (b.1911 Nadwórna, son of Berisz). The Soviet-exile hypothesis from dossier 21 is disconfirmed at the database level.\n\nLusia's memoir Chapter D page 46 already told us where David was: Lwów, with grown mustache and changed hairstyle, working on Ostbahn (German railroad) track construction with a circumcised-Jewish friend named Pesach. He lived separately from Lusia and Shimon for their joint safety. He met her secretly. After the Soviet liberation of Lwów (July 1944), David travelled west via the Bricha route to Brussels (DP card 1946) → Theodor Herzl ship from Sète 2 April 1947.",
+        "he": "תוקן — דוד שרד 1941-44 בלבוב בתחפושת, ולא בגלות סובייטית. החיפוש הידני של דורון ב-Indeks Represjonowanych ב-21 במאי 2026 החזיר 21 תוצאות 'רפפורט', אף אחת לא תואמת לדוד שלנו (יליד 1911 נדבורנה, בנו של ברישו). השערת הגלות הסובייטית ממסה 21 נשללת ברמת מסד הנתונים. יומן לוסיה פרק ד' עמ' 46 כבר סיפר היכן דוד היה: בלבוב, עם שפם מגודל ותספורת שונה, עבד בבניית מסילות הרכבת של אוסטבאן עם חבר יהודי-נימול בשם פסח."
       },
       "evidence_for": [
-        "~230K of ~250K Polish Jewish survivors took the Soviet exile route — statistical norm",
-        "Family-as-unit survival overwhelmingly indicates Soviet exile (where families stayed together in special settlements)",
-        "Theodor Herzl loaded passengers from French/Belgian DP camps — matches Bricha-routed Polish Jews, NOT Anders veterans who demobilised to UK or stayed in Palestine",
-        "Brussels DP card 1946 fits the Czechoslovakia→Germany→France→Belgium Bricha route (JDC documented)",
-        "Nadwórna ghetto annihilated (Oct 1941 mass shooting, Oct-Nov 1942 final liquidation) — in-place survival statistically near-zero"
+        "Lusia memoir Chapter D page 46: explicit account of David in Lwów with disguise + railroad work + Pesach",
+        "Indeks Represjonowanych 2026-05-21: 21 Rapaports, none matching David Memek (Soviet exile DISCONFIRMED)",
+        "Brussels DP card 1946: confirms David in Brussels by 1946 (consistent with post-1944 Bricha westward)"
       ],
       "evidence_against": [
         "Family recollection of Betar membership could be confused with Anders' Army (only ~5,000 Jews ever served)",
