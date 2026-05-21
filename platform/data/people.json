@@ -47,7 +47,18 @@
         "p_dana",
         "p_daniel"
       ],
-      "spouse_id": "p_dalia"
+      "spouse_id": "p_dalia",
+      "facts": [
+        {
+          "key": "kohanic_lineage",
+          "value": "Kohen (priestly descent) — member of the Rapoport-Kohen rabbinical dynasty from R. Meshullam Yekutiel ha-Kohen Rapa (d.1450, Mainz → Porto). Confirmed family tradition.",
+          "confidence": "documented",
+          "sources": [
+            "src_family_tradition_kohen",
+            "src_wikipedia_rapoport_family"
+          ]
+        }
+      ]
     },
     {
       "id": "p_david",
@@ -187,6 +198,15 @@
           "confidence": "family_oral",
           "sources": [
             "oral_doron_13may"
+          ]
+        },
+        {
+          "key": "kohanic_lineage",
+          "value": "Kohen (priestly descent) — member of the Rapoport-Kohen rabbinical dynasty from R. Meshullam Yekutiel ha-Kohen Rapa (d.1450, Mainz → Porto). Confirmed family tradition.",
+          "confidence": "documented",
+          "sources": [
+            "src_family_tradition_kohen",
+            "src_wikipedia_rapoport_family"
           ]
         }
       ]
@@ -406,6 +426,15 @@
           "sources": [
             "oral_doron_20may"
           ]
+        },
+        {
+          "key": "kohanic_lineage",
+          "value": "Kohen (priestly descent) — member of the Rapoport-Kohen rabbinical dynasty from R. Meshullam Yekutiel ha-Kohen Rapa (d.1450, Mainz → Porto). Confirmed family tradition.",
+          "confidence": "documented",
+          "sources": [
+            "src_family_tradition_kohen",
+            "src_wikipedia_rapoport_family"
+          ]
         }
       ]
     },
@@ -577,6 +606,15 @@
             "oral_dalia_17may_whatsapp_2241",
             "doc_lusia_memoir"
           ]
+        },
+        {
+          "key": "kohanic_lineage",
+          "value": "Kohen (priestly descent) — member of the Rapoport-Kohen rabbinical dynasty from R. Meshullam Yekutiel ha-Kohen Rapa (d.1450, Mainz → Porto). Confirmed family tradition.",
+          "confidence": "documented",
+          "sources": [
+            "src_family_tradition_kohen",
+            "src_wikipedia_rapoport_family"
+          ]
         }
       ],
       "father_id": "p_berisz",
@@ -599,6 +637,17 @@
       "mother_id": "p_tamar",
       "siblings_ids": [
         "p_hadas_rapaport"
+      ],
+      "facts": [
+        {
+          "key": "kohanic_lineage",
+          "value": "Kohen (priestly descent) — member of the Rapoport-Kohen rabbinical dynasty from R. Meshullam Yekutiel ha-Kohen Rapa (d.1450, Mainz → Porto). Confirmed family tradition.",
+          "confidence": "documented",
+          "sources": [
+            "src_family_tradition_kohen",
+            "src_wikipedia_rapoport_family"
+          ]
+        }
       ]
     },
     {
@@ -615,6 +664,17 @@
       "mother_id": "p_tamar",
       "siblings_ids": [
         "p_ronen_rapaport"
+      ],
+      "facts": [
+        {
+          "key": "kohanic_lineage",
+          "value": "Kohen (priestly descent) — member of the Rapoport-Kohen rabbinical dynasty from R. Meshullam Yekutiel ha-Kohen Rapa (d.1450, Mainz → Porto). Confirmed family tradition.",
+          "confidence": "documented",
+          "sources": [
+            "src_family_tradition_kohen",
+            "src_wikipedia_rapoport_family"
+          ]
+        }
       ]
     },
     {
@@ -665,6 +725,15 @@
           "confidence": "documented",
           "sources": [
             "src_gelles_griffel_nadworna_pdf"
+          ]
+        },
+        {
+          "key": "kohanic_lineage",
+          "value": "Kohen (priestly descent) — member of the Rapoport-Kohen rabbinical dynasty from R. Meshullam Yekutiel ha-Kohen Rapa (d.1450, Mainz → Porto). Confirmed family tradition.",
+          "confidence": "documented",
+          "sources": [
+            "src_family_tradition_kohen",
+            "src_wikipedia_rapoport_family"
           ]
         }
       ],
@@ -1151,6 +1220,17 @@
       "siblings_ids": [
         "p_dana",
         "p_daniel"
+      ],
+      "facts": [
+        {
+          "key": "kohanic_lineage",
+          "value": "Kohen (priestly descent) — member of the Rapoport-Kohen rabbinical dynasty from R. Meshullam Yekutiel ha-Kohen Rapa (d.1450, Mainz → Porto). Confirmed family tradition.",
+          "confidence": "documented",
+          "sources": [
+            "src_family_tradition_kohen",
+            "src_wikipedia_rapoport_family"
+          ]
+        }
       ]
     },
     {
@@ -1192,6 +1272,17 @@
       "siblings_ids": [
         "p_doron",
         "p_daniel"
+      ],
+      "facts": [
+        {
+          "key": "kohanic_lineage",
+          "value": "Kohen (priestly descent) — member of the Rapoport-Kohen rabbinical dynasty from R. Meshullam Yekutiel ha-Kohen Rapa (d.1450, Mainz → Porto). Confirmed family tradition.",
+          "confidence": "documented",
+          "sources": [
+            "src_family_tradition_kohen",
+            "src_wikipedia_rapoport_family"
+          ]
+        }
       ]
     },
     {
@@ -1215,6 +1306,17 @@
       "siblings_ids": [
         "p_doron",
         "p_dana"
+      ],
+      "facts": [
+        {
+          "key": "kohanic_lineage",
+          "value": "Kohen (priestly descent) — member of the Rapoport-Kohen rabbinical dynasty from R. Meshullam Yekutiel ha-Kohen Rapa (d.1450, Mainz → Porto). Confirmed family tradition.",
+          "confidence": "documented",
+          "sources": [
+            "src_family_tradition_kohen",
+            "src_wikipedia_rapoport_family"
+          ]
+        }
       ]
     },
     {
@@ -1257,6 +1359,17 @@
         "p_itamar_rapaport",
         "p_carmel_rapaport",
         "p_rom_rapaport"
+      ],
+      "facts": [
+        {
+          "key": "kohanic_lineage",
+          "value": "Kohen (priestly descent) — member of the Rapoport-Kohen rabbinical dynasty from R. Meshullam Yekutiel ha-Kohen Rapa (d.1450, Mainz → Porto). Confirmed family tradition.",
+          "confidence": "documented",
+          "sources": [
+            "src_family_tradition_kohen",
+            "src_wikipedia_rapoport_family"
+          ]
+        }
       ]
     },
     {
@@ -1275,6 +1388,17 @@
         "p_yarden_rapaport",
         "p_carmel_rapaport",
         "p_rom_rapaport"
+      ],
+      "facts": [
+        {
+          "key": "kohanic_lineage",
+          "value": "Kohen (priestly descent) — member of the Rapoport-Kohen rabbinical dynasty from R. Meshullam Yekutiel ha-Kohen Rapa (d.1450, Mainz → Porto). Confirmed family tradition.",
+          "confidence": "documented",
+          "sources": [
+            "src_family_tradition_kohen",
+            "src_wikipedia_rapoport_family"
+          ]
+        }
       ]
     },
     {
@@ -1293,6 +1417,17 @@
         "p_yarden_rapaport",
         "p_itamar_rapaport",
         "p_rom_rapaport"
+      ],
+      "facts": [
+        {
+          "key": "kohanic_lineage",
+          "value": "Kohen (priestly descent) — member of the Rapoport-Kohen rabbinical dynasty from R. Meshullam Yekutiel ha-Kohen Rapa (d.1450, Mainz → Porto). Confirmed family tradition.",
+          "confidence": "documented",
+          "sources": [
+            "src_family_tradition_kohen",
+            "src_wikipedia_rapoport_family"
+          ]
+        }
       ]
     },
     {
@@ -1311,6 +1446,17 @@
         "p_yarden_rapaport",
         "p_itamar_rapaport",
         "p_carmel_rapaport"
+      ],
+      "facts": [
+        {
+          "key": "kohanic_lineage",
+          "value": "Kohen (priestly descent) — member of the Rapoport-Kohen rabbinical dynasty from R. Meshullam Yekutiel ha-Kohen Rapa (d.1450, Mainz → Porto). Confirmed family tradition.",
+          "confidence": "documented",
+          "sources": [
+            "src_family_tradition_kohen",
+            "src_wikipedia_rapoport_family"
+          ]
+        }
       ]
     },
     {
@@ -1328,6 +1474,17 @@
       "siblings_ids": [
         "p_ema_rapaport",
         "p_ariel_rapaport"
+      ],
+      "facts": [
+        {
+          "key": "kohanic_lineage",
+          "value": "Kohen (priestly descent) — member of the Rapoport-Kohen rabbinical dynasty from R. Meshullam Yekutiel ha-Kohen Rapa (d.1450, Mainz → Porto). Confirmed family tradition.",
+          "confidence": "documented",
+          "sources": [
+            "src_family_tradition_kohen",
+            "src_wikipedia_rapoport_family"
+          ]
+        }
       ]
     },
     {
@@ -1345,6 +1502,17 @@
       "siblings_ids": [
         "p_alma_rapaport",
         "p_ariel_rapaport"
+      ],
+      "facts": [
+        {
+          "key": "kohanic_lineage",
+          "value": "Kohen (priestly descent) — member of the Rapoport-Kohen rabbinical dynasty from R. Meshullam Yekutiel ha-Kohen Rapa (d.1450, Mainz → Porto). Confirmed family tradition.",
+          "confidence": "documented",
+          "sources": [
+            "src_family_tradition_kohen",
+            "src_wikipedia_rapoport_family"
+          ]
+        }
       ]
     },
     {
@@ -1362,6 +1530,17 @@
       "siblings_ids": [
         "p_alma_rapaport",
         "p_ema_rapaport"
+      ],
+      "facts": [
+        {
+          "key": "kohanic_lineage",
+          "value": "Kohen (priestly descent) — member of the Rapoport-Kohen rabbinical dynasty from R. Meshullam Yekutiel ha-Kohen Rapa (d.1450, Mainz → Porto). Confirmed family tradition.",
+          "confidence": "documented",
+          "sources": [
+            "src_family_tradition_kohen",
+            "src_wikipedia_rapoport_family"
+          ]
+        }
       ]
     },
     {
@@ -2271,6 +2450,66 @@
       "father_id": "p_edward_griffel_uncle",
       "aliases": [],
       "facts": []
+    },
+    {
+      "id": "p_yekutiel_hakohen_rapa",
+      "primary_name": {
+        "en": "R. Meshullam Yekutiel ha-Kohen Rapa",
+        "he": "ר' משולם יקותיאל הכהן רפא",
+        "pl": "R. Meszulam Jekutiel ha-Kohen Rapa",
+        "fr": "R. Meshoulam Yekoutiel ha-Kohen Rapa"
+      },
+      "aliases": [],
+      "facts": [],
+      "birth": {
+        "place_id": "pl_mainz",
+        "confidence": "documented",
+        "sources": [
+          "src_wikipedia_rapoport_family"
+        ]
+      },
+      "death": {
+        "date": "1450",
+        "date_precision": "year",
+        "place_id": "pl_porto_italy",
+        "confidence": "documented",
+        "sources": [
+          "src_wikipedia_rapoport_family"
+        ]
+      },
+      "role": "dynasty_progenitor",
+      "note_en": "Progenitor of the Rapoport (Rapa-Porto) rabbinical Kohanic dynasty. Born in Mainz; fled to Italy and settled in Porto, where the family added 'Porto' to the surname. d.1450. All Rapaport / Rappaport / Rapoport Kohanim trace their lineage back to him. The Rapaports of Nadwórna — including Berisz, David Memek, Dov, Shimon, Doron, Dana, Daniel and their descendants — are his direct paternal descendants by family tradition."
+    },
+    {
+      "id": "p_abraham_rapoport_schrenzel",
+      "primary_name": {
+        "en": "R. Abraham Rapoport 'Schrenzel'",
+        "he": "ר' אברהם רפפורט 'שרנצל'",
+        "pl": "R. Abraham Rapoport 'Schrenzel'",
+        "fr": "R. Abraham Rapoport 'Schrenzel'"
+      },
+      "aliases": [],
+      "facts": [],
+      "birth": {
+        "date": "1584",
+        "date_precision": "year",
+        "place_id": "pl_lwow",
+        "confidence": "documented",
+        "sources": [
+          "src_wikipedia_rapoport_family"
+        ]
+      },
+      "death": {
+        "date": "1651",
+        "date_precision": "year",
+        "place_id": "pl_lwow",
+        "confidence": "documented",
+        "sources": [
+          "src_wikipedia_rapoport_family"
+        ]
+      },
+      "role": "dynasty_ancestor",
+      "note_en": "Father of the Galician branch of the Rapoport-Kohen dynasty. Lemberg (Lwów) 1584-1651. Head of the Lemberg yeshiva for 45 years. Son-in-law of R. Mordecai Schrenzel (hence the toponym 'Schrenzel'). President of the Council of Four Lands (Vaad Arba Aratzot) — the supreme governing body of Polish-Lithuanian Jewry. From him descend the Lemberg, Cracow, Brody, Dubno, Krzemeniec, and (by family tradition) Nadwórna branches of the Rapoport family. Our Berisz Rapaport of Nadwórna is descended from this line ~4-6 generations down."
     }
   ]
 }

@@ -360,6 +360,42 @@
         "now": "Capital of the United Kingdom"
       },
       "note_en": "Home of cousin Edward Gelles (b.1927), the published genealogist of our maternal Griffel-Nadwórna dynasty."
+    },
+    {
+      "id": "pl_mainz",
+      "names": {
+        "en": "Mainz, Germany",
+        "he": "מיינץ, גרמניה",
+        "pl": "Moguncja",
+        "fr": "Mayence",
+        "de": "Mainz"
+      },
+      "coords": [
+        50.0,
+        8.2711
+      ],
+      "era_context": {
+        "15th_century": "Free imperial city of Mainz, Holy Roman Empire — original home of R. Meshullam Yekutiel ha-Kohen Rapa, progenitor of the Rapoport dynasty, before he fled to Italy."
+      },
+      "note_en": "Original home of the Rapoport dynasty progenitor in the 15th century, before the family fled to Italy."
+    },
+    {
+      "id": "pl_porto_italy",
+      "names": {
+        "en": "Porto, Italy",
+        "he": "פורטו, איטליה",
+        "pl": "Porto",
+        "fr": "Porto",
+        "it": "Porto"
+      },
+      "coords": [
+        45.1,
+        11.3
+      ],
+      "era_context": {
+        "15th_century": "Jewish refugee community in Italy. R. Meshullam Yekutiel ha-Kohen Rapa (d.1450) settled here from Mainz. His descendants added 'Porto' to their surname — hence Rapa-Porto / Rapoport."
+      },
+      "note_en": "Where the Rapoport family takes its name. The dynasty's founder settled here after fleeing Mainz."
     }
   ]
 }
