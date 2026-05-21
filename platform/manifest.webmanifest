@@ -2,7 +2,7 @@
   "name": "Rapaport Family Tree",
   "short_name": "Rapaport",
   "description": "Private genealogy archive — Galicia to Brussels to Israel · 1888-2026",
-  "id": "/rapaport-family-tree/",
+  "id": "/",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
