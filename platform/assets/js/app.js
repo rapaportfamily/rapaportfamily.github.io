@@ -1192,6 +1192,40 @@ document.addEventListener('click', e => {
   if (btn) setLang(btn.dataset.lang);
 });
 
+// Mobile nav drawer — hamburger toggles, backdrop closes, links close
+(function wireNavDrawer() {
+  const closeDrawer = () => {
+    const nav = document.querySelector('.primary-nav');
+    const bd = document.getElementById('nav-backdrop');
+    const btn = document.getElementById('nav-toggle');
+    if (nav) nav.classList.remove('open');
+    if (bd) { bd.classList.remove('open'); bd.hidden = true; }
+    if (btn) btn.setAttribute('aria-expanded', 'false');
+  };
+  const openDrawer = () => {
+    const nav = document.querySelector('.primary-nav');
+    const bd = document.getElementById('nav-backdrop');
+    const btn = document.getElementById('nav-toggle');
+    if (nav) nav.classList.add('open');
+    if (bd) { bd.hidden = false; bd.classList.add('open'); }
+    if (btn) btn.setAttribute('aria-expanded', 'true');
+  };
+  document.addEventListener('click', e => {
+    if (e.target.closest('#nav-toggle')) {
+      const open = document.querySelector('.primary-nav')?.classList.contains('open');
+      open ? closeDrawer() : openDrawer();
+      return;
+    }
+    if (e.target.closest('#nav-backdrop')) { closeDrawer(); return; }
+    // Clicking any nav link auto-closes the drawer (mobile UX)
+    if (e.target.closest('.nav-inner a')) closeDrawer();
+  });
+  // Close drawer when language switches or route changes
+  window.addEventListener('hashchange', closeDrawer);
+  // Close on Escape key
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDrawer(); });
+})();
+
 (async function init() {
   try {
     await loadAll();
