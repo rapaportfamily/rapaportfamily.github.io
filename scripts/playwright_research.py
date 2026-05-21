@@ -480,6 +480,121 @@ async def indeks(browser):
         await ctx.close()
 
 
+# ── SITE 9: JDC Names Index (Bricha + DP-camp + Brussels 1946) ────────
+async def jdc(browser):
+    site = "jdc"
+    _safe_print(f"\n[{site}] Searching JDC Names Index via the actual form…")
+    ctx = await browser.new_context(user_agent=UA)
+    page = await ctx.new_page()
+    queries = [
+        ("Rapaport", "David"),
+        ("Rapoport", "David"),
+        ("Rapaport", "Dawid"),
+        ("Rapaport", ""),
+        ("Weitzner", ""),
+        ("Goldfischer", ""),
+    ]
+    all_results = []
+    try:
+        # JDC's actual Names Index search is at archive-search.jdc.org or a similar
+        # subdomain. From the homepage, click the "DATABASE" link in the nav.
+        await page.goto("https://archives.jdc.org/", wait_until="domcontentloaded", timeout=30000)
+        await page.wait_for_timeout(3000)
+        # Find every link that mentions database / names / search
+        candidates = await page.evaluate("""() => {
+            const out = [];
+            for (const a of document.querySelectorAll('a')) {
+                const txt = (a.textContent || '').trim().toLowerCase();
+                const href = a.href || '';
+                if (txt === 'database' || txt === 'databases' ||
+                    href.includes('names-index') || href.includes('search.jdc') ||
+                    href.includes('database') || txt.includes('search names')) {
+                    out.push({ text: a.textContent.trim(), href });
+                }
+            }
+            return out;
+        }""")
+        _safe_print(f"  candidate database links found: {len(candidates)}")
+        for c in candidates[:8]:
+            _safe_print(f"    - {c['text']!r} -> {c['href']}")
+        # Prefer search.archives.jdc.org explicitly
+        search_url = None
+        for c in candidates:
+            if "search.archives.jdc.org" in c["href"]:
+                search_url = c["href"]
+                break
+        if not search_url:
+            for c in candidates:
+                if c["text"].strip().lower() == "database":
+                    search_url = c["href"]
+                    break
+        if not search_url:
+            search_url = "https://search.archives.jdc.org/"
+        _safe_print(f"  Selected search URL: {search_url}")
+        # Step 2: navigate to the search page itself
+        if search_url:
+            await page.goto(search_url, wait_until="domcontentloaded", timeout=30000)
+            await page.wait_for_timeout(4000)
+            # Capture the search form HTML for debugging
+            form_html = await page.content()
+        # Step 3: run queries by filling the form
+        for last, first in queries:
+            _safe_print(f"  searching: {first} {last}")
+            try:
+                if search_url:
+                    await page.goto(search_url, wait_until="domcontentloaded", timeout=30000)
+                    await page.wait_for_timeout(3000)
+                # Try common last-name input selectors
+                filled = False
+                for sel in [
+                    'input[name*="last"]', 'input[name*="surname"]',
+                    'input[id*="last"]', 'input[placeholder*="last" i]',
+                    'input[placeholder*="surname" i]', 'input[name="q"]',
+                    'input[type="search"]'
+                ]:
+                    try:
+                        await page.fill(sel, last, timeout=2000)
+                        filled = True
+                        break
+                    except Exception:
+                        pass
+                if first and filled:
+                    for sel in [
+                        'input[name*="first"]', 'input[name*="given"]',
+                        'input[id*="first"]', 'input[placeholder*="first" i]'
+                    ]:
+                        try:
+                            await page.fill(sel, first, timeout=2000)
+                            break
+                        except Exception:
+                            pass
+                # Submit
+                try:
+                    await page.locator('button[type="submit"], input[type="submit"]').first.click(timeout=3000)
+                except Exception:
+                    await page.keyboard.press("Enter")
+                await page.wait_for_load_state("domcontentloaded", timeout=30000)
+                await page.wait_for_timeout(4500)
+                text = await page.locator("body").inner_text()
+                import re
+                count_match = re.search(r"(\d[\d,]*)\s+(?:results?|matches|records?|found)", text, re.IGNORECASE)
+                count_str = count_match.group(0) if count_match else None
+                lines = [ln.strip() for ln in text.splitlines() if last.lower() in ln.lower()][:30]
+                all_results.append({
+                    "query": {"last": last, "first": first},
+                    "url": page.url,
+                    "filled": filled,
+                    "result_count": count_str,
+                    "matching_lines": lines,
+                    "page_snippet": text[:2500],
+                })
+            except Exception as e:
+                all_results.append({"query": {"last": last, "first": first}, "error": str(e)})
+        await _save(site, {"queries": queries, "discovered_search_url": search_url}, all_results, page=page)
+    finally:
+        await ctx.close()
+
+
 SITES = {
     "ushmm":     ushmm,
     "yadvashem": yadvashem,
@@ -489,6 +604,7 @@ SITES = {
     "jpress":    jpress,
     "billiongraves": billiongraves,
     "indeks":    indeks,
+    "jdc":       jdc,
 }
 
 

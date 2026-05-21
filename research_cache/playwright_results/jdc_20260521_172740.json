@@ -1,0 +1,101 @@
+{
+  "site": "jdc",
+  "timestamp": "20260521_172740",
+  "query": {
+    "queries": [
+      [
+        "Rapaport",
+        "David"
+      ],
+      [
+        "Rapoport",
+        "David"
+      ],
+      [
+        "Rapaport",
+        "Dawid"
+      ],
+      [
+        "Rapaport",
+        ""
+      ],
+      [
+        "Weitzner",
+        ""
+      ],
+      [
+        "Goldfischer",
+        ""
+      ]
+    ],
+    "discovered_search_url": "https://search.archives.jdc.org/"
+  },
+  "result": [
+    {
+      "query": {
+        "last": "Rapaport",
+        "first": "David"
+      },
+      "url": "https://search.archives.jdc.org/",
+      "filled": false,
+      "result_count": null,
+      "matching_lines": [],
+      "page_snippet": "search.archives.jdc.org\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: 9ff43f95cf8845fd\nPerformance and Security by Cloudflare\nPrivacy"
+    },
+    {
+      "query": {
+        "last": "Rapoport",
+        "first": "David"
+      },
+      "url": "https://search.archives.jdc.org/",
+      "filled": false,
+      "result_count": null,
+      "matching_lines": [],
+      "page_snippet": "search.archives.jdc.org\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: 9ff440385b1b45fd\nPerformance and Security by Cloudflare\nPrivacy"
+    },
+    {
+      "query": {
+        "last": "Rapaport",
+        "first": "Dawid"
+      },
+      "url": "https://search.archives.jdc.org/",
+      "filled": false,
+      "result_count": null,
+      "matching_lines": [],
+      "page_snippet": "search.archives.jdc.org\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: 9ff440db1acf45fd\nPerformance and Security by Cloudflare\nPrivacy"
+    },
+    {
+      "query": {
+        "last": "Rapaport",
+        "first": ""
+      },
+      "url": "https://search.archives.jdc.org/",
+      "filled": false,
+      "result_count": null,
+      "matching_lines": [],
+      "page_snippet": "search.archives.jdc.org\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: 9ff4417d9f2645fd\nPerformance and Security by Cloudflare\nPrivacy"
+    },
+    {
+      "query": {
+        "last": "Weitzner",
+        "first": ""
+      },
+      "url": "https://search.archives.jdc.org/",
+      "filled": false,
+      "result_count": null,
+      "matching_lines": [],
+      "page_snippet": "search.archives.jdc.org\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: 9ff442200f1d45fd\nPerformance and Security by Cloudflare\nPrivacy"
+    },
+    {
+      "query": {
+        "last": "Goldfischer",
+        "first": ""
+      },
+      "url": "https://search.archives.jdc.org/",
+      "filled": false,
+      "result_count": null,
+      "matching_lines": [],
+      "page_snippet": "search.archives.jdc.org\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: 9ff442c25b0545fd\nPerformance and Security by Cloudflare\nPrivacy"
+    }
+  ]
+}

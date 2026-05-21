@@ -11,12 +11,12 @@
       "cards": [
         {
           "id": "david_indeks_jdc_manual_search_instructions",
-          "title_en": "📋 Doron's 5-minute manual search list — Indeks Represjonowanych + JDC Bricha (will resolve Soviet-exile hypothesis)",
-          "title_he": "📋 רשימת חיפוש ידני 5 דקות לדורון — Indeks Represjonowanych + ג'וינט בריחה (יפתור את השערת הגלות הסובייטית)",
+          "title_en": "✅ 1 of 2 done — Indeks NULL confirmed; JDC Cloudflare blocks bots, user must run manually",
+          "title_he": "✅ 1 מתוך 2 הושלמו — Indeks אומת ריק; JDC חסום בקלאודפלייר, על המשתמש לבצע ידנית",
           "status": "lead",
-          "summary_en": "Both crucial databases (IPN Indeks Represjonowanych for Polish Soviet deportees + JDC Names Index for Bricha 1946 transit) sit behind JavaScript search forms that automated agents cannot reach (Google doesn't index their result detail pages). Doron must run these manually — 5 minutes each, free. A hit on EITHER database is conclusive proof of David's Soviet-exile → Bricha → Brussels DP trajectory.\n\nStep-by-step (run in this order, both in browser):\n\n1. **Indeks Represjonowanych** — go to https://indeksrepresjonowanych.pl/wyszukiwanie\n   - Nazwisko (surname): try in turn Rapaport, Rapoport, Rappaport, Rapaport\n   - Imię (given name): Dawid (then blank, then David)\n   - Rok urodzenia (birth year): 1911 (then sweep 1909-1913)\n   - Steve Morse English wrapper available at https://stevemorse.org/siberia/siberia.html\n   - If a hit: click through to the /szczegoly/{uuid} page for deportation date, NKVD source-list (1940 Feb/Apr/Jun/Jul waves, Anders roster, Gulag list, etc.)\n\n2. **JDC Names Index** — go to https://names.archives.jdc.org\n   - Last Name: Rapaport, Rapoport, Rappaport\n   - First Name: David, Dawid\n   - Narrow to Bricha / Czechoslovakia 1946 / Nachod / Bratislava / Brussels\n   - A hit on a 1946 Czech transit list = the smoking gun\n\nDECOYS already ruled out (do not be misled): Czech Terezín victim 'David Rappaport b.1907' (Holocaust.cz ID 56593); Baranowicze victim 'David Rapaport' (Yad Vashem ID 13213602); 'David Simkha Rapaport' Shoah victim (Yad Vashem ID 9843056); the 1891-born Memorial Russia entry; the Hungarian-American psychologist David Rapaport (1911-1960, Hungary-born).",
-          "summary_he": "שני מסדי הנתונים הקריטיים (IPN Indeks Represjonowanych לגולים-סובייטים פולנים + מאגר השמות של הג'וינט לבריחה 1946) יושבים מאחורי טפסי חיפוש JavaScript שסוכנים אוטומטיים לא יכולים להגיע אליהם. דורון חייב להריץ אותם ידנית — 5 דקות לכל אחד, חינם. תוצאה באחד מהם היא הוכחה ניצחת למסלולו של דוד: גלות סובייטית → בריחה → מחנה עקורים בריסל. הוראות צעד אחר צעד בטקסט האנגלי.",
-          "action_item_en": "RUN THESE TWO SEARCHES NOW (5 min each): https://indeksrepresjonowanych.pl/wyszukiwanie + https://names.archives.jdc.org. A hit resolves dossier 21's central hypothesis.",
+          "summary_en": "STATUS 2026-05-21 update:\n\n✅ Step 1 DONE: Doron manually searched Indeks Represjonowanych and confirmed 21 Rapaports total, none matching David Memek b.1911 Nadwórna. Soviet-exile hypothesis disconfirmed. The memoir-derived in-Lwów-under-disguise account becomes the leading reconstruction (see card david_soviet_exile_route_hypothesis for the corrected story).\n\n⚠️ Step 2 BLOCKED for automation: search.archives.jdc.org sits behind Cloudflare bot detection (Ray ID errors on Playwright). User must run this manually in normal Chrome:\n\n   • URL: https://search.archives.jdc.org/\n   • Last name: Rapaport → Search\n   • Repeat with Rapoport, Weitzner, Goldfischer\n   • Narrow by collection: Bricha lists / Czechoslovakia 1946 / Nachod / Bratislava / Brussels Emigration Service\n\nA David Rapaport hit on the Czech 1946 transit lists confirms the Lwów→Brussels Bricha westward route after the July 1944 Soviet liberation of Lwów. Absence is also informative — would suggest a different post-1944 path west.",
+          "summary_he": "עדכון מצב 2026-05-21: ✅ שלב 1 הושלם: דורון חיפש ידנית ב-Indeks Represjonowanych ואישר 21 רפפורט סך הכל, אף אחד לא תואם לדוד ממק יליד 1911 נדבורנה. השערת הגלות הסובייטית נשללה. הסיפור מהיומן (בלבוב בתחפושת) הופך לשחזור המוביל. ⚠️ שלב 2 חסום לאוטומציה: search.archives.jdc.org מאחורי הגנת בוטים של קלאודפלייר. על המשתמש להריץ ידנית בכרום רגיל.",
+          "action_item_en": "Run https://search.archives.jdc.org/ in your normal Chrome for: Rapaport / Rapoport / Weitzner / Goldfischer",
           "source": "Deep-research agent + cross-source decoy-elimination 2026-05-21",
           "urls": [
             "https://indeksrepresjonowanych.pl/wyszukiwanie",
@@ -2097,5 +2097,5 @@
       ]
     }
   ],
-  "build_version": "2026-05-21-T29-david-lwow-disguise-correction"
+  "build_version": "2026-05-21-T30-jdc-cloudflare-blocked-user-must-run"
 }
