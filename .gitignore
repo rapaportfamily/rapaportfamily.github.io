@@ -35,3 +35,5 @@ data/archive_searches/
 
 # Heartbeats are local-only working files (use commit messages instead)
 CC_HEARTBEAT.local.md
+tmp_*.cookies
+*.cookies
