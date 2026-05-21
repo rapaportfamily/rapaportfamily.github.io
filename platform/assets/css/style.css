@@ -171,12 +171,13 @@ html[dir="rtl"] .brand-title { font-family: var(--font-hebrew); }
   padding: 0 var(--pad-lg);
   display: flex;
   gap: 0;
+  flex-wrap: wrap;
   overflow-x: auto;
   scrollbar-width: none;
 }
 .nav-inner::-webkit-scrollbar { display: none; }
 .nav-inner a {
-  padding: 0.7rem 1rem;
+  padding: 0.7rem 0.85rem;
   color: var(--muted);
   font-size: 0.88rem;
   font-weight: 500;
