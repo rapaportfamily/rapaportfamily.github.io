@@ -1070,7 +1070,8 @@ function renderResearch(root, param) {
               <a href="${escapeHtml(c.map.street_view)}" target="_blank" rel="noopener" class="rc-map-btn">🚶 ${escapeHtml(svLabel)}</a>
               <span class="rc-map-coords">${escapeHtml(placeLabel)} <span class="rc-credit">(${lat.toFixed(4)}, ${lng.toFixed(4)})</span></span>
             </div>
-            <iframe class="rc-map-iframe" src="${escapeHtml(c.map.osm_embed)}" loading="lazy" referrerpolicy="no-referrer"></iframe>
+            <iframe class="rc-map-iframe" src="${escapeHtml(c.map.osm_embed)}" loading="lazy" referrerpolicy="no-referrer" title="OpenStreetMap"></iframe>
+            ${c.map.google_streetview_embed ? `<div class="rc-streetview-label">${escapeHtml(lang === 'he' ? 'איך זה נראה היום — תצוגת רחוב של גוגל' : (lang === 'pl' ? 'Jak to wygląda dziś — Google Street View' : (lang === 'fr' ? 'Comment cela apparaît aujourd\'hui — Google Street View' : 'How it looks today — Google Street View')))}</div><iframe class="rc-map-iframe rc-streetview-iframe" src="${escapeHtml(c.map.google_streetview_embed)}" loading="lazy" referrerpolicy="no-referrer" title="Street View"></iframe>` : ''}
           </div>
         `;
       }

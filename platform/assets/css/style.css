@@ -1303,9 +1303,19 @@ html[dir="rtl"] .rc-map-coords { margin-left: 0; margin-right: 0.5em; }
   border: 1px solid var(--rule);
   border-radius: 4px;
   background: #e8e4d8;
+  margin-top: 0.4rem;
+}
+.rc-streetview-iframe { height: 340px; }
+.rc-streetview-label {
+  margin-top: 0.7rem;
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--ink-faint);
+  text-align: center;
 }
 @media (max-width: 720px) {
   .rc-map-iframe { height: 220px; }
+  .rc-streetview-iframe { height: 260px; }
 }
 
 .rc-images {
