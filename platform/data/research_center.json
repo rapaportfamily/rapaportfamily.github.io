@@ -1,0 +1,474 @@
+{
+  "_schema": "Consolidated research findings. Each section has cards that are expandable in the UI. status: confirmed (we have a document/citation), likely (strong evidence but not yet a primary source in hand), lead (worth chasing).",
+  "generated": "2026-05-21",
+  "sections": [
+    {
+      "id": "headline_finds",
+      "title_en": "Headline Findings",
+      "title_he": "ממצאי מפתח",
+      "intro_en": "The most consequential discoveries from the 2026-05-21 deep research pass. These are documentary, externally-verifiable links between our family memory and the public historical record.",
+      "intro_he": "הממצאים החשובים ביותר ממחקר העומק של 21.5.2026 — קישורים מתועדים בין זיכרון המשפחה לרשומה ההיסטורית הציבורית.",
+      "cards": [
+        {
+          "id": "bolechow_yizkor_naming",
+          "title_en": "1957 Bolechów Yizkor names \"D. Rapaport, Eli Weitzner's son-in-law\"",
+          "title_he": "ספר היזכור של בולחוב 1957 — \"ד. רפפורט, חתנו של אלי וייצנר\"",
+          "status": "confirmed",
+          "summary_en": "The Bolechów memorial book published in 1957 directly names D. Rapaport as Eli Weitzner's son-in-law and a Revisionist Zionist organiser in Bolechów. This is documentary, third-party confirmation of David's marriage to a Weitzner daughter and his Betar/Revisionist activism — printed 69 years ago.",
+          "summary_he": "ספר היזכור של בולחוב שיצא ב-1957 קורא במפורש לד. רפפורט בשם 'חתנו של אלי וייצנר' ופעיל רוויזיוניסטי בבולחוב. תיעוד מ-1957, אישור עצמאי שדוד נישא לבת וייצנר ושהיה פעיל בית\"רי.",
+          "quote_en": "D. Rapaport, who was Eli Weitzner's son-in-law, helped the Revisionist movement grow in Bolechow. The Revisionist ranks were organized with adults in 'Hatza'r', young workers and students in 'Massadah', and the youngest in 'Betar'.",
+          "source": "Sefer ha-zikaron le-kedoshei Bolechow, Y. Eshel ed., 1957 — Yiddish page 278",
+          "urls": [
+            "https://www.jewishgen.org/yizkor/Bolekhov/bol278.html",
+            "https://www.jewishgen.org/yizkor/indices/Bolekhiv_index.pdf"
+          ]
+        },
+        {
+          "id": "griffel_chajes_dynasty",
+          "title_en": "Rebeka Griffel b.1888 = direct sister of Dawid Mendel Griffel (Nadwórna timber-and-oil magnate)",
+          "title_he": "רבקה גריפל ילידת 1888 = אחות ישירה של דוד מנדל גריפל (איל עץ ונפט מנדבורנה)",
+          "status": "likely",
+          "summary_en": "The Geni profile of Dawid Mendel Griffel (1875-1941) explicitly lists \"Rebeka Rapaport\" as his sister. Their father was Eliezer Griffel (1850-1918), head of the Nadwórna Jewish community and a major timber-and-oil businessman. Their mother was Sarah Matel Chajes of Kolomea, of the Chajes rabbinical dynasty. David \"Memek\" Rapaport (b.1911-12-25) was named after his maternal uncle. The family is therefore documented part of the extended Gelles-Griffel-Chajes-Wahl Galician dynasty, researched in depth by Edward Gelles at Balliol College, Oxford.",
+          "summary_he": "פרופיל ג'יני של דוד מנדל גריפל (1875-1941) מציין במפורש את 'רבקה רפפורט' כאחותו. אביהם היה אליעזר גריפל (1850-1918), ראש קהילת נדבורנה ובעל עסקי עץ ונפט. אמם הייתה שרה מאטל חיות מקולומיאה, מאילן היוחסין הרבני של החיות. דוד 'ממק' רפפורט (יליד 25.12.1911) נקרא על שם דודו דוד מנדל גריפל.",
+          "source": "Geni.com + Edward Gelles, \"Griffel of Nadworna\" (Balliol College Oxford archives)",
+          "urls": [
+            "https://www.geni.com/people/Dawid-David-Griffel/6000000002133380964",
+            "http://archives.balliol.ox.ac.uk/Modern%20Papers/gelles/Griffel%20of%20Nadworna.pdf",
+            "https://archives.balliol.ox.ac.uk/Modern%20Papers/gelles/An%20Ancient%20Lineage%20-%20%20%20Edward%20Gellles%20%20-%20%20INDEX.pdf"
+          ]
+        },
+        {
+          "id": "nadworna_first_betar",
+          "title_en": "Nadwórna hosted the FIRST Beitar hachshara (training farm) in Poland — 1929",
+          "title_he": "נדבורנה הייתה בית ההכשרה הראשון של בית\"ר בפולין — 1929",
+          "status": "confirmed",
+          "summary_en": "Yad Vashem's Valley of the Communities entry for Nadwórna states: \"The first Beitar hachshara (training farm) in Poland was established in Nadwórna in 1929.\" David Rapaport was 17-18 at the founding — almost certainly a founding member.",
+          "summary_he": "ערך 'עמק הקהילות' של יד ושם על נדבורנה: 'בית ההכשרה הראשון של בית\"ר בפולין הוקם בנדבורנה ב-1929'. דוד היה אז בן 17-18 — כמעט בוודאות חבר מייסד.",
+          "source": "Yad Vashem — Valley of the Communities, Nadwórna",
+          "urls": [
+            "https://www.yadvashem.org/yv/en/exhibitions/valley/nadworna/before_holocaust.asp"
+          ]
+        },
+        {
+          "id": "foresta_zetperol",
+          "title_en": "The Nadwórna timber industry was Jewish-owned — Foresta + Zetperol",
+          "title_he": "תעשיית העץ של נדבורנה הייתה בבעלות יהודית — חברות פורסטה וזטפרול",
+          "status": "confirmed",
+          "summary_en": "Pre-war Nadwórna had two major Jewish-owned timber operations: \"Foresta\" leased state woodlands and exported timber (all owners and workers Jewish; contract cancelled 1937 under antisemitic pressure), and \"Zetperol\" (early 1920s) supplied packing-crate timber. Under German occupation 1941-42, ~600 Jews worked daily at the Nadwórna sawmill — David was one of them.",
+          "summary_he": "לפני המלחמה היו בנדבורנה שני מפעלי עץ יהודיים גדולים: 'פורסטה' (חכירת יערות מהמדינה הפולנית — בעלים ועובדים יהודים, החוזה בוטל ב-1937 בלחץ אנטישמי) ו'זטפרול' (תחילת שנות העשרים — עץ לאריזות יצוא). תחת הכיבוש הגרמני 1941-42 כ-600 יהודים עבדו במנסרת נדבורנה — דוד היה אחד מהם.",
+          "source": "Yad Vashem + Pinkas Hakehillot Polin: Nadvirna (JewishGen)",
+          "urls": [
+            "https://www.yadvashem.org/communities/nadworna/before-holocaust.html",
+            "https://www.jewishgen.org/yizkor/pinkas_poland/pol2_00328.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "living_cousins",
+      "title_en": "🚨 LIVING BLOOD RELATIVES IDENTIFIED",
+      "title_he": "🚨 קרובי דם חיים שזוהו",
+      "intro_en": "Documented living descendants of Eliezer Griffel + Sarah Matel Chajes — i.e., they share Dov Rapaport's great-great-grandparents. These are not distant theory — they are findable, often on LinkedIn or with public author pages, and several have published memoirs about the same Galicia world. Reaching out to them could yield family photographs, oral history, and unpublished correspondence about Memek and Rivka.",
+      "intro_he": "צאצאים חיים מתועדים של אליעזר גריפל ושרה מאטל חיות — הם חולקים את אבות-הסבים של דב רפפורט. אינם קרובים תיאורטיים — ניתן למצוא אותם בפועל, חלקם בלינקדאין או בדפי מחברים פומביים, וכמה מהם פרסמו ספרי זיכרונות על אותה גליציה. פנייה אליהם עשויה להניב צילומי משפחה, היסטוריה בעל-פה והתכתבויות לא-פורסמות על ממק ורבקה.",
+      "cards": [
+        {
+          "id": "cousin_steven_lamm",
+          "title_en": "Dr Steven Lamm, MD — NYC (2nd cousin once removed)",
+          "status": "confirmed",
+          "summary_en": "Born 1948. NYU Langone Health, Manhattan — medical director of the Preston Robert Tisch Center for Men's Health. Author of The Hardness Factor, No Guts No Glory, The Virility Solution. Regular Today Show medical contributor in the 2000s. Line: Eliezer Griffel → Zissel Griffel-Lamm → Arnold Lamm → Steven Lamm.",
+          "summary_he": "יליד 1948. NYU Langone Health, מנהטן — מנהל רפואי של מרכז Preston Robert Tisch לבריאות הגבר. מחבר ספרים רפואיים. שושלת: אליעזר גריפל → זיסל גריפל-לאם → ארנולד לאם → סטיבן לאם.",
+          "source": "Edward Gelles, Griffel of Nadworna",
+          "urls": ["https://nyulangone.org/doctors/1750329996/steven-lamm"]
+        },
+        {
+          "id": "cousin_andrew_griffel",
+          "title_en": "Andrew Griffel — NYC / Israel (2nd cousin once removed)",
+          "status": "confirmed",
+          "summary_en": "International attorney, former IDF Military Judge, Hidden Child Holocaust survivor (parents survived in Poland). Times of Israel blogger. Line: Eliezer Griffel → Isaac Chaim Griffel → Yehoshua Heshel \"Henry\" Griffel → Andrew.",
+          "summary_he": "עורך דין בינלאומי, לשעבר שופט בית דין צבאי. ניצול שואה 'ילד מוסתר' (הוריו ניצלו בפולין). מבלוג Times of Israel. שושלת: אליעזר גריפל → יצחק חיים גריפל → יהושע השל 'הנרי' גריפל → אנדרו.",
+          "source": "Edward Gelles, Griffel of Nadworna",
+          "urls": [
+            "https://www.linkedin.com/in/andrew-griffel-b5680623/",
+            "https://www.timesofisrael.com/writers/andrew-griffel/"
+          ]
+        },
+        {
+          "id": "cousin_pinhas_heyn",
+          "title_en": "Pinhas Heyn / Pinchas Hain — Israel (3rd cousin)",
+          "status": "likely",
+          "summary_en": "Edward Gelles's autosomal-DNA-confirmed cousin in Israel. Line: Eliezer Griffel → Chaya Griffel-Gruenfeld → Sima Gruenfeld-Blau → Clara Blau-Heyn → Pinhas.",
+          "summary_he": "בן דוד של אדוארד גלס שאומת באמצעות בדיקת DNA. גר בישראל. שושלת: אליעזר גריפל → חיה גריפל-גרינפלד → סימה גרינפלד-בלאו → קלרה בלאו-היין → פנחס.",
+          "source": "Edward Gelles, Facets of My Family History"
+        },
+        {
+          "id": "cousin_haim_gelles",
+          "title_en": "Haim Gelles + Avi Gelles — UK / Israel (Edward Gelles's son + grandson)",
+          "status": "confirmed",
+          "summary_en": "Named explicitly in Edward Gelles's Griffel of Nadworna PDF as \"my son Haim, his spouse Shevi, and Avi\". Contact via Balliol Archives (archives@balliol.ox.ac.uk).",
+          "summary_he": "מצוינים במפורש ב-PDF של גלס כ'בני חיים, אשתו שבי ואבי'. ליצירת קשר דרך ארכיון Balliol.",
+          "source": "Edward Gelles, Griffel of Nadworna",
+          "urls": ["mailto:archives@balliol.ox.ac.uk"]
+        },
+        {
+          "id": "cousin_boruch_griffel",
+          "title_en": "Boruch Griffel — Jerusalem",
+          "status": "likely",
+          "summary_en": "Son of Shmuel Shmelke Griffel (1900-?, brother of Dr Jacob Griffel the Vaad ha-Hatzala rescuer). Named by Edward Gelles as a private-communication source.",
+          "summary_he": "בן שמואל שמלקה גריפל (יליד 1900, אחיו של ד\"ר יעקב גריפל המציל מטעם ועד ההצלה). מוזכר על-ידי אדוארד גלס כמקור התכתבות פרטית. גר בירושלים.",
+          "source": "Edward Gelles, Griffel of Nadworna"
+        },
+        {
+          "id": "cousin_yehuda_nir",
+          "title_en": "Yehuda Nir (1930-2014) — author of The Lost Childhood (1st cousin once removed)",
+          "status": "confirmed",
+          "summary_en": "Born Juliusz Gruenfeld in Lwów 1930, died NYC 2014. Holocaust survivor, Cornell Professor of Psychiatry, author of the 1989 memoir The Lost Childhood — about surviving in Aryan-side Warsaw and Lwów with false papers (same world as Lusia's wartime experience). His mother Sima Blau (1895-1990) and sister Lala also survived. Line: Eliezer Griffel → Chaya Griffel-Gruenfeld → Samuel Gruenfeld → Yehuda. Required reading.",
+          "summary_he": "נולד יוליוס גרינפלד בלבוב 1930, נפטר ניו יורק 2014. ניצול שואה, פרופ' לפסיכיאטריה בקורנל, מחבר הספר 'הילדות האבודה' (1989) — על הישרדות בצד הארי בוורשה ולבוב עם מסמכים מזויפים (אותו עולם של חוויית לוסיה במלחמה). אמו סימה בלאו ואחותו לאלה גם הן ניצלו. שושלת: אליעזר גריפל → חיה גריפל-גרינפלד → שמואל גרינפלד → יהודה.",
+          "source": "Edward Gelles, Griffel of Nadworna"
+        }
+      ]
+    },
+    {
+      "id": "rabbinical_pedigree",
+      "title_en": "350-Year Rabbinical-Merchant Pedigree (maternal line)",
+      "title_he": "אילן יוחסין רבני-מסחרי בן 350 שנה (קו האם)",
+      "intro_en": "Through Sarah Matel Chajes of Kolomea — David Memek's grandmother — the Rapaport family connects to a documented multi-century rabbinical-merchant dynasty of Galicia.",
+      "intro_he": "דרך שרה מאטל חיות מקולומיאה — סבתו של דוד ממק — משפחת רפפורט מתחברת לשושלת רבנית-מסחרית מתועדת של גליציה.",
+      "cards": [
+        {
+          "id": "chajes_dynasty",
+          "title_en": "Chajes-Halevi Segal-Sirkes rabbinical line",
+          "title_he": "שושלת חיות-הלוי סגל-סירקיש הרבנית",
+          "status": "confirmed",
+          "summary_en": "Sarah Matel Chajes descended from Isaac Chaim Chayes (1823-1866) of Kolomea, who descended from Isaac ben Abraham Chayes (1538-1617), Chief Rabbi of Prague. Through this line the family connects to David Halevi Segal (the \"Taz\"), Chief Rabbi of Lvov, and Joel Sirkes (the \"Bach\"), Chief Rabbi of Cracow.",
+          "summary_he": "שרה מאטל חיות צאצאית של יצחק חיים חיות (1823-1866) מקולומיאה, צאצא של יצחק בן אברהם חיות (1538-1617), הרב הראשי של פראג. דרך שושלת זו המשפחה מתחברת לדוד הלוי סגל ('הט\"ז'), הרב הראשי של לבוב, וליואל סירקיש ('הב\"ח'), הרב הראשי של קרקוב.",
+          "source": "Edward Gelles, Facets of My Family History"
+        },
+        {
+          "id": "hager_ottynia",
+          "title_en": "The family were Hager-Ottynia Chasidim",
+          "title_he": "המשפחה הייתה חסידי האגר-אוטיניה",
+          "status": "confirmed",
+          "summary_en": "Eliezer Griffel and his sons + sons-in-law (including Berisz Rapaport) \"prayed regularly in the synagogue of the Rabbi of nearby Ottynia\" — the Hager Chasidic dynasty of Ottynia.",
+          "summary_he": "אליעזר גריפל ובניו וחתניו (כולל בריש רפפורט) 'התפללו באופן קבוע בבית הכנסת של הרב הסמוך באוטיניה' — חצר חסידות האגר מאוטיניה.",
+          "source": "Edward Gelles, Facets of My Family History citing Nadwórna Memorial Book p.26"
+        }
+      ]
+    },
+    {
+      "id": "additional_relatives",
+      "title_en": "Additional family members discovered",
+      "title_he": "בני משפחה נוספים שנמצאו",
+      "intro_en": "Newly-identified relatives mentioned in print sources but not previously in our people.json.",
+      "intro_he": "קרובי משפחה שזוהו לראשונה במקורות מודפסים ועדיין לא נמצאים בקובץ אנשי המשפחה שלנו.",
+      "cards": [
+        {
+          "id": "zaynvl_rapaport",
+          "title_en": "Zaynvl Rapaport — Bolechów timber specialist",
+          "status": "confirmed",
+          "summary_en": "Named in the Bolechów Yizkor (bol102.html, Wood and Other Industries by Abraham Weber) as a senior Jewish wood-industry specialist at the Bolechów timber factory. Likely paternal uncle or older cousin of David Memek.",
+          "source": "Bolechów Yizkor 1957",
+          "urls": ["https://www.jewishgen.org/yizkor/bolekhov/bol102.html"]
+        },
+        {
+          "id": "zishe_vaytsner",
+          "title_en": "Zishe Vaytsner — Bolechów candle factory owner",
+          "status": "confirmed",
+          "summary_en": "Named in the Bolechów Yizkor as owner of a candle factory in Bolechów (the other large factory in town being Yoel Halpern's). Likely a Weitzner uncle or cousin of Lusia.",
+          "source": "Bolechów Yizkor 1957",
+          "urls": ["https://www.jewishgen.org/yizkor/bolekhov/bol102.html"]
+        },
+        {
+          "id": "shlomele_weitzner",
+          "title_en": "Shlomele Weitzner — died young of dysentery",
+          "status": "confirmed",
+          "summary_en": "Named in the Bolechów Yizkor (bol086.html) as a Bolechów youth who gave time to a youth-movement organization but died young of dysentery, pre-war. Likely a younger brother or cousin of Lusia/Feige/Moses/Pnina.",
+          "source": "Bolechów Yizkor 1957",
+          "urls": ["https://www.jewishgen.org/yizkor/bolekhov/bol086.html"]
+        },
+        {
+          "id": "rivka_siblings",
+          "title_en": "Rivka Griffel's 9 confirmed siblings",
+          "status": "confirmed",
+          "summary_en": "David Mendel Griffel (1875-1941, perished Nadwórna), Machla Griffel-Wilner (b.1876), Zissel Griffel-Lamm (b.1878), Isaac Chaim Griffel (1880-1930), Shaya Griffel (b.1883), Leibish Griffel (b.1885), Benjamin Griffel (b.1887), Rachel Griffel-Ohrenstein (b.1892), Chaya Griffel-Gruenfeld (d.1918).",
+          "source": "Edward Gelles, Griffel of Nadworna"
+        }
+      ]
+    },
+    {
+      "id": "next_documents",
+      "title_en": "Documents to Request — Concrete Shelf Marks",
+      "title_he": "מסמכים שעלינו לבקש — מספרי ארכיון מדויקים",
+      "intro_en": "Specific archival files identified by the research as almost-certainly containing records of our family. Listed in priority order by probability of return.",
+      "intro_he": "תיקי ארכיון ספציפיים שהמחקר זיהה כמכילים כמעט-בוודאות רישומים של משפחתנו. מסודרים לפי סיכוי החזרה.",
+      "cards": [
+        {
+          "id": "arolsen_weitzner_lea",
+          "title_en": "🎯 Arolsen 7-7-2_7734344 — Personal file of WEITZNER Léa (2 pages)",
+          "title_he": "🎯 ארולסן 7-7-2_7734344 — תיק אישי וייצנר לאה (2 עמודים)",
+          "status": "likely",
+          "summary_en": "Arolsen Archives indexes a personal restitution file for Léa Weitzner in collection 7.7.2 (URO/Claims Conference post-war applications). Almost certainly OUR Lusia — collection type + name + period all match. Free registration on Arolsen retrieves the 2-page document images.",
+          "summary_he": "ארכיוני ארולסן מאנדקסים תיק שיקום אישי של לאה וייצנר באוסף 7.7.2 (בקשות שיקום לאחר המלחמה של URO/ועידת התביעות). כמעט בוודאות לוסיה שלנו — סוג האוסף + השם + התקופה כולם תואמים. רישום חינם בארולסן יחזיר את תמונות שני העמודים.",
+          "source": "Arolsen Archives (ITS)",
+          "urls": ["https://collections.arolsen-archives.org/en/archive/7-7-2_7734344"]
+        },
+        {
+          "id": "ushmm_stanislawow_rappaport",
+          "title_en": "USHMM Stanisławów Passport Applications — 2 Rappaport-Nadwórna entries",
+          "title_he": "USHMM בקשות דרכון סטניסלבוב — 2 רישומי רפפורט-נדבורנה",
+          "status": "lead",
+          "summary_en": "USHMM holds Stanisławów County passport applications 1919-1939. Two Nadwórna Rappaports found: Chaim Samuel b.1912-01-10 (only 16 days after our David — possible alternate name) and Herr Samuel b.24 Sep (year unclear — possibly Berisz). Request digitized copies via USHMM Document Request Form.",
+          "summary_he": "USHMM מחזיק בקשות דרכון של מחוז סטניסלבוב 1919-1939. נמצאו שני רפפורטים מנדבורנה: חיים שמואל יליד 10.1.1912 (16 יום אחרי דוד שלנו — אולי שם נוסף) והר שמואל יליד 24 בספטמבר (שנה לא ברורה — אולי בריש).",
+          "source": "USHMM Holocaust Survivors and Victims Database",
+          "urls": ["https://www.ushmm.org/online/hsv/"]
+        },
+        {
+          "id": "ap_przemysl_154_70_13",
+          "title_en": "AP Przemyśl 154/70/13 — Nadwórna Jewish Births INDEX 1909-1941",
+          "title_he": "ארכיון פשמישל 154/70/13 — אינדקס הולדות יהודיות בנדבורנה 1909-1941",
+          "status": "lead",
+          "summary_en": "Polish State Archives in Przemyśl holds an index book of Nadwórna Jewish births spanning 1909-1941. This single file is the highest-confidence single hit: it WILL contain David Rapaport's 1911-12-25 birth record with both parents' names. Polish archive — no wartime delays.",
+          "summary_he": "הארכיון הממלכתי הפולני בפשמישל מחזיק ספר אינדקס של הולדות יהודיות בנדבורנה 1909-1941. תיק זה הוא ההימור הבטוח ביותר: הוא יכיל את רישום ההולדה של דוד רפפורט מ-25.12.1911 כולל שמות שני ההורים. ארכיון פולני — ללא עיכובי מלחמה.",
+          "source": "Polish State Archives Przemyśl",
+          "urls": ["https://przemysl.ap.gov.pl/"]
+        },
+        {
+          "id": "dalo_fond_26",
+          "title_en": "DALO Fond 26 — Lwów Polytechnic student catalogues 1923-1939",
+          "title_he": "ארכיון DALO פונד 26 — קטלוגי סטודנטים פוליטכניון לבוב 1923-1939",
+          "status": "lead",
+          "summary_en": "State Archive of Lviv Oblast holds the inter-war student catalogues of Politechnika Lwowska (now Lviv Polytechnic). The forestry faculty (Wydział Rolniczo-Leśny) at the Dublany campus is where David Rapaport almost certainly trained. His personal file should include a photograph, transcript, parents' names, and home address.",
+          "summary_he": "הארכיון הממלכתי של מחוז לבוב מחזיק קטלוגי סטודנטים מתקופת בין המלחמות של הפוליטכניון של לבוב. בפקולטה לחקלאות-יערנות (Wydział Rolniczo-Leśny) בקמפוס דובלאני, ככל הנראה למד דוד רפפורט. תיק אישי יכלול צילום, גליון ציונים, שמות הורים וכתובת בית.",
+          "source": "DALO (Lviv Oblast Archive)",
+          "urls": ["https://old.archives.gov.ua/Eng/Archives/ra13.php"]
+        },
+        {
+          "id": "tsdial_fond_166",
+          "title_en": "TsDIAL Fond 166 — Bolechów property records 1795-1891",
+          "title_he": "ארכיון TsDIAL פונד 166 — רישומי קרקעות בולחוב 1795-1891",
+          "status": "lead",
+          "summary_en": "Central State Historical Archive in Lviv holds the property registers for Bolechów town and Bolechów Ruski, with named owner per parcel. Files 1283-1295, 1296-1298, 1303-1321, 1322. Will identify the Weitzner tannery parcel and family home.",
+          "summary_he": "הארכיון ההיסטורי המרכזי בלבוב מחזיק ספרי הקרקעות של בולחוב ובולחוב רוסקי, עם שם הבעלים על כל חלקה. תיקים 1283-1295, 1296-1298, 1303-1321, 1322. יזהה את חלקת המבורסקייה (בורסקיה=סדן עורות) של משפחת וייצנר ואת בית המשפחה.",
+          "source": "TsDIAL (Central State Historical Archive of Ukraine, Lviv)",
+          "urls": ["https://tsdial.archives.gov.ua/"]
+        },
+        {
+          "id": "kazerne_dossin_brussels",
+          "title_en": "Kazerne Dossin (Belgium) — Aliens Police dossier on Rapaport family",
+          "title_he": "קזרנה דוסן (בלגיה) — תיק משטרת זרים על משפחת רפפורט",
+          "status": "lead",
+          "summary_en": "Belgian National Archives hold 2M+ individual Aliens Police dossiers; Holocaust-period entries were digitized at Kazerne Dossin. David, Lusia, and Shimon's arrival in Brussels in April 1946 guarantees a dossier with photo + employment declaration + family registration card.",
+          "summary_he": "ארכיון המדינה הבלגי מחזיק יותר משני מיליון תיקי משטרת זרים אישיים; תיקי תקופת השואה דיגיטליים בקזרנה דוסן. הגעת דוד, לוסיה ושמעון לבריסל באפריל 1946 מבטיחה תיק עם צילום + הצהרת תעסוקה + כרטיס רישום משפחתי.",
+          "source": "Kazerne Dossin (BE Holocaust archive) / Archives générales du Royaume",
+          "urls": [
+            "https://beeldbank.kazernedossin.eu/",
+            "mailto:archief@kazernedossin.eu"
+          ]
+        },
+        {
+          "id": "ushmm_stanislawow_cards",
+          "title_en": "Stanisławów Jewish Workers Registration Cards 1941-42 (USHMM, indexed on Ancestry)",
+          "title_he": "כרטיסי רישום עובדים יהודים סטניסלבוב 1941-42 (USHMM, באינדקס Ancestry)",
+          "status": "lead",
+          "summary_en": "USHMM-donated collection of Social Insurance Office cards for Jewish workers during Nazi occupation 1941-42, administering Nadwórna among others. The closest surviving analogue to David's wartime work permit registration.",
+          "summary_he": "אוסף בתרומת USHMM של כרטיסי משרד הביטוח הסוציאלי לעובדים יהודים תחת הכיבוש הנאצי 1941-42, ובכלל זה ניהול נדבורנה. ההקבלה הקרובה ביותר ששרדה לרישום היתר העבודה של דוד בזמן המלחמה.",
+          "source": "USHMM via Ancestry.com",
+          "urls": [
+            "https://www.ancestry.com/search/collections/62570/",
+            "https://www.ancestry.com/search/collections/62571/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "photos_and_archives",
+      "title_en": "Photo Archives to Mine",
+      "title_he": "ארכיוני תצלומים לחיפוש",
+      "intro_en": "Photo archives most likely to hold pre-war images of Nadwórna, Bolechów, family members, or community life.",
+      "intro_he": "ארכיוני תצלומים שסביר שיכילו תמונות מלפני המלחמה של נדבורנה, בולחוב, בני משפחה או חיי הקהילה.",
+      "cards": [
+        {
+          "id": "jgb_bolechow",
+          "title_en": "Jewish Galicia & Bukovina — Bolechów photo gallery + 1914 map",
+          "title_he": "Jewish Galicia & Bukovina — גלריית בולחוב + מפת 1914",
+          "status": "confirmed",
+          "summary_en": "JGB community page for Bolechów includes the Great Synagogue (northern side image), a 1914 town map, and a fully-photographed cemetery (~700 tombstones documented by JGB expedition 2013-14). Also a stone-carving masterpieces gallery.",
+          "source": "Jewish Galicia & Bukovina (jgaliciabukovina.net)",
+          "urls": [
+            "http://www.jgaliciabukovina.net/110717/community/bolechow",
+            "http://jgaliciabukovina.net/134934/gallery/bolechow",
+            "http://jgaliciabukovina.net/134936/image/synagogue-bolechow-northern-side",
+            "http://jgaliciabukovina.net/151060/map/bolechow-1914",
+            "http://www.jgaliciabukovina.net/154061/cemetery/bolechow-cemetery"
+          ]
+        },
+        {
+          "id": "jgb_nadworna",
+          "title_en": "Jewish Galicia & Bukovina — Nadwórna community + 1932 marriage register",
+          "title_he": "Jewish Galicia & Bukovina — קהילת נדבורנה + ספר נישואין 1932",
+          "status": "confirmed",
+          "summary_en": "JGB Nadwórna pages cover synagogues, Hasidic dynasties, and a digitized 1932 Nadwórna marriage registration book. Lota's marriage may appear in the marriage book if she married in Nadwórna.",
+          "source": "Jewish Galicia & Bukovina",
+          "urls": [
+            "http://www.jgaliciabukovina.net/110667/community/nadworna",
+            "http://jgaliciabukovina.net/134313/article/nadworna-synagogues",
+            "http://jgaliciabukovina.net/139570/document/nadworna-marriage-registration-book"
+          ]
+        },
+        {
+          "id": "bolechow_flickr",
+          "title_en": "Bolechów Jewish Heritage Society Flickr — 234 photos",
+          "title_he": "פליקר של אגודת המורשת היהודית של בולחוב — 234 תצלומים",
+          "status": "confirmed",
+          "summary_en": "Bolechów Jewish Heritage Society's public Flickr — cemetery documentation, restoration, town visits. Possibly pre-war family or business photos.",
+          "source": "Bolechów Jewish Heritage Society",
+          "urls": ["https://www.flickr.com/photos/bolechow/"]
+        },
+        {
+          "id": "yad_vashem_photos",
+          "title_en": "Yad Vashem Photo Archive — search Nadwórna + Bolechów + family names",
+          "title_he": "ארכיון התצלומים של יד ושם — חיפוש נדבורנה + בולחוב + שמות משפחה",
+          "status": "lead",
+          "summary_en": "Yad Vashem photo archive has interactive search. Run by place name AND family names. Many family-album photos donated by survivors include named individuals.",
+          "source": "Yad Vashem",
+          "urls": ["https://photos.yadvashem.org/advanced-search.html?language=en"]
+        },
+        {
+          "id": "ushmm_photos",
+          "title_en": "USHMM Collections — Nadwórna + Bolechów family album photos",
+          "title_he": "אוסף USHMM — תצלומי אלבומי משפחה מנדבורנה ובולחוב",
+          "status": "confirmed",
+          "summary_en": "Two specific pre-war photographs identified: pa1081422 (Winiger/Handel family in Nadwórna, table with celebratory toast) and pa1177841 (Charlotte and Regina Zarwanitzer in a Bolechów garden 1924-1942). Lists of Bolechów survivors + perished are also held.",
+          "source": "USHMM Collections",
+          "urls": [
+            "https://collections.ushmm.org/search/catalog/pa1081422",
+            "https://collections.ushmm.org/search/catalog/pa1177841",
+            "https://www.ushmm.org/online/hsv/source_view.php?SourceId=33476",
+            "https://www.ushmm.org/online/hsv/source_view.php?SourceId=33475"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "translation_upgrades",
+      "title_en": "Translation Upgrades (Sonnet 4.5)",
+      "title_he": "שדרוגי תרגום (Sonnet 4.5)",
+      "intro_en": "26 critical pages of the memoir were re-translated with Claude Sonnet 4.5 and compared to the original Haiku 4.5 translation. New facts surfaced.",
+      "intro_he": "26 עמודים קריטיים של היומן תורגמו מחדש על-ידי Claude Sonnet 4.5 והושוו לתרגום המקורי של Haiku 4.5. עלו עובדות חדשות.",
+      "cards": [
+        {
+          "id": "new_person_doner",
+          "title_en": "New person: \"Doner\" (p.48) — likely German employer surname",
+          "status": "lead",
+          "summary_en": "On p.48 of the memoir a German/Austrian surname \"Doner\" appears, possibly the supervisor or shop employer Lusia worked under while using her false identity.",
+          "source": "Memoir p.48 — Sonnet 4.5 retranslation"
+        },
+        {
+          "id": "new_person_kramer_dentist",
+          "title_en": "New person: Kramer the dentist from Nadwórna (p.48) — murdered after gold found in his home",
+          "status": "lead",
+          "summary_en": "p.48 mentions a Kramer dentist from Nadwórna whose daughter Lusia encountered in Lwów. The dentist was killed by the Germans after gold was found in his home. A community member, not direct family.",
+          "source": "Memoir p.48 — Sonnet 4.5 retranslation"
+        },
+        {
+          "id": "biblical_reference_p7",
+          "title_en": "Biblical reference identified: 1 Kings 21:19 (p.7)",
+          "status": "confirmed",
+          "summary_en": "Sonnet identified that the Hebrew \"הרצחת וגם ירשת?!\" on p.7 is a direct quote from 1 Kings 21:19 — Elijah's accusation to Ahab after the theft of Naboth's vineyard: \"Have you murdered and also inherited?\" Lusia uses this as moral indictment of the Nazis.",
+          "source": "Memoir p.7 — Sonnet 4.5 retranslation"
+        },
+        {
+          "id": "second_shimon_p45",
+          "title_en": "A second Shimon (NOT Lusia's son) appears p.45 — hidden in a wooden crate",
+          "status": "lead",
+          "summary_en": "p.45 mentions a different Jewish child named Shimon hidden by his mother (not Lusia) in a wooden crate 70 cm × 1.50 m, in the millinery shop where Lusia worked. Important to distinguish from Lusia's son Shimon b.1937.",
+          "source": "Memoir p.45 — Sonnet 4.5 retranslation"
+        },
+        {
+          "id": "lwow_places_unknown",
+          "title_en": "Two Lwów place names need identification: \"Yaichor\" + \"Yeplatsovka\"",
+          "status": "lead",
+          "summary_en": "p.56 mentions \"Yaichor\" (ייחור) — possibly a small dwelling type — and \"Yeplatsovka\" (יפלאצבקה) — a place name near the Lwów market. Possibly Polish street/neighbourhood names like \"Pełczyńska\". Worth cross-referencing against 1939 Lwów street directories.",
+          "source": "Memoir p.56 — Sonnet 4.5 retranslation"
+        }
+      ]
+    },
+    {
+      "id": "factual_anomalies",
+      "title_en": "Memoir Factual Anomalies (Preserved as Testimony)",
+      "title_he": "אנומליות עובדתיות ביומן (נשמרות כעדות)",
+      "intro_en": "Where the memoir disagrees with the historical record, we preserve Lusia's testimony but attach a respectful historical note.",
+      "intro_he": "כאשר היומן חולק על הרשומה ההיסטורית, אנו שומרים את עדותה של לוסיה אך מצרפים הערה היסטורית מכובדת.",
+      "cards": [
+        {
+          "id": "hitler_grave_p78",
+          "title_en": "p.78 — Lusia's visit to \"Hitler's grave\" in East Berlin (~1958)",
+          "title_he": "עמ' 78 — ביקור לוסיה ב'קבר היטלר' במזרח ברלין (~1958)",
+          "status": "anomaly",
+          "summary_en": "The memoir describes Lusia visiting a stone in East Berlin marked \"Hitler\" and spitting on it to close the circle of her past. Historically, Hitler committed suicide April 30 1945 in the Führerbunker; his and Eva Braun's remains were cremated by Soviet SMERSH, with final bone fragments destroyed by the KGB at Magdeburg in 1970. No publicly-known grave bearing his name has ever existed. Preserved as Lusia's lived experience — perhaps a different memorial misremembered, perhaps a propaganda site shown by East German authorities, perhaps a memory reconstruction across decades.",
+          "summary_he": "היומן מתאר ביקור של לוסיה אצל אבן במזרח ברלין הנושאת את הכתובת 'היטלר', שירקה עליה כדי לסגור את מעגל עברה. היסטורית, היטלר התאבד ב-30.4.1945 בבונקר; שרידיו נשרפו על-ידי הסמרש הסובייטי, פירורי העצם האחרונים הושמדו ב-1970 במגדבורג. אין שום קבר שנשא את שמו. נשמר כעדותה של לוסיה — אולי זיהוי מוטעה של מצבה אחרת, אולי אתר תעמולה שהציגו השלטונות הקומוניסטיים, אולי שחזור זיכרון לאחר עשורים.",
+          "source": "Memoir p.78 + multiple historical sources"
+        }
+      ]
+    },
+    {
+      "id": "open_action_items",
+      "title_en": "Open Action Items",
+      "title_he": "פעולות פתוחות",
+      "intro_en": "Concrete next steps Doron can take. Each is a specific request to a specific institution.",
+      "intro_he": "צעדים קונקרטיים שדורון יכול לבצע. כל פריט הוא בקשה ספציפית למוסד ספציפי.",
+      "cards": [
+        {
+          "id": "action_balliol_pdfs",
+          "title_en": "Open the Edward Gelles \"Griffel of Nadworna\" PDF and grep for \"Rapaport\"",
+          "status": "lead",
+          "summary_en": "The Balliol PDFs almost certainly name David \"Memek\" Rapaport explicitly within the Eliezer Griffel 10-child family tree. Read the index PDF first, then jump to every \"Rapaport\" page reference.",
+          "source": "Balliol College Oxford archives",
+          "urls": [
+            "http://archives.balliol.ox.ac.uk/Modern%20Papers/gelles/Griffel%20of%20Nadworna.pdf",
+            "https://archives.balliol.ox.ac.uk/Modern%20Papers/gelles/An%20Ancient%20Lineage%20-%20%20%20Edward%20Gellles%20%20-%20%20INDEX.pdf"
+          ]
+        },
+        {
+          "id": "action_all_galicia_db",
+          "title_en": "Run All-Galicia Database searches for all four surnames",
+          "status": "lead",
+          "summary_en": "Gesher Galicia's All Galicia DB has 2,833 Rapaport records + indexed Nadwórna + Bolechów. Search Rapaport+Nadwórna, Griffel+Nadwórna, Weitzner+Bolechów, Weinreb+Dolina. Save every source code.",
+          "source": "Gesher Galicia",
+          "urls": ["https://search.geshergalicia.org/database.php"]
+        },
+        {
+          "id": "action_arolsen",
+          "title_en": "Run Arolsen Archives search for Rapaport / Weitzner",
+          "status": "lead",
+          "summary_en": "Arolsen Archives indexes DP camp registrations, Care & Maintenance forms, tracing requests, Arbeitskarte fragments. Search David Mendel Rapaport b.25.12.1911 Nadwórna; Lusia Weitzner b.8.4.1913 Bolechów; Shimon Rapaport b.1937.",
+          "source": "Arolsen Archives (ITS)",
+          "urls": ["https://collections.arolsen-archives.org/en/search/person/"]
+        },
+        {
+          "id": "action_kazerne_dossin",
+          "title_en": "Email Kazerne Dossin for the Brussels Aliens Police dossier",
+          "status": "lead",
+          "summary_en": "archief@kazernedossin.eu — request scan of \"Rapaport, David Mendel, b.1911-12-25 Nadworna, arrived Belgium ~April 1946; wife Leah/Lusia Weitzner b.1913 Bolechow; son Shimon b.1937\".",
+          "source": "Kazerne Dossin",
+          "urls": ["mailto:archief@kazernedossin.eu"]
+        },
+        {
+          "id": "action_ap_przemysl",
+          "title_en": "Request AP Przemyśl 154/70/13 — Nadwórna Jewish Births 1909-1941",
+          "status": "lead",
+          "summary_en": "Polish State Archive in Przemyśl holds the index book containing David Rapaport's 1911-12-25 birth record. Polish or English request via przemysl.ap.gov.pl.",
+          "source": "AP Przemyśl",
+          "urls": ["https://przemysl.ap.gov.pl/"]
+        },
+        {
+          "id": "action_nadworna_taxpayers_list",
+          "title_en": "Read the 1932 Nadwórna taxpayers list — search for Berisz Rapaport",
+          "status": "lead",
+          "summary_en": "JewishGen hosts Ada Green's transcription of the 333-name 1932 Nadwórna taxpayers list with occupations. Berisz/Bernard Rapaport (merchant) very likely appears with occupation + tax paid.",
+          "source": "JewishGen / USHMM",
+          "urls": ["https://www.jewishgen.org/yizkor/Nadvornaya/Nad901.html"]
+        }
+      ]
+    }
+  ]
+}

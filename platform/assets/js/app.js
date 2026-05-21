@@ -27,7 +27,7 @@ const State = {
 // Data loading
 // ----------------------------------------
 async function loadAll() {
-  const [en, he, pl, fr, people, places, events, documents, hypotheses, messages] = await Promise.all([
+  const [en, he, pl, fr, people, places, events, documents, hypotheses, messages, research] = await Promise.all([
     fetch('data/i18n/en.json').then(r => r.json()),
     fetch('data/i18n/he.json').then(r => r.json()),
     fetch('data/i18n/pl.json').then(r => r.json()),
@@ -38,6 +38,7 @@ async function loadAll() {
     fetch('data/documents.json').then(r => r.json()),
     fetch('data/hypotheses.json').then(r => r.json()),
     fetch('data/messages.json').then(r => r.json()),
+    fetch('data/research_center.json').then(r => r.json()).catch(() => ({ sections: [] })),
   ]);
   State.i18n = { en, he, pl, fr };
   State.data.people = people.people;
@@ -46,6 +47,7 @@ async function loadAll() {
   State.data.documents = documents.documents;
   State.data.hypotheses = hypotheses.hypotheses;
   State.data.messages = messages.messages || messages;
+  State.data.research = research;
 
   for (const p of State.data.people) State.byId.people[p.id] = p;
   for (const p of State.data.places) State.byId.places[p.id] = p;
@@ -127,6 +129,7 @@ function router() {
     case 'documents': renderDocuments(root, param); break;
     case 'hypotheses': renderHypotheses(root); break;
     case 'chat': renderChat(root); break;
+    case 'research': renderResearch(root, param); break;
     case 'about': renderAbout(root); break;
     default: renderHome(root);
   }
@@ -946,6 +949,111 @@ function renderAbout(root) {
       <p style="font-family:var(--font-serif);font-size:1.1rem;line-height:1.7;color:var(--ink-soft);font-style:italic;">${escapeHtml(t('about.thanks_p'))}</p>
     </div>
   `;
+}
+
+// ----------------------------------------
+// RESEARCH CENTER
+// ----------------------------------------
+function renderResearch(root, param) {
+  const r = State.data.research || { sections: [] };
+  const lang = State.lang;
+  const pickField = (obj, base) => obj[base + '_' + lang] || obj[base + '_en'] || obj[base] || '';
+
+  const statusBadge = (status) => {
+    const map = {
+      confirmed: { en: 'Confirmed', he: 'מאומת', cls: 'confidence-documented' },
+      likely:    { en: 'Likely',    he: 'סביר',   cls: 'confidence-family_oral' },
+      lead:      { en: 'Lead',      he: 'כיוון חקירה', cls: 'confidence-claim' },
+      anomaly:   { en: 'Anomaly',   he: 'אנומליה', cls: 'confidence-claim' },
+    };
+    const s = map[status] || map.lead;
+    const label = lang === 'he' ? s.he : s.en;
+    return `<span class="badge ${s.cls}">${escapeHtml(label)}</span>`;
+  };
+
+  const q = (param || '').toLowerCase();
+
+  let html = `
+    <div class="page-header">
+      <h1>${escapeHtml(lang === 'he' ? 'מרכז המחקר' : 'Research Center')}</h1>
+      <p class="lead">${escapeHtml(lang === 'he' ? 'ממצאי המחקר העמוק על משפחת רפפורט-וייצנר — תיעוד, צילומים, ארכיונים, צאצאים חיים. הקליקו על כל פריט להרחבה.' : 'Deep research findings on the Rapaport-Weitzner family — documents, photographs, archives, living descendants. Click any card to expand.')}</p>
+    </div>
+
+    <div style="margin:0 0 1.5em 0;display:flex;gap:0.6em;flex-wrap:wrap;align-items:center;">
+      <input type="text" id="rc-search" placeholder="${escapeHtml(lang === 'he' ? 'חיפוש בממצאי המחקר…' : 'Search research findings…')}" value="${escapeHtml(param || '')}" style="flex:1;min-width:240px;padding:0.6em 0.9em;border:1px solid var(--rule);border-radius:6px;font-family:var(--font-serif);font-size:1rem;">
+      <span style="font-family:var(--font-mono);font-size:0.85rem;color:var(--ink-faint);">${escapeHtml(lang === 'he' ? 'נוצר' : 'Generated')}: ${escapeHtml(r.generated || '')}</span>
+    </div>
+  `;
+
+  for (const section of r.sections || []) {
+    const title = pickField(section, 'title');
+    const intro = pickField(section, 'intro');
+    const visibleCards = (section.cards || []).filter(c => {
+      if (!q) return true;
+      const hay = [
+        pickField(c, 'title'), pickField(c, 'summary'),
+        c.quote_en || '', c.source || '', (c.urls || []).join(' ')
+      ].join(' ').toLowerCase();
+      return hay.includes(q);
+    });
+    if (!visibleCards.length && q) continue;
+
+    html += `
+      <section style="margin:2.2em 0;">
+        <h2 class="section-title" style="font-size:1.4rem;margin-bottom:0.3em;">${escapeHtml(title)}</h2>
+        ${intro ? `<p style="font-family:var(--font-serif);color:var(--ink-soft);line-height:1.6;max-width:800px;margin-bottom:1em;">${escapeHtml(intro)}</p>` : ''}
+        <div class="rc-cards">
+    `;
+    for (const c of visibleCards) {
+      const t1 = pickField(c, 'title');
+      const t2 = pickField(c, 'summary');
+      const sourceLine = c.source ? `<div class="rc-meta"><strong>${escapeHtml(lang === 'he' ? 'מקור' : 'Source')}:</strong> ${escapeHtml(c.source)}</div>` : '';
+      const quoteLine = c.quote_en ? `<blockquote class="rc-quote">"${escapeHtml(c.quote_en)}"</blockquote>` : '';
+      const ctxLine = c.historical_context ? `<div class="rc-meta"><strong>${escapeHtml(lang === 'he' ? 'הקשר' : 'Context')}:</strong> ${escapeHtml(c.historical_context)}</div>` : '';
+      const links = (c.urls || []).map(u => {
+        const display = u.startsWith('mailto:') ? u.slice(7) : u.replace(/^https?:\/\//, '').replace(/\/$/, '');
+        return `<a href="${escapeHtml(u)}" target="_blank" rel="noopener" class="rc-link">${escapeHtml(display.length > 60 ? display.slice(0, 60) + '…' : display)}</a>`;
+      }).join('');
+      html += `
+        <details class="rc-card" data-card="${escapeHtml(c.id)}">
+          <summary>
+            <div class="rc-card-summary">
+              <div class="rc-card-title">${escapeHtml(t1)}</div>
+              ${statusBadge(c.status)}
+            </div>
+          </summary>
+          <div class="rc-card-body">
+            <p>${escapeHtml(t2)}</p>
+            ${quoteLine}
+            ${sourceLine}
+            ${ctxLine}
+            ${links ? `<div class="rc-links">${links}</div>` : ''}
+          </div>
+        </details>
+      `;
+    }
+    html += `</div></section>`;
+  }
+
+  root.innerHTML = html;
+
+  // Wire search box
+  const searchInput = document.getElementById('rc-search');
+  if (searchInput) {
+    let debounce;
+    searchInput.addEventListener('input', (e) => {
+      clearTimeout(debounce);
+      debounce = setTimeout(() => {
+        const v = e.target.value.trim();
+        location.hash = v ? `#/research/${encodeURIComponent(v)}` : '#/research';
+      }, 250);
+    });
+    // Restore focus
+    if (q) {
+      searchInput.focus();
+      searchInput.setSelectionRange(searchInput.value.length, searchInput.value.length);
+    }
+  }
 }
 
 // ----------------------------------------
