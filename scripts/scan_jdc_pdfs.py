@@ -16,15 +16,14 @@ OUTDIR.mkdir(exist_ok=True)
 
 PDF_DIR = Path("C:/Users/User/OneDrive/Desktop/R.P.A.PORT LTD")
 PDFS = [
-    "Complete_Poland_Remittances1_NY_AR1418_02446.pdf",
-    "Complete_Poland Remittances 2 NY_AR1418_00090.pdf",
-    "Complete_Poland_Remittances3_NYAR1921.pdf",
-    "Complete_PalRemittances_July.pdf",
-    "Complete_PalAugustNY_AR1418_00536.pdf",
-    "Completed_Palestine Remittances NY_AR1418_00298.pdf",
-    "Completed_Rem_SaffedPal_NY_AR1418_04946.pdf",
-    "Complete_RomanianRem_NY_AR1418_00067.pdf",
-    "Complete_RussianRemNY_AR1418.pdf",
+    # Bricha lists June-Dec 1946 (Nachod border-town transit — David Memek MUST be here
+    # if the corrected Lwów→Czechoslovakia→Brussels hypothesis is correct)
+    "Complete_Bricha2.pdf",
+    "Complete_Bricha3.pdf",
+    # Older NY remittance PDFs (already scanned null — skip on re-run by checking exists)
+    # "Complete_Poland_Remittances1_NY_AR1418_02446.pdf",
+    # "Complete_Poland Remittances 2 NY_AR1418_00090.pdf",
+    # "Complete_Poland_Remittances3_NYAR1921.pdf",
 ]
 
 # Surname patterns (case-insensitive, word-boundary)

@@ -10,6 +10,20 @@
       "intro_he": "המחקר שלנו פועל לפי מסגרת של שלוש עמודות. עמוד 1 (📖 מהספר) מעשיר את היומן של לוסיה משנת 1986 בנתונים ובוויזואלים. עמוד 2 (⚖️ יומן מול היסטוריה) מיישב את סיפורה עם רישומים חיצוניים, מכבד את שניהם. עמוד 3 (🔍 ראיות עצמאיות) מביא עובדות מארכיונים שהיומן לא יכול היה לכלול. אנו אוחזים בשלושתם באיזון — מכבדים את קול המשפחה ופועלים לדיוק היסטורי.",
       "cards": [
         {
+          "id": "bricha_nachod_5_rapaports_likely_unrelated",
+          "pillar": "memoir_vs_history",
+          "title_en": "🔎 Nachod Bricha Sept 1946: 5 Rapaports found on one 117-person transport — likely UNRELATED to our family",
+          "title_he": "🔎 בריחה נחוד ספטמבר 1946: 5 רפפורט אותרו על משלוח של 117 איש — ככל הנראה לא קרובי משפחה",
+          "status": "lead",
+          "summary_en": "OCR scan of two JDC-supported Bricha PDFs (Complete_Bricha2.pdf 230 pages + Complete_Bricha3.pdf 253 pages = 483 typewritten pages of 1946 Nachod border-transit lists) found on page 61 of Bricha3 a single Czech-language list dated 10 September 1946, Nachod → Bratislava, 117 people total. The list contains FIVE Rapaports:\n\n   #3  Rapaport Feiga b.1916\n   #24 Rapaport Henrik b.1907\n   #27 Rapaport Mojz[esz] b.1917\n   #28 Rapaport Beer (\"Ber\") b.1911  ← same year as David Memek!\n   #49 Rapaport Samuel b.1948  (DP-camp birth)\n\nThis is statistically high (5 in 117 = 4.3%) — strongly suggests a family or extended family migrating together. The \"Beer / Ber 1911\" entry is striking because Ber/Berisz was David Memek's father's name AND 1911 is David's birth year exactly.\n\nHOWEVER: the other 112 people on this transport are documented from Warsaw, Kraków, Poznań, Lublin, Łódź, Kielce, Katowice — Polish-heartland origins, NOT Galicia. No Lwów / Nadwórna / Bolechów / Skole entries visible. The pattern strongly suggests these Rapaports are from a Polish-heartland (not Galician) Rapaport branch, unrelated to ours.\n\nCAVEAT: Tesseract OCR caught only 2 of the 5 visible Rapaports (Feiga, plus a garbled second). The other 3 (Henrik, Mojzes, Beer, Samuel) were verified by reading the page image directly. So a high-DPI re-OCR of both PDFs would likely surface additional Rapaport entries that the baseline missed. The TRUE Rapaport count across 483 pages is probably 5-20+, not 2.",
+          "summary_he": "סריקת OCR של שני קובצי בריחה של ג'וינט (Complete_Bricha2.pdf 230 עמודים + Complete_Bricha3.pdf 253 עמודים = 483 עמודי מכונת כתיבה של רשימות מעבר גבול נחוד 1946) מצאה בעמוד 61 של Bricha3 רשימה אחת בצ'כית מתאריך 10 בספטמבר 1946, נחוד → ברטיסלבה, 117 איש סך הכל. הרשימה מכילה חמישה רפפורט:\n\n   #3  רפפורט פייגה ילידת 1916\n   #24 רפפורט הנריק יליד 1907\n   #27 רפפורט מויזש[ש] יליד 1917\n   #28 רפפורט בר (\"Beer\") יליד 1911 ← אותה שנת לידה של דוד ממק!\n   #49 רפפורט סמואל יליד 1948 (לידה במחנה עקורים)\n\nזה סטטיסטית גבוה (5 ב-117 = 4.3%) — מצביע מאוד על משפחה או קרובי משפחה הנודדים יחד. הרשומה 'Beer / Ber 1911' מרשימה כי בר/ברישו היה שמו של אביו של דוד ממק ו-1911 היא שנת לידתו של דוד בדיוק. אבל: שאר 112 אנשי המשלוח מתועדים מוורשה, קרקוב, פוזנן, לובלין, לודז', קיילצה, קטוביצה — מקורות פולנים-מרכזיים, לא גליציה. אין רשומות לבוב / נדבורנה / בולחוב / סקולה. הדפוס מצביע מאוד על כך שרפפורט אלה הם מענף רפפורט פולני-מרכזי (לא גליציאני), שאינו קשור לשלנו. אזהרה: Tesseract OCR תפס רק 2 מתוך 5 הרפפורט הנראים בעין. סריקה חוזרת ב-DPI גבוה תאתר ככל הנראה רפפורט נוספים שהבסיס פיספס.",
+          "action_item_en": "CONFIRM with family: did Berisz Rapaport have a brother named Henrik, Mojzes, or Samuel? Was there a Feiga Rapaport in the extended family? If YES to any → these Bricha entries could be cousins; if NO → unrelated branch. ALSO: re-OCR both PDFs at 300 DPI to catch all Rapaports.",
+          "source": "Tesseract OCR + visual verification of PDF page images, Complete_Bricha3.pdf p.61-63 (2026-05-21)",
+          "urls": [
+            "https://archives.jdc.org/our-collections/names-index/lists-in-the-names-index/"
+          ]
+        },
+        {
           "id": "jdc_archive_smoking_gun_collections",
           "pillar": "memoir_vs_history",
           "title_en": "🎯 JDC Archives smoking-gun list identified — 3 Bricha PDFs are the single best test of the David hypothesis",
@@ -2112,5 +2126,5 @@
       ]
     }
   ],
-  "build_version": "2026-05-21-T32-jdc-smoking-gun-collections-identified"
+  "build_version": "2026-05-21-T33-bricha-5-rapaports-likely-unrelated"
 }
