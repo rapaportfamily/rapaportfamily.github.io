@@ -21,7 +21,11 @@
     "hypotheses": "Questions ouvertes",
     "chat": "Chat de recherche",
     "research": "Centre de recherche",
-    "about": "À propos"
+    "ancestry": "Ascendance",
+    "virtual_trip": "🚶 Voyage virtuel",
+    "memoir": "📖 Mémoires",
+    "about": "À propos",
+    "address_today": "Adresse aujourd'hui"
   },
   "ui": {
     "language": "Langue",

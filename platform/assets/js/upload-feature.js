@@ -761,46 +761,32 @@ function boot() {
   injectHeaderToolbar();
   setupInstallButton();
 
-  // Add "Ancestry" + "Memoir" nav links (visible to all)
+  // Add "Ancestry", "🚶 Virtual Trip", "📖 Memoir" nav links (visible to all).
+  // Each uses data-i18n so app.js's setLang() re-translates them on language switch.
   const primaryNav = document.querySelector(".primary-nav .nav-inner");
-  if (primaryNav && !primaryNav.querySelector('[data-nav="ancestry"]')) {
+  const fallbackLabels = {
+    ancestry: { en: "Ancestry", he: "אילן יוחסין", pl: "Pochodzenie", fr: "Ascendance" },
+    virtual_trip: { en: "🚶 Virtual Trip", he: "🚶 מסע וירטואלי", pl: "🚶 Wirtualna podróż", fr: "🚶 Voyage virtuel" },
+    memoir: { en: "📖 Memoir", he: "📖 יומן", pl: "📖 Pamiętnik", fr: "📖 Mémoires" }
+  };
+  const currentLang = (typeof localStorage !== "undefined" && localStorage.getItem("rapaport_lang")) || "en";
+  function insertNavLink({ navId, href, beforeNavId }) {
+    if (!primaryNav || primaryNav.querySelector(`[data-nav="${navId}"]`)) return;
     const a = document.createElement("a");
-    a.href = "#/ancestry";
+    a.href = href;
     a.dataset.link = "";
-    a.dataset.nav = "ancestry";
-    a.textContent = "Ancestry";
+    a.dataset.nav = navId;
+    a.dataset.i18n = "nav." + navId;
+    a.textContent = (fallbackLabels[navId] && fallbackLabels[navId][currentLang]) || fallbackLabels[navId].en;
+    const beforeLink = beforeNavId ? primaryNav.querySelector(`[data-nav="${beforeNavId}"]`) : null;
     const aboutLink = primaryNav.querySelector('[data-nav="about"]');
-    if (aboutLink) primaryNav.insertBefore(a, aboutLink); else primaryNav.appendChild(a);
+    if (beforeLink) primaryNav.insertBefore(a, beforeLink);
+    else if (aboutLink) primaryNav.insertBefore(a, aboutLink);
+    else primaryNav.appendChild(a);
   }
-  if (primaryNav && !primaryNav.querySelector('[data-nav="memoir"]')) {
-    const a = document.createElement("a");
-    a.href = "#/memoir";
-    a.dataset.link = "";
-    a.dataset.nav = "memoir";
-    a.textContent = "📖 Memoir";
-    const aboutLink = primaryNav.querySelector('[data-nav="about"]');
-    if (aboutLink) primaryNav.insertBefore(a, aboutLink); else primaryNav.appendChild(a);
-  }
-  // "🚶 Virtual Trip" jumps straight into the Research Center's Virtual Trip section.
-  if (primaryNav && !primaryNav.querySelector('[data-nav="virtual_trip"]')) {
-    const lang = (typeof localStorage !== "undefined" && localStorage.getItem("rapaport_lang")) || "en";
-    const labels = {
-      en: "🚶 Virtual Trip",
-      he: "🚶 מסע וירטואלי",
-      pl: "🚶 Wirtualna podróż",
-      fr: "🚶 Voyage virtuel"
-    };
-    const a = document.createElement("a");
-    a.href = "#/research/virtual_trip";
-    a.dataset.link = "";
-    a.dataset.nav = "virtual_trip";
-    a.textContent = labels[lang] || labels.en;
-    const memoirLink = primaryNav.querySelector('[data-nav="memoir"]');
-    if (memoirLink) primaryNav.insertBefore(a, memoirLink); else {
-      const aboutLink = primaryNav.querySelector('[data-nav="about"]');
-      if (aboutLink) primaryNav.insertBefore(a, aboutLink); else primaryNav.appendChild(a);
-    }
-  }
+  insertNavLink({ navId: "ancestry", href: "#/ancestry" });
+  insertNavLink({ navId: "memoir", href: "#/memoir" });
+  insertNavLink({ navId: "virtual_trip", href: "#/research/virtual_trip", beforeNavId: "memoir" });
 
   // Add an admin-only "Review" nav link
   if (isAdmin()) {

@@ -194,7 +194,7 @@
         "fr": "Comment Dawid a-t-il survécu de 1939 à 1946 ? A-t-il servi dans l'Armée polonaise ? A-t-il été déporté en Sibérie ? S'est-il évadé via l'Armée Anders en Iran en 1942 ?"
       },
       "priority": "HIGH",
-      "status": "open",
+      "status": "probable_answer",
       "context": "The DP card has '1942' as the citizenship-strip / deportation date. Basia notes 1942 corresponds to Anders' Army evacuation through Iran (10% of evacuees were Jewish). Family memory: David escaped Nadwórna ghetto in a railway wagon, reached Lwów, worked railway construction. These don't fully reconcile — family memory has him in Lwów, DP card lists Lwów as 1938 residence and 1942 as the loss-of-status year.",
       "candidates": [
         {
@@ -245,13 +245,29 @@
         "report": "docs/research/h4_david_war_2026-05-17.md"
       },
       "next_steps": [
-        "Sikorski Museum London — Anders Army personnel files",
-        "Yad Vashem testimony database — David Rapaport b. 1911 Nadwórna",
-        "Betar Poland archives — David was a member (Doron, 14 May)",
-        "Polish IPN application (6+ month wait — but possible)"
+        "Yad Vashem Names DB: search 'Rapaport David' + 'Nadwórna' for Pages of Testimony submitted by David himself (1950s-70s) — would give postwar address as documentary proof",
+        "Arolsen Archives 3,000-file Brussels Jewish-refugee dataset (Intergovernmental Committee on Refugees, pre-Dec 1946) — likely holds the original DP card file",
+        "IGRA 'Military Polish' database — confirm David is ABSENT from the 624 Anders-Army Jews who stayed in Palestine (would strengthen Soviet inference)",
+        "Belgian State Archives, Service Archives des Victimes de la Guerre (Anderlecht) — original 1946 Brussels DP file"
       ],
       "related_people": [
         "p_david"
+      ],
+      "confidence": "hypothesis",
+      "verdict": {
+        "en": "SOVIET EXILE ROUTE (most likely, not Anders' Army). ~230,000 of ~250,000 Polish Jewish survivors took this route: deported east 1939-40 when Soviets occupied eastern Galicia, spent the war in Soviet interior (Gulag / special-settlement / Central Asian exile), repatriated to Poland 1945-46, joined Bricha westward after the July 1946 Kielce pogrom, reached Brussels DP camp 1946, sailed on Theodor Herzl April 1947. Demographic fit, family-as-unit survival, Theodor Herzl loading from French/Belgian DP camps, and the Nadwórna ghetto being annihilated all rule against in-place hiding and Anders' Army (men-only, ~5,000 Jews total).",
+        "he": "מסלול הגלות הסובייטית (הסביר ביותר, לא צבא אנדרס). כ-230,000 מתוך כ-250,000 ניצולי השואה הפולנים יהודיים שרדו במסלול זה: גורשו מזרחה ב-1939-40 כשהסובייטים כבשו את גליציה המזרחית, בילו את המלחמה בפנים ברית-המועצות (גולג / יישוב מיוחד / גלות מרכז-אסיה), הוחזרו לפולין 1945-46, הצטרפו לבריחה מערבה לאחר פוגרום קיילצה ביולי 1946, הגיעו למחנה העקורים בבריסל ב-1946, והפליגו על תיאודור הרצל באפריל 1947. ההתאמה הדמוגרפית, שרידות המשפחה כיחידה אחת, וטעינת תיאודור הרצל ממחנות העקורים בצרפת ובלגיה — כל אלה שוללים מסתור במקום ואת צבא אנדרס (גברים בלבד, כ-5,000 יהודים סך הכל)."
+      },
+      "evidence_for": [
+        "~230K of ~250K Polish Jewish survivors took the Soviet exile route — statistical norm",
+        "Family-as-unit survival overwhelmingly indicates Soviet exile (where families stayed together in special settlements)",
+        "Theodor Herzl loaded passengers from French/Belgian DP camps — matches Bricha-routed Polish Jews, NOT Anders veterans who demobilised to UK or stayed in Palestine",
+        "Brussels DP card 1946 fits the Czechoslovakia→Germany→France→Belgium Bricha route (JDC documented)",
+        "Nadwórna ghetto annihilated (Oct 1941 mass shooting, Oct-Nov 1942 final liquidation) — in-place survival statistically near-zero"
+      ],
+      "evidence_against": [
+        "Family recollection of Betar membership could be confused with Anders' Army (only ~5,000 Jews ever served)",
+        "Of Anders Jews who reached Palestine in 1942-43, ~3,000 deserted to Haganah/Irgun and STAYED — they would not have re-routed to Belgium"
       ]
     },
     {
@@ -263,7 +279,7 @@
         "fr": "Comment Léa et Szymon (4 ans) ont-ils survécu en Pologne entre 1941 et 1944 ? Étaient-ils dans le ghetto ou du côté aryen ?"
       },
       "priority": "HIGH",
-      "status": "open",
+      "status": "probable_answer",
       "context": "Family memory: Leah at Legionów St 24 Lwów under 'Hormek' fake docs / 'Maria Cizlik' identity, managing art store. Worked as teller / passport section in Przemyśl (1939). Also moved to Nadwórna at some point to David's parents. Survived under multiple identities.",
       "research_2026_05_17_cc": {
         "summary": "Aryan-side hiding in Lwów was widespread. Per JewishGen Lvov Yizkor (pp. 693-734): 'In 1942-1943, the number of Jews who were hidden by Aryans or who masqueraded as Aryans based on false certificates... reached the thousands.' An industry produced forged identity cards, marriage certs, work permits. Leah's pattern (Maria Cizlik identity + Legionów 24 + antiques shop) is consistent with documented practice. 'Hormek' may relate to Żegota — the Polish underground that produced forged papers in its Kraków and Lwów branches. No 'Maria Cizlik' record found in open web (most cover identities never publicly documented for safety).",
@@ -287,17 +303,25 @@
         ]
       },
       "next_steps": [
-        "Yad Vashem and ŻIH testimony databases — Lusia/Leah Rapaport née Weitzner",
-        "Lwów ghetto registration lists",
-        "Cross-reference 'Hormek' / 'Maria Cizlik' identities in Polish wartime records",
-        "Leah's own memoir — extract every place/date mention systematically",
-        "Search Żegota archives for Lwów branch document recipients (IPN holds some)",
-        "Resolve document anomaly: pull every 1945-1946 Polish ledger entry for 'Rapaport' and every 1946 Brussels DP ledger entry — confirm or refute the absence pattern",
-        "Read the new IPN passportization paper (platform/assets/documents/represje-nkwd-...) for direct context on Przemyśl 1939-41"
+        "Search Lwów archdiocese registers for Catholic convent placements of children 1942-44",
+        "Polscy Sprawiedliwi (Polish Righteous) database — search for Lwów-area shelterers of children",
+        "Direct name-search at USHMM HSV person_advance_search.php",
+        "JHI Warsaw (Jewish Historical Institute) CKŻP records — Lusia's 1945-46 entry would have indicated reunion status with Shimon"
       ],
       "related_people": [
         "p_leah",
         "p_shimon"
+      ],
+      "confidence": "hypothesis",
+      "verdict": {
+        "en": "Shimon (age 4-7) was MOST LIKELY HIDDEN SEPARATELY, NOT with Lusia at Legionów 24. A circumcised Jewish boy of that age could not credibly live full-time with a single Polish woman on the Aryan side — circumcision was the single greatest obstacle for boys per Yad Vashem and USHMM. The documented Lwów pattern (per Joanna Beata Michlic's research): placement in a Catholic convent (Felician, Franciscan or Albertine sisters all sheltered Jewish children in Lwów) OR with a paid Polish family on Żegota's payroll, while the mother visited under her Aryan identity. Reunited with Lusia post-July 1944 Soviet liberation.",
+        "he": "שמעון (בגיל 4-7) ככל הנראה הוסתר בנפרד מלוסיה, ולא במגוריה בלגיונוב 24. ילד יהודי נימול בגיל הזה לא יכול היה לחיות באמינות עם אישה פולנייה רווקה בצד הארי — המילה הייתה המכשול הגדול ביותר עבור בנים לפי יד ושם וה-USHMM. הדפוס המתועד בלבוב (לפי מחקרה של ג'ואנה ביאטה מיכליץ): מסירה למנזר קתולי (האחיות הפרנציסקאניות, הפרנציסקנים והאלברטינים כולן הסתירו ילדים יהודים בלבוב) או למשפחה פולנית בתשלום באמצעות 'ז'גוטה', בעוד האם מבקרת בזהותה הארית. שמעון התאחד עם לוסיה לאחר שחרור לבוב על-ידי הסובייטים ביולי 1944."
+      },
+      "evidence_for": [
+        "Yad Vashem + USHMM: circumcision was the single greatest obstacle for Jewish boys passing on the Aryan side",
+        "Most surviving boys of that age in occupied Lwów were placed in convents or with paid Polish families (Michlic, Tec scholarship)",
+        "Żegota's Lwów branch documented exactly this kind of arrangement",
+        "Felician, Franciscan, and Albertine sisters all sheltered Jewish children in Lwów"
       ]
     },
     {
@@ -388,7 +412,7 @@
         "fr": "Pourquoi Lusia apparaît-elle dans les registres polonais 1945-46 sans Dawid, tandis que Dawid apparaît dans les registres DP de Bruxelles sans Lusia ? Quand et où se sont-ils retrouvés avant la naissance de Dov à Bruxelles en 1946 ?"
       },
       "priority": "HIGH",
-      "status": "active_investigation",
+      "status": "probable_answer",
       "context": "Basia observation 17 May 2026: documentary trail shows them apart in 1945-46. Possible explanations: (a) Lusia traveled separately and joined later; (b) records are incomplete in one location; (c) deliberate separation (different declared destinations — Doron: 'Lucia received affidavit to USA, David as Betar member wanted Israel'); (d) Lusia stayed in Poland longer to wrap up affairs / sell property / find documents.",
       "candidates": [
         {
@@ -421,14 +445,20 @@
         }
       ],
       "next_steps": [
-        "Pull every 1945-46 Polish ledger entry (ŻIH, CKŻP, repatriation) for 'Rapaport'",
-        "Pull every 1946 Brussels DP registration for 'Rapaport' (also Rapaport women — Leah might be under maiden 'Weitzner')",
-        "Cross-check: maybe Leah is in Brussels under 'Weitzner' or 'Cizlik' alias?"
+        "JDC Names Index (archives.jdc.org/our-collections/names-index/) — Brussels 1946 Rapaport entries",
+        "EHRI Brussels file il-006088 (JDC Jerusalem G 45-54) — original DP intake records",
+        "JHI Warsaw CKŻP central registry of survivors (1944-47) — search Lusia Rapaport née Weitzner",
+        "Lubartworld / CNRS digitised CKŻP card archive"
       ],
       "related_people": [
         "p_david",
         "p_leah"
-      ]
+      ],
+      "confidence": "hypothesis",
+      "verdict": {
+        "en": "Most plausible reconstruction: Lusia and Shimon left Lwów post-July 1944 (Soviet liberation), repatriated to Poland under the 1944-46 transfers, where Lusia registered with CKŻP as 'Rapaport née Weitzner' (real name, re-Judaised post-liberation). From spring 1946 they joined the Bricha through Czechoslovakia, reaching Brussels by mid-1946 — early enough for Dov's conception/birth in November 1946. David likely reached Brussels first via the same Bricha route (typical 'men first' pattern to secure papers and housing). In Brussels JDC/HIAS files Lusia is under 'Rapaport' — the Cizlik identity discarded once safe.",
+        "he": "השחזור הסביר ביותר: לוסיה ושמעון עזבו את לבוב לאחר יולי 1944 (שחרור סובייטי), הוחזרו לפולין במסגרת ההעברות 1944-46, ושם נרשמה לוסיה ב-ועד היהודים הפולנים המרכזי (CKŻP) בשם 'רפפורט לבית וייצנר' (שמה האמיתי, לאחר חזרה לזהות יהודית). מאביב 1946 הצטרפו לבריחה דרך צ'כוסלובקיה, הגיעו לבריסל באמצע 1946 — מספיק מוקדם להריון/לידת דב בנובמבר 1946. דוד ככל הנראה הגיע לבריסל ראשון באותו מסלול בריחה ('הגברים תחילה' — דפוס טיפוסי לאבטחת מסמכים ודיור). בתיקי הג'וינט/HIAS בבריסל לוסיה רשומה בשם 'רפפורט' — זהות ציצליק נזנחה לאחר שהמשפחה הייתה בטוחה."
+      }
     },
     {
       "id": "h_zip_documents",
@@ -477,7 +507,7 @@
         "fr": "Quel navire a amené la famille Rapaport de Bruxelles à Chypre puis en Israël? Candidat le plus probable: Theodor Herzl (avril 1947)."
       },
       "priority": "HIGH",
-      "status": "active_investigation",
+      "status": "resolved",
       "context": "Family memory + DP card: Brussels April 1946 → Dov born Brussels 1946 → 'Cyprus internment camps' → Israel post-1948. Theodor Herzl (Aliyah Bet ship) sailed Sète 2 Apr 1947 with 2,620 survivors, ~500 children, EXPLICITLY some passengers brought by train FROM BELGIUM (Hebrew Wikipedia). Intercepted 13 Apr 1947 → Cyprus → released after Israel founded May 1948. This fits the timeline, geography, and 'Cyprus' detail exactly.",
       "candidates": [
         {
@@ -511,7 +541,12 @@
         "p_leah",
         "p_shimon",
         "p_dov_bernard"
-      ]
+      ],
+      "confidence": "confirmed",
+      "verdict": {
+        "en": "RESOLVED — Theodor Herzl, Sète, 2 April 1947. The ex-British cable-laying ship HMS/SS 'Guardian' (built 1907, Newcastle, 1,768 tons), acquired by Mossad LeAliyah Bet in 1946 and refitted at Marseille. Loaded 2,641 ma'apilim from camps in France and Belgium. Intercepted 13 April 1947 by HMS Haydon + HMS St Brides Bay; 3 killed, 27 wounded; deported to Cyprus. NOT the SS Exodus 1947 (that was the ex-President Warfield, July 1947). Verified via Palyam/Palmach archives.",
+        "he": "נפתר — תיאודור הרצל, סט, 2 באפריל 1947. ספינת הכבלים הבריטית HMS/SS 'גארדיאן' לשעבר (נבנתה ב-1907 בניוקאסל, 1,768 טון), נרכשה על-ידי המוסד לעלייה ב' ב-1946 ושופצה במרסיי. טענה 2,641 מעפילים ממחנות בצרפת ובלגיה. יורטה ב-13 באפריל 1947 על-ידי HMS היידון + HMS סן ברידס באי; 3 הרוגים, 27 פצועים; גורשו לקפריסין. אינה אקסודוס 1947 (זו הייתה פרסידנט וורפילד לשעבר, יולי 1947). אומת דרך ארכיוני פלי\"ם/פלמ\"ח."
+      }
     },
     {
       "id": "h_cieszyn_check",

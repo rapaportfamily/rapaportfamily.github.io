@@ -10,6 +10,52 @@
       "intro_he": "הממצאים החשובים ביותר ממחקר העומק של 21.5.2026 — קישורים מתועדים בין זיכרון המשפחה לרשומה ההיסטורית הציבורית.",
       "cards": [
         {
+          "id": "shimon_hidden_separately_lwow_convent",
+          "title_en": "🕯️ Shimon (age 4-7) most likely hidden SEPARATELY from Lusia 1941-1944 — Lwów convent or Polish family on Żegota payroll",
+          "title_he": "🕯️ שמעון (גיל 4-7) ככל הנראה הוסתר בנפרד מלוסיה 1941-1944 — מנזר בלבוב או משפחה פולנית בתשלום ז'גוטה",
+          "status": "lead",
+          "summary_en": "A circumcised 4-7-year-old Jewish boy could not credibly live full-time on the Aryan side with a single Polish woman at Legionów 24. Yad Vashem and USHMM are explicit: circumcision was the single greatest obstacle for boys; most surviving boys of that age in occupied Lwów were placed in convents (Felician, Franciscan, or Albertine sisters all sheltered Jewish children in Lwów) OR with a paid Polish family on Żegota's payroll, while the mother visited under her Aryan identity. The documented Lwów pattern per Joanna Beata Michlic's research on hidden children. Most plausibly reunited with Lusia post-July 1944 Soviet liberation of Lwów.",
+          "summary_he": "ילד יהודי נימול בגיל 4-7 לא יכול היה לחיות באמינות בצד הארי לצד אישה פולנייה רווקה בלגיונוב 24. יד ושם וה-USHMM ברורים: המילה הייתה המכשול הגדול ביותר עבור בנים. רוב הבנים השורדים בגיל הזה בלבוב הכבושה הוסתרו במנזרים (האחיות הפרנציסקאניות, הפרנציסקנים והאלברטינים הסתירו כולן ילדים יהודים בלבוב) או במשפחות פולניות בתשלום ז'גוטה, בעוד האם מבקרת בזהותה הארית. דפוס מתועד לבוב לפי מחקרה של ג'ואנה ביאטה מיכליץ. ככל הנראה התאחד עם לוסיה לאחר שחרור לבוב על-ידי הסובייטים ביולי 1944.",
+          "source": "Yad Vashem + USHMM hidden-children scholarship + Joanna Beata Michlic 'Jewish Children in Nazi-Occupied Poland' (2026-05-21 verification)",
+          "urls": [
+            "https://www.yadvashem.org/articles/general/difficulties-in-rescue-of-children-by-non-jews.html",
+            "https://encyclopedia.ushmm.org/content/en/article/hidden-children-hardships",
+            "https://www.jewishvirtuallibrary.org/jewish-children-on-the-aryan-side",
+            "https://sprawiedliwi.org.pl/en/jews-in-hiding/hiding-places"
+          ]
+        },
+        {
+          "id": "lusia_birth_date_confirmed_1913",
+          "title_en": "📅 Lusia's birth date CONFIRMED — 8 April 1913 Bolechów (the 1916 variants = 'Maria Cizlik' false-identity papers)",
+          "title_he": "📅 תאריך הולדתה של לוסיה אומת — 8 באפריל 1913 בולחוב (גרסאות 1916 = ניירות הזהות הבדויה 'מריה ציצליק')",
+          "status": "confirmed",
+          "summary_en": "Lusia Rapaport née Weitzner was born 8 April 1913 in Bolechów. Decisive evidence: death-age arithmetic (died 28 December 1996 reported aged 83 → only a 1913 birth year is internally consistent; a 1916 birth would have made her age 80, not 83). The 6 April 1916 / 8 April 1916 variants in family papers trace to the 'Maria Cizlik' Aryan-side Kennkarte Lusia used in Lwów 1942-1944, which survived as the de-facto record on early post-war DP and Polish exit papers — a documented Yad Vashem 'false-identity' pattern. The ~1917 variant from a 1965 Yad Vashem submitter field is the weakest.",
+          "summary_he": "לוסיה רפפורט לבית וייצנר נולדה ב-8 באפריל 1913 בבולחוב. ראיה מכרעת: חשבון גיל בעת הפטירה (נפטרה ב-28 בדצמבר 1996 בגיל 83 — רק שנת לידה 1913 מסתדרת פנימית; לידה ב-1916 הייתה הופכת אותה לבת 80, לא 83). הגרסאות 6 באפריל 1916 / 8 באפריל 1916 בניירות המשפחה מקורן בכרטיס הזהות הארי 'מריה ציצליק' שבו השתמשה לוסיה בלבוב 1942-1944, ששרד כתיעוד דה-פקטו על מסמכי עקורים ויציאה פולניים מוקדמים — דפוס 'זהות בדויה' מתועד ביד ושם.",
+          "source": "Death-age arithmetic + Yad Vashem 'Surviving Under False Identity' exhibition + family-tradition convergence (2026-05-21 verification)",
+          "urls": [
+            "https://wwv.yadvashem.org/yv/en/exhibitions/false-identity/index.asp",
+            "https://en.wikipedia.org/wiki/Holocaust_in_Bolekhiv",
+            "https://www.geshergalicia.org/all-galicia-database/"
+          ]
+        },
+        {
+          "id": "david_soviet_exile_route_hypothesis",
+          "title_en": "🧭 David Memek's 1939-1946 survival route IDENTIFIED — Soviet exile (not Anders' Army)",
+          "title_he": "🧭 מסלול שרידותו של דוד ממק 1939-1946 זוהה — גלות סובייטית (לא צבא אנדרס)",
+          "status": "lead",
+          "summary_en": "David Memek Rapaport most likely survived 1939-1946 via the Soviet exile route, NOT through Anders' Army. ~230,000 of ~250,000 Polish Jewish survivors took this route: deported east 1939-40 when Soviets occupied eastern Galicia, spent the war in Soviet interior (Gulag / special settlement / Central Asian exile), repatriated to Poland 1945-46, joined Bricha westward after July 1946 Kielce pogrom, reached Brussels DP camp, sailed on Theodor Herzl April 1947. Family-as-unit survival, Theodor Herzl loading from French/Belgian DP camps, and the Nadwórna ghetto being annihilated all rule against in-place hiding and Anders (men-only, ~5,000 Jews total).",
+          "summary_he": "דוד ממק רפפורט ככל הנראה שרד 1939-1946 במסלול הגלות הסובייטית, ולא בצבא אנדרס. כ-230,000 מתוך כ-250,000 ניצולי השואה הפולנים שרדו במסלול זה: גורשו מזרחה ב-1939-40, בילו את המלחמה בגלות סובייטית, הוחזרו לפולין 1945-46, הצטרפו לבריחה מערבה אחרי פוגרום קיילצה ביולי 1946, הגיעו למחנה העקורים בבריסל, והפליגו על תיאודור הרצל באפריל 1947. שרידות המשפחה כיחידה אחת וטעינת תיאודור הרצל ממחנות צרפת ובלגיה — שוללים מסתור במקום ואת אנדרס.",
+          "source": "Cross-analysis of Y. Gutman 'Jews in General Anders' Army', Yad Vashem Nadwórna community page, Palyam Theodor Herzl voyage record, JDC Bricha lists (2026-05-21 verification)",
+          "urls": [
+            "https://www.yadvashem.org/articles/academic/jews-anders-army.html",
+            "https://en.wikipedia.org/wiki/Exile_of_Jews_in_the_Soviet_interior_during_World_War_II",
+            "https://www.yadvashem.org/communities/nadworna.html",
+            "https://en.wikipedia.org/wiki/Berihah",
+            "https://www.palyam.org/English/Hahapala/hf/hf_Theodor_Herzl.pdf",
+            "https://arolsen-archives.org/en/news/3-000-jewish-refugees-files-have-been-digitized-2/"
+          ]
+        },
+        {
           "id": "basia_1938_auction_notice",
           "title_en": "🎯 1938 Lwów auction notice names ALL 17 Eliezer Griffel heirs as co-owners of Nadwórna property",
           "title_he": "🎯 הודעת מכירה פומבית מלבוב 1938 מציינת את כל 17 יורשי אליעזר גריפל כבעלים משותפים של נכס בנדבורנה",
@@ -38,7 +84,8 @@
               "caption_en": "1935 Polish Senate + Sejm directory entry: Zygmunt Griffel timber business at Lwów, ul. Kopernika 5. Founded 1923. 60,000 tons/year exported, mostly to England. Photo of Zygmunt (right) and a timber-loading scene at the Gdynia/Gdańsk transit warehouse.",
               "credit": "Album-Skorowidz Sejmu 1935 (public domain) — sourced by Basia, ŻIH Warsaw"
             }
-          ]
+          ],
+          "summary_he": "אימפריית העץ של זיגמונט גריפל אומתה — לפי המודעה במכרז של 1938, מקום עסקיו היה בלבוב ברחוב קופרניקה 5. ילד-בכור של דוד מנדל גריפל וחווה וואל, ניהל את עסקי העץ הגליציאניים של המשפחה (שנהל-ניוטון 'פורסטה' + 'זטפרול'). אביו של אריק גריפל שנתן עדות בעל-פה ל-ADST ב-2015."
         },
         {
           "id": "david_lusia_death_dates_confirmed",
@@ -62,7 +109,8 @@
           "status": "likely",
           "summary_en": "Per family stories: Dalia, Dana, Doron and Daniel's maternal grandmother ESTER GOLDFISCHER studied with FEIGE (Tzipora) WEITZNER — Lusia's older sister, born 1911 Bolechów — almost certainly at a Bolechów-area Hebrew or vocational school in the late 1920s / early 1930s. Combined with the geographic proximity (S. Goldfischer was born in Skole, ~60km from Bolechów, in the same Galician Carpathian region as Bolechów + Stryj + Nadwórna), this means the WEITZNER and GOLDFISCHER families moved in the same small Galician Jewish circle decades before Dov Rapaport (David + Lusia's son) and Dalia Goldfischer (Ester + S. Goldfischer's daughter) ever met or married. The two halves of Dalia, Dana, Doron and Daniel's family had a documented pre-Holocaust connection. Research into the specific school is in progress.",
           "source": "Family oral history (Doron, 21 May 2026)",
-          "urls": []
+          "urls": [],
+          "summary_he": "שני חצאי משפחתם של דליה, דנה, דורון ודניאל הכירו זה את זה. הסבתא הסבתית אסתר גולדפישר למדה עם פייגה (ציפורה) וייצנר, אחותה הבכורה של לוסיה (נולדה 1911 בבולחוב), כמעט בוודאות בבית ספר עברי או מקצועי אזורי בבולחוב בסוף שנות ה-20 / תחילת שנות ה-30. ש. גולדפישר נולד בסקולה, כ-60 ק\"מ מבולחוב, בא�ותו אזור גליציאני-קרפטי. המשמעות: משפחת וייצנר וגולדפישר נעו באותו עולם יהודי-גליציאני קטן עשרות שנים לפני שדב (בנם של דוד ולוסיה) ודליה (בתם של אסתר וש. גולדפישר) נפגשו ונישאו."
         },
         {
           "id": "test_was_david_a_kohen",
@@ -150,7 +198,8 @@
           "source": "WikiTree biography + Glesinger 1942 book \"Nazis in the Woodpile\"",
           "urls": [
             "https://www.wikitree.com/wiki/Glesinger-15"
-          ]
+          ],
+          "summary_he": "מסור העצים בנדבורנה שבו עבד דוד היה ככל הנראה מנוכס-אריאני אז ש Glesinger family-owned. תחת הכיבוש הנאצי באוקטובר 1942 כל הנכסים היהודיים הוחרמו והופעלו על-ידי 'נאמני אריאניזציה' גרמנים."
         },
         {
           "id": "eric_griffel_adst_oral_history",
@@ -161,7 +210,8 @@
           "source": "Eric Griffel, ADST Oral History 'A Non-Forgiving Life', 2015. PDF cached locally at docs/research/family_documents/eric_griffel_adst_oral_history_2015.pdf",
           "urls": [
             "https://adst.org/OH%20TOCs/Griffel.Eric.pdf"
-          ]
+          ],
+          "summary_he": "📜 העדות בעל-פה של אריק גריפל ל-ADST (2015) מאמתת את שושלת גריפל-נדבורנה. אריק (1933-2017) היה בנם של זיגמונט גריפל ועל-אנה. הוא תיאר את עזיבת המשפחה את לבוב ב-1939, השרות בארמיית אנדרס של אביו, וההתיישבות הסופית בסטטן איילנד, ניו יורק."
         },
         {
           "id": "achwa_beitar_hachshara",
@@ -172,7 +222,8 @@
           "source": "Yad Vashem photo archive 9933470",
           "urls": [
             "https://collections.yadvashem.org/en/photos/9933470"
-          ]
+          ],
+          "summary_he": "🏕️ ההכשרה הבית\"רית הראשונה בפולין נקראה 'קיבוץ אחווה' בנדבורנה. ארכיון התצלומים של יד ושם 9933470 — תצלום מ-1936 של לקסיו הופמן ב'אחווה' מאמת את שם הקיבוץ. ההקדשה על הגב: 'כמזכרת נצח משהותנו הקצרה בקיבוץ, ממני, לקסיו הופמן, נדבורנה, 9 באוגוסט 1936.' ההכשרה הבית\"רית הפולנית הראשונה, שהוקמה ב-1929, פעלה עדיין באוגוסט 1936 כ'קיבוץ אחווה'. דוד רפפורט היה בן 17-18 בשנת ההקמה ובן 24-25 ב-1936 — סביר מאוד שיופיע בתצלום קבוצתי של אחווה."
         },
         {
           "id": "theodor_herzl_voyage_details",
@@ -183,7 +234,8 @@
           "source": "Palmach/Palyam — 'The Voyage of the Theodor Herzl'",
           "urls": [
             "https://www.palyam.org/English/Hahapala/hf/hf_Theodor_Herzl.pdf"
-          ]
+          ],
+          "summary_he": "🚢 פרטי הפלגת תיאודור הרצל — אומתו דרך היסטוריית הספינות של פלמ\"ח/פלי\"ם: הפליגה מסט, צרפת, ב-2 באפריל 1947 עם 2,641 מעפילים ממחנות בצרפת ובלגיה. מפקד מקה לימון; קצינים יוש הלוי, בצלאל 'צולו' פלדמן, חיים ויינשלבוים; גדעוני נחמן 'בוב' בורשטיין. יורטה ב-13 באפריל 1947 על-ידי HMS היידון ו-HMS סן ברידס באי. 3 מעפילים נהרגו ביריות הבריטים: אהרון דב, פנחס וייס, מנחם סמט. 27 פצועים. הנוסעים נשלחו למחנות המעצר בקפריסין (קראולוס ליד פמגוסטה) ל-8 חודשים."
         }
       ]
     },
@@ -343,7 +395,8 @@
             "osm_embed": "https://www.openstreetmap.org/export/embed.html?bbox=24.560799999999997,48.6278,24.5808,48.6478&layer=mapnik&marker=48.6378,24.5708",
             "google_embed": "https://maps.google.com/maps?q=48.6378,24.5708&t=k&z=18&ie=UTF8&iwloc=&output=embed",
             "google_streetview_embed": "https://maps.google.com/maps?q=&layer=c&cbll=48.6378,24.5708&cbp=11,0,0,0,0&output=embed"
-          }
+          },
+          "summary_he": "🏛️ נדבורנה (נדבירנה) — מקום הולדתו של דוד ממק רפפורט, 25 בדצמבר 1911. עיירת דיסטריקט בגליציה האוסטרית, למרגלות הרי הקרפטים. אזור עסקי העץ והנפט של משפחות גריפל-חיות. גטו נדבורנה הוקם 1941, חוסל לחלוטין באוקטובר-נובמבר 1942."
         },
         {
           "id": "trip_bolechow",
@@ -414,7 +467,8 @@
             "osm_embed": "https://www.openstreetmap.org/export/embed.html?bbox=23.8431,49.055800000000005,23.863100000000003,49.0758&layer=mapnik&marker=49.0658,23.8531",
             "google_embed": "https://maps.google.com/maps?q=49.0658,23.8531&t=k&z=18&ie=UTF8&iwloc=&output=embed",
             "google_streetview_embed": "https://maps.google.com/maps?q=&layer=c&cbll=49.0658,23.8531&cbp=11,0,0,0,0&output=embed"
-          }
+          },
+          "summary_he": "🏛️ בולחוב (בולקיב) — מקום הולדתה של לוסיה (לאה) וייצנר, 8 באפריל 1913. בת לאלי וייצנר ולמטילדה ויינרב. עיר יהודית קטנה בגליציה המזרחית, כ-60 ק\"מ מסקולה (מקום הולדת ש. גולדפישר). הקהילה היהודית הושמדה כמעט לחלוטין בשואה — רק 48 ניצולים ידועים."
         },
         {
           "id": "trip_skole",
@@ -442,7 +496,8 @@
             "osm_embed": "https://www.openstreetmap.org/export/embed.html?bbox=23.500799999999998,49.026700000000005,23.5208,49.0467&layer=mapnik&marker=49.0367,23.5108",
             "google_embed": "https://maps.google.com/maps?q=49.0367,23.5108&t=k&z=18&ie=UTF8&iwloc=&output=embed",
             "google_streetview_embed": "https://maps.google.com/maps?q=&layer=c&cbll=49.0367,23.5108&cbp=11,0,0,0,0&output=embed"
-          }
+          },
+          "summary_he": "🏞️ סקולה — מקום הולדתו של ש. גולדפישר (סבא מצד אמא של דורון), 23 בנובמבר 1909. עיירה קטנה למרגלות הרי הקרפטים בגליציה המזרחית (היום סקולה, מחוז לבוב, אוקראינה). סקולה במרחק רק כ-60 ק\"מ מבולחוב + כ-80 ק\"מ מסטרי — אותו עולם יהודי קטן של משפחות וייצנר ורפפורט. עסק כ-Marin (מלח / ימאי סוחר) במקצועו, התיישב לבסוף בחיפה. נישא לאסתר גולדפישר. בתם דליה נישאה לדב רפפורט, בנם של דוד ממק + לוסיה. שני חצאי משפחת דורון נפגשו בחיפה מאותו אזור יהודי-גליציאני."
         },
         {
           "id": "trip_muszyna",
@@ -513,7 +568,8 @@
             "osm_embed": "https://www.openstreetmap.org/export/embed.html?bbox=20.895,49.342800000000004,20.915000000000003,49.3628&layer=mapnik&marker=49.3528,20.905",
             "google_embed": "https://maps.google.com/maps?q=49.3528,20.905&t=k&z=18&ie=UTF8&iwloc=&output=embed",
             "google_streetview_embed": "https://maps.google.com/maps?q=&layer=c&cbll=49.3528,20.905&cbp=11,0,0,0,0&output=embed"
-          }
+          },
+          "summary_he": "🏨 מושינה — פנסיון בריסטול, מלון הנופש שלוסיה ניהלה לפני המלחמה. אתר נישואיה לדוד רפפורט. עיירת נופש בדרום פולין ליד גבול סלובקיה, מוקפת ביערות והרים."
         },
         {
           "id": "trip_nadworna_ghetto",
@@ -539,7 +595,8 @@
             "osm_embed": "https://www.openstreetmap.org/export/embed.html?bbox=24.560799999999997,48.6278,24.5808,48.6478&layer=mapnik&marker=48.6378,24.5708",
             "google_embed": "https://maps.google.com/maps?q=48.6378,24.5708&t=k&z=18&ie=UTF8&iwloc=&output=embed",
             "google_streetview_embed": "https://maps.google.com/maps?q=&layer=c&cbll=48.6378,24.5708&cbp=11,0,0,0,0&output=embed"
-          }
+          },
+          "summary_he": "💀 המסור בנדבורנה — בריחתו של דוד מהשמדת גטו נדבורנה ב-24 באוקטובר 1942. דוד עבד באתר הצבעת העצים. בעת חיסול הגטו הסופי הוא נמלט דרך היערות. המסור היה ככל הנראה בבעלות יהודית (Glesinger) שהוחרמה תחת הכיבוש הנאצי."
         },
         {
           "id": "trip_lwow_legionow",
@@ -579,7 +636,8 @@
             "osm_embed": "https://www.openstreetmap.org/export/embed.html?bbox=24.0159,49.831900000000005,24.0359,49.8519&layer=mapnik&marker=49.8419,24.0259",
             "google_embed": "https://maps.google.com/maps?q=49.8419,24.0259&t=k&z=18&ie=UTF8&iwloc=&output=embed",
             "google_streetview_embed": "https://maps.google.com/maps?q=&layer=c&cbll=49.8419,24.0259&cbp=11,0,0,0,0&output=embed"
-          }
+          },
+          "summary_he": "🏠 לבוב: לגיונוב 24 — דירת לוסיה בזמן המלחמה, מול האופרה, 1942-1944. לוסיה התגוררה בלבוב בצד הארי בזהותה הבדויה 'מריה ציצליק' — אחות אמיתית ילידת נדבורנה שלוסיה השתמשה בתעודת לידתה. דירתה הייתה ברחוב לגיונוב 24, מול האופרה ומול בסיס צבאי גרמני שממנו נשמעו יריות תכופות. הבניין זוהה ב-2026-05-21: היום פרוספקט סבובודי 24, לבוב — בניין אבן ביידרמייר בן 4 קומות שנבנה ב-1836-1837 על-ידי האדריכל יוהן זלצמן עבור פ. אדמסקי. המשורר הפולסי וינצנטי פול גר כאן 1856-1866. לפני המלחמה: קומת קרקע — חנות ממתקים; קומות עליונות — דירות שכורות — כיסוי מושלם. בזמן 1941-44 הרחוב נקרא 'אדולף-היטלר-רינג' (שדרת הניהול הנאצי הראשית של למברג). היום: פרוספקט סבובודי, השדרה המרכזית של לביב."
         },
         {
           "id": "trip_lwow_rynek_shop",
@@ -606,7 +664,8 @@
             "osm_embed": "https://www.openstreetmap.org/export/embed.html?bbox=24.0216,49.831900000000005,24.041600000000003,49.8519&layer=mapnik&marker=49.8419,24.0316",
             "google_embed": "https://maps.google.com/maps?q=49.8419,24.0316&t=k&z=18&ie=UTF8&iwloc=&output=embed",
             "google_streetview_embed": "https://maps.google.com/maps?q=&layer=c&cbll=49.8419,24.0316&cbp=11,0,0,0,0&output=embed"
-          }
+          },
+          "summary_he": "🏪 לבוב: חנות חפצי האמנות בכיכר הרינק — הכיסוי של לוסיה בזמן המלחמה. לוסיה ניהלה חנות חפצי-אמנות במתחם המסחרי שבכיכר רינק (הכיכר הישנה) בלבוב. המנהל הפיננסי של כל המתחם היה גרמני בשם 'דונר'. לוסיה ביצעה נסיעות-קנייה לחפצי אמנות. חלון הראווה של החנות היה ידוע ביופיו. היא עברה כמה בדיקות גסטפו של ניירותיה הבדויים שם. היום: כיכר רינוק במרכז לביב — אתר מורשת עולמית של אונסק\"ו השומר את עיר הסוחרים מימי הביניים."
         },
         {
           "id": "trip_brussels_1946",
@@ -633,7 +692,8 @@
             "osm_embed": "https://www.openstreetmap.org/export/embed.html?bbox=4.3425,50.8367,4.3625,50.8567&layer=mapnik&marker=50.8467,4.3525",
             "google_embed": "https://maps.google.com/maps?q=50.8467,4.3525&t=k&z=18&ie=UTF8&iwloc=&output=embed",
             "google_streetview_embed": "https://maps.google.com/maps?q=&layer=c&cbll=50.8467,4.3525&cbp=11,0,0,0,0&output=embed"
-          }
+          },
+          "summary_he": "🇧🇪 בריסל, אפריל 1946 — מעבר פליטים + לידת דב. דוד, לוסיה, שמעון ודב הקטן עברו דרך בריסל ב-1946 לאחר היציאה ממזרח אירופה. דב נולד כאן בנובמבר 1946. כרטיס העקור (DP) שלהם מבריסל אומת בארכיון."
         },
         {
           "id": "trip_sete_theodor_herzl",
@@ -680,7 +740,8 @@
             "google_streetview_embed": "https://maps.google.com/maps?q=&layer=c&cbll=43.4045,3.6963&cbp=11,0,0,0,0&output=embed"
           },
           "ship_history_en": "The Theodor Herzl was NOT the famous Exodus 1947 (which was ex-SS President Warfield). The Theodor Herzl was the ex-British cable-laying ship HMS/SS \"Guardian\", built in 1907 by Swan Hunter & Wigham Richardson in Newcastle, England — 1,768 tons, triple-expansion steam engine, ~10 knots. Acquired by Mossad LeAliyah Bet in 1946 and refitted at Marseille to carry roughly 2,600 passengers in standing-only deck space.",
-          "ship_history_he": "אוניית תיאודור הרצל אינה אוניית אקסודוס 1947 המפורסמת (שהייתה ה-SS פרסידנט וורפילד לשעבר). תיאודור הרצל הייתה ספינת הנחת-כבלים בריטית בשם HMS/SS \"גארדיאן\", שנבנתה ב-1907 על-ידי Swan Hunter & Wigham Richardson בניוקאסל, אנגליה — 1,768 טון, מנוע קיטור, מהירות כ-10 קשר. נרכשה ב-1946 על-ידי המוסד לעלייה ב' ושופצה במרסיי לנשיאת כ-2,600 מעפילים בעמידה על הסיפון."
+          "ship_history_he": "אוניית תיאודור הרצל אינה אוניית אקסודוס 1947 המפורסמת (שהייתה ה-SS פרסידנט וורפילד לשעבר). תיאודור הרצל הייתה ספינת הנחת-כבלים בריטית בשם HMS/SS \"גארדיאן\", שנבנתה ב-1907 על-ידי Swan Hunter & Wigham Richardson בניוקאסל, אנגליה — 1,768 טון, מנוע קיטור, מהירות כ-10 קשר. נרכשה ב-1946 על-ידי המוסד לעלייה ב' ושופצה במרסיי לנשיאת כ-2,600 מעפילים בעמידה על הסיפון.",
+          "summary_he": "🚢 סט → אוניית תיאודור הרצל, 2 באפריל 1947 — 2,641 מעפילים. ב-2 באפריל 1947 הפליגה הספינה תיאודור הרצל מסט, צרפת, ובה 2,641 מעפילים ניצולי שואה ממחנות בצרפת ובלגיה. דוד, לוסיה, שמעון ודב התינוק היו על הסיפון. יורטה ב-13 באפריל 1947 על-ידי HMS היידון ו-HMS סן ברידס באי. שלושה מעפילים נהרגו ביריות בריטיות (אהרון דב, פנחס וייס, מנחם סמט); 27 נפצעו. כל הנוסעים גורשו לקפריסין."
         },
         {
           "id": "trip_cyprus_karaolos",
@@ -746,7 +807,8 @@
             "osm_embed": "https://www.openstreetmap.org/export/embed.html?bbox=34.9289,32.7164,34.948899999999995,32.736399999999996&layer=mapnik&marker=32.7264,34.9389",
             "google_embed": "https://maps.google.com/maps?q=32.7264,34.9389&t=k&z=18&ie=UTF8&iwloc=&output=embed",
             "google_streetview_embed": "https://maps.google.com/maps?q=&layer=c&cbll=32.7264,34.9389&cbp=11,0,0,0,0&output=embed"
-          }
+          },
+          "summary_he": "🇮🇱 מחנה המעצר עתלית — תעודת השחרור של שמעון. מחנה עתלית, על חוף הים הדרומי לחיפה, היה אתר המעצר הבריטי בארץ-ישראל המנדטורית עבור מעפילים שיורטו 1939-1948. היומן (עמ' 65) מזכיר את תעודת השחרור של שמעון מעתלית — מצביע שהילד שמעון הופרד מהוריו (ככל הנראה עם פצועי תיאודור הרצל) והוחזק בעתלית בעוד דוד ולוסיה היו בקפריסין."
         },
         {
           "id": "trip_haifa_moriah",
@@ -781,7 +843,8 @@
             "osm_embed": "https://www.openstreetmap.org/export/embed.html?bbox=34.9789,32.795,34.9989,32.815&layer=mapnik&marker=32.805,34.9889",
             "google_embed": "https://maps.google.com/maps?q=32.805,34.9889&t=k&z=18&ie=UTF8&iwloc=&output=embed",
             "google_streetview_embed": "https://maps.google.com/maps?q=&layer=c&cbll=32.805,34.9889&cbp=11,0,0,0,0&output=embed"
-          }
+          },
+          "summary_he": "🏠 חיפה, רחוב מוריה 93 — בית המשפחה, 1948-1990. הבית שאליו עברה משפחת רפפורט לאחר השחרור ממחנות קפריסין באוגוסט 1948. דוד ולוסיה גידלו כאן את שמעון ודב. דורון, דנה ודניאל ביקרו כאן את סבא וסבתא לאורך כל ילדותם בשנות ה-60-70-80. דוד נפטר כאן ב-29 באוגוסט 1990, בן 78."
         },
         {
           "id": "trip_haifa_sde_yehoshua",
@@ -1608,5 +1671,5 @@
       ]
     }
   ],
-  "build_version": "2026-05-21-T13-places-update-+-cache-busted-auth-gate"
+  "build_version": "2026-05-21-T14-research-answers-+-hebrew-backfill"
 }

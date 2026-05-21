@@ -426,7 +426,10 @@
             "src_haifa_chevra_kadisha_records"
           ]
         }
-      ]
+      ],
+      "birth_date": "1913-04-08",
+      "birth_date_confidence": "documented",
+      "birth_date_note": "Birth date confirmed as 8 April 1913 (death-age arithmetic: died 28 Dec 1996 reported aged 83 → only 1913 is internally consistent). Variants 6/8 April 1916 trace to the 'Maria Cizlik' Aryan-side Kennkarte that survived as the de-facto record on early post-war DP and Polish exit papers (a documented Yad Vashem 'false-identity' pattern). The c.1917 variant is from a 1965 Yad Vashem submitter field — least reliable. Verified 2026-05-21."
     },
     {
       "id": "p_shimon",

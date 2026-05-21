@@ -21,7 +21,11 @@
     "hypotheses": "Pytania otwarte",
     "chat": "Czat badawczy",
     "research": "Centrum badań",
-    "about": "O projekcie"
+    "ancestry": "Pochodzenie",
+    "virtual_trip": "🚶 Wirtualna podróż",
+    "memoir": "📖 Pamiętnik",
+    "about": "O projekcie",
+    "address_today": "Dzisiejszy adres"
   },
   "ui": {
     "language": "Język",
