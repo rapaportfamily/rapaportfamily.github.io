@@ -781,6 +781,26 @@ function boot() {
     const aboutLink = primaryNav.querySelector('[data-nav="about"]');
     if (aboutLink) primaryNav.insertBefore(a, aboutLink); else primaryNav.appendChild(a);
   }
+  // "🚶 Virtual Trip" jumps straight into the Research Center's Virtual Trip section.
+  if (primaryNav && !primaryNav.querySelector('[data-nav="virtual_trip"]')) {
+    const lang = (typeof localStorage !== "undefined" && localStorage.getItem("rapaport_lang")) || "en";
+    const labels = {
+      en: "🚶 Virtual Trip",
+      he: "🚶 מסע וירטואלי",
+      pl: "🚶 Wirtualna podróż",
+      fr: "🚶 Voyage virtuel"
+    };
+    const a = document.createElement("a");
+    a.href = "#/research/virtual_trip";
+    a.dataset.link = "";
+    a.dataset.nav = "virtual_trip";
+    a.textContent = labels[lang] || labels.en;
+    const memoirLink = primaryNav.querySelector('[data-nav="memoir"]');
+    if (memoirLink) primaryNav.insertBefore(a, memoirLink); else {
+      const aboutLink = primaryNav.querySelector('[data-nav="about"]');
+      if (aboutLink) primaryNav.insertBefore(a, aboutLink); else primaryNav.appendChild(a);
+    }
+  }
 
   // Add an admin-only "Review" nav link
   if (isAdmin()) {

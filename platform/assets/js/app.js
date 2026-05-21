@@ -1003,7 +1003,10 @@ function renderResearch(root, param) {
     return `<span class="badge ${s.cls}">${escapeHtml(label)}</span>`;
   };
 
-  const q = (param || '').toLowerCase();
+  // If param matches a known section id, treat as "jump to section" instead of search.
+  const knownSectionIds = new Set((r.sections || []).map(s => s.id));
+  const jumpToSection = knownSectionIds.has(param) ? param : null;
+  const q = jumpToSection ? '' : (param || '').toLowerCase();
 
   let html = `
     <div class="page-header">
@@ -1012,7 +1015,7 @@ function renderResearch(root, param) {
     </div>
 
     <div style="margin:0 0 1.5em 0;display:flex;gap:0.6em;flex-wrap:wrap;align-items:center;">
-      <input type="text" id="rc-search" placeholder="${escapeHtml(lang === 'he' ? 'חיפוש בממצאי המחקר…' : 'Search research findings…')}" value="${escapeHtml(param || '')}" style="flex:1;min-width:240px;padding:0.6em 0.9em;border:1px solid var(--rule);border-radius:6px;font-family:var(--font-serif);font-size:1rem;">
+      <input type="text" id="rc-search" placeholder="${escapeHtml(lang === 'he' ? 'חיפוש בממצאי המחקר…' : 'Search research findings…')}" value="${escapeHtml(q)}" style="flex:1;min-width:240px;padding:0.6em 0.9em;border:1px solid var(--rule);border-radius:6px;font-family:var(--font-serif);font-size:1rem;">
       <span style="font-family:var(--font-mono);font-size:0.85rem;color:var(--ink-faint);">${escapeHtml(lang === 'he' ? 'נוצר' : 'Generated')}: ${escapeHtml(r.generated || '')}</span>
     </div>
   `;
@@ -1031,7 +1034,7 @@ function renderResearch(root, param) {
     if (!visibleCards.length && q) continue;
 
     html += `
-      <section style="margin:2.2em 0;">
+      <section data-section="${escapeHtml(section.id)}" id="rc-section-${escapeHtml(section.id)}" style="margin:2.2em 0;${jumpToSection === section.id ? 'background:#fdf6e3;padding:1em;border-radius:6px;border:2px solid #b08a3a;' : ''}">
         <h2 class="section-title" style="font-size:1.4rem;margin-bottom:0.3em;">${escapeHtml(title)}</h2>
         ${intro ? `<p style="font-family:var(--font-serif);color:var(--ink-soft);line-height:1.6;max-width:800px;margin-bottom:1em;">${escapeHtml(intro)}</p>` : ''}
         <div class="rc-cards">
@@ -1121,6 +1124,16 @@ function renderResearch(root, param) {
     if (q) {
       searchInput.focus();
       searchInput.setSelectionRange(searchInput.value.length, searchInput.value.length);
+    }
+  }
+
+  // If we were asked to jump to a section, scroll to it and auto-expand its cards.
+  if (jumpToSection) {
+    const target = document.getElementById('rc-section-' + jumpToSection);
+    if (target) {
+      target.querySelectorAll('details.rc-card').forEach(d => { d.open = true; });
+      // Defer scroll until layout settles so iframes don't shift the target.
+      setTimeout(() => target.scrollIntoView({ behavior: 'smooth', block: 'start' }), 60);
     }
   }
 }
