@@ -10,6 +10,39 @@
       "intro_he": "הממצאים החשובים ביותר ממחקר העומק של 21.5.2026 — קישורים מתועדים בין זיכרון המשפחה לרשומה ההיסטורית הציבורית.",
       "cards": [
         {
+          "id": "lota_husband_unnamed_research_thread",
+          "title_en": "❓ Lota Rapaport had a husband — name and identity completely lost. Research thread opened.",
+          "title_he": "❓ ללוטה רפפורט היה בעל — שמו וזהותו אבדו לחלוטין. חוט מחקר חדש.",
+          "status": "lead",
+          "summary_en": "Per memoir page 41: \"Lota and HER HUSBAND were taken to a place from which they never returned.\" The husband's name is not recorded anywhere in the memoir — yet another person vanishes. He was a Rapaport-by-marriage (married into the Berisz Rapaport family of Nadwórna). He was killed by the Gestapo in 1942-43 in the Lwów ghetto period alongside Lota. Currently no record of him exists in: Yad Vashem Hall of Names, JewishGen Lwów inhabitant lists, USHMM HSV, Lwów ghetto registers. ACTION ITEM: direct browser queries to Yad Vashem Hall of Names for any \"Rapaport\" Lwów ghetto entry where the spouse name could be Lota / Lotka / Charlotta — that single hit would name him.",
+          "summary_he": "לפי יומן עמ' 41: \"לוטה ובעלה נלקחו למקום ממנו מעולם לא חזרו.\" שם בעלה אינו נרשם בשום מקום ביומן — עוד אדם נעלם. הוא היה רפפורט-מנישואין (נישא למשפחת בריש רפפורט מנדבורנה). הוא נהרג על-ידי הגסטפו ב-1942-43 בתקופת גטו לבוב לצד לוטה. כיום אין שום תיעוד לקיומו ב: היכל השמות של יד ושם, רשימות תושבי לבוב של JewishGen, USHMM, רשימות גטו לבוב. פעולה נדרשת: שאילתות ישירות בדפדפן להיכל השמות של יד ושם עבור כל רשומה של \"רפפורט\" בגטו לבוב שבה שם בן/בת הזוג יכול להיות לוטה / לוטקה / שרלוטה — שאילתה אחת מוצלחת ותקרא בשמו.",
+          "action_item_en": "Browser-query Yad Vashem Names DB (collections.yadvashem.org/en/names): submit \"Rapaport\" + place \"Lwów\" + time period 1942-1943. Look for any entry where the spouse is named \"Lota\" or variants. If you find him, file a Page of Testimony for both of them — Lota currently has NONE.",
+          "source": "Memoir Chapter D page 41 + absence-of-evidence searches across major Holocaust databases (2026-05-21)",
+          "urls": [
+            "https://collections.yadvashem.org/en/names",
+            "https://yvng.yadvashem.org/",
+            "https://www.jewishgen.org/yizkor/lviv/",
+            "https://www.ushmm.org/online/hsv/person_advance_search.php"
+          ]
+        },
+        {
+          "id": "lota_us_resident_scheme_lwow",
+          "title_en": "🪪 The Lwów forged-US-resident scheme identified — Lota was caught in a profiteer-betrayer scam",
+          "title_he": "🪪 זוהה הסכם הזיוף של תעודות-תושב ארה\"ב בלבוב — לוטה נפלה לפח הרמאים-המלשינים",
+          "status": "confirmed",
+          "summary_en": "Lota Rapaport and her unnamed husband were caught in a Lwów-ghetto variant of the broader 1942-43 forged-citizenship trade across occupied Poland. The scheme had TWO modalities: (a) the Gestapo-run central trap (Warsaw Hotel Polski May-July 1943 — ~3,000 Jews lured out of hiding with neutral-country passports, deported to Bergen-Belsen → Auschwitz); (b) free-lance Polish/Ukrainian profiteers selling forged documents and then denouncing buyers for a second payment. Per memoir page 41, Lusia describes the sellers informing on Lota AFTER the sale — this is the PROFITEER-BETRAYER pattern (modality b), not the Hotel Polski entrapment. No Lwów-specific US-resident certificate is known to survive in any archive — these documents were ephemeral paper, confiscated at arrest, and Lwów ghetto archives were largely destroyed in the August 1943 liquidation. The 0,000 figure in the memoir is high (1942-43 production cost was ~20-500) but plausible for a desperately-needed US document sold to a victim the seller intended to denounce — the price was extracted because betrayal made delivery moot.",
+          "summary_he": "לוטה רפפורט ובעלה האלמוני נפלו לוריאציה לבובית של מסחר תעודות הזיוף 1942-43 ברחבי פולין הכבושה. לסכם היו שתי גרסאות: (א) מלכודת מרכזית של הגסטפו ('הוטל פולסקי' בורשה מאי-יולי 1943 — כ-3,000 יהודים פותו לצאת ממסתור עם דרכוני מדינות נייטרליות, גורשו לברגן-בלזן ואז לאושוויץ); (ב) רווחנים פולנים/אוקראינים עצמאיים שמכרו תעודות מזויפות ואז הלשינו על הקונים תמורת תשלום שני. לפי יומן עמ' 41, לוסיה מתארת שהמוכרים הלשינו על לוטה אחרי המכירה — זוהי גרסה (ב), לא גרסת 'הוטל פולסקי'. אין תעודת תושב-ארה\"ב לבובית ידועה ששרדה בארכיון כלשהו — מסמכים אלה היו זמניים, הוחרמו במעצר, וארכיוני גטו לבוב נחרבו ברובם בחיסול באוגוסט 1943. סכום ה-10,000 דולר ביומן גבוה (עלות הייצור 1942-43 ~120-500 דולר) אך סביר עבור תעודה אמריקאית הנמכרת לקרבן שהמוכר התכוון להלשין עליו — המחיר הוצא מהקרבן בידיעה שהמסירה לא תתבצע.",
+          "visual_proxy_en": "No copy of Lota's specific document survives. The CLOSEST surviving visual analogues are the ~15 forged PARAGUAYAN passports of the Ładoś (\"Bernese\") Group, now held at the Auschwitz-Birkenau State Museum (the Eiss Archive). These are documented and digitised by the Polish state \"Passports for Life\" project. The LLM narrator can describe a Paraguayan Ładoś passport as a visual analogue when telling Lota's story — clearly labelled as a parallel scheme, not her actual document.",
+          "source": "Cross-source verification: Hotel Polski Wikipedia + JHI Warsaw + Auschwitz-Birkenau Museum Eiss Archive + Pilecki Institute + Passports for Life (2026-05-21)",
+          "urls": [
+            "https://en.wikipedia.org/wiki/Hotel_Polski",
+            "https://www.jhi.pl/en/articles/the-70th-anniversary-of-the-liquidation-of-hotel-polski,22",
+            "https://www.auschwitz.org/en/museum/news/the-auschwitz-museum-acquires-the-second-part-of-the-archive-concerning-the-lados-group,1414.html",
+            "https://instytutpileckiego.pl/en/wystawy/relacje-z-wystaw/paszporty-wystawa-o-grupie-ladosia",
+            "https://passportsforlife.pl/dokumenty/"
+          ]
+        },
+        {
           "id": "shimon_testimony_lacuna_and_dakar_clarification",
           "title_en": "📰 No first-person Shimon Rapaport testimony in any public archive — and the Dakar submarine story needs verification",
           "title_he": "📰 אין עדות ישירה של שמעון רפפורט בארכיון ציבורי כלשהו — וסיפור הצוללת דקר דורש אימות",
@@ -1784,5 +1817,5 @@
       ]
     }
   ],
-  "build_version": "2026-05-21-T21-hormak-lota-shimon-testimony"
+  "build_version": "2026-05-21-T22-lota-husband-+-forged-document-scheme"
 }

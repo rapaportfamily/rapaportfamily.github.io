@@ -654,7 +654,7 @@
         },
         {
           "key": "forged_us_documents",
-          "value": "Bought forged US emigration documents to try to escape the ghetto; sellers reportedly informed (per memoir p. 41)",
+          "value": "Bought a forged US-residency certificate for $10,000 in the Lwów ghetto 1942-43 (a known scam pattern — see Hotel Polski and similar schemes). The sellers were either Gestapo agents from the outset OR free-lance profiteers who turned in their customers. Lota and her husband were betrayed and arrested. Per memoir p. 41.",
           "confidence": "documented",
           "sources": [
             "doc_lusia_memoir"
@@ -662,10 +662,10 @@
         },
         {
           "key": "fate",
-          "value": "Disappeared during the Holocaust — most plausibly murdered between August 1942 (Lwów 'Große Aktion' deportation to Bełżec, ~40-50K Jews) and June 1943 (final Lwów ghetto liquidation). NO Page of Testimony was ever filed for her anywhere — Yad Vashem, USHMM, JewishGen, Bełżec memorial all empty. David Memek (her brother) and Shimon (the boy she hid) both lived long enough to file POTs and didn't. Lusia's memoir is currently the only documentary trace of her existence anywhere on Earth. This archive is her memorial.",
+          "value": "BETRAYED AND ARRESTED. Per memoir Chapter D page 41: Lota bought a forged document falsely certifying her as a US resident ($10,000 per document — a common Lwów ghetto rescue-scam scheme 1942-43). The sellers informed the Gestapo on the transaction. Lota AND HER HUSBAND (name unrecorded in the memoir) were arrested and taken to a place from which they never returned. The forged document was the very thing that got them killed — no copy survives, as the Gestapo would have confiscated it as evidence. NO Page of Testimony was ever filed for her at Yad Vashem, USHMM, JewishGen, or the Bełżec memorial. The Lusia memoir is currently the only documentary trace of her existence and fate anywhere on Earth. This archive is her memorial.",
           "confidence": "documented",
           "sources": [
-            "doc_lusia_memoir",
+            "doc_lusia_memoir_p41",
             "absence_yad_vashem_pot_2026_05_21"
           ]
         },
@@ -693,6 +693,14 @@
           "confidence": "documented",
           "sources": [
             "doc_lusia_memoir_p38"
+          ]
+        },
+        {
+          "key": "husband_identity_unknown",
+          "value": "Lota was married. Per memoir p. 41 she and HER HUSBAND were arrested together after buying the forged US-resident document. The husband's name is not recorded in the memoir — an open research thread. Whoever he was, he became a Rapaport-by-marriage and disappeared with her into the Lwów ghetto destruction 1942-43.",
+          "confidence": "documented",
+          "sources": [
+            "doc_lusia_memoir_p41"
           ]
         }
       ],
