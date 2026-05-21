@@ -692,6 +692,9 @@ function showInstallModal(opts = {}) {
 
 // ── Header toolbar: Share + Install (persistent, mobile-friendly) ──
 function injectHeaderToolbar() {
+  // Guest viewers (no magic-link token) don't get the who-am-I chip or
+  // the switch-user button — there's no "who" to display.
+  if (!ME()) return;
   if (document.getElementById("rft-header-toolbar")) return;
   const header = document.querySelector(".site-header .header-controls") || document.querySelector(".site-header .header-inner");
   if (!header) return;
@@ -784,12 +787,14 @@ function shareCurrentPage() {
 }
 
 // ── boot ───────────────────────────────────────────────────────────
-// Inject FAB once the SPA's nav has rendered (auth-gate has set window.__rftAuth)
+// Runs for everyone — guests AND token-bearers. The individual feature
+// functions (injectFab, injectHeaderToolbar, renderReview) gate themselves
+// on ME() / isAdmin() so guests get nav links + memoir/trip routes but no
+// upload UI, no who-am-I chip, no review queue.
 function boot() {
-  if (!ME()) return; // auth-gate hasn't run yet or no token
-  injectFab();
-  injectHeaderToolbar();
-  setupInstallButton();
+  injectFab();              // self-skips if !ME()
+  injectHeaderToolbar();    // self-skips if !ME()
+  setupInstallButton();     // visible to everyone (PWA install for all)
 
   // Add "Ancestry", "🚶 Virtual Trip", "📖 Memoir" nav links (visible to all).
   // Each uses data-i18n so app.js's setLang() re-translates them on language switch.

@@ -42,7 +42,7 @@ window.addEventListener("appinstalled", () => {
   // BUILD bumps on every deploy so browsers fetch the latest JS modules,
   // not a stale cached copy. If you don't see Research Center updates, this
   // is the line that fixes it.
-  const BUILD = "2026-05-21-t19";
+  const BUILD = "2026-05-21-t20";
   const APP_SCRIPT_SRC = `assets/js/app.js?v=${BUILD}`;
   const UPLOAD_SCRIPT_SRC = `assets/js/upload-feature.js?v=${BUILD}`;
 
@@ -160,8 +160,8 @@ window.addEventListener("appinstalled", () => {
   const candidate = urlToken || (stored && stored.token);
 
   if (!candidate) {
-    // Guest mode — no token, public viewer.
-    window.__rftAuth = { sub: "guest", name: "Guest", role: "viewer" };
+    // Guest mode — no token. window.__rftAuth stays unset so the upload UI
+    // (which checks !ME()) does NOT render. Read-only public view.
     loadSPA();
     return;
   }
@@ -173,14 +173,13 @@ window.addEventListener("appinstalled", () => {
     jwk = await fetch("assets/auth/pubkey.json").then(r => r.json());
   } catch (e) {
     console.warn("auth-gate: cannot load public key, falling back to guest", e);
-    window.__rftAuth = { sub: "guest", name: "Guest", role: "viewer" };
     loadSPA();
     return;
   }
 
   try {
     const payload = await verifyJWT(candidate, jwk);
-    // Valid! Persist token + identity.
+    // Valid! Persist token + identity — unlocks upload UI per-role.
     localStorage.setItem(STORAGE_KEY, JSON.stringify({ token: candidate, identity: payload, ts: Date.now() }));
     window.__rftAuth = payload;
   } catch (e) {
@@ -191,7 +190,7 @@ window.addEventListener("appinstalled", () => {
     }
     console.warn("auth-gate: invalid token, falling back to guest", e.message);
     if (stored && stored.token === candidate) localStorage.removeItem(STORAGE_KEY);
-    window.__rftAuth = { sub: "guest", name: "Guest", role: "viewer" };
+    // Don't set __rftAuth — falls through to guest (read-only) mode.
   }
 
   // Clean ?t= from the URL so reloads don't keep re-validating
