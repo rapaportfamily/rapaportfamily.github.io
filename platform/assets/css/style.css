@@ -1313,6 +1313,16 @@ html[dir="rtl"] .rc-map-coords { margin-left: 0; margin-right: 0.5em; }
   color: var(--ink-faint);
   text-align: center;
 }
+.rc-extra {
+  margin: 0.6rem 0;
+  padding: 0.5rem 0.8rem;
+  background: rgba(205, 184, 146, 0.15);
+  border-left: 3px solid var(--rule);
+  border-radius: 3px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+html[dir="rtl"] .rc-extra { border-left: 0; border-right: 3px solid var(--rule); }
 @media (max-width: 720px) {
   .rc-map-iframe { height: 220px; }
   .rc-streetview-iframe { height: 260px; }

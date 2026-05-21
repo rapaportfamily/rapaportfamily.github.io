@@ -91,7 +91,15 @@
             "https://www.jewishgen.org/yizkor/Bolekhov/bol278.html",
             "https://www.jewishgen.org/yizkor/indices/Bolekhiv_index.pdf"
           ],
-          "extracted_from": "research_cache/bol278.html"
+          "extracted_from": "research_cache/bol278.html",
+          "images": [
+            {
+              "src": "assets/research_images/bolechow_33-Halickaya-Strashman.jpg",
+              "caption_en": "Bolechów, 33 Halickaya street — Strashman family residence, contextual reference for Bolechów Jewish naming records.",
+              "caption_he": "בולחוב, רחוב הלצקאיה 33 — בית משפחת שטראשמן, הקשר לרישומי שמות יהודיים בבולחוב.",
+              "credit": "Family archive"
+            }
+          ]
         },
         {
           "id": "griffel_chajes_dynasty",
@@ -103,7 +111,7 @@
           "source": "Geni.com + Edward Gelles, \"Griffel of Nadworna\" (Balliol College Oxford archives)",
           "urls": [
             "https://www.geni.com/people/Dawid-David-Griffel/6000000002133380964",
-            "http://archives.balliol.ox.ac.uk/Modern%20Papers/gelles/Griffel%20of%20Nadworna.pdf",
+            "https://archives.balliol.ox.ac.uk/Modern%20Papers/gelles/Griffel%20of%20Nadworna.pdf",
             "https://archives.balliol.ox.ac.uk/Modern%20Papers/gelles/An%20Ancient%20Lineage%20-%20%20%20Edward%20Gellles%20%20-%20%20INDEX.pdf"
           ]
         },
@@ -216,7 +224,15 @@
           "title_he": "ד\"ר וידאל רפפא (1305 מיורקה) — האב הקדמון המתועד הראשון בשם",
           "status": "confirmed",
           "summary_en": "Physician of Mallorca. In 1305 he led a group of Mallorcan Jews — including Aahron, Maimon ben Estruc Ibn-Nunu, David ben Sopran, and Ensrum of Suria (Catalonia) — who conspired to rescue a young Jewish woman from her planned conversion-by-marriage to a Christian. The plot was uncovered by Spanish Church investigators; the group was sentenced to long imprisonment + heavy fines, then King Jaime II reduced the sentences in exchange for Dr. Vidal Rapapa's secrecy. Documented in Antonio Pons, 'Los Judíos del Reino de Mallorca durante los siglos XIII y XIV', v.2 p.29.",
-          "source": "Antonio Pons, Los Judíos del Reino de Mallorca, v.2 p.29; Dr Chanan Rapaport 2018"
+          "source": "Antonio Pons, Los Judíos del Reino de Mallorca, v.2 p.29; Dr Chanan Rapaport 2018",
+          "images": [
+            {
+              "src": "assets/research_images/trip/mallorca_lead.jpg",
+              "caption_en": "Palma, Mallorca — where Dr Vidal Rapapa practiced medicine in 1305, the earliest documented Rapaport ancestor.",
+              "caption_he": "פלמה דה מיורקה — בה נהג ד\"ר וידאל רפפא ברפואה ב-1305, אבי המשפחה הקדמון המתועד המוקדם ביותר.",
+              "credit": "Wikipedia Commons (CC-BY-SA)"
+            }
+          ]
         },
         {
           "id": "jucef_salomon_rapapa_court_physician",
@@ -232,7 +248,15 @@
           "title_he": "יצחק 'המוהל' רפא-פורטו — הראשון להשתמש בשם 'רפא-פורטו' (~1550, איטליה)",
           "status": "confirmed",
           "summary_en": "Son of R. Yechiel Michael ha-Kohen Rapa (b.1502 Portobuffolè). After the family fled Spanish persecution → Mainz → second expulsion from Mainz → through the Italian Adige river ports (Legnago, Mestre, Venice, Portobuffolè, Piove di Sacco), Isaac 'HaMoel' was the first family member to add 'Porto' to the surname. From him spread the tradition that created the modern surname Rapa-Porto = Rapoport. Documented by researcher Dr Daniel Nissim, cited in Dr Chanan Rapaport's paper.",
-          "source": "Dr Daniel Nissim, cited in Chanan Rapaport 2018"
+          "source": "Dr Daniel Nissim, cited in Chanan Rapaport 2018",
+          "images": [
+            {
+              "src": "assets/research_images/trip/portobuffole_lead.jpg",
+              "caption_en": "Portobuffolè, Italy — the small Treviso-province town whose name was added to 'Rapa' to create the surname 'Rapa-Porto' c. 1550.",
+              "caption_he": "פורטובופולה, איטליה — העיירה הקטנה במחוז טרוויסו ששמה צורף ל-'רפא' ויצר את שם המשפחה 'רפא-פורטו' (~1550).",
+              "credit": "Wikipedia Commons (CC-BY-SA)"
+            }
+          ]
         },
         {
           "id": "verona_1594_family_emblem",
@@ -244,6 +268,14 @@
           "source": "R. Avraham Menachem Rapa, Mincha Belulah (Verona 1594); analysed in Dr. Michael K. Silber's Seforim Blog (Hebrew University)",
           "urls": [
             "http://seforim.blogspot.co.il/2010/12/modesty-and-piety-improving-on-past.html"
+          ],
+          "images": [
+            {
+              "src": "assets/research_images/trip/verona_lead.jpg",
+              "caption_en": "Verona, Italy — where R. Avraham Menachem ha-Kohen Rapa-Porto published 'Mincha Belulah' (1594) bearing the raven+priestly-blessing family emblem.",
+              "caption_he": "ורונה, איטליה — בה פרסם רבי אברהם מנחם הכהן רפא-פורטו את 'מנחה בלולה' (1594) ובו סמל המשפחה: עורב ותחתיו ברכת כהנים.",
+              "credit": "Wikipedia Commons (CC-BY-SA)"
+            }
           ]
         },
         {
@@ -604,13 +636,28 @@
           "summary_en": "On 2 April 1947 the ship Theodor Herzl sailed from Sète, France, carrying 2,641 Holocaust-survivor immigrants drawn from camps in France and Belgium. David, Lusia, Shimon and infant Dov were aboard. Intercepted 13 April 1947 by HMS Haydon and HMS St Brides Bay. Three Ma'apilim killed by British gunfire (Aharon Dov, Pinchas Weiss, Menachem Samet); 27 wounded. All passengers deported to Cyprus.",
           "source": "Memoir pp.63-64 + Palmach/Palyam ship history",
           "urls": [
-            "https://www.palyam.org/English/Hahapala/hf/hf_Theodor_Herzl.pdf"
+            "https://www.palyam.org/English/Hahapala/hf/hf_Theodor_Herzl.pdf",
+            "http://paulsilverstone.com/ship/theodor-herzl/",
+            "https://en.wikipedia.org/wiki/SS_Exodus"
           ],
           "images": [
             {
               "src": "assets/research_images/trip/sete_lead.jpg",
-              "caption_en": "The French port of Sète — where the Theodor Herzl sailed from on 2 April 1947 with 2,641 Holocaust-survivor Ma'apilim including David, Lusia, Shimon and infant Dov.",
+              "caption_en": "The French port of Sète — where the Theodor Herzl sailed from on 2 April 1947 with 2,641 Ma'apilim including David, Lusia, Shimon and infant Dov.",
+              "caption_he": "נמל סט בצרפת — שממנו הפליגה תיאודור הרצל ב-2 באפריל 1947 עם 2,641 מעפילים, ובהם דוד, לושה, שמעון ודב התינוק.",
               "credit": "Wikipedia Commons (CC-BY-SA)"
+            },
+            {
+              "src": "assets/research_images/trip/theodor_herzl_haifa_1947.png",
+              "caption_en": "The Aliyah Bet ship Theodor Herzl in Haifa, April 1947 — black-stained 'NEVER DIE!' banner painted by the ma'apilim after the British boarding that killed three.",
+              "caption_he": "תיאודור הרצל בנמל חיפה, אפריל 1947 — שלט מצוייר ביד 'NEVER DIE!' שצבעו המעפילים לאחר שלוש ההריגות בהשתלטות הבריטית.",
+              "credit": "Public domain — pre-1948 photograph"
+            },
+            {
+              "src": "assets/research_images/trip/theodor_herzl_ship_naval_corps.jpg",
+              "caption_en": "Side-view of the Theodor Herzl from naval records — built 1907 in Newcastle as the cable ship HMS Guardian, 1,768 tons.",
+              "caption_he": "מבט-צד של תיאודור הרצל מתוך תיעוד חיל הים — נבנתה ב-1907 בניוקאסל כספינת כבלים HMS Guardian, 1,768 טון.",
+              "credit": "Public domain — naval-corps archive"
             }
           ],
           "map": {
@@ -624,17 +671,24 @@
             "osm_embed": "https://www.openstreetmap.org/export/embed.html?bbox=3.6863,43.3945,3.7062999999999997,43.4145&layer=mapnik&marker=43.4045,3.6963",
             "google_embed": "https://maps.google.com/maps?q=43.4045,3.6963&t=k&z=18&ie=UTF8&iwloc=&output=embed",
             "google_streetview_embed": "https://maps.google.com/maps?q=&layer=c&cbll=43.4045,3.6963&cbp=11,0,0,0,0&output=embed"
-          }
+          },
+          "ship_history_en": "The Theodor Herzl was NOT the famous Exodus 1947 (which was ex-SS President Warfield). The Theodor Herzl was the ex-British cable-laying ship HMS/SS \"Guardian\", built in 1907 by Swan Hunter & Wigham Richardson in Newcastle, England — 1,768 tons, triple-expansion steam engine, ~10 knots. Acquired by Mossad LeAliyah Bet in 1946 and refitted at Marseille to carry roughly 2,600 passengers in standing-only deck space.",
+          "ship_history_he": "אוניית תיאודור הרצל אינה אוניית אקסודוס 1947 המפורסמת (שהייתה ה-SS פרסידנט וורפילד לשעבר). תיאודור הרצל הייתה ספינת הנחת-כבלים בריטית בשם HMS/SS \"גארדיאן\", שנבנתה ב-1907 על-ידי Swan Hunter & Wigham Richardson בניוקאסל, אנגליה — 1,768 טון, מנוע קיטור, מהירות כ-10 קשר. נרכשה ב-1946 על-ידי המוסד לעלייה ב' ושופצה במרסיי לנשיאת כ-2,600 מעפילים בעמידה על הסיפון."
         },
         {
           "id": "trip_cyprus_karaolos",
           "title_en": "🏕️ Cyprus — Karaolos internment camp, 1947-1948  [memoir pp.64-65]",
           "title_he": "🏕️ קפריסין — מחנה המעצר קראולוס, 1947-1948  [יומן עמ' 64-65]",
           "status": "confirmed",
-          "summary_en": "After British interception, passengers were taken to the Cyprus internment camps (Karaolos near Famagusta + Dekhelia near Larnaca). 12 camps total; held 53,510 Jews 1946-1949; ~2,000 children born in captivity. David's family was held ~8 months. Wounded passengers + unaccompanied minors were diverted to Atlit camp in British Mandate Palestine instead of Cyprus.",
+          "summary_en": "After British interception, the ship's passengers were taken to the Cyprus internment camps. The British ran two camp clusters: SUMMER tent camps numbered 55, 60, 61, 62 and 63 at Caraolos/Karaolos (north of Famagusta), and WINTER Nissen-hut camps at Dekhelia/Decauville (near Larnaca, ~50km away). Nine camps at peak; 53,510 Jews held 1946-1949; ~2,200 children born in captivity. David's family was held ~8 months. Wounded passengers and unaccompanied minors were diverted to Atlit camp in British Mandate Palestine instead of Cyprus.",
           "source": "Memoir pp.64-65 + Wikipedia Cyprus internment camps",
           "urls": [
-            "https://en.wikipedia.org/wiki/Cyprus_internment_camps"
+            "https://en.wikipedia.org/wiki/Cyprus_internment_camps",
+            "https://en.wikipedia.org/wiki/Karaolos_prisoner_of_war_camp",
+            "https://www.palyam.org/English/Arrests/hfCyprus.php",
+            "https://archives.jdc.org/topic-guides/detained-in-cyprus/",
+            "https://collections.yadvashem.org/en/names",
+            "https://www.ushmm.org/online/hsv/person_advance_search.php"
           ],
           "images": [
             {
@@ -654,7 +708,9 @@
             "osm_embed": "https://www.openstreetmap.org/export/embed.html?bbox=33.933,35.1165,33.952999999999996,35.1365&layer=mapnik&marker=35.1265,33.943",
             "google_embed": "https://maps.google.com/maps?q=35.1265,33.943&t=k&z=18&ie=UTF8&iwloc=&output=embed",
             "google_streetview_embed": "https://maps.google.com/maps?q=&layer=c&cbll=35.1265,33.943&cbp=11,0,0,0,0&output=embed"
-          }
+          },
+          "summary_he": "לאחר השתלטות הבריטים, נוסעי האוניה הובלו למחנות המעצר בקפריסין. הבריטים ניהלו שני אשכולות מחנות: מחנות אוהלים קיציים במספרים 55, 60, 61, 62 ו-63 בקראולוס (צפונית לפמגוסטה), ומחנות חורף עם צריפי ניסן בדכליה/דקוויל (ליד לרנקה, כ-50 ק\"מ משם). 9 מחנות בשיא; 53,510 יהודים נעצרו 1946-1949; כ-2,200 ילדים נולדו במעצר. משפחת רפפורט הוחזקה כ-8 חודשים. הפצועים והקטינים ללא מלווים הופנו למחנה עתלית בארץ ישראל המנדטורית במקום לקפריסין.",
+          "search_tips_en": "There is NO single public detainee index for the Cyprus camps. To search for relatives by name use: Yad Vashem Central Database of Shoah Victims and Survivors (collections.yadvashem.org/en/names) and the USHMM Holocaust Survivors and Victims Database. JDC Archives holds only the Aug-1948 to Feb-1949 birth lists (>500 entries, with camp number)."
         },
         {
           "id": "trip_atlit",
@@ -957,6 +1013,14 @@
           "urls": [
             "https://en.wikipedia.org/wiki/Meir_Katzenellenbogen",
             "https://en.wikipedia.org/wiki/Samuel_Judah_Katzenellenbogen"
+          ],
+          "images": [
+            {
+              "src": "assets/research_images/trip/padua_lead.jpg",
+              "caption_en": "Padua, Italy — seat of R. Meir Katzenellenbogen 'MaHaRaM Padua' (1482-1565), Chief Rabbi of Padua, three generations before Saul Wahl.",
+              "caption_he": "פאדובה, איטליה — מקום מושבו של רבי מאיר קצנלנבוגן 'מהר\"ם מפדואה' (1482-1565), רבה הראשי של פדואה.",
+              "credit": "Wikipedia Commons (CC-BY-SA)"
+            }
           ]
         },
         {
@@ -968,6 +1032,14 @@
           "urls": [
             "https://archives.balliol.ox.ac.uk/Modern%20Papers/gelles/WAHL%20of%20Tarnobrzeg%20and%20WOHL%20of%20Cracow.pdf",
             "https://archives.balliol.ox.ac.uk/Modern%20Papers/gelles/GellesWahlDescent.pdf"
+          ],
+          "images": [
+            {
+              "src": "assets/research_images/trip/tarnobrzeg_lead.jpg",
+              "caption_en": "Tarnobrzeg, Poland — Galician town of the Wahl family that produced Chawa Wahl (1877-1941), great-grandmother of Dalia, Dana, Doron and Daniel Rapaport.",
+              "caption_he": "טרנוברז'ג, פולין — עיירה גליציאנית של משפחת וואהל שממנה יצאה חוה וואהל (1877-1941), סבתא-רבא של דליה, דנה, דורון ודניאל רפפורט.",
+              "credit": "Wikipedia Commons (CC-BY-SA)"
+            }
           ]
         },
         {
@@ -1083,6 +1155,14 @@
             "https://kehilalinks.jewishgen.org/nadvorna/ymba2.asp",
             "https://kehilalinks.jewishgen.org/nadvorna/sba1.asp",
             "https://kehilalinks.jewishgen.org/nadvorna/enku2b.asp"
+          ],
+          "images": [
+            {
+              "src": "assets/research_images/trip/staten_island_baron_hirsch.jpg",
+              "caption_en": "Baron Hirsch Cemetery, Staten Island NY — where Zygmunt Griffel (1897-1951) is buried in the Nadworner Young Men's Benevolent Association plot, Section I Gate 51.",
+              "caption_he": "בית הקברות באראן הירש, סטטן איילנד — בו קבור זיגמונט גריפל (1897-1951), בחלקת אגודת בני הנעורים הנדבורנים, סקטור I, שער 51.",
+              "credit": "Wikipedia Commons (CC-BY-SA)"
+            }
           ]
         },
         {
@@ -1464,7 +1544,7 @@
           "summary_en": "The Balliol PDFs almost certainly name David \"Memek\" Rapaport explicitly within the Eliezer Griffel 10-child family tree. Read the index PDF first, then jump to every \"Rapaport\" page reference.",
           "source": "Balliol College Oxford archives",
           "urls": [
-            "http://archives.balliol.ox.ac.uk/Modern%20Papers/gelles/Griffel%20of%20Nadworna.pdf",
+            "https://archives.balliol.ox.ac.uk/Modern%20Papers/gelles/Griffel%20of%20Nadworna.pdf",
             "https://archives.balliol.ox.ac.uk/Modern%20Papers/gelles/An%20Ancient%20Lineage%20-%20%20%20Edward%20Gellles%20%20-%20%20INDEX.pdf"
           ]
         },
@@ -1521,5 +1601,5 @@
       ]
     }
   ],
-  "build_version": "2026-05-21-T9-dalia-streetview-embed"
+  "build_version": "2026-05-21-T10-dossier20-audit-fixes"
 }

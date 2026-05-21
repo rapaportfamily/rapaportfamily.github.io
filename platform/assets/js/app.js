@@ -1039,6 +1039,11 @@ function renderResearch(root, param) {
     for (const c of visibleCards) {
       const t1 = pickField(c, 'title');
       const t2 = pickField(c, 'summary');
+      const shipHist = pickField(c, 'ship_history');
+      const searchTips = pickField(c, 'search_tips');
+      const extraNotes = shipHist || searchTips
+        ? `${shipHist ? `<p class="rc-extra"><em>${escapeHtml(shipHist)}</em></p>` : ''}${searchTips ? `<p class="rc-extra"><strong>${escapeHtml(lang === 'he' ? 'איך לחפש שם' : 'How to search by name')}:</strong> ${escapeHtml(searchTips)}</p>` : ''}`
+        : '';
       const sourceLine = c.source ? `<div class="rc-meta"><strong>${escapeHtml(lang === 'he' ? 'מקור' : 'Source')}:</strong> ${escapeHtml(c.source)}</div>` : '';
       const quoteLine = c.quote_en ? `<blockquote class="rc-quote">"${escapeHtml(c.quote_en)}"</blockquote>` : '';
       const ctxLine = c.historical_context ? `<div class="rc-meta"><strong>${escapeHtml(lang === 'he' ? 'הקשר' : 'Context')}:</strong> ${escapeHtml(c.historical_context)}</div>` : '';
@@ -1085,6 +1090,7 @@ function renderResearch(root, param) {
           </summary>
           <div class="rc-card-body">
             <p>${escapeHtml(t2)}</p>
+            ${extraNotes}
             ${quoteLine}
             ${sourceLine}
             ${ctxLine}
