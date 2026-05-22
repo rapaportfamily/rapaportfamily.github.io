@@ -1,0 +1,30 @@
+{
+  "doron_rapaport": {
+    "query": "\"Doron Rapaport\" linkedin",
+    "error": "Page.content: Unable to retrieve content because the page is navigating and changing the content."
+  },
+  "daniel_rapaport": {
+    "query": "\"Daniel Rapaport\" linkedin",
+    "all_results": [],
+    "linkedin_results": [],
+    "linkedin_url_refs": []
+  },
+  "lior_hinkus": {
+    "query": "\"Lior Hinkus\" linkedin",
+    "all_results": [],
+    "linkedin_results": [],
+    "linkedin_url_refs": []
+  },
+  "heli_rapaport": {
+    "query": "\"Heli Rapaport\" linkedin",
+    "all_results": [],
+    "linkedin_results": [],
+    "linkedin_url_refs": []
+  },
+  "heli_avitan": {
+    "query": "\"Heli Avitan\" linkedin",
+    "all_results": [],
+    "linkedin_results": [],
+    "linkedin_url_refs": []
+  }
+}
