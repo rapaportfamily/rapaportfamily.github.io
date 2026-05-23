@@ -630,13 +630,25 @@
         ]
       },
       "summary": {
-        "en": "BREAKTHROUGH FAMILY TREE: Identifies the apical couple as MOSHE RAPAPORT + MENUCHA, with 7 children. If this Moshe is the same as Mojżesz Saul Rapaport of Tarnów (Berisz's father per the 1884 birth cert), then: (a) Menucha is the matriarch's NAME — but birth cert names Rywka Schiff. Likely two wives: Menucha first, Rywka second, with Berisz born to Rywka. OR Menucha is a Hebrew name and Rywka is the civil name. (b) 'Dov Rapaport' in Gen 2 = Berisz (Hebrew 'Dov' = 'Berisch' = bear), meaning Berisz had 6 SIBLINGS: Chava Eva, Malka Maltse, Shabtai, Rivka [...], Rivka, Avraham — all previously unknown to us and to Edward Gelles. (c) Avraham Rapaport's son Moshe (b.1910, d.<1993.01 Tel Aviv) is a paternal first cousin of David — a new searchable lead in Israeli archives. Pre-breakthrough family-built tree, so 'Mosina' is a placeholder default — but the gen-2 sibling roster is the genuine new contribution."
+        "en": "A family-built genealogy tree (Geni or MyHeritage style export) that places David, Lusia, Lota, Shimon, Dov, Tamar Bugin, Dalya, Ronen, Hadas, Dana, Doron, Daniel in their known generations and dates. The upper generations (apical couple 'Moshe Rapaport + Menucha' with 7 children, plus Avraham's son 'Moshe Rapaport b.1910 Tel Aviv') are NOT verified by any primary document — they may be family oral tradition or filler. Treat the bottom 3 generations as confirmed (matches all family records). Treat the top 2 generations (Moshe + Menucha and their 7 children) as UNVERIFIED — no documentary source ties them to our line."
+      },
+      "verified_part": {
+        "gen_4_via_david_oo_leah_1935": [
+          "Shimon Rapaport (*1936.06.22)",
+          "Dov Rapaport (*1946.08.28 Brussels)"
+        ],
+        "gen_5_living": [
+          "Ronen Rapaport (*1969) — son of Shimon",
+          "Hadas Rapaport (*1976) — daughter of Shimon",
+          "Dana Rapaport (*1979.11.03 Haifa)",
+          "Doron Rapaport (*1981.12.16 Haifa)",
+          "Daniel Rapaport (*1983.09.14 Haifa)"
+        ]
       },
       "open_questions": [
-        "Is this tree's 'Moshe' the same as Mojżesz Saul Rapaport of Tarnów? Match on first name and the David/Lota/Shimon downstream → almost certainly yes.",
-        "Was Menucha Berisz's mother (in which case the Tarnów cert listing Rywka Schiff is for a second marriage), or is 'Menucha' a Hebrew alias for Rywka Schiff?",
-        "Who built this tree? (Likely a family member — Doron / Dana / Daniel / older Rapaport relative). Tool appears Geni or MyHeritage.",
-        "Where did the 'Dov' name come from for Berisz? If from family tradition, it confirms Berisz used the Hebrew Dov as a name; if from a guess, it's just a translation."
+        "Who built this tree? Whoever it was should be asked which generation names come from documents vs. family oral tradition vs. placeholder guesses.",
+        "The 'Moshe Rapaport + Menucha' apical couple has NO primary-document support tying them to our Berisz. The only documented paternal great-great-grandparents are Mojżesz Saul Rapaport + Rywka Schiff (from Tarnów 1884 birth cert of Berisz).",
+        "The cousin lead 'Moshe Rapaport b.1910 Tel Aviv' is unverified — would need an Israeli Bituach Leumi or cemetery record to confirm."
       ],
       "related_people": [
         "p_mojzesz_saul_rapaport",
@@ -811,170 +823,6 @@
         "h1_mosina_muszyna"
       ],
       "status": "verified"
-    },
-    {
-      "id": "doc_tarnow_yizkor_berisz_biography",
-      "file_pages": [],
-      "kind": "external_source",
-      "type": "yizkor_book_chapter",
-      "primary_language": "en",
-      "title": {
-        "en": "[WITHDRAWN — DIFFERENT FAMILY] Tarnów Yizkor Book — biographies of Ben-Zion Rappaport (pp.296-299)",
-        "he": "ספר טרנוב — ביוגרפיות של בן-ציון רפפורט (עמ' 296-299)",
-        "pl": "Księga Pamięci Tarnowa — biografie Ben-Cyjona Rappaporta (s. 296-299)",
-        "fr": "Livre du Souvenir de Tarnów — biographies de Ben-Zion Rappaport (p. 296-299)"
-      },
-      "source_archive": "JewishGen Yizkor Books — 'Tarnow: The Life and Decline of a Jewish City', Volume I. URL: https://www.jewishgen.org/yizkor/tarnow/tar1_296.html. Two biographical sketches: (1) S.H. Bergman, 'Ben-Zion Rappaport and his book Nature and Spirit' (pp.296-298). (2) Ben-Zion Zangen, 'Ben-Zion Rappaport' (pp.298-299).",
-      "summary": {
-        "en": "**PARADIGM-COMPLETING DOCUMENT** — discovered by CC web research 23 May 2026. Establishes that Berisz / Benzion Rapaport (paternal great-grandfather, b. Tarnów 1884) was the published Hebrew philosopher Ben-Zion Rappaport. Documents his entire life trajectory: rabbinic-family origins (both parents from famous rabbinical lines), age-16 arranged marriage to prevent secularization, business failure → private Hebrew teacher in Tarnów → political articles in 'Hamitzpah' about Hasidic figures → forced exile from Tarnów → Kraków poverty → philosophical scholarship (Spinoza, Kant, Ahad Ha'am) → publications in 'Haolam' (Odessa, 1912-14) → three philosophical books (1924, 1936, 1953-posthumous) → Hebrew language professor at Kraków Hebrew Gymnasium → 'death train' deportation from Kraków → murder at Bełżec → manuscript saved by Polish farmer near Bełżec → published 1953 by Mossad Bialik. Names his father as 'R. Moshe Gorlitzer' (= Mojżesz Saul Rapaport per Tarnów birth cert) — 'one of Tarnów's great teachers'."
-      },
-      "key_quotes": {
-        "father": "'R. Moshe Gorlitzer was one of the great teachers in Tarnow, studied in the kloyz [beth-midrash- study-hall] and had an understanding of worldly matters.' (Zangen)",
-        "rabbinic_lineage": "'Rappaport was born in Tarnow in 5644 (1884). His parents both descended from famous Rabbis.' (Bergman)",
-        "early_marriage": "'After reading Religion and Life by Reuven Asher Broydes at age 18, his father arranged his marriage to prevent him from moving westward.' (Bergman) / 'At age 16, he married.' (Zangen)",
-        "career_arc": "'After his wedding he failed as a businessman and turned to teaching... His contributions to this paper made him unpopular with the town leaders and he was forced to leave Tarnow. He settled in Krakow and lived in poverty as a teacher.' (Bergman)",
-        "religious_practice": "'Despite being a strict religious Jew, with beard and peiyos, he became a splendid expounder of the world's great philosophers.' (Zangen)",
-        "kraków_gymnasium": "'After the Hebrew gymnasium was founded in Krakow, Rappaport worked there as a Hebrew language teacher until World War II's outbreak.' (Zangen)",
-        "death": "'The Hitlerite murderers in an evacuation action in Krakow took him in a death train to Belzec where he died a martyr's death.' (Zangen)",
-        "manuscript_survival": "'Farmers working railway fields near Belzec discovered his manuscript bundle with a note requesting its delivery to Jerusalem University or to a Jew after the war. A scholar from Jerusalem University later collected it, and the Mossad Bialik published Nature and Spirit in 1953.' (Zangen)"
-      },
-      "related_people": [
-        "p_berisz",
-        "p_mojzesz_saul_rapaport"
-      ],
-      "related_hypotheses": [
-        "h_paternal_line_tarnow"
-      ],
-      "external_urls": [
-        "https://www.jewishgen.org/yizkor/tarnow/tar1_296.html"
-      ],
-      "status": "WITHDRAWN_AS_FAMILY_DOC",
-      "withdrawn_note": "23 May 2026 — WITHDRAWN. CC incorrectly identified the Yizkor philosopher Ben-Zion Rappaport with our Berisz Rapaport. Lusia memoir says Berisz lived in Przemyśl 1939 and was killed there on a railway-bomb accusation, with no philosophy / Sącz / Kraków connection. The Yizkor Ben-Zion was a different individual."
-    },
-    {
-      "id": "doc_berisz_last_letter_1942",
-      "file_pages": [],
-      "kind": "external_source",
-      "type": "letter",
-      "primary_language": "he",
-      "title": {
-        "en": "[WITHDRAWN — DIFFERENT FAMILY] Berisz / Ben-Zion Hacohen Rappoport — last letter from Nowy Sącz ghetto to his son Moshe Hacohen Rappoport, 25 Sivan / 16 Aug 1942",
-        "he": "בריש / בן-ציון הכהן רפפורט — מכתב אחרון מגטו נוי סונץ לבנו משה הכהן רפפורט, כ\"ה סיוון / 16 באוגוסט 1942",
-        "pl": "Berisz / Ben-Zion Hacohen Rappoport — ostatni list z getta w Nowym Sączu do syna Mosze Hakohena Rappoporta, 25 Siwan / 16 sierpnia 1942",
-        "fr": "Berisz / Ben-Zion Hacohen Rappoport — dernière lettre du ghetto de Nowy Sącz à son fils Moshe Hacohen Rappoport, 25 Sivan / 16 août 1942"
-      },
-      "source_archive": "Nowy Sącz Yizkor Book pp.601-619 — JewishGen URL https://www.jewishgen.org/Yizkor/Nowy_sacz/now601.html. Letter also bound into the 1953 Mossad Bialik posthumous edition of 'Nature and Spirit' as appendix correspondence. Yad Vashem also holds the letter — https://www.yadvashem.org/he/remembrance/archive/2002/theme/letters/letter10.html",
-      "decoded_fields": {
-        "writer": "Berisz / Ben-Zion Hacohen Rappoport",
-        "place_written": "Nowy Sącz ghetto",
-        "date_main": "25 Sivan 5702 = 10 June 1942",
-        "postscript_date": "22 Tamuz 5702 = 7 July 1942",
-        "alternate_date_per_osu": "16 August 1942 (per OSU Hebrew Lexicon — may refer to a different last letter or transmission date)",
-        "recipient": "his son Moshe Hacohen Rappoport, in another ghetto",
-        "recipient_family": "Moshe's wife + 'beloved daughters' (plural)",
-        "salutation": "To my dear son, his wife and beloved daughters, shalom and great salvation!",
-        "philosophical_content": "Discusses overcoming worry and anger; cites Rabbi Yisrael Meir HaCohen (Chofetz Chaim) on guarding the tongue from lies and slander; describes his ongoing manuscript work on theism, body and soul, and the purpose of man. Postscript cites Rabbi Sa'adia Gaon on suffering as rooted in love of life.",
-        "signature": "Your father who blesses you with a life of tranquility, rest and everything good. Ben-Zion"
-      },
-      "summary": {
-        "en": "EXTRAORDINARY DOCUMENT. Berisz's last surviving letter from the Nowy Sącz ghetto, written just weeks before the ghetto's mass deportation to Bełżec (23-28 August 1942). Reveals: (1) Berisz had a son Moshe Hacohen Rappoport (a paternal half-uncle of Dov; new to family knowledge), (2) Moshe Hacohen had a wife + multiple daughters, also perished, (3) Berisz continued writing philosophy even in the ghetto — material from this period found its way into the posthumous Nature and Spirit, (4) Berisz remained a strict religious Jew citing Chofetz Chaim and Sa'adia Gaon, (5) the recipient's marker 'hy\"d' (May God avenge his blood) confirms Moshe Hacohen's death."
-      },
-      "related_people": [
-        "p_berisz",
-        "p_moshe_hacohen_rappoport"
-      ],
-      "external_urls": [
-        "https://www.jewishgen.org/Yizkor/Nowy_sacz/now601.html",
-        "https://www.yadvashem.org/he/remembrance/archive/2002/theme/letters/letter10.html"
-      ],
-      "status": "WITHDRAWN_AS_FAMILY_DOC",
-      "withdrawn_note": "23 May 2026 — WITHDRAWN. CC incorrectly identified the Yizkor philosopher Ben-Zion Rappaport with our Berisz Rapaport. Lusia memoir says Berisz lived in Przemyśl 1939 and was killed there on a railway-bomb accusation, with no philosophy / Sącz / Kraków connection. The Yizkor Ben-Zion was a different individual."
-    },
-    {
-      "id": "doc_nowy_sacz_yizkor_berisz",
-      "file_pages": [],
-      "kind": "external_source",
-      "type": "yizkor_book_chapter",
-      "primary_language": "en",
-      "title": {
-        "en": "[WITHDRAWN — DIFFERENT FAMILY] Nowy Sącz Yizkor Book — chapter on Ben-Zion Hacohen Rappoport (pp.601-619)",
-        "he": "ספר זכרון נוי-סונץ — פרק על בן-ציון הכהן רפפורט (עמ' 601-619)",
-        "pl": "Księga Pamięci Nowego Sącza — rozdział o Ben-Cyjonie Hakohenie Rappoport (s. 601-619)",
-        "fr": "Livre du Souvenir de Nowy Sącz — chapitre sur Ben-Zion Hacohen Rappoport (p. 601-619)"
-      },
-      "source_archive": "JewishGen Yizkor Books — Nowy Sącz / Sandz. URL: https://www.jewishgen.org/Yizkor/Nowy_sacz/now601.html. Provides Berisz's biography from the Nowy-Sącz-community perspective, including details about his first marriage and son Moshe Hacohen not present in the Tarnów Yizkor.",
-      "summary": {
-        "en": "**FAMILY-DEFINING DOCUMENT**: Provides previously-unknown details about Berisz's first marriage and his son Moshe Hacohen Rappoport. Documents: (1) Berisz lost his mother at age 3 (~1887), (2) at age 13 (~1897) his father R. Moshle Riglitzer moved with him to Nowy Sącz to live with his sister Sarah Mahler, (3) Berisz's first marriage was arranged by his sister Sarah to 'the daughter of a good family from Żmigród' at age 17, (4) his first wife was a 'Woman of Valor' who dealt in fabrics at regional fairs, (5) he had a son Moshe Hacohen Rappoport who married and had daughters, (6) all of them perished in the Holocaust, (7) the last letter from Nowy Sącz ghetto is reproduced in full."
-      },
-      "key_quotes": {
-        "father_riglitzer": "His father R' Moshle Riglitzer... was a teacher of boys.",
-        "early_orphaning": "His mother died when he was three years old.",
-        "move_to_sącz": "His father moved with him to Sandz (Nowy Sacz), to his only daughter, Sarah, wife of Mordechai Mahler the enlightened maskil, a Zionist and activist.",
-        "religious_conflict": "He pressured his daughter to remove the 'apikoros' teacher from her home.",
-        "first_marriage": "She exerted herself and found him a wife, the daughter of a good family from Zmigrod. He was then about seventeen.",
-        "first_wife_woman_of_valor": "His wife, who was forced to be a Woman of Valor and provide for the family, began to deal in fabrics, and traveled to the fairs in the area.",
-        "teaching_zmigrod": "Ben-Zion became a teacher in her town of Zemigrod.",
-        "move_krakow": "He should move to Krakow, a city of scholars and lovers of secular learning.",
-        "publications": "He began writing philosophical articles for 'HaShiloach', 'Haolam', and 'Hatekufa'.",
-        "final_days": "In the terrible days he left there for Sandz to join his family... there he died together with all the people.",
-        "letter_header": "The last letter of the teacher, author, and philosopher, Rabbi Ben-Zion Hacohen Rappoport... to his only son Moshe Hacohen Rappoport, hy\"d... Zandzin near Tarnow"
-      },
-      "related_people": [
-        "p_berisz",
-        "p_mojzesz_saul_rapaport",
-        "p_sarah_mahler",
-        "p_mordechai_mahler",
-        "p_berisz_first_wife_zmigrod",
-        "p_moshe_hacohen_rappoport"
-      ],
-      "external_urls": [
-        "https://www.jewishgen.org/Yizkor/Nowy_sacz/now601.html"
-      ],
-      "status": "WITHDRAWN_AS_FAMILY_DOC",
-      "withdrawn_note": "23 May 2026 — WITHDRAWN. CC incorrectly identified the Yizkor philosopher Ben-Zion Rappaport with our Berisz Rapaport. Lusia memoir says Berisz lived in Przemyśl 1939 and was killed there on a railway-bomb accusation, with no philosophy / Sącz / Kraków connection. The Yizkor Ben-Zion was a different individual."
-    },
-    {
-      "id": "doc_berisz_published_books",
-      "file_pages": [],
-      "kind": "external_source",
-      "type": "publication_list",
-      "primary_language": "he",
-      "title": {
-        "en": "[WITHDRAWN — DIFFERENT FAMILY] Ben-Zion Rappaport — published philosophical works",
-        "he": "בן-ציון רפפורט — ספריו הפילוסופיים",
-        "pl": "Ben-Zion Rappaport — opublikowane dzieła filozoficzne",
-        "fr": "Ben-Zion Rappaport — œuvres philosophiques publiées"
-      },
-      "works": [
-        {
-          "title": "Consciousness and Reality — A Collection of Philosophical Essays",
-          "year": 1924,
-          "language": "Hebrew",
-          "note": "First book. Manuscript completed earlier — publication delayed 5 years. Possibly Berisz traveled to Vienna in Feb 1924 (per 1924 passport application) for publication-related business."
-        },
-        {
-          "title": "Thinkers and Logic",
-          "year": 1936,
-          "language": "Hebrew",
-          "note": "Second book. Published while teaching at Kraków Hebrew Gymnasium."
-        },
-        {
-          "title": "Nature and Spirit: Philosophical Inquiries",
-          "title_he": "טבע ורוח",
-          "year": 1953,
-          "publisher": "Mossad Bialik (מוסד ביאליק), Jerusalem",
-          "language": "Hebrew",
-          "note": "Posthumous — manuscript saved from Bełżec death-train fields by Polish farmers and published 10 years after Berisz's murder. Likely available at: National Library of Israel, Hebrew University Library, Mossad Bialik archives. **High-priority action: Doron should acquire a copy as a family heirloom.**"
-        }
-      ],
-      "summary": {
-        "en": "Berisz / Ben-Zion Rappaport's three Hebrew philosophical books — a tangible legacy that survived the Holocaust. He was, per S.H. Bergman's biographical sketch, 'one of those who laid the foundation for philosophical thought in the period of the revival of Hebrew literature' and 'a popularizer of philosophical ideas for Hebrew readers, explaining complex thinkers like Spinoza, Kant, and Ahad Ha'am without condescension.'"
-      },
-      "related_people": [
-        "p_berisz"
-      ],
-      "status": "WITHDRAWN_AS_FAMILY_DOC",
-      "withdrawn_note": "23 May 2026 — WITHDRAWN. CC incorrectly identified the Yizkor philosopher Ben-Zion Rappaport with our Berisz Rapaport. Lusia memoir says Berisz lived in Przemyśl 1939 and was killed there on a railway-bomb accusation, with no philosophy / Sącz / Kraków connection. The Yizkor Ben-Zion was a different individual."
     },
     {
       "id": "doc_zydzi_w_muszynie",

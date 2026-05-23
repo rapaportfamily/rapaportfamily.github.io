@@ -781,7 +781,7 @@
         "בנציון"
       ],
       "role": "great_grandfather_paternal",
-      "note_en": "Paternal great-grandfather of Doron, Dana and Daniel. Born in Tarnów (Western Galicia) 6 Aug 1884, civilly registered as 'Benzion' / 'Ben-Zion'; later known as Berisz / Berisch / Bernard. **⚠ CC ERROR RETRACTED 23 May 2026**: An earlier hypothesis identified Berisz with 'Ben-Zion Rappaport the Hebrew philosopher' (per Tarnów + Nowy Sącz Yizkor books). This was REFUTED by Lusia's memoir — which mentions Przemyśl and Nadwórna repeatedly but zero references to Tarnów-as-residence, Nowy Sącz, Kraków, Hebrew Gymnasium, philosophy, or books, and explicitly states Berisz was killed in Przemyśl. The Tarnów-1884 birth + teacher-father markers were a coincidence with another Ben-Zion Rappaport. WHAT WE ACTUALLY KNOW (primary docs + memoir): Berisz was born Tarnów 1884, son of Mojżesz Saul Rapaport (private teacher) + Rywka Schiff; in 1924 his family was in Stanisławów Kościuszki 4 (passport application to Vienna); married Rebeka Griffel of Nadwórna ~1908-10; children David Mendel (b.1911 Nadwórna) + Lota (b.~1916); by 1939 lived in Przemyśl together with Rebeka and David's grandmother. When war broke out, Lusia + Shimon went to stay with them in Przemyśl; David (Memek) followed. They lived under Soviet rule Sept 1939 – June 1941; Lusia worked for the Soviet NKVD as a cashier. After German takeover June 1941, 'several months later' (so late 1941 or early 1942) the Germans **killed Berisz in Przemyśl, accusing him of allegedly placing a bomb on the railway near which they lived** (Lusia's memoir, page 24). Bernard Rapaport appears in Przemyśl records ~1910 per Basia 13-May letter — consistent with this being a long-established residence not a wartime evacuation. After Berisz's death, Lusia + Memek + Shimon moved to Nadwórna.",
+      "note_en": "Paternal great-grandfather of Doron, Dana and Daniel. Born Tarnów (Western Galicia) 6 August 1884, civilly registered as 'Benzion'; known in adulthood as Berisz / Berisch / Bernard (Hebrew name: Issachar Berish). Son of Mojżesz Saul Rapaport (private teacher in Tarnów) and Rywka née Schiff (daughter of Michał + Cywie Schiff of Tarnów). Married Rebeka Griffel of Nadwórna ~1908-1910 — children David Mendel (b.1911 Nadwórna) and Lota (b.~1916). In 1924 the family lived at Stanisławów Kościuszki 4 (per his passport application to Vienna, 29 Feb 1924). By 1939 he lived in Przemyśl with Rebeka and David's grandmother. When war broke out (Sept 1939), Lusia and toddler Shimon traveled there to join them; David (Memek) followed. Under Soviet rule of Przemyśl (Sept 1939 – June 1941) Lusia worked as a cashier for the NKVD. Several months after the German takeover in June 1941, the Germans killed Berisz in Przemyśl, accusing him of allegedly placing a bomb on the railway near where they lived (Lusia memoir page 24). Probable date late 1941 or first half of 1942. After his death, Lusia / Memek / Shimon moved to Nadwórna.",
       "birth": {
         "date": "1884-08-06",
         "date_precision": "day",
@@ -856,12 +856,7 @@
         "sources": [
           "src_lusia_memoir_page_24"
         ],
-        "note_en": "**RESOLVED via Lusia's memoir, page 24** (primary family source): 'הללו את חמה בהאשימם אותו שהניח, כביכול, פצצה על מסילת הברזל שבקירבתה התגוררו' — 'They [the Germans] killed her father-in-law, accusing him of allegedly placing a bomb on the railway near which they lived.' This happened in Przemyśl, several months after the German takeover of the Soviet zone of Przemyśl (Sept-Dec 1941 onwards) — so likely late 1941 or first half of 1942. The accusation was almost certainly fabricated (a common Nazi pretext for executing prominent Jewish residents). The chapter title in the memoir is 'עם חמה וחמתה בפשמשל' = 'With her father-in-law and mother-in-law in Przemyśl', confirming this is the family residence at the time.",
-        "earlier_hypothesis": {
-          "place_id": "pl_belzec",
-          "source": "src_tarnow_yizkor_zangen + src_nowy_sacz_yizkor_rappoport",
-          "status": "REFUTED — the 'Ben-Zion Rappaport philosopher' of the Tarnów + Nowy Sącz Yizkor books is a different person who happened to share Berisz's birth city + year"
-        }
+        "note_en": "Killed in Przemyśl by the Germans, who accused him of allegedly placing a bomb on the railway near where the family lived. Source: Lusia's memoir, page 24: 'הללו את חמה בהאשימם אותו שהניח, כביכול, פצצה על מסילת הברזל שבקירבתה התגוררו' — 'They killed her father-in-law, accusing him of allegedly placing a bomb on the railway near which they lived.' The chapter heading is 'עם חמה וחמתה בפשמשל' = 'With her father-in-law and mother-in-law in Przemyśl', confirming Berisz's residence at the time. The accusation was almost certainly fabricated. Date: 'several months' after the German takeover of the Soviet zone of Przemyśl in June 1941 — so likely late 1941 or first half of 1942."
       }
     },
     {
@@ -3466,7 +3461,7 @@
         "Moses Saul"
       ],
       "role": "great_great_grandfather_paternal",
-      "note_en": "Paternal great-great-grandfather of Doron, Dana and Daniel. Identified 23 May 2026 by Basia via Berisz Rapaport's 1924 passport application (which names him as Berisz's father 'Mojżesz Saul Rapaport') and via Berisz's 1884 Tarnów birth certificate row 323 (which lists him as 'Mojżesz Rapaport, nauczyciel prywatny w Tarnowie' — private teacher in Tarnów). Spouse: Rywka Schiff of Tarnów. ⚠ A previous CC hypothesis identified him with 'R. Moshe Gorlitzer' (the father of the Sącz philosopher Ben-Zion Rappaport in the Tarnów Yizkor) — that identification is now RETRACTED, see p_berisz.death.earlier_hypothesis. Birth year not yet confirmed — likely c.1850-1860 given his son Berisz was born 1884. Tarnów birth/marriage records should clarify. Death date unknown.",
+      "note_en": "Paternal great-great-grandfather of Doron, Dana and Daniel. Identified via Berisz Rapaport's 1924 passport application (which names him as Berisz's father 'Mojżesz Saul Rapaport') and via Berisz's 1884 Tarnów birth certificate row 323 (which lists him as 'Mojżesz Rapaport, nauczyciel prywatny w Tarnowie' — private teacher in Tarnów). Spouse: Rywka Schiff of Tarnów. Birth year not yet confirmed — likely c.1850-1860 given his son Berisz was born 1884. Tarnów Jewish vital records should be searched to clarify dates and any siblings of Berisz. Death date and place unknown.",
       "birth": {
         "place_id": "pl_tarnow",
         "date_precision": "unknown",
@@ -3583,172 +3578,6 @@
       "children_ids": [
         "p_rywka_schiff"
       ]
-    },
-    {
-      "id": "p_berisz_first_wife_zmigrod",
-      "status": "WITHDRAWN",
-      "withdrawn_note": "23 May 2026 — entry withdrawn. This was based on the misidentification of our Berisz with the Sącz-Yizkor's 'Ben-Zion Rappoport philosopher'. Lusia's memoir places Berisz in Przemyśl, not Sącz, and makes no mention of a first marriage. The Żmigród first wife belonged to a different Ben-Zion Rappaport, not ours.",
-      "primary_name": {
-        "en": "[WITHDRAWN — was misidentified as Berisz's first wife]",
-        "he": "[נמשך — זוהה בטעות כאשתו הראשונה של בריש]",
-        "pl": "[WYCOFANE — błędna identyfikacja]",
-        "fr": "[RETIRÉ — mauvaise identification]"
-      },
-      "aliases": [
-        "Eshet Chayil",
-        "Żmigród first wife"
-      ],
-      "role": "great_grandmother_paternal_first_wife",
-      "confidence": "hypothesis",
-      "note_en": "⚠ INFERRED — not yet documented. The Nowy Sącz Yizkor Book (pp.601-619) describes a wife of Ben-Zion Rappoport as 'the daughter of a good family from Żmigród' (he was ~17, she was ~29, marriage arranged by his sister Sarah Mahler c.1901). The Yizkor calls Moshe Hacohen Rappoport his 'only son' and describes the wife as an 'Eshet Chayil' who dealt in fabrics at regional fairs. PRIMARY DOCUMENTS (Nadwórna 1911 birth cert + 1924 passport + Edward Gelles pedigree) clearly establish Rebeka Griffel of Nadwórna as Berisz's wife and David Memek + Lota as his children. These two pictures CONFLICT. **The 'two marriages' framing is CC's hypothesis to reconcile them** — that Berisz first married the Żmigród woman (~1901), had Moshe Hacohen, was widowed, then remarried Rebeka Griffel (~1908-10). Alternative explanations: (a) The Yizkor mislabels the Żmigród origin and the wife is actually Rebeka — but Rebeka is documented as born Nadwórna 1888 (her birth cert is in our archive), and she was ~24 in 1908 not 29 in 1901, so this doesn't fit. (b) 'Only son' in the Yizkor means 'only son still in Poland in 1942' — David had escaped to USSR by then. This makes Moshe Hacohen a full brother of David, not a half-brother. (c) Two different Ben-Zion Rapaports — refuted by matching Tarnów-1884-birth + father-teacher identifiers. **Verification path**: Basia should search Żmigród Jewish marriage records ~1898-1905 for any Rapaport union, OR find a Nadwórna marriage record for Berisz × Rebeka that indicates first vs. remarriage status. Until verified, treat all p_berisz_first_wife_zmigrod + p_moshe_hacohen_rappoport facts as HYPOTHESIS, not confirmed family.",
-      "birth": {
-        "place_id": "pl_zmigrod",
-        "date_precision": "unknown",
-        "confidence": "documented",
-        "sources": [
-          "src_nowy_sacz_yizkor_rappoport"
-        ],
-        "note_en": "Likely born c.1880-1885 in Żmigród (Nowy Żmigród or Stary Żmigród, small Galician towns ~70 km south of Tarnów)."
-      },
-      "facts": [
-        {
-          "key": "yizkor_woman_of_valor",
-          "value": "Per Nowy Sącz Yizkor Book pp.601-619: 'She exerted herself and found him a wife, the daughter of a good family from Zmigrod. He was then about seventeen.' Later 'his wife, who was forced to be a Woman of Valor and provide for the family, began to deal in fabrics, and traveled to the fairs in the area.' The first 'she' is Berisz's sister Sarah Mahler.",
-          "confidence": "documented",
-          "sources": [
-            "src_nowy_sacz_yizkor_rappoport"
-          ]
-        }
-      ],
-      "spouse_id": "p_berisz",
-      "children_ids": [
-        "p_moshe_hacohen_rappoport"
-      ]
-    },
-    {
-      "id": "p_moshe_hacohen_rappoport",
-      "status": "WITHDRAWN",
-      "withdrawn_note": "23 May 2026 — entry withdrawn. Moshe Hacohen Rappoport was the son of the Sącz philosopher Ben-Zion Rappaport, who CC incorrectly identified with our Berisz. Lusia's memoir confirms our Berisz had only David and Lota; there is no other son. The philosopher's Moshe Hacohen belonged to a different family.",
-      "primary_name": {
-        "en": "[WITHDRAWN — belonged to different Ben-Zion Rappaport's family]",
-        "he": "[נמשך — שייך למשפחה אחרת]",
-        "pl": "[WYCOFANE — należał do innej rodziny]",
-        "fr": "[RETIRÉ — appartenait à une autre famille]"
-      },
-      "aliases": [
-        "Moshe ha-Cohen Rappoport",
-        "Moses Cohen Rappaport"
-      ],
-      "role": "great_uncle_paternal_unverified",
-      "confidence": "hypothesis",
-      "note_en": "⚠ INFERRED — relationship to David is hypothesis, not documented. Per the Nowy Sącz Yizkor Book (pp.601-619), Ben-Zion Rappoport addressed his last letter (25 Sivan 5702 / 10 Jun 1942) 'to his only son Moshe Hacohen Rappoport, hy\"d... Zandzin near Tarnow' with salutation 'To my dear son, his wife and beloved daughters'. Moshe Hacohen was married with multiple daughters by 1942; all perished. The Yizkor says Berisz 'died together with all the people of the town and with his wife and only son and his grandchildren'. **TWO INTERPRETATIONS are possible**: (a) Moshe Hacohen is from Berisz's FIRST marriage (to the Żmigród woman) and is David Memek's HALF-BROTHER — this is CC's working hypothesis. (b) Moshe Hacohen and David are FULL BROTHERS, sons of Rebeka Griffel; the Yizkor says 'only son' because David had escaped to USSR by 1942 and only Moshe was reachable from the Sącz ghetto. Either way, **Moshe Hacohen was Berisz's son who perished in the Holocaust with his wife and daughters** — and the family does not appear to know about him. The Yad Vashem Page of Testimony should still be filed regardless of which marriage he came from. **Verification needed**: birth records for Moshe Hacohen (Tarnów or Nowy Sącz area, c.1900-1910); marriage record for Berisz × Rebeka Griffel that would confirm/refute the first-marriage hypothesis.",
-      "birth": {
-        "date_precision": "estimated_year",
-        "date": "1902",
-        "confidence": "estimated",
-        "sources": [
-          "src_nowy_sacz_yizkor_rappoport"
-        ],
-        "note_en": "Estimated c.1902-1905 — first son of Berisz's c.1901 first marriage. Age would be ~37-40 in 1942 (consistent with having wife + multiple daughters)."
-      },
-      "death": {
-        "date_range": "1942-1943",
-        "place_id": "pl_belzec",
-        "confidence": "documented",
-        "sources": [
-          "src_nowy_sacz_yizkor_rappoport"
-        ],
-        "note_en": "Perished in the Holocaust ('hy\"d' annotation in Nowy Sącz Yizkor). Likely deported from his ghetto ('another ghetto' per Yizkor, possibly Tarnów ghetto or another Galician location near Sącz) to Bełżec extermination camp in 1942. His wife and daughters also perished."
-      },
-      "facts": [
-        {
-          "key": "yizkor_letter_recipient",
-          "value": "Recipient of Ben-Zion's last extant letter (25 Sivan 5702 = 10 June 1942 / postscript 22 Tamuz). Berisz addresses him as 'my dear son' and asks about 'his wife and beloved daughters'. The letter is published in Nowy Sącz Yizkor Book pp.601-619 and bound with the 1953 Mossad Bialik posthumous edition of 'Nature and Spirit'.",
-          "confidence": "documented",
-          "sources": [
-            "src_nowy_sacz_yizkor_rappoport",
-            "src_mossad_bialik_1953"
-          ]
-        },
-        {
-          "key": "kohanic_lineage",
-          "value": "Kohen (priestly descent) — explicit in his name 'Hacohen / ha-Cohen'.",
-          "confidence": "documented",
-          "sources": [
-            "src_nowy_sacz_yizkor_rappoport"
-          ]
-        }
-      ],
-      "father_id": "p_berisz",
-      "mother_id": "p_berisz_first_wife_zmigrod",
-      "siblings_ids": [
-        "p_david",
-        "p_lota"
-      ]
-    },
-    {
-      "id": "p_sarah_mahler",
-      "status": "WITHDRAWN",
-      "withdrawn_note": "23 May 2026 — entry withdrawn. Sarah Mahler was the sister of the Sącz philosopher Ben-Zion Rappaport, NOT of our Berisz. The 1876-1932 Sara Mahler (Rappaport) on Geni belongs to a different Rapaport family.",
-      "primary_name": {
-        "en": "[WITHDRAWN — belonged to different Rapaport family]",
-        "he": "[נמשך]",
-        "pl": "[WYCOFANE]",
-        "fr": "[RETIRÉ]"
-      },
-      "aliases": [
-        "Sara Mahler",
-        "Sara Rappaport"
-      ],
-      "role": "great_great_aunt_paternal",
-      "note_en": "Berisz's older full sister (8 years older). Newly identified 23 May 2026 via Nowy Sącz Yizkor Book + Geni profile. Per Yizkor: 'his father moved with him to Sandz (Nowy Sacz), to his only daughter, Sarah, wife of Mordechai Mahler' — when Berisz was 13 (c.1897) after their mother died. So Sarah was already married and settled in Nowy Sącz. She was the one who, when Berisz showed maskilic leanings, 'exerted herself and found him a wife, the daughter of a good family from Żmigród' (the first marriage c.1901). She died in 1932 in Nowy Sącz — pre-WWII, so spared the Holocaust.",
-      "birth": {
-        "date": "1876",
-        "date_precision": "year",
-        "place_id": "pl_tarnow",
-        "confidence": "documented",
-        "sources": [
-          "src_geni_sara_mahler_rappaport"
-        ]
-      },
-      "death": {
-        "date": "1932",
-        "date_precision": "year",
-        "place_id": "pl_nowy_sacz",
-        "confidence": "documented",
-        "sources": [
-          "src_geni_sara_mahler_rappaport"
-        ]
-      },
-      "father_id": "p_mojzesz_saul_rapaport",
-      "spouse_id": "p_mordechai_mahler",
-      "siblings_ids": [
-        "p_berisz"
-      ]
-    },
-    {
-      "id": "p_mordechai_mahler",
-      "status": "WITHDRAWN",
-      "withdrawn_note": "23 May 2026 — entry withdrawn alongside Sarah Mahler (no longer believed to be Berisz's brother-in-law).",
-      "primary_name": {
-        "en": "[WITHDRAWN]",
-        "he": "[נמשך]",
-        "pl": "[WYCOFANE]",
-        "fr": "[RETIRÉ]"
-      },
-      "role": "great_great_uncle_paternal_by_marriage",
-      "note_en": "Berisz's brother-in-law — husband of Berisz's older sister Sarah Rappaport. Per Nowy Sącz Yizkor Book: 'Mordechai Mahler the enlightened maskil, a Zionist and activist'. Lived in Nowy Sącz. The Mahler-Rappaport household was where Berisz's father Moshle moved with him at age 13 (c.1897) after their mother's death. The fact that the host was a maskil/Zionist/activist may have influenced Berisz's eventual move toward secular Hebrew letters — even though Berisz's father pressured Sarah to remove an 'apikoros' teacher Berisz had befriended there.",
-      "facts": [
-        {
-          "key": "yizkor_description",
-          "value": "Per Nowy Sącz Yizkor: 'the enlightened maskil, a Zionist and activist'.",
-          "confidence": "documented",
-          "sources": [
-            "src_nowy_sacz_yizkor_rappoport"
-          ]
-        }
-      ],
-      "spouse_id": "p_sarah_mahler"
     },
     {
       "id": "p_cywie_schiff",
