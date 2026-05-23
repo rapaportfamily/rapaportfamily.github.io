@@ -767,48 +767,65 @@
     {
       "id": "p_berisz",
       "primary_name": {
-        "en": "Berisz / Bernard Rapaport",
-        "he": "בעריש / ברנרד רפפורט",
-        "pl": "Berisz / Bernard Rapaport",
-        "fr": "Berisz / Bernard Rapaport"
+        "en": "Berisz / Bernard Rapaport (born Benzion)",
+        "he": "בעריש / ברנרד רפפורט (בנציון)",
+        "pl": "Berisz / Bernard Rapaport (ur. Benzion)",
+        "fr": "Berisz / Bernard Rapaport (né Benzion)"
       },
       "aliases": [
+        "Benzion",
         "Bernard",
         "Berl",
         "Issachar Berish",
-        "יששכר בעריש"
+        "יששכר בעריש",
+        "בנציון"
       ],
       "role": "great_grandfather_paternal",
-      "note_en": "Paternal great-grandfather of Doron, Dana and Daniel. Merchant in Nadwórna. Father of David.",
+      "note_en": "Paternal great-grandfather of Doron, Dana and Daniel. Born in Tarnów (Western Galicia) 6 Aug 1884 as 'Benzion'; later known as Berisz / Berisch / Bernard. Married Rebeka Griffel of Nadwórna and relocated east. By 1924 his family lived in Stanisławów (Kościuszki 4). Father of David and Lota.",
+      "birth": {
+        "date": "1884-08-06",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "confirmed",
+        "sources": [
+          "doc_berisz_birth_tarnow_1884",
+          "report_basia_23may"
+        ],
+        "birth_name": "Benzion",
+        "note_en": "BREAKTHROUGH 23 May 2026 — Basia located birth certificate in Tarnów records: born at 'Tarnów city no. 24', name given as 'Benzion', father Mojżesz Rapaport (private teacher), mother Rywka Schiff (daughter of Michał Schiff merchant + Cywie Schiff). This cracks open the paternal line that even Edward Gelles (25+ years of dedicated research) could not penetrate."
+      },
       "facts": [
         {
           "key": "occupation",
-          "value": "Merchant (kupiec) in Nadwórna",
+          "value": "Merchant (kupiec) in Nadwórna by the 1910s; earlier roots in Tarnów (father was a private teacher).",
           "confidence": "documented",
           "sources": [
             "doc_david_birth_nadworna",
-            "doc_david_dp_card"
+            "doc_david_dp_card",
+            "doc_berisz_passport_1924"
           ]
         },
         {
-          "key": "1910_przemysl",
-          "value": "A Bernard Rapaport appears in Przemyśl records around 1910 — may or may not be him",
-          "confidence": "hypothesis",
+          "key": "1924_passport_app",
+          "value": "Passport application 29 Feb 1924 to travel to Vienna. Document L 19376/22. Physical description: average height, elongated face, black hair, black eyes, proportionate nose/mouth. Children listed: Mendel age 12 (= David), Lotti age 8 (= Lota). Current address: Stanisławów Kościuszki 4. Origin: Tarnów Folwarczna 9 (today Waryńskiego St.). Municipal registry: Dąbrowa.",
+          "confidence": "confirmed",
           "sources": [
-            "report_basia_13may"
+            "doc_berisz_passport_1924",
+            "report_basia_23may"
           ]
         },
         {
           "key": "hebrew_name",
-          "value": "Issachar Berish (יששכר בעריש)",
+          "value": "Issachar Berish (יששכר בעריש). Civil birth-name 'Benzion' (בנציון) is the registered Galician Jewish form.",
           "confidence": "documented",
           "sources": [
-            "src_gelles_griffel_nadworna_pdf"
+            "src_gelles_griffel_nadworna_pdf",
+            "doc_berisz_birth_tarnow_1884"
           ]
         },
         {
           "key": "documented_marriage",
-          "value": "Marriage to Rivka Griffel of Nadwórna documented in print by Edward Gelles, \"Griffel of Nadworna\" (Balliol College Oxford archives), entry #8 in the Eliezer Griffel pedigree.",
+          "value": "Marriage to Rivka Griffel of Nadwórna documented in print by Edward Gelles, \"Griffel of Nadworna\" (Balliol College Oxford archives), entry #8 in the Eliezer Griffel pedigree. Marriage likely 1908-1910 based on Berisz b.1884 + David b.1911.",
           "confidence": "documented",
           "sources": [
             "src_gelles_griffel_nadworna_pdf"
@@ -824,6 +841,8 @@
           ]
         }
       ],
+      "father_id": "p_mojzesz_saul_rapaport",
+      "mother_id": "p_rywka_schiff",
       "children_ids": [
         "p_david",
         "p_lota"
@@ -3425,6 +3444,186 @@
       "spouse_id": "p_ester_goldfischer",
       "children_ids": [
         "p_dalia"
+      ]
+    },
+    {
+      "id": "p_mojzesz_saul_rapaport",
+      "primary_name": {
+        "en": "Mojżesz (Moshe) Saul Rapaport",
+        "he": "משה שאול רפפורט",
+        "pl": "Mojżesz Saul Rapaport",
+        "fr": "Mojżesz (Moïse) Saul Rapaport",
+        "yi": "משה שאול ראפאפארט"
+      },
+      "aliases": [
+        "Moshe Saul",
+        "Mojżesz",
+        "Moses Saul"
+      ],
+      "role": "great_great_grandfather_paternal",
+      "note_en": "Paternal great-great-grandfather of Doron, Dana and Daniel. Newly identified 23 May 2026 by Basia via Berisz Rapaport's 1924 passport application (which names him as Berisz's father) and via Berisz's 1884 Tarnów birth certificate (which lists him as 'nauczyciel prywatny w Tarnowie' — private teacher in Tarnów). Spouse: Rywka Schiff of Tarnów. May be the same Moshe Rapaport whose descendants are mapped in 'Tablica potomków Moshe Rapaport.pdf' shared by Basia.",
+      "birth": {
+        "place_id": "pl_tarnow",
+        "date_precision": "unknown",
+        "confidence": "documented",
+        "sources": [
+          "doc_berisz_birth_tarnow_1884",
+          "doc_berisz_passport_1924",
+          "report_basia_23may"
+        ],
+        "note_en": "Birth year not yet confirmed — likely c.1850-1860 given his son Berisz was born 1884. Tarnów birth/marriage records should clarify."
+      },
+      "facts": [
+        {
+          "key": "occupation",
+          "value": "Private teacher (nauczyciel prywatny) in Tarnów c.1884. May indicate religious/Hebrew/secular tutor — common Galician Jewish profession for educated middle-class.",
+          "confidence": "documented",
+          "sources": [
+            "doc_berisz_birth_tarnow_1884",
+            "report_basia_23may"
+          ]
+        },
+        {
+          "key": "kohanic_lineage",
+          "value": "Kohen (priestly descent) — inferred from son Berisz being documented Kohen.",
+          "confidence": "hypothesis",
+          "sources": [
+            "src_family_tradition_kohen"
+          ]
+        },
+        {
+          "key": "descendants_table",
+          "value": "A 'Tablica potomków Moshe Rapaport' (Descendants Table of Moshe Rapaport) was shared by Basia 23 May 2026 — needs OCR + cross-reference to confirm identity (Moshe is a common name).",
+          "confidence": "hypothesis",
+          "sources": [
+            "doc_moshe_rapaport_descendants_table"
+          ]
+        }
+      ],
+      "spouse_id": "p_rywka_schiff",
+      "children_ids": [
+        "p_berisz"
+      ]
+    },
+    {
+      "id": "p_rywka_schiff",
+      "primary_name": {
+        "en": "Rywka Rapaport (née Schiff)",
+        "he": "רבקה רפפורט (לבית שיף)",
+        "pl": "Rywka Rapaport (z domu Schiff)",
+        "fr": "Rywka Rapaport (née Schiff)",
+        "yi": "רבקה שיף"
+      },
+      "aliases": [
+        "Rivka Schiff",
+        "Rebecca Schiff"
+      ],
+      "role": "great_great_grandmother_paternal",
+      "note_en": "Paternal great-great-grandmother of Doron, Dana and Daniel. Identified 23 May 2026 by Basia as the mother of Berisz Rapaport. Daughter of Michał Schiff (merchant of Tarnów) and Cywie Schiff. Note: there are TWO Rivkas in this family tree — Rywka Schiff (paternal line, Tarnów) and Rebeka Griffel (maternal-of-David, Nadwórna). Easy to confuse.",
+      "birth": {
+        "place_id": "pl_tarnow",
+        "date_precision": "unknown",
+        "confidence": "documented",
+        "sources": [
+          "doc_berisz_birth_tarnow_1884",
+          "report_basia_23may"
+        ],
+        "note_en": "Birth year not yet confirmed — likely c.1855-1865."
+      },
+      "facts": [
+        {
+          "key": "named_in_son_birth_cert",
+          "value": "Named in son Berisz / Benzion's 1884 Tarnów birth certificate as 'Rywka Schiff z Tarnowa córka Michała Schiffa kramarza i Cywie Schiff z Tarnowa'.",
+          "confidence": "confirmed",
+          "sources": [
+            "doc_berisz_birth_tarnow_1884",
+            "report_basia_23may"
+          ]
+        }
+      ],
+      "father_id": "p_michal_schiff",
+      "mother_id": "p_cywie_schiff",
+      "spouse_id": "p_mojzesz_saul_rapaport",
+      "children_ids": [
+        "p_berisz"
+      ]
+    },
+    {
+      "id": "p_michal_schiff",
+      "primary_name": {
+        "en": "Michał Schiff",
+        "he": "מיכאל שיף",
+        "pl": "Michał Schiff",
+        "fr": "Michał Schiff",
+        "yi": "מיכאל שיף"
+      },
+      "aliases": [
+        "Michael Schiff"
+      ],
+      "role": "great_great_great_grandfather_paternal",
+      "note_en": "Paternal great-great-great-grandfather (3x-great-grandfather) of Doron, Dana and Daniel. Father of Rywka Schiff. Newly identified 23 May 2026.",
+      "birth": {
+        "place_id": "pl_tarnow",
+        "date_precision": "unknown",
+        "confidence": "documented",
+        "sources": [
+          "doc_berisz_birth_tarnow_1884"
+        ],
+        "note_en": "Likely born c.1820-1835."
+      },
+      "facts": [
+        {
+          "key": "occupation",
+          "value": "Merchant ('kramarz' — small-shop trader / merchant) of Tarnów per 1884 Tarnów birth certificate of his grandson Berisz.",
+          "confidence": "documented",
+          "sources": [
+            "doc_berisz_birth_tarnow_1884",
+            "report_basia_23may"
+          ]
+        }
+      ],
+      "spouse_id": "p_cywie_schiff",
+      "children_ids": [
+        "p_rywka_schiff"
+      ]
+    },
+    {
+      "id": "p_cywie_schiff",
+      "primary_name": {
+        "en": "Cywie Schiff",
+        "he": "צביה שיף",
+        "pl": "Cywie Schiff",
+        "fr": "Cywie Schiff",
+        "yi": "צבי שיף"
+      },
+      "aliases": [
+        "Tzivia Schiff",
+        "Cyvie"
+      ],
+      "role": "great_great_great_grandmother_paternal",
+      "note_en": "Paternal 3x-great-grandmother of Doron, Dana and Daniel. Mother of Rywka Schiff. Newly identified 23 May 2026 via the 1884 Tarnów birth certificate of grandson Berisz. Maiden name not yet known.",
+      "birth": {
+        "place_id": "pl_tarnow",
+        "date_precision": "unknown",
+        "confidence": "documented",
+        "sources": [
+          "doc_berisz_birth_tarnow_1884"
+        ]
+      },
+      "facts": [
+        {
+          "key": "named_in_grandson_birth_cert",
+          "value": "Named in grandson Berisz's 1884 Tarnów birth certificate as 'Cywie Schiff z Tarnowa' — wife of Michał Schiff.",
+          "confidence": "confirmed",
+          "sources": [
+            "doc_berisz_birth_tarnow_1884",
+            "report_basia_23may"
+          ]
+        }
+      ],
+      "spouse_id": "p_michal_schiff",
+      "children_ids": [
+        "p_rywka_schiff"
       ]
     }
   ]

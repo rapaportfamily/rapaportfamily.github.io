@@ -269,7 +269,15 @@
         49.35,
         20.9
       ],
-      "significance": "Spa resort town near Krynica in southern Poland. Magda recalled discussing this area in a previous conversation with Dov Rapaport. Candidate for 'Mosina'."
+      "era_context": {
+        "1933_1939": "Spa town in Nowy Sącz district. Zygmunt Griffel (son of Dawid Mendel Griffel — David's maternal uncle's son) operated a sawmill here under the holding-name Segal-Żupnik-Wilf (per 1938 Przegląd Drzewny). Won timber tender from Muszyna Commune Council 28 Oct 1933 at 8.40 PLN/m³.",
+        "1939_pre_war": "Lusia Weitzner managed the Willa 'Helin' guest-house on Ogrodowa Street (cited in S. Heilman & J. Krzyś, 'The Birth of Muszyna's Spa', alongside Zosia and Aleksandrówka).",
+        "sept_1939": "Mid-August spa evacuation. 3-5 Sept: Slovak troops + civilians looted spa houses. 6 Sept PM: Germans entered. ~200 Jews fled east with Polish army, ~600 remained.",
+        "dec_1939": "Gestapo arrived, seized Willa Helin and turned it into a torture chamber for captured Polish couriers (incl. skier Helena Marusarzówna). The sawmill was converted to a concentration camp.",
+        "1940": "Last Jews left Muszyna by end of 1940.",
+        "1992": "Memorial plaque unveiled at the former Willa Helin honoring those tortured there."
+      },
+      "significance": "H1 RESOLVED — this is Lusia's 'Mosina'. Confirmed by memoir (Feb 1938 marriage 'in the small resort town', p.16) and by triangulation of Griffel sawmill records + Muszyna Council minutes (28 Oct 1933). Willa 'Helin' on Ogrodowa St. was Lusia's hotel. Family had nothing to return to after the war."
     },
     {
       "id": "pl_mszana_dolna",
@@ -541,9 +549,48 @@
       ],
       "era_context": {
         "1918_1939": "Regional capital of Stanisławów Voivodeship (containing Nadwórna).",
+        "1924": "Berisz Rapaport's family residence: Kościuszki 4 (central pre-war address). 1924 passport application lists this as 'last 6 months' residence after Tarnów. Suggests Berisz had relocated his household here before settling near Rebeka's Nadwórna kin.",
         "now": "Ivano-Frankivsk, Ukraine"
       },
-      "note_en": "Birthplace of Dr Chanan Rapaport (1928-2022), the Rapaport family genealogist. Regional capital of the voivodeship containing Nadwórna."
+      "note_en": "Birthplace of Dr Chanan Rapaport (1928-2022), the Rapaport family genealogist. Regional capital of the voivodeship containing Nadwórna. Two known Rapaport households here in the 1920s — Berisz at Kościuszki 4 (1924), and a Chaim Samuel Rapaport family from 1916 (cousin candidate)."
+    },
+    {
+      "id": "pl_tarnow",
+      "names": {
+        "en": "Tarnów, Poland",
+        "he": "טרנוב",
+        "pl": "Tarnów",
+        "fr": "Tarnów",
+        "uk": "Тарнів"
+      },
+      "coords": [
+        50.0121,
+        20.9858
+      ],
+      "era_context": {
+        "1884": "Western-Galician city in Austro-Hungarian Empire. Berisz Rapaport (b. 6 Aug 1884, registered as 'Benzion') was born here at 'Tarnów city no. 24'.",
+        "1884_pre_1924": "Rapaport household on Folwarczna 9 (today: Waryńskiego St.). Father Mojżesz Saul Rapaport worked as a private teacher (nauczyciel prywatny). Mother Rywka née Schiff was daughter of Michał Schiff (merchant) + Cywie Schiff of Tarnów.",
+        "modern": "Tarnów, Lesser Poland Voivodeship (today in Poland, NOT Ukraine — distinct from the Galicia-East Stanisławów branch)."
+      },
+      "note_en": "Source-of-origin city for the paternal Rapaport line — newly identified 23 May 2026 by Basia via the 1924 passport application. Tarnów was an established Jewish center within the Austro-Hungarian Kingdom of Galicia. Folwarczna 9 → Waryńskiego St. name-change is a standard 20th-century Polish street rename. The earlier Round-2 deep-research hypothesis that Berisz was born in eastern Galicia (Pasieczna/Loyowa/Pniow/Strymba/Bukowinka) is REFUTED."
+    },
+    {
+      "id": "pl_dabrowa",
+      "names": {
+        "en": "Dąbrowa (Tarnowska)",
+        "he": "דמברובה",
+        "pl": "Dąbrowa Tarnowska",
+        "fr": "Dąbrowa"
+      },
+      "coords": [
+        50.1736,
+        20.9869
+      ],
+      "era_context": {
+        "1924": "Berisz Rapaport's 'miejsce zapisania do ksiąg ludności stałej' (municipality of permanent population registry) per 1924 passport application — i.e. his official Austrian-era 'home town' for taxation/conscription, even though he lived in Tarnów city and then Stanisławów."
+      },
+      "note_en": "Suggests the Rapaport line may extend further back into Dąbrowa Tarnowska, ~30 km north of Tarnów city. Worth searching Dąbrowa Tarnowska Jewish records for earlier Rapaports / Schiffs.",
+      "status": "lead"
     },
     {
       "id": "pl_kosov",

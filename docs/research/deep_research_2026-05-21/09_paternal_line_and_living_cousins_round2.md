@@ -1,5 +1,9 @@
 # Paternal Rapaport line + complete living-cousin map — round 2 (2026-05-21)
 
+> **⚠ RETRACTION 2026-05-23** — The "dead end" framing below is superseded. On 23 May 2026, Basia located Berisz Rapaport's **1924 passport application** + **1884 Tarnów birth certificate**, identifying his full origin: born **Tarnów 6 Aug 1884 as 'Benzion'**, father **Mojżesz Saul Rapaport** (private teacher), mother **Rywka Schiff** (daughter of Michał Schiff merchant + Cywie Schiff). Family was in **Stanisławów Kościuszki 4 by 1924**. The paternal line was NOT in eastern Galicia (Pasieczna/Loyowa/Pniow/Strymba/Bukowinka) as speculated below — it was in **Western Galicia (Tarnów)**, 200 km west, then moved east. See [incoming_2026-05-23_whatsapp_export.md](../incoming_2026-05-23_whatsapp_export.md) for full breakthrough.
+>
+> What remains valid in this doc: the living-cousin map (sections after line 40), the Chaim Samuel cousin hypothesis (now STRENGTHENED — both households in Stanisławów), and the Kohen-test recommendation. What is REFUTED: the "dead end" claim, the eastern-Galician birthplace candidates, and the framing that only TsDIAL Fond 701 could break this open.
+
 ## Headline corrections to earlier findings
 
 ### ⚠ EDWARD GELLES IS ALIVE — 98 years old in London

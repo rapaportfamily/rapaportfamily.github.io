@@ -22,3 +22,11 @@ Reports from CC research sessions. Each is a fact-vs-assumption breakdown for on
   - H5 (h_leah_shimon_survival) added historical-context research note
   - H8 (h_griffel_chajes_family) added archive paths and highest-leverage actions
 - No invented facts. Every new bullet is sourced.
+
+---
+
+## 2026-05-23 — WhatsApp export ingest (CC home PC)
+
+| Report | Trigger | Key finding |
+|---|---|---|
+| [incoming_2026-05-23_whatsapp_export.md](incoming_2026-05-23_whatsapp_export.md) | New WhatsApp export `(2).zip` with 216 new chat lines + 54 attachments | **Berisch Rapaport paternal line CRACKED** — born Tarnów 6 Aug 1884 as "Benzion"; father **Mojżesz Saul Rapaport** (private teacher Tarnów); mother **Rywka Schiff** (daughter of Michał Schiff merchant + Cywie Schiff). 1924 residence Stanisławów Kościuszki 4. Lota age 8 in 1924 = born ~1916. Lusia's Muszyna hotel = **Willa "Helin"** on Ogrodowa St. (Gestapo torture chamber 1939+). Post-war GRYPEL family in Slovakia = Griffels who changed surname. |

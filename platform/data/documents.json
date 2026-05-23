@@ -499,6 +499,135 @@
         "h_lusia_dawid_paper_separation"
       ],
       "status": "needs_translation"
+    },
+    {
+      "id": "doc_berisz_passport_1924",
+      "file_pages": [
+        "IMG-20260523-WA0001.jpg",
+        "IMG-20260523-WA0002.jpg"
+      ],
+      "kind": "image",
+      "type": "passport_application",
+      "primary_language": "pl",
+      "title": {
+        "en": "Berisz Rapaport — passport application, 29 Feb 1924 (Vienna travel)",
+        "he": "ברישז רפפורט — בקשת דרכון, 29 בפברואר 1924 (לוינה)",
+        "pl": "Berisz Rapaport — podanie o paszport, 29.02.1924 (do Wiednia)",
+        "fr": "Berisz Rapaport — demande de passeport, 29 février 1924 (vers Vienne)"
+      },
+      "source_archive": "Polish Galician archives — located 23 May 2026 by Basia. WA0001 = application form. WA0002 = passport photograph.",
+      "decoded_fields": {
+        "applicant_name": "Rapaport Berisch",
+        "father_name": "Rapaport Mojżesz Saul",
+        "origin_address": "Tarnów, Folwarczna 9 (today Waryńskiego St.)",
+        "current_address": "Berisch Rapaport, Stanisławów Kościuszki 4",
+        "residence_last_6_months": "Stanisławów Kościuszki 4",
+        "personal_doc_number": "L 19376/22 (issued by Starostwo / District Office)",
+        "municipal_registry": "Dąbrowa",
+        "physical_description": "average height, elongated face, black hair, black eyes, proportionate nose and mouth",
+        "children_under_14": "Mendel age 12 (=David), Lotti age 8 (=Lota)",
+        "destination": "Wiedeń (Vienna)",
+        "police_clearance": "No obstacles to issuing a foreign passport"
+      },
+      "summary": {
+        "en": "PARADIGM-SHIFTING DOCUMENT. This is the source of the 23 May 2026 breakthrough that cracked open the paternal Rapaport line. Before this discovery, even Edward Gelles (25+ years researching the Griffel-Nadwórna dynasty) had only the bare name 'Berish Rapaport' as Rivka Griffel's husband — no parents, no birthplace, no birth date. This 1924 passport application names Berisz's father (Mojżesz Saul Rapaport), his Tarnów origin address, his 1924 Stanisławów residence, and provides ages for both children (Mendel 12, Lotti 8 → confirms David b.1911 and Lota b.~1916). The photo (WA0002) shows resemblance to Dov (Dana's reaction)."
+      },
+      "related_people": [
+        "p_berisz",
+        "p_david",
+        "p_lota",
+        "p_mojzesz_saul_rapaport"
+      ],
+      "related_hypotheses": [
+        "h_paternal_line_tarnow",
+        "h_chaim_samuel_cousin"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "doc_berisz_birth_tarnow_1884",
+      "file_pages": [],
+      "kind": "image",
+      "type": "birth_record",
+      "primary_language": "pl",
+      "title": {
+        "en": "Berisz Rapaport — birth certificate, Tarnów 6 Aug 1884 (registered as 'Benzion')",
+        "he": "ברישז רפפורט — תעודת לידה, טרנוב 6 באוגוסט 1884 (נרשם בשם 'בנציון')",
+        "pl": "Berisz Rapaport — akt urodzenia, Tarnów 6.08.1884 (zarejestrowany jako 'Benzion')",
+        "fr": "Berisz Rapaport — acte de naissance, Tarnów 6 août 1884 (enregistré sous 'Benzion')"
+      },
+      "source_archive": "Tarnów Jewish vital records — located 23 May 2026 by Basia. Note: 'nie wszystko z Tarnowa jest on-line' — Basia describes this as a piece of luck. The certificate image itself was not (yet) attached to the chat — only Basia's transcription was shared.",
+      "decoded_fields": {
+        "registered_name": "Benzion",
+        "common_name": "Berisz / Berisch",
+        "date": "6 August 1884",
+        "place": "Tarnów city no. 24",
+        "father": "Mojżesz Rapaport — private teacher (nauczyciel prywatny) in Tarnów",
+        "mother": "Rywka Schiff of Tarnów",
+        "mother_father": "Michał Schiff — merchant (kramarz) of Tarnów",
+        "mother_mother": "Cywie Schiff of Tarnów"
+      },
+      "summary": {
+        "en": "Birth certificate that confirms Berisz Rapaport's full origin in Tarnów (Western Galicia), his civil birth name 'Benzion', and identifies two further generations of ancestors: paternal grandfather Mojżesz Saul Rapaport (private teacher) and Schiff maternal-grandparents Michał + Cywie. Image not yet in family archive — Basia provided transcription only; obtain scan from Tarnów archive."
+      },
+      "related_people": [
+        "p_berisz",
+        "p_mojzesz_saul_rapaport",
+        "p_rywka_schiff",
+        "p_michal_schiff",
+        "p_cywie_schiff"
+      ],
+      "status": "needs_scan"
+    },
+    {
+      "id": "doc_moshe_rapaport_descendants_table",
+      "file_pages": [
+        "Tablica potomków Moshe Rapaport.pdf"
+      ],
+      "kind": "pdf",
+      "type": "family_tree_chart",
+      "primary_language": "pl",
+      "title": {
+        "en": "Descendants table of Moshe Rapaport",
+        "he": "לוח צאצאי משה רפפורט",
+        "pl": "Tablica potomków Moshe Rapaport",
+        "fr": "Tableau des descendants de Moshe Rapaport"
+      },
+      "source_archive": "Shared by Basia 23 May 2026 via WhatsApp.",
+      "summary": {
+        "en": "A descendants-table chart of a Moshe (Mojżesz) Rapaport. Given that David's newly-identified paternal grandfather is Mojżesz Saul Rapaport of Tarnów, this chart MAY directly map the extended paternal kindred — but Moshe is a common name and this needs OCR + cross-reference to confirm. High priority for next session."
+      },
+      "related_people": [
+        "p_mojzesz_saul_rapaport"
+      ],
+      "status": "needs_ocr"
+    },
+    {
+      "id": "doc_zydzi_w_muszynie",
+      "file_pages": [
+        "zydzi w muszynie.pdf"
+      ],
+      "kind": "pdf",
+      "type": "research_paper",
+      "primary_language": "pl",
+      "title": {
+        "en": "Jews in Muszyna and the Holocaust (Rafał Żebrowski)",
+        "he": "יהודי מושינה והשואה (רפאל ז'ברובסקי)",
+        "pl": "Żydzi w Muszynie wobec Holokaustu (Rafał Żebrowski)",
+        "fr": "Les Juifs de Muszyna face à l'Holocauste (Rafał Żebrowski)"
+      },
+      "source_archive": "Shared by Basia 21 May 2026 via WhatsApp. Polish scholarly article on the Jewish community of Muszyna pre/during WWII.",
+      "summary": {
+        "en": "Describes the Muszyna sawmill (attributed to 'Segal-Żupnik-Wilf' — a holding name for Zygmunt Griffel's Lwów company per 1938 Przegląd Drzewny). The sawmill was converted into a concentration camp during the German occupation. Contains a map of the sawmill (per Basia's chat note 21 May 21:01). Provides timeline of 1939-1940 Jewish exodus from Muszyna."
+      },
+      "related_people": [
+        "p_lusia",
+        "p_david"
+      ],
+      "related_hypotheses": [
+        "h1_mosina_muszyna"
+      ],
+      "status": "needs_translation"
     }
   ],
   "additional_files": [
