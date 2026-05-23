@@ -588,19 +588,309 @@
       "type": "family_tree_chart",
       "primary_language": "pl",
       "title": {
-        "en": "Descendants table of Moshe Rapaport",
-        "he": "לוח צאצאי משה רפפורט",
-        "pl": "Tablica potomków Moshe Rapaport",
-        "fr": "Tableau des descendants de Moshe Rapaport"
+        "en": "Descendants table of Moshe Rapaport (family-built tree)",
+        "he": "לוח צאצאי משה רפפורט (עץ משפחה משפחתי)",
+        "pl": "Tablica potomków Moshe Rapaport (drzewo rodzinne)",
+        "fr": "Tableau des descendants de Moshe Rapaport (arbre construit par la famille)"
       },
-      "source_archive": "Shared by Basia 23 May 2026 via WhatsApp.",
+      "source_archive": "Shared by Basia 23 May 2026 via WhatsApp. Origin appears to be a family-built genealogy tool (Geni / MyHeritage style export with standard birth/death card layout). Built before the May 2026 Tarnów + Nadwórna breakthroughs — uses 'Mosina' as universal placeholder.",
+      "decoded_structure": {
+        "gen_1_apical_couple": "Moshe Rapaport oo Menucha (in 'Mosina')",
+        "gen_2_children_7": [
+          "Chava Eva Rapaport (Mosina)",
+          "Malka Maltse Rapaport (Mosina)",
+          "Shabtai Rapaport (Mosina)",
+          "Dov Rapaport (Mosina) — likely = Berisz/Berisch Rapaport (Hebrew 'Dov' = Yiddish 'Berisch' = bear)",
+          "Rivka [...] (Mosina, surname blank — likely a spouse who married in)",
+          "Rivka Rapaport (Mosina)",
+          "Avraham Rapaport (Mosina)"
+        ],
+        "gen_3_via_dov_berisz_oo_unknown": [
+          "David Rapoport (*1911.12.25 Mosina, †1990.08.29 Haifa)",
+          "Leah Lusha Vitsner (Stanisławów, †1996 Haifa) — David's wife",
+          "Lota Rapaport (Mosina) — David's sister"
+        ],
+        "gen_3_via_avraham": [
+          "Moshe Rapaport (*1910, †before 1993.01 Tel Aviv) — NEW LEAD: paternal first cousin of David, survived to Tel Aviv"
+        ],
+        "gen_4_via_david_oo_leah_1935_mosina": [
+          "Shimon Rapaport (*1936.06.22 Mosina)",
+          "Dov Rapaport (*1946.08.28 Brussels)"
+        ],
+        "gen_4_spouses": [
+          "Tamar Bugin (*1942.04.23) oo Shimon 1967.04.17 Tel Aviv",
+          "Dalya Goldfish (*1952) oo Dov 1974.01.16 Haifa"
+        ],
+        "gen_5": [
+          "Ronen Rapaport (*1969) — son of Shimon",
+          "Hadas Rapaport (*1976) — daughter of Shimon",
+          "Dana Rapaport (*1979.11.03 Haifa)",
+          "Doron Rapaport (*1981.12.16 Haifa)",
+          "Daniel Rapaport (*1983.09.14 Haifa)"
+        ]
+      },
       "summary": {
-        "en": "A descendants-table chart of a Moshe (Mojżesz) Rapaport. Given that David's newly-identified paternal grandfather is Mojżesz Saul Rapaport of Tarnów, this chart MAY directly map the extended paternal kindred — but Moshe is a common name and this needs OCR + cross-reference to confirm. High priority for next session."
+        "en": "BREAKTHROUGH FAMILY TREE: Identifies the apical couple as MOSHE RAPAPORT + MENUCHA, with 7 children. If this Moshe is the same as Mojżesz Saul Rapaport of Tarnów (Berisz's father per the 1884 birth cert), then: (a) Menucha is the matriarch's NAME — but birth cert names Rywka Schiff. Likely two wives: Menucha first, Rywka second, with Berisz born to Rywka. OR Menucha is a Hebrew name and Rywka is the civil name. (b) 'Dov Rapaport' in Gen 2 = Berisz (Hebrew 'Dov' = 'Berisch' = bear), meaning Berisz had 6 SIBLINGS: Chava Eva, Malka Maltse, Shabtai, Rivka [...], Rivka, Avraham — all previously unknown to us and to Edward Gelles. (c) Avraham Rapaport's son Moshe (b.1910, d.<1993.01 Tel Aviv) is a paternal first cousin of David — a new searchable lead in Israeli archives. Pre-breakthrough family-built tree, so 'Mosina' is a placeholder default — but the gen-2 sibling roster is the genuine new contribution."
+      },
+      "open_questions": [
+        "Is this tree's 'Moshe' the same as Mojżesz Saul Rapaport of Tarnów? Match on first name and the David/Lota/Shimon downstream → almost certainly yes.",
+        "Was Menucha Berisz's mother (in which case the Tarnów cert listing Rywka Schiff is for a second marriage), or is 'Menucha' a Hebrew alias for Rywka Schiff?",
+        "Who built this tree? (Likely a family member — Doron / Dana / Daniel / older Rapaport relative). Tool appears Geni or MyHeritage.",
+        "Where did the 'Dov' name come from for Berisz? If from family tradition, it confirms Berisz used the Hebrew Dov as a name; if from a guess, it's just a translation."
+      ],
+      "related_people": [
+        "p_mojzesz_saul_rapaport",
+        "p_berisz",
+        "p_david",
+        "p_lota",
+        "p_shimon",
+        "p_dov_bernard"
+      ],
+      "status": "decoded"
+    },
+    {
+      "id": "doc_leizor_griffel_auction_1938",
+      "file_pages": [
+        "IMG-20260520-WA0014.jpg"
+      ],
+      "kind": "image",
+      "type": "court_notice",
+      "primary_language": "pl",
+      "title": {
+        "en": "Auction notice — Leizor Griffel's heirs, Nadwórna 28 Nov 1938",
+        "he": "הודעת מכירה פומבית — יורשי ליזור גריפל, נדבורנא 28 נוב' 1938",
+        "pl": "Ogłoszenie licytacji — spadkobiercy Leizora Griffela, Nadwórna 28.11.1938",
+        "fr": "Avis de vente aux enchères — héritiers de Leizor Griffel, Nadwórna 28 nov. 1938"
+      },
+      "source_archive": "Polish legal/business press, 13 September 1938 (Lwów dateline). Posted by Akcyjny Bank Hipoteczny (Joint-Stock Mortgage Bank), reference 6935-p.",
+      "decoded_fields": {
+        "property": "Brick rental apartment building, one floor + attic ('Dom czynszowy murowany, jednopiętrowy z poddaszem')",
+        "location": "Nadwórna, ul. Śródmieście",
+        "land_record": "kat. gm. kat. Nadwórna, parcel 378/2 (book 1869 destroyed; documents at Nadwórna district court)",
+        "estimated_value_zl": 127294,
+        "security_deposit_zl": 4500,
+        "auction_date": "28 November 1938, 10:00 AM",
+        "heirs_17": [
+          "Sara z Chajes (Sara née Chajes — Leizor's wife / Rebeka's mother)",
+          "Dawid Mendel Griffel",
+          "Eisig Griffel",
+          "Rebeka z Griffllów zam. Rapaport (= OUR Rebeka Rapaport née Griffel)",
+          "Machla z Griffllów zam. Willner",
+          "Sussla z Griffllów zam. Lamm",
+          "Schaja Griffel",
+          "Leib Griffel",
+          "Beniamin Griffel",
+          "Rachela z Griffllów zam. Ornstein",
+          "Schmerl Grünfeld",
+          "Eisig Grünfeld",
+          "Samuel Grünfeld",
+          "Sima Grünfeld zam. Blau",
+          "Pepi Grünfeld",
+          "Tauba Grünfeld",
+          "Berta Grünfeld"
+        ]
+      },
+      "summary": {
+        "en": "Primary-document confirmation of Rebeka Rapaport née Griffel's parentage and full sibling roster. Names all 10 Griffel siblings (matching Edward Gelles's pedigree) plus 7 Grünfeld co-heirs who were descendants of one of Leizor's daughters who married a Grünfeld (likely Chaya Griffel + Shlomo Gruenfeld per Gelles entry, with Grünfeld = Gruenfeld). Documents the family's pre-war wealth — 127,294 zł property in 1938 is substantial. Property at ul. Śródmieście (central Nadwórna) confirms Leizor's town-center residence."
       },
       "related_people": [
+        "p_rebeka",
+        "p_leizor_griffel",
+        "p_sara_chajes",
+        "p_dawid_mendel_griffel_sr"
+      ],
+      "related_hypotheses": [
+        "h8_griffel_chajes"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "doc_zygmunt_griffel_sejm_album_1934",
+      "file_pages": [
+        "IMG-20260520-WA0018.jpg"
+      ],
+      "kind": "image",
+      "type": "industry_press",
+      "primary_language": "pl",
+      "title": {
+        "en": "Zygmunt Griffel — Sejm Album industrial feature, 1934/35",
+        "he": "זיגמונט גריפל — אלבום-סקורוביץ סנט וסיים 1934/35",
+        "pl": "Zygmunt Griffel — Album-Skorowidz Senatu i Sejmu RP, 1934/35",
+        "fr": "Zygmunt Griffel — Album-Index du Sénat et de la Diète polonaise, 1934/35"
+      },
+      "source_archive": "ALBUM-SKOROWIDZ SENATU I SEJMU RZPLITEJ ORAZ SEJMU ŚLĄSKIEGO, page 110* (industrial sponsor section). Polish governmental industrial-directory yearbook.",
+      "decoded_fields": {
+        "company": "ZYGMUNT GRIFFEL — Tartaki parowe, Przemysł drzewny, Eksport drzewa (Steam sawmills, timber industry, timber export)",
+        "headquarters": "Lwów, ul. Kopernika 5 (additional address ul. Kopernika 55)",
+        "founded": "1923",
+        "infrastructure": "Timber storage facilities at Gdynia and Gdańsk Baltic ports",
+        "main_product": "Softwood (sztriad) lumber — 96.7% of output",
+        "1934_35_exports": "60,000 tons to England, worth >5 million złotych",
+        "export_distribution": "England 82.8%, Holland 8.3%, Germany 2.9%, Switzerland 2.3%, France 1.9%, other 1.7%",
+        "branding": "Polish timber sold via English-market agents previously known as 'drzewo gdańskie' (Gdańsk wood) — Zygmunt Griffel attempting to establish 'drzewo polskie' branding",
+        "photo": "Headshot of P. Zygm. Griffel; photo of timber being loaded onto ship ('Ładowanie drzewa na statek')"
+      },
+      "summary": {
+        "en": "Zygmunt Griffel was David Memek's first cousin once removed — son of Dawid Mendel Griffel Sr. (Rebeka's brother, Leizor Griffel's eldest son). This page establishes him as a major Galician-Jewish timber industrialist in 1934-35: 60,000 t/year to England, a five-port operation, with ambitions to brand Polish softwood. The 1938 Muszyna sawmill operating under 'Segal-Żupnik-Wilf' (per Rafał Żebrowski's Holocaust article) is identified in 1938 Przegląd Drzewny as a Zygmunt Griffel front company. Lusia's Muszyna hotel Willa Helin was in Zygmunt's sawmill town — the family-business ecosystem extended from Lwów-Gdynia exports down to Carpathian spa-town milling."
+      },
+      "related_people": [
+        "p_zygmunt_griffel",
+        "p_dawid_mendel_griffel_sr",
+        "p_rebeka",
+        "p_david"
+      ],
+      "related_hypotheses": [
+        "h1_mosina_muszyna",
+        "h8_griffel_chajes"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "doc_zygmunt_griffel_przeglad_drzewny_1938",
+      "file_pages": [
+        "Zygmunt Griffel 1938.png"
+      ],
+      "kind": "image",
+      "type": "industry_press",
+      "primary_language": "pl",
+      "title": {
+        "en": "Zygmunt Griffel — Przegląd Drzewny press feature, 1938 ('Export sets to Palestine')",
+        "he": "זיגמונט גריפל — Przegląd Drzewny 1938 (יצוא ערכות לפלסטינה)",
+        "pl": "Zygmunt Griffel — Przegląd Drzewny 1938 ('Eksport kompletów do Palestyny')",
+        "fr": "Zygmunt Griffel — Przegląd Drzewny 1938 ('Export de sets vers la Palestine')"
+      },
+      "source_archive": "Przegląd Drzewny (Polish Timber Review), 1938 issue. Found and cited by Basia 21 May 2026.",
+      "summary": {
+        "en": "Article 'Eksport kompletów do Palestyny' (Export of sets to Palestine) listing Galician-Polish timber firms exporting to the British Mandate. Identifies 'Zygmunt Griffel Lwów (Segal, Żupnik, i Wilf)' — confirming the Muszyna sawmill operating under the holding-name 'Segal-Żupnik-Wilf' (per Żebrowski's Holocaust article) was Zygmunt Griffel's company. This is the key citation that linked Lusia's Muszyna hotel to a Griffel-family timber operation."
+      },
+      "related_people": [
+        "p_zygmunt_griffel"
+      ],
+      "related_hypotheses": [
+        "h1_mosina_muszyna"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "doc_muszyna_1936_photos",
+      "file_pages": [
+        "IMG-20260520-WA0006.jpg",
+        "IMG-20260520-WA0007.jpg",
+        "IMG-20260520-WA0024.jpg",
+        "IMG-20260520-WA0025.jpg",
+        "IMG-20260520-WA0026.jpg",
+        "IMG-20260520-WA0027.jpg",
+        "IMG-20260520-WA0028.jpg"
+      ],
+      "kind": "composite",
+      "type": "period_photographs",
+      "primary_language": "pl",
+      "title": {
+        "en": "Muszyna 1936 — period photographs",
+        "he": "מושינה 1936 — צילומי תקופה",
+        "pl": "Muszyna 1936 — fotografie z epoki",
+        "fr": "Muszyna 1936 — photographies d'époque"
+      },
+      "source_archive": "Polish archival sources shared by Basia 20 May 2026 via WhatsApp.",
+      "captions": {
+        "WA0006_07": "Beachgoers on the Poprad River in Muszyna",
+        "WA0024": "1936 photograph of the Muszyna synagogue (third building from left, recognizable by its windows)",
+        "WA0025": "1936 Muszyna street scene",
+        "WA0026": "1936 Health-care home for blind soldiers ('dom zdrowotny dla ślepych żołnierzy') in Muszyna",
+        "WA0027": "Muszyna 'Dom Zdrojowy' (Spa house)",
+        "WA0028": "Muszyna spa-town scene"
+      },
+      "summary": {
+        "en": "Set of 1936 period photographs that show what Muszyna looked like during the years Lusia ran the Willa Helin hotel. Provides visual context for the Rapaport-Griffel family's pre-war life in the resort town."
+      },
+      "related_people": [
+        "p_lusia",
+        "p_david"
+      ],
+      "related_hypotheses": [
+        "h1_mosina_muszyna"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "doc_tarnow_yizkor_berisz_biography",
+      "file_pages": [],
+      "kind": "external_source",
+      "type": "yizkor_book_chapter",
+      "primary_language": "en",
+      "title": {
+        "en": "Tarnów Yizkor Book — biographies of Ben-Zion Rappaport (pp.296-299)",
+        "he": "ספר טרנוב — ביוגרפיות של בן-ציון רפפורט (עמ' 296-299)",
+        "pl": "Księga Pamięci Tarnowa — biografie Ben-Cyjona Rappaporta (s. 296-299)",
+        "fr": "Livre du Souvenir de Tarnów — biographies de Ben-Zion Rappaport (p. 296-299)"
+      },
+      "source_archive": "JewishGen Yizkor Books — 'Tarnow: The Life and Decline of a Jewish City', Volume I. URL: https://www.jewishgen.org/yizkor/tarnow/tar1_296.html. Two biographical sketches: (1) S.H. Bergman, 'Ben-Zion Rappaport and his book Nature and Spirit' (pp.296-298). (2) Ben-Zion Zangen, 'Ben-Zion Rappaport' (pp.298-299).",
+      "summary": {
+        "en": "**PARADIGM-COMPLETING DOCUMENT** — discovered by CC web research 23 May 2026. Establishes that Berisz / Benzion Rapaport (paternal great-grandfather, b. Tarnów 1884) was the published Hebrew philosopher Ben-Zion Rappaport. Documents his entire life trajectory: rabbinic-family origins (both parents from famous rabbinical lines), age-16 arranged marriage to prevent secularization, business failure → private Hebrew teacher in Tarnów → political articles in 'Hamitzpah' about Hasidic figures → forced exile from Tarnów → Kraków poverty → philosophical scholarship (Spinoza, Kant, Ahad Ha'am) → publications in 'Haolam' (Odessa, 1912-14) → three philosophical books (1924, 1936, 1953-posthumous) → Hebrew language professor at Kraków Hebrew Gymnasium → 'death train' deportation from Kraków → murder at Bełżec → manuscript saved by Polish farmer near Bełżec → published 1953 by Mossad Bialik. Names his father as 'R. Moshe Gorlitzer' (= Mojżesz Saul Rapaport per Tarnów birth cert) — 'one of Tarnów's great teachers'."
+      },
+      "key_quotes": {
+        "father": "'R. Moshe Gorlitzer was one of the great teachers in Tarnow, studied in the kloyz [beth-midrash- study-hall] and had an understanding of worldly matters.' (Zangen)",
+        "rabbinic_lineage": "'Rappaport was born in Tarnow in 5644 (1884). His parents both descended from famous Rabbis.' (Bergman)",
+        "early_marriage": "'After reading Religion and Life by Reuven Asher Broydes at age 18, his father arranged his marriage to prevent him from moving westward.' (Bergman) / 'At age 16, he married.' (Zangen)",
+        "career_arc": "'After his wedding he failed as a businessman and turned to teaching... His contributions to this paper made him unpopular with the town leaders and he was forced to leave Tarnow. He settled in Krakow and lived in poverty as a teacher.' (Bergman)",
+        "religious_practice": "'Despite being a strict religious Jew, with beard and peiyos, he became a splendid expounder of the world's great philosophers.' (Zangen)",
+        "kraków_gymnasium": "'After the Hebrew gymnasium was founded in Krakow, Rappaport worked there as a Hebrew language teacher until World War II's outbreak.' (Zangen)",
+        "death": "'The Hitlerite murderers in an evacuation action in Krakow took him in a death train to Belzec where he died a martyr's death.' (Zangen)",
+        "manuscript_survival": "'Farmers working railway fields near Belzec discovered his manuscript bundle with a note requesting its delivery to Jerusalem University or to a Jew after the war. A scholar from Jerusalem University later collected it, and the Mossad Bialik published Nature and Spirit in 1953.' (Zangen)"
+      },
+      "related_people": [
+        "p_berisz",
         "p_mojzesz_saul_rapaport"
       ],
-      "status": "needs_ocr"
+      "related_hypotheses": [
+        "h_paternal_line_tarnow"
+      ],
+      "external_urls": [
+        "https://www.jewishgen.org/yizkor/tarnow/tar1_296.html"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "doc_berisz_published_books",
+      "file_pages": [],
+      "kind": "external_source",
+      "type": "publication_list",
+      "primary_language": "he",
+      "title": {
+        "en": "Ben-Zion Rappaport — published philosophical works",
+        "he": "בן-ציון רפפורט — ספריו הפילוסופיים",
+        "pl": "Ben-Zion Rappaport — opublikowane dzieła filozoficzne",
+        "fr": "Ben-Zion Rappaport — œuvres philosophiques publiées"
+      },
+      "works": [
+        {
+          "title": "Consciousness and Reality — A Collection of Philosophical Essays",
+          "year": 1924,
+          "language": "Hebrew",
+          "note": "First book. Manuscript completed earlier — publication delayed 5 years. Possibly Berisz traveled to Vienna in Feb 1924 (per 1924 passport application) for publication-related business."
+        },
+        {
+          "title": "Thinkers and Logic",
+          "year": 1936,
+          "language": "Hebrew",
+          "note": "Second book. Published while teaching at Kraków Hebrew Gymnasium."
+        },
+        {
+          "title": "Nature and Spirit: Philosophical Inquiries",
+          "title_he": "טבע ורוח",
+          "year": 1953,
+          "publisher": "Mossad Bialik (מוסד ביאליק), Jerusalem",
+          "language": "Hebrew",
+          "note": "Posthumous — manuscript saved from Bełżec death-train fields by Polish farmers and published 10 years after Berisz's murder. Likely available at: National Library of Israel, Hebrew University Library, Mossad Bialik archives. **High-priority action: Doron should acquire a copy as a family heirloom.**"
+        }
+      ],
+      "summary": {
+        "en": "Berisz / Ben-Zion Rappaport's three Hebrew philosophical books — a tangible legacy that survived the Holocaust. He was, per S.H. Bergman's biographical sketch, 'one of those who laid the foundation for philosophical thought in the period of the revival of Hebrew literature' and 'a popularizer of philosophical ideas for Hebrew readers, explaining complex thinkers like Spinoza, Kant, and Ahad Ha'am without condescension.'"
+      },
+      "related_people": [
+        "p_berisz"
+      ],
+      "status": "needs_acquisition"
     },
     {
       "id": "doc_zydzi_w_muszynie",
@@ -702,6 +992,38 @@
     {
       "file": "Zrzut ekranu 2026-05-13 213308.png",
       "description": "Polish screenshot 13 May"
+    },
+    {
+      "file": "IMG-20260517-WA0028.jpg",
+      "description": "Sent 17 May by Doron — PWA install screenshot showing the family-tree app now installable as app"
+    },
+    {
+      "file": "IMG-20260520-WA0031.jpg",
+      "description": "Sent 20 May by Doron — screenshot showing the memoir flip-book live in Polish/English/Hebrew on the desktop SPA"
+    },
+    {
+      "file": "IMG-20260521-WA0009.jpg",
+      "description": "Sent 21 May by Doron — screenshot showing latest tree/timeline updates in the SPA"
+    },
+    {
+      "file": "STK-20260520-WA0032.webp",
+      "description": "Sticker reaction from Dalia (20 May)"
+    },
+    {
+      "file": "STK-20260104-WA0006.webp",
+      "description": "Sticker reaction (Jan 2026 — preserved in WhatsApp export sticker pack)"
+    },
+    {
+      "file": "STK-20250110-WA0026.webp",
+      "description": "Sticker reaction (Jan 2025 — preserved in WhatsApp export sticker pack)"
+    },
+    {
+      "file": "STK-20260514-WA0016.webp",
+      "description": "Sticker reaction (14 May)"
+    },
+    {
+      "file": "STK-20260515-WA0047.webp",
+      "description": "Sticker reaction (15 May)"
     }
   ]
 }

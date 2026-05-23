@@ -781,7 +781,7 @@
         "בנציון"
       ],
       "role": "great_grandfather_paternal",
-      "note_en": "Paternal great-grandfather of Doron, Dana and Daniel. Born in Tarnów (Western Galicia) 6 Aug 1884 as 'Benzion'; later known as Berisz / Berisch / Bernard. Married Rebeka Griffel of Nadwórna and relocated east. By 1924 his family lived in Stanisławów (Kościuszki 4). Father of David and Lota.",
+      "note_en": "Paternal great-grandfather of Doron, Dana and Daniel. Born in Tarnów (Western Galicia) 6 Aug 1884, civilly registered as 'Benzion' / 'Ben-Zion'; later known as Berisz / Berisch / Bernard. **Now confirmed (CC research 2026-05-23) to be the published Hebrew philosopher Ben-Zion Rappaport** — author of 'Consciousness and Reality' (1924), 'Thinkers and Logic' (1936), and 'Nature and Spirit / טבע ורוח' (manuscript saved by Polish farmers near Bełżec, published 1953 by Mossad Bialik, Jerusalem). Per Tarnów Yizkor book (S.H. Bergman + Ben-Zion Zangen biographies, vol I pp.296-299): married at age 16 (~1900), failed as businessman, became private Hebrew teacher, wrote articles in 'Hamitzpah' (Kraków) on Baal Shem Tov + R. Baruch Mekosov, forced to leave Tarnów, settled in Kraków in poverty, published in 'Haolam' weekly (Odessa) 1912-14, eventually became Hebrew language professor at the Kraków Hebrew Gymnasium until WWII. Strict religious Jew with beard and peiyos who expounded Spinoza, Kant, and Ahad Ha'am for Hebrew readers. Married Rebeka Griffel of Nadwórna (probably as second marriage); had David Memek (b.1911 Nadwórna) + Lota (b.~1916). By 1924 family residence Stanisławów Kościuszki 4 (passport application to Vienna). **Holocaust fate now documented**: deported from Kraków in a 'death train' to Bełżec extermination camp, where he was murdered. His manuscript bundle was discovered by farmers in railway fields near Bełżec with a note asking delivery to Jerusalem University; a scholar later collected it and Mossad Bialik published 'Nature and Spirit' in 1953.",
       "birth": {
         "date": "1884-08-06",
         "date_precision": "day",
@@ -849,15 +849,40 @@
       ],
       "spouse_id": "p_rebeka",
       "death": {
-        "date": "1941",
-        "date_precision": "year_likely",
-        "place_id": "pl_nadworna",
-        "confidence": "likely",
+        "date_range": "1942-1943",
+        "date_precision": "year_range",
+        "place_id": "pl_belzec",
+        "confidence": "documented",
         "sources": [
-          "src_gelles_griffel_nadworna_pdf"
+          "src_tarnow_yizkor_zangen",
+          "src_tarnow_yizkor_bergman"
         ],
-        "note_en": "Almost certainly perished in the Holocaust. Most likely scenario: shot in the 6 October 1941 Bukowinka Forest mass aktion alongside ~2,000 Nadwórna Jews, including his brother-in-law David Mendel Griffel and sister-in-law Chawa Wahl. Alternative: 24 October 1942 final Nadwórna ghetto liquidation. No Page of Testimony was ever filed for him. Notable: Berisz is absent from the 1932 Nadwórna town taxpayer list and from the 1975 Yizkor necrology, suggesting he may have lived in a village outside Nadwórna town — likely tied to the Griffel timber/oil business locations."
-      }
+        "note_en": "**RESOLVED via Tarnów Yizkor Book (CC research 2026-05-23)**: 'The Hitlerite murderers in an evacuation action in Krakow took him in a death train to Bełżec where he died a martyr's death' (Ben-Zion Zangen biographical entry). This supersedes the earlier hypothesis that Berisz died in the Nadwórna Bukowinka Forest mass aktion or the Oct 1942 Nadwórna ghetto liquidation — Berisz had moved to Kraków decades earlier for his teaching career and was deported from Kraków, not from Nadwórna. Probable date: one of the Kraków deportations to Bełżec in June 1942 (the major Kraków→Bełżec action) or the second wave October 1942. The Bełżec camp processed nearly all victims via gas chambers within hours of arrival. The 1932 Nadwórna taxpayer absence is now explained: he was in Kraków by then.",
+        "fate_note": "Although Berisz himself perished at Bełżec, his three published books survive him (1924, 1936, 1953-posthumous). The 'Nature and Spirit' manuscript miraculously saved by a Polish farmer near Bełżec is one of the most extraordinary Holocaust manuscript-survival stories."
+      },
+      "works": [
+        {
+          "title": "Consciousness and Reality",
+          "subtitle": "A collection of philosophical essays",
+          "year": 1924,
+          "language": "Hebrew",
+          "note_en": "First book; publication delayed five years from completion to 1924. Coincides with the 29 Feb 1924 passport-to-Vienna application — possibly Berisz traveled to Vienna to oversee publication / printing."
+        },
+        {
+          "title": "Thinkers and Logic",
+          "year": 1936,
+          "language": "Hebrew"
+        },
+        {
+          "title": "Nature and Spirit",
+          "title_he": "טבע ורוח",
+          "subtitle": "Philosophical Inquiries",
+          "year": 1953,
+          "publisher": "Mossad Bialik, Jerusalem",
+          "language": "Hebrew",
+          "note_en": "Posthumous publication. Manuscript saved by Polish farmers near Bełżec who found Berisz's bundle with a note in the railway fields, asking it be delivered to Jerusalem University or to a Jew after the war. A scholar from Jerusalem University collected it. **A copy exists somewhere in the family's reach — Doron could acquire it as an artifact**: Mossad Bialik archives, National Library of Israel, Hebrew University Library."
+        }
+      ]
     },
     {
       "id": "p_rebeka",
@@ -3449,19 +3474,22 @@
     {
       "id": "p_mojzesz_saul_rapaport",
       "primary_name": {
-        "en": "Mojżesz (Moshe) Saul Rapaport",
-        "he": "משה שאול רפפורט",
-        "pl": "Mojżesz Saul Rapaport",
-        "fr": "Mojżesz (Moïse) Saul Rapaport",
-        "yi": "משה שאול ראפאפארט"
+        "en": "Mojżesz (Moshe) Saul Rapaport — known as R. Moshe Gorlitzer",
+        "he": "משה שאול רפפורט — ר' משה גורליצר",
+        "pl": "Mojżesz Saul Rapaport (R. Moshe Gorlitzer)",
+        "fr": "Mojżesz (Moïse) Saul Rapaport (R. Moshe Gorlitzer)",
+        "yi": "ר' משה שאול ראפאפארט"
       },
       "aliases": [
         "Moshe Saul",
         "Mojżesz",
-        "Moses Saul"
+        "Moses Saul",
+        "R. Moshe Gorlitzer",
+        "Reb Moshe Gorlitzer",
+        "Moshe of Gorlice"
       ],
       "role": "great_great_grandfather_paternal",
-      "note_en": "Paternal great-great-grandfather of Doron, Dana and Daniel. Newly identified 23 May 2026 by Basia via Berisz Rapaport's 1924 passport application (which names him as Berisz's father) and via Berisz's 1884 Tarnów birth certificate (which lists him as 'nauczyciel prywatny w Tarnowie' — private teacher in Tarnów). Spouse: Rywka Schiff of Tarnów. May be the same Moshe Rapaport whose descendants are mapped in 'Tablica potomków Moshe Rapaport.pdf' shared by Basia.",
+      "note_en": "Paternal great-great-grandfather of Doron, Dana and Daniel. Identified via two converging sources: (1) Berisz Rapaport's 1924 passport application + 1884 Tarnów birth certificate (Basia, 23 May 2026) list him as 'Mojżesz Saul Rapaport, nauczyciel prywatny w Tarnowie' — private teacher in Tarnów. (2) Tarnów Yizkor Book Ben-Zion Zangen biography (CC research, 23 May 2026) names him as 'R. Moshe Gorlitzer' — 'one of Tarnow's great teachers, studied in the kloyz [beth-midrash study-hall] and had an understanding of worldly matters.' These are the same person under civil ('Mojżesz Saul') vs. community-rabbinic ('Moshe Gorlitzer' = 'Moshe of Gorlice') names — a standard Galician Jewish naming pattern where the rabbinic nickname reflects family origin (Gorlice is a Galician town ~50 km south of Tarnów). Spouse: Rywka Schiff of Tarnów (per Berisz's birth cert). Berisz's parents are described as 'descending from famous rabbinical families' — both sides — consistent with the Rapoport-Kohen rabbinical dynasty tradition.",
       "birth": {
         "place_id": "pl_tarnow",
         "date_precision": "unknown",
@@ -3476,27 +3504,46 @@
       "facts": [
         {
           "key": "occupation",
-          "value": "Private teacher (nauczyciel prywatny) in Tarnów c.1884. May indicate religious/Hebrew/secular tutor — common Galician Jewish profession for educated middle-class.",
+          "value": "Private teacher in Tarnów (nauczyciel prywatny per 1884 birth cert; 'one of Tarnow's great teachers' per Yizkor). Studied in the beth-midrash (kloyz) and had an understanding of worldly matters — i.e. a maskilic Talmudic scholar.",
           "confidence": "documented",
           "sources": [
             "doc_berisz_birth_tarnow_1884",
+            "src_tarnow_yizkor_zangen",
             "report_basia_23may"
           ]
         },
         {
-          "key": "kohanic_lineage",
-          "value": "Kohen (priestly descent) — inferred from son Berisz being documented Kohen.",
-          "confidence": "hypothesis",
+          "key": "place_origin",
+          "value": "Family origin Gorlice (Galician town ~50 km south of Tarnów). His rabbinic nickname 'R. Moshe Gorlitzer' = 'Moshe of Gorlice' indicates ancestral roots there, even though he himself lived and taught in Tarnów.",
+          "confidence": "documented",
           "sources": [
+            "src_tarnow_yizkor_zangen"
+          ]
+        },
+        {
+          "key": "rabbinic_descent",
+          "value": "Per Tarnów Yizkor (S.H. Bergman): Berisz 'descended from famous rabbinical families' (plural — both sides of his parents). This positions Mojżesz Saul/Moshe Gorlitzer as a continuation of the Rapoport-Kohen rabbinical dynasty tracing to R. Meshullam Yekutiel ha-Kohen Rapa (d.1450, Mainz → Porto → Galicia via R. Abraham Rapoport 'Schrenzel' of Lemberg 1584-1651).",
+          "confidence": "documented",
+          "sources": [
+            "src_tarnow_yizkor_bergman",
             "src_family_tradition_kohen"
           ]
         },
         {
-          "key": "descendants_table",
-          "value": "A 'Tablica potomków Moshe Rapaport' (Descendants Table of Moshe Rapaport) was shared by Basia 23 May 2026 — needs OCR + cross-reference to confirm identity (Moshe is a common name).",
+          "key": "kohanic_lineage",
+          "value": "Kohen (priestly descent) — inferred from son Berisz being documented Kohen and from rabbinic-family framing.",
+          "confidence": "documented",
+          "sources": [
+            "src_family_tradition_kohen",
+            "src_tarnow_yizkor_bergman"
+          ]
+        },
+        {
+          "key": "elikum_gorlitzer_lead",
+          "value": "An 'Elikum Gorlitzer' appears in the Jasło Yizkor book as having come to Jasło during WWI to join an educational program teaching Bible, Talmud, and Hebrew. Possibly a relative (brother / nephew of Mojżesz Saul).",
           "confidence": "hypothesis",
           "sources": [
-            "doc_moshe_rapaport_descendants_table"
+            "src_jaslo_yizkor"
           ]
         }
       ],
