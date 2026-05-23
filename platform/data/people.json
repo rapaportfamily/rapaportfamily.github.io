@@ -781,7 +781,7 @@
         "בנציון"
       ],
       "role": "great_grandfather_paternal",
-      "note_en": "Paternal great-grandfather of Doron, Dana and Daniel. Born in Tarnów (Western Galicia) 6 Aug 1884, civilly registered as 'Benzion' / 'Ben-Zion'; later known as Berisz / Berisch / Bernard. **Now confirmed (CC research 2026-05-23) to be the published Hebrew philosopher Ben-Zion Rappaport** — author of 'Consciousness and Reality' (1924), 'Thinkers and Logic' (1936), and 'Nature and Spirit / טבע ורוח' (manuscript saved by Polish farmers near Bełżec, published 1953 by Mossad Bialik, Jerusalem). Life trajectory (per Tarnów Yizkor Book vol I pp.296-299 + Nowy Sącz Yizkor Book pp.601-619 + OSU Hebrew Lexicon entry 02611): mother died when he was 3 (~1887); at age 13 (~1897) his father R. Moshle Riglitzer/Gorlitzer (=Mojżesz Saul) moved with him to Nowy Sącz to live with his sister Sarah (married Mordechai Mahler maskil/Zionist); secularization conflict in Sącz (the father pressured Sarah to remove the 'apikoros' teacher from her home — Ben-Zion encountered Haskalah literature there); married at age ~17 (~1901) to a daughter of a 'good family from Żmigród' — his first wife was an 'Eshet Chayil' (Woman of Valor) who supported the family by dealing in fabrics at regional fairs; he taught in Żmigród, then moved to Kraków on advice. Articles in 'Hamitzpah' (Kraków) on Baal Shem Tov + R. Baruch Mekosov made him unpopular → moved Kraków permanently in poverty. Published essays in HaShiloach, Haolam, and Hatekufa (Hebrew literary magazines). Eventually Hebrew language professor at the **Kraków Hebrew Gymnasium** until WWII. Strict religious Jew with beard and peiyos who expounded Spinoza, Kant, and Ahad Ha'am. **Second marriage to Rebeka Griffel of Nadwórna (~1908-1910)** — David Memek (b.1911 Nadwórna) + Lota (b.~1916). By 1924 second family residence Stanisławów Kościuszki 4 (passport application to Vienna). **Holocaust fate now documented**: returned to Nowy Sącz to join his first family during the war (his sister Sarah Mahler had died there 1932; his son Moshe Hacohen Rappoport was held in another ghetto with wife + daughters). Continued writing philosophy in the ghetto. Last known letter dated 25 Sivan / 16 August 1942 from Nowy Sącz to his son Moshe Hacohen. Deported from Nowy Sącz (some sources say Kraków) in a 'death train' to **Bełżec extermination camp** late 1942; manuscript bundle thrown from the train was discovered by Polish farmers in railway fields near Bełżec with a note asking delivery to Jerusalem University; a scholar later collected it and Mossad Bialik published 'Nature and Spirit' in 1953. His son Moshe Hacohen + Moshe's wife + daughters also perished in the Holocaust.",
+      "note_en": "Paternal great-grandfather of Doron, Dana and Daniel. Born in Tarnów (Western Galicia) 6 Aug 1884, civilly registered as 'Benzion' / 'Ben-Zion'; later known as Berisz / Berisch / Bernard. **⚠ CC ERROR RETRACTED 23 May 2026**: An earlier hypothesis identified Berisz with 'Ben-Zion Rappaport the Hebrew philosopher' (per Tarnów + Nowy Sącz Yizkor books). This was REFUTED by Lusia's memoir — which mentions Przemyśl and Nadwórna repeatedly but zero references to Tarnów-as-residence, Nowy Sącz, Kraków, Hebrew Gymnasium, philosophy, or books, and explicitly states Berisz was killed in Przemyśl. The Tarnów-1884 birth + teacher-father markers were a coincidence with another Ben-Zion Rappaport. WHAT WE ACTUALLY KNOW (primary docs + memoir): Berisz was born Tarnów 1884, son of Mojżesz Saul Rapaport (private teacher) + Rywka Schiff; in 1924 his family was in Stanisławów Kościuszki 4 (passport application to Vienna); married Rebeka Griffel of Nadwórna ~1908-10; children David Mendel (b.1911 Nadwórna) + Lota (b.~1916); by 1939 lived in Przemyśl together with Rebeka and David's grandmother. When war broke out, Lusia + Shimon went to stay with them in Przemyśl; David (Memek) followed. They lived under Soviet rule Sept 1939 – June 1941; Lusia worked for the Soviet NKVD as a cashier. After German takeover June 1941, 'several months later' (so late 1941 or early 1942) the Germans **killed Berisz in Przemyśl, accusing him of allegedly placing a bomb on the railway near which they lived** (Lusia's memoir, page 24). Bernard Rapaport appears in Przemyśl records ~1910 per Basia 13-May letter — consistent with this being a long-established residence not a wartime evacuation. After Berisz's death, Lusia + Memek + Shimon moved to Nadwórna.",
       "birth": {
         "date": "1884-08-06",
         "date_precision": "day",
@@ -844,53 +844,25 @@
       "father_id": "p_mojzesz_saul_rapaport",
       "mother_id": "p_rywka_schiff",
       "children_ids": [
-        "p_moshe_hacohen_rappoport",
         "p_david",
         "p_lota"
       ],
-      "siblings_ids": [
-        "p_sarah_mahler"
-      ],
-      "spouse_ids": [
-        "p_berisz_first_wife_zmigrod",
-        "p_rebeka"
-      ],
       "spouse_id": "p_rebeka",
       "death": {
-        "date_range": "1942-1943",
+        "date_range": "1941-1942",
         "date_precision": "year_range",
-        "place_id": "pl_belzec",
+        "place_id": "pl_przemysl",
         "confidence": "documented",
         "sources": [
-          "src_tarnow_yizkor_zangen",
-          "src_tarnow_yizkor_bergman"
+          "src_lusia_memoir_page_24"
         ],
-        "note_en": "**RESOLVED via Tarnów Yizkor Book (CC research 2026-05-23)**: 'The Hitlerite murderers in an evacuation action in Krakow took him in a death train to Bełżec where he died a martyr's death' (Ben-Zion Zangen biographical entry). This supersedes the earlier hypothesis that Berisz died in the Nadwórna Bukowinka Forest mass aktion or the Oct 1942 Nadwórna ghetto liquidation — Berisz had moved to Kraków decades earlier for his teaching career and was deported from Kraków, not from Nadwórna. Probable date: one of the Kraków deportations to Bełżec in June 1942 (the major Kraków→Bełżec action) or the second wave October 1942. The Bełżec camp processed nearly all victims via gas chambers within hours of arrival. The 1932 Nadwórna taxpayer absence is now explained: he was in Kraków by then.",
-        "fate_note": "Although Berisz himself perished at Bełżec, his three published books survive him (1924, 1936, 1953-posthumous). The 'Nature and Spirit' manuscript miraculously saved by a Polish farmer near Bełżec is one of the most extraordinary Holocaust manuscript-survival stories."
-      },
-      "works": [
-        {
-          "title": "Consciousness and Reality",
-          "subtitle": "A collection of philosophical essays",
-          "year": 1924,
-          "language": "Hebrew",
-          "note_en": "First book; publication delayed five years from completion to 1924. Coincides with the 29 Feb 1924 passport-to-Vienna application — possibly Berisz traveled to Vienna to oversee publication / printing."
-        },
-        {
-          "title": "Thinkers and Logic",
-          "year": 1936,
-          "language": "Hebrew"
-        },
-        {
-          "title": "Nature and Spirit",
-          "title_he": "טבע ורוח",
-          "subtitle": "Philosophical Inquiries",
-          "year": 1953,
-          "publisher": "Mossad Bialik, Jerusalem",
-          "language": "Hebrew",
-          "note_en": "Posthumous publication. Manuscript saved by Polish farmers near Bełżec who found Berisz's bundle with a note in the railway fields, asking it be delivered to Jerusalem University or to a Jew after the war. A scholar from Jerusalem University collected it. **A copy exists somewhere in the family's reach — Doron could acquire it as an artifact**: Mossad Bialik archives, National Library of Israel, Hebrew University Library."
+        "note_en": "**RESOLVED via Lusia's memoir, page 24** (primary family source): 'הללו את חמה בהאשימם אותו שהניח, כביכול, פצצה על מסילת הברזל שבקירבתה התגוררו' — 'They [the Germans] killed her father-in-law, accusing him of allegedly placing a bomb on the railway near which they lived.' This happened in Przemyśl, several months after the German takeover of the Soviet zone of Przemyśl (Sept-Dec 1941 onwards) — so likely late 1941 or first half of 1942. The accusation was almost certainly fabricated (a common Nazi pretext for executing prominent Jewish residents). The chapter title in the memoir is 'עם חמה וחמתה בפשמשל' = 'With her father-in-law and mother-in-law in Przemyśl', confirming this is the family residence at the time.",
+        "earlier_hypothesis": {
+          "place_id": "pl_belzec",
+          "source": "src_tarnow_yizkor_zangen + src_nowy_sacz_yizkor_rappoport",
+          "status": "REFUTED — the 'Ben-Zion Rappaport philosopher' of the Tarnów + Nowy Sącz Yizkor books is a different person who happened to share Berisz's birth city + year"
         }
-      ]
+      }
     },
     {
       "id": "p_rebeka",
@@ -3482,22 +3454,19 @@
     {
       "id": "p_mojzesz_saul_rapaport",
       "primary_name": {
-        "en": "Mojżesz (Moshe) Saul Rapaport — known as R. Moshe Gorlitzer",
-        "he": "משה שאול רפפורט — ר' משה גורליצר",
-        "pl": "Mojżesz Saul Rapaport (R. Moshe Gorlitzer)",
-        "fr": "Mojżesz (Moïse) Saul Rapaport (R. Moshe Gorlitzer)",
-        "yi": "ר' משה שאול ראפאפארט"
+        "en": "Mojżesz (Moshe) Saul Rapaport",
+        "he": "משה שאול רפפורט",
+        "pl": "Mojżesz Saul Rapaport",
+        "fr": "Mojżesz (Moïse) Saul Rapaport",
+        "yi": "משה שאול ראפאפארט"
       },
       "aliases": [
         "Moshe Saul",
         "Mojżesz",
-        "Moses Saul",
-        "R. Moshe Gorlitzer",
-        "Reb Moshe Gorlitzer",
-        "Moshe of Gorlice"
+        "Moses Saul"
       ],
       "role": "great_great_grandfather_paternal",
-      "note_en": "Paternal great-great-grandfather of Doron, Dana and Daniel. Identified via two converging sources: (1) Berisz Rapaport's 1924 passport application + 1884 Tarnów birth certificate (Basia, 23 May 2026) list him as 'Mojżesz Saul Rapaport, nauczyciel prywatny w Tarnowie' — private teacher in Tarnów. (2) Tarnów Yizkor Book Ben-Zion Zangen biography (CC research, 23 May 2026) names him as 'R. Moshe Gorlitzer' — 'one of Tarnow's great teachers, studied in the kloyz [beth-midrash study-hall] and had an understanding of worldly matters.' These are the same person under civil ('Mojżesz Saul') vs. community-rabbinic ('Moshe Gorlitzer' = 'Moshe of Gorlice') names — a standard Galician Jewish naming pattern where the rabbinic nickname reflects family origin (Gorlice is a Galician town ~50 km south of Tarnów). Spouse: Rywka Schiff of Tarnów (per Berisz's birth cert). Berisz's parents are described as 'descending from famous rabbinical families' — both sides — consistent with the Rapoport-Kohen rabbinical dynasty tradition.",
+      "note_en": "Paternal great-great-grandfather of Doron, Dana and Daniel. Identified 23 May 2026 by Basia via Berisz Rapaport's 1924 passport application (which names him as Berisz's father 'Mojżesz Saul Rapaport') and via Berisz's 1884 Tarnów birth certificate row 323 (which lists him as 'Mojżesz Rapaport, nauczyciel prywatny w Tarnowie' — private teacher in Tarnów). Spouse: Rywka Schiff of Tarnów. ⚠ A previous CC hypothesis identified him with 'R. Moshe Gorlitzer' (the father of the Sącz philosopher Ben-Zion Rappaport in the Tarnów Yizkor) — that identification is now RETRACTED, see p_berisz.death.earlier_hypothesis. Birth year not yet confirmed — likely c.1850-1860 given his son Berisz was born 1884. Tarnów birth/marriage records should clarify. Death date unknown.",
       "birth": {
         "place_id": "pl_tarnow",
         "date_precision": "unknown",
@@ -3512,53 +3481,25 @@
       "facts": [
         {
           "key": "occupation",
-          "value": "Private teacher in Tarnów (nauczyciel prywatny per 1884 birth cert; 'one of Tarnow's great teachers' per Yizkor). Studied in the beth-midrash (kloyz) and had an understanding of worldly matters — i.e. a maskilic Talmudic scholar.",
+          "value": "Private teacher in Tarnów (nauczyciel prywatny per 1884 Tarnów birth cert of his son Berisz/Benzion). Common Galician Jewish profession for the educated middle class — could be religious/Hebrew/secular tutor.",
           "confidence": "documented",
           "sources": [
             "doc_berisz_birth_tarnow_1884",
-            "src_tarnow_yizkor_zangen",
             "report_basia_23may"
           ]
         },
         {
-          "key": "place_origin",
-          "value": "Family origin Gorlice (Galician town ~50 km south of Tarnów). His rabbinic nickname 'R. Moshe Gorlitzer' = 'Moshe of Gorlice' indicates ancestral roots there, even though he himself lived and taught in Tarnów.",
-          "confidence": "documented",
-          "sources": [
-            "src_tarnow_yizkor_zangen"
-          ]
-        },
-        {
-          "key": "rabbinic_descent",
-          "value": "Per Tarnów Yizkor (S.H. Bergman): Berisz 'descended from famous rabbinical families' (plural — both sides of his parents). This positions Mojżesz Saul/Moshe Gorlitzer as a continuation of the Rapoport-Kohen rabbinical dynasty tracing to R. Meshullam Yekutiel ha-Kohen Rapa (d.1450, Mainz → Porto → Galicia via R. Abraham Rapoport 'Schrenzel' of Lemberg 1584-1651).",
-          "confidence": "documented",
-          "sources": [
-            "src_tarnow_yizkor_bergman",
-            "src_family_tradition_kohen"
-          ]
-        },
-        {
           "key": "kohanic_lineage",
-          "value": "Kohen (priestly descent) — inferred from son Berisz being documented Kohen and from rabbinic-family framing.",
-          "confidence": "documented",
+          "value": "Kohen (priestly descent) — inferred from son Berisz being documented Kohen in family tradition.",
+          "confidence": "family_oral",
           "sources": [
-            "src_family_tradition_kohen",
-            "src_tarnow_yizkor_bergman"
-          ]
-        },
-        {
-          "key": "elikum_gorlitzer_lead",
-          "value": "An 'Elikum Gorlitzer' appears in the Jasło Yizkor book as having come to Jasło during WWI to join an educational program teaching Bible, Talmud, and Hebrew. Possibly a relative (brother / nephew of Mojżesz Saul).",
-          "confidence": "hypothesis",
-          "sources": [
-            "src_jaslo_yizkor"
+            "src_family_tradition_kohen"
           ]
         }
       ],
       "spouse_id": "p_rywka_schiff",
       "children_ids": [
-        "p_berisz",
-        "p_sarah_mahler"
+        "p_berisz"
       ]
     },
     {
@@ -3645,11 +3586,13 @@
     },
     {
       "id": "p_berisz_first_wife_zmigrod",
+      "status": "WITHDRAWN",
+      "withdrawn_note": "23 May 2026 — entry withdrawn. This was based on the misidentification of our Berisz with the Sącz-Yizkor's 'Ben-Zion Rappoport philosopher'. Lusia's memoir places Berisz in Przemyśl, not Sącz, and makes no mention of a first marriage. The Żmigród first wife belonged to a different Ben-Zion Rappaport, not ours.",
       "primary_name": {
-        "en": "[unknown given name] Rappaport (Berisz's first wife, from Żmigród)",
-        "he": "[שם פרטי לא ידוע] רפפורט (אשתו הראשונה של בריש, מז'מיגרוד)",
-        "pl": "[nieznane imię] Rappaport (pierwsza żona Berisza, ze Żmigrodu)",
-        "fr": "[prénom inconnu] Rappaport (première épouse de Berisz, de Żmigród)"
+        "en": "[WITHDRAWN — was misidentified as Berisz's first wife]",
+        "he": "[נמשך — זוהה בטעות כאשתו הראשונה של בריש]",
+        "pl": "[WYCOFANE — błędna identyfikacja]",
+        "fr": "[RETIRÉ — mauvaise identification]"
       },
       "aliases": [
         "Eshet Chayil",
@@ -3684,11 +3627,13 @@
     },
     {
       "id": "p_moshe_hacohen_rappoport",
+      "status": "WITHDRAWN",
+      "withdrawn_note": "23 May 2026 — entry withdrawn. Moshe Hacohen Rappoport was the son of the Sącz philosopher Ben-Zion Rappaport, who CC incorrectly identified with our Berisz. Lusia's memoir confirms our Berisz had only David and Lota; there is no other son. The philosopher's Moshe Hacohen belonged to a different family.",
       "primary_name": {
-        "en": "Moshe Hacohen Rappoport",
-        "he": "משה הכהן רפפורט",
-        "pl": "Moshe Hacohen Rappoport",
-        "fr": "Moshe Hacohen Rappoport"
+        "en": "[WITHDRAWN — belonged to different Ben-Zion Rappaport's family]",
+        "he": "[נמשך — שייך למשפחה אחרת]",
+        "pl": "[WYCOFANE — należał do innej rodziny]",
+        "fr": "[RETIRÉ — appartenait à une autre famille]"
       },
       "aliases": [
         "Moshe ha-Cohen Rappoport",
@@ -3743,12 +3688,13 @@
     },
     {
       "id": "p_sarah_mahler",
+      "status": "WITHDRAWN",
+      "withdrawn_note": "23 May 2026 — entry withdrawn. Sarah Mahler was the sister of the Sącz philosopher Ben-Zion Rappaport, NOT of our Berisz. The 1876-1932 Sara Mahler (Rappaport) on Geni belongs to a different Rapaport family.",
       "primary_name": {
-        "en": "Sarah Mahler (née Rappaport)",
-        "he": "שרה מאהלר (לבית רפפורט)",
-        "pl": "Sara Mahler (z domu Rappaport)",
-        "fr": "Sarah Mahler (née Rappaport)",
-        "yi": "שרה מאהלער"
+        "en": "[WITHDRAWN — belonged to different Rapaport family]",
+        "he": "[נמשך]",
+        "pl": "[WYCOFANE]",
+        "fr": "[RETIRÉ]"
       },
       "aliases": [
         "Sara Mahler",
@@ -3782,12 +3728,13 @@
     },
     {
       "id": "p_mordechai_mahler",
+      "status": "WITHDRAWN",
+      "withdrawn_note": "23 May 2026 — entry withdrawn alongside Sarah Mahler (no longer believed to be Berisz's brother-in-law).",
       "primary_name": {
-        "en": "Mordechai Mahler",
-        "he": "מרדכי מאהלר",
-        "pl": "Mordechai Mahler",
-        "fr": "Mordechai Mahler",
-        "yi": "מרדכי מאהלער"
+        "en": "[WITHDRAWN]",
+        "he": "[נמשך]",
+        "pl": "[WYCOFANE]",
+        "fr": "[RETIRÉ]"
       },
       "role": "great_great_uncle_paternal_by_marriage",
       "note_en": "Berisz's brother-in-law — husband of Berisz's older sister Sarah Rappaport. Per Nowy Sącz Yizkor Book: 'Mordechai Mahler the enlightened maskil, a Zionist and activist'. Lived in Nowy Sącz. The Mahler-Rappaport household was where Berisz's father Moshle moved with him at age 13 (c.1897) after their mother's death. The fact that the host was a maskil/Zionist/activist may have influenced Berisz's eventual move toward secular Hebrew letters — even though Berisz's father pressured Sarah to remove an 'apikoros' teacher Berisz had befriended there.",

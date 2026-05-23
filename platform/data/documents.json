@@ -819,7 +819,7 @@
       "type": "yizkor_book_chapter",
       "primary_language": "en",
       "title": {
-        "en": "Tarnów Yizkor Book — biographies of Ben-Zion Rappaport (pp.296-299)",
+        "en": "[WITHDRAWN — DIFFERENT FAMILY] Tarnów Yizkor Book — biographies of Ben-Zion Rappaport (pp.296-299)",
         "he": "ספר טרנוב — ביוגרפיות של בן-ציון רפפורט (עמ' 296-299)",
         "pl": "Księga Pamięci Tarnowa — biografie Ben-Cyjona Rappaporta (s. 296-299)",
         "fr": "Livre du Souvenir de Tarnów — biographies de Ben-Zion Rappaport (p. 296-299)"
@@ -848,7 +848,8 @@
       "external_urls": [
         "https://www.jewishgen.org/yizkor/tarnow/tar1_296.html"
       ],
-      "status": "verified"
+      "status": "WITHDRAWN_AS_FAMILY_DOC",
+      "withdrawn_note": "23 May 2026 — WITHDRAWN. CC incorrectly identified the Yizkor philosopher Ben-Zion Rappaport with our Berisz Rapaport. Lusia memoir says Berisz lived in Przemyśl 1939 and was killed there on a railway-bomb accusation, with no philosophy / Sącz / Kraków connection. The Yizkor Ben-Zion was a different individual."
     },
     {
       "id": "doc_berisz_last_letter_1942",
@@ -857,7 +858,7 @@
       "type": "letter",
       "primary_language": "he",
       "title": {
-        "en": "Berisz / Ben-Zion Hacohen Rappoport — last letter from Nowy Sącz ghetto to his son Moshe Hacohen Rappoport, 25 Sivan / 16 Aug 1942",
+        "en": "[WITHDRAWN — DIFFERENT FAMILY] Berisz / Ben-Zion Hacohen Rappoport — last letter from Nowy Sącz ghetto to his son Moshe Hacohen Rappoport, 25 Sivan / 16 Aug 1942",
         "he": "בריש / בן-ציון הכהן רפפורט — מכתב אחרון מגטו נוי סונץ לבנו משה הכהן רפפורט, כ\"ה סיוון / 16 באוגוסט 1942",
         "pl": "Berisz / Ben-Zion Hacohen Rappoport — ostatni list z getta w Nowym Sączu do syna Mosze Hakohena Rappoporta, 25 Siwan / 16 sierpnia 1942",
         "fr": "Berisz / Ben-Zion Hacohen Rappoport — dernière lettre du ghetto de Nowy Sącz à son fils Moshe Hacohen Rappoport, 25 Sivan / 16 août 1942"
@@ -886,7 +887,8 @@
         "https://www.jewishgen.org/Yizkor/Nowy_sacz/now601.html",
         "https://www.yadvashem.org/he/remembrance/archive/2002/theme/letters/letter10.html"
       ],
-      "status": "verified"
+      "status": "WITHDRAWN_AS_FAMILY_DOC",
+      "withdrawn_note": "23 May 2026 — WITHDRAWN. CC incorrectly identified the Yizkor philosopher Ben-Zion Rappaport with our Berisz Rapaport. Lusia memoir says Berisz lived in Przemyśl 1939 and was killed there on a railway-bomb accusation, with no philosophy / Sącz / Kraków connection. The Yizkor Ben-Zion was a different individual."
     },
     {
       "id": "doc_nowy_sacz_yizkor_berisz",
@@ -895,7 +897,7 @@
       "type": "yizkor_book_chapter",
       "primary_language": "en",
       "title": {
-        "en": "Nowy Sącz Yizkor Book — chapter on Ben-Zion Hacohen Rappoport (pp.601-619)",
+        "en": "[WITHDRAWN — DIFFERENT FAMILY] Nowy Sącz Yizkor Book — chapter on Ben-Zion Hacohen Rappoport (pp.601-619)",
         "he": "ספר זכרון נוי-סונץ — פרק על בן-ציון הכהן רפפורט (עמ' 601-619)",
         "pl": "Księga Pamięci Nowego Sącza — rozdział o Ben-Cyjonie Hakohenie Rappoport (s. 601-619)",
         "fr": "Livre du Souvenir de Nowy Sącz — chapitre sur Ben-Zion Hacohen Rappoport (p. 601-619)"
@@ -928,7 +930,8 @@
       "external_urls": [
         "https://www.jewishgen.org/Yizkor/Nowy_sacz/now601.html"
       ],
-      "status": "verified"
+      "status": "WITHDRAWN_AS_FAMILY_DOC",
+      "withdrawn_note": "23 May 2026 — WITHDRAWN. CC incorrectly identified the Yizkor philosopher Ben-Zion Rappaport with our Berisz Rapaport. Lusia memoir says Berisz lived in Przemyśl 1939 and was killed there on a railway-bomb accusation, with no philosophy / Sącz / Kraków connection. The Yizkor Ben-Zion was a different individual."
     },
     {
       "id": "doc_berisz_published_books",
@@ -937,7 +940,7 @@
       "type": "publication_list",
       "primary_language": "he",
       "title": {
-        "en": "Ben-Zion Rappaport — published philosophical works",
+        "en": "[WITHDRAWN — DIFFERENT FAMILY] Ben-Zion Rappaport — published philosophical works",
         "he": "בן-ציון רפפורט — ספריו הפילוסופיים",
         "pl": "Ben-Zion Rappaport — opublikowane dzieła filozoficzne",
         "fr": "Ben-Zion Rappaport — œuvres philosophiques publiées"
@@ -970,7 +973,8 @@
       "related_people": [
         "p_berisz"
       ],
-      "status": "needs_acquisition"
+      "status": "WITHDRAWN_AS_FAMILY_DOC",
+      "withdrawn_note": "23 May 2026 — WITHDRAWN. CC incorrectly identified the Yizkor philosopher Ben-Zion Rappaport with our Berisz Rapaport. Lusia memoir says Berisz lived in Przemyśl 1939 and was killed there on a railway-bomb accusation, with no philosophy / Sącz / Kraków connection. The Yizkor Ben-Zion was a different individual."
     },
     {
       "id": "doc_zydzi_w_muszynie",
