@@ -1,7 +1,7 @@
 {
   "source_file": "_chat.txt",
-  "parsed_at": "2026-05-17T20:27:15.999656Z",
-  "message_count": 219,
+  "parsed_at": "2026-05-23T17:23:55.292617Z",
+  "message_count": 275,
   "messages": [
     {
       "timestamp": "2026-05-04T18:49:00",
@@ -911,9 +911,9 @@
       "author_normalized": "Basia"
     },
     {
-      "timestamp": "2026-05-13T22:44:00",
+      "timestamp": "2026-05-13T22:45:00",
       "date": "13/05/2026",
-      "time": "22:44",
+      "time": "22:45",
       "author": "Basia",
       "body": "\nZrzut ekranu 2026-05-12 171907.png",
       "attachment": {
@@ -925,9 +925,9 @@
       "author_normalized": "Basia"
     },
     {
-      "timestamp": "2026-05-13T22:44:00",
+      "timestamp": "2026-05-13T22:45:00",
       "date": "13/05/2026",
-      "time": "22:44",
+      "time": "22:45",
       "author": "Basia",
       "body": "\nZrzut ekranu 2026-05-12 163118.png",
       "attachment": {
@@ -2531,6 +2531,673 @@
       "system": false,
       "lang": "en",
       "author_normalized": "Dalia (mother)"
+    },
+    {
+      "timestamp": "2026-05-17T23:18:00",
+      "date": "17/05/2026",
+      "time": "23:18",
+      "author": "Doron Rapaport",
+      "body": "The link is now also installable app.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Doron"
+    },
+    {
+      "timestamp": "2026-05-17T23:19:00",
+      "date": "17/05/2026",
+      "time": "23:19",
+      "author": "Doron Rapaport",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260517-WA0028.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Doron"
+    },
+    {
+      "timestamp": "2026-05-20T16:33:00",
+      "date": "20/05/2026",
+      "time": "16:33",
+      "author": "Basia",
+      "body": "This is MUSZYNA!!!\nBut it's a long story, wait a little longer.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-20T18:12:00",
+      "date": "20/05/2026",
+      "time": "18:12",
+      "author": "Basia",
+      "body": "Beachgoers on the Poprad River in Muszyna",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-20T18:12:00",
+      "date": "20/05/2026",
+      "time": "18:12",
+      "author": "Basia",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260520-WA0006.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-20T18:13:00",
+      "date": "20/05/2026",
+      "time": "18:13",
+      "author": "Basia",
+      "body": "Beachgoers on the Poprad River in Muszyna",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-20T18:13:00",
+      "date": "20/05/2026",
+      "time": "18:13",
+      "author": "Basia",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260520-WA0007.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-20T18:17:00",
+      "date": "20/05/2026",
+      "time": "18:17",
+      "author": "Basia",
+      "body": "Israeli birth and marriage records in Muszyna are available online but until 1912, if there is anything from the 1930s, I have to ask the archives in Nowy Sącz.",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-20T18:20:00",
+      "date": "20/05/2026",
+      "time": "18:20",
+      "author": "Basia",
+      "body": "The sawmill belonged to Rebecca's cousin, a member of the Griffel family. He bought it sometime after 1930 but before 1933, which is why I couldn't locate it in the 1930 industry directory.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-20T18:21:00",
+      "date": "20/05/2026",
+      "time": "18:21",
+      "author": "דנה רפפורט",
+      "body": "The sawmill  in nadworna?",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-20T18:25:00",
+      "date": "20/05/2026",
+      "time": "18:25",
+      "author": "Basia",
+      "body": "Not, the sawmill in Muszyna. But there was also a Griffel sawmill in Nadworna, and another in Lviv, and in Zarszyn... They're a very interesting family. They ran large-scale businesses, but they also went bankrupt, had lawsuits..",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-20T18:27:00",
+      "date": "20/05/2026",
+      "time": "18:27",
+      "author": "Basia",
+      "body": "I found the memories of a Muszyna resident from the first days of the occupation. If Lusia's recollections contain any details, it might be worth comparing.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-20T18:32:00",
+      "date": "20/05/2026",
+      "time": "18:32",
+      "author": "Basia",
+      "body": "In 1938, a house in Nadworna that belonged to Leizor Griffel was to be auctioned off. Since he died in 1918, the announcement listed the heirs. Take a look.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-20T18:32:00",
+      "date": "20/05/2026",
+      "time": "18:32",
+      "author": "Basia",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260520-WA0014.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-20T18:43:00",
+      "date": "20/05/2026",
+      "time": "18:43",
+      "author": "Basia",
+      "body": "The auction concerns a brick, two-story house with an attic on Śródmieście Street.",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-20T18:51:00",
+      "date": "20/05/2026",
+      "time": "18:51",
+      "author": "Basia",
+      "body": "The bankruptcy primarily concerned Eisig Chaim Griffel, or rather his sons, and occurred in 1930, involving a company engaged in oil extraction and processing. As you can see, the case dragged on for a long time. However, they partially secured their personal assets. Instead, they developed companies related to the timber industry. Their lawsuit was widely reported and commented on in the press. They relied on family connections in their business, and when they went bankrupt, they also took the Lamm family, the family of Rebecca's sister's husband, with them.\nNationwide reports of the trial contain details describing the family. I need to elaborate on this.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-20T19:04:00",
+      "date": "20/05/2026",
+      "time": "19:04",
+      "author": "Basia",
+      "body": "Why am I so certain about Muszyna?\nI finally came across the compiled minutes of the Muszyna Commune Council (28.10.1933). It includes the following excerpt:\n\"Item 2 concerned offers for the purchase of timber. Therefore, the chairman announced that the Council had received two offers for the sale of 1,000 m3 of fir timber with a starting price of PLN 8 per m3. The first bidder was the Zygmunt Griffel Company from Muszyna, offering PLN 8.40 per m3. It was also stated that if the offer was accepted, the aforementioned company would pay the entire amount due for 1,000 m3 of timber in advance. The second offer was submitted by Chastel Horowitz, a native of Tylicz, offering PLN 8.30 per m3. It is easy to guess which offer the Commune Council accepted. A letter was officially sent to Zygmunt Griffel from the \"forest sawmill in Muszyna\" approving the acceptance of the aforementioned offer.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-20T19:05:00",
+      "date": "20/05/2026",
+      "time": "19:05",
+      "author": "Basia",
+      "body": "Zygmunt Griffel was the son of Dawid Mendel Griffel.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-20T19:08:00",
+      "date": "20/05/2026",
+      "time": "19:08",
+      "author": "Basia",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260520-WA0018.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-20T20:37:00",
+      "date": "20/05/2026",
+      "time": "20:37",
+      "author": null,
+      "body": "Basia: The synagogue in Muszyna, photographed in 1936. Third building from the left. Recognizable by its windows.",
+      "attachment": null,
+      "system": true,
+      "lang": "en",
+      "author_normalized": null
+    },
+    {
+      "timestamp": "2026-05-20T20:37:00",
+      "date": "20/05/2026",
+      "time": "20:37",
+      "author": "Basia",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260520-WA0024.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-20T20:44:00",
+      "date": "20/05/2026",
+      "time": "20:44",
+      "author": "Basia",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260520-WA0025.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-20T20:47:00",
+      "date": "20/05/2026",
+      "time": "20:47",
+      "author": "Basia",
+      "body": "1936 Health care home for blind soldiers in Muszyna",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-20T20:48:00",
+      "date": "20/05/2026",
+      "time": "20:48",
+      "author": "Basia",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260520-WA0026.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-20T20:49:00",
+      "date": "20/05/2026",
+      "time": "20:49",
+      "author": "דליה רפפורט",
+      "body": "Wow.....wow ....wow.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dalia (mother)"
+    },
+    {
+      "timestamp": "2026-05-20T20:56:00",
+      "date": "20/05/2026",
+      "time": "20:56",
+      "author": "דליה רפפורט",
+      "body": "I am so sorry that dov's father david... is not with as .....he knew all the story ....\nBut you make ...a .....g r e a t\nWork .",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dalia (mother)"
+    },
+    {
+      "timestamp": "2026-05-20T20:56:00",
+      "date": "20/05/2026",
+      "time": "20:56",
+      "author": "דליה רפפורט",
+      "body": "🌹🌹🌹🌹🌹🌹",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dalia (mother)"
+    },
+    {
+      "timestamp": "2026-05-20T21:00:00",
+      "date": "20/05/2026",
+      "time": "21:00",
+      "author": "Basia",
+      "body": "But I'm so glad we managed to find a location. My husband just told me he was in Muszyna on vacation with his parents in the 1970s.😊",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-20T21:03:00",
+      "date": "20/05/2026",
+      "time": "21:03",
+      "author": "Basia",
+      "body": "Spa house",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-20T21:03:00",
+      "date": "20/05/2026",
+      "time": "21:03",
+      "author": "Basia",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260520-WA0027.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-20T21:03:00",
+      "date": "20/05/2026",
+      "time": "21:03",
+      "author": "דליה רפפורט",
+      "body": "Nice",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dalia (mother)"
+    },
+    {
+      "timestamp": "2026-05-20T21:04:00",
+      "date": "20/05/2026",
+      "time": "21:04",
+      "author": "Basia",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260520-WA0028.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-20T21:05:00",
+      "date": "20/05/2026",
+      "time": "21:05",
+      "author": "דליה רפפורט",
+      "body": "🥰",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dalia (mother)"
+    },
+    {
+      "timestamp": "2026-05-20T23:14:00",
+      "date": "20/05/2026",
+      "time": "23:14",
+      "author": "Doron Rapaport",
+      "body": "https://doronrpa-hub.github.io/rapaport-family-tree/?t=eyJhbGciOiJFUzI1NiIsImtpZCI6InJmdC0yMDI2LTA1LTE3IiwidHlwIjoiSldUIn0.eyJzdWIiOiJnX2d1ZXN0IiwibmFtZSI6Ikd1ZXN0Iiwicm9sZSI6InZpZXdlciIsImlhdCI6MTc3OTMwNjMxNiwiaXNzIjoicmFwYXBvcnQtZmFtaWx5LXRyZWUifQ.B3EpYhBu4v9eIJNMSKZTZqrUBWWvgg8n4fEGq2UcaKM3iAWgkXIqiqRk2yss8YZvKxmUvKDpiMF4HyoXrnRqOA",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Doron"
+    },
+    {
+      "timestamp": "2026-05-20T23:15:00",
+      "date": "20/05/2026",
+      "time": "23:15",
+      "author": "Doron Rapaport",
+      "body": "Here you can see on your computer without editing right.\nBoth here and on in app you can now read my grandmother book in Polish English and Hebrew.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Doron"
+    },
+    {
+      "timestamp": "2026-05-20T23:16:00",
+      "date": "20/05/2026",
+      "time": "23:16",
+      "author": "Doron Rapaport",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260520-WA0031.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Doron"
+    },
+    {
+      "timestamp": "2026-05-20T23:17:00",
+      "date": "20/05/2026",
+      "time": "23:17",
+      "author": "Doron Rapaport",
+      "body": "This is how you see on notebook.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Doron"
+    },
+    {
+      "timestamp": "2026-05-20T23:23:00",
+      "date": "20/05/2026",
+      "time": "23:23",
+      "author": "Doron Rapaport",
+      "body": "We will upload more data from the above (for which we are very thankful)",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Doron"
+    },
+    {
+      "timestamp": "2026-05-20T23:23:00",
+      "date": "20/05/2026",
+      "time": "23:23",
+      "author": "Doron Rapaport",
+      "body": "Good night",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Doron"
+    },
+    {
+      "timestamp": "2026-05-20T23:25:00",
+      "date": "20/05/2026",
+      "time": "23:25",
+      "author": "Basia",
+      "body": "I'm already reading Goodnight.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-20T23:26:00",
+      "date": "20/05/2026",
+      "time": "23:26",
+      "author": "דליה רפפורט",
+      "body": "",
+      "attachment": {
+        "filename": "STK-20260520-WA0032.webp",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Dalia (mother)"
+    },
+    {
+      "timestamp": "2026-05-20T23:30:00",
+      "date": "20/05/2026",
+      "time": "23:30",
+      "author": "Doron Rapaport",
+      "body": "Also updated time line",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Doron"
+    },
+    {
+      "timestamp": "2026-05-20T23:30:00",
+      "date": "20/05/2026",
+      "time": "23:30",
+      "author": "Doron Rapaport",
+      "body": "Honored",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Doron"
+    },
+    {
+      "timestamp": "2026-05-21T12:34:00",
+      "date": "21/05/2026",
+      "time": "12:34",
+      "author": "Doron Rapaport",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260521-WA0009.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Doron"
+    },
+    {
+      "timestamp": "2026-05-21T12:34:00",
+      "date": "21/05/2026",
+      "time": "12:34",
+      "author": "Doron Rapaport",
+      "body": "Some updates in many places:)",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Doron"
+    },
+    {
+      "timestamp": "2026-05-21T20:58:00",
+      "date": "21/05/2026",
+      "time": "20:58",
+      "author": "Basia",
+      "body": "Dziękuję za udostępnienie książki o Lusi. Muszę ją przeczytać kilka razy. Tekst jest rzeczywiście trudny. Ale ze znajomością polskiego kontekstu jest łatwiej.\nNa razie nie dzwoniłam do archiwum, muszę to przemyśleć w kontekście dat podanych w książce i sekwencji wydarzeń.\nNa stronie 86 Lusia wspomina o powojennej podróży na Słowację do bogatych krewnych o nazwisku GRYPEL.  Chodzi oczywiście o rodzinę GRIFFEL, z którą rzeczywiście Dawid był spokrewniony i związany. Przymiotnik „bogactwo” mógł dotyczyć tylko okresu przedwojennego. Na Słowacji rządziła partia komunistyczna, wtedy nikt nie był bogaty. Później można poszukać tej rodziny. Być może rzeczywiście zmienili nazwisko na Grypel.\nJeszcze wrócę do Muszyny.\nInteresy rodziny Griffel były prowadzone na dużą skalę i nie zawsze pod własnym nazwiskiem. Mnożyli firmy, sprzedawali je, likwidowali.\nW tekście, z który chciałam porównać opis pobytu Lusi w Muszyna  w 1939 roku autor (Rafał Żebrowski) podaje, że właścicielem tartaku była  żydowska firma „Segal-Żupnik-Wilf”. To mnie początkowo zmyliło. Jednak w „Przegląd drzewny” z 1938 roku w artykule „Eksport kompletów do Palestyny” wśród firm z małopolski wymieniono – *„Zygmunt Griffel Lwów (Segal, Żupnik, i Wilf* )”. Więc wszystko pasuje.\nArtykuł ma tytuł: „ *_Żydzi w Muszynie wobec Holokaustu_* ”  To rzetelny artykuł opisujący historię lokalną. Niestety tartak został zamieniony w obóz.\n Jest jeszcze drugi artykuł: Stanisław Stojek „ *_Miasto i gmina Muszyna w czasie drugiej wojny światowej_* ”\nAutor pisze, że 3-5 września, do Muszyny weszły wojska słowackie i przygraniczna ludność cywilna, rabując opuszczone domy wczasowe, pensjonaty, a nawet domy prywatne. Po południu 6 września wchodzą Niemcy. Gestapo przybyło do Muszyny na początku grudnia 1939 roku.\nW odniesieniu do Żydów pisze:\n„ _Niemcy po wkroczeniu do Muszyny natychmiast zajęli się Żydami mieszkającymi w tym mieście. Już w początkowej fazie swych rządów wprowadzili dla tej grupy przymus pracy fizycznej, a następnie przymus noszenia białej opaski na ramionach z sześcioramienną gwiazdą Dawida. Nakazali zgolić brody i wąsy, a modlitewniki spalić. Zabronili handlu, a towar w sklepach zarekwirowali_ .\n_Tuż przed świętami Bożego Narodzenia zarządzili konfiskatę wszystkich posiadanych przez Żydów książek i polecili złożenie ich w jednym punkcie w pomieszczeniach obok naszej Gminy. Żydzi przynieśli książki i zapełnili nimi cały pokój. Następnie książki spalono_ .”\nWedług tego autora ok. 200 Żydów opuściło Muszyna uciekając z wojskiem polskim na wschód, a około 600 pozostało.\nWywnioskowałam z książki, że Lusia, Dawid i Szymon nie uciekli w tej pierwszej fali.\nAutor pisze też: „ _Bogatsi Żydzi na własną rękę emigrowali na Słowację i Węgry_ .” Ostatni Żydzi opuścili Muszynę w końcu 1940 roku.\nRzeczywiście był więc moment na zastanowienie się i zapoznanie z sytuacją. Charakterystyczne w książce jest to, że Lusia nie wymienia tych dat i pisze tak jakby okres krótko przed wojną i początek wojny zlewały jej się w jedno.\nMyślę, że Dawid polecił jej wyjazd do Przemyśla na przełomie listopada i grudnia 1939 roku.\nInny autor Andrzej Moszczak w artykule „ *_Wspomnienia z lat okupacji_* ” pisze: „ _Taki rozkwit trwał do roku 1939, kiedy to w połowie sierpnia – w obliczu zbliżającej się wojny – nastąpił gwałtowny wyjazd kuracjuszy i turystów z Krynicy oraz Muszyny. [...]_\nHotel, który prowadziła Lusia nazywał się Willa „Helin” i mieścił się przy ulicy Ogrodowej.\nW artykule „ _*Narodziny muszyńskiego uzdrowiska*_ ” autorzy Stanisław Heilman, Jerzy Krzyś piszą: „ _Wkrótce też zaczęto wznosić obiekty murowane, ze sporym – jak na owe czasy – komfortem („Zosia”, „Aleksandrówka”, „Helin” itp.)_ ”\nGestapo zajęło willę „Helin”. W 1992 odsłonięto tam tablicę ku czci męczonych w tej katowni. Rapaport nie mieli więc do czego wracać w Muszynie.\nJest jeszcze taki polski wątek. W tym budynku przesłuchiwano złapanych polskich kurierów przeprowadzających ucienkinierów na słowacką stronę,  w tym słynną polską narciarkę Helena Marusarzówna.\nMuszę teraz zająć się Przemyśl.\nThank you for sharing the book about Lusia. I need to read it several times. The text is indeed difficult. But knowing the Polish context makes it easier.\nI haven't called the archives yet. I need to think about it in the context of the dates given in the book and the sequence of events.\nOn page 86, Lusia mentions a post-war trip to Slovakia to visit wealthy relatives named GRYPEL. This, of course, refers to the GRIFFEL family, to whom Dawid was indeed related and connected. The adjective \"wealthy\" could only refer to the pre-war period. Slovakia was ruled by the Communist Party, and no one was wealthy back then. You can look for this family later. Perhaps they did indeed change their surname to Grypel.\nI'll return to Muszyna.\nThe Griffel family's businesses were conducted on a large scale and not always under their own name. They multiplied companies, sold them, and liquidated them. In the text I wanted to compare with the description of Lusia's stay in Muszyna in 1939, the author (Rafał Żebrowski) states that the sawmill was owned by the Jewish company \"Segal-Żupnik-Wilf.\" This initially confused me. However, in the 1938 issue of \"Przegląd Drzewny,\" in the article \"Export of sets to Palestine,\" among the companies from Lesser Poland, \"Zygmunt Griffel Lwów (Segal, Żupnik, and Wilf)\" was listed. So everything fits.\nThe article is titled: \"Jews in Muszyna and the Holocaust.\" It's a thorough account of local history. Unfortunately, the sawmill was turned into a concentration camp.\nThere's also a second article: Stanisław Stojek, \"The City and Commune of Muszyna during World War II.\"\nThe author writes that on September 3-5, Slovak troops and border civilians entered Muszyna, looting abandoned holiday homes, guesthouses, and even private homes. On the afternoon of September 6, the Germans entered. The Gestapo arrived in Muszyna in early December 1939. Regarding the Jews, he writes:\n\"After entering Muszyna, the Germans immediately took action against the Jews living in the city. Already in the initial phase of their rule, they introduced compulsory physical labor for this group, and later forced them to wear a white armband with a six-pointed Star of David. They ordered them to shave their beards and mustaches, and to burn their prayer books. They banned trade and confiscated goods in stores.\nJust before Christmas, they ordered the confiscation of all books owned by Jews and ordered them to be stored in one place in the rooms next to our Community. The Jews brought the books and filled the entire room with them. Then the books were burned.\"\nAccording to this author, approximately 200 Jews left Muszyna, fleeing eastward with the Polish army, and approximately 600 remained.\nI concluded from the book that Lusia, Dawid, and Szymon did not escape in this first wave. The author also writes: \"The wealthier Jews emigrated on their own to Slovakia and Hungary.\" The last Jews left Muszyna at the end of 1940.\nThere was indeed time to reflect and familiarize yourself with the situation. It's characteristic of the book that Lusia doesn't mention these dates, writing as if the period shortly before the war and the beginning of the war were merging into one.\nI believe Dawid recommended her to Przemyśl at the turn of November and December 1939.\nAnother author, Andrzej Moszczak, writes in his article \"Memories from the Occupation Years\": \"This boom lasted until 1939, when in mid-August – in the face of the approaching war – there was a sudden departure of spa guests and tourists from Krynica and Muszyna. [...]\nThe hotel Lusia ran was called the Willa \"Helin\" and was located on Ogrodowa Street.\nIn the article \"The Birth of Muszyna's Spa,\" authors Stanisław Heilman and Jerzy Krzyś write: \"Soon brick buildings began to be built, with considerable comfort for the time (\"Zosia,\" \"Aleksandrówka,\" \"Helin,\" etc.).\"\nThe Gestapo did indeed seize the \"Helin\" villa. In 1992, a plaque was unveiled there to commemorate those tortured in this torture chamber. The Rapaports, therefore, had nothing to return to in Muszyna.\nThere is also a Polish element. Captured Polish couriers who were escorting refugees to the Slovak side, including the famous Polish skier Helena Marusarzówna, were interrogated in this building.\nNow I must turn to Przemyśl.",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-21T20:59:00",
+      "date": "21/05/2026",
+      "time": "20:59",
+      "author": "Basia",
+      "body": "\nZygmunt Griffel 1938.png",
+      "attachment": {
+        "filename": "Zygmunt Griffel 1938.png",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-21T21:00:00",
+      "date": "21/05/2026",
+      "time": "21:00",
+      "author": "Basia",
+      "body": "\nzydzi w muszynie.pdf",
+      "attachment": {
+        "filename": "zydzi w muszynie.pdf",
+        "kind": "pdf"
+      },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-21T21:01:00",
+      "date": "21/05/2026",
+      "time": "21:01",
+      "author": "Basia",
+      "body": "There is a map of the sawmill in this article",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-23T04:59:00",
+      "date": "23/05/2026",
+      "time": "04:59",
+      "author": "Basia",
+      "body": "It's a strange hour, but to kick off your holiday, I'm sending you this.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-23T04:59:00",
+      "date": "23/05/2026",
+      "time": "04:59",
+      "author": "Basia",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260523-WA0001.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-23T05:00:00",
+      "date": "23/05/2026",
+      "time": "05:00",
+      "author": "Basia",
+      "body": "Jest dziwna godzina, ale na dobry początek waszego święta wysyłam Wam to.\nWykonałam kawał dobrej roboty analitycznej. Wyeliminowałam inne możliwości i na koniec uzyskałam to! Trochę szczęścia też miałam.\nTo jest podanie o paszport złożone 29.02.1924.\nU góry imię i nazwisko ojca:      Rapaport Mojżesz Saul\nlewa kolumna:\n- nazwisko i imię petenta : Rapaport Berisch,\n- imię ojca Mojżesz Saul,\n- adres: Tarnów Folwarczna 9\nśrodkowa kolumna:\n- rysopis: wzrost średni, twarz pociągła, włosy czarne, nos usta proporcjonalne, oczy czarne,\n- dzieci do lat 14 włącznie Mendel 12 lat, Lotti 8 lat\nprawa kolumna:\n- nr dokumentu osobistego wydanego przez Starostwo L 19376/22,\n- miejsce faktycznego zamieszkania ostatnio w ciągu 6 miesięcy Stanisławów Kościuszki 4,\n- obecny dokładny adres Berisch Rapaport, Stanisławów Kościuszki 4,\n- miejsce zapisania do ksiąg ludności stałej organizacji stanowej ewent. przynależność gminna Dąbrowa,\n- ze strony policji przeszkód do wydania paszportu zagranicznego do Wiednia nie ma żadnych.\nI kto z Was jest podobny do tego Pana ze zdjęcia? :)\nNamierzyłam też akt urodzenia, znowu miałam szczęście, bo nie wszystko z Tarnowa jest on-line\nW akcie są następujące informacje:\nUrodził się Tarnowie 6 sierpnia 1884 roku.\nImię podane w akcie to „Benzion”.\nAdres: „Tarnów miasto nr 24”\nOjciec Mojżesz Rapaport nauczyciel prywatny w Tarnowie\nMatka Rywka Schiff z Tarnowa córka Michała Schiffa kramarza i Cywie Schiff z Tarnowa.\nI na szczęście Tarnów jest w Polsce a nie na Ukrainie.\nUlica Folwarczna w Tarnowie to teraz ulica Waryńskiego.\nA ulica Kościuszki w Stanisławów przed wojną była w samym centrum.\nJak to się stało, że z Przemyśla powędrowałam w badaniach do Stanisławowa, a potem do Tarnowa to opiszę Wam później. U mnie jest 4 rano i ptaki zaczęły śpiewać, zasiedziałam się przy tych poszukiwaniach ale było warto.\nI did a great job of analysis. I eliminated other possibilities and finally got this! I was also a little lucky.\nThis is a passport application submitted on February 29, 1924.\nAt the top, father's name: Rapaport Mojżesz Saul\nLeft column:\n- applicant's name: Rapaport Berisch\n- father's name: Mojżesz Saul\n- address: Tarnów Folwarczna 9\nMiddle column:\n- description: average height, elongated face, black hair, nose and mouth proportionate, black eyes\n- children up to 14 years of age: Mendel 12, Lotti 8\nRight column:\n- personal document number issued by the District Office: L 19376/22\n- place of actual residence last 6 months: Stanisławów Kościuszki 4\n- current address: Berisch Rapaport, Stanisławów Kościuszki 4\n- place of registration in the population register of the permanent organization of the state, or Dąbrowa municipality,\n- there are no police obstacles to issuing a foreign passport to Vienna.\nAnd who of you resembles the man in the photo? :)\nI also located his birth certificate; again, I was lucky, as not everything from Tarnów is online. The certificate contains the following information:\nHe was born in Tarnów on August 6, 1884.\nThe name given in the certificate is \"Benzion.\"\nAddress: \"Tarnów city no. 24\"\nFather: Mojżesz Rapaport, a private teacher in Tarnów\nMother: Rywka Schiff from Tarnów, daughter of Michał Schiff, a merchant, and Cywie Schiff from Tarnów.\nAnd fortunately, Tarnów is in Poland, not Ukraine.\nFolwarczna Street in Tarnów is now Waryńskiego Street.\nAnd Kościuszki Street in Stanisławów was in the very center before the war.\nI'll describe later how I ended up traveling from Przemyśl to Stanisławów, and then to Tarnów, for my research. It's 4 a.m. here, and the birds are singing. I've been looking for a while, but it was worth it.",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-23T05:00:00",
+      "date": "23/05/2026",
+      "time": "05:00",
+      "author": "דנה רפפורט",
+      "body": "Wow!!",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-23T05:01:00",
+      "date": "23/05/2026",
+      "time": "05:01",
+      "author": "Basia",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260523-WA0002.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-23T05:06:00",
+      "date": "23/05/2026",
+      "time": "05:06",
+      "author": "דנה רפפורט",
+      "body": "Thank you dear .wow again!",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-23T05:07:00",
+      "date": "23/05/2026",
+      "time": "05:07",
+      "author": "דנה רפפורט",
+      "body": "There is some resemblance  to my father :)",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
     }
   ]
 }

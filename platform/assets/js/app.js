@@ -48,6 +48,7 @@ async function loadAll() {
   State.data.places = places.places;
   State.data.events = events.events;
   State.data.documents = documents.documents;
+  State.data.additional_files = documents.additional_files || [];
   State.data.hypotheses = hypotheses.hypotheses;
   State.data.messages = messages.messages || messages;
   State.data.research = research;
@@ -742,28 +743,103 @@ function renderPlaces(root, paramId) {
 // ----------------------------------------
 // DOCUMENTS
 // ----------------------------------------
+const DocState = { search: '', kind: 'all' };
+
 function renderDocuments(root, paramId) {
+  // All docs from documents.json + entries from additional_files (so every WhatsApp file appears)
+  const fullDocs = State.data.documents.slice();
+  const additional = State.data.additional_files || [];
+  // Build pseudo-docs for additional files so they show up on the page
+  const additionalDocs = additional.map((f, idx) => ({
+    id: 'add_' + idx,
+    file_pages: [f.file],
+    kind: f.file.match(/\.pdf$/i) ? 'pdf' : f.file.match(/\.(jpg|jpeg|png|webp|gif)$/i) ? 'image' : 'file',
+    type: 'whatsapp_attachment',
+    title: { en: f.file },
+    summary: { en: f.description || '' },
+    _isAdditional: true,
+  }));
+  const allDocs = fullDocs.concat(additionalDocs);
+
+  // Filter logic
+  const q = (DocState.search || '').trim().toLowerCase();
+  const kf = DocState.kind || 'all';
+  const filtered = allDocs.filter(d => {
+    if (kf !== 'all') {
+      if (kf === 'image' && !(d.kind === 'image' || d.kind === 'composite')) return false;
+      if (kf === 'pdf' && d.kind !== 'pdf') return false;
+      if (kf === 'external' && d.kind !== 'external_source') return false;
+      if (kf === 'attachment' && !d._isAdditional) return false;
+    }
+    if (!q) return true;
+    const hay = [
+      ml(d.title), d.type, d.kind,
+      ml(d.summary), d.source_archive,
+      (d.file_pages || []).join(' '),
+      Object.values(d.decoded_fields || {}).join(' '),
+      Object.values(d.key_quotes || {}).join(' '),
+    ].join(' ').toLowerCase();
+    return hay.includes(q);
+  });
+
+  const kindCounts = {
+    all: allDocs.length,
+    image: allDocs.filter(d => d.kind === 'image' || d.kind === 'composite').length,
+    pdf: allDocs.filter(d => d.kind === 'pdf').length,
+    external: allDocs.filter(d => d.kind === 'external_source').length,
+    attachment: additionalDocs.length,
+  };
+
   root.innerHTML = `
     ${pageHeader('documents.title', 'documents.lead')}
+    <div class="docs-controls" style="display:flex;gap:0.6rem;flex-wrap:wrap;margin-bottom:1rem;align-items:center;">
+      <input class="chat-search" type="search" id="docs-search" placeholder="${escapeHtml(t('ui.search'))}…" value="${escapeHtml(DocState.search)}" style="flex:1;min-width:200px;" />
+      <button class="filter-btn ${kf==='all'?'active':''}" data-docfilter="all">${escapeHtml(t('ui.all') || 'All')} (${kindCounts.all})</button>
+      <button class="filter-btn ${kf==='image'?'active':''}" data-docfilter="image">🖼️ ${kindCounts.image}</button>
+      <button class="filter-btn ${kf==='pdf'?'active':''}" data-docfilter="pdf">📄 ${kindCounts.pdf}</button>
+      <button class="filter-btn ${kf==='external'?'active':''}" data-docfilter="external">🔗 ${kindCounts.external}</button>
+      <button class="filter-btn ${kf==='attachment'?'active':''}" data-docfilter="attachment">📎 ${kindCounts.attachment}</button>
+    </div>
     <div class="documents-grid">
-      ${State.data.documents.map(d => {
+      ${filtered.map(d => {
         const thumb = pickDocThumb(d);
+        const files = d.file_pages || [];
+        const summary = ml(d.summary) || '';
+        const summarySnip = summary ? (summary.length > 220 ? summary.slice(0, 220) + '…' : summary) : '';
+        const fileCount = files.length;
+        const typeLabel = (t('doc_type.' + d.type) !== 'doc_type.' + d.type) ? t('doc_type.' + d.type) : d.type;
         return `
           <div class="doc-card" data-doc="${escapeHtml(d.id)}">
             <div class="doc-thumb">
-              ${thumb ? `<img src="${escapeHtml(thumb)}" alt="" loading="lazy" />` : `<div class="doc-thumb-placeholder">${escapeHtml(d.kind || 'document')}</div>`}
+              ${thumb ? `<img src="${escapeHtml(thumb)}" alt="" loading="lazy" />` : `<div class="doc-thumb-placeholder">${escapeHtml(d.kind === 'pdf' ? '📄 PDF' : d.kind === 'external_source' ? '🔗' : d.kind || 'document')}</div>`}
+              ${fileCount > 1 ? `<span class="doc-thumb-count">${fileCount} pages</span>` : ''}
             </div>
             <div class="doc-info">
-              <div class="doc-kind">${escapeHtml(t('doc_type.' + d.type) || d.type)}${d.primary_language ? ' · ' + escapeHtml(d.primary_language.toUpperCase()) : ''}</div>
-              <h4 class="doc-title">${escapeHtml(ml(d.title))}</h4>
+              <div class="doc-kind">${escapeHtml(typeLabel)}${d.primary_language ? ' · ' + escapeHtml(d.primary_language.toUpperCase()) : ''}${d._isAdditional ? ' · 📎' : ''}</div>
+              <h4 class="doc-title">${escapeHtml(ml(d.title) || files[0] || d.id)}</h4>
+              ${summarySnip ? `<p class="doc-summary-snip">${escapeHtml(summarySnip)}</p>` : ''}
+              ${files.length ? `<div class="doc-files-list">${files.slice(0, 3).map(f => `<span class="doc-file-chip">${escapeHtml(f.length > 36 ? f.slice(0, 33) + '…' : f)}</span>`).join('')}${files.length > 3 ? `<span class="doc-file-chip">+${files.length - 3}</span>` : ''}</div>` : ''}
             </div>
           </div>
         `;
-      }).join('')}
+      }).join('') || `<div style="padding:2rem;text-align:center;color:var(--muted);grid-column:1/-1;">${escapeHtml(t('ui.no_results'))}</div>`}
     </div>
   `;
   root.querySelectorAll('[data-doc]').forEach(el => {
     el.addEventListener('click', () => openDocModal(el.dataset.doc));
+  });
+  const searchEl = document.getElementById('docs-search');
+  if (searchEl) {
+    searchEl.addEventListener('input', e => {
+      DocState.search = e.target.value;
+      renderDocuments(root, paramId);
+    });
+  }
+  root.querySelectorAll('[data-docfilter]').forEach(b => {
+    b.addEventListener('click', () => {
+      DocState.kind = b.dataset.docfilter;
+      renderDocuments(root, paramId);
+    });
   });
   if (paramId && State.byId.documents[paramId]) openDocModal(paramId);
 }
@@ -943,24 +1019,69 @@ function renderChat(root) {
 function renderChatList() {
   const list = document.getElementById('chat-list');
   if (!list) return;
-  let msgs = State.data.messages;
+  let msgs = State.data.messages.slice().sort((a, b) => {
+    const ta = a.timestamp || `${a.date || ''}T${a.time || ''}`;
+    const tb = b.timestamp || `${b.date || ''}T${b.time || ''}`;
+    return ta < tb ? -1 : ta > tb ? 1 : 0;
+  });
   if (ChatState.attachmentsOnly) msgs = msgs.filter(m => m.attachment);
   const q = ChatState.search.trim().toLowerCase();
-  if (q) msgs = msgs.filter(m => (m.body || '').toLowerCase().includes(q) || (m.author || '').toLowerCase().includes(q));
+  if (q) msgs = msgs.filter(m =>
+    (m.body || '').toLowerCase().includes(q) ||
+    (m.author || '').toLowerCase().includes(q) ||
+    (m.author_normalized || '').toLowerCase().includes(q) ||
+    (typeof m.attachment === 'object' && m.attachment && (m.attachment.filename || '').toLowerCase().includes(q))
+  );
 
-  list.innerHTML = msgs.length ? msgs.slice(0, 500).map(m => {
-    const initial = (m.author || '?').slice(0,1).toUpperCase();
+  // Format ISO timestamp -> human-readable
+  const fmtTime = (m) => {
+    if (m.timestamp) {
+      try {
+        const d = new Date(m.timestamp);
+        if (!isNaN(d)) {
+          return d.toLocaleString(undefined, { year: 'numeric', month: 'short', day: '2-digit', hour: '2-digit', minute: '2-digit' });
+        }
+      } catch (e) {}
+    }
+    return `${m.date || ''} ${m.time || ''}`.trim();
+  };
+
+  // Attachment helper — handles both old (string) and new (object) attachment formats
+  const renderAttachment = (att) => {
+    if (!att) return '';
+    let filename, kind;
+    if (typeof att === 'string') { filename = att; kind = ''; }
+    else { filename = att.filename || ''; kind = att.kind || ''; }
+    if (!filename) return '';
+    const href = 'assets/documents/' + encodeURI(filename);
+    const ext = (filename.match(/\.([a-z0-9]+)$/i) || [,''])[1].toLowerCase();
+    const isImg = ['jpg','jpeg','png','webp','gif'].includes(ext);
+    const isPdf = ext === 'pdf';
+    const isSticker = ext === 'webp' || kind === 'sticker';
+    const icon = isImg ? '🖼️' : isPdf ? '📄' : isSticker ? '😊' : '📎';
+    if (isImg) {
+      return `<a class="msg-attachment msg-attachment-img" href="${escapeHtml(href)}" target="_blank" rel="noopener">
+        <img src="${escapeHtml(href)}" alt="${escapeHtml(filename)}" loading="lazy" />
+        <span class="msg-attachment-label">${escapeHtml(icon)} ${escapeHtml(filename)}</span>
+      </a>`;
+    }
+    return `<a class="msg-attachment" href="${escapeHtml(href)}" target="_blank" rel="noopener">${escapeHtml(icon)} ${escapeHtml(filename)}</a>`;
+  };
+
+  list.innerHTML = msgs.length ? msgs.slice(0, 1000).map(m => {
+    const displayName = m.author_normalized || m.author || t('ui.unknown');
+    const initial = (displayName || '?').slice(0,1).toUpperCase();
     return `
       <div class="msg">
         <div class="msg-avatar">${escapeHtml(initial)}</div>
         <div class="msg-body">
           <div class="msg-head">
-            <span class="msg-author">${escapeHtml(m.author || t('ui.unknown'))}</span>
-            <span class="msg-date">${escapeHtml(m.timestamp || '')}</span>
-            ${m.language ? `<span class="msg-lang-badge">${escapeHtml(m.language)}</span>` : ''}
+            <span class="msg-author">${escapeHtml(displayName)}</span>
+            <span class="msg-date">${escapeHtml(fmtTime(m))}</span>
+            ${(m.language || m.lang) ? `<span class="msg-lang-badge">${escapeHtml(m.language || m.lang)}</span>` : ''}
           </div>
           ${m.body ? `<div class="msg-text">${escapeHtml(m.body)}</div>` : ''}
-          ${m.attachment ? `<a class="msg-attachment" href="assets/documents/${escapeHtml(m.attachment)}" target="_blank">📎 ${escapeHtml(m.attachment)}</a>` : ''}
+          ${renderAttachment(m.attachment)}
         </div>
       </div>
     `;
