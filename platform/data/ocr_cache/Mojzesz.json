@@ -1,0 +1,11 @@
+{
+  "filename": "Mojzesz.png",
+  "content_hash": "c495dcb574262916fcac6c07695ca26da1230d8bd3c4b0120819b34458c09f48",
+  "engine": "tesseract-5.4.0",
+  "langs": "pol+eng+heb+deu",
+  "lang_hint": "en",
+  "char_count": 229,
+  "ocr_at": "2026-06-01T17:38:02.771486+00:00",
+  "stderr_excerpt": "",
+  "text_path": "ocr_cache/Mojzesz.txt"
+}

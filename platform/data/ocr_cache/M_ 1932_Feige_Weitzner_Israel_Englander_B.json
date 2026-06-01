@@ -1,0 +1,11 @@
+{
+  "filename": "M_ 1932_Feige_Weitzner_Israel_Englander_B.jpg",
+  "content_hash": "36611a37de261a8244b1d2a33f97f2697352ec5f766099b50d52454734da2d5c",
+  "engine": "tesseract-5.4.0",
+  "langs": "pol+eng+heb+deu",
+  "lang_hint": "pl",
+  "char_count": 1476,
+  "ocr_at": "2026-06-01T17:41:29.126023+00:00",
+  "stderr_excerpt": "",
+  "text_path": "ocr_cache/M_ 1932_Feige_Weitzner_Israel_Englander_B.txt"
+}

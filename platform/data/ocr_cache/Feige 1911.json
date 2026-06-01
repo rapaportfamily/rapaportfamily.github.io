@@ -1,0 +1,11 @@
+{
+  "filename": "Feige 1911.png",
+  "content_hash": "6e8396eba624c7b15efb6f05d3188c58bd2794b227540e0fabc77d28e7cbb931",
+  "engine": "tesseract-5.4.0",
+  "langs": "pol+eng+heb+deu",
+  "lang_hint": "en",
+  "char_count": 168,
+  "ocr_at": "2026-06-01T17:38:04.218339+00:00",
+  "stderr_excerpt": "",
+  "text_path": "ocr_cache/Feige 1911.txt"
+}

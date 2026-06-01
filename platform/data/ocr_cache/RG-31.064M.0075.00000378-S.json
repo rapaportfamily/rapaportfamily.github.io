@@ -1,0 +1,11 @@
+{
+  "filename": "RG-31.064M.0075.00000378-S.JPG",
+  "content_hash": "313bb57161d4badb711c2bbf79beca59ec5ee5285ebe983bc50f013d5983310b",
+  "engine": "tesseract-5.4.0",
+  "langs": "pol+eng+heb+deu",
+  "lang_hint": "en",
+  "char_count": 131,
+  "ocr_at": "2026-06-01T17:39:30.596948+00:00",
+  "stderr_excerpt": "",
+  "text_path": "ocr_cache/RG-31.064M.0075.00000378-S.txt"
+}

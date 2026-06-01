@@ -1,0 +1,11 @@
+{
+  "filename": "U 1911 Chana Turkel T.jpg",
+  "content_hash": "75b9fb7b351ba53b387567035abc32bf8df4cff5ea252186c3c1a72ca24dd764",
+  "engine": "tesseract-5.4.0",
+  "langs": "pol+eng+heb+deu",
+  "lang_hint": "pl",
+  "char_count": 969,
+  "ocr_at": "2026-06-01T17:41:20.233567+00:00",
+  "stderr_excerpt": "",
+  "text_path": "ocr_cache/U 1911 Chana Turkel T.txt"
+}

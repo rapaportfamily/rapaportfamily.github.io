@@ -1,0 +1,11 @@
+{
+  "filename": "1924 Rias.jpg",
+  "content_hash": "72bf064b55763ff8321a116d742b003e47b00e67ce9304a4716e5867a059848d",
+  "engine": "tesseract-5.4.0",
+  "langs": "pol+eng+heb+deu",
+  "lang_hint": "pl",
+  "char_count": 3749,
+  "ocr_at": "2026-06-01T17:39:16.155113+00:00",
+  "stderr_excerpt": "",
+  "text_path": "ocr_cache/1924 Rias.txt"
+}

@@ -1,0 +1,11 @@
+{
+  "filename": "1923 Zylberfenig Rapaport T.jpg",
+  "content_hash": "15e250bb321c896a43817f707fe4f32bd0eee99c8990df23729c3804d7f574f0",
+  "engine": "tesseract-5.4.0",
+  "langs": "pol+eng+heb+deu",
+  "lang_hint": "pl",
+  "char_count": 1017,
+  "ocr_at": "2026-06-01T17:39:49.691798+00:00",
+  "stderr_excerpt": "Image too small to scale!! (2x36 vs min width of 3)\r\nLine cannot be recognized!!\r\nImage too small to scale!! (2x36 vs min width of 3)\r\nLine cannot be recognized!!\r\nImage too small to scale!! (2x36 vs min width of 3)\r\nLine cannot be recognized!!\r\nImage too small to scale!! (2x36 vs min width of 3)\r\nL",
+  "text_path": "ocr_cache/1923 Zylberfenig Rapaport T.txt"
+}

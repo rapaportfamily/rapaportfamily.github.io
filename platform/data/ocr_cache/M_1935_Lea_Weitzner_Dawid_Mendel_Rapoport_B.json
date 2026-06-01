@@ -1,0 +1,11 @@
+{
+  "filename": "M_1935_Lea_Weitzner_Dawid_Mendel_Rapoport_B.jpg",
+  "content_hash": "feeeb65dc24e4e97f2fed473d95ecf441eee101dce5bbf1830b54d0690ee5241",
+  "engine": "tesseract-5.4.0",
+  "langs": "pol+eng+heb+deu",
+  "lang_hint": "pl",
+  "char_count": 3103,
+  "ocr_at": "2026-06-01T17:41:47.204127+00:00",
+  "stderr_excerpt": "",
+  "text_path": "ocr_cache/M_1935_Lea_Weitzner_Dawid_Mendel_Rapoport_B.txt"
+}

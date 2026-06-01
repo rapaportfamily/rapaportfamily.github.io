@@ -1,0 +1,11 @@
+{
+  "filename": "Dawid Mendel Rapaport birth Nadworna 1911.jpg",
+  "content_hash": "17b439fec964b9bf0fdc5bf716b77cb7f8f4cbfc6cde1cd47c1c96c27ef2ed0a",
+  "engine": "tesseract-5.4.0",
+  "langs": "pol+eng+heb+deu",
+  "lang_hint": "pl",
+  "char_count": 1608,
+  "ocr_at": "2026-06-01T17:38:13.232789+00:00",
+  "stderr_excerpt": "",
+  "text_path": "ocr_cache/Dawid Mendel Rapaport birth Nadworna 1911.txt"
+}

@@ -1,0 +1,11 @@
+{
+  "filename": "Rapaport Szymon.jpg",
+  "content_hash": "39ca01d784cc947623bc413a6d51db3b5ee065d4d7e5c8db134d55b032007439",
+  "engine": "tesseract-5.4.0",
+  "langs": "pol+eng+heb+deu",
+  "lang_hint": "pl",
+  "char_count": 2871,
+  "ocr_at": "2026-06-01T17:38:33.401925+00:00",
+  "stderr_excerpt": "",
+  "text_path": "ocr_cache/Rapaport Szymon.txt"
+}

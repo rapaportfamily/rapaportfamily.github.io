@@ -1,0 +1,11 @@
+{
+  "filename": "1919 Nussbaum Rapaport T.jpg",
+  "content_hash": "c010babe7be9a55f1aa046bf206173ead90face93a5a51e70617d324ccc9d7cc",
+  "engine": "tesseract-5.4.0",
+  "langs": "pol+eng+heb+deu",
+  "lang_hint": "pl",
+  "char_count": 1523,
+  "ocr_at": "2026-06-01T17:40:09.389191+00:00",
+  "stderr_excerpt": "Image too small to scale!! (2x36 vs min width of 3)\r\nLine cannot be recognized!!\r\nImage too small to scale!! (2x36 vs min width of 3)\r\nLine cannot be recognized!!\r\nImage too small to scale!! (2x36 vs min width of 3)\r\nLine cannot be recognized!!\r\nImage too small to scale!! (2x36 vs min width of 3)\r\nL",
+  "text_path": "ocr_cache/1919 Nussbaum Rapaport T.txt"
+}

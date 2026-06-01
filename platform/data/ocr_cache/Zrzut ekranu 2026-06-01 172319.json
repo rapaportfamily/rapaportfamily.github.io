@@ -1,0 +1,11 @@
+{
+  "filename": "Zrzut ekranu 2026-06-01 172319.png",
+  "content_hash": "44377bc8ad32f7b617302365e7af9470966225b9752fd4bac5823c879c6a0c6f",
+  "engine": "tesseract-5.4.0",
+  "langs": "pol+eng+heb+deu",
+  "lang_hint": "pl",
+  "char_count": 935,
+  "ocr_at": "2026-06-01T17:41:58.144475+00:00",
+  "stderr_excerpt": "",
+  "text_path": "ocr_cache/Zrzut ekranu 2026-06-01 172319.txt"
+}

@@ -1,0 +1,11 @@
+{
+  "filename": "Bolechów Dolina Bołochów.png",
+  "content_hash": "052b0474b3cbe87cf10f1a3e7e2fd8694771246f62546fbb2d1cdbcfa6016341",
+  "engine": "tesseract-5.4.0",
+  "langs": "pol+eng+heb+deu",
+  "lang_hint": "en",
+  "char_count": 0,
+  "ocr_at": "2026-06-01T17:37:53.407068+00:00",
+  "stderr_excerpt": "Error, cannot read input file C:\\Users\\User\\rapaport-family-tree\\platform\\assets\\documents\\Bolech?w Dolina Bo?och?w.png: Invalid argument\r\nError during processing.",
+  "text_path": "ocr_cache/Bolechów Dolina Bołochów.txt"
+}

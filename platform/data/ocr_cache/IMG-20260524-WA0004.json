@@ -1,0 +1,11 @@
+{
+  "filename": "IMG-20260524-WA0004.jpg",
+  "content_hash": "07641bb49f27f2f45eb74d8b1a58a51d8c7e5388b8bd225f0faf9097c7aaa2eb",
+  "engine": "tesseract-5.4.0",
+  "langs": "pol+eng+heb+deu",
+  "lang_hint": "pl",
+  "char_count": 401,
+  "ocr_at": "2026-06-01T17:39:24.564396+00:00",
+  "stderr_excerpt": "",
+  "text_path": "ocr_cache/IMG-20260524-WA0004.txt"
+}

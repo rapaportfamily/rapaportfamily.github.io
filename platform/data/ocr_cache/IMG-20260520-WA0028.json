@@ -1,0 +1,11 @@
+{
+  "filename": "IMG-20260520-WA0028.jpg",
+  "content_hash": "f5a198eacbaaab7dd63f38a3b294a7e1864a0ba5d17113998bfcbfe6e7890cca",
+  "engine": "tesseract-5.4.0",
+  "langs": "pol+eng+heb+deu",
+  "lang_hint": "pl",
+  "char_count": 484,
+  "ocr_at": "2026-06-01T17:39:00.167439+00:00",
+  "stderr_excerpt": "",
+  "text_path": "ocr_cache/IMG-20260520-WA0028.txt"
+}

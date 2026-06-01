@@ -1,0 +1,11 @@
+{
+  "filename": "U 1907 Scheindla Jutta Turkel T.jpg",
+  "content_hash": "080f029035e5a2a5497034b904dc1a61315dfc76516b18c0cbf09aef676dac38",
+  "engine": "tesseract-5.4.0",
+  "langs": "pol+eng+heb+deu",
+  "lang_hint": "pl",
+  "char_count": 1181,
+  "ocr_at": "2026-06-01T17:41:09.272551+00:00",
+  "stderr_excerpt": "Image too small to scale!! (2x36 vs min width of 3)\r\nLine cannot be recognized!!\r\nImage too small to scale!! (2x36 vs min width of 3)\r\nLine cannot be recognized!!\r\nImage too small to scale!! (2x36 vs min width of 3)\r\nLine cannot be recognized!!\r\nImage too small to scale!! (2x36 vs min width of 3)\r\nL",
+  "text_path": "ocr_cache/U 1907 Scheindla Jutta Turkel T.txt"
+}
