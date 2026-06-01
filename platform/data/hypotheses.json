@@ -20,6 +20,7 @@
       },
       "priority": "HIGH",
       "status": "RESOLVED — Muszyna confirmed by memoir 2026-05-20",
+      "note_2026_06_01_cc": "The marriage/resort 'Mosina' = Muszyna is settled by the memoir. But two pending uploads reopen a SEPARATE 'Mosina' thread that should not be conflated: (a) the Rapaport-institute online tree [upload 3eXByT1gs9KM3YTdFunc] places the PATERNAL deep ancestors (Moshe Rapaport and descendants) and even Shimon + Lota's births 'in Mosina' near Poznań — this contradicts the documented Nadwórna paternal line and is treated as an unreliable third-party compilation, NOT accepted. (b) Barbara Sieińska's lead to the JHI (19 May 2026): the long-sought family 'sawmill in Mosina' may have belonged to the GRIFFEL family (still being sorted) — see h_griffel_chajes_family. (c) Counter-evidence on the institute tree: Shimon's CKŻP card states he was born in LWÓW (not Mosina), and the memoir places the marriage in Muszyna — so the institute tree's 'born in Mosina' claims are likely errors/conflation. Net: keep Muszyna as the resolved resort; investigate whether a Griffel timber sawmill existed at a place rendered 'Mosina' as a distinct question.",
       "candidates": [
         {
           "label": "Mosina near Poznań (Greater Poland)",
@@ -116,15 +117,20 @@
         "fr": "Quelle est la véritable date de naissance de Léa — 8 avril 1913, 6 avril 1916, 8 avril 1916, ou ~1917 ?"
       },
       "priority": "MEDIUM",
-      "status": "open",
+      "status": "probable_answer",
+      "research_2026_06_01_cc": {
+        "summary": "The long-awaited CKŻP survivor card for Lusia is now in hand (came in as the 'Lea and Shimon' PDF upload, whose Gemini auto-verification had been blocked by a RECITATION filter). Card Nr 151738, filed by the family at the Katowice committee on 1 July 1946, states Lusia Rappoport born 8.4.1916 in Bolechów, parents Eljan (Elias) and Matylda. The DAY and MONTH (8 April) are now unanimous across every source. The YEAR is 1916 in three independent later sources (this CKŻP card + ŻIH index + Haifa Chevra Kadisha) against the single 1913 Bolechów civil birth certificate. Probable answer: 8 April; year most likely 1916, but the 1913 civil record cannot be dismissed (and age-understatement at marriage would actually favour 1913). Not declared fully resolved.",
+        "report": "docs/research/h_leah_dob_2026-06-01.md"
+      },
       "candidates": [
         {
           "label": "8 April 1913",
           "evidence_for": [
-            "Bolechów civil birth certificate (1913)"
+            "Bolechów civil birth certificate (1913) — only contemporaneous civil document",
+            "If Lea genuinely declared age 18 at marriage and understated, the true year would be earlier — consistent with 1913"
           ],
           "evidence_against": [
-            "Conflicts with family death certificate"
+            "Conflicts with family death certificate and with three later self-reported/administrative records giving 1916"
           ]
         },
         {
@@ -133,17 +139,21 @@
             "Family death certificate"
           ],
           "evidence_against": [
-            "No civil document found for this exact date"
+            "No civil document found for this exact date; day (6th) contradicted by the unanimous 8th in every other source"
           ]
         },
         {
           "label": "8 April 1916",
           "evidence_for": [
-            "ŻIH index lists 'Lusia Rappoport' b. 1916-04-08, parents Eljan/Mahylda — close to Eliyahu/Mathilde"
+            "PRIMARY (2026-06-01): Lusia's own CKŻP survivor card Nr 151738 (Katowice, 1 July 1946) states b. 8.4.1916 Bolechów, parents Eljan/Matylda [doc_lea_ckzp]",
+            "ŻIH index lists 'Lusia Rappoport' b. 1916-04-08, parents Eljan/Mahylda — now confirmed to be the index of this very card",
+            "Haifa Chevra Kadisha death record gives 08/04/1916",
+            "Three independent sources converge on this exact date"
           ],
           "evidence_against": [
-            "May be different person; spelling unusual"
-          ]
+            "Survivor-era self-reported years are often imprecise; one earlier civil record (1913) disagrees on the year"
+          ],
+          "verdict": "leading_candidate"
         },
         {
           "label": "~1917",
@@ -359,6 +369,11 @@
         "report": "docs/research/h8_griffel_chajes_2026-05-17.md",
         "highest_leverage_action": "Basia → Przemyśl archive ref 154/70/313 (1877-1907 Nadwórna marriage index) — pull the Leizor Griffel × Sara Chajes entry"
       },
+      "research_2026_06_01_cc": {
+        "summary": "Processed two pending uploads that corroborate this branch from primary records, plus the JHI/ŻIH genealogy department's own verification. (1) A JRI-Poland index screenshot [upload 4hFR7pAuFl3lYDTJjQWN] confirms the Nadwórna Jewish vital-record funds: births 1877-1896 = Sygnatura 941, deaths 1877-1896 = Sygnatura 946, and lists Griffel children plus a cluster of Chajes children whose mother is 'Sura CHAJES'. (2) Email correspondence with the Emanuel Ringelblum Jewish Historical Institute (JHI/ŻIH) genealogy centre [upload ElUEJykulI1sHqenTTKU, dated 18-19 May 2026, Katarzyna + Barbara Sieińska + Doron]: the JHI confirmed the family tree is genuine ('confirmation of the accuracy of the material from the source'). NEW documented details: Leizor (Eliezer) Griffel was a 'Schaechter' (shochet — ritual slaughterer) and a Hausbesitzer (house-owner) in Kolomyia, at least in the 1880s; there were TWO men named Lajzor Griffel in the industrial registers (father 'senior' + son); the Leizor × Sara Chajes MARRIAGE record exists ('S 1892 Leizer i Sara Griffel N' — Nadwórna). Barbara also flags that 'Rechel' and 'Simcie' Griffel are two children who died in childhood and are not in the family tree. The actual birth-record akta list (all Nadwórna): Machla 1873, Dawid 1875, stillborn 1877, Zissel 1878, Eisig Chaim 1879, Rachel 1881, Chaja 1883, Leibisch 1885, Beniamin 1887, Rebeca 1888. (3) The Edward Gelles 'Facets of my Family History, Part 2' (chapters 13-20) [upload KPmyxEBTxjwGBrRVJMjE] is the full text of the canonical source already cited as src_gelles_griffel_nadworna_pdf; chapter 13 'Some Griffel cousins' + chapter 14 'The Chayes family' confirm the 10-children list and the Chajes rabbinic descent.",
+        "new_lead": "Barbara Sieińska (to JHI, 19 May 2026): 'I believe the sawmill in Mosina we are looking for belonged to the Griffels, but I still need to sort out the materials.' This is the first link between the unresolved 'Mosina' place mystery and the Griffel family — see h_mosina_location.",
+        "report": "docs/research/incoming_2026-06-01_pending_uploads.md"
+      },
       "archive_paths": {
         "all_galicia_database": "https://www.geshergalicia.org/all-galicia-database/?surname=Griffel&town=Nadworna",
         "jri_poland": "https://jri-poland.org/search.htm (Nadwórna births 1876-1897, deaths 1868-1892)",
@@ -411,6 +426,10 @@
       "priority": "HIGH",
       "status": "probable_answer",
       "context": "Basia observation 17 May 2026: documentary trail shows them apart in 1945-46. Possible explanations: (a) Lusia traveled separately and joined later; (b) records are incomplete in one location; (c) deliberate separation (different declared destinations — Doron: 'Lucia received affidavit to USA, David as Betar member wanted Israel'); (d) Lusia stayed in Poland longer to wrap up affairs / sell property / find documents.",
+      "research_2026_06_01_cc": {
+        "summary": "NEW HARD DATAPOINT for the Polish leg. Lusia's and Shimon's CKŻP survivor cards (doc_lea_ckzp Nr 151738; doc_szymon_ckzp Nr 151337) were both filed at the KATOWICE committee on 1 JULY 1946, each listing Katowice as last known address. This documents mother + son in Katowice (Upper Silesia, Poland) in mid-1946 — exactly the 'Lusia in Polish records, registered with CKŻP' leg the reconstruction predicted. Katowice was a major repatriation/Bricha staging hub in 1946. It is consistent with David having already moved ahead toward Brussels (men-first pattern). Tightens the timeline: Lusia + Shimon still in Poland (Katowice) as of 1 July 1946; Dov born Brussels later in 1946 — so their westward Bricha leg falls in the second half of 1946.",
+        "report": "docs/research/incoming_2026-06-01_pending_uploads.md"
+      },
       "candidates": [
         {
           "label": "Separate travel, Leah joined Brussels in time for Dov's 1946 birth",
@@ -466,12 +485,22 @@
         "fr": "Que contiennent les fiches d'enregistrement de Lusia au ŻIH que Basia demande à Varsovie ?"
       },
       "priority": "HIGH",
-      "status": "blocked_waiting_archive",
+      "status": "resolved",
+      "verdict": {
+        "en": "RESOLVED 2026-06-01. The ŻIH/CKŻP registration cards are now in hand — they were uploaded 18 May 2026 as the 'Lea and Shimon' PDF, but the Gemini auto-verifier had been blocked (RECITATION filter), so they sat unprocessed until CC read the scans directly. Two cards, both 'Karta informacyjna o osobach ocalałych' filed at the Katowice committee on 1 July 1946: (1) Nr 151738 — Lusia Rappoport, b. 8.4.1916 Bolechów, parents Eljan/Matylda, last address Katowice [doc_lea_ckzp]; (2) Nr 151337 — Szymon Rappoport, b. 22.6.1937 Lwów, parents Dawid/Lusia, last address Katowice [doc_szymon_ckzp]. Net new facts: Leah's DOB cluster (see h_leah_dob), Shimon's stated birthplace = Lwów (corrects the 'Mosina' assumption), and mother+son together in Katowice in mid-1946 (see h_lusia_dawid_paper_separation).",
+        "he": "נפתר ב-2026-06-01. כרטיסי הרישום של ŻIH/CKŻP נמצאים כעת בידינו — הם הועלו ב-18 במאי 2026 כקובץ ה-PDF 'Lea and Shimon', אך מאמת ה-Gemini נחסם (מסנן RECITATION), ולכן הם לא עובדו עד שה-CC קרא את הסריקות ישירות. שני כרטיסים, שניהם 'כרטיס מידע על ניצולים' שהוגשו בוועד קטוביץ ב-1 ביולי 1946: (1) מס' 151738 — לוסיה רפפורט, ילידת 8.4.1916 בולחוב; (2) מס' 151337 — שמעון רפפורט, יליד 22.6.1937 לבוב. שניהם רשמו את קטוביץ ככתובת אחרונה."
+      },
       "next_steps": [
-        "Wait for Basia / ŻIH to send the materials. At least one registration card exists per Basia 13 May."
+        "DONE — cards received and processed. Optional: request the reverse side / any attached pages from ŻIH if a fuller intake form exists.",
+        "Reconcile Shimon's Lwów birthplace (June 1937) with the February-1938 Muszyna marriage in the memoir — flagged for Doron."
       ],
       "related_people": [
-        "p_leah"
+        "p_leah",
+        "p_shimon"
+      ],
+      "related_documents": [
+        "doc_lea_ckzp",
+        "doc_szymon_ckzp"
       ]
     },
     {

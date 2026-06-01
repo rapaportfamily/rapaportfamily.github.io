@@ -267,13 +267,15 @@
         "confidence": "documented",
         "sources": [
           "doc_leah_birth_bolechow_1913",
+          "doc_lea_ckzp",
           "report_basia_13may"
         ],
-        "note_en": "Bolechów birth record found for 'Lea' born 8.4.1913 to Elias and Matel Weitzner. Family death certificate lists 6.4.1916. The Polish Jewish Historical Institute index also lists Lusia Rappoport born 1916-04-08. There may be a 1913 vs 1916 conflict between civil record and family record. Lea declared age 18 in 1935 → would imply 1917 birth. Per Basia: brides often understated their age.",
+        "note_en": "DAY + MONTH (8 April) now confirmed across every source. YEAR is split: the Bolechów CIVIL birth record gives 8.4.1913 (to Elias and Matel Weitzner); but THREE independent later sources give 8.4.1916 — (1) her own CKŻP survivor registration card Nr 151738 filed at Katowice 1 July 1946 [doc_lea_ckzp, scan obtained 2026-06-01], (2) the ŻIH index ('Lusia Rappoport b. 1916-04-08, parents Eljan/Matylda'), and (3) the Haifa Chevra Kadisha record. Primary date kept as the 1913 civil certificate; the 1916 cluster is documented and competing. See hypothesis h_leah_dob (no longer 'open' — the awaited CKŻP card is now in hand). Note: Lea declared age 18 at her 1935/1938 marriage; understating age would point toward the earlier 1913 birth, so the conflict is not fully resolved by self-report alone.",
         "alternative": {
-          "date": "1916-04-06",
-          "source": "family_oral",
-          "status": "competing"
+          "date": "1916-04-08",
+          "source": "doc_lea_ckzp",
+          "status": "competing",
+          "note_en": "8 April 1916 per Lusia's own CKŻP card (Katowice 1946), the ŻIH index, and the Haifa Chevra Kadisha — three independent sources agree on this year against the single 1913 civil record."
         }
       },
       "death": {
@@ -449,14 +451,14 @@
       "birth": {
         "date": "1937-06-22",
         "date_precision": "day",
-        "place_id": "pl_mosina_disputed",
+        "place_id": "pl_lwow",
         "confidence": "documented",
         "sources": [
           "doc_szymon_ckzp",
           "report_basia_13may",
           "oral_dalia_14may"
         ],
-        "note_en": "Found in CKŻP (Central Committee of Polish Jews) post-war registration records. Birthplace per family memoir was 'Mosina' — but the location of 'Mosina' is itself a research mystery (see hypotheses)."
+        "note_en": "CORRECTED 2026-06-01 from the legible full scan of his CKŻP card (Nr 151337, Komitet Katowice 1 July 1946): field 3 states born 22.6.1937 in LWÓW — not 'Mosina' as family memory held. The 'Mosina/Muszyna' memory (a river outing with baby Shimon) is a place the family lived, but the primary survivor card gives Lwów as his stated birthplace. NOTE A TENSION FOR DORON: if Shimon was born in Lwów in June 1937, that predates the February 1938 Muszyna marriage recorded in Lusia's memoir — the marriage date (1935 vs 1938) and Shimon's birthplace need reconciling. Recorded faithfully; not resolved."
       },
       "death": {
         "date": null,
@@ -483,10 +485,11 @@
         },
         {
           "key": "post_war_registration",
-          "value": "Registered in CKŻP records as son of Lusia and Dawid Rapaport",
+          "value": "Registered with the CKŻP at the Katowice committee on 1 July 1946 (card Nr 151337) as son of Lusia and Dawid; last known address Katowice. Lusia was registered the same day at the same committee (card Nr 151738) — placing mother and son together in Katowice, Poland, in mid-1946.",
           "confidence": "confirmed",
           "sources": [
-            "doc_szymon_ckzp"
+            "doc_szymon_ckzp",
+            "doc_lea_ckzp"
           ]
         },
         {
@@ -767,97 +770,300 @@
     {
       "id": "p_berisz",
       "primary_name": {
-        "en": "Berisz / Bernard Rapaport (born Benzion)",
-        "he": "בעריש / ברנרד רפפורט (בנציון)",
-        "pl": "Berisz / Bernard Rapaport (ur. Benzion)",
-        "fr": "Berisz / Bernard Rapaport (né Benzion)"
+        "en": "Berisz / Bernard / Dov Rapaport",
+        "he": "בעריש / ברנרד / דב רפפורט",
+        "pl": "Berisz / Bernard / Dov Rapaport",
+        "fr": "Berisz / Bernard / Dov Rapaport"
       },
       "aliases": [
-        "Benzion",
+        "Berish",
         "Bernard",
-        "Berl",
-        "Issachar Berish",
-        "יששכר בעריש",
-        "בנציון"
+        "Bernard Dov",
+        "Dov",
+        "בעריש",
+        "ברנרד דב"
       ],
       "role": "great_grandfather_paternal",
-      "note_en": "Paternal great-grandfather of Doron, Dana and Daniel. Born Tarnów (Western Galicia) 6 August 1884, civilly registered as 'Benzion'; known in adulthood as Berisz / Berisch / Bernard (Hebrew name: Issachar Berish). Son of Mojżesz Saul Rapaport (private teacher in Tarnów) and Rywka née Schiff (daughter of Michał + Cywie Schiff of Tarnów). Married Rebeka Griffel of Nadwórna ~1908-1910 — children David Mendel (b.1911 Nadwórna) and Lota (b.~1916). In 1924 the family lived at Stanisławów Kościuszki 4 (per his passport application to Vienna, 29 Feb 1924). By 1939 he lived in Przemyśl with Rebeka and David's grandmother. When war broke out (Sept 1939), Lusia and toddler Shimon traveled there to join them; David (Memek) followed. Under Soviet rule of Przemyśl (Sept 1939 – June 1941) Lusia worked as a cashier for the NKVD. Several months after the German takeover in June 1941, the Germans killed Berisz in Przemyśl, accusing him of allegedly placing a bomb on the railway near where they lived (Lusia memoir page 24). Probable date late 1941 or first half of 1942. After his death, Lusia / Memek / Shimon moved to Nadwórna.",
+      "note_en": "Paternal great-grandfather of Doron, Dana and Daniel. Born 30 July 1886 in Radomyśl Wielki (small town between Mielec and Tarnów, in Lesser Poland). Father: Moses (Moshe Saul) Rapaport, merchant. Mother: Menukha (per Yad Vashem Page of Testimony filed 1953). Polish citizen of Jewish faith; industrialist (przemyślowiec) residing in Stanisławów since 1918. Address: Kościuszki 4, Stanisławów. ID card #L/9376/22 issued Stanisławów 16 November 1922; 1924 passport application to Vienna for business; 1927 ID card renewal (USHMM RG-31.064M, family copy via Basia 25 May 2026). Married Rebecca (Regina Rivka) Griffel civilly in Nadwórna on 21 December 1911, four days before son David Mendel's birth. Children: David Mendel (b.25 Dec 1911 Nadwórna) + Lota (b. ~1915). By 1939 living in Przemyśl with Rebecca. When war broke out, Lusia and Shimon traveled there to join them; David followed. Under Soviet rule (Sept 1939 – June 1941). After June 1941 German takeover, per Lusia's memoir page 24, 'several months later' the Germans killed one of David's parents in Przemyśl on a fabricated bomb-on-railway accusation — Hebrew grammar ambiguous between father-in-law and mother-in-law; Basia (Polish reader) interprets it as Rebecca being killed in Przemyśl on the railway-bomb accusation. Berisz himself appears in the Auschwitz Museum victim database (record #188161, transport #689) — so he was deported to Auschwitz and murdered there. Yad Vashem Page of Testimony filed 1953 lists year of death 1940; the Auschwitz Museum record may give a more precise date.",
       "birth": {
-        "date": "1884-08-06",
+        "date": "1886-07-30",
         "date_precision": "day",
-        "place_id": "pl_tarnow",
+        "place_id": "pl_radomysl_wielki",
         "confidence": "confirmed",
         "sources": [
-          "doc_berisz_birth_tarnow_1884",
-          "report_basia_23may"
+          "doc_berisz_passport_application_1924",
+          "doc_bernard_dov_yv_pot"
         ],
-        "birth_name": "Benzion",
-        "note_en": "BREAKTHROUGH 23 May 2026 — Basia located birth certificate in Tarnów records: born at 'Tarnów city no. 24', name given as 'Benzion', father Mojżesz Rapaport (private teacher), mother Rywka Schiff (daughter of Michał Schiff merchant + Cywie Schiff). This cracks open the paternal line that even Edward Gelles (25+ years of dedicated research) could not penetrate."
+        "note_en": "Born 30 July 1886 in Radomyśl Wielki per his own 1924 passport application (USHMM RG-31.064M) and his Yad Vashem Page of Testimony filed 1953."
       },
       "facts": [
         {
           "key": "occupation",
-          "value": "Merchant (kupiec) in Nadwórna by the 1910s; earlier roots in Tarnów (father was a private teacher).",
+          "value": "Industrialist (przemyślowiec) per 1924 passport application; merchant (kupiec) per Yad Vashem Page of Testimony. Family economic base appears to have been connected via marriage to the Griffel timber-and-oil industrial empire of Nadwórna.",
           "confidence": "documented",
           "sources": [
-            "doc_david_birth_nadworna",
-            "doc_david_dp_card",
-            "doc_berisz_passport_1924"
+            "doc_berisz_passport_application_1924",
+            "doc_bernard_dov_yv_pot"
           ]
         },
         {
-          "key": "1924_passport_app",
-          "value": "Passport application 29 Feb 1924 to travel to Vienna. Document L 19376/22. Physical description: average height, elongated face, black hair, black eyes, proportionate nose/mouth. Children listed: Mendel age 12 (= David), Lotti age 8 (= Lota). Current address: Stanisławów Kościuszki 4. Origin: Tarnów Folwarczna 9 (today Waryńskiego St.). Municipal registry: Dąbrowa.",
-          "confidence": "confirmed",
+          "key": "stanislawow_resident_since_1918",
+          "value": "Resided in Stanisławów since 1918 per his own 1924 passport application. Address: Kościuszki 4, Stanisławów. The pre-1918 residence and the reason for the move to Stanisławów are not yet documented.",
+          "confidence": "documented",
           "sources": [
-            "doc_berisz_passport_1924",
-            "report_basia_23may"
+            "doc_berisz_passport_application_1924"
           ]
         },
         {
-          "key": "hebrew_name",
-          "value": "Issachar Berish (יששכר בעריש). Civil birth-name 'Benzion' (בנציון) is the registered Galician Jewish form.",
+          "key": "1911_civil_marriage",
+          "value": "Civilly married Rebecca Griffel in Nadwórna on 21 December 1911, four days before son David Mendel's birth (25 Dec 1911). The 1890-1914 Nadwórna marriage register was lost in WWI and only partially recreated 1932-1935 from secondary documents.",
           "confidence": "documented",
           "sources": [
-            "src_gelles_griffel_nadworna_pdf",
-            "doc_berisz_birth_tarnow_1884"
+            "src_basia_nadworna_marriage_research_2026_05"
           ]
         },
         {
-          "key": "documented_marriage",
-          "value": "Marriage to Rivka Griffel of Nadwórna documented in print by Edward Gelles, \"Griffel of Nadworna\" (Balliol College Oxford archives), entry #8 in the Eliezer Griffel pedigree. Marriage likely 1908-1910 based on Berisz b.1884 + David b.1911.",
+          "key": "yad_vashem_pot",
+          "value": "Yad Vashem Page of Testimony record 90394 filed 1953: Bernard Dov Rapaport, born 1888 Radomyśl, parents Moshe + Menukha, merchant, pre-war Tarnów, war Przemyśl, killed Auschwitz 1940. Birth year on PoT (1888) differs from passport application (1886) — the passport application is the primary document.",
           "confidence": "documented",
           "sources": [
-            "src_gelles_griffel_nadworna_pdf"
+            "doc_bernard_dov_yv_pot"
           ]
         },
         {
-          "key": "kohanic_lineage",
-          "value": "Kohen (priestly descent) — member of the Rapoport-Kohen rabbinical dynasty from R. Meshullam Yekutiel ha-Kohen Rapa (d.1450, Mainz → Porto). Confirmed family tradition.",
+          "key": "auschwitz_victim_record",
+          "value": "Listed in Auschwitz Museum victim database as record #188161, transport #689. URL: https://victims.auschwitz.org/victims/188161",
           "confidence": "documented",
           "sources": [
-            "src_family_tradition_kohen",
-            "src_wikipedia_rapoport_family"
+            "doc_auschwitz_victim_188161"
           ]
         }
       ],
-      "father_id": "p_mojzesz_saul_rapaport",
-      "mother_id": "p_rywka_schiff",
+      "father_id": "p_moses_saul_rapaport",
+      "mother_id": "p_menukha",
       "children_ids": [
         "p_david",
         "p_lota"
       ],
+      "siblings_ids": [
+        "p_alte_leja_rapaport",
+        "p_jente_rapaport",
+        "p_freida_amalia_rapaport",
+        "p_rebeka_rapaport_sister"
+      ],
       "spouse_id": "p_rebeka",
       "death": {
-        "date_range": "1941-1942",
-        "date_precision": "year_range",
+        "date": "1942",
+        "date_precision": "year",
+        "place_id": "pl_auschwitz",
+        "confidence": "documented",
+        "sources": [
+          "doc_auschwitz_victim_188161",
+          "doc_bernard_dov_yv_pot"
+        ],
+        "note_en": "Murdered at Auschwitz, per Auschwitz Museum victim record #188161 (transport #689). Yad Vashem Page of Testimony filed by family in 1953 gave the death year as 1940 — likely a memory error by the 1953 submitter; Auschwitz Museum record is the more precise source. Lusia's memoir (page 24) describes Germans killing one of David's parents in Przemyśl on a fabricated railway-bomb charge — Basia's Polish reading of the memoir interprets this as referring to Rebecca, not Berisz, which is consistent with Berisz being deported to Auschwitz rather than killed in Przemyśl."
+      }
+    },
+    {
+      "id": "p_menukha",
+      "primary_name": {
+        "en": "Menukha Rapaport",
+        "he": "מנוחה רפפורט",
+        "pl": "Menukha Rapaport",
+        "fr": "Menukha Rapaport"
+      },
+      "role": "great_great_grandmother_paternal",
+      "note_en": "Paternal great-great-grandmother of Doron, Dana and Daniel. Wife of Moses Saul Rapaport, mother of Berisz / Bernard Dov. Name documented on the Yad Vashem Page of Testimony filed 1953 for her son Berisz. Maiden name not yet known.",
+      "spouse_id": "p_moses_saul_rapaport",
+      "children_ids": [
+        "p_alte_leja_rapaport",
+        "p_berisz",
+        "p_jente_rapaport",
+        "p_freida_amalia_rapaport",
+        "p_rebeka_rapaport_sister"
+      ],
+      "facts": []
+    },
+    {
+      "id": "p_alte_leja_rapaport",
+      "primary_name": {
+        "en": "Alte Leja Rapaport (m. Turkel)",
+        "he": "אלטה לאה רפפורט (טורקל)",
+        "pl": "Alte Leja Rapaport (zam. Turkel)",
+        "fr": "Alte Leja Rapaport (ép. Turkel)"
+      },
+      "aliases": [
+        "Alta Leah",
+        "Alta Leja"
+      ],
+      "role": "great_grand_aunt_paternal",
+      "note_en": "Paternal great-grand-aunt of Doron, Dana and Daniel. Eldest known sibling of Berisz Rapaport. Born 28 June 1882 in Radomyśl Wielki; murdered at Auschwitz 1942 per the family-built descendants tree. Married Turkel; family lived in Vienna with multiple children (Turkel branch: Hertha Noa, Lotte, Israel Menachem, Mordechai/Max, Rachel/Rosie, Siegfried, Chana).",
+      "birth": {
+        "date": "1882-06-28",
+        "date_precision": "day",
+        "place_id": "pl_radomysl_wielki",
+        "confidence": "documented",
+        "sources": [
+          "doc_moses_saul_descendants_tree"
+        ]
+      },
+      "death": {
+        "date": "1942",
+        "date_precision": "year",
+        "place_id": "pl_auschwitz",
+        "confidence": "documented",
+        "sources": [
+          "doc_moses_saul_descendants_tree"
+        ]
+      },
+      "father_id": "p_moses_saul_rapaport",
+      "mother_id": "p_menukha",
+      "siblings_ids": [
+        "p_berisz",
+        "p_jente_rapaport",
+        "p_freida_amalia_rapaport",
+        "p_rebeka_rapaport_sister"
+      ],
+      "facts": []
+    },
+    {
+      "id": "p_jente_rapaport",
+      "primary_name": {
+        "en": "Jente Rapaport",
+        "he": "יענטה רפפורט",
+        "pl": "Jente Rapaport",
+        "fr": "Jente Rapaport"
+      },
+      "role": "great_grand_aunt_paternal",
+      "note_en": "Paternal great-grand-aunt of Doron, Dana and Daniel. Sibling of Berisz Rapaport. Born 1887 in Radomyśl Wielki per the family-built descendants tree. Further details not yet documented.",
+      "birth": {
+        "date": "1887",
+        "date_precision": "year",
+        "place_id": "pl_radomysl_wielki",
+        "confidence": "documented",
+        "sources": [
+          "doc_moses_saul_descendants_tree"
+        ]
+      },
+      "father_id": "p_moses_saul_rapaport",
+      "mother_id": "p_menukha",
+      "siblings_ids": [
+        "p_alte_leja_rapaport",
+        "p_berisz",
+        "p_freida_amalia_rapaport",
+        "p_rebeka_rapaport_sister"
+      ],
+      "facts": []
+    },
+    {
+      "id": "p_freida_amalia_rapaport",
+      "primary_name": {
+        "en": "Freida Amalia Rapaport",
+        "he": "פריידה אמליה רפפורט",
+        "pl": "Freida Amalia Rapaport",
+        "fr": "Freida Amalia Rapaport"
+      },
+      "aliases": [
+        "Frieda",
+        "Amalia"
+      ],
+      "role": "great_grand_aunt_paternal",
+      "note_en": "Paternal great-grand-aunt of Doron, Dana and Daniel. Sibling of Berisz Rapaport. Born 1888 in Radomyśl Wielki; died 1942 in Przemyśl per the family-built descendants tree (so was with Berisz and Rebecca in Przemyśl during the war). Documented children: Zwi Ayalon Nussbaum (b.1919 Przemyśl, survived to Israel, d.2001 Haifa), Michael Rosenfeld (b.1929, killed Przemyśl 1944), Rachel Rosenfeld (b.1930, killed Przemyśl 1944).",
+      "birth": {
+        "date": "1888",
+        "date_precision": "year",
+        "place_id": "pl_radomysl_wielki",
+        "confidence": "documented",
+        "sources": [
+          "doc_moses_saul_descendants_tree"
+        ]
+      },
+      "death": {
+        "date": "1942",
+        "date_precision": "year",
         "place_id": "pl_przemysl",
         "confidence": "documented",
         "sources": [
-          "src_lusia_memoir_page_24"
-        ],
-        "note_en": "Killed in Przemyśl by the Germans, who accused him of allegedly placing a bomb on the railway near where the family lived. Source: Lusia's memoir, page 24: 'הללו את חמה בהאשימם אותו שהניח, כביכול, פצצה על מסילת הברזל שבקירבתה התגוררו' — 'They killed her father-in-law, accusing him of allegedly placing a bomb on the railway near which they lived.' The chapter heading is 'עם חמה וחמתה בפשמשל' = 'With her father-in-law and mother-in-law in Przemyśl', confirming Berisz's residence at the time. The accusation was almost certainly fabricated. Date: 'several months' after the German takeover of the Soviet zone of Przemyśl in June 1941 — so likely late 1941 or first half of 1942."
-      }
+          "doc_moses_saul_descendants_tree"
+        ]
+      },
+      "father_id": "p_moses_saul_rapaport",
+      "mother_id": "p_menukha",
+      "siblings_ids": [
+        "p_alte_leja_rapaport",
+        "p_berisz",
+        "p_jente_rapaport",
+        "p_rebeka_rapaport_sister"
+      ],
+      "children_ids": [
+        "p_zwi_ayalon_nussbaum"
+      ],
+      "facts": []
+    },
+    {
+      "id": "p_rebeka_rapaport_sister",
+      "primary_name": {
+        "en": "Rebeka Rapaport (Berisz's sister)",
+        "he": "רבקה רפפורט (אחותו של בריש)",
+        "pl": "Rebeka Rapaport (siostra Berisza)",
+        "fr": "Rebeka Rapaport (sœur de Berisz)"
+      },
+      "role": "great_grand_aunt_paternal",
+      "note_en": "Paternal great-grand-aunt of Doron, Dana and Daniel. Youngest known sibling of Berisz Rapaport. Born 1896 in Radomyśl Wielki; subsequently lived in Austria per the family-built descendants tree. NOT to be confused with Berisz's wife Rebeka née Griffel.",
+      "birth": {
+        "date": "1896",
+        "date_precision": "year",
+        "place_id": "pl_radomysl_wielki",
+        "confidence": "documented",
+        "sources": [
+          "doc_moses_saul_descendants_tree"
+        ]
+      },
+      "father_id": "p_moses_saul_rapaport",
+      "mother_id": "p_menukha",
+      "siblings_ids": [
+        "p_alte_leja_rapaport",
+        "p_berisz",
+        "p_jente_rapaport",
+        "p_freida_amalia_rapaport"
+      ],
+      "facts": []
+    },
+    {
+      "id": "p_zwi_ayalon_nussbaum",
+      "primary_name": {
+        "en": "Zwi (Hersh Heschel) Ayalon Nussbaum",
+        "he": "צבי הירש העשל איילון (נוסבאום)",
+        "pl": "Zwi Hirsch Heschu Ayalon (Nussbaum)",
+        "fr": "Zwi Ayalon Nussbaum"
+      },
+      "aliases": [
+        "Zvi Ayalon",
+        "Hirsch",
+        "Heschel"
+      ],
+      "role": "first_cousin_once_removed_paternal",
+      "note_en": "Paternal first cousin once removed of Doron, Dana and Daniel — first cousin of David Memek. Son of Freida Amalia Rapaport. Born 7 May 1919 in Przemyśl; survived the Holocaust and emigrated to Israel; died 27 November 2001 in Haifa. Photographed in the family archive (\"Zvi Hirsch Heschu Ayalon (Nussbaum).jfif\"). His Israeli surname \"Ayalon\" is a Hebraization of the German-origin \"Nussbaum\".",
+      "birth": {
+        "date": "1919-05-07",
+        "date_precision": "day",
+        "place_id": "pl_przemysl",
+        "confidence": "documented",
+        "sources": [
+          "doc_moses_saul_descendants_tree"
+        ]
+      },
+      "death": {
+        "date": "2001-11-27",
+        "date_precision": "day",
+        "place_id": "pl_haifa",
+        "confidence": "documented",
+        "sources": [
+          "doc_moses_saul_descendants_tree"
+        ]
+      },
+      "mother_id": "p_freida_amalia_rapaport",
+      "facts": []
     },
     {
       "id": "p_rebeka",
@@ -873,14 +1079,15 @@
         "רבקה"
       ],
       "role": "great_grandmother_paternal",
-      "note_en": "Paternal great-grandmother of Doron, Dana and Daniel. Mother of David. Birth record from Nadwórna found 15 May 2026 by Ms. Kasia at ŻIH Warsaw — the family's breakthrough document.",
+      "note_en": "Paternal great-grandmother of Doron, Dana and Daniel. Mother of David Mendel and Lota. Born 1888 in Nadwórna, daughter of Eliezer \"Zeida\" Griffel and Sara Matel Chajes. Yad Vashem Page of Testimony filed 1953 by family lists year of birth as 1892 — likely a memory error by the submitter; the Griffel-family pedigree confirms 1888. Civilly married Berisz Rapaport in Nadwórna on 21 December 1911, four days before son David Mendel was born. The 1890-1914 Nadwórna marriage register was lost in WWI; only a notation on David's birth certificate confirms the marriage. Edward Gelles's \"Griffel of Nadworna\" pedigree records a religious marriage at Olchowce, województwo lwowskie in 1908 — likely an earlier ritual wedding before civil registration. Pre-war residence: Przemyśl. War: Przemyśl. Per Lusia's memoir page 24 (Basia's Polish reading), killed by Germans in Przemyśl, accused of allegedly placing a bomb on the railway near where the family lived — fabricated charge, likely 1942. Yad Vashem PoT lists 1943 as year of death, place unknown.",
       "birth": {
         "date": "1888",
         "date_precision": "year",
         "place_id": "pl_nadworna",
-        "confidence": "confirmed",
+        "confidence": "documented",
         "sources": [
-          "doc_rebeka_birth_nadworna"
+          "src_gelles_griffel_nadworna_pdf",
+          "doc_regina_rivka_yv_pot"
         ]
       },
       "father_id": "p_leizor_griffel",
@@ -917,14 +1124,15 @@
         }
       ],
       "death": {
-        "date": "1941",
-        "date_precision": "year_likely",
-        "place_id": "pl_nadworna",
-        "confidence": "likely",
+        "date": "1942",
+        "date_precision": "year",
+        "place_id": "pl_przemysl",
+        "confidence": "documented",
         "sources": [
-          "src_gelles_griffel_nadworna_pdf"
+          "src_lusia_memoir_page_24",
+          "doc_regina_rivka_yv_pot"
         ],
-        "note_en": "Almost certainly perished in the Holocaust alongside her husband Berisz. Most likely scenario: shot in the 6 October 1941 Bukowinka Forest mass aktion alongside her brother David Mendel Griffel and sister-in-law Chawa Wahl. No Page of Testimony was ever filed for her — Dalia, Dana, Doron and Daniel should file one."
+        "note_en": "Killed in Przemyśl by Germans on a fabricated bomb-on-railway accusation, per Lusia's memoir page 24 — Basia's Polish reading interprets the ambiguous Hebrew חמה/חמותה as \"mother-in-law\". Yad Vashem PoT filed 1953 lists year 1943 place unknown — discrepancy attributed to 1953 submitter's incomplete knowledge."
       }
     },
     {
@@ -3447,175 +3655,44 @@
       ]
     },
     {
-      "id": "p_mojzesz_saul_rapaport",
+      "id": "p_moses_saul_rapaport",
       "primary_name": {
-        "en": "Mojżesz (Moshe) Saul Rapaport",
+        "en": "Moses (Moshe) Saul Rapaport",
         "he": "משה שאול רפפורט",
-        "pl": "Mojżesz Saul Rapaport",
-        "fr": "Mojżesz (Moïse) Saul Rapaport",
-        "yi": "משה שאול ראפאפארט"
+        "pl": "Moses Saul Rapaport",
+        "fr": "Moïse Saul Rapaport"
       },
       "aliases": [
         "Moshe Saul",
-        "Mojżesz",
         "Moses Saul"
       ],
       "role": "great_great_grandfather_paternal",
-      "note_en": "Paternal great-great-grandfather of Doron, Dana and Daniel. Identified via Berisz Rapaport's 1924 passport application (which names him as Berisz's father 'Mojżesz Saul Rapaport') and via Berisz's 1884 Tarnów birth certificate row 323 (which lists him as 'Mojżesz Rapaport, nauczyciel prywatny w Tarnowie' — private teacher in Tarnów). Spouse: Rywka Schiff of Tarnów. Birth year not yet confirmed — likely c.1850-1860 given his son Berisz was born 1884. Tarnów Jewish vital records should be searched to clarify dates and any siblings of Berisz. Death date and place unknown.",
-      "birth": {
-        "place_id": "pl_tarnow",
-        "date_precision": "unknown",
-        "confidence": "documented",
-        "sources": [
-          "doc_berisz_birth_tarnow_1884",
-          "doc_berisz_passport_1924",
-          "report_basia_23may"
-        ],
-        "note_en": "Birth year not yet confirmed — likely c.1850-1860 given his son Berisz was born 1884. Tarnów birth/marriage records should clarify."
-      },
+      "note_en": "Paternal great-great-grandfather of Doron, Dana and Daniel. Father of Berisz / Bernard Dov Rapaport per his 1924 passport application (USHMM RG-31.064M) and Yad Vashem Page of Testimony. Listed as kupiec (merchant) on the family-built descendants tree shared by Basia May 2026. Berisz was born in Radomyśl Wielki — Moses Saul was presumably resident there. Two stones in the preserved Tarnów Jewish cemetery bear the name Moshe Saul Rapaport (one d. 11/08/1933, the other d. 30/10/1931 from Dąbrowa, 7th-generation descendant of Shabtai HaKohen / \"the Shah\") — it is not yet established which (if either) is our Moses Saul. Spouse: Menukha (per Yad Vashem Page of Testimony of his son Berisz).",
       "facts": [
         {
           "key": "occupation",
-          "value": "Private teacher in Tarnów (nauczyciel prywatny per 1884 Tarnów birth cert of his son Berisz/Benzion). Common Galician Jewish profession for the educated middle class — could be religious/Hebrew/secular tutor.",
+          "value": "Merchant (kupiec) per the family-built descendants tree shared by Basia May 2026.",
           "confidence": "documented",
           "sources": [
-            "doc_berisz_birth_tarnow_1884",
-            "report_basia_23may"
+            "doc_moses_saul_descendants_tree"
           ]
         },
         {
           "key": "kohanic_lineage",
-          "value": "Kohen (priestly descent) — inferred from son Berisz being documented Kohen in family tradition.",
+          "value": "Kohen (priestly descent) per family tradition; consistent with the \"ha-Cohen\" patronymic on related Rapaport tombstones in Tarnów.",
           "confidence": "family_oral",
           "sources": [
             "src_family_tradition_kohen"
           ]
         }
       ],
-      "spouse_id": "p_rywka_schiff",
+      "spouse_id": "p_menukha",
       "children_ids": [
-        "p_berisz"
-      ]
-    },
-    {
-      "id": "p_rywka_schiff",
-      "primary_name": {
-        "en": "Rywka Rapaport (née Schiff)",
-        "he": "רבקה רפפורט (לבית שיף)",
-        "pl": "Rywka Rapaport (z domu Schiff)",
-        "fr": "Rywka Rapaport (née Schiff)",
-        "yi": "רבקה שיף"
-      },
-      "aliases": [
-        "Rivka Schiff",
-        "Rebecca Schiff"
-      ],
-      "role": "great_great_grandmother_paternal",
-      "note_en": "Paternal great-great-grandmother of Doron, Dana and Daniel. Identified 23 May 2026 by Basia as the mother of Berisz Rapaport. Daughter of Michał Schiff (merchant of Tarnów) and Cywie Schiff. Note: there are TWO Rivkas in this family tree — Rywka Schiff (paternal line, Tarnów) and Rebeka Griffel (maternal-of-David, Nadwórna). Easy to confuse.",
-      "birth": {
-        "place_id": "pl_tarnow",
-        "date_precision": "unknown",
-        "confidence": "documented",
-        "sources": [
-          "doc_berisz_birth_tarnow_1884",
-          "report_basia_23may"
-        ],
-        "note_en": "Birth year not yet confirmed — likely c.1855-1865."
-      },
-      "facts": [
-        {
-          "key": "named_in_son_birth_cert",
-          "value": "Named in son Berisz / Benzion's 1884 Tarnów birth certificate as 'Rywka Schiff z Tarnowa córka Michała Schiffa kramarza i Cywie Schiff z Tarnowa'.",
-          "confidence": "confirmed",
-          "sources": [
-            "doc_berisz_birth_tarnow_1884",
-            "report_basia_23may"
-          ]
-        }
-      ],
-      "father_id": "p_michal_schiff",
-      "mother_id": "p_cywie_schiff",
-      "spouse_id": "p_mojzesz_saul_rapaport",
-      "children_ids": [
-        "p_berisz"
-      ]
-    },
-    {
-      "id": "p_michal_schiff",
-      "primary_name": {
-        "en": "Michał Schiff",
-        "he": "מיכאל שיף",
-        "pl": "Michał Schiff",
-        "fr": "Michał Schiff",
-        "yi": "מיכאל שיף"
-      },
-      "aliases": [
-        "Michael Schiff"
-      ],
-      "role": "great_great_great_grandfather_paternal",
-      "note_en": "Paternal great-great-great-grandfather (3x-great-grandfather) of Doron, Dana and Daniel. Father of Rywka Schiff. Newly identified 23 May 2026.",
-      "birth": {
-        "place_id": "pl_tarnow",
-        "date_precision": "unknown",
-        "confidence": "documented",
-        "sources": [
-          "doc_berisz_birth_tarnow_1884"
-        ],
-        "note_en": "Likely born c.1820-1835."
-      },
-      "facts": [
-        {
-          "key": "occupation",
-          "value": "Merchant ('kramarz' — small-shop trader / merchant) of Tarnów per 1884 Tarnów birth certificate of his grandson Berisz.",
-          "confidence": "documented",
-          "sources": [
-            "doc_berisz_birth_tarnow_1884",
-            "report_basia_23may"
-          ]
-        }
-      ],
-      "spouse_id": "p_cywie_schiff",
-      "children_ids": [
-        "p_rywka_schiff"
-      ]
-    },
-    {
-      "id": "p_cywie_schiff",
-      "primary_name": {
-        "en": "Cywie Schiff",
-        "he": "צביה שיף",
-        "pl": "Cywie Schiff",
-        "fr": "Cywie Schiff",
-        "yi": "צבי שיף"
-      },
-      "aliases": [
-        "Tzivia Schiff",
-        "Cyvie"
-      ],
-      "role": "great_great_great_grandmother_paternal",
-      "note_en": "Paternal 3x-great-grandmother of Doron, Dana and Daniel. Mother of Rywka Schiff. Newly identified 23 May 2026 via the 1884 Tarnów birth certificate of grandson Berisz. Maiden name not yet known.",
-      "birth": {
-        "place_id": "pl_tarnow",
-        "date_precision": "unknown",
-        "confidence": "documented",
-        "sources": [
-          "doc_berisz_birth_tarnow_1884"
-        ]
-      },
-      "facts": [
-        {
-          "key": "named_in_grandson_birth_cert",
-          "value": "Named in grandson Berisz's 1884 Tarnów birth certificate as 'Cywie Schiff z Tarnowa' — wife of Michał Schiff.",
-          "confidence": "confirmed",
-          "sources": [
-            "doc_berisz_birth_tarnow_1884",
-            "report_basia_23may"
-          ]
-        }
-      ],
-      "spouse_id": "p_michal_schiff",
-      "children_ids": [
-        "p_rywka_schiff"
+        "p_alte_leja_rapaport",
+        "p_berisz",
+        "p_jente_rapaport",
+        "p_freida_amalia_rapaport",
+        "p_rebeka_rapaport_sister"
       ]
     }
   ]

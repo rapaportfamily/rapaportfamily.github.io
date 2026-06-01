@@ -1,7 +1,7 @@
 {
   "source_file": "_chat.txt",
-  "parsed_at": "2026-05-23T17:23:55.292617Z",
-  "message_count": 275,
+  "parsed_at": "2026-06-01T17:08:56.296895Z",
+  "message_count": 541,
   "messages": [
     {
       "timestamp": "2026-05-04T18:49:00",
@@ -2457,9 +2457,9 @@
       "date": "17/05/2026",
       "time": "22:25",
       "author": "Basia",
-      "body": "\nrepresje-nkwd-wobec-mieszkancow-strefy-przygranicznej-1939-1941_6066.pdf",
+      "body": "\nrepresje-nkwd-wobec-mieszkancow-strefy-przygranicznej-1939â1941,6066.pdf",
       "attachment": {
-        "filename": "represje-nkwd-wobec-mieszkancow-strefy-przygranicznej-1939-1941_6066.pdf",
+        "filename": "represje-nkwd-wobec-mieszkancow-strefy-przygranicznej-1939â1941,6066.pdf",
         "kind": "pdf"
       },
       "system": false,
@@ -3194,6 +3194,3103 @@
       "time": "05:07",
       "author": "דנה רפפורט",
       "body": "There is some resemblance  to my father :)",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-23T16:13:00",
+      "date": "23/05/2026",
+      "time": "16:13",
+      "author": "Doron Rapaport",
+      "body": "Amazing",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Doron"
+    },
+    {
+      "timestamp": "2026-05-23T19:01:00",
+      "date": "23/05/2026",
+      "time": "19:01",
+      "author": "דליה רפפורט",
+      "body": "You are doing an amazing thorough job .  I really appreciate it.  It's not something to be taken for granted.\nThank you all.\n🙏🏻🌹🙏🏻🌹🙏🏻🌹🙏🏻",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dalia (mother)"
+    },
+    {
+      "timestamp": "2026-05-23T20:25:00",
+      "date": "23/05/2026",
+      "time": "20:25",
+      "author": "Doron Rapaport",
+      "body": "So,\nCan it be that Ben Zion Rapaport had a first wife from Zmigrod, woman of valor who sold fabrics - they had together a son named Moshe Rapaport and Moshe had three daughters.\nThen Ben Zion had a second wife named Rebeka Griffel of Nadworna - mother of David and Lota ?\nAlso, Berisz (Ben Zion) had a sister named Sarah Mahler who married Mordecai Mahler in Nowy Sacz?",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Doron"
+    },
+    {
+      "timestamp": "2026-05-23T20:29:00",
+      "date": "23/05/2026",
+      "time": "20:29",
+      "author": "Doron Rapaport",
+      "body": "So, may grandfather had half brother who was deported from Nowy Sacz ghetto to Krakow ?\n1942 letter of Ben Zion to my dear son Moses his wife and three daughters..",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Doron"
+    },
+    {
+      "timestamp": "2026-05-23T20:32:00",
+      "date": "23/05/2026",
+      "time": "20:32",
+      "author": "דליה רפפורט",
+      "body": "I dont know this story .... so....",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dalia (mother)"
+    },
+    {
+      "timestamp": "2026-05-23T20:33:00",
+      "date": "23/05/2026",
+      "time": "20:33",
+      "author": "Doron Rapaport",
+      "body": "This is why we do this...\nUnder checking",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Doron"
+    },
+    {
+      "timestamp": "2026-05-23T20:33:00",
+      "date": "23/05/2026",
+      "time": "20:33",
+      "author": "דליה רפפורט",
+      "body": "🤷‍♀️",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dalia (mother)"
+    },
+    {
+      "timestamp": "2026-05-23T20:48:00",
+      "date": "23/05/2026",
+      "time": "20:48",
+      "author": "Doron Rapaport",
+      "body": "Checked the book and tried to cross check, so David father and mother were killed at Prezemysl - railway bomb accusations..\nThe Ben Zion philosophers from Tranow does seem to add up. <This message was edited>",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Doron"
+    },
+    {
+      "timestamp": "2026-05-23T21:05:00",
+      "date": "23/05/2026",
+      "time": "21:05",
+      "author": "Basia",
+      "body": "This avenue needs to be explored. Let's take our time.\nDid I understand correctly that you have a letter from 1942 containing this information?\nNow I must tell you how I found Berish Rapaport.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-23T21:12:00",
+      "date": "23/05/2026",
+      "time": "21:12",
+      "author": "Doron Rapaport",
+      "body": "There is a letter but it does not add up.. why David is not mentioned and he writes to Moses and his wife and three daughters..\nAlso, per my grandmother David parents were murdered in Prezemysl following accusations of bombing German railways..",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Doron"
+    },
+    {
+      "timestamp": "2026-05-23T21:14:00",
+      "date": "23/05/2026",
+      "time": "21:14",
+      "author": "Basia",
+      "body": "It's not impossible, but please wait. I'm writing something right now.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-23T21:15:00",
+      "date": "23/05/2026",
+      "time": "21:15",
+      "author": "Doron Rapaport",
+      "body": "Ok\nThanks",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Doron"
+    },
+    {
+      "timestamp": "2026-05-23T21:28:00",
+      "date": "23/05/2026",
+      "time": "21:28",
+      "author": "Basia",
+      "body": "I checked the Przemyśl property register for Rapaport. There are two, one from 1910 and the other from 1932. Bernard Rapaport was listed in the first, but not in the second. Bernard is mentioned in the Przemyśl press and business bulletins, but only until around 1907. He runs a company producing collars and cuffs. There's a lot on the subject. But then he disappears.\nIn the 1920s, a \"Berisch vel Bernard Rapaport\" appears in a company in Stanisławów, at the same time as the Griffel family was running a business in oil extraction and processing. The passport questionnaire shows the date 1924. That matches. Furthermore, the company in Stanisławów manufactures machinery and also owns a sawmill.\nIt looks as if he was first in Przemyśl, then in Stanisławów, and then back in Przemyśl. I found a fragment about their house being located near the railway station and immediately checked that the property Bernard owned in Przemyśl in 1910 was not far from the station.\nI have all the information for that.\nI'll check the death records in Przemyśl up to 1910, as I think they're online.\nWe now have Berish's birth date of 1884. If he married early, that might be the case. Widowers with children married quickly. <This message was edited>",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-23T21:56:00",
+      "date": "23/05/2026",
+      "time": "21:56",
+      "author": "Doron Rapaport",
+      "body": "That can be the actual Berisch, but it is not the philosopher per what we read (living in Krakow with his elderly sister).",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Doron"
+    },
+    {
+      "timestamp": "2026-05-24T06:52:00",
+      "date": "24/05/2026",
+      "time": "06:52",
+      "author": "Basia",
+      "body": "1. Berish Rapaport, who lived in Przemyśl at the turn of the century, is not a wanted person. I found his wife's death record in the records; she was 66 years old, and no other Rapaport deaths between 1903 and 1911. The house in Przemyśl I wrote about belonged to this Berish.\nI still don't know how the Rapaport/Griffel family ended up in Przemyśl at the beginning of the war.",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-24T06:53:00",
+      "date": "24/05/2026",
+      "time": "06:53",
+      "author": "Basia",
+      "body": "2. Only Berish from Stanisławów remains.\nHe appears in publications titled \"Collection of Commercial Tribunals' Company Advertisements: A Permanent Supplement to the Law and Administration Review,\" in the following issues: 1924 No. 7/9, 1925 No. 1/3, and 1925 No. 4/6.\nThe advertisements are published with a significant delay. The enormous amounts they contain are the result of hyperinflation. The situation stabilized only after the currency reform, when \"Polish marks\" were replaced with \"złoty.\"\n\"Entry of the company name.\nThe following has been entered into the register, Section C: Company seat: Stanisławów. Company name \"Rias\", the first Małopolska factory of agricultural machinery and equipment, and a steam sawmill, a limited liability company in Stanisławów. Object of the enterprise: manufacture of agricultural machinery and equipment and a steam sawmill. The duration of the company is unlimited. The share capital of the company is 900,000 Mk, fully paid up. Berish vel Bernard Rapaport, Jonasz Jahr, and Aron Seidman, were appointed as the company managers. The company is signed by two managers placing their signatures under the company name, which is printed, written, or stamped. The legal relations of the company: the company is based on a contract concluded in the form of a notarial deed dated May 11, 1923. […]”\nChanges and additions relating to the company names already entered.\nThe following has been entered in the register, Section C: Company seat: Stanisławów. Company name: \"Rias\" First Małopolska Factory of Agricultural Machinery and Equipment and Steam Sawmill. According to the notarial deed of July 26, 1923, the following is recorded: 1. That the Company's existing share capital of 9,000,000 Mkp has been increased by a further 16,000,000 Mkp, i.e., to a total of 25,000,000 Mkp.\n2. That Article V and the first part of Article VIII of the Company's contract have been amended in the manner set forth in the extract contained in the collection of documents.\n3. That Moses Israel Welzer has been elected as the fourth manager. Date of entry: October 13, 1923. District court as a commercial court, Branch II. Stanisławów, October 11, 1923.”\nChanges relating to already entered company names.\nThe following has been entered in the register, Section C: Company seat: Stanisławów, Company name: \"Rias\" First Małopolska Factory of Agricultural Machinery and Equipment and Steam Sawmill, Limited Liability Company in Stanisławów. According to the notarial deed dated Stanisławów, June 16, 1924, to L. Rep. 6262, the company's existing share capital of 25,000,000 Mk. was changed to 489.60 PLN and increased to 7,500 PLN. Date of entry: September 16, 1924. District Court as Commercial Court in Stanisławów. Section II on September 8, 1924.\"\nChanges and additions relating to the registered company names.\nThe following has been entered in the register, Section C: Company seat: Stanisławów. Company name: \"Rias\", the first Małopolska factory of agricultural machinery and equipment and steam sawmill. According to the notarial deed dated Stanisławów, March 2, 1924, L rep. 6022, the following is entered:\n1. That Berish v. Bernard Rappaport transferred his share in the company to Maks Weitzer.\n2. Berish v. Bernard Rappaport resigned from the company management and that Maks Weitz was elected in his place, signing the company by placing his signature \"M. Weitz\" under the inserted company name. Date of entry: June 6, 1924, District Commercial Court in Stanisławów, Branch II, June 2, 1924.\nThis is consistent with Berish Rapaport's passport application from February 2, 1924. He travels to Vienna.\nI think he's going on business with the Griffel family, because that's where they had contacts with the bankers who lent them money for the refinery.\nIn 1936, the plot of land on which the disused factory stands is auctioned, and the property is then owned by Moses Izrael Welzer and Nuta Welzer's heirs. The property is described as follows: \"The plot contains residential, factory, warehouse, and farm buildings, as well as machinery and materials constituting the \"Rias\" iron foundry (disused).\" A detailed description of each item follows.",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-24T06:53:00",
+      "date": "24/05/2026",
+      "time": "06:53",
+      "author": "Basia",
+      "body": "\n1923 Rias S.png",
+      "attachment": {
+        "filename": "1923 Rias S.png",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-24T06:55:00",
+      "date": "24/05/2026",
+      "time": "06:55",
+      "author": "Basia",
+      "body": "\n1924 Rias.jpg",
+      "attachment": {
+        "filename": "1924 Rias.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-24T06:56:00",
+      "date": "24/05/2026",
+      "time": "06:56",
+      "author": "Basia",
+      "body": "3. Death cards and death certificates from Przemyśl 1942 are not online, and the 1941-1942 death register is not online. They are located in the Przemyśl Archives. The death register is also not online.",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-24T06:57:00",
+      "date": "24/05/2026",
+      "time": "06:57",
+      "author": "Basia",
+      "body": "4. You found the philosopher Benzion Rapaport on genealogy websites, I can see it now. I don't know if it's true. We know from the passport card that our Berish was the son of Moses Saul. The problem is that there are two Moses Sauls in the preserved cemetery in Tarnów. So the situation becomes complicated.\nDeciphered from the tombstones (of course, not by me):\n- Moshe Saul Rapaport, father's name... Hakohen, date of death 11/08/1933\n- Moshe Saul Rapaport, father's name Shabtai Hakohen, date of death 30/10/1931, from Dąbrowa, a seventh-generation descendant of the Shah (Shabtai Hakohen).\nIn this situation, we cannot rely on the birth date of 1884. We can only assume what is stated in the passport application. So we can easily add Moses Saul to the tree, but we don't know which one.\nThe Tarnów indexes are incomplete, and a visit to the archives is probably necessary. I'll call Kasia on Monday to discuss this issue.",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-24T06:57:00",
+      "date": "24/05/2026",
+      "time": "06:57",
+      "author": "Basia",
+      "body": "5. The fact that the Rapaport/Griffel family lived in Stanisławów in the 1920s is confirmed by an unusual source. There was a campaign in Poland to collect signatures from students and teachers for a declaration entitled: \"Polish Education in Homage to the American Nation in Commemoration of the 150th Anniversary of United States Independence.\" Many volumes were created and preserved in Washington. Volume 11, page 159, contains signatures from students of the 1st State Gymnasium in Stanisławów. Among them is \"Dawid Rapaport,\" who was in the fourth grade. At that time, the system was: 7 years of elementary school and 8 years of middle school (3 years of lower middle school and 5 years of upper middle school). However, if you were talented, you could take the middle school entrance exam after the fourth grade. Dawid (Memek) may have been in the fourth grade of middle school at the time; he was 14 or 15 years old in 1926 (he was born at the end of the year, so it's unclear how to calculate). This signature is still a child's, but that's how it must have been. The writing is slanted to the right and the D is written similarly to the signature on the card",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-24T06:57:00",
+      "date": "24/05/2026",
+      "time": "06:57",
+      "author": "Basia",
+      "body": "\n1926 gimnazjum S.gif",
+      "attachment": {
+        "filename": "1926 gimnazjum S.gif",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-24T06:58:00",
+      "date": "24/05/2026",
+      "time": "06:58",
+      "author": "Basia",
+      "body": "6. Regarding Muszyna and the Willa Helin.\nIf you read Lusia's account carefully, she mentions the Gestapo seizing the apartment, not the hotel. Therefore, it's impossible to be absolutely certain that the Willa Helin was the hotel. However, it is a fact that the hotel was seized as a Gestapo headquarters.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-24T06:58:00",
+      "date": "24/05/2026",
+      "time": "06:58",
+      "author": "Basia",
+      "body": "7. A letter from 1942. Correspondence during the occupation was risky. I have experience with two letters, both of which turned out to be code. One conveyed the news of a loved one's death using the \"language of flowers,\" and the circumstances of that death (it was a mass execution) were described with the phrase: \"he is not alone.\" The rest of the text confused dates and events, but only a family member could have realized this. In the second letter, the actual author hid behind the mask of a friend, using different names. Only a family member could have realized what was going on. Sometimes, separating families established a kind of code to inform each other of their fate discreetly (I also know of such an example). I'm just speculating, but I don't know anything about this letter.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-24T08:48:00",
+      "date": "24/05/2026",
+      "time": "08:48",
+      "author": "Doron Rapaport",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260504-WA0006.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Doron"
+    },
+    {
+      "timestamp": "2026-05-24T08:48:00",
+      "date": "24/05/2026",
+      "time": "08:48",
+      "author": "Doron Rapaport",
+      "body": "Good morning. Returning to what we think we know. Perhaps the places are wrong, but perhaps we can determine our Moses..",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Doron"
+    },
+    {
+      "timestamp": "2026-05-24T13:42:00",
+      "date": "24/05/2026",
+      "time": "13:42",
+      "author": "Basia",
+      "body": "I can't rule out the possibility that there were more siblings, especially older ones. Only children under 14 are listed on the passport application.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-24T14:00:00",
+      "date": "24/05/2026",
+      "time": "14:00",
+      "author": "Basia",
+      "body": "use indexes, which may be incomplete. Therefore, whenever originals are available, I try to review them. Entire yearbooks. People who create indexes can make mistakes. This is like reading handwriting. I've already been led astray by a poorly made index.\nI'll check Nadwórna Street again with the original records, even though I've already dug through them. Jewish records are quite complicated. Children are often registered under the mother's surname, and paternity is only recognized later. Civil marriages are often not celebrated until several years after the ritual wedding, which causes complications in the records.",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-24T14:44:00",
+      "date": "24/05/2026",
+      "time": "14:44",
+      "author": "דנה רפפורט",
+      "body": "Did you find records on the birh of Lotte /Lota? Probably in nadworna  also?",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-24T14:46:00",
+      "date": "24/05/2026",
+      "time": "14:46",
+      "author": "Basia",
+      "body": "I didn't find it, but I'm looking again. She was born during World War I and may have been listed later. The official seemed to have personal problems in some years. I'll post examples of what I'm looking at in a moment.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-24T14:47:00",
+      "date": "24/05/2026",
+      "time": "14:47",
+      "author": "Basia",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260524-WA0003.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-24T14:48:00",
+      "date": "24/05/2026",
+      "time": "14:48",
+      "author": "Basia",
+      "body": "??????!!!!!!!",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-24T14:48:00",
+      "date": "24/05/2026",
+      "time": "14:48",
+      "author": "Basia",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260524-WA0004.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-24T14:51:00",
+      "date": "24/05/2026",
+      "time": "14:51",
+      "author": "Basia",
+      "body": "1908 emoticon",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-24T15:03:00",
+      "date": "24/05/2026",
+      "time": "15:03",
+      "author": "דנה רפפורט",
+      "body": "Maybe there is a list of names in synagogue 🕍?\nI found :\"The Nadworna\nMemorial Book relates that he and his sons and sons-in-law prayed regularly in\nthe synagogue of the Rabbi of near-by Ottynia (2). There was at least one\nmarriage connecting these two families \"",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-24T15:03:00",
+      "date": "24/05/2026",
+      "time": "15:03",
+      "author": "דנה רפפורט",
+      "body": "(Griffel leizer)",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-24T15:17:00",
+      "date": "24/05/2026",
+      "time": "15:17",
+      "author": "Basia",
+      "body": "I'll ask Ms. Kasia. The files that were \"saved\" after the war and are in the Polish archives for Ottynia only contain Catholic ones.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-24T15:22:00",
+      "date": "24/05/2026",
+      "time": "15:22",
+      "author": "Basia",
+      "body": "That Leizor Griffel was religious came to my attention from the descriptions of the bankruptcy scandal. Now, as I leaf through pages, I find, for example, information that someone from this family had a civil wedding in Budapest. They had contacts throughout Europe. <This message was edited>",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-24T15:29:00",
+      "date": "24/05/2026",
+      "time": "15:29",
+      "author": "דנה רפפורט",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260524-WA0005.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-24T15:29:00",
+      "date": "24/05/2026",
+      "time": "15:29",
+      "author": "דנה רפפורט",
+      "body": "Yes.\nEdward  griffel written a book of this family some is on net were i saw the name of the children and with whom the married.\nAs I understand  he explore also on rebecca mantion in index no of the pages I saw that the paperwork open in Tel aviv university for student only but in Jerusalem I might find records.\nMaybe you can find the book and search  also?",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-24T15:30:00",
+      "date": "24/05/2026",
+      "time": "15:30",
+      "author": "דנה רפפורט",
+      "body": "112,115 and table 109",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-24T15:32:00",
+      "date": "24/05/2026",
+      "time": "15:32",
+      "author": "Basia",
+      "body": "I found other texts that connect with Griffel. I'll paste them for you soon.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-24T15:33:00",
+      "date": "24/05/2026",
+      "time": "15:33",
+      "author": "Basia",
+      "body": "\nFacets of my Family History. Part 2.pdf",
+      "attachment": {
+        "filename": "Facets of my Family History. Part 2.pdf",
+        "kind": "pdf"
+      },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-24T15:33:00",
+      "date": "24/05/2026",
+      "time": "15:33",
+      "author": "Basia",
+      "body": "\nGellesShapiroFriedman.pdf",
+      "attachment": {
+        "filename": "GellesShapiroFriedman.pdf",
+        "kind": "pdf"
+      },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-24T15:33:00",
+      "date": "24/05/2026",
+      "time": "15:33",
+      "author": "Basia",
+      "body": "\nGellesHorowitzChajes.pdf",
+      "attachment": {
+        "filename": "GellesHorowitzChajes.pdf",
+        "kind": "pdf"
+      },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-24T15:39:00",
+      "date": "24/05/2026",
+      "time": "15:39",
+      "author": "Basia",
+      "body": "This message was deleted",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-24T15:40:00",
+      "date": "24/05/2026",
+      "time": "15:40",
+      "author": "Basia",
+      "body": "There are different versions of their tree on various genealogy websites, some more elaborate than others. I think this is credible. They also applied for passports multiple times, but I still need to order those materials.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-24T15:44:00",
+      "date": "24/05/2026",
+      "time": "15:44",
+      "author": "Basia",
+      "body": "I made this into a Griffel tree to see the connections. Your line isn't there because the tree is already large.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-24T15:45:00",
+      "date": "24/05/2026",
+      "time": "15:45",
+      "author": "Basia",
+      "body": "\nTablica potomków Dawid Griffel.pdf",
+      "attachment": {
+        "filename": "Tablica potomków Dawid Griffel.pdf",
+        "kind": "pdf"
+      },
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-24T15:47:00",
+      "date": "24/05/2026",
+      "time": "15:47",
+      "author": "דנה רפפורט",
+      "body": "It is written here rebecca and berish on the right side",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-24T15:47:00",
+      "date": "24/05/2026",
+      "time": "15:47",
+      "author": null,
+      "body": "Basia: More data could be added as it is scattered, but I started searching for Rapaport.",
+      "attachment": null,
+      "system": true,
+      "lang": "en",
+      "author_normalized": null
+    },
+    {
+      "timestamp": "2026-05-24T15:48:00",
+      "date": "24/05/2026",
+      "time": "15:48",
+      "author": "Basia",
+      "body": "Yes I was thinking about their descendants",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T12:53:00",
+      "date": "25/05/2026",
+      "time": "12:53",
+      "author": "Magdalena Kuźmicz Private",
+      "body": "This message was deleted",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Magda"
+    },
+    {
+      "timestamp": "2026-05-25T12:53:00",
+      "date": "25/05/2026",
+      "time": "12:53",
+      "author": "Magdalena Kuźmicz Private",
+      "body": "This message was deleted",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Magda"
+    },
+    {
+      "timestamp": "2026-05-25T14:16:00",
+      "date": "25/05/2026",
+      "time": "14:16",
+      "author": "Basia",
+      "body": "I'm browsing through Nadwórna again, looking for Moses.\nBut first, I need to clarify something.\nPersonal records are in volumes that connect different years. This means that a volume is recorded from beginning to end. If a volume is lost or damaged, the entries for those years are lost.\nThe volumes are in varying conditions, with torn or torn pages sometimes present.\nIf the entire book is lost, it is later reconstructed based on other documents. However, this is done by requiring a separate decision from the provincial office for each entry. This had to be requested.\nThe marriage register from 1890-1914 was lost in Nadwórna.\nWe focused on World War II and forgot about World War I. The effects of that war affected all nationalities in the area equally. Fierce fighting raged there from the autumn of 1914 until the beginning of the following year. Something must have happened around that time for the marriage register from 1890-1914 to disappear.\nThe register was recreated between 1932 and 1935, but only to the extent that the procedure could be completed.\nRebecca Griffel and Berish Rapaport were married in Nadwórna on December 21, 1911, four days before Dawid Mendel gave birth. The marriage certificate is not in the recreated register. Only a note about the parents' marriage remains on the son's birth certificate.\nThis omission is significant in the Moses case, because it would have included Berish's date of birth and information on whether he was a widower or single. Berish's mother's name would also have appeared there. And if he had been a widower, the surname of his first wife would have appeared there.\nBut this document does not exist. It was lost during World War I.\nPerhaps the Rapaports settled the matter at another office, but I don't know where or when. We call this situation \"looking for a needle in a haystack.\"\nNow that we have indexes and computers, there's a chance this record will be found, but only if it exists and is properly indexed. Currently, it doesn't.\nIn the case of the Jewish community, the fact that they had a civil marriage in 1911 doesn't mean they didn't have children earlier.\nIn these records, I see that the formalities were often completed later, or not at all.\nHence the confusion with the surnames.\nIf they hadn't married in 1911, a government official would have considered Dawid \"Dawid Griffel\" or \"allegedly Dawid Rapaport.\"\nTherefore, I think that:\n- if Moses was the couple's eldest child, he could appear in the records as \"Moses Griffel,\"\n- if Moses was a child from their first marriage, he would be either \"Moses Rapaport\" or \"Moses XXXXX,\" since we don't know the name of the probable mother.\n\"Moses Griffel\" and \"Moses Rapaport\" may appear in indexes in the future.\nHe's not in the original Nadwórna records; I've looked through every page, going back to 1908. It's possible to do more, but I highly doubt anything will turn up. The indexes don't show up, and this town is quite well indexed.\n\"Moses XXX\" is an enigma if marriage records for the first or second marriage aren't found.\n\"Moses\" may also appear on his own marriage or death records. But it's unclear when and where. Or, like Dawid, on his DIPIS card. He's not there yet.\nMaybe it's just too early to find or exclude Moses.\nThe Polish genealogical database contains 66 million indexes, plus local databases (some overlap, but not always), meaning millions more, and that number is constantly growing.\nThe lack of Lota's birth certificate in Nadwórna stopped surprising me when I discovered she was four years younger than Dawid. She was born during the war, when millions of people were on the move, fleeing the front. Because on the Eastern Front of World War I, there were no trench warfare like in France, only maneuver warfare.\nSide note:\nI would love to move Poland to a more secluded place, because we live like a corridor here. ;)\nI've already searched the indexes looking for Lota's marriage, but nothing. We know she lived with her husband in Lviv; she probably got married around 1934-1939, but where? It could be Lviv, Stanisławów, Vienna, even Przemyśl, or anything else in that area. I can't even search the Lviv address books, etc., because I don't know her surname.\nI'm glad she appeared in any document.\nLooking through the records from Nadwórna, I noticed there are many annotations about marriages in Vienna. Perhaps \"Moses\" was born in present-day Austria? There are many possible theories, but this is an equation with too many unknowns. Sometimes, one family member leads to another, not directly, but through connections and details... For now, I'll leave the matter open.",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T16:30:00",
+      "date": "25/05/2026",
+      "time": "16:30",
+      "author": "דנה רפפורט",
+      "body": "I found something from the holocaust museum  that also strange seems like rebecca  griffel issue a request  for us passport on  6.6.1925",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-25T16:31:00",
+      "date": "25/05/2026",
+      "time": "16:31",
+      "author": "דנה רפפורט",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260525-WA0005.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-25T16:33:00",
+      "date": "25/05/2026",
+      "time": "16:33",
+      "author": "דנה רפפורט",
+      "body": "In Hebrew  written below is that the request went through  stanislvov   district",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-25T16:34:00",
+      "date": "25/05/2026",
+      "time": "16:34",
+      "author": "דנה רפפורט",
+      "body": "Stanisławów",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-25T16:34:00",
+      "date": "25/05/2026",
+      "time": "16:34",
+      "author": "Basia",
+      "body": "I've been digging around and saw this too, but I don't think it's her. I'll post it soon because there's more there and I've already downloaded it.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T16:35:00",
+      "date": "25/05/2026",
+      "time": "16:35",
+      "author": "Basia",
+      "body": "Please wait",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T16:54:00",
+      "date": "25/05/2026",
+      "time": "16:54",
+      "author": "דנה רפפורט",
+      "body": "\nAlso found:",
+      "attachment": {
+        "filename": "IMG-20260525-WA0006.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-25T16:55:00",
+      "date": "25/05/2026",
+      "time": "16:55",
+      "author": "דנה רפפורט",
+      "body": "Sometimes  lote is scharlote but sometimes scheindel",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-25T16:55:00",
+      "date": "25/05/2026",
+      "time": "16:55",
+      "author": "Basia",
+      "body": "I was so happy to find Berish's photo that I didn't look any deeper into the source. The descriptions are there, but they're a bit misleading. To see the document, you have to order it. Today I went back to that place, pulled out other possible documents, and it turned out they were his too. And you were right, I was trying to connect the dots too quickly. Mistakes like that only come to light later, because I always double-check that the whole story makes sense. But now for the specifics:\nFirst document:\n\"Application for permission to travel abroad.\nI, the undersigned Berisch Rapaport, an industrialist residing in Stanisławów since 1918, declare that I am a citizen of the Republic of Poland of the Jewish faith, born in Radomyśl Wielki on July 30, 1886, in proof of which I have my ID card: Stanisławów, November 16, 1922 L/9376/22, and request the issuance of a foreign passport for travel to Vienna. Reason for travel: business.\nI confirm receipt of the documents from Stanisławów 26/8 924 Bernard Rapaport.\nI enclose qualification certificates, a photograph, and the following documents:\n1. Birth certificate\n2. Certificate of affiliation\n3. Identification certificate\n4. Military ID card\nAddress: Berisch Rapaport, Kościuszki 4\nDate: March 11, 1924.\"\nThe following are The pencil annotations are difficult to read. I downloaded the document in normal resolution, but there's also a higher resolution option. Maybe I'll be able to read it once I download it. Second document\n\"The Starosty in Stanisławów\nThe undersigned requests the issuance of an identity card, for which I submit my certificate of membership, birth certificate, and application form.\nStanisławów, January 27, 1927\nBerisch Rapaport\nBernard Rapaport, born July 30, 1886 in Radomyśl, son of Moses and [illegible]\n[illegible]\nAverage height\nAverage build\nSquare face\nBlack eyes\nNose, proportionate mouth\nHealthy teeth\nDistinguishing marks /\nStamps\"\nThird document:\n\"1) Birth certificate dated February 25, 1916, Nos. 97. Volume V [illegible} 231 Sp 104\n2) Certificate of membership dated Nadwórna 29/I 927, Nos. 505/27\nIdentity card issued [continued] official markings}\n1) Birth certificate\n2) Certificate of citizenship\n3) [illegible]\nI received the \"Berisch Report\"\nThe fourth document is a receipt for payment of the passport fee.",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T16:55:00",
+      "date": "25/05/2026",
+      "time": "16:55",
+      "author": "דנה רפפורט",
+      "body": "The brother is david",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-25T16:56:00",
+      "date": "25/05/2026",
+      "time": "16:56",
+      "author": "Basia",
+      "body": "\nRG-31.064M.0075.00000375-S.JPG",
+      "attachment": {
+        "filename": "RG-31.064M.0075.00000375-S.JPG",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T16:56:00",
+      "date": "25/05/2026",
+      "time": "16:56",
+      "author": "Basia",
+      "body": "\nRG-31.064M.0075.00000378-S.JPG",
+      "attachment": {
+        "filename": "RG-31.064M.0075.00000378-S.JPG",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T16:56:00",
+      "date": "25/05/2026",
+      "time": "16:56",
+      "author": "Basia",
+      "body": "\nRG-31.064M.0075.00000379-S.JPG",
+      "attachment": {
+        "filename": "RG-31.064M.0075.00000379-S.JPG",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T16:56:00",
+      "date": "25/05/2026",
+      "time": "16:56",
+      "author": "Basia",
+      "body": "\nRG-31.064M.0075.00000380-S.JPG",
+      "attachment": {
+        "filename": "RG-31.064M.0075.00000380-S.JPG",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T17:01:00",
+      "date": "25/05/2026",
+      "time": "17:01",
+      "author": "Basia",
+      "body": "RADOMYŚL WIELKI It's between Mielec and Tarnów. Half the town was Jewish.\nSomething resonates with Lusia's story that Dawid had family in Bolechowo. These passport details will provide a wealth of information about the Griffel family. One of them leads to the story of the passports of life.\nThat Rebecca you found isn't Berisch's mother; she must be Rapaport, because they had a civil marriage.",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T17:02:00",
+      "date": "25/05/2026",
+      "time": "17:02",
+      "author": "Basia",
+      "body": "I don't want to rush because I got carried away and messed up.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T17:03:00",
+      "date": "25/05/2026",
+      "time": "17:03",
+      "author": "Basia",
+      "body": "With this Benzion",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T17:05:00",
+      "date": "25/05/2026",
+      "time": "17:05",
+      "author": "Basia",
+      "body": "\"Radomyśl Wielki is a small town with a rich history. Today we will briefly describe the history of the local Jews. Many people have no idea that Radomyśl Wielki is the birthplace of many famous Jews, known not only within their own circles but also worldwide. Until 1939, Jews constituted 60% of Radomyśl's population. The town was divided into Christian and Jewish sections, with the border running from the parish church through the center of the market square to the synagogue. On the site of today's bus station stood a tall, 18th-century brick synagogue, surrounded by an old cemetery. Right next to it stood the Katana Yeshiva building. In the market square stands the house where Rabbi Chaim Engel lived, and until recently, a brick mikveh stood on Targowa Street. On the road from Radomyśl Wielki to Dąbrówka Wisłocka, there is a Jewish cemetery with approximately 50 preserved tombstones and a monument to the victims of the Holocaust. During World War II, most Jewish property was completely destroyed. On July 19, 1943, the Jewish people were exterminated, and in 1944, the city burned down. As previously mentioned, many famous people are associated with Radomyśl, such as the famous writer and historian Eliezer Margoshes, a descendant of the scholar Solomon Luria. The poet and novelist Reuven Ajzland-Iceland, known for his works in Yiddish and Hebrew, was also born here. Josef Pfeffer Altman, Secretary General of Poale Agudas Israel in Israel, and Samuel Margoshes, Chairman of the Zionist Organization of America, were also born here. Many other surnames could be mentioned, but perhaps the most interesting is Miller, as it was in Radomyśl that the father of Artur Miller, the last husband of Marilyn Monroe, was born. Interestingly, the grandparents of Steven Spielberg, the creator of the famous \"Schindler's List,\" reportedly lived in Radomyśl. The roots of world-famous people come from this small town, whose history still has more than one story to tell.\"",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T17:06:00",
+      "date": "25/05/2026",
+      "time": "17:06",
+      "author": "Basia",
+      "body": "\"As we've written before, many famous people are associated with Radomyśl, such as Eliezer Margoshes, a descendant of the scholar Solomon Luria, the renowned writer and historian. Reuven Ajzland-Iceland, a poet and novelist known for his work in Yiddish and Hebrew, was also born here. Josef Pfeffer Altman, Secretary General of Poale Agudas Israel in Israel, and Samuel Margoshes, Chairman of the Zionist Organization of America, were also born here. Many surnames could be mentioned, but perhaps the most interesting is Miller, as it was in Radomyśl that the father of Artur Miller, the last husband of Marilyn Monroe, was born. Interestingly, the grandparents of Steven Spielberg, the creator of the famous \"Schindler's List,\" are said to have lived in Radomyśl. The roots of world-famous figures trace back to this small town, whose history still has more than one story to tell.\"",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T17:07:00",
+      "date": "25/05/2026",
+      "time": "17:07",
+      "author": "Basia",
+      "body": "\"As Grandma told me, in my small town, Jews lived primarily in the market square, with residents settling on the outskirts. They were engaged in trade; none of them owned land. Moreover, many buildings still feature the \"vaults\" characteristic of Jews.\"",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T17:09:00",
+      "date": "25/05/2026",
+      "time": "17:09",
+      "author": "Basia",
+      "body": "These are Facebook posts from a local historian's page. They're excellent sources.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T17:13:00",
+      "date": "25/05/2026",
+      "time": "17:13",
+      "author": "Basia",
+      "body": "\"Remnants of the Jewish cemetery, a tiny old Catholic cemetery, a parish church, and a small church in Wólka Plebańska still survive. In one of the corner houses in the Market Square, the Apfel family hosted a dinner for General Maczek's brigade, which was retreating in September 1939.\nOne article in the Memorial Book of the Jews of Radomyske begins: \"Radomyśl was no ordinary town. Radomyśl was a city of Torah!\" And so it was indeed. The interwar period brought together such a distinguished group of rabbis here, led by Szmul Engel, that it was possible to establish the Yeshiva Ktana – the Christian equivalent of a minor seminary. Besides many other prominent figures from Grojs Radomyske, we should remember the silent-unseen Zbigniew Matula, Artur Miller's three grandparents, and the film director Leszek Wosiewicz, who commemorated his city in the film \"Home Chronicles.\" Joshua Brand, director of the series \"Alaska Stop,\" also had roots in Radomyśl. Tadeusz Łomnicki and his brother, director Jan Łomnicki, spent their childhood at the Kostórkiewicz manor. Tadeusz (Mr. Wołodyjowski) first mounted a horse here.\"",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T17:16:00",
+      "date": "25/05/2026",
+      "time": "17:16",
+      "author": "Basia",
+      "body": "https://www.facebook.com/groups/697060217734193/user/100041444785240/ Posts from this page",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T17:49:00",
+      "date": "25/05/2026",
+      "time": "17:49",
+      "author": "Basia",
+      "body": "Please read what Lusia writes about her in-laws' deaths in the original. The translator may have gotten something wrong, and that's important. Did both of them die in the Przemyśl ghetto, or just Rebecca?",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T17:52:00",
+      "date": "25/05/2026",
+      "time": "17:52",
+      "author": "Basia",
+      "body": "<Media omitted>\nZrzut ekranu 2026-05-25 165045.png",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T17:52:00",
+      "date": "25/05/2026",
+      "time": "17:52",
+      "author": "Basia",
+      "body": "\nZrzut ekranu 2026-05-25 165105.png",
+      "attachment": {
+        "filename": "Zrzut ekranu 2026-05-25 165105.png",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T17:57:00",
+      "date": "25/05/2026",
+      "time": "17:57",
+      "author": "Basia",
+      "body": "\nZrzut ekranu 2026-05-25 165708.png",
+      "attachment": {
+        "filename": "Zrzut ekranu 2026-05-25 165708.png",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T18:04:00",
+      "date": "25/05/2026",
+      "time": "18:04",
+      "author": "Basia",
+      "body": "According to my explanation, only Rebecca died in Przemyśl.",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T18:06:00",
+      "date": "25/05/2026",
+      "time": "18:06",
+      "author": "Basia",
+      "body": "Perhaps she died on the spot and they were still interrogating him. If so, perhaps it's worth asking the Institute of National Remembrance (IPN) to investigate?",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T18:07:00",
+      "date": "25/05/2026",
+      "time": "18:07",
+      "author": "Basia",
+      "body": "https://victims.auschwitz.org/victims/188161",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T18:08:00",
+      "date": "25/05/2026",
+      "time": "18:08",
+      "author": "Basia",
+      "body": "https://victims.auschwitz.org/transports/689",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T19:01:00",
+      "date": "25/05/2026",
+      "time": "19:01",
+      "author": "דנה רפפורט",
+      "body": "As I understand  from the book my grandma writes only about her father  in law  , so if I understand  he was killed I did not see anything about rebecca 's death",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-25T19:07:00",
+      "date": "25/05/2026",
+      "time": "19:07",
+      "author": "Basia",
+      "body": "And my translation into Polish looks like this: \"The irony of fate: they remained under German rule and after a few months the latter killed her grandmother, accusing her of allegedly placing a bomb on the railway near their place of residence.\"",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T19:09:00",
+      "date": "25/05/2026",
+      "time": "19:09",
+      "author": "דנה רפפורט",
+      "body": "Him-dov",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-25T19:13:00",
+      "date": "25/05/2026",
+      "time": "19:13",
+      "author": "Basia",
+      "body": "I think you'll have to decide for yourselves what's true. The data from the Auschwitz Museum is precise. Perhaps the person writing the memoirs assumed it must have been a man.\nDiscuss it, and I'm curious what conclusions you'll reach.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T19:16:00",
+      "date": "25/05/2026",
+      "time": "19:16",
+      "author": "Basia",
+      "body": "Where was the letter to Moses sent from?",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T19:18:00",
+      "date": "25/05/2026",
+      "time": "19:18",
+      "author": "דנה רפפורט",
+      "body": "The letter is from prison   .let me check",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-25T20:50:00",
+      "date": "25/05/2026",
+      "time": "20:50",
+      "author": "דנה רפפורט",
+      "body": "Novi sak is a place?",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-25T20:51:00",
+      "date": "25/05/2026",
+      "time": "20:51",
+      "author": "דנה רפפורט",
+      "body": "The letter from 10.6.42",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-25T20:52:00",
+      "date": "25/05/2026",
+      "time": "20:52",
+      "author": "Basia",
+      "body": "probably NOWY SąCZ",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T20:53:00",
+      "date": "25/05/2026",
+      "time": "20:53",
+      "author": "דנה רפפורט",
+      "body": "Yes , in Hebrew  sond the same.is it prison?",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-25T20:54:00",
+      "date": "25/05/2026",
+      "time": "20:54",
+      "author": "דנה רפפורט",
+      "body": "The date is 3 month after arrival",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-25T20:55:00",
+      "date": "25/05/2026",
+      "time": "20:55",
+      "author": "דנה רפפורט",
+      "body": "Maybe he writes to Mandel and in Hebrew  written as moshe?",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-25T21:00:00",
+      "date": "25/05/2026",
+      "time": "21:00",
+      "author": "Basia",
+      "body": "Yes, there was a large prison in Nowy Sącz",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T21:02:00",
+      "date": "25/05/2026",
+      "time": "21:02",
+      "author": "דנה רפפורט",
+      "body": "You know it is strange  because  in docs written 2 children (in passport for example) and when I check about  ben zion there is only one child",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-25T21:03:00",
+      "date": "25/05/2026",
+      "time": "21:03",
+      "author": "דנה רפפורט",
+      "body": "He already new in 1942 that he has 2 children",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-25T21:03:00",
+      "date": "25/05/2026",
+      "time": "21:03",
+      "author": "Basia",
+      "body": "I don't like the date. Could it be March 3rd instead of June 6th? Is he saying goodbye in this letter?",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T21:03:00",
+      "date": "25/05/2026",
+      "time": "21:03",
+      "author": "דנה רפפורט",
+      "body": "The latter written in 42",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-25T21:04:00",
+      "date": "25/05/2026",
+      "time": "21:04",
+      "author": "דנה רפפורט",
+      "body": "No goodbye  .I am trying  to find if somewhere  has origin to share",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-25T21:04:00",
+      "date": "25/05/2026",
+      "time": "21:04",
+      "author": "דליה רפפורט",
+      "body": "Or in iidish",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dalia (mother)"
+    },
+    {
+      "timestamp": "2026-05-25T21:07:00",
+      "date": "25/05/2026",
+      "time": "21:07",
+      "author": "דנה רפפורט",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260525-WA0012.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-25T21:08:00",
+      "date": "25/05/2026",
+      "time": "21:08",
+      "author": "דנה רפפורט",
+      "body": "This is from August but it is about the research  ge wanted somebody  to sent you the university",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-25T21:09:00",
+      "date": "25/05/2026",
+      "time": "21:09",
+      "author": "דליה רפפורט",
+      "body": "They  hold the latter for long time ....some time they did not sent ....",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dalia (mother)"
+    },
+    {
+      "timestamp": "2026-05-25T21:12:00",
+      "date": "25/05/2026",
+      "time": "21:12",
+      "author": "דנה רפפורט",
+      "body": "https://www.jewishgen.org/yizkor/nowy_sacz/now601.html",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-25T21:12:00",
+      "date": "25/05/2026",
+      "time": "21:12",
+      "author": "Basia",
+      "body": "Yes, I'll read it to you in a moment. It fits Benzion from Krakow.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T21:22:00",
+      "date": "25/05/2026",
+      "time": "21:22",
+      "author": "Basia",
+      "body": "\"This manuscript, along with the printed articles, constitutes a complete philosophical work in Hebrew, which has nothing to do with contemporary events.\nDue to the uncertainty of the times, the author decided to hide his work here and thus protect it from destruction.\nThe author sincerely requests the esteemed finder to be so kind as to send this work to the Hebrew University in Jerusalem, or alternatively to the address of the former university rector, Dr. Hugo Bergmann,\nor to the address of Dr. Jechaskel Kaufmann in Haifa (Palestine),\nor to the address of Dr. Benzion Kac (pseudonym Benzion Bew. Shalom) in Palestine.\n(The exact address is unknown to me.)\nBy fulfilling the above request, the esteemed finder will earn the author's (great) deep gratitude and will greatly contribute to Hebrew scholarly literature.\nBenzion Rapaport\nNowy Sącz, August 16, 1942\"",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T21:28:00",
+      "date": "25/05/2026",
+      "time": "21:28",
+      "author": "דנה רפפורט",
+      "body": "I think that the one you found in passport  is our great great father and that ben zion is another person though really  weird",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-25T21:36:00",
+      "date": "25/05/2026",
+      "time": "21:36",
+      "author": "Basia",
+      "body": "Your great-grandfather (the one in the passport) provides us with a very interesting thread.\nIt could be that the Gestapo linked him to some resistance activity. In such a situation, they wouldn't kill him outright, but would try to determine who the accomplice was. Thanks to the Auschwitz Museum, we know that he was first taken to Gestapo headquarters in Krakow for interrogation, and then transferred to the prison in Tarnów, where he waited until the investigation was completed. When they no longer needed him as a source of information, they sent him to Auschwitz.\nThat's how it was then.",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T21:41:00",
+      "date": "25/05/2026",
+      "time": "21:41",
+      "author": "דנה רפפורט",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260525-WA0015.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-25T21:42:00",
+      "date": "25/05/2026",
+      "time": "21:42",
+      "author": "דנה רפפורט",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260525-WA0016.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-25T21:44:00",
+      "date": "25/05/2026",
+      "time": "21:44",
+      "author": "דנה רפפורט",
+      "body": "When I enter the sister name ,the years in love geto and name of her mother the web gives me this info . Is it possible?",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-25T21:45:00",
+      "date": "25/05/2026",
+      "time": "21:45",
+      "author": "Basia",
+      "body": "According to Lusia, Lotta was in the Lviv ghetto. The date is likely. If she had also married civilly, they would have listed her under her husband's surname, but if they only had a ritual wedding, it might fit.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T21:52:00",
+      "date": "25/05/2026",
+      "time": "21:52",
+      "author": "Basia",
+      "body": "I'd wonder if it was even possible that she was in Krakow in 1940 and in the Lviv ghetto in 1942. The internet connects different things. Send me a link to that page.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-25T22:20:00",
+      "date": "25/05/2026",
+      "time": "22:20",
+      "author": "דנה רפפורט",
+      "body": "https://www.ancestry.com/sharing/61760444?mark=7b22746f6b656e223a2247385a364b4d7054644255584d6f66704a4c477a63674d3836376470316f6c4e7a773554634d3736696c773d222c22746f6b656e5f76657273696f6e223a225632227d",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-25T22:20:00",
+      "date": "25/05/2026",
+      "time": "22:20",
+      "author": "דנה רפפורט",
+      "body": "Is it ok?",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-25T22:54:00",
+      "date": "25/05/2026",
+      "time": "22:54",
+      "author": "Basia",
+      "body": "The first place always shows the result closest to your search. Indeed, when you enter the surname and other information, this answer appears. But when you go further and click (top right) on the shipping list details, a window with more detailed information expands, and you can see that it's not her. The database matched the closest answer, which doesn't include the mother's name.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-26T19:58:00",
+      "date": "26/05/2026",
+      "time": "19:58",
+      "author": "Basia",
+      "body": "1. The Jewish vital records from Radomyśl Wielki are not in any archives. Only incomplete Catholic records remain. There are also bank, municipal, and court records, but they are unscanned and partial. There are also a few inheritance and business records. Therefore, the chances of finding Moses Rapaport's parents are slim.\n2. Yesterday, I downloaded Berisch's passport documents again, but in better quality, so I could better read the pencil inscriptions. Berisch's mother was named Menucha (Menycha).\nI found other children of this couple in the Tarnów records indexes. I found the available originals. Then I checked genealogy portals. It turns out that some families are there, but they have no connection to Moses and Menucha.\nIt looks like the family moved from Radomyśl Wielki to Tarnów during or immediately after World War I.\nI think I know how Przemyśl could have appeared in Lusia's story.\n3. I created a working Rapaport tree using all these sources.\nBerisch's sister, Freida Amalia Rapaport, married a wealthy real estate owner in Przemyśl in 1919. Her husband died the following year from the Spanish flu, then remarried and gave birth to two more children.\nThe son from her first marriage emigrated to Palestine in 1938 and settled in Haifa!\nI identified the first three sisters based on marriage records from Tarnów and supplemented them from their trees posted on the portal. I identified the last sister, \"Alte Lea,\" or older Leja, on the portal by matching her parents' names and place of birth. There are no records from Radomyśl Wielki, so we can't count on anything more. Judging by the ages of her children, they were married in Radomyśl Wielki.\nI tried to investigate what happened to Jenta and Rebeca.\nI determined that:\nRebeca Zylberfenig\nis in Yad Vashem materials. \"Rebeka Zylberfenig. During the war, she was in Tarnów, Poland. Deported with Transport from Poland to Camp,<>.\nRebeka was murdered in the Shoah.\"\nList of Murdered Jews from Austria\nSane Zylberfenig\nis in the Yad Vashem materials.\nI haven't found the Horowitz family yet.",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-26T19:59:00",
+      "date": "26/05/2026",
+      "time": "19:59",
+      "author": "Basia",
+      "body": "\nTablica potomków Moses Saul Rapaport 2.pdf",
+      "attachment": {
+        "filename": "Tablica potomków Moses Saul Rapaport 2.pdf",
+        "kind": "pdf"
+      },
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-26T20:01:00",
+      "date": "26/05/2026",
+      "time": "20:01",
+      "author": "Basia",
+      "body": "\nFreida Amalia Rapaport.jpg",
+      "attachment": {
+        "filename": "Freida Amalia Rapaport.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-26T20:04:00",
+      "date": "26/05/2026",
+      "time": "20:04",
+      "author": "Basia",
+      "body": "\nZvi Hirsch Heschu Ayalon (Nussbaum).jfif",
+      "attachment": {
+        "filename": "Zvi Hirsch Heschu Ayalon (Nussbaum).jfif",
+        "kind": "other"
+      },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-26T20:05:00",
+      "date": "26/05/2026",
+      "time": "20:05",
+      "author": "Basia",
+      "body": "\n1923 Zylberfenig Rapaport T.jpg",
+      "attachment": {
+        "filename": "1923 Zylberfenig Rapaport T.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-26T20:05:00",
+      "date": "26/05/2026",
+      "time": "20:05",
+      "author": "Basia",
+      "body": "\n1920 Horowitz Rapaport T.jpg",
+      "attachment": {
+        "filename": "1920 Horowitz Rapaport T.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-26T20:05:00",
+      "date": "26/05/2026",
+      "time": "20:05",
+      "author": "Basia",
+      "body": "\n1919 Nussbaum Rapaport T.jpg",
+      "attachment": {
+        "filename": "1919 Nussbaum Rapaport T.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-26T20:08:00",
+      "date": "26/05/2026",
+      "time": "20:08",
+      "author": "דנה רפפורט",
+      "body": "Wow!!!!!\nSo my father actually  have cussins? In Israel!!!!",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-26T20:08:00",
+      "date": "26/05/2026",
+      "time": "20:08",
+      "author": "דנה רפפורט",
+      "body": "Maybe  in Haifa? Wow!!!",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-26T20:10:00",
+      "date": "26/05/2026",
+      "time": "20:10",
+      "author": "דנה רפפורט",
+      "body": "So menucha is his mother and we now her youth  name?",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-26T20:11:00",
+      "date": "26/05/2026",
+      "time": "20:11",
+      "author": "Basia",
+      "body": "Yes, from the marriage certificates of these three sisters",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-26T20:16:00",
+      "date": "26/05/2026",
+      "time": "20:16",
+      "author": "Basia",
+      "body": "These weddings were concluded in Tarnów, and from Berisch's passport files we know that his father lived in Tarnów at that time.",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-26T20:21:00",
+      "date": "26/05/2026",
+      "time": "20:21",
+      "author": "דנה רפפורט",
+      "body": "Did you find brothers?",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-26T20:21:00",
+      "date": "26/05/2026",
+      "time": "20:21",
+      "author": "דנה רפפורט",
+      "body": "I understand  dov had at list one or two.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-26T20:23:00",
+      "date": "26/05/2026",
+      "time": "20:23",
+      "author": "Basia",
+      "body": "No, and I searched the indexes not only near Tarnów. The surname Rapaport only represents Berisch.",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-26T20:29:00",
+      "date": "26/05/2026",
+      "time": "20:29",
+      "author": "Basia",
+      "body": "I don't know what you're asking.\nBerish had four sisters: Freida Amalia, by her first husband Nussbaum, by her second husband Rosenfeld, Jente, by her  husband Horowitz, Rebeka, by her husband Zylberfenig, Leja, by her husband Turkel (Turkl),",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-26T20:32:00",
+      "date": "26/05/2026",
+      "time": "20:32",
+      "author": "Basia",
+      "body": "Okay, I mixed up Dov and Dawid, I'll fix it soon",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-26T20:32:00",
+      "date": "26/05/2026",
+      "time": "20:32",
+      "author": "דליה רפפורט",
+      "body": "Do you  know the naem of the sun of her first marriage\n(Menucha)",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dalia (mother)"
+    },
+    {
+      "timestamp": "2026-05-26T20:38:00",
+      "date": "26/05/2026",
+      "time": "20:38",
+      "author": "Basia",
+      "body": "It was fine though, I sent the correct version. Now I'll send a simpler layout.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-26T20:39:00",
+      "date": "26/05/2026",
+      "time": "20:39",
+      "author": "דליה רפפורט",
+      "body": "Thank you.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dalia (mother)"
+    },
+    {
+      "timestamp": "2026-05-26T20:43:00",
+      "date": "26/05/2026",
+      "time": "20:43",
+      "author": "דנה רפפורט",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260526-WA0006.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-26T20:43:00",
+      "date": "26/05/2026",
+      "time": "20:43",
+      "author": "דנה רפפורט",
+      "body": "Turkel  529+530",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-26T20:45:00",
+      "date": "26/05/2026",
+      "time": "20:45",
+      "author": "דנה רפפורט",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260526-WA0007.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-26T20:45:00",
+      "date": "26/05/2026",
+      "time": "20:45",
+      "author": "דנה רפפורט",
+      "body": "This is their address in Wein?",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-26T20:45:00",
+      "date": "26/05/2026",
+      "time": "20:45",
+      "author": "Basia",
+      "body": "I'm still correcting this; it was just a draft. What you sent is the Austrian list.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-26T20:50:00",
+      "date": "26/05/2026",
+      "time": "20:50",
+      "author": "דנה רפפורט",
+      "body": "Yes they  actually  listed . Wow",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-26T20:54:00",
+      "date": "26/05/2026",
+      "time": "20:54",
+      "author": "דנה רפפורט",
+      "body": "The picture  of Ferida is from my heritage?",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-26T20:55:00",
+      "date": "26/05/2026",
+      "time": "20:55",
+      "author": "דנה רפפורט",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260526-WA0008.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-26T20:56:00",
+      "date": "26/05/2026",
+      "time": "20:56",
+      "author": "דנה רפפורט",
+      "body": "If it the same maybe we can share info with them?",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-26T20:57:00",
+      "date": "26/05/2026",
+      "time": "20:57",
+      "author": "Basia",
+      "body": "\n6_Tablica potomków Moses Saul Rapaport.pdf",
+      "attachment": {
+        "filename": "6_Tablica potomków Moses Saul Rapaport.pdf",
+        "kind": "pdf"
+      },
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-26T21:00:00",
+      "date": "26/05/2026",
+      "time": "21:00",
+      "author": "Basia",
+      "body": "Once you start building your tree on MyHeritage, you'll be able to connect them. You can also leave a message for the tree's creators, but if they rarely visit their profile, you'll have to wait a while.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-26T21:02:00",
+      "date": "26/05/2026",
+      "time": "21:02",
+      "author": "Basia",
+      "body": "They're chasing me to dinner, I'll switch off for a moment.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-26T21:02:00",
+      "date": "26/05/2026",
+      "time": "21:02",
+      "author": "דנה רפפורט",
+      "body": "Yes I know i asked in order to know maybe it will help to gather info",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-26T22:01:00",
+      "date": "26/05/2026",
+      "time": "22:01",
+      "author": null,
+      "body": "Basia: The Griffel family is well-documented on geni.com. Once I was certain I was connected to the Griffel family, I left a message with the tree administrator, Sara Yehudis Eisenbach (a few days ago), but I see she accessed her profile in early May.\nI don't have a tree on any portals, or rather... there's only my entry. I managed without it for a long time and had to \"hack\" a bit. But I finally signed up.\nWhen I wrote to the site administrator on geni, I was hoping to share more recent data.",
+      "attachment": null,
+      "system": true,
+      "lang": "en",
+      "author_normalized": null
+    },
+    {
+      "timestamp": "2026-05-26T22:06:00",
+      "date": "26/05/2026",
+      "time": "22:06",
+      "author": "Basia",
+      "body": "I think we can split up. If you're willing to do that, you can dig into the data in Hebrew and English, and I'll continue digging into the Polish materials, as I'm the only one in our group who can do that. The most important thing is already set.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-26T22:10:00",
+      "date": "26/05/2026",
+      "time": "22:10",
+      "author": "דנה רפפורט",
+      "body": "1 question  about  meshulam the dates are correct?",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-26T22:11:00",
+      "date": "26/05/2026",
+      "time": "22:11",
+      "author": "דנה רפפורט",
+      "body": "Cause I found  documents with same name and in this area another dates",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-26T22:19:00",
+      "date": "26/05/2026",
+      "time": "22:19",
+      "author": "Basia",
+      "body": "I didn't provide any dates because I don't have access to the files, which have since been lost. I don't remember now if anyone provided the dates for Menuch... I got them from my daughters' marriage certificates, which didn't provide the parents' dates. It's safer to provide only dates we're certain of, as errors abound. Regarding Moses and Menuch, we only know where they lived when their children were born (Radomyśl Wielki) and that they moved to Tarnów before 1919 (because Freida Amalia married in Tarnów then).",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-26T22:21:00",
+      "date": "26/05/2026",
+      "time": "22:21",
+      "author": "דנה רפפורט",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260526-WA0009.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-26T22:21:00",
+      "date": "26/05/2026",
+      "time": "22:21",
+      "author": "דנה רפפורט",
+      "body": "So the 22.6.1892 is not relevant?",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-26T22:21:00",
+      "date": "26/05/2026",
+      "time": "22:21",
+      "author": "Basia",
+      "body": "You asked about Meshulam Horowitz !",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-26T22:21:00",
+      "date": "26/05/2026",
+      "time": "22:21",
+      "author": "דנה רפפורט",
+      "body": "Yes for example",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-26T22:23:00",
+      "date": "26/05/2026",
+      "time": "22:23",
+      "author": "Basia",
+      "body": "I don't know, but what's the context? I'll check, because I think the data from Sokal is available.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-26T22:57:00",
+      "date": "26/05/2026",
+      "time": "22:57",
+      "author": "Basia",
+      "body": "A scan of his birth certificate is available, and it's the same as in the tree.\nOn his marriage certificate, he appears under the misspelled name \"Meschilino.\" The wedding took place on December 12, 1920, when he was 28 years and 5.5 months old. It's very accurate. You'll have to do the math, but it seems to fit.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-26T22:57:00",
+      "date": "26/05/2026",
+      "time": "22:57",
+      "author": "Basia",
+      "body": "\nU 1892 Meshulim Horowitz.jpg",
+      "attachment": {
+        "filename": "U 1892 Meshulim Horowitz.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-26T23:17:00",
+      "date": "26/05/2026",
+      "time": "23:17",
+      "author": "דנה רפפורט",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260526-WA0012.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-26T23:17:00",
+      "date": "26/05/2026",
+      "time": "23:17",
+      "author": "דנה רפפורט",
+      "body": "I will try to see also if it the same person",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-26T23:28:00",
+      "date": "26/05/2026",
+      "time": "23:28",
+      "author": "Basia",
+      "body": "\nZrzut ekranu 2026-05-26 222519.png",
+      "attachment": {
+        "filename": "Zrzut ekranu 2026-05-26 222519.png",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-26T23:34:00",
+      "date": "26/05/2026",
+      "time": "23:34",
+      "author": "דנה רפפורט",
+      "body": "Under the name yente there is moshe but the mother name is menucha?",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-26T23:35:00",
+      "date": "26/05/2026",
+      "time": "23:35",
+      "author": "דנה רפפורט",
+      "body": "The translation  is shendel?",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-26T23:45:00",
+      "date": "26/05/2026",
+      "time": "23:45",
+      "author": "Basia",
+      "body": "Mentha, Beauchamp, Menichina,  it means peace and rest, that's all I know",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-26T23:56:00",
+      "date": "26/05/2026",
+      "time": "23:56",
+      "author": "Basia",
+      "body": "Freida's document has \"Menyche,\" just like Berisch's passport application. Jenta's document has \"Menichy,\" but that's a declension of \"Menicha.\" In Polish at that time, swapping \"i\" for \"y\" and vice versa was common in proper names. Rabeca's document has \"Menychy,\" which is also a declension ending.\nI looked up this name in a book on Jewish names written by a Jew (!). He says you're in a real mess.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-26T23:57:00",
+      "date": "26/05/2026",
+      "time": "23:57",
+      "author": "Basia",
+      "body": "\nZrzut ekranu 2026-05-26 225607.png",
+      "attachment": {
+        "filename": "Zrzut ekranu 2026-05-26 225607.png",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-26T23:58:00",
+      "date": "26/05/2026",
+      "time": "23:58",
+      "author": "Basia",
+      "body": "\nWA248_41137_F-22-634_spis-imion_o.pdf",
+      "attachment": {
+        "filename": "WA248_41137_F-22-634_spis-imion_o.pdf",
+        "kind": "pdf"
+      },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T16:47:00",
+      "date": "31/05/2026",
+      "time": "16:47",
+      "author": "Basia",
+      "body": "I've sorted out the trees. Take it easy. And I'm sending Griffel, Rapaport, and Weitzner.\nThere may still be errors in the Griffel-Weitzner tree. Something's wrong with Jakub Griffel; there were two Jakubs. I'm just downloading the passports and matching them.\nIt's tedious work; I can't download too much because the image verifications kick in. So, a little bit every day.\nYou've already noticed that we're at the stage in genealogy where we're ripping data off each other. I've seen so many strange connections that I go back to the sources whenever I can, which is why I'm checking Griffel.\nIn the case of Benzion from Kraków and Berish (Berisch, Bernard), I was under the illusion that if something is easy to find, it must match, and I was already very tired.\nI think I've stumbled into the middle of family dilemmas I didn't know about.\nYour names (their different spellings, which I see in subsequent documents) are confusing me; I haven't gotten the hang of them yet.\nI've been organizing the documents because I started to feel lost. I'm matching files to people and places in folders. At the end, I'll upload everything to your Dropbox.\nThe Weinreb family will have to be \"caught\" in strange ways, because the files from the Valley have disappeared. I won't tell you what can be done now.",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T16:48:00",
+      "date": "31/05/2026",
+      "time": "16:48",
+      "author": "Basia",
+      "body": "<Media omitted>\nTablica potomków Berl Rothner.pdf",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T16:48:00",
+      "date": "31/05/2026",
+      "time": "16:48",
+      "author": "Basia",
+      "body": "<Media omitted>\nTablica potomków Dawid Weitzner.pdf",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T16:49:00",
+      "date": "31/05/2026",
+      "time": "16:49",
+      "author": "Basia",
+      "body": "<Media omitted>\n29_05_2026_Tablica potomków Dawid Griffel.pdf",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T16:50:00",
+      "date": "31/05/2026",
+      "time": "16:50",
+      "author": "Basia",
+      "body": "I'm still trying to unravel the mysteries of Lusia's story. There are a few threads that need to be explored, for example, the case of the elusive Lotta. She's our closest family, yet we know so little. I'm trying to explain the story of Lotta's escape from the ghetto, which also seems intertwined with the Griffel family.\nTwo members of this family, cousins ​​Memek and Lotta, Dawid and Schalom (Shalom) Griffel, also paid $10,000 for passports. Thanks to the photos from their passport applications, I recognized them on the website about this case. I need to work with the institution here, and I've already started; I'm waiting for a response. Please don't rush me.\nIn the meantime, check out this website; there's an English version. Passports for Life",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T16:50:00",
+      "date": "31/05/2026",
+      "time": "16:50",
+      "author": "Basia",
+      "body": "https://paszportyzycia.pl/",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T16:51:00",
+      "date": "31/05/2026",
+      "time": "16:51",
+      "author": "Basia",
+      "body": "work this way: when a line becomes unattainable, I switch to another. Then I return to the point where I'm stuck with a new context. This may look a bit chaotic, but it's effective.\nThe trees I'm sending you only illustrate a portion of the information I have in the program. They don't show spouses, in-laws, or siblings of related people. To understand the logic of family connections, it's worth writing down this additional information as well.\nI'm now more confident that your family tree will be relatively complete.\nAre you in touch with Lusia's family, who emigrated to Israel before the war? Perhaps they know something about the Weinreb family.\nWhat tradition does your family refer to? Explain the principle, if any, to me.\nHave you found the rest of Gelles's works? If not, I'm sending them.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T16:52:00",
+      "date": "31/05/2026",
+      "time": "16:52",
+      "author": "Basia",
+      "body": "<Media omitted>\nBasic Primary Sources for Gelles and Griffel Genealogy 2003.pdf",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T16:52:00",
+      "date": "31/05/2026",
+      "time": "16:52",
+      "author": "Basia",
+      "body": "<Media omitted>\nGriffel.Eric.pdf",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T16:52:00",
+      "date": "31/05/2026",
+      "time": "16:52",
+      "author": "Basia",
+      "body": "<Media omitted>\nPhotobook2.pdf",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T16:52:00",
+      "date": "31/05/2026",
+      "time": "16:52",
+      "author": "Basia",
+      "body": "<Media omitted>\nWAHL of Tarnobrzeg and WOHL of Cracow.pdf",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T16:53:00",
+      "date": "31/05/2026",
+      "time": "16:53",
+      "author": null,
+      "body": "Basia: I managed to establish the Weitzner family tree quite quickly, as they never left Bolechów. But I'm searching for the Rapaport family throughout Galicia. Since the Radomyśl records have disappeared, I can only search for Rapaport records in other towns, including marriages and deaths.\nThe sisters who married in Tarnów were found quite quickly.\nI confirmed and expanded the records regarding Alte Lea. Her marriage certificate and the Tarnopol Census indicate that she had lived in Tarnopol since 1903. There are almost 400 kilometers between Tarnopol and Tarnów! So I expanded my search and found Szymon's older brother in Sambor! He worked there as a merchant before World War I, married, and had two daughters. After World War I, he disappeared from Sambor.\nSimon Rapaport has his own Yad Vashem card: \"Szymon Rapaport was born in Poland to Moshe. He was a clerk and married to Paia née Laub. Prior to WWII, he lived in Przemyśl, Poland. During the war, he was in Przemyśl, Poland.\nSzymon was murdered in the Shoah.\"\nPaia Rapaport also has his own card there: \"Paja Rapaport was born in Poland, 1888 to Mordekhai and Roza. She was married to Shimon. Prior to WWII, she lived in Przemyśl, Poland. During the war, she was in Przemyśl, Poland.\nPaja was murdered in the Shoah.\"\nShabse Rapaport, son of Simon and Paia, born in 1910 in Sambor, is also in Yad Vashem. I couldn't track him down because the birth register for that year was missing. But my sister says he was a teacher.\nSo, Przemyśl again. His daughter, Lea Fridman, submitted a report to Yad Vashem.\nLea Rapaport has reached Israel. I'm sending you links to her and her husband's naturalization application and divorce certificate. The documents are mostly in Hebrew; there will likely be more details there. Note: There's a photo!\nLea is also on the website of the Israel Genealogical Research Association.\nI'm sending you the marriage certificate of Szymon and Paja from Sambor, and Lea's birth certificate.\nThe Laub family owned real estate in Przemyśl.\nAt Yad Vashem, your Grandfather Memek submitted a report about his father, Bernard Dov. He writes that he died in Auschwitz in 1940, that the family's wartime address was Słowackiego Street 40, that his father's name was Moshe, and his mother's name was Menukha, and that he was born in Radomyśl in 1888. The dates don't match, but the rest fits.\nThere's also an official note about Berisch Rapaport, based on documents from Auschwitz. There are also errors here, as it was assumed he came from Krakow, since he arrived at the camp from the Gestapo in Krakow.\nI have the impression that Yad Vashem is relying on older findings.\nThe Auschwitz Museum is still working on the documentation, and I would trust what's on the museum's website. Be sure to contact the Institute of National Remembrance (IPN) with inquiries about Berisch.\nRemember the company \"Rias,\" which Berisch, aka Bernard, founded in Stanisławów? We still have these two names used interchangeably.\nIn this note, Berisch's mother's surname appears: \"Emilia Lainer,\" but not the first name \"Menucha.\" Several family files also mention \"Emilia,\" used interchangeably with \"Menucha.\" This is definitely the same person.\nMemek also provided Yad Vashem with information about her mother. And again, no surprises. \"Regina Rivka,\" born 1892 Nadwórna, father Leizer, mother Sara, living in Przemyśl, died 1943 in Przemyśl.\nSo everything fits, and we figured it out independently.\nI found Szabse Rapaport's high school diploma from Przemyśl.",
+      "attachment": null,
+      "system": true,
+      "lang": "pl",
+      "author_normalized": null
+    },
+    {
+      "timestamp": "2026-05-31T16:53:00",
+      "date": "31/05/2026",
+      "time": "16:53",
+      "author": "Basia",
+      "body": "\n1941 rozwód Lea Rapaport.jpg",
+      "attachment": {
+        "filename": "1941 rozwód Lea Rapaport.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T16:54:00",
+      "date": "31/05/2026",
+      "time": "16:54",
+      "author": "Basia",
+      "body": "<Media omitted>\nU 1914 Ewa Rapaport S.jpg",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T16:54:00",
+      "date": "31/05/2026",
+      "time": "16:54",
+      "author": "Basia",
+      "body": "<Media omitted>\nM 1913 Simon Rapaport.jpg",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T16:54:00",
+      "date": "31/05/2026",
+      "time": "16:54",
+      "author": "Basia",
+      "body": "<Media omitted>\nProtokół z matury 1931.jpg",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T16:54:00",
+      "date": "31/05/2026",
+      "time": "16:54",
+      "author": "Basia",
+      "body": "<Media omitted>\nŚwiadectwo maturalne Szabse Rapaport 1.jpg",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T16:54:00",
+      "date": "31/05/2026",
+      "time": "16:54",
+      "author": "Basia",
+      "body": "<Media omitted>\nŚwiadectwo maturalne Szabse Rapaport 2.jpg",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T16:54:00",
+      "date": "31/05/2026",
+      "time": "16:54",
+      "author": "Basia",
+      "body": "<Media omitted>\nU 1912 Lea Rapaport.jpg",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T16:54:00",
+      "date": "31/05/2026",
+      "time": "16:54",
+      "author": "Basia",
+      "body": "https://www.myheritage.pl/research/collection-20862/izraelskie-stowarzyszenie-bada%C5%84-genealogicznych-igra?itemId=1019636-&action=showRecord&recordTitle=Lea+Rapaport",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T16:55:00",
+      "date": "31/05/2026",
+      "time": "16:55",
+      "author": "Basia",
+      "body": "https://www.myheritage.pl/research/collection-10902/wnioski-o-naturalizacj%C4%99-w-mandatowej-palestynie-1937-1947?itemId=48780-S&action=showRecord&recordTitle=Lea+Segal+%28z+d.+Rappaport%29%2C+%D7%9C%D7%90%D7%94+%D7%A1%D7%92%D7%9C+%28z+d.+%D7%A8%D7%A4%D7%A4%D7%95%D7%A8%D7%98%29",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T17:02:00",
+      "date": "31/05/2026",
+      "time": "17:02",
+      "author": "Basia",
+      "body": "Szymon had two daughters and son. <This message was edited>",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T17:05:00",
+      "date": "31/05/2026",
+      "time": "17:05",
+      "author": "Basia",
+      "body": "<Media omitted>\n31_05_2026_Tablica potomków Moses Saul Rapaport.ahn",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T17:16:00",
+      "date": "31/05/2026",
+      "time": "17:16",
+      "author": "Basia",
+      "body": "Szabse's report card showed grades in 11 subjects, including 7 subjects with the highest grades.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T17:22:00",
+      "date": "31/05/2026",
+      "time": "17:22",
+      "author": "דנה רפפורט",
+      "body": "Thank you for all your effort. I hope that I will answer all your questions.\nRegarding  my grandma's family  most are dead.\nWe have 3 cousins  but they are older from my father  and they know +- the same info. Will check again.\nAbout her brother and sisters she had :1 brother -moshe, 2 sisters-zipora and pepi.\nAs I know Pepi was the youngest so 1910? Will not  be correct.\nI will make sure with my mother and maybe the name is Pnina? Will revert.\nAbout the book trying to find student from the university  of Tlv cause we don't work there and don't have any permit.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-31T17:27:00",
+      "date": "31/05/2026",
+      "time": "17:27",
+      "author": "דנה רפפורט",
+      "body": "Regarding lea rapaport can you clarify  ? The record shows  that she was a sister of dov?",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-31T17:28:00",
+      "date": "31/05/2026",
+      "time": "17:28",
+      "author": "Basia",
+      "body": "t was she who reached Israel and posted her report at Yad Vashem and searched for relatives. <This message was edited>",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T17:30:00",
+      "date": "31/05/2026",
+      "time": "17:30",
+      "author": "Basia",
+      "body": "https://www.myheritage.pl/research/collection-20862/izraelskie-stowarzyszenie-bada%C5%84-genealogicznych-igra?itemId=1019636-&action=showRecord&recordTitle=Lea+Rapaport",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T17:30:00",
+      "date": "31/05/2026",
+      "time": "17:30",
+      "author": "דנה רפפורט",
+      "body": "I don't think that she is our grendma",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-31T17:32:00",
+      "date": "31/05/2026",
+      "time": "17:32",
+      "author": "Basia",
+      "body": "Ok, this is cousin Memek. Lea Rapoaport Segal",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T17:32:00",
+      "date": "31/05/2026",
+      "time": "17:32",
+      "author": "דנה רפפורט",
+      "body": "In the Hebrew  certificate  of divorce  written another person :michael/yehiel Segal",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-31T17:35:00",
+      "date": "31/05/2026",
+      "time": "17:35",
+      "author": "Basia",
+      "body": "After divorcing Segal, she probably remarried and her name was Lea Fridman.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T17:40:00",
+      "date": "31/05/2026",
+      "time": "17:40",
+      "author": "דנה רפפורט",
+      "body": "Will check.\nI need to ask how did you find records in yad yashem the one I found written in yedish so I can not ve sure .\nI saw  a lot of David rapaport maybe you have it in other languages?",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-31T17:43:00",
+      "date": "31/05/2026",
+      "time": "17:43",
+      "author": "Basia",
+      "body": "Wait a moment. I need to recreate this track. Some automatic translation worked there, but not for the whole thing.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T17:43:00",
+      "date": "31/05/2026",
+      "time": "17:43",
+      "author": "Basia",
+      "body": "https://collections.yadvashem.org/en/names/search-results?page=1&s_last_name_search_en=rapaport&t_last_name_search_en=dmSoundex&s_place_war_search_en=przemy%C5%9Bl&t_place_war_search_en=dmSoundex",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T17:44:00",
+      "date": "31/05/2026",
+      "time": "17:44",
+      "author": "Basia",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260531-WA0004.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T17:47:00",
+      "date": "31/05/2026",
+      "time": "17:47",
+      "author": "Basia",
+      "body": "\nRegina Rivka Rapaport.pdf",
+      "attachment": {
+        "filename": "Regina Rivka Rapaport.pdf",
+        "kind": "pdf"
+      },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T17:47:00",
+      "date": "31/05/2026",
+      "time": "17:47",
+      "author": "Basia",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260531-WA0005.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T17:49:00",
+      "date": "31/05/2026",
+      "time": "17:49",
+      "author": "Basia",
+      "body": "\nBernard Dov Rapaport.pdf",
+      "attachment": {
+        "filename": "Bernard Dov Rapaport.pdf",
+        "kind": "pdf"
+      },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T17:51:00",
+      "date": "31/05/2026",
+      "time": "17:51",
+      "author": "Basia",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260531-WA0006.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T17:51:00",
+      "date": "31/05/2026",
+      "time": "17:51",
+      "author": "דנה רפפורט",
+      "body": "Yes it is correct !!this is my grandpa's hand writing !!!wow",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-31T17:51:00",
+      "date": "31/05/2026",
+      "time": "17:51",
+      "author": "דנה רפפורט",
+      "body": "The address wasslowetzky 40 pashmishel",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-31T17:52:00",
+      "date": "31/05/2026",
+      "time": "17:52",
+      "author": "דניאל רפפורט",
+      "body": "and old address in Haifa as well",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Daniel (brother)"
+    },
+    {
+      "timestamp": "2026-05-31T17:52:00",
+      "date": "31/05/2026",
+      "time": "17:52",
+      "author": "Basia",
+      "body": "Przemyśl ul.Słowackiego 40",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T17:54:00",
+      "date": "31/05/2026",
+      "time": "17:54",
+      "author": "Basia",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260531-WA0007.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T17:55:00",
+      "date": "31/05/2026",
+      "time": "17:55",
+      "author": "Basia",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260531-WA0008.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T17:56:00",
+      "date": "31/05/2026",
+      "time": "17:56",
+      "author": "Basia",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260531-WA0009.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T18:08:00",
+      "date": "31/05/2026",
+      "time": "18:08",
+      "author": "דנה רפפורט",
+      "body": "When Lea was  born?20.11.1912?or we don't  know?",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-31T18:08:00",
+      "date": "31/05/2026",
+      "time": "18:08",
+      "author": "Basia",
+      "body": "Sambor",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T18:10:00",
+      "date": "31/05/2026",
+      "time": "18:10",
+      "author": "דנה רפפורט",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260531-WA0010.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-31T18:11:00",
+      "date": "31/05/2026",
+      "time": "18:11",
+      "author": "Basia",
+      "body": "Who is this? It's in Hebrew. Is this Leah's son?",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T18:11:00",
+      "date": "31/05/2026",
+      "time": "18:11",
+      "author": "דנה רפפורט",
+      "body": "Written  in Hebrew.  This is from Yad mordechai",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-31T18:14:00",
+      "date": "31/05/2026",
+      "time": "18:14",
+      "author": "Basia",
+      "body": "I haven't figured it out yet, but I've found Rapaport in Tarnopol, Sambor, Przemyśl, Nadwórna, and Tarnów. Why did they move around like that?",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T18:16:00",
+      "date": "31/05/2026",
+      "time": "18:16",
+      "author": "Basia",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260531-WA0011.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T18:17:00",
+      "date": "31/05/2026",
+      "time": "18:17",
+      "author": "Basia",
+      "body": "This is the birth certificate of the son of Alte Lea Rapaport Turkel from Ternopil. There, Moses Rapaport performs his circumcision....",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T19:40:00",
+      "date": "31/05/2026",
+      "time": "19:40",
+      "author": "דנה רפפורט",
+      "body": "http://turkel.org.il/Israel-Menachem.htm",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-05-31T20:37:00",
+      "date": "31/05/2026",
+      "time": "20:37",
+      "author": "Basia",
+      "body": "YES",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T20:37:00",
+      "date": "31/05/2026",
+      "time": "20:37",
+      "author": "Basia",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260531-WA0012.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T20:38:00",
+      "date": "31/05/2026",
+      "time": "20:38",
+      "author": "Basia",
+      "body": "\nU 1907 Scheindla Jutta Turkel T.jpg",
+      "attachment": {
+        "filename": "U 1907 Scheindla Jutta Turkel T.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-05-31T20:38:00",
+      "date": "31/05/2026",
+      "time": "20:38",
+      "author": "Basia",
+      "body": "\nU 1911 Chana Turkel T.jpg",
+      "attachment": {
+        "filename": "U 1911 Chana Turkel T.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-06-01T17:35:00",
+      "date": "01/06/2026",
+      "time": "17:35",
+      "author": "Basia",
+      "body": "Pnina was probably born between 1917 and 1920.\nThere are supposedly entries in the birth register from this period, but they are strange, seemingly incomplete. For example, only two children were registered in March 1918, while in March 1916 there were six.\nThe birth registers end with the date May 5, 1918. Then the revolution and the Polish-Soviet War raged.\nI think that's why I haven't found the youngest sister.\nWas Tzipor's (Feiga's) husband's name Israel? I think I found their wedding in Bolechów in 1932.\nLea and Memek had a civil wedding in Bolechów on February 10, 1935. She is 21 years old, and he is 23. Their real dates of birth are given: Lusia's on April 2, 1913, and Dawid Mendel's on December 25, 1911.\nThere was so much talk about a wedding in Muszyna... and it turned out they had a civil wedding in Bolechów.\nBut how does this relate to page 16 of Lusia's book? You'll have to answer that for yourselves...",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-06-01T17:35:00",
+      "date": "01/06/2026",
+      "time": "17:35",
+      "author": "Basia",
+      "body": "\nM_ 1932_Feige_Weitzner_Israel_Englander_B.jpg",
+      "attachment": {
+        "filename": "M_ 1932_Feige_Weitzner_Israel_Englander_B.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-06-01T17:35:00",
+      "date": "01/06/2026",
+      "time": "17:35",
+      "author": "Basia",
+      "body": "\nM_1935_Lea_Weitzner_Dawid_Mendel_Rapoport_B.jpg",
+      "attachment": {
+        "filename": "M_1935_Lea_Weitzner_Dawid_Mendel_Rapoport_B.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-06-01T17:38:00",
+      "date": "01/06/2026",
+      "time": "17:38",
+      "author": "דנה רפפורט",
+      "body": "I think it's correct . The englander is elder now",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-06-01T17:43:00",
+      "date": "01/06/2026",
+      "time": "17:43",
+      "author": "דליה רפפורט",
+      "body": "Englhart....",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dalia (mother)"
+    },
+    {
+      "timestamp": "2026-06-01T17:47:00",
+      "date": "01/06/2026",
+      "time": "17:47",
+      "author": "Basia",
+      "body": "Israel Englard was born in Przeworsk. He was a private official, the son of Kiwa and Rifka. He was born on June 26, 1905. These surnames are similar, so I think the first name is important.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-06-01T17:49:00",
+      "date": "01/06/2026",
+      "time": "17:49",
+      "author": "Basia",
+      "body": "I made a mistake in the scan description. Englard - that's what it says in the deed",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-06-01T17:52:00",
+      "date": "01/06/2026",
+      "time": "17:52",
+      "author": "דליה רפפורט",
+      "body": "Englard is  o.k .\nThey have daughter ruth and son akiwa. <This message was edited>",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dalia (mother)"
+    },
+    {
+      "timestamp": "2026-06-01T18:08:00",
+      "date": "01/06/2026",
+      "time": "18:08",
+      "author": "Basia",
+      "body": "Is there an address for Simon, Paya and Szabse in the Hebrew documents I sent yesterday?",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-06-01T18:09:00",
+      "date": "01/06/2026",
+      "time": "18:09",
+      "author": "דנה רפפורט",
+      "body": "Checking",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-06-01T18:13:00",
+      "date": "01/06/2026",
+      "time": "18:13",
+      "author": "דנה רפפורט",
+      "body": "The address only the town as written in English and below was the daughter 's address in Israel",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-06-01T18:13:00",
+      "date": "01/06/2026",
+      "time": "18:13",
+      "author": "דנה רפפורט",
+      "body": "Lea fridman",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-06-01T18:15:00",
+      "date": "01/06/2026",
+      "time": "18:15",
+      "author": "Basia",
+      "body": "I'm asking because the address provided by Memek may be a bit distorted.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-06-01T18:16:00",
+      "date": "01/06/2026",
+      "time": "18:16",
+      "author": "דנה רפפורט",
+      "body": "In the yad yashem my grendpa wrote about his parents no?",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-06-01T18:17:00",
+      "date": "01/06/2026",
+      "time": "18:17",
+      "author": "Basia",
+      "body": "Yes",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-06-01T18:18:00",
+      "date": "01/06/2026",
+      "time": "18:18",
+      "author": "Basia",
+      "body": "There was no residential building at number 40",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-06-01T18:19:00",
+      "date": "01/06/2026",
+      "time": "18:19",
+      "author": "דנה רפפורט",
+      "body": "Maybe  10",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-06-01T18:20:00",
+      "date": "01/06/2026",
+      "time": "18:20",
+      "author": "דנה רפפורט",
+      "body": "I think it's 10",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-06-01T18:21:00",
+      "date": "01/06/2026",
+      "time": "18:21",
+      "author": "Basia",
+      "body": "'ll check, it will take a while",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-06-01T18:47:00",
+      "date": "01/06/2026",
+      "time": "18:47",
+      "author": "Basia",
+      "body": "\nZrzut ekranu 2026-06-01 172243.png",
+      "attachment": {
+        "filename": "Zrzut ekranu 2026-06-01 172243.png",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-06-01T18:47:00",
+      "date": "01/06/2026",
+      "time": "18:47",
+      "author": "Basia",
+      "body": "\nZrzut ekranu 2026-06-01 172303.png",
+      "attachment": {
+        "filename": "Zrzut ekranu 2026-06-01 172303.png",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-06-01T18:47:00",
+      "date": "01/06/2026",
+      "time": "18:47",
+      "author": "Basia",
+      "body": "\nZrzut ekranu 2026-06-01 172319.png",
+      "attachment": {
+        "filename": "Zrzut ekranu 2026-06-01 172319.png",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-06-01T18:47:00",
+      "date": "01/06/2026",
+      "time": "18:47",
+      "author": "Basia",
+      "body": "It was a long street. This is a real estate directory from 1932, arranged in two columns. The first column contains the house number, the third column the property type, and the fourth the owner. If you look at the family names, the most likely matches are:\nNo. 5 and 5a (owner Joachim Laub and heirs of Samuel Laub) <This message was edited>",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-06-01T18:49:00",
+      "date": "01/06/2026",
+      "time": "18:49",
+      "author": "Basia",
+      "body": "There's a poultry slaughterhouse at 40th Street belonging to the Israelite community. I'll look elsewhere.",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-06-01T18:51:00",
+      "date": "01/06/2026",
+      "time": "18:51",
+      "author": "דנה רפפורט",
+      "body": "75. Nussbaum ?",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-06-01T18:51:00",
+      "date": "01/06/2026",
+      "time": "18:51",
+      "author": "Basia",
+      "body": "Maybe..",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-06-01T18:56:00",
+      "date": "01/06/2026",
+      "time": "18:56",
+      "author": "Basia",
+      "body": "If the building survived and is a listed building, there might still be something to learn. I'm currently checking all such buildings on Słowackiego Street. If it was demolished, I won't find anything.",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-06-01T19:37:00",
+      "date": "01/06/2026",
+      "time": "19:37",
+      "author": "Basia",
+      "body": "1. The house numbering has not changed from the pre-war period to the present day.\n2. The house belonging to Nussbaum is not a historical monument; there is no description.\n3. House no. 5 is mentioned in description no. 7 and indeed belonged to the Laub family.\nJews generally built houses and located their businesses on this street. However, they often sold them among themselves. We must assume that the street is correct, but the number will be problematic. At number 15 was a synagogue, which has survived. <This message was edited>",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-06-01T19:39:00",
+      "date": "01/06/2026",
+      "time": "19:39",
+      "author": "Basia",
+      "body": "No 75. but 64. You have to read the text in two columns, like a newspaper",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-06-01T19:54:00",
+      "date": "01/06/2026",
+      "time": "19:54",
+      "author": "דנה רפפורט",
+      "body": "It is very interesting  🤔  I find myself  looking  for your massages everyday !",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-06-01T19:54:00",
+      "date": "01/06/2026",
+      "time": "19:54",
+      "author": "דנה רפפורט",
+      "body": "Thank you",
       "attachment": null,
       "system": false,
       "lang": "en",

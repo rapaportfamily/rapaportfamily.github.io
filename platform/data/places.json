@@ -555,6 +555,66 @@
       "note_en": "Birthplace of Dr Chanan Rapaport (1928-2022), the Rapaport family genealogist. Regional capital of the voivodeship containing Nadwórna. Two known Rapaport households here in the 1920s — Berisz at Kościuszki 4 (1924), and a Chaim Samuel Rapaport family from 1916 (cousin candidate)."
     },
     {
+      "id": "pl_radomysl_wielki",
+      "names": {
+        "en": "Radomyśl Wielki, Poland",
+        "he": "רדומישל ויילקי",
+        "pl": "Radomyśl Wielki",
+        "fr": "Radomyśl Wielki",
+        "yi": "ראדאמישל"
+      },
+      "coords": [
+        50.1903,
+        21.2353
+      ],
+      "era_context": {
+        "1880s_1939": "Small Galician town between Mielec and Tarnów, in today's Podkarpackie Voivodeship of Poland. Pre-WWII population about 60% Jewish. Notable Jewish institutions: 18th-century brick synagogue and adjacent cemetery on the site of today's bus station; the Katana Yeshiva; Rabbi Chaim Engel's house in the market square; mikveh on Targowa Street.",
+        "1942_1943": "Most Jewish property destroyed. 19 July 1943 — Jewish community exterminated. 1944 — town burned down.",
+        "now": "Town in Podkarpackie Voivodeship, southern Poland — Polish, not Ukrainian."
+      },
+      "note_en": "BIRTHPLACE of Berisz Rapaport (1886, the family patriarch's son who married Rebeka Griffel) and his siblings Alte Leja (1882), Jente (1887), Freida Amalia (1888) and the younger Rebeka (1896). Source: family-built descendants tree of Moses Saul Rapaport + 1924 passport application (USHMM RG-31.064M) which gives Berisz's birthplace as Radomyśl Wielki. Notable for the unusually high proportion of Jewish residents — Radomyśl produced multiple famous figures including: Eliezer Margoshes (writer/historian, descendant of Solomon Luria); Reuven Iceland (Yiddish/Hebrew poet); Samuel Margoshes (Zionist Organization of America chairman); also reportedly the paternal ancestors of Arthur Miller and grandparents of Steven Spielberg."
+    },
+    {
+      "id": "pl_auschwitz",
+      "names": {
+        "en": "Auschwitz (Oświęcim, Poland)",
+        "he": "אושוויץ",
+        "pl": "Oświęcim",
+        "fr": "Auschwitz",
+        "de": "Auschwitz"
+      },
+      "coords": [
+        50.0269,
+        19.2034
+      ],
+      "era_context": {
+        "1940_1945": "Auschwitz I (main camp) opened June 1940; Auschwitz II-Birkenau opened October 1941 as the major extermination site; Auschwitz III-Monowitz opened 1942 as the I.G. Farben slave-labor camp. Approximately 1.1 million people murdered, ~960,000 Jewish."
+      },
+      "note_en": "Where Berisz / Bernard Dov Rapaport (paternal great-grandfather) was murdered. Confirmed by Auschwitz Museum victim database record #188161, transport #689. URL: https://victims.auschwitz.org/victims/188161. His sister Alte Leja Rapaport (m. Turkel) was also murdered at Auschwitz 1942.",
+      "external_urls": [
+        "https://victims.auschwitz.org/victims/188161",
+        "https://victims.auschwitz.org/transports/689"
+      ]
+    },
+    {
+      "id": "pl_olchowce",
+      "names": {
+        "en": "Olchowce (województwo lwowskie)",
+        "he": "אולחובצה",
+        "pl": "Olchowce",
+        "uk": "Вільхівці"
+      },
+      "coords": [
+        49.5599,
+        22.2052
+      ],
+      "era_context": {
+        "1908": "Place where Berisz Rapaport and Rebeka Griffel had their religious marriage, per Edward Gelles's published Griffel-of-Nadworna pedigree. Civil marriage was registered later (21 December 1911 in Nadwórna). Located in interwar Lwów Voivodeship; today a district of Sanok, Poland.",
+        "now": "Northern district of Sanok, Subcarpathian Voivodeship, Poland."
+      },
+      "note_en": "Site of the 1908 religious marriage of Berisz Rapaport × Rebeka Griffel per Edward Gelles's Griffel pedigree. The civil marriage was registered on 21 December 1911 in Nadwórna; the religious wedding (kiddushin) at Olchowce three years earlier is consistent with Jewish-Galician practice where ritual and civil marriages were sometimes separated by years."
+    },
+    {
       "id": "pl_tarnow",
       "names": {
         "en": "Tarnów, Poland",

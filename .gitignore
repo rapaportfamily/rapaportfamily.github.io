@@ -37,3 +37,8 @@ data/archive_searches/
 CC_HEARTBEAT.local.md
 tmp_*.cookies
 *.cookies
+
+# Autonomous CC working files
+_tmp_uploads/
+uploads_tmp.json
+

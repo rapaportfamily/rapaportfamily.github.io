@@ -260,12 +260,12 @@
         "pl": "Rejestracja CKŻP — Szymon Rapaport (1937)",
         "fr": "Enregistrement CKŻP — Szymon Rapaport (1937)"
       },
-      "source_archive": "Central Committee of Polish Jews (Centralny Komitet Żydów w Polsce, CKŻP), post-1945 survivor lists — indexed at Jewish Historical Institute (ŻIH), Warsaw",
+      "source_archive": "Central Committee of Polish Jews (Centralny Komitet Żydów w Polsce, CKŻP) — 'Karta informacyjna o osobach ocalałych' (information card on survivors), Wydział Ewidencji i Statystyki. Filed at Komitet Katowice, 1 July 1946. Card Nr 151337 (red index 2665). Now re-read from the full scan uploaded 18 May 2026 (upload aYoirGSgaPvA18H9qSAm).",
       "translations": {
-        "en": "Szymon Rappaport, son of Lusia and Dawid, year of birth 1937. The CKŻP collected names of Jewish survivors in Poland so families could find each other. Family confirms Shimon's actual DOB as 22.06.1937.",
-        "he": "שמעון רפפורט, בן לוסיה ודוד, שנת לידה 1937. הוועד המרכזי של יהודי פולין אסף שמות של ניצולים יהודים בפולין כדי שמשפחות יוכלו למצוא זה את זה. המשפחה מאשרת שתאריך הלידה האמיתי של שמעון הוא 22.06.1937.",
-        "pl": "Szymon Rappaport, syn Lusi i Dawida, rok urodzenia 1937. CKŻP zbierał nazwiska żydowskich ocalałych w Polsce, aby rodziny mogły się odnaleźć. Rodzina potwierdza rzeczywistą datę urodzenia Szymona jako 22.06.1937.",
-        "fr": "Szymon Rappaport, fils de Lusia et Dawid, année de naissance 1937. Le CKŻP collectait les noms des survivants juifs en Pologne pour que les familles puissent se retrouver. La famille confirme la date de naissance réelle de Szymon : 22.06.1937."
+        "en": "CKŻP survivor information card Nr 151337, filed at the Katowice committee on 1 July 1946. Surname Rappoport; given name Szymon; age/born 22.6.1937 in LWÓW (Lwów written in field 3 — NOT Mosina/Muszyna as family memory held); parents 'Dawid, Lusia'; last known address Katowice. The CKŻP collected names of Jewish survivors in Poland so families could find each other. The legible scan now establishes Lwów as Shimon's stated birthplace and 22.06.1937 as his DOB.",
+        "he": "כרטיס מידע על ניצול של הוועד המרכזי של יהודי פולין מס' 151337, הוגש בוועד קטוביץ ב-1 ביולי 1946. שם משפחה רפפורט; שם פרטי שמעון; גיל/נולד 22.6.1937 בלבוב (כתוב בשדה 3 — ולא מושינה/מוסינה כפי שזכרה המשפחה); הורים 'דוד, לוסיה'; כתובת אחרונה ידועה קטוביץ. הסריקה הקריאה קובעת כעת את לבוב כמקום הלידה המוצהר של שמעון ואת 22.06.1937 כתאריך לידתו.",
+        "pl": "Karta informacyjna CKŻP nr 151337, złożona w komitecie w Katowicach 1 lipca 1946. Nazwisko Rappoport; imię Szymon; wiek/urodzony 22.6.1937 we LWOWIE (w rubryce 3 — NIE Mosina/Muszyna, jak głosiła pamięć rodzinna); rodzice 'Dawid, Lusia'; ostatni znany adres Katowice. Czytelny skan ustala teraz Lwów jako podane miejsce urodzenia Szymona oraz 22.06.1937 jako datę urodzenia.",
+        "fr": "Fiche d'information CKŻP n° 151337, déposée au comité de Katowice le 1er juillet 1946. Nom Rappoport ; prénom Szymon ; âge/né le 22.6.1937 à LWÓW (champ 3 — et NON Mosina/Muszyna comme le voulait la mémoire familiale) ; parents « Dawid, Lusia » ; dernière adresse connue Katowice. Le scan lisible établit désormais Lwów comme lieu de naissance déclaré de Szymon et le 22.06.1937 comme date de naissance."
       },
       "related_people": [
         "p_shimon",
@@ -275,6 +275,37 @@
       "related_events": [
         "e_shimon_birth"
       ],
+      "status": "verified"
+    },
+    {
+      "id": "doc_lea_ckzp",
+      "file_pages": [
+        "Lea and Shimon .pdf"
+      ],
+      "kind": "pdf",
+      "type": "ckzp_registration",
+      "primary_language": "pl",
+      "title": {
+        "en": "CKŻP post-war registration — Lusia (Lea) Rappoport, née Weitzner (1916)",
+        "he": "רישום הוועד המרכזי של יהודי פולין — לוסיה (לאה) רפפורט לבית וייצנר (1916)",
+        "pl": "Rejestracja CKŻP — Lusia (Lea) Rappoport z domu Weitzner (1916)",
+        "fr": "Enregistrement CKŻP — Lusia (Léa) Rappoport, née Weitzner (1916)"
+      },
+      "source_archive": "Central Committee of Polish Jews (CKŻP) — 'Karta informacyjna o osobach ocalałych', Wydział Ewidencji i Statystyki. Filed at Komitet Katowice, 1 July 1946. Card Nr 151738 (red index 3564). This is the long-awaited Lusia ŻIH/CKŻP registration card (research question h_zip_documents). Uploaded 18 May 2026 (upload aYoirGSgaPvA18H9qSAm), combined PDF with Szymon's card; Gemini auto-verification was blocked (RECITATION) so it was processed by CC on 1 June 2026.",
+      "translations": {
+        "en": "CKŻP survivor information card Nr 151738, filed at the Katowice committee on 1 July 1946. Surname Rappoport; given name Lusia; age/born 8.4.1916 in BOLECHÓW; parents 'Eljan, Matylda' (Elias/Eliyahu Weitzner + Matylda/Matel née Weinreb); last known address Katowice. This self-reported survivor registration is a primary source for Leah's date of birth — it states 8 April 1916, matching the day and month of every other record and agreeing on the year with the ŻIH index and the Haifa Chevra Kadisha record (against the 1913 Bolechów civil birth certificate).",
+        "he": "כרטיס מידע על ניצולה של הוועד המרכזי של יהודי פולין מס' 151738, הוגש בוועד קטוביץ ב-1 ביולי 1946. שם משפחה רפפורט; שם פרטי לוסיה; גיל/נולדה 8.4.1916 בבולחוב; הורים 'אליאן, מטילדה' (אליהו וייצנר + מטל לבית ויינרב); כתובת אחרונה ידועה קטוביץ. רישום ניצולה זה, שמולא בידי המשפחה, הוא מקור ראשוני לתאריך הלידה של לאה — הוא מציין 8 באפריל 1916, תואם ליום ולחודש בכל שאר הרשומות ומסכים על השנה עם מפתח ŻIH ועם רשומת חברה קדישא חיפה (כנגד תעודת הלידה האזרחית מבולחוב 1913).",
+        "pl": "Karta informacyjna CKŻP nr 151738, złożona w komitecie w Katowicach 1 lipca 1946. Nazwisko Rappoport; imię Lusia; wiek/urodzona 8.4.1916 w BOLECHOWIE; rodzice 'Eljan, Matylda' (Elias/Eliyahu Weitzner + Matylda/Matel z domu Weinreb); ostatni znany adres Katowice. Ta samodzielnie zgłoszona rejestracja ocalałej jest źródłem pierwotnym dla daty urodzenia Lei — podaje 8 kwietnia 1916, zgodnie z dniem i miesiącem we wszystkich innych zapisach oraz z rokiem w indeksie ŻIH i rejestrze Chewra Kadisza w Hajfie (wbrew cywilnemu aktowi urodzenia z Bolechowa z 1913).",
+        "fr": "Fiche d'information CKŻP n° 151738, déposée au comité de Katowice le 1er juillet 1946. Nom Rappoport ; prénom Lusia ; âge/née le 8.4.1916 à BOLECHÓW ; parents « Eljan, Matylda » (Elias/Eliyahu Weitzner + Matylda/Matel née Weinreb) ; dernière adresse connue Katowice. Cet enregistrement de survivante est une source primaire pour la date de naissance de Léa — il indique le 8 avril 1916, concordant avec le jour et le mois de tous les autres documents et avec l'année de l'index ŻIH et du registre de la Chevra Kadisha de Haïfa (contre l'acte de naissance civil de Bolechów de 1913)."
+      },
+      "related_people": [
+        "p_leah",
+        "p_shimon",
+        "p_david",
+        "p_elias_weitzner",
+        "p_matel_weinreb"
+      ],
+      "related_events": [],
       "status": "verified"
     },
     {
@@ -501,7 +532,7 @@
       "status": "needs_translation"
     },
     {
-      "id": "doc_berisz_passport_1924",
+      "id": "doc_berisz_swiadectwo_kwalifikacyjne_1924",
       "file_pages": [
         "IMG-20260523-WA0001.jpg",
         "IMG-20260523-WA0002.jpg"
@@ -510,7 +541,7 @@
       "type": "passport_application",
       "primary_language": "pl",
       "title": {
-        "en": "Berisz Rapaport — passport application, 29 Feb 1924 (Vienna travel)",
+        "en": "'Świadectwo kwalifikacyjne' (Qualification Certificate) attached to a 1924 passport file — ⚠ likely a DIFFERENT Benzion Rapaport, not our Berisz",
         "he": "ברישז רפפורט — בקשת דרכון, 29 בפברואר 1924 (לוינה)",
         "pl": "Berisz Rapaport — podanie o paszport, 29.02.1924 (do Wiednia)",
         "fr": "Berisz Rapaport — demande de passeport, 29 février 1924 (vers Vienne)"
@@ -530,54 +561,14 @@
         "police_clearance": "No obstacles to issuing a foreign passport"
       },
       "summary": {
-        "en": "PARADIGM-SHIFTING DOCUMENT. This is the source of the 23 May 2026 breakthrough that cracked open the paternal Rapaport line. Before this discovery, even Edward Gelles (25+ years researching the Griffel-Nadwórna dynasty) had only the bare name 'Berish Rapaport' as Rivka Griffel's husband — no parents, no birthplace, no birth date. This 1924 passport application names Berisz's father (Mojżesz Saul Rapaport), his Tarnów origin address, his 1924 Stanisławów residence, and provides ages for both children (Mendel 12, Lotti 8 → confirms David b.1911 and Lota b.~1916). The photo (WA0002) shows resemblance to Dov (Dana's reaction)."
+        "en": "Basia (23 May 2026) transcribed this 'Świadectwo kwalifikacyjne' (qualification certificate) as identifying Berisz Rapaport, son of Mojżesz Saul Rapaport, born Tarnów 6 Aug 1884 as 'Benzion'. On 25 May 2026 Basia found the actual passport application of our Berisz Rapaport (Stanisławów, August 1924, USHMM RG-31.064M) which states he was born 30 July 1886 in Radomyśl Wielki — different city and year. The original 1924 'Świadectwo' transcribed here therefore belongs to a different Benzion Rapaport. Photo and details retained here for audit; should NOT be linked to our Berisz."
       },
-      "related_people": [
-        "p_berisz",
-        "p_david",
-        "p_lota",
-        "p_mojzesz_saul_rapaport"
-      ],
+      "related_people": [],
       "related_hypotheses": [
         "h_paternal_line_tarnow",
         "h_chaim_samuel_cousin"
       ],
-      "status": "verified"
-    },
-    {
-      "id": "doc_berisz_birth_tarnow_1884",
-      "file_pages": [],
-      "kind": "image",
-      "type": "birth_record",
-      "primary_language": "pl",
-      "title": {
-        "en": "Berisz Rapaport — birth certificate, Tarnów 6 Aug 1884 (registered as 'Benzion')",
-        "he": "ברישז רפפורט — תעודת לידה, טרנוב 6 באוגוסט 1884 (נרשם בשם 'בנציון')",
-        "pl": "Berisz Rapaport — akt urodzenia, Tarnów 6.08.1884 (zarejestrowany jako 'Benzion')",
-        "fr": "Berisz Rapaport — acte de naissance, Tarnów 6 août 1884 (enregistré sous 'Benzion')"
-      },
-      "source_archive": "Tarnów Jewish vital records — located 23 May 2026 by Basia. Note: 'nie wszystko z Tarnowa jest on-line' — Basia describes this as a piece of luck. The certificate image itself was not (yet) attached to the chat — only Basia's transcription was shared.",
-      "decoded_fields": {
-        "registered_name": "Benzion",
-        "common_name": "Berisz / Berisch",
-        "date": "6 August 1884",
-        "place": "Tarnów city no. 24",
-        "father": "Mojżesz Rapaport — private teacher (nauczyciel prywatny) in Tarnów",
-        "mother": "Rywka Schiff of Tarnów",
-        "mother_father": "Michał Schiff — merchant (kramarz) of Tarnów",
-        "mother_mother": "Cywie Schiff of Tarnów"
-      },
-      "summary": {
-        "en": "Birth certificate that confirms Berisz Rapaport's full origin in Tarnów (Western Galicia), his civil birth name 'Benzion', and identifies two further generations of ancestors: paternal grandfather Mojżesz Saul Rapaport (private teacher) and Schiff maternal-grandparents Michał + Cywie. Image not yet in family archive — Basia provided transcription only; obtain scan from Tarnów archive."
-      },
-      "related_people": [
-        "p_berisz",
-        "p_mojzesz_saul_rapaport",
-        "p_rywka_schiff",
-        "p_michal_schiff",
-        "p_cywie_schiff"
-      ],
-      "status": "needs_scan"
+      "status": "flagged_different_family"
     },
     {
       "id": "doc_moshe_rapaport_descendants_table",
@@ -588,7 +579,7 @@
       "type": "family_tree_chart",
       "primary_language": "pl",
       "title": {
-        "en": "Descendants table of Moshe Rapaport (family-built tree)",
+        "en": "Descendants table of Moshe Rapaport (early version, superseded by 'Moses Saul Rapaport' tree)",
         "he": "לוח צאצאי משה רפפורט (עץ משפחה משפחתי)",
         "pl": "Tablica potomków Moshe Rapaport (drzewo rodzinne)",
         "fr": "Tableau des descendants de Moshe Rapaport (arbre construit par la famille)"
@@ -630,7 +621,7 @@
         ]
       },
       "summary": {
-        "en": "A family-built genealogy tree (Geni or MyHeritage style export) that places David, Lusia, Lota, Shimon, Dov, Tamar Bugin, Dalya, Ronen, Hadas, Dana, Doron, Daniel in their known generations and dates. The upper generations (apical couple 'Moshe Rapaport + Menucha' with 7 children, plus Avraham's son 'Moshe Rapaport b.1910 Tel Aviv') are NOT verified by any primary document — they may be family oral tradition or filler. Treat the bottom 3 generations as confirmed (matches all family records). Treat the top 2 generations (Moshe + Menucha and their 7 children) as UNVERIFIED — no documentary source ties them to our line."
+        "en": "Original family-built genealogy chart shared by Basia on 23 May 2026. Superseded by the more detailed 'Tablica potomków Moses Saul Rapaport' shared 31 May 2026."
       },
       "verified_part": {
         "gen_4_via_david_oo_leah_1935": [
@@ -658,7 +649,7 @@
         "p_shimon",
         "p_dov_bernard"
       ],
-      "status": "decoded"
+      "status": "superseded"
     },
     {
       "id": "doc_leizor_griffel_auction_1938",
@@ -850,6 +841,361 @@
         "h1_mosina_muszyna"
       ],
       "status": "needs_translation"
+    },
+    {
+      "id": "doc_bernard_dov_yv_pot",
+      "file_pages": [
+        "Bernard Dov Rapaport.pdf"
+      ],
+      "kind": "pdf",
+      "type": "page_of_testimony",
+      "primary_language": "he",
+      "title": {
+        "en": "Yad Vashem Page of Testimony — Bernard Dov Rapaport (filed 1953)",
+        "he": "דף עד יד ושם — ברנרד דב רפפורט (1953)",
+        "pl": "Karta świadectwa Yad Vashem — Bernard Dov Rapaport (1953)",
+        "fr": "Page de témoignage Yad Vashem — Bernard Dov Rapaport (1953)"
+      },
+      "source_archive": "Yad Vashem Central Database of Shoah Victims' Names, record file 90394",
+      "decoded_fields": {
+        "name": "Bernard Dov Rapaport",
+        "year_of_birth": 1888,
+        "place_of_birth": "Radomyśl, Poland",
+        "father": "Moshe",
+        "mother": "Menukha",
+        "occupation": "merchant",
+        "pre_war_residence": "Tarnów, Poland",
+        "during_war": "Przemyśl, Poland",
+        "place_and_year_of_death": "Auschwitz, 1940",
+        "submitter": "family member, 1953"
+      },
+      "summary": {
+        "en": "Primary documentary confirmation of Berisz's parents (Moshe + Menukha) and Holocaust fate (Auschwitz). PoT year of birth (1888) differs from passport application (1886) — the passport is a contemporary primary document and is the more reliable source for date."
+      },
+      "related_people": [
+        "p_berisz",
+        "p_moses_saul_rapaport",
+        "p_menukha"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "doc_regina_rivka_yv_pot",
+      "file_pages": [
+        "Regina Rivka Rapaport.pdf"
+      ],
+      "kind": "pdf",
+      "type": "page_of_testimony",
+      "primary_language": "he",
+      "title": {
+        "en": "Yad Vashem Page of Testimony — Regina Rivka Rapaport (filed 1953)",
+        "he": "דף עד יד ושם — רגינה רבקה רפפורט (1953)",
+        "pl": "Karta świadectwa Yad Vashem — Regina Rivka Rapaport (1953)",
+        "fr": "Page de témoignage Yad Vashem — Regina Rivka Rapaport (1953)"
+      },
+      "source_archive": "Yad Vashem Central Database of Shoah Victims' Names, record file 90395",
+      "decoded_fields": {
+        "name": "Regina Rivka Rapaport",
+        "year_of_birth": 1892,
+        "place_of_birth": "Nadworna, Poland",
+        "father": "Leizer",
+        "mother": "Sara",
+        "occupation": "household",
+        "pre_war_residence": "Przemyśl, Poland",
+        "during_war": "Przemyśl, Poland",
+        "place_and_year_of_death": "unknown, 1943",
+        "submitter": "family member, 1953"
+      },
+      "summary": {
+        "en": "Primary documentary confirmation that Rebecca (Regina Rivka née Griffel) lived in Przemyśl before and during the war, and perished in the Shoah. Year of birth (1892) differs from the Griffel pedigree (1888) — likely an error by the 1953 submitter."
+      },
+      "related_people": [
+        "p_rebeka",
+        "p_leizor_griffel",
+        "p_sara_chajes"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "doc_berisz_passport_application_1924",
+      "file_pages": [
+        "RG-31.064M.0075.00000375-S.JPG",
+        "RG-31.064M.0075.00000378-S.JPG",
+        "RG-31.064M.0075.00000379-S.JPG",
+        "RG-31.064M.0075.00000380-S.JPG"
+      ],
+      "kind": "composite",
+      "type": "passport_application",
+      "primary_language": "pl",
+      "title": {
+        "en": "Berisch Rapaport — passport application + ID renewal (Stanisławów 1924-1927)",
+        "he": "בריש רפפורט — בקשת דרכון וחידוש תעודת זהות (סטניסלאבוב 1924-1927)",
+        "pl": "Berisch Rapaport — podanie o paszport i odnowienie dowodu (Stanisławów 1924-1927)",
+        "fr": "Berisch Rapaport — demande de passeport et renouvellement de carte d'identité"
+      },
+      "source_archive": "USHMM, microfilm collection RG-31.064M, file 0075 (frames 375, 378, 379, 380). Located 25 May 2026 by Basia.",
+      "decoded_fields": {
+        "document_1": "Application for permission to travel abroad, Stanisławów 26 August 1924: 'I, the undersigned Berisch Rapaport, an industrialist residing in Stanisławów since 1918, declare that I am a citizen of the Republic of Poland of the Jewish faith, born in Radomyśl Wielki on July 30, 1886, in proof of which I have my ID card: Stanisławów, November 16, 1922 L/9376/22, and request the issuance of a foreign passport for travel to Vienna. Reason for travel: business.'",
+        "document_2": "Identity-card application, Stanisławów 27 January 1927: 'Bernard Rapaport, born July 30, 1886 in Radomyśl, son of Moses and [illegible mother]. Average height, average build, square face, black eyes, proportionate mouth, healthy teeth.'",
+        "document_3": "Reference docs: '1) Birth certificate dated 25 Feb 1916, Nos. 97. Volume V [illegible] 231 Sp 104. 2) Certificate of membership from Nadwórna 29 Jan 1927, no. 505/27.'",
+        "document_4": "Receipt for passport fee payment.",
+        "address": "Berisch Rapaport, Kościuszki 4, Stanisławów",
+        "occupation": "industrialist (przemyślowiec)",
+        "birthplace": "Radomyśl Wielki",
+        "birth_date": "30 July 1886",
+        "father_name": "Moses",
+        "mother_name": "illegible on document"
+      },
+      "summary": {
+        "en": "DEFINITIVE PRIMARY DOCUMENT establishing Berisz / Bernard Rapaport's identity: born 30 July 1886 in Radomyśl Wielki, son of Moses, industrialist, resident of Stanisławów since 1918, address Kościuszki 4. Located by Basia at USHMM 25 May 2026; this is the source that corrected the earlier confusion with the Tarnów-1884 'Benzion' birth certificate (different family)."
+      },
+      "related_people": [
+        "p_berisz",
+        "p_moses_saul_rapaport"
+      ],
+      "related_events": [],
+      "status": "verified"
+    },
+    {
+      "id": "doc_auschwitz_victim_188161",
+      "file_pages": [],
+      "kind": "external_source",
+      "type": "auschwitz_victim_record",
+      "primary_language": "pl",
+      "title": {
+        "en": "Auschwitz Museum victim record — Bernard Rapaport #188161",
+        "he": "רישום קורבן מוזיאון אושוויץ — ברנרד רפפורט #188161",
+        "pl": "Rekord ofiary Muzeum Auschwitz — Bernard Rapaport #188161",
+        "fr": "Fiche de victime du Musée d'Auschwitz — Bernard Rapaport n° 188161"
+      },
+      "source_archive": "Auschwitz-Birkenau State Museum, Database of victims",
+      "external_urls": [
+        "https://victims.auschwitz.org/victims/188161",
+        "https://victims.auschwitz.org/transports/689"
+      ],
+      "summary": {
+        "en": "Berisz / Bernard Rapaport listed as victim #188161 on transport #689 to Auschwitz. Located by Basia 25 May 2026. The specific date of arrival and death will be available from the museum record once accessed in detail."
+      },
+      "related_people": [
+        "p_berisz"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "doc_moses_saul_descendants_tree",
+      "file_pages": [
+        "6_Tablica potomkow Moses Saul Rapaport.pdf",
+        "Tablica potomkow Moses Saul Rapaport 2.pdf"
+      ],
+      "kind": "pdf",
+      "type": "family_tree_chart",
+      "primary_language": "pl",
+      "title": {
+        "en": "Descendants table of Moses Saul Rapaport (Basia, 31 May 2026)",
+        "he": "לוח צאצאי משה שאול רפפורט (בסיה, 31 במאי 2026)",
+        "pl": "Tablica potomków Moses Saul Rapaport (Basia, 31.05.2026)",
+        "fr": "Tableau des descendants de Moses Saul Rapaport (Basia, 31 mai 2026)"
+      },
+      "source_archive": "Family-built genealogy chart compiled by Basia 31 May 2026 from primary documents and family research. Apical couple: Moses Saul Rapaport (merchant) + Menukha. Five children all born in Radomyśl Wielki: Alte Leja (1882, m. Turkel, Vienna branch), Berish (1886, our line), Jente (1887), Freida Amalia (1888, d. Przemyśl 1942, descendants Nussbaum + Rosenfeld), Rebeka (1896, Austria).",
+      "summary": {
+        "en": "AUTHORITATIVE FAMILY TREE for the paternal Rapaport line: documents Moses Saul Rapaport as patriarch, his 5 children (all born Radomyśl Wielki), and their descendants including David Memek's first cousin Zwi Ayalon Nussbaum (b.1919 Przemyśl, survived to Israel d.2001 Haifa). The Turkel branch (Alte Leja's descendants) lived in Vienna; some perished in the Holocaust (Israel Menachem d.1942 Lwów; Siegfried d.1945 Belgium); others survived (Mordechai/Max d.1997, Rachel/Rosie d.1999)."
+      },
+      "related_people": [
+        "p_moses_saul_rapaport",
+        "p_menukha",
+        "p_berisz",
+        "p_alte_leja_rapaport",
+        "p_jente_rapaport",
+        "p_freida_amalia_rapaport",
+        "p_rebeka_rapaport_sister",
+        "p_zwi_ayalon_nussbaum"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "doc_griffel_dawid_descendants_tree",
+      "file_pages": [
+        "Tablica potomkow Dawid Griffel.pdf"
+      ],
+      "kind": "pdf",
+      "type": "family_tree_chart",
+      "primary_language": "pl",
+      "title": {
+        "en": "Descendants table of Dawid Griffel (Basia, 24 May 2026)",
+        "he": "לוח צאצאי דוד גריפל (24 במאי 2026)",
+        "pl": "Tablica potomków Dawid Griffel (Basia, 24.05.2026)",
+        "fr": "Tableau des descendants de Dawid Griffel"
+      },
+      "source_archive": "Family-built genealogy chart compiled by Basia 24 May 2026, integrating Edward Gelles's published Griffel-of-Nadworna pedigree with newly-found Polish archival data.",
+      "summary": {
+        "en": "Complete maternal-line tree: Dawid Griffel + Tauba → their son Lajzor Griffel (*1850, d.1918) m. 1892 Nadwórna → Sara Matel Chajes (*1851.03.05, d.1940), with 10+ children including Rivka (b.1888) who married Berish Rapaport at Olchowce, woj. lwowskie, in 1908. Connects to well-known Griffel descendants: Yehuda Nir (1930-2014 Manhattan), Sarah Maslin Nir (NYT journalist), Edward Gelles (genealogist)."
+      },
+      "related_people": [
+        "p_rebeka",
+        "p_leizor_griffel",
+        "p_sara_chajes"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "doc_lea_dawid_marriage_1935",
+      "file_pages": [
+        "M_1935_Lea_Weitzner_Dawid_Mendel_Rapoport_B.jpg"
+      ],
+      "kind": "image",
+      "type": "marriage_record",
+      "primary_language": "pl",
+      "title": {
+        "en": "Marriage record — Lea Weitzner × Dawid Mendel Rapoport, 1935 (Bolechów)",
+        "he": "תעודת נישואין — לאה וייצנר × דוד מנדל רפפורט, 1935 (בולוכוב)",
+        "pl": "Akt małżeństwa — Lea Weitzner × Dawid Mendel Rapoport, 1935",
+        "fr": "Acte de mariage — Lea Weitzner × Dawid Mendel Rapoport, 1935"
+      },
+      "source_archive": "Polish vital records, located by Basia May 2026",
+      "summary": {
+        "en": "Primary documentary record of David Memek's marriage to Leah Lusia Weitzner in 1935. Confirms Lusia's memoir account of their marriage."
+      },
+      "related_people": [
+        "p_david",
+        "p_leah"
+      ],
+      "status": "needs_translation"
+    },
+    {
+      "id": "doc_feige_englander_marriage_1932",
+      "file_pages": [
+        "M_ 1932_Feige_Weitzner_Israel_Englander_B.jpg"
+      ],
+      "kind": "image",
+      "type": "marriage_record",
+      "primary_language": "pl",
+      "title": {
+        "en": "Marriage record — Feige Weitzner × Israel Englander, 1932 (Bolechów)",
+        "he": "תעודת נישואין — פייגה וייצנר × ישראל אנגלנדר, 1932",
+        "pl": "Akt małżeństwa — Feige Weitzner × Israel Englander, 1932",
+        "fr": "Acte de mariage — Feige Weitzner × Israel Englander, 1932"
+      },
+      "source_archive": "Polish vital records, located by Basia May 2026",
+      "summary": {
+        "en": "Primary documentary record of Lusia's elder sister Feige (Tzipora) Weitzner marrying Israel Englander in 1932 in Bolechów."
+      },
+      "related_people": [
+        "p_feige"
+      ],
+      "status": "needs_translation"
+    },
+    {
+      "id": "doc_lea_rapaport_divorce_1941",
+      "file_pages": [
+        "1941 rozwod Lea Rapaport.jpg"
+      ],
+      "kind": "image",
+      "type": "court_record",
+      "primary_language": "pl",
+      "title": {
+        "en": "1941 divorce record — Lea Rapaport (?)",
+        "he": "תעודת גירושין 1941 — לאה רפפורט (?)",
+        "pl": "1941 rozwód — Lea Rapaport (?)",
+        "fr": "Divorce 1941 — Lea Rapaport (?)"
+      },
+      "source_archive": "Polish records, shared by Basia May 2026",
+      "summary": {
+        "en": "A 1941 divorce document for a 'Lea Rapaport'. Identity of the Lea has NOT been verified — may or may not refer to Leah Lusia Weitzner-Rapaport (our family). Awaiting Basia's review."
+      },
+      "related_people": [],
+      "status": "unverified"
+    },
+    {
+      "id": "doc_facets_family_history",
+      "file_pages": [
+        "Facets of my Family History. Part 2.pdf"
+      ],
+      "kind": "pdf",
+      "type": "genealogical_paper",
+      "primary_language": "en",
+      "title": {
+        "en": "Facets of my Family History, Part 2 (Edward Gelles)",
+        "he": "פנים בתולדות משפחתי, חלק 2 (אדוארד גלס)",
+        "pl": "Facets of my Family History, Part 2 (Edward Gelles)",
+        "fr": "Facets of my Family History, Part 2 (Edward Gelles)"
+      },
+      "source_archive": "Edward Gelles, published genealogical paper (Balliol College Oxford archives)",
+      "summary": {
+        "en": "Edward Gelles's published genealogical research on the extended Griffel-Chajes family, which includes the Rapaport branch via Berisz × Rebeka Griffel."
+      },
+      "related_people": [
+        "p_rebeka",
+        "p_leizor_griffel"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "doc_gelles_horowitz_chajes",
+      "file_pages": [
+        "GellesHorowitzChajes.pdf"
+      ],
+      "kind": "pdf",
+      "type": "genealogical_paper",
+      "primary_language": "en",
+      "title": {
+        "en": "Gelles — Horowitz–Chajes connections",
+        "he": "גלס — קשרי משפחות הורוביץ–חיות",
+        "pl": "Gelles — Horowitz-Chajes",
+        "fr": "Gelles — Horowitz-Chajes"
+      },
+      "source_archive": "Edward Gelles, published genealogical paper",
+      "summary": {
+        "en": "Edward Gelles's research on the Horowitz and Chajes rabbinical families. Sara Matel Chajes (Rebeka's mother) was from this line."
+      },
+      "related_people": [
+        "p_sara_chajes"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "doc_gelles_shapiro_friedman",
+      "file_pages": [
+        "GellesShapiroFriedman.pdf"
+      ],
+      "kind": "pdf",
+      "type": "genealogical_paper",
+      "primary_language": "en",
+      "title": {
+        "en": "Gelles — Shapiro–Friedman connections",
+        "he": "גלס — קשרי משפחות שפירא–פרידמן",
+        "pl": "Gelles — Shapiro-Friedman",
+        "fr": "Gelles — Shapiro-Friedman"
+      },
+      "source_archive": "Edward Gelles, published genealogical paper",
+      "summary": {
+        "en": "Edward Gelles's research on the Shapiro and Friedman rabbinical families and their connections to the Griffel-Chajes-Rapaport network."
+      },
+      "related_people": [],
+      "status": "verified"
+    },
+    {
+      "id": "doc_zvi_ayalon_nussbaum_photo",
+      "file_pages": [
+        "Zvi Hirsch Heschu Ayalon (Nussbaum).jfif"
+      ],
+      "kind": "image",
+      "type": "photograph",
+      "primary_language": "he",
+      "title": {
+        "en": "Photo — Zwi (Hirsch Heschel) Ayalon Nussbaum, David Memek's first cousin",
+        "he": "תמונה — צבי איילון (נוסבאום), בן דודו של דוד ממק",
+        "pl": "Zdjęcie — Zwi Ayalon Nussbaum, kuzyn Dawida",
+        "fr": "Photo — Zwi Ayalon Nussbaum"
+      },
+      "source_archive": "Israeli family archive",
+      "summary": {
+        "en": "Photograph of Zwi Ayalon (born Nussbaum) — David Memek's paternal first cousin, b.1919 Przemyśl, d.2001 Haifa. Son of Berisz's sister Freida Amalia Rapaport."
+      },
+      "related_people": [
+        "p_zwi_ayalon_nussbaum",
+        "p_freida_amalia_rapaport"
+      ],
+      "status": "verified"
     }
   ],
   "additional_files": [
