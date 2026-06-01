@@ -3678,6 +3678,14 @@
           ]
         },
         {
+          "key": "community_role",
+          "value": "Served on the Radomyśl Wielki Jewish community Board of Trustees from 1897-1900 and again 1901-1905, per the Radomyśl Wielki Yizkor Book (Part I) hosted on JewishGen — listed as 'Moshe Rappaport'. Identification with our Moses Saul is very likely (matches town + period + status as merchant family head with five children born in Radomyśl Wielki 1882-1896) but not 100% certain; a second Moshe Rappaport in the same town would resolve to a different person.",
+          "confidence": "documented",
+          "sources": [
+            "src_radomysl_yizkor_book_part_1"
+          ]
+        },
+        {
           "key": "kohanic_lineage",
           "value": "Kohen (priestly descent) per family tradition; consistent with the \"ha-Cohen\" patronymic on related Rapaport tombstones in Tarnów.",
           "confidence": "family_oral",
