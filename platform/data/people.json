@@ -447,7 +447,7 @@
         "שמעון"
       ],
       "role": "uncle",
-      "note_en": "Older brother of Dov. Uncle to Doron, Dana and Daniel. Survived the war as a child. Married Tamar; father of Ronen (older) and Hadas. Deceased — exact date to be confirmed via Haifa Chevra Kadisha (53 male Rapaports in their records) or Misrad HaPnim.",
+      "note_en": "Older brother of Dov. Uncle to Doron, Dana and Daniel. Survived the Holocaust as a child with his mother Lusia (who hid as 'Maria Cizlik' in Lwów). Post-war journalist: served for many years as senior Northern-region correspondent at the Israeli daily 'Ma'ariv' (מעריב), covering security/defense events, industry, society and regional economics. Married Tamar Bugin; father of Ronen (older) and Hadas. Deceased ('ז\"ל').",
       "birth": {
         "date": "1937-06-22",
         "date_precision": "day",
@@ -494,10 +494,26 @@
         },
         {
           "key": "marriage",
-          "value": "Married Tamar; two children Ronen (older son) and Hadas (younger sister)",
+          "value": "Married Tamar Bugin; two children Ronen (older son) and Hadas (younger sister)",
           "confidence": "family_oral",
           "sources": [
             "oral_doron_20may"
+          ]
+        },
+        {
+          "key": "profession",
+          "value": "Senior Northern-region correspondent at Ma'ariv (מעריב) newspaper for many years. Covered security/defense events, industry, society and regional economics.",
+          "confidence": "documented",
+          "sources": [
+            "src_family_hebrew_summary_2026_06_01"
+          ]
+        },
+        {
+          "key": "maariv_1990",
+          "value": "Ma'ariv archives, 30 August 1990 (page 81, article 5) — National Library of Israel newspaper search returns this entry for 'שמעון רפפורט'. Date is one day after David Memek's death (29 Aug 1990), consistent with Shimon being named in his father's obituary / death notice. URL: https://www.nli.org.il/he/newspapers/mar/1990/08/30/01/article/81.5/",
+          "confidence": "documented",
+          "sources": [
+            "src_nli_maariv_archive"
           ]
         },
         {
@@ -509,7 +525,14 @@
             "src_wikipedia_rapoport_family"
           ]
         }
-      ]
+      ],
+      "death": {
+        "date": null,
+        "date_precision": "unknown",
+        "place_id": "pl_haifa",
+        "confidence": "family_oral",
+        "note_en": "Deceased — Hebrew family summary uses the honorific 'ז\"ל' (of blessed memory). Exact death date not yet recorded. To confirm via Haifa Chevra Kadisha records or Bituach Leumi index."
+      }
     },
     {
       "id": "p_tamar",
