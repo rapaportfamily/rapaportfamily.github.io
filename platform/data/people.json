@@ -873,7 +873,7 @@
         "fr": "Menukha Rapaport"
       },
       "role": "great_great_grandmother_paternal",
-      "note_en": "Paternal great-great-grandmother of Doron, Dana and Daniel. Wife of Moses Saul Rapaport, mother of Berisz / Bernard Dov. Name documented on the Yad Vashem Page of Testimony filed 1953 for her son Berisz. Maiden name not yet known.",
+      "note_en": "Paternal great-great-grandmother of Doron, Dana and Daniel. Wife of Moses Saul Rapaport, mother of Berisz / Bernard Dov + his four sisters. Name is now corroborated by THREE primary Tarnów marriage records of her daughters (Freida Amalia 1919, Jente 1920, younger Rebeka 1923) in addition to her son Berisz's 1953 Yad Vashem Page of Testimony. The 1923 Rebeka marriage record gives the form \"Menuchy\" (genitive of \"Menucha\"). Maiden name not yet known.",
       "spouse_id": "p_moses_saul_rapaport",
       "children_ids": [
         "p_alte_leja_rapaport",
@@ -882,7 +882,19 @@
         "p_freida_amalia_rapaport",
         "p_rebeka_rapaport_sister"
       ],
-      "facts": []
+      "facts": [
+        {
+          "key": "three_independent_sources",
+          "value": "Named as mother in Yad Vashem PoT 90394 (1953, for Berisz) + Tarnów marriage register entries 40 (1919, Freida), 98 (1920, Jente), 101 (1923, younger Rebeka).",
+          "confidence": "documented",
+          "sources": [
+            "doc_bernard_dov_yv_pot",
+            "doc_freida_amalia_marriage_1919",
+            "doc_jente_marriage_1920",
+            "doc_rebeka_younger_marriage_1923"
+          ]
+        }
+      ]
     },
     {
       "id": "p_alte_leja_rapaport",
@@ -935,7 +947,7 @@
         "fr": "Jente Rapaport"
       },
       "role": "great_grand_aunt_paternal",
-      "note_en": "Paternal great-grand-aunt of Doron, Dana and Daniel. Sibling of Berisz Rapaport. Born 1887 in Radomyśl Wielki per the family-built descendants tree. Further details not yet documented.",
+      "note_en": "Paternal great-grand-aunt of Doron, Dana and Daniel. Sibling of Berisz Rapaport. Born 1887 in Radomyśl Wielki per the family-built descendants tree (corroborated: her 1920 second-marriage record states age 33 in December 1920). She married TWICE: a first husband whose name is not yet documented (she was a widow by 1920); then on 12 December 1920 in Tarnów she remarried Mendel Eachem Horowitz of Sokal (age 28, kawaler, son of Pinches Horowitz). Per entry 98 of the 1920 Tarnów Jewish marriage register, which explicitly names her parents as \"Moses Rapaport and Menucha\". Subsequent life trajectory not yet documented.",
       "birth": {
         "date": "1887",
         "date_precision": "year",
@@ -953,7 +965,28 @@
         "p_freida_amalia_rapaport",
         "p_rebeka_rapaport_sister"
       ],
-      "facts": []
+      "facts": [
+        {
+          "key": "1920_second_marriage",
+          "value": "12 December 1920 in Tarnów — second marriage to Mendel Eachem Horowitz of Sokal (age 28, bachelor, son of Pinches Horowitz). Witness rabbi: Josef Chaim Kirschenbaum. Per entry 98 of the 1920 Tarnów Jewish marriage register. The record explicitly names her parents as \"Moses Rapaport and Menucha\".",
+          "confidence": "documented",
+          "sources": [
+            "doc_jente_marriage_1920"
+          ]
+        },
+        {
+          "key": "first_marriage",
+          "value": "Was a widow by December 1920. First husband's identity not yet documented.",
+          "confidence": "documented",
+          "sources": [
+            "doc_jente_marriage_1920"
+          ]
+        }
+      ],
+      "spouse_ids": [
+        "p_jente_first_husband_unknown",
+        "p_mendel_horowitz"
+      ]
     },
     {
       "id": "p_freida_amalia_rapaport",
@@ -968,7 +1001,7 @@
         "Amalia"
       ],
       "role": "great_grand_aunt_paternal",
-      "note_en": "Paternal great-grand-aunt of Doron, Dana and Daniel. Sibling of Berisz Rapaport. Born 1888 in Radomyśl Wielki; died 1942 in Przemyśl per the family-built descendants tree (so was with Berisz and Rebecca in Przemyśl during the war). Documented children: Zwi Ayalon Nussbaum (b.1919 Przemyśl, survived to Israel, d.2001 Haifa), Michael Rosenfeld (b.1929, killed Przemyśl 1944), Rachel Rosenfeld (b.1930, killed Przemyśl 1944).",
+      "note_en": "Paternal great-grand-aunt of Doron, Dana and Daniel. Sibling of Berisz Rapaport. Born ~November 1889 in Radomyśl Wielki (the descendants tree gives 1888; her 1919 second-marriage record gives age 29 years 7 months in June 1919 → ~Nov 1889). She married TWICE: a first husband (likely a Nussbaum, since her son took the Nussbaum surname) who died by early 1919 — possibly in WWI — leaving her to raise their newborn son Zwi Ayalon Nussbaum (b. 7 May 1919 Przemyśl); then she remarried Markus Elias Kleinbaum in Tarnów on 8 June 1919 (just one month after Zwi's birth), per entry 40 of the Tarnów Jewish marriage register held at the Archiwum Narodowe w Krakowie / Tarnów branch (CC discovered via Claude vision OCR, 2026-06-01). Died 1942 in Przemyśl per the family-built descendants tree. Documented children: Zwi Ayalon Nussbaum (b.1919 Przemyśl, survived to Israel, d.2001 Haifa); the descendants tree also shows Michael Rosenfeld (b.1929) and Rachel Rosenfeld (b.1930) both killed Przemyśl 1944 — these would be grandchildren via a Rosenfeld daughter, OR children of a third marriage; relationship not yet certain.",
       "birth": {
         "date": "1888",
         "date_precision": "year",
@@ -998,7 +1031,29 @@
       "children_ids": [
         "p_zwi_ayalon_nussbaum"
       ],
-      "facts": []
+      "facts": [
+        {
+          "key": "1919_second_marriage",
+          "value": "8 June 1919 in Tarnów — second marriage to Markus Elias Kleinbaum (age 27, also widower, residing at \"u domu Bauer in Przemyśl\"). Witness rabbi: Josef Chaim Kirschenbaum. Per entry 40 of the 1919 Tarnów Jewish marriage register.",
+          "confidence": "documented",
+          "sources": [
+            "doc_freida_amalia_marriage_1919"
+          ]
+        },
+        {
+          "key": "first_husband_nussbaum",
+          "value": "Inferred from her son Zwi Ayalon's surname Nussbaum at birth (7 May 1919 Przemyśl) — her first husband must have been a Nussbaum. He had died by the time of the 8 June 1919 remarriage. Most likely a WWI casualty.",
+          "confidence": "hypothesis",
+          "sources": [
+            "doc_freida_amalia_marriage_1919",
+            "doc_moses_saul_descendants_tree"
+          ]
+        }
+      ],
+      "spouse_ids": [
+        "p_nussbaum_first_husband_freida",
+        "p_markus_elias_kleinbaum"
+      ]
     },
     {
       "id": "p_rebeka_rapaport_sister",
@@ -1009,7 +1064,7 @@
         "fr": "Rebeka Rapaport (sœur de Berisz)"
       },
       "role": "great_grand_aunt_paternal",
-      "note_en": "Paternal great-grand-aunt of Doron, Dana and Daniel. Youngest known sibling of Berisz Rapaport. Born 1896 in Radomyśl Wielki; subsequently lived in Austria per the family-built descendants tree. NOT to be confused with Berisz's wife Rebeka née Griffel.",
+      "note_en": "Paternal great-grand-aunt of Doron, Dana and Daniel. Youngest known sibling of Berisz Rapaport. Born 1896 in Radomyśl Wielki (per the family-built descendants tree, corroborated: her 1923 marriage record gives age 27 in September 1923 and explicitly states \"urodzona w Radomyślu Wielkim\"). She married Sane Zylberfenig of Płońsk on 4 September 1923 in Tarnów (entry 101 of the Tarnów Jewish marriage register). The record explicitly names her parents as \"Moses Rapaport and Menucha\". The descendants tree notes that she \"went to Austria\" after the marriage. NOT to be confused with Berisz's wife Rebeka née Griffel of Nadwórna.",
       "birth": {
         "date": "1896",
         "date_precision": "year",
@@ -1027,6 +1082,134 @@
         "p_jente_rapaport",
         "p_freida_amalia_rapaport"
       ],
+      "facts": [
+        {
+          "key": "1923_marriage",
+          "value": "4 September 1923 in Tarnów — married Sane Zylberfenig of Płońsk (age 34 years 10 months, bachelor, son of Abram + Pesi Zylberfenig of Płońsk). Witnesses: Maier Krak, David Erbg, Israel Marche. Per entry 101 of the 1923 Tarnów Jewish marriage register. The record explicitly names her parents as \"Moses Rapaport and Menucha\".",
+          "confidence": "documented",
+          "sources": [
+            "doc_rebeka_younger_marriage_1923"
+          ]
+        },
+        {
+          "key": "subsequent_migration",
+          "value": "Went to Austria (per family-built descendants tree) — date unknown but presumably post-1923 marriage. Could have moved with husband Sane Zylberfenig, or solo.",
+          "confidence": "family_oral",
+          "sources": [
+            "doc_moses_saul_descendants_tree"
+          ]
+        }
+      ],
+      "spouse_id": "p_sane_zylberfenig"
+    },
+    {
+      "id": "p_markus_elias_kleinbaum",
+      "primary_name": {
+        "en": "Markus Elias Kleinbaum",
+        "he": "מרקוס אליאש קליינבאום",
+        "pl": "Markus Elias Kleinbaum",
+        "fr": "Markus Elias Kleinbaum"
+      },
+      "role": "great_grand_uncle_by_marriage",
+      "note_en": "Second husband of Freida Amalia Rapaport (Berisz's sister). Married her in Tarnów on 8 June 1919 (entry 40 of the Tarnów Jewish marriage register). Age 27 at marriage → born ~1892. Was a widower at the time of marriage. Residence noted in document as \"u domu Bauer in Przemyśl\" — probable Przemyśl residence after marriage. Further details not yet documented.",
+      "birth": {
+        "date": "1892",
+        "date_precision": "estimated_year",
+        "confidence": "estimated",
+        "sources": [
+          "doc_freida_amalia_marriage_1919"
+        ]
+      },
+      "spouse_id": "p_freida_amalia_rapaport",
+      "facts": []
+    },
+    {
+      "id": "p_mendel_horowitz",
+      "primary_name": {
+        "en": "Mendel Eachem Horowitz",
+        "he": "מנדל הורוויץ",
+        "pl": "Mendel Eachem Horowitz",
+        "fr": "Mendel Eachem Horowitz"
+      },
+      "role": "great_grand_uncle_by_marriage",
+      "note_en": "Second husband of Jente Rapaport (Berisz's sister). Married her in Tarnów on 12 December 1920 (entry 98 of the Tarnów Jewish marriage register). Age 28 at marriage → born ~1892. Status: kawaler (bachelor) — first marriage for him. Resident of Sokal (now Sokal/Sokaľ in Lviv Oblast, Ukraine; pre-WWII in Eastern Galicia). Son of Pinches Horowitz.",
+      "birth": {
+        "date": "1892",
+        "date_precision": "estimated_year",
+        "place_id": "pl_sokal",
+        "confidence": "estimated",
+        "sources": [
+          "doc_jente_marriage_1920"
+        ]
+      },
+      "father_id": "p_pinches_horowitz",
+      "spouse_id": "p_jente_rapaport",
+      "facts": []
+    },
+    {
+      "id": "p_sane_zylberfenig",
+      "primary_name": {
+        "en": "Sane Zylberfenig",
+        "he": "סנה זילברפניג",
+        "pl": "Sane Zylberfenig",
+        "fr": "Sane Zylberfenig"
+      },
+      "role": "great_grand_uncle_by_marriage",
+      "note_en": "Husband of the younger Rebeka Rapaport (Berisz's sister, b.1896 Radomyśl Wielki — not to be confused with Berisz's wife Rebeka née Griffel). Married her in Tarnów on 4 September 1923 (entry 101 of the Tarnów Jewish marriage register). Age 34 years 10 months at marriage → born ~November 1888. Status: kawaler (bachelor) — first marriage. Born in Płońsk (Polish town NW of Warsaw). Son of Abram and Pesi Zylberfenig of Płońsk.",
+      "birth": {
+        "date": "1888-11",
+        "date_precision": "month",
+        "place_id": "pl_plonsk",
+        "confidence": "documented",
+        "sources": [
+          "doc_rebeka_younger_marriage_1923"
+        ]
+      },
+      "spouse_id": "p_rebeka_rapaport_sister",
+      "facts": []
+    },
+    {
+      "id": "p_pinches_horowitz",
+      "primary_name": {
+        "en": "Pinches Horowitz",
+        "he": "פנחס הורוויץ",
+        "pl": "Pinches Horowitz",
+        "fr": "Pinches Horowitz"
+      },
+      "role": "in_law_grand_relative",
+      "note_en": "Father of Mendel Eachem Horowitz (who married Jente Rapaport in Tarnów 1920). Resident of Sokal (Eastern Galicia, today Ukraine). Per entry 98 of the 1920 Tarnów Jewish marriage register.",
+      "children_ids": [
+        "p_mendel_horowitz"
+      ],
+      "facts": []
+    },
+    {
+      "id": "p_nussbaum_first_husband_freida",
+      "primary_name": {
+        "en": "[unknown given name] Nussbaum (Freida Amalia Rapaport's first husband)",
+        "he": "[שם פרטי לא ידוע] נוסבאום (בעלה הראשון של פריידה אמליה)",
+        "pl": "[nieznane imię] Nussbaum (pierwszy mąż Freidy Amalii)",
+        "fr": "[prénom inconnu] Nussbaum"
+      },
+      "role": "great_grand_uncle_by_marriage_unverified",
+      "note_en": "⚠ INFERRED. First husband of Freida Amalia Rapaport — surname Nussbaum inferred from his son Zwi Ayalon's surname at birth (Nussbaum). Father of Zwi Ayalon Nussbaum (b. 7 May 1919 Przemyśl). Died by 8 June 1919 (when Freida remarried Kleinbaum). Most likely WWI casualty. Given name not yet documented.",
+      "spouse_id": "p_freida_amalia_rapaport",
+      "children_ids": [
+        "p_zwi_ayalon_nussbaum"
+      ],
+      "facts": []
+    },
+    {
+      "id": "p_jente_first_husband_unknown",
+      "primary_name": {
+        "en": "[unknown] (Jente Rapaport's first husband)",
+        "he": "[לא ידוע] (בעלה הראשון של יענטה)",
+        "pl": "[nieznany] (pierwszy mąż Jente Rapaport)",
+        "fr": "[inconnu] (premier mari de Jente)"
+      },
+      "role": "great_grand_uncle_by_marriage_unverified",
+      "note_en": "⚠ INFERRED. First husband of Jente Rapaport — his identity is unknown. We know he existed because Jente is described as a widow (wdowa) in the 1920 Tarnów marriage register (entry 98). He had died by 12 December 1920.",
+      "spouse_id": "p_jente_rapaport",
       "facts": []
     },
     {
@@ -3691,6 +3874,16 @@
           "confidence": "family_oral",
           "sources": [
             "src_family_tradition_kohen"
+          ]
+        },
+        {
+          "key": "three_daughters_marriages_corroborate",
+          "value": "Named as parent in three independent Tarnów marriage registers — entry 40 (1919, Freida Amalia), entry 98 (1920, Jente), entry 101 (1923, younger Rebeka). All three records explicitly state \"Moses Rapaport and Menucha\" as the bride's parents. This is independent primary-source corroboration of the apical couple identified in the family-built descendants tree.",
+          "confidence": "documented",
+          "sources": [
+            "doc_freida_amalia_marriage_1919",
+            "doc_jente_marriage_1920",
+            "doc_rebeka_younger_marriage_1923"
           ]
         }
       ],

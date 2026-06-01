@@ -839,6 +839,41 @@
       "significance_pl": "Miejsce, gdzie w latach 1946-1947 brytyjski statek kablowy HMS Guardian został przebudowany na transport około 2 600 ma'apilim przed przemianowaniem na 'Theodor Herzl'.",
       "significance_fr": "Lieu où le câblier britannique HMS Guardian (construit en 1907 à Newcastle) fut réaménagé en 1946-1947 pour environ 2 600 passagers avant d'être rebaptisé « Theodor Herzl ».",
       "important_events_ids": []
+    },
+    {
+      "id": "pl_sokal",
+      "names": {
+        "en": "Sokal (now Sokalʹ, Ukraine)",
+        "he": "סוקאל",
+        "pl": "Sokal",
+        "fr": "Sokal",
+        "uk": "Сокаль"
+      },
+      "coords": [
+        50.487,
+        24.2851
+      ],
+      "era_context": {
+        "1920": "Town in Eastern Galicia (interwar Lwów Voivodeship, Poland). Home of Mendel Eachem Horowitz, second husband of Jente Rapaport (1920 marriage in Tarnów)."
+      },
+      "note_en": "Home of the Horowitz family who married into our paternal line (Mendel × Jente Rapaport, 1920)."
+    },
+    {
+      "id": "pl_plonsk",
+      "names": {
+        "en": "Płońsk, Poland",
+        "he": "פלוצק",
+        "pl": "Płońsk",
+        "fr": "Płońsk"
+      },
+      "coords": [
+        52.6242,
+        20.3729
+      ],
+      "era_context": {
+        "1888": "Town in central Poland NW of Warsaw, Mazovian Voivodeship. Home of the Zylberfenig family who married into our paternal line (Sane × younger Rebeka Rapaport, 1923)."
+      },
+      "note_en": "Home of the Zylberfenig family. Sane Zylberfenig (b. Nov 1888 Płońsk, son of Abram + Pesi) married Berisz's sister Rebeka in Tarnów 1923."
     }
   ]
 }

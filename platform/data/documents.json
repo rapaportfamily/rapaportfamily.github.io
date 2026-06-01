@@ -1424,6 +1424,107 @@
           "Zvi Hirsch Heschu Ayalon (Nussbaum).jfif"
         ]
       }
+    },
+    {
+      "id": "doc_freida_amalia_marriage_1919",
+      "file_pages": [
+        "1919 Nussbaum Rapaport T.jpg"
+      ],
+      "kind": "image",
+      "type": "marriage_record",
+      "primary_language": "pl",
+      "title": {
+        "en": "Marriage register Tarnów 1919, entry 40 — Freida Amalia Rapaport (widow) × Markus Elias Kleinbaum, 8 June 1919",
+        "he": "תעודת נישואין טרנוב 1919, רשומה 40 — פריידה אמליה רפפורט (אלמנה) × מרקוס אליאש קליינבאום, 8 ביוני 1919",
+        "pl": "Akt małżeństwa Tarnów 1919, poz. 40 — Freida Amalia Rapaport (wdowa) × Markus Elias Kleinbaum, 8.06.1919",
+        "fr": "Acte de mariage Tarnów 1919, n° 40"
+      },
+      "source_archive": "Archiwum Narodowe w Krakowie, Oddział w Tarnowie — Tarnów Jewish marriage register, page including entries 40-42",
+      "decoded_fields": {
+        "entry_number": 40,
+        "date": "8 June 1919, Tarnów",
+        "bride": "Freida Amalia Rapaport, wdowa (widow), age 29 years 7 months",
+        "groom": "Markus Elias Kleinbaum, widower, age 27, \"u domu Bauer in Przemyśl\"",
+        "witness_rabbi": "Josef Chaim Kirschenbaum, rabbi in Tarnów"
+      },
+      "summary": {
+        "en": "Second marriage of Berisz's sister Freida Amalia Rapaport. Read via Claude vision OCR (Tesseract handled handwriting poorly). Confirms her widowed status as of June 1919 — her first husband (likely a Nussbaum, since her son Zwi Ayalon kept that surname) had died by then, possibly in WWI."
+      },
+      "related_people": [
+        "p_freida_amalia_rapaport",
+        "p_markus_elias_kleinbaum"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "doc_jente_marriage_1920",
+      "file_pages": [
+        "1920 Horowitz Rapaport T.jpg"
+      ],
+      "kind": "image",
+      "type": "marriage_record",
+      "primary_language": "pl",
+      "title": {
+        "en": "Marriage register Tarnów 1920, entry 98 — Jente Rapaport (widow) × Mendel Horowitz of Sokal, 12 December 1920",
+        "he": "תעודת נישואין טרנוב 1920, רשומה 98 — יענטה רפפורט (אלמנה) × מנדל הורוויץ מסוקאל, 12 בדצמבר 1920",
+        "pl": "Akt małżeństwa Tarnów 1920, poz. 98 — Jente Rapaport (wdowa) × Mendel Horowitz z Sokala, 12.12.1920",
+        "fr": "Acte de mariage Tarnów 1920, n° 98"
+      },
+      "source_archive": "Archiwum Narodowe w Krakowie, Oddział w Tarnowie — Tarnów Jewish marriage register, page including entries 97-99",
+      "decoded_fields": {
+        "entry_number": 98,
+        "date": "12 December 1920, Tarnów",
+        "bride": "Jente Rapaport, wdowa (widow), age 33, daughter of 'Moses Rapaport and Menucha'",
+        "groom": "Mendel Eachem Horowitz, kawaler (bachelor), age 28, son of Pinches Horowitz, resident of Sokal",
+        "witness_rabbi": "Josef Chaim Kirschenbaum, rabbi in Tarnów"
+      },
+      "summary": {
+        "en": "Second marriage of Berisz's sister Jente Rapaport. CRITICAL: explicitly names her parents as 'Moses Rapaport and Menucha' — direct primary-source corroboration of our apical couple."
+      },
+      "related_people": [
+        "p_jente_rapaport",
+        "p_mendel_horowitz",
+        "p_moses_saul_rapaport",
+        "p_menukha"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "doc_rebeka_younger_marriage_1923",
+      "file_pages": [
+        "1923 Zylberfenig Rapaport T.jpg"
+      ],
+      "kind": "image",
+      "type": "marriage_record",
+      "primary_language": "pl",
+      "title": {
+        "en": "Marriage register Tarnów 1923, entry 101 — Rebeka Rapaport (b. Radomyśl Wielki) × Sane Zylberfenig of Płońsk, 4 September 1923",
+        "he": "תעודת נישואין טרנוב 1923, רשומה 101 — רבקה רפפורט × סנה זילברפניג מפלוצק, 4 בספטמבר 1923",
+        "pl": "Akt małżeństwa Tarnów 1923, poz. 101 — Rebeka Rapaport × Sane Zylberfenig z Płońska, 4.09.1923",
+        "fr": "Acte de mariage Tarnów 1923, n° 101"
+      },
+      "source_archive": "Archiwum Narodowe w Krakowie, Oddział w Tarnowie — Tarnów Jewish marriage register, page including entries 100-102",
+      "decoded_fields": {
+        "entry_number": 101,
+        "date": "4 September 1923, Tarnów",
+        "bride": "Rebeka Rapaport, wolna (single), age 27, born Radomyśl Wielki, daughter of 'Moses Rapaport and Menucha'",
+        "groom": "Sane Zylberfenig, kawaler (bachelor), age 34 years 10 months, born Płońsk, son of Abram + Pesi Zylberfenig",
+        "witnesses": [
+          "Maier Krak",
+          "David Erbg",
+          "Israel Marche"
+        ]
+      },
+      "summary": {
+        "en": "First marriage of Berisz's youngest sister Rebeka (b.1896, NOT to be confused with Berisz's wife Rebeka née Griffel). Explicitly confirms her birth at Radomyśl Wielki AND names her parents as 'Moses Rapaport and Menucha'. Third independent primary-source confirmation of our apical couple."
+      },
+      "related_people": [
+        "p_rebeka_rapaport_sister",
+        "p_sane_zylberfenig",
+        "p_moses_saul_rapaport",
+        "p_menukha"
+      ],
+      "status": "verified"
     }
   ],
   "additional_files": [
