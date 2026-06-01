@@ -1525,6 +1525,44 @@
         "p_menukha"
       ],
       "status": "verified"
+    },
+    {
+      "id": "doc_jewishgen_ten_ghettos_lotte_rapaport",
+      "file_pages": [
+        "IMG-20260525-WA0015.jpg",
+        "IMG-20260525-WA0016.jpg"
+      ],
+      "kind": "composite",
+      "type": "ghetto_record",
+      "primary_language": "en",
+      "title": {
+        "en": "Ancestry / JewishGen — Lotte Rapaport in Krakow ghetto 1940 (East Europe Ten Ghettos DB)",
+        "he": "אסתרי / ג'ושג'ן — לוטה רפפורט בגטו קרקוב 1940",
+        "pl": "Ancestry / JewishGen — Lotte Rapaport w gettcie krakowskim 1940",
+        "fr": "Ancestry / JewishGen — Lotte Rapaport au ghetto de Cracovie 1940"
+      },
+      "source_archive": "JewishGen.org Volunteers, comp. 'East Europe, Registers and Listings from Ten Jewish Ghettos, 1939-1942' [database on-line]. Provo, UT: Ancestry.com Operations Inc, 2008. Original data: Lists of Jews in 10 ghettos including Balta (1941), Daugavpils (1941), Kozienice (1939-1942), Kraków (1940), Łódź (1940-1944), Lublin (1942), Lvov (1942-1945), Pinsk (1941-1942), Tirgu Mures (1945), Vilnius (1942). Discovered by Dana Rapaport 25 May 2026.",
+      "decoded_fields": {
+        "ghetto": "Kraków",
+        "name": "Lotte Rapaport",
+        "birth_year": 1915,
+        "document_year": 1940,
+        "reel": 13,
+        "list_number": 177,
+        "entry_number": 72
+      },
+      "summary": {
+        "en": "Earliest documented record of our Lota Rapaport under Nazi rule. The birth year 1915 in this Ancestry record matches the family's records exactly (per Berisz's 1924 passport, Lota = Lottr age 8 → born ~1915-1916). The Krakow ghetto registration 1940 predates by ~2 years the betrayal and arrest in Lwów that Lusia's memoir describes. Full source record (parents' names, spouse, address, occupation) should be retrieved via the Ancestry citation Reel 13 / List 177 / Entry 72."
+      },
+      "related_people": [
+        "p_lota"
+      ],
+      "status": "verified",
+      "related_action_items": [
+        "Doron/Dana: pull the full Ancestry record (Reel 13, List 177, Entry 72) for parents/spouse/address",
+        "Cross-check Lota in Krakow 1940 against the Krakow ghetto Judenrat residents list (Ringelblum archive)",
+        "Yad Vashem PoT should be filed for Lota with this verified data point"
+      ]
     }
   ],
   "additional_files": [

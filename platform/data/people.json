@@ -645,7 +645,7 @@
         "fr": "Lota Rapaport"
       },
       "role": "great_aunt",
-      "note_en": "David's sister. Lived in the Lwów ghetto with her family. Per memoir p. 37: bought forged US emigration documents but was reportedly betrayed by the sellers; later disappeared in the war (presumed murdered in the Holocaust). The family memory of her was reconfirmed by Dalia 17 May 2026.",
+      "note_en": "David's sister. Lived in the Lwów ghetto with her family. Per memoir p. 37: bought forged US emigration documents but was reportedly betrayed by the sellers; later disappeared in the war (presumed murdered in the Holocaust). The family memory of her was reconfirmed by Dalia 17 May 2026. — Documented in the JewishGen / Ancestry 'Ten Jewish Ghettos 1939-1942' database under 'Lotte Rapaport, b.1915, Krakow ghetto, 1940' (Reel 13, List 177, Number 72).",
       "facts": [
         {
           "key": "residence",
@@ -704,6 +704,14 @@
           "confidence": "documented",
           "sources": [
             "doc_lusia_memoir_p41"
+          ]
+        },
+        {
+          "key": "krakow_ghetto_record_1940",
+          "value": "🎯 NEW LEAD (Dana, 25 May 2026): Listed as 'Lotte Rapaport', birth date 1915, in the JewishGen 'East Europe, Registers and Listings from Ten Jewish Ghettos, 1939-1942' database via Ancestry.com — Krakow ghetto, document date 1940 (Reel 13, List 177, Number 72). Birth year 1915 matches our Lota exactly (b. ~1915-1916 per 1924 passport: 'Lottr age 8'). Identification highly likely — same first name, same surname, same birth year, in the right geographical area at the right time. Earliest documented evidence of Lota under Nazi rule. Predates the betrayal/arrest episode described in Lusia's memoir (Lwów, ~1942-43). Suggests Lota may have moved from Lwów to Kraków at some point pre-1940 — or that she was in Kraków at war's start and only later moved to Lwów. Full record details (parents, spouse, address) can be retrieved by Doron via the Ancestry source citation.",
+          "confidence": "documented",
+          "sources": [
+            "doc_jewishgen_ten_ghettos_lotte_rapaport"
           ]
         }
       ],

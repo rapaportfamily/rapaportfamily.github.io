@@ -42,7 +42,7 @@ window.addEventListener("appinstalled", () => {
   // BUILD bumps on every deploy so browsers fetch the latest JS modules,
   // not a stale cached copy. If you don't see Research Center updates, this
   // is the line that fixes it.
-  const BUILD = "2026-05-22-t34";
+  const BUILD = "2026-06-01-t45";
   const APP_SCRIPT_SRC = `assets/js/app.js?v=${BUILD}`;
   const UPLOAD_SCRIPT_SRC = `assets/js/upload-feature.js?v=${BUILD}`;
 
@@ -136,9 +136,26 @@ window.addEventListener("appinstalled", () => {
   // authenticated users; auth-aware features (upload, /review) gate
   // themselves via window.__rftAuth.role inside upload-feature.js.
   function loadSPA() {
-    // Register the service worker — required for the Android Chrome install prompt
+    // Register the service worker — required for the Android Chrome install prompt.
+    // Also: when an installed PWA detects a new SW version, reload so the user
+    // sees the latest data. Without this, Android Chrome will pin the old
+    // install-time HTML for days.
     if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("sw.js", { scope: "./" }).catch(() => {});
+      navigator.serviceWorker.register("sw.js", { scope: "./" }).then((reg) => {
+        // Check for updates immediately + every 30 minutes the app is open.
+        reg.update().catch(() => {});
+        setInterval(() => reg.update().catch(() => {}), 30 * 60 * 1000);
+      }).catch(() => {});
+      // The new SW posts "sw-updated" on activation — reload to pick up new code.
+      let reloaded = false;
+      navigator.serviceWorker.addEventListener("message", (ev) => {
+        if (reloaded) return;
+        if (ev.data && ev.data.type === "sw-updated") {
+          reloaded = true;
+          // Small delay so any in-flight fetches finish.
+          setTimeout(() => window.location.reload(), 250);
+        }
+      });
     }
     const s = document.createElement("script");
     s.type = "module";
