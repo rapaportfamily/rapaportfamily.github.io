@@ -1317,9 +1317,15 @@
       "summary": {
         "en": "⚠ NOT OUR FAMILY (most likely). This certificate of divorce, issued 16 September 1941 in Petach Tikvah, Mandatory Palestine, dissolves the marriage of Lea bat Shimon HaKohen Rapaport (age 29) and Michael Sigal (age 29, baker). Lea's father is named Shimon HaKohen Rapaport — but our paternal-line Shimon was a Griffel ancestor, not a Rapaport, and our Lusia (Lea Weitzner-Rapaport) was hiding in Lwów under the alias 'Maria Cizlik' in 1941. This Lea Rapaport (b. ~1912) is therefore a different person, from a different Rapaport-HaKohen rabbinical branch. The CC-Cohen patronymic suggests she may still be a distant cousin within the broader Rapoport-Kohen rabbinical dynasty, but no proximate link to our family has been established."
       },
-      "related_people": [],
-      "status": "not_our_family_likely",
-      "ocr_engine_used": "Claude vision (manual transcription, 2026-06-01)"
+      "related_people": [
+        "p_lea_rapaport_segal"
+      ],
+      "status": "our_family_confirmed",
+      "ocr_engine_used": "Claude vision (manual transcription, 2026-06-01)",
+      "open_questions": "",
+      "transcription_notes": {
+        "en": "UPDATE (Jun 2026): RECLASSIFIED as OUR FAMILY. This Lea is David Memek's first cousin — daughter of Szymon Rapaport (Berisz's brother). She married Michael/Yehiel Segal (this divorce), later remarried as Lea Fridman. The earlier 'not our family likely' verdict is withdrawn."
+      }
     },
     {
       "id": "doc_facets_family_history",
@@ -1563,6 +1569,264 @@
         "Cross-check Lota in Krakow 1940 against the Krakow ghetto Judenrat residents list (Ringelblum archive)",
         "Yad Vashem PoT should be filed for Lota with this verified data point"
       ]
+    },
+    {
+      "id": "doc_szymon_paja_marriage_1913_sambor",
+      "file_pages": [
+        "U 1912 Lea Rapaport.jpg",
+        "M 1913 Simon Rapaport.jpg"
+      ],
+      "kind": "image",
+      "type": "marriage_record",
+      "primary_language": "pl",
+      "title": {
+        "en": "Marriage record — Szymon Rapaport × Paja Laub, Sambor 1913",
+        "he": "תעודת נישואין — שמעון רפפורט × פאיה לאוב, סמבור 1913",
+        "pl": "Marriage record — Szymon Rapaport × Paja Laub, Sambor 1913",
+        "fr": "Marriage record — Szymon Rapaport × Paja Laub, Sambor 1913"
+      },
+      "source_archive": "Sambor Jewish marriage register (via MyHeritage / Basia, Jun 2026).",
+      "transcription_notes": {
+        "en": "8 June 1913, Sambor. Groom Szymon Rapaport, son of Moses + Menucha (Leinen) of Tarnów, born Radomyśl, age 29y5m (b.~Jan 1884). Bride Paja Laub, age 24y4m (b.~early 1889). Establishes Szymon as a sixth child of the apical couple; their daughter Lea is David Memek's first cousin."
+      },
+      "decoded_fields": {},
+      "translations": {},
+      "related_people": [
+        "p_szymon_rapaport_b1884",
+        "p_paja_laub",
+        "p_moses_saul_rapaport",
+        "p_menukha",
+        "p_lea_rapaport_segal"
+      ],
+      "related_events": [],
+      "status": "verified",
+      "open_questions": ""
+    },
+    {
+      "id": "doc_alte_leja_turkel_marriage_1909_tarnopol",
+      "file_pages": [
+        "1909 Akt ślubu Alte Lea Rapaport Jechiel Turkel.pdf",
+        "M_1909_Alte_Lea_Rapaport_Jechiel_Turkel_TP.jpg"
+      ],
+      "kind": "image",
+      "type": "marriage_record",
+      "primary_language": "pl",
+      "title": {
+        "en": "Marriage record — Alte Leja Rapaport × Jechiel Turkel, Tarnopol 1909",
+        "he": "תעודת נישואין — אלטה לאה רפפורט × יחיאל טורקל, טרנופול 1909",
+        "pl": "Marriage record — Alte Leja Rapaport × Jechiel Turkel, Tarnopol 1909",
+        "fr": "Marriage record — Alte Leja Rapaport × Jechiel Turkel, Tarnopol 1909"
+      },
+      "source_archive": "Tarnopol Jewish marriage register, file 1909/45 (Basia, Jun 2026).",
+      "transcription_notes": {
+        "en": "18 July 1909, Tarnopol. Jechiel Turkel, merchant, son of Lipa (Leib) + Dwora Turkel, of Trembowla, b. 4 Feb 1879 (30y5m), single; × Alte Leja Rapaport, daughter of Moses + Menicha, of Radomyśl Wielki, 27½, single. Note: bride listed without parents present in Tarnopol; parents are from Radomyśl."
+      },
+      "decoded_fields": {},
+      "translations": {},
+      "related_people": [
+        "p_alte_leja_rapaport",
+        "p_jechiel_turkel",
+        "p_moses_saul_rapaport",
+        "p_menukha"
+      ],
+      "related_events": [],
+      "status": "verified",
+      "open_questions": ""
+    },
+    {
+      "id": "doc_mojzesz_rapaport_death_1933_tarnow",
+      "file_pages": [
+        "Z_1933_Mojżesz Rapaport_T.jpg"
+      ],
+      "kind": "image",
+      "type": "death_record",
+      "primary_language": "pl",
+      "title": {
+        "en": "Death record — Mojżesz Rapaport, Tarnów 1933 (candidate = our Moses Saul)",
+        "he": "תעודת פטירה — משה רפפורט, טרנוב 1933 (מועמד = משה שאול שלנו)",
+        "pl": "Death record — Mojżesz Rapaport, Tarnów 1933 (candidate = our Moses Saul)",
+        "fr": "Death record — Mojżesz Rapaport, Tarnów 1933 (candidate = our Moses Saul)"
+      },
+      "source_archive": "Tarnów Jewish death register, file 1933/152 (Basia, Jun 2026).",
+      "transcription_notes": {
+        "en": "8 Nov 1933, Tarnów, ul. Folwarczna (no. 199 — probably a clerk repeating ordinal l.p.199; Berisz's passport says Moses Saul lived at 9 Folwarczna), age 75 (b.~1858), married, sepsis. Son of SZABSE (Shabtai) and ITA FEIGI Rapaport. Basia leans toward this being our Moses Saul (street matches), which would make his parents Shabtai + Ita Feigi — held as HYPOTHESIS (see h_moses_saul_parents). A second Moses Saul died 30 Oct 1931 listed under Dąbrowa."
+      },
+      "decoded_fields": {},
+      "translations": {},
+      "related_people": [
+        "p_moses_saul_rapaport"
+      ],
+      "related_events": [],
+      "status": "candidate_identity",
+      "open_questions": "Is this our Moses Saul, or the Dąbrowa one (d.1931)?"
+    },
+    {
+      "id": "doc_zwi_nussbaum_birth_1919",
+      "file_pages": [
+        "1919 Akt urodzenia Zwi Nussbaum.pdf"
+      ],
+      "kind": "image",
+      "type": "birth_record",
+      "primary_language": "pl",
+      "title": {
+        "en": "Birth record — Zwi (Hirsch) Nussbaum, Przemyśl 1919 (with legitimation note)",
+        "he": "תעודת לידה — צבי נוסבאום, פשמישל 1919 (עם הערת הכשרה)",
+        "pl": "Birth record — Zwi (Hirsch) Nussbaum, Przemyśl 1919 (with legitimation note)",
+        "fr": "Birth record — Zwi (Hirsch) Nussbaum, Przemyśl 1919 (with legitimation note)"
+      },
+      "source_archive": "Przemyśl Jewish birth register (Basia, Jun 2026).",
+      "transcription_notes": {
+        "en": "Born 7 May 1919, ~1 month before his parents' civil marriage → deemed illegitimate; legitimated by a post-mortem court procedure after his father's death (inheritance). Son of Freida Amalia Rapaport."
+      },
+      "decoded_fields": {},
+      "translations": {},
+      "related_people": [
+        "p_zwi_ayalon_nussbaum",
+        "p_freida_amalia_rapaport"
+      ],
+      "related_events": [],
+      "status": "verified",
+      "open_questions": ""
+    },
+    {
+      "id": "doc_szewa_horowitz_birth_1920",
+      "file_pages": [
+        "U_1920_Szewa Horowitz_T.jpg"
+      ],
+      "kind": "image",
+      "type": "birth_record",
+      "primary_language": "pl",
+      "title": {
+        "en": "Birth record — Szewa Horowitz, Tarnów 1920",
+        "he": "תעודת לידה — שבע הורוויץ, טרנוב 1920",
+        "pl": "Birth record — Szewa Horowitz, Tarnów 1920",
+        "fr": "Birth record — Szewa Horowitz, Tarnów 1920"
+      },
+      "source_archive": "Tarnów Jewish birth register (Basia, Jun 2026).",
+      "transcription_notes": {
+        "en": "Daughter of Jente Rapaport + Meschulim Isacher Horowitz. Born 1920 Tarnów. Survived; lived in Liège; married Markus Türkel 1946."
+      },
+      "decoded_fields": {},
+      "translations": {},
+      "related_people": [
+        "p_szewa_horowitz",
+        "p_jente_rapaport",
+        "p_mendel_horowitz"
+      ],
+      "related_events": [],
+      "status": "verified",
+      "open_questions": ""
+    },
+    {
+      "id": "doc_szewa_markus_turkel_marriage_1946_liege",
+      "file_pages": [
+        "Liege Szewa Horowitz marriage.pdf"
+      ],
+      "kind": "image",
+      "type": "marriage_record",
+      "primary_language": "fr",
+      "title": {
+        "en": "Marriage record — Markus Türkel × Szewa Horowitz, Liège 1946 (No. 1142)",
+        "he": "תעודת נישואין — מרקוס טורקל × שבע הורוויץ, ליאז' 1946",
+        "pl": "Marriage record — Markus Türkel × Szewa Horowitz, Liège 1946 (No. 1142)",
+        "fr": "Marriage record — Markus Türkel × Szewa Horowitz, Liège 1946 (No. 1142)"
+      },
+      "source_archive": "État-civil de Liège, Belgium, acte No. 1142 / II42 (translated by Kasia's daughter; Basia, Jun 2026).",
+      "transcription_notes": {
+        "en": "15 June 1946, Liège. Markus Türkel, British-Army soldier residing Tel Aviv, son of Leib Türkel + Lea Nüssenbaum; × Szewa Horowitz, of Liège (5 Place Delcour), daughter of the deceased Meschilin-Isacher Horowitz and of JENTA RAPAPORT, 'living together with her daughter'. PROVES Jente survived the war and was in Liège in 1946. (Conflicts with a Turkel-family account that Mordechai 'Max' Levi-Turkel married Margalit Halperin in Palestine 1947 — see h_markus_turkel_identity.)"
+      },
+      "decoded_fields": {},
+      "translations": {},
+      "related_people": [
+        "p_markus_turkel",
+        "p_szewa_horowitz",
+        "p_jente_rapaport"
+      ],
+      "related_events": [],
+      "status": "verified",
+      "open_questions": ""
+    },
+    {
+      "id": "doc_liege_jews_list_1941",
+      "file_pages": [
+        "Szewa Horowitz Liege 1941.pdf"
+      ],
+      "kind": "image",
+      "type": "registry_list",
+      "primary_language": "fr",
+      "title": {
+        "en": "Census of Jews in Liège, 1941 — Szewa Horowitz",
+        "he": "מפקד היהודים בליאז', 1941 — שבע הורוויץ",
+        "pl": "Census of Jews in Liège, 1941 — Szewa Horowitz",
+        "fr": "Census of Jews in Liège, 1941 — Szewa Horowitz"
+      },
+      "source_archive": "Belgian 1941 register of Jews, Liège (Basia, Jun 2026).",
+      "transcription_notes": {
+        "en": "Complete 1941 list of Jews in Liège includes Szewa Horowitz — placing Jente's daughter in occupied Liège during the war."
+      },
+      "decoded_fields": {},
+      "translations": {},
+      "related_people": [
+        "p_szewa_horowitz",
+        "p_jente_rapaport"
+      ],
+      "related_events": [],
+      "status": "verified",
+      "open_questions": ""
+    },
+    {
+      "id": "doc_charlotte_birth_vienna_1915",
+      "file_pages": [
+        "U_1915_Charlotte_Rapaport_1915.png"
+      ],
+      "kind": "image",
+      "type": "birth_record_index",
+      "primary_language": "de",
+      "title": {
+        "en": "Birth index — Charlotte (Lota) Rapaport, Vienna ~1915",
+        "he": "אינדקס לידה — שרלוטה (לוטה) רפפורט, וינה ~1915",
+        "pl": "Birth index — Charlotte (Lota) Rapaport, Vienna ~1915",
+        "fr": "Birth index — Charlotte (Lota) Rapaport, Vienna ~1915"
+      },
+      "source_archive": "Austrian collection via MyHeritage (Basia, 8 Jun 2026).",
+      "transcription_notes": {
+        "en": "Index entry only (original not yet retrieved) for Charlotte Rapaport, born Vienna ~1915. Establishes David's sister Lota was born in Vienna; David's memoir/testimony had the date slightly wrong but the location right. Marriage place still unknown (Stanisławów + Lwów eliminated)."
+      },
+      "decoded_fields": {},
+      "translations": {},
+      "related_people": [
+        "p_lota"
+      ],
+      "related_events": [],
+      "status": "index_only",
+      "open_questions": "Retrieve the original Vienna birth record; find Lota's marriage place."
+    },
+    {
+      "id": "doc_krynica_1904_emilia_rapaport",
+      "file_pages": [
+        "103378_Krynica_1904_nr_11_PDF.pdf"
+      ],
+      "kind": "image",
+      "type": "press_resort_list",
+      "primary_language": "pl",
+      "title": {
+        "en": "Krynica spa guest list, 1904 — Emilia (Menukha) Rapaport",
+        "he": "רשימת אורחי מרחצאות קרניצה, 1904 — אמיליה (מנוחה) רפפורט",
+        "pl": "Krynica spa guest list, 1904 — Emilia (Menukha) Rapaport",
+        "fr": "Krynica spa guest list, 1904 — Emilia (Menukha) Rapaport"
+      },
+      "source_archive": "Krynica spa guest register, 1904, no. 11 (Basia, 8 Jun 2026).",
+      "transcription_notes": {
+        "en": "'Emilia Rapaport, a merchant's wife, and her daughter' arrive in Krynica 28 Jul–3 Aug 1904, lodging at house 'Wanda'; settled permanently in Radomyśl. Corroborates Menukha's European name 'Emilia' and the family's Krynica habit (cf. the 1912 Regina/Rebeka Krynica notice)."
+      },
+      "decoded_fields": {},
+      "translations": {},
+      "related_people": [
+        "p_menukha"
+      ],
+      "related_events": [],
+      "status": "verified",
+      "open_questions": ""
     }
   ],
   "additional_files": [

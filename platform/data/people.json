@@ -237,6 +237,24 @@
           "sources": [
             "src_haifa_chevra_kadisha_records"
           ]
+        },
+        {
+          "key": "signature_found",
+          "value": "David personally filed the 1953 Yad Vashem Pages of Testimony for his parents (Bernard Dov + Regina Rivka). Dana confirmed the handwriting (31 May 2026) and Dalia recognised the signature (4 Jun 2026) — this is David's own hand. Resolves the long-open hypothesis H4 (locate David's signature).",
+          "confidence": "documented",
+          "sources": [
+            "doc_bernard_dov_yv_pot",
+            "doc_regina_rivka_yv_pot",
+            "wa_export_2026-06-15"
+          ]
+        },
+        {
+          "key": "family_przemysl_address",
+          "value": "On the Yad Vashem PoT David gives the family's Przemyśl address as ul. Słowackiego 40 (number uncertain — no. 40 was a poultry slaughterhouse; possibly 10 or 64).",
+          "confidence": "documented",
+          "sources": [
+            "wa_export_2026-06-15"
+          ]
         }
       ]
     },
@@ -462,7 +480,10 @@
       },
       "death": {
         "date": null,
-        "confidence": "family_oral"
+        "date_precision": "unknown",
+        "place_id": "pl_haifa",
+        "confidence": "family_oral",
+        "note_en": "Deceased — Hebrew family summary uses the honorific 'ז\"ל' (of blessed memory). Exact death date not yet recorded. To confirm via Haifa Chevra Kadisha records or Bituach Leumi index."
       },
       "father_id": "p_david",
       "mother_id": "p_leah",
@@ -525,14 +546,7 @@
             "src_wikipedia_rapoport_family"
           ]
         }
-      ],
-      "death": {
-        "date": null,
-        "date_precision": "unknown",
-        "place_id": "pl_haifa",
-        "confidence": "family_oral",
-        "note_en": "Deceased — Hebrew family summary uses the honorific 'ז\"ל' (of blessed memory). Exact death date not yet recorded. To confirm via Haifa Chevra Kadisha records or Bituach Leumi index."
-      }
+      ]
     },
     {
       "id": "p_tamar",
@@ -736,13 +750,40 @@
           "sources": [
             "doc_jewishgen_ten_ghettos_lotte_rapaport"
           ]
+        },
+        {
+          "key": "husband_name_szmid",
+          "value": "Her husband's surname was SZMID — recorded by David in his Yad Vashem testimony (Basia, 4 Jun 2026). (Earlier the husband was 'name unrecorded' in Lusia's memoir.) Marriage place still unknown.",
+          "confidence": "documented",
+          "sources": [
+            "wa_export_2026-06-15"
+          ]
+        },
+        {
+          "key": "lados_verification_pending",
+          "value": "Basia reached Monika Maniewska (co-author of the Ładoś List / passportyzycia.pl) to verify whether Lota was a victim of the forged-passport blackmail or had a genuine escape chance. Call pending as of 15 Jun 2026.",
+          "confidence": "documented",
+          "sources": [
+            "wa_export_2026-06-15"
+          ]
         }
       ],
       "father_id": "p_berisz",
       "mother_id": "p_rebeka",
       "siblings_ids": [
         "p_david"
-      ]
+      ],
+      "birth": {
+        "date": "1915",
+        "date_precision": "estimated_year",
+        "place_id": "pl_vienna",
+        "confidence": "documented",
+        "sources": [
+          "doc_charlotte_birth_vienna_1915",
+          "wa_export_2026-06-15"
+        ],
+        "note_en": "Vienna birth index found (Austrian collection). David had the date slightly wrong but the location right."
+      }
     },
     {
       "id": "p_ronen_rapaport",
@@ -868,6 +909,14 @@
           "sources": [
             "doc_auschwitz_victim_188161"
           ]
+        },
+        {
+          "key": "dabrowa_commune_caveat",
+          "value": "His 1924 passport application lists his commune of belonging as Dąbrowa Tarnowska (Ms. Kasia's reading), not Nadwórna — an unexplained subtlety that may bear on the 'two Moses Sauls' question. By 1939 the family lived in Przemyśl (ul. Słowackiego ~40).",
+          "confidence": "documented",
+          "sources": [
+            "wa_export_2026-06-15"
+          ]
         }
       ],
       "father_id": "p_moses_saul_rapaport",
@@ -924,7 +973,22 @@
             "doc_jente_marriage_1920",
             "doc_rebeka_younger_marriage_1923"
           ]
+        },
+        {
+          "key": "maiden_name_and_european_name",
+          "value": "Maiden name LEINER ('Moses and Menucha Leinen', Sambor 1913). Used the European name EMILIA — so identified on two of Alte Leja's children's birth certificates and on the 1904 Krynica spa guest list ('Emilia Rapaport, a merchant's wife, and her daughter', lodging house 'Wanda', settled in Radomyśl).",
+          "confidence": "documented",
+          "sources": [
+            "doc_szymon_paja_marriage_1913_sambor",
+            "doc_krynica_1904_emilia_rapaport",
+            "wa_export_2026-06-15"
+          ]
         }
+      ],
+      "aliases": [
+        "Emilia",
+        "Menucha",
+        "Menuchy"
       ]
     },
     {
@@ -942,7 +1006,7 @@
       "role": "great_grand_aunt_paternal",
       "note_en": "Paternal great-grand-aunt of Doron, Dana and Daniel. Eldest known sibling of Berisz Rapaport. Born 28 June 1882 in Radomyśl Wielki; murdered at Auschwitz 1942 per the family-built descendants tree. Married Turkel; family lived in Vienna with multiple children (Turkel branch: Hertha Noa, Lotte, Israel Menachem, Mordechai/Max, Rachel/Rosie, Siegfried, Chana).",
       "birth": {
-        "date": "1882-06-28",
+        "date": "1882",
         "date_precision": "day",
         "place_id": "pl_radomysl_wielki",
         "confidence": "documented",
@@ -967,7 +1031,18 @@
         "p_freida_amalia_rapaport",
         "p_rebeka_rapaport_sister"
       ],
-      "facts": []
+      "facts": [
+        {
+          "key": "marriage_record_1909",
+          "value": "Married Jechiel Turkel (merchant, of Trembowla, b.4 Feb 1879) in Tarnopol on 18 July 1909; she was 27½ (consistent with b.1882). Household lived in Tarnopol (Perla St). Living descendants reconnected June 2026 — granddaughters Daniela Zidon (USA) and Miki/Michal Lea Nativ (via son Mordechai 'Max' Levi-Turkel), plus a Turkel branch in New Zealand.",
+          "confidence": "documented",
+          "sources": [
+            "doc_alte_leja_turkel_marriage_1909_tarnopol",
+            "wa_export_2026-06-15"
+          ]
+        }
+      ],
+      "spouse_id": "p_jechiel_turkel"
     },
     {
       "id": "p_jente_rapaport",
@@ -978,7 +1053,7 @@
         "fr": "Jente Rapaport"
       },
       "role": "great_grand_aunt_paternal",
-      "note_en": "Paternal great-grand-aunt of Doron, Dana and Daniel. Sibling of Berisz Rapaport. Born 1887 in Radomyśl Wielki per the family-built descendants tree (corroborated: her 1920 second-marriage record states age 33 in December 1920). She married TWICE: a first husband whose name is not yet documented (she was a widow by 1920); then on 12 December 1920 in Tarnów she remarried Mendel Eachem Horowitz of Sokal (age 28, kawaler, son of Pinches Horowitz). Per entry 98 of the 1920 Tarnów Jewish marriage register, which explicitly names her parents as \"Moses Rapaport and Menucha\". Subsequent life trajectory not yet documented.",
+      "note_en": "Paternal great-grand-aunt of Doron, Dana and Daniel. Sibling of Berisz Rapaport. Born 1887 in Radomyśl Wielki per the family-built descendants tree (corroborated: her 1920 second-marriage record states age 33 in December 1920). She married TWICE: a first husband whose name is not yet documented (she was a widow by 1920); then on 12 December 1920 in Tarnów she remarried Mendel Eachem Horowitz of Sokal (age 28, kawaler, son of Pinches Horowitz). Per entry 98 of the 1920 Tarnów Jewish marriage register, which explicitly names her parents as \"Moses Rapaport and Menucha\". Subsequent life trajectory not yet documented. UPDATE (Jun 2026): Jente SURVIVED the war. The Liège marriage record of her daughter Szewa Horowitz (15 June 1946) states Jente was 'living together with her daughter' in Liège, Belgium. Her husband is now read as Meschulim Isacher Horowitz (not 'Mendel Eachem'); he was deceased by 1946.",
       "birth": {
         "date": "1887",
         "date_precision": "year",
@@ -1012,11 +1087,31 @@
           "sources": [
             "doc_jente_marriage_1920"
           ]
+        },
+        {
+          "key": "survived_war_liege",
+          "value": "Survived the Holocaust and was living in Liège, Belgium with her daughter Szewa in 1946 (per Szewa's Liège marriage record No. 1142). Death date/place after 1946 unknown.",
+          "confidence": "documented",
+          "sources": [
+            "doc_szewa_markus_turkel_marriage_1946_liege",
+            "doc_liege_jews_list_1941"
+          ]
+        },
+        {
+          "key": "daughter",
+          "value": "Daughter Szewa Horowitz (b.1920 Tarnów), who married Markus Türkel in Liège 1946.",
+          "confidence": "documented",
+          "sources": [
+            "doc_szewa_horowitz_birth_1920"
+          ]
         }
       ],
       "spouse_ids": [
         "p_jente_first_husband_unknown",
         "p_mendel_horowitz"
+      ],
+      "children_ids": [
+        "p_szewa_horowitz"
       ]
     },
     {
@@ -1163,7 +1258,7 @@
         "fr": "Mendel Eachem Horowitz"
       },
       "role": "great_grand_uncle_by_marriage",
-      "note_en": "Second husband of Jente Rapaport (Berisz's sister). Married her in Tarnów on 12 December 1920 (entry 98 of the Tarnów Jewish marriage register). Age 28 at marriage → born ~1892. Status: kawaler (bachelor) — first marriage for him. Resident of Sokal (now Sokal/Sokaľ in Lviv Oblast, Ukraine; pre-WWII in Eastern Galicia). Son of Pinches Horowitz.",
+      "note_en": "Second husband of Jente Rapaport (Berisz's sister). Married her in Tarnów on 12 December 1920 (entry 98 of the Tarnów Jewish marriage register). Age 28 at marriage → born ~1892. Status: kawaler (bachelor) — first marriage for him. Resident of Sokal (now Sokal/Sokaľ in Lviv Oblast, Ukraine; pre-WWII in Eastern Galicia). Son of Pinches Horowitz. UPDATE (Jun 2026): the Liège 1946 record reads his name as 'Meschilin/Meschulim Isacher Horowitz' (the 1920 Tarnów reading 'Mendel Eachem' was less certain). He was DECEASED by 1946. He and Jente had a daughter, Szewa (b.1920). CAUTION: a different Meschulem Horowitz (b.1897 Beszterce, Romania; mother Sara; residence Nagyvárad) with a wife Rivka Mariem Hager is NOT this man — do not conflate.",
       "birth": {
         "date": "1892",
         "date_precision": "estimated_year",
@@ -1175,7 +1270,24 @@
       },
       "father_id": "p_pinches_horowitz",
       "spouse_id": "p_jente_rapaport",
-      "facts": []
+      "facts": [
+        {
+          "key": "deceased_by_1946",
+          "value": "Deceased by 1946 (his daughter Szewa's Liège marriage record lists him as the late father).",
+          "confidence": "documented",
+          "sources": [
+            "doc_szewa_markus_turkel_marriage_1946_liege"
+          ]
+        }
+      ],
+      "aliases": [
+        "Meschulim Isacher Horowitz",
+        "Meshulam Horowitz",
+        "Meschilin Isacher"
+      ],
+      "children_ids": [
+        "p_szewa_horowitz"
+      ]
     },
     {
       "id": "p_sane_zylberfenig",
@@ -1277,7 +1389,27 @@
         ]
       },
       "mother_id": "p_freida_amalia_rapaport",
-      "facts": []
+      "facts": [
+        {
+          "key": "legitimation_1919",
+          "value": "Born ~1 month before his parents' civil marriage → deemed illegitimate; legitimated by a post-mortem court procedure after his father's death (inheritance). His naturalization papers list his children's names + DOB.",
+          "confidence": "documented",
+          "sources": [
+            "doc_zwi_nussbaum_birth_1919"
+          ]
+        },
+        {
+          "key": "living_daughter",
+          "value": "Daughter Yehudit Shlomit (named after Freida) reconnected with the family June 2026; worked at Yad Vashem.",
+          "confidence": "family_oral",
+          "sources": [
+            "wa_export_2026-06-15"
+          ]
+        }
+      ],
+      "children_ids": [
+        "p_yehudit_shlomit_ayalon"
+      ]
     },
     {
       "id": "p_rebeka",
@@ -1662,6 +1794,15 @@
           "sources": [
             "oral_doron_13may"
           ]
+        },
+        {
+          "key": "husband_and_children_correction",
+          "value": "Husband correctly read as Israel ENGLARD (not 'Englander'), b. 26 Jun 1905 Przeworsk, son of Kiwa + Rifka; married Bolechów 1932. Children: Ruth and Akiwa.",
+          "confidence": "documented",
+          "sources": [
+            "doc_feige_englander_marriage_1932",
+            "wa_export_2026-06-15"
+          ]
         }
       ]
     },
@@ -1737,6 +1878,14 @@
           "confidence": "family_oral",
           "sources": [
             "oral_doron_13may"
+          ]
+        },
+        {
+          "key": "birth_window",
+          "value": "Likely born 1917–1920. The Bolechów birth register ends 5 May 1918 (revolution + Polish-Soviet war), which plausibly explains why her record has not been found.",
+          "confidence": "estimated",
+          "sources": [
+            "wa_export_2026-06-15"
           ]
         }
       ]
@@ -3916,15 +4065,303 @@
             "doc_jente_marriage_1920",
             "doc_rebeka_younger_marriage_1923"
           ]
+        },
+        {
+          "key": "possible_parents_hypothesis",
+          "value": "A Tarnów death record (1933/152) for Mojżesz Rapaport — d. 8 Nov 1933, ul. Folwarczna, age 75, son of SZABSE (Shabtai) + ITA FEIGI Rapaport — is a leading candidate for our Moses Saul (street matches Berisz's passport). If confirmed, his parents were Shabtai + Ita Feigi. HYPOTHESIS only: Radomyśl records are lost; a second Moses Saul died 30 Oct 1931 listed under Dąbrowa. See h_moses_saul_parents.",
+          "confidence": "hypothesis",
+          "sources": [
+            "doc_mojzesz_rapaport_death_1933_tarnow",
+            "wa_export_2026-06-15"
+          ]
+        },
+        {
+          "key": "tarnopol_circumcision",
+          "value": "Performed the brit of a grandson (Alte Leja's son) in Tarnopol c.1907 — places him in Tarnopol in that period and confirms his role as family patriarch.",
+          "confidence": "documented",
+          "sources": [
+            "wa_export_2026-06-15"
+          ]
         }
       ],
       "spouse_id": "p_menukha",
       "children_ids": [
         "p_alte_leja_rapaport",
+        "p_szymon_rapaport_b1884",
         "p_berisz",
         "p_jente_rapaport",
         "p_freida_amalia_rapaport",
         "p_rebeka_rapaport_sister"
+      ]
+    },
+    {
+      "id": "p_szymon_rapaport_b1884",
+      "primary_name": {
+        "en": "Szymon (Simon) Rapaport",
+        "he": "שמעון (סימון) רפפורט",
+        "pl": "Szymon Rapaport",
+        "fr": "Szymon Rapaport"
+      },
+      "aliases": [
+        "Simon",
+        "Szymon",
+        "שמעון"
+      ],
+      "role": "great_grand_uncle_paternal",
+      "note_en": "Paternal great-grand-uncle of Doron, Dana and Daniel — a SIXTH child of Moses Saul + Menukha and a brother of Berisz. Discovered 2 June 2026 via his marriage in Sambor: on 8 June 1913 he was 29y5m old (b.~Jan 1884), son of 'Moses and Menucha (Leinen)' of Tarnów, born in Radomyśl. Married Paja Laub. NOTE: distinct from p_shimon, who is David's son (b.1937). His daughter Lea (Rapaport-Segal/Fridman) is David Memek's first cousin.",
+      "birth": {
+        "date": "1884",
+        "date_precision": "estimated_year",
+        "place_id": "pl_radomysl_wielki",
+        "confidence": "documented",
+        "sources": [
+          "doc_szymon_paja_marriage_1913_sambor",
+          "wa_export_2026-06-15"
+        ]
+      },
+      "father_id": "p_moses_saul_rapaport",
+      "mother_id": "p_menukha",
+      "siblings_ids": [
+        "p_berisz",
+        "p_alte_leja_rapaport",
+        "p_jente_rapaport",
+        "p_freida_amalia_rapaport",
+        "p_rebeka_rapaport_sister"
+      ],
+      "spouse_id": "p_paja_laub",
+      "children_ids": [
+        "p_lea_rapaport_segal"
+      ],
+      "facts": [
+        {
+          "key": "marriage_1913",
+          "value": "Married Paja Laub in Sambor, 8 June 1913 (age 29y5m). Record names his parents as Moses + Menucha (Leinen) of Tarnów; birthplace Radomyśl.",
+          "confidence": "documented",
+          "sources": [
+            "doc_szymon_paja_marriage_1913_sambor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p_paja_laub",
+      "primary_name": {
+        "en": "Paja Laub",
+        "he": "פאיה לאוב",
+        "pl": "Paja Laub",
+        "fr": "Paja Laub"
+      },
+      "aliases": [
+        "Paya",
+        "Paja"
+      ],
+      "role": "great_grand_aunt_by_marriage_paternal",
+      "note_en": "Wife of Szymon Rapaport (Berisz's brother). At their Sambor marriage on 8 June 1913 she was 24y4m old (b.~early 1889). Mother of Lea Rapaport-Segal.",
+      "birth": {
+        "date": "1889",
+        "date_precision": "estimated_year",
+        "place_id": null,
+        "confidence": "documented",
+        "sources": [
+          "doc_szymon_paja_marriage_1913_sambor"
+        ]
+      },
+      "spouse_id": "p_szymon_rapaport_b1884",
+      "children_ids": [
+        "p_lea_rapaport_segal"
+      ],
+      "facts": []
+    },
+    {
+      "id": "p_lea_rapaport_segal",
+      "primary_name": {
+        "en": "Lea Rapaport (m. Segal / Fridman)",
+        "he": "לאה רפפורט (סגל / פרידמן)",
+        "pl": "Lea Rapaport (Segal)",
+        "fr": "Lea Rapaport (Segal)"
+      },
+      "aliases": [
+        "Lea Segal",
+        "Lea Fridman",
+        "Lea Rapoport Segal"
+      ],
+      "role": "first_cousin_once_removed_paternal",
+      "note_en": "Daughter of Szymon Rapaport + Paja Laub; FIRST COUSIN of David (Memek). Reached Israel; filed a Yad Vashem report and searched for relatives. Married Michael/Yehiel Segal (the 1941 Hebrew certificate of divorce, No. H 13898, names him); after divorcing Segal she remarried and became Lea Fridman, reporting her husband's fate at Yad Vashem under that name. IMPORTANT: this is the Lea whose 1941 divorce document was earlier filed as 'not our family' — she is in fact David's cousin.",
+      "birth": {
+        "date": "1912",
+        "date_precision": "estimated_year",
+        "place_id": "pl_sambor",
+        "confidence": "estimated",
+        "sources": [
+          "wa_export_2026-06-15"
+        ],
+        "note_en": "Dana floated 20.11.1912; not yet on a primary record."
+      },
+      "father_id": "p_szymon_rapaport_b1884",
+      "mother_id": "p_paja_laub",
+      "facts": [
+        {
+          "key": "marriages",
+          "value": "1st: Michael/Yehiel Segal (divorced 1941, cert No. H 13898). 2nd: a Fridman — she reported her husband's fate at Yad Vashem under 'Fridman'.",
+          "confidence": "documented",
+          "sources": [
+            "doc_lea_rapaport_divorce_1941",
+            "wa_export_2026-06-15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p_jechiel_turkel",
+      "primary_name": {
+        "en": "Jechiel Turkel",
+        "he": "יחיאל טורקל",
+        "pl": "Jechiel Turkel",
+        "fr": "Jechiel Turkel"
+      },
+      "aliases": [
+        "Jankel",
+        "Yehiel"
+      ],
+      "role": "great_grand_uncle_by_marriage_paternal",
+      "note_en": "Husband of Alte Leja Rapaport (Berisz's eldest sister). Merchant, son of Lipa (Leib) + Dwora Turkel, of Trembowla; born 4 Feb 1879. Married Alte Leja in Tarnopol, 18 July 1909; the household lived in Tarnopol (Perla St). Progenitor of the Vienna/Israel/New-Zealand Turkel branch.",
+      "birth": {
+        "date": "1879-02-04",
+        "date_precision": "day",
+        "place_id": "pl_trembowla",
+        "confidence": "documented",
+        "sources": [
+          "doc_alte_leja_turkel_marriage_1909_tarnopol"
+        ]
+      },
+      "spouse_id": "p_alte_leja_rapaport",
+      "facts": []
+    },
+    {
+      "id": "p_szewa_horowitz",
+      "primary_name": {
+        "en": "Szewa Horowitz (m. Türkel)",
+        "he": "שבע הורוויץ (טורקל)",
+        "pl": "Szewa Horowitz (Türkel)",
+        "fr": "Szewa Horowitz (Türkel)"
+      },
+      "aliases": [
+        "Sheva",
+        "Szewa"
+      ],
+      "role": "first_cousin_once_removed_paternal",
+      "note_en": "Daughter of Jente Rapaport + Meschulim Isacher Horowitz — a first cousin of David (Memek). Born 1920 Tarnów. SURVIVED the war in Liège, Belgium (on the 1941 Liège census of Jews; lived at 5 Place Delcour). Married Markus Türkel in Liège, 15 June 1946 — the record states her mother Jente was living with her, proving Jente also survived. Buried with Markus in Holon Cemetery (Bat Yam); died 1985.",
+      "birth": {
+        "date": "1920",
+        "date_precision": "year",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_szewa_horowitz_birth_1920"
+        ]
+      },
+      "death": {
+        "date": "1985",
+        "date_precision": "year",
+        "place_id": "pl_haifa",
+        "confidence": "documented",
+        "sources": [
+          "wa_export_2026-06-15"
+        ],
+        "note_en": "Buried Holon Cemetery, Bat Yam (Tel Aviv District), with husband Markus Türkel."
+      },
+      "father_id": "p_mendel_horowitz",
+      "mother_id": "p_jente_rapaport",
+      "spouse_id": "p_markus_turkel",
+      "facts": []
+    },
+    {
+      "id": "p_markus_turkel",
+      "primary_name": {
+        "en": "Markus Türkel",
+        "he": "מרקוס טורקל",
+        "pl": "Markus Türkel",
+        "fr": "Markus Türkel"
+      },
+      "aliases": [
+        "Marcus Turkel"
+      ],
+      "role": "relative_by_marriage_paternal",
+      "note_en": "Married Szewa Horowitz (Jente's daughter) in Liège, 15 June 1946. British-Army soldier residing in Tel Aviv; son of Leib Türkel + Lea Nüssenbaum. Buried with Szewa in Holon Cemetery. A second Turkel–Rapaport tie (Alte Leja had married a Turkel). UNRESOLVED: the Turkel family identifies Mordechai 'Max' Levi-Turkel (1913-1997) as marrying Margalit Halperin in Palestine 1947, not Szewa in Liège 1946 — so either Markus is a different Turkel or the 1946 banns did not hold. See h_markus_turkel_identity.",
+      "spouse_id": "p_szewa_horowitz",
+      "facts": []
+    },
+    {
+      "id": "p_yehudit_shlomit_ayalon",
+      "primary_name": {
+        "en": "Yehudit Shlomit (Ayalon / Nussbaum)",
+        "he": "יהודית שלומית (איילון / נוסבאום)",
+        "pl": "Yehudit Shlomit Ayalon",
+        "fr": "Yehudit Shlomit Ayalon"
+      },
+      "aliases": [
+        "Yehudit",
+        "Shlomit"
+      ],
+      "role": "living_cousin_paternal",
+      "note_en": "Living relative reconnected 4 June 2026. Daughter of Zwi Ayalon Nussbaum (named after Freida, Berisz's sister); thus a paternal cousin of Dov's generation. Worked at Yad Vashem and gathered family documents; had long sought our branch (once tried to reach Dov via a school essay Dana filed at age 12). Spoke with Dana ~1 hour; wishes to meet Dov.",
+      "father_id": "p_zwi_ayalon_nussbaum",
+      "facts": [
+        {
+          "key": "reconnection",
+          "value": "Spoke with Dana ~1 hour, 4 June 2026; wants to meet Dov. Had searched for the family for years.",
+          "confidence": "family_oral",
+          "sources": [
+            "wa_export_2026-06-15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p_daniela_zidon",
+      "primary_name": {
+        "en": "Daniela Zidon",
+        "he": "דניאלה צידון",
+        "pl": "Daniela Zidon",
+        "fr": "Daniela Zidon"
+      },
+      "aliases": [],
+      "role": "living_cousin_paternal",
+      "note_en": "Living relative (USA), reconnected June 2026. Daughter of Lea/Lote Jafe and a granddaughter of Alte Leja Rapaport-Turkel; wishes to meet Dov. Checking the Turkel side from her branch.",
+      "facts": [
+        {
+          "key": "reconnection",
+          "value": "Reconnected June 2026 via Dana; lives in the USA; wants to meet Dov.",
+          "confidence": "family_oral",
+          "sources": [
+            "wa_export_2026-06-15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p_miki_nativ",
+      "primary_name": {
+        "en": "Miki (Michal Lea) Nativ (née Levi-Turkel)",
+        "he": "מיקי (מיכל לאה) נתיב (לבית לוי-טורקל)",
+        "pl": "Miki (Michal Lea) Nativ",
+        "fr": "Miki (Michal Lea) Nativ"
+      },
+      "aliases": [
+        "Michal Leah",
+        "Miki Nativ"
+      ],
+      "role": "living_cousin_paternal",
+      "note_en": "Living relative (Ramat HaSharon), reconnected June 2026. Daughter of Mordechai 'Max' Levi-Turkel (1913-1997) + Margalit Halperin — hence a granddaughter of Alte Leja Rapaport-Turkel. Named Lea after Alte Leja. Holds family photographs.",
+      "facts": [
+        {
+          "key": "reconnection",
+          "value": "Contacted Dana June 2026; has family photos; parents Mordechai 'Max' Levi-Turkel + Margalit Halperin.",
+          "confidence": "family_oral",
+          "sources": [
+            "wa_export_2026-06-15"
+          ]
+        }
       ]
     }
   ]

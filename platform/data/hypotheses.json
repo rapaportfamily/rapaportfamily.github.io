@@ -182,7 +182,7 @@
         "fr": "Vérifier la signature de Dawid sur la fiche DP de Bruxelles de 1946 par rapport à tout document ultérieur"
       },
       "priority": "MEDIUM",
-      "status": "open",
+      "status": "RESOLVED — David's own handwriting on his 1953 Yad Vashem Pages of Testimony",
       "next_steps": [
         "Family search: Israeli customs authority records of David (he worked there post-war)",
         "Family search: any letters, official documents, will, or photographs with signature",
@@ -193,7 +193,8 @@
       ],
       "related_documents": [
         "doc_david_dp_card"
-      ]
+      ],
+      "note_2026_06_15_cc": "Resolved: Dana confirmed the handwriting (31 May 2026) and Dalia recognised David's signature (4 Jun 2026) on the Yad Vashem PoTs he filed for his parents in 1953."
     },
     {
       "id": "h_david_war_escape",
@@ -590,6 +591,108 @@
       ],
       "related_people": [
         "p_david"
+      ]
+    },
+    {
+      "id": "h_moses_saul_parents",
+      "question": {
+        "en": "Who were Moses Saul Rapaport's parents — were they Shabtai (Szabse) + Ita Feigi?",
+        "he": "מי היו הוריו של משה שאול רפפורט — האם שבתאי (שבסה) + איטה פייגי?",
+        "pl": "Who were Moses Saul Rapaport's parents — were they Shabtai (Szabse) + Ita Feigi?",
+        "fr": "Who were Moses Saul Rapaport's parents — were they Shabtai (Szabse) + Ita Feigi?"
+      },
+      "priority": "MEDIUM",
+      "status": "open — candidate from 1933 Tarnów death record, unverifiable while Radomyśl records are lost",
+      "note_2026_06_15_cc": "Tarnów death record 1933/152: Mojżesz Rapaport, d. 8 Nov 1933, ul. Folwarczna, age 75, son of Szabse + Ita Feigi. Street matches Berisz's passport (9 Folwarczna; death cert says 199, likely a clerk repeating the ordinal). A SECOND Moses Saul died 30 Oct 1931 under Dąbrowa. Basia leans toward the 1933 one being ours. If so, parents = Shabtai + Ita Feigi. Not asserted in the tree structure until corroborated.",
+      "candidates": [
+        {
+          "name": "Moses Saul = son of Shabtai + Ita Feigi (d. Tarnów 1933, age 75)",
+          "evidence_for": "street matches; naming custom (Moses Saul son of Moses Saul does not fit)",
+          "evidence_against": "house number mismatch (9 vs 199); Radomyśl records lost"
+        },
+        {
+          "name": "Moses Saul = the Dąbrowa one (d. 1931)",
+          "evidence_for": "Berisz's passport lists commune Dąbrowa Tarnowska",
+          "evidence_against": "no Tarnów death record there; date/stone older"
+        }
+      ],
+      "next_steps": [
+        "Find a birth or marriage record for Moses Saul (death records don't name descendants)",
+        "Check Dąbrowa Tarnowska indexes (sparse online)"
+      ],
+      "related_people": [
+        "p_moses_saul_rapaport",
+        "p_berisz"
+      ],
+      "related_places": [
+        "pl_tarnow",
+        "pl_dabrowa",
+        "pl_radomysl_wielki"
+      ]
+    },
+    {
+      "id": "h_jente_survival",
+      "question": {
+        "en": "Did Jente Rapaport survive the war, and what became of her line?",
+        "he": "האם יענטה רפפורט שרדה את המלחמה, ומה עלה בגורל הענף שלה?",
+        "pl": "Did Jente Rapaport survive the war, and what became of her line?",
+        "fr": "Did Jente Rapaport survive the war, and what became of her line?"
+      },
+      "priority": "HIGH",
+      "status": "RESOLVED — Jente survived; lived in Liège with her daughter Szewa in 1946",
+      "note_2026_06_15_cc": "The Liège marriage record of Szewa Horowitz (15 Jun 1946, No. 1142) states the bride's mother Jenta Rapaport was 'living together with her daughter'. Szewa (b.1920 Tarnów) is on the 1941 Liège census of Jews and married Markus Türkel (British-Army soldier, of Tel Aviv). Jente's death after 1946 is unknown.",
+      "candidates": [],
+      "next_steps": [
+        "Trace Jente's death record in Belgium/Israel after 1946",
+        "Resolve the Markus-Türkel identity conflict (see h_markus_turkel_identity)"
+      ],
+      "related_people": [
+        "p_jente_rapaport",
+        "p_szewa_horowitz",
+        "p_markus_turkel",
+        "p_mendel_horowitz"
+      ],
+      "related_places": [
+        "pl_liege",
+        "pl_tarnow"
+      ]
+    },
+    {
+      "id": "h_markus_turkel_identity",
+      "question": {
+        "en": "Is Markus Türkel (m. Szewa Horowitz, Liège 1946) the same as Mordechai 'Max' Levi-Turkel (m. Margalit Halperin, Palestine 1947)?",
+        "he": "האם מרקוס טורקל (נשא את שבע הורוויץ, ליאז' 1946) זהה למרדכי 'מקס' לוי-טורקל (נשא את מרגלית הלפרין, ארץ ישראל 1947)?",
+        "pl": "Is Markus Türkel (m. Szewa Horowitz, Liège 1946) the same as Mordechai 'Max' Levi-Turkel (m. Margalit Halperin, Palestine 1947)?",
+        "fr": "Is Markus Türkel (m. Szewa Horowitz, Liège 1946) the same as Mordechai 'Max' Levi-Turkel (m. Margalit Halperin, Palestine 1947)?"
+      },
+      "priority": "MEDIUM",
+      "status": "open — conflicting records",
+      "note_2026_06_15_cc": "Liège record: Markus Türkel, British-Army soldier of Tel Aviv, son of Leib Türkel + Lea Nüssenbaum, married Szewa Horowitz 15 Jun 1946. Turkel family (via Miki/Michal Lea Nativ): Mordechai 'Max' Levi-Turkel (1913-1997) married Margalit Halperin in Palestine 1947. Either two different Turkels, or the 1946 banns did not result in marriage. Markus + Szewa are buried together in Holon, which argues they did marry.",
+      "candidates": [
+        {
+          "name": "Different men",
+          "evidence_for": "different spouse, place, year; Holon burial of Markus+Szewa",
+          "evidence_against": "double Turkel-Horowitz tie makes confusion easy"
+        },
+        {
+          "name": "Same man / banns only",
+          "evidence_for": "British-Army soldier from Tel Aviv fits a returning emigrant",
+          "evidence_against": "Turkel family records a 1947 Palestine marriage to Halperin"
+        }
+      ],
+      "next_steps": [
+        "Ask the Turkel family (Doron Turkel / Miki Nativ) for Markus's record",
+        "Check Holon Cemetery records for Markus + Szewa Türkel"
+      ],
+      "related_people": [
+        "p_markus_turkel",
+        "p_szewa_horowitz",
+        "p_miki_nativ",
+        "p_alte_leja_rapaport"
+      ],
+      "related_places": [
+        "pl_liege",
+        "pl_haifa"
       ]
     }
   ]

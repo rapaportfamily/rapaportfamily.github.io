@@ -83,7 +83,8 @@
     "family_oral": "Family memory",
     "hypothesis": "Hypothesis",
     "ruled_out": "Ruled out",
-    "context": "Historical context"
+    "context": "Historical context",
+    "estimated": "Estimated"
   },
   "status": {
     "open": "Open",

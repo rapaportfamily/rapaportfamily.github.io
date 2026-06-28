@@ -874,6 +874,98 @@
         "1888": "Town in central Poland NW of Warsaw, Mazovian Voivodeship. Home of the Zylberfenig family who married into our paternal line (Sane × younger Rebeka Rapaport, 1923)."
       },
       "note_en": "Home of the Zylberfenig family. Sane Zylberfenig (b. Nov 1888 Płońsk, son of Abram + Pesi) married Berisz's sister Rebeka in Tarnów 1923."
+    },
+    {
+      "id": "pl_tarnopol",
+      "names": {
+        "en": "Tarnopol (now Ternopil, Ukraine)",
+        "he": "טרנופול (כיום טרנופיל, אוקראינה)",
+        "pl": "Tarnopol",
+        "fr": "Tarnopol (aujourd'hui Ternopil, Ukraine)",
+        "uk": "Тернопіль"
+      },
+      "coords": [
+        49.5535,
+        25.5948
+      ],
+      "era_context": {
+        "1909": "Kingdom of Galicia and Lodomeria, Austria-Hungary",
+        "1918_1939": "Tarnopol Voivodeship, Second Polish Republic",
+        "1939_": "Soviet, then independent Ukraine"
+      },
+      "significance": "Where Alte Leja Rapaport married Jechiel Turkel (1909) and the Turkel household lived (Perla St). Moses Saul Rapaport performed the circumcision of an Alte-Leja grandson here — a cross-tie placing him in Tarnopol c.1907-1913.",
+      "important_events_ids": [],
+      "significance_he": "",
+      "significance_pl": "",
+      "significance_fr": ""
+    },
+    {
+      "id": "pl_sambor",
+      "names": {
+        "en": "Sambor (now Sambir, Ukraine)",
+        "he": "סמבור (כיום סמביר, אוקראינה)",
+        "pl": "Sambor",
+        "fr": "Sambor (aujourd'hui Sambir, Ukraine)",
+        "uk": "Самбір"
+      },
+      "coords": [
+        49.5169,
+        23.1956
+      ],
+      "era_context": {
+        "1913": "Kingdom of Galicia and Lodomeria, Austria-Hungary",
+        "1918_1939": "Lwów Voivodeship, Second Polish Republic",
+        "1939_": "Soviet, then Ukraine"
+      },
+      "significance": "Where Szymon Rapaport (Berisz's brother) married Paja Laub on 8 June 1913 — the record that revealed Szymon as a sixth child of Moses Saul + Menukha.",
+      "important_events_ids": [],
+      "significance_he": "",
+      "significance_pl": "",
+      "significance_fr": ""
+    },
+    {
+      "id": "pl_liege",
+      "names": {
+        "en": "Liège, Belgium",
+        "he": "ליאז', בלגיה",
+        "pl": "Liège (Liege), Belgia",
+        "fr": "Liège, Belgique"
+      },
+      "coords": [
+        50.6326,
+        5.5797
+      ],
+      "era_context": {
+        "1941": "Occupied Belgium under Nazi Germany — the 1941 census of Jews recorded Szewa Horowitz here",
+        "1946": "Liberated Belgium — Szewa married Markus Türkel; her mother Jente Rapaport was living with her"
+      },
+      "significance": "Where Jente Rapaport SURVIVED the war with her daughter Szewa Horowitz. Szewa married Markus Türkel here on 15 June 1946 (record No. 1142). Proof that Jente's line survived.",
+      "important_events_ids": [],
+      "significance_he": "",
+      "significance_pl": "",
+      "significance_fr": ""
+    },
+    {
+      "id": "pl_trembowla",
+      "names": {
+        "en": "Trembowla (now Terebovlia, Ukraine)",
+        "he": "טרמבובלה (כיום טרבובליה, אוקראינה)",
+        "pl": "Trembowla",
+        "fr": "Trembowla (aujourd'hui Terebovlia, Ukraine)",
+        "uk": "Теребовля"
+      },
+      "coords": [
+        49.2986,
+        25.7106
+      ],
+      "era_context": {
+        "1879": "Kingdom of Galicia and Lodomeria, Austria-Hungary"
+      },
+      "significance": "Origin of Jechiel Turkel (Alte Leja Rapaport's husband), son of Lipa/Leib and Dwora Turkel.",
+      "important_events_ids": [],
+      "significance_he": "",
+      "significance_pl": "",
+      "significance_fr": ""
     }
   ]
 }

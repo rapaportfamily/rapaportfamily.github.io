@@ -105,3 +105,30 @@ firebase deploy --only hosting:rapaport-family
 **Decisions needed from Doron**: D10, D11 added to `docs/DECISIONS_FOR_DORON.md` (functions codebase collision; project ID typo confirmation)
 
 **Cost this session**: $0.00 — no LLM API calls; only file ops, `gh` API, and git pushes.
+
+## Session 2 — 4th WhatsApp ingest (through 15 June 2026)
+**Date**: 2026-06-28
+**Author**: CC (Opus 4.8)
+**WOs touched**: research ingest + data update (mirrors the T35/T43 ingest pattern)
+
+**What got done**:
+- Read the latest full WhatsApp export (4 May → 15 Jun 2026, 840 messages). Previous data stopped at 1 June.
+- Regenerated `platform/data/messages.json` via `scripts/parse_whatsapp.py`: **541 → 840** messages.
+- Wrote `docs/research/incoming_2026-06-15_whatsapp_export.md` — the sourced comparison + findings + open conflicts (every claim cites chat date/author + confidence; nothing invented).
+- Applied structured updates (referential integrity validated before write):
+  - **people 113 → 122**: +Szymon Rapaport (a SIXTH child of Moses Saul+Menukha) & wife Paja Laub & daughter Lea Segal/Fridman; +Jechiel Turkel (Alte Leja's husband); +Szewa Horowitz & Markus Türkel (Jente's surviving line in Liège); +3 living cousins (Yehudit Shlomit Ayalon, Daniela Zidon, Miki Nativ).
+  - Key updates: **Jente SURVIVED** (Liège 1946); **Lota born Vienna ~1915, husband "Szmid"**; Menukha = "Emilia" Leiner; David's signature on his 1953 YV PoTs (**H4 resolved**); Feige's husband corrected to Englard (+children Ruth/Akiwa); reclassified the 1941 Lea divorce as **our family**.
+  - **places 44 → 48** (Tarnopol, Sambor, Liège, Trembowla); **documents 39 → 48** (9 new primary records); **hypotheses 13 → 16** (+Moses Saul's parents, +Jente survival RESOLVED, +Markus-Türkel identity conflict).
+  - Added missing `estimated` confidence label to all 4 i18n files.
+
+**Evidence**: all JSON re-validated (loads + referential check); local HTTP smoke test 200 for index/people/messages; `app.js` uses optional chaining so the new partial records render safely.
+
+**Next session**:
+- Resolve Markus Türkel ≟ Mordechai "Max" Levi-Turkel (Liège 1946 vs Palestine 1947).
+- Chase Lota's marriage place + the Ładoś/passportyzycia.pl verification of her fate.
+- OCR / file-link the 9 new document images (currently referenced by chat filename only) into `platform/assets/documents/`.
+
+**Decisions needed from Doron**:
+- Confirm whether to commit + **push** this to the live site (public GitHub Pages) now, or hold.
+
+**Cost this session**: $0.00 — file ops only; OCR/vision reading of the new record images deferred.
