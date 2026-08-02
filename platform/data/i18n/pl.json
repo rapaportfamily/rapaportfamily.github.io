@@ -30,7 +30,8 @@
     "group_family": "Rodzina",
     "group_story": "Ich historia",
     "group_evidence": "Dowody",
-    "group_open": "Wciąż otwarte"
+    "group_open": "Wciąż otwarte",
+    "journey": "Podróż"
   },
   "ui": {
     "language": "Język",
@@ -216,5 +217,21 @@
     "method_p2": "Tłumaczenia między polskim, francuskim, angielskim i hebrajskim wykonano z pomocą badaczek Basi w Krakowie, Kasi w Paryżu i p. Kasi w Żydowskim Instytucie Historycznym w Warszawie, wraz z tłumaczeniem AI sprawdzonym wyrywkowo przez ludzi.",
     "thanks_title": "Podziękowania",
     "thanks_p": "Magdzie, która połączyła zespół. Basi, która przeszła przez archiwa galicyjskie. Kasi, która rozszyfrowała francuską kartę DP. Pani Kasi z ŻIH w Warszawie, która znalazła prawdziwe miejsce urodzenia Dawida. I Dalii, Danie i Danielowi — którzy nieśli pamięć."
+  },
+  "journey": {
+    "title": "Podróż",
+    "lead": "Z Nadwórnej do Hajfy, 1911–1948 — co napisała Łucja, w zestawieniu z dokumentami.",
+    "track_together": "Dawid, Łucja i Szymon",
+    "track_david_shimon": "Dawid i Szymon",
+    "track_lusia_dov": "Łucja i mały Dov",
+    "memoir_says": "Łucja pisze",
+    "documents_say": "Dokumenty pokazują",
+    "page": "strona",
+    "no_document": "Nie znaleziono dokumentu dla tego etapu.",
+    "still_open": "To wciąż otwarte pytanie →",
+    "agree_confirmed": "Dokument potwierdza",
+    "agree_corrected": "Dokument koryguje pamiętnik",
+    "agree_memoir_only": "Tylko jej relacja",
+    "agree_context": "Historia udokumentowana, rodzina niewymieniona"
   }
 }

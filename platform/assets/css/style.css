@@ -1689,3 +1689,88 @@ html[dir="rtl"] .rc-extra { border-left: 0; border-right: 3px solid var(--rule);
   .nav-inner.is-scrollable { -webkit-mask-image: linear-gradient(to right, #000 92%, transparent 100%); }
   html[dir="rtl"] .nav-inner.is-scrollable { -webkit-mask-image: linear-gradient(to left, #000 92%, transparent 100%); }
 }
+
+/* ============================================================
+   THE JOURNEY — memoir set against the documents
+============================================================ */
+.journey-legend, .journey-key {
+  display: flex; flex-wrap: wrap; gap: 1.2rem;
+  margin-bottom: var(--pad-md); font-size: 0.85rem; color: var(--muted);
+}
+.journey-key { margin-top: var(--pad-md); }
+.journey-swatch { width: 30px; height: 0; border-top-width: 3px; border-top-style: solid; display: inline-block; }
+.swatch-together     { border-top-color: var(--accent); }
+.swatch-david_shimon { border-top-color: var(--accent); border-top-style: dashed; }
+.swatch-lusia_dov    { border-top-color: var(--ink-soft); border-top-style: dotted; }
+
+.journey-map-wrap {
+  border: 1px solid var(--border);
+  border-top: 2px solid var(--accent);
+  border-radius: var(--radius);
+  background: var(--paper);
+  padding: var(--pad-md);
+  overflow-x: auto;
+}
+.journey-map { display: block; width: 100%; min-width: 640px; height: auto; }
+.journey-route { fill: none; stroke-width: 2.4; stroke-linejoin: round; stroke-linecap: round; }
+.route-together     { stroke: var(--accent); }
+.route-david_shimon { stroke: var(--accent); stroke-dasharray: 9 6; opacity: 0.85; }
+.route-lusia_dov    { stroke: var(--ink-soft); stroke-dasharray: 2 6; }
+.journey-node { cursor: pointer; }
+.journey-dot { fill: var(--paper); stroke: var(--accent); stroke-width: 2.4; transition: all 0.15s; }
+.journey-node:hover .journey-dot,
+.journey-node:focus .journey-dot { fill: var(--accent); r: 9; }
+.journey-node:focus { outline: none; }
+.journey-label {
+  font-family: var(--font-sans); font-size: 13px; font-weight: 700;
+  fill: var(--ink); text-anchor: middle; pointer-events: none;
+}
+.journey-years {
+  font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.04em;
+  fill: var(--muted); text-anchor: middle; pointer-events: none;
+}
+
+.journey-legs { display: flex; flex-direction: column; gap: var(--pad-md); margin-top: var(--pad-lg); }
+.journey-leg {
+  display: grid; grid-template-columns: 120px 1fr; gap: var(--pad-lg);
+  border: 1px solid var(--border); border-top: 2px solid var(--accent);
+  border-radius: var(--radius); padding: var(--pad-lg);
+  transition: box-shadow 0.2s, background 0.2s;
+}
+.journey-leg.leg-flash { background: var(--accent-wash); box-shadow: var(--shadow-2); }
+.leg-rail { border-inline-end: 1px solid var(--border); padding-inline-end: var(--pad-md); }
+.leg-year { display: block; font-family: var(--font-mono); font-size: 1.05rem; font-weight: 600; color: var(--accent); }
+.leg-place { display: block; font-size: 0.82rem; color: var(--muted); margin-top: 0.2rem; }
+.leg-head { display: flex; align-items: baseline; gap: 0.8rem; flex-wrap: wrap; margin-bottom: 0.7rem; }
+.leg-head h3 { margin: 0; font-size: 1.2rem; }
+.leg-cols { display: grid; grid-template-columns: 1fr 1fr; gap: var(--pad-lg); }
+.leg-col h4 {
+  margin: 0 0 0.35rem; font-family: var(--font-mono); font-size: 0.68rem;
+  letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted);
+}
+.leg-col p { margin: 0; line-height: 1.6; }
+.leg-memoir p { font-family: var(--font-read); font-size: 1.06rem; color: var(--ink-soft); }
+html[dir="rtl"] .leg-memoir p { font-family: var(--font-hebrew); font-size: 1rem; }
+.leg-page { color: var(--muted); font-weight: 400; letter-spacing: 0.04em; }
+.leg-docs { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.6rem; }
+.leg-doc {
+  font-size: 0.78rem; padding: 0.2rem 0.55rem; border: 1px solid var(--border);
+  border-radius: 999px; color: var(--accent); border-bottom: 1px solid var(--border) !important;
+}
+.leg-doc:hover { background: var(--accent-wash); border-color: var(--accent) !important; }
+.leg-nodoc, .leg-note { color: var(--muted); font-size: 0.88rem; }
+.leg-note { margin: 0.8rem 0 0; padding-top: 0.7rem; border-top: 1px solid var(--border-soft); font-style: italic; }
+.leg-open { margin: 0.6rem 0 0; font-size: 0.85rem; }
+
+.badge.agree-confirmed   { background: var(--ok-wash);     color: var(--ok);     border-color: var(--ok); }
+.badge.agree-corrected   { background: var(--warn-wash);   color: var(--warn);   border-color: var(--warn); }
+.badge.agree-memoir_only { background: var(--accent-wash); color: var(--accent); border-color: var(--accent); }
+.badge.agree-context     { background: var(--paper);       color: var(--muted);  border-color: var(--border); }
+
+@media (max-width: 820px) {
+  .journey-leg { grid-template-columns: 1fr; gap: var(--pad-md); }
+  .leg-rail { border-inline-end: 0; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; }
+  .leg-cols { grid-template-columns: 1fr; gap: var(--pad-md); }
+}
+.journey-leader { stroke: var(--border); stroke-width: 1; }
+.journey-label, .journey-years { text-anchor: middle; }

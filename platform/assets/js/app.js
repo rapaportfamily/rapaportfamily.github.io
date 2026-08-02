@@ -140,6 +140,7 @@ function router() {
     case 'home': renderHome(root); break;
     case 'tree': renderTree(root); break;
     case 'timeline': renderTimeline(root); break;
+    case 'journey': renderJourney(root); break;
     case 'people': renderPeople(root, param); break;
     case 'places': renderPlaces(root, param); break;
     case 'documents': renderDocuments(root, param); break;
@@ -860,6 +861,238 @@ function extractYear(s) {
   if (!s) return '?';
   const m = String(s).match(/(\d{4})/);
   return m ? m[1] : s;
+}
+
+// ----------------------------------------
+// THE JOURNEY  (memoir set against the documents)
+// ----------------------------------------
+// A schematic map — true relative positions from the real coordinates, no
+// basemap invented — plus a leg-by-leg reading of what Lusia wrote against
+// what the documents show. Where they disagree, both are shown.
+
+const JOURNEY = {
+  W: 980, H: 560, PAD: 64,
+  R: 7,              // node radius
+};
+
+let _journeyCache = null;
+
+async function loadJourney() {
+  if (_journeyCache) return _journeyCache;
+  _journeyCache = await fetch(`data/journey.json?v=${Date.now()}`, { cache: 'no-store' }).then(r => r.json());
+  return _journeyCache;
+}
+
+// Equirectangular, narrowed by the cosine of the mean latitude so the shape
+// is not stretched sideways.
+function journeyProjection(legs) {
+  const lats = legs.map(l => l.coords[0]), lons = legs.map(l => l.coords[1]);
+  const midLat = (Math.min(...lats) + Math.max(...lats)) / 2;
+  const k = Math.cos(midLat * Math.PI / 180);
+  const xs = lons.map(v => v * k), ys = lats;
+  const x0 = Math.min(...xs), x1 = Math.max(...xs);
+  const y0 = Math.min(...ys), y1 = Math.max(...ys);
+  const w = JOURNEY.W - JOURNEY.PAD * 2, h = JOURNEY.H - JOURNEY.PAD * 2;
+  const s = Math.min(w / (x1 - x0), h / (y1 - y0));
+  const ox = JOURNEY.PAD + (w - (x1 - x0) * s) / 2;
+  const oy = JOURNEY.PAD + (h - (y1 - y0) * s) / 2;
+  return ([lat, lon]) => [ox + (lon * k - x0) * s, oy + (y1 - lat) * s];
+}
+
+function buildJourneyMap(data) {
+  const legs = data.legs;
+  const project = journeyProjection(legs);
+  const svg = svgEl('svg', { class: 'journey-map', viewBox: `0 0 ${JOURNEY.W} ${JOURNEY.H}`, xmlns: SVGNS });
+  // Geography does not flip with the language.
+  svg.setAttribute('direction', 'ltr');
+
+  const byDate = ls => ls.slice().sort((a, b) => (a.date || '').localeCompare(b.date || ''));
+  const at = id => legs.find(l => l.place_id === id);
+  const brussels = at('pl_brussels'), haifa = at('pl_haifa');
+
+  const together = byDate(legs.filter(l => l.track === 'together' && l.place_id !== 'pl_haifa'));
+  const dsLegs = byDate(legs.filter(l => l.track === 'david_shimon'));
+  const ldLegs = byDate(legs.filter(l => l.track === 'lusia_dov'));
+
+  const routes = [
+    { key: 'together', pts: together.map(l => l.coords) },
+    { key: 'david_shimon', pts: [brussels.coords, ...dsLegs.map(l => l.coords), haifa.coords] },
+    { key: 'lusia_dov', pts: [brussels.coords, haifa.coords] },
+  ];
+
+  const lines = svgEl('g', { class: 'journey-lines' });
+  svg.appendChild(lines);
+  for (const r of routes) {
+    const d = r.pts.map(project).map(([x, y], i) => `${i ? 'L' : 'M'}${x.toFixed(1)},${y.toFixed(1)}`).join(' ');
+    lines.appendChild(svgEl('path', { d, class: `journey-route route-${r.key}` }));
+  }
+
+  // one marker per place, labelled with the years it appears in the story
+  const nodes = svgEl('g', { class: 'journey-nodes' });
+  svg.appendChild(nodes);
+  const seen = new Map();
+  for (const l of byDate(legs)) {
+    const cur = seen.get(l.place_id) || { coords: l.coords, years: [], legs: [] };
+    if (!cur.years.includes(l.year)) cur.years.push(l.year);
+    cur.legs.push(l);
+    seen.set(l.place_id, cur);
+  }
+  for (const [placeId, info] of seen) {
+    const [x, y] = project(info.coords);
+    const g = svgEl('g', { class: 'journey-node', 'data-place': placeId, tabindex: '0', role: 'button' });
+    g.appendChild(svgEl('circle', { cx: x, cy: y, r: JOURNEY.R, class: 'journey-dot' }));
+    const place = State.byId.places[placeId];
+    // "Atlit, British Mandate Palestine" and "Lwów / Lviv / Lemberg" are too
+    // long to sit on a map pin — take the town name only.
+    const name = place
+      ? ml(place.names).split(' (')[0].split(' / ')[0].split(',')[0].trim()
+      : placeId;
+    nodes.appendChild(g);
+    // Name and years travel together as one caption block, so collision
+    // resolution moves them as a unit. Placed properly once measured.
+    const cap = svgEl('g', { class: 'journey-caption' });
+    cap.dataset.cx = x; cap.dataset.cy = y;
+    const label = svgEl('text', { x: 0, y: 0, class: 'journey-label' });
+    label.textContent = name;
+    cap.appendChild(label);
+    const yrs = svgEl('text', { x: 0, y: 13, class: 'journey-years' });
+    yrs.textContent = info.years.join(' · ');
+    cap.appendChild(yrs);
+    cap.setAttribute('transform', `translate(${x},${y - 18})`);
+    g.appendChild(cap);
+    const title = svgEl('title');
+    title.textContent = `${name} — ${info.legs.map(l => ml(l.title)).join(' / ')}`;
+    g.appendChild(title);
+    const jump = () => {
+      const el = document.getElementById('leg-' + info.legs[0].id);
+      if (el) { el.scrollIntoView({ behavior: 'smooth', block: 'center' }); el.classList.add('leg-flash');
+                setTimeout(() => el.classList.remove('leg-flash'), 1400); }
+    };
+    g.addEventListener('click', jump);
+    g.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); jump(); } });
+  }
+  return svg;
+}
+
+// Place names on a small map collide — Galicia alone puts five towns within a
+// few dozen pixels, and Atlit sits almost on top of Haifa. Measure once the map
+// is in the document and give each caption the first offset that clears
+// everything already placed.
+//
+// Note: getBBox() on a <g> reports its children in the group's OWN coordinate
+// space, i.e. before the group's own translate — so every caption measures the
+// same and nothing can be compared. getBoundingClientRect() is in screen space
+// and includes the transform, which is what this needs.
+function resolveJourneyCaptions(svg) {
+  const caps = [...svg.querySelectorAll('.journey-caption')];
+  if (!caps.length) return;
+  const OFFSETS = [
+    [0, -18], [0, 32], [0, -42], [0, 50],
+    [62, -4], [-62, -4], [68, 24], [-68, 24],
+    [0, -62], [0, 68], [92, -4], [-92, -4],
+  ];
+  const rect = el => {
+    const r = el.getBoundingClientRect();
+    return { x: r.left, y: r.top, w: r.width, h: r.height };
+  };
+  const hit = (a, b) =>
+    a.x < b.x + b.w && b.x < a.x + a.w && a.y < b.y + b.h && b.y < a.y + a.h;
+
+  // Markers are obstacles too — a caption must never sit on a dot.
+  const placed = [...svg.querySelectorAll('.journey-dot')].map(rect);
+  // Widest captions first; they are the hardest to fit.
+  const order = caps.slice().sort((a, b) => rect(b).width - rect(a).width);
+
+  for (const cap of order) {
+    const cx = Number(cap.dataset.cx), cy = Number(cap.dataset.cy);
+    let chosen = OFFSETS[0];
+    for (const off of OFFSETS) {
+      cap.setAttribute('transform', `translate(${cx + off[0]},${cy + off[1]})`);
+      if (!placed.some(p => hit(rect(cap), p))) { chosen = off; break; }
+    }
+    cap.setAttribute('transform', `translate(${cx + chosen[0]},${cy + chosen[1]})`);
+    placed.push(rect(cap));
+    if (Math.abs(chosen[0]) > 20 || Math.abs(chosen[1]) > 36) {
+      svg.querySelector('.journey-lines').appendChild(svgEl('line', {
+        x1: cx, y1: cy,
+        x2: cx + chosen[0], y2: cy + chosen[1] + (chosen[1] > 0 ? -6 : 6),
+        class: 'journey-leader',
+      }));
+    }
+  }
+}
+
+function renderJourney(root) {
+  root.innerHTML = `${pageHeader('journey.title', 'journey.lead')}<div id="journey-body"><p class="muted">${escapeHtml(t('ui.loading'))}</p></div>`;
+
+  loadJourney().then(data => {
+    const body = document.getElementById('journey-body');
+    if (!body) return;
+
+    const tracks = [
+      ['together', t('journey.track_together')],
+      ['david_shimon', t('journey.track_david_shimon')],
+      ['lusia_dov', t('journey.track_lusia_dov')],
+    ];
+    const agreements = ['confirmed', 'corrected', 'memoir_only', 'context'];
+
+    body.innerHTML = `
+      <div class="journey-legend">
+        ${tracks.map(([k, label]) => `
+          <span class="legend-item"><span class="journey-swatch swatch-${k}"></span>${escapeHtml(label)}</span>
+        `).join('')}
+      </div>
+      <div class="journey-map-wrap" id="journey-map-wrap"></div>
+      <div class="journey-key">
+        ${agreements.map(a => `
+          <span class="legend-item"><span class="badge agree-${a}">${escapeHtml(t('journey.agree_' + a))}</span></span>
+        `).join('')}
+      </div>
+      <div class="journey-legs">
+        ${data.legs.map(l => {
+          const place = State.byId.places[l.place_id];
+          const docs = (l.evidence.documents || []).map(id => State.byId.documents[id]).filter(Boolean);
+          return `
+          <article class="journey-leg" id="leg-${escapeHtml(l.id)}">
+            <div class="leg-rail">
+              <span class="leg-year">${escapeHtml(l.year)}</span>
+              <span class="leg-place">${escapeHtml(place ? ml(place.names).split(' (')[0] : '')}</span>
+            </div>
+            <div class="leg-body">
+              <div class="leg-head">
+                <h3>${escapeHtml(ml(l.title))}</h3>
+                <span class="badge agree-${escapeHtml(l.agreement)}">${escapeHtml(t('journey.agree_' + l.agreement))}</span>
+              </div>
+              <div class="leg-cols">
+                <div class="leg-col leg-memoir">
+                  <h4>${escapeHtml(t('journey.memoir_says'))}${l.memoir.page ? ` <span class="leg-page">${escapeHtml(t('journey.page'))} ${l.memoir.page}</span>` : ''}</h4>
+                  <p>${escapeHtml(ml(l.memoir.says))}</p>
+                </div>
+                <div class="leg-col leg-evidence">
+                  <h4>${escapeHtml(t('journey.documents_say'))}</h4>
+                  <p>${escapeHtml(ml(l.evidence.says))}</p>
+                  ${docs.length ? `<div class="leg-docs">${docs.map(d => `
+                    <a href="#/documents/${escapeHtml(d.id)}" class="leg-doc" data-link>${escapeHtml(ml(d.title))}</a>
+                  `).join('')}</div>` : `<p class="leg-nodoc">${escapeHtml(t('journey.no_document'))}</p>`}
+                </div>
+              </div>
+              ${l.note ? `<p class="leg-note">${escapeHtml(ml(l.note))}</p>` : ''}
+              ${l.open_question ? `<p class="leg-open"><a href="#/hypotheses" data-link>${escapeHtml(t('journey.still_open'))}</a></p>` : ''}
+            </div>
+          </article>`;
+        }).join('')}
+      </div>
+    `;
+
+    const map = buildJourneyMap(data);
+    document.getElementById('journey-map-wrap').appendChild(map);
+    // Only now that it is in the document can the captions be measured, so the
+    // collision pass runs here rather than while building.
+    resolveJourneyCaptions(map);
+  }).catch(err => {
+    const body = document.getElementById('journey-body');
+    if (body) body.innerHTML = `<p class="muted">${escapeHtml(String(err.message || err))}</p>`;
+  });
 }
 
 // ----------------------------------------

@@ -30,7 +30,8 @@
     "group_family": "La famille",
     "group_story": "Leur histoire",
     "group_evidence": "Les preuves",
-    "group_open": "Encore ouvert"
+    "group_open": "Encore ouvert",
+    "journey": "Le voyage"
   },
   "ui": {
     "language": "Langue",
@@ -216,5 +217,21 @@
     "method_p2": "Les traductions entre le polonais, le français, l'anglais et l'hébreu ont été réalisées avec l'aide des chercheuses Basia à Cracovie, Kasia à Paris et Mme Kasia à l'Institut historique juif de Varsovie, ainsi qu'une traduction IA vérifiée ponctuellement par des humains.",
     "thanks_title": "Merci",
     "thanks_p": "À Magda, qui a réuni l'équipe. À Basia, qui a parcouru les archives galiciennes. À Kasia, qui a percé la fiche DP en français. À Mme Kasia à ŻIH Varsovie, qui a trouvé le véritable lieu de naissance de David. Et à Dalia, Dana et Daniel — qui ont porté la mémoire."
+  },
+  "journey": {
+    "title": "Le voyage",
+    "lead": "De Nadwórna à Haïfa, 1911–1948 — ce que Lusia a écrit, confronté aux documents.",
+    "track_together": "David, Lusia et Shimon",
+    "track_david_shimon": "David et Shimon",
+    "track_lusia_dov": "Lusia et le petit Dov",
+    "memoir_says": "Lusia écrit",
+    "documents_say": "Les documents montrent",
+    "page": "page",
+    "no_document": "Aucun document trouvé pour cette étape.",
+    "still_open": "Question toujours ouverte →",
+    "agree_confirmed": "Le document confirme",
+    "agree_corrected": "Le document corrige le mémoire",
+    "agree_memoir_only": "Son récit seul",
+    "agree_context": "L'histoire est documentée, la famille non nommée"
   }
 }

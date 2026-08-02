@@ -1,0 +1,214 @@
+{
+  "_schema": {
+    "description": "The journey of David, Lusia, Shimon and Dov, 1911-1948, as Lusia tells it in her memoir, set against the documents we hold. Each leg records what the memoir says (with its page), what the documents show (with their ids), and how the two relate.",
+    "agreement": {
+      "confirmed": "A primary document states the same thing as the memoir.",
+      "corrected": "A primary document contradicts the memoir. The document is followed; the memoir is preserved as testimony.",
+      "memoir_only": "Only Lusia's account. No document found, and in several cases none can be expected to exist.",
+      "context": "No document about the family, but the historical event itself is documented."
+    },
+    "note": "Coordinates are real. The map is schematic — true relative positions, no basemap.",
+    "generated": "2026-08-02"
+  },
+  "tracks": {
+    "together": { "label_en": "David, Lusia and Shimon", "label_he": "דוד, לוסיה ושמעון" },
+    "david_shimon": { "label_en": "David and Shimon", "label_he": "דוד ושמעון" },
+    "lusia_dov": { "label_en": "Lusia and baby Dov", "label_he": "לוסיה והתינוק דב" }
+  },
+  "legs": [
+    {
+      "id": "j_nadworna_1911",
+      "year": "1911",
+      "date": "1911-12-25",
+      "place_id": "pl_nadworna",
+      "coords": [48.6378, 24.5708],
+      "track": "together",
+      "title": { "en": "Nadwórna — David is born", "he": "נדבורנה — דוד נולד", "pl": "Nadwórna — narodziny Dawida", "fr": "Nadwórna — naissance de David" },
+      "memoir": { "says": { "en": "David Mendel Rapaport, son of Berisz and Rebeka née Griffel.", "he": "דוד מנדל רפפורט, בנם של בריש ורבקה לבית גריפל." }, "page": null },
+      "evidence": {
+        "documents": ["doc_david_birth_nadworna"],
+        "says": { "en": "Birth record, Nadwórna, 25 December 1911 — found by Ms. Kasia at ŻIH Warsaw on 15 May 2026. It overturned the Brussels DP card, which had recorded his birthplace as Cieszyn.", "he": "רשומת לידה, נדבורנה, 25 בדצמבר 1911 — אותרה בידי גב׳ קסיה ב-ŻIH ורשה. היא הפריכה את כרטיס העקורים מבריסל, שרשם את מקום הלידה כצ׳ישין." }
+      },
+      "agreement": "confirmed"
+    },
+    {
+      "id": "j_bolechow_1913",
+      "year": "1913",
+      "date": "1913-04-08",
+      "place_id": "pl_bolechow",
+      "coords": [49.0658, 23.8589],
+      "track": "together",
+      "title": { "en": "Bolechów — Lusia is born", "he": "בולחוב — לוסיה נולדת", "pl": "Bolechów — narodziny Łucji", "fr": "Bolechów — naissance de Lusia" },
+      "memoir": { "says": { "en": "Leah — Lusia — Weitzner, born 8 April 1913, daughter of Eli the tanner and Matel.", "he": "לאה — לוסיה — ויצנר, ילידת 8 באפריל 1913, בתם של אלי הבורסקאי ומטל." }, "page": 12 },
+      "evidence": {
+        "documents": ["doc_leah_birth_bolechow_1913", "doc_lea_ckzp"],
+        "says": { "en": "The Bolechów birth record gives 8 April 1913. Three later records — her own CKŻP survivor card, the ŻIH index and the Haifa burial register — all give 1916. The day and month never vary; only the year does.", "he": "רשומת הלידה מבולחוב נוקבת ב-8 באפריל 1913. שלוש רשומות מאוחרות — כרטיס הניצולים שלה, מפתח ŻIH ופנקס הקבורה בחיפה — נוקבות ב-1916. היום והחודש זהים תמיד; רק השנה משתנה." }
+      },
+      "agreement": "confirmed",
+      "open_question": "h_leah_dob"
+    },
+    {
+      "id": "j_muszyna_1935",
+      "year": "1935—1939",
+      "date": "1935-02-10",
+      "place_id": "pl_muszyna",
+      "coords": [49.35, 20.9],
+      "track": "together",
+      "title": { "en": "Muszyna — the marriage, the hotel, and Shimon", "he": "מושינה — הנישואים, המלון, ושמעון", "pl": "Muszyna — ślub, pensjonat i Szymon", "fr": "Muszyna — le mariage, l'hôtel et Shimon" },
+      "memoir": { "says": { "en": "They married in \"Moszyna\" in February 1938. Lusia ran a hotel there and became a mother; she once pulled two drowning children from the river.", "he": "הם נישאו ב״מושינה״ בפברואר 1938. לוסיה ניהלה שם מלון והפכה לאם; פעם חילצה שני ילדים מטביעה בנהר." }, "page": 16 },
+      "evidence": {
+        "documents": ["doc_lea_dawid_marriage_1935", "doc_szymon_ckzp", "doc_zydzi_w_muszynie", "doc_muszyna_1936_photos"],
+        "says": { "en": "The civil marriage record gives Bolechów, 10 February 1935 — three years earlier than the memoir, and a different town. Shimon's own CKŻP card gives his birth as 22 June 1937 in Lwów, not Muszyna. The Muszyna years themselves are well attested: the town's Jewish guest-houses are documented, and the sawmill there belonged to Zygmunt Griffel — David's first cousin.", "he": "רשומת הנישואים האזרחית נוקבת בבולחוב, 10 בפברואר 1935 — שלוש שנים מוקדם יותר, ובעיר אחרת. כרטיס ה-CKŻP של שמעון נוקב בלידתו ב-22 ביוני 1937 בלבוב, לא במושינה. שנות מושינה עצמן מתועדות היטב: בתי ההארחה היהודיים בעיירה מתועדים, והמנסרה שם הייתה של זיגמונט גריפל — בן דודו של דוד." }
+      },
+      "agreement": "corrected",
+      "note": { "en": "Written forty years after the events. A wedding remembered as the start of the Muszyna years, rather than three years before them, is the kind of thing memory does.", "he": "נכתב ארבעים שנה אחרי המאורעות. חתונה הנזכרת כפתיחת שנות מושינה, ולא שלוש שנים לפניהן, היא בדיוק סוג הדבר שהזיכרון עושה." }
+    },
+    {
+      "id": "j_przemysl_1939",
+      "year": "1939—1940",
+      "date": "1939-09-01",
+      "place_id": "pl_przemysl",
+      "coords": [49.7838, 22.7674],
+      "track": "together",
+      "title": { "en": "Przemyśl — the war begins", "he": "פשמישל — המלחמה מתחילה", "pl": "Przemyśl — początek wojny", "fr": "Przemyśl — la guerre commence" },
+      "memoir": { "says": { "en": "War comes. David sends Lusia and Shimon to his parents in Przemyśl \"until the anger passes\". She works in the Soviet passport section. Her husband's father is later killed there by the Germans, accused of putting a bomb on the railway line near the house.", "he": "המלחמה פורצת. דוד שולח את לוסיה ושמעון להוריו בפשמישל ״עד יעבור זעם״. היא עובדת במחלקת הדרכונים הסובייטית. חמהּ נהרג שם מאוחר יותר בידי הגרמנים, באשמה שהניח פצצה על מסילת הרכבת ליד הבית." }, "page": 23 },
+      "evidence": {
+        "documents": ["doc_ipn_passportization_paper"],
+        "says": { "en": "The Soviet \"passportisation\" campaign in the border zone is documented by the IPN — it explains exactly what the passport section she worked in was. Berisz's death has no record: the first publicly posted execution in Przemyśl was November 1943, long after. An individual Gestapo action would leave no notice.", "he": "מבצע ה״פספורטיזציה״ הסובייטי באזור הגבול מתועד ב-IPN — הוא מסביר בדיוק מהי מחלקת הדרכונים שבה עבדה. למותו של בריש אין רישום: ההוצאה להורג הפומבית הראשונה בפשמישל הייתה בנובמבר 1943, הרבה אחר כך. פעולה פרטנית של הגסטפו לא הייתה מותירה הודעה." }
+      },
+      "agreement": "context"
+    },
+    {
+      "id": "j_nadworna_1941",
+      "year": "1941—1942",
+      "date": "1941-10-06",
+      "place_id": "pl_nadworna",
+      "coords": [48.6378, 24.5708],
+      "track": "together",
+      "title": { "en": "Nadwórna — the ghetto, and the refusal", "he": "נדבורנה — הגטו, והסירוב", "pl": "Nadwórna — getto i odmowa", "fr": "Nadwórna — le ghetto et le refus" },
+      "memoir": { "says": { "en": "The family returns to Nadwórna. Their neighbour Ivanov warns Lusia of a coming action against the children. When the ghetto is established she refuses to enter it — \"I am not returning to the ghetto and I have no intention whatsoever of living there\" — and begins passing as a Polish woman. The Hormak family move Shimon to Lwów. David takes a worker's tag at the sawmill, which lets him leave the ghetto, and later escapes.", "he": "המשפחה חוזרת לנדבורנה. השכן איוונוב מזהיר את לוסיה מפני אקציה מתקרבת נגד הילדים. כשהגטו מוקם היא מסרבת להיכנס — ״איני חוזרת לגטו ואין בכוונתי כלל לגור בו״ — ומתחילה להתחזות לפולנייה. משפחת הורמק מעבירה את שמעון ללבוב. דוד מקבל תג עובד במנסרה, המאפשר לו לצאת מהגטו, ובהמשך נמלט." }, "page": 30 },
+      "evidence": {
+        "documents": [],
+        "says": { "en": "The Nadwórna community history documents it all around them: over 2,000 Jews murdered in the Bukowinka forest on 6 October 1941, the ghetto formed in April 1942, some 600 Jews working daily at the sawmill for the badge that marked them essential, and the final liquidation on 24 October 1942. The family's own acts are hers alone to tell — no document records a refusal.", "he": "היסטוריית הקהילה בנדבורנה מתעדת את כל הסובב אותם: יותר מ-2,000 יהודים נרצחו ביער בוקובינקה ב-6 באוקטובר 1941, הגטו הוקם באפריל 1942, כ-600 יהודים עבדו מדי יום במנסרה עבור התג שסימנם כחיוניים, והחיסול הסופי ב-24 באוקטובר 1942. מעשי המשפחה עצמם — רק היא מספרת אותם. שום מסמך אינו מתעד סירוב." }
+      },
+      "agreement": "context"
+    },
+    {
+      "id": "j_lwow_1941",
+      "year": "1941—1944",
+      "date": "1942-01-01",
+      "place_id": "pl_lwow",
+      "coords": [49.8397, 24.0297],
+      "track": "together",
+      "title": { "en": "Lwów — Maria, and the crate", "he": "לבוב — מריה, והארגז", "pl": "Lwów — Maria i skrzynia", "fr": "Lwów — Maria et la caisse" },
+      "memoir": { "says": { "en": "Lusia lives at Legionów 24 as \"Maria\", on another woman's birth certificate, managing a shop of art objects on the market square. Shimon spends his days in a wooden crate 70 cm by 1.5 m; when neighbours visit she puts the phonograph on its lid. He does not see sunlight for years. David lives separately under his own disguise, laying railway track.", "he": "לוסיה מתגוררת בלגיונוב 24 בשם ״מריה״, על תעודת לידה של אישה אחרת, ומנהלת חנות חפצי אמנות בכיכר השוק. שמעון מבלה את ימיו בארגז עץ במידות 70 ס״מ על 1.5 מ׳; כשבאים שכנים היא מניחה עליו את הפטיפון. שנים אינו רואה אור שמש. דוד חי בנפרד בתחפושת משלו ומניח מסילות רכבת." }, "page": 43 },
+      "evidence": {
+        "documents": ["doc_lea_ckzp"],
+        "says": { "en": "The building at Legionów 24 still stands — Prospekt Svobody 24, a Biedermeier house of 1836 opposite the opera, which under German occupation was the city's main administrative boulevard. Aryan-side survival on forged papers is documented in the thousands in Lwów in 1942-43. Of the identity itself, nothing survives: papers like these were never meant to leave a trace, and Lusia's own survivor card, filed after the war, is in her real name.", "he": "הבניין בלגיונוב 24 עדיין עומד — פרוספקט סבובודי 24, בית בסגנון בידרמאייר מ-1836 מול האופרה, שתחת הכיבוש הגרמני היה השדרה המנהלית הראשית של העיר. הישרדות בצד הארי על ניירות מזויפים מתועדת באלפים בלבוב ב-1942—43. מהזהות עצמה לא נותר דבר: ניירות כאלה לא נועדו להשאיר עקבות, וכרטיס הניצולים של לוסיה, שהוגש אחרי המלחמה, נושא את שמה האמיתי." }
+      },
+      "agreement": "memoir_only"
+    },
+    {
+      "id": "j_katowice_1945",
+      "year": "1945—1946",
+      "date": "1946-07-01",
+      "place_id": "pl_katowice",
+      "coords": [50.2649, 19.0238],
+      "track": "together",
+      "title": { "en": "Katowice — registered as survivors", "he": "קטוביץ — נרשמים כניצולים", "pl": "Katowice — rejestracja ocalałych", "fr": "Katowice — enregistrés comme survivants" },
+      "memoir": { "says": { "en": "The war ends. Lusia, David and Shimon leave the Russian part of Poland and travel to Katowice with the repatriation.", "he": "המלחמה נגמרת. לוסיה, דוד ושמעון עוזבים את החלק הרוסי של פולין ונוסעים לקטוביץ עם הרפטריאציה." }, "page": 62 },
+      "evidence": {
+        "documents": ["doc_lea_ckzp", "doc_szymon_ckzp"],
+        "says": { "en": "Two survivor-registration cards, both filed at the Katowice committee on 1 July 1946 — Lusia's and Shimon's, mother and son together, at exactly the place and moment the memoir describes. These are the cards that sat unread in the upload queue until June 2026, because the automatic verifier had refused them.", "he": "שני כרטיסי רישום ניצולים, שניהם הוגשו בוועדת קטוביץ ב-1 ביולי 1946 — של לוסיה ושל שמעון, אם ובן יחד, בדיוק במקום ובזמן שהיומן מתאר. אלה הכרטיסים שנותרו בלא נקראו בתור ההעלאות עד יוני 2026, משום שמנגנון האימות האוטומטי סירב אותם." }
+      },
+      "agreement": "confirmed"
+    },
+    {
+      "id": "j_brussels_1946",
+      "year": "1946",
+      "date": "1946-04-09",
+      "place_id": "pl_brussels",
+      "coords": [50.8503, 4.3517],
+      "track": "together",
+      "title": { "en": "Brussels — and Dov", "he": "בריסל — ודב", "pl": "Bruksela — i Dov", "fr": "Bruxelles — et Dov" },
+      "memoir": { "says": { "en": "The family reaches Brussels and stays in a hotel. Dov is born there.", "he": "המשפחה מגיעה לבריסל ומתאכסנת במלון. דב נולד שם." }, "page": 62 },
+      "evidence": {
+        "documents": ["doc_david_dp_card"],
+        "says": { "en": "David's Displaced Persons card, Brussels, 9 April 1946: forestry engineer, Polish nationality stripped in 1942, speaking Polish, Italian, German, Czech and Russian. Dov was born on 28 August 1946 — four and a half months later.", "he": "כרטיס העקורים של דוד, בריסל, 9 באפריל 1946: מהנדס יערות, אזרחותו הפולנית נשללה ב-1942, דובר פולנית, איטלקית, גרמנית, צ׳כית ורוסית. דב נולד ב-28 באוגוסט 1946 — ארבעה חודשים וחצי אחר כך." }
+      },
+      "agreement": "confirmed"
+    },
+    {
+      "id": "j_sete_1947",
+      "year": "1947",
+      "date": "1947-04-02",
+      "place_id": "pl_sete",
+      "coords": [43.4045, 3.6963],
+      "track": "david_shimon",
+      "title": { "en": "Sète — David and Shimon board the Theodor Herzl", "he": "סֶט — דוד ושמעון עולים על ״תיאודור הרצל״", "pl": "Sète — Dawid i Szymon na pokład Theodor Herzl", "fr": "Sète — David et Shimon embarquent sur le Theodor Herzl" },
+      "memoir": { "says": { "en": "Memek and Shimon join a passage organised by emissaries from the Land of Israel, and board the Theodor Herzl with a small suitcase and many hopes. Lusia stays behind in Brussels with the baby.", "he": "ממק ושמעון מצטרפים למסע שאורגן בידי שליחים מארץ ישראל, ועולים על ״תיאודור הרצל״ עם מזוודה קטנה והרבה תקוות. לוסיה נשארת בבריסל עם התינוק." }, "page": 63 },
+      "evidence": {
+        "documents": [],
+        "says": { "en": "The ship is fully documented — the ex-British cable-layer HMS Guardian, built Newcastle 1907, sailing from Sète on 2 April 1947 with 2,641 ma'apilim drawn from camps in France and Belgium, boarded by the Royal Navy on 13 April. Three passengers were killed. No passenger manifest has ever been published; the searches for one at USHMM and the Palyam archive came back empty.", "he": "האונייה מתועדת במלואה — ספינת הכבלים הבריטית לשעבר HMS Guardian, נבנתה בניוקאסל 1907, הפליגה מסֶט ב-2 באפריל 1947 עם 2,641 מעפילים ממחנות בצרפת ובבלגיה, ונתפסה בידי הצי המלכותי ב-13 באפריל. שלושה נוסעים נהרגו. רשימת נוסעים מעולם לא פורסמה; החיפושים ב-USHMM ובארכיון פלי״ם העלו חרס." }
+      },
+      "agreement": "context"
+    },
+    {
+      "id": "j_cyprus_1947",
+      "year": "1947—1948",
+      "date": "1947-04-13",
+      "place_id": "pl_cyprus_karaolos",
+      "coords": [35.1265, 33.943],
+      "track": "david_shimon",
+      "title": { "en": "Cyprus — Karaolos", "he": "קפריסין — קרַאוֹלוֹס", "pl": "Cypr — Karaolos", "fr": "Chypre — Karaolos" },
+      "memoir": { "says": { "en": "The ship is taken by the British fleet and all its passengers are deported to the refugee camps on Cyprus.", "he": "האונייה נתפסת בידי הצי הבריטי וכל נוסעיה מגורשים למחנות הפליטים בקפריסין." }, "page": 64 },
+      "evidence": {
+        "documents": [],
+        "says": { "en": "The Karaolos camps north of Famagusta held Jews behind wire between 1946 and 1949 — 53,510 people in all, some two thousand children born inside. David and Shimon were there roughly eight months.", "he": "מחנות קרַאוֹלוֹס מצפון לפמגוסטה החזיקו יהודים מאחורי גדרות בין 1946 ל-1949 — 53,510 איש בסך הכול, וכאלפיים ילדים נולדו בפנים. דוד ושמעון שהו שם כשמונה חודשים." }
+      },
+      "agreement": "context"
+    },
+    {
+      "id": "j_atlit_1948",
+      "year": "1948",
+      "date": "1948-01-01",
+      "place_id": "pl_atlit",
+      "coords": [32.7264, 34.9389],
+      "track": "david_shimon",
+      "title": { "en": "Atlit — released", "he": "עתלית — משוחררים", "pl": "Atlit — zwolnieni", "fr": "Atlit — libérés" },
+      "memoir": { "says": { "en": "Shimon is released from the Atlit detention camp and becomes a registered immigrant.", "he": "שמעון משוחרר ממחנה המעצר בעתלית והופך לעולה רשום." }, "page": 65 },
+      "evidence": { "documents": [], "says": { "en": "The memoir refers to a release document. It has not been located; the Atlit heritage site holds detainee records and has not yet been asked.", "he": "היומן מזכיר תעודת שחרור. היא לא אותרה; אתר המורשת בעתלית מחזיק רשומות עצורים וטרם נשאל." } },
+      "agreement": "memoir_only"
+    },
+    {
+      "id": "j_kadima_1948",
+      "year": "1948",
+      "date": "1948-06-01",
+      "place_id": "pl_brussels",
+      "coords": [50.8503, 4.3517],
+      "track": "lusia_dov",
+      "title": { "en": "Brussels — Lusia and Dov sail on the Kadima", "he": "בריסל — לוסיה ודב מפליגים ב״קדימה״", "pl": "Bruksela — Łucja i Dov na statku Kadima", "fr": "Bruxelles — Lusia et Dov sur le Kadima" },
+      "memoir": { "says": { "en": "Lusia remains in Brussels caring for the infant Dov and finds work. When the State is declared she sails with him on the ship Kadima for Haifa.", "he": "לוסיה נשארת בבריסל, מטפלת בתינוק דב ומוצאת עבודה. עם הכרזת המדינה היא מפליגה איתו באונייה ״קדימה״ לחיפה." }, "page": 66 },
+      "evidence": {
+        "documents": [],
+        "says": { "en": "The Haifa burial register records her year of immigration as 1948 and David's as 1946 — a two-year gap in the family's own record, and exactly the gap the memoir describes. Dov's first journey was with his mother, alone.", "he": "פנקס הקבורה בחיפה רושם את שנת עלייתה 1948 ואת של דוד 1946 — פער של שנתיים ברישום המשפחתי עצמו, בדיוק הפער שהיומן מתאר. מסעו הראשון של דב היה עם אמו, לבדם." }
+      },
+      "agreement": "confirmed"
+    },
+    {
+      "id": "j_haifa_1948",
+      "year": "1948",
+      "date": "1948-08-01",
+      "place_id": "pl_haifa",
+      "coords": [32.794, 34.9896],
+      "track": "together",
+      "title": { "en": "Haifa — the family together again", "he": "חיפה — המשפחה שוב יחד", "pl": "Hajfa — rodzina znowu razem", "fr": "Haïfa — la famille de nouveau réunie" },
+      "memoir": { "says": { "en": "Lusia and Dov reach Haifa and are reunited with her parents, who had left for Palestine fifteen years earlier. The family lives on Abbas Street, and later buys the apartment on Moriah Street with the German reparations.", "he": "לוסיה ודב מגיעים לחיפה ומתאחדים עם הוריה, שעזבו לארץ ישראל חמש עשרה שנה קודם לכן. המשפחה גרה ברחוב עבאס, ובהמשך קונה את הדירה ברחוב מוריה בכספי הפיצויים מגרמניה." }, "page": 67 },
+      "evidence": {
+        "documents": [],
+        "says": { "en": "The Haifa Chevra Kadisha register closes the circle: David died 29 August 1990, Lusia on 28 December 1996, buried side by side at Sde Yehoshua — section ו, row 22, graves 102ד and 102ג. Her card names her father Eliyahu and her mother Matilda, the same parents the memoir opens with.", "he": "פנקס חברה קדישא חיפה סוגר את המעגל: דוד נפטר ב-29 באוגוסט 1990, לוסיה ב-28 בדצמבר 1996, קבורים זה לצד זו בשדה יהושע — חלקה ו׳, שורה 22, קברים 102ד ו-102ג. כרטיסה נוקב בשם אביה אליהו ובשם אמה מטילדה, אותם הורים שבהם נפתח היומן." }
+      },
+      "agreement": "confirmed"
+    }
+  ]
+}

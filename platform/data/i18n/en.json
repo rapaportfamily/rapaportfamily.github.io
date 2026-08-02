@@ -30,7 +30,8 @@
     "group_family": "The family",
     "group_story": "Their story",
     "group_evidence": "The evidence",
-    "group_open": "Still open"
+    "group_open": "Still open",
+    "journey": "The Journey"
   },
   "ui": {
     "language": "Language",
@@ -216,5 +217,21 @@
     "method_p2": "Translations between Polish, French, English and Hebrew were made with the help of researchers Basia in Kraków, Kasia in Paris, and Ms. Kasia at the Jewish Historical Institute in Warsaw, alongside AI translation that has been spot-checked by humans.",
     "thanks_title": "Thank you",
     "thanks_p": "To Magda, who connected the team. To Basia, who walked the Galician records. To Kasia, who broke the French DP card. To Ms. Kasia at ŻIH Warsaw, who found David's true birthplace. And to Dalia, Dana, and Daniel, who carried the memory."
+  },
+  "journey": {
+    "title": "The Journey",
+    "lead": "Nadwórna to Haifa, 1911–1948 — what Lusia wrote, set against what the documents show.",
+    "track_together": "David, Lusia and Shimon",
+    "track_david_shimon": "David and Shimon",
+    "track_lusia_dov": "Lusia and baby Dov",
+    "memoir_says": "Lusia writes",
+    "documents_say": "The documents show",
+    "page": "page",
+    "no_document": "No document found for this leg.",
+    "still_open": "This is still an open question →",
+    "agree_confirmed": "Document agrees",
+    "agree_corrected": "Document corrects the memoir",
+    "agree_memoir_only": "Her account alone",
+    "agree_context": "History documented, family not named"
   }
 }
