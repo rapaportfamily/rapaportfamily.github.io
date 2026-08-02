@@ -29,7 +29,15 @@
           "summary_en": "Moses Saul + Menukha are not a family tradition — three separate primary deeds name them, each at the marriage of one of Berisz’s sisters: Freida Amalia, 8 June 1919 (entry 40); Jente, 12 December 1920 (entry 98); Rebeka the younger, 4 September 1923 (entry 101), which also states she was born in Radomyśl Wielki. All three were officiated by Rabbi Josef Chaim Kirschenbaum of Tarnów. The full scanned deeds arrived in the July export and are now in the archive.",
           "summary_he": "משה שאול ומנוחה אינם מסורת משפחתית — שלושה שטרות ראשוניים נפרדים נוקבים בשמם, כל אחד בנישואי אחת מאחיותיו של בריש: פרידה אמליה, 8 ביוני 1919 (רשומה 40); יענטה, 12 בדצמבר 1920 (רשומה 98); רבקה הצעירה, 4 בספטמבר 1923 (רשומה 101), שם גם נכתב שנולדה ברדומישל וייקי. שלושתם נערכו בידי הרב יוסף חיים קירשנבאום מטרנוב. שטרות הסריקה המלאים הגיעו בייצוא יולי ונמצאים כעת בארכיון.",
           "source": "Archiwum Narodowe w Krakowie, Oddział w Tarnowie — read by Claude vision from Basia’s scans, 1 June 2026",
-          "urls": []
+          "urls": [],
+          "images": [
+            {
+              "src": "assets/research_images/period/tarnow_bem_mausoleum.jpg",
+              "caption_en": "Tarnów between the wars — the Bem mausoleum. Three of Berisz’s sisters married in this town, and their marriage deeds named the family’s apical couple.",
+              "caption_he": "טרנוב בין המלחמות — מאוזוליאום במבה. שלוש מאחיותיו של בריש נישאו בעיר הזאת, ושטרי נישואיהן נקבו בשמות זוג האב של המשפחה.",
+              "credit": "Koncern IKC / Narodowe Archiwum Cyfrowe, sygn. 1-U-6252 — public domain"
+            }
+          ]
         },
         {
           "id": "szabse_rabbi_dabrowa",
@@ -119,7 +127,15 @@
           "summary_en": "Her maiden name is Leiner — \"Moses and Menucha Leinen\" on the Sambor 1913 record — and she used the European name Emilia, so identified on two of Alte Leja’s children’s birth certificates. A Krynica spa notice has \"Emilia Rapaport, a merchant’s wife, and her daughter, settled permanently in Radomyśl\", staying at house \"Wanda\" from 28 July to 3 August 1904. It sits beside the 1912 Krynica notice already on file for Regina.",
           "summary_he": "שם נעוריה הוא ליינר — ״משה ומנוחה ליינן״ ברשומת סמבור 1913 — והיא נקראה בשם האירופי אמיליה, כך מזוהה בשתיים מתעודות הלידה של ילדי אלטה לאה. מודעת מרפא מקרינצה נוקבת ב״אמיליה רפפורט, אשת סוחר, ובתה, מתגוררות דרך קבע ברדומישל״, ששהו בבית ״ונדה״ מ-28 ביולי עד 3 באוגוסט 1904. היא ניצבת לצד מודעת קרינצה מ-1912 שכבר בתיק על רגינה.",
           "source": "Basia, 2 & 8 June 2026 — Sambor 1913 record; Krynica guest lists",
-          "urls": []
+          "urls": [],
+          "images": [
+            {
+              "src": "assets/research_images/period/krynica_pijalnia.jpg",
+              "caption_en": "Krynica, the pump room, photographed by Henryk Poddębski between the wars. Menukha was recorded at Krynica in 1904, and Regina registered at Alfredówka there in 1912.",
+              "caption_he": "קריניצה, בית השאיבה, צולם בידי הנריק פודמבסקי בין המלחמות. מנוחה נרשמה בקרינצה ב-1904, ורגינה נרשמה שם באלפרדובקה ב-1912.",
+              "credit": "Henryk Poddębski / Narodowe Archiwum Cyfrowe — public domain"
+            }
+          ]
         },
         {
           "id": "moses_saul_radomysl_board",
@@ -1050,6 +1066,30 @@
           "source": "Wikipedia Nadvirna + Pinkas Hakehillot Polin",
           "images": [
             {
+              "src": "assets/research_images/period/nadworna_hospital_1937.jpg",
+              "caption_en": "The hospital in Nadwórna, published 1937 in the journal \"Wschód\".",
+              "caption_he": "בית החולים בנדבורנא, פורסם ב-1937 בכתב העת ״Wschód״.",
+              "credit": "\"Wschód\" 58/1937, Jagiellonian Digital Library — public domain"
+            },
+            {
+              "src": "assets/research_images/period/nadworna_station_1914.jpg",
+              "caption_en": "Nadwórna railway station, photographed 1914-1918 by the Austro-Hungarian war press office.",
+              "caption_he": "תחנת הרכבת של נדבורנא, צולמה 1914-1918 בידי לשכת העיתונות הצבאית האוסטרו-הונגרית.",
+              "credit": "k.u.k. Kriegspressequartier, Lichtbildstelle Wien / Bildarchiv Austria — public domain"
+            },
+            {
+              "src": "assets/research_images/period/nadworna_centre_1932.jpg",
+              "caption_en": "Nadwórna, the town centre, 1932 — the streets David knew as a young man.",
+              "caption_he": "נדבורנא, מרכז העיר, 1932 — הרחובות שדוד הכיר כבחור צעיר.",
+              "credit": "Photo L. and M. Heller, via Center for Urban History, Lviv — public domain"
+            },
+            {
+              "src": "assets/research_images/period/nadworna_market_1928.jpg",
+              "caption_en": "Nadwórna, the market square, 1928 — David was sixteen. Photograph by L. and M. Heller.",
+              "caption_he": "נדבורנא, כיכר השוק, 1928 — דוד היה בן שש עשרה. צילום ל. ומ. הלר.",
+              "credit": "Photo L. and M. Heller, via Center for Urban History, Lviv — public domain"
+            },
+            {
               "src": "assets/research_images/trip/nadwirna_lead.jpg",
               "caption_en": "Nadvirna (Nadwórna) today — David Memek's birthplace.",
               "credit": "Wikipedia Commons (CC-BY-SA)"
@@ -1091,6 +1131,12 @@
           "summary_en": "Lusia (Leah) Weitzner was born 8 April 1913 in Bolechów (Bolechów Ruski). Her father Eli/Eliyahu Weitzner started as a cattle dealer and became a tannery owner — tanning was the dominant Jewish industry in Bolechów (in 1874 tannery owner Israel Hauptman was elected mayor). The 1957 Bolechów Yizkor names 'D. Rapaport, Eli Weitzner's son-in-law' — documentary print confirmation of David + Lusia's marriage. Today: Bolekhiv, Ivano-Frankivsk Oblast, Ukraine. FAMILY CONNECTION: per family stories, Lusia's older sister Feige (Tzipora) Weitzner studied here with Ester Goldfischer — Dana, Doron and Daniel's maternal grandmother (Dalia's mother).",
           "source": "Wikipedia Bolekhiv + Bolechów Yizkor 1957 + JGB",
           "images": [
+            {
+              "src": "assets/research_images/period/bolechow_1915.jpg",
+              "caption_en": "Bolechów, 1915 — Lusia’s town, photographed when she was an infant. Austro-Hungarian war photograph.",
+              "caption_he": "בולחוב, 1915 — עיירתה של לוסיה, מצולמת כשהייתה תינוקת. צילום מלחמה אוסטרו-הונגרי.",
+              "credit": "k.u.k. Kriegspressequartier, Lichtbildstelle Wien / Bildarchiv Austria — public domain"
+            },
             {
               "src": "assets/research_images/trip/bolekhiv_lead.jpg",
               "caption_en": "Bolekhiv (Bolechów) today — Lusia's birthplace.",
@@ -1192,6 +1238,18 @@
           "summary_en": "Muszyna is a small resort town in the Beskid mountains of southern Poland, near the Slovak border, ~12km from Krynica-Zdrój. It became an officially-recognised spa town in 1929-30 after mineral-spring development. Lusia rented and managed a fine resort hotel here — almost certainly the famous Jewish-owned 'Pensjonat Bristol', operated by the family of Chaim Weiss (the dominant pre-war Jewish hotelier in Muszyna). Memek (David Rapaport) became her regular boyfriend there; they married in Muszyna around 1934-1936. A standalone 6-page article on the Bristol exists in Almanach Muszyny 1998 (Żebrowski).",
           "source": "Wirtualny Sztetl Muszyna + Almanach Muszyny 1998 + Memoir ch.2",
           "images": [
+            {
+              "src": "assets/research_images/period/muszyna_villa_1925.jpg",
+              "caption_en": "Muszyna, the Szwarc villa below the castle hill — postcard, 1925-1930.",
+              "caption_he": "מושינה, וילת שוורץ למרגלות גבעת הטירה — גלויה, 1925-1930.",
+              "credit": "National Library of Poland (Polona) — public domain"
+            },
+            {
+              "src": "assets/research_images/period/muszyna_poprad_1935.jpg",
+              "caption_en": "Muszyna, the view from the castle hill over the river Poprad — a postcard printed between 1935 and 1944, the Muszyna years of the memoir.",
+              "caption_he": "מושינה, הנוף מגבעת הטירה אל נהר הפופרד — גלויה שנדפסה בין 1935 ל-1944, שנות מושינה שביומן.",
+              "credit": "National Library of Poland (Polona) — public domain"
+            },
             {
               "src": "assets/research_images/trip/muszyna_town_hall_market.jpg",
               "caption_en": "Muszyna Town Hall on the Market Square. The Reich family hotel was on the Rynek.",
@@ -1298,6 +1356,12 @@
           ],
           "images": [
             {
+              "src": "assets/research_images/period/lwow_jewish_quarter.jpg",
+              "caption_en": "Lwów from the town hall, 1942-1945: the Jewish quarter destroyed, the synagogues gone — only the roofless Meforshei ha-Yam synagogue still standing. This is the city David and Lusia were hiding in.",
+              "caption_he": "לבוב מבניין העירייה, 1942-1945: הרובע היהודי חרב, בתי הכנסת אינם — רק בית הכנסת ״מפרשי הים״ עומד עוד, בלא גג. זו העיר שבה הסתתרו דוד ולוסיה.",
+              "credit": "Polish State Archives (szukajwarchiwach.gov.pl) — public domain"
+            },
+            {
               "src": "assets/research_images/trip/legionow24_svobody24_lviv.jpg",
               "caption_en": "🏠 THE BUILDING ITSELF — Prospekt Svobody 24, Lviv (formerly Legionów 24). The four-storey Biedermeier stone kamienica, built 1836-1837 by Johann Salzmann for F. Adamski. This is Lusia's wartime apartment building, where she lived 1942-1944 as 'Maria Cizlik' on the Aryan side. Polish poet Wincenty Pol lived here 1856-1866.",
               "caption_he": "🏠 הבניין עצמו — פרוספקט סבובודי 24, לבוב (לשעבר לגיונוב 24). בניין אבן ביידרמייר בן ארבע קומות, נבנה 1836-1837 על-ידי האדריכל יוהן זלצמן עבור פ. אדמסקי. זוהי דירת המגורים של לוסיה בזמן המלחמה, בה התגוררה 1942-1944 בזהות הבדויה 'מריה ציצליק' בצד הארי. המשורר הפולסי וינצנטי פול גר כאן 1856-1866.",
@@ -1394,6 +1458,12 @@
           ],
           "images": [
             {
+              "src": "assets/research_images/period/haifa_port_1947.jpg",
+              "caption_en": "The Haganah ship \"Jewish State\" at Haifa port, October 1947 — six months after the Theodor Herzl, carrying David and Shimon, was boarded and turned back to Cyprus.",
+              "caption_he": "אוניית ההגנה ״מדינת היהודים״ בנמל חיפה, אוקטובר 1947 — חצי שנה אחרי ש״תיאודור הרצל״, שנשאה את דוד ואת שמעון, נתפסה והוחזרה לקפריסין.",
+              "credit": "Wikimedia Commons — public domain"
+            },
+            {
               "src": "assets/research_images/trip/sete_lead.jpg",
               "caption_en": "The French port of Sète — where the Theodor Herzl sailed from on 2 April 1947 with 2,641 Ma'apilim including David, Lusia, Shimon and infant Dov.",
               "caption_he": "נמל סט בצרפת — שממנו הפליגה תיאודור הרצל ב-2 באפריל 1947 עם 2,641 מעפילים, ובהם דוד, לושה, שמעון ודב התינוק.",
@@ -1444,6 +1514,12 @@
             "https://www.ushmm.org/online/hsv/person_advance_search.php"
           ],
           "images": [
+            {
+              "src": "assets/research_images/period/famagusta_1945.jpg",
+              "caption_en": "Famagusta, 1945 — the town beside which the British internment camps stood. David and Shimon were held at Karaolos, just north of here, in 1947.",
+              "caption_he": "פמגוסטה, 1945 — העיר שלצידה עמדו מחנות המעצר הבריטיים. דוד ושמעון הוחזקו בקרַאוֹלוֹס, מצפון לכאן, ב-1947.",
+              "credit": "G. Eric and Edith Matson Collection, Library of Congress — public domain"
+            },
             {
               "src": "assets/research_images/trip/cyprus_caraolos_lead.jpg",
               "caption_en": "Cyprus internment camps map — held 53,510 Jews from 1946-1949. The Rapaport family was at Karaolos (near Famagusta) ~8 months.",
@@ -2400,5 +2476,5 @@
       ]
     }
   ],
-  "build_version": "2026-08-02-T62-memoir-ledger"
+  "build_version": "2026-08-02-T63-period-photographs"
 }
