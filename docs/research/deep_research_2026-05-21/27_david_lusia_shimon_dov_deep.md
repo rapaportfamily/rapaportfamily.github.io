@@ -90,7 +90,7 @@ Dov ben Menachem David (from ketubah evidence)
 
 ### Dalia Goldfischer-Rapaport — research opens
 - Father S. Goldfischer born 1909 Skole
-- USHMM-confirmed RELATIVE: Isak Goldfischer b. 23 April 1927 Skole in Lvov Ghetto Database. 18-year age gap suggests brother/uncle/cousin relationship to S. — request Isak's USHMM record to recover his parents' names, would confirm/refute sibling status
+- **[WITHDRAWN 2 Aug 2026 — DO NOT RE-IMPORT.** No source ever linked this man to the family. "USHMM-confirmed RELATIVE" was inferred from a shared surname and a shared town, nothing more; USHMM records no parents or kin for him. Removed from the Research Center at Doron's instruction. The only thing that could establish a link is his parents' names from the digitised USHMM record.] ~~USHMM-confirmed RELATIVE: Isak Goldfischer b. 23 April 1927 Skole in Lvov Ghetto Database. 18-year age gap suggests brother/uncle/cousin relationship to S. — request Isak's USHMM record to recover his parents' names, would confirm/refute sibling status~~
 
 ## Verified primary-source absences (LLM-narrator-ready)
 
