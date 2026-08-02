@@ -59,7 +59,7 @@
     "unknown": "Nieznane",
     "circa": "około",
     "year": "Rok",
-    "decade": "Dekada",
+    "decade": "lata {decade}.",
     "place": "Miejsce",
     "people_in_event": "Osoby",
     "sources": "Źródła",

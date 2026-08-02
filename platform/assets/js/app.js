@@ -79,9 +79,30 @@ function ml(obj, fallbackOrder = ['en', 'he', 'pl', 'fr']) {
   for (const l of fallbackOrder) if (obj[l]) return obj[l];
   return Object.values(obj)[0] || '';
 }
+// Dates arrive two ways: ISO from the records ("1911-12-25") and free text from
+// the memoir, where the source is genuinely vague ("1950s", "circa 1958").
+// Render the ISO ones in the reader's language; pass everything else through
+// untouched — an approximate date must be allowed to look approximate.
 function fmtDate(d) {
   if (!d) return t('ui.unknown');
-  return d;
+  const s = String(d);
+  // "1950s" is a real answer when the memoir gives no better one — but it has to
+  // be sayable in Hebrew, Polish and French too, not left as an English suffix.
+  const dec = s.match(/^(\d{4})s$/);
+  if (dec) return t('ui.decade').replace('{decade}', dec[1]);
+  const iso = s.match(/^(\d{4})(?:-(\d{2}))?(?:-(\d{2}))?$/);
+  if (!iso) return s;
+  const [, y, m, day] = iso;
+  if (!m) return y;
+  try {
+    const dt = new Date(Date.UTC(+y, +m - 1, +(day || 1)));
+    return new Intl.DateTimeFormat(State.lang, {
+      year: 'numeric', month: 'long', timeZone: 'UTC',
+      ...(day ? { day: 'numeric' } : {})
+    }).format(dt);
+  } catch (e) {
+    return s;
+  }
 }
 
 // ----------------------------------------

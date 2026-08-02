@@ -59,7 +59,7 @@
     "unknown": "לא ידוע",
     "circa": "בערך",
     "year": "שנה",
-    "decade": "עשור",
+    "decade": "שנות ה-{decade}",
     "place": "מקום",
     "people_in_event": "אנשים",
     "sources": "מקורות",

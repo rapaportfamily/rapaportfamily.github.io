@@ -59,7 +59,7 @@
     "unknown": "Unknown",
     "circa": "circa",
     "year": "Year",
-    "decade": "Decade",
+    "decade": "the {decade}s",
     "place": "Place",
     "people_in_event": "People",
     "sources": "Sources",

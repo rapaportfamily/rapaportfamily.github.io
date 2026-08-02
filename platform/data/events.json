@@ -22,6 +22,33 @@
   },
   "events": [
     {
+      "id": "e_rebeka_birth",
+      "date": "1888",
+      "date_precision": "year",
+      "date_sort": "1888-01-01",
+      "type": "birth",
+      "place_id": "pl_nadworna",
+      "people_ids": [
+        "p_rebeka"
+      ],
+      "title": {
+        "en": "Rebeka Griffel born in Nadwórna",
+        "he": "רבקה גריפל נולדת בנדבורנא",
+        "pl": "Rebeka Griffel rodzi się w Nadwórnej",
+        "fr": "Rebeka Griffel naît à Nadwórna"
+      },
+      "description": {
+        "en": "Daughter of Leizor Griffel and Sara née Chajes, merchants of Nadwórna.",
+        "he": "בתם של ליזר גריפל ושרה לבית חיות, סוחרים מנדבורנא.",
+        "pl": "Córka Leizora Griffela i Sary z domu Chajes, kupców z Nadwórnej.",
+        "fr": "Fille de Leizor Griffel et Sara née Chajes, commerçants de Nadwórna."
+      },
+      "confidence": "confirmed",
+      "sources": [
+        "doc_rebeka_birth_nadworna"
+      ]
+    },
+    {
       "id": "e_weitzner_weinreb_marriage",
       "date": "1905",
       "date_precision": "year",
@@ -48,33 +75,6 @@
       "sources": [
         "doc_leah_birth_bolechow_1913",
         "report_basia_13may"
-      ]
-    },
-    {
-      "id": "e_rebeka_birth",
-      "date": "1888",
-      "date_precision": "year",
-      "date_sort": "1888-01-01",
-      "type": "birth",
-      "place_id": "pl_nadworna",
-      "people_ids": [
-        "p_rebeka"
-      ],
-      "title": {
-        "en": "Rebeka Griffel born in Nadwórna",
-        "he": "רבקה גריפל נולדת בנדבורנא",
-        "pl": "Rebeka Griffel rodzi się w Nadwórnej",
-        "fr": "Rebeka Griffel naît à Nadwórna"
-      },
-      "description": {
-        "en": "Daughter of Leizor Griffel and Sara née Chajes, merchants of Nadwórna.",
-        "he": "בתם של ליזר גריפל ושרה לבית חיות, סוחרים מנדבורנא.",
-        "pl": "Córka Leizora Griffela i Sary z domu Chajes, kupców z Nadwórnej.",
-        "fr": "Fille de Leizor Griffel et Sara née Chajes, commerçants de Nadwórna."
-      },
-      "confidence": "confirmed",
-      "sources": [
-        "doc_rebeka_birth_nadworna"
       ]
     },
     {
@@ -248,31 +248,57 @@
     },
     {
       "id": "e_david_leah_marriage",
-      "date": "1938-02",
-      "date_precision": "month",
-      "date_sort": "1938-02-01",
+      "date": "1935-02-10",
+      "date_precision": "day",
+      "date_sort": "1935-02-10",
       "type": "marriage",
-      "place_id": "pl_mosina_disputed",
+      "place_id": "pl_bolechow",
       "people_ids": [
         "p_david",
         "p_leah"
       ],
       "title": {
-        "en": "David Rapaport and Leah Weitzner marry",
-        "he": "דוד רפפורט ולאה וייצנר מתחתנים",
-        "pl": "Dawid Rapaport i Lea Weitzner biorą ślub",
-        "fr": "Dawid Rapaport et Léa Weitzner se marient"
+        "en": "David Rapaport and Leah Weitzner marry in Bolechów",
+        "he": "דוד רפפורט ולאה ויצנר נישאים בבולחוב",
+        "pl": "Dawid Rapaport i Lea Weitzner biorą ślub w Bolechowie",
+        "fr": "David Rapaport et Leah Weitzner se marient à Bolechów"
       },
       "description": {
-        "en": "Per family memoir, they married in February 1938 in a small town named 'Mosina' (location unresolved — see hypotheses). Leah was 18 (per memoir), David 24.",
-        "he": "לפי הזיכרונות, הם נישאו בפברואר 1938 בעיירה קטנה בשם 'מוסינה' (המיקום לא נפתר — ראה השערות). לאה הייתה בת 18, דוד בן 24.",
-        "pl": "Według wspomnień, pobrali się w lutym 1938 w małym mieście o nazwie 'Mosina' (lokalizacja nierozwiązana — zob. hipotezy). Lea miała 18 lat, Dawid 24.",
-        "fr": "D'après les mémoires familiales, ils se sont mariés en février 1938 dans une petite ville nommée « Mosina » (lieu non résolu — voir hypothèses). Léa avait 18 ans, Dawid 24."
+        "en": "The civil record gives Bolechów, 10 February 1935 — Lusia 21, David 23. Her memoir places the wedding in Muszyna in February 1938, three years later and in another town; written forty years afterwards, it remembers the marriage as the beginning of the Muszyna years rather than three years before them. The document is followed here; her account is kept beside it.",
+        "he": "הרשומה האזרחית נוקבת בבולחוב, 10 בפברואר 1935 — לוסיה בת 21, דוד בן 23. ביומנה ממוקמת החתונה במושינה בפברואר 1938, שלוש שנים מאוחר יותר ובעיירה אחרת; נכתב ארבעים שנה אחר כך, והזיכרון מציב את הנישואים כפתיחת שנות מושינה ולא שלוש שנים לפניהן. כאן הולכים אחר המסמך; עדותה נשמרת לצדו.",
+        "pl": "Akt cywilny podaje Bolechów, 10 lutego 1935. Pamiętnik umieszcza ślub w Muszynie w lutym 1938 — trzy lata później i w innym mieście.",
+        "fr": "L’acte civil donne Bolechów, 10 février 1935. Le mémoire situe le mariage à Muszyna en février 1938, trois ans plus tard et dans une autre ville."
       },
-      "confidence": "family_oral",
+      "confidence": "confirmed",
       "sources": [
-        "oral_dana_14may",
-        "oral_doron_06may"
+        "doc_lea_dawid_marriage_1935"
+      ]
+    },
+    {
+      "id": "e_shimon_birth",
+      "date": "1937-06-22",
+      "date_precision": "day",
+      "date_sort": "1937-06-22",
+      "type": "birth",
+      "place_id": "pl_lwow",
+      "people_ids": [
+        "p_shimon"
+      ],
+      "title": {
+        "en": "Shimon (Szymon) Rapaport born in Lwów",
+        "he": "שמעון רפפורט נולד בלבוב",
+        "pl": "Szymon Rapaport rodzi się we Lwowie",
+        "fr": "Shimon Rapaport naît à Lwów"
+      },
+      "description": {
+        "en": "His own post-war survivor card gives 22 June 1937 in Lwów. Family memory had placed his birth in \"Mosina\" — the town that turned out to be Muszyna — but the card is explicit, and it predates the memoir by forty years.",
+        "he": "כרטיס הניצולים שלו מציין 22 ביוני 1937 בלבוב. הזיכרון המשפחתי מיקם את לידתו ב״מוסינה״ — העיירה שהתבררה כמושינה — אך הכרטיס מפורש, והוא קודם ליומן בארבעים שנה.",
+        "pl": "Jego powojenna karta ocalałego podaje 22 czerwca 1937 we Lwowie.",
+        "fr": "Sa fiche de survivant d’après-guerre donne le 22 juin 1937 à Lwów."
+      },
+      "confidence": "confirmed",
+      "sources": [
+        "doc_szymon_ckzp"
       ]
     },
     {
@@ -300,34 +326,6 @@
       "confidence": "confirmed",
       "sources": [
         "doc_david_dp_card"
-      ]
-    },
-    {
-      "id": "e_shimon_birth",
-      "date": "1937-06-22",
-      "date_precision": "day",
-      "date_sort": "1937-06-22",
-      "type": "birth",
-      "place_id": "pl_mosina_disputed",
-      "people_ids": [
-        "p_shimon"
-      ],
-      "title": {
-        "en": "Shimon (Szymon) Rapaport born",
-        "he": "שמעון רפפורט נולד",
-        "pl": "Szymon Rapaport rodzi się",
-        "fr": "Szymon Rapaport naît"
-      },
-      "description": {
-        "en": "Per CKŻP post-war registration. Mother Lusia, father Dawid. Birthplace per family memoir is 'Mosina' (disputed). Memoir mentions Leah taking baby Shimon to a river there.",
-        "he": "לפי רישומי הוועד היהודי שלאחר המלחמה. אם — לוסיה, אב — דוד. מקום הלידה לפי הזיכרונות הוא 'מוסינה' (במחלוקת). הזיכרונות מזכירים את לאה לוקחת את התינוק שמעון לנהר שם.",
-        "pl": "Według powojennej rejestracji CKŻP. Matka Lusia, ojciec Dawid. Miejsce urodzenia według wspomnień to 'Mosina' (sporne). Wspomnienia mówią o Lei zabierającej małego Szymona nad rzekę tam.",
-        "fr": "D'après l'enregistrement CKŻP d'après-guerre. Mère Lusia, père Dawid. Le lieu de naissance selon les mémoires est « Mosina » (contesté). Les mémoires mentionnent Léa emmenant le bébé Szymon à une rivière là-bas."
-      },
-      "confidence": "documented",
-      "sources": [
-        "doc_szymon_ckzp",
-        "oral_doron_06may"
       ]
     },
     {
@@ -381,34 +379,6 @@
       ]
     },
     {
-      "id": "e_lwow_period_1941",
-      "date": "1941",
-      "date_precision": "year",
-      "date_sort": "1941-07-01",
-      "type": "war_event",
-      "place_id": "pl_lwow",
-      "people_ids": [
-        "p_david",
-        "p_leah"
-      ],
-      "title": {
-        "en": "David and Leah in Lwów under false identities",
-        "he": "דוד ולאה בלבוב תחת זהויות בדויות",
-        "pl": "Dawid i Lea we Lwowie pod fałszywymi tożsamościami",
-        "fr": "Dawid et Léa à Lwów sous de fausses identités"
-      },
-      "description": {
-        "en": "After the Germans took Lwów in 1941, David and Leah survived under fake identities. Leah lived at Legionów Street 24 under 'Hormek' false documents — also used the name 'Maria Cizlik' (a borrowed identity). She managed an art/antiques store. David worked in railway / road construction. They met on 'Rapaport Street' in Lwów. They lived apart for periods. David's sister Lota was also in Lwów.",
-        "he": "לאחר שהגרמנים כבשו את לבוב ב-1941, דוד ולאה שרדו תחת זהויות בדויות. לאה התגוררה ברחוב לגיונוב 24 עם מסמכים מזויפים של 'הורמק' — השתמשה גם בשם 'מריה צ'יזליק' (זהות שאולה). היא ניהלה חנות עתיקות. דוד עבד בבניית מסילות / כבישים. הם נפגשו ב'רחוב רפפורט' בלבוב. הם חיו בנפרד תקופות. אחותו של דוד, לוטה, הייתה גם היא בלבוב.",
-        "pl": "Po zajęciu Lwowa przez Niemców w 1941, Dawid i Lea przeżyli pod fałszywymi tożsamościami. Lea mieszkała przy ulicy Legionów 24 pod fałszywymi dokumentami 'Hormek' — używała też nazwiska 'Maria Cizlik' (pożyczona tożsamość). Zarządzała sklepem ze sztuką/antykami. Dawid pracował przy budowie kolei/dróg. Spotkali się przy 'ulicy Rapaporta' we Lwowie. Czasami mieszkali osobno. Siostra Dawida, Lota, też była we Lwowie.",
-        "fr": "Après la prise de Lwów par les Allemands en 1941, Dawid et Léa ont survécu sous de fausses identités. Léa habitait rue Legionów 24 avec de faux papiers 'Hormek' — elle utilisait aussi le nom 'Maria Cizlik' (identité empruntée). Elle gérait un magasin d'art/antiquités. Dawid travaillait à la construction ferroviaire/routière. Ils se sont rencontrés rue Rapaport à Lwów. Ils ont vécu séparés par périodes. La sœur de Dawid, Lota, était aussi à Lwów."
-      },
-      "confidence": "family_oral",
-      "sources": [
-        "oral_doron_13may"
-      ]
-    },
-    {
       "id": "e_david_ghetto_escape",
       "date": "1941",
       "date_precision": "year_approx",
@@ -434,6 +404,34 @@
       "sources": [
         "oral_doron_13may",
         "oral_dana_15may"
+      ]
+    },
+    {
+      "id": "e_lwow_period_1941",
+      "date": "1941",
+      "date_precision": "year",
+      "date_sort": "1941-07-01",
+      "type": "war_event",
+      "place_id": "pl_lwow",
+      "people_ids": [
+        "p_david",
+        "p_leah"
+      ],
+      "title": {
+        "en": "David and Leah in Lwów under false identities",
+        "he": "דוד ולאה בלבוב תחת זהויות בדויות",
+        "pl": "Dawid i Lea we Lwowie pod fałszywymi tożsamościami",
+        "fr": "Dawid et Léa à Lwów sous de fausses identités"
+      },
+      "description": {
+        "en": "After the Germans took Lwów in 1941, David and Leah survived under fake identities. Leah lived at Legionów Street 24 under 'Hormek' false documents — also used the name 'Maria Cizlik' (a borrowed identity). She managed an art/antiques store. David worked in railway / road construction. They met on 'Rapaport Street' in Lwów. They lived apart for periods. David's sister Lota was also in Lwów.",
+        "he": "לאחר שהגרמנים כבשו את לבוב ב-1941, דוד ולאה שרדו תחת זהויות בדויות. לאה התגוררה ברחוב לגיונוב 24 עם מסמכים מזויפים של 'הורמק' — השתמשה גם בשם 'מריה צ'יזליק' (זהות שאולה). היא ניהלה חנות עתיקות. דוד עבד בבניית מסילות / כבישים. הם נפגשו ב'רחוב רפפורט' בלבוב. הם חיו בנפרד תקופות. אחותו של דוד, לוטה, הייתה גם היא בלבוב.",
+        "pl": "Po zajęciu Lwowa przez Niemców w 1941, Dawid i Lea przeżyli pod fałszywymi tożsamościami. Lea mieszkała przy ulicy Legionów 24 pod fałszywymi dokumentami 'Hormek' — używała też nazwiska 'Maria Cizlik' (pożyczona tożsamość). Zarządzała sklepem ze sztuką/antykami. Dawid pracował przy budowie kolei/dróg. Spotkali się przy 'ulicy Rapaporta' we Lwowie. Czasami mieszkali osobno. Siostra Dawida, Lota, też była we Lwowie.",
+        "fr": "Après la prise de Lwów par les Allemands en 1941, Dawid et Léa ont survécu sous de fausses identités. Léa habitait rue Legionów 24 avec de faux papiers 'Hormek' — elle utilisait aussi le nom 'Maria Cizlik' (identité empruntée). Elle gérait un magasin d'art/antiquités. Dawid travaillait à la construction ferroviaire/routière. Ils se sont rencontrés rue Rapaport à Lwów. Ils ont vécu séparés par périodes. La sœur de Dawid, Lota, était aussi à Lwów."
+      },
+      "confidence": "family_oral",
+      "sources": [
+        "oral_doron_13may"
       ]
     },
     {
@@ -492,7 +490,7 @@
     },
     {
       "id": "e_dov_birth",
-      "date": "28 August 1946",
+      "date": "1946-08-28",
       "date_precision": "day",
       "date_sort": "1946-08-28",
       "type": "birth",
@@ -524,6 +522,386 @@
         "pl": "28 sierpnia 1946",
         "fr": "28 août 1946"
       }
+    },
+    {
+      "id": "e_theodor_herzl_sails",
+      "date": "1947-04-02",
+      "date_precision": "day",
+      "date_sort": "1947-04-02",
+      "type": "migration",
+      "place_id": "pl_sete",
+      "people_ids": [
+        "p_david",
+        "p_shimon"
+      ],
+      "title": {
+        "en": "David and Shimon sail from Sète on the Theodor Herzl",
+        "he": "דוד ושמעון מפליגים מסֶט באונייה ״תיאודור הרצל״",
+        "pl": "Dawid i Szymon wypływają z Sète na statku Theodor Herzl",
+        "fr": "David et Shimon embarquent à Sète sur le Theodor Herzl"
+      },
+      "description": {
+        "en": "The ex-British cable-layer HMS Guardian, built in Newcastle in 1907, carrying 2,641 ma’apilim gathered from camps in France and Belgium. Lusia stayed behind in Brussels with the eight-month-old Dov.",
+        "he": "ספינת הכבלים הבריטית לשעבר HMS Guardian, שנבנתה בניוקאסל ב-1907, נושאת 2,641 מעפילים ממחנות בצרפת ובבלגיה. לוסיה נשארה בבריסל עם דב בן שמונת החודשים.",
+        "pl": "Dawny brytyjski kablowiec HMS Guardian z 1907 r., z 2641 ma’apilim z obozów we Francji i Belgii.",
+        "fr": "L’ancien câblier britannique HMS Guardian, de 1907, avec 2 641 ma’apilim venus de camps en France et en Belgique."
+      },
+      "confidence": "documented",
+      "sources": [
+        "doc_lusia_memoir"
+      ]
+    },
+    {
+      "id": "e_herzl_intercepted",
+      "date": "1947-04-13",
+      "date_precision": "day",
+      "date_sort": "1947-04-13",
+      "type": "war_event",
+      "people_ids": [
+        "p_david",
+        "p_shimon"
+      ],
+      "title": {
+        "en": "The Theodor Herzl is boarded by the Royal Navy",
+        "he": "הצי המלכותי משתלט על ״תיאודור הרצל״",
+        "pl": "Theodor Herzl zostaje przejęty przez Royal Navy",
+        "fr": "Le Theodor Herzl est arraisonné par la Royal Navy"
+      },
+      "description": {
+        "en": "Intercepted off the coast by HMS Haydon and HMS St Brides Bay. The passengers resisted; three were killed and twenty-seven wounded. All aboard were deported to Cyprus.",
+        "he": "נתפסה מול החוף בידי HMS Haydon ו-HMS St Brides Bay. הנוסעים התנגדו; שלושה נהרגו ועשרים ושבעה נפצעו. כל מי שהיה על הסיפון גורש לקפריסין.",
+        "pl": "Przechwycony u wybrzeży; pasażerowie stawili opór, trzech zginęło. Wszystkich deportowano na Cypr.",
+        "fr": "Intercepté au large ; les passagers résistèrent, trois furent tués. Tous furent déportés à Chypre."
+      },
+      "confidence": "confirmed",
+      "sources": [
+        "doc_lusia_memoir"
+      ]
+    },
+    {
+      "id": "e_cyprus_internment",
+      "date": "1947—1948",
+      "date_precision": "year",
+      "date_sort": "1947-04-20",
+      "type": "migration",
+      "place_id": "pl_cyprus_karaolos",
+      "people_ids": [
+        "p_david",
+        "p_shimon"
+      ],
+      "title": {
+        "en": "David and Shimon interned at Karaolos, Cyprus",
+        "he": "דוד ושמעון עצורים בקרַאוֹלוֹס שבקפריסין",
+        "pl": "Dawid i Szymon internowani w Karaolos na Cyprze",
+        "fr": "David et Shimon internés à Karaolos, Chypre"
+      },
+      "description": {
+        "en": "The camps north of Famagusta held 53,510 Jews behind wire between 1946 and 1949, and some two thousand children were born inside them. David and Shimon were there about eight months.",
+        "he": "המחנות מצפון לפמגוסטה החזיקו 53,510 יהודים מאחורי גדרות בין 1946 ל-1949, וכאלפיים ילדים נולדו בתוכם. דוד ושמעון שהו שם כשמונה חודשים.",
+        "pl": "Obozy na północ od Famagusty przetrzymywały 53 510 Żydów w latach 1946–1949.",
+        "fr": "Les camps au nord de Famagouste ont retenu 53 510 Juifs entre 1946 et 1949."
+      },
+      "confidence": "documented",
+      "sources": [
+        "doc_lusia_memoir"
+      ]
+    },
+    {
+      "id": "e_atlit_release",
+      "date": "1948",
+      "date_precision": "year",
+      "date_sort": "1948-02-01",
+      "type": "registration",
+      "place_id": "pl_atlit",
+      "people_ids": [
+        "p_shimon"
+      ],
+      "title": {
+        "en": "Shimon released from the Atlit detention camp",
+        "he": "שמעון משוחרר ממחנה המעצר בעתלית",
+        "pl": "Szymon zwolniony z obozu w Atlit",
+        "fr": "Shimon libéré du camp d’Atlit"
+      },
+      "description": {
+        "en": "He becomes a registered immigrant. The memoir refers to a release document; it has not been located, and the Atlit heritage site holds detainee records that have not yet been asked.",
+        "he": "הוא הופך לעולה רשום. היומן מזכיר תעודת שחרור; היא לא אותרה, ואתר המורשת בעתלית מחזיק רשומות עצורים שטרם נשאלו.",
+        "pl": "Zostaje zarejestrowanym imigrantem. Dokument zwolnienia nie został odnaleziony.",
+        "fr": "Il devient immigrant enregistré. Le document de libération n’a pas été retrouvé."
+      },
+      "confidence": "family_oral",
+      "sources": [
+        "doc_lusia_memoir"
+      ]
+    },
+    {
+      "id": "e_israel_established",
+      "date": "1948-05-14",
+      "date_precision": "day",
+      "date_sort": "1948-05-14",
+      "type": "context",
+      "people_ids": [],
+      "title": {
+        "en": "The State of Israel is declared",
+        "he": "מדינת ישראל מוכרזת",
+        "pl": "Proklamacja Państwa Izrael",
+        "fr": "Proclamation de l’État d’Israël"
+      },
+      "description": {
+        "en": "The Cyprus detainees were released to Israel over the months that followed.",
+        "he": "עצורי קפריסין שוחררו לישראל בחודשים שלאחר מכן.",
+        "pl": "Internowani na Cyprze byli zwalniani do Izraela w kolejnych miesiącach.",
+        "fr": "Les internés de Chypre furent libérés vers Israël dans les mois suivants."
+      },
+      "confidence": "confirmed",
+      "sources": []
+    },
+    {
+      "id": "e_kadima_lusia_dov",
+      "date": "1948",
+      "date_precision": "year",
+      "date_sort": "1948-06-01",
+      "type": "migration",
+      "place_id": "pl_brussels",
+      "people_ids": [
+        "p_leah",
+        "p_dov_bernard"
+      ],
+      "title": {
+        "en": "Lusia and Dov sail from Brussels on the Kadima",
+        "he": "לוסיה ודב מפליגים מבריסל באונייה ״קדימה״",
+        "pl": "Łucja i Dov wypływają z Brukseli na statku Kadima",
+        "fr": "Lusia et Dov quittent Bruxelles à bord du Kadima"
+      },
+      "description": {
+        "en": "She had stayed in Brussels more than a year with the baby, working, while David and Shimon were behind wire in Cyprus. The Haifa burial register records her year of immigration as 1948 and David’s as 1946 — the two-year gap the memoir describes. Dov’s first journey was with his mother, alone.",
+        "he": "היא נשארה בבריסל יותר משנה עם התינוק, ועבדה, בזמן שדוד ושמעון היו מאחורי גדרות בקפריסין. פנקס הקבורה בחיפה רושם את שנת עלייתה 1948 ואת של דוד 1946 — פער השנתיים שהיומן מתאר. מסעו הראשון של דב היה עם אמו, לבדם.",
+        "pl": "Została w Brukseli ponad rok z niemowlęciem, podczas gdy Dawid i Szymon byli na Cyprze.",
+        "fr": "Elle resta plus d’un an à Bruxelles avec le bébé, tandis que David et Shimon étaient à Chypre."
+      },
+      "confidence": "documented",
+      "sources": [
+        "doc_lusia_memoir",
+        "src_haifa_chevra_kadisha_records"
+      ]
+    },
+    {
+      "id": "e_haifa_arrival",
+      "date": "1948",
+      "date_precision": "year",
+      "date_sort": "1948-08-01",
+      "type": "migration",
+      "place_id": "pl_haifa",
+      "people_ids": [
+        "p_leah",
+        "p_dov_bernard",
+        "p_david",
+        "p_shimon"
+      ],
+      "title": {
+        "en": "The family is together again in Haifa",
+        "he": "המשפחה שוב יחד בחיפה",
+        "pl": "Rodzina znów razem w Hajfie",
+        "fr": "La famille de nouveau réunie à Haïfa"
+      },
+      "description": {
+        "en": "Lusia and Dov reach Haifa and are reunited with her parents, who had left for Palestine fifteen years earlier and whom she had not seen since. The family settles on Abbas Street.",
+        "he": "לוסיה ודב מגיעים לחיפה ומתאחדים עם הוריה, שעזבו לארץ ישראל חמש עשרה שנה קודם לכן ושאותם לא ראתה מאז. המשפחה מתיישבת ברחוב עבאס.",
+        "pl": "Łucja i Dov docierają do Hajfy i spotykają jej rodziców po piętnastu latach.",
+        "fr": "Lusia et Dov arrivent à Haïfa et retrouvent ses parents après quinze ans."
+      },
+      "confidence": "family_oral",
+      "sources": [
+        "doc_lusia_memoir"
+      ]
+    },
+    {
+      "id": "e_moriah_street",
+      "date": "1950s",
+      "date_precision": "decade",
+      "date_sort": "1955-01-01",
+      "type": "occupation",
+      "place_id": "pl_haifa",
+      "people_ids": [
+        "p_david",
+        "p_leah"
+      ],
+      "title": {
+        "en": "The apartment on Moriah Street, bought with German reparations",
+        "he": "הדירה ברחוב מוריה, שנקנתה בכספי הפיצויים מגרמניה",
+        "pl": "Mieszkanie przy ulicy Moriah, kupione z niemieckich reparacji",
+        "fr": "L’appartement de la rue Moriah, acheté avec les réparations allemandes"
+      },
+      "description": {
+        "en": "David worked as a customs broker in Haifa — the trade his son Dov, and later his grandson Doron, would follow.",
+        "he": "דוד עבד כעמיל מכס בחיפה — המקצוע שבו הלכו בנו דב, ולימים נכדו דורון.",
+        "pl": "Dawid pracował w Hajfie jako agent celny — zawód, który przejęli jego syn i wnuk.",
+        "fr": "David travailla comme commissionnaire en douane à Haïfa — le métier que suivront son fils puis son petit-fils."
+      },
+      "confidence": "family_oral",
+      "sources": [
+        "doc_lusia_memoir"
+      ]
+    },
+    {
+      "id": "e_west_berlin_reparations",
+      "date": "1958",
+      "date_precision": "year",
+      "date_sort": "1958-01-01",
+      "type": "migration",
+      "people_ids": [
+        "p_david",
+        "p_leah"
+      ],
+      "title": {
+        "en": "David and Lusia travel to West Berlin over the reparations",
+        "he": "דוד ולוסיה נוסעים למערב ברלין בעניין הפיצויים",
+        "pl": "Dawid i Łucja jadą do Berlina Zachodniego w sprawie reparacji",
+        "fr": "David et Lusia se rendent à Berlin-Ouest pour les réparations"
+      },
+      "description": {
+        "en": "The memoir records David wrestling with it: part of him could not forgive the Germans, and part of him argued it would be wrong to refuse what was lawfully owed. The memoir does not date the trip; the late 1950s is our estimate.",
+        "he": "היומן מתעד את התלבטותו של דוד: חלק ממנו לא יכול היה לסלוח לגרמנים, וחלק אחר טען שיהיה זה שגוי לסרב למה שמגיע כדין. היומן אינו מתארך את הנסיעה; סוף שנות החמישים הוא אומדן שלנו.",
+        "pl": "Pamiętnik opisuje rozterkę Dawida wobec przyjęcia reparacji. Pamiętnik nie podaje daty wyjazdu; koniec lat 50. to nasze oszacowanie.",
+        "fr": "Le mémoire rapporte le dilemme de David face à l’acceptation des réparations. Le mémoire ne date pas le voyage ; la fin des années 1950 est notre estimation."
+      },
+      "confidence": "estimated",
+      "sources": [
+        "doc_lusia_memoir"
+      ]
+    },
+    {
+      "id": "e_shimon_tamar_marriage",
+      "date": "1967-04-17",
+      "date_precision": "day",
+      "date_sort": "1967-04-17",
+      "type": "marriage",
+      "people_ids": [
+        "p_shimon",
+        "p_tamar"
+      ],
+      "title": {
+        "en": "Shimon marries Tamar (Tami) Bugin in Tel Aviv",
+        "he": "שמעון נושא את תמר (תמי) בוגין בתל אביב",
+        "pl": "Szymon poślubia Tamarę Bugin w Tel Awiwie",
+        "fr": "Shimon épouse Tamar Bugin à Tel-Aviv"
+      },
+      "description": {
+        "en": "Shimon — the boy who spent two and a half years in a wooden crate in Lwów — became a journalist, working for Ma’ariv from the Tiberias and Haifa bureaus.",
+        "he": "שמעון — הילד ששהה שנתיים וחצי בארגז עץ בלבוב — היה לעיתונאי, וכתב ל״מעריב״ ממערכות טבריה וחיפה.",
+        "pl": "Szymon — chłopiec ze skrzyni we Lwowie — został dziennikarzem Ma’arivu.",
+        "fr": "Shimon — l’enfant de la caisse de Lwów — devint journaliste à Ma’ariv."
+      },
+      "confidence": "documented",
+      "sources": [
+        "doc_rapaport_institute_tree"
+      ]
+    },
+    {
+      "id": "e_dov_dalia_marriage",
+      "date": "1975-05-16",
+      "date_precision": "day",
+      "date_sort": "1975-05-16",
+      "type": "marriage",
+      "place_id": "pl_brussels",
+      "people_ids": [
+        "p_dov_bernard",
+        "p_dalia"
+      ],
+      "title": {
+        "en": "Dov marries Dalia",
+        "he": "דב נושא את דליה",
+        "pl": "Dov poślubia Dalię",
+        "fr": "Dov épouse Dalia"
+      },
+      "description": {
+        "en": "Their ketubah gives Sivan 6, 5735 — 16 May 1975 — in Brussels, the city where Dov was born, and names him Dov ben Menachem David. A family tree compiled elsewhere gives 16 January 1974 in Haifa instead. The ketubah is the primary document and is followed here, but the conflict is unresolved and is flagged for the family.",
+        "he": "הכתובה שלהם נוקבת בו׳ בסיוון תשל״ה — 16 במאי 1975 — בבריסל, העיר שבה נולד דב, ומכנה אותו דב בן מנחם דוד. עץ משפחה שנערך במקום אחר נוקב ב-16 בינואר 1974 בחיפה. הכתובה היא המסמך הראשוני ואחריה הולכים כאן, אך הסתירה לא הוכרעה והיא מסומנת למשפחה.",
+        "pl": "Ketuba podaje 16 maja 1975 w Brukseli; inne drzewo podaje 16 stycznia 1974 w Hajfie. Sprzeczność nierozstrzygnięta.",
+        "fr": "La ketouba donne le 16 mai 1975 à Bruxelles ; un autre arbre indique le 16 janvier 1974 à Haïfa. Contradiction non résolue."
+      },
+      "confidence": "documented",
+      "sources": []
+    },
+    {
+      "id": "e_memoir_recorded",
+      "date": "1986",
+      "date_precision": "year",
+      "date_sort": "1986-01-01",
+      "type": "registration",
+      "place_id": "pl_haifa",
+      "people_ids": [
+        "p_leah"
+      ],
+      "title": {
+        "en": "Lusia tells her story — the memoir is recorded",
+        "he": "לוסיה מספרת את סיפורה — היומן נרשם",
+        "pl": "Łucja opowiada swoją historię — powstaje pamiętnik",
+        "fr": "Lusia raconte son histoire — le mémoire est recueilli"
+      },
+      "description": {
+        "en": "It began with a school assignment: her granddaughter Hadas approached her teacher, Esther Weiss, who then interviewed Lusia. Ninety pages in Hebrew. Without them almost nothing in this archive between 1939 and 1948 would have a voice.",
+        "he": "הכול התחיל במטלת בית ספר: נכדתה הדס פנתה למורתה, אסתר ויס, וזו ראיינה את לוסיה. תשעים עמודים בעברית. בלעדיהם כמעט דבר בארכיון הזה בין 1939 ל-1948 לא היה נשמע.",
+        "pl": "Zaczęło się od szkolnego zadania: wnuczka Hadas zwróciła się do nauczycielki Esther Weiss, która przeprowadziła wywiady. Dziewięćdziesiąt stron.",
+        "fr": "Tout commença par un devoir scolaire : sa petite-fille Hadas s’adressa à son professeur, Esther Weiss, qui interrogea Lusia. Quatre-vingt-dix pages."
+      },
+      "confidence": "confirmed",
+      "sources": [
+        "doc_lusia_memoir"
+      ]
+    },
+    {
+      "id": "e_david_death",
+      "date": "1990-08-29",
+      "date_precision": "day",
+      "date_sort": "1990-08-29",
+      "type": "death",
+      "place_id": "pl_haifa",
+      "people_ids": [
+        "p_david"
+      ],
+      "title": {
+        "en": "David (Memek) Rapaport dies in Haifa",
+        "he": "דוד (ממק) רפפורט נפטר בחיפה",
+        "pl": "Dawid (Memek) Rapaport umiera w Hajfie",
+        "fr": "David (Memek) Rapaport meurt à Haïfa"
+      },
+      "description": {
+        "en": "8 Elul 5750. Buried at Sde Yehoshua cemetery, section ו, row 22, grave 102ד. He was 78. His death notice ran in Ma’ariv the following day.",
+        "he": "ח׳ באלול תש״ן. נטמן בבית העלמין שדה יהושע, חלקה ו׳, שורה 22, קבר 102ד. היה בן 78. מודעת האבל פורסמה ב״מעריב״ למחרת.",
+        "pl": "Pochowany na cmentarzu Sde Jehoszua, kwatera ו, rząd 22, grób 102ד. Miał 78 lat.",
+        "fr": "Inhumé au cimetière Sde Yehoshua, section ו, rangée 22, tombe 102ד. Il avait 78 ans."
+      },
+      "confidence": "confirmed",
+      "sources": [
+        "src_haifa_chevra_kadisha_records"
+      ]
+    },
+    {
+      "id": "e_leah_death",
+      "date": "1996-12-28",
+      "date_precision": "day",
+      "date_sort": "1996-12-28",
+      "type": "death",
+      "place_id": "pl_haifa",
+      "people_ids": [
+        "p_leah"
+      ],
+      "title": {
+        "en": "Leah (Lusia) Rapaport dies in Haifa",
+        "he": "לאה (לוסיה) רפפורט נפטרת בחיפה",
+        "pl": "Lea (Łucja) Rapaport umiera w Hajfie",
+        "fr": "Leah (Lusia) Rapaport meurt à Haïfa"
+      },
+      "description": {
+        "en": "18 Tevet 5757. Buried beside David at Sde Yehoshua, grave 102ג — the two graves adjacent. Her burial record names her father Eliyahu and her mother Matilda, the same parents her memoir opens with. She was 83.",
+        "he": "י״ח בטבת תשנ״ז. נטמנה לצד דוד בשדה יהושע, קבר 102ג — שני הקברים סמוכים. רשומת הקבורה נוקבת בשם אביה אליהו ובשם אמה מטילדה, אותם הורים שבהם נפתח יומנה. הייתה בת 83.",
+        "pl": "Pochowana obok Dawida w Sde Jehoszua, grób 102ג. Miała 83 lata.",
+        "fr": "Inhumée à côté de David à Sde Yehoshua, tombe 102ג. Elle avait 83 ans."
+      },
+      "confidence": "confirmed",
+      "sources": [
+        "src_haifa_chevra_kadisha_records"
+      ]
     },
     {
       "id": "e_research_begins",
@@ -608,78 +986,26 @@
       ]
     },
     {
-      "id": "e_2026_05_21_legionow24_building_identified",
+      "id": "e_2026_05_21_street_view_embeds",
       "date": "2026-05-21",
       "date_precision": "day",
-      "date_sort": "2026-05-21T0900",
-      "type": "discovery",
-      "place_id": "pl_lviv",
-      "people_ids": [
-        "p_lusia"
-      ],
-      "title": {
-        "en": "🏠 Lusia's wartime apartment building IDENTIFIED — Prospekt Svobody 24, Lviv",
-        "he": "🏠 בניין דירת לוסיה בזמן המלחמה זוהה — פרוספקט סבובודי 24, לבוב",
-        "pl": "🏠 Zidentyfikowano wojenne mieszkanie Lusi — Prospekt Swobody 24, Lwów",
-        "fr": "🏠 Identifié l'immeuble de l'appartement de Lusia pendant la guerre — Prospekt Svobody 24, Lviv"
-      },
-      "description": {
-        "en": "ulica Legionów 24 in 1942-1944 Lwów is today's Prospekt Svobody 24, Lviv: a four-storey Biedermeier stone kamienica built 1836-1837 by architect Johann Salzmann for F. Adamski. Polish national poet Wincenty Pol lived there 1856-1866. Lusia rented an upper-floor apartment as 'Maria Cizlik' while a German military base fired guns from across the central promenade. Current photo of the actual building now embedded in the Virtual Trip card.",
-        "he": "רחוב לגיונוב 24 בלבוב 1942-1944 הוא היום פרוספקט סבובודי 24 בלביב: בניין אבן ביידרמייר בן ארבע קומות שנבנה ב-1836-1837 על-ידי האדריכל יוהן זלצמן עבור פ. אדמסקי. המשורר הפולסי וינצנטי פול גר בו 1856-1866. לוסיה שכרה דירה בקומה עליונה כ'מריה ציצליק' בעוד בסיס צבאי גרמני מהעבר השני של השדרה ירה ביריות. צילום עדכני של הבניין משובץ עכשיו בכרטיס המסע הוירטואלי.",
-        "pl": "Ulica Legionów 24 we Lwowie z lat 1942-1944 to dzisiejszy Prospekt Swobody 24: czteropiętrowa kamienica w stylu biedermeier zbudowana w latach 1836-1837 przez architekta Johanna Salzmanna dla F. Adamskiego. Polski poeta narodowy Wincenty Pol mieszkał tam w latach 1856-1866. Lusia wynajmowała mieszkanie pod nazwiskiem 'Maria Cizlik'.",
-        "fr": "La rue Legionów 24 à Lwów en 1942-1944 est l'actuel Prospekt Svobody 24 à Lviv : un immeuble de pierre Biedermeier de quatre étages construit en 1836-1837 par l'architecte Johann Salzmann pour F. Adamski. Le poète polonais Wincenty Pol y vécut de 1856 à 1866. Lusia y louait un appartement sous l'identité 'Maria Cizlik'."
-      },
-      "confidence": "documented"
-    },
-    {
-      "id": "e_2026_05_21_theodor_herzl_ship_identity",
-      "date": "2026-05-21",
-      "date_precision": "day",
-      "date_sort": "2026-05-21T0800",
+      "date_sort": "2026-05-21T0500",
       "type": "discovery",
       "place_id": null,
-      "people_ids": [
-        "p_david",
-        "p_lusia"
-      ],
+      "people_ids": [],
       "title": {
-        "en": "🚢 The Theodor Herzl ship VERIFIED — ex-HMS \"Guardian\", Newcastle 1907 (NOT Exodus 1947)",
-        "he": "🚢 זהות אוניית תיאודור הרצל אומתה — HMS \"גארדיאן\" לשעבר, ניוקאסל 1907 (לא אקסודוס)",
-        "pl": "🚢 Tożsamość statku Theodor Herzl POTWIERDZONA — d. HMS \"Guardian\", Newcastle 1907 (NIE Exodus 1947)",
-        "fr": "🚢 Identité du navire Theodor Herzl VÉRIFIÉE — ex-HMS \"Guardian\", Newcastle 1907 (PAS Exodus 1947)"
+        "en": "🗺️ Every Virtual Trip card now shows the address in Google Street View",
+        "he": "🗺️ כל כרטיס במסע הוירטואלי מציג עכשיו את הכתובת בתצוגת רחוב של גוגל",
+        "pl": "🗺️ Każda karta Wirtualnej podróży pokazuje teraz adres w Google Street View",
+        "fr": "🗺️ Chaque carte du Voyage virtuel affiche désormais l'adresse en Google Street View"
       },
       "description": {
-        "en": "The Aliyah Bet ship that carried David, Lusia, Shimon and infant Dov from Sète to Cyprus on 2 April 1947 was the ex-British cable-laying ship HMS/SS \"Guardian\" — built 1907 by Swan Hunter & Wigham Richardson in Newcastle, 1,768 tons, triple-expansion engine. Acquired by Mossad LeAliyah Bet in 1946 and refitted at Marseille. Distinct from the SS Exodus 1947 (ex-President Warfield), with which it is routinely conflated.",
-        "he": "אוניית העלייה ב' שהובילה את דוד, לוסיה, שמעון ודב התינוק מסט לקפריסין ב-2 באפריל 1947 הייתה ספינת הכבלים הבריטית HMS/SS 'גארדיאן' — נבנתה ב-1907 על-ידי Swan Hunter & Wigham Richardson בניוקאסל, 1,768 טון, מנוע קיטור. נרכשה ב-1946 על-ידי המוסד לעלייה ב' ושופצה במרסיי. שונה מאוניית אקסודוס 1947 (פרסידנט וורפילד לשעבר), איתה היא בלבול נפוץ.",
-        "pl": "Statek Aliyah Bet, który przewiózł Dawida, Lusię, Szymona i niemowlę Dova z Sète na Cypr 2 kwietnia 1947, to brytyjski statek kablowy HMS/SS \"Guardian\" — zbudowany w 1907 w Newcastle, 1 768 ton. Nabyty w 1946 przez Mossad LeAliyah Bet i przebudowany w Marsylii. Inny statek niż SS Exodus 1947.",
-        "fr": "Le navire Aliyah Bet qui transporta David, Lusia, Szymon et Dov bébé de Sète à Chypre le 2 avril 1947 était le câblier britannique HMS/SS « Guardian » — construit en 1907 à Newcastle, 1 768 tonnes. Acquis en 1946 par le Mossad LeAliyah Bet et réaménagé à Marseille. À ne pas confondre avec le SS Exodus 1947."
+        "en": "All 13 Virtual Trip cards now embed two side-by-side iframes: the OpenStreetMap location plus a Google Street View pegman view at the exact coordinates — labelled 'How it looks today'. No API key required. Click any card to see the place AS IT LOOKS RIGHT NOW.",
+        "he": "כל 13 הכרטיסים במסע הוירטואלי משבצים עכשיו שני iframe אחד ליד השני: מיקום ה-OpenStreetMap בתוספת תצוגת רחוב של גוגל ב-coordinates המדויקים — בתווית 'איך זה נראה היום'. ללא צורך במפתח API.",
+        "pl": "Wszystkie 13 kart Wirtualnej podróży zawiera teraz dwa iframe obok siebie: lokalizację OpenStreetMap oraz widok Google Street View we wskazanych współrzędnych — z etykietą 'Jak to wygląda dziś'.",
+        "fr": "Les 13 cartes du Voyage virtuel intègrent désormais deux iframes côte à côte : la position OpenStreetMap et une vue Google Street View aux coordonnées exactes — étiquetée « Comment cela apparaît aujourd'hui »."
       },
-      "confidence": "documented"
-    },
-    {
-      "id": "e_2026_05_21_cyprus_karaolos_camp_numbers",
-      "date": "2026-05-21",
-      "date_precision": "day",
-      "date_sort": "2026-05-21T0700",
-      "type": "discovery",
-      "place_id": null,
-      "people_ids": [
-        "p_david",
-        "p_lusia"
-      ],
-      "title": {
-        "en": "🏕️ Cyprus camp numbers DOCUMENTED — Karaolos 55/60/61/62/63 (summer tents) vs Dekhelia (winter huts)",
-        "he": "🏕️ מספרי מחנות קפריסין תועדו — קראולוס 55/60/61/62/63 (אוהלי קיץ) מול דכליה (צריפי חורף)",
-        "pl": "🏕️ Numery cypryjskich obozów UDOKUMENTOWANE — Karaolos 55/60/61/62/63 (namioty letnie) vs Dekhelia (baraki zimowe)",
-        "fr": "🏕️ Numéros des camps de Chypre DOCUMENTÉS — Karaolos 55/60/61/62/63 (tentes d'été) vs Dekhelia (baraques d'hiver)"
-      },
-      "description": {
-        "en": "British internment camps in Cyprus were organised in two clusters: SUMMER tent camps numbered 55, 60, 61, 62, 63 at Caraolos/Karaolos north of Famagusta, and WINTER Nissen-hut camps at Dekhelia/Decauville near Larnaca (~50 km away). 53,510 Jews detained 1946-1949; ~2,200 children born in captivity. David's family was held ~8 months. JDC Archives only holds the Aug 1948 - Feb 1949 birth lists — for the family's roster look at Yad Vashem and USHMM databases.",
-        "he": "מחנות המעצר הבריטיים בקפריסין היו מסודרים בשני אשכולות: מחנות אוהלים קיציים במספרים 55, 60, 61, 62, 63 בקראולוס מצפון לפמגוסטה, ומחנות חורף עם צריפי ניסן בדכליה/דקוויל (כ-50 ק\"מ משם). 53,510 יהודים נעצרו 1946-1949; כ-2,200 ילדים נולדו במעצר.",
-        "pl": "Brytyjskie obozy internowania na Cyprze były zorganizowane w dwóch klastrach: letnie obozy namiotowe nr 55, 60, 61, 62, 63 w Karaolos koło Famagusty, oraz zimowe baraki Nissen w Dekhelia koło Larnaki.",
-        "fr": "Les camps d'internement britanniques de Chypre étaient organisés en deux groupes : camps d'été sous tente nos 55, 60, 61, 62, 63 à Karaolos près de Famagouste, et camps d'hiver en baraques Nissen à Dekhelia près de Larnaca."
-      },
-      "confidence": "documented"
+      "confidence": "context"
     },
     {
       "id": "e_2026_05_21_dalia_equal_partner",
@@ -709,26 +1035,213 @@
       "confidence": "context"
     },
     {
-      "id": "e_2026_05_21_street_view_embeds",
+      "id": "e_2026_05_21_cyprus_karaolos_camp_numbers",
       "date": "2026-05-21",
       "date_precision": "day",
-      "date_sort": "2026-05-21T0500",
+      "date_sort": "2026-05-21T0700",
       "type": "discovery",
       "place_id": null,
-      "people_ids": [],
+      "people_ids": [
+        "p_david",
+        "p_leah"
+      ],
       "title": {
-        "en": "🗺️ Every Virtual Trip card now shows the address in Google Street View",
-        "he": "🗺️ כל כרטיס במסע הוירטואלי מציג עכשיו את הכתובת בתצוגת רחוב של גוגל",
-        "pl": "🗺️ Każda karta Wirtualnej podróży pokazuje teraz adres w Google Street View",
-        "fr": "🗺️ Chaque carte du Voyage virtuel affiche désormais l'adresse en Google Street View"
+        "en": "🏕️ Cyprus camp numbers DOCUMENTED — Karaolos 55/60/61/62/63 (summer tents) vs Dekhelia (winter huts)",
+        "he": "🏕️ מספרי מחנות קפריסין תועדו — קראולוס 55/60/61/62/63 (אוהלי קיץ) מול דכליה (צריפי חורף)",
+        "pl": "🏕️ Numery cypryjskich obozów UDOKUMENTOWANE — Karaolos 55/60/61/62/63 (namioty letnie) vs Dekhelia (baraki zimowe)",
+        "fr": "🏕️ Numéros des camps de Chypre DOCUMENTÉS — Karaolos 55/60/61/62/63 (tentes d'été) vs Dekhelia (baraques d'hiver)"
       },
       "description": {
-        "en": "All 13 Virtual Trip cards now embed two side-by-side iframes: the OpenStreetMap location plus a Google Street View pegman view at the exact coordinates — labelled 'How it looks today'. No API key required. Click any card to see the place AS IT LOOKS RIGHT NOW.",
-        "he": "כל 13 הכרטיסים במסע הוירטואלי משבצים עכשיו שני iframe אחד ליד השני: מיקום ה-OpenStreetMap בתוספת תצוגת רחוב של גוגל ב-coordinates המדויקים — בתווית 'איך זה נראה היום'. ללא צורך במפתח API.",
-        "pl": "Wszystkie 13 kart Wirtualnej podróży zawiera teraz dwa iframe obok siebie: lokalizację OpenStreetMap oraz widok Google Street View we wskazanych współrzędnych — z etykietą 'Jak to wygląda dziś'.",
-        "fr": "Les 13 cartes du Voyage virtuel intègrent désormais deux iframes côte à côte : la position OpenStreetMap et une vue Google Street View aux coordonnées exactes — étiquetée « Comment cela apparaît aujourd'hui »."
+        "en": "British internment camps in Cyprus were organised in two clusters: SUMMER tent camps numbered 55, 60, 61, 62, 63 at Caraolos/Karaolos north of Famagusta, and WINTER Nissen-hut camps at Dekhelia/Decauville near Larnaca (~50 km away). 53,510 Jews detained 1946-1949; ~2,200 children born in captivity. David's family was held ~8 months. JDC Archives only holds the Aug 1948 - Feb 1949 birth lists — for the family's roster look at Yad Vashem and USHMM databases.",
+        "he": "מחנות המעצר הבריטיים בקפריסין היו מסודרים בשני אשכולות: מחנות אוהלים קיציים במספרים 55, 60, 61, 62, 63 בקראולוס מצפון לפמגוסטה, ומחנות חורף עם צריפי ניסן בדכליה/דקוויל (כ-50 ק\"מ משם). 53,510 יהודים נעצרו 1946-1949; כ-2,200 ילדים נולדו במעצר.",
+        "pl": "Brytyjskie obozy internowania na Cyprze były zorganizowane w dwóch klastrach: letnie obozy namiotowe nr 55, 60, 61, 62, 63 w Karaolos koło Famagusty, oraz zimowe baraki Nissen w Dekhelia koło Larnaki.",
+        "fr": "Les camps d'internement britanniques de Chypre étaient organisés en deux groupes : camps d'été sous tente nos 55, 60, 61, 62, 63 à Karaolos près de Famagouste, et camps d'hiver en baraques Nissen à Dekhelia près de Larnaca."
       },
-      "confidence": "context"
+      "confidence": "documented"
+    },
+    {
+      "id": "e_2026_05_21_theodor_herzl_ship_identity",
+      "date": "2026-05-21",
+      "date_precision": "day",
+      "date_sort": "2026-05-21T0800",
+      "type": "discovery",
+      "place_id": null,
+      "people_ids": [
+        "p_david",
+        "p_leah"
+      ],
+      "title": {
+        "en": "🚢 The Theodor Herzl ship VERIFIED — ex-HMS \"Guardian\", Newcastle 1907 (NOT Exodus 1947)",
+        "he": "🚢 זהות אוניית תיאודור הרצל אומתה — HMS \"גארדיאן\" לשעבר, ניוקאסל 1907 (לא אקסודוס)",
+        "pl": "🚢 Tożsamość statku Theodor Herzl POTWIERDZONA — d. HMS \"Guardian\", Newcastle 1907 (NIE Exodus 1947)",
+        "fr": "🚢 Identité du navire Theodor Herzl VÉRIFIÉE — ex-HMS \"Guardian\", Newcastle 1907 (PAS Exodus 1947)"
+      },
+      "description": {
+        "en": "The Aliyah Bet ship that carried David, Lusia, Shimon and infant Dov from Sète to Cyprus on 2 April 1947 was the ex-British cable-laying ship HMS/SS \"Guardian\" — built 1907 by Swan Hunter & Wigham Richardson in Newcastle, 1,768 tons, triple-expansion engine. Acquired by Mossad LeAliyah Bet in 1946 and refitted at Marseille. Distinct from the SS Exodus 1947 (ex-President Warfield), with which it is routinely conflated.",
+        "he": "אוניית העלייה ב' שהובילה את דוד, לוסיה, שמעון ודב התינוק מסט לקפריסין ב-2 באפריל 1947 הייתה ספינת הכבלים הבריטית HMS/SS 'גארדיאן' — נבנתה ב-1907 על-ידי Swan Hunter & Wigham Richardson בניוקאסל, 1,768 טון, מנוע קיטור. נרכשה ב-1946 על-ידי המוסד לעלייה ב' ושופצה במרסיי. שונה מאוניית אקסודוס 1947 (פרסידנט וורפילד לשעבר), איתה היא בלבול נפוץ.",
+        "pl": "Statek Aliyah Bet, który przewiózł Dawida, Lusię, Szymona i niemowlę Dova z Sète na Cypr 2 kwietnia 1947, to brytyjski statek kablowy HMS/SS \"Guardian\" — zbudowany w 1907 w Newcastle, 1 768 ton. Nabyty w 1946 przez Mossad LeAliyah Bet i przebudowany w Marsylii. Inny statek niż SS Exodus 1947.",
+        "fr": "Le navire Aliyah Bet qui transporta David, Lusia, Szymon et Dov bébé de Sète à Chypre le 2 avril 1947 était le câblier britannique HMS/SS « Guardian » — construit en 1907 à Newcastle, 1 768 tonnes. Acquis en 1946 par le Mossad LeAliyah Bet et réaménagé à Marseille. À ne pas confondre avec le SS Exodus 1947."
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "e_2026_05_21_legionow24_building_identified",
+      "date": "2026-05-21",
+      "date_precision": "day",
+      "date_sort": "2026-05-21T0900",
+      "type": "discovery",
+      "place_id": "pl_lwow",
+      "people_ids": [
+        "p_leah"
+      ],
+      "title": {
+        "en": "🏠 Lusia's wartime apartment building IDENTIFIED — Prospekt Svobody 24, Lviv",
+        "he": "🏠 בניין דירת לוסיה בזמן המלחמה זוהה — פרוספקט סבובודי 24, לבוב",
+        "pl": "🏠 Zidentyfikowano wojenne mieszkanie Lusi — Prospekt Swobody 24, Lwów",
+        "fr": "🏠 Identifié l'immeuble de l'appartement de Lusia pendant la guerre — Prospekt Svobody 24, Lviv"
+      },
+      "description": {
+        "en": "ulica Legionów 24 in 1942-1944 Lwów is today's Prospekt Svobody 24, Lviv: a four-storey Biedermeier stone kamienica built 1836-1837 by architect Johann Salzmann for F. Adamski. Polish national poet Wincenty Pol lived there 1856-1866. Lusia rented an upper-floor apartment as 'Maria Cizlik' while a German military base fired guns from across the central promenade. Current photo of the actual building now embedded in the Virtual Trip card.",
+        "he": "רחוב לגיונוב 24 בלבוב 1942-1944 הוא היום פרוספקט סבובודי 24 בלביב: בניין אבן ביידרמייר בן ארבע קומות שנבנה ב-1836-1837 על-ידי האדריכל יוהן זלצמן עבור פ. אדמסקי. המשורר הפולסי וינצנטי פול גר בו 1856-1866. לוסיה שכרה דירה בקומה עליונה כ'מריה ציצליק' בעוד בסיס צבאי גרמני מהעבר השני של השדרה ירה ביריות. צילום עדכני של הבניין משובץ עכשיו בכרטיס המסע הוירטואלי.",
+        "pl": "Ulica Legionów 24 we Lwowie z lat 1942-1944 to dzisiejszy Prospekt Swobody 24: czteropiętrowa kamienica w stylu biedermeier zbudowana w latach 1836-1837 przez architekta Johanna Salzmanna dla F. Adamskiego. Polski poeta narodowy Wincenty Pol mieszkał tam w latach 1856-1866. Lusia wynajmowała mieszkanie pod nazwiskiem 'Maria Cizlik'.",
+        "fr": "La rue Legionów 24 à Lwów en 1942-1944 est l'actuel Prospekt Svobody 24 à Lviv : un immeuble de pierre Biedermeier de quatre étages construit en 1836-1837 par l'architecte Johann Salzmann pour F. Adamski. Le poète polonais Wincenty Pol y vécut de 1856 à 1866. Lusia y louait un appartement sous l'identité 'Maria Cizlik'."
+      },
+      "confidence": "documented"
+    },
+    {
+      "id": "e_2026_05_23_paternal_line",
+      "date": "2026-05-23",
+      "date_precision": "day",
+      "date_sort": "2026-05-23",
+      "type": "discovery",
+      "people_ids": [
+        "p_berisz"
+      ],
+      "title": {
+        "en": "Berisz’s 1924 passport application names his parents",
+        "he": "בקשת הדרכון של בריש מ-1924 נוקבת בשמות הוריו",
+        "pl": "Wniosek paszportowy Berisza z 1924 r. wymienia jego rodziców",
+        "fr": "La demande de passeport de Berisz de 1924 nomme ses parents"
+      },
+      "description": {
+        "en": "The paternal line had been a dead end even for Edward Gelles after twenty-five years. Basia found the passport file, and with it Moses Saul Rapaport and Menukha — and a photograph in which Dana saw a resemblance to her father.",
+        "he": "קו האב היה מבוי סתום אפילו עבור אדוארד גלס אחרי עשרים וחמש שנה. בסיה מצאה את תיק הדרכון, ועימו את משה שאול רפפורט ומנוחה — ותצלום שבו ראתה דנה דמיון לאביה.",
+        "pl": "Basia odnalazła akta paszportowe, a w nich Moszego Saula Rapaporta i Menuchę.",
+        "fr": "Basia a retrouvé le dossier de passeport, et avec lui Moses Saul Rapaport et Menukha."
+      },
+      "confidence": "confirmed",
+      "sources": [
+        "doc_berisz_passport_application_1924"
+      ]
+    },
+    {
+      "id": "e_2026_06_01_three_tarnow",
+      "date": "2026-06-01",
+      "date_precision": "day",
+      "date_sort": "2026-06-01",
+      "type": "discovery",
+      "place_id": "pl_tarnow",
+      "people_ids": [
+        "p_moses_saul_rapaport",
+        "p_menukha"
+      ],
+      "title": {
+        "en": "Three Tarnów marriage deeds independently name the apical couple",
+        "he": "שלושה שטרי נישואין מטרנוב נוקבים באופן עצמאי בזוג האב",
+        "pl": "Trzy tarnowskie akty ślubu niezależnie wymieniają parę praprzodków",
+        "fr": "Trois actes de mariage de Tarnów nomment indépendamment le couple apical"
+      },
+      "description": {
+        "en": "Read from the scans by Claude vision: the 1919, 1920 and 1923 marriages of three of Berisz’s sisters, each naming \"Moses and Menucha\" as their parents.",
+        "he": "נקראו מהסריקות בעזרת ראיית Claude: נישואי 1919, 1920 ו-1923 של שלוש מאחיותיו של בריש, וכל אחד נוקב ב״משה ומנוחה״ כהוריהן.",
+        "pl": "Odczytane ze skanów: śluby z 1919, 1920 i 1923 r. trzech sióstr Berisza.",
+        "fr": "Lus sur les scans : les mariages de 1919, 1920 et 1923 de trois sœurs de Berisz."
+      },
+      "confidence": "confirmed",
+      "sources": [
+        "doc_freida_amalia_marriage_1919",
+        "doc_jente_marriage_1920",
+        "doc_rebeka_younger_marriage_1923"
+      ]
+    },
+    {
+      "id": "e_2026_06_04_living_cousin",
+      "date": "2026-06-04",
+      "date_precision": "day",
+      "date_sort": "2026-06-04",
+      "type": "discovery",
+      "people_ids": [
+        "p_yehudit_shlomit_ayalon"
+      ],
+      "title": {
+        "en": "A living cousin on the paternal side — and she wants to meet Dov",
+        "he": "בת דודה חיה מצד האב — והיא מבקשת לפגוש את דב",
+        "pl": "Żyjąca kuzynka ze strony ojca — chce poznać Dova",
+        "fr": "Une cousine vivante du côté paternel — elle souhaite rencontrer Dov"
+      },
+      "description": {
+        "en": "Yehudit Shlomit, daughter of Zwi Ayalon Nussbaum and named after Freida, Berisz’s sister. She worked at Yad Vashem and had been looking for our branch for years — she once tried to reach Dov through a school essay Dana wrote at twelve. Dana spoke with her for an hour.",
+        "he": "יהודית שלומית, בתו של צבי איילון נוסבאום, קרויה על שם פרידה אחותו של בריש. עבדה ביד ושם וחיפשה את הענף שלנו שנים — פעם ניסתה להגיע לדב דרך חיבור בית ספר שדנה כתבה בגיל שתים עשרה. דנה שוחחה איתה שעה.",
+        "pl": "Judyta Szlomit, córka Cwiego Ajalona Nussbauma, pracowała w Yad Vashem i od lat szukała naszej gałęzi.",
+        "fr": "Yehudit Shlomit, fille de Zwi Ayalon Nussbaum, travaillait à Yad Vashem et cherchait notre branche depuis des années."
+      },
+      "confidence": "family_oral",
+      "sources": []
+    },
+    {
+      "id": "e_2026_06_10_jente_survived",
+      "date": "2026-06-10",
+      "date_precision": "day",
+      "date_sort": "2026-06-10",
+      "type": "discovery",
+      "place_id": "pl_liege",
+      "people_ids": [
+        "p_jente_rapaport",
+        "p_szewa_horowitz"
+      ],
+      "title": {
+        "en": "Jente survived — the 1941 list of Jews in Liège",
+        "he": "יענטה שרדה — רשימת יהודי ליאז׳ מ-1941",
+        "pl": "Jente przeżyła — lista Żydów w Liège z 1941 r.",
+        "fr": "Jente a survécu — la liste des Juifs de Liège de 1941"
+      },
+      "description": {
+        "en": "Her daughter Szewa appears on the 1941 census at 5 Place Delcour, and the 1946 Liège marriage record states that the bride’s mother, Jenta Rapaport, was living together with her daughter. A great-grand-aunt whose fate had been blank.",
+        "he": "בתה שבע מופיעה במפקד 1941 בפלס דלקור 5, ורשומת הנישואין מליאז׳ 1946 מציינת שאם הכלה, יענטה רפפורט, התגוררה עם בתה. דודה־רבתא שגורלה היה ריק.",
+        "pl": "Jej córka Szewa figuruje w spisie z 1941 r.; akt ślubu z 1946 r. podaje, że matka panny młodej mieszkała z córką.",
+        "fr": "Sa fille Szewa figure au recensement de 1941 ; l’acte de 1946 indique que la mère de la mariée vivait avec sa fille."
+      },
+      "confidence": "confirmed",
+      "sources": [
+        "doc_liege_jews_list_1941"
+      ]
+    },
+    {
+      "id": "e_2026_07_07_szabse_rabbi",
+      "date": "2026-07-07",
+      "date_precision": "day",
+      "date_sort": "2026-07-07",
+      "type": "discovery",
+      "place_id": "pl_dabrowa",
+      "people_ids": [
+        "p_moses_saul_rapaport"
+      ],
+      "title": {
+        "en": "Szabse Rapaport, rabbi of Dąbrowa Tarnowska",
+        "he": "שבסה רפפורט, רבה של דומברובה טרנובסקה",
+        "pl": "Szabse Rapaport, rabin Dąbrowy Tarnowskiej",
+        "fr": "Szabse Rapaport, rabbin de Dąbrowa Tarnowska"
+      },
+      "description": {
+        "en": "Basia, from the Tarnów notarial records: \"they convinced me that Szabse was your ancestor.\" He served until 20 April 1884 — and it explains at last why Berisz’s passport registers the family commune as Dąbrowa, a town nobody could account for. The same evening, from a different direction entirely, Dana produced a record naming Schabse with Figa/Yete.",
+        "he": "בסיה, מתוך רשומות הנוטריון בטרנוב: ״הן שכנעו אותי ששבסה היה אב־קדמונכם.״ הוא כיהן עד 20 באפריל 1884 — וזה מסביר סוף סוף מדוע הדרכון של בריש רושם את קהילת המשפחה כדומברובה, עיירה שאיש לא ידע להסבירה. באותו ערב, מכיוון אחר לגמרי, הציגה דנה רשומה הנוקבת בשבסה עם פיגה/יטה.",
+        "pl": "Basia z akt notarialnych w Tarnowie: Szabse pełnił funkcję rabina do 20 kwietnia 1884 r.",
+        "fr": "Basia, d’après les actes notariés de Tarnów : Szabse fut rabbin jusqu’au 20 avril 1884."
+      },
+      "confidence": "documented",
+      "sources": [
+        "doc_schabse_myheritage_2026"
+      ]
     }
   ]
 }
