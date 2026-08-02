@@ -9,7 +9,8 @@
     "title": "Rodzina Rapaport — Archiwum badawcze",
     "subtitle": "Z Galicji przez Brukselę do Izraela · 1888 — 2026",
     "for_dov": "Dla Dova Rapaporta na 80. urodziny · sierpień 2026",
-    "by_doron": "Opracowanie: Dalia, Dana, Daniel i Doron Rapaport — z wielką pomocą Magdy, Basi i Kasi"
+    "by_doron": "Zebrane z miłością przez Dalię, Danę, Daniela i Dorona Rapaportów",
+    "with_help": "z pomocą Magdy, Basi, Kasi i Pani Kasi (ŻIH Warszawa)"
   },
   "nav": {
     "home": "Strona główna",
@@ -22,10 +23,14 @@
     "chat": "Czat badawczy",
     "research": "Centrum badań",
     "ancestry": "Pochodzenie",
-    "virtual_trip": "🚶 Wirtualna podróż",
-    "memoir": "📖 Pamiętnik",
+    "virtual_trip": "Wirtualna podróż",
+    "memoir": "Pamiętnik",
     "about": "O projekcie",
-    "address_today": "Dzisiejszy adres"
+    "address_today": "Dzisiejszy adres",
+    "group_family": "Rodzina",
+    "group_story": "Ich historia",
+    "group_evidence": "Dowody",
+    "group_open": "Wciąż otwarte"
   },
   "ui": {
     "language": "Język",
@@ -144,7 +149,21 @@
     "legend_grandparent": "Pokolenie dziadków",
     "legend_greatgrandparent": "Pokolenie pradziadków",
     "legend_uncle": "Pokolenie wujów / rodzeństwa",
-    "legend_descendant": "Pokolenie potomków"
+    "legend_descendant": "Pokolenie potomków",
+    "generation": "Pokolenie",
+    "section_main": "Udokumentowana rodzina",
+    "group_dynasty": "Dynastia Rapaport-Kohen",
+    "group_rabbinic": "Linie rabinackie",
+    "group_living": "Żyjący krewni",
+    "group_righteous": "Ci, którzy pomogli im przeżyć",
+    "group_extended": "Dalsi krewni",
+    "unlinked_note": "Udokumentowane osoby, których dokładne pokrewieństwo z naszą gałęzią nie zostało jeszcze ustalone — pokazane, nigdy nie wymyślone.",
+    "legend_survivor": "Ocalały z Holokaustu",
+    "zoom_in": "Przybliż",
+    "zoom_out": "Oddal",
+    "fit": "Dopasuj do ekranu",
+    "pan_hint": "Przeciągnij, aby przesunąć · przewiń, aby przybliżyć · kliknij osobę",
+    "centre_subject": "Wyśrodkuj na Dovie"
   },
   "timeline": {
     "title": "Oś czasu",
@@ -162,7 +181,8 @@
     "tab_notes": "Uwagi badawcze",
     "side_original": "Oryginał",
     "side_translation": "Tłumaczenie",
-    "no_translation_yet": "Tłumaczenie w toku."
+    "no_translation_yet": "Tłumaczenie w toku.",
+    "file_pending": "Skan jeszcze nie dodany — rekord skatalogowano z czatu badawczego"
   },
   "hypotheses": {
     "title": "Pytania otwarte",

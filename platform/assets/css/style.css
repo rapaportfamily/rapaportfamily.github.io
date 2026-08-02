@@ -1,26 +1,49 @@
 /* ============================================================
    The Rapaport Family Archive — stylesheet
-   Aesthetic: warm parchment, archival, dignified
+   Aesthetic: blue and white — archival, high-contrast, RTL-first
    ============================================================ */
 
 :root {
-  /* Palette */
-  --ink: #1f1a14;
-  --ink-soft: #3a3328;
-  --muted: #6b5f4f;
-  --paper: #faf6ee;
-  --paper-soft: #fffbf2;
-  --paper-deep: #f1e9d6;
-  --border: #d9cdb7;
-  --border-soft: #ebe1cb;
-  --wine: #7a1f2b;
-  --wine-soft: #a64653;
-  --teal: #1f4a4d;
-  --teal-soft: #3e7174;
-  --gold: #a8843d;
-  --gold-soft: #c9a763;
-  --green: #4a6b3a;
-  --rust: #b5612b;
+  /* ── Palette ──────────────────────────────────────────────────────
+     Blue and white: the last leg of the journey the archive describes —
+     Galicia → Brussels → Israel. #0038B8 is the flag blue. Every value
+     below was contrast-checked against its background; the ratios are
+     noted where they matter.                                          */
+  --accent:       #0038B8;   /* 9.30:1 on white  */
+  --accent-soft:  #1e56d6;   /* 6.25:1 on white  */
+  --accent-wash:  #eaf0ff;   /* pale fill        */
+  --ink:          #0f1115;   /* 18.90:1          */
+  --ink-soft:     #2a2e35;   /* 13.63:1          */
+  --muted:        #5f6670;   /* 5.80:1           */
+  /* No grey panels: every surface is white and the structure is carried by
+     hairlines and blue outlines. --paper-deep is kept for interaction states
+     only (hover, pressed, pills) and is a pale blue, not a grey. */
+  --paper:        #ffffff;
+  --paper-soft:   #ffffff;
+  --paper-deep:   #eaf0ff;
+  --border:       #dde1e6;
+  --border-soft:  #eceff2;
+  --rule:         #8a939e;   /* 3.11:1 — structural lines */
+
+  /* Semantic — deliberately not the accent hue */
+  --ok:           #1b6b3a;   /* 6.54:1 */
+  --ok-wash:      #e6f3ec;
+  --warn:         #8a5a00;   /* 5.93:1 */
+  --warn-wash:    #fff6e5;
+  --danger:       #a62222;   /* 7.31:1 */
+  --danger-wash:  #fbe9e9;
+
+  /* Legacy aliases — the stylesheet and the view scripts were written
+     against the old parchment names. Pointing them at the new palette
+     retints every rule without rewriting 200 call sites. */
+  --wine: var(--accent);
+  --wine-soft: var(--accent-soft);
+  --teal: var(--ink-soft);
+  --teal-soft: var(--muted);
+  --gold: var(--accent-soft);
+  --gold-soft: var(--accent-wash);
+  --green: var(--ok);
+  --rust: var(--warn);
 
   /* Spacing */
   --pad-sm: 0.5rem;
@@ -29,12 +52,16 @@
   --pad-xl: 3rem;
   --radius: 4px;
   --radius-lg: 8px;
-  --shadow-1: 0 1px 3px rgba(31,26,20,0.08);
-  --shadow-2: 0 4px 16px rgba(31,26,20,0.12);
-  --shadow-deep: 0 12px 40px rgba(31,26,20,0.18);
+  --shadow-1: 0 1px 3px rgba(15,17,21,0.06);
+  --shadow-2: 0 4px 16px rgba(15,17,21,0.10);
+  --shadow-deep: 0 12px 40px rgba(15,17,21,0.16);
 
   /* Type */
-  --font-serif: 'Crimson Pro', Georgia, 'Times New Roman', serif;
+  /* Headings and UI are sans, set heavy and tight — the approved direction.
+     --font-read keeps a book serif for the surfaces that are actually read
+     at length: the memoir pane and document transcriptions. */
+  --font-serif: 'Inter', -apple-system, system-ui, 'Segoe UI', Helvetica, sans-serif;
+  --font-read: 'Crimson Pro', Georgia, 'Times New Roman', serif;
   --font-sans: 'Inter', -apple-system, system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', 'SF Mono', Consolas, monospace;
   --font-hebrew: 'Heebo', 'Arial Hebrew', sans-serif;
@@ -58,26 +85,33 @@ html[dir="rtl"] body, html[dir="rtl"] {
   font-family: var(--font-hebrew);
 }
 
-/* Subtle paper grain */
+/* The family crest, printed Verona 1594, sits behind the page as a very
+   light grey watermark — fixed, so it stays put while content scrolls. */
 body::before {
   content: '';
-  position: fixed; inset: 0; pointer-events: none;
-  background-image:
-    radial-gradient(rgba(31,26,20,0.025) 1px, transparent 1px);
-  background-size: 3px 3px;
+  position: fixed;
+  top: 50%; left: 50%;
+  width: min(60vw, 620px);
+  aspect-ratio: 1;
+  transform: translate(-50%, -50%);
+  background: url('../img/rapaport-coat-of-arms.jpg') center / contain no-repeat;
+  filter: grayscale(1);
+  opacity: 0.045;
+  pointer-events: none;
   z-index: 1;
-  opacity: 0.6;
 }
 
 main, header, footer { position: relative; z-index: 2; }
 
 h1, h2, h3, h4 {
   font-family: var(--font-serif);
-  font-weight: 600;
+  font-weight: 800;
+  letter-spacing: -0.015em;
   line-height: 1.2;
   margin: 0 0 0.6em 0;
-  color: var(--ink);
+  color: var(--accent);
 }
+h4 { color: var(--ink); }
 
 html[dir="rtl"] h1, html[dir="rtl"] h2, html[dir="rtl"] h3, html[dir="rtl"] h4 {
   font-family: var(--font-hebrew);
@@ -132,8 +166,9 @@ html[dir="rtl"] .serif { font-family: var(--font-hebrew); }
 .brand-title {
   font-family: var(--font-serif);
   font-size: 1.25rem;
-  font-weight: 700;
-  letter-spacing: -0.01em;
+  font-weight: 800;
+  letter-spacing: -0.015em;
+  color: var(--accent);
 }
 html[dir="rtl"] .brand-title { font-family: var(--font-hebrew); }
 .brand-subtitle {
@@ -157,7 +192,7 @@ html[dir="rtl"] .brand-title { font-family: var(--font-hebrew); }
   border-radius: 3px;
   transition: all 0.15s;
 }
-.lang-btn:hover { color: var(--ink); background: var(--paper-soft); }
+.lang-btn:hover { color: var(--accent); background: var(--paper-deep); }
 .lang-btn.active { background: var(--wine); color: var(--paper-soft); }
 
 /* Primary nav */
@@ -205,7 +240,7 @@ html[dir="rtl"] .brand-title { font-family: var(--font-hebrew); }
   cursor: pointer;
   margin-inline-start: 0.5rem;
 }
-.nav-toggle:hover { background: var(--paper-soft); }
+.nav-toggle:hover { background: var(--paper-deep); border-color: var(--accent); }
 
 /* Drawer backdrop */
 .nav-backdrop {
@@ -222,9 +257,41 @@ html[dir="rtl"] .brand-title { font-family: var(--font-hebrew); }
   pointer-events: auto;
 }
 
+/* The groups are kept in the markup because the mobile drawer uses them, but
+   on a wide screen the menu is one flat row: `display: contents` lets the
+   links flow straight into the bar so nothing ever wraps to a second line. */
+.nav-group-label {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+@media (min-width: 821px) {
+  .nav-inner {
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 0;
+  }
+  .nav-group { display: contents; }
+  .nav-group-label { display: none; }
+  .nav-inner a { padding: 0.72rem 0.62rem; font-size: 0.85rem; }
+  .nav-single { font-weight: 700; color: var(--ink); }
+}
+
 /* On narrow screens: hamburger appears, top bar collapses to a side drawer */
 @media (max-width: 820px) {
   .nav-toggle { display: inline-block; }
+  .nav-group {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid var(--border-soft);
+    margin-top: 0.45rem;
+    padding-top: 0.55rem;
+  }
+  .nav-group-label { padding-inline: 1.3rem; padding-bottom: 0.3rem; }
   .primary-nav {
     position: fixed;
     top: 0;
@@ -269,7 +336,7 @@ html[dir="rtl"] .brand-title { font-family: var(--font-hebrew); }
   .nav-inner a.active {
     border-bottom-color: transparent !important;
     border-left: 3px solid var(--wine);
-    background: rgba(107, 31, 31, 0.05);
+    background: var(--accent-wash);
   }
   html[dir="rtl"] .nav-inner a.active {
     border-left: none;
@@ -306,25 +373,17 @@ html[dir="rtl"] .page-header .lead { font-family: var(--font-hebrew); font-style
 /* ============================================================
    HOMEPAGE
 ============================================================ */
+/* No tinted panel: the opening statement sits on the white page, closed by a
+   single hairline. (It used to carry three stacked gradients and a gold
+   radial glow, which is what still read as grey.) */
 .home-hero {
-  background:
-    linear-gradient(to bottom right, rgba(122,31,43,0.05), transparent 60%),
-    linear-gradient(to top left, rgba(31,74,77,0.04), transparent 70%),
-    var(--paper-soft);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  padding: var(--pad-xl);
+  background: none;
+  border: 0;
+  border-bottom: 1px solid var(--border);
+  border-radius: 0;
+  padding: var(--pad-lg) 0 var(--pad-xl);
   margin-bottom: var(--pad-xl);
   position: relative;
-  overflow: hidden;
-}
-.home-hero::before {
-  content: '';
-  position: absolute;
-  top: -40%; right: -10%;
-  width: 400px; height: 400px;
-  background: radial-gradient(circle, rgba(168,132,61,0.08), transparent 70%);
-  pointer-events: none;
 }
 .home-hero .eyebrow {
   font-family: var(--font-mono);
@@ -419,22 +478,26 @@ html[dir="rtl"] .section-title { font-family: var(--font-hebrew); }
   gap: var(--pad-md);
 }
 .card {
-  background: var(--paper-soft);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
+  background: var(--paper);
+  border: 1.5px solid var(--accent);
+  border-radius: var(--radius);
   padding: var(--pad-lg);
-  transition: all 0.2s;
+  transition: background 0.15s, color 0.15s, box-shadow 0.15s;
   cursor: pointer;
   display: flex;
   flex-direction: column;
   text-align: left;
 }
 html[dir="rtl"] .card { text-align: right; }
+/* Outlined cards invert on hover — the whole tile fills blue */
 .card:hover {
-  transform: translateY(-2px);
+  background: var(--accent);
   box-shadow: var(--shadow-2);
-  border-color: var(--wine-soft);
 }
+.card:hover h3,
+.card:hover .card-meta,
+.card:hover .card-body,
+.card:hover .card-footer { color: var(--paper); }
 .card h3 { margin-bottom: 0.3em; }
 .card-meta {
   font-size: 0.78rem;
@@ -469,7 +532,7 @@ html[dir="rtl"] .card { text-align: right; }
   gap: 1px;
 }
 .explore-tile {
-  background: var(--paper-soft);
+  background: var(--paper);
   padding: var(--pad-lg);
   text-decoration: none;
   color: var(--ink);
@@ -477,7 +540,8 @@ html[dir="rtl"] .card { text-align: right; }
   transition: background 0.15s;
   border-bottom: none !important;
 }
-.explore-tile:hover { background: var(--paper-deep); }
+.explore-tile:hover { background: var(--accent); }
+.explore-tile:hover h4, .explore-tile:hover p { color: var(--paper); }
 .explore-tile h4 {
   color: var(--wine);
   margin-bottom: 0.3em;
@@ -513,12 +577,59 @@ html[dir="rtl"] .card { text-align: right; }
   width: 28px; height: 14px; border-radius: 2px;
   border: 1px solid var(--border);
 }
+.legend-count {
+  margin-inline-start: auto;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.tree-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: var(--pad-md);
+  flex-wrap: wrap;
+}
+.tree-toolbar .filter-btn { min-width: 2.4rem; }
+.tree-hint {
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-family: var(--font-sans);
+}
+.tree-viewport {
+  height: 74vh;
+  min-height: 420px;
+  background: var(--paper);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  touch-action: none;
+}
 
 .tree-svg {
   display: block;
-  margin: 0 auto;
-  max-width: 100%;
-  min-width: 900px;
+  width: 100%;
+  height: 100%;
+  cursor: grab;
+}
+.tree-svg.grabbing { cursor: grabbing; }
+.tree-svg .tree-section-title {
+  fill: var(--wine);
+  font-family: var(--font-serif);
+  font-size: 17px;
+  font-weight: 700;
+}
+.tree-svg .tree-section-sub {
+  fill: var(--muted);
+  font-family: var(--font-sans);
+  font-size: 11px;
+}
+.tree-svg .person-box:focus { outline: none; }
+.tree-svg .person-box:focus .person-rect {
+  stroke: var(--wine);
+  stroke-width: 2.2;
 }
 .tree-svg .gen-label {
   fill: var(--muted);
@@ -544,13 +655,21 @@ html[dir="rtl"] .card { text-align: right; }
 .tree-svg .person-box.subject .person-name,
 .tree-svg .person-box.subject .person-dates { fill: var(--paper-soft); }
 .tree-svg .person-box.survivor .person-rect {
-  fill: #f5e8d4;
-  stroke: var(--gold);
+  fill: var(--accent-wash);
+  stroke: var(--accent-soft);
   stroke-width: 1.6;
 }
 .tree-svg .person-box.deceased .person-rect {
   stroke-dasharray: 3,2;
   opacity: 0.92;
+}
+/* Dov is both the subject and a survivor; the subject state must win, so it
+   is restated after the survivor rule rather than relying on source order. */
+.tree-svg .person-box.subject.survivor .person-rect,
+.tree-svg .person-box.subject .person-rect {
+  fill: var(--accent);
+  stroke: var(--accent);
+  stroke-width: 1.6;
 }
 .tree-svg .person-box:hover .person-rect {
   stroke: var(--wine);
@@ -728,15 +847,17 @@ html[dir="rtl"] .tl-event-title { font-family: var(--font-hebrew); font-weight: 
   gap: var(--pad-md);
 }
 .person-card, .place-card {
-  background: var(--paper-soft);
+  background: var(--paper);
   border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
+  border-top: 2px solid var(--accent);
+  border-radius: var(--radius);
   padding: var(--pad-lg);
   transition: all 0.2s;
   cursor: pointer;
 }
 .person-card:hover, .place-card:hover {
-  border-color: var(--wine-soft);
+  border-color: var(--accent);
+  border-top-color: var(--accent);
   box-shadow: var(--shadow-1);
 }
 .person-name-big {
@@ -778,9 +899,10 @@ html[dir="rtl"] .person-dates { font-family: var(--font-hebrew); font-style: nor
   gap: var(--pad-md);
 }
 .doc-card {
-  background: var(--paper-soft);
+  background: var(--paper);
   border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
+  border-top: 2px solid var(--accent);
+  border-radius: var(--radius);
   overflow: hidden;
   cursor: pointer;
   transition: all 0.2s;
@@ -890,9 +1012,10 @@ html[dir="rtl"] .doc-title { font-family: var(--font-hebrew); }
 ============================================================ */
 .hyp-list { display: flex; flex-direction: column; gap: var(--pad-lg); }
 .hyp-card {
-  background: var(--paper-soft);
+  background: var(--paper);
   border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
+  border-top: 2px solid var(--accent);
+  border-radius: var(--radius);
   padding: var(--pad-lg);
 }
 .hyp-header {
@@ -925,7 +1048,7 @@ html[dir="rtl"] .hyp-question { font-family: var(--font-hebrew); }
   border: 1px solid;
   white-space: nowrap;
 }
-.badge.priority-HIGH { background: #fbe4e4; color: #7a1f2b; border-color: #e8c0c0; }
+.badge.priority-HIGH { background: #fbe4e4; color: var(--accent); border-color: #e8c0c0; }
 .badge.priority-MEDIUM { background: #fdf2da; color: #8a6816; border-color: #ead9a8; }
 .badge.priority-LOW { background: #e8eee5; color: #4a6b3a; border-color: #cad9c4; }
 .badge.status-open { background: #f5eee0; color: var(--muted); border-color: var(--border); }
@@ -1244,7 +1367,7 @@ html[dir="rtl"] .doc-translation { font-family: var(--font-hebrew); }
 .modal-backdrop {
   position: fixed;
   inset: 0;
-  background: rgba(31,26,20,0.6);
+  background: rgba(15,17,21,0.6);
   backdrop-filter: blur(3px);
 }
 .modal-panel {
@@ -1541,4 +1664,28 @@ html[dir="rtl"] .rc-extra { border-left: 0; border-right: 3px solid var(--rule);
 @media print {
   .site-header, .site-footer, .modal { display: none; }
   body { background: white; }
+}
+
+/* A catalogued document whose scan has not been filed yet */
+.doc-source-pending {
+  background: var(--warn-wash);
+  border: 1px solid var(--warn);
+  border-radius: var(--radius);
+  color: var(--warn);
+  padding: 1.1rem 1rem;
+  text-align: center;
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+/* Footer credit — the compilers line carries more weight than the helpers */
+.site-footer .credit { color: var(--ink); font-weight: 600; }
+
+/* The bar never wraps. When the labels are longer than the screen — Polish and
+   French run wider than English — it scrolls sideways instead, and a soft edge
+   fade appears so it is obvious there is more. The class is set by app.js. */
+.primary-nav { position: relative; }
+@media (min-width: 821px) {
+  .nav-inner.is-scrollable { -webkit-mask-image: linear-gradient(to right, #000 92%, transparent 100%); }
+  html[dir="rtl"] .nav-inner.is-scrollable { -webkit-mask-image: linear-gradient(to left, #000 92%, transparent 100%); }
 }

@@ -106,7 +106,19 @@ function setLang(lang) {
   try { localStorage.setItem('rapaport_lang', lang); } catch (e) {}
   // Re-render current view
   router();
+  updateNavScrollHint();
 }
+
+// The top bar is a single row in every language. Polish and French labels run
+// wider than English, so when the row cannot fit it scrolls sideways and gets a
+// soft edge fade to show there is more. Recomputed on load, language change and
+// resize, because the labels change length with the language.
+function updateNavScrollHint() {
+  const inner = document.querySelector('.nav-inner');
+  if (!inner) return;
+  inner.classList.toggle('is-scrollable', inner.scrollWidth > inner.clientWidth + 1);
+}
+window.addEventListener('resize', updateNavScrollHint);
 
 // ----------------------------------------
 // Router
@@ -150,6 +162,13 @@ function pageHeader(titleKey, leadKey) {
       <p class="lead">${escapeHtml(t(leadKey))}</p>
     </div>
   `;
+}
+
+// Tolerate hand-edited data: a field the renderer expects as a list may
+// arrive as a single string, or be missing. Never let that blank a page.
+function asList(v) {
+  if (v == null) return [];
+  return Array.isArray(v) ? v : [String(v)];
 }
 
 function escapeHtml(s) {
@@ -240,243 +259,597 @@ function renderHome(root) {
 }
 
 // ----------------------------------------
-// FAMILY TREE  (hand-laid SVG)
+// FAMILY TREE  (computed layout — every person in the archive)
 // ----------------------------------------
+// The layout is derived from the data, not hand-placed: generations come from
+// the parent/child graph, couples are grouped into units, and each unit is
+// centred over its children. People whose link into the tree is not yet
+// documented are shown in their own labelled sections rather than dropped —
+// no relationship is invented to make the drawing tidier.
+
+const TREE = {
+  BW: 170, BH: 54,   // person box
+  HGAP: 14,          // gap between the two boxes of a couple
+  UGAP: 40,          // gap between family units in the same row
+  ROW: 124,          // vertical distance between generations
+  PAD: 30,           // outer padding
+  SECTION_GAP: 78,   // space above a section title
+  TITLE_H: 30,       // height reserved for a section title
+  GRID_GAP: 16,      // gap in the "no documented link yet" grids
+  MIN_W: 900,
+};
+
+// Documented Holocaust survivors in the direct line (shaded in the legend).
+const TREE_SURVIVORS = new Set(['p_david', 'p_leah', 'p_shimon', 'p_dov_bernard']);
+
+// Roles → the section a person is filed under when no documented link exists.
+const TREE_ROLE_GROUP = {
+  dynasty_progenitor: 'dynasty',
+  dynasty_ancestor: 'dynasty',
+  dynasty_ancestor_galician: 'dynasty',
+  documented_medieval_ancestor: 'dynasty',
+  rabbinical_dynasty_ancestor: 'rabbinic',
+  rabbinic_context_ancestor: 'rabbinic',
+  righteous_gentile: 'righteous',
+  living_cousin: 'living',
+  living_cousin_in_law: 'living',
+  living_cousin_paternal: 'living',
+};
+const TREE_GROUP_ORDER = ['dynasty', 'rabbinic', 'living', 'righteous', 'extended'];
+function treeGroupOf(p) { return TREE_ROLE_GROUP[p.role] || 'extended'; }
+
+// ---------- graph ----------
+function buildFamilyGraph() {
+  const byId = State.byId.people;
+  const ids = State.data.people.map(p => p.id);
+  const spouses = {}, par = {}, kids = {};
+  ids.forEach(i => { spouses[i] = new Set(); par[i] = new Set(); kids[i] = new Set(); });
+
+  for (const p of State.data.people) {
+    const marry = (a, b) => {
+      if (!byId[b] || a === b) return;
+      spouses[a].add(b); spouses[b].add(a);
+    };
+    if (p.spouse_id) marry(p.id, p.spouse_id);
+    for (const s of p.spouse_ids || []) marry(p.id, s);
+
+    for (const key of ['father_id', 'mother_id']) {
+      const v = p[key];
+      if (v && byId[v] && v !== p.id) { par[p.id].add(v); kids[v].add(p.id); }
+    }
+    for (const c of p.children_ids || []) {
+      if (byId[c] && c !== p.id) { par[c].add(p.id); kids[p.id].add(c); }
+    }
+  }
+  return { ids, byId, spouses, par, kids };
+}
+
+function graphComponents(g) {
+  const seen = new Set(), out = [];
+  for (const start of g.ids) {
+    if (seen.has(start)) continue;
+    const stack = [start], members = [];
+    seen.add(start);
+    while (stack.length) {
+      const id = stack.pop();
+      members.push(id);
+      for (const set of [g.spouses[id], g.par[id], g.kids[id]]) {
+        for (const n of set) if (!seen.has(n)) { seen.add(n); stack.push(n); }
+      }
+    }
+    out.push(members);
+  }
+  // Biggest component first — that is the documented family.
+  out.sort((a, b) => b.length - a.length);
+  return out;
+}
+
+// Parents strictly above children; spouses on the same row.
+function assignGenerations(members, g) {
+  const gen = {};
+  members.forEach(id => { gen[id] = 0; });
+  const inComp = new Set(members);
+  for (let pass = 0; pass < members.length + 2; pass++) {
+    let moved = false;
+    for (const id of members) {
+      for (const f of g.par[id]) {
+        if (inComp.has(f) && gen[id] < gen[f] + 1) { gen[id] = gen[f] + 1; moved = true; }
+      }
+    }
+    for (const id of members) {
+      for (const s of g.spouses[id]) {
+        if (!inComp.has(s)) continue;
+        const m = Math.max(gen[id], gen[s]);
+        if (gen[id] !== m || gen[s] !== m) { gen[id] = gen[s] = m; moved = true; }
+      }
+    }
+    if (!moved) break;
+  }
+  return gen;
+}
+
+// ---------- units (a couple, or a single person) ----------
+function buildUnits(members, g, gen) {
+  const unitOf = {}, units = [];
+  const ordered = members.slice().sort((a, b) => (gen[a] - gen[b]) || a.localeCompare(b));
+
+  for (const id of ordered) {
+    if (unitOf[id]) continue;
+    const mates = [...g.spouses[id]]
+      .filter(s => !unitOf[s] && gen[s] === gen[id] && members.includes(s))
+      .sort();
+    const unit = { id: 'u' + units.length, gen: gen[id], members: [id], childUnits: [], parentUnits: [] };
+    if (mates.length) unit.members.push(mates[0]);
+    unit.members.forEach(m => { unitOf[m] = unit; });
+    unit.w = unit.members.length * TREE.BW + (unit.members.length - 1) * TREE.HGAP;
+    units.push(unit);
+  }
+
+  // Link units to every documented parent unit — both sides of a marriage, so
+  // a couple stays connected to both sets of parents.
+  for (const unit of units) {
+    for (const m of unit.members) {
+      for (const p of g.par[m]) {
+        const pu = unitOf[p];
+        if (!pu || pu === unit) continue;
+        if (!pu.childUnits.includes(unit)) pu.childUnits.push(unit);
+        if (!unit.parentUnits.includes(pu)) unit.parentUnits.push(pu);
+      }
+    }
+  }
+  return { units, unitOf };
+}
+
+// ---------- horizontal placement ----------
+// Two stages, both standard layered-graph technique:
+//   1. order each generation row to reduce crossings (barycentre sweeps), so
+//      relatives end up next to relatives;
+//   2. hang rows under their parents, then apply the priority method so each
+//      unit is pulled towards its own relatives without the drawing drifting
+//      wider, and nothing ever overlaps.
+function layoutUnits(units) {
+  const GAP = TREE.UGAP;
+  const rows = {};
+  units.forEach(u => { (rows[u.gen] = rows[u.gen] || []).push(u); });
+  const gens = Object.keys(rows).map(Number).sort((a, b) => a - b);
+  gens.forEach(g => rows[g].sort((a, b) => a.members[0].localeCompare(b.members[0])));
+
+  // --- 1. ordering ---
+  const idx = new Map();
+  const reindex = () => gens.forEach(g => rows[g].forEach((u, i) => idx.set(u, i)));
+  reindex();
+  const barycentre = (u, side) => {
+    const ns = side === 'up' ? u.parentUnits : u.childUnits;
+    const vals = ns.map(n => idx.get(n)).filter(v => v != null);
+    return vals.length ? vals.reduce((a, b) => a + b, 0) / vals.length : null;
+  };
+  for (let sweep = 0; sweep < 8; sweep++) {
+    const side = sweep % 2 ? 'down' : 'up';
+    for (const g of (sweep % 2 ? gens.slice().reverse() : gens)) {
+      const tagged = rows[g].map((u, i) => ({ u, i, b: barycentre(u, side) }));
+      tagged.sort((p, q) => ((p.b == null ? p.i : p.b) - (q.b == null ? q.i : q.b)) || (p.i - q.i));
+      rows[g] = tagged.map(o => o.u);
+      reindex();
+    }
+  }
+
+  // --- 2. initial x: hang each row under its parents, packed tight ---
+  const centre = u => u.x + u.w / 2;
+  const avgCentre = list => list.reduce((s, n) => s + centre(n), 0) / list.length;
+  for (const g of gens) {
+    const row = rows[g];
+    let limit = -Infinity;
+    row.forEach((u, i) => {
+      const ps = u.parentUnits.filter(p => typeof p.x === 'number');
+      const want = ps.length ? avgCentre(ps) - u.w / 2 : (i === 0 ? 0 : limit);
+      u.x = Math.max(want, limit);
+      limit = u.x + u.w + GAP;
+    });
+  }
+
+  // --- 3. priority method: pull each unit towards its relatives, but a unit
+  // may only push neighbours that are less constrained than itself, so the
+  // drawing tightens instead of drifting wider (Sugiyama et al.). ---
+  const shift = (row, i, delta, prio, self) => {
+    const u = row[i];
+    if (delta > 0) {
+      const next = row[i + 1];
+      if (next) {
+        const slack = next.x - (u.x + u.w + GAP);
+        if (slack < delta) {
+          delta = prio.get(next) > prio.get(self)
+            ? slack
+            : slack + shift(row, i + 1, delta - slack, prio, self);
+        }
+      }
+      u.x += Math.max(delta, 0);
+      return Math.max(delta, 0);
+    }
+    let want = -delta;
+    const prev = row[i - 1];
+    if (prev) {
+      const slack = u.x - (prev.x + prev.w + GAP);
+      if (slack < want) {
+        want = prio.get(prev) > prio.get(self)
+          ? slack
+          : slack + shift(row, i - 1, -(want - slack), prio, self);
+      }
+    }
+    u.x -= Math.max(want, 0);
+    return -Math.max(want, 0);
+  };
+
+  for (let pass = 0; pass < 10; pass++) {
+    const down = pass % 2 === 0;
+    const order = down ? gens.slice(1) : gens.slice(0, -1).reverse();
+    for (const g of order) {
+      const row = rows[g];
+      const refs = u => (down ? u.parentUnits : u.childUnits).filter(n => typeof n.x === 'number');
+      const prio = new Map(row.map(u => [u, refs(u).length]));
+      const moves = row
+        .map((u, i) => ({ u, i, want: refs(u).length ? avgCentre(refs(u)) - u.w / 2 : null }))
+        .filter(m => m.want != null)
+        .sort((a, b) => (prio.get(b.u) - prio.get(a.u)) || (Math.abs(b.want - b.u.x) - Math.abs(a.want - a.u.x)));
+      for (const m of moves) {
+        const i = row.indexOf(m.u);
+        const delta = m.want - m.u.x;
+        if (Math.abs(delta) > 0.5) shift(row, i, delta, prio, m.u);
+      }
+    }
+  }
+
+  const minX = Math.min(...units.map(u => u.x));
+  units.forEach(u => { u.x -= minX; });
+  const width = Math.max(...units.map(u => u.x + u.w));
+  const maxGen = Math.max(...units.map(u => u.gen));
+  return { width, maxGen };
+}
+
+// ---------- SVG helpers ----------
+const SVGNS = 'http://www.w3.org/2000/svg';
+function svgEl(name, attrs = {}) {
+  const el = document.createElementNS(SVGNS, name);
+  for (const [k, v] of Object.entries(attrs)) el.setAttribute(k, v);
+  return el;
+}
+function svgLine(parent, x1, y1, x2, y2, cls) {
+  parent.appendChild(svgEl('line', { x1, y1, x2, y2, class: cls }));
+}
+function svgText(parent, x, y, text, cls) {
+  const el = svgEl('text', { x, y, class: cls });
+  el.textContent = text;
+  parent.appendChild(el);
+  return el;
+}
+
+function drawPersonBox(parent, person, x, y) {
+  const g = svgEl('g', {
+    class: 'person-box'
+      + (person.id === 'p_dov_bernard' ? ' subject' : '')
+      + (TREE_SURVIVORS.has(person.id) ? ' survivor' : '')
+      + (person.death && person.death.date ? ' deceased' : ''),
+    'data-person': person.id,
+    transform: `translate(${x},${y})`,
+    tabindex: '0',
+    role: 'button',
+  });
+  g.appendChild(svgEl('rect', { class: 'person-rect', width: TREE.BW, height: TREE.BH, rx: 3 }));
+
+  const full = ml(person.primary_name) || person.id;
+  const title = svgEl('title');
+  title.textContent = full + ' — ' + roleLabel(person.role || '');
+  g.appendChild(title);
+
+  svgText(g, TREE.BW / 2, 22, truncate(full, 24), 'person-name');
+  const b = person.birth && person.birth.date ? extractYear(person.birth.date) : '?';
+  const d = person.death && person.death.date ? extractYear(person.death.date) : '';
+  svgText(g, TREE.BW / 2, 40, d ? `${b} – ${d}` : `${b} –`, 'person-dates');
+
+  const open = () => openPersonModal(person.id);
+  g.addEventListener('click', open);
+  g.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); } });
+  parent.appendChild(g);
+  return g;
+}
+
+// ---------- one connected family, drawn as a tree ----------
+function drawFamilyBlock(svg, members, g, yTop) {
+  const gen = assignGenerations(members, g);
+  const { units } = buildUnits(members, g, gen);
+  const { width, maxGen } = layoutUnits(units);
+
+  const lines = svgEl('g', { class: 'tree-lines' });
+  const boxes = svgEl('g', { class: 'tree-boxes' });
+  svg.appendChild(lines);
+  svg.appendChild(boxes);
+
+  const rowY = genIdx => yTop + genIdx * TREE.ROW;
+  const centreX = unit => unit.x + unit.w / 2;
+
+  // generation labels: the decades actually present in that row
+  for (let gi = 0; gi <= maxGen; gi++) {
+    const inRow = members.filter(id => gen[id] === gi);
+    const years = inRow
+      .map(id => {
+        const raw = State.byId.people[id].birth && State.byId.people[id].birth.date;
+        const m = raw ? String(raw).match(/\d{3,4}/) : null;
+        return m ? parseInt(m[0], 10) : null;
+      })
+      .filter(y => y != null)
+      .sort((a, b) => a - b);
+    let label = `${t('tree.generation')} ${gi + 1}`;
+    if (years.length) {
+      const lo = Math.floor(years[0] / 10) * 10;
+      const hi = Math.floor(years[years.length - 1] / 10) * 10;
+      label += ` · ${lo}${hi > lo ? '–' + hi : ''}`;
+    }
+    svgText(lines, 0, rowY(gi) - 12, label, 'gen-label');
+  }
+
+  // spouse lines
+  for (const unit of units) {
+    if (unit.members.length < 2) continue;
+    const y = rowY(unit.gen) + TREE.BH / 2;
+    svgLine(lines, unit.x + TREE.BW, y, unit.x + TREE.BW + TREE.HGAP, y, 'spouse-line');
+  }
+
+  // parent → children buses (one per parent unit; both parent couples of a
+  // married-in child are drawn, so in-law grandparents stay connected)
+  for (const unit of units) {
+    const children = unit.childUnits.filter(c => typeof c.x === 'number');
+    if (!children.length) continue;
+    const byRow = {};
+    children.forEach(c => { (byRow[c.gen] = byRow[c.gen] || []).push(c); });
+    for (const [rowStr, kidUnits] of Object.entries(byRow)) {
+      const row = Number(rowStr);
+      const busY = rowY(row) - TREE.ROW * 0.34;
+      const px = centreX(unit);
+      const xs = kidUnits.map(centreX);
+      svgLine(lines, px, rowY(unit.gen) + TREE.BH, px, busY, 'tree-line');
+      svgLine(lines, Math.min(px, ...xs), busY, Math.max(px, ...xs), busY, 'tree-line');
+      kidUnits.forEach(c => svgLine(lines, centreX(c), busY, centreX(c), rowY(c.gen), 'tree-line'));
+    }
+  }
+
+  for (const unit of units) {
+    unit.members.forEach((id, i) => {
+      drawPersonBox(boxes, State.byId.people[id], unit.x + i * (TREE.BW + TREE.HGAP), rowY(unit.gen));
+    });
+  }
+
+  return { width, height: (maxGen + 1) * TREE.ROW - (TREE.ROW - TREE.BH) };
+}
+
+// ---------- people with no documented link: labelled grid ----------
+function drawPeopleGrid(svg, ids, yTop, availableWidth) {
+  const boxes = svgEl('g', { class: 'tree-boxes' });
+  svg.appendChild(boxes);
+  const perRow = Math.max(1, Math.floor((availableWidth + TREE.GRID_GAP) / (TREE.BW + TREE.GRID_GAP)));
+  ids.forEach((id, i) => {
+    const col = i % perRow, row = Math.floor(i / perRow);
+    drawPersonBox(boxes, State.byId.people[id],
+      col * (TREE.BW + TREE.GRID_GAP),
+      yTop + row * (TREE.BH + TREE.GRID_GAP + 12));
+  });
+  const rows = Math.ceil(ids.length / perRow);
+  return {
+    width: Math.min(ids.length, perRow) * (TREE.BW + TREE.GRID_GAP) - TREE.GRID_GAP,
+    height: rows * (TREE.BH + TREE.GRID_GAP + 12) - TREE.GRID_GAP - 12,
+  };
+}
+
+function drawSectionTitle(svg, y, text, sub) {
+  const g = svgEl('g');
+  svg.appendChild(g);
+  svgText(g, 0, y, text, 'tree-section-title');
+  if (sub) svgText(g, 0, y + 17, sub, 'tree-section-sub');
+  return sub ? 22 : 6;
+}
+
+// ---------- the whole page ----------
+function buildFamilyTreeSVG() {
+  const g = buildFamilyGraph();
+  const comps = graphComponents(g);
+  const main = comps[0] || [];
+  const rest = comps.slice(1);
+
+  // Everything outside the main tree, bucketed by role.
+  const buckets = {};
+  for (const comp of rest) {
+    const counts = {};
+    comp.forEach(id => {
+      const k = treeGroupOf(State.byId.people[id]);
+      counts[k] = (counts[k] || 0) + 1;
+    });
+    const key = Object.keys(counts).sort((a, b) => counts[b] - counts[a])[0];
+    (buckets[key] = buckets[key] || { chains: [], singles: [] });
+    if (comp.length > 1) buckets[key].chains.push(comp);
+    else buckets[key].singles.push(comp[0]);
+  }
+
+  const svg = svgEl('svg', { class: 'tree-svg', xmlns: SVGNS });
+  const canvas = svgEl('g', { class: 'tree-canvas' });
+  svg.appendChild(canvas);
+
+  let y = 0, width = TREE.MIN_W;
+  const bump = w => { width = Math.max(width, w); };
+
+  // 1) the documented family
+  y += drawSectionTitle(canvas, y,
+    `${t('tree.section_main')} · ${main.length} ${t('ui.people_count').toLowerCase()}`, null) + TREE.TITLE_H;
+  const mainBox = drawFamilyBlock(canvas, main, g, y);
+  bump(mainBox.width);
+  y += mainBox.height + TREE.SECTION_GAP;
+
+  // 2) the rest, grouped and clearly labelled as unlinked
+  for (const key of TREE_GROUP_ORDER) {
+    const bucket = buckets[key];
+    if (!bucket) continue;
+    const count = bucket.singles.length + bucket.chains.reduce((n, c) => n + c.length, 0);
+    y += drawSectionTitle(canvas, y,
+      `${t('tree.group_' + key)} · ${count} ${t('ui.people_count').toLowerCase()}`,
+      t('tree.unlinked_note')) + TREE.TITLE_H;
+
+    for (const chain of bucket.chains) {
+      const box = drawFamilyBlock(canvas, chain, g, y);
+      bump(box.width);
+      y += box.height + TREE.GRID_GAP + 24;
+    }
+    if (bucket.singles.length) {
+      const ordered = bucket.singles.slice().sort((a, b) => {
+        const ya = (String((State.byId.people[a].birth || {}).date || '').match(/\d{3,4}/) || [9999])[0];
+        const yb = (String((State.byId.people[b].birth || {}).date || '').match(/\d{3,4}/) || [9999])[0];
+        return Number(ya) - Number(yb) || a.localeCompare(b);
+      });
+      const box = drawPeopleGrid(canvas, ordered, y, Math.max(width, TREE.MIN_W));
+      bump(box.width);
+      y += box.height;
+    }
+    y += TREE.SECTION_GAP;
+  }
+
+  const W = width + TREE.PAD * 2;
+  const H = y - TREE.SECTION_GAP + TREE.PAD * 2;
+  canvas.setAttribute('transform', `translate(${TREE.PAD},${TREE.PAD + 10})`);
+  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  svg.dataset.w = W;
+  svg.dataset.h = H;
+  return svg;
+}
+
+// ---------- pan + zoom ----------
+function wireTreeViewport(svg, host) {
+  const W = Number(svg.dataset.w), H = Number(svg.dataset.h);
+  const viewport = host.querySelector('.tree-viewport');
+  const view = { x: 0, y: 0, w: W, h: H };
+  const apply = () => svg.setAttribute('viewBox', `${view.x} ${view.y} ${view.w} ${view.h}`);
+
+  // Fit the whole drawing into the viewport. If the element has not been laid
+  // out yet (hidden tab, zero-size pane) show the full content box instead of
+  // deriving a nonsense aspect ratio from a zero measurement.
+  const fit = () => {
+    const box = viewport.getBoundingClientRect();
+    if (!(box.width > 40 && box.height > 40)) {
+      view.x = 0; view.y = 0; view.w = W; view.h = H;
+      apply();
+      return;
+    }
+    const aspect = box.width / box.height;
+    let w = W, h = W / aspect;
+    if (h < H) { h = H; w = H * aspect; }
+    view.x = (W - w) / 2; view.y = (H - h) / 2; view.w = w; view.h = h;
+    apply();
+  };
+
+  const zoomAt = (factor, cx, cy) => {
+    const box = svg.getBoundingClientRect();
+    const px = box.width ? (cx - box.left) / box.width : 0.5;
+    const py = box.height ? (cy - box.top) / box.height : 0.5;
+    const fx = view.x + px * view.w, fy = view.y + py * view.h;
+    const nw = Math.min(Math.max(view.w * factor, W / 14), W * 3);
+    const nh = nw * (view.h / view.w);
+    view.x = fx - px * nw; view.y = fy - py * nh;
+    view.w = nw; view.h = nh;
+    apply();
+  };
+
+  svg.addEventListener('wheel', e => {
+    e.preventDefault();
+    zoomAt(e.deltaY > 0 ? 1.12 : 0.89, e.clientX, e.clientY);
+  }, { passive: false });
+
+  let drag = null;
+  svg.addEventListener('pointerdown', e => {
+    if (e.target.closest('.person-box')) return;   // let clicks through to people
+    drag = { x: e.clientX, y: e.clientY };
+    svg.classList.add('grabbing');
+    svg.setPointerCapture(e.pointerId);
+  });
+  svg.addEventListener('pointermove', e => {
+    if (!drag) return;
+    const box = svg.getBoundingClientRect();
+    view.x -= (e.clientX - drag.x) * (view.w / (box.width || 1));
+    view.y -= (e.clientY - drag.y) * (view.h / (box.height || 1));
+    drag = { x: e.clientX, y: e.clientY };
+    apply();
+  });
+  const endDrag = () => { drag = null; svg.classList.remove('grabbing'); };
+  svg.addEventListener('pointerup', endDrag);
+  svg.addEventListener('pointercancel', endDrag);
+  svg.addEventListener('pointerleave', endDrag);
+
+  host.querySelector('[data-tree="in"]').addEventListener('click', () => {
+    const b = svg.getBoundingClientRect();
+    zoomAt(0.8, b.left + b.width / 2, b.top + b.height / 2);
+  });
+  host.querySelector('[data-tree="out"]').addEventListener('click', () => {
+    const b = svg.getBoundingClientRect();
+    zoomAt(1.25, b.left + b.width / 2, b.top + b.height / 2);
+  });
+  // Opening view: 122 people fitted to a screen is unreadable, so start
+  // centred on the person this archive is for, at a legible scale. "Fit"
+  // gives the whole picture.
+  const SPAN = 2100;
+  const start = () => {
+    const box = viewport.getBoundingClientRect();
+    const subject = svg.querySelector('.person-box.subject');
+    const m = subject && /translate\(([-\d.]+),([-\d.]+)\)/.exec(subject.getAttribute('transform'));
+    if (!m) { fit(); return; }
+    const cx = Number(m[1]) + TREE.BW / 2 + TREE.PAD;
+    const cy = Number(m[2]) + TREE.BH / 2 + TREE.PAD + 10;
+    const aspect = (box.width > 40 && box.height > 40) ? box.width / box.height : W / H;
+    view.w = Math.min(SPAN, W);
+    view.h = view.w / aspect;
+    view.x = cx - view.w / 2;
+    view.y = cy - view.h / 2;
+    apply();
+  };
+
+  host.querySelector('[data-tree="fit"]').addEventListener('click', fit);
+  host.querySelector('[data-tree="subject"]').addEventListener('click', start);
+
+  start();
+  // Re-run once the viewport actually has a size (first paint, hidden tab
+  // becoming visible, orientation change) so the tree is never left mid-zoom.
+  let settled = false;
+  if (typeof ResizeObserver === 'function') {
+    const ro = new ResizeObserver(() => {
+      const box = viewport.getBoundingClientRect();
+      if (!settled && box.width > 40 && box.height > 40) { settled = true; start(); }
+    });
+    ro.observe(viewport);
+  }
+  window.addEventListener('resize', () => { if (settled) start(); });
+}
+
 function renderTree(root) {
   root.innerHTML = `
     ${pageHeader('tree.title', 'tree.lead')}
     <div class="tree-wrap">
       <div class="tree-legend">
         <div class="legend-item"><span class="legend-swatch" style="background:var(--wine);border-color:var(--wine);"></span>${escapeHtml(t('tree.legend_subject'))}</div>
-        <div class="legend-item"><span class="legend-swatch" style="background:#f5e8d4;border-color:var(--gold);"></span>${escapeHtml(t('confidence.family_oral'))} / Holocaust survivor</div>
-        <div class="legend-item"><span class="legend-swatch" style="background:var(--paper-soft);"></span>${escapeHtml(t('tree.legend_grandparent'))}</div>
+        <div class="legend-item"><span class="legend-swatch" style="background:var(--accent-wash);border-color:var(--gold);"></span>${escapeHtml(t('tree.legend_survivor'))}</div>
         <div class="legend-item"><span class="legend-swatch" style="background:var(--paper-soft);border-style:dashed;"></span>${escapeHtml(t('ui.died'))}</div>
+        <div class="legend-item legend-count" id="tree-count"></div>
       </div>
-      <div id="tree-svg-container"></div>
+      <div class="tree-toolbar">
+        <button class="filter-btn" data-tree="out" aria-label="${escapeHtml(t('tree.zoom_out'))}">−</button>
+        <button class="filter-btn" data-tree="in" aria-label="${escapeHtml(t('tree.zoom_in'))}">+</button>
+        <button class="filter-btn" data-tree="subject">${escapeHtml(t('tree.centre_subject'))}</button>
+        <button class="filter-btn" data-tree="fit">${escapeHtml(t('tree.fit'))}</button>
+        <span class="tree-hint">${escapeHtml(t('tree.pan_hint'))}</span>
+      </div>
+      <div id="tree-svg-container" class="tree-viewport"></div>
     </div>
   `;
 
+  const host = root.querySelector('.tree-wrap');
+  const viewport = document.getElementById('tree-svg-container');
   const svg = buildFamilyTreeSVG();
-  document.getElementById('tree-svg-container').appendChild(svg);
-}
-
-function buildFamilyTreeSVG() {
-  // Manually-positioned tree.
-  // Generations: gen 0 (top, gg-grandparents) → gen 4 (bottom, Doron's gen)
-  // Box: 170 w × 54 h
-  // Generation y: 60, 200, 340, 480, 620
-
-  const W = 1280, H = 740;
-  const BW = 170, BH = 54;
-  const GY = [60, 200, 340, 480, 620];
-
-  // Survivor flag for special shading
-  const SURVIVORS = new Set(['p_david','p_leah','p_shimon','p_dov_bernard']);
-
-  // Layout: x positions for each person
-  // Strategy: Build couples first, position couples symmetrically.
-
-  // Gen 0 — gg-grandparents (4 people, 2 couples)
-  // Left side (paternal): Leizor + Sara
-  // Right side (maternal): Samuel + Ester
-  const layout = {
-    // Gen 0
-    p_leizor_griffel: { x: 200, y: GY[0], gen: 0 },
-    p_sara_chajes:    { x: 380, y: GY[0], gen: 0 },
-    p_samuel_weinreb: { x: 850, y: GY[0], gen: 0 },
-    p_ester_blima:    { x: 1030, y: GY[0], gen: 0 },
-
-    // Gen 1 — great-grandparents (4 people, 2 couples)
-    p_berisz:         { x: 200, y: GY[1], gen: 1 },
-    p_rebeka:         { x: 380, y: GY[1], gen: 1 },
-    p_elias_weitzner: { x: 850, y: GY[1], gen: 1 },
-    p_matel_weinreb:  { x: 1030, y: GY[1], gen: 1 },
-
-    // Gen 2 — grandparents row (David's family + Leah's family meet at David+Leah)
-    // David's family: David, Lota - centered under Berisz+Rebeka (290)
-    // Leah's family: Leah, Feige, Moses, Pnina - centered under Elias+Matel (940)
-    p_david:          { x: 460, y: GY[2], gen: 2 },
-    p_lota:           { x: 280, y: GY[2], gen: 2 },
-    p_leah:           { x: 640, y: GY[2], gen: 2 },
-    p_feige:          { x: 820, y: GY[2], gen: 2 },
-    p_moses_weitzner: { x: 1000, y: GY[2], gen: 2 },
-    p_pnina_weitzner: { x: 1180, y: GY[2], gen: 2 },
-
-    // Gen 3 — Bernard's generation (Dov+Dalia, Shimon)
-    p_shimon:         { x: 360, y: GY[3], gen: 3 },
-    p_dov_bernard:    { x: 550, y: GY[3], gen: 3 },
-    p_dalia:          { x: 730, y: GY[3], gen: 3 },
-
-    // Gen 4 — Doron's generation (Doron, Dana, Daniel)
-    p_doron:          { x: 460, y: GY[4], gen: 4 },
-    p_dana:           { x: 640, y: GY[4], gen: 4 },
-    p_daniel:         { x: 820, y: GY[4], gen: 4 },
-  };
-
-  // Center of each box
-  const cx = id => layout[id].x + BW/2;
-  const cy = id => layout[id].y + BH/2;
-  const topY = id => layout[id].y;
-  const botY = id => layout[id].y + BH;
-
-  // Build SVG
-  const svgNS = 'http://www.w3.org/2000/svg';
-  const svg = document.createElementNS(svgNS, 'svg');
-  svg.setAttribute('class', 'tree-svg');
-  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
-  svg.setAttribute('xmlns', svgNS);
-  svg.style.width = W + 'px';
-  svg.style.height = H + 'px';
-
-  // Generation labels
-  const genLabels = [
-    'tree.legend_greatgrandparent', // gen 0
-    'tree.legend_greatgrandparent', // gen 1 (use same key, both are great-grandparents)
-    'tree.legend_grandparent',
-    'tree.legend_uncle',
-    'tree.legend_descendant',
-  ];
-  // Better: label them by closeness to subject Bernard
-  const genTexts = ['Great-Great-Grandparents · 1840s–1860s', 'Great-Grandparents · 1860s–1890s', 'Grandparents · 1900s–1910s', 'Parents · 1930s–1940s', 'Children · 1970s–1990s'];
-  const isHe = State.lang === 'he';
-  if (isHe) {
-    genTexts[0] = 'הסבים־רבא־רבא · 1840–1860';
-    genTexts[1] = 'הסבים־רבא · 1860–1890';
-    genTexts[2] = 'הסבים · 1900–1910';
-    genTexts[3] = 'ההורים · 1930–1940';
-    genTexts[4] = 'הילדים · 1970–1990';
-  } else if (State.lang === 'pl') {
-    genTexts[0] = 'Prapradziadkowie · 1840–1860';
-    genTexts[1] = 'Pradziadkowie · 1860–1890';
-    genTexts[2] = 'Dziadkowie · 1900–1910';
-    genTexts[3] = 'Rodzice · 1930–1940';
-    genTexts[4] = 'Dzieci · 1970–1990';
-  } else if (State.lang === 'fr') {
-    genTexts[0] = 'Arrière-arrière-grands-parents · 1840–1860';
-    genTexts[1] = 'Arrière-grands-parents · 1860–1890';
-    genTexts[2] = 'Grands-parents · 1900–1910';
-    genTexts[3] = 'Parents · 1930–1940';
-    genTexts[4] = 'Enfants · 1970–1990';
-  }
-
-  for (let i = 0; i < 5; i++) {
-    const tx = document.createElementNS(svgNS, 'text');
-    tx.setAttribute('x', 30);
-    tx.setAttribute('y', GY[i] + BH/2 + 4);
-    tx.setAttribute('class', 'gen-label');
-    tx.textContent = genTexts[i];
-    svg.appendChild(tx);
-  }
-
-  // --- Lines first (under boxes) ---
-
-  // Helper: draw spouse line (horizontal between two boxes at same y)
-  function spouseLine(a, b) {
-    const aRight = layout[a].x + BW;
-    const bLeft = layout[b].x;
-    const y = layout[a].y + BH/2;
-    const line = document.createElementNS(svgNS, 'line');
-    line.setAttribute('x1', aRight);
-    line.setAttribute('y1', y);
-    line.setAttribute('x2', bLeft);
-    line.setAttribute('y2', y);
-    line.setAttribute('class', 'spouse-line');
-    svg.appendChild(line);
-  }
-
-  // Helper: draw parent → children line set
-  // From midpoint between parents (or just parent box) down to a horizontal bar, then down to each child top
-  function parentLines(parents, children) {
-    if (!children.length) return;
-    let parentMidX;
-    if (parents.length === 2) {
-      parentMidX = (cx(parents[0]) + cx(parents[1])) / 2;
-    } else {
-      parentMidX = cx(parents[0]);
-    }
-    const parentBottomY = botY(parents[0]);
-    const horizY = (parentBottomY + topY(children[0])) / 2;
-
-    // Vertical from parents down to horizontal
-    const v1 = document.createElementNS(svgNS, 'line');
-    v1.setAttribute('x1', parentMidX); v1.setAttribute('y1', parentBottomY);
-    v1.setAttribute('x2', parentMidX); v1.setAttribute('y2', horizY);
-    v1.setAttribute('class', 'tree-line');
-    svg.appendChild(v1);
-
-    // Horizontal connecting all children
-    const childXs = children.map(c => cx(c)).sort((a,b)=>a-b);
-    const minX = Math.min(childXs[0], parentMidX);
-    const maxX = Math.max(childXs[childXs.length - 1], parentMidX);
-    const horiz = document.createElementNS(svgNS, 'line');
-    horiz.setAttribute('x1', minX); horiz.setAttribute('y1', horizY);
-    horiz.setAttribute('x2', maxX); horiz.setAttribute('y2', horizY);
-    horiz.setAttribute('class', 'tree-line');
-    svg.appendChild(horiz);
-
-    // Verticals down to each child
-    for (const c of children) {
-      const v = document.createElementNS(svgNS, 'line');
-      v.setAttribute('x1', cx(c)); v.setAttribute('y1', horizY);
-      v.setAttribute('x2', cx(c)); v.setAttribute('y2', topY(c));
-      v.setAttribute('class', 'tree-line');
-      svg.appendChild(v);
-    }
-  }
-
-  // Spouse lines
-  spouseLine('p_leizor_griffel', 'p_sara_chajes');
-  spouseLine('p_samuel_weinreb', 'p_ester_blima');
-  spouseLine('p_berisz', 'p_rebeka');
-  spouseLine('p_elias_weitzner', 'p_matel_weinreb');
-  spouseLine('p_david', 'p_leah');
-  spouseLine('p_dov_bernard', 'p_dalia');
-
-  // Parent → children
-  parentLines(['p_leizor_griffel', 'p_sara_chajes'], ['p_rebeka']);
-  parentLines(['p_samuel_weinreb', 'p_ester_blima'], ['p_matel_weinreb']);
-  parentLines(['p_berisz', 'p_rebeka'], ['p_david', 'p_lota']);
-  parentLines(['p_elias_weitzner', 'p_matel_weinreb'], ['p_leah', 'p_feige', 'p_moses_weitzner', 'p_pnina_weitzner']);
-  parentLines(['p_david', 'p_leah'], ['p_shimon', 'p_dov_bernard']);
-  parentLines(['p_dov_bernard', 'p_dalia'], ['p_doron', 'p_dana', 'p_daniel']);
-
-  // --- Boxes ---
-  for (const person of State.data.people) {
-    const pos = layout[person.id];
-    if (!pos) continue;
-    const g = document.createElementNS(svgNS, 'g');
-    g.setAttribute('class', 'person-box' +
-      (person.id === 'p_dov_bernard' ? ' subject' : '') +
-      (SURVIVORS.has(person.id) ? ' survivor' : '') +
-      (person.death ? ' deceased' : ''));
-    g.setAttribute('data-person', person.id);
-    g.style.transform = `translate(${pos.x}px,${pos.y}px)`;
-
-    const rect = document.createElementNS(svgNS, 'rect');
-    rect.setAttribute('class', 'person-rect');
-    rect.setAttribute('width', BW); rect.setAttribute('height', BH);
-    rect.setAttribute('rx', 3);
-    g.appendChild(rect);
-
-    const name = document.createElementNS(svgNS, 'text');
-    name.setAttribute('class', 'person-name');
-    name.setAttribute('x', BW/2); name.setAttribute('y', 22);
-    name.textContent = truncate(ml(person.primary_name), 26);
-    g.appendChild(name);
-
-    const dates = document.createElementNS(svgNS, 'text');
-    dates.setAttribute('class', 'person-dates');
-    dates.setAttribute('x', BW/2); dates.setAttribute('y', 40);
-    const b = person.birth?.date ? extractYear(person.birth.date) : '?';
-    const d = person.death?.date ? extractYear(person.death.date) : '';
-    dates.textContent = d ? `${b} – ${d}` : `${b} –`;
-    g.appendChild(dates);
-
-    g.addEventListener('click', () => openPersonModal(person.id));
-    svg.appendChild(g);
-  }
-
-  return svg;
+  viewport.appendChild(svg);
+  document.getElementById('tree-count').textContent =
+    `${State.data.people.length} ${t('ui.people_count').toLowerCase()}`;
+  wireTreeViewport(svg, host);
 }
 
 function truncate(s, n) {
@@ -864,7 +1237,7 @@ function openDocModal(id) {
   for (const f of files) {
     const path = 'assets/documents/' + encodeURI(f);
     if (f.match(/\.(jpg|jpeg|png|webp|gif)$/i)) {
-      sourceHTML += `<div><img src="${escapeHtml(path)}" alt="${escapeHtml(f)}" /><div class="doc-source-caption">${escapeHtml(f)}</div></div>`;
+      sourceHTML += `<div><img src="${escapeHtml(path)}" alt="${escapeHtml(f)}" data-file="${escapeHtml(f)}" /><div class="doc-source-caption">${escapeHtml(f)}</div></div>`;
     } else if (f.match(/\.pdf$/i)) {
       sourceHTML += `<div><embed src="${escapeHtml(path)}" type="application/pdf" /><div class="doc-source-caption">${escapeHtml(f)}</div></div>`;
     } else {
@@ -901,6 +1274,21 @@ function openDocModal(id) {
     </div>
   `;
   showModal(html);
+
+  // Some records were catalogued from the research chat before the scan itself
+  // was filed — nine of the June 2026 finds are in that state. Say so plainly
+  // instead of showing a broken image. Fixes itself when the file is added.
+  document.querySelectorAll('#modal .doc-source img[data-file]').forEach(img => {
+    img.addEventListener('error', () => {
+      const holder = img.parentElement;
+      if (!holder) return;
+      img.remove();
+      const note = document.createElement('div');
+      note.className = 'doc-source-pending';
+      note.innerHTML = `<strong>${escapeHtml(t('documents.file_pending'))}</strong>`;
+      holder.prepend(note);
+    });
+  });
 
   // Initial render and tab handlers
   function renderTab(tab) {
@@ -958,28 +1346,28 @@ function renderHypotheses(root) {
             <div class="candidates">
               ${h.candidates.map(c => `
                 <div class="candidate verdict-${escapeHtml((c.verdict || '').replace(/ /g, '_'))}">
-                  <div class="candidate-label">${escapeHtml(c.label)}</div>
+                  <div class="candidate-label">${escapeHtml(c.label || c.name || '')}</div>
                   ${c.verdict ? `<div class="evidence-header">${escapeHtml(t('ui.verdict'))}: ${escapeHtml(t('candidate_verdict.' + (c.verdict || 'candidate')))}</div>` : ''}
-                  ${c.evidence_for?.length ? `
+                  ${asList(c.evidence_for).length ? `
                     <div class="evidence-header">${escapeHtml(t('ui.evidence_for'))}</div>
                     <ul class="candidate-evidence for">
-                      ${c.evidence_for.map(e => `<li>${escapeHtml(e)}</li>`).join('')}
+                      ${asList(c.evidence_for).map(e => `<li>${escapeHtml(e)}</li>`).join('')}
                     </ul>
                   ` : ''}
-                  ${c.evidence_against?.length ? `
+                  ${asList(c.evidence_against).length ? `
                     <div class="evidence-header">${escapeHtml(t('ui.evidence_against'))}</div>
                     <ul class="candidate-evidence against">
-                      ${c.evidence_against.map(e => `<li>${escapeHtml(e)}</li>`).join('')}
+                      ${asList(c.evidence_against).map(e => `<li>${escapeHtml(e)}</li>`).join('')}
                     </ul>
                   ` : ''}
                 </div>
               `).join('')}
             </div>
           ` : ''}
-          ${h.next_steps?.length ? `
+          ${asList(h.next_steps).length ? `
             <div class="hyp-next">
               <h4>${escapeHtml(t('ui.next_steps'))}</h4>
-              <ul>${h.next_steps.map(s => `<li>${escapeHtml(s)}</li>`).join('')}</ul>
+              <ul>${asList(h.next_steps).map(s => `<li>${escapeHtml(s)}</li>`).join('')}</ul>
             </div>
           ` : ''}
         </article>
@@ -1156,7 +1544,7 @@ function renderResearch(root, param) {
     if (!visibleCards.length && q) continue;
 
     html += `
-      <section data-section="${escapeHtml(section.id)}" id="rc-section-${escapeHtml(section.id)}" style="margin:2.2em 0;${jumpToSection === section.id ? 'background:#fdf6e3;padding:1em;border-radius:6px;border:2px solid #b08a3a;' : ''}">
+      <section data-section="${escapeHtml(section.id)}" id="rc-section-${escapeHtml(section.id)}" style="margin:2.2em 0;${jumpToSection === section.id ? 'background:var(--accent-wash);padding:1em;border-radius:6px;border:2px solid var(--accent);' : ''}">
         <h2 class="section-title" style="font-size:1.4rem;margin-bottom:0.3em;">${escapeHtml(title)}</h2>
         ${intro ? `<p style="font-family:var(--font-serif);color:var(--ink-soft);line-height:1.6;max-width:800px;margin-bottom:1em;">${escapeHtml(intro)}</p>` : ''}
         <div class="rc-cards">

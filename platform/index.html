@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr" data-theme="parchment">
+<html lang="en" dir="ltr">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,12 +10,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600;700&family=Heebo:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="assets/css/style.css?v=20260601-t45" />
+<link rel="stylesheet" href="assets/css/style.css?v=20260730-t57" />
 <link rel="icon" type="image/png" sizes="192x192" href="assets/img/icon-192.png" />
 <link rel="icon" type="image/png" sizes="512x512" href="assets/img/icon-512.png" />
 <link rel="apple-touch-icon" sizes="192x192" href="assets/img/icon-192.png" />
 <link rel="manifest" href="manifest.webmanifest" />
-<meta name="theme-color" content="#6b1f1f" />
+<meta name="theme-color" content="#0038B8" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-title" content="Rapaport" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -46,16 +46,36 @@
   <div id="nav-backdrop" class="nav-backdrop" hidden></div>
   <nav class="primary-nav" aria-label="Primary">
     <div class="nav-inner">
-      <a href="#/home" data-link data-nav="home" data-i18n="nav.home">Home</a>
-      <a href="#/tree" data-link data-nav="tree" data-i18n="nav.tree">Family Tree</a>
-      <a href="#/timeline" data-link data-nav="timeline" data-i18n="nav.timeline">Timeline</a>
-      <a href="#/people" data-link data-nav="people" data-i18n="nav.people">People</a>
-      <a href="#/places" data-link data-nav="places" data-i18n="nav.places">Places</a>
-      <a href="#/documents" data-link data-nav="documents" data-i18n="nav.documents">Documents</a>
-      <a href="#/hypotheses" data-link data-nav="hypotheses" data-i18n="nav.hypotheses">Open Questions</a>
-      <a href="#/chat" data-link data-nav="chat" data-i18n="nav.chat">Research Chat</a>
-      <a href="#/research" data-link data-nav="research" data-i18n="nav.research">Research Center</a>
-      <a href="#/about" data-link data-nav="about" data-i18n="nav.about">About</a>
+      <a class="nav-single" href="#/home" data-link data-nav="home" data-i18n="nav.home">Home</a>
+
+      <div class="nav-group">
+        <span class="nav-group-label" data-i18n="nav.group_family">The family</span>
+        <a href="#/tree" data-link data-nav="tree" data-i18n="nav.tree">Family Tree</a>
+        <a href="#/people" data-link data-nav="people" data-i18n="nav.people">People</a>
+        <a href="#/ancestry" data-link data-nav="ancestry" data-i18n="nav.ancestry">Ancestry</a>
+      </div>
+
+      <div class="nav-group">
+        <span class="nav-group-label" data-i18n="nav.group_story">Their story</span>
+        <a href="#/timeline" data-link data-nav="timeline" data-i18n="nav.timeline">Timeline</a>
+        <a href="#/memoir" data-link data-nav="memoir" data-i18n="nav.memoir">Memoir</a>
+        <a href="#/places" data-link data-nav="places" data-i18n="nav.places">Places</a>
+        <a href="#/research/virtual_trip" data-link data-nav="virtual_trip" data-i18n="nav.virtual_trip">Virtual Trip</a>
+      </div>
+
+      <div class="nav-group">
+        <span class="nav-group-label" data-i18n="nav.group_evidence">The evidence</span>
+        <a href="#/documents" data-link data-nav="documents" data-i18n="nav.documents">Documents</a>
+        <a href="#/research" data-link data-nav="research" data-i18n="nav.research">Research Center</a>
+      </div>
+
+      <div class="nav-group">
+        <span class="nav-group-label" data-i18n="nav.group_open">Still open</span>
+        <a href="#/hypotheses" data-link data-nav="hypotheses" data-i18n="nav.hypotheses">Open Questions</a>
+        <a href="#/chat" data-link data-nav="chat" data-i18n="nav.chat">Research Chat</a>
+      </div>
+
+      <a class="nav-single" href="#/about" data-link data-nav="about" data-i18n="nav.about">About</a>
     </div>
   </nav>
 </header>
@@ -65,7 +85,8 @@
 <footer class="site-footer">
   <div class="footer-inner">
     <div data-i18n="site.for_dov">For Dov Bernard Rapaport on his 80th birthday · August 2026</div>
-    <div class="muted" data-i18n="site.by_doron">Compiled by Doron Rapaport with Magda, Basia, Kasia & Ms. Kasia (ŻIH)</div>
+    <div class="credit" data-i18n="site.by_doron">Compiled with love by Dalia, Dana, Daniel and Doron Rapaport</div>
+    <div class="muted" data-i18n="site.with_help">with Magda, Basia, Kasia and Ms. Kasia (ŻIH Warsaw)</div>
   </div>
 </footer>
 
@@ -81,6 +102,6 @@
      The ?v= query string MUST be bumped every deploy — it's the only thing that
      forces browsers to re-fetch auth-gate.js (everything downstream is already
      cache-busted by auth-gate's own BUILD constant). -->
-<script src="assets/js/auth-gate.js?v=20260601-t45"></script>
+<script src="assets/js/auth-gate.js?v=20260730-t57"></script>
 </body>
 </html>

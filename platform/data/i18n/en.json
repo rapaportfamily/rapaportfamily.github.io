@@ -9,7 +9,8 @@
     "title": "The Rapaport Family — A Research Archive",
     "subtitle": "From Galicia to Brussels to Israel · 1888 — 2026",
     "for_dov": "For Dov Rapaport on his 80th birthday · August 2026",
-    "by_doron": "Compiled by Dalia, Dana, Daniel and Doron Rapaport — with great help from Magda, Basia and Kasia"
+    "by_doron": "Compiled with love by Dalia, Dana, Daniel and Doron Rapaport",
+    "with_help": "with Magda, Basia, Kasia and Ms. Kasia (ŻIH Warsaw)"
   },
   "nav": {
     "home": "Home",
@@ -22,10 +23,14 @@
     "chat": "Research Chat",
     "research": "Research Center",
     "ancestry": "Ancestry",
-    "virtual_trip": "🚶 Virtual Trip",
-    "memoir": "📖 Memoir",
+    "virtual_trip": "Virtual Trip",
+    "memoir": "Memoir",
     "about": "About",
-    "address_today": "Address today"
+    "address_today": "Address today",
+    "group_family": "The family",
+    "group_story": "Their story",
+    "group_evidence": "The evidence",
+    "group_open": "Still open"
   },
   "ui": {
     "language": "Language",
@@ -144,7 +149,21 @@
     "legend_grandparent": "Grandparent generation",
     "legend_greatgrandparent": "Great-grandparent generation",
     "legend_uncle": "Uncle / sibling generation",
-    "legend_descendant": "Descendant generation"
+    "legend_descendant": "Descendant generation",
+    "generation": "Generation",
+    "section_main": "The documented family",
+    "group_dynasty": "The Rapaport-Kohen dynasty",
+    "group_rabbinic": "Rabbinical lines",
+    "group_living": "Living relatives",
+    "group_righteous": "Those who helped them survive",
+    "group_extended": "Extended relatives",
+    "unlinked_note": "Documented people whose exact link to our branch is not yet established — shown, never invented.",
+    "legend_survivor": "Holocaust survivor",
+    "zoom_in": "Zoom in",
+    "zoom_out": "Zoom out",
+    "fit": "Fit to screen",
+    "pan_hint": "Drag to move · scroll to zoom · click a person for details",
+    "centre_subject": "Centre on Dov"
   },
   "timeline": {
     "title": "Timeline",
@@ -162,7 +181,8 @@
     "tab_notes": "Research notes",
     "side_original": "Original",
     "side_translation": "Translation",
-    "no_translation_yet": "Translation in progress."
+    "no_translation_yet": "Translation in progress.",
+    "file_pending": "Scan not yet filed — this record was catalogued from the research chat"
   },
   "hypotheses": {
     "title": "Open Questions",

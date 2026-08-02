@@ -9,7 +9,8 @@
     "title": "משפחת רפפורט — ארכיון מחקר",
     "subtitle": "מגליציה לבריסל לישראל · 1888 — 2026",
     "for_dov": "לדב רפפורט ביום הולדתו ה־80 · אוגוסט 2026",
-    "by_doron": "נערך בידי דליה, דנה, דניאל ודורון רפפורט — בעזרתם הרבה של מגדה, באסיה וקאשיה"
+    "by_doron": "נאסף באהבה בידי דליה, דנה, דניאל ודורון רפפורט",
+    "with_help": "בסיועם של מגדה, בסיה, קסיה וגב׳ קסיה (ŻIH ורשה)"
   },
   "nav": {
     "home": "ראשי",
@@ -21,11 +22,15 @@
     "hypotheses": "שאלות פתוחות",
     "chat": "צ׳אט המחקר",
     "research": "מרכז המחקר",
-    "ancestry": "אילן יוחסין",
-    "virtual_trip": "🚶 מסע וירטואלי",
-    "memoir": "📖 יומן",
+    "ancestry": "מוצא ושושלת",
+    "virtual_trip": "מסע וירטואלי",
+    "memoir": "יומן",
     "about": "אודות",
-    "address_today": "הכתובת היום"
+    "address_today": "הכתובת היום",
+    "group_family": "המשפחה",
+    "group_story": "הסיפור שלהם",
+    "group_evidence": "הראיות",
+    "group_open": "עדיין פתוח"
   },
   "ui": {
     "language": "שפה",
@@ -144,7 +149,21 @@
     "legend_grandparent": "דור הסבים",
     "legend_greatgrandparent": "דור הסבים־רבא",
     "legend_uncle": "דור הדודים והאחים",
-    "legend_descendant": "דור הצאצאים"
+    "legend_descendant": "דור הצאצאים",
+    "generation": "דור",
+    "section_main": "המשפחה המתועדת",
+    "group_dynasty": "שושלת רפפורט־הכהן",
+    "group_rabbinic": "שושלות רבניות",
+    "group_living": "קרובים בחיים",
+    "group_righteous": "מי שעזרו להם לשרוד",
+    "group_extended": "קרובים רחוקים",
+    "unlinked_note": "אנשים מתועדים שהחיבור המדויק שלהם לענף שלנו עוד לא הוכח — מוצגים, לא מומצאים.",
+    "legend_survivor": "ניצול/ת שואה",
+    "zoom_in": "התקרבות",
+    "zoom_out": "התרחקות",
+    "fit": "התאמה למסך",
+    "pan_hint": "גררו להזזה · גלגלו לזום · הקליקו על אדם לפרטים",
+    "centre_subject": "מרכוז על דב"
   },
   "timeline": {
     "title": "ציר הזמן",
@@ -162,7 +181,8 @@
     "tab_notes": "הערות מחקר",
     "side_original": "מקור",
     "side_translation": "תרגום",
-    "no_translation_yet": "התרגום בעבודה."
+    "no_translation_yet": "התרגום בעבודה.",
+    "file_pending": "הסריקה טרם הועלתה — הרשומה תועדה מתוך צ׳אט המחקר"
   },
   "hypotheses": {
     "title": "שאלות פתוחות",

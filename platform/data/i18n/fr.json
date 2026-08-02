@@ -9,7 +9,8 @@
     "title": "La famille Rapaport — Archives de recherche",
     "subtitle": "De la Galicie à Bruxelles à Israël · 1888 — 2026",
     "for_dov": "Pour Dov Rapaport, à l'occasion de ses 80 ans · août 2026",
-    "by_doron": "Compilé par Dalia, Dana, Daniel et Doron Rapaport — avec la grande aide de Magda, Basia et Kasia"
+    "by_doron": "Rassemblé avec amour par Dalia, Dana, Daniel et Doron Rapaport",
+    "with_help": "avec Magda, Basia, Kasia et Mme Kasia (ŻIH Varsovie)"
   },
   "nav": {
     "home": "Accueil",
@@ -22,10 +23,14 @@
     "chat": "Chat de recherche",
     "research": "Centre de recherche",
     "ancestry": "Ascendance",
-    "virtual_trip": "🚶 Voyage virtuel",
-    "memoir": "📖 Mémoires",
+    "virtual_trip": "Voyage virtuel",
+    "memoir": "Mémoires",
     "about": "À propos",
-    "address_today": "Adresse aujourd'hui"
+    "address_today": "Adresse aujourd'hui",
+    "group_family": "La famille",
+    "group_story": "Leur histoire",
+    "group_evidence": "Les preuves",
+    "group_open": "Encore ouvert"
   },
   "ui": {
     "language": "Langue",
@@ -144,7 +149,21 @@
     "legend_grandparent": "Génération des grands-parents",
     "legend_greatgrandparent": "Génération des arrière-grands-parents",
     "legend_uncle": "Génération des oncles / fratrie",
-    "legend_descendant": "Génération des descendants"
+    "legend_descendant": "Génération des descendants",
+    "generation": "Génération",
+    "section_main": "La famille documentée",
+    "group_dynasty": "La dynastie Rapaport-Kohen",
+    "group_rabbinic": "Lignées rabbiniques",
+    "group_living": "Parents vivants",
+    "group_righteous": "Ceux qui les ont aidés à survivre",
+    "group_extended": "Parents éloignés",
+    "unlinked_note": "Personnes documentées dont le lien exact avec notre branche n'est pas encore établi — montrées, jamais inventées.",
+    "legend_survivor": "Survivant de la Shoah",
+    "zoom_in": "Zoom avant",
+    "zoom_out": "Zoom arrière",
+    "fit": "Ajuster à l'écran",
+    "pan_hint": "Faites glisser pour déplacer · molette pour zoomer · cliquez sur une personne",
+    "centre_subject": "Centrer sur Dov"
   },
   "timeline": {
     "title": "Chronologie",
@@ -162,7 +181,8 @@
     "tab_notes": "Notes de recherche",
     "side_original": "Original",
     "side_translation": "Traduction",
-    "no_translation_yet": "Traduction en cours."
+    "no_translation_yet": "Traduction en cours.",
+    "file_pending": "Scan pas encore déposé — fiche cataloguée depuis le chat de recherche"
   },
   "hypotheses": {
     "title": "Questions ouvertes",

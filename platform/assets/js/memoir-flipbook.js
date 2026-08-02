@@ -5,7 +5,7 @@
 // PDF.js (Mozilla, Apache 2.0) loaded lazily from CDN on first visit.
 
 export async function renderMemoir(root) {
-  root.innerHTML = `<div class="page-pad"><h1 style="font-family:Georgia,serif;color:#6b1f1f;">📖 Loading memoir…</h1></div>`;
+  root.innerHTML = `<div class="page-pad"><h1 style="font-family:Georgia,serif;color:var(--accent);">📖 Loading memoir…</h1></div>`;
 
   // Load PDF.js v3 (UMD build — works as a regular <script> tag, no module gymnastics)
   if (!window.pdfjsLib) {
@@ -55,22 +55,22 @@ export async function renderMemoir(root) {
   root.innerHTML = `
     <div class="page-pad" style="max-width:1200px;margin:0 auto;">
       <header style="text-align:center;margin-bottom:1.2rem;">
-        <h1 style="font-family:Georgia,serif;color:#6b1f1f;margin:0 0 0.3rem;">📖 ${escapeHtml(meta.title_he || "סיפורה של לוסיה")}</h1>
-        <div style="font-size:0.95rem;color:#6b5440;font-style:italic;">${escapeHtml(meta.title_en || "The Story of Lusia")} · ${escapeHtml(meta.title_pl || "Historia Lusi")}</div>
-        <div style="font-size:0.85rem;color:#6b5440;margin-top:0.4rem;">By ${escapeHtml(meta.author || "Leah (Lusia) Rapaport née Weitzner")} · loaded from the original scanned PDF</div>
+        <h1 style="font-family:Georgia,serif;color:var(--accent);margin:0 0 0.3rem;">📖 ${escapeHtml(meta.title_he || "סיפורה של לוסיה")}</h1>
+        <div style="font-size:0.95rem;color:var(--muted);font-style:italic;">${escapeHtml(meta.title_en || "The Story of Lusia")} · ${escapeHtml(meta.title_pl || "Historia Lusi")}</div>
+        <div style="font-size:0.85rem;color:var(--muted);margin-top:0.4rem;">By ${escapeHtml(meta.author || "Leah (Lusia) Rapaport née Weitzner")} · loaded from the original scanned PDF</div>
       </header>
       <div id="m-controls" style="display:flex;justify-content:center;gap:0.6rem;margin-bottom:1rem;align-items:center;flex-wrap:wrap;">
-        <button id="m-first" style="background:transparent;border:1.5px solid #6b1f1f;color:#6b1f1f;padding:0.35rem 0.55rem;border-radius:4px;cursor:pointer;font-size:0.85rem;">⏮</button>
-        <button id="m-prev" style="background:#6b1f1f;color:#f8f3e8;border:none;padding:0.5rem 0.9rem;border-radius:4px;cursor:pointer;font-weight:600;">←</button>
-        <span id="m-pageinfo" style="font-family:Inter,sans-serif;color:#6b5440;min-width:60px;text-align:center;font-size:0.95rem;">…</span>
-        <button id="m-next" style="background:#6b1f1f;color:#f8f3e8;border:none;padding:0.5rem 0.9rem;border-radius:4px;cursor:pointer;font-weight:600;">→</button>
-        <button id="m-last" style="background:transparent;border:1.5px solid #6b1f1f;color:#6b1f1f;padding:0.35rem 0.55rem;border-radius:4px;cursor:pointer;font-size:0.85rem;">⏭</button>
-        <select id="m-lang" style="padding:0.45rem;border:1px solid #cdb892;border-radius:4px;background:#fff;max-width:180px;">
+        <button id="m-first" style="background:transparent;border:1.5px solid var(--accent);color:var(--accent);padding:0.35rem 0.55rem;border-radius:4px;cursor:pointer;font-size:0.85rem;">⏮</button>
+        <button id="m-prev" style="background:var(--accent);color:var(--paper-soft);border:none;padding:0.5rem 0.9rem;border-radius:4px;cursor:pointer;font-weight:600;">←</button>
+        <span id="m-pageinfo" style="font-family:Inter,sans-serif;color:var(--muted);min-width:60px;text-align:center;font-size:0.95rem;">…</span>
+        <button id="m-next" style="background:var(--accent);color:var(--paper-soft);border:none;padding:0.5rem 0.9rem;border-radius:4px;cursor:pointer;font-weight:600;">→</button>
+        <button id="m-last" style="background:transparent;border:1.5px solid var(--accent);color:var(--accent);padding:0.35rem 0.55rem;border-radius:4px;cursor:pointer;font-size:0.85rem;">⏭</button>
+        <select id="m-lang" style="padding:0.45rem;border:1px solid var(--border);border-radius:4px;background:#fff;max-width:180px;">
           <option value="hebrew">עברית</option>
           <option value="english" selected>English</option>
           <option value="polish">Polski</option>
         </select>
-        <a href="${escapeHtml(pdfUrl)}" target="_blank" style="font-size:0.82rem;color:#6b1f1f;text-decoration:underline;white-space:nowrap;">📥 PDF</a>
+        <a href="${escapeHtml(pdfUrl)}" target="_blank" style="font-size:0.82rem;color:var(--accent);text-decoration:underline;white-space:nowrap;">📥 PDF</a>
       </div>
       <div id="m-stage" class="m-stage">
         <div id="m-canvas-wrap" class="m-canvas-wrap">
@@ -91,7 +91,7 @@ export async function renderMemoir(root) {
         }
         .m-canvas-wrap {
           background: #fff;
-          border: 1px solid #cdb892;
+          border: 1px solid var(--border);
           border-radius: 6px;
           padding: 0.6rem;
           box-shadow: 0 6px 22px rgba(0,0,0,0.18);
@@ -110,8 +110,8 @@ export async function renderMemoir(root) {
           transition: transform 0.4s ease, opacity 0.2s;
         }
         .m-text-wrap {
-          background: #fff7e1;
-          border: 1px solid #cdb892;
+          background: var(--warn-wash);
+          border: 1px solid var(--border);
           border-radius: 6px;
           height: 78vh;
           display: flex;
@@ -124,28 +124,28 @@ export async function renderMemoir(root) {
           padding: 1.5rem 1.5rem 1rem;
           font-family: Georgia, serif;
           line-height: 1.8;
-          color: #2b1d10;
+          color: var(--ink);
           font-size: 1.02rem;
           scrollbar-width: thin;
-          scrollbar-color: #cdb892 transparent;
+          scrollbar-color: var(--border) transparent;
         }
         .m-meta {
           flex: 0 0 auto;
           padding: 0.6rem 1rem;
-          background: #f6ecd2;
-          border-top: 1px solid #cdb892;
+          background: var(--paper-deep);
+          border-top: 1px solid var(--border);
           font-size: 0.78rem;
-          color: #6b5440;
+          color: var(--muted);
           font-family: Inter, sans-serif;
         }
         .m-content::-webkit-scrollbar { width: 8px; }
-        .m-content::-webkit-scrollbar-thumb { background: #cdb892; border-radius: 4px; }
+        .m-content::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
         .m-content::-webkit-scrollbar-track { background: transparent; }
         .m-chapter {
-          font-weight: 700; color: #6b1f1f; font-size: 1.15rem;
+          font-weight: 700; color: var(--accent); font-size: 1.15rem;
           margin-top: 1.4rem; margin-bottom: 0.3rem; display: block;
         }
-        .m-pagenum { color: #6b5440; font-size: 0.85rem; }
+        .m-pagenum { color: var(--muted); font-size: 0.85rem; }
 
         /* PHONE / NARROW SCREEN: TEXT FIRST (selected language is what the reader sees) */
         @media (max-width: 780px) {
@@ -167,10 +167,10 @@ export async function renderMemoir(root) {
           #memoir-controls {
             position: sticky !important;
             top: 0;
-            background: #f8f3e8;
+            background: var(--paper-soft);
             padding: 0.6rem 0.4rem !important;
             margin: 0 -0.5rem 0.8rem !important;
-            border-bottom: 1px solid #cdb892;
+            border-bottom: 1px solid var(--border);
             z-index: 20;
             box-shadow: 0 2px 4px rgba(0,0,0,0.05);
           }
@@ -190,7 +190,7 @@ export async function renderMemoir(root) {
           .m-canvas-wrap, .m-text-wrap { height: 70vh; }
         }
       </style>
-      <div style="margin-top:1rem;text-align:center;font-size:0.78rem;color:#6b5440;">
+      <div style="margin-top:1rem;text-align:center;font-size:0.78rem;color:var(--muted);">
         Tap the page to flip · ← → keys also work · text panel shows Hebrew OCR or AI translation
       </div>
     </div>`;
@@ -219,7 +219,7 @@ export async function renderMemoir(root) {
     pdf = await loadingTask.promise;
   } catch (e) {
     info.textContent = "PDF failed to load";
-    root.querySelector("#m-content").innerHTML = `<p style="color:#a04040;">${escapeHtml(e.message || e)}</p>`;
+    root.querySelector("#m-content").innerHTML = `<p style="color:var(--danger);">${escapeHtml(e.message || e)}</p>`;
     return;
   }
   const N = pdf.numPages;
@@ -243,10 +243,10 @@ export async function renderMemoir(root) {
     const lang = langSel.value;
     const txt = p ? (p[lang] || "") : "";
     if (!p) {
-      content.innerHTML = `<em style="color:#6b5440;">OCR still pending for this page.</em>`;
+      content.innerHTML = `<em style="color:var(--muted);">OCR still pending for this page.</em>`;
     } else if (!txt) {
       const isHe = lang === "hebrew";
-      content.innerHTML = `<em style="color:#6b5440;">${isHe ? "(no Hebrew text on this page)" : "(translation not available — Hebrew OCR was empty)"}</em>`;
+      content.innerHTML = `<em style="color:var(--muted);">${isHe ? "(no Hebrew text on this page)" : "(translation not available — Hebrew OCR was empty)"}</em>`;
     } else {
       const isHe = lang === "hebrew";
       const dir2 = isHe ? "rtl" : "ltr";

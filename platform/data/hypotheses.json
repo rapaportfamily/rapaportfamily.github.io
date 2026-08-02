@@ -606,14 +606,25 @@
       "note_2026_06_15_cc": "Tarnów death record 1933/152: Mojżesz Rapaport, d. 8 Nov 1933, ul. Folwarczna, age 75, son of Szabse + Ita Feigi. Street matches Berisz's passport (9 Folwarczna; death cert says 199, likely a clerk repeating the ordinal). A SECOND Moses Saul died 30 Oct 1931 under Dąbrowa. Basia leans toward the 1933 one being ours. If so, parents = Shabtai + Ita Feigi. Not asserted in the tree structure until corroborated.",
       "candidates": [
         {
-          "name": "Moses Saul = son of Shabtai + Ita Feigi (d. Tarnów 1933, age 75)",
-          "evidence_for": "street matches; naming custom (Moses Saul son of Moses Saul does not fit)",
-          "evidence_against": "house number mismatch (9 vs 199); Radomyśl records lost"
+          "label": "Moses Saul = son of Shabtai + Ita Feigi (d. Tarnów 1933, age 75)",
+          "evidence_for": [
+            "street matches",
+            "naming custom (Moses Saul son of Moses Saul does not fit)"
+          ],
+          "evidence_against": [
+            "house number mismatch (9 vs 199)",
+            "Radomyśl records lost"
+          ]
         },
         {
-          "name": "Moses Saul = the Dąbrowa one (d. 1931)",
-          "evidence_for": "Berisz's passport lists commune Dąbrowa Tarnowska",
-          "evidence_against": "no Tarnów death record there; date/stone older"
+          "label": "Moses Saul = the Dąbrowa one (d. 1931)",
+          "evidence_for": [
+            "Berisz's passport lists commune Dąbrowa Tarnowska"
+          ],
+          "evidence_against": [
+            "no Tarnów death record there",
+            "date/stone older"
+          ]
         }
       ],
       "next_steps": [
@@ -670,14 +681,23 @@
       "note_2026_06_15_cc": "Liège record: Markus Türkel, British-Army soldier of Tel Aviv, son of Leib Türkel + Lea Nüssenbaum, married Szewa Horowitz 15 Jun 1946. Turkel family (via Miki/Michal Lea Nativ): Mordechai 'Max' Levi-Turkel (1913-1997) married Margalit Halperin in Palestine 1947. Either two different Turkels, or the 1946 banns did not result in marriage. Markus + Szewa are buried together in Holon, which argues they did marry.",
       "candidates": [
         {
-          "name": "Different men",
-          "evidence_for": "different spouse, place, year; Holon burial of Markus+Szewa",
-          "evidence_against": "double Turkel-Horowitz tie makes confusion easy"
+          "label": "Different men",
+          "evidence_for": [
+            "different spouse, place, year",
+            "Holon burial of Markus+Szewa"
+          ],
+          "evidence_against": [
+            "double Turkel-Horowitz tie makes confusion easy"
+          ]
         },
         {
-          "name": "Same man / banns only",
-          "evidence_for": "British-Army soldier from Tel Aviv fits a returning emigrant",
-          "evidence_against": "Turkel family records a 1947 Palestine marriage to Halperin"
+          "label": "Same man / banns only",
+          "evidence_for": [
+            "British-Army soldier from Tel Aviv fits a returning emigrant"
+          ],
+          "evidence_against": [
+            "Turkel family records a 1947 Palestine marriage to Halperin"
+          ]
         }
       ],
       "next_steps": [

@@ -42,7 +42,7 @@ window.addEventListener("appinstalled", () => {
   // BUILD bumps on every deploy so browsers fetch the latest JS modules,
   // not a stale cached copy. If you don't see Research Center updates, this
   // is the line that fixes it.
-  const BUILD = "2026-06-01-t45";
+  const BUILD = "2026-07-30-t57";
   const APP_SCRIPT_SRC = `assets/js/app.js?v=${BUILD}`;
   const UPLOAD_SCRIPT_SRC = `assets/js/upload-feature.js?v=${BUILD}`;
 
@@ -93,14 +93,14 @@ window.addEventListener("appinstalled", () => {
   function renderBlock(htmlByLang) {
     document.body.innerHTML = `
 <style>
-  .gate-card { max-width: 520px; margin: 10vh auto; padding: 2.5rem; background: #f8f3e8;
-    border: 1px solid #cdb892; border-radius: 6px; box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-    font-family: Georgia, 'Crimson Pro', serif; color: #2b1d10; line-height: 1.55; }
+  .gate-card { max-width: 520px; margin: 10vh auto; padding: 2.5rem; background: var(--paper-soft);
+    border: 1px solid var(--border); border-radius: 6px; box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    font-family: Georgia, 'Crimson Pro', serif; color: var(--ink); line-height: 1.55; }
   .gate-card img { display: block; margin: 0 auto 1.2rem; width: 120px; border-radius: 4px; }
-  .gate-card h1 { font-size: 1.3rem; margin: 0 0 1rem; text-align: center; color: #6b1f1f; }
+  .gate-card h1 { font-size: 1.3rem; margin: 0 0 1rem; text-align: center; color: var(--accent); }
   .gate-card p { margin: 0.4rem 0; }
   .gate-card .he { direction: rtl; text-align: right; font-family: Heebo, sans-serif; }
-  .gate-card .muted { color: #6b5440; font-size: 0.85rem; margin-top: 1.5rem; border-top: 1px solid #cdb892; padding-top: 1rem; }
+  .gate-card .muted { color: var(--muted); font-size: 0.85rem; margin-top: 1.5rem; border-top: 1px solid var(--border); padding-top: 1rem; }
 </style>
 <div class="gate-card">
   <img src="assets/img/rapaport-coat-of-arms.jpg" alt="Rapaport coat of arms" />

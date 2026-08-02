@@ -47,7 +47,7 @@ function injectFab() {
   Object.assign(fab.style, {
     position: "fixed", bottom: "1.5rem", right: "1.5rem", zIndex: 50,
     padding: "0.85rem 1.2rem", borderRadius: "999px", border: "none",
-    background: "#6b1f1f", color: "#f8f3e8", fontWeight: "600",
+    background: "var(--accent)", color: "var(--paper-soft)", fontWeight: "600",
     fontSize: "0.95rem", boxShadow: "0 4px 14px rgba(0,0,0,0.25)",
     cursor: "pointer", fontFamily: "Inter, sans-serif",
   });
@@ -76,12 +76,12 @@ async function openUploadModal() {
     display: "flex", alignItems: "center", justifyContent: "center", padding: "1rem",
   });
   ov.innerHTML = `
-<div style="background:#f8f3e8;max-width:520px;width:100%;max-height:90vh;overflow-y:auto;padding:1.5rem;border-radius:8px;font-family:Inter,sans-serif;">
+<div style="background:var(--paper-soft);max-width:520px;width:100%;max-height:90vh;overflow-y:auto;padding:1.5rem;border-radius:8px;font-family:Inter,sans-serif;">
   <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;">
-    <h2 style="margin:0;font-family:Georgia,serif;color:#6b1f1f;">Add a finding</h2>
-    <button data-close style="background:none;border:none;font-size:1.5rem;cursor:pointer;color:#6b5440;">×</button>
+    <h2 style="margin:0;font-family:Georgia,serif;color:var(--accent);">Add a finding</h2>
+    <button data-close style="background:none;border:none;font-size:1.5rem;cursor:pointer;color:var(--muted);">×</button>
   </div>
-  <p style="font-size:0.85rem;color:#6b5440;margin:0 0 1rem;">
+  <p style="font-size:0.85rem;color:var(--muted);margin:0 0 1rem;">
     Uploading as <strong>${me.name}</strong>. Your file is processed in 3 steps:
     <span style="display:inline-block;background:#fff;padding:0.15rem 0.5rem;border-radius:3px;margin:0.1rem;">1️⃣ Sent to family archive</span>
     <span style="display:inline-block;background:#fff;padding:0.15rem 0.5rem;border-radius:3px;margin:0.1rem;">2️⃣ 🤖 Gemini auto-verifies (Google Search + AI cross-check)</span>
@@ -93,32 +93,32 @@ async function openUploadModal() {
       <input type="file" name="file" required
              accept="image/*,application/pdf,text/plain,.txt,application/zip,.zip"
              capture="environment"
-             style="width:100%;padding:0.5rem;border:1px solid #cdb892;border-radius:4px;background:#fff;" />
-      <span style="display:block;margin-top:0.35rem;font-size:0.78rem;color:#6b5440;">
+             style="width:100%;padding:0.5rem;border:1px solid var(--border);border-radius:4px;background:#fff;" />
+      <span style="display:block;margin-top:0.35rem;font-size:0.78rem;color:var(--muted);">
         📷 photo · 📄 PDF · 💬 <strong>WhatsApp chat export</strong> (.txt or .zip — share chat → "Export chat" → "Without media" or "Include media" → save the file → upload here)
       </span>
     </label>
     <label style="display:block;margin-bottom:0.8rem;">
       <span style="display:block;font-weight:600;margin-bottom:0.3rem;">What is this?</span>
       <input type="text" name="title" required placeholder="e.g. Rebeka's 1888 birth certificate"
-             style="width:100%;padding:0.55rem;border:1px solid #cdb892;border-radius:4px;background:#fff;" />
+             style="width:100%;padding:0.55rem;border:1px solid var(--border);border-radius:4px;background:#fff;" />
     </label>
     <label style="display:block;margin-bottom:0.8rem;">
       <span style="display:block;font-weight:600;margin-bottom:0.3rem;">Notes (where it came from, what it tells us)</span>
       <textarea name="notes" rows="3" placeholder="Source, date, archive reference, your interpretation…"
-                style="width:100%;padding:0.55rem;border:1px solid #cdb892;border-radius:4px;background:#fff;font-family:inherit;"></textarea>
+                style="width:100%;padding:0.55rem;border:1px solid var(--border);border-radius:4px;background:#fff;font-family:inherit;"></textarea>
     </label>
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.8rem;margin-bottom:0.8rem;">
       <label style="display:block;">
         <span style="display:block;font-weight:600;margin-bottom:0.3rem;">Related person</span>
-        <select name="person_id" style="width:100%;padding:0.55rem;border:1px solid #cdb892;border-radius:4px;background:#fff;">
+        <select name="person_id" style="width:100%;padding:0.55rem;border:1px solid var(--border);border-radius:4px;background:#fff;">
           <option value="">(none)</option>
           ${_peopleCache.map(p => `<option value="${p.id}">${nameOf(p)}</option>`).join("")}
         </select>
       </label>
       <label style="display:block;">
         <span style="display:block;font-weight:600;margin-bottom:0.3rem;">Related place</span>
-        <select name="place_id" style="width:100%;padding:0.55rem;border:1px solid #cdb892;border-radius:4px;background:#fff;">
+        <select name="place_id" style="width:100%;padding:0.55rem;border:1px solid var(--border);border-radius:4px;background:#fff;">
           <option value="">(none)</option>
           ${_placesCache.map(p => `<option value="${p.id}">${placeName(p)}</option>`).join("")}
         </select>
@@ -126,16 +126,16 @@ async function openUploadModal() {
     </div>
     <label style="display:block;margin-bottom:1rem;">
       <span style="display:block;font-weight:600;margin-bottom:0.3rem;">Related open question</span>
-      <select name="hypothesis_id" style="width:100%;padding:0.55rem;border:1px solid #cdb892;border-radius:4px;background:#fff;">
+      <select name="hypothesis_id" style="width:100%;padding:0.55rem;border:1px solid var(--border);border-radius:4px;background:#fff;">
         <option value="">(none)</option>
         ${_hypCache.map(h => `<option value="${h.id}">${h.question?.en || h.id}</option>`).join("")}
       </select>
     </label>
     <button type="submit" id="rft-upload-submit"
-            style="width:100%;padding:0.85rem;background:#6b1f1f;color:#f8f3e8;border:none;border-radius:4px;font-weight:600;font-size:1rem;cursor:pointer;">
+            style="width:100%;padding:0.85rem;background:var(--accent);color:var(--paper-soft);border:none;border-radius:4px;font-weight:600;font-size:1rem;cursor:pointer;">
       Send to Doron
     </button>
-    <div id="rft-upload-status" style="margin-top:0.8rem;text-align:center;color:#6b5440;font-size:0.9rem;"></div>
+    <div id="rft-upload-status" style="margin-top:0.8rem;text-align:center;color:var(--muted);font-size:0.9rem;"></div>
   </form>
 </div>`;
   document.body.appendChild(ov);
@@ -189,7 +189,7 @@ async function openUploadModal() {
       });
 
       status.innerHTML = '✓ Sent! 🤖 Gemini is now verifying — check the <strong>Documents</strong> view in ~30 seconds.';
-      btn.style.background = "#3a6b3a";
+      btn.style.background = "var(--ok)";
       setTimeout(() => ov.remove(), 2500);
     } catch (err) {
       console.error(err);
@@ -226,13 +226,13 @@ async function maybeAugmentDocumentsView() {
 
   const section = document.createElement("section");
   section.id = "rft-uploads-section";
-  section.style.cssText = "margin-top:3rem;padding-top:1.5rem;border-top:2px solid #cdb892;";
+  section.style.cssText = "margin-top:3rem;padding-top:1.5rem;border-top:2px solid var(--border);";
   section.innerHTML = `
-    <h2 style="font-family:Georgia,serif;color:#6b1f1f;margin:0 0 0.3rem;">📁 Family circle uploads <span style="font-size:0.7rem;color:#3a6b3a;font-weight:normal;font-family:Inter,sans-serif;">● live</span></h2>
-    <p style="color:#6b5440;font-size:0.9rem;margin:0 0 1rem;">
+    <h2 style="font-family:Georgia,serif;color:var(--accent);margin:0 0 0.3rem;">📁 Family circle uploads <span style="font-size:0.7rem;color:var(--ok);font-weight:normal;font-family:Inter,sans-serif;">● live</span></h2>
+    <p style="color:var(--muted);font-size:0.9rem;margin:0 0 1rem;">
       Documents and findings submitted by the research circle. Each is auto-verified by Gemini against the family story. <strong>Updates live</strong> — no refresh needed.
     </p>
-    <div id="rft-uploads-list"><em style="color:#6b5440;">Loading…</em></div>`;
+    <div id="rft-uploads-list"><em style="color:var(--muted);">Loading…</em></div>`;
   root.appendChild(section);
 
   attachUploadsListener(section.querySelector("#rft-uploads-list"));
@@ -243,44 +243,44 @@ function attachUploadsListener(listEl) {
   const q = query(collection(db, "family_uploads"), orderBy("created_at", "desc"));
   _uploadsUnsubscribe = onSnapshot(q,
     (snap) => renderUploadsSnapshot(listEl, snap),
-    (err) => { listEl.innerHTML = `<p style="color:#a04040;">Couldn't load uploads: ${escapeHtml(err.message || err)}</p>`; }
+    (err) => { listEl.innerHTML = `<p style="color:var(--danger);">Couldn't load uploads: ${escapeHtml(err.message || err)}</p>`; }
   );
 }
 
 function renderUploadsSnapshot(listEl, snap) {
   if (!listEl || !listEl.isConnected) { detachUploadsListener(); return; }
   if (snap.empty) {
-    listEl.innerHTML = `<p style="color:#6b5440;font-style:italic;">No uploads yet. Tap the 📷 Add finding button to be the first.</p>`;
+    listEl.innerHTML = `<p style="color:var(--muted);font-style:italic;">No uploads yet. Tap the 📷 Add finding button to be the first.</p>`;
     return;
   }
   listEl.innerHTML = "";
   snap.forEach(docSnap => {
       const d = docSnap.data();
       const card = document.createElement("article");
-      card.style.cssText = "background:#fff;border:1px solid #cdb892;border-radius:6px;padding:1rem;margin-bottom:1rem;display:grid;grid-template-columns:140px 1fr;gap:1rem;";
+      card.style.cssText = "background:#fff;border:1px solid var(--border);border-radius:6px;padding:1rem;margin-bottom:1rem;display:grid;grid-template-columns:140px 1fr;gap:1rem;";
       const isImage = (d.file_type || "").startsWith("image/");
       const person = _peopleCache.find(p => p.id === d.person_id);
       const place = _placesCache.find(p => p.id === d.place_id);
       const hyp = _hypCache.find(h => h.id === d.hypothesis_id);
       const statusBadge = {
-        pending:  '<span style="background:#fff7e1;color:#8a6d20;padding:0.15rem 0.45rem;border-radius:3px;font-size:0.72rem;font-weight:600;">PENDING REVIEW</span>',
-        approved: '<span style="background:#e2efe2;color:#2d5a2d;padding:0.15rem 0.45rem;border-radius:3px;font-size:0.72rem;font-weight:600;">APPROVED</span>',
-        rejected: '<span style="background:#fde0e0;color:#a04040;padding:0.15rem 0.45rem;border-radius:3px;font-size:0.72rem;font-weight:600;">REJECTED</span>',
+        pending:  '<span style="background:var(--warn-wash);color:var(--warn);padding:0.15rem 0.45rem;border-radius:3px;font-size:0.72rem;font-weight:600;">PENDING REVIEW</span>',
+        approved: '<span style="background:var(--ok-wash);color:var(--ok);padding:0.15rem 0.45rem;border-radius:3px;font-size:0.72rem;font-weight:600;">APPROVED</span>',
+        rejected: '<span style="background:var(--danger-wash);color:var(--danger);padding:0.15rem 0.45rem;border-radius:3px;font-size:0.72rem;font-weight:600;">REJECTED</span>',
       }[d.status] || '';
       card.innerHTML = `
         <div>
           ${isImage
-            ? `<a href="${d.file_url}" target="_blank"><img src="${d.file_url}" style="width:140px;height:140px;object-fit:cover;border-radius:4px;border:1px solid #cdb892;" /></a>`
-            : `<a href="${d.file_url}" target="_blank" style="display:flex;align-items:center;justify-content:center;width:140px;height:140px;background:#f0e4cf;border-radius:4px;border:1px solid #cdb892;text-align:center;padding:0.5rem;font-size:0.75rem;line-height:1.3;color:#6b1f1f;text-decoration:none;">📄<br>${escapeHtml(d.file_name || 'file')}</a>`}
+            ? `<a href="${d.file_url}" target="_blank"><img src="${d.file_url}" style="width:140px;height:140px;object-fit:cover;border-radius:4px;border:1px solid var(--border);" /></a>`
+            : `<a href="${d.file_url}" target="_blank" style="display:flex;align-items:center;justify-content:center;width:140px;height:140px;background:var(--paper-deep);border-radius:4px;border:1px solid var(--border);text-align:center;padding:0.5rem;font-size:0.75rem;line-height:1.3;color:var(--accent);text-decoration:none;">📄<br>${escapeHtml(d.file_name || 'file')}</a>`}
         </div>
         <div>
           <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:0.5rem;margin-bottom:0.3rem;">
-            <div style="font-weight:700;color:#2b1d10;font-family:Georgia,serif;font-size:1.05rem;">${escapeHtml(d.title || '(untitled)')}</div>
+            <div style="font-weight:700;color:var(--ink);font-family:Georgia,serif;font-size:1.05rem;">${escapeHtml(d.title || '(untitled)')}</div>
             ${statusBadge}
           </div>
-          <div style="font-size:0.82rem;color:#6b5440;margin-bottom:0.3rem;">From <strong>${escapeHtml(d.uploader_name || 'unknown')}</strong>${d.created_at?.toDate ? ' · ' + d.created_at.toDate().toLocaleString() : ''}</div>
-          ${d.notes ? `<div style="margin:0.5rem 0;color:#2b1d10;font-style:italic;">"${escapeHtml(d.notes)}"</div>` : ''}
-          <div style="font-size:0.8rem;color:#6b5440;margin-bottom:0.6rem;">
+          <div style="font-size:0.82rem;color:var(--muted);margin-bottom:0.3rem;">From <strong>${escapeHtml(d.uploader_name || 'unknown')}</strong>${d.created_at?.toDate ? ' · ' + d.created_at.toDate().toLocaleString() : ''}</div>
+          ${d.notes ? `<div style="margin:0.5rem 0;color:var(--ink);font-style:italic;">"${escapeHtml(d.notes)}"</div>` : ''}
+          <div style="font-size:0.8rem;color:var(--muted);margin-bottom:0.6rem;">
             ${person ? `Person: <strong>${nameOf(person)}</strong> · ` : ''}
             ${place ? `Place: <strong>${placeName(place)}</strong> · ` : ''}
             ${hyp ? `Q: <em>${escapeHtml(hyp.question?.en || hyp.id)}</em>` : ''}
@@ -317,7 +317,7 @@ export async function renderReview(root) {
   await ensureFirebaseAuth();
 
   root.innerHTML = `<div class="page-pad">
-    <h1 style="font-family:Georgia,serif;color:#6b1f1f;">Pending review</h1>
+    <h1 style="font-family:Georgia,serif;color:var(--accent);">Pending review</h1>
     <p class="muted">Findings uploaded by the research circle. Approve to add to the archive, reject to delete.</p>
     <div id="rft-review-list">Loading…</div>
   </div>`;
@@ -332,7 +332,7 @@ export async function renderReview(root) {
     snap.forEach((docSnap) => {
       const d = docSnap.data();
       const card = document.createElement("div");
-      card.style.cssText = "background:#fff;border:1px solid #cdb892;border-radius:6px;padding:1rem;margin-bottom:1rem;display:grid;grid-template-columns:140px 1fr;gap:1rem;";
+      card.style.cssText = "background:#fff;border:1px solid var(--border);border-radius:6px;padding:1rem;margin-bottom:1rem;display:grid;grid-template-columns:140px 1fr;gap:1rem;";
       const person = _peopleCache.find(p => p.id === d.person_id);
       const place = _placesCache.find(p => p.id === d.place_id);
       const hyp = _hypCache.find(h => h.id === d.hypothesis_id);
@@ -341,22 +341,22 @@ export async function renderReview(root) {
       card.innerHTML = `
         <div>
           ${isImage
-            ? `<a href="${d.file_url}" target="_blank"><img src="${d.file_url}" style="width:140px;height:140px;object-fit:cover;border-radius:4px;border:1px solid #cdb892;" /></a>`
-            : `<a href="${d.file_url}" target="_blank" style="display:block;width:140px;height:140px;background:#f0e4cf;display:flex;align-items:center;justify-content:center;border-radius:4px;border:1px solid #cdb892;text-align:center;padding:0.5rem;">📄<br>${escapeHtml(d.file_name || 'file')}</a>`}
+            ? `<a href="${d.file_url}" target="_blank"><img src="${d.file_url}" style="width:140px;height:140px;object-fit:cover;border-radius:4px;border:1px solid var(--border);" /></a>`
+            : `<a href="${d.file_url}" target="_blank" style="display:block;width:140px;height:140px;background:var(--paper-deep);display:flex;align-items:center;justify-content:center;border-radius:4px;border:1px solid var(--border);text-align:center;padding:0.5rem;">📄<br>${escapeHtml(d.file_name || 'file')}</a>`}
         </div>
         <div>
-          <div style="font-weight:600;color:#2b1d10;margin-bottom:0.3rem;">${escapeHtml(d.title || '(untitled)')}</div>
-          <div style="font-size:0.85rem;color:#6b5440;margin-bottom:0.3rem;">From <strong>${escapeHtml(d.uploader_name)}</strong></div>
-          ${d.notes ? `<div style="margin:0.5rem 0;color:#2b1d10;">${escapeHtml(d.notes)}</div>` : ''}
-          <div style="font-size:0.8rem;color:#6b5440;margin-bottom:0.6rem;">
+          <div style="font-weight:600;color:var(--ink);margin-bottom:0.3rem;">${escapeHtml(d.title || '(untitled)')}</div>
+          <div style="font-size:0.85rem;color:var(--muted);margin-bottom:0.3rem;">From <strong>${escapeHtml(d.uploader_name)}</strong></div>
+          ${d.notes ? `<div style="margin:0.5rem 0;color:var(--ink);">${escapeHtml(d.notes)}</div>` : ''}
+          <div style="font-size:0.8rem;color:var(--muted);margin-bottom:0.6rem;">
             ${person ? `Person: <strong>${nameOf(person)}</strong> · ` : ''}
             ${place ? `Place: <strong>${placeName(place)}</strong> · ` : ''}
             ${hyp ? `Q: <em>${escapeHtml(hyp.question?.en || hyp.id)}</em>` : ''}
           </div>
           ${renderGeminiCard(d.gemini_verification, docSnap.id)}
           <div style="display:flex;gap:0.6rem;margin-top:0.7rem;">
-            <button data-approve="${docSnap.id}" style="background:#3a6b3a;color:#fff;border:none;padding:0.5rem 1rem;border-radius:4px;cursor:pointer;font-weight:600;">✓ Approve</button>
-            <button data-reject="${docSnap.id}" data-path="${d.file_path}" style="background:#a04040;color:#fff;border:none;padding:0.5rem 1rem;border-radius:4px;cursor:pointer;">✗ Reject &amp; delete</button>
+            <button data-approve="${docSnap.id}" style="background:var(--ok);color:#fff;border:none;padding:0.5rem 1rem;border-radius:4px;cursor:pointer;font-weight:600;">✓ Approve</button>
+            <button data-reject="${docSnap.id}" data-path="${d.file_path}" style="background:var(--danger);color:#fff;border:none;padding:0.5rem 1rem;border-radius:4px;cursor:pointer;">✗ Reject &amp; delete</button>
           </div>
         </div>`;
       listEl.appendChild(card);
@@ -393,7 +393,7 @@ export async function renderReview(root) {
       }
     };
   } catch (err) {
-    listEl.innerHTML = `<p style="color:#a04040;">Couldn't load queue: ${escapeHtml(err.message || err)}</p>`;
+    listEl.innerHTML = `<p style="color:var(--danger);">Couldn't load queue: ${escapeHtml(err.message || err)}</p>`;
   }
 }
 
@@ -419,63 +419,63 @@ async function renderAncestry(root) {
   let html = `<div class="page-pad" style="max-width:820px;">
     <header style="margin-bottom:2rem;text-align:center;">
       <img src="assets/img/rapaport-coat-of-arms.jpg" alt="Rapaport coat of arms" style="width:140px;height:140px;object-fit:contain;margin-bottom:1rem;" />
-      <h1 style="font-family:Georgia,serif;color:#6b1f1f;margin:0;">The Rapaport family</h1>
-      <p style="color:#6b5440;font-style:italic;margin:0.5rem 0 0;">From 15th-century Italy to our Galician branch — a thousand years of Kohanim</p>
+      <h1 style="font-family:Georgia,serif;color:var(--accent);margin:0;">The Rapaport family</h1>
+      <p style="color:var(--muted);font-style:italic;margin:0.5rem 0 0;">From 15th-century Italy to our Galician branch — a thousand years of Kohanim</p>
     </header>`;
 
   for (const s of sec) {
     const title = lookup(s, "title");
-    html += `<section style="margin-bottom:2.5rem;padding-bottom:1.5rem;border-bottom:1px solid #cdb892;">
-      <h2 style="font-family:Georgia,serif;color:#6b1f1f;margin:0 0 1rem;">${escapeHtml(title)}</h2>`;
+    html += `<section style="margin-bottom:2.5rem;padding-bottom:1.5rem;border-bottom:1px solid var(--border);">
+      <h2 style="font-family:Georgia,serif;color:var(--accent);margin:0 0 1rem;">${escapeHtml(title)}</h2>`;
 
     if (s.documented?.en) {
-      html += `<div style="background:#eef4ee;border-left:4px solid #2d5a2d;padding:0.8rem 1rem;margin-bottom:1rem;border-radius:3px;">
-        <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.08em;color:#2d5a2d;font-weight:700;margin-bottom:0.4rem;">📚 Documented</div>
-        <div style="line-height:1.7;color:#2b1d10;">${escapeHtml(s.documented.en).replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')}</div>
-        ${s.documented.source ? `<div style="font-size:0.78rem;color:#6b5440;margin-top:0.5rem;">Source: ${escapeHtml(s.documented.source)}</div>` : ""}
+      html += `<div style="background:var(--ok-wash);border-left:4px solid var(--ok);padding:0.8rem 1rem;margin-bottom:1rem;border-radius:3px;">
+        <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--ok);font-weight:700;margin-bottom:0.4rem;">📚 Documented</div>
+        <div style="line-height:1.7;color:var(--ink);">${escapeHtml(s.documented.en).replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')}</div>
+        ${s.documented.source ? `<div style="font-size:0.78rem;color:var(--muted);margin-top:0.5rem;">Source: ${escapeHtml(s.documented.source)}</div>` : ""}
       </div>`;
     }
     if (s.etymology?.en) {
-      html += `<div style="margin-bottom:1rem;line-height:1.7;color:#2b1d10;font-style:italic;">${escapeHtml(s.etymology.en)}</div>`;
+      html += `<div style="margin-bottom:1rem;line-height:1.7;color:var(--ink);font-style:italic;">${escapeHtml(s.etymology.en)}</div>`;
     }
     if (s.family_tradition?.en) {
-      html += `<div style="background:#fff7e1;border-left:4px solid #c89020;padding:0.8rem 1rem;margin-bottom:1rem;border-radius:3px;">
-        <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.08em;color:#8a6020;font-weight:700;margin-bottom:0.4rem;">🌳 Family tradition</div>
-        <div style="line-height:1.7;color:#2b1d10;">${escapeHtml(s.family_tradition.en)}</div>
+      html += `<div style="background:var(--warn-wash);border-left:4px solid var(--warn);padding:0.8rem 1rem;margin-bottom:1rem;border-radius:3px;">
+        <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--warn);font-weight:700;margin-bottom:0.4rem;">🌳 Family tradition</div>
+        <div style="line-height:1.7;color:var(--ink);">${escapeHtml(s.family_tradition.en)}</div>
       </div>`;
     }
     if (s.scholarly_view?.en) {
-      html += `<div style="background:#eef0f4;border-left:4px solid #44608a;padding:0.8rem 1rem;margin-bottom:1rem;border-radius:3px;">
-        <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.08em;color:#44608a;font-weight:700;margin-bottom:0.4rem;">🔬 Scholarly view</div>
-        <div style="line-height:1.7;color:#2b1d10;">${escapeHtml(s.scholarly_view.en)}</div>
+      html += `<div style="background:var(--paper-soft);border-left:4px solid var(--accent);padding:0.8rem 1rem;margin-bottom:1rem;border-radius:3px;">
+        <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--accent);font-weight:700;margin-bottom:0.4rem;">🔬 Scholarly view</div>
+        <div style="line-height:1.7;color:var(--ink);">${escapeHtml(s.scholarly_view.en)}</div>
       </div>`;
     }
     if (s.reconciliation?.en) {
-      html += `<div style="background:#fafafa;border-left:4px solid #6b5440;padding:0.8rem 1rem;margin-bottom:1rem;border-radius:3px;">
-        <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.08em;color:#6b5440;font-weight:700;margin-bottom:0.4rem;">⚖️ Reconciliation</div>
-        <div style="line-height:1.7;color:#2b1d10;">${escapeHtml(s.reconciliation.en)}</div>
+      html += `<div style="background:var(--paper-soft);border-left:4px solid var(--muted);padding:0.8rem 1rem;margin-bottom:1rem;border-radius:3px;">
+        <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);font-weight:700;margin-bottom:0.4rem;">⚖️ Reconciliation</div>
+        <div style="line-height:1.7;color:var(--ink);">${escapeHtml(s.reconciliation.en)}</div>
       </div>`;
     }
     if (s.portuguese_application_2019?.en) {
-      html += `<div style="background:#eef4ee;border-left:4px solid #2d5a2d;padding:0.8rem 1rem;margin-bottom:1rem;border-radius:3px;">
-        <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.08em;color:#2d5a2d;font-weight:700;margin-bottom:0.4rem;">🇵🇹 Portuguese application (2019)</div>
-        <div style="line-height:1.7;color:#2b1d10;">${escapeHtml(s.portuguese_application_2019.en)}</div>
+      html += `<div style="background:var(--ok-wash);border-left:4px solid var(--ok);padding:0.8rem 1rem;margin-bottom:1rem;border-radius:3px;">
+        <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--ok);font-weight:700;margin-bottom:0.4rem;">🇵🇹 Portuguese application (2019)</div>
+        <div style="line-height:1.7;color:var(--ink);">${escapeHtml(s.portuguese_application_2019.en)}</div>
       </div>`;
     }
     if (s.summary?.stages) {
-      html += `<ul style="line-height:1.8;color:#2b1d10;">`;
+      html += `<ul style="line-height:1.8;color:var(--ink);">`;
       for (const st of s.summary.stages) html += `<li><strong>${escapeHtml(st.period)}</strong> — ${escapeHtml(st.places)}</li>`;
       html += `</ul>`;
     } else if (s.summary?.en) {
-      html += `<div style="line-height:1.7;color:#2b1d10;margin-bottom:0.8rem;">${escapeHtml(s.summary.en)}</div>`;
+      html += `<div style="line-height:1.7;color:var(--ink);margin-bottom:0.8rem;">${escapeHtml(s.summary.en)}</div>`;
     }
     if (s.people?.length) {
       html += `<div style="display:grid;gap:0.6rem;">`;
       for (const p of s.people) {
-        html += `<div style="background:#fff;border:1px solid #cdb892;border-radius:4px;padding:0.6rem 0.9rem;">
-          <div style="font-family:Georgia,serif;font-weight:700;color:#6b1f1f;">${escapeHtml(p.name)}</div>
-          <div style="font-size:0.85rem;color:#6b5440;">${escapeHtml(p.dates || "")} · ${escapeHtml(p.place || "")}</div>
-          ${p.note ? `<div style="margin-top:0.3rem;color:#2b1d10;line-height:1.5;">${escapeHtml(p.note)}</div>` : ""}
+        html += `<div style="background:#fff;border:1px solid var(--border);border-radius:4px;padding:0.6rem 0.9rem;">
+          <div style="font-family:Georgia,serif;font-weight:700;color:var(--accent);">${escapeHtml(p.name)}</div>
+          <div style="font-size:0.85rem;color:var(--muted);">${escapeHtml(p.dates || "")} · ${escapeHtml(p.place || "")}</div>
+          ${p.note ? `<div style="margin-top:0.3rem;color:var(--ink);line-height:1.5;">${escapeHtml(p.note)}</div>` : ""}
         </div>`;
       }
       html += `</div>`;
@@ -489,27 +489,27 @@ async function renderAncestry(root) {
 
 function renderGeminiCard(gv, uploadId) {
   const retryBtn = uploadId && isAdmin()
-    ? `<button data-action="retry-verify" data-upload-id="${escapeHtml(uploadId)}" style="margin-left:0.5em;background:#6b1f1f;color:#fff;border:none;padding:0.2rem 0.55rem;border-radius:3px;font-size:0.75rem;cursor:pointer;">🔄 Retry with Claude fallback</button>`
+    ? `<button data-action="retry-verify" data-upload-id="${escapeHtml(uploadId)}" style="margin-left:0.5em;background:var(--accent);color:#fff;border:none;padding:0.2rem 0.55rem;border-radius:3px;font-size:0.75rem;cursor:pointer;">🔄 Retry with Claude fallback</button>`
     : '';
-  if (!gv) return `<div style="background:#fff7e1;border:1px solid #d8c280;border-radius:4px;padding:0.55rem 0.7rem;font-size:0.82rem;color:#6b5440;">🤖 Gemini verification: <em>not yet started</em></div>`;
-  if (gv.status === "in_progress") return `<div style="background:#fff7e1;border:1px solid #d8c280;border-radius:4px;padding:0.55rem 0.7rem;font-size:0.82rem;color:#6b5440;">🤖 Gemini is verifying… (usually 10-30 seconds)</div>`;
-  if (gv.status === "error") return `<div style="background:#fde0e0;border:1px solid #a04040;border-radius:4px;padding:0.55rem 0.7rem;font-size:0.82rem;color:#6b1f1f;">🤖 Gemini error: ${escapeHtml(gv.error || 'unknown')}${retryBtn}</div>`;
-  if (gv.status === "parse_error") return `<div style="background:#fde0e0;border:1px solid #a04040;border-radius:4px;padding:0.55rem 0.7rem;font-size:0.82rem;color:#6b1f1f;">🤖 Gemini returned malformed JSON.${retryBtn} <details><summary>raw</summary><pre style="white-space:pre-wrap;font-size:0.75rem;">${escapeHtml(gv.raw_text || '')}</pre></details></div>`;
+  if (!gv) return `<div style="background:var(--warn-wash);border:1px solid var(--warn);border-radius:4px;padding:0.55rem 0.7rem;font-size:0.82rem;color:var(--muted);">🤖 Gemini verification: <em>not yet started</em></div>`;
+  if (gv.status === "in_progress") return `<div style="background:var(--warn-wash);border:1px solid var(--warn);border-radius:4px;padding:0.55rem 0.7rem;font-size:0.82rem;color:var(--muted);">🤖 Gemini is verifying… (usually 10-30 seconds)</div>`;
+  if (gv.status === "error") return `<div style="background:var(--danger-wash);border:1px solid var(--danger);border-radius:4px;padding:0.55rem 0.7rem;font-size:0.82rem;color:var(--accent);">🤖 Gemini error: ${escapeHtml(gv.error || 'unknown')}${retryBtn}</div>`;
+  if (gv.status === "parse_error") return `<div style="background:var(--danger-wash);border:1px solid var(--danger);border-radius:4px;padding:0.55rem 0.7rem;font-size:0.82rem;color:var(--accent);">🤖 Gemini returned malformed JSON.${retryBtn} <details><summary>raw</summary><pre style="white-space:pre-wrap;font-size:0.75rem;">${escapeHtml(gv.raw_text || '')}</pre></details></div>`;
   const r = gv.result || {};
-  const fmtList = (arr, render) => (arr && arr.length) ? `<ul style="margin:0.2rem 0 0.4rem 1rem;padding:0;">${arr.map(render).join("")}</ul>` : `<div style="color:#999;font-style:italic;font-size:0.8rem;">(none)</div>`;
+  const fmtList = (arr, render) => (arr && arr.length) ? `<ul style="margin:0.2rem 0 0.4rem 1rem;padding:0;">${arr.map(render).join("")}</ul>` : `<div style="color:var(--muted);font-style:italic;font-size:0.8rem;">(none)</div>`;
   return `
-<div style="background:#eef4ee;border:1px solid #8aab8a;border-radius:6px;padding:0.7rem 0.85rem;font-size:0.85rem;line-height:1.5;color:#1a3a1a;">
-  <div style="font-weight:700;margin-bottom:0.3rem;color:#2d5a2d;">🤖 Gemini says</div>
+<div style="background:var(--ok-wash);border:1px solid var(--ok);border-radius:6px;padding:0.7rem 0.85rem;font-size:0.85rem;line-height:1.5;color:var(--ok);">
+  <div style="font-weight:700;margin-bottom:0.3rem;color:var(--ok);">🤖 Gemini says</div>
   <div style="margin-bottom:0.5rem;font-style:italic;">${escapeHtml(r.what_it_is || '')}</div>
 
   <div style="display:grid;grid-template-columns:1fr;gap:0.4rem;">
-    <div><strong style="color:#2d5a2d;">✓ Confirms:</strong>${fmtList(r.confirms, c => `<li>${escapeHtml(c.fact || '')} ${c.id_ref ? `<span style='color:#6b5440;'>(${escapeHtml(c.id_ref)})</span>` : ''}</li>`)}</div>
-    <div><strong style="color:#a04040;">✗ Contradicts:</strong>${fmtList(r.contradicts, c => `<li>${escapeHtml(c.fact || '')} ${c.id_ref ? `<span style='color:#6b5440;'>(${escapeHtml(c.id_ref)})</span>` : ''}${c.evidence ? `<br><small>evidence: ${escapeHtml(c.evidence)}</small>` : ''}</li>`)}</div>
-    <div><strong style="color:#2b1d10;">+ Adds:</strong>${fmtList(r.adds, a => `<li>${escapeHtml(a.claim || '')} <span style='color:#6b5440;'>[${escapeHtml(a.confidence || '')}]</span></li>`)}</div>
+    <div><strong style="color:var(--ok);">✓ Confirms:</strong>${fmtList(r.confirms, c => `<li>${escapeHtml(c.fact || '')} ${c.id_ref ? `<span style='color:var(--muted);'>(${escapeHtml(c.id_ref)})</span>` : ''}</li>`)}</div>
+    <div><strong style="color:var(--danger);">✗ Contradicts:</strong>${fmtList(r.contradicts, c => `<li>${escapeHtml(c.fact || '')} ${c.id_ref ? `<span style='color:var(--muted);'>(${escapeHtml(c.id_ref)})</span>` : ''}${c.evidence ? `<br><small>evidence: ${escapeHtml(c.evidence)}</small>` : ''}</li>`)}</div>
+    <div><strong style="color:var(--ink);">+ Adds:</strong>${fmtList(r.adds, a => `<li>${escapeHtml(a.claim || '')} <span style='color:var(--muted);'>[${escapeHtml(a.confidence || '')}]</span></li>`)}</div>
     ${r.external_searches?.length ? `<div><strong>🌐 External sources:</strong>${fmtList(r.external_searches, s => `<li><a href="${escapeHtml(s.url || '#')}" target="_blank">${escapeHtml(s.url || '')}</a><br><small>"${escapeHtml(s.quote || '')}"</small></li>`)}</div>` : ''}
     ${r.suggested_next_steps?.length ? `<div><strong>→ Next steps:</strong>${fmtList(r.suggested_next_steps, s => `<li>${escapeHtml(s)}</li>`)}</div>` : ''}
-    ${r.warnings?.length ? `<div style="background:#fff3cd;border:1px solid #d8c280;border-radius:3px;padding:0.3rem 0.5rem;"><strong>⚠ Warnings:</strong>${fmtList(r.warnings, w => `<li>${escapeHtml(w)}</li>`)}</div>` : ''}
-    ${r.overall_assessment ? `<div style="margin-top:0.3rem;padding-top:0.4rem;border-top:1px solid #8aab8a;"><strong>Overall:</strong> ${escapeHtml(r.overall_assessment)}</div>` : ''}
+    ${r.warnings?.length ? `<div style="background:var(--warn-wash);border:1px solid var(--warn);border-radius:3px;padding:0.3rem 0.5rem;"><strong>⚠ Warnings:</strong>${fmtList(r.warnings, w => `<li>${escapeHtml(w)}</li>`)}</div>` : ''}
+    ${r.overall_assessment ? `<div style="margin-top:0.3rem;padding-top:0.4rem;border-top:1px solid var(--ok);"><strong>Overall:</strong> ${escapeHtml(r.overall_assessment)}</div>` : ''}
   </div>
 </div>`;
 }
@@ -579,7 +579,7 @@ function updatePersistentInstallBar() {
     // Small chip in the bottom-left — tap to expand
     Object.assign(bar.style, {
       position: "fixed", bottom: "1.5rem", left: "1.5rem", zIndex: 48,
-      background: "#6b1f1f", color: "#f8f3e8", padding: "0.5rem 0.8rem", borderRadius: "999px",
+      background: "var(--accent)", color: "var(--paper-soft)", padding: "0.5rem 0.8rem", borderRadius: "999px",
       cursor: "pointer", fontFamily: "Inter,sans-serif", fontSize: "0.85rem", fontWeight: "600",
       boxShadow: "0 2px 8px rgba(0,0,0,0.25)",
     });
@@ -589,7 +589,7 @@ function updatePersistentInstallBar() {
     // Full bar at bottom — visible until installed
     Object.assign(bar.style, {
       position: "fixed", bottom: 0, left: 0, right: 0, zIndex: 48,
-      background: "#2b1d10", color: "#f8f3e8", padding: "0.7rem 1rem",
+      background: "var(--ink)", color: "var(--paper-soft)", padding: "0.7rem 1rem",
       display: "flex", alignItems: "center", justifyContent: "center", gap: "0.7rem",
       fontFamily: "Inter,sans-serif", fontSize: "0.9rem", flexWrap: "wrap",
       boxShadow: "0 -2px 10px rgba(0,0,0,0.3)",
@@ -599,8 +599,8 @@ function updatePersistentInstallBar() {
       : "📲 To install: open Chrome menu (⋮) → tap \"Install app\" or \"Add to Home screen\".";
     bar.innerHTML = `
       <span style="flex:1 1 200px;min-width:0;">${msg}</span>
-      <button id="rft-install-bar-go" style="background:#6b1f1f;color:#f8f3e8;border:none;padding:0.4rem 0.9rem;border-radius:4px;font-weight:600;font-size:0.85rem;cursor:pointer;">Install</button>
-      <button id="rft-install-bar-min" style="background:transparent;color:#f8f3e8;border:1px solid #f8f3e8;padding:0.35rem 0.65rem;border-radius:4px;font-size:0.78rem;cursor:pointer;">Hide</button>`;
+      <button id="rft-install-bar-go" style="background:var(--accent);color:var(--paper-soft);border:none;padding:0.4rem 0.9rem;border-radius:4px;font-weight:600;font-size:0.85rem;cursor:pointer;">Install</button>
+      <button id="rft-install-bar-min" style="background:transparent;color:var(--paper-soft);border:1px solid var(--paper-soft);padding:0.35rem 0.65rem;border-radius:4px;font-size:0.78rem;cursor:pointer;">Hide</button>`;
     document.body.appendChild(bar);
     document.getElementById("rft-install-bar-go").onclick = showInstallModal;
     document.getElementById("rft-install-bar-min").onclick = () => {
@@ -631,14 +631,14 @@ function showInstallModal(opts = {}) {
     display: "flex", alignItems: "center", justifyContent: "center", padding: "1.5rem",
   });
   ov.innerHTML = `
-<div style="background:#f8f3e8;max-width:420px;width:100%;padding:1.8rem 1.5rem;border-radius:10px;font-family:Inter,sans-serif;text-align:center;box-shadow:0 8px 32px rgba(0,0,0,0.4);">
+<div style="background:var(--paper-soft);max-width:420px;width:100%;padding:1.8rem 1.5rem;border-radius:10px;font-family:Inter,sans-serif;text-align:center;box-shadow:0 8px 32px rgba(0,0,0,0.4);">
   <img src="assets/img/rapaport-coat-of-arms.jpg" alt="" style="width:80px;height:80px;object-fit:contain;border-radius:6px;margin-bottom:1rem;" />
-  <h2 style="margin:0 0 0.6rem;color:#6b1f1f;font-family:Georgia,serif;font-size:1.3rem;">Install on your home screen?</h2>
-  <p style="margin:0 0 1.2rem;color:#2b1d10;line-height:1.5;font-size:0.95rem;">
+  <h2 style="margin:0 0 0.6rem;color:var(--accent);font-family:Georgia,serif;font-size:1.3rem;">Install on your home screen?</h2>
+  <p style="margin:0 0 1.2rem;color:var(--ink);line-height:1.5;font-size:0.95rem;">
     The Rapaport family archive can live on your home screen like a real app — one tap to open, no browser bars, stays signed in.
   </p>
   <div id="rft-install-body"></div>
-  <button id="rft-install-not-now" style="margin-top:1rem;background:transparent;border:none;color:#6b5440;font-size:0.85rem;cursor:pointer;text-decoration:underline;">Not now</button>
+  <button id="rft-install-not-now" style="margin-top:1rem;background:transparent;border:none;color:var(--muted);font-size:0.85rem;cursor:pointer;text-decoration:underline;">Not now</button>
 </div>`;
   document.body.appendChild(ov);
 
@@ -651,7 +651,7 @@ function showInstallModal(opts = {}) {
     // Native install (Android Chrome / Edge / desktop Chrome) — one tap
     const btn = document.createElement("button");
     btn.textContent = "📲  Install app";
-    btn.style.cssText = "width:100%;background:#6b1f1f;color:#f8f3e8;border:none;padding:0.9rem 1rem;border-radius:6px;font-weight:700;font-size:1rem;cursor:pointer;";
+    btn.style.cssText = "width:100%;background:var(--accent);color:var(--paper-soft);border:none;padding:0.9rem 1rem;border-radius:6px;font-weight:700;font-size:1rem;cursor:pointer;";
     btn.onclick = async () => {
       _installPromptEvent.prompt();
       const { outcome } = await _installPromptEvent.userChoice;
@@ -663,7 +663,7 @@ function showInstallModal(opts = {}) {
   } else if (isAndroid) {
     // Android Chrome but no event — show explicit menu steps
     body.innerHTML = `
-<div style="background:#fff;border:1px solid #cdb892;border-radius:6px;padding:1rem;text-align:left;font-size:0.95rem;line-height:1.6;color:#2b1d10;">
+<div style="background:#fff;border:1px solid var(--border);border-radius:6px;padding:1rem;text-align:left;font-size:0.95rem;line-height:1.6;color:var(--ink);">
   <strong>Two taps from your Chrome menu:</strong>
   <ol style="padding-left:1.4rem;margin:0.6rem 0 0;">
     <li>Tap the <strong>⋮</strong> menu (top-right of Chrome)</li>
@@ -673,7 +673,7 @@ function showInstallModal(opts = {}) {
   } else if (isIOS && isSafari) {
     // iOS Safari — explicit Share-button steps
     body.innerHTML = `
-<div style="background:#fff;border:1px solid #cdb892;border-radius:6px;padding:1rem;text-align:left;font-size:0.95rem;line-height:1.6;color:#2b1d10;">
+<div style="background:#fff;border:1px solid var(--border);border-radius:6px;padding:1rem;text-align:left;font-size:0.95rem;line-height:1.6;color:var(--ink);">
   <strong>Three taps from Safari:</strong>
   <ol style="padding-left:1.4rem;margin:0.6rem 0 0;">
     <li>Tap the <strong>Share</strong> button ⬆️ at the bottom of Safari</li>
@@ -684,7 +684,7 @@ function showInstallModal(opts = {}) {
   } else {
     // Desktop fallback
     body.innerHTML = `
-<div style="background:#fff;border:1px solid #cdb892;border-radius:6px;padding:1rem;text-align:left;font-size:0.95rem;line-height:1.6;color:#2b1d10;">
+<div style="background:#fff;border:1px solid var(--border);border-radius:6px;padding:1rem;text-align:left;font-size:0.95rem;line-height:1.6;color:var(--ink);">
   Look for the <strong>install icon</strong> in your browser's address bar (⬇️ in a screen icon), or open the browser menu and tap <strong>"Install Rapaport…"</strong>.
 </div>`;
   }
@@ -708,7 +708,7 @@ function injectHeaderToolbar() {
   const who = document.createElement("span");
   who.id = "rft-who-chip";
   who.title = "You are currently signed in as " + ME().name + ". Click to switch to a different magic link.";
-  who.style.cssText = "background:#fff7e1;color:#6b5440;border:1px solid #cdb892;padding:0.35rem 0.7rem;border-radius:20px;font-size:0.78rem;cursor:pointer;font-family:Inter,sans-serif;white-space:nowrap;";
+  who.style.cssText = "background:var(--warn-wash);color:var(--muted);border:1px solid var(--border);padding:0.35rem 0.7rem;border-radius:20px;font-size:0.78rem;cursor:pointer;font-family:Inter,sans-serif;white-space:nowrap;";
   who.textContent = "👤 " + ME().name.split(" ")[0];
   who.onclick = () => {
     if (!confirm(`You are signed in as: ${ME().name}\n\nSign out to use a different magic link?`)) return;
@@ -722,7 +722,7 @@ function injectHeaderToolbar() {
   refresh.id = "rft-refresh-btn";
   refresh.innerHTML = "🔄";
   refresh.title = "Refresh — pull the latest chat, people, places, documents from the archive";
-  refresh.style.cssText = "background:transparent;color:#6b1f1f;border:1.5px solid #6b1f1f;padding:0.35rem 0.55rem;border-radius:20px;font-size:0.95rem;cursor:pointer;font-family:Inter,sans-serif;line-height:1;";
+  refresh.style.cssText = "background:transparent;color:var(--accent);border:1.5px solid var(--accent);padding:0.35rem 0.55rem;border-radius:20px;font-size:0.95rem;cursor:pointer;font-family:Inter,sans-serif;line-height:1;";
   refresh.onclick = () => {
     refresh.innerHTML = "⏳";
     refresh.disabled = true;
@@ -735,7 +735,7 @@ function injectHeaderToolbar() {
   share.id = "rft-share-btn";
   share.innerHTML = "↗ Share";
   share.title = "Share this page";
-  share.style.cssText = "background:#6b1f1f;color:#f8f3e8;border:none;padding:0.4rem 0.75rem;border-radius:20px;font-size:0.82rem;font-weight:600;cursor:pointer;font-family:Inter,sans-serif;white-space:nowrap;";
+  share.style.cssText = "background:var(--accent);color:var(--paper-soft);border:none;padding:0.4rem 0.75rem;border-radius:20px;font-size:0.82rem;font-weight:600;cursor:pointer;font-family:Inter,sans-serif;white-space:nowrap;";
   share.onclick = shareCurrentPage;
   bar.appendChild(share);
 
@@ -746,7 +746,7 @@ function injectHeaderToolbar() {
     install.id = "rft-install-header-btn";
     install.innerHTML = "📲 Install";
     install.title = "Install as app on home screen";
-    install.style.cssText = "background:transparent;color:#6b1f1f;border:1.5px solid #6b1f1f;padding:0.35rem 0.7rem;border-radius:20px;font-size:0.82rem;font-weight:600;cursor:pointer;font-family:Inter,sans-serif;white-space:nowrap;";
+    install.style.cssText = "background:transparent;color:var(--accent);border:1.5px solid var(--accent);padding:0.35rem 0.7rem;border-radius:20px;font-size:0.82rem;font-weight:600;cursor:pointer;font-family:Inter,sans-serif;white-space:nowrap;";
     install.onclick = showInstallModal;
     bar.appendChild(install);
   }
@@ -796,32 +796,10 @@ function boot() {
   injectHeaderToolbar();    // self-skips if !ME()
   setupInstallButton();     // visible to everyone (PWA install for all)
 
-  // Add "Ancestry", "🚶 Virtual Trip", "📖 Memoir" nav links (visible to all).
-  // Each uses data-i18n so app.js's setLang() re-translates them on language switch.
+  // Ancestry, Memoir and Virtual Trip are declared in index.html alongside
+  // every other public route, so the whole menu lives in one place and the
+  // grouped layout stays intact. Only the admin link is added here.
   const primaryNav = document.querySelector(".primary-nav .nav-inner");
-  const fallbackLabels = {
-    ancestry: { en: "Ancestry", he: "אילן יוחסין", pl: "Pochodzenie", fr: "Ascendance" },
-    virtual_trip: { en: "🚶 Virtual Trip", he: "🚶 מסע וירטואלי", pl: "🚶 Wirtualna podróż", fr: "🚶 Voyage virtuel" },
-    memoir: { en: "📖 Memoir", he: "📖 יומן", pl: "📖 Pamiętnik", fr: "📖 Mémoires" }
-  };
-  const currentLang = (typeof localStorage !== "undefined" && localStorage.getItem("rapaport_lang")) || "en";
-  function insertNavLink({ navId, href, beforeNavId }) {
-    if (!primaryNav || primaryNav.querySelector(`[data-nav="${navId}"]`)) return;
-    const a = document.createElement("a");
-    a.href = href;
-    a.dataset.link = "";
-    a.dataset.nav = navId;
-    a.dataset.i18n = "nav." + navId;
-    a.textContent = (fallbackLabels[navId] && fallbackLabels[navId][currentLang]) || fallbackLabels[navId].en;
-    const beforeLink = beforeNavId ? primaryNav.querySelector(`[data-nav="${beforeNavId}"]`) : null;
-    const aboutLink = primaryNav.querySelector('[data-nav="about"]');
-    if (beforeLink) primaryNav.insertBefore(a, beforeLink);
-    else if (aboutLink) primaryNav.insertBefore(a, aboutLink);
-    else primaryNav.appendChild(a);
-  }
-  insertNavLink({ navId: "ancestry", href: "#/ancestry" });
-  insertNavLink({ navId: "memoir", href: "#/memoir" });
-  insertNavLink({ navId: "virtual_trip", href: "#/research/virtual_trip", beforeNavId: "memoir" });
 
   // Add an admin-only "Review" nav link
   if (isAdmin()) {
