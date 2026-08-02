@@ -1,7 +1,7 @@
 {
-  "source_file": "WhatsApp Chat with Family tree (export 2026-06-15).txt",
-  "parsed_at": "2026-06-28T14:21:09.256123Z",
-  "message_count": 840,
+  "source_file": "_chat.txt",
+  "parsed_at": "2026-08-02T11:12:04.305245Z",
+  "message_count": 855,
   "messages": [
     {
       "timestamp": "2026-05-04T18:49:00",
@@ -911,9 +911,9 @@
       "author_normalized": "Basia"
     },
     {
-      "timestamp": "2026-05-13T22:45:00",
+      "timestamp": "2026-05-13T22:44:00",
       "date": "13/05/2026",
-      "time": "22:45",
+      "time": "22:44",
       "author": "Basia",
       "body": "\nZrzut ekranu 2026-05-12 171907.png",
       "attachment": {
@@ -925,9 +925,9 @@
       "author_normalized": "Basia"
     },
     {
-      "timestamp": "2026-05-13T22:45:00",
+      "timestamp": "2026-05-13T22:44:00",
       "date": "13/05/2026",
-      "time": "22:45",
+      "time": "22:44",
       "author": "Basia",
       "body": "\nZrzut ekranu 2026-05-12 163118.png",
       "attachment": {
@@ -2594,9 +2594,9 @@
       "author_normalized": "Basia"
     },
     {
-      "timestamp": "2026-05-20T18:13:00",
+      "timestamp": "2026-05-20T18:12:00",
       "date": "20/05/2026",
-      "time": "18:13",
+      "time": "18:12",
       "author": "Basia",
       "body": "Beachgoers on the Poprad River in Muszyna",
       "attachment": null,
@@ -4448,9 +4448,9 @@
       "author_normalized": "Dalia (mother)"
     },
     {
-      "timestamp": "2026-05-25T21:12:00",
+      "timestamp": "2026-05-25T21:11:00",
       "date": "25/05/2026",
-      "time": "21:12",
+      "time": "21:11",
       "author": "דנה רפפורט",
       "body": "https://www.jewishgen.org/yizkor/nowy_sacz/now601.html",
       "attachment": null,
@@ -6145,9 +6145,9 @@
       "author_normalized": "Dana (sister)"
     },
     {
-      "timestamp": "2026-06-01T18:21:00",
+      "timestamp": "2026-06-01T18:20:00",
       "date": "01/06/2026",
-      "time": "18:21",
+      "time": "18:20",
       "author": "Basia",
       "body": "'ll check, it will take a while",
       "attachment": null,
@@ -6408,9 +6408,9 @@
       "author_normalized": "Dana (sister)"
     },
     {
-      "timestamp": "2026-06-01T22:36:00",
+      "timestamp": "2026-06-01T22:35:00",
       "date": "01/06/2026",
-      "time": "22:36",
+      "time": "22:35",
       "author": "דנה רפפורט",
       "body": "You can also try ;)",
       "attachment": null,
@@ -6953,8 +6953,8 @@
       "author": "Doron Rapaport",
       "body": "",
       "attachment": {
-        "filename": "DOC-20260602-WA0023.",
-        "kind": "other"
+        "filename": "DOC-20260602-WA0023.docx",
+        "kind": "document"
       },
       "system": false,
       "lang": null,
@@ -6967,8 +6967,8 @@
       "author": "Doron Rapaport",
       "body": "",
       "attachment": {
-        "filename": "DOC-20260602-WA0024.",
-        "kind": "other"
+        "filename": "DOC-20260602-WA0024.docx",
+        "kind": "document"
       },
       "system": false,
       "lang": null,
@@ -7174,9 +7174,9 @@
       "author_normalized": "Dana (sister)"
     },
     {
-      "timestamp": "2026-06-02T21:36:00",
+      "timestamp": "2026-06-02T21:35:00",
       "date": "02/06/2026",
-      "time": "21:36",
+      "time": "21:35",
       "author": "Basia",
       "body": "Look at the address and compare it with the passport application",
       "attachment": null,
@@ -7430,9 +7430,9 @@
       "author_normalized": "Basia"
     },
     {
-      "timestamp": "2026-06-02T22:35:00",
+      "timestamp": "2026-06-02T22:34:00",
       "date": "02/06/2026",
-      "time": "22:35",
+      "time": "22:34",
       "author": "דנה רפפורט",
       "body": "Why i csn not send massage  in geni?",
       "attachment": null,
@@ -7505,9 +7505,9 @@
       "author_normalized": "Basia"
     },
     {
-      "timestamp": "2026-06-02T22:38:00",
+      "timestamp": "2026-06-02T22:37:00",
       "date": "02/06/2026",
-      "time": "22:38",
+      "time": "22:37",
       "author": "Basia",
       "body": "Okay, I'll fight for a while on Geni",
       "attachment": null,
@@ -7541,9 +7541,9 @@
       "author_normalized": "Dana (sister)"
     },
     {
-      "timestamp": "2026-06-02T23:12:00",
+      "timestamp": "2026-06-02T23:11:00",
       "date": "02/06/2026",
-      "time": "23:12",
+      "time": "23:11",
       "author": "דנה רפפורט",
       "body": "We know the name of Shabtai's mother/father?",
       "attachment": null,
@@ -7702,13 +7702,13 @@
       "date": "03/06/2026",
       "time": "15:15",
       "author": "Basia",
-      "body": "\n1919 Akt Ålubu Freida Amalia Rapaport.pdf",
+      "body": "\n1919 Akt ślubu Freida Amalia Rapaport.pdf",
       "attachment": {
-        "filename": "1919 Akt Ålubu Freida Amalia Rapaport.pdf",
+        "filename": "1919 Akt ślubu Freida Amalia Rapaport.pdf",
         "kind": "pdf"
       },
       "system": false,
-      "lang": "en",
+      "lang": "pl",
       "author_normalized": "Basia"
     },
     {
@@ -8357,9 +8357,9 @@
       "author_normalized": "Dalia (mother)"
     },
     {
-      "timestamp": "2026-06-04T22:15:00",
+      "timestamp": "2026-06-04T22:14:00",
       "date": "04/06/2026",
-      "time": "22:15",
+      "time": "22:14",
       "author": "דליה רפפורט",
       "body": "Have a nice party\n🌷🌷🌷🌷🌷🌷",
       "attachment": null,
@@ -9896,6 +9896,180 @@
         "filename": "Zrzut ekranu 2026-06-15 221351.png",
         "kind": "image"
       },
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-07-07T21:37:00",
+      "date": "07/07/2026",
+      "time": "21:37",
+      "author": "דנה רפפורט",
+      "body": "Hi dear\nLong time;)\nHope this note find you well",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-07-07T21:38:00",
+      "date": "07/07/2026",
+      "time": "21:38",
+      "author": "דנה רפפורט",
+      "body": "Some person contact me regarding  Schabse Rapaport",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-07-07T21:38:00",
+      "date": "07/07/2026",
+      "time": "21:38",
+      "author": "דנה רפפורט",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260707-WA0020.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-07-07T21:39:00",
+      "date": "07/07/2026",
+      "time": "21:39",
+      "author": "דנה רפפורט",
+      "body": "From my heritage.\nIn Hebrew  the translation  is schabse and figa/yete and their son yitzhak Haim",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-07-07T21:40:00",
+      "date": "07/07/2026",
+      "time": "21:40",
+      "author": "Basia",
+      "body": "I'm working and thinking about you, and what you're showing me also agrees with me. I looked through the records at the notary's office in Tarnów, and they convinced me that Szabse was your ancestor.",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-07-07T21:41:00",
+      "date": "07/07/2026",
+      "time": "21:41",
+      "author": "דנה רפפורט",
+      "body": "Can we confirm him as Moshe brother and parents?",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-07-07T21:41:00",
+      "date": "07/07/2026",
+      "time": "21:41",
+      "author": "Basia",
+      "body": "\nTablica potomków Abraham Abe Rapaport.pdf",
+      "attachment": {
+        "filename": "Tablica potomków Abraham Abe Rapaport.pdf",
+        "kind": "pdf"
+      },
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-07-07T21:44:00",
+      "date": "07/07/2026",
+      "time": "21:44",
+      "author": "דנה רפפורט",
+      "body": "Wow !!!! What a great job !",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-07-07T21:44:00",
+      "date": "07/07/2026",
+      "time": "21:44",
+      "author": "דנה רפפורט",
+      "body": "",
+      "attachment": {
+        "filename": "IMG-20260707-WA0021.jpg",
+        "kind": "image"
+      },
+      "system": false,
+      "lang": null,
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-07-07T21:44:00",
+      "date": "07/07/2026",
+      "time": "21:44",
+      "author": "דנה רפפורט",
+      "body": "This is his brother so we might  relat  !!",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-07-07T21:47:00",
+      "date": "07/07/2026",
+      "time": "21:47",
+      "author": "Basia",
+      "body": "I need to correct the data from the jewishgen regarding Szabse from Dąbrowa Tarnowska. I've reviewed and am still reviewing the available records. Based on this, it's safe to say that Szabse was a rabbi in Dąbrowa before. I wrote down:\n1897\n- Hirsz Weiss, rabbi in Dąbrowa\n- Markus Twerski, rabbi in Dąbrowa\n- Nuchim Weidenfeld, rabbi in Dąbrowa (from approximately October 28, 1897)\n1896\n- Hirsz Weiss, rabbi in Dąbrowa\n- Markus Twerski from Włodówek, Russia, currently in Dąbrowa\n1895\n- Hirsz Weiss, rabbi in Dąbrowa\n- Rabbi Markus Twerski from Włodówek, Russia, currently in Dąbrowa\n1894\n- Hirsz Weiss, rabbi in Dąbrowa\n- Markus Twerski from Włodówek, Russia, rabbi in Dąbrowa\n1892\n- Hirsz Weiss, rabbi in Dąbrowa\n- Rabbi Mordko Twerski from Lvovadov, Russia\n1891\n- Hirsz Weiss Rabbi in Dąbrowa\n1890\n- Hirsz Weiss, rabbi in Dąbrowa\n1889\n- Hirsz Weiss, rabbi in Dąbrowa\n- Jakub Izak Unger, rabbi in Żabno\n1888\n- Hirsz Weiss, rabbi in Dąbrowa\n- Salomon Halberstam, rabbi in Wiśnia…\n1887\n- Hersz Weiss, rabbi in Dąbrowa\n1886\n- Hersz Weiss, rabbi in Dąbrowa\n- Jakub Izaak Unger, rabbi in Żabno\n- Hersz Weiss, rabbi in Dąbrowa, overwritten on the crossed-out Szabsa Rapaport (June 15, 1886). It looks as if the scribe forgot himself; it is a duplicate.\n1885\n- Hirsz Weiss, rabbi in Dąbrowa,\n1884\n- Szabse Rapaport, rabbi in Dąbrowa until April 20.\n- Majer Rapaport, rabbi from Łuków in the Kingdom of Poland since May 19th\n- Hirsch Weiss, rabbi in Dąbrowa since September 19th",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-07-07T21:50:00",
+      "date": "07/07/2026",
+      "time": "21:50",
+      "author": "דנה רפפורט",
+      "body": "And the pictures of graves was there's?",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-07-07T22:02:00",
+      "date": "07/07/2026",
+      "time": "22:02",
+      "author": "Basia",
+      "body": "f you're asking about Shabbas's gravestone, it has a new plaque in Hebrew; I saw that photo.\nFrom Jewish Gene, I learned that the next rabbi in Dabrowa was Shabbas's grandson, Nuchem Weidelfeld. I'm currently developing this lineage. But it's not true that he was a direct successor to Shabbas. Between him and Shabbas were Hirsz Weiss and Marcus Twerski (\"from the Kingdom,\" \"from Russia,\" or simply a rabbi who escaped from the Russian partition).\nWhat I do is tedious. I have numerous files with photos of deeds and other documents for this tree, but I have to describe them.\nI've adopted the principle that the original deeds are most important, followed by reliable indexes, and the trees posted online are only helpful. In practice, I check what others have posted, and there's a lot of nonsense (Dąbrowa appears in at least a few absurd locations).\nI don't include anything I can't find evidence for, either directly or indirectly.",
+      "attachment": null,
+      "system": false,
+      "lang": "pl",
+      "author_normalized": "Basia"
+    },
+    {
+      "timestamp": "2026-07-07T22:09:00",
+      "date": "07/07/2026",
+      "time": "22:09",
+      "author": "דנה רפפורט",
+      "body": "Did you find photo of some such Moshe or Shabtai?",
+      "attachment": null,
+      "system": false,
+      "lang": "en",
+      "author_normalized": "Dana (sister)"
+    },
+    {
+      "timestamp": "2026-07-07T22:18:00",
+      "date": "07/07/2026",
+      "time": "22:18",
+      "author": "Basia",
+      "body": "I'm sure I didn't find Mosze. I don't think there was a Shabtai from Dabrowa either.\nYou have so many rabbis in your family that I'm a bit dizzy.\nI'll close this tree and start organizing the materials. I haven't downloaded everything.\nUnfortunately, the institution is silent; it's the holiday season... I don't know how to explain it. In the Griffel case, I found some great material myself that clarifies the matter. But I was hoping to ask them about Lotte. Because I don't have anything new here.",
+      "attachment": null,
       "system": false,
       "lang": "en",
       "author_normalized": "Basia"

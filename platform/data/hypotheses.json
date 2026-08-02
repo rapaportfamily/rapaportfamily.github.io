@@ -602,14 +602,18 @@
         "fr": "Who were Moses Saul Rapaport's parents — were they Shabtai (Szabse) + Ita Feigi?"
       },
       "priority": "MEDIUM",
-      "status": "open — candidate from 1933 Tarnów death record, unverifiable while Radomyśl records are lost",
+      "status": "probable_answer",
       "note_2026_06_15_cc": "Tarnów death record 1933/152: Mojżesz Rapaport, d. 8 Nov 1933, ul. Folwarczna, age 75, son of Szabse + Ita Feigi. Street matches Berisz's passport (9 Folwarczna; death cert says 199, likely a clerk repeating the ordinal). A SECOND Moses Saul died 30 Oct 1931 under Dąbrowa. Basia leans toward the 1933 one being ours. If so, parents = Shabtai + Ita Feigi. Not asserted in the tree structure until corroborated.",
       "candidates": [
         {
           "label": "Moses Saul = son of Shabtai + Ita Feigi (d. Tarnów 1933, age 75)",
           "evidence_for": [
             "street matches",
-            "naming custom (Moses Saul son of Moses Saul does not fit)"
+            "naming custom (Moses Saul son of Moses Saul does not fit)",
+            "Basia's review of the Tarnów notarial records (7 Jul 2026) — she is satisfied Szabse is the ancestor",
+            "Szabse Rapaport documented as rabbi in Dąbrowa Tarnowska until 20 Apr 1884",
+            "Berisz's 1924 passport registers the family commune as Dąbrowa Tarnowska — the town Szabse served",
+            "MyHeritage record (Dana, 7 Jul 2026): Schabse + Figa/Yete, son Yitzhak Haim — given names align with Ita Feigi"
           ],
           "evidence_against": [
             "house number mismatch (9 vs 199)",
@@ -623,13 +627,17 @@
           ],
           "evidence_against": [
             "no Tarnów death record there",
-            "date/stone older"
+            "date/stone older",
+            "the Dąbrowa link is now explained by Szabse's rabbinate there, not by a second Moses Saul"
           ]
         }
       ],
       "next_steps": [
-        "Find a birth or marriage record for Moses Saul (death records don't name descendants)",
-        "Check Dąbrowa Tarnowska indexes (sparse online)"
+        "Obtain the Dąbrowa Tarnowska rabbinate record naming Szabse's children — the one document that would settle it",
+        "Trace Nuchem Weidenfeld, later rabbi in Dąbrowa, described by JewishGen as Szabse's grandson (Basia is developing this line)",
+        "Yitzhak Haim Rapaport (per the MyHeritage record) — establish whether he is Moses Saul's brother",
+        "Read 'Tablica potomków Abraham Abe Rapaport.pdf' (Basia, 7 Jul) against our tree",
+        "Find a birth or marriage record for Moses Saul (death records do not name descendants)"
       ],
       "related_people": [
         "p_moses_saul_rapaport",
@@ -639,7 +647,8 @@
         "pl_tarnow",
         "pl_dabrowa",
         "pl_radomysl_wielki"
-      ]
+      ],
+      "note_2026_07_07_cc": "7 Jul 2026 — Basia worked the Tarnów notarial records and the Dąbrowa Tarnowska rabbinate lists and reports: 'I looked through the records at the notary's office in Tarnów, and they convinced me that Szabse was your ancestor.' She also establishes that Szabse Rapaport was RABBI in Dąbrowa Tarnowska until 20 April 1884, succeeded that year by Majer Rapaport (from Łuków, 19 May) and then Hirsz Weiss (19 Sept); the 1886 entry shows 'Hersz Weiss' written over a crossed-out 'Szabsa Rapaport', which she reads as a scribal duplicate. Independently, Dana produced a MyHeritage record the same evening naming Schabse + Figa/Yete and their son Yitzhak Haim — the given names match the Ita Feigi of the 1933 Tarnów death record. This also explains a detail that had been unexplained since May: Berisz's 1924 passport gives his commune as Dąbrowa Tarnowska, the town where his grandfather had been rabbi. NOT yet a document naming Moses Saul's father outright, so this stays probable, not resolved. Basia's own caution stands: 'I don't include anything I can't find evidence for.'"
     },
     {
       "id": "h_jente_survival",
