@@ -814,12 +814,12 @@
         "fr": "Dov épouse Dalia à Haïfa"
       },
       "description": {
-        "en": "Haifa, on Dov’s own account, given by Doron on 2 August 2026 — and the compiled family tree agrees, placing the wedding in Haifa on 16 January 1974. The ketubah was read in June 2026 as Sivan 6, 5735 (16 May 1975) in Brussels; that reading was made by machine, the scan itself was never added to this archive, and it has never been checked by eye. The place is settled. The date is not.",
-        "he": "חיפה, מפי דב עצמו, כפי שמסר דורון ב-2 באוגוסט 2026 — ועץ המשפחה המקובץ מסכים, וממקם את החתונה בחיפה ב-16 בינואר 1974. הכתובה נקראה ביוני 2026 כ-ו׳ בסיוון תשל״ה (16 במאי 1975) בבריסל; קריאה זו נעשתה במכונה, הסריקה עצמה מעולם לא נוספה לארכיון הזה, ואיש לא בדק אותה בעיניו. המקום הוכרע. התאריך לא.",
-        "pl": "Hajfa, według samego Dova (przekazał Doron, 2 sierpnia 2026); zgodne z drzewem rodzinnym, które podaje Hajfę, 16 stycznia 1974. Ketuba odczytana maszynowo w czerwcu 2026 jako 16 maja 1975 w Brukseli — skanu nigdy nie dodano do archiwum. Miejsce ustalone, data nie.",
-        "fr": "Haïfa, selon Dov lui-même (rapporté par Doron le 2 août 2026) ; l’arbre familial concorde et donne Haïfa, le 16 janvier 1974. La ketouba, lue par machine en juin 2026, donnait le 16 mai 1975 à Bruxelles — le scan n’a jamais été versé à cette archive. Le lieu est établi, la date non."
+        "en": "Read from the ketubah itself on 2 August 2026: \"here, in the holy community of Haifa, may it be rebuilt speedily in our days\" — the place is written into the document. The year is 5735; the groom is Dov son of Menachem David, the bride Dalia daughter of Dov Yosef. A machine reading in June 2026 had given Brussels and flagged an oddity, that the document said \"on Shabbat\" while the date fell on a Friday. Both were errors of reading rather than of the scribe: the printed formula is \"on the [Nth] day of the week\", and filled in for Friday it reads exactly as it should. The compiled family tree’s 16 January 1974 in Haifa had the town right and the date wrong.",
+        "he": "נקרא מן הכתובה עצמה ב-2 באוגוסט 2026: ״כאן ק״ק חיפה תובב״א״ — המקום כתוב בגוף המסמך. השנה תשל״ה; החתן דב בן מנחם דוד, הכלה דליה בת דב יוסף. קריאה ממוחשבת ביוני 2026 נקבה בבריסל וסימנה תמיהה, שהמסמך אומר ״בשבת״ בעוד התאריך חל ביום שישי. שתיהן היו שגיאות קריאה ולא שגיאות הסופר: הנוסח המודפס הוא ״ב[יום] בשבת״ — כלומר ביום ה-נ׳ בשבוע — וכשהוא ממולא ליום שישי הוא נקרא בדיוק כפי שצריך. עץ המשפחה המקובץ, שנקב ב-16 בינואר 1974 בחיפה, צדק בעיר וטעה בתאריך.",
+        "pl": "Odczytane z samej ketuby 2 sierpnia 2026: „tutaj, w świętej gminie Hajfa\" — miejsce zapisano w dokumencie. Rok 5735. Maszynowy odczyt z czerwca 2026 podał Bruksela i zgłosił rzekomą sprzeczność („w szabat\" przy dacie piątkowej); oba to błędy odczytu — drukowana formuła brzmi „w [N-tym] dniu tygodnia\".",
+        "fr": "Lu sur la ketouba elle-même le 2 août 2026 : « ici, dans la sainte communauté de Haïfa » — le lieu est inscrit dans le document. Année 5735. Une lecture automatique de juin 2026 donnait Bruxelles et signalait une incohérence (« le chabbat » pour une date tombant un vendredi) ; les deux étaient des erreurs de lecture — la formule imprimée dit « le [N-ième] jour de la semaine »."
       },
-      "confidence": "family_oral",
+      "confidence": "confirmed",
       "sources": []
     },
     {

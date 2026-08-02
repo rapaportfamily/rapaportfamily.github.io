@@ -2234,12 +2234,12 @@
         {
           "id": "dov_dalia_marriage_place_settled",
           "pillar": "family",
-          "title_en": "✅ Dov and Dalia married in HAIFA — answered by Doron, 2 Aug 2026",
-          "title_he": "✅ דב ודליה נישאו בחיפה — תשובת דורון, 2 באוגוסט 2026",
-          "status": "partially_resolved",
-          "summary_en": "Flagged for Doron on 1 June 2026 and unanswered for two months: the ketubah had been read as \"Sivan 6, 5735 = 16 May 1975, in Brussels\", while the compiled family tree said 16 January 1974 in Haifa. Doron: \"They married in haifa.\" The place is settled, and the tree agrees. The DATE is still open — 1974 or 1975 — and it cannot be re-checked from here, because the ketubah reading was made by machine and the scan itself was never added to this archive. Re-sending that photograph would settle the last date in the direct line.",
-          "summary_he": "סומן לדורון ב-1 ביוני 2026 ונותר ללא מענה חודשיים: הכתובה נקראה כ״ו׳ בסיוון תשל״ה = 16 במאי 1975, בבריסל״, ואילו עץ המשפחה המקובץ ציין 16 בינואר 1974 בחיפה. דורון: ״הם נישאו בחיפה.״ המקום הוכרע, והעץ מסכים. התאריך עדיין פתוח — 1974 או 1975 — ואי אפשר לבדוק אותו מכאן, משום שקריאת הכתובה נעשתה במכונה והסריקה עצמה מעולם לא נוספה לארכיון. שליחה חוזרת של אותו צילום תסגור את התאריך האחרון בקו הישיר.",
-          "source": "Doron Rapaport, 2 August 2026; open item #2 of docs/research/incoming_2026-06-01_pending_uploads.md",
+          "title_en": "✅ Dov and Dalia married in HAIFA, 16 May 1975 — settled from the ketubah",
+          "title_he": "✅ דב ודליה נישאו בחיפה, 16 במאי 1975 — הוכרע מן הכתובה",
+          "status": "resolved",
+          "summary_en": "Doron answered \"they married in Haifa\" on 2 August 2026, and sent the ketubah the same evening. The document says it outright: \"here, in the holy community of Haifa.\" Year 5735. The June machine reading that gave Brussels was wrong, and so was the contradiction it reported — the printed formula \"on the [Nth] day of the week\" was read as \"on Shabbat\". Filled in for Friday it matches 6 Sivan 5735 = 16 May 1975 exactly. The compiled tree’s \"16 January 1974, Haifa\" had the town right and the date wrong. Still to do: the ketubah scan itself is not yet in the archive.",
+          "summary_he": "דורון השיב ״הם נישאו בחיפה״ ב-2 באוגוסט 2026, ושלח את הכתובה באותו ערב. המסמך אומר זאת במפורש: ״כאן ק״ק חיפה תובב״א״. שנת תשל״ה. הקריאה הממוחשבת מיוני שנקבה בבריסל שגתה, וכך גם הסתירה שדיווחה — הנוסח המודפס ״ב[יום] בשבת״ נקרא כ״בשבת״. ממולא ליום שישי הוא תואם בדיוק ו׳ בסיוון תשל״ה = 16 במאי 1975. נותר: סריקת הכתובה עצמה טרם נוספה לארכיון.",
+          "source": "Ketubah of Dov and Dalia, photographed and sent by Doron, 2 August 2026; read directly.",
           "urls": []
         },
         {
