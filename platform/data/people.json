@@ -3953,14 +3953,13 @@
     {
       "id": "p_s_goldfischer",
       "primary_name": {
-        "en": "S. Goldfischer",
-        "he": "ש. גולדפישר",
-        "pl": "S. Goldfischer",
-        "fr": "S. Goldfischer"
+        "en": "Shlomo Goldfischer",
+        "he": "שלמה גולדפישר",
+        "pl": "Szlomo Goldfischer",
+        "fr": "Shlomo Goldfischer"
       },
       "aliases": [
-        "Shmuel Goldfischer (likely first name)",
-        "Samuel Goldfischer"
+        "S. Goldfischer (as he appeared in the documents held here, by initial only)"
       ],
       "birth": {
         "date": "1909-11-23",
@@ -3972,8 +3971,16 @@
         ]
       },
       "role": "maternal_grandfather",
-      "note_en": "Dana, Doron and Daniel's maternal grandfather (Dalia's father) — Dalia's father. Born 23 November 1909 in SKOLE, eastern Galicia (today Skole, Lviv Oblast, Ukraine — same region as Bolechów + Stryj). Profession 'Marin' (sailor / merchant marine) per Israeli/French bilingual passport. Settled Haifa. 172 cm, brown eyes + brown hair. Earlier British Mandate document carries 'Urban and Rural Information Bureau' stamp. Married Ester Goldfischer.",
+      "note_en": "Dana, Doron and Daniel's maternal grandfather — Dalia's father. His given name is Shlomo, given by Doron on 2 August 2026; until then this archive knew him only as \"S.\", and had guessed at Shmuel or Samuel. The guesses are withdrawn. Born 23 November 1909 in SKOLE, eastern Galicia (today Skole, Lviv Oblast, Ukraine — the same region as Bolechów and Stryj). Profession 'Marin' (sailor / merchant marine) per his Israeli/French bilingual passport. Settled in Haifa. 172 cm, brown eyes and brown hair. An earlier British Mandate document carries an 'Urban and Rural Information Bureau' stamp. Married Ester Goldfischer.",
       "facts": [
+        {
+          "key": "given_name",
+          "value": "Shlomo — his daughter Dalia is Dalia bat Shlomo",
+          "confidence": "family_oral",
+          "sources": [
+            "src_doron_2026_08_02"
+          ]
+        },
         {
           "key": "birthplace",
           "value": "Skole, Stanyslaviv Voivodeship, Poland (today Skole, Lviv Oblast, Ukraine)",
