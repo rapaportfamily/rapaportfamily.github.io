@@ -221,9 +221,6 @@
   "journey": {
     "title": "Le voyage",
     "lead": "De Nadwórna à Haïfa, 1911–1948 — ce que Lusia a écrit, confronté aux documents.",
-    "track_together": "David, Lusia et Shimon",
-    "track_david_shimon": "David et Shimon",
-    "track_lusia_dov": "Lusia et le petit Dov",
     "memoir_says": "Lusia écrit",
     "documents_say": "Les documents montrent",
     "page": "page",
@@ -232,6 +229,9 @@
     "agree_confirmed": "Le document confirme",
     "agree_corrected": "Le document corrige le mémoire",
     "agree_memoir_only": "Son récit seul",
-    "agree_context": "L'histoire est documentée, la famille non nommée"
+    "agree_context": "L'histoire est documentée, la famille non nommée",
+    "pick_hint": "Choisissez une personne pour la suivre seule. Choisissez les quatre — ils se retrouvent à Haïfa.",
+    "show_all": "Afficher les quatre",
+    "map_alt": "Carte du voyage de Galicie vers la Pologne, la Belgique, la France, Chypre et Israël"
   }
 }

@@ -871,27 +871,34 @@ function extractYear(s) {
 // what the documents show. Where they disagree, both are shown.
 
 const JOURNEY = {
-  W: 980, H: 560, PAD: 64,
-  R: 7,              // node radius
+  W: 1000, H: 620, PAD: 46,
+  R: 6,              // node radius
+  SPREAD: 3.6,       // parallel offset between people sharing a leg
 };
 
-let _journeyCache = null;
+let _journeyCache = null, _outlineCache = null;
+// Everyone is shown until the reader decides otherwise.
+const JourneyState = { people: new Set(['david', 'lusia', 'shimon', 'dov']) };
 
 async function loadJourney() {
-  if (_journeyCache) return _journeyCache;
-  _journeyCache = await fetch(`data/journey.json?v=${Date.now()}`, { cache: 'no-store' }).then(r => r.json());
+  if (!_journeyCache) {
+    const v = Date.now();
+    const [j, o] = await Promise.all([
+      fetch(`data/journey.json?v=${v}`, { cache: 'no-store' }).then(r => r.json()),
+      fetch(`data/map_outlines.json?v=${v}`, { cache: 'no-store' }).then(r => r.json()).catch(() => null),
+    ]);
+    _journeyCache = j; _outlineCache = o;
+  }
   return _journeyCache;
 }
 
-// Equirectangular, narrowed by the cosine of the mean latitude so the shape
-// is not stretched sideways.
-function journeyProjection(legs) {
-  const lats = legs.map(l => l.coords[0]), lons = legs.map(l => l.coords[1]);
-  const midLat = (Math.min(...lats) + Math.max(...lats)) / 2;
-  const k = Math.cos(midLat * Math.PI / 180);
-  const xs = lons.map(v => v * k), ys = lats;
-  const x0 = Math.min(...xs), x1 = Math.max(...xs);
-  const y0 = Math.min(...ys), y1 = Math.max(...ys);
+// Equirectangular, narrowed by the cosine of the mean latitude so the shape is
+// not stretched sideways. Framed on the countries, not just on the stops, so
+// Poland, Belgium, France, Cyprus and Israel are all actually on the page.
+function journeyProjection() {
+  const b = (_outlineCache && _outlineCache._schema.bbox) || { lon_min: 2, lat_min: 30, lon_max: 37, lat_max: 53 };
+  const k = Math.cos(((b.lat_min + b.lat_max) / 2) * Math.PI / 180);
+  const x0 = b.lon_min * k, x1 = b.lon_max * k, y0 = b.lat_min, y1 = b.lat_max;
   const w = JOURNEY.W - JOURNEY.PAD * 2, h = JOURNEY.H - JOURNEY.PAD * 2;
   const s = Math.min(w / (x1 - x0), h / (y1 - y0));
   const ox = JOURNEY.PAD + (w - (x1 - x0) * s) / 2;
@@ -899,57 +906,89 @@ function journeyProjection(legs) {
   return ([lat, lon]) => [ox + (lon * k - x0) * s, oy + (y1 - lat) * s];
 }
 
+function drawCountries(svg, project) {
+  if (!_outlineCache) return;
+  const g = svgEl('g', { class: 'journey-land' });
+  svg.appendChild(g);
+  const highlight = new Set(_outlineCache._schema.highlight || []);
+  for (const [name, rings] of Object.entries(_outlineCache.countries)) {
+    const cls = 'country' + (highlight.has(name) ? ' country-key' : '');
+    for (const ring of rings) {
+      const d = ring.map(([lon, lat], i) =>
+        `${i ? 'L' : 'M'}${project([lat, lon]).map(n => n.toFixed(1)).join(',')}`).join(' ') + ' Z';
+      const path = svgEl('path', { d, class: cls });
+      const title = svgEl('title');
+      title.textContent = name;
+      path.appendChild(title);
+      g.appendChild(path);
+    }
+  }
+}
+
+// Where several people walk the same leg, fan the lines apart so all of them
+// stay visible — and so the convergence on Haifa reads as four lines arriving.
+function offsetPolyline(pts, shift) {
+  if (shift === 0 || pts.length < 2) return pts;
+  return pts.map((p, i) => {
+    const a = pts[Math.max(0, i - 1)], b = pts[Math.min(pts.length - 1, i + 1)];
+    const dx = b[0] - a[0], dy = b[1] - a[1];
+    const len = Math.hypot(dx, dy) || 1;
+    return [p[0] - (dy / len) * shift, p[1] + (dx / len) * shift];
+  });
+}
+
 function buildJourneyMap(data) {
-  const legs = data.legs;
-  const project = journeyProjection(legs);
-  const svg = svgEl('svg', { class: 'journey-map', viewBox: `0 0 ${JOURNEY.W} ${JOURNEY.H}`, xmlns: SVGNS });
-  // Geography does not flip with the language.
-  svg.setAttribute('direction', 'ltr');
+  const project = journeyProjection();
+  const svg = svgEl('svg', {
+    class: 'journey-map', viewBox: `0 0 ${JOURNEY.W} ${JOURNEY.H}`, xmlns: SVGNS,
+    role: 'img', 'aria-label': t('journey.map_alt'),
+  });
+  svg.setAttribute('direction', 'ltr');       // geography does not flip with the language
+
+  drawCountries(svg, project);
+  const lines = svgEl('g', { class: 'journey-lines' });
+  const nodes = svgEl('g', { class: 'journey-nodes' });
+  svg.appendChild(lines); svg.appendChild(nodes);
 
   const byDate = ls => ls.slice().sort((a, b) => (a.date || '').localeCompare(b.date || ''));
-  const at = id => legs.find(l => l.place_id === id);
-  const brussels = at('pl_brussels'), haifa = at('pl_haifa');
+  const ids = Object.keys(data.people);
 
-  const together = byDate(legs.filter(l => l.track === 'together' && l.place_id !== 'pl_haifa'));
-  const dsLegs = byDate(legs.filter(l => l.track === 'david_shimon'));
-  const ldLegs = byDate(legs.filter(l => l.track === 'lusia_dov'));
+  // one line per person, through the legs they were actually on
+  ids.forEach((pid, i) => {
+    const legs = byDate(data.legs.filter(l => (l.people || []).includes(pid)));
+    if (legs.length < 2) return;
+    const shift = (i - (ids.length - 1) / 2) * JOURNEY.SPREAD;
+    const pts = offsetPolyline(legs.map(l => project(l.coords)), shift);
+    const d = pts.map(([x, y], n) => `${n ? 'L' : 'M'}${x.toFixed(1)},${y.toFixed(1)}`).join(' ');
+    const path = svgEl('path', {
+      d, class: `journey-route route-${pid}`, 'data-person': pid,
+      stroke: data.people[pid].colour,
+    });
+    if (data.people[pid].dash !== 'none') path.setAttribute('stroke-dasharray', data.people[pid].dash);
+    lines.appendChild(path);
+  });
 
-  const routes = [
-    { key: 'together', pts: together.map(l => l.coords) },
-    { key: 'david_shimon', pts: [brussels.coords, ...dsLegs.map(l => l.coords), haifa.coords] },
-    { key: 'lusia_dov', pts: [brussels.coords, haifa.coords] },
-  ];
-
-  const lines = svgEl('g', { class: 'journey-lines' });
-  svg.appendChild(lines);
-  for (const r of routes) {
-    const d = r.pts.map(project).map(([x, y], i) => `${i ? 'L' : 'M'}${x.toFixed(1)},${y.toFixed(1)}`).join(' ');
-    lines.appendChild(svgEl('path', { d, class: `journey-route route-${r.key}` }));
-  }
-
-  // one marker per place, labelled with the years it appears in the story
-  const nodes = svgEl('g', { class: 'journey-nodes' });
-  svg.appendChild(nodes);
+  // one marker per place
   const seen = new Map();
-  for (const l of byDate(legs)) {
-    const cur = seen.get(l.place_id) || { coords: l.coords, years: [], legs: [] };
+  for (const l of byDate(data.legs)) {
+    const cur = seen.get(l.place_id) || { coords: l.coords, years: [], legs: [], people: new Set() };
     if (!cur.years.includes(l.year)) cur.years.push(l.year);
     cur.legs.push(l);
+    (l.people || []).forEach(p => cur.people.add(p));
     seen.set(l.place_id, cur);
   }
   for (const [placeId, info] of seen) {
     const [x, y] = project(info.coords);
-    const g = svgEl('g', { class: 'journey-node', 'data-place': placeId, tabindex: '0', role: 'button' });
+    const g = svgEl('g', {
+      class: 'journey-node', 'data-place': placeId,
+      'data-people': [...info.people].join(' '), tabindex: '0', role: 'button',
+    });
     g.appendChild(svgEl('circle', { cx: x, cy: y, r: JOURNEY.R, class: 'journey-dot' }));
     const place = State.byId.places[placeId];
-    // "Atlit, British Mandate Palestine" and "Lwów / Lviv / Lemberg" are too
-    // long to sit on a map pin — take the town name only.
     const name = place
       ? ml(place.names).split(' (')[0].split(' / ')[0].split(',')[0].trim()
       : placeId;
     nodes.appendChild(g);
-    // Name and years travel together as one caption block, so collision
-    // resolution moves them as a unit. Placed properly once measured.
     const cap = svgEl('g', { class: 'journey-caption' });
     cap.dataset.cx = x; cap.dataset.cy = y;
     const label = svgEl('text', { x: 0, y: 0, class: 'journey-label' });
@@ -958,20 +997,44 @@ function buildJourneyMap(data) {
     const yrs = svgEl('text', { x: 0, y: 13, class: 'journey-years' });
     yrs.textContent = info.years.join(' · ');
     cap.appendChild(yrs);
-    cap.setAttribute('transform', `translate(${x},${y - 18})`);
+    cap.setAttribute('transform', `translate(${x},${y - 16})`);
     g.appendChild(cap);
     const title = svgEl('title');
     title.textContent = `${name} — ${info.legs.map(l => ml(l.title)).join(' / ')}`;
     g.appendChild(title);
     const jump = () => {
       const el = document.getElementById('leg-' + info.legs[0].id);
-      if (el) { el.scrollIntoView({ behavior: 'smooth', block: 'center' }); el.classList.add('leg-flash');
-                setTimeout(() => el.classList.remove('leg-flash'), 1400); }
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        el.classList.add('leg-flash');
+        setTimeout(() => el.classList.remove('leg-flash'), 1400);
+      }
     };
     g.addEventListener('click', jump);
     g.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); jump(); } });
   }
   return svg;
+}
+
+// Show only the selected people: their lines, and the places they were at.
+function applyJourneyFilter(scope) {
+  const sel = JourneyState.people;
+  scope.querySelectorAll('.journey-route').forEach(p => {
+    p.classList.toggle('is-hidden', !sel.has(p.dataset.person));
+  });
+  scope.querySelectorAll('.journey-node').forEach(n => {
+    const who = (n.dataset.people || '').split(' ').filter(Boolean);
+    n.classList.toggle('is-hidden', !who.some(w => sel.has(w)));
+  });
+  scope.querySelectorAll('.journey-leg').forEach(l => {
+    const who = (l.dataset.people || '').split(' ').filter(Boolean);
+    l.classList.toggle('is-hidden', !who.some(w => sel.has(w)));
+  });
+  scope.querySelectorAll('[data-person-toggle]').forEach(b => {
+    const on = sel.has(b.dataset.personToggle);
+    b.classList.toggle('on', on);
+    b.setAttribute('aria-pressed', String(on));
+  });
 }
 
 // Place names on a small map collide — Galicia alone puts five towns within a
@@ -1029,18 +1092,19 @@ function renderJourney(root) {
     const body = document.getElementById('journey-body');
     if (!body) return;
 
-    const tracks = [
-      ['together', t('journey.track_together')],
-      ['david_shimon', t('journey.track_david_shimon')],
-      ['lusia_dov', t('journey.track_lusia_dov')],
-    ];
     const agreements = ['confirmed', 'corrected', 'memoir_only', 'context'];
+    const people = Object.entries(data.people);
 
     body.innerHTML = `
-      <div class="journey-legend">
-        ${tracks.map(([k, label]) => `
-          <span class="legend-item"><span class="journey-swatch swatch-${k}"></span>${escapeHtml(label)}</span>
+      <p class="journey-hint">${escapeHtml(t('journey.pick_hint'))}</p>
+      <div class="journey-people">
+        ${people.map(([id, p]) => `
+          <button class="person-toggle on" data-person-toggle="${escapeHtml(id)}"
+                  aria-pressed="true" style="--person: ${escapeHtml(p.colour)}">
+            <span class="person-line"></span>${escapeHtml(ml(p.name))}
+          </button>
         `).join('')}
+        <button class="person-toggle person-all" data-person-all>${escapeHtml(t('journey.show_all'))}</button>
       </div>
       <div class="journey-map-wrap" id="journey-map-wrap"></div>
       <div class="journey-key">
@@ -1053,10 +1117,13 @@ function renderJourney(root) {
           const place = State.byId.places[l.place_id];
           const docs = (l.evidence.documents || []).map(id => State.byId.documents[id]).filter(Boolean);
           return `
-          <article class="journey-leg" id="leg-${escapeHtml(l.id)}">
+          <article class="journey-leg" id="leg-${escapeHtml(l.id)}" data-people="${escapeHtml((l.people || []).join(' '))}">
             <div class="leg-rail">
               <span class="leg-year">${escapeHtml(l.year)}</span>
               <span class="leg-place">${escapeHtml(place ? ml(place.names).split(' (')[0] : '')}</span>
+              <span class="leg-who">${(l.people || []).map(pid => `
+                <i class="who-dot" style="--person:${escapeHtml((data.people[pid] || {}).colour || '#000')}"
+                   title="${escapeHtml(ml((data.people[pid] || {}).name || {}))}"></i>`).join('')}</span>
             </div>
             <div class="leg-body">
               <div class="leg-head">
@@ -1089,6 +1156,22 @@ function renderJourney(root) {
     // Only now that it is in the document can the captions be measured, so the
     // collision pass runs here rather than while building.
     resolveJourneyCaptions(map);
+
+    // Pick a person to follow them alone; pick all four and they converge on Haifa.
+    body.querySelectorAll('[data-person-toggle]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const id = btn.dataset.personToggle;
+        if (JourneyState.people.has(id)) JourneyState.people.delete(id);
+        else JourneyState.people.add(id);
+        if (!JourneyState.people.size) Object.keys(data.people).forEach(k => JourneyState.people.add(k));
+        applyJourneyFilter(body);
+      });
+    });
+    body.querySelector('[data-person-all]').addEventListener('click', () => {
+      Object.keys(data.people).forEach(k => JourneyState.people.add(k));
+      applyJourneyFilter(body);
+    });
+    applyJourneyFilter(body);
   }).catch(err => {
     const body = document.getElementById('journey-body');
     if (body) body.innerHTML = `<p class="muted">${escapeHtml(String(err.message || err))}</p>`;
@@ -1207,7 +1290,7 @@ function renderPeople(root, paramId) {
       <div class="person-dates">
         ${escapeHtml(fmtDateRange(p))}
       </div>
-      ${p.note_en ? `<div class="person-note">${escapeHtml(p.note_en)}</div>` : ''}
+      ${p.note_en ? `<div class="person-note" dir="auto">${escapeHtml(p.note_en)}</div>` : ''}
     </div>`;
 
   const lang = State.lang;
@@ -1232,13 +1315,20 @@ function roleLabel(role) {
   return role.replace(/_/g, ' ');
 }
 
+// 65 of the 122 people have no recorded birth date — the living family, the
+// rescuers, relatives known only from a marriage register. Printing "?" against
+// each of them said nothing except that a field was empty, and the section
+// heading already explains why. Show what we have; say nothing where we have
+// nothing.
 function fmtDateRange(p) {
-  const b = p.birth?.date ? extractYear(p.birth.date) : '?';
-  const d = p.death?.date ? extractYear(p.death.date) : null;
+  const b = p.birth?.date ? extractYear(p.birth.date) : '';
+  const d = p.death?.date ? extractYear(p.death.date) : '';
   const bPlace = p.birth?.place_id ? ml(State.byId.places[p.birth.place_id]?.names) : '';
-  let out = b;
-  if (bPlace) out += ' · ' + bPlace.split(' (')[0];
-  if (d) out = out + ' — ' + d;
+  let out = '';
+  if (b && d) out = `${b} — ${d}`;
+  else if (b) out = b;
+  else if (d) out = `${t('ui.died')} ${d}`;
+  if (bPlace) out = out ? `${out} · ${bPlace.split(' (')[0]}` : bPlace.split(' (')[0];
   return out;
 }
 
@@ -1261,7 +1351,7 @@ function openPersonModal(id) {
     <div class="detail-name">${escapeHtml(ml(p.primary_name))}</div>
     ${p.aliases?.length ? `<div class="detail-aliases">${escapeHtml(p.aliases.join(' · '))}</div>` : ''}
     <div class="muted" style="margin-bottom:1rem;font-family:var(--font-mono);font-size:0.78rem;text-transform:uppercase;letter-spacing:0.08em;">${escapeHtml(roleLabel(p.role))}</div>
-    ${p.note_en ? `<p style="font-family:var(--font-serif);font-size:1.05rem;line-height:1.6;color:var(--ink-soft);">${escapeHtml(p.note_en)}</p>` : ''}
+    ${p.note_en ? `<p dir="auto" style="font-family:var(--font-serif);font-size:1.05rem;line-height:1.6;color:var(--ink-soft);">${escapeHtml(p.note_en)}</p>` : ''}
 
     <div class="detail-section">
       <h4>${escapeHtml(t('ui.born'))} / ${escapeHtml(t('ui.died'))}</h4>
@@ -1331,7 +1421,7 @@ function renderPlaces(root, paramId) {
         <div class="place-card" data-place="${escapeHtml(p.id)}">
           <div class="person-name-big">${escapeHtml(ml(p.names))}</div>
           ${p.coords ? `<div class="place-coords">${p.coords[0].toFixed(4)}, ${p.coords[1].toFixed(4)}</div>` : ''}
-          ${p.significance ? `<p style="margin-top:0.6em;font-size:0.92rem;color:var(--ink-soft);line-height:1.5;">${escapeHtml(p['significance_' + State.lang] || p.significance)}</p>` : ''}
+          ${p.significance ? `<p dir="auto" style="margin-top:0.6em;font-size:0.92rem;color:var(--ink-soft);line-height:1.5;">${escapeHtml(p['significance_' + State.lang] || p.significance)}</p>` : ''}
           ${p.building_now ? `<div style="margin-top:0.5em;font-size:0.9rem;font-family:var(--font-mono);color:var(--accent);"><strong>${escapeHtml(t('nav.address_today'))}:</strong> ${escapeHtml(p.building_now)}</div>` : ''}
           ${p.era_context ? `
             <div class="place-eras">

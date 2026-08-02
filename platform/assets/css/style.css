@@ -1774,3 +1774,31 @@ html[dir="rtl"] .leg-memoir p { font-family: var(--font-hebrew); font-size: 1rem
 }
 .journey-leader { stroke: var(--border); stroke-width: 1; }
 .journey-label, .journey-years { text-anchor: middle; }
+
+/* Journey: pick who to follow */
+.journey-hint { color: var(--muted); font-size: 0.9rem; margin-bottom: 0.6rem; }
+.journey-people { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: var(--pad-md); }
+.person-toggle {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  background: var(--paper); border: 1.5px solid var(--border);
+  color: var(--muted); padding: 0.4rem 0.9rem; border-radius: 999px;
+  font-family: var(--font-sans); font-size: 0.88rem; font-weight: 600; cursor: pointer;
+  transition: all 0.15s;
+}
+.person-toggle .person-line {
+  width: 22px; height: 0; border-top: 3px solid currentColor; opacity: 0.45;
+}
+.person-toggle.on { color: var(--person); border-color: var(--person); background: var(--paper); }
+.person-toggle.on .person-line { opacity: 1; }
+.person-toggle:hover { border-color: var(--person, var(--accent)); }
+.person-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.person-all { color: var(--ink); }
+
+.leg-who { display: flex; gap: 4px; margin-top: 0.45rem; }
+.who-dot { width: 9px; height: 9px; border-radius: 50%; background: var(--person); display: inline-block; }
+
+/* Land under the route */
+.country      { fill: var(--paper-deep); stroke: var(--border); stroke-width: 0.7; }
+.country-key  { fill: #dfe8ff; stroke: var(--accent-soft); stroke-width: 1; }
+.journey-route.is-hidden, .journey-node.is-hidden, .journey-leg.is-hidden { display: none; }
+.journey-route { transition: opacity 0.15s; }

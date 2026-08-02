@@ -221,9 +221,6 @@
   "journey": {
     "title": "The Journey",
     "lead": "Nadwórna to Haifa, 1911–1948 — what Lusia wrote, set against what the documents show.",
-    "track_together": "David, Lusia and Shimon",
-    "track_david_shimon": "David and Shimon",
-    "track_lusia_dov": "Lusia and baby Dov",
     "memoir_says": "Lusia writes",
     "documents_say": "The documents show",
     "page": "page",
@@ -232,6 +229,9 @@
     "agree_confirmed": "Document agrees",
     "agree_corrected": "Document corrects the memoir",
     "agree_memoir_only": "Her account alone",
-    "agree_context": "History documented, family not named"
+    "agree_context": "History documented, family not named",
+    "pick_hint": "Pick a person to follow them alone. Pick all four and they meet in Haifa.",
+    "show_all": "Show all four",
+    "map_alt": "Map of the journey from Galicia through Poland, Belgium and France to Cyprus and Israel"
   }
 }

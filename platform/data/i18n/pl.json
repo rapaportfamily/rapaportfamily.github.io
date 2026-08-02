@@ -221,9 +221,6 @@
   "journey": {
     "title": "Podróż",
     "lead": "Z Nadwórnej do Hajfy, 1911–1948 — co napisała Łucja, w zestawieniu z dokumentami.",
-    "track_together": "Dawid, Łucja i Szymon",
-    "track_david_shimon": "Dawid i Szymon",
-    "track_lusia_dov": "Łucja i mały Dov",
     "memoir_says": "Łucja pisze",
     "documents_say": "Dokumenty pokazują",
     "page": "strona",
@@ -232,6 +229,9 @@
     "agree_confirmed": "Dokument potwierdza",
     "agree_corrected": "Dokument koryguje pamiętnik",
     "agree_memoir_only": "Tylko jej relacja",
-    "agree_context": "Historia udokumentowana, rodzina niewymieniona"
+    "agree_context": "Historia udokumentowana, rodzina niewymieniona",
+    "pick_hint": "Wybierz osobę, aby śledzić ją samą. Wybierz całą czwórkę — spotkają się w Hajfie.",
+    "show_all": "Pokaż całą czwórkę",
+    "map_alt": "Mapa podróży z Galicji przez Polskę, Belgię i Francję na Cypr i do Izraela"
   }
 }

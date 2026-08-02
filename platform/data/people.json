@@ -1943,10 +1943,10 @@
     {
       "id": "p_dana",
       "primary_name": {
-        "en": "Dana Rapaport",
-        "he": "דנה רפפורט",
-        "pl": "Dana Rapaport",
-        "fr": "Dana Rapaport"
+        "en": "Dana Rapaport Hinkus",
+        "he": "דנה רפפורט הינקוס",
+        "pl": "Dana Rapaport Hinkus",
+        "fr": "Dana Rapaport Hinkus"
       },
       "role": "sister",
       "note_en": "Equal partner in this family research project.",
@@ -2012,34 +2012,42 @@
     {
       "id": "p_lior_hinkus",
       "primary_name": {
-        "en": "Lior Hinkus",
-        "he": "ליאור הינקוס",
-        "pl": "Lior Hinkus",
-        "fr": "Lior Hinkus"
+        "en": "Lior Rapaport Hinkus",
+        "he": "ליאור רפפורט הינקוס",
+        "pl": "Lior Rapaport Hinkus",
+        "fr": "Lior Rapaport Hinkus"
       },
       "role": "spouse",
       "note_en": "Dana's husband.",
-      "spouse_id": "p_dana"
+      "spouse_id": "p_dana",
+      "aliases": [
+        "Hinkus",
+        "הינקוס"
+      ]
     },
     {
       "id": "p_heli_avitan",
       "primary_name": {
-        "en": "Heli Avitan",
-        "he": "הלי אביטן",
-        "pl": "Heli Avitan",
-        "fr": "Heli Avitan"
+        "en": "Heli Rapaport",
+        "he": "חלי רפפורט",
+        "pl": "Heli Rapaport",
+        "fr": "Heli Rapaport"
       },
       "role": "spouse",
       "note_en": "Daniel's wife.",
-      "spouse_id": "p_daniel"
+      "spouse_id": "p_daniel",
+      "aliases": [
+        "Avitan",
+        "אביטן"
+      ]
     },
     {
       "id": "p_yarden_rapaport",
       "primary_name": {
-        "en": "Yarden Rapaport",
-        "he": "ירדן רפפורט",
-        "pl": "Yarden Rapaport",
-        "fr": "Yarden Rapaport"
+        "en": "Yarden Rapaport Hinkus",
+        "he": "ירדן רפפורט הינקוס",
+        "pl": "Yarden Rapaport Hinkus",
+        "fr": "Yarden Rapaport Hinkus"
       },
       "role": "grandchild",
       "note_en": "Dana and Lior's child; granddaughter/grandson of Dov and Dalia.",
@@ -2065,10 +2073,10 @@
     {
       "id": "p_itamar_rapaport",
       "primary_name": {
-        "en": "Itamar Rapaport",
-        "he": "איתמר רפפורט",
-        "pl": "Itamar Rapaport",
-        "fr": "Itamar Rapaport"
+        "en": "Itamar Rapaport Hinkus",
+        "he": "איתמר רפפורט הינקוס",
+        "pl": "Itamar Rapaport Hinkus",
+        "fr": "Itamar Rapaport Hinkus"
       },
       "role": "grandchild",
       "note_en": "Dana and Lior's child.",
@@ -2094,10 +2102,10 @@
     {
       "id": "p_carmel_rapaport",
       "primary_name": {
-        "en": "Carmel Rapaport",
-        "he": "כרמל רפפורט",
-        "pl": "Carmel Rapaport",
-        "fr": "Carmel Rapaport"
+        "en": "Carmel Rapaport Hinkus",
+        "he": "כרמל רפפורט הינקוס",
+        "pl": "Carmel Rapaport Hinkus",
+        "fr": "Carmel Rapaport Hinkus"
       },
       "role": "grandchild",
       "note_en": "Dana and Lior's child.",
@@ -2123,10 +2131,10 @@
     {
       "id": "p_rom_rapaport",
       "primary_name": {
-        "en": "Rom Rapaport",
-        "he": "רום רפפורט",
-        "pl": "Rom Rapaport",
-        "fr": "Rom Rapaport"
+        "en": "Rom Rapaport Hinkus",
+        "he": "רום רפפורט הינקוס",
+        "pl": "Rom Rapaport Hinkus",
+        "fr": "Rom Rapaport Hinkus"
       },
       "role": "grandchild",
       "note_en": "Dana and Lior's child.",
@@ -2153,7 +2161,7 @@
       "id": "p_alma_rapaport",
       "primary_name": {
         "en": "Alma Rapaport",
-        "he": "אלמה רפפורט",
+        "he": "עלמה רפפורט",
         "pl": "Alma Rapaport",
         "fr": "Alma Rapaport"
       },
