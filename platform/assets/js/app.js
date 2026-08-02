@@ -127,7 +127,10 @@ function router() {
   const hash = location.hash || '#/home';
   const path = hash.slice(2).split('/');
   const view = path[0] || 'home';
-  const param = path[1];
+  // The browser percent-encodes anything non-ASCII in the hash, so a search for
+  // "Liège" or "Radomyśl" reached the views as "Li%C3%A8ge" and matched nothing.
+  let param = path[1];
+  if (param) { try { param = decodeURIComponent(param); } catch (e) { /* malformed — use as-is */ } }
 
   document.querySelectorAll('.nav-inner a').forEach(a => {
     a.classList.toggle('active', a.dataset.nav === view);
@@ -163,6 +166,16 @@ function pageHeader(titleKey, leadKey) {
       <p class="lead">${escapeHtml(t(leadKey))}</p>
     </div>
   `;
+}
+
+// Half this archive is Polish, French and Hebrew. Searching "Liege" should find
+// "Liège", and "Radomysl" should find "Radomyśl" — strip the diacritics from
+// both the text and the query before comparing.
+function foldText(v) {
+  return String(v == null ? '' : v)
+    .normalize('NFD').replace(/[̀-ͯ]/g, '')
+    .replace(/[ł]/g, 'l').replace(/[Ł]/g, 'L')
+    .toLowerCase();
 }
 
 // Tolerate hand-edited data: a field the renderer expects as a list may
@@ -1468,14 +1481,14 @@ function renderDocuments(root, paramId) {
       if (kf === 'attachment' && !d._isAdditional) return false;
     }
     if (!q) return true;
-    const hay = [
+    const hay = foldText([
       ml(d.title), d.type, d.kind,
       ml(d.summary), d.source_archive,
       (d.file_pages || []).join(' '),
       Object.values(d.decoded_fields || {}).join(' '),
       Object.values(d.key_quotes || {}).join(' '),
-    ].join(' ').toLowerCase();
-    return hay.includes(q);
+    ].join(' '));
+    return hay.includes(foldText(q));
   });
 
   const kindCounts = {
@@ -1858,11 +1871,11 @@ function renderResearch(root, param) {
     const intro = pickField(section, 'intro');
     const visibleCards = (section.cards || []).filter(c => {
       if (!q) return true;
-      const hay = [
+      const hay = foldText([
         pickField(c, 'title'), pickField(c, 'summary'),
         c.quote_en || '', c.source || '', (c.urls || []).join(' ')
-      ].join(' ').toLowerCase();
-      return hay.includes(q);
+      ].join(' '));
+      return hay.includes(foldText(q));
     });
     if (!visibleCards.length && q) continue;
 

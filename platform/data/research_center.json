@@ -1,7 +1,163 @@
 {
   "_schema": "Consolidated research findings. Each section has cards that are expandable in the UI. status: confirmed (we have a document/citation), likely (strong evidence but not yet a primary source in hand), lead (worth chasing).",
-  "generated": "2026-05-21",
+  "generated": "2026-08-02",
   "sections": [
+    {
+      "id": "summer_2026",
+      "title_en": "📌 What we learned in June and July 2026",
+      "title_he": "📌 מה למדנו ביוני וביולי 2026",
+      "intro_en": "The Research Center below was built on 21 May. Everything in this section came after it — the summer that cracked the paternal line. Six weeks earlier it stopped at a bare name; it now runs six documented generations to a rabbi in Dąbrowa Tarnowska. Each card names its source and its date. Where something is probable rather than proven, it says so.",
+      "intro_he": "מרכז המחקר שלהלן נבנה ב-21 במאי. כל מה שבחלק הזה הגיע אחריו — הקיץ שבו נפרץ קו האב. שישה שבועות קודם לכן הוא נעצר בשם ערום; כעת הוא נמשך שישה דורות מתועדים עד רב בדומברובה טרנובסקה. כל כרטיס נוקב במקורו ובתאריכו. היכן שדבר מה סביר ולא מוכח — כך נכתב.",
+      "cards": [
+        {
+          "id": "paternal_line_radomysl_cracked",
+          "pillar": "independent",
+          "title_en": "🎯 The paternal line is cracked — Berisz was born in Radomyśl Wielki, 30 July 1886",
+          "title_he": "🎯 קו האב נפרץ — בריש נולד ברדומישל וייקי, 30 ביולי 1886",
+          "status": "confirmed",
+          "summary_en": "For six weeks the paternal line stopped dead at \"Berish Rapaport\", the bare name Edward Gelles had after twenty-five years of work. It is now six documented generations. Berisz was born 30 July 1886 in RADOMYŚL WIELKI — not Tarnów 1884, which was a different family and was retracted. His parents were Moses (Moshe) Saul Rapaport and Menukha. The family moved east afterwards: Stanisławów by 1924, Nadwórna by marriage, Przemyśl by 1939.",
+          "summary_he": "במשך שישה שבועות נעצר קו האב ב״ברִיש רפפורט״ — השם הערום שהיה בידי אדוארד גֶלֶס לאחר עשרים וחמש שנות מחקר. כעת יש שישה דורות מתועדים. בריש נולד ב-30 ביולי 1886 ברדומישל וייקי — לא בטרנוב 1884, שהייתה משפחה אחרת ונמשכה בחזרה. הוריו: משה שאול רפפורט ומנוחה. אחר כך נדדה המשפחה מזרחה: סטניסלבוב עד 1924, נדבורנה בנישואין, פשמישל עד 1939.",
+          "source": "Basia, USHMM passport file, 25 May 2026; supersedes the retracted Tarnów-1884 reading",
+          "urls": []
+        },
+        {
+          "id": "apical_couple_three_records",
+          "pillar": "independent",
+          "title_en": "📜 Three independent Tarnów marriage records name the same apical couple",
+          "title_he": "📜 שלוש רשומות נישואין עצמאיות מטרנוב נוקבות באותו זוג אב",
+          "status": "confirmed",
+          "summary_en": "Moses Saul + Menukha are not a family tradition — three separate primary deeds name them, each at the marriage of one of Berisz’s sisters: Freida Amalia, 8 June 1919 (entry 40); Jente, 12 December 1920 (entry 98); Rebeka the younger, 4 September 1923 (entry 101), which also states she was born in Radomyśl Wielki. All three were officiated by Rabbi Josef Chaim Kirschenbaum of Tarnów. The full scanned deeds arrived in the July export and are now in the archive.",
+          "summary_he": "משה שאול ומנוחה אינם מסורת משפחתית — שלושה שטרות ראשוניים נפרדים נוקבים בשמם, כל אחד בנישואי אחת מאחיותיו של בריש: פרידה אמליה, 8 ביוני 1919 (רשומה 40); יענטה, 12 בדצמבר 1920 (רשומה 98); רבקה הצעירה, 4 בספטמבר 1923 (רשומה 101), שם גם נכתב שנולדה ברדומישל וייקי. שלושתם נערכו בידי הרב יוסף חיים קירשנבאום מטרנוב. שטרות הסריקה המלאים הגיעו בייצוא יולי ונמצאים כעת בארכיון.",
+          "source": "Archiwum Narodowe w Krakowie, Oddział w Tarnowie — read by Claude vision from Basia’s scans, 1 June 2026",
+          "urls": []
+        },
+        {
+          "id": "szabse_rabbi_dabrowa",
+          "pillar": "independent",
+          "title_en": "🕍 Szabse Rapaport was the rabbi of Dąbrowa Tarnowska — and it explains the passport",
+          "title_he": "🕍 שבסה רפפורט היה רבה של דומברובה טרנובסקה — וזה מסביר את הדרכון",
+          "status": "likely",
+          "summary_en": "Basia worked the Tarnów notarial records and the Dąbrowa rabbinate lists: \"I looked through the records at the notary’s office in Tarnów, and they convinced me that Szabse was your ancestor.\" She places SZABSE RAPAPORT as rabbi in Dąbrowa Tarnowska until 20 April 1884, succeeded by Majer Rapaport of Łuków that May and Hirsz Weiss that September; she reads the 1886 entry — \"Hersz Weiss\" written over a crossed-out \"Szabsa Rapaport\" — as a scribal duplicate, not evidence he was still serving. This settles a detail that had sat unexplained since 23 May: Berisz’s 1924 passport registers the family commune as Dąbrowa Tarnowska, neither Radomyśl nor Nadwórna. It is the town where his grandfather was rabbi. Held at likely, not confirmed — no document yet names Moses Saul’s father outright.",
+          "summary_he": "בסיה עברה על רשומות הנוטריון בטרנוב ועל רשימות הרבנות בדומברובה: ״עברתי על הרשומות במשרד הנוטריון בטרנוב, והן שכנעו אותי ששבסה היה אב־קדמונכם.״ היא ממקמת את שבסה רפפורט כרב בדומברובה טרנובסקה עד 20 באפריל 1884, ואחריו מאיר רפפורט מלוקוב במאי והירש ווייס בספטמבר; את הרישום מ-1886 — ״הרש ווייס״ שנכתב על ״שבסה רפפורט״ מחוק — היא קוראת ככפילות של הלבלר, לא כראיה שעדיין כיהן. זה מיישב פרט שנותר בלא הסבר מאז 23 במאי: הדרכון של בריש מ-1924 רושם את קהילת המשפחה כדומברובה טרנובסקה, לא רדומישל ולא נדבורנה. זו העיירה שבה היה סבו רב. נשמר כ״סביר״, לא כמאומת — עדיין אין מסמך הנוקב במפורש בשם אביו של משה שאול.",
+          "source": "Basia, 7 July 2026, from the Tarnów notarial records and the Dąbrowa rabbinate lists 1884-1897",
+          "urls": []
+        },
+        {
+          "id": "schabse_myheritage_figa_yete",
+          "pillar": "independent",
+          "title_en": "🧾 The same evening, from a different direction: Schabse with Figa/Yete and a son Yitzhak Haim",
+          "title_he": "🧾 באותו ערב, מכיוון אחר: שבסה עם פיגה/יטה ובן יצחק חיים",
+          "status": "likely",
+          "summary_en": "Minutes before Basia set out the rabbinate lists, Dana posted a MyHeritage record another researcher had sent her: \"In Hebrew the translation is schabse and figa/yete and their son yitzhak Haim.\" Figa / Yete against the Ita Feigi of the 1933 Tarnów death record — the same given names, differently transliterated, arrived at independently. Dana also asks whether Yitzhak Haim is Moses Saul’s brother; that is not established.",
+          "summary_he": "דקות לפני שבסיה פרשה את רשימות הרבנות, דנה שלחה רשומת MyHeritage שחוקר אחר העביר אליה: ״בעברית התרגום הוא שבסה ופיגה/יטה ובנם יצחק חיים.״ פיגה/יטה מול איטה פייגי שבתעודת הפטירה מטרנוב 1933 — אותם שמות פרטיים, בתעתיק שונה, שהגיעו בדרך עצמאית. דנה גם שואלת אם יצחק חיים הוא אחיו של משה שאול; הדבר לא הוכח.",
+          "source": "Dana, 7 July 2026, MyHeritage — doc_schabse_myheritage_2026",
+          "urls": []
+        },
+        {
+          "id": "berisz_auschwitz_188161",
+          "pillar": "independent",
+          "title_en": "🕯️ Berisz died at Auschwitz — victim record #188161, transport #689",
+          "title_he": "🕯️ בריש נספה באושוויץ — רשומת קורבן #188161, משלוח #689",
+          "status": "confirmed",
+          "summary_en": "Two earlier readings were wrong and both were withdrawn: he did not die in the Bukowinka forest aktion, and he was not the Ben-Zion Rappaport deported from Nowy Sącz to Bełżec. The Auschwitz Museum victim record settles it. The memoir’s account — that the Germans killed him in Przemyśl on a fabricated railway-bomb charge — describes his arrest; the camp record describes the end.",
+          "summary_he": "שתי קריאות קודמות היו שגויות ושתיהן נמשכו: הוא לא נספה באקציית יער בוקובינקה, ואינו בן־ציון רפפורט שגורש מנובי סונץ לבלז׳ץ. רשומת הקורבן של מוזיאון אושוויץ מכריעה. תיאור היומן — שהגרמנים הרגו אותו בפשמישל באשמת שווא של הנחת פצצה על המסילה — מתאר את מעצרו; רשומת המחנה מתארת את הסוף.",
+          "source": "Auschwitz-Birkenau State Museum victim database — doc_auschwitz_victim_188161",
+          "urls": [
+            "https://victims.auschwitz.org/victims/188161"
+          ]
+        },
+        {
+          "id": "jente_survived_liege",
+          "pillar": "independent",
+          "title_en": "💙 Jente survived — she was alive in Liège in 1946",
+          "title_he": "💙 יענטה שרדה — היא הייתה בחיים בליאז׳ ב-1946",
+          "status": "confirmed",
+          "summary_en": "Berisz’s sister Jente was a great-grand-aunt with an undocumented fate. She survived. Her daughter Szewa Horowitz, born Tarnów 1920, appears on the complete 1941 list of Jews in Liège at 5 Place Delcour — a document now in the archive. The Liège marriage record of 15 June 1946 states that the bride’s mother, \"Jenta Rapaport\", was living together with her daughter. Szewa died in 1985 and is buried at Holon.",
+          "summary_he": "יענטה, אחותו של בריש, הייתה דודה־רבתא שגורלה לא היה ידוע. היא שרדה. בתה שבע הורוויץ, ילידת טרנוב 1920, מופיעה ברשימת יהודי ליאז׳ המלאה מ-1941 בכתובת פלס דלקור 5 — מסמך שנמצא כעת בארכיון. רשומת הנישואין מליאז׳, 15 ביוני 1946, מציינת שאם הכלה, ״יענטה רפפורט״, התגוררה עם בתה. שבע נפטרה ב-1985 וקבורה בחולון.",
+          "source": "Basia, 8-10 June 2026; Liège 1941 census of Jews; Liège marriage record no. 1142",
+          "urls": []
+        },
+        {
+          "id": "szymon_sixth_child_lea_segal",
+          "pillar": "independent",
+          "title_en": "👥 A sixth child of the apical couple — Szymon, and the cousin the divorce paper belonged to",
+          "title_he": "👥 ילד שישי לזוג האב — שימון, ובת הדודה שאליה שייך שטר הגירושין",
+          "status": "confirmed",
+          "summary_en": "Szymon (Simon) Rapaport, son of Moses and Menukha, born Radomyśl around January 1884, found through his marriage at Sambor on 8 June 1913 to Paja Laub. His daughter Lea — \"Memek’s cousin\" — is Lea Rapaport-Segal, later Lea Fridman. This overturns an earlier retraction: the 1941 certificate of divorce had been filed as \"probably not our family\". It is our family. Lea reached Israel, filed a Yad Vashem report and searched for relatives.",
+          "summary_he": "שימון (סימון) רפפורט, בנם של משה ומנוחה, יליד רדומישל בערך בינואר 1884, אותר דרך נישואיו בסמבור ב-8 ביוני 1913 לפַּיָה לאוב. בתו לאה — ״בת דודתו של ממק״ — היא לאה רפפורט-סגל, לימים לאה פרידמן. הדבר הופך משיכה קודמת: תעודת הגירושין מ-1941 תויקה כ״כנראה לא משפחתנו״. היא כן. לאה הגיעה לישראל, הגישה דיווח ליד ושם וחיפשה קרובים.",
+          "source": "Basia, 2 June 2026 — Sambor 1913 marriage record; Yad Vashem name record 450647",
+          "urls": []
+        },
+        {
+          "id": "david_signature_yv_1953",
+          "pillar": "from_book",
+          "title_en": "✍️ David’s own hand — he filed the Pages of Testimony for his parents in 1953",
+          "title_he": "✍️ כתב ידו של דוד — הוא הגיש את דפי העד להוריו ב-1953",
+          "status": "confirmed",
+          "summary_en": "The long-open question of finding David’s signature on any document is answered, and by the family itself. Dana recognised the handwriting on the 1953 Yad Vashem Pages of Testimony for Bernard Dov and Regina Rivka — \"this is my grandpa’s hand writing!!\" — and Dalia confirmed the signature: \"This is my father-in-law’s signature.\" He also recorded what he knew of his sister Lota there, including her husband’s name, Szmid.",
+          "summary_he": "השאלה הפתוחה מזה זמן רב — לאתר את חתימתו של דוד על מסמך כלשהו — נענתה, ובידי המשפחה עצמה. דנה זיהתה את כתב היד על דפי העד מיד ושם משנת 1953 עבור ברנרד דב ורגינה רבקה — ״זה כתב היד של סבא שלי!!״ — ודליה אישרה את החתימה: ״זו חתימתו של חמי.״ שם גם רשם את מה שידע על אחותו לוטה, ובכלל זה שם בעלה, שמיד.",
+          "source": "Dana, 31 May 2026; Dalia, 4 June 2026 — doc_bernard_dov_yv_pot, doc_regina_rivka_yv_pot",
+          "urls": []
+        },
+        {
+          "id": "lota_vienna_birth_szmid",
+          "pillar": "memoir_vs_history",
+          "title_en": "❓ Lota was born in Vienna — and after a year of asking, still nothing else",
+          "title_he": "❓ לוטה נולדה בווינה — ואחרי שנה של חיפוש, עדיין דבר לא",
+          "status": "lead",
+          "summary_en": "Her birth index was found in Vienna, about 1915: \"My grandfather got the date wrong, but the location was accurate.\" Her husband was named Szmid, from David’s own testimony. She appears in the Kraków ghetto register of 1940. Basia reached Monika Maniewska, co-author of the Ładoś List, to ask whether Lota was a victim of the forged-passport blackmail — and in July reported the institution still silent: \"I was hoping to ask them about Lotte. Because I don’t have anything new here.\" She remains the least documented person in the archive, and this archive is still her only memorial.",
+          "summary_he": "מפתח הלידה שלה אותר בווינה, בערך 1915: ״סבי טעה בתאריך, אבל המקום היה מדויק.״ שם בעלה היה שמיד, מעדותו של דוד עצמו. היא מופיעה ברישום גטו קרקוב מ-1940. בסיה יצרה קשר עם מוניקה מנייבסקה, שותפה לחיבור ״רשימת לאדוש״, כדי לברר אם לוטה נפלה קורבן לסחיטת הדרכונים המזויפים — וביולי דיווחה שהמוסד עדיין שותק: ״קיוויתי לשאול אותם על לוטה. כי אין לי כאן שום דבר חדש.״ היא נותרה האדם המתועד פחות מכולם בארכיון, והארכיון הזה הוא עדיין האזכרה היחידה שלה.",
+          "source": "Basia, 4 & 8 June 2026 (Vienna birth index, MyHeritage); Basia, 7 July 2026 (institution silent)",
+          "urls": []
+        },
+        {
+          "id": "menukha_emilia_leiner",
+          "pillar": "independent",
+          "title_en": "🌸 Menukha was \"Emilia\" Leiner — and she took the waters at Krynica in 1904",
+          "title_he": "🌸 מנוחה הייתה ״אמיליה״ ליינר — ונפשה בקרינצה ב-1904",
+          "status": "confirmed",
+          "summary_en": "Her maiden name is Leiner — \"Moses and Menucha Leinen\" on the Sambor 1913 record — and she used the European name Emilia, so identified on two of Alte Leja’s children’s birth certificates. A Krynica spa notice has \"Emilia Rapaport, a merchant’s wife, and her daughter, settled permanently in Radomyśl\", staying at house \"Wanda\" from 28 July to 3 August 1904. It sits beside the 1912 Krynica notice already on file for Regina.",
+          "summary_he": "שם נעוריה הוא ליינר — ״משה ומנוחה ליינן״ ברשומת סמבור 1913 — והיא נקראה בשם האירופי אמיליה, כך מזוהה בשתיים מתעודות הלידה של ילדי אלטה לאה. מודעת מרפא מקרינצה נוקבת ב״אמיליה רפפורט, אשת סוחר, ובתה, מתגוררות דרך קבע ברדומישל״, ששהו בבית ״ונדה״ מ-28 ביולי עד 3 באוגוסט 1904. היא ניצבת לצד מודעת קרינצה מ-1912 שכבר בתיק על רגינה.",
+          "source": "Basia, 2 & 8 June 2026 — Sambor 1913 record; Krynica guest lists",
+          "urls": []
+        },
+        {
+          "id": "moses_saul_radomysl_board",
+          "pillar": "independent",
+          "title_en": "🏛️ Moses Saul sat on the Radomyśl Wielki community board, 1897-1905",
+          "title_he": "🏛️ משה שאול כיהן במועצת הקהילה ברדומישל וייקי, 1897—1905",
+          "status": "likely",
+          "summary_en": "The Radomyśl Wielki Yizkor book records that \"Moshe Rappaport served as a community leader (Board of Trustees) during 1897-1900 and again 1901-1905\" — exactly the years he was head of household there, with children born 1882-1896. A merchant heading the local board fits both the Yizkor and the descendants tree, which calls him kupiec. Held at likely: another Moshe Rappaport cannot be excluded.",
+          "summary_he": "ספר היזכור של רדומישל וייקי מציין ש״משה רפפורט כיהן כמנהיג קהילה (מועצת הנאמנים) בשנים 1897—1900 ושוב 1901—1905״ — בדיוק השנים שבהן היה ראש משק בית שם, עם ילדים שנולדו 1882—1896. סוחר העומד בראש המועצה המקומית מתיישב גם עם היזכור וגם עם עץ הצאצאים, המכנה אותו kupiec. נשמר כ״סביר״: לא ניתן לשלול משה רפפורט אחר.",
+          "source": "Radomyśl Wielki Yizkor Book Part I, JewishGen — found by CC, 1 June 2026",
+          "urls": [
+            "https://www.jewishgen.org/yizkor/radomysl/Rad002.html"
+          ]
+        },
+        {
+          "id": "weidenfeld_grandson_thread",
+          "pillar": "independent",
+          "title_en": "🔍 Nuchem Weidenfeld, rabbi in Dąbrowa from 1897 — described as Szabse’s grandson",
+          "title_he": "🔍 נוחם ויידנפלד, רב בדומברובה מ-1897 — מתואר כנכדו של שבסה",
+          "status": "lead",
+          "summary_en": "From JewishGen, Basia learned that the later rabbi of Dąbrowa, Nuchem Weidenfeld, was Szabse’s grandson — and corrects the claim that he directly succeeded him: Hirsz Weiss and Markus Twerski came between. She is developing this line. If it holds it gives the family a documented rabbinic descent running forward from Szabse, not only backward from Berisz.",
+          "summary_he": "מ-JewishGen למדה בסיה שרבה המאוחר של דומברובה, נוחם ויידנפלד, היה נכדו של שבסה — ומתקנת את הטענה שירש אותו במישרין: הירש ווייס ומרקוס טברסקי היו ביניהם. היא מפתחת את הקו הזה. אם יעמוד, הוא מעניק למשפחה שושלת רבנית מתועדת הנמשכת קדימה משבסה, ולא רק אחורה מבריש.",
+          "source": "Basia, 7 July 2026, citing JewishGen and her own reading of the Dąbrowa records",
+          "urls": []
+        },
+        {
+          "id": "no_photograph_of_the_ancestors",
+          "pillar": "independent",
+          "title_en": "📷 Searched and not found: no photograph of Moses Saul or of Szabse",
+          "title_he": "📷 חיפשנו ולא מצאנו: אין תצלום של משה שאול או של שבסה",
+          "status": "lead",
+          "summary_en": "Asked directly whether any photograph of the two oldest documented ancestors had turned up, Basia was plain: \"I am sure I did not find Mosze. I do not think there was a Shabtai from Dabrowa either.\" Szabse’s gravestone carries a new Hebrew plaque, which she has seen photographed but which is not in our files. Recorded so nobody spends the same weeks searching again.",
+          "summary_he": "כשנשאלה במישרין אם צף תצלום כלשהו של שני האבות הקדמונים המתועדים ביותר, בסיה השיבה בפשטות: ״אני בטוחה שלא מצאתי את מוישה. גם לא נדמה לי שהיה שבתאי מדומברובה.״ על מצבתו של שבסה לוח עברי חדש, שראתה בתצלום אך אינו בתיקינו. נרשם כדי שאיש לא יבזבז שוב את אותם שבועות.",
+          "source": "Basia, 7 July 2026",
+          "urls": []
+        }
+      ]
+    },
     {
       "id": "headline_finds",
       "title_en": "Headline Findings",
@@ -1345,6 +1501,28 @@
       "intro_he": "צאצאים חיים מתועדים של אליעזר גריפל ושרה מאטל חיות — הם חולקים את אבות-הסבים של דב רפפורט. אינם קרובים תיאורטיים — ניתן למצוא אותם בפועל, חלקם בלינקדאין או בדפי מחברים פומביים, וכמה מהם פרסמו ספרי זיכרונות על אותה גליציה. פנייה אליהם עשויה להניב צילומי משפחה, היסטוריה בעל-פה והתכתבויות לא-פורסמות על ממק ורבקה.",
       "cards": [
         {
+          "id": "daniela_zidon_and_miki_nativ",
+          "pillar": "independent",
+          "title_en": "🟢 Daniela Zidon and Miki Nativ — Alte Leja’s grandchildren, both in touch",
+          "title_he": "🟢 דניאלה זידון ומיקי נתיב — נכדותיה של אלטה לאה, שתיהן יצרו קשר",
+          "status": "confirmed",
+          "summary_en": "Daniela Zidon (USA), daughter of Lea/Lote Jafe and granddaughter of Alte Leja Turkel, wants to meet Dov. Miki — Michal Lea Nativ of Ramat HaSharon — is the daughter of Mordechai \"Max\" Levi-Turkel and holds family photographs. The Turkel family of New Zealand, also Alte Leja’s descendants, held a reunion and wrote a book, and are sending it. Dana, June 2026: \"my father has at least 3 cousins alive.\"",
+          "summary_he": "דניאלה זידון (ארה״ב), בתה של לאה/לוטה יפה ונכדתה של אלטה לאה טורקל, מבקשת לפגוש את דב. מיקי — מיכל לאה נתיב מרמת השרון — היא בתו של מרדכי ״מקס״ לוי-טורקל ובידיה תצלומי משפחה. משפחת טורקל מניו זילנד, אף היא מצאצאי אלטה לאה, קיימה כינוס וכתבה ספר, והיא שולחת אותו. דנה, יוני 2026: ״לאבא שלי יש לפחות 3 בני דודים בחיים.״",
+          "source": "Dana, 4-10 June 2026",
+          "urls": []
+        },
+        {
+          "id": "yehudit_shlomit_ayalon",
+          "pillar": "independent",
+          "title_en": "🟢 Yehudit Shlomit (Ayalon / Nussbaum) — she worked at Yad Vashem, and she wants to meet Dov",
+          "title_he": "🟢 יהודית שלומית (איילון / נוסבאום) — עבדה ביד ושם, ומבקשת לפגוש את דב",
+          "status": "confirmed",
+          "summary_en": "Daughter of Zwi Ayalon Nussbaum, who was Freida Amalia’s son — so Dov’s second cousin, on the PATERNAL side, the first living lateral kin the project has found on that side. She is named after Freida, Berisz’s sister. She worked at Yad Vashem, gathered documents, and had been looking for our branch for years; she once tried to reach Dov through a school essay Dana wrote at the age of twelve. Dana spoke with her for an hour on 4 June 2026.",
+          "summary_he": "בתו של צבי איילון נוסבאום, שהיה בנה של פרידה אמליה — כלומר בת דודתו השנייה של דב, מצד האב, קרובת המשפחה החיה הראשונה שהמיזם מצא בצד הזה. היא נקראת על שם פרידה, אחותו של בריש. עבדה ביד ושם, אספה מסמכים, וחיפשה את הענף שלנו שנים; פעם ניסתה להגיע לדב דרך חיבור בית ספר שדנה כתבה בגיל שתים עשרה. דנה שוחחה איתה שעה ב-4 ביוני 2026.",
+          "source": "Dana, 4 June 2026",
+          "urls": []
+        },
+        {
           "id": "cousin_steven_lamm",
           "title_en": "Dr Steven Lamm, MD — NYC (2nd cousin once removed)",
           "status": "confirmed",
@@ -2054,6 +2232,17 @@
       "intro_he": "צעדים קונקרטיים שדורון יכול לבצע. כל פריט הוא בקשה ספציפית למוסד ספציפי.",
       "cards": [
         {
+          "id": "markus_turkel_identity_conflict",
+          "pillar": "independent",
+          "title_en": "⚠ Unresolved: is Markus Türkel the same man as Mordechai \"Max\" Levi-Turkel?",
+          "title_he": "⚠ לא הוכרע: האם מרקוס טירקל הוא מרדכי ״מקס״ לוי-טורקל?",
+          "status": "anomaly",
+          "summary_en": "The Liège record of 15 June 1946 marries Szewa Horowitz to Markus Türkel, a British-Army soldier living in Tel Aviv, son of Leib Türkel and Lea Nüssenbaum. The Turkel family, through Miki Nativ, reports that Mordechai \"Max\" Levi-Turkel married Margalit Halperin in Mandatory Palestine in 1947. Either they are two different Turkels, or the 1946 banns did not result in that marriage. Recorded as a conflict, not resolved in either direction. Next step: Holon cemetery records for Markus and Szewa.",
+          "summary_he": "רשומת ליאז׳ מ-15 ביוני 1946 משיאה את שבע הורוויץ למרקוס טירקל, חייל בצבא הבריטי המתגורר בתל אביב, בנם של לייב טירקל ולאה ניסנבאום. משפחת טורקל, דרך מיקי נתיב, מדווחת שמרדכי ״מקס״ לוי-טורקל נשא את מרגלית הלפרין בארץ ישראל ב-1947. או שמדובר בשני טירקלים שונים, או שהאירוסין מ-1946 לא הבשילו לנישואין. נרשם כסתירה, בלא הכרעה לשום כיוון. הצעד הבא: רשומות בית העלמין בחולון עבור מרקוס ושבע.",
+          "source": "Dana, 9 June 2026; Basia, 9-10 June 2026",
+          "urls": []
+        },
+        {
           "id": "gemini_upload_verification_retry",
           "title_en": "🔧 Retry Gemini upload verification (current 503 errors)",
           "title_he": "🔧 חידוש אימות העלאות של ג'מיני (שגיאות 503 נוכחיות)",
@@ -2126,5 +2315,5 @@
       ]
     }
   ],
-  "build_version": "2026-05-22-T34-ester-grandparent-framing-fix"
+  "build_version": "2026-08-02-T55-june-july-findings"
 }
