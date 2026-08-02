@@ -159,6 +159,94 @@
       ]
     },
     {
+      "id": "memoir_ledger",
+      "title_en": "📜 The memoir, checked against the documents",
+      "title_he": "📜 היומן, מול המסמכים",
+      "cards": [
+        {
+          "id": "ledger_method",
+          "title_en": "📐 How this was checked — and how it was NOT checked before",
+          "title_he": "📐 כיצד נבדק — וכיצד לא נבדק קודם",
+          "status": "note",
+          "summary_en": "Every checkable claim in the ninety pages was put against the records this archive actually holds: birth and marriage registers, her own post-war survivor card, the Brussels DP card, the Tarnów deeds, the Haifa burial register. A claim counts as confirmed only when a document says the same thing.\n\nThis matters because the earlier pass did something different. A file named memoir_timeline_verified marks 62 of its 63 events \"verified: true\" — but its own confidence field shows what that meant: 23 were verified as \"place_known\", and the side-note on those reads \"Event itself not anchored to a historical date.\" In other words, the town was in our gazetteer. A further 28 were \"plausible\", which is an opinion. Only eleven had anything stronger, and none of it was a comparison against documents. Worse, what it did compare against was our own family tree — much of which had been built from the memoir in the first place. It confirmed the memoir using the memoir.\n\nTwo of the things it \"confirmed\" have since been overturned by paper: the marriage date and Leah’s birth year.",
+          "summary_he": "כל טענה בת-בדיקה בתשעים העמודים הועמדה מול הרשומות שהארכיון מחזיק בפועל: פנקסי לידה ונישואין, כרטיס הניצולה שלה עצמה, כרטיס העקורים מבריסל, שטרות טרנוב ופנקס הקבורה בחיפה. טענה נחשבת מאומתת רק כאשר מסמך אומר את אותו הדבר.\n\nזה חשוב משום שהמעבר הקודם עשה דבר אחר. קובץ בשם memoir_timeline_verified מסמן 62 מתוך 63 אירועים כ״מאומת״ — אך שדה הביטחון שלו עצמו מגלה מה פירוש הדבר: 23 אומתו כ״מקום מוכר״, וההערה שלצידם אומרת ״האירוע עצמו אינו מעוגן בתאריך היסטורי״. כלומר: שם העיירה מופיע ברשימה שלנו. עוד 28 סומנו ״סביר״, שהיא דעה. רק אחד עשר נשענו על משהו חזק יותר, ואף אחד מהם לא היה השוואה למסמכים. גרוע מכך, מה שכן הושווה היה עץ המשפחה שלנו — שחלקו הגדול נבנה מלכתחילה מן היומן. הוא אימת את היומן באמצעות היומן.\n\nשניים מן הדברים שאותם ״אימת״ הופרכו מאז על ידי נייר: תאריך הנישואין ושנת הלידה של לאה.",
+          "source": "Reading of platform/data/memoir_timeline_verified.json and memoir_analysis.json, 2 August 2026."
+        },
+        {
+          "id": "ledger_david_birth",
+          "title_en": "✅ CONFIRMED — David born in Nadwórna, 25 December 1911",
+          "title_he": "✅ אושר — דוד נולד בנדבורנא, 25 בדצמבר 1911",
+          "status": "confirmed",
+          "summary_en": "The memoir and the civil birth register agree exactly. Note which source turned out to be wrong here: the Brussels DP card, a document, records his birthplace as \"Cieszyn (Tesin)\" — a French clerk’s transcription error. The memoir was right and the paper was wrong. That is the reason this ledger reads both ways and does not simply rank documents above testimony.",
+          "summary_he": "היומן ופנקס הלידה האזרחי תואמים במדויק. שימו לב איזה מקור דווקא שגה כאן: כרטיס העקורים מבריסל — מסמך — רושם את מקום לידתו כ״צ׳שין״, טעות תעתיק של פקיד צרפתי. היומן צדק והנייר טעה. זו הסיבה שהמאזן הזה קורא לשני הכיוונים ואינו מדרג מסמכים מעל עדות באופן אוטומטי.",
+          "source": "doc_david_birth_nadworna (Nadwórna civil birth register) vs doc_david_dp_card vs memoir."
+        },
+        {
+          "id": "ledger_marriage",
+          "title_en": "✏️ CORRECTED — the wedding: Bolechów, 10 February 1935, not Muszyna 1938",
+          "title_he": "✏️ תוקן — החתונה: בולחוב, 10 בפברואר 1935, ולא מושינה 1938",
+          "status": "corrected",
+          "summary_en": "Memoir, page 16: they married in Muszyna in February 1938. The civil record: Bolechów, 10 February 1935 — three years earlier, in her own birth town. She was 21 and he was 23, not 24 and 26.\n\nThe month is right in both. Written forty years later, the memory placed the wedding at the opening of the Muszyna years rather than three years before them — which also explains Shimon, born June 1937: under the memoir’s date he arrives eight months before his parents marry; under the record he is born two and a half years into the marriage. The document resolves a problem the memoir created.",
+          "summary_he": "יומן, עמוד 16: הם נישאו במושינה בפברואר 1938. הרשומה האזרחית: בולחוב, 10 בפברואר 1935 — שלוש שנים קודם, בעיר הולדתה שלה. היא הייתה בת 21 והוא בן 23, לא 24 ו-26.\n\nהחודש נכון בשניהם. נכתב ארבעים שנה אחר כך, והזיכרון מיקם את החתונה בפתח שנות מושינה במקום שלוש שנים לפניהן — וזה גם מסביר את שמעון, יליד יוני 1937: לפי תאריך היומן הוא נולד שמונה חודשים לפני שהוריו נישאו; לפי הרשומה הוא נולד שנתיים וחצי לתוך הנישואין. המסמך פותר בעיה שהיומן יצר.",
+          "source": "doc_lea_dawid_marriage_1935 (civil marriage record) vs memoir p.16."
+        },
+        {
+          "id": "ledger_shimon",
+          "title_en": "✏️ CORRECTED — Shimon was born in Lwów, not \"Mosina\"; 22 June 1937 stands",
+          "title_he": "✏️ תוקן — שמעון נולד בלבוב, לא ב״מוסינה״; 22 ביוני 1937 עומד",
+          "status": "corrected",
+          "summary_en": "His own post-war survivor card, filed at Katowice on 1 July 1946, gives 22.6.1937 and the birthplace LWÓW. Family memory had said \"Mosina\" — the town that was eventually identified as Muszyna. The date is confirmed; the place is corrected.\n\nThe memoir also contradicts itself here: page 6 has him born 1937, page 82 says 1939. Page 6 is right — the narrative has him two years old when the war breaks out. An internal slip, forty years on, in a document dictated from memory.",
+          "summary_he": "כרטיס הניצולים שלו עצמו, שהוגש בקטוביץ ב-1 ביולי 1946, נוקב ב-22.6.1937 ובמקום הלידה לבוב. הזיכרון המשפחתי אמר ״מוסינה״ — העיירה שזוהתה בסופו של דבר כמושינה. התאריך מאושר; המקום מתוקן.\n\nהיומן גם סותר את עצמו כאן: עמוד 6 קובע 1937, עמוד 82 אומר 1939. עמוד 6 הוא הנכון — לפי הסיפור הוא בן שנתיים בפרוץ המלחמה. פליטה פנימית, ארבעים שנה אחרי, במסמך שהוכתב מן הזיכרון.",
+          "source": "doc_szymon_ckzp (CKŻP survivor card nr 151337) vs memoir pp.6, 82."
+        },
+        {
+          "id": "ledger_leah_birthyear",
+          "title_en": "⚠️ STILL OPEN — Leah born 1913 or 1916? Three records against one",
+          "title_he": "⚠️ עדיין פתוח — לאה נולדה ב-1913 או ב-1916? שלוש רשומות מול אחת",
+          "status": "open",
+          "summary_en": "Every source agrees on the day: 8 April. The year splits them. The Bolechów civil birth certificate says 1913, and the memoir agrees. Her own CKŻP survivor card, filled in by the family in 1946, says 1916 — and so do the ŻIH index and the Haifa burial register.\n\nSo it is three to two, but the two include the civil register, which is normally decisive, and the three all post-date the war. A person reporting an age in 1946 may round, or may have had reason years earlier to be recorded younger. This is not resolvable from what we hold. Asked of the family on 1 June 2026; still unanswered.",
+          "summary_he": "כל המקורות מסכימים על היום: 8 באפריל. השנה מפלגת אותם. תעודת הלידה האזרחית מבולחוב אומרת 1913, והיומן מסכים. כרטיס הניצולה שלה מ-CKŻP, שמולא בידי המשפחה ב-1946, אומר 1916 — וכך גם מפתח ŻIH ופנקס הקבורה בחיפה.\n\nכלומר שלוש מול שתיים, אך השתיים כוללות את הפנקס האזרחי, שבדרך כלל מכריע, והשלוש כולן שלאחר המלחמה. מי שמדווח על גילו ב-1946 עשוי לעגל, או שהייתה לו סיבה שנים קודם להירשם צעיר יותר. לא ניתן להכריע מן החומר שבידינו. נשאל מן המשפחה ב-1 ביוני 2026; טרם נענה.",
+          "source": "doc_leah_birth_bolechow_1913 + memoir vs doc_lea_ckzp (nr 151738), ŻIH index, Haifa Chevra Kadisha."
+        },
+        {
+          "id": "ledger_brussels",
+          "title_en": "✅ CONFIRMED — David registered as a Displaced Person in Brussels, 9 April 1946",
+          "title_he": "✅ אושר — דוד נרשם כעקור בבריסל, 9 באפריל 1946",
+          "status": "confirmed",
+          "summary_en": "The memoir’s account of reaching Brussels is borne out by the DIPIS card itself. The card is also the source for his Polish citizenship having been stripped. It is the one wartime-to-postwar link in the story that rests on paper rather than on memory.",
+          "summary_he": "תיאור ההגעה לבריסל ביומן נתמך בכרטיס העקורים עצמו. הכרטיס הוא גם המקור לשלילת אזרחותו הפולנית. זהו החוליה היחידה בסיפור, מן המלחמה אל שלאחריה, הנשענת על נייר ולא על זיכרון.",
+          "source": "doc_david_dp_card (DIPIS, Brussels) vs memoir p.62."
+        },
+        {
+          "id": "ledger_dov_birth",
+          "title_en": "◐ PARTLY — Dov born in Brussels, 1946: the place is corroborated, the exact date is not",
+          "title_he": "◐ חלקית — דב נולד בבריסל, 1946: המקום נתמך, התאריך המדויק לא",
+          "status": "partial",
+          "summary_en": "The memoir places his birth in Brussels in 1946 and the DP card puts the family there. The exact date, 28 August 1946, comes from the family — from Doron. No Brussels birth registration is held.\n\nThis is the most requestable missing document in the archive: Dov can obtain his own record directly from the État Civil de Bruxelles as the data subject, faster than anyone else can.",
+          "summary_he": "היומן ממקם את לידתו בבריסל ב-1946, וכרטיס העקורים ממקם את המשפחה שם. התאריך המדויק, 28 באוגוסט 1946, מגיע מן המשפחה — מדורון. אין בידינו רישום לידה מבריסל.\n\nזהו המסמך החסר שקל ביותר לבקש בכל הארכיון: דב יכול להוציא את הרשומה שלו עצמו ישירות ממשרד הרישום של בריסל, מהר יותר מכל אדם אחר.",
+          "source": "memoir p.62 + doc_david_dp_card; exact date from family (Doron). No civil registration held."
+        },
+        {
+          "id": "ledger_deaths",
+          "title_en": "✅ CONFIRMED — the deaths, the graves, and her parents’ names",
+          "title_he": "✅ אושר — הפטירות, הקברים, ושמות הוריה",
+          "status": "confirmed",
+          "summary_en": "David died 29 August 1990, Leah on 28 December 1996; buried beside one another at Sde Yehoshua, graves 102ד and 102ג. Her burial record names her father Eliyahu and her mother Matilda — the same two people the memoir opens with, sixty years earlier and in another language. The last page of the record matches the first page of the testimony.\n\nThe same register carries the quiet confirmation of the separation: her year of immigration 1948, his 1946.",
+          "summary_he": "דוד נפטר ב-29 באוגוסט 1990, לאה ב-28 בדצמבר 1996; נטמנו זה לצד זו בשדה יהושע, קברים 102ד ו-102ג. רשומת הקבורה שלה נוקבת באביה אליהו ובאמה מטילדה — אותם שני אנשים שבהם נפתח היומן, שישים שנה קודם ובשפה אחרת. העמוד האחרון של הרשומה תואם לעמוד הראשון של העדות.\n\nאותו פנקס נושא גם את האישור השקט להיפרדות: שנת עלייתה 1948, שלו 1946.",
+          "source": "Haifa Chevra Kadisha burial register vs memoir ch.1."
+        },
+        {
+          "id": "ledger_memoir_only",
+          "title_en": "📖 TESTIMONY ONLY — the heart of the story has no paper, and that is not a flaw",
+          "title_he": "📖 עדות בלבד — לב הסיפור חסר נייר, וזו אינה פגיעה בו",
+          "status": "note",
+          "summary_en": "No document we hold corroborates: the Weitzners leaving for Palestine in 1933; Lusia in Przemyśl under Soviet administration; David’s escape from the Nadwórna ghetto in the wooden wagon; the false identities in Lwów; Shimon in the crate for two and a half years; the Hormaks; Pietrozycki; Ivanov; the sailing from Sète; Cyprus; the Kadima.\n\nThese are not weak claims. They are the parts of a life that no clerk was ever going to write down, and for most of them no clerk survives who could have. Marked here as testimony so that nobody later mistakes an absence of paper for a doubt — and so that nobody mistakes it for corroboration either.",
+          "summary_he": "שום מסמך שבידינו אינו מאשש: עזיבת משפחת ויצנר לארץ ישראל ב-1933; לוסיה בפשמישל תחת המנהל הסובייטי; בריחת דוד מגטו נדבורנא בעגלת העץ; הזהויות הבדויות בלבוב; שמעון בארגז במשך שנתיים וחצי; משפחת הורמק; פייטרוז׳יצקי; איוונוב; ההפלגה מסֶט; קפריסין; ה״קדימה״.\n\nאלה אינן טענות חלשות. אלה חלקי חיים ששום פקיד לא היה עתיד לרשום, ולרובם לא שרד פקיד שיכול היה. מסומנים כאן כעדות כדי שאיש לא יטעה בהיעדר נייר כספק — וכדי שאיש לא יטעה בו כאישוש.",
+          "source": "Memoir chapters 2-9; no corroborating record held for any of these."
+        }
+      ]
+    },
+    {
       "id": "headline_finds",
       "title_en": "Headline Findings",
       "title_he": "ממצאי מפתח",
@@ -2312,5 +2400,5 @@
       ]
     }
   ],
-  "build_version": "2026-08-02-T57-marriage-place-haifa"
+  "build_version": "2026-08-02-T62-memoir-ledger"
 }

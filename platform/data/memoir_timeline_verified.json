@@ -1,4 +1,5 @@
 {
+  "_warning": "MISLEADING FILE NAME — READ THIS FIRST. 'verified: true' here does NOT mean a document confirms the event. 23 events are verified only as 'place_known', meaning the town appears in our gazetteer, and their own side_note says 'Event itself not anchored to a historical date'. 28 more are 'plausible', an AI judgement. The comparison was made against our family tree, much of which was built from this same memoir — it is circular. Two events it confirmed have since been overturned by documents: the marriage date (doc_lea_dawid_marriage_1935) and Leah's birth year. For the real document-by-document comparison see research_center.json section 'memoir_ledger'. Flagged 2026-08-02.",
   "source": "Lusia memoir + tiered verification",
   "verification_method": "Layer 1 regex (free); Layer 2-4 queued for free Gemini grounding / paid Claude",
   "events": [
