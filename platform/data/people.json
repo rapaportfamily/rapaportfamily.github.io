@@ -28,13 +28,16 @@
       "role": "subject_father",
       "note_en": "Dov Rapaport — Dalia's husband, father of Doron, Dana and Daniel. The man this archive is for — an 80th birthday gift from his family, August 2026.",
       "birth": {
-        "date": "1946",
-        "date_precision": "year",
+        "date": "1946-08-28",
+        "date_precision": "day",
         "place_id": "pl_brussels",
-        "confidence": "family_oral",
+        "confidence": "documented",
         "sources": [
-          "oral_doron_06may"
-        ]
+          "oral_doron_06may",
+          "oral_doron_02aug",
+          "src_rapaport_institute_tree"
+        ],
+        "note": "28 August 1946, Brussels. Given by Doron (2 Aug 2026) and independently stated in the Rapaport-institute descendant tree transcribed at additional_files/IMG-20260504-WA0006.jpg (\"Dov RAPOPORT #15476, b. 28 Aug 1946 in Brussels\"). The Brussels commune birth record has not been obtained — that would raise this to confirmed."
       },
       "death": null,
       "father_id": "p_david",

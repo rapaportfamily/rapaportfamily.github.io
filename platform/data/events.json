@@ -492,9 +492,9 @@
     },
     {
       "id": "e_dov_birth",
-      "date": "1946",
-      "date_precision": "year",
-      "date_sort": "1946-06-01",
+      "date": "28 August 1946",
+      "date_precision": "day",
+      "date_sort": "1946-08-28",
       "type": "birth",
       "place_id": "pl_brussels",
       "people_ids": [
@@ -512,10 +512,18 @@
         "pl": "Syn Dawida i Lei, brat Szymona. Urodzony po zakończeniu wojny.",
         "fr": "Fils de Dawid et Léa, frère de Szymon. Né après la fin de la guerre."
       },
-      "confidence": "family_oral",
+      "confidence": "documented",
       "sources": [
-        "oral_doron_06may"
-      ]
+        "oral_doron_06may",
+        "oral_doron_02aug",
+        "src_rapaport_institute_tree"
+      ],
+      "date_display": {
+        "en": "28 August 1946",
+        "he": "28 באוגוסט 1946",
+        "pl": "28 sierpnia 1946",
+        "fr": "28 août 1946"
+      }
     },
     {
       "id": "e_research_begins",
