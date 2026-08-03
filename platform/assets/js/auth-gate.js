@@ -39,10 +39,25 @@ window.addEventListener("appinstalled", () => {
   };
 
   const STORAGE_KEY = "rft.auth.v1";
+
+  // ── THE GATE ──────────────────────────────────────────────────────
+  // false = anyone with the address sees the whole archive (how it stood until
+  //         3 August 2026 — showNoToken() existed but was never reached).
+  // true  = a valid personal link is required; everyone else gets the
+  //         "private family archive" screen and the SPA is never loaded.
+  //
+  // Flipping this back to false is the one-line undo if someone in the family
+  // is locked out at a bad moment. Note what it does NOT do: the JSON under
+  // data/ is served by GitHub Pages as static files and stays fetchable by
+  // anyone who knows a filename. Closing that needs the data encrypted with a
+  // key carried inside the signed link — which means re-issuing every family
+  // link from the private key on Doron's PC — or serving data from a backend
+  // that can check the token. See docs/CLOSING_THE_DATA_GATE.md.
+  const REQUIRE_TOKEN = true;
   // BUILD bumps on every deploy so browsers fetch the latest JS modules,
   // not a stale cached copy. If you don't see Research Center updates, this
   // is the line that fixes it.
-  const BUILD = "2026-07-30-t84";
+  const BUILD = "2026-07-30-t85";
   const APP_SCRIPT_SRC = `assets/js/app.js?v=${BUILD}`;
   const UPLOAD_SCRIPT_SRC = `assets/js/upload-feature.js?v=${BUILD}`;
 
@@ -177,19 +192,23 @@ window.addEventListener("appinstalled", () => {
   const candidate = urlToken || (stored && stored.token);
 
   if (!candidate) {
+    if (REQUIRE_TOKEN) { showNoToken(); return; }
     // Guest mode — no token. window.__rftAuth stays unset so the upload UI
     // (which checks !ME()) does NOT render. Read-only public view.
     loadSPA();
     return;
   }
 
-  // Token present — verify it. If valid, attach identity; if invalid, fall
-  // back to guest mode (don't lock people out for a bad/expired link).
+  // Token present — verify it.
   let jwk;
   try {
     jwk = await fetch("assets/auth/pubkey.json").then(r => r.json());
   } catch (e) {
-    console.warn("auth-gate: cannot load public key, falling back to guest", e);
+    // The public key is what makes a token mean anything. If it cannot be
+    // fetched we cannot tell a real link from a forged one, so when the archive
+    // is closed we fail shut rather than open.
+    console.warn("auth-gate: cannot load public key", e);
+    if (REQUIRE_TOKEN) { showInvalid(); return; }
     loadSPA();
     return;
   }
@@ -205,8 +224,9 @@ window.addEventListener("appinstalled", () => {
       showNotYet(e.nbf);
       return;
     }
-    console.warn("auth-gate: invalid token, falling back to guest", e.message);
+    console.warn("auth-gate: invalid token", e.message);
     if (stored && stored.token === candidate) localStorage.removeItem(STORAGE_KEY);
+    if (REQUIRE_TOKEN) { showInvalid(); return; }
     // Don't set __rftAuth — falls through to guest (read-only) mode.
   }
 
