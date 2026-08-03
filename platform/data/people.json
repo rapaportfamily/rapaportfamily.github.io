@@ -1372,7 +1372,7 @@
         "Heschel"
       ],
       "role": "first_cousin_once_removed_paternal",
-      "note_en": "Paternal first cousin once removed of Doron, Dana and Daniel — first cousin of David Memek. Son of Freida Amalia Rapaport. Born 7 May 1919 in Przemyśl; survived the Holocaust and emigrated to Israel; died 27 November 2001 in Haifa. Photographed in the family archive (\"Zvi Hirsch Heschu Ayalon (Nussbaum).jfif\"). His Israeli surname \"Ayalon\" is a Hebraization of the German-origin \"Nussbaum\".",
+      "note_en": "Paternal first cousin once removed of Doron, Dana and Daniel — first cousin of David Memek. Son of Freida Amalia Rapaport. Born 7 May 1919 in Przemyśl; survived the Holocaust and emigrated to Israel; died 27 November 2001 in Haifa. Photographed in the family archive (\"Zvi Hirsch Heschu Ayalon (Nussbaum).jfif\"). His Israeli surname \"Ayalon\" is a Hebraization of the German-origin \"Nussbaum\". His 1945 Palestinian citizenship file (Israel State Archives, Mandate file מ-3211/050, serial 90563) was read on 3 August 2026 and is the fullest record of him we hold: a butcher, holding Polish passport 118839 issued at Przemyśl on 21 September 1938, who entered Palestine three weeks later on 12 October 1938, married Inge Rosenbusch at Haifa on 12 June 1941, and was naturalised on 29 November 1945. On that form he gave his birthplace as TARNÓW and his birth date as 6 May 1919 — against the Przemyśl register’s 7 May 1919. Both readings are kept; neither is discarded.",
       "birth": {
         "date": "1919-05-07",
         "date_precision": "day",
@@ -1407,6 +1407,47 @@
           "confidence": "family_oral",
           "sources": [
             "wa_export_2026-06-15"
+          ]
+        },
+        {
+          "key": "occupation_1945",
+          "value": "Butcher (as declared on his citizenship application)",
+          "confidence": "confirmed",
+          "sources": [
+            "doc_nussbaum_palestinian_citizenship_1945"
+          ]
+        },
+        {
+          "key": "entry_to_palestine",
+          "value": "12 October 1938; immigrant registration HA/5934/B",
+          "confidence": "confirmed",
+          "sources": [
+            "doc_nussbaum_palestinian_citizenship_1945"
+          ]
+        },
+        {
+          "key": "passport",
+          "value": "Polish no. 118839, issued at Przemyśl, 21 September 1938",
+          "confidence": "confirmed",
+          "sources": [
+            "doc_nussbaum_palestinian_citizenship_1945"
+          ]
+        },
+        {
+          "key": "naturalisation",
+          "value": "Palestinian citizenship approved 29 November 1945, certificate no. 48628 (serial 90563)",
+          "confidence": "confirmed",
+          "sources": [
+            "doc_nussbaum_palestinian_citizenship_1945"
+          ]
+        },
+        {
+          "key": "birthplace_conflict",
+          "value": "He declared TARNÓW, 6 May 1919 on his 1945 citizenship application. The Przemyśl Jewish birth register gives Przemyśl, 7 May 1919. One day and one town apart; unresolved.",
+          "confidence": "documented",
+          "sources": [
+            "doc_nussbaum_palestinian_citizenship_1945",
+            "doc_zwi_nussbaum_birth_1919"
           ]
         }
       ],
@@ -4322,7 +4363,7 @@
         "Shlomit"
       ],
       "role": "living_cousin_paternal",
-      "note_en": "Living relative reconnected 4 June 2026. Daughter of Zwi Ayalon Nussbaum (named after Freida, Berisz's sister); thus a paternal cousin of Dov's generation. Worked at Yad Vashem and gathered family documents; had long sought our branch (once tried to reach Dov via a school essay Dana filed at age 12). Spoke with Dana ~1 hour; wishes to meet Dov.",
+      "note_en": "Living relative reconnected 4 June 2026. Daughter of Zwi Ayalon Nussbaum (named after Freida, Berisz's sister); thus a paternal cousin of Dov's generation. Worked at Yad Vashem and gathered family documents; had long sought our branch (once tried to reach Dov via a school essay Dana filed at age 12). Spoke with Dana ~1 hour; wishes to meet Dov. Her father’s 1945 Palestinian citizenship file, read 3 August 2026, names her among his children as \"Yehudit Shlomit\" — which is what identified the file as his — together with a brother, Mordekhai Yosef. Her birth is entered there as 25 April, the same day and month as her brother’s; the final digit of the year is not legible on the scan and is deliberately not guessed at here. Her mother was Inge, née Rosenbusch.",
       "father_id": "p_zwi_ayalon_nussbaum",
       "facts": [
         {
@@ -4333,7 +4374,8 @@
             "wa_export_2026-06-15"
           ]
         }
-      ]
+      ],
+      "mother_id": "p_inge_nussbaum"
     },
     {
       "id": "p_daniela_zidon",
@@ -4381,6 +4423,79 @@
           ]
         }
       ]
+    },
+    {
+      "id": "p_inge_nussbaum",
+      "primary_name": {
+        "en": "Inge Nussbaum (née Rosenbusch)",
+        "he": "אינגה נוסבאום (לבית רוזנבוש)",
+        "pl": "Inge Nussbaum z d. Rosenbusch",
+        "fr": "Inge Nussbaum, née Rosenbusch"
+      },
+      "role": "relative",
+      "note_en": "Wife of Zwi (Hirsch) Ayalon Nussbaum and mother of Yehudit Shlomit. Her name was unknown to this archive until the 1945 Palestinian citizenship file was read on 3 August 2026. She held GERMAN passport no. 94, issued at BORKEN on 10 July 1935, and was registered as an immigrant to Palestine (HA/4302/A) on 22 August 1938 — seven weeks before her future husband arrived from Poland. Borken is in Westphalia; a German Jewish passport issued in 1935 and used to leave for Palestine in 1938 is the shape of a refugee. They married at Haifa on 12 June 1941. Nothing else about her is documented here — no birth date, no parents, no date of death.",
+      "facts": [
+        {
+          "key": "passport",
+          "value": "German no. 94, issued at Borken, 10 July 1935",
+          "confidence": "confirmed",
+          "sources": [
+            "doc_nussbaum_palestinian_citizenship_1945"
+          ]
+        },
+        {
+          "key": "immigration",
+          "value": "Registered as immigrant to Palestine HA/4302/A, 22 August 1938",
+          "confidence": "confirmed",
+          "sources": [
+            "doc_nussbaum_palestinian_citizenship_1945"
+          ]
+        },
+        {
+          "key": "marriage",
+          "value": "Married Hirsch Herman Nussbaum at Haifa, 12 June 1941 (Haifa Rabbinical Office certificate H-49343)",
+          "confidence": "confirmed",
+          "sources": [
+            "doc_nussbaum_palestinian_citizenship_1945"
+          ]
+        }
+      ],
+      "spouse_id": "p_zwi_ayalon_nussbaum",
+      "children_ids": [
+        "p_yehudit_shlomit_ayalon"
+      ]
+    },
+    {
+      "id": "p_mordekhai_yosef_nussbaum",
+      "primary_name": {
+        "en": "Mordekhai Yosef Nussbaum",
+        "he": "מרדכי יוסף נוסבאום",
+        "pl": "Mordechaj Josef Nussbaum",
+        "fr": "Mordekhai Yosef Nussbaum"
+      },
+      "role": "relative",
+      "birth": {
+        "date": "1943-04-25",
+        "date_precision": "day",
+        "place_id": "pl_haifa",
+        "confidence": "confirmed",
+        "sources": [
+          "doc_nussbaum_palestinian_citizenship_1945"
+        ]
+      },
+      "note_en": "Son of Zwi (Hirsch) Ayalon Nussbaum and Inge née Rosenbusch, and brother of Yehudit Shlomit — the cousin who reconnected with this family in June 2026. He was not known to this archive at all until his father’s 1945 citizenship file was read on 3 August 2026. Born at Haifa on 25 April 1943; the file cites birth certificate 1591/43, issued 14 May 1943, and lists him first among the children. Nothing further about him is documented here.",
+      "facts": [
+        {
+          "key": "birth_certificate",
+          "value": "Haifa certificate 1591/43 of 14 May 1943",
+          "confidence": "confirmed",
+          "sources": [
+            "doc_nussbaum_palestinian_citizenship_1945"
+          ]
+        }
+      ],
+      "father_id": "p_zwi_ayalon_nussbaum",
+      "mother_id": "p_inge_nussbaum"
     }
   ]
 }

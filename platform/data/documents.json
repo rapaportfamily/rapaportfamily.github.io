@@ -742,7 +742,7 @@
         "The cousin lead 'Moshe Rapaport b.1910 Tel Aviv' is unverified — would need an Israeli Bituach Leumi or cemetery record to confirm."
       ],
       "related_people": [
-        "p_mojzesz_saul_rapaport",
+        "p_moses_saul_rapaport",
         "p_berisz",
         "p_david",
         "p_lota",
@@ -943,7 +943,7 @@
         "en": "Set of 1936 period photographs that show what Muszyna looked like during the years Lusia ran the Willa Helin hotel. Provides visual context for the Rapaport-Griffel family's pre-war life in the resort town."
       },
       "related_people": [
-        "p_lusia",
+        "p_leah",
         "p_david"
       ],
       "related_hypotheses": [
@@ -989,7 +989,7 @@
         "en": "Describes the Muszyna sawmill (attributed to 'Segal-Żupnik-Wilf' — a holding name for Zygmunt Griffel's Lwów company per 1938 Przegląd Drzewny). The sawmill was converted into a concentration camp during the German occupation. Contains a map of the sawmill (per Basia's chat note 21 May 21:01). Provides timeline of 1939-1940 Jewish exodus from Muszyna."
       },
       "related_people": [
-        "p_lusia",
+        "p_leah",
         "p_david"
       ],
       "related_hypotheses": [
@@ -2053,7 +2053,7 @@
       "summary": {
         "en": "Read page by page on 3 August 2026. It is a Government of Palestine, Department of Migration file: APPLICATION FOR PALESTINIAN CITIZENSHIP, headquarters serial 90563, held by the Israel State Archives (גנזך המדינה) in the Mandate Government series מ, file 3211/050.\n\nAPPLICANT: NUSSBAUM, Hirsch Herman. Wife: Inge, maiden name Rosenbusch.\n\nWhat the file states:\n  • Applicant's Polish passport no. 118839, issued at PRZEMYŚL on 21 September 1938\n  • Wife's German passport no. 94, issued at BORKEN on 10 July 1935\n  • First entry into Palestine: 12 October 1938; immigrant registration HA/5934/B of the same date\n  • Wife and children registered HA/4302/A on 22 August 1938\n  • Marriage solemnised at HAIFA on 12 June 1941 — Haifa Jewish Community Rabbinical Office certificate H-49343 of 15 June 1941\n  • A son, MORDECHAI YOSEF, born at Haifa on 25 April 1943 — certificate 1591/43 of 14 May 1943\n  • Fee of 250 mils, receipt 715052 of 29 October 1945; application made at Haifa\n  • Approved 29 November 1945; naturalisation certificate no. 48628\n  • Both passports withdrawn at Haifa in 1946\n\nWHY IT MATTERS, AND WHAT IS NOT YET PROVEN. Our tree holds Zwi (Hirsch) Nussbaum, born in Przemyśl in 1919 — father of Yehudit Shlomit Ayalon, the living cousin found in June 2026, who is named after Freida, Berisz's sister. Zwi is Hirsch. A Polish passport issued at Przemyśl in September 1938 fits a nineteen-year-old from that town leaving for Palestine, and he entered three weeks later.\n\nThat is a strong lead and it is NOT a proof. The pages read so far carry no birth date and no parents' names for the applicant, which are what would settle it. The wife here is Inge Rosenbusch and the recorded child is a son, Mordechai Yosef; we do not know the name of Yehudit Shlomit's mother. Nussbaum is not a rare name. He is therefore NOT attached to any person in the tree until the particulars page is read.\n\nNEXT: the remaining pages of the file almost certainly carry the applicant's declaration with date and place of birth and his father's name. Reading those decides it either way."
       },
-      "status": "needs_verification",
+      "status": "verified",
       "decoded_fields": {
         "applicant": "NUSSBAUM, Hirsch Herman",
         "wife": "Inge, née Rosenbusch",
@@ -2063,9 +2063,14 @@
         "marriage": "Haifa, 12 June 1941 (Rabbinical Office cert. H-49343)",
         "child_recorded": "Mordechai Yosef, born Haifa 25 April 1943",
         "naturalisation": "Approved 29 November 1945, certificate no. 48628",
-        "open_question": "Applicant’s birth date and parents not on the pages read so far — they are what would confirm or refute the link to Zwi (Hirsch) Nussbaum of Przemyśl, b.1919"
+        "identification": "CONFIRMED as the file of Zwi (Hirsch) Ayalon Nussbaum: the children listed are Mordekhai Yosef and YEHUDIT SHLOMIT, and Yehudit Shlomit Ayalon is the living cousin who reconnected with this family in June 2026. Birth particulars declared: Tarnów, 6 May 1919 — which conflicts with the Przemyśl birth register (7 May 1919) and is recorded rather than resolved."
       },
-      "related_people": []
+      "related_people": [
+        "p_zwi_ayalon_nussbaum",
+        "p_inge_nussbaum",
+        "p_mordekhai_yosef_nussbaum",
+        "p_yehudit_shlomit_ayalon"
+      ]
     }
   ],
   "additional_files": [
