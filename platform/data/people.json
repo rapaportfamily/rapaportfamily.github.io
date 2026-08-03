@@ -1449,6 +1449,30 @@
             "doc_nussbaum_palestinian_citizenship_1945",
             "doc_zwi_nussbaum_birth_1919"
           ]
+        },
+        {
+          "key": "address_1945",
+          "value": "24 Hillel Street, Haifa",
+          "confidence": "confirmed",
+          "sources": [
+            "doc_nussbaum_palestinian_citizenship_1945"
+          ]
+        },
+        {
+          "key": "application_supporters",
+          "value": "Dr Gruber, physician, 15 Pevsner Street, Haifa; Dr Platner, pharmacist, Neveh Sha’anan, Haifa",
+          "confidence": "confirmed",
+          "sources": [
+            "doc_nussbaum_palestinian_citizenship_1945"
+          ]
+        },
+        {
+          "key": "birth_year_caveat",
+          "value": "A clerk noted at the foot of the application: \"1919 only acc. to ppt\" — the birth year rested on his passport alone, with no certificate produced",
+          "confidence": "confirmed",
+          "sources": [
+            "doc_nussbaum_palestinian_citizenship_1945"
+          ]
         }
       ],
       "children_ids": [
@@ -4363,7 +4387,7 @@
         "Shlomit"
       ],
       "role": "living_cousin_paternal",
-      "note_en": "Living relative reconnected 4 June 2026. Daughter of Zwi Ayalon Nussbaum (named after Freida, Berisz's sister); thus a paternal cousin of Dov's generation. Worked at Yad Vashem and gathered family documents; had long sought our branch (once tried to reach Dov via a school essay Dana filed at age 12). Spoke with Dana ~1 hour; wishes to meet Dov. Her father’s 1945 Palestinian citizenship file, read 3 August 2026, names her among his children as \"Yehudit Shlomit\" — which is what identified the file as his — together with a brother, Mordekhai Yosef. Her birth is entered there as 25 April, the same day and month as her brother’s; the final digit of the year is not legible on the scan and is deliberately not guessed at here. Her mother was Inge, née Rosenbusch.",
+      "note_en": "Living relative reconnected 4 June 2026. Daughter of Zwi Ayalon Nussbaum (named after Freida, Berisz's sister); thus a paternal cousin of Dov's generation. Worked at Yad Vashem and gathered family documents; had long sought our branch (once tried to reach Dov via a school essay Dana filed at age 12). Spoke with Dana ~1 hour; wishes to meet Dov. Her father’s 1945 Palestinian citizenship file, read 3 August 2026, names her among his children as \"Yehudit Shlomit\" — which is what identified the file as his — together with a brother, Mordekhai Yosef. Her birth is now established from her father’s own handwritten declaration, where she was added to the children’s table in a later hand: born at HAIFA in APRIL 1946. The day is not settled — the handwritten amendment reads 15.4.46 and the typed particulars page appears to read 25.4, and the scan is not sharp enough to decide between them, so only the month is recorded. The year is firm: the Haifa Immigration Office wrote on 14 May 1946 that \"a child was born to applicant\", which is her. She and Dov were born in the same year — she at Haifa in April, he at Brussels in August. Her mother was Inge, née Rosenbusch.",
       "father_id": "p_zwi_ayalon_nussbaum",
       "facts": [
         {
@@ -4375,7 +4399,16 @@
           ]
         }
       ],
-      "mother_id": "p_inge_nussbaum"
+      "mother_id": "p_inge_nussbaum",
+      "birth": {
+        "date": "1946-04",
+        "date_precision": "month",
+        "place_id": "pl_haifa",
+        "confidence": "documented",
+        "sources": [
+          "doc_nussbaum_palestinian_citizenship_1945"
+        ]
+      }
     },
     {
       "id": "p_daniela_zidon",
@@ -4433,7 +4466,7 @@
         "fr": "Inge Nussbaum, née Rosenbusch"
       },
       "role": "relative",
-      "note_en": "Wife of Zwi (Hirsch) Ayalon Nussbaum and mother of Yehudit Shlomit. Her name was unknown to this archive until the 1945 Palestinian citizenship file was read on 3 August 2026. She held GERMAN passport no. 94, issued at BORKEN on 10 July 1935, and was registered as an immigrant to Palestine (HA/4302/A) on 22 August 1938 — seven weeks before her future husband arrived from Poland. Borken is in Westphalia; a German Jewish passport issued in 1935 and used to leave for Palestine in 1938 is the shape of a refugee. They married at Haifa on 12 June 1941. Nothing else about her is documented here — no birth date, no parents, no date of death.",
+      "note_en": "Wife of Zwi (Hirsch) Ayalon Nussbaum and mother of Yehudit Shlomit. Her name was unknown to this archive until the 1945 Palestinian citizenship file was read on 3 August 2026. She held GERMAN passport no. 94, issued at BORKEN on 10 July 1935, and was registered as an immigrant to Palestine (HA/4302/A) on 22 August 1938 — seven weeks before her future husband arrived from Poland. Borken is in Westphalia; a German Jewish passport issued in 1935 and used to leave for Palestine in 1938 is the shape of a refugee. They married at Haifa on 12 June 1941. Her husband’s own handwritten declaration gives her birth: KASSEL, GERMANY, 3 July 1922, and her nationality before marriage as German. She was sixteen when she reached Palestine in August 1938 and eighteen when they married at Haifa in June 1941. Her parents and her date of death are not documented here.",
       "facts": [
         {
           "key": "passport",
@@ -4463,7 +4496,17 @@
       "spouse_id": "p_zwi_ayalon_nussbaum",
       "children_ids": [
         "p_yehudit_shlomit_ayalon"
-      ]
+      ],
+      "birth": {
+        "date": "1922-07-03",
+        "date_precision": "day",
+        "place_id": null,
+        "place_text": "Kassel, Germany",
+        "confidence": "confirmed",
+        "sources": [
+          "doc_nussbaum_palestinian_citizenship_1945"
+        ]
+      }
     },
     {
       "id": "p_mordekhai_yosef_nussbaum",
