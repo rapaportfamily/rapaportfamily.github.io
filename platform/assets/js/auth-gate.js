@@ -42,7 +42,7 @@ window.addEventListener("appinstalled", () => {
   // BUILD bumps on every deploy so browsers fetch the latest JS modules,
   // not a stale cached copy. If you don't see Research Center updates, this
   // is the line that fixes it.
-  const BUILD = "2026-07-30-t77";
+  const BUILD = "2026-07-30-t78";
   const APP_SCRIPT_SRC = `assets/js/app.js?v=${BUILD}`;
   const UPLOAD_SCRIPT_SRC = `assets/js/upload-feature.js?v=${BUILD}`;
 

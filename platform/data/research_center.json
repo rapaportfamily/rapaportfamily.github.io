@@ -1,6 +1,6 @@
 {
   "_schema": "Consolidated research findings. Each section has cards that are expandable in the UI. status: confirmed (we have a document/citation), likely (strong evidence but not yet a primary source in hand), lead (worth chasing).",
-  "generated": "2026-08-02",
+  "generated": "2026-08-03",
   "sections": [
     {
       "id": "summer_2026",
@@ -9,6 +9,31 @@
       "intro_en": "The Research Center below was built on 21 May. Everything in this section came after it — the summer that cracked the paternal line. Six weeks earlier it stopped at a bare name; it now runs six documented generations to a rabbi in Dąbrowa Tarnowska. Each card names its source and its date. Where something is probable rather than proven, it says so.",
       "intro_he": "מרכז המחקר שלהלן נבנה ב-21 במאי. כל מה שבחלק הזה הגיע אחריו — הקיץ שבו נפרץ קו האב. שישה שבועות קודם לכן הוא נעצר בשם ערום; כעת הוא נמשך שישה דורות מתועדים עד רב בדומברובה טרנובסקה. כל כרטיס נוקב במקורו ובתאריכו. היכן שדבר מה סביר ולא מוכח — כך נכתב.",
       "cards": [
+        {
+          "id": "arolsen_searched_properly_2026_08",
+          "title_en": "🗄️ The Arolsen Archives, searched properly at last — 3,663 Rapaport records, and none of them yet ours",
+          "title_he": "🗄️ ארכיוני ארולסן, נבדקו סוף סוף כראוי — 3,663 רשומות רפפורט, ואף אחת מהן עדיין אינה שלנו",
+          "status": "open",
+          "summary_en": "The Arolsen Archives hold the world’s largest collection of Nazi-persecution records — some 30 million documents naming about 17.5 million people, including the Displaced Persons files. David was a registered DP in Brussels in April 1946, so this is the single most likely place to hold something about him that we do not already have.\n\nIt was recorded as searched on 21 May 2026 and as returning nothing. That was wrong. The capture saved that day contains the archive’s welcome page, not a result list — the search never ran, and the silence was mistaken for an answer for ten weeks.\n\nSearched properly on 3 August 2026, with the Terms of Use accepted by Doron: the surname RAPAPORT returns 3,663 records across 147 pages. \"Rapaport David\" returns 66; \"Rapaport Dawid\" returns 52. They are real records naming real people.\n\nNone has yet been identified as ours, and none is claimed. One candidate was opened and eliminated: DocID 5278182, a Buchenwald change-of-strength report of 26 November to 2 December 1938 — our David was registered in Lwów on 1 January 1938 and was never in Buchenwald.\n\nWhy it stops there: the search matches names only. \"Rapaport Nadwórna\" returns nothing, because place of birth is not searchable as free text. And the full result list shows two columns, Last Name and First Name; the birth dates that would tell our David from the other hundred-odd Davids and Dawids appear only in the five-row preview. Sorting ours out therefore means opening records one at a time, and each record is a document — a camp list, a transport roll — rather than a person file.\n\nNEXT: an inquiry has been drafted for Arolsen’s own free research service, which searches the holdings that are not digitised or indexed. It asks for David, for Lea and Szymon, and for Berisz and Rebeka, and it warns them that the Brussels DP card misspells his birthplace as \"Cieszyn\". It needs a person’s name and address, so Doron sends it.",
+          "summary_he": "ארכיוני ארולסן מחזיקים את האוסף הגדול בעולם של תיעוד רדיפות הנאצים — כ-30 מיליון מסמכים הנוקבים בשמותיהם של כ-17.5 מיליון בני אדם, ובכללם תיקי העקורים. דוד היה עקור רשום בבריסל באפריל 1946, ולכן זהו המקום הסביר ביותר להחזיק עליו דבר שאין בידינו.\n\nנרשם שהארכיון נבדק ב-21 במאי 2026 ושלא נמצא דבר. זה היה שגוי. הקובץ שנשמר באותו יום מכיל את עמוד הפתיחה של הארכיון, לא רשימת תוצאות — החיפוש מעולם לא רץ, והשתיקה נחשבה לתשובה במשך עשרה שבועות.\n\nבבדיקה כראוי ב-3 באוגוסט 2026, לאחר שדורון אישר את תנאי השימוש: שם המשפחה רפפורט מחזיר 3,663 רשומות ב-147 עמודים. ״רפפורט דוד״ מחזיר 66; ״רפפורט דויד״ מחזיר 52. אלה רשומות אמיתיות של אנשים אמיתיים.\n\nאף אחת מהן טרם זוהתה כשלנו, ואיש אינו טוען זאת. מועמד אחד נפתח ונשלל: DocID 5278182, דוח תנועת אסירים מבוכנוואלד מ-26 בנובמבר עד 2 בדצמבר 1938 — דוד שלנו נרשם בלבוב ב-1 בינואר 1938 ומעולם לא היה בבוכנוואלד.\n\nמדוע זה נעצר כאן: החיפוש מתאים שמות בלבד. ״רפפורט נדבורנא״ אינו מחזיר דבר, משום שמקום הלידה אינו ניתן לחיפוש חופשי. ורשימת התוצאות המלאה מציגה שתי עמודות בלבד, שם משפחה ושם פרטי; תאריכי הלידה שיבחינו בין דוד שלנו לבין מאה ומשהו דוידים אחרים מופיעים רק בתצוגה המקדימה בת חמש השורות. לכן מיון שלנו מחייב פתיחת רשומות אחת-אחת, וכל רשומה היא מסמך — רשימת מחנה, גיליון משלוח — ולא תיק אישי.\n\nהבא בתור: נוסחה פנייה לשירות המחקר החינמי של ארולסן, הסורק גם את החומר שאינו דיגיטלי או ממופתח. היא מבקשת את דוד, את לאה ושמעון, ואת בריש ורבקה, ומזהירה שכרטיס העקורים מבריסל משבש את מקום לידתו ל״צ׳שין״. היא דורשת שם וכתובת של אדם, ולכן דורון שולח אותה.",
+          "source": "Arolsen Archives online collections, searched 3 August 2026 (Terms of Use accepted by Doron). Compared against research_cache/playwright_results/arolsen_20260521_161542.json, which holds the site welcome page rather than any result.",
+          "urls": [
+            "https://collections.arolsen-archives.org/en/search",
+            "https://arolsen-archives.org/en/search-explore/inquiries/"
+          ]
+        },
+        {
+          "id": "arolsen_inquiry_drafted",
+          "title_en": "✉️ Ready to send: a free inquiry to Arolsen for David, Lea, Szymon, Berisz and Rebeka",
+          "title_he": "✉️ מוכן לשליחה: פנייה חינם לארולסן עבור דוד, לאה, שמעון, בריש ורבקה",
+          "status": "action_item",
+          "summary_en": "Arolsen search the un-digitised holdings on request, at no charge. The draft gives them everything we have that would help them look: his birth register entry, the 1935 Bolechów marriage, the CKŻP card numbers for Lusia (151738) and Szymon (151337) filed at Katowice on 1 July 1946, the loss of Polish citizenship in 1942, and the Brussels DP registration of 9 April 1946 — together with the warning that that card records his birthplace as \"Cieszyn (Tesin)\" in error, so anything filed under Cieszyn may be his. It asks separately about Berisz and Rebeka, for whom we hold no death record at all.\n\nThe form needs a name, an address and a stated relationship — grandson — so it is Doron’s to send. Attach the DP card and the two CKŻP cards; they give the searchers reference numbers to work from. If a reference code comes back it belongs in the documents catalogue and on this page, not in an inbox.",
+          "summary_he": "ארולסן סורקים לבקשה גם את החומר שאינו דיגיטלי, ללא תשלום. הטיוטה מוסרת להם כל מה שבידינו שיסייע להם לחפש: רישום הלידה, נישואי בולחוב 1935, מספרי כרטיסי CKŻP של לוסיה (151738) ושל שמעון (151337) שהוגשו בקטוביץ ב-1 ביולי 1946, שלילת האזרחות הפולנית ב-1942, ורישום העקורים בבריסל ב-9 באפריל 1946 — יחד עם האזהרה שאותו כרטיס רושם את מקום לידתו כ״צ׳שין״ בטעות, ולכן כל דבר המתויק תחת צ׳שין עשוי להיות שלו. היא שואלת בנפרד על בריש ורבקה, שעבורם אין בידינו רשומת פטירה כלל.\n\nהטופס דורש שם, כתובת והצהרת קרבה — נכד — ולכן דורון הוא ששולח. יש לצרף את כרטיס העקורים ואת שני כרטיסי CKŻP; הם נותנים לחוקרים מספרי אסמכתה לעבוד לפיהם. אם יחזור קוד אסמכתה, מקומו בקטלוג המסמכים ובעמוד הזה, לא בתיבת דואר.",
+          "source": "docs/research/arolsen_inquiry_2026-08-03_david_rapaport.md, drafted 3 August 2026.",
+          "urls": [
+            "https://arolsen-archives.org/en/search-explore/inquiries/"
+          ]
+        },
         {
           "id": "paternal_line_radomysl_cracked",
           "pillar": "independent",
@@ -2382,6 +2407,18 @@
       "intro_he": "צעדים קונקרטיים שדורון יכול לבצע. כל פריט הוא בקשה ספציפית למוסד ספציפי.",
       "cards": [
         {
+          "id": "arolsen_inquiry_send",
+          "title_en": "📮 TO SEND — the Arolsen inquiry for David (and Lea, Szymon, Berisz, Rebeka)",
+          "title_he": "📮 לשליחה — פניית ארולסן עבור דוד (ולאה, שמעון, בריש, רבקה)",
+          "status": "open",
+          "summary_en": "Drafted 3 August 2026 and waiting on Doron, because the form requires a real name, address and stated relationship. Free of charge. See docs/research/arolsen_inquiry_2026-08-03_david_rapaport.md.",
+          "summary_he": "נוסחה ב-3 באוגוסט 2026 וממתינה לדורון, משום שהטופס דורש שם, כתובת וקרבה אמיתיים. ללא תשלום. ראו docs/research/arolsen_inquiry_2026-08-03_david_rapaport.md.",
+          "source": "Arolsen Archives inquiry service.",
+          "urls": [
+            "https://arolsen-archives.org/en/search-explore/inquiries/"
+          ]
+        },
+        {
           "id": "dov_dalia_marriage_place_settled",
           "pillar": "family",
           "title_en": "✅ Dov and Dalia married in HAIFA, 16 May 1975 — settled from the ketubah",
@@ -2476,5 +2513,5 @@
       ]
     }
   ],
-  "build_version": "2026-08-02-T63-period-photographs"
+  "build_version": "2026-08-03-T64-arolsen"
 }
