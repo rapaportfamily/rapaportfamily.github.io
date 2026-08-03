@@ -10,6 +10,48 @@
       "intro_he": "מרכז המחקר שלהלן נבנה ב-21 במאי. כל מה שבחלק הזה הגיע אחריו — הקיץ שבו נפרץ קו האב. שישה שבועות קודם לכן הוא נעצר בשם ערום; כעת הוא נמשך שישה דורות מתועדים עד רב בדומברובה טרנובסקה. כל כרטיס נוקב במקורו ובתאריכו. היכן שדבר מה סביר ולא מוכח — כך נכתב.",
       "cards": [
         {
+          "id": "jdc_names_database",
+          "title_en": "🗃️ The JDC archives — 557 Rapaport records, and the Joint paid their rent in Brussels",
+          "title_he": "🗃️ ארכיוני הג'וינט — 557 רשומות רפפורט, והג'וינט שילם את שכר דירתם בבריסל",
+          "status": "open",
+          "summary_en": "The memoir says the Joint paid the family's hotel rent in Brussels. That makes the JDC archives the single most likely place to find David, Lusia, Shimon and the infant Dov named together on one page — a relief list is exactly the kind of record that catches a whole family at once.\n\nThe JDC Names Database was searched in May 2026 and recorded as returning nothing. It did not run: the saved captures show result_count null and filled false on almost every query, the same failure that made Arolsen look empty.\n\nSearched properly on 3 August 2026 through the live database: the surname RAPAPORT returns 557 records. The database is real, indexed, and returns structured entries — given name, surname, birth date, birth location, occupation, and the other names on the same document. It holds 294,204 list entries, 128,714 index cards, 66,607 remittances and 66,404 transmigration bureau records.\n\nNONE OF OUR FOUR IS IDENTIFIED YET, and none is claimed. \"Rapaport Nadworna\" returns nothing, so the free-text location search does not work the way the help text suggests. \"Szymon Rapaport\" returns four, all of them a \"Semyon Rapoport\" with no birth data attached. The 557 have not been read one by one.\n\nWHAT WOULD FIND THEM. The Brussels and Belgium relief lists of 1946-47, and the Cyprus camp welfare records — the Joint operated in both places, and this family passed through both. That is a targeted browse of specific collections rather than a name search, and it is the next thing to do here.",
+          "summary_he": "היומן אומר שהג'וינט שילם את שכר הדירה של המשפחה במלון בבריסל. משום כך ארכיוני הג'וינט הם המקום הסביר ביותר למצוא את דוד, לוסיה, שמעון והתינוק דב נקובים יחד בעמוד אחד — רשימת סעד היא בדיוק סוג הרשומה התופסת משפחה שלמה בבת אחת.\n\nמאגר השמות של הג'וינט נבדק במאי 2026 ונרשם כאילו לא החזיר דבר. הוא לא רץ: הקבצים שנשמרו מראים result_count ריק ו-filled שקרי כמעט בכל שאילתה — אותה תקלה שגרמה לארולסן להיראות ריק.\n\nבבדיקה כראוי ב-3 באוגוסט 2026 במאגר החי: שם המשפחה רפפורט מחזיר 557 רשומות. המאגר אמיתי, ממופתח, ומחזיר רשומות מובנות — שם פרטי, שם משפחה, תאריך לידה, מקום לידה, עיסוק, והשמות האחרים המופיעים באותו מסמך.\n\nאיש מארבעתנו טרם זוהה, ואיש אינו נטען. ״רפפורט נדבורנא״ אינו מחזיר דבר, ו״שמעון רפפורט״ מחזיר ארבע רשומות של ״סמיון רפופורט״ ללא נתוני לידה. 557 הרשומות לא נקראו אחת-אחת.\n\nמה כן ימצא אותם: רשימות הסעד מבריסל ומבלגיה 1946-47, ורשומות הרווחה במחנות קפריסין — הג'וינט פעל בשני המקומות, והמשפחה הזאת עברה בשניהם. זו סריקה ממוקדת של אוספים מסוימים ולא חיפוש שם.",
+          "source": "JDC Names Database, searched 3 August 2026. Compared against research_cache/playwright_results/jdc_*.json from 21 May 2026, which did not run.",
+          "urls": [
+            "https://names.archives.jdc.org/"
+          ]
+        },
+        {
+          "id": "shimon_to_the_end",
+          "title_en": "🗞️ Shimon, to the end — and the date of death this archive does not have",
+          "title_he": "🗞️ שמעון, עד הסוף — ותאריך הפטירה שאין לארכיון הזה",
+          "status": "open",
+          "summary_en": "Doron asked for Shimon's story through to his death. Here is everything the archive holds, and where it stops.\n\nBorn Lwów, 22 June 1937 — his own post-war survivor card, filed at Katowice on 1 July 1946, card nr 151337. Hidden through the occupation; the memoir describes him kept in a crate for two and a half years so he would not be seen or heard, and says the children in the street in Brussels called him \"Jew\" and the war came back to him. He was a sensitive child carrying an unbearable weight, in his mother's words.\n\nAt nine he sailed from Sète with his father on the Theodor Herzl, was taken by the Royal Navy and interned at Karaolos in Cyprus for about a year, then released from the Atlit camp in 1948 — \"the corridor to freedom\", the memoir calls it. He had been a prisoner of the Germans by hiding and a prisoner of the British by sailing, before he was eleven.\n\nHe became a journalist: for many years the senior northern-region correspondent of Ma'ariv, covering security, industry, society and the economy of the north. The boy who was kept silent for two and a half years spent his working life being heard. He married Tamar (Tami) Bugin in Tel Aviv on 17 April 1967, and they had two children, Ronen and Hadas — and it was Hadas who, asking her teacher for help with a school assignment in 1986, caused Lusia's ninety pages to exist at all.\n\nAND THEN THE RECORD STOPS. He is deceased — the family summary marks him ז\"ל — but THIS ARCHIVE HAS NO DATE OF DEATH FOR HIM. Not a year. He is the only one of the four whose end is undocumented here: David 29 August 1990, Lusia 28 December 1996, Dov living. That gap is now the most conspicuous hole in the story of the four, and it is findable — the Haifa Chevra Kadisha burial records, which gave us David's and Lusia's graves to the row and plot, or the national burial index. Nobody has asked.\n\nA second gap beside it: his Ma'ariv bylines. Decades of a working journalist's output sit in the JPress newspaper archive, which is behind a Cloudflare bot check that will not be worked around from here. A person at a browser could pull his columns in an afternoon, and they would be Shimon speaking in his own voice — the only such material this archive could ever have, since he left no memoir.",
+          "summary_he": "דורון ביקש את סיפורו של שמעון עד מותו. הנה כל מה שהארכיון מחזיק, והיכן הוא נעצר.\n\nנולד בלבוב, 22 ביוני 1937 — לפי כרטיס הניצולים שלו עצמו, שהוגש בקטוביץ ב-1 ביולי 1946, מס' 151337. הוסתר לאורך הכיבוש; היומן מתאר אותו מוחזק בארגז שנתיים וחצי כדי שלא ייראה ולא יישמע, ומספר שילדי הרחוב בבריסל קראו לו ״יהודי״ והמלחמה שבה אליו.\n\nבגיל תשע הפליג מסֶט עם אביו ב״תיאודור הרצל״, נתפס בידי הצי המלכותי ונעצר בקרַאוֹלוֹס שבקפריסין כשנה, ואז שוחרר ממחנה עתלית ב-1948 — ״הפרוזדור אל החופש״, כלשון היומן. הוא היה אסיר הגרמנים בהסתרה ואסיר הבריטים בהפלגה, לפני גיל אחת עשרה.\n\nהוא נעשה עיתונאי: שנים רבות כתב מעריב הבכיר לאזור הצפון. הילד שהושתק שנתיים וחצי עשה את חייו המקצועיים בהישמע. נשא את תמר (תמי) בוגין בתל אביב ב-17 באפריל 1967, ולהם שני ילדים, רונן והדס — והדס היא שביקשה ב-1986 עזרה ממורתה במטלת בית ספר, וכך נוצרו תשעים העמודים של לוסיה.\n\nוכאן הרשומה נעצרת. הוא נפטר — הסיכום המשפחתי מסמן ז\"ל — אך לארכיון הזה אין תאריך פטירה עבורו. אף לא שנה. הוא היחיד מבין הארבעה שסופו אינו מתועד כאן. הפער הזה ניתן לסגירה: רשומות חברה קדישא בחיפה, שנתנו לנו את קברי דוד ולוסיה עד השורה והחלקה, או מפתח הקבורה הארצי. איש לא ביקש.\n\nולצידו פער שני: כתבותיו במעריב, המצויות בארכיון JPress שמאחורי בדיקת בוטים. אדם מול דפדפן יכול לשלוף את טוריו בשעות אחדות, והם יהיו שמעון בקולו שלו — החומר היחיד מסוגו שיוכל להיות לארכיון הזה, שכן לא הותיר יומן.",
+          "source": "doc_szymon_ckzp; memoir pp.63-65; doc_rapaport_institute_tree; assembled 3 August 2026.",
+          "urls": []
+        },
+        {
+          "id": "why_david_went_first",
+          "title_en": "⚓ Why David went first, and what Lusia refused — answered from the memoir",
+          "title_he": "⚓ מדוע דוד הקדים, וממה סירבה לוסיה — נענה מן היומן",
+          "status": "confirmed",
+          "summary_en": "Doron asked why David was in such a hurry to reach Israel with Shimon that he accepted a British prison camp as the price. The answer is on pages 63 and 64 of the memoir, and it is not impatience.\n\nTHEY WERE NOT ALLOWED TO TRAVEL TOGETHER. Lusia: \"Memek told Lusia that since the family could not immigrate together to the Land — within the framework of immigration it was not possible for mothers with infants to immigrate — they would split in two: he and Shimon would immigrate first and she and Duvik would join them later.\" Dov was a few months old. The clandestine sailings of Aliyah Bet did not take mothers with babies, so the choice was not go-now-or-go-later-together; it was go now with the nine-year-old, or nobody goes.\n\nSHE AGREED BECAUSE HER FAMILY WAS ALREADY THERE. Her parents, her two sisters and her brother had left for Palestine in 1933 and would meet the two of them at the other end — the same parents she had not seen since she was a young woman.\n\nAND THEN SHE TURNED DOWN AMERICA. This is the part the family framing had backwards. Lusia held an affidavit for the United States, sent by her husband’s relative David GRIFEL, and she stood second in the American quota. Her own father, writing from Palestine, urged her to take it — conditions in the Land were hard, and he told her she could join them a year later. She refused: \"Lusia did not agree to distance herself again from her husband and from Shimeon and rejected the generous offer.\"\n\nSo the record in this archive that read \"wanted to go to Israel (as a Betar member, vs Leah whose affidavit was for USA)\" made it sound like a disagreement between them. The memoir says the opposite. She had the easier door open, and she shut it to stay with them.\n\nA LEAD FALLS OUT OF IT. The affidavit came from DAVID GRIFEL — Griffel is David’s mother’s maiden name. That is a Griffel relative in the United States in 1946-47, close enough to sponsor them. This archive has no American branch at all. Separately, the Nadwórna Yizkor memorial list names \"GRIFFEL Meir and his family\". Neither is connected to Rebeka Griffel by any document yet, and neither is entered in the tree.",
+          "summary_he": "דורון שאל מדוע דוד מיהר כל כך להגיע לארץ עם שמעון עד שקיבל מחנה מעצר בריטי כמחיר. התשובה נמצאת בעמודים 63 ו-64 של היומן, ואין זו חוסר סבלנות.\n\nלא הותר להם לנסוע יחד. לוסיה: ״ממק אמר ללוסיה שמאחר שהמשפחה אינה יכולה לעלות יחד ארצה — במסגרת העלייה לא היה אפשר לאמהות עם תינוקות לעלות — הם ייחלקו לשניים: הוא ושמעון יעלו ראשונים והיא ודוביק יצטרפו אחר כך.״ דב היה בן חודשים אחדים. הפלגות ההעפלה לא נטלו אמהות עם תינוקות, ולכן הברירה לא הייתה לעלות עכשיו או לעלות יחד מאוחר יותר; היא הייתה לעלות עכשיו עם בן התשע, או שאיש לא עולה.\n\nהיא הסכימה משום שמשפחתה כבר הייתה שם. הוריה, שתי אחיותיה ואחיה עלו ב-1933 ויקבלו את פניהם — אותם הורים שלא ראתה מאז היותה צעירה.\n\nואז היא סירבה לאמריקה. זה החלק שהמסגור המשפחתי הפך. בידי לוסיה היה אפידביט לארצות הברית, ששלח קרוב של בעלה, דוד גריפל, והיא עמדה שנייה במכסה האמריקאית. אביה שלה, מן הארץ, האיץ בה לקבלו. היא סירבה: ״לוסיה לא הסכימה להתרחק שוב מבעלה ומשמעון ודחתה את ההצעה הנדיבה.״\n\nלכן הרשומה בארכיון שאמרה ״רצה לעלות ארצה (כחבר בית״ר, לעומת לאה שהאפידביט שלה היה לארה״ב)״ נשמעה כאילו הייתה ביניהם מחלוקת. היומן אומר את ההפך. בידה הייתה הדלת הקלה יותר, והיא סגרה אותה כדי להישאר איתם.\n\nומכאן קצה חוט: האפידביט הגיע מדוד גריפל — גריפל הוא שם נעוריה של אמו של דוד. זהו קרוב משפחת גריפל בארצות הברית ב-1946-47. לארכיון הזה אין ענף אמריקאי כלל.",
+          "source": "Memoir pp.62-64, read 3 August 2026.",
+          "urls": []
+        },
+        {
+          "id": "memoir_dates_pp62_64",
+          "title_en": "📏 Three date slips on memoir pp.62-64 — take the story from here, the dates from the records",
+          "title_he": "📏 שלוש שגיאות תאריך בעמודים 62-64 של היומן",
+          "status": "note",
+          "summary_en": "The same three pages carry three date errors, which is worth knowing before quoting them:\n\n• The memoir says Dov was born in Belgium \"in 1947\". He was born 28 August 1946.\n• It says Lusia was left with \"a three-month-old baby\" when the men sailed in April 1947. Dov was seven months.\n• It says \"Shimeon, age 8, found himself in the detention camp in Cyprus\". Born 22 June 1937, he was nine.\n\nNone of this touches the substance — the reason for the separation, the affidavit, the refusal — which is Lusia’s own account of her own decision and is the strongest kind of testimony this archive has. But the numbers drifted, as numbers do at forty years’ distance, and a film should take the story from these pages and the dates from the records.",
+          "summary_he": "אותם שלושה עמודים נושאים שלוש שגיאות תאריך, וכדאי לדעת זאת לפני שמצטטים מהם:\n\n• היומן אומר שדב נולד בבלגיה ״ב-1947״. הוא נולד ב-28 באוגוסט 1946.\n• הוא אומר שלוסיה נותרה עם ״תינוק בן שלושה חודשים״ כשהגברים הפליגו באפריל 1947. דב היה בן שבעה חודשים.\n• הוא אומר ״שמעון, בן 8, מצא עצמו במחנה המעצר בקפריסין״. יליד 22 ביוני 1937, הוא היה בן תשע.\n\nדבר מזה אינו נוגע למהות — סיבת הפרידה, האפידביט, הסירוב — שהיא עדותה של לוסיה על החלטתה שלה, וזו העדות החזקה ביותר שיש בארכיון הזה. אך המספרים נדדו, כדרך המספרים במרחק ארבעים שנה, וסרט צריך לקחת את הסיפור מהעמודים האלה ואת התאריכים מן הרשומות.",
+          "source": "Memoir pp.62-64 against events.json.",
+          "urls": []
+        },
+        {
           "id": "nussbaum_father_named",
           "title_en": "👨‍👦 A son names his father — Eliahu Mordechai Nussbaum, after seventy-seven years",
           "title_he": "👨‍👦 בן נוקב בשם אביו — אליהו מרדכי נוסבאום, אחרי שבעים ושבע שנים",
@@ -2494,6 +2536,26 @@
       "intro_he": "צעדים קונקרטיים שדורון יכול לבצע. כל פריט הוא בקשה ספציפית למוסד ספציפי.",
       "cards": [
         {
+          "id": "jdc_brussels_cyprus_lists",
+          "title_en": "📂 TO SEARCH — the JDC Brussels 1946-47 and Cyprus camp lists",
+          "title_he": "📂 לחפש — רשימות הג'וינט מבריסל 1946-47 וממחנות קפריסין",
+          "status": "open",
+          "summary_en": "A relief list would catch all four of them on one page. The Joint paid their hotel in Brussels and operated in the Cyprus camps. This is a browse of specific collections, not a name search.",
+          "summary_he": "רשימת סעד תתפוס את כל הארבעה בעמוד אחד. הג'וינט שילם את מלונם בבריסל ופעל במחנות קפריסין.",
+          "source": "Identified 3 August 2026.",
+          "urls": []
+        },
+        {
+          "id": "find_shimon_death_date",
+          "title_en": "🕊️ TO FIND — Shimon’s date of death",
+          "title_he": "🕊️ לאתר — תאריך פטירתו של שמעון",
+          "status": "open",
+          "summary_en": "He is the only one of the four whose end is undocumented here. The Haifa Chevra Kadisha records gave us David’s and Lusia’s graves to the row and plot; they should give his. Nobody has asked.",
+          "summary_he": "הוא היחיד מבין הארבעה שסופו אינו מתועד כאן. רשומות חברה קדישא בחיפה נתנו לנו את קברי דוד ולוסיה עד השורה והחלקה; הן אמורות לתת גם את שלו. איש לא ביקש.",
+          "source": "Identified 3 August 2026.",
+          "urls": []
+        },
+        {
           "id": "send_beg_request",
           "title_en": "📮 TO SEND — the German compensation (BEG) file request",
           "title_he": "📮 לשליחה — בקשת תיקי הפיצויים מגרמניה",
@@ -2622,5 +2684,5 @@
       ]
     }
   ],
-  "build_version": "2026-08-03-T75-father-named-beg-film"
+  "build_version": "2026-08-03-T77-jdc-and-shimon"
 }

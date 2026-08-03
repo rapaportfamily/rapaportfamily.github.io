@@ -154,10 +154,10 @@
         },
         {
           "key": "1945_destination_preference",
-          "value": "Wanted to go to Israel (as a Betar member, vs Leah whose affidavit was for USA)",
-          "confidence": "family_oral",
+          "value": "He and Shimon sailed first in April 1947 because the clandestine immigration would not take mothers with infants, and Dov was months old — not because he and Lusia disagreed about where to go. Memoir p.63. He was a Betar member, which is family memory and may well have shaped the choice of destination, but the SEPARATION had a stated practical cause.",
+          "confidence": "documented",
           "sources": [
-            "oral_doron_17may_whatsapp_2229"
+            "doc_lusia_memoir"
           ]
         },
         {
@@ -324,20 +324,20 @@
       "facts": [
         {
           "key": "marriage",
-          "value": "Married David Rapaport, February 1938, in Muszyna (מושינה)",
-          "confidence": "documented",
+          "value": "Married David Rapaport on 10 February 1935 in Bolechów, per the civil marriage record. Her memoir places the wedding in Muszyna in February 1938 — three years later and in another town; the month is right in both. Conflict recorded, not resolved.",
+          "confidence": "confirmed",
           "sources": [
-            "oral_dana_14may",
+            "doc_lea_dawid_marriage_1935",
             "doc_lusia_memoir"
           ],
           "note": "Memoir page 17 explicitly: marriage took place 'in the small resort town' (Muszyna), where they settled. Memoir page 16 dates the marriage as 'בפברואר 1938' (February 1938)."
         },
         {
           "key": "marriage_age_gap",
-          "value": "She was 18, he was 24 at marriage (per memoir)",
+          "value": "She was 21 and he was 23 at the marriage of February 1935. The memoir says 18 and 24, which follows from its own later date.",
           "confidence": "documented",
           "sources": [
-            "doc_lusia_memoir"
+            "doc_lea_dawid_marriage_1935"
           ]
         },
         {
@@ -447,6 +447,14 @@
           "confidence": "documented",
           "sources": [
             "src_haifa_chevra_kadisha_records"
+          ]
+        },
+        {
+          "key": "refused_america_1947",
+          "value": "She held an affidavit for the United States, sent by her husband’s relative David Grifel, and stood second in the American quota. Her father, already in Palestine, urged her to take it. She refused rather than be separated again from David and Shimon. Memoir p.64.",
+          "confidence": "documented",
+          "sources": [
+            "doc_lusia_memoir"
           ]
         }
       ],
