@@ -10,6 +10,38 @@
       "intro_he": "מרכז המחקר שלהלן נבנה ב-21 במאי. כל מה שבחלק הזה הגיע אחריו — הקיץ שבו נפרץ קו האב. שישה שבועות קודם לכן הוא נעצר בשם ערום; כעת הוא נמשך שישה דורות מתועדים עד רב בדומברובה טרנובסקה. כל כרטיס נוקב במקורו ובתאריכו. היכן שדבר מה סביר ולא מוכח — כך נכתב.",
       "cards": [
         {
+          "id": "nussbaum_father_named",
+          "title_en": "👨‍👦 A son names his father — Eliahu Mordechai Nussbaum, after seventy-seven years",
+          "title_he": "👨‍👦 בן נוקב בשם אביו — אליהו מרדכי נוסבאום, אחרי שבעים ושבע שנים",
+          "status": "confirmed",
+          "summary_en": "Freida Amalia Rapaport — Berisz's sister — married twice. Her first husband died by 8 June 1919, within weeks of their son's birth, and this archive knew nothing about him. Even the surname was only INFERRED, deduced from the son's surname at birth, and the record carried a warning saying so.\n\nHe is Eliahu Mordechai Nussbaum. His son wrote it: applying to the Israeli Ministry of the Interior in March 1996 for confirmation of the Palestinian citizenship he had been granted fifty years earlier, Zwi entered his father's name in the space provided. A son naming his father seventy-seven years after the man's death, on a form about something else entirely.\n\nThe same form gives the family's 1996 address — Inge and Zwi Ayalon, 84 Sderot HaNassi, Haifa — which also tells us Inge was still living, fifty-five years married. And it shows the surname Hebraised: AYALON (NUSSBAUM).",
+          "summary_he": "פרידה אמליה רפפורט — אחותו של בריש — נישאה פעמיים. בעלה הראשון מת עד 8 ביוני 1919, שבועות ספורים לאחר לידת בנם, והארכיון הזה לא ידע עליו דבר. אפילו שם המשפחה היה בגדר הסקה בלבד, שנגזרה משם בנו בלידה, והרשומה נשאה אזהרה על כך.\n\nהוא אליהו מרדכי נוסבאום. בנו כתב זאת: בפנייתו למשרד הפנים במרץ 1996 לאישור האזרחות הארצישראלית שהוענקה לו חמישים שנה קודם, מילא צבי את שם אביו במקום המיועד. בן הנוקב בשם אביו שבעים ושבע שנים לאחר מותו, בטופס שעניינו אחר לגמרי.\n\nאותו טופס מוסר את כתובת המשפחה ב-1996 — אינגה וצבי איילון, שדרות הנשיא 84, חיפה — ומכאן גם שאינגה הייתה עדיין בחיים, חמישים וחמש שנות נישואין. והוא מראה את עברות שם המשפחה: איילון (נוסבאום).",
+          "source": "Israel State Archives, Mandate file מ-3211/050, p.13 — Ministry of the Interior application, received 26 March 1996. Read 3 August 2026.",
+          "urls": []
+        },
+        {
+          "id": "german_compensation_files",
+          "title_en": "💶 The German compensation files — the memoir says they exist, and nobody has asked",
+          "title_he": "💶 תיקי הפיצויים מגרמניה — היומן אומר שהם קיימים, ואיש לא ביקש אותם",
+          "status": "action_item",
+          "summary_en": "Lusia's memoir records that she and David travelled to West Berlin over the reparations around 1958, that David argued with himself about whether it was right to take German money, and that the Moriah Street apartment was bought with what came of it. A claim pursued in person in Berlin and paid means a file was opened under the Bundesentschädigungsgesetz.\n\nThat matters more than the money. BEG files are thick: the claimant's own account of what was done to them, medical assessments, statements from other survivors who could corroborate it, and years of correspondence. For a family whose entire wartime record is one Displaced Persons card and a memoir written forty years afterwards, David's and Lusia's BEG file may be the largest surviving body of their own testimony anywhere.\n\nWhere to write, both free: the BEG central register at Bezirksregierung Düsseldorf, Dezernat 15, which holds the index and can say which authority has the file; and the Berlin compensation authority itself — LABO, Entschädigungsbehörde, Fehrbelliner Platz 1, 10702 Berlin, Entschaedigung@labo.berlin.de — which is the likely holder given the Berlin trip. The request is for ARCHIVAL ACCESS AS AN HEIR, not a new claim: new claims closed long ago and required the victim to be living, but the files themselves are records and descendants can ask for copies. Drafted at docs/research/german_compensation_request_2026-08-03.md.\n\nWorth asking separately for Inge née Rosenbusch, born Kassel 3 July 1922, who left Germany in 1938. If anyone in this family has a German file, she does.",
+          "summary_he": "יומנה של לוסיה מתעד שהיא ודוד נסעו למערב ברלין בעניין הפיצויים סביב 1958, שדוד התלבט אם נכון לקחת כסף גרמני, ושהדירה ברחוב מוריה נקנתה מן התמורה. תביעה שנוהלה אישית בברלין ושולמה פירושה שנפתח תיק לפי חוק הפיצויים הפדרלי הגרמני.\n\nוזה חשוב יותר מן הכסף. תיקי BEG הם עבים: עדותו של התובע עצמו על מה שנעשה לו, חוות דעת רפואיות, הצהרות של ניצולים אחרים שיכלו לאשש, ושנים של התכתבות. עבור משפחה שכל תיעודה מן המלחמה הוא כרטיס עקורים אחד ויומן שנכתב ארבעים שנה אחר כך, תיק הפיצויים של דוד ולוסיה עשוי להיות גוף העדות הגדול ביותר שלהם עצמם שנותר בעולם.\n\nלאן לפנות, שניהם ללא תשלום: המרשם המרכזי ב-Bezirksregierung Düsseldorf, מחלקה 15, המחזיק במפתח ויכול לומר אצל איזו רשות מצוי התיק; ורשות הפיצויים בברלין עצמה — LABO, Fehrbelliner Platz 1, 10702 Berlin, Entschaedigung@labo.berlin.de. הבקשה היא לעיון בתיק כיורש, לא לתביעה חדשה.\n\nכדאי לשאול בנפרד גם על אינגה לבית רוזנבוש, ילידת קאסל 3 ביולי 1922, שעזבה את גרמניה ב-1938.",
+          "source": "Memoir pp.70, 76; German compensation authorities, checked 3 August 2026.",
+          "urls": [
+            "https://www.claimscon.org/our-work/compensation/germany-payments/beg/offices/"
+          ]
+        },
+        {
+          "id": "film_brief",
+          "title_en": "🎬 Notes for whoever makes the film",
+          "title_he": "🎬 הערות למי שיעשה מזה סרט",
+          "status": "note",
+          "summary_en": "A brief has been written for a future filmmaker or model working from this archive: docs/FILM_BRIEF.md.\n\nIt carries one rule above the rest — the archive marks everything for how well it is known, and those marks must survive into the film. Confirmed, documented, family memory, testimony only, and conflict each mean something specific, and the brief spells out what may be done with each. A story about the Shoah that invents detail does harm, because the invented detail is what a denier points at later.\n\nIt also lists what may NOT be said: do not resolve Leah's birth year, do not resolve Zwi's birthplace, do not claim Isak Goldfischer as family, do not date Berisz's and Rebeka's deaths precisely, do not put words in Dov's mouth. And it names the third-act structure the documents gave us that the memoir never did: the two separations, in 1946 and 1947.",
+          "summary_he": "נכתב תדריך למי שיעשה מן הארכיון הזה סרט: docs/FILM_BRIEF.md.\n\nהוא נושא כלל אחד מעל כולם — הארכיון מסמן כל דבר לפי מידת הידיעה, והסימונים האלה חייבים לשרוד אל תוך הסרט. מאושר, מתועד, זיכרון משפחתי, עדות בלבד, וסתירה — לכל אחד מהם משמעות מדויקת. סיפור על השואה הממציא פרט גורם נזק, משום שהפרט המומצא הוא בדיוק מה שמכחיש יצביע עליו אחר כך.\n\nהוא גם מונה את מה שאסור לומר, ואת מבנה המערכה השלישית שהמסמכים העניקו ושהיומן מעולם לא: שתי הפרידות, ב-1946 וב-1947.",
+          "source": "docs/FILM_BRIEF.md, written 3 August 2026.",
+          "urls": []
+        },
+        {
           "id": "nussbaum_citizenship_file",
           "title_en": "🗂️ The 31 unlabelled scans are a Mandate citizenship file — Nussbaum, Haifa 1945",
           "title_he": "🗂️ 31 הסריקות ללא הכיתוב הן תיק אזרחות מנדטורי — נוסבאום, חיפה 1945",
@@ -2462,6 +2494,18 @@
       "intro_he": "צעדים קונקרטיים שדורון יכול לבצע. כל פריט הוא בקשה ספציפית למוסד ספציפי.",
       "cards": [
         {
+          "id": "send_beg_request",
+          "title_en": "📮 TO SEND — the German compensation (BEG) file request",
+          "title_he": "📮 לשליחה — בקשת תיקי הפיצויים מגרמניה",
+          "status": "open",
+          "summary_en": "Drafted 3 August 2026. Free. Two addresses: the central register at Düsseldorf to locate the file, and LABO Berlin which most likely holds it. Ask for archival access as an heir. See docs/research/german_compensation_request_2026-08-03.md.",
+          "summary_he": "נוסחה ב-3 באוגוסט 2026. ללא תשלום. שתי כתובות: המרשם המרכזי בדיסלדורף לאיתור התיק, ורשות הפיצויים בברלין המחזיקה בו קרוב לוודאי. לבקש עיון כיורש.",
+          "source": "German compensation authorities.",
+          "urls": [
+            "https://www.claimscon.org/our-work/compensation/germany-payments/beg/offices/"
+          ]
+        },
+        {
           "id": "close_the_data_gate",
           "title_en": "🔐 TO DO — put the token check in front of data/ as well",
           "title_he": "🔐 לביצוע — להציב את בדיקת האסימון גם לפני data/",
@@ -2578,5 +2622,5 @@
       ]
     }
   ],
-  "build_version": "2026-08-03-T71-nussbaum-read-through"
+  "build_version": "2026-08-03-T75-father-named-beg-film"
 }
