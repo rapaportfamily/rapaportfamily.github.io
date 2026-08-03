@@ -10,6 +10,42 @@
       "intro_he": "מרכז המחקר שלהלן נבנה ב-21 במאי. כל מה שבחלק הזה הגיע אחריו — הקיץ שבו נפרץ קו האב. שישה שבועות קודם לכן הוא נעצר בשם ערום; כעת הוא נמשך שישה דורות מתועדים עד רב בדומברובה טרנובסקה. כל כרטיס נוקב במקורו ובתאריכו. היכן שדבר מה סביר ולא מוכח — כך נכתב.",
       "cards": [
         {
+          "id": "yizkor_nadworna_griffel",
+          "title_en": "🕯️ The Nadwórna memorial book names a Griffel family — and no Rapaport at all",
+          "title_he": "🕯️ ספר הזיכרון של נדבורנא נוקב במשפחת גריפל — ובאף רפפורט",
+          "status": "open",
+          "summary_en": "The Nadwórna Yizkor book — 348 pages, edited by Israel Carmi, published in Tel Aviv in 1975 by the Nadworna societies of Israel and New York — carries a Memorial List of roughly 400 names, translated from the Yiddish and online at JewishGen.\n\nSearched 3 August 2026 for every spelling of our two Nadwórna surnames. One hit: \"GRIFFEL Meir and his family\". David’s mother was Rebeka Griffel of Nadwórna. Whether Meir was her father, brother or cousin is not stated and is not assumed here — but he is the first Griffel we have found in that town from any source other than her own son’s birth record.\n\nAnd the absence matters as much: there is NO Rapaport in the memorial list. Nor is there any Rapaport or Griffel among the 333 names of the town’s 1932 taxpayers list, of whom 244 lived in Nadwórna itself. That fits what we already knew rather than contradicting it — Berisz filed his 1924 passport application in Stanisławów and gave Dąbrowa as the family commune, so by the 1930s the family was no longer a Nadwórna household. The memorial list also covers only about 400 people out of a community of some two thousand, so it is not a complete record of the dead.",
+          "summary_he": "ספר היזכור של נדבורנא — 348 עמודים, בעריכת ישראל כרמי, יצא בתל אביב ב-1975 מטעם ארגוני יוצאי נדבורנא בישראל ובניו יורק — נושא רשימת הנצחה של כארבע מאות שמות, מתורגמת מיידיש ומקוונת ב-JewishGen.\n\nנבדקה ב-3 באוגוסט 2026 לכל איותיהם של שני שמות המשפחה שלנו מנדבורנא. פגיעה אחת: ״גריפל מאיר ומשפחתו״. אמו של דוד הייתה רבקה גריפל מנדבורנא. אם מאיר היה אביה, אחיה או בן דודה — אין הדבר נאמר ואינו מונח כאן. אך הוא הגריפל הראשון שמצאנו בעיירה ההיא מכל מקור שאינו רשומת הלידה של בנה.\n\nוההיעדר חשוב לא פחות: אין ולו רפפורט אחד ברשימת ההנצחה. אף אין רפפורט או גריפל בין 333 השמות ברשימת משלמי המסים של העיירה מ-1932, שמתוכם 244 התגוררו בנדבורנא עצמה. הדבר מתיישב עם מה שכבר ידענו ולא סותר אותו — בריש הגיש את בקשת הדרכון שלו ב-1924 בסטניסלבוב ונקב בדומברובה כקהילת המשפחה, כך שבשנות השלושים המשפחה כבר לא הייתה משק בית בנדבורנא. רשימת ההנצחה גם מכסה כארבע מאות אנשים בלבד מתוך קהילה של כאלפיים, ולכן אינה תיעוד מלא של המתים.",
+          "source": "Nadworna Yizkor Book (ed. Israel Carmi, Tel Aviv 1975), Memorial List and 1932 Taxpayers List, JewishGen Yizkor Book Project. Searched 3 August 2026.",
+          "urls": [
+            "https://www.jewishgen.org/yizkor/nadvornaya/nad900.html",
+            "https://www.jewishgen.org/yizkor/nadvornaya/nad901.html"
+          ]
+        },
+        {
+          "id": "yizkor_bolechow_vaytsner",
+          "title_en": "📖 The Bolechów memorial book indexes Vaytsner and Griffel — Lusia’s town, in print",
+          "title_he": "📖 ספר הזיכרון של בולחוב מפתח את ויצנר וגריפל — עיירתה של לוסיה, בדפוס",
+          "status": "open",
+          "summary_en": "Sefer ha-zikaron le-kedoshei Bolechow, edited by Y. Eshel and published by the Association of Former Residents of Bolechow in Israel in 1957, was translated by JewishGen Press in 2015. Its surname index was read on 3 August 2026.\n\nVaytsner appears at page 165 — that is Weitzner, Lusia’s own surname, in her own town’s memorial book. Griffel appears at 179, Grifl at 163, Gripel at 142. Rapaport appears at 23, 24, 31, 38, 39, 40, 41, 163 and 185, but the index itself marks 40 and 41 as \"Rapaport (ShI’R)\" — Shlomo Yehuda Rapoport the scholar, who is not ours, and the neighbouring pages are a chapter on the Haskalah, so most of that string is very likely him rather than family.\n\nWhat this is: page references into a printed book, not yet the text itself. The page numbering of the translation does not map cleanly onto the chapter files published online, so reading what is actually written at Vaytsner 165 and Grifl 163 needs the printed edition or a targeted request to JewishGen. Recorded as a lead, not a finding — nobody in this family is claimed from an index entry alone.",
+          "summary_he": "ספר הזיכרון לקדושי בולחוב, בעריכת י. אשל ובהוצאת ארגון יוצאי בולחוב בישראל, 1957, תורגם בידי JewishGen Press ב-2015. מפתח שמות המשפחה שלו נקרא ב-3 באוגוסט 2026.\n\nויצנר (Vaytsner) מופיע בעמוד 165 — זהו שם משפחתה של לוסיה עצמה, בספר ההנצחה של עיירתה שלה. גריפל מופיע ב-179, גריפל (Grifl) ב-163, גריפל (Gripel) ב-142. רפפורט מופיע ב-23, 24, 31, 38, 39, 40, 41, 163 ו-185, אך המפתח עצמו מסמן את 40 ו-41 כ״רפפורט (שי״ר)״ — שלמה יהודה רפופורט החוקר, שאינו שלנו, והעמודים הסמוכים הם פרק על ההשכלה, כך שרוב הרצף הזה קרוב לוודאי הוא ולא בני משפחה.\n\nמהו הדבר: הפניות עמודים לספר מודפס, ולא הטקסט עצמו. מספור העמודים של התרגום אינו נפרש בנקל על קובצי הפרקים המקוונים, ולכן קריאת מה שכתוב בפועל בוויצנר 165 ובגריפל 163 מחייבת את המהדורה המודפסת או פנייה ממוקדת ל-JewishGen. נרשם כקצה חוט ולא כממצא — איש במשפחה הזאת אינו נטען מתוך שורת מפתח בלבד.",
+          "source": "Memorial Book of Bolekhov (Bolechów), Ukraine — surname index, JewishGen Press 2015 (translation of Sefer ha-zikaron le-kedoshei Bolechow, ed. Y. Eshel, 1957). Read 3 August 2026.",
+          "urls": [
+            "https://www.jewishgen.org/yizkor/indices/Bolekhiv_index.pdf",
+            "https://jewishgen.org/yizkor/bolekhov/bolekhov.html"
+          ]
+        },
+        {
+          "id": "archive_data_is_public",
+          "title_en": "🔓 The magic link protects the page, not the files — data/ answers anyone",
+          "title_he": "🔓 הקישור הקסום מגן על העמוד, לא על הקבצים — data/ עונה לכל אחד",
+          "status": "action_item",
+          "summary_en": "Checked on 3 August 2026, before deciding whether to add anything about living relatives. A plain request for data/people.json — no token, no cookie, no referrer — returns HTTP 200 and 176 KB. The same is true of every other data file. The per-person magic-link gate validates before loading the interface; it does not stand in front of the JSON the interface reads.\n\nSo the archive is, in practice, published. That is why this archive still carries no birth dates for living people, and why the family’s younger generations are not being filled in from social media: it would put children’s details into a file anyone can fetch.\n\nDone now: robots.txt disallowing all crawlers, and a noindex/nofollow/noarchive meta tag. Both are requests that well-behaved search engines honour; neither is a lock, and anyone with the URL can still read everything. Still to do, and it is a real change rather than a tweak: put the same token check in front of data/, or move the data behind a service that can require it.",
+          "summary_he": "נבדק ב-3 באוגוסט 2026, לפני ההחלטה אם להוסיף דבר על קרובים חיים. בקשה פשוטה ל-data/people.json — ללא אסימון, ללא עוגייה, ללא מפנה — מחזירה HTTP 200 ו-176 קילובייט. כך גם כל קובץ נתונים אחר. שער הקישור האישי מאמת לפני טעינת הממשק; הוא אינו עומד לפני קובצי ה-JSON שהממשק קורא.\n\nכלומר הארכיון, למעשה, מפורסם. זו הסיבה שהארכיון הזה עדיין אינו נושא תאריכי לידה של אנשים חיים, ושהדורות הצעירים של המשפחה אינם מושלמים מרשתות חברתיות: הדבר היה מכניס פרטים של ילדים לקובץ שכל אחד יכול למשוך.\n\nנעשה כעת: robots.txt האוסר על כל הסורקים, ותגית noindex/nofollow/noarchive. שניהם בקשות שמנועי חיפוש הגונים מכבדים; אף אחד מהם אינו מנעול, וכל מי שבידו הכתובת עדיין יכול לקרוא הכול. נותר לעשות, וזהו שינוי אמיתי ולא כוונון: להציב את אותה בדיקת אסימון גם לפני data/, או להעביר את הנתונים אל שירות שיכול לדרוש אותה.",
+          "source": "Direct unauthenticated HTTP request to rapaportfamily.github.io/data/people.json, 3 August 2026.",
+          "urls": []
+        },
+        {
           "id": "arolsen_searched_properly_2026_08",
           "title_en": "🗄️ The Arolsen Archives, searched properly at last — 3,663 Rapaport records, and none of them yet ours",
           "title_he": "🗄️ ארכיוני ארולסן, נבדקו סוף סוף כראוי — 3,663 רשומות רפפורט, ואף אחת מהן עדיין אינה שלנו",
@@ -2416,6 +2452,16 @@
       "intro_he": "צעדים קונקרטיים שדורון יכול לבצע. כל פריט הוא בקשה ספציפית למוסד ספציפי.",
       "cards": [
         {
+          "id": "close_the_data_gate",
+          "title_en": "🔐 TO DO — put the token check in front of data/ as well",
+          "title_he": "🔐 לביצוע — להציב את בדיקת האסימון גם לפני data/",
+          "status": "open",
+          "summary_en": "robots.txt and noindex are in place as of 3 August 2026, but they only ask. Until the magic-link check covers the JSON files themselves, this archive is readable by anyone who has the address — which is the reason living people’s dates are still left out.",
+          "summary_he": "robots.txt ו-noindex הוצבו ב-3 באוגוסט 2026, אך הם בגדר בקשה בלבד. כל עוד בדיקת הקישור האישי אינה חלה על קובצי ה-JSON עצמם, הארכיון הזה קריא לכל מי שבידו הכתובת — וזו הסיבה שתאריכיהם של אנשים חיים עדיין אינם נכללים.",
+          "source": "Verified 3 August 2026.",
+          "urls": []
+        },
+        {
           "id": "arolsen_inquiry_send",
           "title_en": "📮 TO SEND — the Arolsen inquiry for David (and Lea, Szymon, Berisz, Rebeka)",
           "title_he": "📮 לשליחה — פניית ארולסן עבור דוד (ולאה, שמעון, בריש, רבקה)",
@@ -2522,5 +2568,5 @@
       ]
     }
   ],
-  "build_version": "2026-08-03-T65-katowice-first"
+  "build_version": "2026-08-03-T67-yizkor-and-exposure"
 }

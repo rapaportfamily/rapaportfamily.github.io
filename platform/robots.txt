@@ -1,0 +1,7 @@
+# The magic-link gate protects the interface, not the files behind it:
+# data/people.json and the rest answer any request with HTTP 200. Until the
+# token check sits in front of data/ too, this is what keeps a family archive
+# containing living people — several of them children — out of search results.
+# It is a request, not a lock. Crawlers that ignore it will still read the files.
+User-agent: *
+Disallow: /
