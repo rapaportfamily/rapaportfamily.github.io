@@ -2006,7 +2006,7 @@
       "status": "needs_reading"
     },
     {
-      "id": "doc_unidentified_scan_sequence_2026_07",
+      "id": "doc_nussbaum_palestinian_citizenship_1945",
       "file_pages": [
         "0001-000.jpg",
         "0002-000.jpg",
@@ -2041,19 +2041,31 @@
         "0031-000.jpg"
       ],
       "kind": "image",
-      "type": "research_report",
-      "primary_language": "pl",
+      "type": "citizenship_application",
+      "primary_language": "en",
       "title": {
-        "en": "Unidentified scan sequence, 31 pages (July 2026 export)",
-        "he": "רצף סריקות לא מזוהה, 31 עמודים (ייצוא יולי 2026)",
-        "pl": "Niezidentyfikowana sekwencja skanów, 31 stron (eksport lipiec 2026)",
-        "fr": "Séquence de scans non identifiée, 31 pages (export juillet 2026)"
+        "en": "Application for Palestinian Citizenship — Hirsch Herman Nussbaum and Inge née Rosenbusch, Haifa 1945 (31 pages)",
+        "he": "בקשה לאזרחות פלשתינאית (א״י) — הירש הרמן נוסבאום ואינגה לבית רוזנבוש, חיפה 1945 (31 עמודים)",
+        "pl": "Wniosek o obywatelstwo palestyńskie — Hirsch Herman Nussbaum i Inge z d. Rosenbusch, Hajfa 1945 (31 stron)",
+        "fr": "Demande de citoyenneté palestinienne — Hirsch Herman Nussbaum et Inge née Rosenbusch, Haïfa 1945 (31 pages)"
       },
-      "source_archive": "Arrived in the WhatsApp export of 7 July 2026 with no caption in the chat.",
+      "source_archive": "Israel State Archives (גנזך המדינה), Mandate Government series מ, file 3211/050. Government of Palestine, Department of Migration, HQ serial 90563. Arrived in the WhatsApp export of 7 July 2026 with no caption; identified 3 August 2026.",
       "summary": {
-        "en": "31 consecutive scans, 0001-000 to 0031-000.jpg, sent without a word of explanation. Kept together and catalogued so they are not lost in the pile. Someone who can read the hand needs to look at page one and tell us what this is."
+        "en": "Read page by page on 3 August 2026. It is a Government of Palestine, Department of Migration file: APPLICATION FOR PALESTINIAN CITIZENSHIP, headquarters serial 90563, held by the Israel State Archives (גנזך המדינה) in the Mandate Government series מ, file 3211/050.\n\nAPPLICANT: NUSSBAUM, Hirsch Herman. Wife: Inge, maiden name Rosenbusch.\n\nWhat the file states:\n  • Applicant's Polish passport no. 118839, issued at PRZEMYŚL on 21 September 1938\n  • Wife's German passport no. 94, issued at BORKEN on 10 July 1935\n  • First entry into Palestine: 12 October 1938; immigrant registration HA/5934/B of the same date\n  • Wife and children registered HA/4302/A on 22 August 1938\n  • Marriage solemnised at HAIFA on 12 June 1941 — Haifa Jewish Community Rabbinical Office certificate H-49343 of 15 June 1941\n  • A son, MORDECHAI YOSEF, born at Haifa on 25 April 1943 — certificate 1591/43 of 14 May 1943\n  • Fee of 250 mils, receipt 715052 of 29 October 1945; application made at Haifa\n  • Approved 29 November 1945; naturalisation certificate no. 48628\n  • Both passports withdrawn at Haifa in 1946\n\nWHY IT MATTERS, AND WHAT IS NOT YET PROVEN. Our tree holds Zwi (Hirsch) Nussbaum, born in Przemyśl in 1919 — father of Yehudit Shlomit Ayalon, the living cousin found in June 2026, who is named after Freida, Berisz's sister. Zwi is Hirsch. A Polish passport issued at Przemyśl in September 1938 fits a nineteen-year-old from that town leaving for Palestine, and he entered three weeks later.\n\nThat is a strong lead and it is NOT a proof. The pages read so far carry no birth date and no parents' names for the applicant, which are what would settle it. The wife here is Inge Rosenbusch and the recorded child is a son, Mordechai Yosef; we do not know the name of Yehudit Shlomit's mother. Nussbaum is not a rare name. He is therefore NOT attached to any person in the tree until the particulars page is read.\n\nNEXT: the remaining pages of the file almost certainly carry the applicant's declaration with date and place of birth and his father's name. Reading those decides it either way."
       },
-      "status": "needs_identification"
+      "status": "needs_verification",
+      "decoded_fields": {
+        "applicant": "NUSSBAUM, Hirsch Herman",
+        "wife": "Inge, née Rosenbusch",
+        "applicant_passport": "Polish no. 118839, issued Przemyśl, 21 September 1938",
+        "wife_passport": "German no. 94, issued Borken, 10 July 1935",
+        "first_entry_palestine": "12 October 1938",
+        "marriage": "Haifa, 12 June 1941 (Rabbinical Office cert. H-49343)",
+        "child_recorded": "Mordechai Yosef, born Haifa 25 April 1943",
+        "naturalisation": "Approved 29 November 1945, certificate no. 48628",
+        "open_question": "Applicant’s birth date and parents not on the pages read so far — they are what would confirm or refute the link to Zwi (Hirsch) Nussbaum of Przemyśl, b.1919"
+      },
+      "related_people": []
     }
   ],
   "additional_files": [

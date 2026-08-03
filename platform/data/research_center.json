@@ -10,6 +10,16 @@
       "intro_he": "מרכז המחקר שלהלן נבנה ב-21 במאי. כל מה שבחלק הזה הגיע אחריו — הקיץ שבו נפרץ קו האב. שישה שבועות קודם לכן הוא נעצר בשם ערום; כעת הוא נמשך שישה דורות מתועדים עד רב בדומברובה טרנובסקה. כל כרטיס נוקב במקורו ובתאריכו. היכן שדבר מה סביר ולא מוכח — כך נכתב.",
       "cards": [
         {
+          "id": "nussbaum_citizenship_file",
+          "title_en": "🗂️ The 31 unlabelled scans are a Mandate citizenship file — Nussbaum, Haifa 1945",
+          "title_he": "🗂️ 31 הסריקות ללא הכיתוב הן תיק אזרחות מנדטורי — נוסבאום, חיפה 1945",
+          "status": "open",
+          "summary_en": "Thirty-one pages arrived in the July WhatsApp export with not a word of explanation. They were catalogued as unidentified, with the note that someone who could read the hand needed to look at page one. Page one was looked at on 3 August 2026.\n\nIt is a Government of Palestine, Department of Migration file held by the Israel State Archives: APPLICATION FOR PALESTINIAN CITIZENSHIP, serial 90563, file מ-3211/050. Applicant NUSSBAUM, Hirsch Herman; wife Inge née Rosenbusch. His Polish passport was issued at PRZEMYŚL on 21 September 1938 and he entered Palestine on 12 October 1938. They married at Haifa on 12 June 1941; a son, Mordechai Yosef, was born at Haifa on 25 April 1943; naturalisation was approved on 29 November 1945, certificate 48628.\n\nOur tree holds Zwi (Hirsch) Nussbaum, born Przemyśl 1919 — father of Yehudit Shlomit Ayalon, the living cousin found in June, named for Berisz’s sister Freida. Zwi is Hirsch, and a Polish passport issued at Przemyśl in September 1938 fits a nineteen-year-old from that town leaving weeks later.\n\nIt is a strong lead and it is not proof, so he is attached to nobody in the tree. The pages read so far give no birth date and no father’s name for the applicant. The remaining pages of the file almost certainly do, and reading them decides it.",
+          "summary_he": "שלושים ואחד עמודים הגיעו בייצוא הוואטסאפ של יולי בלא מילת הסבר. הם נרשמו כלא מזוהים, עם ההערה שמי שיודע לקרוא את כתב היד צריך להביט בעמוד הראשון. בעמוד הראשון הובט ב-3 באוגוסט 2026.\n\nזהו תיק של ממשלת פלשתינה (א״י), מחלקת ההגירה, השמור בגנזך המדינה: בקשה לאזרחות פלשתינאית, סידורי 90563, תיק מ-3211/050. המבקש: נוסבאום, הירש הרמן; אשתו אינגה לבית רוזנבוש. דרכונו הפולני הונפק בפשמישל ב-21 בספטמבר 1938 והוא נכנס לארץ ב-12 באוקטובר 1938. הם נישאו בחיפה ב-12 ביוני 1941; בן, מרדכי יוסף, נולד בחיפה ב-25 באפריל 1943; ההתאזרחות אושרה ב-29 בנובמבר 1945, תעודה 48628.\n\nבעץ שלנו נמצא צבי (הירש) נוסבאום, יליד פשמישל 1919 — אביה של יהודית שלומית איילון, בת הדודה החיה שנמצאה ביוני, הקרויה על שם פרידה אחותו של בריש. צבי הוא הירש, ודרכון פולני שהונפק בפשמישל בספטמבר 1938 מתאים לבחור בן תשע עשרה מאותה עיר שיצא שבועות אחדים אחר כך.\n\nזהו קצה חוט חזק ואין זו הוכחה, ולכן הוא אינו מקושר לאיש בעץ. העמודים שנקראו עד כה אינם נוקבים בתאריך לידה ולא בשם אב. יתר עמודי התיק קרוב לוודאי כן, וקריאתם תכריע.",
+          "source": "Israel State Archives, Mandate Government series מ, file 3211/050 — read directly, 3 August 2026.",
+          "urls": []
+        },
+        {
           "id": "yizkor_nadworna_griffel",
           "title_en": "🕯️ The Nadwórna memorial book names a Griffel family — and no Rapaport at all",
           "title_he": "🕯️ ספר הזיכרון של נדבורנא נוקב במשפחת גריפל — ובאף רפפורט",
@@ -2568,5 +2578,5 @@
       ]
     }
   ],
-  "build_version": "2026-08-03-T67-yizkor-and-exposure"
+  "build_version": "2026-08-03-T69-nussbaum-file"
 }
