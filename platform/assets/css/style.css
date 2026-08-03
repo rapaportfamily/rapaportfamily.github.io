@@ -1885,3 +1885,30 @@ html[dir="rtl"] .leg-memoir p { font-family: var(--font-hebrew); font-size: 1rem
   .story-chapter h2 { font-size: 1.5rem; flex-direction: column; gap: 0.2rem; }
   .story-para > p { font-size: 1.05rem; }
 }
+
+/* A face, where we have one. Portraits come from identity documents, so they
+   are small, sepia and squarish — sized to look deliberate rather than blown up. */
+.detail-portrait {
+  float: inline-end;
+  width: 130px;
+  margin: 0 0 1rem 1.2rem;
+  text-align: center;
+}
+html[dir="rtl"] .detail-portrait { margin: 0 1.2rem 1rem 0; }
+.detail-portrait img {
+  width: 130px;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.12);
+  display: block;
+}
+.detail-portrait figcaption {
+  margin-top: 0.35rem;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--muted);
+  line-height: 1.35;
+}
+@media (max-width: 560px) {
+  .detail-portrait { float: none; margin: 0 auto 1rem; }
+}

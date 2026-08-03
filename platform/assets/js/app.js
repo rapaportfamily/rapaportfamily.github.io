@@ -1439,6 +1439,12 @@ function openPersonModal(id) {
   const deathPlace = p.death?.place_id ? State.byId.places[p.death.place_id] : null;
 
   let html = `
+    ${p.photo ? `<figure class="detail-portrait">
+      <a href="${escapeHtml(p.photo)}" target="_blank" rel="noopener">
+        <img src="${escapeHtml(p.photo)}" alt="${escapeHtml(ml(p.primary_name))}" loading="lazy">
+      </a>
+      ${p.photo_caption ? `<figcaption>${escapeHtml(ml(p.photo_caption))}</figcaption>` : ''}
+    </figure>` : ''}
     <div class="detail-name">${escapeHtml(ml(p.primary_name))}</div>
     ${p.aliases?.length ? `<div class="detail-aliases">${escapeHtml(p.aliases.join(' · '))}</div>` : ''}
     <div class="muted" style="margin-bottom:1rem;font-family:var(--font-mono);font-size:0.78rem;text-transform:uppercase;letter-spacing:0.08em;">${escapeHtml(roleLabel(p.role))}</div>
