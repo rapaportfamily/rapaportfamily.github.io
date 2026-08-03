@@ -1804,3 +1804,84 @@ html[dir="rtl"] .leg-memoir p { font-family: var(--font-hebrew); font-size: 1rem
 .country-key  { fill: #dfe8ff; stroke: var(--accent-soft); stroke-width: 1; }
 .journey-route.is-hidden, .journey-node.is-hidden, .journey-leg.is-hidden { display: none; }
 .journey-route { transition: opacity 0.15s; }
+
+/* ----------------------------------------
+   THE STORY — long-form reading. Narrow measure, serif, and the source line
+   under each paragraph kept quiet so it does not interrupt the reading.
+   ---------------------------------------- */
+.story-note {
+  max-width: 46rem;
+  margin: 0 auto 2rem;
+  padding: 0.9rem 1.1rem;
+  background: var(--accent-wash);
+  border-inline-start: 3px solid var(--accent);
+  border-radius: var(--radius);
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+}
+.story-toc {
+  max-width: 46rem;
+  margin: 0 auto 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.9rem;
+  font-size: 0.9rem;
+}
+.story-toc a { color: var(--accent); text-decoration: none; border-bottom: 1px solid transparent; }
+.story-toc a:hover { border-bottom-color: var(--accent); }
+
+.story-chapter { max-width: 46rem; margin: 0 auto 3.5rem; scroll-margin-top: 6rem; }
+.story-chapter h2 {
+  font-family: var(--font-serif);
+  font-size: 1.9rem;
+  color: var(--accent);
+  margin-bottom: 1.4rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.story-years {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.story-para { margin-bottom: 1.9rem; }
+.story-para > p {
+  font-family: var(--font-serif);
+  font-size: 1.13rem;
+  line-height: 1.85;
+  color: var(--ink);
+  margin: 0;
+}
+.story-src {
+  margin-top: 0.5rem !important;
+  font-family: var(--font-mono) !important;
+  font-size: 0.76rem !important;
+  line-height: 1.5 !important;
+  color: var(--muted) !important;
+}
+.story-tag {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.story-conflict  { border-inline-start: 3px solid var(--warn); padding-inline-start: 1rem; }
+.story-conflict  .story-tag { background: #fdf3e0; color: var(--warn); }
+.story-testimony { border-inline-start: 3px solid var(--rule); padding-inline-start: 1rem; }
+.story-testimony .story-tag { background: var(--paper-deep); color: var(--muted); }
+
+@media (max-width: 700px) {
+  .story-chapter h2 { font-size: 1.5rem; flex-direction: column; gap: 0.2rem; }
+  .story-para > p { font-size: 1.05rem; }
+}

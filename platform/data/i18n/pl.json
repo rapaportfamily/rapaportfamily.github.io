@@ -31,7 +31,8 @@
     "group_story": "Ich historia",
     "group_evidence": "Dowody",
     "group_open": "Wciąż otwarte",
-    "journey": "Podróż"
+    "journey": "Podróż",
+    "story": "Historia"
   },
   "ui": {
     "language": "Język",
@@ -233,5 +234,11 @@
     "pick_hint": "Wybierz osobę, aby śledzić ją samą. Wybierz całą czwórkę — spotkają się w Hajfie.",
     "show_all": "Pokaż całą czwórkę",
     "map_alt": "Mapa podróży z Galicji przez Polskę, Belgię i Francję na Cypr i do Izraela"
+  },
+  "story": {
+    "title": "Historia",
+    "lead": "Całość, od Radomyśla Wielkiego do Hajfy. Każdy akapit wskazuje źródło.",
+    "kind_conflict": "pamiętnik i dokument są sprzeczne",
+    "kind_testimony": "tylko świadectwo — brak dokumentu"
   }
 }

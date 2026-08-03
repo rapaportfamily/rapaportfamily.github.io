@@ -31,7 +31,8 @@
     "group_story": "Their story",
     "group_evidence": "The evidence",
     "group_open": "Still open",
-    "journey": "The Journey"
+    "journey": "The Journey",
+    "story": "The Story"
   },
   "ui": {
     "language": "Language",
@@ -233,5 +234,11 @@
     "pick_hint": "Pick a person to follow them alone. Pick all four and they meet in Haifa.",
     "show_all": "Show all four",
     "map_alt": "Map of the journey from Galicia through Poland, Belgium and France to Cyprus and Israel"
+  },
+  "story": {
+    "title": "The Story",
+    "lead": "The whole of it, read straight through — from Radomyśl Wielki to Haifa. Every paragraph names the record it rests on.",
+    "kind_conflict": "the memoir and the record disagree",
+    "kind_testimony": "testimony only — no document"
   }
 }

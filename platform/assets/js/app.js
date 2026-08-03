@@ -165,6 +165,7 @@ function router() {
     case 'tree': renderTree(root); break;
     case 'timeline': renderTimeline(root); break;
     case 'journey': renderJourney(root); break;
+    case 'story': renderStory(root); break;
     case 'people': renderPeople(root, param); break;
     case 'places': renderPlaces(root, param); break;
     case 'documents': renderDocuments(root, param); break;
@@ -576,9 +577,16 @@ function drawPersonBox(parent, person, x, y) {
   g.appendChild(title);
 
   svgText(g, TREE.BW / 2, 22, truncate(full, 24), 'person-name');
-  const b = person.birth && person.birth.date ? extractYear(person.birth.date) : '?';
+  // The People view stopped printing "?" against the 65 people whose birth date
+  // we have never had; the tree kept doing it, so most living relatives read
+  // "? –". An empty field is not a fact about a person. Show what we have.
+  const b = person.birth && person.birth.date ? extractYear(person.birth.date) : '';
   const d = person.death && person.death.date ? extractYear(person.death.date) : '';
-  svgText(g, TREE.BW / 2, 40, d ? `${b} – ${d}` : `${b} –`, 'person-dates');
+  let dates = '';
+  if (b && d) dates = `${b} – ${d}`;
+  else if (b) dates = `${b} –`;
+  else if (d) dates = `– ${d}`;
+  if (dates) svgText(g, TREE.BW / 2, 40, dates, 'person-dates');
 
   const open = () => openPersonModal(person.id);
   g.addEventListener('click', open);
@@ -1117,6 +1125,54 @@ function resolveJourneyCaptions(svg) {
       }));
     }
   }
+}
+
+// ----------------------------------------
+// THE STORY — the whole thing read straight through, rather than as 45 separate
+// timeline cards. Every paragraph shows the record it rests on, and the places
+// where the memoir and the documents disagree are marked in the text instead of
+// being quietly resolved.
+// ----------------------------------------
+let _storyCache = null;
+
+async function loadStory() {
+  if (!_storyCache) {
+    _storyCache = await fetch(`data/narrative.json?v=${Date.now()}`, { cache: 'no-store' })
+      .then(r => r.json());
+  }
+  return _storyCache;
+}
+
+function renderStory(root) {
+  root.innerHTML = `${pageHeader('story.title', 'story.lead')}<div id="story-body"><p class="muted">${escapeHtml(t('ui.loading'))}</p></div>`;
+
+  loadStory().then(data => {
+    const body = document.getElementById('story-body');
+    if (!body) return;
+    const kindLabel = { conflict: t('story.kind_conflict'), testimony: t('story.kind_testimony') };
+
+    body.innerHTML = `
+      <p class="story-note">${escapeHtml(ml(data.note))}</p>
+      <nav class="story-toc">
+        ${data.chapters.map(c => `<a href="#story-${escapeHtml(c.id)}">${escapeHtml(ml(c.title))}</a>`).join('')}
+      </nav>
+      ${data.chapters.map(c => `
+        <section class="story-chapter" id="story-${escapeHtml(c.id)}">
+          <h2>${escapeHtml(ml(c.title))}<span class="story-years">${escapeHtml(c.years || '')}</span></h2>
+          ${c.paragraphs.map(p => `
+            <div class="story-para${p.kind && p.kind !== 'fact' ? ' story-' + escapeHtml(p.kind) : ''}">
+              ${p.kind && kindLabel[p.kind] ? `<span class="story-tag">${escapeHtml(kindLabel[p.kind])}</span>` : ''}
+              <p>${escapeHtml(ml(p.text))}</p>
+              ${(p.sources || []).length ? `<p class="story-src">${escapeHtml((p.sources || []).join(' · '))}</p>` : ''}
+            </div>
+          `).join('')}
+        </section>
+      `).join('')}
+    `;
+  }).catch(() => {
+    const body = document.getElementById('story-body');
+    if (body) body.innerHTML = `<p class="muted">${escapeHtml(t('ui.error') || 'Could not load the story.')}</p>`;
+  });
 }
 
 function renderJourney(root) {
