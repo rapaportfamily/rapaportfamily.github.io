@@ -264,7 +264,7 @@
     {
       "id": "j_katowice_1945",
       "year": "1945—1946",
-      "date": "1946-07-01",
+      "date": "1945-06-01",
       "place_id": "pl_katowice",
       "coords": [
         50.2649,
@@ -290,8 +290,8 @@
           "doc_szymon_ckzp"
         ],
         "says": {
-          "en": "Two survivor-registration cards, both filed at the Katowice committee on 1 July 1946 — Lusia's and Shimon's, mother and son together, at exactly the place and moment the memoir describes. These are the cards that sat unread in the upload queue until June 2026, because the automatic verifier had refused them.",
-          "he": "שני כרטיסי רישום ניצולים, שניהם הוגשו בוועדת קטוביץ ב-1 ביולי 1946 — של לוסיה ושל שמעון, אם ובן יחד, בדיוק במקום ובזמן שהיומן מתאר. אלה הכרטיסים שנותרו בלא נקראו בתור ההעלאות עד יוני 2026, משום שמנגנון האימות האוטומטי סירב אותם."
+          "en": "Two survivor-registration cards, both filed at the Katowice committee on 1 July 1946 — Lusia's (nr 151738) and Shimon's (nr 151337), mother and son together, each giving Katowice as the last known address. Read against David's Brussels Displaced Persons card of 9 April 1946, they show something the memoir does not: on the day David was registered in Brussels, his wife and son were still in Poland, and they were still registered at Katowice three months later. He went ahead. It is the first of the two separations — the second put him behind wire in Cyprus while she waited in Brussels with the baby.",
+          "he": "שני כרטיסי רישום ניצולים, שניהם הוגשו בוועד קטוביץ ב-1 ביולי 1946 — של לוסיה (מס' 151738) ושל שמעון (מס' 151337), אם ובנה יחד, וכל אחד נוקב בקטוביץ ככתובת האחרונה הידועה. בקריאה מול כרטיס העקורים של דוד מבריסל, מ-9 באפריל 1946, הם מגלים דבר שהיומן אינו מגלה: ביום שבו נרשם דוד בבריסל, אשתו ובנו היו עדיין בפולין, ושלושה חודשים אחר כך הם עדיין היו רשומים בקטוביץ. הוא הקדים. זו הראשונה משתי הפרידות — השנייה השאירה אותו מאחורי גדרות בקפריסין בעוד היא ממתינה בבריסל עם התינוק."
         }
       },
       "agreement": "confirmed",
@@ -299,7 +299,8 @@
         "david",
         "lusia",
         "shimon"
-      ]
+      ],
+      "date_note": "Sorted by their arrival with the repatriation in 1945. The survivor cards themselves were filed later, on 1 July 1946."
     },
     {
       "id": "j_brussels_1946",
@@ -329,8 +330,8 @@
           "doc_david_dp_card"
         ],
         "says": {
-          "en": "David's Displaced Persons card, Brussels, 9 April 1946: forestry engineer, Polish nationality stripped in 1942, speaking Polish, Italian, German, Czech and Russian. Dov was born on 28 August 1946 — four and a half months later.",
-          "he": "כרטיס העקורים של דוד, בריסל, 9 באפריל 1946: מהנדס יערות, אזרחותו הפולנית נשללה ב-1942, דובר פולנית, איטלקית, גרמנית, צ׳כית ורוסית. דב נולד ב-28 באוגוסט 1946 — ארבעה חודשים וחצי אחר כך."
+          "en": "David's Displaced Persons card, Brussels, 9 April 1946: forestry engineer, Polish nationality stripped in 1942, speaking Polish, Italian, German, Czech and Russian. Dov was born on 28 August 1946 — four and a half months later. His card is dated 9 April 1946; Lusia and Shimon were still registered at Katowice on 1 July. She and the boy followed him to Brussels later that year.",
+          "he": "כרטיס העקורים של דוד, בריסל, 9 באפריל 1946: מהנדס יערות, אזרחותו הפולנית נשללה ב-1942, דובר פולנית, איטלקית, גרמנית, צ׳כית ורוסית. דב נולד ב-28 באוגוסט 1946 — ארבעה חודשים וחצי אחר כך. כרטיסו נושא תאריך 9 באפריל 1946; לוסיה ושמעון היו עדיין רשומים בקטוביץ ב-1 ביולי. היא והילד באו אחריו לבריסל מאוחר יותר באותה שנה."
         }
       },
       "agreement": "confirmed",

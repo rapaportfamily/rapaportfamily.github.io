@@ -1256,7 +1256,8 @@ function renderTimelineList() {
     const decade = year ? Math.floor(year/10)*10 : null;
     if (decade !== currentDecade) {
       currentDecade = decade;
-      html.push(`<div class="tl-decade-marker">${currentDecade}s</div>`);
+      // "1880s" is English. Use the same decade phrasing as the dates below it.
+      html.push(`<div class="tl-decade-marker">${escapeHtml(t('ui.decade').replace('{decade}', currentDecade))}</div>`);
     }
     const place = e.place_id ? State.byId.places[e.place_id] : null;
     const people = (e.people_ids || []).map(pid => {

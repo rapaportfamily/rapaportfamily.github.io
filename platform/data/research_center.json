@@ -259,6 +259,15 @@
           "source": "doc_david_dp_card (DIPIS, Brussels) vs memoir p.62."
         },
         {
+          "id": "ledger_katowice_gap",
+          "title_en": "✏️ CORRECTED — they did not travel to Brussels together. David went ahead.",
+          "title_he": "✏️ תוקן — הם לא נסעו לבריסל יחד. דוד הקדים.",
+          "status": "corrected",
+          "summary_en": "The memoir, page 62: \"The family reaches Brussels and stays in a hotel. Dov is born there.\" One movement, all together.\n\nTwo documents we have held all along say otherwise. David’s Displaced Persons card registers him in BRUSSELS on 9 April 1946. Lusia’s and Shimon’s survivor cards were filed at the KATOWICE committee on 1 July 1946 — nearly three months later — and both give Katowice as the last known address. On the day David was registered in Belgium, his wife and son were still in Poland.\n\nSo the route was Lwów, then Katowice with the repatriation, then Brussels — and David travelled it first, with Lusia and Shimon following later in 1946. Dov was born in Brussels that August. It is the first of the two separations in this story; the second put David behind wire in Cyprus while Lusia waited in Brussels with the baby.\n\nFound on 3 August 2026 because Doron looked at the journey map and said the line to Sète was leaving from the wrong place. It was: the map had been sorting each stop by the date of the document that proves it rather than by when they were there, which put Brussels before Katowice. Both are now corrected.",
+          "summary_he": "היומן, עמוד 62: ״המשפחה מגיעה לבריסל ומתאכסנת במלון. דב נולד שם.״ תנועה אחת, כולם יחד.\n\nשני מסמכים שהחזקנו כל העת אומרים אחרת. כרטיס העקורים של דוד רושם אותו בבריסל ב-9 באפריל 1946. כרטיסי הניצולים של לוסיה ושל שמעון הוגשו בוועד קטוביץ ב-1 ביולי 1946 — כמעט שלושה חודשים אחר כך — ושניהם נוקבים בקטוביץ ככתובת האחרונה הידועה. ביום שבו נרשם דוד בבלגיה, אשתו ובנו היו עדיין בפולין.\n\nכלומר המסלול היה לבוב, אחר כך קטוביץ עם הרפatriation, ואז בריסל — ודוד עשה אותו ראשון, ולוסיה ושמעון באו אחריו במהלך 1946. דב נולד בבריסל באוגוסט. זו הראשונה משתי הפרידות בסיפור הזה; השנייה השאירה את דוד מאחורי גדרות בקפריסין בעוד לוסיה ממתינה בבריסל עם התינוק.\n\nהתגלה ב-3 באוגוסט 2026 משום שדורון הביט במפת המסע ואמר שהקו אל סֶט יוצא מהמקום הלא נכון. אכן כך: המפה מיינה כל תחנה לפי תאריך המסמך המוכיח אותה ולא לפי מתי היו שם, וכך בריסל הקדימה את קטוביץ. שניהם תוקנו.",
+          "source": "doc_david_dp_card (Brussels, 9 April 1946) against doc_lea_ckzp (nr 151738) and doc_szymon_ckzp (nr 151337), both Katowice, 1 July 1946; vs memoir p.62."
+        },
+        {
           "id": "ledger_dov_birth",
           "title_en": "◐ PARTLY — Dov born in Brussels, 1946: the place is corroborated, the exact date is not",
           "title_he": "◐ חלקית — דב נולד בבריסל, 1946: המקום נתמך, התאריך המדויק לא",
@@ -2513,5 +2522,5 @@
       ]
     }
   ],
-  "build_version": "2026-08-03-T64-arolsen"
+  "build_version": "2026-08-03-T65-katowice-first"
 }

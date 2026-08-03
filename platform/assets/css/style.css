@@ -743,13 +743,15 @@ html[dir="rtl"] .timeline::before { left: auto; right: 1.5rem; }
 .tl-decade-marker {
   position: relative;
   margin: 2.5rem 0 1rem -3rem;
-  padding-left: 1rem;
+  /* The dot runs from 0.7rem to about 1.58rem. Text starting at 1rem sat
+     underneath it, so "1990s" rendered as "990s". Clear the dot, then a gap. */
+  padding-left: 2.3rem;
   font-family: var(--font-serif);
   font-size: 1.7rem;
   font-weight: 700;
   color: var(--wine);
 }
-html[dir="rtl"] .tl-decade-marker { margin: 2.5rem -3rem 1rem 0; padding-left: 0; padding-right: 1rem; }
+html[dir="rtl"] .tl-decade-marker { margin: 2.5rem -3rem 1rem 0; padding-left: 0; padding-right: 2.3rem; }
 .tl-decade-marker::before {
   content: '';
   position: absolute;
