@@ -32,7 +32,8 @@
     "group_evidence": "Dowody",
     "group_open": "Wciąż otwarte",
     "journey": "Podróż",
-    "story": "Historia"
+    "story": "Historia",
+    "photographs": "Fotografie"
   },
   "ui": {
     "language": "Język",
@@ -265,5 +266,12 @@
     "lead": "Całość, od Radomyśla Wielkiego do Hajfy. Każdy akapit wskazuje źródło.",
     "kind_conflict": "pamiętnik i dokument są sprzeczne",
     "kind_testimony": "tylko świadectwo — brak dokumentu"
+  },
+  "memoir": {
+    "title": "Fotografie w pamiętniku",
+    "lead": "Lusia podyktowała swój pamiętnik w 1986 roku. Wydrukowano w nim piętnaście fotografii — to niemal wszystkie zachowane zdjęcia tej rodziny. Każde pokazane jest tutaj pod podpisem, który drukuje pod nim książka.",
+    "processing_note": "Każda plansza to zgrubny druk rastrowy. Każdą oczyszczono z rastra i rozjaśniono cienie — niczego nie dodano.",
+    "page_label": "Strona",
+    "back_cover": "Tylna okładka"
   }
 }

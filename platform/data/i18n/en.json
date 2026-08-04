@@ -32,7 +32,8 @@
     "group_evidence": "The evidence",
     "group_open": "Still open",
     "journey": "The Journey",
-    "story": "The Story"
+    "story": "The Story",
+    "photographs": "Photographs"
   },
   "ui": {
     "language": "Language",
@@ -265,5 +266,12 @@
     "lead": "The whole of it, read straight through — from Radomyśl Wielki to Haifa. Every paragraph names the record it rests on.",
     "kind_conflict": "the memoir and the record disagree",
     "kind_testimony": "testimony only — no document"
+  },
+  "memoir": {
+    "title": "The photographs in the memoir",
+    "lead": "Lusia dictated her memoir in 1986. Fifteen photographs are printed in it, and they are nearly every picture of this family that survives. Each one is shown here under the caption the book prints beneath it.",
+    "processing_note": "Every plate is a coarse halftone print. Each has been descreened and its shadows opened — nothing has been added to any of them.",
+    "page_label": "Page",
+    "back_cover": "Back cover"
   }
 }

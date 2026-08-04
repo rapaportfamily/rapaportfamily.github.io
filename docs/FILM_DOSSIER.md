@@ -15,6 +15,7 @@ those marks are the point — see `FILM_BRIEF.md`.
 
 - born 1911-12-25, Nadwórna  [CONFIRMED · a document says so]
 - died 1990-08-29  [DOCUMENTED · a record supports it]
+- **PHOTOGRAPH** → `assets/research_images/memoir/lusia_david_wedding_1938.jpg`
 
 He is the one the documents keep getting wrong and the family keeps getting right. Born in a Galician town that no longer has Jews, he loses his father to Auschwitz and his mother to a death nobody recorded, escapes a ghetto in a wagon of cut logs, survives Lwów under a false name, reaches Brussels alone ahead of his wife and son, is captured at sea and interned on Cyprus with his nine-year-old, and ends as a customs broker in Haifa — the trade his son and grandson both took up.
 
@@ -86,7 +87,7 @@ The voice. Almost everything known about the war years in this family is known b
 | 1945_destination_affidavit | Received an affidavit to emigrate to the USA (per Doron 17 May) | **FAMILY MEMORY · attribute it, do not film it as fact** |
 | 1945_46_polish_records | Appears in Polish post-war records 1945-46; not yet located in Brussels 1946 DP records under any spelling. Likely traveled separately from David before they reunited in Brussels for Dov's birth. | **HYPOTHESIS · not established** |
 | muszyna_job | Managed a hotel in Muszyna (the resort town) where 'all the social cream' of the town's visitors stayed | **DOCUMENTED · a record supports it** |
-| 1936_lwow | Lived with relatives in Lwów, attended Carpathian forestry school filings | **FAMILY MEMORY · attribute it, do not film it as fact** |
+| 1936_lwow | In 1936 Lusia moved to Lwow to live with well-off relatives who owned a pharmacy. The purpose of the move was to learn a trade: she was enrolled at a professional dressmaking school, “Kleftinowa”, one of the prestigious schools in the city. Memoir p.15. This replaces an earlier garbled entry that re | **FAMILY MEMORY · attribute it, do not film it as fact** |
 | memoir | Wrote memoir of the war (Hebrew) | **FAMILY MEMORY · attribute it, do not film it as fact** |
 | burial | Sde Yehoshua cemetery (Kfar Samir), Haifa — Section ו, Row 22, Grave 102ג (adjacent to David) | **DOCUMENTED · a record supports it** |
 | haifa_ck_record_id | 144046 (file 8011260) | **DOCUMENTED · a record supports it** |
@@ -149,6 +150,7 @@ The child in the crate. Born in Lwów in 1937, hidden for two and a half years s
 
 - born 1946-08-28, Brussels  [DOCUMENTED · a record supports it]
 - **no death recorded — treat as living**
+- **PHOTOGRAPH** → `assets/research_images/memoir/shimon_holding_baby_dov.jpg`
 
 The reason this exists. Born in Brussels in August 1946 while his father was interned on Cyprus — a first journey made with his mother, the two of them, on a ship called Kadima. He turns eighty on 28 August 2026. Nobody has interviewed him for this. Do not put words in his mouth.
 
@@ -450,9 +452,13 @@ The reason this exists. Born in Brussels in August 1946 while his father was int
 
 **Portraits:**
 
+- `shimon_holding_baby_dov.jpg` — Dov as an infant in Brussels, held by his brother Shimon — from their mother’s memoir, page 61, captioned “Shimon ‘the big one’ holding his baby brother, Dov”. He was born 28 August 1946.
+- `lusia_david_wedding_1938.jpg` — David (Memek) with Lusia on their wedding day — from her memoir, page 15, captioned “Mazal tov! Lusia and Memek on their wedding day”. One of only two photographs of him known to exist. The memoir dates the wedding February 1938 in Muszyna; the civil record says 10 February 1935 in Bolechów. Unresolved.
 - `lusia_lajka_on_horse.jpg` — Lusia on horseback in Bolechów, before the war — from her own memoir, where the caption reads “Lajka on the horse”. Lajka was her nickname; the same page says she never knew what it meant. Her father called her wild, “like a naughty boy”. This is the earliest photograph of her the archive holds.
 - `shimon_brussels_school.jpg` — Shimon at his school desk in Brussels, about 1946-47 — from his mother’s memoir, where the caption reads “Shimon on the school bench in Brussels”. He was nine or ten. Two and a half years of his childhood had been spent hidden in a crate.
 - `zwi_nussbaum_1945.jpg` — Zwi (Hirsch Herman) Nussbaum, c.1945 — from his citizenship application
+- `lusia_with_her_father.jpg` — Elias Weitzner with his daughter Lusia in Israel — from her memoir, page 66, captioned “Lusia with her father, in Israel”. He had emigrated in the 1930s; she stayed behind to finish her studies, and the war came.
+- `matel_weinreb_portrait.jpg` — Matel Weinreb — from her daughter’s memoir, page 67, captioned simply “Lusia’s mother”. The only photograph of her the archive holds.
 - `inge_nussbaum_1945.jpg` — Inge Nussbaum née Rosenbusch, c.1945 — from her husband’s citizenship application
 
 **What does not exist:** no photograph of Moses Saul or of Szabse has ever been found, and that search

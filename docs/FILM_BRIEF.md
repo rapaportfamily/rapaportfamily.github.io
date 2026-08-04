@@ -16,7 +16,7 @@ image and every paragraph carries an explicit evidence level and an explicit per
 | `must_attribute` | Name who said it. "Lusia said…", never "it happened that…". |
 | `must_not_resolve` | The sources disagree. Do not settle it for the audience. |
 | `must_show_as_remembered` | Memoir only. No document. Show it as memory, not as filmed fact. |
-| `shows_our_family` | false on every period photograph. True only on the four portraits — two cropped from a 1945 citizenship file, two printed in the memoir. Never imply otherwise. |
+| `shows_our_family` | false on every period photograph. True only on the fifteen memoir plates (see `memoir_photographs`) and two portraits cropped from a 1945 citizenship file. Never imply otherwise. |
 | `is_the_actual_event` | false on all of them. No image here shows the moment it illustrates. |
 
 Eight non-negotiables are listed under `hard_rules`, and the honest holes under `known_gaps`.
@@ -161,19 +161,30 @@ Each of these is documented. None is invented.
   it.*
 - **Two portraits**, cropped from a 1945 citizenship application: Zwi Nussbaum and Inge née
   Rosenbusch. Identity-document photographs, sepia, small.
-- **Two photographs of principals — both from the memoir, and the only two there are.**
-  *Lusia on horseback in Bolechów before the war*, printed on page 9 under the caption "Lajka on the
-  horse"; two paragraphs above it the book explains that Lajka was her own nickname and that she
-  never knew what it meant, so the rider is named by the memoir itself and not by inference. And
-  *Shimon at his school desk in Brussels*, page 62, c. 1946–47, aged nine or ten, after two and a
-  half years hidden in a crate. Both are coarse halftone prints; both have been descreened and
-  contrast-corrected and nothing else. **No detail in either was generated.**
+- **Fifteen photographs of the family — every one of them from the memoir, and there are no others.**
+  They are listed in `film_manifest.json` under `memoir_photographs`, and they are the entire
+  photographic record of these people. In page order: Lusia on horseback before the war (p.9,
+  "Lajka on the horse" — her own nickname, which the same page explains); the wedding (p.15); Shimon
+  as a baby (p.17) and beside the family dog (p.22); Shimon holding the infant Dov in Brussels
+  (p.61) and at his school desk there (p.62); **his release certificate from the Atlit detention
+  camp, Haifa, 22 August 1947, with his photograph attached to it** (p.64); the brothers reunited
+  with their cousin (p.65); Lusia with her father in Israel (p.66); her mother's portrait (p.67);
+  Lusia in Israel (p.68) and in costume at Purim (p.69); **the family picnic (p.70) — the only frame
+  that holds all four of them at once**; her B'nai B'rith delegate card (p.71); and her portrait on
+  the back cover.
+- **Each plate is identified by the caption the BOOK prints beneath it**, quoted verbatim in Hebrew.
+  No face in this archive was identified by looking at it. Where the archive knows more — a date, a
+  conflict with the records — that sits in a separate `archive_note` field. *Do not merge the two
+  into one line of narration.* All are coarse halftone prints, descreened and contrast-corrected and
+  nothing else. **No detail in any of them was generated.**
 - **The documents themselves** — the DP card, the CKŻP cards, the Tarnów marriage deeds, the
   ketubah, the 31-page citizenship file, the burial register.
 - **What does not exist:** no photograph of Moses Saul or of Szabse has been found, and the search
-  for one is recorded as a failure rather than left open. **No photograph of David exists at all** —
-  not one, at any age. No photograph of any of them during the war: Lusia's is from before it,
-  Shimon's from after it.
+  for one is recorded as a failure rather than left open. There is no photograph of Berisz or
+  Rebeka. **And there is no photograph of any of them during the war** — Lusia's riding picture is
+  from before it and everything else is from after, so the six years the film is mostly about have
+  no image at all. Of David only two frames exist, the wedding and the picnic, and in neither is he
+  facing the camera.
 
 ---
 

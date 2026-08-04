@@ -172,6 +172,7 @@ function router() {
     case 'hypotheses': renderHypotheses(root); break;
     case 'chat': renderChat(root); break;
     case 'research': renderResearch(root, param); break;
+    case 'photographs': renderPhotographs(root); break;
     case 'about': renderAbout(root); break;
     default: renderHome(root);
   }
@@ -1141,6 +1142,73 @@ async function loadStory() {
       .then(r => r.json());
   }
   return _storyCache;
+}
+
+// ----------------------------------------
+// THE PHOTOGRAPHS  (the plates printed in Lusia's memoir)
+// ----------------------------------------
+// Separate from #/memoir, which upload-feature.js intercepts to render the whole
+// book as a PDF flipbook. This page is the thirteen photographs pulled out of it
+// — extracted, descreened, and shown under the caption the book prints beneath
+// each one, with what the archive knows kept visibly apart from what the book
+// says. Do NOT route this at #/memoir: the flipbook's own router runs on
+// hashchange and would overwrite whatever this drew.
+let _memoirCache = null;
+async function loadMemoirPhotos() {
+  if (!_memoirCache) {
+    _memoirCache = await fetch(`data/memoir_photographs.json?v=${Date.now()}`, { cache: 'no-store' })
+      .then(r => r.json());
+  }
+  return _memoirCache;
+}
+
+function renderPhotographs(root) {
+  root.innerHTML = `${pageHeader('memoir.title', 'memoir.lead')}<div id="memoir-body"><p class="muted">${escapeHtml(t('ui.loading'))}</p></div>`;
+
+  loadMemoirPhotos().then(data => {
+    const body = document.getElementById('memoir-body');
+    if (!body) return;
+
+    body.innerHTML = `
+      <p class="story-note">${escapeHtml(t('memoir.processing_note'))}</p>
+      <div class="memoir-gallery">
+        ${(data.photographs || []).map(ph => {
+          // The book's caption is Hebrew. Show it as the book wrote it, and the
+          // translation beside it — never instead of it.
+          const printed = (ph.caption_as_printed || {});
+          const asPrinted = printed.he || '';
+          const translated = printed[State.lang] || printed.en || '';
+          const showBoth = State.lang !== 'he' && asPrinted && translated;
+          const people = (ph.people || [])
+            .map(id => State.byId.people[id])
+            .filter(Boolean);
+          return `
+            <figure class="memoir-plate">
+              <a href="${escapeHtml(ph.file)}" target="_blank" rel="noopener">
+                <img src="${escapeHtml(ph.file)}" alt="${escapeHtml(translated)}" loading="lazy">
+              </a>
+              <figcaption>
+                <div class="memoir-page">${/^\d+$/.test(String(ph.page))
+                  ? escapeHtml(t('memoir.page_label')) + ' ' + escapeHtml(String(ph.page))
+                  : escapeHtml(t('memoir.back_cover'))}</div>
+                <div class="memoir-printed" dir="rtl" lang="he">${escapeHtml(asPrinted)}</div>
+                ${showBoth ? `<div class="memoir-translated" dir="auto">${escapeHtml(translated)}</div>` : ''}
+                <p class="memoir-note" dir="auto">${escapeHtml(ml(ph.note))}</p>
+                ${people.length ? `<div class="memoir-people">${people.map(p =>
+                  `<button class="memoir-person" data-person="${escapeHtml(p.id)}">${escapeHtml(ml(p.primary_name))}</button>`
+                ).join('')}</div>` : ''}
+              </figcaption>
+            </figure>`;
+        }).join('')}
+      </div>`;
+
+    body.querySelectorAll('[data-person]').forEach(el => {
+      el.addEventListener('click', () => openPersonModal(el.dataset.person));
+    });
+  }).catch(() => {
+    const body = document.getElementById('memoir-body');
+    if (body) body.innerHTML = `<p class="muted">${escapeHtml(t('ui.error') || 'Could not load the memoir photographs.')}</p>`;
+  });
 }
 
 function renderStory(root) {

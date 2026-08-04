@@ -63,7 +63,13 @@
           "value_he": "כהן (ייחוס כהונה) — בן שושלת הרבנים רפופורט-כהן, מר׳ משולם יקותיאל הכהן רפא (נפטר 1450, מיינץ ← פורטו). מסורת משפחה מאוששת."
         }
       ],
-      "note_he": "בן הזקונים של דוד ולוסיה, נולד בבריסל ב-28 באוגוסט 1946 בזמן שאביו היה עצור בקפריסין. מסעו הראשון היה עם אמו בלבד, באונייה ״קדימה״ ב-1948. עמיל מכס, כאביו. אביהם של דנה, דורון ודניאל. הארכיון הזה נבנה למען יום הולדתו השמונים, 28 באוגוסט 2026."
+      "note_he": "בן הזקונים של דוד ולוסיה, נולד בבריסל ב-28 באוגוסט 1946 בזמן שאביו היה עצור בקפריסין. מסעו הראשון היה עם אמו בלבד, באונייה ״קדימה״ ב-1948. עמיל מכס, כאביו. אביהם של דנה, דורון ודניאל. הארכיון הזה נבנה למען יום הולדתו השמונים, 28 באוגוסט 2026.",
+      "photo": "assets/research_images/memoir/shimon_holding_baby_dov.jpg",
+      "photo_caption": {
+        "en": "Dov as an infant in Brussels, held by his brother Shimon — from their mother’s memoir, page 61, captioned “Shimon ‘the big one’ holding his baby brother, Dov”. He was born 28 August 1946.",
+        "he": "דב כתינוק בבריסל, מוחזק בידי אחיו שמעון — מתוך יומנה של אמם, עמוד 61, בכיתוב ״שמעון ׳הגדול׳ מחזיק בידיו את אחיו התינוק, דב״. הוא נולד ב-28 באוגוסט 1946."
+      },
+      "photo_credit": "From the memoir of Lusia Rapaport, dictated 1986 — family copy. Scan descreened and contrast-corrected; no detail added."
     },
     {
       "id": "p_david",
@@ -279,7 +285,13 @@
           "value_he": "בדף העד ביד ושם נוקב דוד בכתובת המשפחה בפשמישל: רחוב סלובצקיego 40 (המספר אינו ודאי — במספר 40 שכן בית מטבחיים לעופות; אפשר 10 או 64)."
         }
       ],
-      "note_he": "סבם מצד האב של דורון, דנה ודניאל. אביו של דב. ניצול שואה שנמלט מגליציה הכבושה, הגיע לבריסל באפריל 1946 ולבסוף התיישב בישראל. מהנדס יערות, פוליגלוט, חבר בית״ר."
+      "note_he": "סבם מצד האב של דורון, דנה ודניאל. אביו של דב. ניצול שואה שנמלט מגליציה הכבושה, הגיע לבריסל באפריל 1946 ולבסוף התיישב בישראל. מהנדס יערות, פוליגלוט, חבר בית״ר.",
+      "photo": "assets/research_images/memoir/lusia_david_wedding_1938.jpg",
+      "photo_caption": {
+        "en": "David (Memek) with Lusia on their wedding day — from her memoir, page 15, captioned “Mazal tov! Lusia and Memek on their wedding day”. One of only two photographs of him known to exist. The memoir dates the wedding February 1938 in Muszyna; the civil record says 10 February 1935 in Bolechów. Unresolved.",
+        "he": "דוד (ממק) ולוסיה ביום חתונתם — מתוך יומנה, עמוד 15, בכיתוב ״מזל טוב! לוסיה וממק ביום חתונתם״. אחד משני התצלומים היחידים הידועים שלו. היומן מתארך את החתונה לפברואר 1938 במושינה; הרשומה האזרחית נוקבת ב-10 בפברואר 1935 בבולחוב. לא הוכרע."
+      },
+      "photo_credit": "From the memoir of Lusia Rapaport, dictated 1986 — family copy. Scan descreened and contrast-corrected; no detail added."
     },
     {
       "id": "p_leah",
@@ -443,12 +455,12 @@
         },
         {
           "key": "1936_lwow",
-          "value": "Lived with relatives in Lwów, attended Carpathian forestry school filings",
+          "value": "In 1936 Lusia moved to Lwow to live with well-off relatives who owned a pharmacy. The purpose of the move was to learn a trade: she was enrolled at a professional dressmaking school, “Kleftinowa”, one of the prestigious schools in the city. Memoir p.15. This replaces an earlier garbled entry that read “attended Carpathian forestry school filings” — which the memoir does not say and which was not traceable to any source.",
           "confidence": "family_oral",
           "sources": [
-            "oral_dana_15may"
+            "doc_lusia_memoir"
           ],
-          "value_he": "התגוררה עם קרובי משפחה בלבוב; שמה מופיע ברישומי בית הספר ליערנות של הקרפטים."
+          "value_he": "ב-1936 עברה לוסיה לגור בלבוב אצל קרובי משפחה אמידים, בעלי בית מרקחת. מטרת המעבר הייתה ללמוד מקצוע: היא נרשמה לבית ספר מקצועי לתפירה, ״קלפטינובה״, אחד מבתי הספר היוקרתיים בעיר. יומן, עמ׳ 15. רשומה זו מחליפה רישום קודם ומשובש שנקרא ״למדה בבית ספר ליערנות בקרפטים״ — דבר שהיומן אינו אומר ושלא ניתן היה לאתר לו מקור."
         },
         {
           "key": "memoir",
@@ -1955,7 +1967,13 @@
         "p_moses_weitzner",
         "p_pnina_weitzner"
       ],
-      "note_he": "אביה של לוסיה. אליהו (אליאס) ויצנר מבולחוב, נשוי למטל (מטילדה) לבית ויינרב. עלה לארץ ישראל ב-1933 עם אשתו ושאר ילדיו; לוסיה נשארה בפולין. פנקס הקבורה בחיפה, שברשומת בתו, נוקב בשמו — אותו אב שבו נפתח יומנה שישים שנה קודם."
+      "note_he": "אביה של לוסיה. אליהו (אליאס) ויצנר מבולחוב, נשוי למטל (מטילדה) לבית ויינרב. עלה לארץ ישראל ב-1933 עם אשתו ושאר ילדיו; לוסיה נשארה בפולין. פנקס הקבורה בחיפה, שברשומת בתו, נוקב בשמו — אותו אב שבו נפתח יומנה שישים שנה קודם.",
+      "photo": "assets/research_images/memoir/lusia_with_her_father.jpg",
+      "photo_caption": {
+        "en": "Elias Weitzner with his daughter Lusia in Israel — from her memoir, page 66, captioned “Lusia with her father, in Israel”. He had emigrated in the 1930s; she stayed behind to finish her studies, and the war came.",
+        "he": "אליאס ויצנר עם בתו לוסיה בישראל — מתוך יומנה, עמוד 66, בכיתוב ״לוסיה עם אביה בישראל״. הוא עלה ארצה בשנות השלושים; היא נותרה מאחור לסיים את לימודיה, ואז באה המלחמה."
+      },
+      "photo_credit": "From the memoir of Lusia Rapaport, dictated 1986 — family copy. Scan descreened and contrast-corrected; no detail added."
     },
     {
       "id": "p_matel_weinreb",
@@ -1993,7 +2011,13 @@
           "value_he": "מדולינה"
         }
       ],
-      "note_he": "אמה של לוסיה. מטל (מטילדה) ויינרב, נשואה לאליהו ויצנר בדולינה ב-1905. עלתה לארץ ישראל ב-1933. שמה מופיע ברשומת הקבורה של בתה בחיפה."
+      "note_he": "אמה של לוסיה. מטל (מטילדה) ויינרב, נשואה לאליהו ויצנר בדולינה ב-1905. עלתה לארץ ישראל ב-1933. שמה מופיע ברשומת הקבורה של בתה בחיפה.",
+      "photo": "assets/research_images/memoir/matel_weinreb_portrait.jpg",
+      "photo_caption": {
+        "en": "Matel Weinreb — from her daughter’s memoir, page 67, captioned simply “Lusia’s mother”. The only photograph of her the archive holds.",
+        "he": "מטל ויינרב — מתוך יומנה של בתה, עמוד 67, בכיתוב ״אמא של לוסיה״ בלבד. התצלום היחיד שלה שבארכיון."
+      },
+      "photo_credit": "From the memoir of Lusia Rapaport, dictated 1986 — family copy. Scan descreened and contrast-corrected; no detail added."
     },
     {
       "id": "p_samuel_weinreb",

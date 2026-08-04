@@ -81,8 +81,13 @@
     },
     {
       "id": "photographs",
-      "rule": "Only TWO photographs in this archive show a principal, and both come from the memoir.",
-      "detail": "Lusia on horseback in Bolechów before the war (memoir p.9, captioned “Lajka on the horse” — Lajka was her nickname, and the same page says so), and Shimon at his school desk in Brussels c.1946-47 (memoir p.62). There is NO photograph of David, none of Dov as a child, and none of any of them during the war. Every other period image is of a place, or of other people in the same place and circumstance, and carries shows_our_family:false. Check that flag before putting any image on screen as the family."
+      "rule": "Every photograph of a principal comes from ONE source: the fourteen plates printed in Lusia’s memoir. See memoir_photographs.",
+      "detail": "All four principals are photographed — David included, in two frames: the wedding (p.15) and the family picnic (p.70). The picnic is the only image that holds all four at once. Each plate is identified by the caption the BOOK prints beneath it, quoted verbatim in Hebrew; no face in this archive is identified by appearance. NONE of them is from during the war — Lusia’s riding photograph is from before it, everything else is from after. Every image that is NOT a memoir plate is of a place, or of other people in the same place and circumstance, and carries shows_our_family:false. Check that flag before putting any image on screen as the family."
+    },
+    {
+      "id": "memoir_plate_captions",
+      "rule": "Use the memoir’s caption. Do not write your own over it.",
+      "detail": "caption_as_printed is what the book says and is the identification. The separate \"note\" field is the archive speaking — it carries the dates and the conflicts and it is NOT the book. Never merge the two into one line of narration."
     },
     {
       "id": "memoir_dates",
@@ -105,7 +110,7 @@
         "note": "Hebrew date: 8 Elul 5750. Aged 78. Buried Sde Yehoshua cemetery (formerly Kfar Samir), Haifa — Section ו (Vav), Row 22, Grave 102ד. Haifa Chevra Kadisha record ID 43981. Wife Lusia is in the immediately adjacent grave 102ג. CK records his birth date as 15/12/1916 (Israeli ID, off by ~5 years from documented 1911-12-25 — common Holocaust-survivor pattern from lost papers). Confirmed via father-name (Dov), Polish birth, 1946 aliyah, Haifa burial, adjacency to Lusia's grave."
       },
       "living": false,
-      "photograph": null,
+      "photograph": "assets/research_images/memoir/lusia_david_wedding_1938.jpg",
       "facts": [
         {
           "key": "profession",
@@ -399,7 +404,7 @@
         "note": null
       },
       "living": true,
-      "photograph": null,
+      "photograph": "assets/research_images/memoir/shimon_holding_baby_dov.jpg",
       "facts": [
         {
           "key": "kohanic_lineage",
@@ -718,6 +723,230 @@
       ]
     }
   ],
+  "memoir_photographs": {
+    "source": "The memoir of Lusia Rapaport, dictated 1986 — family copy.",
+    "identification_rule": "caption_as_printed.he is the book’s own caption and IS the identification. No face here was identified by appearance. Where the caption names nobody, the plate is not published.",
+    "processing": "Each scan is a coarse halftone of a printed photograph. Processing is descreening only: blur at the dot pitch, shrink to average the screen cells away, gamma to open the shadows, resolve up, re-sharpen. No detail is generated.",
+    "plates": [
+      {
+        "file": "assets/research_images/memoir/lusia_lajka_on_horse.jpg",
+        "memoir_page": "9",
+        "kind": "photograph",
+        "caption_as_printed_he": "״לייקה״ על הסוס",
+        "caption_translated_en": "“Lajka” on the horse",
+        "archive_note": "The earliest photograph of Lusia the archive holds, and the only one from before the war. Two paragraphs above it the book explains the name: her father called her wild, “like a naughty boy”, but Lajka was what she was called — and she writes that she never knew what it meant. Bolechów.",
+        "people": [
+          "p_leah"
+        ],
+        "shows_our_family": true,
+        "is_the_actual_event": true,
+        "usage": "The caption is the book’s. The note is the archive’s. Do not merge them."
+      },
+      {
+        "file": "assets/research_images/memoir/lusia_david_wedding_1938.jpg",
+        "memoir_page": "15",
+        "kind": "photograph",
+        "caption_as_printed_he": "מזל טוב! לוסיה וממק ביום חתונתם",
+        "caption_translated_en": "Mazal tov! Lusia and Memek on their wedding day",
+        "archive_note": "One of only two photographs of David known to exist. The memoir places the wedding in February 1938 on a day of ceaseless snow — it calls it a “white wedding” because the snow covered everything in pure white. The civil marriage record says 10 February 1935 in Bolechów. The month agrees; the year and the town do not. The archive records the conflict and does not settle it.",
+        "people": [
+          "p_david",
+          "p_leah"
+        ],
+        "shows_our_family": true,
+        "is_the_actual_event": true,
+        "usage": "The caption is the book’s. The note is the archive’s. Do not merge them."
+      },
+      {
+        "file": "assets/research_images/memoir/shimon_baby.jpg",
+        "memoir_page": "17",
+        "kind": "photograph",
+        "caption_as_printed_he": "שמעון התינוק",
+        "caption_translated_en": "Shimon the baby",
+        "archive_note": "Shimon was born in 1937. The chapter this sits in is called “The first signs of antisemitism”, and it opens with Lusia wheeling him in his pram beside the river at Muszyna.",
+        "people": [
+          "p_shimon"
+        ],
+        "shows_our_family": true,
+        "is_the_actual_event": true,
+        "usage": "The caption is the book’s. The note is the archive’s. Do not merge them."
+      },
+      {
+        "file": "assets/research_images/memoir/shimon_family_dog.jpg",
+        "memoir_page": "22",
+        "kind": "photograph",
+        "caption_as_printed_he": "שמעון ליד הכלב המשפחתי",
+        "caption_translated_en": "Shimon beside the family dog",
+        "archive_note": "The lines directly above this photograph record what became of the dog: one day it bit the Germans’ cook, and was shot dead on the spot.",
+        "people": [
+          "p_shimon"
+        ],
+        "shows_our_family": true,
+        "is_the_actual_event": true,
+        "usage": "The caption is the book’s. The note is the archive’s. Do not merge them."
+      },
+      {
+        "file": "assets/research_images/memoir/shimon_holding_baby_dov.jpg",
+        "memoir_page": "61",
+        "kind": "photograph",
+        "caption_as_printed_he": "שמעון ״הגדול״ מחזיק בידיו את אחיו התינוק, דב",
+        "caption_translated_en": "Shimon “the big one” holding his baby brother, Dov, in his arms",
+        "archive_note": "Brussels. The memoir puts Dov’s birth in 1947; the records give 28 August 1946, and the records are right — so Shimon was nine here, not eight. Two and a half years of his own childhood had been spent hidden in a crate.",
+        "people": [
+          "p_shimon",
+          "p_dov_bernard"
+        ],
+        "shows_our_family": true,
+        "is_the_actual_event": true,
+        "usage": "The caption is the book’s. The note is the archive’s. Do not merge them."
+      },
+      {
+        "file": "assets/research_images/memoir/shimon_brussels_school.jpg",
+        "memoir_page": "62",
+        "kind": "photograph",
+        "caption_as_printed_he": "שמעון על ספסל בית-הספר בבריסל",
+        "caption_translated_en": "Shimon on the school bench in Brussels",
+        "archive_note": "Brussels, about 1946-47. He was nine or ten. Two and a half years of his childhood had been spent hidden in a crate, and here he is at a school desk.",
+        "people": [
+          "p_shimon"
+        ],
+        "shows_our_family": true,
+        "is_the_actual_event": true,
+        "usage": "The caption is the book’s. The note is the archive’s. Do not merge them."
+      },
+      {
+        "file": "assets/research_images/memoir/shimon_atlit_release_1947.jpg",
+        "memoir_page": "64",
+        "kind": "document_with_photograph",
+        "caption_as_printed_he": "תעודת השחרור של שמעון ממחנה המעצר בעתלית",
+        "caption_translated_en": "Shimon’s release certificate from the Atlit detention camp",
+        "archive_note": "A dated document and a photograph of him at once. Haifa, 22 August 1947, signed by the Director of the Immigration Office: “This is to certify that RAPAPORT SH… whose photograph is hereby attached, has been released from ATHLIT Camp… on authority of the Palestine Government. He/she will be registered as an immigrant to Palestine in due course.” He was ten years old, and had been interned first at Karaolos on Cyprus and then at Atlit.",
+        "people": [
+          "p_shimon"
+        ],
+        "shows_our_family": true,
+        "is_the_actual_event": true,
+        "usage": "The caption is the book’s. The note is the archive’s. Do not merge them."
+      },
+      {
+        "file": "assets/research_images/memoir/shimon_dov_cousin_akiva.jpg",
+        "memoir_page": "65",
+        "kind": "photograph",
+        "caption_as_printed_he": "הפגישה, הפגישה שכזאת: האחים שמעון (משמאל) ודוביק (מימין) עם בן־דודם עקיבא אלדר",
+        "caption_translated_en": "The reunion, what a reunion: the brothers Shimon (left) and Dovik (right) with their cousin Akiva Eldar",
+        "archive_note": "The brothers meeting again. David and Shimon had gone ahead and been interned; Lusia and Dov followed on the ship Kedma, landing at Haifa. The caption names Akiva as their cousin. The archive records an Akiva born to Lusia’s sister Feige and Israel Englard, which would make him a first cousin — but that the surname Eldar belongs to the same man is not established.",
+        "people": [
+          "p_shimon",
+          "p_dov_bernard"
+        ],
+        "shows_our_family": true,
+        "is_the_actual_event": true,
+        "usage": "The caption is the book’s. The note is the archive’s. Do not merge them."
+      },
+      {
+        "file": "assets/research_images/memoir/lusia_with_her_father.jpg",
+        "memoir_page": "66",
+        "kind": "photograph",
+        "caption_as_printed_he": "לוסיה עם אביה בישראל",
+        "caption_translated_en": "Lusia with her father, in Israel",
+        "archive_note": "Elias Weitzner had emigrated in the 1930s while she stayed behind to finish her studies; they had not seen each other since. The page beside this photograph records her walking down a Haifa street, seeing a policeman in uniform, and going rigid — until her father calmed her: “Here everyone is Jewish. The policemen are Jewish too.”",
+        "people": [
+          "p_leah",
+          "p_elias_weitzner"
+        ],
+        "shows_our_family": true,
+        "is_the_actual_event": true,
+        "usage": "The caption is the book’s. The note is the archive’s. Do not merge them."
+      },
+      {
+        "file": "assets/research_images/memoir/matel_weinreb_portrait.jpg",
+        "memoir_page": "67",
+        "kind": "photograph",
+        "caption_as_printed_he": "אמא של לוסיה",
+        "caption_translated_en": "Lusia’s mother",
+        "archive_note": "Matel Weinreb of Dolina, daughter of the innkeeper Samuel Weinreb. She married Elias Weitzner at Dolina in 1905. This is the only photograph of her the archive holds.",
+        "people": [
+          "p_matel_weinreb"
+        ],
+        "shows_our_family": true,
+        "is_the_actual_event": true,
+        "usage": "The caption is the book’s. The note is the archive’s. Do not merge them."
+      },
+      {
+        "file": "assets/research_images/memoir/lusia_in_israel.jpg",
+        "memoir_page": "68",
+        "kind": "photograph",
+        "caption_as_printed_he": "לוסיה נראית נינוחה ומאושרת במדינת ישראל",
+        "caption_translated_en": "Lusia looks relaxed and happy in the State of Israel",
+        "archive_note": "The chapter is about the one-room flat on Abbas Street in Haifa — a small kitchen, the toilet outside, 250 steps to climb with the shopping, and no bus that came that way. She writes that she was happy in it.",
+        "people": [
+          "p_leah"
+        ],
+        "shows_our_family": true,
+        "is_the_actual_event": true,
+        "usage": "The caption is the book’s. The note is the archive’s. Do not merge them."
+      },
+      {
+        "file": "assets/research_images/memoir/lusia_purim_costume.jpg",
+        "memoir_page": "69",
+        "kind": "photograph",
+        "caption_as_printed_he": "לוסיה כ״נערה מהוואי״ בנשף פורים שערך בביתה",
+        "caption_translated_en": "Lusia as a “Hawaiian girl” at the Purim party held at her home",
+        "archive_note": "The flat at Moriah Street 93 in Haifa, bought with the German reparations money. They cleared the furniture into the garden; she made the costume herself out of raffia; Memek handled the drinks and the music, and they danced until the small hours.",
+        "people": [
+          "p_leah"
+        ],
+        "shows_our_family": true,
+        "is_the_actual_event": true,
+        "usage": "The caption is the book’s. The note is the archive’s. Do not merge them."
+      },
+      {
+        "file": "assets/research_images/memoir/rapaport_family_picnic.jpg",
+        "memoir_page": "70",
+        "kind": "photograph",
+        "caption_as_printed_he": "משפחת רפפורט בפיקניק. מימין לשמאל: ממק, שמעון, לוסיה ודוביק",
+        "caption_translated_en": "The Rapaport family on a picnic. Right to left: Memek, Shimon, Lusia and Dovik",
+        "archive_note": "The only photograph in this archive that holds all four of them at once — David, Lusia, Shimon and Dov, together and out of danger. Israel, undated; the surrounding chapter covers Lusia’s eleven years at the post office.",
+        "people": [
+          "p_david",
+          "p_shimon",
+          "p_leah",
+          "p_dov_bernard"
+        ],
+        "shows_our_family": true,
+        "is_the_actual_event": true,
+        "usage": "The caption is the book’s. The note is the archive’s. Do not merge them."
+      },
+      {
+        "file": "assets/research_images/memoir/lusia_bnai_brith_delegate_card.jpg",
+        "memoir_page": "71",
+        "kind": "document",
+        "caption_as_printed_he": "כרטיס הציר של לוסיה לועידת ״בני־ברית״",
+        "caption_translated_en": "Lusia’s delegate card for the B’nai B’rith convention",
+        "archive_note": "A “delegate certificate” issued by B’nai B’rith in Israel, Galilee Lodge, Jerusalem, naming her as delegate of the Hermon lodge to the forty-fifth annual convention. She ran the lodge’s activity for children aged 6 to 13 — sports equipment for a school on the Carmel, a collective bar mitzvah, and a set at her own home for the neighbourhood.",
+        "people": [
+          "p_leah"
+        ],
+        "shows_our_family": true,
+        "is_the_actual_event": true,
+        "usage": "The caption is the book’s. The note is the archive’s. Do not merge them."
+      },
+      {
+        "file": "assets/research_images/memoir/lusia_back_cover_portrait.jpg",
+        "memoir_page": "back cover",
+        "kind": "photograph",
+        "caption_as_printed_he": "לוסיה רפפורט (בתמונה)",
+        "caption_translated_en": "Lusia Rapaport (pictured)",
+        "archive_note": "The back cover of the book. It carries no caption of its own — the blurb beside it names her, “Lusia Rapaport (pictured)”. Undated; the memoir was dictated in 1986. It is the clearest photograph of her the archive holds.",
+        "people": [
+          "p_leah"
+        ],
+        "shows_our_family": true,
+        "is_the_actual_event": true,
+        "usage": "The caption is the book’s. The note is the archive’s. Do not merge them."
+      }
+    ]
+  },
   "images": [
     {
       "file": "assets/research_images/period/tarnow_bem_mausoleum.jpg",
@@ -940,6 +1169,26 @@
       "usage": "Show with the caption or an equivalent. Never imply the family is in the frame."
     },
     {
+      "file": "assets/research_images/memoir/shimon_holding_baby_dov.jpg",
+      "caption": "Dov as an infant in Brussels, held by his brother Shimon — from their mother’s memoir, page 61, captioned “Shimon ‘the big one’ holding his baby brother, Dov”. He was born 28 August 1946.",
+      "credit": "From the memoir of Lusia Rapaport, dictated 1986 — family copy. Scan descreened and contrast-corrected; no detail added.",
+      "person": "p_dov_bernard",
+      "shows_our_family": true,
+      "is_the_actual_event": false,
+      "licence_checked": true,
+      "usage": "A real portrait of this person."
+    },
+    {
+      "file": "assets/research_images/memoir/lusia_david_wedding_1938.jpg",
+      "caption": "David (Memek) with Lusia on their wedding day — from her memoir, page 15, captioned “Mazal tov! Lusia and Memek on their wedding day”. One of only two photographs of him known to exist. The memoir dates the wedding February 1938 in Muszyna; the civil record says 10 February 1935 in Bolechów. Unresolved.",
+      "credit": "From the memoir of Lusia Rapaport, dictated 1986 — family copy. Scan descreened and contrast-corrected; no detail added.",
+      "person": "p_david",
+      "shows_our_family": true,
+      "is_the_actual_event": false,
+      "licence_checked": true,
+      "usage": "A real portrait of this person."
+    },
+    {
       "file": "assets/research_images/memoir/lusia_lajka_on_horse.jpg",
       "caption": "Lusia on horseback in Bolechów, before the war — from her own memoir, where the caption reads “Lajka on the horse”. Lajka was her nickname; the same page says she never knew what it meant. Her father called her wild, “like a naughty boy”. This is the earliest photograph of her the archive holds.",
       "credit": "From the memoir of Lusia Rapaport, dictated 1986, page 9 — family copy. Scan descreened and contrast-corrected; no detail added.",
@@ -964,6 +1213,26 @@
       "caption": "Zwi (Hirsch Herman) Nussbaum, c.1945 — from his citizenship application",
       "credit": "Israel State Archives, Mandate file מ-3211/050 — mounted on a 1945 citizenship application",
       "person": "p_zwi_ayalon_nussbaum",
+      "shows_our_family": true,
+      "is_the_actual_event": false,
+      "licence_checked": true,
+      "usage": "A real portrait of this person."
+    },
+    {
+      "file": "assets/research_images/memoir/lusia_with_her_father.jpg",
+      "caption": "Elias Weitzner with his daughter Lusia in Israel — from her memoir, page 66, captioned “Lusia with her father, in Israel”. He had emigrated in the 1930s; she stayed behind to finish her studies, and the war came.",
+      "credit": "From the memoir of Lusia Rapaport, dictated 1986 — family copy. Scan descreened and contrast-corrected; no detail added.",
+      "person": "p_elias_weitzner",
+      "shows_our_family": true,
+      "is_the_actual_event": false,
+      "licence_checked": true,
+      "usage": "A real portrait of this person."
+    },
+    {
+      "file": "assets/research_images/memoir/matel_weinreb_portrait.jpg",
+      "caption": "Matel Weinreb — from her daughter’s memoir, page 67, captioned simply “Lusia’s mother”. The only photograph of her the archive holds.",
+      "credit": "From the memoir of Lusia Rapaport, dictated 1986 — family copy. Scan descreened and contrast-corrected; no detail added.",
+      "person": "p_matel_weinreb",
       "shows_our_family": true,
       "is_the_actual_event": false,
       "licence_checked": true,
@@ -1936,8 +2205,8 @@
   ],
   "known_gaps": [
     "No photograph of Moses Saul or of Szabse has ever been found; the search is recorded as a failure.",
-    "No photograph of David has ever been found — not one, at any age.",
-    "No wartime photograph of any of them is held. Lusia’s is from before the war, Shimon’s from after it.",
+    "No photograph of any of them DURING the war exists. Lusia on horseback is from before it; every other plate is from after. The six years the film is mostly about have no picture at all.",
+    "Only two photographs of David are known, both from the memoir: the wedding (p.15) and the picnic (p.70). Neither is a portrait — in the wedding frame he is in profile, head bowed.",
     "No photograph of Berisz or Rebeka exists here.",
     "Shimon’s date of death is not documented anywhere in this archive — not even the year.",
     "Five document references have no file behind them and never did.",

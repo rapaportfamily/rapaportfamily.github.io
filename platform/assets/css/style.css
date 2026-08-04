@@ -1934,3 +1934,82 @@ html[dir="rtl"] .detail-portrait { margin: 0 1.2rem 1rem 0; }
   font-size: 0.75rem;
   color: var(--accent);
 }
+
+/* ── The memoir plates ────────────────────────────────────────────────
+   Thirteen halftone photographs printed in a 1986 memoir, and nearly every
+   surviving picture of this family. Presented as plates rather than as a grid
+   of thumbnails: the caption the book printed is part of the object, so it sits
+   with the picture and is never replaced by the translation. */
+.memoir-gallery {
+  display: grid;
+  gap: 2.5rem;
+  margin-top: 2rem;
+}
+@media (min-width: 900px) {
+  .memoir-gallery { grid-template-columns: repeat(2, 1fr); }
+}
+.memoir-plate {
+  margin: 0;
+  padding: 1rem;
+  background: var(--paper-soft);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.memoir-plate img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+  background: var(--paper-deep);
+}
+.memoir-plate figcaption { margin-top: 0.9rem; }
+.memoir-page {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin-bottom: 0.4rem;
+}
+/* the book's own words */
+.memoir-printed {
+  font-family: Heebo, sans-serif;
+  font-size: 1.02rem;
+  line-height: 1.5;
+  color: var(--ink);
+}
+.memoir-translated {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  margin-top: 0.25rem;
+}
+/* the archive's words, kept visibly apart from the book's */
+.memoir-note {
+  margin-top: 0.7rem;
+  padding-top: 0.7rem;
+  border-top: 1px solid var(--border);
+  font-family: var(--font-serif);
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+.memoir-people {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.7rem;
+}
+.memoir-person {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  padding: 0.22rem 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--paper);
+  color: var(--accent);
+  cursor: pointer;
+}
+.memoir-person:hover { background: var(--paper-deep); }

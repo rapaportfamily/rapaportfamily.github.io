@@ -32,7 +32,8 @@
     "group_evidence": "Les preuves",
     "group_open": "Encore ouvert",
     "journey": "Le voyage",
-    "story": "L'Histoire"
+    "story": "L'Histoire",
+    "photographs": "Photographies"
   },
   "ui": {
     "language": "Langue",
@@ -265,5 +266,12 @@
     "lead": "Le récit complet, de Radomyśl Wielki à Haïfa. Chaque paragraphe cite sa source.",
     "kind_conflict": "le mémoire et le document divergent",
     "kind_testimony": "témoignage seul — aucun document"
+  },
+  "memoir": {
+    "title": "Les photographies du mémoire",
+    "lead": "Lusia a dicté ses mémoires en 1986. Quinze photographies y sont imprimées, et ce sont presque toutes les images de cette famille qui subsistent. Chacune est présentée ici sous la légende que le livre imprime au-dessous.",
+    "processing_note": "Chaque planche est une impression tramée grossière. Chacune a été détramée et ses ombres éclaircies — rien n’y a été ajouté.",
+    "page_label": "Page",
+    "back_cover": "Quatrième de couverture"
   }
 }
