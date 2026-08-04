@@ -16,7 +16,7 @@ image and every paragraph carries an explicit evidence level and an explicit per
 | `must_attribute` | Name who said it. "Lusia said…", never "it happened that…". |
 | `must_not_resolve` | The sources disagree. Do not settle it for the audience. |
 | `must_show_as_remembered` | Memoir only. No document. Show it as memory, not as filmed fact. |
-| `shows_our_family` | false on every period photograph but two. Never imply otherwise. |
+| `shows_our_family` | false on every period photograph. True only on the four portraits — two cropped from a 1945 citizenship file, two printed in the memoir. Never imply otherwise. |
 | `is_the_actual_event` | false on all of them. No image here shows the moment it illustrates. |
 
 Eight non-negotiables are listed under `hard_rules`, and the honest holes under `known_gaps`.
@@ -161,11 +161,19 @@ Each of these is documented. None is invented.
   it.*
 - **Two portraits**, cropped from a 1945 citizenship application: Zwi Nussbaum and Inge née
   Rosenbusch. Identity-document photographs, sepia, small.
+- **Two photographs of principals — both from the memoir, and the only two there are.**
+  *Lusia on horseback in Bolechów before the war*, printed on page 9 under the caption "Lajka on the
+  horse"; two paragraphs above it the book explains that Lajka was her own nickname and that she
+  never knew what it meant, so the rider is named by the memoir itself and not by inference. And
+  *Shimon at his school desk in Brussels*, page 62, c. 1946–47, aged nine or ten, after two and a
+  half years hidden in a crate. Both are coarse halftone prints; both have been descreened and
+  contrast-corrected and nothing else. **No detail in either was generated.**
 - **The documents themselves** — the DP card, the CKŻP cards, the Tarnów marriage deeds, the
   ketubah, the 31-page citizenship file, the burial register.
 - **What does not exist:** no photograph of Moses Saul or of Szabse has been found, and the search
-  for one is recorded as a failure rather than left open. No wartime photographs of David, Lusia or
-  Shimon are held here.
+  for one is recorded as a failure rather than left open. **No photograph of David exists at all** —
+  not one, at any age. No photograph of any of them during the war: Lusia's is from before it,
+  Shimon's from after it.
 
 ---
 

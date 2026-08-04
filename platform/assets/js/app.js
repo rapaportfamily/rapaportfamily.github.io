@@ -1444,6 +1444,7 @@ function openPersonModal(id) {
         <img src="${escapeHtml(p.photo)}" alt="${escapeHtml(ml(p.primary_name))}" loading="lazy">
       </a>
       ${p.photo_caption ? `<figcaption>${escapeHtml(ml(p.photo_caption))}</figcaption>` : ''}
+      ${p.photo_credit ? `<figcaption class="muted" style="font-size:0.72rem;margin-top:0.35rem;">${escapeHtml(p.photo_credit)}</figcaption>` : ''}
     </figure>` : ''}
     <div class="detail-name">${escapeHtml(ml(p.primary_name))}</div>
     ${p.aliases?.length ? `<div class="detail-aliases">${escapeHtml(p.aliases.join(' · '))}</div>` : ''}

@@ -81,8 +81,8 @@
     },
     {
       "id": "photographs",
-      "rule": "NO photograph in this archive shows David, Lusia, Shimon or Dov.",
-      "detail": "Every period image is of a place, or of other people in the same place and circumstance. Each carries shows_our_family:false. Never implying otherwise is the whole point of them."
+      "rule": "Only TWO photographs in this archive show a principal, and both come from the memoir.",
+      "detail": "Lusia on horseback in Bolechów before the war (memoir p.9, captioned “Lajka on the horse” — Lajka was her nickname, and the same page says so), and Shimon at his school desk in Brussels c.1946-47 (memoir p.62). There is NO photograph of David, none of Dov as a child, and none of any of them during the war. Every other period image is of a place, or of other people in the same place and circumstance, and carries shows_our_family:false. Check that flag before putting any image on screen as the family."
     },
     {
       "id": "memoir_dates",
@@ -225,8 +225,14 @@
         "note": "Hebrew date: 18 Tevet 5757. Aged 83. Buried Sde Yehoshua cemetery, Haifa — Section ו (Vav), Row 22, Grave 102ג — immediately adjacent to her husband David's grave 102ד. Haifa Chevra Kadisha record ID 144046. CK records confirm her father as אליהו (Eliyahu = Eli Weitzner) and mother as מטילדה (Matilda = Mathilde Weinreb) — matching all known family records. CK records her birth date as 08/04/1916 (day + month exact match to documented 1913-04-08; year off by 3, common Holocaust-survivor pattern). Aliyah 1948."
       },
       "living": false,
-      "photograph": null,
+      "photograph": "assets/research_images/memoir/lusia_lajka_on_horse.jpg",
       "facts": [
+        {
+          "key": "nickname_lajka",
+          "value": "Her nickname was Lajka. The memoir, page 9, says her father called her wild — “like a demon”, “like a naughty boy” — but Lajka was what she was called, and she never knew what it meant. The one pre-war photograph of her carries that name as its caption: “Lajka on the horse”.",
+          "evidence": "documented",
+          "may_state_as_fact": true
+        },
         {
           "key": "marriage",
           "value": "Married David Rapaport on 10 February 1935 in Bolechów, per the civil marriage record. Her memoir places the wedding in Muszyna in February 1938 — three years later and in another town; the month is right in both. Conflict recorded, not resolved.",
@@ -339,7 +345,7 @@
         "note": "Deceased — Hebrew family summary uses the honorific 'ז\"ל' (of blessed memory). Exact death date not yet recorded. To confirm via Haifa Chevra Kadisha records or Bituach Leumi index."
       },
       "living": false,
-      "photograph": null,
+      "photograph": "assets/research_images/memoir/shimon_brussels_school.jpg",
       "facts": [
         {
           "key": "childhood_river",
@@ -934,6 +940,26 @@
       "usage": "Show with the caption or an equivalent. Never imply the family is in the frame."
     },
     {
+      "file": "assets/research_images/memoir/lusia_lajka_on_horse.jpg",
+      "caption": "Lusia on horseback in Bolechów, before the war — from her own memoir, where the caption reads “Lajka on the horse”. Lajka was her nickname; the same page says she never knew what it meant. Her father called her wild, “like a naughty boy”. This is the earliest photograph of her the archive holds.",
+      "credit": "From the memoir of Lusia Rapaport, dictated 1986, page 9 — family copy. Scan descreened and contrast-corrected; no detail added.",
+      "person": "p_leah",
+      "shows_our_family": true,
+      "is_the_actual_event": false,
+      "licence_checked": true,
+      "usage": "A real portrait of this person."
+    },
+    {
+      "file": "assets/research_images/memoir/shimon_brussels_school.jpg",
+      "caption": "Shimon at his school desk in Brussels, about 1946-47 — from his mother’s memoir, where the caption reads “Shimon on the school bench in Brussels”. He was nine or ten. Two and a half years of his childhood had been spent hidden in a crate.",
+      "credit": "From the memoir of Lusia Rapaport, dictated 1986, page 62 — family copy. Scan descreened and contrast-corrected; no detail added.",
+      "person": "p_shimon",
+      "shows_our_family": true,
+      "is_the_actual_event": false,
+      "licence_checked": true,
+      "usage": "A real portrait of this person."
+    },
+    {
       "file": "assets/research_images/period/zwi_nussbaum_1945.jpg",
       "caption": "Zwi (Hirsch Herman) Nussbaum, c.1945 — from his citizenship application",
       "credit": "Israel State Archives, Mandate file מ-3211/050 — mounted on a 1945 citizenship application",
@@ -941,7 +967,7 @@
       "shows_our_family": true,
       "is_the_actual_event": false,
       "licence_checked": true,
-      "usage": "A real portrait of this person. The only one known for Inge."
+      "usage": "A real portrait of this person."
     },
     {
       "file": "assets/research_images/period/inge_nussbaum_1945.jpg",
@@ -951,7 +977,7 @@
       "shows_our_family": true,
       "is_the_actual_event": false,
       "licence_checked": true,
-      "usage": "A real portrait of this person. The only one known for Inge."
+      "usage": "A real portrait of this person."
     }
   ],
   "events": [
@@ -1910,7 +1936,8 @@
   ],
   "known_gaps": [
     "No photograph of Moses Saul or of Szabse has ever been found; the search is recorded as a failure.",
-    "No wartime photograph of David, Lusia or Shimon is held.",
+    "No photograph of David has ever been found — not one, at any age.",
+    "No wartime photograph of any of them is held. Lusia’s is from before the war, Shimon’s from after it.",
     "No photograph of Berisz or Rebeka exists here.",
     "Shimon’s date of death is not documented anywhere in this archive — not even the year.",
     "Five document references have no file behind them and never did.",

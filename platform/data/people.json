@@ -343,6 +343,17 @@
       ],
       "facts": [
         {
+          "key": "nickname_lajka",
+          "label_en": "Nickname",
+          "label_he": "כינוי",
+          "value": "Her nickname was Lajka. The memoir, page 9, says her father called her wild — “like a demon”, “like a naughty boy” — but Lajka was what she was called, and she never knew what it meant. The one pre-war photograph of her carries that name as its caption: “Lajka on the horse”.",
+          "value_he": "כינויה היה לייקה. ביומנה, עמוד 9, היא מספרת שאביה נהג לומר לה שהיא ”כמו שד“, כמו ילד שובב ופראי — אך ”לייקה“, זה היה כינויה, והיא לא ידעה כלל מה משמעותו. התצלום היחיד שלה מלפני המלחמה נשא את הכינוי הזה ככיתוב: ”לייקה“ על הסוס.",
+          "confidence": "documented",
+          "sources": [
+            "doc_lusia_memoir"
+          ]
+        },
+        {
           "key": "marriage",
           "value": "Married David Rapaport on 10 February 1935 in Bolechów, per the civil marriage record. Her memoir places the wedding in Muszyna in February 1938 — three years later and in another town; the month is right in both. Conflict recorded, not resolved.",
           "confidence": "confirmed",
@@ -497,7 +508,13 @@
       "birth_date": "1913-04-08",
       "birth_date_confidence": "documented",
       "birth_date_note": "Birth date confirmed as 8 April 1913 (death-age arithmetic: died 28 Dec 1996 reported aged 83 → only 1913 is internally consistent). Variants 6/8 April 1916 trace to the 'Maria Cizlik' Aryan-side Kennkarte that survived as the de-facto record on early post-war DP and Polish exit papers (a documented Yad Vashem 'false-identity' pattern). The c.1917 variant is from a 1965 Yad Vashem submitter field — least reliable. Verified 2026-05-21.",
-      "note_he": "סבתם מצד האב של דורון, דנה ודניאל. אמו של דב. ניצולת שואה ששרדה את רדיפת יהודי גליציה בחיים תחת זהויות בדויות (ובהן ״מריה צ׳יזליק״), וניהלה חנות עתיקות בלבוב בצד הארי. כתבה יומן על המלחמה — תשעים עמודים שהוכתבו ב-1986, ובלעדיהם כמעט דבר בארכיון הזה בין 1939 ל-1948 לא היה נשמע."
+      "note_he": "סבתם מצד האב של דורון, דנה ודניאל. אמו של דב. ניצולת שואה ששרדה את רדיפת יהודי גליציה בחיים תחת זהויות בדויות (ובהן ״מריה צ׳יזליק״), וניהלה חנות עתיקות בלבוב בצד הארי. כתבה יומן על המלחמה — תשעים עמודים שהוכתבו ב-1986, ובלעדיהם כמעט דבר בארכיון הזה בין 1939 ל-1948 לא היה נשמע.",
+      "photo": "assets/research_images/memoir/lusia_lajka_on_horse.jpg",
+      "photo_caption": {
+        "en": "Lusia on horseback in Bolechów, before the war — from her own memoir, where the caption reads “Lajka on the horse”. Lajka was her nickname; the same page says she never knew what it meant. Her father called her wild, “like a naughty boy”. This is the earliest photograph of her the archive holds.",
+        "he": "לוסיה על סוס בבולחוב, לפני המלחמה — מתוך יומנה שלה. הכיתוב שמתחת לתמונה בספר הוא ״לייקה״ על הסוס: לייקה היה כינויה, ובאותו עמוד היא כותבת שמעולם לא ידעה מה פירושו. אביה קרא לה פראית, ״כמו ילד שובב״. זו התמונה המוקדמת ביותר שלה שבארכיון."
+      },
+      "photo_credit": "From the memoir of Lusia Rapaport, dictated 1986, page 9 — family copy. Scan descreened and contrast-corrected; no detail added."
     },
     {
       "id": "p_shimon",
@@ -606,7 +623,8 @@
       "photo_caption": {
         "en": "Shimon at his school desk in Brussels, about 1946-47 — from his mother’s memoir, where the caption reads “Shimon on the school bench in Brussels”. He was nine or ten. Two and a half years of his childhood had been spent hidden in a crate.",
         "he": "שמעון ליד שולחן הלימודים בבריסל, בערך 1946-47 — מתוך יומן אמו, שם נכתב תחת התצלום ״שמעון על ספסל בית-הספר בבריסל״. הוא היה בן תשע או עשר. שנתיים וחצי מילדותו עברו עליו מוסתר בארגז."
-      }
+      },
+      "photo_credit": "From the memoir of Lusia Rapaport, dictated 1986, page 62 — family copy. Scan descreened and contrast-corrected; no detail added."
     },
     {
       "id": "p_tamar",
@@ -651,7 +669,8 @@
           "confidence": "documented",
           "sources": [
             "doc_lusia_memoir"
-          ]
+          ],
+          "value_he": "השאילה את תעודת הלידה שלה ללוסיה לצורך הזהות הבדויה בצד הארי בזמן המלחמה"
         },
         {
           "key": "shimon_protection",
@@ -659,7 +678,8 @@
           "confidence": "documented",
           "sources": [
             "doc_lusia_memoir"
-          ]
+          ],
+          "value_he": "הגנה על שמעון התינוק והפעוט בנדבורנא בשנים 1942-1945 (יומן, עמ׳ 51)"
         }
       ],
       "note_he": "אישה כפרייה פולנייה קתולית מאזור נדבורנא, שבתעודת הלידה שלה השתמשה לוסיה כדי לזייף את ניירות הזהות שלה בתקופת המלחמה (השם ״מריה״). לפי עמוד 51 ביומן, היא הגנה על שמעון בנדבורנא בשנים 1942-1945. לוסיה כינתה את זהותה ״מריה צ׳יצ׳ליק״ לאורך כל המלחמה — רשומות בעל פה קודמות במשפחה גרסו ״מריה צ׳יזליק״ (פישוט של הזיכרון)."
@@ -681,7 +701,8 @@
           "confidence": "documented",
           "sources": [
             "doc_lusia_memoir"
-          ]
+          ],
+          "value_he": "הסתיר את דוד ולוסיה ביער ליד נדבורנא; טיפל בשמעון בזמן שהוריו הסתתרו"
         }
       ],
       "note_he": "שכן נוצרי בנדבורנא שהחביא את דוד ולוסיה ביער בעוד הוא מטפל בשמעון התינוק (יומן עמ׳ 26). סיכן את חייו כדי להסתיר ידידים יהודים בתקופת הכיבוש הגרמני."
@@ -703,7 +724,8 @@
           "confidence": "documented",
           "sources": [
             "doc_lusia_memoir"
-          ]
+          ],
+          "value_he": "ארגן את העברת שמעון מנדבורנא ללבוב; הזהיר מפני אקציה מתוכננת נגד ילדים"
         }
       ],
       "note_he": "שכן רוסי נוצרי בנדבורנא, אב לשלושה. לפי עמוד 30 ביומן: ארגן את העברתו החשאית של שמעון מנדבורנא ללבוב, והזהיר את לוסיה מפני אקציה נאצית מתוכננת נגד ילדים יהודים."
@@ -725,7 +747,8 @@
           "confidence": "documented",
           "sources": [
             "doc_lusia_memoir"
-          ]
+          ],
+          "value_he": "סיפקו מזון ודיור בנדבורנא; סייעו למשפחה להימלט ללבוב; הסתירו שם את שמעון"
         },
         {
           "key": "hormek_papers_clarification",
@@ -733,7 +756,8 @@
           "confidence": "hypothesis",
           "sources": [
             "doc_lusia_memoir"
-          ]
+          ],
+          "value_he": "הזיכרון המשפחתי בדבר ״ניירות הורמק״ מתייחס קרוב לוודאי למסמכים שהושגו בידי משפחת הורמק או דרכה — ולא לשם של סוג מסמך"
         }
       ],
       "note_he": "משפחה נוצרית (נדבורנא ולבוב) שסייעה ללוסיה במזון, בדיור ובדרך המילוט ללבוב. האחות, גברת אינובסקה, הסתירה את שמעון בלבוב (יומן עמ׳ 30). שם המשפחה ״הורמק״ הוא המקור המתועד לזיכרון המשפחתי בדבר ״ניירות הורמק״."
@@ -755,7 +779,8 @@
           "confidence": "documented",
           "sources": [
             "doc_lusia_memoir"
-          ]
+          ],
+          "value_he": "התגוררה בלבוב (בגטו מ-1941)"
         },
         {
           "key": "forged_us_documents",
@@ -763,7 +788,8 @@
           "confidence": "documented",
           "sources": [
             "doc_lusia_memoir"
-          ]
+          ],
+          "value_he": "קנתה תעודת תושבוּת אמריקאית מזויפת תמורת 10,000 דולר בגטו לבוב ב-1942-43 — דפוס הונאה מוכר (ראו ״מלון פולסקי״ ותרמיות דומות). המוכרים הסגירו אותה."
         },
         {
           "key": "fate",
@@ -772,7 +798,8 @@
           "sources": [
             "doc_lusia_memoir_p41",
             "absence_yad_vashem_pot_2026_05_21"
-          ]
+          ],
+          "value_he": "הוסגרה ונעצרה. לפי היומן, פרק ד׳ עמוד 41: לוטה קנתה מסמך מזויף שהעיד עליה כתושבת ארצות הברית (10,000 דולר למסמך), ולאחר מכן נעצרה עם בעלה."
         },
         {
           "key": "existence_confirmed_by_dalia",
@@ -781,7 +808,8 @@
           "sources": [
             "oral_dalia_17may_whatsapp_2241",
             "doc_lusia_memoir"
-          ]
+          ],
+          "value_he": "דליה אישרה את קיומה של לוטה בהודעת וואטסאפ ב-17 במאי 2026"
         },
         {
           "key": "kohanic_lineage",
@@ -790,7 +818,8 @@
           "sources": [
             "src_family_tradition_kohen",
             "src_wikipedia_rapoport_family"
-          ]
+          ],
+          "value_he": "כהן (ייחוס כהונה) — בן שושלת הרבנים רפופורט-כהן, מר׳ משולם יקותיאל הכהן רפא (נפטר 1450, מיינץ ← פורטו). מסורת משפחה מאוששת."
         },
         {
           "key": "hid_shimon_in_lwow_ghetto",
@@ -798,7 +827,8 @@
           "confidence": "documented",
           "sources": [
             "doc_lusia_memoir_p38"
-          ]
+          ],
+          "value_he": "הסתירה את אחיינה שמעון רפפורט (יליד 1937) בתוך גטו לבוב לתקופה מסוימת בשנים 1941-43, לפני שמשפחת הורמק הבריחה אותו החוצה כדי לאחדו עם הוריו"
         },
         {
           "key": "husband_identity_unknown",
@@ -806,7 +836,8 @@
           "confidence": "documented",
           "sources": [
             "doc_lusia_memoir_p41"
-          ]
+          ],
+          "value_he": "לוטה הייתה נשואה. לפי היומן עמ׳ 41 היא ובעלה נעצרו יחד לאחר שקנו את מסמך התושבוּת המזויף. שם הבעל אינו נקוב ביומן."
         },
         {
           "key": "krakow_ghetto_record_1940",
@@ -814,7 +845,8 @@
           "confidence": "documented",
           "sources": [
             "doc_jewishgen_ten_ghettos_lotte_rapaport"
-          ]
+          ],
+          "value_he": "קצה חוט (דנה, 25 במאי 2026): רשומה כ״לוטה רפפורט״, שנת לידה 1915, במאגר JewishGen ״מרשמים ורשימות מעשרה גטאות יהודיים 1939-1942״ — גטו קרקוב, 1940."
         },
         {
           "key": "husband_name_szmid",
@@ -822,7 +854,8 @@
           "confidence": "documented",
           "sources": [
             "wa_export_2026-06-15"
-          ]
+          ],
+          "value_he": "שם משפחתו של בעלה היה שמיד (SZMID) — כפי שרשם דוד בעדותו ביד ושם (בסיה, 4 ביוני 2026). קודם לכן היה הבעל ״ללא שם רשום״ ביומנה של לוסיה."
         },
         {
           "key": "lados_verification_pending",
@@ -830,7 +863,8 @@
           "confidence": "documented",
           "sources": [
             "wa_export_2026-06-15"
-          ]
+          ],
+          "value_he": "בסיה פנתה למוניקה מנייבסקה (שותפה לחיבור ״רשימת ואדוש״ / passportyzycia.pl) כדי לברר אם לוטה הייתה קרבן של סחיטת הדרכונים המזויפים. ממתין לתשובה."
         }
       ],
       "father_id": "p_berisz",
@@ -874,7 +908,8 @@
           "sources": [
             "src_family_tradition_kohen",
             "src_wikipedia_rapoport_family"
-          ]
+          ],
+          "value_he": "כהן (ייחוס כהונה) — בן שושלת הרבנים רפופורט-כהן, מר׳ משולם יקותיאל הכהן רפא (נפטר 1450, מיינץ ← פורטו). מסורת משפחה מאוששת."
         }
       ],
       "note_he": "בנם הבכור של שמעון ותמר. בן דודם של דורון, דנה ודניאל."
@@ -902,7 +937,8 @@
           "sources": [
             "src_family_tradition_kohen",
             "src_wikipedia_rapoport_family"
-          ]
+          ],
+          "value_he": "כהן (ייחוס כהונה) — בן שושלת הרבנים רפופורט-כהן, מר׳ משולם יקותיאל הכהן רפא (נפטר 1450, מיינץ ← פורטו). מסורת משפחה מאוששת."
         }
       ],
       "note_he": "אחותו הצעירה של רונן, בתם של שמעון ותמר. בת דודתם של דורון, דנה ודניאל."
@@ -1047,7 +1083,8 @@
             "doc_freida_amalia_marriage_1919",
             "doc_jente_marriage_1920",
             "doc_rebeka_younger_marriage_1923"
-          ]
+          ],
+          "value_he": "נקובה כאם בדף העד ביד ושם 90394 (1953, עבור בריש) ובפנקסי הנישואין של טרנוב — רשומה 40 (1919, פרידה), 98 (1920, יענטה), 101 (1923, רבקה הצעירה)."
         },
         {
           "key": "maiden_name_and_european_name",
@@ -1057,7 +1094,8 @@
             "doc_szymon_paja_marriage_1913_sambor",
             "doc_krynica_1904_emilia_rapaport",
             "wa_export_2026-06-15"
-          ]
+          ],
+          "value_he": "שם נעורים ליינער (״משה ומנוחה ליינען״, סמבור 1913). השתמשה בשם האירופי אמיליה — וכך היא מזוהה בשתיים מתעודות הלידה של ילדי אלטה לאה."
         }
       ],
       "aliases": [
@@ -1115,7 +1153,8 @@
           "sources": [
             "doc_alte_leja_turkel_marriage_1909_tarnopol",
             "wa_export_2026-06-15"
-          ]
+          ],
+          "value_he": "נישאה ליחיאל טירקל (סוחר מטרמבובלה, יליד 4 בפברואר 1879) בטרנופול ב-18 ביולי 1909; היא הייתה בת 27 וחצי (עולה בקנה אחד עם לידה ב-1882). משק הבית התגורר בטרנופול."
         }
       ],
       "spouse_id": "p_jechiel_turkel",
@@ -1155,7 +1194,8 @@
           "confidence": "documented",
           "sources": [
             "doc_jente_marriage_1920"
-          ]
+          ],
+          "value_he": "12 בדצמבר 1920 בטרנוב — נישואין שניים למנדל אחים הורוויץ מסוקאל (בן 28, רווק, בנו של פנחס הורוויץ). הרב העד: יוסף חיים."
         },
         {
           "key": "first_marriage",
@@ -1163,7 +1203,8 @@
           "confidence": "documented",
           "sources": [
             "doc_jente_marriage_1920"
-          ]
+          ],
+          "value_he": "הייתה אלמנה עד דצמבר 1920. זהות בעלה הראשון טרם תועדה."
         },
         {
           "key": "survived_war_liege",
@@ -1172,7 +1213,8 @@
           "sources": [
             "doc_szewa_markus_turkel_marriage_1946_liege",
             "doc_liege_jews_list_1941"
-          ]
+          ],
+          "value_he": "שרדה את השואה והתגוררה בליאז׳ שבבלגיה עם בתה שבע ב-1946 (לפי רשומת הנישואין של שבע בליאז׳ מס׳ 1142). תאריך ומקום פטירתה אינם ידועים."
         },
         {
           "key": "daughter",
@@ -1180,7 +1222,8 @@
           "confidence": "documented",
           "sources": [
             "doc_szewa_horowitz_birth_1920"
-          ]
+          ],
+          "value_he": "בתה שבע הורוויץ (ילידת 1920 טרנוב), שנישאה למרקוס טירקל בליאז׳ ב-1946."
         }
       ],
       "spouse_ids": [
@@ -1242,7 +1285,8 @@
           "confidence": "documented",
           "sources": [
             "doc_freida_amalia_marriage_1919"
-          ]
+          ],
+          "value_he": "8 ביוני 1919 בטרנוב — נישואין שניים למרקוס אליאס קלייןבאום (בן 27, אף הוא אלמן, המתגורר ״בבית באואר בפשמישל״)."
         },
         {
           "key": "first_husband_nussbaum",
@@ -1251,7 +1295,8 @@
           "sources": [
             "doc_freida_amalia_marriage_1919",
             "doc_moses_saul_descendants_tree"
-          ]
+          ],
+          "value_he": "הוסק משם המשפחה נוסבאום של בנה צבי איילון בלידתו (7 במאי 1919, פשמישל) — בעלה הראשון היה אפוא נוסבאום. הוא מת עד מועד נישואיה השניים. שמו הפרטי, אליהו מרדכי, נודע ב-2026 מטופס שמילא בנו."
         }
       ],
       "spouse_ids": [
@@ -1294,7 +1339,8 @@
           "confidence": "documented",
           "sources": [
             "doc_rebeka_younger_marriage_1923"
-          ]
+          ],
+          "value_he": "4 בספטמבר 1923 בטרנוב — נישאה לסנה זילברפניג מפלונסק (בן 34 שנים ו-10 חודשים, רווק, בנם של אברם ופסי זילברפניג מפלונסק)."
         },
         {
           "key": "subsequent_migration",
@@ -1302,7 +1348,8 @@
           "confidence": "family_oral",
           "sources": [
             "doc_moses_saul_descendants_tree"
-          ]
+          ],
+          "value_he": "עברה לאוסטריה (לפי עץ הצאצאים המשפחתי) — המועד אינו ידוע, ככל הנראה לאחר נישואי 1923."
         }
       ],
       "spouse_id": "p_sane_zylberfenig",
@@ -1358,7 +1405,8 @@
           "confidence": "documented",
           "sources": [
             "doc_szewa_markus_turkel_marriage_1946_liege"
-          ]
+          ],
+          "value_he": "לא היה בין החיים ב-1946 (רשומת הנישואין של בתו שבע בליאז׳ נוקבת בו כאב המנוח)."
         }
       ],
       "aliases": [
@@ -1712,7 +1760,8 @@
           "confidence": "documented",
           "sources": [
             "src_gelles_griffel_nadworna_pdf"
-          ]
+          ],
+          "value_he": "ראש הקהילה היהודית (אב הקהילה) בנדבורנא"
         },
         {
           "key": "business",
@@ -1720,7 +1769,8 @@
           "confidence": "documented",
           "sources": [
             "src_gelles_griffel_nadworna_pdf"
-          ]
+          ],
+          "value_he": "מרבצי נפט, יערות וייצוא עצים ברחבי גליציה ועד וינה"
         },
         {
           "key": "religious_affiliation",
@@ -1728,7 +1778,8 @@
           "confidence": "documented",
           "sources": [
             "src_gelles_griffel_nadworna_pdf"
-          ]
+          ],
+          "value_he": "חסיד הגר (בית הכנסת של אוטיניה)"
         },
         {
           "key": "10_children",
@@ -1736,7 +1787,8 @@
           "confidence": "documented",
           "sources": [
             "src_gelles_griffel_nadworna_pdf"
-          ]
+          ],
+          "value_he": "אב לעשרה ילדים, ובהם רבקה גריפל-רפפורט, ילידת 1888"
         }
       ],
       "spouse_id": "p_sara_chajes",
@@ -1796,7 +1848,8 @@
           "confidence": "documented",
           "sources": [
             "src_gelles_griffel_nadworna_pdf"
-          ]
+          ],
+          "value_he": "שושלת הרבנים חייס מקולומיאה"
         },
         {
           "key": "rabbinical_ancestors",
@@ -1804,7 +1857,8 @@
           "confidence": "documented",
           "sources": [
             "src_gelles_griffel_nadworna_pdf"
-          ]
+          ],
+          "value_he": "יצחק חיים חייס (1823-1866) מקולומיאה ← יצחק בן אברהם חייס (1538-1617, רבה הראשי של פראג). הייחוס כולל את דוד הלוי סג״ל (הט״ז, לבוב) ואת יואל סירקיש (הב״ח, קרקוב)."
         }
       ],
       "spouse_id": "p_leizor_griffel",
@@ -1862,7 +1916,8 @@
             "doc_leah_birth_bolechow_1913",
             "doc_feige_birth_1911",
             "doc_moses_birth_1916"
-          ]
+          ],
+          "value_he": "סוחר בקר (handlarz bydłem) בבולחוב רוסקי, בערך 1911-16"
         },
         {
           "key": "occupation_later",
@@ -1870,7 +1925,8 @@
           "confidence": "confirmed",
           "sources": [
             "report_basia_14may"
-          ]
+          ],
+          "value_he": "בית עורות בבולחוב, רשום במדריך העסקים של 1930 — האיות ויצנר מאושש"
         },
         {
           "key": "emigration",
@@ -1879,7 +1935,8 @@
           "sources": [
             "oral_dana_15may",
             "oral_doron_13may"
-          ]
+          ],
+          "value_he": "עלה לארץ ישראל המנדטורית ב-1933 עם רישיון הון (אשרת ״קפיטליסט״ של 1,000 לירות שטרלינג)"
         },
         {
           "key": "marriage",
@@ -1887,7 +1944,8 @@
           "confidence": "confirmed",
           "sources": [
             "doc_leah_birth_bolechow_1913"
-          ]
+          ],
+          "value_he": "נשא את מטל ויינרב בדולינה, 1905 (נישואין אזרחיים כחוק)"
         }
       ],
       "spouse_id": "p_matel_weinreb",
@@ -1931,7 +1989,8 @@
           "confidence": "confirmed",
           "sources": [
             "doc_leah_birth_bolechow_1913"
-          ]
+          ],
+          "value_he": "מדולינה"
         }
       ],
       "note_he": "אמה של לוסיה. מטל (מטילדה) ויינרב, נשואה לאליהו ויצנר בדולינה ב-1905. עלתה לארץ ישראל ב-1933. שמה מופיע ברשומת הקבורה של בתה בחיפה."
@@ -1952,7 +2011,8 @@
           "confidence": "confirmed",
           "sources": [
             "doc_leah_birth_bolechow_1913"
-          ]
+          ],
+          "value_he": "בעל פונדק בדולינה"
         }
       ],
       "spouse_id": "p_ester_blima",
@@ -2011,7 +2071,8 @@
           "confidence": "family_oral",
           "sources": [
             "oral_doron_13may"
-          ]
+          ],
+          "value_he": "עלתה לישראל עם המשפחה בסביבות 1933"
         },
         {
           "key": "husband_and_children_correction",
@@ -2020,7 +2081,8 @@
           "sources": [
             "doc_feige_englander_marriage_1932",
             "wa_export_2026-06-15"
-          ]
+          ],
+          "value_he": "שם הבעל נקרא נכונה ישראל אנגלרד (ולא ״אנגלנדר״), יליד 26 ביוני 1905 פשבורסק, בנם של קיווה ורבקה; נישאו בבולחוב 1932. ילדים: רות ועקיבא."
         }
       ],
       "note_he": "אחותה הבכורה של לאה. פייגה (ביידיש) = ציפורה (בעברית)."
@@ -2061,7 +2123,8 @@
           "confidence": "family_oral",
           "sources": [
             "oral_doron_13may"
-          ]
+          ],
+          "value_he": "עלה לישראל עם המשפחה בסביבות 1933"
         }
       ],
       "note_he": "אחיה הצעיר של לאה."
@@ -2090,7 +2153,8 @@
           "confidence": "family_oral",
           "sources": [
             "oral_doron_13may"
-          ]
+          ],
+          "value_he": "ידועה בשמה העברי בלבד"
         },
         {
           "key": "emigration",
@@ -2098,7 +2162,8 @@
           "confidence": "family_oral",
           "sources": [
             "oral_doron_13may"
-          ]
+          ],
+          "value_he": "עלתה לישראל עם המשפחה בסביבות 1933"
         },
         {
           "key": "birth_window",
@@ -2106,7 +2171,8 @@
           "confidence": "estimated",
           "sources": [
             "wa_export_2026-06-15"
-          ]
+          ],
+          "value_he": "ככל הנראה נולדה בשנים 1917-1920. פנקס הלידות של בולחוב נפסק ב-5 במאי 1918 (המהפכה והמלחמה הפולנית-סובייטית), וזה מסביר באופן סביר מדוע רישומה אינו נמצא."
         }
       ],
       "note_he": "אחותה הצעירה ביותר של לאה."
@@ -2135,7 +2201,8 @@
           "sources": [
             "src_family_tradition_kohen",
             "src_wikipedia_rapoport_family"
-          ]
+          ],
+          "value_he": "כהן (ייחוס כהונה) — בן שושלת הרבנים רפופורט-כהן, מר׳ משולם יקותיאל הכהן רפא (נפטר 1450, מיינץ ← פורטו). מסורת משפחה מאוששת."
         }
       ],
       "note_he": "החוקר המוביל את הפרויקט הזה לכבוד יום ההולדת השמונים של אביו."
@@ -2191,7 +2258,8 @@
           "sources": [
             "src_family_tradition_kohen",
             "src_wikipedia_rapoport_family"
-          ]
+          ],
+          "value_he": "כהן (ייחוס כהונה) — בן שושלת הרבנים רפופורט-כהן, מר׳ משולם יקותיאל הכהן רפא (נפטר 1450, מיינץ ← פורטו). מסורת משפחה מאוששת."
         }
       ],
       "note_he": "שותפה שוות מעמד במחקר המשפחתי הזה."
@@ -2226,7 +2294,8 @@
           "sources": [
             "src_family_tradition_kohen",
             "src_wikipedia_rapoport_family"
-          ]
+          ],
+          "value_he": "כהן (ייחוס כהונה) — בן שושלת הרבנים רפופורט-כהן, מר׳ משולם יקותיאל הכהן רפא (נפטר 1450, מיינץ ← פורטו). מסורת משפחה מאוששת."
         }
       ],
       "note_he": "שותף שווה מעמד במחקר המשפחתי הזה."
@@ -2290,7 +2359,8 @@
           "sources": [
             "src_family_tradition_kohen",
             "src_wikipedia_rapoport_family"
-          ]
+          ],
+          "value_he": "כהן (ייחוס כהונה) — בן שושלת הרבנים רפופורט-כהן, מר׳ משולם יקותיאל הכהן רפא (נפטר 1450, מיינץ ← פורטו). מסורת משפחה מאוששת."
         }
       ],
       "note_he": "ילדם של דנה וליאור; נכד/ה של דב ודליה."
@@ -2320,7 +2390,8 @@
           "sources": [
             "src_family_tradition_kohen",
             "src_wikipedia_rapoport_family"
-          ]
+          ],
+          "value_he": "כהן (ייחוס כהונה) — בן שושלת הרבנים רפופורט-כהן, מר׳ משולם יקותיאל הכהן רפא (נפטר 1450, מיינץ ← פורטו). מסורת משפחה מאוששת."
         }
       ],
       "note_he": "ילדם של דנה וליאור."
@@ -2350,7 +2421,8 @@
           "sources": [
             "src_family_tradition_kohen",
             "src_wikipedia_rapoport_family"
-          ]
+          ],
+          "value_he": "כהן (ייחוס כהונה) — בן שושלת הרבנים רפופורט-כהן, מר׳ משולם יקותיאל הכהן רפא (נפטר 1450, מיינץ ← פורטו). מסורת משפחה מאוששת."
         }
       ],
       "note_he": "ילדם של דנה וליאור."
@@ -2380,7 +2452,8 @@
           "sources": [
             "src_family_tradition_kohen",
             "src_wikipedia_rapoport_family"
-          ]
+          ],
+          "value_he": "כהן (ייחוס כהונה) — בן שושלת הרבנים רפופורט-כהן, מר׳ משולם יקותיאל הכהן רפא (נפטר 1450, מיינץ ← פורטו). מסורת משפחה מאוששת."
         }
       ],
       "note_he": "ילדם של דנה וליאור."
@@ -2409,7 +2482,8 @@
           "sources": [
             "src_family_tradition_kohen",
             "src_wikipedia_rapoport_family"
-          ]
+          ],
+          "value_he": "כהן (ייחוס כהונה) — בן שושלת הרבנים רפופורט-כהן, מר׳ משולם יקותיאל הכהן רפא (נפטר 1450, מיינץ ← פורטו). מסורת משפחה מאוששת."
         }
       ],
       "note_he": "ילדתם של דניאל וחלי."
@@ -2438,7 +2512,8 @@
           "sources": [
             "src_family_tradition_kohen",
             "src_wikipedia_rapoport_family"
-          ]
+          ],
+          "value_he": "כהן (ייחוס כהונה) — בן שושלת הרבנים רפופורט-כהן, מר׳ משולם יקותיאל הכהן רפא (נפטר 1450, מיינץ ← פורטו). מסורת משפחה מאוששת."
         }
       ],
       "note_he": "ילדתם של דניאל וחלי."
@@ -2467,7 +2542,8 @@
           "sources": [
             "src_family_tradition_kohen",
             "src_wikipedia_rapoport_family"
-          ]
+          ],
+          "value_he": "כהן (ייחוס כהונה) — בן שושלת הרבנים רפופורט-כהן, מר׳ משולם יקותיאל הכהן רפא (נפטר 1450, מיינץ ← פורטו). מסורת משפחה מאוששת."
         }
       ],
       "note_he": "בתם הצעירה של דניאל וחלי (נוספה ב-20 במאי 2026 לפי דורון — אינה בעץ המשפחה משנת 2019)."
@@ -2790,7 +2866,8 @@
           "confidence": "documented",
           "sources": [
             "src_gelles_griffel_nadworna_pdf"
-          ]
+          ],
+          "value_he": "מרכז פרסטון רוברט טיש לבריאות הגבר, NYU Langone, ניו יורק"
         }
       ],
       "birth": {
@@ -2901,7 +2978,8 @@
           "confidence": "documented",
           "sources": [
             "src_gelles_griffel_nadworna_pdf"
-          ]
+          ],
+          "value_he": "דרך ארכיון הניירות המודרניים של בליול קולג׳, אוקספורד (יעבירו הלאה)"
         },
         {
           "key": "books",
@@ -2909,7 +2987,8 @@
           "confidence": "documented",
           "sources": [
             "src_gelles_griffel_nadworna_pdf"
-          ]
+          ],
+          "value_he": "״An Ancient Lineage: European Roots of a Jewish Family״ (ולנטיין מיטשל, 2006); יותר מחמישים מאמרי מחקר בארכיון בליול."
         }
       ],
       "birth": {
@@ -3050,7 +3129,8 @@
           "confidence": "documented",
           "sources": [
             "src_ada_green_nadworna_burial_transcription"
-          ]
+          ],
+          "value_he": "בית העלמין ברון הירש, סטטן איילנד, ניו יורק — חלקת יוצאי נדבורנא (Nadworner YMBA), חלקה I, שער 51"
         },
         {
           "key": "company",
@@ -3058,7 +3138,8 @@
           "confidence": "documented",
           "sources": [
             "src_basia_archive_finds_2026_05_21"
-          ]
+          ],
+          "value_he": "זיגמונט גריפל — מנסרות קיטור, תעשיית עץ, ייצוא עצים"
         },
         {
           "key": "company_address",
@@ -3066,7 +3147,8 @@
           "confidence": "documented",
           "sources": [
             "src_basia_archive_finds_2026_05_21"
-          ]
+          ],
+          "value_he": "לבוב, רחוב קופרניקה 5"
         },
         {
           "key": "company_founded",
@@ -3074,7 +3156,8 @@
           "confidence": "documented",
           "sources": [
             "src_basia_archive_finds_2026_05_21"
-          ]
+          ],
+          "value_he": "נוסדה ב-1923. מחסני מעבר בגדיניה ובגדנסק."
         },
         {
           "key": "company_scale",
@@ -3082,7 +3165,8 @@
           "confidence": "documented",
           "sources": [
             "src_basia_archive_finds_2026_05_21"
-          ]
+          ],
+          "value_he": "שנת הכספים 1934/35: 60,000 טונות עצי אורן יוצאו (96.7% חומרים מנוסרים); יותר מחמישה מיליון זלוטי לאנגליה לבדה. פילוח הייצוא: אנגליה, הולנד, גרמניה, שווייץ, צרפת."
         },
         {
           "key": "source_directory",
@@ -3090,7 +3174,8 @@
           "confidence": "documented",
           "sources": [
             "src_basia_archive_finds_2026_05_21"
-          ]
+          ],
+          "value_he": "אלבום-מפתח של הסנאט והסיים של הרפובליקה הפולנית ושל הסיים השלזי (מדריך בין-מלחמתי), עמוד 110"
         }
       ],
       "birth": {
@@ -3171,7 +3256,8 @@
           "confidence": "documented",
           "sources": [
             "src_ada_green_nadworna_burial_transcription"
-          ]
+          ],
+          "value_he": "אייזיק חיים בן דוד מנחם"
         },
         {
           "key": "burial",
@@ -3179,7 +3265,8 @@
           "confidence": "documented",
           "sources": [
             "src_ada_green_nadworna_burial_transcription"
-          ]
+          ],
+          "value_he": "בית העלמין ברון הירש, סטטן איילנד, ניו יורק — חלקת יוצאי נדבורנא, חלקה I, שער 51"
         }
       ],
       "birth": {
@@ -3224,7 +3311,8 @@
           "confidence": "documented",
           "sources": [
             "src_gelles_griffel_nadworna_pdf"
-          ]
+          ],
+          "value_he": "צאצאית שאול ואהל קצנלנבוגן (1541-1617) דרך קו ואהל של טרנוברז׳ג, כמתועד אצל אדוארד גלס ב״ואהל מטרנוברז׳ג ווהל מקרקוב״."
         }
       ],
       "birth": {
@@ -3354,7 +3442,8 @@
           "confidence": "documented",
           "sources": [
             "src_gelles_griffel_nadworna_pdf"
-          ]
+          ],
+          "value_he": "Tablet Magazine; הפודקאסט ״סיפור ישראלי״"
         }
       ],
       "aliases": [
@@ -3403,7 +3492,8 @@
           "confidence": "documented",
           "sources": [
             "src_gelles_griffel_nadworna_pdf"
-          ]
+          ],
+          "value_he": "עמוד הכותבת שלה בניו יורק טיימס"
         }
       ],
       "aliases": [],
@@ -3594,7 +3684,8 @@
           "confidence": "documented",
           "sources": [
             "src_chanan_rapaport_2018"
-          ]
+          ],
+          "value_he": "רופא החצר (Physicus) של המלך ז׳יימה השלישי ממיורקה"
         },
         {
           "key": "1345_lawsuit",
@@ -3602,7 +3693,8 @@
           "confidence": "documented",
           "sources": [
             "src_chanan_rapaport_2018"
-          ]
+          ],
+          "value_he": "תבע את המלך פדרו הרביעי על אי-תשלום עשר ליברות ≈ יותר מ-150,000 אירו בערך של היום"
         }
       ],
       "birth": {
@@ -3644,7 +3736,8 @@
           "confidence": "documented",
           "sources": [
             "src_chanan_rapaport_2018"
-          ]
+          ],
+          "value_he": "רופא במיורקה"
         },
         {
           "key": "1305_rescue_attempt",
@@ -3652,7 +3745,8 @@
           "confidence": "documented",
           "sources": [
             "src_chanan_rapaport_2018"
-          ]
+          ],
+          "value_he": "עמד בראש מזימה להציל צעירה יהודייה מהמרת דת כפויה דרך נישואין"
         }
       ],
       "birth": {
@@ -3758,7 +3852,8 @@
           "confidence": "documented",
           "sources": [
             "src_chanan_rapaport_2018"
-          ]
+          ],
+          "value_he": "ברון של הקיסרות האוסטרו-הונגרית (הוענק ב-6 בספטמבר 1890 בידי פרנץ יוזף)"
         },
         {
           "key": "honor",
@@ -3766,7 +3861,8 @@
           "confidence": "documented",
           "sources": [
             "src_chanan_rapaport_2018"
-          ]
+          ],
+          "value_he": "אביר לגיון הכבוד הצרפתי"
         },
         {
           "key": "education",
@@ -3774,7 +3870,8 @@
           "confidence": "documented",
           "sources": [
             "src_chanan_rapaport_2018"
-          ]
+          ],
+          "value_he": "דוקטור למשפטים (אוניברסיטת קרקוב, 1863), כלכלה ומדע המדינה (אוניברסיטת וינה)"
         },
         {
           "key": "office",
@@ -3782,7 +3879,8 @@
           "confidence": "documented",
           "sources": [
             "src_chanan_rapaport_2018"
-          ]
+          ],
+          "value_he": "חבר הפרלמנט האוסטרו-הונגרי, מייצג את יהודי גליציה"
         },
         {
           "key": "von_porada_meaning",
@@ -3790,7 +3888,8 @@
           "confidence": "documented",
           "sources": [
             "src_chanan_rapaport_2018"
-          ]
+          ],
+          "value_he": "השם הוא ראשי תיבות: PO(rto) + RA(pa) + DA(vid) — שם אביו"
         }
       ],
       "role": "dynasty_ancestor_galician",
@@ -4202,7 +4301,8 @@
           "confidence": "documented",
           "sources": [
             "src_goldfischer_family_documents_2026"
-          ]
+          ],
+          "value_he": "158 ס״מ"
         },
         {
           "key": "eye_color",
@@ -4210,7 +4310,8 @@
           "confidence": "documented",
           "sources": [
             "src_goldfischer_family_documents_2026"
-          ]
+          ],
+          "value_he": "חומות"
         },
         {
           "key": "hair_color",
@@ -4218,7 +4319,8 @@
           "confidence": "documented",
           "sources": [
             "src_goldfischer_family_documents_2026"
-          ]
+          ],
+          "value_he": "חום (ולימים אפור-בהיר)"
         },
         {
           "key": "residence",
@@ -4226,7 +4328,8 @@
           "confidence": "documented",
           "sources": [
             "src_goldfischer_family_documents_2026"
-          ]
+          ],
+          "value_he": "חיפה, ישראל"
         },
         {
           "key": "school_with_feige_weitzner",
@@ -4235,7 +4338,8 @@
           "sources": [
             "src_family_oral_2026",
             "src_bolechow_school_research_2026"
-          ]
+          ],
+          "value_he": "לפי סיפורי המשפחה למדה עם פייגה (ציפורה) ויצנר — אחותה הבכורה של לוסיה, ילידת 1911 בולחוב. בית הספר הסביר ביותר: בית הספר העברי ״תרבות״ באזור בולחוב."
         }
       ],
       "spouse_id": "p_s_goldfischer",
@@ -4466,7 +4570,8 @@
           "confidence": "documented",
           "sources": [
             "doc_szymon_paja_marriage_1913_sambor"
-          ]
+          ],
+          "value_he": "נשא את פאיה לאוב בסמבור, 8 ביוני 1913 (בן 29 שנים וחמישה חודשים). הרשומה נוקבת בהוריו — משה ומנוחה (ליינען) מטרנוב; מקום לידה רדומישל."
         }
       ],
       "note_he": "דוד-רבא מצד האב של דורון, דנה ודניאל — ילד שישי של משה שאול ומנוחה ואחיו של בריש. התגלה ב-2 ביוני 2026 דרך נישואיו בסמבור: ב-8 ביוני 1913 היה בן 29 שנים וחמישה חודשים (נולד בסביבות ינואר 1884), בנם של ״משה ומנוחה (ליינען)״ מטרנוב, יליד רדומישל. נשא את פאיה לאוב. שימו לב: אינו שמעון בנו של דוד (יליד 1937). בתו לאה (רפפורט-סגל/פרידמן) היא בת דודתו הראשונה של דוד ממק."
@@ -4536,7 +4641,8 @@
           "sources": [
             "doc_lea_rapaport_divorce_1941",
             "wa_export_2026-06-15"
-          ]
+          ],
+          "value_he": "ראשונים: מיכאל/יחיאל סגל (גירושין 1941, תעודה מס׳ ה13898). שניים: פרידמן — בשם הזה דיווחה ליד ושם על גורל בעלה."
         }
       ],
       "note_he": "בתם של שמעון רפפורט ופאיה לאוב; בת דודתו הראשונה של דוד (ממק). הגיעה לישראל; הגישה דיווח ליד ושם וחיפשה קרובים. נישאה למיכאל/יחיאל סגל (תעודת הגירושין העברית מ-1941, מס׳ ה13898, נוקבת בשמו); לאחר הגירושין מסגל נישאה שנית ונעשתה לאה פרידמן, ובשם הזה דיווחה ליד ושם על גורל בעלה. חשוב: זו לאה שמסמך הגירושין שלה מ-1941 תויק קודם לכן כ״לא משפחתנו״ — היא כן משפחתנו."
@@ -4646,7 +4752,8 @@
           "confidence": "family_oral",
           "sources": [
             "wa_export_2026-06-15"
-          ]
+          ],
+          "value_he": "שוחחה עם דנה כשעה, 4 ביוני 2026; מבקשת לפגוש את דב. חיפשה את המשפחה שנים."
         }
       ],
       "mother_id": "p_inge_nussbaum",
@@ -4679,7 +4786,8 @@
           "confidence": "family_oral",
           "sources": [
             "wa_export_2026-06-15"
-          ]
+          ],
+          "value_he": "הקשר חודש ביוני 2026 דרך דנה; מתגוררת בארצות הברית; מבקשת לפגוש את דב."
         }
       ],
       "note_he": "קרובה חיה (ארצות הברית), הקשר עמה חודש ביוני 2026. בתה של לאה/לוטה יפה ונכדתה של אלטה לאה רפפורט-טירקל; מבקשת לפגוש את דב. בודקת את צד טירקל מענפה שלה."
@@ -4705,7 +4813,8 @@
           "confidence": "family_oral",
           "sources": [
             "wa_export_2026-06-15"
-          ]
+          ],
+          "value_he": "פנתה לדנה ביוני 2026; מחזיקה בתצלומי משפחה; הוריה מרדכי ״מקס״ לוי-טירקל ומרגלית הלפרין."
         }
       ],
       "note_he": "קרובה חיה (רמת השרון), הקשר עמה חודש ביוני 2026. בתם של מרדכי ״מקס״ לוי-טירקל (1913-1997) ומרגלית הלפרין — ומכאן נכדתה של אלטה לאה רפפורט-טירקל. קרויה לאה על שם אלטה לאה. מחזיקה בתצלומי משפחה."

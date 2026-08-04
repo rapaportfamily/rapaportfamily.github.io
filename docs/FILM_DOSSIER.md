@@ -68,6 +68,7 @@ He is the one the documents keep getting wrong and the family keeps getting righ
 
 - born 1913-04-08, Bolechów  [DOCUMENTED · a record supports it]
 - died 1996-12-28  [DOCUMENTED · a record supports it]
+- **PHOTOGRAPH** → `assets/research_images/memoir/lusia_lajka_on_horse.jpg`
 
 The voice. Almost everything known about the war years in this family is known because she sat down in 1986 and told it, at ninety pages, to a schoolteacher her granddaughter had asked for help. She is also the one the records fight over: her birth year splits three sources against two, and her own memoir puts her wedding three years and one town away from where the register puts it. She waited out the war under a borrowed identity and then waited more than a year alone in Brussels with a baby while her husband was behind wire.
 
@@ -75,6 +76,7 @@ The voice. Almost everything known about the war years in this family is known b
 
 | | | |
 |---|---|---|
+| nickname_lajka | Her nickname was Lajka. The memoir, page 9, says her father called her wild — “like a demon”, “like a naughty boy” — but Lajka was what she was called, and she never knew what it meant. The one pre-war photograph of her carries that name as its caption: “Lajka on the horse”. | **DOCUMENTED · a record supports it** |
 | marriage | Married David Rapaport on 10 February 1935 in Bolechów, per the civil marriage record. Her memoir places the wedding in Muszyna in February 1938 — three years later and in another town; the month is right in both. Conflict recorded, not resolved. | **CONFIRMED · a document says so** |
 | marriage_age_gap | She was 21 and he was 23 at the marriage of February 1935. The memoir says 18 and 24, which follows from its own later date. | **DOCUMENTED · a record supports it** |
 | fake_identity | Lived in Lwów under fake identity 'Maria Cizlik' (borrowed) | **FAMILY MEMORY · attribute it, do not film it as fact** |
@@ -115,6 +117,7 @@ The voice. Almost everything known about the war years in this family is known b
 
 - born 1937-06-22, Lwów / Lviv / Lemberg  [DOCUMENTED · a record supports it]
 - **deceased, date not documented** — Deceased — Hebrew family summary uses the honorific 'ז"ל' (of blessed memory). Exact death date not yet recorded. To confirm via Haifa Chevra Kadisha 
+- **PHOTOGRAPH** → `assets/research_images/memoir/shimon_brussels_school.jpg`
 
 The child in the crate. Born in Lwów in 1937, hidden for two and a half years so he would not be seen or heard, deported to Cyprus at nine, released from Atlit at ten — and he grew up to be a newspaperman, the northern correspondent for Ma’ariv, a man whose job was to be heard.
 
@@ -447,6 +450,8 @@ The reason this exists. Born in Brussels in August 1946 while his father was int
 
 **Portraits:**
 
+- `lusia_lajka_on_horse.jpg` — Lusia on horseback in Bolechów, before the war — from her own memoir, where the caption reads “Lajka on the horse”. Lajka was her nickname; the same page says she never knew what it meant. Her father called her wild, “like a naughty boy”. This is the earliest photograph of her the archive holds.
+- `shimon_brussels_school.jpg` — Shimon at his school desk in Brussels, about 1946-47 — from his mother’s memoir, where the caption reads “Shimon on the school bench in Brussels”. He was nine or ten. Two and a half years of his childhood had been spent hidden in a crate.
 - `zwi_nussbaum_1945.jpg` — Zwi (Hirsch Herman) Nussbaum, c.1945 — from his citizenship application
 - `inge_nussbaum_1945.jpg` — Inge Nussbaum née Rosenbusch, c.1945 — from her husband’s citizenship application
 
