@@ -59,7 +59,8 @@
         "e_leah_birth",
         "e_feige_birth",
         "e_moses_birth"
-      ]
+      ],
+      "significance_he": "מקום לידתה של לאה (לוסיה) ויצנר ב-8 באפריל, ושל אחיה — פייגה (1911) ומשה (1916). בתה של אליהו ויצנר ומטל לבית ויינרב. הוריה עלו לארץ ישראל ב-1933 והיא נשארה. כאן גם נישאה לדוד רפפורט ב-10 בפברואר 1935, לפי הרשומה האזרחית — שלוש שנים לפני התאריך שביומנה. שנת לידתה שנויה: 1913 בפנקס האזרחי, 1916 בכרטיס הניצולה שלה, במפתח ŻIH ובפנקס הקבורה בחיפה."
     },
     {
       "id": "pl_dolina",
@@ -127,7 +128,8 @@
       "era_context": {
         "1939_09": "After 17 Sep 1939 Soviet invasion: Przemyśl was DIVIDED by the German-Soviet border along the San River — German side vs Soviet side"
       },
-      "significance": "Leah fled here in 1939 (early war). Worked as teller / passport section under Soviets. Visited David's parents here. The exact people she stayed with (Matel? Regina/Rebeka?) is an open question — see hypotheses."
+      "significance": "Leah fled here in 1939 (early war). Worked as teller / passport section under Soviets. Visited David's parents here. The exact people she stayed with (Matel? Regina/Rebeka?) is an open question — see hypotheses.",
+      "significance_he": "לוסיה הגיעה לכאן ב-1939, בראשית המלחמה, ועבדה זמן קצר כפקידה במחלקת הדרכונים תחת המנהל הסובייטי (זיכרון משפחתי). כשחילקו גרמניה וברית המועצות את פולין בספטמבר 1939 עבר קו התיחום לאורך נהר הסן — בתוך העיר. הגרמנים החזיקו בגדה המערבית, הסובייטים במזרחית, ולוסיה הייתה בצד הסובייטי. הוריו של דוד, בריש ורבקה, חיו בפשמישל עד 1939. הגרמנים שרפו את בית הכנסת הישן; משכבשו את הגדה המזרחית ביוני 1941 רוכזו יהודי העיר בגטו ואחר כך הושמדו."
     },
     {
       "id": "pl_brussels",
@@ -142,7 +144,8 @@
         50.8503,
         4.3517
       ],
-      "significance": "Where the family arrived after the war. David registered as Displaced Person on 9 April 1946. Dov Bernard born here in 1946. The 'B.' on the DP card stands for Brussels or Belgium."
+      "significance": "Where the family arrived after the war. David registered as Displaced Person on 9 April 1946. Dov Bernard born here in 1946. The 'B.' on the DP card stands for Brussels or Belgium.",
+      "significance_he": "המקום שאליו הגיעה המשפחה אחרי המלחמה. דוד נרשם שם כעקור (DIPIS) ב-9 באפריל 1946. דב נולד בבריסל ב-28 באוגוסט 1946. הג׳וינט שילם את שכר המלון. מכאן הפליגו דוד ושמעון לסֶט באפריל 1947, ומכאן הפליגה לוסיה עם דב באונייה ״קדימה״ ב-1948, לאחר שהמתינה לבדה יותר משנה."
     },
     {
       "id": "pl_katowice",
@@ -156,7 +159,8 @@
         50.2649,
         19.0238
       ],
-      "significance": "Last stop in Poland before Brussels (per family memory). Family came here from Lwów; from here travelled by bus to Brussels."
+      "significance": "Last stop in Poland before Brussels (per family memory). Family came here from Lwów; from here travelled by bus to Brussels.",
+      "significance_he": "התחנה האחרונה בפולין לפני בריסל. המשפחה הגיעה לכאן מלבוב עם הריפטריאציה בתום המלחמה. ב-1 ביולי 1946 מילאו לוסיה ושמעון כרטיסי רישום ניצולים בוועד קטוביץ — מספרים 151738 ו-151337, אם ובנה, זה אחר זה, ושניהם נוקבים בקטוביץ ככתובת האחרונה הידועה. דוד כבר היה רשום כעקור בבריסל מ-9 באפריל 1946, שלושה חודשים קודם: הוא הקדים והם באו אחריו."
     },
     {
       "id": "pl_krynica",
@@ -277,7 +281,8 @@
         "1940": "Last Jews left Muszyna by end of 1940.",
         "1992": "Memorial plaque unveiled at the former Willa Helin honoring those tortured there."
       },
-      "significance": "H1 RESOLVED — this is Lusia's 'Mosina'. Confirmed by memoir (Feb 1938 marriage 'in the small resort town', p.16) and by triangulation of Griffel sawmill records + Muszyna Council minutes (28 Oct 1933). Willa 'Helin' on Ogrodowa St. was Lusia's hotel. Family had nothing to return to after the war."
+      "significance": "H1 RESOLVED — this is Lusia's 'Mosina'. Confirmed by memoir (Feb 1938 marriage 'in the small resort town', p.16) and by triangulation of Griffel sawmill records + Muszyna Council minutes (28 Oct 1933). Willa 'Helin' on Ogrodowa St. was Lusia's hotel. Family had nothing to return to after the war.",
+      "significance_he": "זוהי ״מוסינה״ של לוסיה — ההשערה נפתרה. עיירת מרפא בקרפטים הפולניים, שבה חיו דוד ולוסיה בשנים שלפני המלחמה. היומן ממקם כאן את חתונתם בפברואר 1938; הרשומה האזרחית ממקמת אותה בבולחוב ב-1935. הזיכרון, שנכתב ארבעים שנה אחר כך, מיקם את הנישואין בפתח שנות מושינה במקום שלוש שנים לפניהן."
     },
     {
       "id": "pl_mszana_dolna",
@@ -768,8 +773,8 @@
       "era_context": {
         "1946_1949": "British-controlled Cyprus. Site of British internment camps for Jewish Holocaust survivors intercepted en route to British Mandate Palestine. 53,510 Jews held, ~2,200 children born in captivity."
       },
-      "significance": "Internment site of David, Lusia, Shimon and infant Dov for ~8 months after the British boarded the Theodor Herzl in April 1947. Summer tent camps 55, 60, 61, 62, 63 were at Karaolos north of Famagusta; winter Nissen-hut camps were at Dekhelia near Larnaca.",
-      "significance_he": "אתר המעצר של דוד, לוסיה, שמעון ודב התינוק במשך כ-8 חודשים לאחר השתלטות הבריטית על תיאודור הרצל באפריל 1947. מחנות אוהלים קיציים 55, 60, 61, 62, 63 היו בקראולוס צפונית לפמגוסטה; מחנות חורף עם צריפי ניסן היו בדכליה ליד לרנקה.",
+      "significance": "Internment site of DAVID and his nine-year-old son SHIMON for about eight months, after the Royal Navy boarded the Theodor Herzl on 13 April 1947. Lusia was NOT here: she remained in Brussels with the seven-month-old Dov and waited more than a year. Summer tent camps 55, 60, 61, 62 and 63 stood at Karaolos north of Famagusta; the winter Nissen-hut camps were at Dekhelia near Larnaca. The Cyprus camps held 53,510 Jews behind wire between 1946 and 1949, and some two thousand children were born inside them.",
+      "significance_he": "אתר המעצר של דוד ושל בנו שמעון בן התשע במשך כשמונה חודשים, לאחר שהצי המלכותי השתלט על ״תיאודור הרצל״ ב-13 באפריל 1947. לוסיה לא הייתה כאן: היא נשארה בבריסל עם דב בן שבעת החודשים והמתינה יותר משנה. מחנות האוהלים הקיציים 55, 60, 61, 62 ו-63 עמדו בקרַאוֹלוֹס מצפון לפמגוסטה; מחנות החורף עם צריפי ניסן היו בדֶכֶליה ליד לרנקה. מחנות קפריסין החזיקו 53,510 יהודים מאחורי גדרות בין 1946 ל-1949, וכאלפיים ילדים נולדו בתוכם.",
       "significance_pl": "Miejsce internowania Dawida, Lusi, Szymona i niemowlęcia Dova przez około 8 miesięcy po przejęciu Theodora Herzla przez Brytyjczyków w kwietniu 1947. Letnie obozy namiotowe nr 55, 60, 61, 62, 63 znajdowały się w Karaolos koło Famagusty.",
       "significance_fr": "Lieu d'internement de David, Lusia, Szymon et Dov bébé pendant environ 8 mois après l'arraisonnement du Theodor Herzl en avril 1947. Camps d'été sous tente nos 55, 60, 61, 62, 63 à Karaolos, près de Famagouste.",
       "important_events_ids": []
@@ -789,8 +794,8 @@
       "era_context": {
         "1939_1948": "British detention camp on the Mediterranean coast south of Haifa. Held intercepted Ma'apilim (Aliyah Bet illegal immigrants), unaccompanied minors and the wounded who could not be deported to Cyprus."
       },
-      "significance": "Detention site of young Shimon Rapaport (David and Lusia's elder son) per his release document referenced in the memoir (p.65) — likely separated from his parents with the wounded from the Theodor Herzl and held at Atlit while David and Lusia were in Cyprus.",
-      "significance_he": "אתר המעצר של שמעון רפפורט הצעיר (בכורם של דוד ולוסיה) לפי תעודת השחרור שלו המוזכרת ביומן (עמ' 65) — ככל הנראה הופרד מהוריו עם פצועי תיאודור הרצל בעוד דוד ולוסיה היו בקפריסין.",
+      "significance": "Where SHIMON was released in 1948, at ten, after about a year interned at Karaolos in Cyprus. The memoir calls Atlit \"the corridor to freedom\" (p.65). He came here with his father DAVID, not from his parents: Lusia was still in Brussels with the infant Dov and did not sail until later that year. An earlier note here said he had been separated from his parents \"while David and Lusia were in Cyprus\" — Lusia was never in Cyprus, and that sentence is withdrawn.",
+      "significance_he": "המקום שבו שוחרר שמעון ב-1948, בגיל עשר, לאחר כשנה של מעצר בקרַאוֹלוֹס שבקפריסין. היומן מכנה את עתלית ״הפרוזדור אל החופש״ (עמ׳ 65). הוא הגיע לכאן עם אביו דוד, ולא בהיפרדו מהוריו: לוסיה הייתה עדיין בבריסל עם דב התינוק והפליגה רק מאוחר יותר באותה שנה. הערה קודמת כאן אמרה שהופרד מהוריו ״בעוד דוד ולוסיה היו בקפריסין״ — לוסיה מעולם לא הייתה בקפריסין, והמשפט הזה נמשך.",
       "significance_pl": "Miejsce zatrzymania młodego Szymona Rapaporta (starszego syna Dawida i Lusi) wg dokumentu zwolnienia wspomnianego w pamiętniku (s. 65).",
       "significance_fr": "Lieu de détention du jeune Szymon Rapaport (fils aîné de David et Lusia) selon son document de libération mentionné dans le mémoire (p. 65).",
       "important_events_ids": []

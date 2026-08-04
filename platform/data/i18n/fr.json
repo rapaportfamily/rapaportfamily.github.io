@@ -82,7 +82,8 @@
     "documents_count": "documents",
     "people_count": "personnes",
     "events_count": "événements",
-    "places_count": "lieux"
+    "places_count": "lieux",
+    "en_fallback": "Affiché en anglais — la version française n'a pas encore été écrite."
   },
   "confidence": {
     "confirmed": "Confirmé",

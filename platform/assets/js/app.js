@@ -1448,7 +1448,16 @@ function openPersonModal(id) {
     <div class="detail-name">${escapeHtml(ml(p.primary_name))}</div>
     ${p.aliases?.length ? `<div class="detail-aliases">${escapeHtml(p.aliases.join(' · '))}</div>` : ''}
     <div class="muted" style="margin-bottom:1rem;font-family:var(--font-mono);font-size:0.78rem;text-transform:uppercase;letter-spacing:0.08em;">${escapeHtml(roleLabel(p.role))}</div>
-    ${p.note_en ? `<p dir="auto" style="font-family:var(--font-serif);font-size:1.05rem;line-height:1.6;color:var(--ink-soft);">${escapeHtml(p.note_en)}</p>` : ''}
+    ${(() => {
+      // Notes were written in English and rendered as-is, so a Hebrew reader got
+      // an English paragraph in the middle of an RTL page. Prefer their own
+      // language; fall back to English and say plainly that it is a fallback.
+      const note = p['note_' + State.lang] || p.note_en;
+      if (!note) return '';
+      const isFallback = !p['note_' + State.lang] && State.lang !== 'en';
+      return `<p dir="auto" style="font-family:var(--font-serif);font-size:1.05rem;line-height:1.6;color:var(--ink-soft);">${escapeHtml(note)}</p>` +
+        (isFallback ? `<p class="muted" style="font-size:0.78rem;margin-top:-0.4rem;">${escapeHtml(t('ui.en_fallback'))}</p>` : '');
+    })()}
 
     <div class="detail-section">
       <h4>${escapeHtml(t('ui.born'))} / ${escapeHtml(t('ui.died'))}</h4>

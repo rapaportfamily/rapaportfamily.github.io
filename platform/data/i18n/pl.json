@@ -82,7 +82,8 @@
     "documents_count": "dokumenty",
     "people_count": "osoby",
     "events_count": "wydarzenia",
-    "places_count": "miejsca"
+    "places_count": "miejsca",
+    "en_fallback": "Pokazane po angielsku — wersja polska jeszcze nie powstała."
   },
   "confidence": {
     "confirmed": "Potwierdzone",
