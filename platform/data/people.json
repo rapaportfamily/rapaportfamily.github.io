@@ -582,7 +582,8 @@
       "children_ids": [
         "p_ronen_rapaport",
         "p_hadas_rapaport"
-      ]
+      ],
+      "note_he": "אשתו של שמעון. דודתם של דורון, דנה ודניאל. עמוד 83 ביומן נוקב בה כ״תמי״ — צורת הקיצור היומיומית של תמר."
     },
     {
       "id": "p_maria_ciccelik",
@@ -615,7 +616,8 @@
             "doc_lusia_memoir"
           ]
         }
-      ]
+      ],
+      "note_he": "אישה כפרייה פולנייה קתולית מאזור נדבורנא, שבתעודת הלידה שלה השתמשה לוסיה כדי לזייף את ניירות הזהות שלה בתקופת המלחמה (השם ״מריה״). לפי עמוד 51 ביומן, היא הגנה על שמעון בנדבורנא בשנים 1942-1945. לוסיה כינתה את זהותה ״מריה צ׳יצ׳ליק״ לאורך כל המלחמה — רשומות בעל פה קודמות במשפחה גרסו ״מריה צ׳יזליק״ (פישוט של הזיכרון)."
     },
     {
       "id": "p_pietrozycki",
@@ -636,7 +638,8 @@
             "doc_lusia_memoir"
           ]
         }
-      ]
+      ],
+      "note_he": "שכן נוצרי בנדבורנא שהחביא את דוד ולוסיה ביער בעוד הוא מטפל בשמעון התינוק (יומן עמ׳ 26). סיכן את חייו כדי להסתיר ידידים יהודים בתקופת הכיבוש הגרמני."
     },
     {
       "id": "p_ivanov",
@@ -657,7 +660,8 @@
             "doc_lusia_memoir"
           ]
         }
-      ]
+      ],
+      "note_he": "שכן רוסי נוצרי בנדבורנא, אב לשלושה. לפי עמוד 30 ביומן: ארגן את העברתו החשאית של שמעון מנדבורנא ללבוב, והזהיר את לוסיה מפני אקציה נאצית מתוכננת נגד ילדים יהודים."
     },
     {
       "id": "p_hormak_family",
@@ -686,7 +690,8 @@
             "doc_lusia_memoir"
           ]
         }
-      ]
+      ],
+      "note_he": "משפחה נוצרית (נדבורנא ולבוב) שסייעה ללוסיה במזון, בדיור ובדרך המילוט ללבוב. האחות, גברת אינובסקה, הסתירה את שמעון בלבוב (יומן עמ׳ 30). שם המשפחה ״הורמק״ הוא המקור המתועד לזיכרון המשפחתי בדבר ״ניירות הורמק״."
     },
     {
       "id": "p_lota",
@@ -798,7 +803,8 @@
           "wa_export_2026-06-15"
         ],
         "note_en": "Vienna birth index found (Austrian collection). David had the date slightly wrong but the location right."
-      }
+      },
+      "note_he": "אחותו של דוד. חיה בגטו לבוב עם משפחתה. לפי עמוד 37 ביומן: קנתה מסמכי הגירה מזויפים לארצות הברית אך לפי המסופר הוסגרה בידי המוכרים; לימים נעלמה במלחמה (ככל הנראה נרצחה בשואה). הזיכרון המשפחתי עליה אושר מחדש בידי דליה ב-17 במאי 2026. — מתועדת במאגר JewishGen/Ancestry ״עשרה גטאות יהודיים 1939-1942״ תחת ״לוטה רפפורט, ילידת 1915, גטו קרקוב, 1940״ (סליל 13, רשימה 177, מספר 72)."
     },
     {
       "id": "p_ronen_rapaport",
@@ -825,7 +831,8 @@
             "src_wikipedia_rapoport_family"
           ]
         }
-      ]
+      ],
+      "note_he": "בנם הבכור של שמעון ותמר. בן דודם של דורון, דנה ודניאל."
     },
     {
       "id": "p_hadas_rapaport",
@@ -852,7 +859,8 @@
             "src_wikipedia_rapoport_family"
           ]
         }
-      ]
+      ],
+      "note_he": "אחותו הצעירה של רונן, בתם של שמעון ותמר. בת דודתם של דורון, דנה ודניאל."
     },
     {
       "id": "p_berisz",
@@ -1059,7 +1067,8 @@
           ]
         }
       ],
-      "spouse_id": "p_jechiel_turkel"
+      "spouse_id": "p_jechiel_turkel",
+      "note_he": "דודה-רבתא מצד האב של דורון, דנה ודניאל. האחות המבוגרת הידועה של בריש רפפורט. נולדה ב-28 ביוני 1882 ברדומישל ויילקי; נרצחה באושוויץ ב-1942 לפי עץ הצאצאים שנבנה במשפחה. נישאה לטירקל; המשפחה חיה בווינה עם ילדים רבים (ענף טירקל: הרתה נועה, לוטה, ישראל מנחם, מרדכי/מקס, רחל/רוזי, זיגפריד, חנה)."
     },
     {
       "id": "p_jente_rapaport",
@@ -1129,7 +1138,8 @@
       ],
       "children_ids": [
         "p_szewa_horowitz"
-      ]
+      ],
+      "note_he": "דודה-רבתא מצד האב של דורון, דנה ודניאל. אחותו של בריש רפפורט. נולדה ב-1887 ברדומישל ויילקי לפי עץ הצאצאים שנבנה במשפחה (מאושש: שטר נישואיה השניים מ-1920 נוקב בגיל 33 בדצמבר 1920). נישאה פעמיים: בעל ראשון ששמו טרם תועד (ב-1920 כבר הייתה אלמנה); ואז, ב-12 בדצמבר 1920 בטרנוב, נישאה למשולם/מנדל הורוויץ מסוקאל (בן 28, רווק, בנו של פנחס הורוויץ). לפי רשומה 98 בפנקס הנישואין היהודי של טרנוב 1920, הנוקב במפורש בהוריה ״משה רפפורט ומנוחה״. עדכון (יוני 2026): יענטה שרדה את המלחמה. רשומת הנישואין מליאז׳ של בתה שבע הורוויץ (15 ביוני 1946) מציינת שיענטה ״התגוררה יחד עם בתה״ בליאז׳ שבבלגיה. שם בעלה נקרא כעת משולם איסכר הורוויץ (ולא ״מנדל אחים״); הוא כבר לא היה בין החיים ב-1946."
     },
     {
       "id": "p_freida_amalia_rapaport",
@@ -1244,7 +1254,8 @@
           ]
         }
       ],
-      "spouse_id": "p_sane_zylberfenig"
+      "spouse_id": "p_sane_zylberfenig",
+      "note_he": "דודה-רבתא מצד האב של דורון, דנה ודניאל. האחות הצעירה הידועה של בריש רפפורט. נולדה ב-1896 ברדומישל ויילקי (לפי עץ הצאצאים המשפחתי, ומאושש: שטר נישואיה מ-1923 נוקב בגיל 27 בספטמבר 1923 ואומר במפורש ״נולדה ברדומישל ויילקי״). נישאה לסנה זילברפניג מפלונסק ב-4 בספטמבר 1923 בטרנוב (רשומה 101 בפנקס הנישואין היהודי של טרנוב). הרשומה נוקבת במפורש בהוריה ״משה רפפורט ומנוחה״. עץ הצאצאים מציין שלאחר הנישואין ״עברה לאוסטריה״. אין לבלבל בינה לבין רבקה לבית גריפל מנדבורנא, אשתו של בריש."
     },
     {
       "id": "p_markus_elias_kleinbaum",
@@ -1265,7 +1276,8 @@
         ]
       },
       "spouse_id": "p_freida_amalia_rapaport",
-      "facts": []
+      "facts": [],
+      "note_he": "בעלה השני של פרידה אמליה רפפורט (אחותו של בריש). נשא אותה בטרנוב ב-8 ביוני 1919 (רשומה 40 בפנקס הנישואין היהודי של טרנוב). בן 27 בעת הנישואין ← נולד בסביבות 1892. היה אלמן בעת הנישואין. מקום מגורים המצוין במסמך: ״בבית באואר בפשמישל״ — קרוב לוודאי מגורים בפשמישל לאחר הנישואין. פרטים נוספים טרם תועדו."
     },
     {
       "id": "p_mendel_horowitz",
@@ -1305,7 +1317,8 @@
       ],
       "children_ids": [
         "p_szewa_horowitz"
-      ]
+      ],
+      "note_he": "בעלה השני של יענטה רפפורט (אחותו של בריש). נשא אותה בטרנוב ב-12 בדצמבר 1920 (רשומה 98 בפנקס הנישואין היהודי של טרנוב). בן 28 בעת הנישואין ← נולד בסביבות 1892. מעמד: רווק — נישואיו הראשונים. תושב סוקאל (היום סוקאל במחוז לביב, אוקראינה; לפני מלחמת העולם השנייה במזרח גליציה). בנו של פנחס הורוויץ. עדכון (יוני 2026): רשומת ליאז׳ מ-1946 קוראת את שמו ״משולם איסכר הורוויץ״ (הקריאה ״מנדל אחים״ מטרנוב 1920 הייתה פחות ודאית). הוא כבר לא היה בין החיים ב-1946. לו וליענטה הייתה בת, שבע (ילידת 1920). זהירות: משולם הורוויץ אחר (יליד 1897 בסטרצה שברומניה; אמו שרה; מתגורר בנגיוואראד) ואשתו רבקה מרים הגר אינו האיש הזה — אין לערבב ביניהם."
     },
     {
       "id": "p_sane_zylberfenig",
@@ -1327,7 +1340,8 @@
         ]
       },
       "spouse_id": "p_rebeka_rapaport_sister",
-      "facts": []
+      "facts": [],
+      "note_he": "בעלה של רבקה רפפורט הצעירה (אחותו של בריש, ילידת 1896 ברדומישל ויילקי — אין לבלבל עם רבקה לבית גריפל, אשתו של בריש). נשא אותה בטרנוב ב-4 בספטמבר 1923 (רשומה 101 בפנקס הנישואין היהודי של טרנוב). בן 34 שנים ו-10 חודשים בעת הנישואין ← נולד בסביבות נובמבר 1888. מעמד: רווק — נישואיו הראשונים. נולד בפלונסק (עיירה פולנית מצפון-מערב לוורשה). בנם של אברם ופסי זילברפניג מפלונסק."
     },
     {
       "id": "p_pinches_horowitz",
@@ -1342,7 +1356,8 @@
       "children_ids": [
         "p_mendel_horowitz"
       ],
-      "facts": []
+      "facts": [],
+      "note_he": "אביו של מנדל אחים הורוויץ (שנשא את יענטה רפפורט בטרנוב ב-1920). תושב סוקאל (מזרח גליציה, היום אוקראינה). לפי רשומה 98 בפנקס הנישואין היהודי של טרנוב 1920."
     },
     {
       "id": "p_nussbaum_first_husband_freida",
@@ -1384,7 +1399,8 @@
       "role": "great_grand_uncle_by_marriage_unverified",
       "note_en": "⚠ INFERRED. First husband of Jente Rapaport — his identity is unknown. We know he existed because Jente is described as a widow (wdowa) in the 1920 Tarnów marriage register (entry 98). He had died by 12 December 1920.",
       "spouse_id": "p_jente_rapaport",
-      "facts": []
+      "facts": [],
+      "note_he": "⚠ מוסק. בעלה הראשון של יענטה רפפורט — זהותו אינה ידועה. אנו יודעים שהיה קיים משום שיענטה מתוארת כאלמנה (wdowa) בפנקס הנישואין של טרנוב 1920 (רשומה 98). הוא מת עד 12 בדצמבר 1920."
     },
     {
       "id": "p_zwi_ayalon_nussbaum",
@@ -1693,7 +1709,8 @@
         ]
       },
       "father_id": "p_dawid_mendel_griffel_sr",
-      "mother_id": "p_taube_griffel"
+      "mother_id": "p_taube_griffel",
+      "note_he": "אב-סב-רבא (בקו האב-אם) של דורון, דנה ודניאל. ראש הקהילה היהודית בנדבורנא (אב הקהילה). אבי משפחה מורחבת גדולה. תעשיין גליציאני בולט: חכר מרבצי נפט ויערות, וניהל עסק ייצוא עצים גדול שהגיע עד וינה. חסיד הגר-אוטיניה — הוא וחתניו התפללו בבית הכנסת של האדמו״ר מאוטיניה. מתועד אצל אדוארד גלס, ״גריפל מנדבורנא״ (ארכיון בליול קולג׳, אוקספורד). היו לו עשרה ילדים עם אשתו שרה מטל חייס מקולומיאה."
     },
     {
       "id": "p_sara_chajes",
@@ -1751,7 +1768,8 @@
           "src_gelles_griffel_nadworna_pdf"
         ]
       },
-      "note_en": "Great-great-grandmother (paternal-maternal line) of Doron, Dana and Daniel. Born in Kolomea (Kolomyia), Galicia. Descendant of the Chajes rabbinical dynasty — her ancestor Isaac ben Abraham Chayes (1538-1617) was Chief Rabbi of Prague. Through this line the family connects to David Halevi Segal (the \"Taz\", Chief Rabbi of Lvov) and Joel Sirkes (the \"Bach\", Chief Rabbi of Cracow) — a 350+ year rabbinical pedigree."
+      "note_en": "Great-great-grandmother (paternal-maternal line) of Doron, Dana and Daniel. Born in Kolomea (Kolomyia), Galicia. Descendant of the Chajes rabbinical dynasty — her ancestor Isaac ben Abraham Chayes (1538-1617) was Chief Rabbi of Prague. Through this line the family connects to David Halevi Segal (the \"Taz\", Chief Rabbi of Lvov) and Joel Sirkes (the \"Bach\", Chief Rabbi of Cracow) — a 350+ year rabbinical pedigree.",
+      "note_he": "אם-סבתא-רבתא (בקו האב-אם) של דורון, דנה ודניאל. נולדה בקולומיאה שבגליציה. צאצאית שושלת הרבנים חייס — אבי אבותיה יצחק בן אברהם חייס (1538-1617) היה רבה הראשי של פראג. דרך הקו הזה מתחברת המשפחה לדוד הלוי סג״ל (״הט״ז״, רבה הראשי של לבוב) וליואל סירקיש (״הב״ח״, רבה הראשי של קרקוב) — ייחוס רבני של יותר מ-350 שנה."
     },
     {
       "id": "p_elias_weitzner",
@@ -1936,7 +1954,8 @@
             "wa_export_2026-06-15"
           ]
         }
-      ]
+      ],
+      "note_he": "אחותה הבכורה של לאה. פייגה (ביידיש) = ציפורה (בעברית)."
     },
     {
       "id": "p_moses_weitzner",
@@ -1976,7 +1995,8 @@
             "oral_doron_13may"
           ]
         }
-      ]
+      ],
+      "note_he": "אחיה הצעיר של לאה."
     },
     {
       "id": "p_pnina_weitzner",
@@ -2020,7 +2040,8 @@
             "wa_export_2026-06-15"
           ]
         }
-      ]
+      ],
+      "note_he": "אחותה הצעירה ביותר של לאה."
     },
     {
       "id": "p_doron",
@@ -2048,7 +2069,8 @@
             "src_wikipedia_rapoport_family"
           ]
         }
-      ]
+      ],
+      "note_he": "החוקר המוביל את הפרויקט הזה לכבוד יום ההולדת השמונים של אביו."
     },
     {
       "id": "p_dalia",
@@ -2103,7 +2125,8 @@
             "src_wikipedia_rapoport_family"
           ]
         }
-      ]
+      ],
+      "note_he": "שותפה שוות מעמד במחקר המשפחתי הזה."
     },
     {
       "id": "p_daniel",
@@ -2137,7 +2160,8 @@
             "src_wikipedia_rapoport_family"
           ]
         }
-      ]
+      ],
+      "note_he": "שותף שווה מעמד במחקר המשפחתי הזה."
     },
     {
       "id": "p_lior_hinkus",
@@ -2153,7 +2177,8 @@
       "aliases": [
         "Hinkus",
         "הינקוס"
-      ]
+      ],
+      "note_he": "בעלה של דנה."
     },
     {
       "id": "p_heli_avitan",
@@ -2169,7 +2194,8 @@
       "aliases": [
         "Avitan",
         "אביטן"
-      ]
+      ],
+      "note_he": "אשתו של דניאל."
     },
     {
       "id": "p_yarden_rapaport",
@@ -2198,7 +2224,8 @@
             "src_wikipedia_rapoport_family"
           ]
         }
-      ]
+      ],
+      "note_he": "ילדם של דנה וליאור; נכד/ה של דב ודליה."
     },
     {
       "id": "p_itamar_rapaport",
@@ -2227,7 +2254,8 @@
             "src_wikipedia_rapoport_family"
           ]
         }
-      ]
+      ],
+      "note_he": "ילדם של דנה וליאור."
     },
     {
       "id": "p_carmel_rapaport",
@@ -2256,7 +2284,8 @@
             "src_wikipedia_rapoport_family"
           ]
         }
-      ]
+      ],
+      "note_he": "ילדם של דנה וליאור."
     },
     {
       "id": "p_rom_rapaport",
@@ -2285,7 +2314,8 @@
             "src_wikipedia_rapoport_family"
           ]
         }
-      ]
+      ],
+      "note_he": "ילדם של דנה וליאור."
     },
     {
       "id": "p_alma_rapaport",
@@ -2313,7 +2343,8 @@
             "src_wikipedia_rapoport_family"
           ]
         }
-      ]
+      ],
+      "note_he": "ילדתם של דניאל וחלי."
     },
     {
       "id": "p_ema_rapaport",
@@ -2341,7 +2372,8 @@
             "src_wikipedia_rapoport_family"
           ]
         }
-      ]
+      ],
+      "note_he": "ילדתם של דניאל וחלי."
     },
     {
       "id": "p_ariel_rapaport",
@@ -2369,7 +2401,8 @@
             "src_wikipedia_rapoport_family"
           ]
         }
-      ]
+      ],
+      "note_he": "בתם הצעירה של דניאל וחלי (נוספה ב-20 במאי 2026 לפי דורון — אינה בעץ המשפחה משנת 2019)."
     },
     {
       "id": "p_david_mendel_griffel",
@@ -2408,7 +2441,8 @@
         "p_zygmunt_griffel",
         "p_regina_gelles",
         "p_edward_griffel_uncle"
-      ]
+      ],
+      "note_he": "אחד מעשרת ילדיהם של אליעזר גריפל ושרה מטל חייס מנדבורנא. בנו הבכור של אליעזר גריפל. נטל על עצמו את רוב עסקי העצים והנפט של המשפחה. אביהם של זיגמונט (1897-1951), רגינה (1900-1954, אמו של אדוארד גלס) ואדוארד (1904-1959). נרצח עם אשתו חוה ב-1941, וכמעט בוודאות בירי ההמוני ביער בוקובינקה ב-6 באוקטובר 1941, שבו נרצחו כאלפיים מיהודי נדבורנא. דוד ״ממק״ רפפורט, יליד 1911, נקרא על שמו לפי מסורת השמות האשכנזית. נשוי לחוה ואהל (1877-1941, אף היא נספתה)."
     },
     {
       "id": "p_machla_griffel",
@@ -2433,7 +2467,8 @@
       "father_id": "p_leizor_griffel",
       "mother_id": "p_sara_chajes",
       "note_en": "One of the 10 children of Eliezer Griffel + Sarah Matel Chajes of Nadwórna.  Married Benzion Wilner.",
-      "spouse_id": "p_benzion_wilner"
+      "spouse_id": "p_benzion_wilner",
+      "note_he": "אחד מעשרת ילדיהם של אליעזר גריפל ושרה מטל חייס מנדבורנא. נישאה לבן ציון וילנר."
     },
     {
       "id": "p_zissel_griffel",
@@ -2461,7 +2496,8 @@
       "spouse_id": "p_zygmunt_lamm",
       "children_ids": [
         "p_arnold_lamm"
-      ]
+      ],
+      "note_he": "אחד מעשרת ילדיהם של אליעזר גריפל ושרה מטל חייס מנדבורנא. בנה היה ד״ר ארנולד לאם; נכדה הוא ד״ר סטיבן לאם (יליד 1948, ניו יורק, NYU Langone — בן דוד חי מדרגה שנייה, פעם אחת מוסר, של דוד ממק). נישאה לזיגמונט (שלום) לאם."
     },
     {
       "id": "p_isaac_chaim_griffel",
@@ -2498,7 +2534,8 @@
       "children_ids": [
         "p_dr_jacob_griffel",
         "p_henry_griffel"
-      ]
+      ],
+      "note_he": "אחד מעשרת ילדיהם של אליעזר גריפל ושרה מטל חייס מנדבורנא. היו לו עשרה ילדים. בנו הבכור, ד״ר יעקב גריפל (1900-1962), היה איש הצלה נודע מטעם ועד ההצלה, שפעל מאיסטנבול בימי מלחמת העולם השנייה. בן אחר, יהושע השל ״הנרי״ גריפל, היגר לניו ג׳רזי; בנו אנדרו גריפל חי — בן דוד חי מדרגה שנייה, פעם אחת מוסר, של דוד ממק. נשוי ליהודית ברייט (נפטרה 1938)."
     },
     {
       "id": "p_shaya_griffel",
@@ -2522,7 +2559,8 @@
       },
       "father_id": "p_leizor_griffel",
       "mother_id": "p_sara_chajes",
-      "note_en": "One of the 10 children of Eliezer Griffel + Sarah Matel Chajes of Nadwórna.  Married Adela Englard."
+      "note_en": "One of the 10 children of Eliezer Griffel + Sarah Matel Chajes of Nadwórna.  Married Adela Englard.",
+      "note_he": "אחד מעשרת ילדיהם של אליעזר גריפל ושרה מטל חייס מנדבורנא. נישא לאדלה אנגלרד."
     },
     {
       "id": "p_leibish_griffel",
@@ -2546,7 +2584,8 @@
       },
       "father_id": "p_leizor_griffel",
       "mother_id": "p_sara_chajes",
-      "note_en": "One of the 10 children of Eliezer Griffel + Sarah Matel Chajes of Nadwórna.  Married Ziporah."
+      "note_en": "One of the 10 children of Eliezer Griffel + Sarah Matel Chajes of Nadwórna.  Married Ziporah.",
+      "note_he": "אחד מעשרת ילדיהם של אליעזר גריפל ושרה מטל חייס מנדבורנא. נישא לציפורה."
     },
     {
       "id": "p_benjamin_griffel",
@@ -2570,7 +2609,8 @@
       },
       "father_id": "p_leizor_griffel",
       "mother_id": "p_sara_chajes",
-      "note_en": "One of the 10 children of Eliezer Griffel + Sarah Matel Chajes of Nadwórna.  Married Chana Kahan."
+      "note_en": "One of the 10 children of Eliezer Griffel + Sarah Matel Chajes of Nadwórna.  Married Chana Kahan.",
+      "note_he": "אחד מעשרת ילדיהם של אליעזר גריפל ושרה מטל חייס מנדבורנא. נישא לחנה כהן."
     },
     {
       "id": "p_rachel_griffel",
@@ -2594,7 +2634,8 @@
       },
       "father_id": "p_leizor_griffel",
       "mother_id": "p_sara_chajes",
-      "note_en": "One of the 10 children of Eliezer Griffel + Sarah Matel Chajes of Nadwórna.  Married Bonya (Abraham) Ohrenstein."
+      "note_en": "One of the 10 children of Eliezer Griffel + Sarah Matel Chajes of Nadwórna.  Married Bonya (Abraham) Ohrenstein.",
+      "note_he": "אחד מעשרת ילדיהם של אליעזר גריפל ושרה מטל חייס מנדבורנא. נישאה לבוניה (אברהם) אורנשטיין."
     },
     {
       "id": "p_chaya_griffel",
@@ -2618,7 +2659,8 @@
       "father_id": "p_leizor_griffel",
       "mother_id": "p_sara_chajes",
       "note_en": "One of the 10 children of Eliezer Griffel + Sarah Matel Chajes of Nadwórna. Her grandson via son Samuel was Yehuda Nir (Juliusz Gruenfeld, 1930-2014 NYC), Holocaust survivor and author of 'The Lost Childhood' memoir — first cousin once removed of David Memek. Married Shlomo Gruenfeld (1869-1953).",
-      "spouse_id": "p_shlomo_gruenfeld"
+      "spouse_id": "p_shlomo_gruenfeld",
+      "note_he": "אחד מעשרת ילדיהם של אליעזר גריפל ושרה מטל חייס מנדבורנא. נכדה דרך בנה שמואל היה יהודה ניר (יוליוש גרינפלד, 1930-2014, ניו יורק), ניצול שואה ומחבר הזיכרונות ״הילדוּת האבודה״ — בן דוד ראשון, פעם אחת מוסר, של דוד ממק. נישאה לשלמה גרינפלד (1869-1953)."
     },
     {
       "id": "p_dawid_mendel_griffel_sr",
@@ -2643,7 +2685,8 @@
       "spouse_id": "p_taube_griffel",
       "children_ids": [
         "p_leizor_griffel"
-      ]
+      ],
+      "note_he": "אביו של אליעזר ״זיידה״ גריפל (1850-1918) מנדבורנא. אדוארד גלס ממקם את שושלת הרבנים-הסוחרים לבית גריפל בחוג לבוב של המאה השמונה עשרה, סביב ר׳ ליזר נחס ור׳ יעקב לייב."
     },
     {
       "id": "p_taube_griffel",
@@ -2660,7 +2703,8 @@
       "spouse_id": "p_dawid_mendel_griffel_sr",
       "children_ids": [
         "p_leizor_griffel"
-      ]
+      ],
+      "note_he": "אמו של אליעזר ״זיידה״ גריפל מנדבורנא. מתועדת אצל אדוארד גלס, ״גריפל מנדבורנא״."
     },
     {
       "id": "p_steven_lamm_living",
@@ -2691,7 +2735,8 @@
       },
       "role": "living_cousin",
       "note_en": "LIVING 2nd cousin once removed of David Memek Rapaport (b.1948). Internist at NYU Langone Health, New York City; medical director of the Preston Robert Tisch Center for Men's Health. Author of 'The Hardness Factor', 'No Guts No Glory'. Regular Today Show medical contributor 2000s. Line: Eliezer Griffel → Zissel Griffel-Lamm → Dr Arnold Lamm → Steven Lamm. Public-facing physician; reachable via NYU Langone.",
-      "father_id": "p_arnold_lamm"
+      "father_id": "p_arnold_lamm",
+      "note_he": "בן דוד חי מדרגה שנייה, פעם אחת מוסר, של דוד ממק רפפורט (יליד 1948). רופא פנימי ב-NYU Langone Health בניו יורק; מנהל רפואי של מרכז פרסטון רוברט טיש לבריאות הגבר. מחבר הספרים ״The Hardness Factor״ ו״No Guts No Glory״. תרם באופן קבוע לתוכנית Today בשנות האלפיים. הקו: אליעזר גריפל ← זיסל גריפל-לאם ← ד״ר ארנולד לאם ← סטיבן לאם. רופא בעל נוכחות ציבורית; ניתן להשיגו דרך NYU Langone."
     },
     {
       "id": "p_andrew_griffel_living",
@@ -2708,7 +2753,8 @@
       "father_id": "p_henry_griffel",
       "children_ids": [
         "p_tali_griffel_ginsburg"
-      ]
+      ],
+      "note_he": "בן דוד חי מדרגה שנייה, פעם אחת מוסר, של דוד ממק רפפורט. עורך דין בינלאומי; לשעבר שופט צבאי בצה״ל; ניצול שואה מ״ילדי המסתור״ (הוריו שרדו בפולין). בלוגר ב-Times of Israel. מחלק את זמנו בין ניו יורק לישראל. הקו: אליעזר גריפל ← יצחק חיים גריפל ← יהושע השל ״הנרי״ גריפל ← אנדרו."
     },
     {
       "id": "p_boruch_griffel_living",
@@ -2721,7 +2767,8 @@
       "aliases": [],
       "facts": [],
       "role": "living_cousin",
-      "note_en": "LIVING cousin via Isaac Chaim Griffel → Shmuel Shmelke Griffel → Boruch. Lives in Jerusalem. Named by Edward Gelles as a private-communication source on Griffel-Nadwórna research."
+      "note_en": "LIVING cousin via Isaac Chaim Griffel → Shmuel Shmelke Griffel → Boruch. Lives in Jerusalem. Named by Edward Gelles as a private-communication source on Griffel-Nadwórna research.",
+      "note_he": "בן דוד חי דרך יצחק חיים גריפל ← שמואל שמלקה גריפל ← ברוך. מתגורר בירושלים. אדוארד גלס נוקב בשמו כמקור בהתכתבות פרטית בנוגע למחקר גריפל-נדבורנא."
     },
     {
       "id": "p_pinhas_heyn_living",
@@ -2734,7 +2781,8 @@
       "aliases": [],
       "facts": [],
       "role": "living_cousin",
-      "note_en": "LIVING 3rd cousin of David Memek Rapaport. Lives in Israel. Edward Gelles's DNA-confirmed cousin via autosomal testing. Line: Eliezer Griffel → Chaya Griffel-Gruenfeld → Sima Gruenfeld-Blau → Clara Blau-Heyn → Pinhas."
+      "note_en": "LIVING 3rd cousin of David Memek Rapaport. Lives in Israel. Edward Gelles's DNA-confirmed cousin via autosomal testing. Line: Eliezer Griffel → Chaya Griffel-Gruenfeld → Sima Gruenfeld-Blau → Clara Blau-Heyn → Pinhas.",
+      "note_he": "בן דוד חי מדרגה שלישית של דוד ממק רפפורט. מתגורר בישראל. בן דודו של אדוארד גלס, מאושש בבדיקת DNA אוטוזומלית. הקו: אליעזר גריפל ← חיה גריפל-גרינפלד ← סימה גרינפלד-בלאו ← קלרה בלאו-היין ← פנחס."
     },
     {
       "id": "p_haim_gelles_living",
@@ -2751,7 +2799,8 @@
       "father_id": "p_edward_gelles_cousin",
       "children_ids": [
         "p_avi_gelles_living"
-      ]
+      ],
+      "note_he": "בנו החי של אדוארד גלס (החוקר שפרסם את שושלת גריפל-נדבורנא). נקוב בקבצי גלס כ״בני חיים, ורעייתו שבי״. לו בן בשם אבי גלס. ככל הנראה בבריטניה או בישראל. יצירת קשר דרך ארכיון בליול קולג׳."
     },
     {
       "id": "p_avi_gelles_living",
@@ -2765,7 +2814,8 @@
       "facts": [],
       "role": "living_cousin",
       "note_en": "LIVING grandson of Edward Gelles; named in Gelles's published Griffel-Nadwórna pedigree.",
-      "father_id": "p_haim_gelles_living"
+      "father_id": "p_haim_gelles_living",
+      "note_he": "נכדו החי של אדוארד גלס; נקוב בייחוס גריפל-נדבורנא שפרסם גלס."
     },
     {
       "id": "p_edward_gelles_cousin",
@@ -2806,7 +2856,8 @@
       "death": null,
       "role": "living_cousin",
       "note_en": "LIVING — age 98, London. 2nd cousin once removed of David Memek Rapaport. Born Vienna 24 November 1927. Published genealogist whose work at Balliol College Oxford documents the entire Griffel-Chajes-Wahl-Gelles dynasty of Galicia. Authored 'An Ancient Lineage: European Roots of a Jewish Family' (Vallentine Mitchell, 2006). His mother Regina Gelles née Griffel (1900-1954) was David Memek's first cousin. Senior living expert on our maternal line — knows everyone, holds Reb Eliezer's archive notes. Contact via Balliol Modern Papers archivist: archivist@balliol.ox.ac.uk",
-      "mother_id": "p_regina_gelles"
+      "mother_id": "p_regina_gelles",
+      "note_he": "חי — בן 98, לונדון. בן דוד מדרגה שנייה, פעם אחת מוסר, של דוד ממק רפפורט. נולד בווינה ב-24 בנובמבר 1927. חוקר גנאלוגיה שפרסם, ועבודתו בבליול קולג׳ באוקספורד מתעדת את כל שושלת גריפל-חייס-ואהל-גלס של גליציה. מחבר ״An Ancient Lineage: European Roots of a Jewish Family״ (ולנטיין מיטשל, 2006). אמו רגינה גלס לבית גריפל (1900-1954) הייתה בת דודתו הראשונה של דוד ממק. המומחה החי הבכיר ביותר לקו הזה — מכיר את כולם ומחזיק בהערות הארכיון של ר׳ אליעזר. יצירת קשר דרך ארכיונאי הניירות המודרניים בבליול קולג׳."
     },
     {
       "id": "p_dr_jacob_griffel",
@@ -2838,7 +2889,8 @@
       "role": "first_cousin",
       "note_en": "1st cousin of David Memek Rapaport. Famed Vaad ha-Hatzala rescuer in Istanbul during WWII, helping save Polish Jews. Subject of Joseph Friedenson's book 'Dateline: Istanbul: Dr Jacob Griffel's Lone Odyssey Through a Sea of Indifference' (ArtScroll, 1987). Son of Isaac Chaim Griffel + Judith Breit.",
       "father_id": "p_isaac_chaim_griffel",
-      "mother_id": "p_judith_breit"
+      "mother_id": "p_judith_breit",
+      "note_he": "בן דודו הראשון של דוד ממק רפפורט. איש הצלה נודע מטעם ועד ההצלה באיסטנבול בימי מלחמת העולם השנייה, שסייע להציל יהודים מפולין. נושא ספרו של יוסף פרידנזון ״Dateline: Istanbul״ (ארטסקרול, 1987). בנם של יצחק חיים גריפל ויהודית ברייט."
     },
     {
       "id": "p_yehuda_nir",
@@ -2869,7 +2921,8 @@
         ]
       },
       "role": "first_cousin_once_removed",
-      "note_en": "1st cousin once removed of David Memek Rapaport. Born Juliusz Gruenfeld in Lwów 1930. Holocaust survivor who lived under false papers in Aryan-side Warsaw and Lwów — the same world as our Lusia's survival story. Cornell Professor of Psychiatry. Author of the celebrated 1989 memoir 'The Lost Childhood: A Memoir'. Line: Eliezer Griffel → Chaya Griffel-Gruenfeld → Samuel Gruenfeld → Yehuda."
+      "note_en": "1st cousin once removed of David Memek Rapaport. Born Juliusz Gruenfeld in Lwów 1930. Holocaust survivor who lived under false papers in Aryan-side Warsaw and Lwów — the same world as our Lusia's survival story. Cornell Professor of Psychiatry. Author of the celebrated 1989 memoir 'The Lost Childhood: A Memoir'. Line: Eliezer Griffel → Chaya Griffel-Gruenfeld → Samuel Gruenfeld → Yehuda.",
+      "note_he": "בן דודו הראשון, פעם אחת מוסר, של דוד ממק רפפורט. נולד כיוליוש גרינפלד בלבוב ב-1930. ניצול שואה שחי בניירות מזויפים בצד הארי בוורשה ובלבוב — אותו עולם ממש שבו שרדה לוסיה שלנו. פרופסור לפסיכיאטריה בקורנל. מחבר ספר הזיכרונות הנודע ״הילדוּת האבודה״ (1989). הקו: אליעזר גריפל ← חיה גריפל-גרינפלד ← שמואל גרינפלד ← יהודה."
     },
     {
       "id": "p_zaynvl_rapaport",
@@ -2882,7 +2935,8 @@
       "aliases": [],
       "facts": [],
       "role": "extended_relative_paternal",
-      "note_en": "Documented in the Bolechów Yizkor 1957 (chapter 'Wood and Other Industries' by Abraham Weber, p.102) as a senior Jewish wood-industry specialist at the Bolechów timber factory. Likely a paternal uncle or older cousin of David Memek Rapaport given the surname, location, and forestry connection."
+      "note_en": "Documented in the Bolechów Yizkor 1957 (chapter 'Wood and Other Industries' by Abraham Weber, p.102) as a senior Jewish wood-industry specialist at the Bolechów timber factory. Likely a paternal uncle or older cousin of David Memek Rapaport given the surname, location, and forestry connection.",
+      "note_he": "מתועד ביזכור של בולחוב 1957 (בפרק ״עץ ותעשיות אחרות״ מאת אברהם ובר, עמ׳ 102) כמומחה יהודי בכיר לתעשיית העץ במפעל העצים בבולחוב. קרוב לוודאי דוד או בן דוד מבוגר של דוד ממק רפפורט, לאור שם המשפחה, המקום והזיקה לענף היערות."
     },
     {
       "id": "p_zishe_vaytsner",
@@ -2895,7 +2949,8 @@
       "aliases": [],
       "facts": [],
       "role": "extended_relative_maternal",
-      "note_en": "Documented in the Bolechów Yizkor 1957 (chapter 'Wood and Other Industries' by Abraham Weber, p.102) as owner of one of two large factories in Bolechów (a candle factory at the station). Likely a Weitzner uncle or cousin of Lusia/Leah."
+      "note_en": "Documented in the Bolechów Yizkor 1957 (chapter 'Wood and Other Industries' by Abraham Weber, p.102) as owner of one of two large factories in Bolechów (a candle factory at the station). Likely a Weitzner uncle or cousin of Lusia/Leah.",
+      "note_he": "מתועד ביזכור של בולחוב 1957 (בפרק ״עץ ותעשיות אחרות״ מאת אברהם ובר, עמ׳ 102) כבעליו של אחד משני המפעלים הגדולים בבולחוב (מפעל נרות ליד התחנה). קרוב לוודאי דוד או בן דוד ממשפחת ויצנר של לוסיה."
     },
     {
       "id": "p_shlomele_weitzner",
@@ -2908,7 +2963,8 @@
       "aliases": [],
       "facts": [],
       "role": "extended_relative_maternal",
-      "note_en": "Documented in the Bolechów Yizkor (bol086.html). A Bolechów youth who gave his free time to a youth-movement organization but died young of dysentery pre-war. Possibly a younger brother or cousin of Lusia."
+      "note_en": "Documented in the Bolechów Yizkor (bol086.html). A Bolechów youth who gave his free time to a youth-movement organization but died young of dysentery pre-war. Possibly a younger brother or cousin of Lusia.",
+      "note_he": "מתועד ביזכור של בולחוב. נער מבולחוב שהקדיש את זמנו הפנוי לתנועת נוער, ומת בצעירותו מדיזנטריה לפני המלחמה. אפשר שהיה אחיה הצעיר או בן דודתה של לוסיה."
     },
     {
       "id": "p_zygmunt_griffel",
@@ -2991,7 +3047,8 @@
       "role": "first_cousin",
       "note_en": "1st cousin of David Memek. Son of David Mendel Griffel + Chawa Wahl. Born Nadwórna 1897, died 1951. VERIFIED 21 May 2026 (Basia's archive find): Zygmunt's timber-export firm was located at Lwów, ul. Kopernika 5. Founded 1923. Exporting 60,000 tons of pine timber annually to England (82.8% of output) plus Holland, Germany, Switzerland, France. Transit warehouses in Gdynia + Gdańsk. Confirms the family timber dynasty Eric Griffel described in his ADST oral history.",
       "father_id": "p_david_mendel_griffel",
-      "mother_id": "p_chawa_wahl"
+      "mother_id": "p_chawa_wahl",
+      "note_he": "בן דודו הראשון של דוד ממק. בנם של דוד מנדל גריפל וחוה ואהל. נולד בנדבורנא ב-1897, נפטר ב-1951. אומת ב-21 במאי 2026 (מציאה של בסיה בארכיון): חברת ייצוא העצים של זיגמונט שכנה בלבוב, רחוב קופרניקה 5. נוסדה ב-1923. ייצאה 60,000 טונות עצי אורן בשנה לאנגליה (82.8% מן התפוקה), וכן להולנד, גרמניה, שווייץ וצרפת. מחסני מעבר בגדיניה ובגדנסק. מאשש את שושלת העצים המשפחתית שתיאר אריק גריפל בעדותו ההיסטורית."
     },
     {
       "id": "p_regina_gelles",
