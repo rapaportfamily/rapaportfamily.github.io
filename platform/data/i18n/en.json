@@ -83,7 +83,8 @@
     "people_count": "people",
     "events_count": "events",
     "places_count": "places",
-    "en_fallback": "Shown in English — a Hebrew version of this note has not been written yet."
+    "en_fallback": "Shown in English — a Hebrew version of this note has not been written yet.",
+    "background": "Background"
   },
   "confidence": {
     "confirmed": "Confirmed",

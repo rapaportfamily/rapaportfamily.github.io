@@ -83,7 +83,8 @@
     "people_count": "personnes",
     "events_count": "événements",
     "places_count": "lieux",
-    "en_fallback": "Affiché en anglais — la version française n'a pas encore été écrite."
+    "en_fallback": "Affiché en anglais — la version française n'a pas encore été écrite.",
+    "background": "Contexte"
   },
   "confidence": {
     "confirmed": "Confirmé",

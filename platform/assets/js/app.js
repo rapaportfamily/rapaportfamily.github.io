@@ -2102,11 +2102,28 @@ function openEventModal(id) {
     ${place ? `<div class="detail-fact"><div class="detail-fact-label">${escapeHtml(t('ui.place'))}</div><div class="detail-fact-val">${escapeHtml(ml(place.names))}</div></div>` : ''}
     ${people.length ? `<div class="detail-fact"><div class="detail-fact-label">${escapeHtml(t('ui.people_in_event'))}</div><div class="detail-fact-val">${people.map(p => `<a href="#" data-person="${escapeHtml(p.id)}">${escapeHtml(ml(p.primary_name))}</a>`).join(' · ')}</div></div>` : ''}
     ${e.confidence ? `<div class="detail-fact"><div class="detail-fact-label">${escapeHtml(t('ui.confidence'))}</div><div class="detail-fact-val"><span class="badge confidence-${escapeHtml(e.confidence)}">${escapeHtml(t('confidence.' + e.confidence))}</span></div></div>` : ''}
-    ${e.sources?.length ? `<div class="detail-fact"><div class="detail-fact-label">${escapeHtml(t('ui.sources'))}</div><div class="detail-fact-val mono">${escapeHtml(e.sources.join(' · '))}</div></div>` : ''}
+    ${e.sources?.length ? `<div class="detail-fact"><div class="detail-fact-label">${escapeHtml(t('ui.sources'))}</div><div class="detail-fact-val">${
+      // A source was printed as a bare id, which told the reader nothing and led
+      // nowhere. Where the id is a document we actually hold, make it open.
+      e.sources.map(s => {
+        const d = State.byId.documents[s];
+        return d
+          ? `<a href="#" data-doc="${escapeHtml(d.id)}">${escapeHtml(ml(d.title) || d.id)}</a>`
+          : `<span class="mono">${escapeHtml(s)}</span>`;
+      }).join(' · ')
+    }</div></div>` : ''}
+    ${e.context_brief ? `<div class="event-brief">
+      <div class="detail-fact-label">${escapeHtml(t('ui.background'))}</div>
+      <p>${escapeHtml(ml(e.context_brief))}</p>
+      ${(e.context_urls || []).map(u => `<a href="${escapeHtml(u.url)}" target="_blank" rel="noopener">${escapeHtml(u.label)}</a>`).join(' · ')}
+    </div>` : ''}
   `;
   showModal(html);
   document.querySelectorAll('#modal [data-person]').forEach(el => {
     el.addEventListener('click', (ev) => { ev.preventDefault(); openPersonModal(el.dataset.person); });
+  });
+  document.querySelectorAll('#modal [data-doc]').forEach(el => {
+    el.addEventListener('click', (ev) => { ev.preventDefault(); openDocModal(el.dataset.doc); });
   });
 }
 

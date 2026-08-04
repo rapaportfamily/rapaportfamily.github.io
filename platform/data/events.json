@@ -348,7 +348,21 @@
         "pl": "Niemcy najeżdżają Polskę 1 września 1939. ZSRR atakuje od wschodu 17 września 1939, zgodnie z paktem Ribbentrop-Mołotow. Wschodnia Polska (w tym Lwów, Bolechów, Nadwórna) zostaje pod sowiecką okupacją.",
         "fr": "L'Allemagne envahit la Pologne le 1er septembre 1939. L'URSS attaque depuis l'est le 17 septembre 1939, conformément au pacte Ribbentrop-Molotov. La Pologne orientale (Lwów, Bolechów, Nadwórna inclus) tombe sous occupation soviétique."
       },
-      "confidence": "context"
+      "confidence": "context",
+      "context_brief": {
+        "en": "Germany invaded Poland at dawn on 1 September 1939 without a declaration of war; the Soviet Union invaded from the east on 17 September under the secret protocol of the Molotov-Ribbentrop Pact. Poland was partitioned along the Bug and the San within weeks. Nadwórna, Bolechów and Lwów fell on the Soviet side; Przemyśl was cut in two by the San, with the Germans on the west bank and the Soviets on the east. That is why Lusia could be in Przemyśl under Soviet administration while the Germans stood across the river.",
+        "he": "גרמניה פלשה לפולין עם שחר ב-1 בספטמבר 1939 בלא הכרזת מלחמה; ברית המועצות פלשה ממזרח ב-17 בספטמבר לפי הפרוטוקול הסודי של הסכם מולוטוב-ריבנטרופ. פולין חולקה לאורך הבוג והסן בתוך שבועות. נדבורנא, בולחוב ולבוב נפלו בצד הסובייטי; פשמישל נחצתה בידי הסן, הגרמנים בגדה המערבית והסובייטים במזרחית. משום כך יכלה לוסיה לשהות בפשמישל תחת המנהל הסובייטי בעוד הגרמנים עומדים מעבר לנהר."
+      },
+      "context_urls": [
+        {
+          "label": "Invasion of Poland",
+          "url": "https://en.wikipedia.org/wiki/Invasion_of_Poland"
+        },
+        {
+          "label": "Molotov–Ribbentrop Pact",
+          "url": "https://en.wikipedia.org/wiki/Molotov%E2%80%93Ribbentrop_Pact"
+        }
+      ]
     },
     {
       "id": "e_leah_przemysl_1939",
@@ -404,6 +418,20 @@
       "sources": [
         "oral_doron_13may",
         "oral_dana_15may"
+      ],
+      "context_brief": {
+        "en": "Germany attacked the Soviet zone on 22 June 1941 and took eastern Galicia within days. A ghetto was established in Nadwórna; the Jews of the town were shot in mass killings at the Bukowinka forest and in the town itself, and the survivors were deported to Bełżec. Of roughly 4,000 Jews in Nadwórna almost none survived. David got out; his parents did not.",
+        "he": "גרמניה תקפה את האזור הסובייטי ב-22 ביוני 1941 וכבשה את מזרח גליציה בתוך ימים. בנדבורנא הוקם גטו; יהודי העיירה נורו בהריגות המוניות ביער בוקובינקה ובעיירה עצמה, והנותרים גורשו לבלז׳ץ. מתוך כארבעת אלפים יהודי נדבורנא כמעט איש לא שרד. דוד יצא; הוריו לא."
+      },
+      "context_urls": [
+        {
+          "label": "Nadvirna",
+          "url": "https://en.wikipedia.org/wiki/Nadvirna"
+        },
+        {
+          "label": "Bełżec extermination camp",
+          "url": "https://en.wikipedia.org/wiki/Be%C5%82%C5%BCec_extermination_camp"
+        }
       ]
     },
     {
@@ -432,6 +460,20 @@
       "confidence": "family_oral",
       "sources": [
         "oral_doron_13may"
+      ],
+      "context_brief": {
+        "en": "Lwów had the third-largest Jewish community in Poland, about 110,000 people, swollen by refugees to perhaps 160,000. Pogroms followed the German entry in late June 1941; a ghetto was sealed that November, and the Janowska camp operated on the edge of the city. By the liberation in July 1944 a few hundred Jews remained alive in Lwów. Surviving there meant living as someone else, on the Aryan side, with papers that belonged to a dead or absent Pole — which is what Lusia describes.",
+        "he": "בלבוב הייתה הקהילה היהודית השלישית בגודלה בפולין, כ-110,000 נפש, ועם הפליטים אולי 160,000. פרעות פרצו עם כניסת הגרמנים בסוף יוני 1941; בנובמבר נסגר הגטו, ובשולי העיר פעל מחנה ינובסקה. עם השחרור ביולי 1944 נותרו בלבוב כמה מאות יהודים בחיים. לשרוד שם פירושו לחיות כמישהו אחר, בצד הארי, עם ניירות של פולני מת או נעדר — וזה מה שלוסיה מתארת."
+      },
+      "context_urls": [
+        {
+          "label": "Lviv ghetto",
+          "url": "https://en.wikipedia.org/wiki/Lviv_Ghetto"
+        },
+        {
+          "label": "Janowska concentration camp",
+          "url": "https://en.wikipedia.org/wiki/Janowska_concentration_camp"
+        }
       ]
     },
     {
@@ -459,6 +501,20 @@
       "confidence": "documented",
       "sources": [
         "doc_david_dp_card"
+      ],
+      "context_brief": {
+        "en": "Poland had begun stripping citizenship from citizens abroad under a law of 1938, and the wartime and occupation regimes extended the practice. For a Polish Jew it meant becoming stateless: no passport, no consulate, no country obliged to take you back. It is why David appears in 1946 not as a Pole abroad but as a Displaced Person — a category invented for people with nowhere to be returned to.",
+        "he": "פולין החלה לשלול אזרחות מאזרחים ששהו בחוץ לארץ לפי חוק משנת 1938, ומשטרי המלחמה והכיבוש הרחיבו את הנוהג. עבור יהודי פולני פירוש הדבר היה חוסר אזרחות: בלא דרכון, בלא קונסוליה, בלא מדינה שחייבת לקבלו בחזרה. משום כך מופיע דוד ב-1946 לא כפולני בחו״ל אלא כעקור — קטגוריה שהומצאה עבור מי שאין לאן להשיבו."
+      },
+      "context_urls": [
+        {
+          "label": "Displaced person",
+          "url": "https://en.wikipedia.org/wiki/Displaced_person"
+        },
+        {
+          "label": "Statelessness",
+          "url": "https://en.wikipedia.org/wiki/Statelessness"
+        }
       ]
     },
     {
@@ -549,6 +605,16 @@
       "confidence": "documented",
       "sources": [
         "doc_lusia_memoir"
+      ],
+      "context_brief": {
+        "en": "The Theodor Herzl was the former British cable-layer HMS Guardian, built at Newcastle in 1907 and bought for Aliyah Bet. She sailed from Sète on 2 April 1947 with 2,641 ma’apilim gathered from displaced-persons camps across France and Belgium, and was intercepted eleven days later.",
+        "he": "״תיאודור הרצל״ הייתה ספינת הכבלים הבריטית לשעבר HMS Guardian, שנבנתה בניוקאסל ב-1907 ונרכשה עבור ההעפלה. היא הפליגה מסֶט ב-2 באפריל 1947 עם 2,641 מעפילים שנאספו ממחנות עקורים ברחבי צרפת ובלגיה, ונתפסה אחד עשר ימים אחר כך."
+      },
+      "context_urls": [
+        {
+          "label": "Aliyah Bet",
+          "url": "https://en.wikipedia.org/wiki/Aliyah_Bet"
+        }
       ]
     },
     {
@@ -576,6 +642,20 @@
       "confidence": "confirmed",
       "sources": [
         "doc_lusia_memoir"
+      ],
+      "context_brief": {
+        "en": "From 1945 to 1948 the Royal Navy blockaded Palestine against Aliyah Bet, the clandestine immigration organised by the Mossad LeAliyah Bet. Some 66 voyages carried about 70,000 people; most were intercepted. After August 1946 the passengers were no longer sent back to Europe but deported to camps on Cyprus. Boarding parties met resistance on many ships — three ma’apilim were killed and twenty-seven wounded on the Theodor Herzl.",
+        "he": "בין 1945 ל-1948 הטיל הצי המלכותי מצור על ארץ ישראל נגד ההעפלה, ההגירה החשאית שאורגנה בידי המוסד לעלייה ב׳. כ-66 הפלגות נשאו כשבעים אלף איש; רובן נתפסו. לאחר אוגוסט 1946 לא הוחזרו עוד הנוסעים לאירופה אלא גורשו למחנות בקפריסין. צוותי ההשתלטות נתקלו בהתנגדות באוניות רבות — ב״תיאודור הרצל״ נהרגו שלושה מעפילים ועשרים ושבעה נפצעו."
+      },
+      "context_urls": [
+        {
+          "label": "Aliyah Bet",
+          "url": "https://en.wikipedia.org/wiki/Aliyah_Bet"
+        },
+        {
+          "label": "Cyprus internment camps",
+          "url": "https://en.wikipedia.org/wiki/Cyprus_internment_camps"
+        }
       ]
     },
     {
@@ -604,6 +684,16 @@
       "confidence": "documented",
       "sources": [
         "doc_lusia_memoir"
+      ],
+      "context_brief": {
+        "en": "The British ran twelve camps on Cyprus between August 1946 and February 1949 — summer tent camps at Karaolos near Famagusta, winter huts at Dekhelia near Larnaca. 53,510 people passed through them behind barbed wire, guarded by British troops. Some two thousand children were born in the camps. The Jewish Agency and the Joint ran schools and clinics inside.",
+        "he": "הבריטים הפעילו שנים עשר מחנות בקפריסין בין אוגוסט 1946 לפברואר 1949 — מחנות אוהלים קיציים בקרַאוֹלוֹס ליד פמגוסטה, וצריפי חורף בדֶכֶליה ליד לרנקה. 53,510 איש עברו בהם מאחורי גדר תיל, בשמירת חיילים בריטים. כאלפיים ילדים נולדו במחנות. הסוכנות היהודית והג׳וינט הפעילו בתוכם בתי ספר ומרפאות."
+      },
+      "context_urls": [
+        {
+          "label": "Cyprus internment camps",
+          "url": "https://en.wikipedia.org/wiki/Cyprus_internment_camps"
+        }
       ]
     },
     {
@@ -653,7 +743,21 @@
         "fr": "Les internés de Chypre furent libérés vers Israël dans les mois suivants."
       },
       "confidence": "confirmed",
-      "sources": []
+      "sources": [],
+      "context_brief": {
+        "en": "The State of Israel was declared on 14 May 1948, hours before the British Mandate expired. The Cyprus camps were not emptied at once: Britain held some 11,000 people of military age there until the following February, and the last detainees left in February 1949.",
+        "he": "מדינת ישראל הוכרזה ב-14 במאי 1948, שעות אחדות לפני פקיעת המנדט הבריטי. מחנות קפריסין לא רוקנו בבת אחת: בריטניה החזיקה שם כאחד עשר אלף איש בגיל גיוס עד פברואר שלאחר מכן, והעצורים האחרונים עזבו בפברואר 1949."
+      },
+      "context_urls": [
+        {
+          "label": "Israeli Declaration of Independence",
+          "url": "https://en.wikipedia.org/wiki/Israeli_Declaration_of_Independence"
+        },
+        {
+          "label": "Cyprus internment camps",
+          "url": "https://en.wikipedia.org/wiki/Cyprus_internment_camps"
+        }
+      ]
     },
     {
       "id": "e_kadima_lusia_dov",

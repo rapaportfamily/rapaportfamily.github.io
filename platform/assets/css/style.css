@@ -1912,3 +1912,25 @@ html[dir="rtl"] .detail-portrait { margin: 0 1.2rem 1rem 0; }
 @media (max-width: 560px) {
   .detail-portrait { float: none; margin: 0 auto 1rem; }
 }
+
+/* Background on a war event — general history, set apart from the family's own
+   record so the two are never confused. */
+.event-brief {
+  margin-top: 1.2rem;
+  padding: 0.9rem 1.1rem;
+  background: var(--paper-deep);
+  border-inline-start: 3px solid var(--rule);
+  border-radius: var(--radius);
+}
+.event-brief p {
+  margin: 0.35rem 0 0.6rem;
+  font-family: var(--font-serif);
+  font-size: 0.98rem;
+  line-height: 1.65;
+  color: var(--ink-soft);
+}
+.event-brief a {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--accent);
+}

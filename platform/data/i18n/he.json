@@ -83,7 +83,8 @@
     "people_count": "אנשים",
     "events_count": "אירועים",
     "places_count": "מקומות",
-    "en_fallback": "מוצג באנגלית — גרסה עברית להערה הזאת טרם נכתבה."
+    "en_fallback": "מוצג באנגלית — גרסה עברית להערה הזאת טרם נכתבה.",
+    "background": "רקע"
   },
   "confidence": {
     "confirmed": "מאומת",
