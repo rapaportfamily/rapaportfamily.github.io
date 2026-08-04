@@ -385,7 +385,15 @@
           "status": "corrected",
           "summary_en": "The memoir, page 62: \"The family reaches Brussels and stays in a hotel. Dov is born there.\" One movement, all together.\n\nTwo documents we have held all along say otherwise. David’s Displaced Persons card registers him in BRUSSELS on 9 April 1946. Lusia’s and Shimon’s survivor cards were filed at the KATOWICE committee on 1 July 1946 — nearly three months later — and both give Katowice as the last known address. On the day David was registered in Belgium, his wife and son were still in Poland.\n\nSo the route was Lwów, then Katowice with the repatriation, then Brussels — and David travelled it first, with Lusia and Shimon following later in 1946. Dov was born in Brussels that August. It is the first of the two separations in this story; the second put David behind wire in Cyprus while Lusia waited in Brussels with the baby.\n\nFound on 3 August 2026 because Doron looked at the journey map and said the line to Sète was leaving from the wrong place. It was: the map had been sorting each stop by the date of the document that proves it rather than by when they were there, which put Brussels before Katowice. Both are now corrected.",
           "summary_he": "היומן, עמוד 62: ״המשפחה מגיעה לבריסל ומתאכסנת במלון. דב נולד שם.״ תנועה אחת, כולם יחד.\n\nשני מסמכים שהחזקנו כל העת אומרים אחרת. כרטיס העקורים של דוד רושם אותו בבריסל ב-9 באפריל 1946. כרטיסי הניצולים של לוסיה ושל שמעון הוגשו בוועד קטוביץ ב-1 ביולי 1946 — כמעט שלושה חודשים אחר כך — ושניהם נוקבים בקטוביץ ככתובת האחרונה הידועה. ביום שבו נרשם דוד בבלגיה, אשתו ובנו היו עדיין בפולין.\n\nכלומר המסלול היה לבוב, אחר כך קטוביץ עם הריפטריאציה, ואז בריסל — ודוד עשה אותו ראשון, ולוסיה ושמעון באו אחריו במהלך 1946. דב נולד בבריסל באוגוסט. זו הראשונה משתי הפרידות בסיפור הזה; השנייה השאירה את דוד מאחורי גדרות בקפריסין בעוד לוסיה ממתינה בבריסל עם התינוק.\n\nהתגלה ב-3 באוגוסט 2026 משום שדורון הביט במפת המסע ואמר שהקו אל סֶט יוצא מהמקום הלא נכון. אכן כך: המפה מיינה כל תחנה לפי תאריך המסמך המוכיח אותה ולא לפי מתי היו שם, וכך בריסל הקדימה את קטוביץ. שניהם תוקנו.",
-          "source": "doc_david_dp_card (Brussels, 9 April 1946) against doc_lea_ckzp (nr 151738) and doc_szymon_ckzp (nr 151337), both Katowice, 1 July 1946; vs memoir p.62."
+          "source": "doc_david_dp_card (Brussels, 9 April 1946) against doc_lea_ckzp (nr 151738) and doc_szymon_ckzp (nr 151337), both Katowice, 1 July 1946; vs memoir p.62.",
+          "images": [
+            {
+              "src": "assets/research_images/period/katowice_survivors_1946.jpg",
+              "caption_en": "Survivors in Katowice, 1946 — the town where Lusia and Shimon registered as survivors on 1 July 1946, cards 151738 and 151337. Not our family: this is who else was there, in the same year, doing the same thing.",
+              "caption_he": "ניצולים בקטוביץ, 1946 — העיר שבה נרשמו לוסיה ושמעון כניצולים ב-1 ביולי 1946, כרטיסים 151738 ו-151337. לא משפחתנו: אלה מי שהיו שם, באותה שנה, ועשו את אותו הדבר.",
+              "credit": "Katowice Yizkor book, via JewishGen — public domain"
+            }
+          ]
         },
         {
           "id": "ledger_dov_birth",
@@ -1612,6 +1620,12 @@
           ],
           "images": [
             {
+              "src": "assets/research_images/period/sete_port_1912.jpg",
+              "caption_en": "The port of Sète, photographed in 1912 by the Agence Rol. This is the harbour David and Shimon sailed from on 2 April 1947 aboard the Theodor Herzl, with 2,641 ma’apilim gathered from camps across France and Belgium — but the picture is thirty-five years earlier, and is here to show the place, not the day.",
+              "caption_he": "נמל סֶט, צולם ב-1912 בידי סוכנות רול. זהו הנמל שממנו הפליגו דוד ושמעון ב-2 באפריל 1947 באונייה ״תיאודור הרצל״, עם 2,641 מעפילים ממחנות ברחבי צרפת ובלגיה — אך התצלום מוקדם בשלושים וחמש שנים, והוא כאן כדי להראות את המקום, לא את היום.",
+              "credit": "Agence Rol / Bibliothèque nationale de France — public domain"
+            },
+            {
               "src": "assets/research_images/period/haifa_port_1947.jpg",
               "caption_en": "The Haganah ship \"Jewish State\" at Haifa port, October 1947 — six months after the Theodor Herzl, carrying David and Shimon, was boarded and turned back to Cyprus.",
               "caption_he": "אוניית ההגנה ״מדינת היהודים״ בנמל חיפה, אוקטובר 1947 — חצי שנה אחרי ש״תיאודור הרצל״, שנשאה את דוד ואת שמעון, נתפסה והוחזרה לקפריסין.",
@@ -1669,6 +1683,12 @@
           ],
           "images": [
             {
+              "src": "assets/research_images/period/haifa_watching_intercepted_1946.jpg",
+              "caption_en": "Haifa port, 17 April 1946: relatives and friends on the quay watching the immigrant ships \"Fede\", \"Fenice\" and \"Dov Hoz\" after the Royal Navy intercepted them. Almost exactly a year later, on 13 April 1947, the Theodor Herzl was boarded the same way with David and nine-year-old Shimon aboard, and its passengers were deported to Cyprus. Photograph by Hans Pinn.",
+              "caption_he": "נמל חיפה, 17 באפריל 1946: קרובים וידידים על הרציף מביטים באוניות המעפילים ״פדה״, ״פניצ׳ה״ ו״דב הוז״ לאחר שהצי המלכותי תפס אותן. כמעט שנה בדיוק אחר כך, ב-13 באפריל 1947, נתפסה כך ״תיאודור הרצל״ ועל סיפונה דוד ושמעון בן התשע, ונוסעיה גורשו לקפריסין. צילום הנס פין.",
+              "credit": "Hans Pinn / National Photo Collection of Israel — public domain"
+            },
+            {
               "src": "assets/research_images/period/famagusta_1945.jpg",
               "caption_en": "Famagusta, 1945 — the town beside which the British internment camps stood. David and Shimon were held at Karaolos, just north of here, in 1947.",
               "caption_he": "פמגוסטה, 1945 — העיר שלצידה עמדו מחנות המעצר הבריטיים. דוד ושמעון הוחזקו בקרַאוֹלוֹס, מצפון לכאן, ב-1947.",
@@ -1706,6 +1726,12 @@
           ],
           "images": [
             {
+              "src": "assets/research_images/period/atlit_children_1945.jpg",
+              "caption_en": "Children who survived the Holocaust getting down from the train at the Atlit reception camp, 15 July 1945. Shimon was released from Atlit in 1948, at ten, after about a year behind wire in Cyprus — the memoir calls Atlit \"the corridor to freedom\". This photograph is from three years earlier and he is not in it. Photograph by Zoltan Kluger.",
+              "caption_he": "ילדים ניצולי שואה יורדים מן הרכבת במחנה המעבר בעתלית, 15 ביולי 1945. שמעון שוחרר מעתלית ב-1948, בגיל עשר, אחרי כשנה מאחורי גדרות בקפריסין — היומן מכנה את עתלית ״הפרוזדור אל החופש״. התצלום הזה משלוש שנים קודם והוא אינו בו. צילום זולטן קלוגר.",
+              "credit": "Zoltan Kluger / National Photo Collection of Israel — public domain"
+            },
+            {
               "src": "assets/research_images/trip/atlit_lead.jpg",
               "caption_en": "Atlit detainee camp, British Mandate Palestine — where Shimon Rapaport was held (per memoir p.65 his release document came from Atlit).",
               "credit": "Wikipedia Commons (CC-BY-SA)"
@@ -1736,6 +1762,12 @@
             "https://en.wikipedia.org/wiki/Mount_Carmel"
           ],
           "images": [
+            {
+              "src": "assets/research_images/period/haifa_refugees_aboard_1946.jpg",
+              "caption_en": "Holocaust survivors aboard the immigrant ships \"Dov Hoz\" and \"Eliyahu Golomb\" arriving at Haifa port, 19 July 1946. Lusia reached this harbour with the infant Dov on the Kadima in 1948, after waiting more than a year alone in Brussels. Photograph by Zoltan Kluger.",
+              "caption_he": "ניצולי שואה על סיפון אוניות המעפילים ״דב הוז״ ו״אליהו גולומב״ בהגיען לנמל חיפה, 19 ביולי 1946. לוסיה הגיעה לנמל הזה עם דב התינוק באונייה ״קדימה״ ב-1948, לאחר שהמתינה יותר משנה לבדה בבריסל. צילום זולטן קלוגר.",
+              "credit": "Zoltan Kluger / National Photo Collection of Israel — public domain"
+            },
             {
               "src": "assets/research_images/trip/mount_carmel_lead.jpg",
               "caption_en": "Mount Carmel, Haifa — David and Lusia's apartment at Moriah Street 93 sat on this ridge. Bought with German Wiedergutmachung reparations.",
@@ -2684,5 +2716,5 @@
       ]
     }
   ],
-  "build_version": "2026-08-03-T77-jdc-and-shimon"
+  "build_version": "2026-08-03-T78-context-photographs"
 }
