@@ -1686,10 +1686,22 @@ function openDocModal(id) {
   // Notes
   const notes = d.transcription_notes || d.notes || null;
 
+  // t() returns the key itself when a string is missing, so `t(k) || fallback`
+  // never falls back. Compare against the key, the way the card list does.
+  const typeKey = 'doc_type.' + d.type;
+  const typeLabel = t(typeKey) !== typeKey ? t(typeKey) : d.type;
+
+  // The summary is the archive's reading of the document — what it says, and
+  // in several records what it does NOT prove. Until now it only ever appeared
+  // as a 220-character snippet on the card, so the reasoning was written and
+  // never readable. Show it in full, and let it wrap in whatever language it is.
+  const summary = ml(d.summary) || '';
+
   let html = `
-    <div class="doc-kind" style="font-family:var(--font-mono);font-size:0.78rem;color:var(--wine);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:0.3em;">${escapeHtml(t('doc_type.' + d.type) || d.type)}</div>
+    <div class="doc-kind" style="font-family:var(--font-mono);font-size:0.78rem;color:var(--wine);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:0.3em;">${escapeHtml(typeLabel)}</div>
     <h2 style="margin-bottom:0.3em;">${escapeHtml(ml(d.title))}</h2>
     ${d.source_archive ? `<p class="muted" style="font-style:italic;font-family:var(--font-serif);">${escapeHtml(d.source_archive)}</p>` : ''}
+    ${summary ? `<div class="doc-summary" dir="auto" style="margin-top:1rem;white-space:pre-line;font-family:var(--font-serif);line-height:1.6;">${escapeHtml(summary)}</div>` : ''}
 
     <div class="doc-viewer" style="margin-top:1.5rem;">
       <div class="doc-source">${sourceHTML}</div>
