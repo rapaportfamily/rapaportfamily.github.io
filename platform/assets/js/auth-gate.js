@@ -53,7 +53,10 @@ window.addEventListener("appinstalled", () => {
   // key carried inside the signed link — which means re-issuing every family
   // link from the private key on Doron's PC — or serving data from a backend
   // that can check the token. See docs/CLOSING_THE_DATA_GATE.md.
-  const REQUIRE_TOKEN = true;
+  // Reopened 3 August 2026: closing this locked Doron out of his own archive,
+  // because the only way in is a link minted with the private key on his PC and
+  // he had never issued one to himself. Leave it false until links exist.
+  const REQUIRE_TOKEN = false;
   // BUILD bumps on every deploy so browsers fetch the latest JS modules,
   // not a stale cached copy. If you don't see Research Center updates, this
   // is the line that fixes it.
