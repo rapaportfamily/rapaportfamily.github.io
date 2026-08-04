@@ -1495,9 +1495,9 @@ function openPersonModal(id) {
         <h4>${escapeHtml(t('people_page.facts'))}</h4>
         ${facts.map(f => `
           <div class="detail-fact">
-            <div class="detail-fact-label">${escapeHtml(f.label || '')}</div>
-            <div class="detail-fact-val">
-              ${escapeHtml(f.value || ml(f.text || {}) || '')}
+            <div class="detail-fact-label">${escapeHtml(ml(f.label_ml || {}) || f.label || '')}</div>
+            <div class="detail-fact-val" dir="auto">
+              ${escapeHtml(f['value_' + State.lang] || f.value || ml(f.text || {}) || '')}
               ${f.confidence ? `<span class="badge confidence-${escapeHtml(f.confidence)}">${escapeHtml(t('confidence.' + f.confidence))}</span>` : ''}
             </div>
           </div>

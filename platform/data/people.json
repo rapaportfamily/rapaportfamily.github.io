@@ -59,7 +59,8 @@
           "sources": [
             "src_family_tradition_kohen",
             "src_wikipedia_rapoport_family"
-          ]
+          ],
+          "value_he": "כהן (ייחוס כהונה) — בן שושלת הרבנים רפופורט-כהן, מר׳ משולם יקותיאל הכהן רפא (נפטר 1450, מיינץ ← פורטו). מסורת משפחה מאוששת."
         }
       ],
       "note_he": "בן הזקונים של דוד ולוסיה, נולד בבריסל ב-28 באוגוסט 1946 בזמן שאביו היה עצור בקפריסין. מסעו הראשון היה עם אמו בלבד, באונייה ״קדימה״ ב-1948. עמיל מכס, כאביו. אביהם של דנה, דורון ודניאל. הארכיון הזה נבנה למען יום הולדתו השמונים, 28 באוגוסט 2026."
@@ -123,7 +124,8 @@
           "confidence": "confirmed",
           "sources": [
             "doc_david_dp_card"
-          ]
+          ],
+          "value_he": "מהנדס יערות"
         },
         {
           "key": "languages",
@@ -131,7 +133,8 @@
           "confidence": "confirmed",
           "sources": [
             "doc_david_dp_card"
-          ]
+          ],
+          "value_he": "פולנית (שפת אם); איטלקית וגרמנית (שוטף); צ׳כית, רוסית"
         },
         {
           "key": "movement",
@@ -141,7 +144,8 @@
             "oral_doron_14may",
             "oral_doron_17may_whatsapp_2229"
           ],
-          "note": "Doron stated 17 May 2026 in WhatsApp: 'David as a Betar member wanted to go to Israel'. Jabotinsky Institute online archive returned no match (see h_betar_records); physical-file check still pending."
+          "note": "Doron stated 17 May 2026 in WhatsApp: 'David as a Betar member wanted to go to Israel'. Jabotinsky Institute online archive returned no match (see h_betar_records); physical-file check still pending.",
+          "value_he": "חבר בית״ר (פולין)"
         },
         {
           "key": "escape_wagon",
@@ -151,7 +155,8 @@
             "oral_doron_13may",
             "doc_lusia_memoir"
           ],
-          "note": "Memoir page 41: 'when they began the liquidation of the Jews I hid between these wooden planks' — confirming the family's escape story."
+          "note": "Memoir page 41: 'when they began the liquidation of the Jews I hid between these wooden planks' — confirming the family's escape story.",
+          "value_he": "הסתתר בגומחה בין גזרי עץ בקרון רכבת כדי להימלט מחיסול הגטו"
         },
         {
           "key": "1945_destination_preference",
@@ -159,7 +164,8 @@
           "confidence": "documented",
           "sources": [
             "doc_lusia_memoir"
-          ]
+          ],
+          "value_he": "הוא ושמעון הפליגו ראשונים באפריל 1947 משום שההעפלה לא נטלה אמהות עם תינוקות, ודב היה בן חודשים — ולא משום שהוא ולוסיה חלקו על היעד. יומן, עמ׳ 63. הוא היה חבר בית״ר, וזה זיכרון משפחתי שאולי עיצב את בחירת היעד, אך לפרידה עצמה הייתה סיבה מעשית מוצהרת."
         },
         {
           "key": "1938_residence",
@@ -167,7 +173,8 @@
           "confidence": "confirmed",
           "sources": [
             "doc_david_dp_card"
-          ]
+          ],
+          "value_he": "לבוב, פולין (1 בינואר 1938)"
         },
         {
           "key": "1942",
@@ -175,7 +182,8 @@
           "confidence": "confirmed",
           "sources": [
             "doc_david_dp_card"
-          ]
+          ],
+          "value_he": "נשללה אזרחותו הפולנית"
         },
         {
           "key": "1946",
@@ -183,7 +191,8 @@
           "confidence": "confirmed",
           "sources": [
             "doc_david_dp_card"
-          ]
+          ],
+          "value_he": "נרשם כעקור בבריסל (בלגיה), 9 באפריל 1946"
         },
         {
           "key": "post_war",
@@ -191,7 +200,8 @@
           "confidence": "family_oral",
           "sources": [
             "oral_doron_06may"
-          ]
+          ],
+          "value_he": "מומחה עצים ברשות המכס הישראלית"
         },
         {
           "key": "escape",
@@ -199,7 +209,8 @@
           "confidence": "family_oral",
           "sources": [
             "oral_doron_13may"
-          ]
+          ],
+          "value_he": "נמלט מגטו נדבורנא בקרון רכבת, מוחבא בגומחה שנחצבה בין גזרי עץ, והגיע ללבוב"
         },
         {
           "key": "1941_lwow",
@@ -207,7 +218,8 @@
           "confidence": "family_oral",
           "sources": [
             "oral_doron_13may"
-          ]
+          ],
+          "value_he": "עבד בבניית מסילות וכבישים בלבוב תחת זהות בדויה"
         },
         {
           "key": "kohanic_lineage",
@@ -216,7 +228,8 @@
           "sources": [
             "src_family_tradition_kohen",
             "src_wikipedia_rapoport_family"
-          ]
+          ],
+          "value_he": "כהן (ייחוס כהונה) — בן שושלת הרבנים רפופורט-כהן, מר׳ משולם יקותיאל הכהן רפא (נפטר 1450, מיינץ ← פורטו). מסורת משפחה מאוששת."
         },
         {
           "key": "burial",
@@ -224,7 +237,8 @@
           "confidence": "documented",
           "sources": [
             "src_haifa_chevra_kadisha_records"
-          ]
+          ],
+          "value_he": "בית העלמין שדה יהושע (כפר סמיר), חיפה — חלקה ו׳, שורה 22, קבר 102ד"
         },
         {
           "key": "haifa_ck_record_id",
@@ -232,7 +246,8 @@
           "confidence": "documented",
           "sources": [
             "src_haifa_chevra_kadisha_records"
-          ]
+          ],
+          "value_he": "43981 (תיק 65804)"
         },
         {
           "key": "lived_to_age",
@@ -240,7 +255,8 @@
           "confidence": "documented",
           "sources": [
             "src_haifa_chevra_kadisha_records"
-          ]
+          ],
+          "value_he": "78 שנים (25 בדצמבר 1911 ← 29 באוגוסט 1990)"
         },
         {
           "key": "signature_found",
@@ -250,7 +266,8 @@
             "doc_bernard_dov_yv_pot",
             "doc_regina_rivka_yv_pot",
             "wa_export_2026-06-15"
-          ]
+          ],
+          "value_he": "דוד עצמו הגיש ב-1953 את דפי העד ביד ושם עבור הוריו (ברנרד דב ורגינה ריווה). דנה אישרה את כתב היד (31 במאי 2026) ודליה זיהתה את החתימה (4 ביוני 2026) — זו ידו של דוד. פותרת את ההשערה הפתוחה בדבר איתור חתימתו."
         },
         {
           "key": "family_przemysl_address",
@@ -258,7 +275,8 @@
           "confidence": "documented",
           "sources": [
             "wa_export_2026-06-15"
-          ]
+          ],
+          "value_he": "בדף העד ביד ושם נוקב דוד בכתובת המשפחה בפשמישל: רחוב סלובצקיego 40 (המספר אינו ודאי — במספר 40 שכן בית מטבחיים לעופות; אפשר 10 או 64)."
         }
       ],
       "note_he": "סבם מצד האב של דורון, דנה ודניאל. אביו של דב. ניצול שואה שנמלט מגליציה הכבושה, הגיע לבריסל באפריל 1946 ולבסוף התיישב בישראל. מהנדס יערות, פוליגלוט, חבר בית״ר."
@@ -332,7 +350,8 @@
             "doc_lea_dawid_marriage_1935",
             "doc_lusia_memoir"
           ],
-          "note": "Memoir page 17 explicitly: marriage took place 'in the small resort town' (Muszyna), where they settled. Memoir page 16 dates the marriage as 'בפברואר 1938' (February 1938)."
+          "note": "Memoir page 17 explicitly: marriage took place 'in the small resort town' (Muszyna), where they settled. Memoir page 16 dates the marriage as 'בפברואר 1938' (February 1938).",
+          "value_he": "נישאה לדוד רפפורט ב-10 בפברואר 1935 בבולחוב, לפי הרשומה האזרחית. יומנה ממקם את החתונה במושינה בפברואר 1938 — שלוש שנים מאוחר יותר ובעיירה אחרת; החודש נכון בשניהם. הסתירה נרשמת ואינה מוכרעת."
         },
         {
           "key": "marriage_age_gap",
@@ -340,7 +359,8 @@
           "confidence": "documented",
           "sources": [
             "doc_lea_dawid_marriage_1935"
-          ]
+          ],
+          "value_he": "היא הייתה בת 21 והוא בן 23 בנישואי פברואר 1935. היומן אומר 18 ו-24, וזה נובע מן התאריך המאוחר שבו."
         },
         {
           "key": "fake_identity",
@@ -348,7 +368,8 @@
           "confidence": "family_oral",
           "sources": [
             "oral_doron_14may"
-          ]
+          ],
+          "value_he": "חיה בלבוב בזהות בדויה, ״מריה צ׳יזליק״ (שאולה)"
         },
         {
           "key": "lwow_residence",
@@ -358,7 +379,8 @@
             "oral_doron_13may",
             "doc_lusia_memoir"
           ],
-          "note": "Memoir page 40 confirms: 'her apartment on Legionów Street 24, opposite the theater'."
+          "note": "Memoir page 40 confirms: 'her apartment on Legionów Street 24, opposite the theater'.",
+          "value_he": "רחוב לגיונוב 24, לבוב (עם ניירות הורמק המזויפים) — מול התיאטרון"
         },
         {
           "key": "lwow_job",
@@ -366,7 +388,8 @@
           "confidence": "family_oral",
           "sources": [
             "oral_doron_13may"
-          ]
+          ],
+          "value_he": "ניהלה חנות חפצי אמנות ועתיקות תחת זהות בדויה, בערך 1941"
         },
         {
           "key": "przemysl_job",
@@ -376,7 +399,8 @@
             "oral_dana_15may",
             "oral_doron_15may"
           ],
-          "note": "The historical context of this period is the Soviet 'passportization' campaign that all residents of border towns had to navigate — see IPN paper. Her stay was short; she spent most of the war elsewhere, escaping Nazi persecution."
+          "note": "The historical context of this period is the Soviet 'passportization' campaign that all residents of border towns had to navigate — see IPN paper. Her stay was short; she spent most of the war elsewhere, escaping Nazi persecution.",
+          "value_he": "עבדה זמן קצר כפקידה במחלקת הדרכונים בפשמישל, 1939, בתקופת הכיבוש הסובייטי"
         },
         {
           "key": "1945_destination_affidavit",
@@ -384,7 +408,8 @@
           "confidence": "family_oral",
           "sources": [
             "oral_doron_17may_whatsapp_2229"
-          ]
+          ],
+          "value_he": "קיבלה אפידביט להגירה לארצות הברית (לפי דורון, 17 במאי)"
         },
         {
           "key": "1945_46_polish_records",
@@ -392,7 +417,8 @@
           "confidence": "hypothesis",
           "sources": [
             "oral_basia_17may_whatsapp_2218"
-          ]
+          ],
+          "value_he": "מופיעה ברשומות פולניות שלאחר המלחמה 1945-46; טרם אותרה ברשומות העקורים של בריסל 1946 בשום איות. קרוב לוודאי נסעה בנפרד מדוד עד שנפגשו בבריסל ללידת דב."
         },
         {
           "key": "muszyna_job",
@@ -401,7 +427,8 @@
           "sources": [
             "doc_lusia_memoir"
           ],
-          "note": "Memoir page 18: 'all the social elite of Muszyna came to the hotel which Lusia managed energetically'."
+          "note": "Memoir page 18: 'all the social elite of Muszyna came to the hotel which Lusia managed energetically'.",
+          "value_he": "ניהלה מלון במושינה (עיירת המרפא), שבו התאכסנה ״כל השמנת החברתית״ של מבקרי העיירה"
         },
         {
           "key": "1936_lwow",
@@ -409,7 +436,8 @@
           "confidence": "family_oral",
           "sources": [
             "oral_dana_15may"
-          ]
+          ],
+          "value_he": "התגוררה עם קרובים בלבוב"
         },
         {
           "key": "memoir",
@@ -417,7 +445,8 @@
           "confidence": "family_oral",
           "sources": [
             "oral_doron_06may"
-          ]
+          ],
+          "value_he": "כתבה יומן על המלחמה (בעברית)"
         },
         {
           "key": "burial",
@@ -425,7 +454,8 @@
           "confidence": "documented",
           "sources": [
             "src_haifa_chevra_kadisha_records"
-          ]
+          ],
+          "value_he": "בית העלמין שדה יהושע (כפר סמיר), חיפה — חלקה ו׳, שורה 22, קבר 102ג (צמוד לדוד)"
         },
         {
           "key": "haifa_ck_record_id",
@@ -433,7 +463,8 @@
           "confidence": "documented",
           "sources": [
             "src_haifa_chevra_kadisha_records"
-          ]
+          ],
+          "value_he": "144046 (תיק 8011260)"
         },
         {
           "key": "lived_to_age",
@@ -441,7 +472,8 @@
           "confidence": "documented",
           "sources": [
             "src_haifa_chevra_kadisha_records"
-          ]
+          ],
+          "value_he": "83 שנים (8 באפריל 1913 ← 28 בדצמבר 1996)"
         },
         {
           "key": "years_married_to_david",
@@ -449,7 +481,8 @@
           "confidence": "documented",
           "sources": [
             "src_haifa_chevra_kadisha_records"
-          ]
+          ],
+          "value_he": "כחמישים וחמש שנים (נישואין 1935 ← פטירת דוד 1990)"
         },
         {
           "key": "refused_america_1947",
@@ -457,7 +490,8 @@
           "confidence": "documented",
           "sources": [
             "doc_lusia_memoir"
-          ]
+          ],
+          "value_he": "בידה היה אפידביט לארצות הברית, ששלח קרובו של בעלה דוד גריפל, והיא עמדה שנייה במכסה האמריקאית. אביה, שכבר היה בארץ ישראל, האיץ בה לקבלו. היא סירבה, ובלבד שלא להיפרד שוב מדוד ומשמעון. יומן, עמ׳ 64."
         }
       ],
       "birth_date": "1913-04-08",
@@ -516,7 +550,8 @@
           "confidence": "family_oral",
           "sources": [
             "oral_doron_06may"
-          ]
+          ],
+          "value_he": "היומן מזכיר לקיחת שמעון התינוק אל נהר ב״מוסינה״"
         },
         {
           "key": "post_war_registration",
@@ -525,7 +560,8 @@
           "sources": [
             "doc_szymon_ckzp",
             "doc_lea_ckzp"
-          ]
+          ],
+          "value_he": "נרשם ב-CKŻP בוועד קטוביץ ב-1 ביולי 1946 (כרטיס מס׳ 151337) כבנם של לוסיה ודוד; כתובת אחרונה ידועה קטוביץ. לוסיה נרשמה באותו יום ובאותו ועד."
         },
         {
           "key": "marriage",
@@ -533,7 +569,8 @@
           "confidence": "family_oral",
           "sources": [
             "oral_doron_20may"
-          ]
+          ],
+          "value_he": "נשא את תמר בוגין; שני ילדים — רונן (הבן הבכור) והדס (האחות הצעירה)"
         },
         {
           "key": "profession",
@@ -541,7 +578,8 @@
           "confidence": "documented",
           "sources": [
             "src_family_hebrew_summary_2026_06_01"
-          ]
+          ],
+          "value_he": "כתב בכיר לאזור הצפון בעיתון ״מעריב״ שנים רבות. סיקר אירועי ביטחון, תעשייה, חברה וכלכלה אזורית."
         },
         {
           "key": "maariv_1990",
@@ -549,7 +587,8 @@
           "confidence": "documented",
           "sources": [
             "src_nli_maariv_archive"
-          ]
+          ],
+          "value_he": "ארכיון ״מעריב״, 30 באוגוסט 1990 (עמוד 81, כתבה 5) — חיפוש בעיתונות בספרייה הלאומית מחזיר רשומה זו עבור ״שמעון רפפורט״. התאריך הוא יום אחד לאחר פטירת דוד ממק (29 באוגוסט 1990)."
         },
         {
           "key": "kohanic_lineage",
@@ -558,10 +597,16 @@
           "sources": [
             "src_family_tradition_kohen",
             "src_wikipedia_rapoport_family"
-          ]
+          ],
+          "value_he": "כהן (ייחוס כהונה) — בן שושלת הרבנים רפופורט-כהן, מר׳ משולם יקותיאל הכהן רפא (נפטר 1450, מיינץ ← פורטו). מסורת משפחה מאוששת."
         }
       ],
-      "note_he": "אחיו הבכור של דב. דודם של דורון, דנה ודניאל. שרד את השואה כילד עם אמו לוסיה, שהסתתרה בלבוב בזהות בדויה. לאחר המלחמה עיתונאי: שנים רבות כתב ״מעריב״ הבכיר לאזור הצפון, וסיקר ביטחון, תעשייה, חברה וכלכלה אזורית. נשא את תמר בוגין; אביהם של רונן והדס. נפטר (ז״ל) — תאריך הפטירה אינו מתועד בארכיון הזה."
+      "note_he": "אחיו הבכור של דב. דודם של דורון, דנה ודניאל. שרד את השואה כילד עם אמו לוסיה, שהסתתרה בלבוב בזהות בדויה. לאחר המלחמה עיתונאי: שנים רבות כתב ״מעריב״ הבכיר לאזור הצפון, וסיקר ביטחון, תעשייה, חברה וכלכלה אזורית. נשא את תמר בוגין; אביהם של רונן והדס. נפטר (ז״ל) — תאריך הפטירה אינו מתועד בארכיון הזה.",
+      "photo": "assets/research_images/memoir/shimon_brussels_school.jpg",
+      "photo_caption": {
+        "en": "Shimon at his school desk in Brussels, about 1946-47 — from his mother’s memoir, where the caption reads “Shimon on the school bench in Brussels”. He was nine or ten. Two and a half years of his childhood had been spent hidden in a crate.",
+        "he": "שמעון ליד שולחן הלימודים בבריסל, בערך 1946-47 — מתוך יומן אמו, שם נכתב תחת התצלום ״שמעון על ספסל בית-הספר בבריסל״. הוא היה בן תשע או עשר. שנתיים וחצי מילדותו עברו עליו מוסתר בארגז."
+      }
     },
     {
       "id": "p_tamar",
@@ -899,7 +944,8 @@
           "sources": [
             "doc_berisz_passport_application_1924",
             "doc_bernard_dov_yv_pot"
-          ]
+          ],
+          "value_he": "תעשיין (przemysłowiec) לפי בקשת הדרכון מ-1924; סוחר (kupiec) לפי דף העד ביד ושם. הבסיס הכלכלי המשפחתי נראה קשור בנישואין למשפחת גריפל."
         },
         {
           "key": "stanislawow_resident_since_1918",
@@ -907,7 +953,8 @@
           "confidence": "documented",
           "sources": [
             "doc_berisz_passport_application_1924"
-          ]
+          ],
+          "value_he": "התגורר בסטניסלבוב מאז 1918 לפי בקשת הדרכון שלו מ-1924. כתובת: קושצ׳ושקי 4, סטניסלבוב. מקום המגורים לפני 1918 וסיבת המעבר טרם תועדו."
         },
         {
           "key": "1911_civil_marriage",
@@ -915,7 +962,8 @@
           "confidence": "documented",
           "sources": [
             "src_basia_nadworna_marriage_research_2026_05"
-          ]
+          ],
+          "value_he": "נישא אזרחית לרבקה גריפל בנדבורנא ב-21 בדצמבר 1911, ארבעה ימים לפני לידת בנו דוד מנדל (25 בדצמבר 1911). פנקס הנישואין של נדבורנא לשנים 1890-1914 אבד במלחמת העולם הראשונה."
         },
         {
           "key": "yad_vashem_pot",
@@ -923,7 +971,8 @@
           "confidence": "documented",
           "sources": [
             "doc_bernard_dov_yv_pot"
-          ]
+          ],
+          "value_he": "דף עד ביד ושם, רשומה 90394, שהוגש ב-1953: ברנרד דב רפפורט, יליד 1888 רדומישל, הורים משה ומנוחה, סוחר, לפני המלחמה טרנוב, בזמן המלחמה פשמישל, נרצח באושוויץ 1940."
         },
         {
           "key": "auschwitz_victim_record",
@@ -931,7 +980,8 @@
           "confidence": "documented",
           "sources": [
             "doc_auschwitz_victim_188161"
-          ]
+          ],
+          "value_he": "רשום במאגר הקרבנות של מוזיאון אושוויץ כרשומה 188161, טרנספורט 689."
         },
         {
           "key": "dabrowa_commune_caveat",
@@ -939,7 +989,8 @@
           "confidence": "documented",
           "sources": [
             "wa_export_2026-06-15"
-          ]
+          ],
+          "value_he": "בקשת הדרכון שלו מ-1924 נוקבת בקהילת השיוך שלו כדומברובה טרנובסקה (בקריאתה של גב׳ קסיה), ולא נדבורנא — דקוּת שלא הוסברה, ואפשר שהיא נוגעת לשאלת ״שני משה שאול״."
         }
       ],
       "father_id": "p_moses_saul_rapaport",
@@ -1380,7 +1431,8 @@
           "confidence": "documented",
           "sources": [
             "doc_nussbaum_palestinian_citizenship_1945"
-          ]
+          ],
+          "value_he": "אליהו-מרדכי, כפי שכתב בנו בטופס משרד הפנים מ-1996"
         }
       ],
       "aliases": [
@@ -1445,7 +1497,8 @@
           "confidence": "documented",
           "sources": [
             "doc_zwi_nussbaum_birth_1919"
-          ]
+          ],
+          "value_he": "נולד כחודש לפני נישואיהם האזרחיים של הוריו ← נחשב לא-חוקי; הוכשר בהליך בית משפט שלאחר מות אביו (לצורכי ירושה)."
         },
         {
           "key": "living_daughter",
@@ -1453,7 +1506,8 @@
           "confidence": "family_oral",
           "sources": [
             "wa_export_2026-06-15"
-          ]
+          ],
+          "value_he": "בתו יהודית שלומית (הקרויה על שם פרידה) חידשה את הקשר עם המשפחה ביוני 2026; עבדה ביד ושם."
         },
         {
           "key": "occupation_1945",
@@ -1461,7 +1515,8 @@
           "confidence": "confirmed",
           "sources": [
             "doc_nussbaum_palestinian_citizenship_1945"
-          ]
+          ],
+          "value_he": "קצב (כפי שהצהיר בבקשת האזרחות שלו)"
         },
         {
           "key": "entry_to_palestine",
@@ -1469,7 +1524,8 @@
           "confidence": "confirmed",
           "sources": [
             "doc_nussbaum_palestinian_citizenship_1945"
-          ]
+          ],
+          "value_he": "12 באוקטובר 1938; רישום עולה HA/5934/B"
         },
         {
           "key": "passport",
@@ -1477,7 +1533,8 @@
           "confidence": "confirmed",
           "sources": [
             "doc_nussbaum_palestinian_citizenship_1945"
-          ]
+          ],
+          "value_he": "פולני מס׳ 118839, הונפק בפשמישל, 21 בספטמבר 1938"
         },
         {
           "key": "naturalisation",
@@ -1485,7 +1542,8 @@
           "confidence": "confirmed",
           "sources": [
             "doc_nussbaum_palestinian_citizenship_1945"
-          ]
+          ],
+          "value_he": "אזרחות פלשתינאית אושרה ב-29 בנובמבר 1945, תעודה מס׳ 48628 (סידורי 90563)"
         },
         {
           "key": "birthplace_conflict",
@@ -1494,7 +1552,8 @@
           "sources": [
             "doc_nussbaum_palestinian_citizenship_1945",
             "doc_zwi_nussbaum_birth_1919"
-          ]
+          ],
+          "value_he": "הוא הצהיר על טרנוב, 6 במאי 1919, בבקשת האזרחות שלו מ-1945. פנקס הלידה היהודי בפשמישל נוקב בפשמישל, 7 במאי 1919. יום אחד ועיר אחת של הפרש; לא הוכרע."
         },
         {
           "key": "address_1945",
@@ -1502,7 +1561,8 @@
           "confidence": "confirmed",
           "sources": [
             "doc_nussbaum_palestinian_citizenship_1945"
-          ]
+          ],
+          "value_he": "רחוב הלל 24, חיפה"
         },
         {
           "key": "application_supporters",
@@ -1510,7 +1570,8 @@
           "confidence": "confirmed",
           "sources": [
             "doc_nussbaum_palestinian_citizenship_1945"
-          ]
+          ],
+          "value_he": "ד״ר גרובר, רופא, רחוב פבזנר 15, חיפה; ד״ר פלטנר, רוקח, נווה שאנן, חיפה"
         },
         {
           "key": "birth_year_caveat",
@@ -1518,7 +1579,8 @@
           "confidence": "confirmed",
           "sources": [
             "doc_nussbaum_palestinian_citizenship_1945"
-          ]
+          ],
+          "value_he": "פקיד רשם בשולי הבקשה: ״1919 רק לפי הדרכון״ — שנת הלידה נשענה על הדרכון בלבד, בלא תעודה."
         },
         {
           "key": "father",
@@ -1526,7 +1588,8 @@
           "confidence": "documented",
           "sources": [
             "doc_nussbaum_palestinian_citizenship_1945"
-          ]
+          ],
+          "value_he": "אליהו-מרדכי נוסבאום, כפי שנקב צבי עצמו בטופס משרד הפנים מ-1996"
         },
         {
           "key": "address_1996",
@@ -1534,7 +1597,8 @@
           "confidence": "confirmed",
           "sources": [
             "doc_nussbaum_palestinian_citizenship_1945"
-          ]
+          ],
+          "value_he": "שדרות הנשיא 84, חיפה 34529 — כתובת השולח על הטופס מ-1996, בשמות אינגה וצבי איילון"
         },
         {
           "key": "own_statement_1996",
@@ -1542,7 +1606,8 @@
           "confidence": "confirmed",
           "sources": [
             "doc_nussbaum_palestinian_citizenship_1945"
-          ]
+          ],
+          "value_he": "בטופס מ-1996 נקב בלידתו כטרנוב, פולין, 7.5.1919, ובעלייתו כ-14.10.1938. ב-1945 נקב ב-6 במאי 1919 וב-12 באוקטובר 1938. הוא אמר טרנוב בשתי הפעמים — כנגד פנקס הלידה בפשמישל — אך ב-1996 תאריך לידתו תואם לפנקס."
         }
       ],
       "children_ids": [
@@ -1595,7 +1660,8 @@
           "confidence": "confirmed",
           "sources": [
             "doc_newspaper_1912_krynica"
-          ]
+          ],
+          "value_he": "נפשה בקרינצה (עיירת מרפא) בקיץ 1912 — נרשמה באלפרדובקה ב-25 ביולי 1912, ורשומה כאשתו של סוחר מנדבורנא. רשומת עיתונות."
         },
         {
           "key": "gelles_pedigree",
@@ -1603,7 +1669,8 @@
           "confidence": "documented",
           "sources": [
             "src_gelles_griffel_nadworna_pdf"
-          ]
+          ],
+          "value_he": "מתועדת כרשומה מס׳ 8 מבין עשרת ילדיהם של אליעזר (זיידה) גריפל ושרה מטל חייס אצל אדוארד גלס, ״גריפל מנדבורנא״."
         },
         {
           "key": "1938_nadworna_property",
@@ -1611,7 +1678,8 @@
           "confidence": "documented",
           "sources": [
             "src_basia_archive_finds_2026_05_21"
-          ]
+          ],
+          "value_he": "שותפה בבעלות על בית מגורים מוּשׂכר מלבנים, בן קומה אחת ועליית גג, בנדבורנא ברחוב שרודמיישצ׳ה. רשומה כ״רבקה לבית גריפל, נשואה רפפורט״."
         }
       ],
       "death": {
@@ -4205,7 +4273,8 @@
           "confidence": "family_oral",
           "sources": [
             "src_doron_2026_08_02"
-          ]
+          ],
+          "value_he": "שלמה — בתו דליה היא דליה בת שלמה"
         },
         {
           "key": "birthplace",
@@ -4213,7 +4282,8 @@
           "confidence": "documented",
           "sources": [
             "src_goldfischer_family_documents_2026"
-          ]
+          ],
+          "value_he": "סקולה, מחוז סטניסלבוב, פולין (היום סקולה, מחוז לביב, אוקראינה)"
         },
         {
           "key": "profession",
@@ -4221,7 +4291,8 @@
           "confidence": "documented",
           "sources": [
             "src_goldfischer_family_documents_2026"
-          ]
+          ],
+          "value_he": "Marin (ימאי / צי סוחר)"
         },
         {
           "key": "height",
@@ -4229,7 +4300,8 @@
           "confidence": "documented",
           "sources": [
             "src_goldfischer_family_documents_2026"
-          ]
+          ],
+          "value_he": "172 ס״מ"
         },
         {
           "key": "eye_color",
@@ -4237,7 +4309,8 @@
           "confidence": "documented",
           "sources": [
             "src_goldfischer_family_documents_2026"
-          ]
+          ],
+          "value_he": "חומות"
         },
         {
           "key": "hair_color",
@@ -4245,7 +4318,8 @@
           "confidence": "documented",
           "sources": [
             "src_goldfischer_family_documents_2026"
-          ]
+          ],
+          "value_he": "חום"
         },
         {
           "key": "british_mandate_doc",
@@ -4253,7 +4327,8 @@
           "confidence": "documented",
           "sources": [
             "src_goldfischer_family_documents_2026"
-          ]
+          ],
+          "value_he": "החזיק בתעודת זהות מנדטורית מוקדמת יותר — חותמת ״לשכת המודיעין העירוני והכפרי״ נראית עליה"
         }
       ],
       "spouse_id": "p_ester_goldfischer",
@@ -4283,7 +4358,8 @@
           "confidence": "documented",
           "sources": [
             "doc_moses_saul_descendants_tree"
-          ]
+          ],
+          "value_he": "סוחר (kupiec) לפי עץ הצאצאים המשפחתי שחלקה בסיה במאי 2026."
         },
         {
           "key": "community_role",
@@ -4291,7 +4367,8 @@
           "confidence": "documented",
           "sources": [
             "src_radomysl_yizkor_book_part_1"
-          ]
+          ],
+          "value_he": "כיהן בוועד הנאמנים של הקהילה היהודית ברדומישל ויילקי בשנים 1897-1900 ושוב 1901-1905, לפי ספר היזכור של רדומישל ויילקי (חלק א׳) המתארח ב-JewishGen — רשום כ״משה רפפורט״."
         },
         {
           "key": "kohanic_lineage",
@@ -4299,7 +4376,8 @@
           "confidence": "family_oral",
           "sources": [
             "src_family_tradition_kohen"
-          ]
+          ],
+          "value_he": "כהן לפי מסורת המשפחה; עולה בקנה אחד עם הכינוי ״הכהן״ שעל מצבות רפפורט קרובות בטרנוב."
         },
         {
           "key": "three_daughters_marriages_corroborate",
@@ -4309,7 +4387,8 @@
             "doc_freida_amalia_marriage_1919",
             "doc_jente_marriage_1920",
             "doc_rebeka_younger_marriage_1923"
-          ]
+          ],
+          "value_he": "נקוב כהורה בשלושה פנקסי נישואין בלתי תלויים מטרנוב — רשומה 40 (1919, פרידה אמליה), רשומה 98 (1920, יענטה), רשומה 101 (1923, רבקה הצעירה). שלוש הרשומות נוקבות במפורש במשה ובמנוחה."
         },
         {
           "key": "possible_parents_hypothesis",
@@ -4318,7 +4397,8 @@
           "sources": [
             "doc_mojzesz_rapaport_death_1933_tarnow",
             "wa_export_2026-06-15"
-          ]
+          ],
+          "value_he": "רשומת פטירה מטרנוב (1933/152) של מוישה רפפורט — נפטר 8 בנובמבר 1933, רחוב פולברצ׳נה, בן 75, בנם של שבסה (שבתאי) ואיטה פייגי רפפורט — היא המועמדת הבולטת למשה שאול שלנו."
         },
         {
           "key": "tarnopol_circumcision",
@@ -4326,7 +4406,8 @@
           "confidence": "documented",
           "sources": [
             "wa_export_2026-06-15"
-          ]
+          ],
+          "value_he": "ערך את ברית המילה של נכד (בנה של אלטה לאה) בטרנופול בסביבות 1907 — מה שממקם אותו בטרנופול באותה תקופה ומאשש את מעמדו כאב המשפחה."
         }
       ],
       "spouse_id": "p_menukha",
@@ -4646,7 +4727,8 @@
           "confidence": "confirmed",
           "sources": [
             "doc_nussbaum_palestinian_citizenship_1945"
-          ]
+          ],
+          "value_he": "גרמני מס׳ 94, הונפק בבורקן, 10 ביולי 1935"
         },
         {
           "key": "immigration",
@@ -4654,7 +4736,8 @@
           "confidence": "confirmed",
           "sources": [
             "doc_nussbaum_palestinian_citizenship_1945"
-          ]
+          ],
+          "value_he": "נרשמה כעולה לארץ ישראל HA/4302/A, 22 באוגוסט 1938"
         },
         {
           "key": "marriage",
@@ -4662,7 +4745,8 @@
           "confidence": "confirmed",
           "sources": [
             "doc_nussbaum_palestinian_citizenship_1945"
-          ]
+          ],
+          "value_he": "נישאה להירש הרמן נוסבאום בחיפה, 12 ביוני 1941 (תעודת הרבנות בחיפה ה-49343)"
         }
       ],
       "spouse_id": "p_zwi_ayalon_nussbaum",
@@ -4712,7 +4796,8 @@
           "confidence": "confirmed",
           "sources": [
             "doc_nussbaum_palestinian_citizenship_1945"
-          ]
+          ],
+          "value_he": "תעודת לידה מחיפה 1591/43 מ-14 במאי 1943"
         }
       ],
       "father_id": "p_zwi_ayalon_nussbaum",
