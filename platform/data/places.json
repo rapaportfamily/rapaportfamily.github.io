@@ -79,7 +79,8 @@
         "1905": "District seat in Austrian Galicia; the administrative seat for the area including Bolechów",
         "1930": "Had multiple sawmills: Glessinger I. Ph. Sp. Akc., Popadnik J. (steam-driven); Jekel I Jungermann, Jolles I.H., Popper H. (other drive)"
       },
-      "significance": "Origin of the Weinreb family. Samuel Weinreb (Matel's father) was a tavern keeper here. Matel and Elias Weitzner married here in 1905. ALSO: one of the leading hypotheses for what 'Mosina' in family memory might actually be — Basia notes 'Dolina' has the same letter count and same ending as 'Mosina', a possible orthographic mishearing."
+      "significance": "Origin of the Weinreb family. Samuel Weinreb (Matel's father) was a tavern keeper here. Matel and Elias Weitzner married here in 1905. ALSO: one of the leading hypotheses for what 'Mosina' in family memory might actually be — Basia notes 'Dolina' has the same letter count and same ending as 'Mosina', a possible orthographic mishearing.",
+      "significance_he": "מוצא משפחת ויינרב. שמואל ויינרב (אביה של מטל) היה בעל פונדק כאן. מטל ואליאס ויצנר נישאו כאן ב-1905. בנוסף: אחת ההשערות המובילות לשאלה מהי בעצם ״מוסינה״ שבזיכרון המשפחה — בסיה מציינת ש״דולינה״ היא בת אותו מספר אותיות ובעלת אותה סיומת כמו ״מוסינה״, ומכאן שייתכן שיבוש כתיב שמקורו בשמיעה."
     },
     {
       "id": "pl_lwow",
@@ -177,7 +178,8 @@
       "significance": "Resort town in southern Poland. Rebeka/Regina Rapaport (David's mother) registered at 'Alfredówka' here on 25 July 1912 as wife of a Nadwórna merchant — confirms her identity in Polish press of the era.",
       "important_events_ids": [
         "e_rebeka_krynica_1912"
-      ]
+      ],
+      "significance_he": "עיירת מרפא בדרום פולין. רבקה/רגינה רפפורט (אמו של דוד) נרשמה כאן ב״אלפרדובקה״ ב-25 ביולי 1912 כאשתו של סוחר מנדבורנא — מה שמאשש את זהותה בעיתונות הפולנית של התקופה."
     },
     {
       "id": "pl_cieszyn",
@@ -194,7 +196,8 @@
         18.6328
       ],
       "significance": "Listed on David's 1946 Brussels DP card as his birthplace (Tesin/Cieszyn). SUPERSEDED by the Nadwórna birth certificate (15 May 2026 finding). Likely a French clerk's mishearing of 'Nadwórna' or some other transcription error. The notation looked like a French cursive uppercase letter; team considered T, H, C as possibilities.",
-      "status": "ruled_out_birthplace"
+      "status": "ruled_out_birthplace",
+      "significance_he": "נקוב ככתובת לידתו של דוד בכרטיס העקורים שלו מבריסל 1946 (Tesin/Cieszyn). הוחלף בתעודת הלידה מנדבורנא (ממצא 15 במאי 2026). ככל הנראה שיבוש שמיעה של פקיד צרפתי לשם ״נדבורנא״, או טעות תעתיק אחרת. הסימון נראה כאות רישית בכתב יד צרפתי; הצוות שקל T, H ו-C כאפשרויות."
     },
     {
       "id": "pl_wierzbiany",
@@ -210,7 +213,8 @@
         23.55
       ],
       "significance": "Sawmill owned by 'Rapaport S. i Liptan M.' listed in the 1930 Polish trade directory — northwest of Lwów, near today's Polish border between Niemirów and Jawor. Connection to the family unverified. May be unrelated.",
-      "status": "lead_unverified"
+      "status": "lead_unverified",
+      "significance_he": "מנסרה בבעלות ״Rapaport S. i Liptan M.״ הרשומה במדריך העסקים הפולני של 1930 — מצפון-מערב ללבוב, סמוך לגבול פולין של ימינו בין ניֶמירוב ליָבוֹר. הקשר למשפחה לא אומת. ייתכן שאינו קשור כלל."
     },
     {
       "id": "pl_mosina_disputed",
@@ -244,7 +248,8 @@
           "evidence_for": "Phonetic/spelling similarity (Basia)",
           "evidence_against": "Doesn't match phonetically when spoken; sawmills there are not Rapaport-owned"
         }
-      ]
+      ],
+      "significance_he": "העיירה שבה, לפי יומנה של לאה, ניהל דוד מנסרה בבעלות המשפחה, שבה נישאו, ושבה נולד שמעון (1937). הם חיו שם עד 1939. אלא ש״מוסינה״ היחידה בפולין של 1933 שכנה ליד פוזנן (פולין רבתי), ושם אין ביוחסין רפפורטים יהודים ואין מנסרה בבעלות משפחה (שתי המנסרות במוסינה ב-1930 היו בבעלות ולדיסלב ליטקה וּולדיסלב אורבניאק — שמות פולנים לא-יהודים). המועמדות הנבדקות: מורשין (עיירת מרפא ליד סטרי), מושינה (עיירת מרפא ליד קריניצה), משאנה דולנה, ודולינה (דומה בצליל ובסיומת). ראו השערות."
     },
     {
       "id": "pl_morszyn",
@@ -259,7 +264,8 @@
         49.0297,
         23.7308
       ],
-      "significance": "Spa resort town near Stryj. Kasia of the Jewish Historical Institute (ŻIH) hypothesized this as a candidate for the 'Mosina' in family memory."
+      "significance": "Spa resort town near Stryj. Kasia of the Jewish Historical Institute (ŻIH) hypothesized this as a candidate for the 'Mosina' in family memory.",
+      "significance_he": "עיירת מרחצאות ליד סטרי. קשיה מן המכון ההיסטורי היהודי (ŻIH) העלתה אותה כמועמדת ל״מוסינה״ שבזיכרון המשפחה."
     },
     {
       "id": "pl_muszyna",
@@ -297,7 +303,8 @@
         20.0808
       ],
       "significance": "Town in Kraków Voivodeship. Family research note (Dana, 14 May) mentions 'Rapaports of Mszana' as 'forest people' (ludzie lasu) involved in timber trade. Not in 1930 industry directory but may be relevant pre-1930.",
-      "status": "lead"
+      "status": "lead",
+      "significance_he": "עיירה במחוז קרקוב. הערת מחקר משפחתית (דנה, 14 במאי) מזכירה ״רפפורטים ממשאנה״ כ״אנשי יער״ (ludzie lasu) העוסקים בסחר עצים. אינם מופיעים במדריך התעשייה של 1930, אך ייתכן שהדבר רלוונטי לתקופה שלפני 1930."
     },
     {
       "id": "pl_mosina_greater_poland",
@@ -313,7 +320,8 @@
         16.8408
       ],
       "significance": "Only 'Mosina' in 1933 Polish placenames index. Greater Poland. Jewish population peaked at 206 in 1871, declined to 0 by 1930s. The 2 sawmills in 1930 were owned by Władysław Litke and Władysław Urbaniak — non-Jewish Polish names. Birth records 1911 do not include David Rapaport.",
-      "status": "ruled_out"
+      "status": "ruled_out",
+      "significance_he": "ה״מוסינה״ היחידה במפתח שמות היישובים הפולני של 1933. פולין רבתי. האוכלוסייה היהודית הגיעה לשיא של 206 נפש ב-1871 וירדה לאפס עד שנות השלושים. שתי המנסרות שפעלו ב-1930 היו בבעלות ולדיסלב ליטקה וּולדיסלב אורבניאק — שמות פולנים לא-יהודים. רשומות הלידה של 1911 אינן כוללות את דוד רפפורט."
     },
     {
       "id": "pl_kolomea",
@@ -900,7 +908,7 @@
       },
       "significance": "Where Alte Leja Rapaport married Jechiel Turkel (1909) and the Turkel household lived (Perla St). Moses Saul Rapaport performed the circumcision of an Alte-Leja grandson here — a cross-tie placing him in Tarnopol c.1907-1913.",
       "important_events_ids": [],
-      "significance_he": "",
+      "significance_he": "המקום שבו נישאה אלטה לאה רפפורט ליחיאל טירקל (1909) ושבו התגורר משק הבית של טירקל (רחוב פרלה). משה שאול רפפורט ערך כאן ברית מילה לנכד של אלטה לאה — קשר צולב הממקם אותו בטרנופול בסביבות 1907-1913.",
       "significance_pl": "",
       "significance_fr": ""
     },
@@ -924,7 +932,7 @@
       },
       "significance": "Where Szymon Rapaport (Berisz's brother) married Paja Laub on 8 June 1913 — the record that revealed Szymon as a sixth child of Moses Saul + Menukha.",
       "important_events_ids": [],
-      "significance_he": "",
+      "significance_he": "המקום שבו נשא שמעון רפפורט (אחיו של בריש) את פאיה לאוב ב-8 ביוני 1913 — הרשומה שחשפה את שמעון כילדם השישי של משה שאול ומנוחה.",
       "significance_pl": "",
       "significance_fr": ""
     },
@@ -946,7 +954,7 @@
       },
       "significance": "Where Jente Rapaport SURVIVED the war with her daughter Szewa Horowitz. Szewa married Markus Türkel here on 15 June 1946 (record No. 1142). Proof that Jente's line survived.",
       "important_events_ids": [],
-      "significance_he": "",
+      "significance_he": "המקום שבו שרדה יענטה רפפורט את המלחמה יחד עם בתה שבע הורוויץ. שבע נישאה כאן למרקוס טירקל ב-15 ביוני 1946 (רשומה מס׳ 1142). הוכחה לכך שקו יענטה שרד.",
       "significance_pl": "",
       "significance_fr": ""
     },
@@ -968,7 +976,7 @@
       },
       "significance": "Origin of Jechiel Turkel (Alte Leja Rapaport's husband), son of Lipa/Leib and Dwora Turkel.",
       "important_events_ids": [],
-      "significance_he": "",
+      "significance_he": "מוצאו של יחיאל טירקל (בעלה של אלטה לאה רפפורט), בנם של ליפא/לייב ודבורה טירקל.",
       "significance_pl": "",
       "significance_fr": ""
     }
