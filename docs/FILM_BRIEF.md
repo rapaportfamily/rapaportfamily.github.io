@@ -5,6 +5,23 @@ Read this before you write a line of script.
 
 ---
 
+## IF YOU ARE A MODEL, READ THIS FILE FIRST
+
+**`platform/data/film_manifest.json`** is this brief in machine-readable form. Every claim, every
+image and every paragraph carries an explicit evidence level and an explicit permission:
+
+| Field | Meaning |
+|---|---|
+| `may_state_as_fact` | true → you may present it as fact. false → you may not. |
+| `must_attribute` | Name who said it. "Lusia said…", never "it happened that…". |
+| `must_not_resolve` | The sources disagree. Do not settle it for the audience. |
+| `must_show_as_remembered` | Memoir only. No document. Show it as memory, not as filmed fact. |
+| `shows_our_family` | false on every period photograph but two. Never imply otherwise. |
+| `is_the_actual_event` | false on all of them. No image here shows the moment it illustrates. |
+
+Eight non-negotiables are listed under `hard_rules`, and the honest holes under `known_gaps`.
+Parse that file. This page is the same thing in prose, for a human.
+
 ## THE ONE RULE
 
 **Everything in this archive is marked for how well it is known. Keep those marks.**

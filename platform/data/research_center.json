@@ -1477,6 +1477,43 @@
           "summary_he": "🏨 מושינה — פנסיון בריסטול, מלון הנופש שלוסיה ניהלה לפני המלחמה. אתר נישואיה לדוד רפפורט. עיירת נופש בדרום פולין ליד גבול סלובקיה, מוקפת ביערות והרים."
         },
         {
+          "id": "trip_przemysl",
+          "title_en": "🌉 Przemyśl — the town on the border, 1939-1940",
+          "title_he": "🌉 פשמישל — העיר שעל הגבול, 1939-1940",
+          "status": "open",
+          "summary_en": "When Germany and the Soviet Union divided Poland in September 1939 the line ran down the San, and it ran straight through Przemyśl. The Germans held the west bank, the Soviets the east. Lusia was on the Soviet side, and the memoir says she worked briefly as a teller in the passport section during the occupation — family memory, with no document behind it.\n\nThe Germans had already burned the Old Synagogue. When they took the eastern bank in June 1941 the Jews of Przemyśl were ghettoised and then destroyed; some 24,000 people. Lusia and Shimon had gone by then.\n\nThis card exists because the town had no card at all until 3 August 2026, which is why nothing could be attached to it.",
+          "summary_he": "כאשר חילקו גרמניה וברית המועצות את פולין בספטמבר 1939 עבר הקו לאורך נהר הסן, והוא עבר בתוך פשמישל. הגרמנים החזיקו בגדה המערבית, הסובייטים במזרחית. לוסיה הייתה בצד הסובייטי, והיומן אומר שעבדה זמן קצר כפקידה במחלקת הדרכונים בתקופת הכיבוש — זיכרון משפחתי, ללא מסמך.\n\nהגרמנים כבר שרפו את בית הכנסת הישן. משכבשו את הגדה המזרחית ביוני 1941 רוכזו יהודי פשמישל בגטו ואחר כך הושמדו; כ-24,000 איש. לוסיה ושמעון כבר לא היו שם.\n\nהכרטיס הזה קיים משום שלעיר לא היה כרטיס כלל עד 3 באוגוסט 2026.",
+          "source": "Memoir ch.2; period photographs verified on Wikimedia Commons, 3 August 2026.",
+          "urls": [],
+          "map": {
+            "coords": [
+              49.7838,
+              22.7677
+            ],
+            "zoom": 13
+          },
+          "images": [
+            {
+              "src": "assets/research_images/period/przemysl_old_synagogue_1940.jpg",
+              "caption_en": "The Old Synagogue in Przemyśl, about 1940 — already destroyed by the Germans. Lusia was in Przemyśl in 1939-40, working under the Soviet administration on the eastern side of the San. From the Polish record \"Martyrdom, Struggle and Extermination of the Jews in Poland 1939-1945\".",
+              "caption_he": "בית הכנסת הישן בפשמישל, בערך 1940 — כבר הרוס בידי הגרמנים. לוסיה שהתה בפשמישל ב-1939-40 ועבדה תחת המנהל הסובייטי בגדה המזרחית של הסן. מתוך התיעוד הפולני ״מרטירולוגיה, מאבק והשמדת יהודי פולין 1939-1945״.",
+              "credit": "\"Męczeństwo, walka, zagłada Żydów w Polsce 1939-1945\" — public domain"
+            },
+            {
+              "src": "assets/research_images/period/przemysl_jagiellonska_ruins.jpg",
+              "caption_en": "Jagiellońska Street, Przemyśl, 1941-45 — the destroyed Tempel synagogue is the last building on the left. This is the town Lusia had lived in at the start of the war, photographed after the Germans took the eastern bank.",
+              "caption_he": "רחוב יגיילונסקה, פשמישל, 1941-45 — בית הכנסת ״טמפל״ ההרוס הוא הבניין האחרון משמאל. זו העיר שבה חיה לוסיה בראשית המלחמה, מצולמת לאחר שהגרמנים כבשו את הגדה המזרחית.",
+              "credit": "Narodowe Archiwum Cyfrowe — public domain"
+            },
+            {
+              "src": "assets/research_images/period/przemysl_san_1938.jpg",
+              "caption_en": "The San at Przemyśl, photographed in 1938 by Adam Lenkiewicz. A year later this river was the German-Soviet demarcation line, cutting the town in two: Lusia was on the Soviet side.",
+              "caption_he": "נהר הסן בפשמישל, צולם ב-1938 בידי אדם לנקביץ. שנה לאחר מכן היה הנהר הזה קו התיחום הגרמני-סובייטי שחצה את העיר לשניים: לוסיה הייתה בצד הסובייטי.",
+              "credit": "Adam Lenkiewicz / Polona, National Library of Poland — public domain"
+            }
+          ]
+        },
+        {
           "id": "trip_nadworna_ghetto",
           "title_en": "💀 The Nadwórna sawmill — David's escape from the 24 Oct 1942 liquidation  [memoir pp.25-32, 41-42]",
           "status": "confirmed",
@@ -1590,6 +1627,18 @@
               "src": "assets/research_images/trip/brussels_grand_place_lead.jpg",
               "caption_en": "Brussels Grand-Place — central Brussels square. David, Lusia and Shimon transited Brussels in April 1946; their son Dov 'Bernard' (Dana, Doron and Daniel's father) was born here later that year.",
               "credit": "Wikipedia Commons (CC-BY-SA)"
+            },
+            {
+              "src": "assets/research_images/period/brussels_liberated_prisoner_1945.jpg",
+              "caption_en": "Brussels, April 1945: a liberated French political prisoner. This is the city as David reached it — Brussels in 1945-46 was full of people coming out of camps and hiding, and he was registered there as a Displaced Person on 9 April 1946. Not our family. Photographer unknown, Anefo.",
+              "caption_he": "בריסל, אפריל 1945: אסיר פוליטי צרפתי משוחרר. זו העיר כפי שדוד הגיע אליה — בריסל של 1945-46 הייתה מלאה אנשים שיצאו ממחנות וממחבוא, והוא נרשם בה כעקור ב-9 באפריל 1946. לא משפחתנו. צלם לא ידוע, אנפו.",
+              "credit": "Anefo / Nationaal Archief, Netherlands — CC0"
+            },
+            {
+              "src": "assets/research_images/period/belgium_dp_centre_1945.jpg",
+              "caption_en": "A displaced persons centre in Belgium, 6 March 1945 — liberated forced labourers waiting to be assigned beds in a new billet. Photographed by the US Army Signal Corps; the location is a Belgian city, not Brussels itself. This is the machinery David passed through: he was registered as a Displaced Person in Brussels thirteen months later. Not our family.",
+              "caption_he": "מרכז עקורים בבלגיה, 6 במרץ 1945 — עובדי כפייה משוחררים ממתינים להקצאת מיטות. צולם בידי חיל הקשר של צבא ארה״ב; המקום הוא עיר בבלגיה, לא בריסל עצמה. זו המערכת שדרכה עבר דוד, שנרשם כעקור בבריסל שלושה עשר חודשים אחר כך. לא משפחתנו.",
+              "credit": "U.S. Army Signal Corps / U.S. National Archives — public domain"
             }
           ],
           "map": {
@@ -2716,5 +2765,5 @@
       ]
     }
   ],
-  "build_version": "2026-08-03-T78-context-photographs"
+  "build_version": "2026-08-03-T79-brussels-przemysl"
 }
