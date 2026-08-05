@@ -2109,7 +2109,10 @@
           "value_he": "שם הבעל נקרא נכונה ישראל אנגלרד (ולא ״אנגלנדר״), יליד 26 ביוני 1905 פשבורסק, בנם של קיווה ורבקה; נישאו בבולחוב 1932. ילדים: רות ועקיבא."
         }
       ],
-      "note_he": "אחותה הבכורה של לאה. פייגה (ביידיש) = ציפורה (בעברית)."
+      "note_he": "אחותה הבכורה של לאה. פייגה (ביידיש) = ציפורה (בעברית).",
+      "children_ids": [
+        "p_akiva_eldar"
+      ]
     },
     {
       "id": "p_moses_weitzner",
@@ -2151,7 +2154,11 @@
           "value_he": "עלה לישראל עם המשפחה בסביבות 1933"
         }
       ],
-      "note_he": "אחיה הצעיר של לאה."
+      "note_he": "אחיה הצעיר של לאה.",
+      "children_ids": [
+        "p_tzvika_weitzner",
+        "p_ella_weitzner"
+      ]
     },
     {
       "id": "p_pnina_weitzner",
@@ -2199,7 +2206,15 @@
           "value_he": "ככל הנראה נולדה בשנים 1917-1920. פנקס הלידות של בולחוב נפסק ב-5 במאי 1918 (המהפכה והמלחמה הפולנית-סובייטית), וזה מסביר באופן סביר מדוע רישומה אינו נמצא."
         }
       ],
-      "note_he": "אחותה הצעירה ביותר של לאה."
+      "note_he": "אחותה הצעירה ביותר של לאה.",
+      "children_ids": [
+        "p_arik"
+      ],
+      "aliases": [
+        "Pepi",
+        "פפי",
+        "פפי הקטנה"
+      ]
     },
     {
       "id": "p_doron",
@@ -4520,13 +4535,15 @@
         },
         {
           "key": "possible_parents_hypothesis",
-          "value": "A Tarnów death record (1933/152) for Mojżesz Rapaport — d. 8 Nov 1933, ul. Folwarczna, age 75, son of SZABSE (Shabtai) + ITA FEIGI Rapaport — is a leading candidate for our Moses Saul (street matches Berisz's passport). If confirmed, his parents were Shabtai + Ita Feigi. HYPOTHESIS only: Radomyśl records are lost; a second Moses Saul died 30 Oct 1931 listed under Dąbrowa. See h_moses_saul_parents.",
-          "confidence": "hypothesis",
+          "value": "ANSWERED, 6 August 2026. His parents were SZABSE (Shabtai) RAPAPORT and ITA FEIGA née JAHR. The Tarnów death record 1933/152 — Mojżesz Rapaport, died 8 November 1933, ul. Folwarczna, aged 75, son of Szabse and Ita Feigi — was only ever a leading candidate here. Basia’s descendant chart of Abraham Abe Rapaport, received 6 August 2026, places Moses Saul (b. about 1858, d. 8 November 1933) on the sibling bar beneath Szabse Rapaport (b. 30 January 1823 Tarnów) and Ita Feiga Jahr, and shows him married to Menycha Leiner — which is our Menukha, whose maiden name Leiner we had independently from the Sambor marriage record of 1913. Death date, age, wife and both parents all agree. The chart adds Ita Feiga’s maiden name and Szabse’s date of birth, neither of which this archive had.",
+          "confidence": "documented",
           "sources": [
             "doc_mojzesz_rapaport_death_1933_tarnow",
-            "wa_export_2026-06-15"
+            "wa_export_2026-06-15",
+            "doc_abraham_abe_descendants_tree",
+            "report_basia_2026_08_06"
           ],
-          "value_he": "השערה בלבד. רשומת פטירה מטרנוב (1933/152) של מוישה רפפורט — נפטר 8 בנובמבר 1933, רחוב פולברצ׳נה, בן 75, בנם של שבסה (שבתאי) ואיטה פייגי רפפורט — היא המועמדת הבולטת למשה שאול שלנו (הרחוב תואם את הכתוב בדרכונו של בריש). אם תאושר, הוריו היו שבתאי ואיטה פייגי. אך זו השערה ותו לא: רשומות רדומישל אבדו, ומשה שאול שני נפטר ב-30 באוקטובר 1931 ורשום תחת דומברובה. ראו h_moses_saul_parents."
+          "value_he": "נענתה, 6 באוגוסט 2026. הוריו היו שבסה (שבתאי) רפפורט ואיטה פייגה לבית יאהר. רשומת הפטירה מטרנוב 1933/152 — מוישה רפפורט, נפטר 8 בנובמבר 1933, רחוב פולברצ׳נה, בן 75, בנם של שבסה ואיטה פייגי — הייתה כאן מועמדת מובילה בלבד. תרשים הצאצאים של אברהם אבה רפפורט שערכה בסיה, שהתקבל ב-6 באוגוסט 2026, ממקם את משה שאול (יליד 1858 בקירוב, נפטר 8 בנובמבר 1933) על קו האחים שמתחת לשבסה רפפורט (יליד 30 בינואר 1823 טרנוב) ולאיטה פייגה יאהר, ומראה אותו נשוי למניכה ליינער — היא מנוחה שלנו, ששם נעוריה ליינער היה בידינו ממקור בלתי תלוי, רשומת הנישואין מסמבור 1913. תאריך הפטירה, הגיל, האישה ושני ההורים — הכול מסכים. התרשים מוסיף את שם נעוריה של איטה פייגה ואת תאריך לידתו של שבסה, ואף אחד מהם לא היה בארכיון הזה."
         },
         {
           "key": "tarnopol_circumcision",
@@ -4547,7 +4564,9 @@
         "p_freida_amalia_rapaport",
         "p_rebeka_rapaport_sister"
       ],
-      "note_he": "אביו של בריש והאב הקדמון של קו האב. שמו נודע במאי 2026 מתוך תיק בקשת הדרכון של בריש מ-1924, לאחר שנה שבה הקו הזה היה מבוי סתום. שלושה שטרי נישואין מטרנוב — 1919, 1920 ו-1923, של שלוש מאחיותיו של בריש — נוקבים כל אחד בנפרד ב״משה ומנוחה״ כהוריהן. משה שאול ישב במועצת הקהילה ברדומישל ויילקי בשנים 1897-1905. לא נמצא שום תצלום שלו, והחיפוש נרשם ככישלון ולא הושאר פתוח."
+      "note_he": "אביו של בריש והאב הקדמון של קו האב. שמו נודע במאי 2026 מתוך תיק בקשת הדרכון של בריש מ-1924, לאחר שנה שבה הקו הזה היה מבוי סתום. שלושה שטרי נישואין מטרנוב — 1919, 1920 ו-1923, של שלוש מאחיותיו של בריש — נוקבים כל אחד בנפרד ב״משה ומנוחה״ כהוריהן. משה שאול ישב במועצת הקהילה ברדומישל ויילקי בשנים 1897-1905. לא נמצא שום תצלום שלו, והחיפוש נרשם ככישלון ולא הושאר פתוח.",
+      "father_id": "p_szabse_rapaport",
+      "mother_id": "p_ita_feiga_jahr"
     },
     {
       "id": "p_szymon_rapaport_b1884",
@@ -4936,6 +4955,145 @@
       "father_id": "p_zwi_ayalon_nussbaum",
       "mother_id": "p_inge_nussbaum",
       "note_he": "בנם של צבי (הירש) איילון נוסבאום ואינגה לבית רוזנבוש, ואחיה של יהודית שלומית. הארכיון הזה לא ידע כלל על קיומו עד שנקרא תיק האזרחות של אביו ב-3 באוגוסט 2026. נולד בחיפה ב-25 באפריל 1943; התיק מציין תעודת לידה 1591/43 מ-14 במאי 1943."
+    },
+    {
+      "id": "p_akiva_eldar",
+      "primary_name": {
+        "en": "Akiva Eldar",
+        "he": "עקיבא אלדר"
+      },
+      "role": "relative",
+      "mother_id": "p_feige",
+      "note_en": "Son of Tzipora (Feige) Weitzner, Lusia’s elder sister — so first cousin to Shimon and Dov. He is the cousin in the memoir: page 65 captions the photograph of the two brothers reunited in Israel \"האחים שמעון ... עם בן־דודם עקיבא אלדר\". Eldar is the Hebraised form of Englard, his father’s name. Named by Doron, 6 August 2026.",
+      "note_he": "בנה של ציפורה (פייגה) ויצנר, אחותה הבכירה של לוסיה — ומכאן בן דודם הראשון של שמעון ודב. הוא בן הדוד שביומן: עמוד 65 מכתיר את תצלום שני האחים בארץ ״האחים שמעון... עם בן־דודם עקיבא אלדר״. אלדר הוא הצורה העברית של אנגלרד, שם אביו. נקוב בשמו בידי דורון, 6 באוגוסט 2026.",
+      "confidence": "family_oral",
+      "sources": [
+        "oral_doron_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_tzvika_weitzner",
+      "primary_name": {
+        "en": "Tzvika",
+        "he": "צביקה"
+      },
+      "role": "relative",
+      "mother_id": "p_moses_weitzner",
+      "note_en": "Child of Moses (Mojżesz) Weitzner, Lusia’s brother. Surname not recorded — the family may have Hebraised it. Named by Doron, 6 August 2026.",
+      "note_he": "בנו של משה (מוישה) ויצנר, אחיה של לוסיה. שם המשפחה אינו רשום — ייתכן שהמשפחה עיברתה אותו. נקוב בשמו בידי דורון, 6 באוגוסט 2026.",
+      "confidence": "family_oral",
+      "sources": [
+        "oral_doron_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_ella_weitzner",
+      "primary_name": {
+        "en": "Ella",
+        "he": "אלה"
+      },
+      "role": "relative",
+      "mother_id": "p_moses_weitzner",
+      "note_en": "Child of Moses (Mojżesz) Weitzner, Lusia’s brother. Surname not recorded. Named by Doron, 6 August 2026.",
+      "note_he": "בתו של משה (מוישה) ויצנר, אחיה של לוסיה. שם המשפחה אינו רשום. נקובה בשמה בידי דורון, 6 באוגוסט 2026.",
+      "confidence": "family_oral",
+      "sources": [
+        "oral_doron_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_arik",
+      "primary_name": {
+        "en": "Arik",
+        "he": "אריק"
+      },
+      "role": "relative",
+      "mother_id": "p_pnina_weitzner",
+      "note_en": "Child of Pnina — \"Pepi\", the youngest of Lusia’s siblings. Surname not recorded. Named by Doron, 6 August 2026.",
+      "note_he": "בנה של פנינה — ״פפי הקטנה״, הצעירה באחיה של לוסיה. שם המשפחה אינו רשום. נקוב בשמו בידי דורון, 6 באוגוסט 2026.",
+      "confidence": "family_oral",
+      "sources": [
+        "oral_doron_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_szabse_rapaport",
+      "primary_name": {
+        "en": "Szabse (Shabtai) Rapaport",
+        "he": "שבסה (שבתאי) רפפורט",
+        "pl": "Szabse Rapaport"
+      },
+      "aliases": [
+        "Shabtai",
+        "Schabse",
+        "שבסה",
+        "שבתאי"
+      ],
+      "role": "ancestor",
+      "birth": {
+        "date": "1823-01-30",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "death": {
+        "date": "1884",
+        "date_precision": "year",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree",
+          "report_basia_2026_08_06"
+        ],
+        "note_en": "Basia’s descendant chart gives 1884. Rosenstein’s published tree gives Shabtai Rappaport, A.B.D. Dombrowa, died 1897. The archive records the conflict and does not settle it — see h_szabse_death_year."
+      },
+      "children_ids": [
+        "p_moses_saul_rapaport"
+      ],
+      "note_en": "Father of Moses Saul Rapaport, and therefore the earliest ancestor this archive can name on the direct paternal line. Named as Moses Saul’s father on the Tarnów death record of 1933 and independently on the descendant chart of Abraham Abe Rapaport compiled by Basia in 2026. Rosenstein’s \"The Lurie Legacy\" carries a Shabtai Rappaport, A.B.D. Dombrowa — head of the rabbinical court of Dąbrowa — whom Basia marks as the same man; his death year there is 1897, not 1884.",
+      "note_he": "אביו של משה שאול רפפורט, ומכאן האב הקדמון המוקדם ביותר שהארכיון הזה יודע לנקוב בשמו בקו האב הישיר. נקוב כאביו של משה שאול ברשומת הפטירה מטרנוב 1933, ובאופן בלתי תלוי בתרשים הצאצאים של אברהם אבה רפפורט שערכה בסיה ב-2026. אצל רוזנשטיין ב״מורשת לוריא״ מופיע שבתאי רפפורט, אב״ד דומברובה — ראש בית הדין של דומברובה — שבסיה מסמנת אותו כאותו אדם; שנת פטירתו שם היא 1897 ולא 1884.",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_ita_feiga_jahr",
+      "primary_name": {
+        "en": "Ita Feiga Rapaport (née Jahr)",
+        "he": "איטה פייגה רפפורט (לבית יאהר)",
+        "pl": "Ita Feiga Rapaport z domu Jahr"
+      },
+      "aliases": [
+        "Ita Feigi",
+        "Itta Feige",
+        "איטה פייגי",
+        "Jahr"
+      ],
+      "role": "ancestor",
+      "death": {
+        "date": "before 1897",
+        "date_precision": "before",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "children_ids": [
+        "p_moses_saul_rapaport"
+      ],
+      "note_en": "Mother of Moses Saul Rapaport. The 1933 Tarnów death record names her only as \"Ita Feigi\"; her MAIDEN NAME, Jahr, comes from Basia’s descendant chart of 2026 and is new to this archive.",
+      "note_he": "אמו של משה שאול רפפורט. רשומת הפטירה מטרנוב 1933 נוקבת בה רק כ״איטה פייגי״; שם נעוריה, יאהר, מגיע מתרשים הצאצאים של בסיה מ-2026 והוא חדש בארכיון הזה.",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree",
+        "report_basia_2026_08_06"
+      ]
     }
   ]
 }

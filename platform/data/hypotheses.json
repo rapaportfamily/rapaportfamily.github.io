@@ -11,6 +11,36 @@
   },
   "hypotheses": [
     {
+      "id": "h_szabse_death_year",
+      "question": {
+        "en": "Did Szabse Rapaport die in 1884 or in 1897 — and is he the same man as Shabtai Rappaport, head of the rabbinical court of Dąbrowa?",
+        "he": "האם שבסה רפפורט נפטר ב-1884 או ב-1897 — והאם הוא אותו אדם כמו שבתאי רפפורט, אב״ד דומברובה?"
+      },
+      "priority": "HIGH",
+      "status": "open — conflicting sources",
+      "answer": {
+        "en": "UNRESOLVED, and both readings come from Basia on the same day. Her own descendant chart of Abraham Abe Rapaport gives Szabse Rapaport, born 30 January 1823 at Tarnów, died 1884, married to Ita Feiga Jahr, father of our Moses Saul. On the sheets she marked up from Rosenstein’s \"The Lurie Legacy\", the man she highlights as the same ancestor is Shabtai Rappaport, A.B.D. Dombrowa, died 1897 — and Rosenstein makes him the head of the Weidenfeld family tree. Thirteen years apart. Either they are two men and the line is joined in the wrong place, or one of the death years is wrong. This archive already held a separate note, from MyHeritage in July 2026, of a \"Szabse Rapaport, rabbi of Dąbrowa Tarnowska\" — which fits the Rosenstein man, not the 1884 one. Do not merge them until Basia produces the record behind 1884.",
+        "he": "לא הוכרע, ושתי הקריאות הגיעו מבסיה באותו יום. תרשים הצאצאים שלה של אברהם אבה רפפורט נוקב בשבסה רפפורט, יליד 30 בינואר 1823 בטרנוב, שנפטר ב-1884, נשוי לאיטה פייגה יאהר, אביו של משה שאול שלנו. בגיליונות שסימנה מתוך ״מורשת לוריא״ של רוזנשטיין, האיש שהיא מדגישה כאותו אב קדמון הוא שבתאי רפפורט, אב״ד דומברובה, שנפטר ב-1897 — ורוזנשטיין מציב אותו בראש אילן משפחת ויידנפלד. שלוש עשרה שנות הפרש. או שאלה שני אנשים והקו חובר במקום הלא נכון, או שאחת משנות הפטירה שגויה. בארכיון הזה כבר הייתה רשומה נפרדת, מ-MyHeritage ביולי 2026, על ״שבסה רפפורט, רבה של דומברובה טרנובסקה״ — המתאימה לאיש של רוזנשטיין ולא לזה של 1884. אין לאחד ביניהם עד שבסיה תציג את הרשומה שמאחורי 1884."
+      },
+      "evidence": [
+        "Basia, descendant chart of Abraham Abe Rapaport, 6 August 2026 — Szabse b. 1823.01.30 Tarnów, d. 1884.",
+        "Rosenstein, The Lurie Legacy (2004), Weidenfeld family sheet — Shabtai Rappaport, A.B.D. Dombrowa, d. 1897, as marked by Basia.",
+        "MyHeritage note, July 2026 — Szabse Rapaport, rabbi of Dąbrowa Tarnowska."
+      ],
+      "next_steps": [
+        "Ask Basia which record gives 1884, and whether she has reconciled it with the A.B.D. Dombrowa man she highlighted on the Rosenstein sheet."
+      ],
+      "related_people": [
+        "p_szabse_rapaport",
+        "p_ita_feiga_jahr",
+        "p_moses_saul_rapaport"
+      ],
+      "related_places": [
+        "pl_tarnow",
+        "pl_dabrowa"
+      ]
+    },
+    {
       "id": "h_why_david_went_first",
       "question": {
         "en": "Why did David go to Palestine first, with nine-year-old Shimon, and leave Lusia and the baby Dov behind in Brussels — even at the cost of a year behind wire in Cyprus?",
@@ -642,7 +672,7 @@
         "fr": "Who were Moses Saul Rapaport's parents — were they Shabtai (Szabse) + Ita Feigi?"
       },
       "priority": "MEDIUM",
-      "status": "probable_answer",
+      "status": "RESOLVED — Szabse Rapaport and Ita Feiga Jahr, corroborated 6 August 2026",
       "note_2026_06_15_cc": "Tarnów death record 1933/152: Mojżesz Rapaport, d. 8 Nov 1933, ul. Folwarczna, age 75, son of Szabse + Ita Feigi. Street matches Berisz's passport (9 Folwarczna; death cert says 199, likely a clerk repeating the ordinal). A SECOND Moses Saul died 30 Oct 1931 under Dąbrowa. Basia leans toward the 1933 one being ours. If so, parents = Shabtai + Ita Feigi. Not asserted in the tree structure until corroborated.",
       "candidates": [
         {
@@ -673,11 +703,8 @@
         }
       ],
       "next_steps": [
-        "Obtain the Dąbrowa Tarnowska rabbinate record naming Szabse's children — the one document that would settle it",
-        "Trace Nuchem Weidenfeld, later rabbi in Dąbrowa, described by JewishGen as Szabse's grandson (Basia is developing this line)",
-        "Yitzhak Haim Rapaport (per the MyHeritage record) — establish whether he is Moses Saul's brother",
-        "Read 'Tablica potomków Abraham Abe Rapaport.pdf' (Basia, 7 Jul) against our tree",
-        "Find a birth or marriage record for Moses Saul (death records do not name descendants)"
+        "Ask Basia for the source citations behind Szabse’s 1823 birth date and Ita Feiga’s maiden name — they must come from Tarnów registers we have not seen.",
+        "Separate and still open: Szabse died 1884 (Basia) or 1897 (Rosenstein). See h_szabse_death_year."
       ],
       "related_people": [
         "p_moses_saul_rapaport",
@@ -688,7 +715,11 @@
         "pl_dabrowa",
         "pl_radomysl_wielki"
       ],
-      "note_2026_07_07_cc": "7 Jul 2026 — Basia worked the Tarnów notarial records and the Dąbrowa Tarnowska rabbinate lists and reports: 'I looked through the records at the notary's office in Tarnów, and they convinced me that Szabse was your ancestor.' She also establishes that Szabse Rapaport was RABBI in Dąbrowa Tarnowska until 20 April 1884, succeeded that year by Majer Rapaport (from Łuków, 19 May) and then Hirsz Weiss (19 Sept); the 1886 entry shows 'Hersz Weiss' written over a crossed-out 'Szabsa Rapaport', which she reads as a scribal duplicate. Independently, Dana produced a MyHeritage record the same evening naming Schabse + Figa/Yete and their son Yitzhak Haim — the given names match the Ita Feigi of the 1933 Tarnów death record. This also explains a detail that had been unexplained since May: Berisz's 1924 passport gives his commune as Dąbrowa Tarnowska, the town where his grandfather had been rabbi. NOT yet a document naming Moses Saul's father outright, so this stays probable, not resolved. Basia's own caution stands: 'I don't include anything I can't find evidence for.'"
+      "note_2026_07_07_cc": "7 Jul 2026 — Basia worked the Tarnów notarial records and the Dąbrowa Tarnowska rabbinate lists and reports: 'I looked through the records at the notary's office in Tarnów, and they convinced me that Szabse was your ancestor.' She also establishes that Szabse Rapaport was RABBI in Dąbrowa Tarnowska until 20 April 1884, succeeded that year by Majer Rapaport (from Łuków, 19 May) and then Hirsz Weiss (19 Sept); the 1886 entry shows 'Hersz Weiss' written over a crossed-out 'Szabsa Rapaport', which she reads as a scribal duplicate. Independently, Dana produced a MyHeritage record the same evening naming Schabse + Figa/Yete and their son Yitzhak Haim — the given names match the Ita Feigi of the 1933 Tarnów death record. This also explains a detail that had been unexplained since May: Berisz's 1924 passport gives his commune as Dąbrowa Tarnowska, the town where his grandfather had been rabbi. NOT yet a document naming Moses Saul's father outright, so this stays probable, not resolved. Basia's own caution stands: 'I don't include anything I can't find evidence for.'",
+      "answer": {
+        "en": "Szabse (Shabtai) Rapaport and Ita Feiga née Jahr. Two independent lines of evidence now agree. Ours: the Tarnów death record 1933/152 for Mojżesz Rapaport, died 8 November 1933 at ul. Folwarczna aged 75, son of Szabse and Ita Feigi. Basia’s: a descendant chart of Abraham Abe Rapaport compiled in 2026, which places Moses Saul — born about 1858, died 8 November 1933, married to Menycha Leiner — as their son. Menycha Leiner is our Menukha, and we had her maiden name from the Sambor marriage record of 1913, which Basia did not use. The chart adds two particulars we never had: Ita Feiga’s maiden name Jahr, and Szabse born 30 January 1823 at Tarnów.",
+        "he": "שבסה (שבתאי) רפפורט ואיטה פייגה לבית יאהר. שני קווי ראיות בלתי תלויים מסכימים כעת. שלנו: רשומת הפטירה מטרנוב 1933/152 של מוישה רפפורט, שנפטר ב-8 בנובמבר 1933 ברחוב פולברצ׳נה בגיל 75, בנם של שבסה ואיטה פייגי. של בסיה: תרשים צאצאים של אברהם אבה רפפורט שנערך ב-2026, הממקם את משה שאול — יליד 1858 בקירוב, נפטר 8 בנובמבר 1933, נשוי למניכה ליינער — כבנם. מניכה ליינער היא מנוחה שלנו, ושם נעוריה היה בידינו מרשומת הנישואין מסמבור 1913, שבסיה לא השתמשה בה. התרשים מוסיף שני פרטים שמעולם לא היו לנו: שם נעוריה של איטה פייגה, יאהר, ושבסה נולד ב-30 בינואר 1823 בטרנוב."
+      }
     },
     {
       "id": "h_jente_survival",
