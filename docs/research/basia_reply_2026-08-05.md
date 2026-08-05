@@ -1,4 +1,4 @@
-# Reply to Basia — 6 August 2026
+# Reply to Basia — 5 August 2026
 
 **Draft for Doron to send (WhatsApp from now on, per Basia's note).**
 Her message covered six points; this answers each, and answers the one question she actually

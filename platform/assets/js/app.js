@@ -1955,9 +1955,34 @@ function renderHypotheses(root) {
 // ----------------------------------------
 const ChatState = { search: '', attachmentsOnly: false };
 
+// The chat page is a WhatsApp export, and an export is a snapshot with a date
+// on it. Left unmarked it reads as "the whole conversation", which quietly
+// misleads: research has carried on in WhatsApp since, and the findings live
+// elsewhere in this archive. Work the last date out of the data itself so the
+// notice can never go stale — it will be right again the next time the chat is
+// re-exported, without anyone remembering to edit it.
+function chatExportNotice() {
+  const msgs = State.data.messages || [];
+  if (!msgs.length) return '';
+  let last = '';
+  for (const m of msgs) {
+    const d = m.date || (m.timestamp || '').slice(0, 10);
+    if (!d) continue;
+    // dates arrive as DD/MM/YYYY; compare on a sortable form
+    const s = /^\d{2}\/\d{2}\/\d{4}$/.test(d)
+      ? d.slice(6) + d.slice(3, 5) + d.slice(0, 2)
+      : d.replace(/-/g, '');
+    if (s > last) last = s;
+  }
+  if (!last) return '';
+  const shown = fmtDate(`${last.slice(0, 4)}-${last.slice(4, 6)}-${last.slice(6, 8)}`);
+  return `<p class="chat-export-notice">${escapeHtml(t('chat.export_notice').replace('{date}', shown))}</p>`;
+}
+
 function renderChat(root) {
   root.innerHTML = `
     ${pageHeader('chat.title', 'chat.lead')}
+    ${chatExportNotice()}
     <div class="chat-controls">
       <input class="chat-search" type="search" placeholder="${escapeHtml(t('ui.search'))}…" id="chat-search" value="${escapeHtml(ChatState.search)}" />
       <button class="filter-btn ${!ChatState.attachmentsOnly?'active':''}" data-chatfilter="all">${escapeHtml(t('chat.filter_all'))}</button>

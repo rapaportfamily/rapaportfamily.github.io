@@ -4535,15 +4535,15 @@
         },
         {
           "key": "possible_parents_hypothesis",
-          "value": "ANSWERED, 6 August 2026. His parents were SZABSE (Shabtai) RAPAPORT and ITA FEIGA née JAHR. The Tarnów death record 1933/152 — Mojżesz Rapaport, died 8 November 1933, ul. Folwarczna, aged 75, son of Szabse and Ita Feigi — was only ever a leading candidate here. Basia’s descendant chart of Abraham Abe Rapaport, received 6 August 2026, places Moses Saul (b. about 1858, d. 8 November 1933) on the sibling bar beneath Szabse Rapaport (b. 30 January 1823 Tarnów) and Ita Feiga Jahr, and shows him married to Menycha Leiner — which is our Menukha, whose maiden name Leiner we had independently from the Sambor marriage record of 1913. Death date, age, wife and both parents all agree. The chart adds Ita Feiga’s maiden name and Szabse’s date of birth, neither of which this archive had.",
+          "value": "ANSWERED, 5 August 2026. His parents were SZABSE (Shabtai) RAPAPORT and ITA FEIGA née JAHR. The Tarnów death record 1933/152 — Mojżesz Rapaport, died 8 November 1933, ul. Folwarczna, aged 75, son of Szabse and Ita Feigi — was only ever a leading candidate here. Basia’s descendant chart of Abraham Abe Rapaport, received 5 August 2026, places Moses Saul (b. about 1858, d. 8 November 1933) on the sibling bar beneath Szabse Rapaport (b. 30 January 1823 Tarnów) and Ita Feiga Jahr, and shows him married to Menycha Leiner — which is our Menukha, whose maiden name Leiner we had independently from the Sambor marriage record of 1913. Death date, age, wife and both parents all agree. The chart adds Ita Feiga’s maiden name and Szabse’s date of birth, neither of which this archive had.",
           "confidence": "documented",
           "sources": [
             "doc_mojzesz_rapaport_death_1933_tarnow",
             "wa_export_2026-06-15",
             "doc_abraham_abe_descendants_tree",
-            "report_basia_2026_08_06"
+            "report_basia_2026_08_05"
           ],
-          "value_he": "נענתה, 6 באוגוסט 2026. הוריו היו שבסה (שבתאי) רפפורט ואיטה פייגה לבית יאהר. רשומת הפטירה מטרנוב 1933/152 — מוישה רפפורט, נפטר 8 בנובמבר 1933, רחוב פולברצ׳נה, בן 75, בנם של שבסה ואיטה פייגי — הייתה כאן מועמדת מובילה בלבד. תרשים הצאצאים של אברהם אבה רפפורט שערכה בסיה, שהתקבל ב-6 באוגוסט 2026, ממקם את משה שאול (יליד 1858 בקירוב, נפטר 8 בנובמבר 1933) על קו האחים שמתחת לשבסה רפפורט (יליד 30 בינואר 1823 טרנוב) ולאיטה פייגה יאהר, ומראה אותו נשוי למניכה ליינער — היא מנוחה שלנו, ששם נעוריה ליינער היה בידינו ממקור בלתי תלוי, רשומת הנישואין מסמבור 1913. תאריך הפטירה, הגיל, האישה ושני ההורים — הכול מסכים. התרשים מוסיף את שם נעוריה של איטה פייגה ואת תאריך לידתו של שבסה, ואף אחד מהם לא היה בארכיון הזה."
+          "value_he": "נענתה, 5 באוגוסט 2026. הוריו היו שבסה (שבתאי) רפפורט ואיטה פייגה לבית יאהר. רשומת הפטירה מטרנוב 1933/152 — מוישה רפפורט, נפטר 8 בנובמבר 1933, רחוב פולברצ׳נה, בן 75, בנם של שבסה ואיטה פייגי — הייתה כאן מועמדת מובילה בלבד. תרשים הצאצאים של אברהם אבה רפפורט שערכה בסיה, שהתקבל ב-5 באוגוסט 2026, ממקם את משה שאול (יליד 1858 בקירוב, נפטר 8 בנובמבר 1933) על קו האחים שמתחת לשבסה רפפורט (יליד 30 בינואר 1823 טרנוב) ולאיטה פייגה יאהר, ומראה אותו נשוי למניכה ליינער — היא מנוחה שלנו, ששם נעוריה ליינער היה בידינו ממקור בלתי תלוי, רשומת הנישואין מסמבור 1913. תאריך הפטירה, הגיל, האישה ושני ההורים — הכול מסכים. התרשים מוסיף את שם נעוריה של איטה פייגה ואת תאריך לידתו של שבסה, ואף אחד מהם לא היה בארכיון הזה."
         },
         {
           "key": "tarnopol_circumcision",
@@ -4573,7 +4573,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ],
         "note_en": "\"b. 1858 about\" on Basia’s chart, and the Tarnów death record of 1933 gives his age as 75, which agrees."
       },
@@ -4584,7 +4584,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06",
+          "report_basia_2026_08_05",
           "doc_tarnow_death_1933_152"
         ],
         "note_en": "Tarnów death record 1933/152 — died at ul. Folwarczna, aged 75 — and the same date independently on Basia’s descendant chart."
@@ -4986,11 +4986,11 @@
       },
       "role": "relative",
       "mother_id": "p_feige",
-      "note_en": "Son of Tzipora (Feige) Weitzner, Lusia’s elder sister — so first cousin to Shimon and Dov. He is the cousin in the memoir: page 65 captions the photograph of the two brothers reunited in Israel \"האחים שמעון ... עם בן־דודם עקיבא אלדר\". Eldar is the Hebraised form of Englard, his father’s name. Named by Doron, 6 August 2026.",
-      "note_he": "בנה של ציפורה (פייגה) ויצנר, אחותה הבכירה של לוסיה — ומכאן בן דודם הראשון של שמעון ודב. הוא בן הדוד שביומן: עמוד 65 מכתיר את תצלום שני האחים בארץ ״האחים שמעון... עם בן־דודם עקיבא אלדר״. אלדר הוא הצורה העברית של אנגלרד, שם אביו. נקוב בשמו בידי דורון, 6 באוגוסט 2026.",
+      "note_en": "Son of Tzipora (Feige) Weitzner, Lusia’s elder sister — so first cousin to Shimon and Dov. He is the cousin in the memoir: page 65 captions the photograph of the two brothers reunited in Israel \"האחים שמעון ... עם בן־דודם עקיבא אלדר\". Eldar is the Hebraised form of Englard, his father’s name. Named by Doron, 5 August 2026.",
+      "note_he": "בנה של ציפורה (פייגה) ויצנר, אחותה הבכירה של לוסיה — ומכאן בן דודם הראשון של שמעון ודב. הוא בן הדוד שביומן: עמוד 65 מכתיר את תצלום שני האחים בארץ ״האחים שמעון... עם בן־דודם עקיבא אלדר״. אלדר הוא הצורה העברית של אנגלרד, שם אביו. נקוב בשמו בידי דורון, 5 באוגוסט 2026.",
       "confidence": "family_oral",
       "sources": [
-        "oral_doron_2026_08_06"
+        "oral_doron_2026_08_05"
       ]
     },
     {
@@ -5001,11 +5001,11 @@
       },
       "role": "relative",
       "mother_id": "p_moses_weitzner",
-      "note_en": "Child of Moses (Mojżesz) Weitzner, Lusia’s brother. Surname not recorded — the family may have Hebraised it. Named by Doron, 6 August 2026.",
-      "note_he": "בנו של משה (מוישה) ויצנר, אחיה של לוסיה. שם המשפחה אינו רשום — ייתכן שהמשפחה עיברתה אותו. נקוב בשמו בידי דורון, 6 באוגוסט 2026.",
+      "note_en": "Child of Moses (Mojżesz) Weitzner, Lusia’s brother. Surname not recorded — the family may have Hebraised it. Named by Doron, 5 August 2026.",
+      "note_he": "בנו של משה (מוישה) ויצנר, אחיה של לוסיה. שם המשפחה אינו רשום — ייתכן שהמשפחה עיברתה אותו. נקוב בשמו בידי דורון, 5 באוגוסט 2026.",
       "confidence": "family_oral",
       "sources": [
-        "oral_doron_2026_08_06"
+        "oral_doron_2026_08_05"
       ]
     },
     {
@@ -5016,11 +5016,11 @@
       },
       "role": "relative",
       "mother_id": "p_moses_weitzner",
-      "note_en": "Child of Moses (Mojżesz) Weitzner, Lusia’s brother. Surname not recorded. Named by Doron, 6 August 2026.",
-      "note_he": "בתו של משה (מוישה) ויצנר, אחיה של לוסיה. שם המשפחה אינו רשום. נקובה בשמה בידי דורון, 6 באוגוסט 2026.",
+      "note_en": "Child of Moses (Mojżesz) Weitzner, Lusia’s brother. Surname not recorded. Named by Doron, 5 August 2026.",
+      "note_he": "בתו של משה (מוישה) ויצנר, אחיה של לוסיה. שם המשפחה אינו רשום. נקובה בשמה בידי דורון, 5 באוגוסט 2026.",
       "confidence": "family_oral",
       "sources": [
-        "oral_doron_2026_08_06"
+        "oral_doron_2026_08_05"
       ]
     },
     {
@@ -5031,11 +5031,11 @@
       },
       "role": "relative",
       "mother_id": "p_pnina_weitzner",
-      "note_en": "Child of Pnina — \"Pepi\", the youngest of Lusia’s siblings. Surname not recorded. Named by Doron, 6 August 2026.",
-      "note_he": "בנה של פנינה — ״פפי הקטנה״, הצעירה באחיה של לוסיה. שם המשפחה אינו רשום. נקוב בשמו בידי דורון, 6 באוגוסט 2026.",
+      "note_en": "Child of Pnina — \"Pepi\", the youngest of Lusia’s siblings. Surname not recorded. Named by Doron, 5 August 2026.",
+      "note_he": "בנה של פנינה — ״פפי הקטנה״, הצעירה באחיה של לוסיה. שם המשפחה אינו רשום. נקוב בשמו בידי דורון, 5 באוגוסט 2026.",
       "confidence": "family_oral",
       "sources": [
-        "oral_doron_2026_08_06"
+        "oral_doron_2026_08_05"
       ]
     },
     {
@@ -5059,7 +5059,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "death": {
@@ -5068,7 +5068,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ],
         "note_en": "Basia’s descendant chart gives 1884. Rosenstein’s published tree gives Shabtai Rappaport, A.B.D. Dombrowa, died 1897. The archive records the conflict and does not settle it — see h_szabse_death_year."
       },
@@ -5085,7 +5085,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ],
       "father_id": "p_abraham_abe_rapaport",
       "mother_id": "p_lea_herschl"
@@ -5110,7 +5110,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "children_ids": [
@@ -5126,7 +5126,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -5143,7 +5143,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "death": {
@@ -5153,7 +5153,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "note_en": "The head of the descendant chart Basia compiled in 2026, and the earliest Rapaport this archive can name. Great-great-grandfather of David. HIS GRAVESTONE SURVIVES — the chart carries a photograph of it above his card, the oldest object connected to this family that we know to exist.",
@@ -5161,7 +5161,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ],
       "children_ids": [
         "p_pearl_rapaport",
@@ -5190,7 +5190,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "death": {
@@ -5200,7 +5200,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "note_en": "Wife of Abraham Abe Rapaport. Her maiden name, Herschl, is on the chart; her card carries a register scan.",
@@ -5208,7 +5208,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ],
       "children_ids": [
         "p_pearl_rapaport",
@@ -5239,7 +5239,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "death": {
@@ -5249,7 +5249,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "note_en": "Eldest recorded child of Abraham Abe and Lea. Died at twenty-one.",
@@ -5257,7 +5257,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -5276,7 +5276,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "note_en": "Married Rachela Jakobsohn (b. 1817 Tarnów) at Kraków on 9 August 1832.",
@@ -5284,7 +5284,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ],
       "children_ids": [
         "p_perl_liebe_rapaport",
@@ -5315,7 +5315,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "death": {
@@ -5325,7 +5325,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "note_en": "Married Chane Rachel (died after 1881).",
@@ -5333,7 +5333,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ],
       "children_ids": [
         "p_perl_rapaport_1835",
@@ -5366,7 +5366,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "death": {
@@ -5376,7 +5376,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "note_en": "Died at seventeen months.",
@@ -5384,7 +5384,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -5403,7 +5403,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "death": {
@@ -5413,7 +5413,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "note_en": "Died at eight months.",
@@ -5421,7 +5421,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -5440,7 +5440,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "death": {
@@ -5450,7 +5450,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "note_en": "Died at not quite two.",
@@ -5458,7 +5458,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -5477,7 +5477,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "death": {
@@ -5487,7 +5487,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "note_en": "Died at eleven months. Four of Abraham Abe and Lea’s children — Sara, Taube, Aaron and Moses Meier — died before the age of two.",
@@ -5495,7 +5495,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -5514,13 +5514,13 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -5539,7 +5539,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "death": {
@@ -5549,7 +5549,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "note_en": "Died at four. Named for his grandfather Abraham Abe.",
@@ -5557,7 +5557,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -5576,13 +5576,13 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -5601,7 +5601,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "death": {
@@ -5611,7 +5611,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "note_en": "Brother of Moses Saul. Married Cerka (Cecylia) Margulies. Died at Kraków.",
@@ -5619,7 +5619,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -5638,7 +5638,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "death": {
@@ -5648,7 +5648,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "note_en": "Brother of Moses Saul, and the only man of that generation whose FACE this archive has: the chart carries a photograph of him, bearded, above his card. Born at DĄBROWA TARNOWSKA — which matters, because Rosenstein places a Shabtai Rappaport as head of the rabbinical court of Dąbrowa, and this is independent evidence that the family was living there. Married Margulesa Bornstein of Olkusz. Died at Kraków.",
@@ -5656,7 +5656,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -5673,7 +5673,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -5691,7 +5691,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "death": {
@@ -5701,7 +5701,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "note_en": "Born Stryj, died Grzymałów. Head of the rabbinical court of Grzymałów; author of the responsa \"Kochav MiYaakov\". Rosenstein gives his dates as 1840-1894, one year earlier than Basia’s chart. Married Rachel, daughter of Szabse Rapaport.",
@@ -5709,7 +5709,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -5723,7 +5723,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -5741,7 +5741,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "death": {
@@ -5751,7 +5751,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "note_en": "Born at Olkusz, died at Kraków. Wife of Izchak Chaim Rapaport.",
@@ -5759,7 +5759,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -5777,7 +5777,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "note_en": "Married Józef Rapaport at Kraków on 9 August 1832.",
@@ -5785,7 +5785,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ],
       "children_ids": [
         "p_perl_liebe_rapaport",
@@ -5814,7 +5814,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "note_en": "Wife of Izrael Rapaport. The chart gives her surname only as \"Abraham\" and she died after 1881.",
@@ -5822,7 +5822,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ],
       "children_ids": [
         "p_perl_rapaport_1835",
@@ -5854,7 +5854,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "death": {
@@ -5864,7 +5864,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "note_en": "Died at Vienna, aged eighty-seven — she outlived every one of her brothers and sisters recorded here. Her husband on the chart is Benjamin Mises of Lwów.",
@@ -5872,7 +5872,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -5891,13 +5891,13 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -5916,13 +5916,13 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -5941,7 +5941,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "death": {
@@ -5951,7 +5951,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "note_en": "Died on 14 April 1851 — the SAME DAY as his younger brother Izrael. Two children of one house buried together; almost certainly an epidemic.",
@@ -5959,7 +5959,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -5978,7 +5978,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "death": {
@@ -5988,7 +5988,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "note_en": "His wife on the chart is Mathel Frenkel, born 1846.",
@@ -5996,7 +5996,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -6015,7 +6015,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "death": {
@@ -6025,7 +6025,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "note_en": "Died on 14 April 1851, the same day as his brother Samuel.",
@@ -6033,7 +6033,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -6052,7 +6052,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "note_en": "His wife on the chart is Rebeka, born 15 May 1854 at Staszów; her surname is left blank there.",
@@ -6060,7 +6060,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -6079,13 +6079,13 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -6104,7 +6104,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "death": {
@@ -6114,7 +6114,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "note_en": "Died at Wrocław. His wife on the chart is Gitla Feige Mieses (b. about 1843, d. 13 August 1934 at Kraków).",
@@ -6122,7 +6122,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -6141,7 +6141,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "death": {
@@ -6151,7 +6151,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "note_en": "Born two days before her cousin Perl Liebe, daughter of Józef — two Perls in one family born on 8 and 10 June 1835. Both died at Vienna. Her husband on the chart is Josef Hersch Gelernter, born 1834.",
@@ -6159,7 +6159,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -6178,7 +6178,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "death": {
@@ -6188,7 +6188,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "note_en": "Her husband on the chart is Aron Dov Awigdor Novimiast, born 1848 at Biała.",
@@ -6196,7 +6196,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -6215,7 +6215,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "death": {
@@ -6225,7 +6225,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "note_en": "Died at eighteen months. A nephew of our Szabse, carrying the same name while his uncle was still living.",
@@ -6233,7 +6233,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -6252,7 +6252,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "death": {
@@ -6262,13 +6262,13 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -6287,7 +6287,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "death": {
@@ -6297,7 +6297,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "note_en": "Died at eleven.",
@@ -6305,7 +6305,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -6324,13 +6324,13 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -6349,13 +6349,13 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -6374,7 +6374,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "death": {
@@ -6384,7 +6384,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "note_en": "Died at eighteen months.",
@@ -6392,7 +6392,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -6411,7 +6411,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "death": {
@@ -6421,7 +6421,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "note_en": "Died at twenty-one months.",
@@ -6429,7 +6429,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -6448,7 +6448,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "death": {
@@ -6458,13 +6458,13 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -6483,7 +6483,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "note_en": "Her husband on the chart is Dawid Gruenfeld. Note that Rosenstein’s \"Descendants of the Shach\" also carries a Sprinza in this family — Basia highlights her — so the name may be the same person seen from two directions. Not established.",
@@ -6491,7 +6491,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -6509,13 +6509,13 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -6532,13 +6532,13 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -6556,13 +6556,13 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -6580,7 +6580,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "death": {
@@ -6590,13 +6590,13 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -6614,13 +6614,13 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -6638,13 +6638,13 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -6658,7 +6658,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -6675,7 +6675,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "note_en": "Stands on the chart among Józef and Rachela’s children, so he married one of them — but he is flanked by two of the daughters and the adjacency alone does not say which. Left unpaired deliberately; the GEDCOM will settle it.",
@@ -6683,7 +6683,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     },
     {
@@ -6701,7 +6701,7 @@
         "confidence": "documented",
         "sources": [
           "doc_abraham_abe_descendants_tree_2026",
-          "report_basia_2026_08_06"
+          "report_basia_2026_08_05"
         ]
       },
       "note_en": "Born at Staszów. Her maiden surname is left blank on the chart.",
@@ -6709,7 +6709,7 @@
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
-        "report_basia_2026_08_06"
+        "report_basia_2026_08_05"
       ]
     }
   ]

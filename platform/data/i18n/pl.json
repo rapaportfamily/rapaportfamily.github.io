@@ -224,7 +224,8 @@
     "lead": "Grupa robocza WhatsApp, wiadomość po wiadomości.",
     "filter_attachments": "Tylko wiadomości z załącznikami",
     "filter_all": "Wszystkie wiadomości",
-    "attachment": "Załącznik"
+    "attachment": "Załącznik",
+    "export_notice": "To jest eksport z WhatsAppa i kończy się {date}. Badania trwały dalej w WhatsAppie — tą drogą dotarły drzewa Basi i ustalenia dotyczące Weitznerów — a wyniki zapisano w innych częściach tego archiwum. Ponowny eksport czatu zaktualizuje tę stronę."
   },
   "people_page": {
     "title": "Osoby",

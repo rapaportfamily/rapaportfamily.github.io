@@ -224,7 +224,8 @@
     "lead": "The WhatsApp working group, message by message.",
     "filter_attachments": "Only messages with attachments",
     "filter_all": "All messages",
-    "attachment": "Attachment"
+    "attachment": "Attachment",
+    "export_notice": "This is a WhatsApp export and it stops on {date}. Research has continued in WhatsApp since — Basia’s trees and the Weitzner findings arrived that way — and those results are recorded elsewhere in this archive, under Documents, People and the Research Center. Re-export the chat to bring this page up to date."
   },
   "people_page": {
     "title": "People",

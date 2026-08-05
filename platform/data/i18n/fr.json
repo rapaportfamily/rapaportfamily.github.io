@@ -224,7 +224,8 @@
     "lead": "Le groupe de travail WhatsApp, message par message.",
     "filter_attachments": "Messages avec pièces jointes uniquement",
     "filter_all": "Tous les messages",
-    "attachment": "Pièce jointe"
+    "attachment": "Pièce jointe",
+    "export_notice": "Ceci est un export WhatsApp et il s’arrête au {date}. Les recherches se sont poursuivies sur WhatsApp — les arbres de Basia et les découvertes Weitzner sont arrivés ainsi — et ces résultats sont consignés ailleurs dans cette archive. Ré-exportez la conversation pour mettre cette page à jour."
   },
   "people_page": {
     "title": "Personnes",

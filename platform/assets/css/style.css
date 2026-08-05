@@ -2147,3 +2147,17 @@ html[dir="rtl"] .detail-portrait { margin: 0 1.2rem 1rem 0; }
   .tl-event-photo { float: none; width: 100%; margin: 0 0 0.7rem; }
   .tl-event-photo img { height: 150px; }
 }
+
+/* The chat page is a dated snapshot, not a live feed. Say so, quietly but
+   unmissably, above the search box. */
+.chat-export-notice {
+  margin: 0 0 1rem;
+  padding: 0.7rem 0.95rem;
+  background: var(--paper-deep);
+  border-inline-start: 3px solid var(--wine);
+  border-radius: var(--radius);
+  font-family: var(--font-serif);
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: var(--ink-soft);
+}
