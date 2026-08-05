@@ -101,7 +101,8 @@
           "place_id": "pl_cieszyn",
           "source": "doc_david_dp_card",
           "status": "superseded"
-        }
+        },
+        "note_he": "פריצת דרך, 15 במאי 2026: תעודת הלידה נמצאה בנדבורנא בידי גב׳ קשיה במכון ההיסטורי היהודי. כרטיס העקורים מבריסל 1946 נוקב בצ׳ישין/טשין, אך זו ככל הנראה שגיאת שמיעה של פקיד צרפתי — נדבורנא היא מקום הלידה המאומת."
       },
       "death": {
         "date": "1990-08-29",
@@ -111,7 +112,8 @@
         "sources": [
           "src_haifa_chevra_kadisha_records"
         ],
-        "note_en": "Hebrew date: 8 Elul 5750. Aged 78. Buried Sde Yehoshua cemetery (formerly Kfar Samir), Haifa — Section ו (Vav), Row 22, Grave 102ד. Haifa Chevra Kadisha record ID 43981. Wife Lusia is in the immediately adjacent grave 102ג. CK records his birth date as 15/12/1916 (Israeli ID, off by ~5 years from documented 1911-12-25 — common Holocaust-survivor pattern from lost papers). Confirmed via father-name (Dov), Polish birth, 1946 aliyah, Haifa burial, adjacency to Lusia's grave."
+        "note_en": "Hebrew date: 8 Elul 5750. Aged 78. Buried Sde Yehoshua cemetery (formerly Kfar Samir), Haifa — Section ו (Vav), Row 22, Grave 102ד. Haifa Chevra Kadisha record ID 43981. Wife Lusia is in the immediately adjacent grave 102ג. CK records his birth date as 15/12/1916 (Israeli ID, off by ~5 years from documented 1911-12-25 — common Holocaust-survivor pattern from lost papers). Confirmed via father-name (Dov), Polish birth, 1946 aliyah, Haifa burial, adjacency to Lusia's grave.",
+        "note_he": "תאריך עברי: ח׳ באלול תש״ן. בן 78. נטמן בבית העלמין שדה יהושע (לשעבר כפר סמיר), חיפה — חלקה ו׳, שורה 22, קבר 102ד. מספר רשומה בחברה קדישא חיפה 43981. אשתו לוסיה קבורה בקבר הצמוד, 102ג. החברה קדישא רושמת את תאריך לידתו 15/12/1916 (לפי תעודת הזהות הישראלית, בפער של כחמש שנים מן המתועד 25.12.1911 — דפוס מוכר אצל ניצולי שואה שניירותיהם אבדו). אומת דרך שם האב (דב), לידה בפולין, עלייה ב-1946, קבורה בחיפה, וסמיכות לקברה של לוסיה."
       },
       "father_id": "p_berisz",
       "mother_id": "p_rebeka",
@@ -329,7 +331,8 @@
           "source": "doc_lea_ckzp",
           "status": "competing",
           "note_en": "8 April 1916 per Lusia's own CKŻP card (Katowice 1946), the ŻIH index, and the Haifa Chevra Kadisha — three independent sources agree on this year against the single 1913 civil record."
-        }
+        },
+        "note_he": "היום והחודש (8 באפריל) מאוששים כעת בכל המקורות. השנה חלוקה: רשומת הלידה האזרחית מבולחוב נוקבת ב-8.4.1913 (לאליאס ומטל ויצנר); אך שלושה מקורות מאוחרים ובלתי תלויים נוקבים ב-8.4.1916 — (1) כרטיס הניצולה שלה ב-CKŻP מס׳ 151738 שהוגש בקטוביץ ב-1 ביולי 1946, (2) מפתח ŻIH (״לוסיה רפפורט ילידת 8.4.1916, הורים אליאן/מטילדה״), ו-(3) רשומת החברה קדישא בחיפה. התאריך הראשי נשמר לפי התעודה האזרחית מ-1913; אשכול 1916 מתועד ומתחרה. ראו h_leah_dob. הערה: לאה הצהירה על גיל 18 בנישואיה ב-1935/1938; הפחתת גיל הייתה מצביעה דווקא על לידה מוקדמת יותר ב-1913, ולכן הסתירה אינה נפתרת בהצהרה עצמית בלבד."
       },
       "death": {
         "date": "1996-12-28",
@@ -339,7 +342,8 @@
         "sources": [
           "src_haifa_chevra_kadisha_records"
         ],
-        "note_en": "Hebrew date: 18 Tevet 5757. Aged 83. Buried Sde Yehoshua cemetery, Haifa — Section ו (Vav), Row 22, Grave 102ג — immediately adjacent to her husband David's grave 102ד. Haifa Chevra Kadisha record ID 144046. CK records confirm her father as אליהו (Eliyahu = Eli Weitzner) and mother as מטילדה (Matilda = Mathilde Weinreb) — matching all known family records. CK records her birth date as 08/04/1916 (day + month exact match to documented 1913-04-08; year off by 3, common Holocaust-survivor pattern). Aliyah 1948."
+        "note_en": "Hebrew date: 18 Tevet 5757. Aged 83. Buried Sde Yehoshua cemetery, Haifa — Section ו (Vav), Row 22, Grave 102ג — immediately adjacent to her husband David's grave 102ד. Haifa Chevra Kadisha record ID 144046. CK records confirm her father as אליהו (Eliyahu = Eli Weitzner) and mother as מטילדה (Matilda = Mathilde Weinreb) — matching all known family records. CK records her birth date as 08/04/1916 (day + month exact match to documented 1913-04-08; year off by 3, common Holocaust-survivor pattern). Aliyah 1948.",
+        "note_he": "תאריך עברי: י״ח בטבת תשנ״ז. בת 83. נטמנה בבית העלמין שדה יהושע, חיפה — חלקה ו׳, שורה 22, קבר 102ג — צמוד לקברו של בעלה דוד, 102ד. מספר רשומה בחברה קדישא חיפה 144046. רשומות החברה קדישא מאשרות את אביה אליהו (אלי ויצנר) ואת אמה מטילדה (מתילדה ויינרב) — בהתאמה לכל רשומות המשפחה הידועות. תאריך הלידה הרשום שם 08/04/1916 (היום והחודש תואמים במדויק את המתועד 8.4.1913; השנה בפער של שלוש, דפוס מוכר אצל ניצולי שואה). עלתה ב-1948."
       },
       "father_id": "p_elias_weitzner",
       "mother_id": "p_matel_weinreb",
@@ -553,14 +557,16 @@
           "report_basia_13may",
           "oral_dalia_14may"
         ],
-        "note_en": "CORRECTED 2026-06-01 from the legible full scan of his CKŻP card (Nr 151337, Komitet Katowice 1 July 1946): field 3 states born 22.6.1937 in LWÓW — not 'Mosina' as family memory held. The 'Mosina/Muszyna' memory (a river outing with baby Shimon) is a place the family lived, but the primary survivor card gives Lwów as his stated birthplace. NOTE A TENSION FOR DORON: if Shimon was born in Lwów in June 1937, that predates the February 1938 Muszyna marriage recorded in Lusia's memoir — the marriage date (1935 vs 1938) and Shimon's birthplace need reconciling. Recorded faithfully; not resolved."
+        "note_en": "CORRECTED 2026-06-01 from the legible full scan of his CKŻP card (Nr 151337, Komitet Katowice 1 July 1946): field 3 states born 22.6.1937 in LWÓW — not 'Mosina' as family memory held. The 'Mosina/Muszyna' memory (a river outing with baby Shimon) is a place the family lived, but the primary survivor card gives Lwów as his stated birthplace. NOTE A TENSION FOR DORON: if Shimon was born in Lwów in June 1937, that predates the February 1938 Muszyna marriage recorded in Lusia's memoir — the marriage date (1935 vs 1938) and Shimon's birthplace need reconciling. Recorded faithfully; not resolved.",
+        "note_he": "תוקן ב-1 ביוני 2026 מתוך הסריקה המלאה והקריאה של כרטיס ה-CKŻP שלו (מס׳ 151337, ועד קטוביץ, 1 ביולי 1946): שדה 3 קובע שנולד ב-22.6.1937 בלבוב — ולא ב״מוסינה״ כפי שסבר זיכרון המשפחה. הזיכרון בדבר ״מוסינה/מושינה״ (טיול לנהר עם שמעון התינוק) מתייחס למקום שבו התגוררה המשפחה, אך כרטיס הניצולים הראשוני נוקב בלבוב כמקום לידתו המוצהר. הערה על מתח שיש להביא בפני דורון: אם שמעון נולד בלבוב ביוני 1937, הרי זה מקדים את נישואי פברואר 1938 במושינה הרשומים ביומנה של לוסיה — מועד הנישואין (1935 מול 1938) ומקום לידתו של שמעון טעונים יישוב. נרשם בנאמנות; לא הוכרע."
       },
       "death": {
         "date": null,
         "date_precision": "unknown",
         "place_id": "pl_haifa",
         "confidence": "family_oral",
-        "note_en": "Deceased — Hebrew family summary uses the honorific 'ז\"ל' (of blessed memory). Exact death date not yet recorded. To confirm via Haifa Chevra Kadisha records or Bituach Leumi index."
+        "note_en": "Deceased — Hebrew family summary uses the honorific 'ז\"ל' (of blessed memory). Exact death date not yet recorded. To confirm via Haifa Chevra Kadisha records or Bituach Leumi index.",
+        "note_he": "נפטר — סיכום המשפחה בעברית משתמש בכינוי ז״ל. תאריך הפטירה המדויק טרם נרשם. לאימות דרך רשומות החברה קדישא בחיפה או מפתח הביטוח הלאומי."
       },
       "father_id": "p_david",
       "mother_id": "p_leah",
@@ -893,7 +899,8 @@
           "doc_charlotte_birth_vienna_1915",
           "wa_export_2026-06-15"
         ],
-        "note_en": "Vienna birth index found (Austrian collection). David had the date slightly wrong but the location right."
+        "note_en": "Vienna birth index found (Austrian collection). David had the date slightly wrong but the location right.",
+        "note_he": "מפתח הלידות של וינה נמצא (האוסף האוסטרי). דוד טעה מעט בתאריך אך צדק במקום."
       },
       "note_he": "אחותו של דוד. חיה בגטו לבוב עם משפחתה. לפי עמוד 37 ביומן: קנתה מסמכי הגירה מזויפים לארצות הברית אך לפי המסופר הוסגרה בידי המוכרים; לימים נעלמה במלחמה (ככל הנראה נרצחה בשואה). הזיכרון המשפחתי עליה אושר מחדש בידי דליה ב-17 במאי 2026. — מתועדת במאגר JewishGen/Ancestry ״עשרה גטאות יהודיים 1939-1942״ תחת ״לוטה רפפורט, ילידת 1915, גטו קרקוב, 1940״ (סליל 13, רשימה 177, מספר 72)."
     },
@@ -982,7 +989,8 @@
           "doc_berisz_passport_application_1924",
           "doc_bernard_dov_yv_pot"
         ],
-        "note_en": "Born 30 July 1886 in Radomyśl Wielki per his own 1924 passport application (USHMM RG-31.064M) and his Yad Vashem Page of Testimony filed 1953."
+        "note_en": "Born 30 July 1886 in Radomyśl Wielki per his own 1924 passport application (USHMM RG-31.064M) and his Yad Vashem Page of Testimony filed 1953.",
+        "note_he": "נולד ב-30 ביולי 1886 ברדומישל ויילקי לפי בקשת הדרכון שלו מ-1924 (USHMM RG-31.064M) ולפי דף העד שהוגש עבורו ביד ושם ב-1953."
       },
       "facts": [
         {
@@ -1063,7 +1071,8 @@
           "doc_auschwitz_victim_188161",
           "doc_bernard_dov_yv_pot"
         ],
-        "note_en": "Murdered at Auschwitz, per Auschwitz Museum victim record #188161 (transport #689). Yad Vashem Page of Testimony filed by family in 1953 gave the death year as 1940 — likely a memory error by the 1953 submitter; Auschwitz Museum record is the more precise source. Lusia's memoir (page 24) describes Germans killing one of David's parents in Przemyśl on a fabricated railway-bomb charge — Basia's Polish reading of the memoir interprets this as referring to Rebecca, not Berisz, which is consistent with Berisz being deported to Auschwitz rather than killed in Przemyśl."
+        "note_en": "Murdered at Auschwitz, per Auschwitz Museum victim record #188161 (transport #689). Yad Vashem Page of Testimony filed by family in 1953 gave the death year as 1940 — likely a memory error by the 1953 submitter; Auschwitz Museum record is the more precise source. Lusia's memoir (page 24) describes Germans killing one of David's parents in Przemyśl on a fabricated railway-bomb charge — Basia's Polish reading of the memoir interprets this as referring to Rebecca, not Berisz, which is consistent with Berisz being deported to Auschwitz rather than killed in Przemyśl.",
+        "note_he": "נרצח באושוויץ, לפי רשומת הקרבן של מוזיאון אושוויץ מס׳ 188161 (טרנספורט 689). דף העד שהגישה המשפחה ביד ושם ב-1953 נקב בשנת המוות 1940 — ככל הנראה שגיאת זיכרון של המגיש ב-1953; רשומת מוזיאון אושוויץ היא המקור המדויק יותר. יומנה של לוסיה (עמוד 24) מתאר גרמנים שהרגו את אחד מהוריו של דוד בפשמישל באשמת שווא של פצצה במסילה — קריאתה הפולנית של בסיה מפרשת זאת כמתייחס לרבקה ולא לבריש, ודבר זה עולה בקנה אחד עם הגלייתו של בריש לאושוויץ ולא הריגתו בפשמישל."
       },
       "note_he": "סב-רבא מצד האב של דורון, דנה ודניאל. נולד ב-30 ביולי 1886 ברדומישל ויילקי (עיירה קטנה בין מיילץ לטרנוב, בפולין הקטנה). אביו: משה שאול רפפורט, סוחר. אמו: מנוחה (לפי דף העד שהוגש ב-1953). אזרח פולין בן הדת היהודית; תעשיין המתגורר בסטניסלבוב מאז 1918. כתובת: קושצ׳ושקי 4, סטניסלבוב. תעודת זהות ל/9376/22 הונפקה בסטניסלבוב ב-16 בנובמבר 1922; בקשת דרכון מ-1924 לנסיעה עסקית לווינה; חידוש תעודה ב-1927. נשא את רבקה (רגינה ריווה) גריפל אזרחית בנדבורנא ב-21 בדצמבר 1911, ארבעה ימים לפני לידת בנם דוד מנדל. ילדים: דוד מנדל (נולד 25 בדצמבר 1911 בנדבורנא) ולוטה (ילידת 1915 בערך). עד 1939 התגורר בפשמישל עם רבקה. עם פרוץ המלחמה נסעו לוסיה ושמעון לשם להצטרף אליהם; דוד בא אחריהם. תחת השלטון הסובייטי (ספטמבר 1939 — יוני 1941). לאחר הכיבוש הגרמני ביוני 1941, לפי עמוד 24 ביומנה של לוסיה, ״כמה חודשים אחר כך״ הרגו הגרמנים אחד מהורי דוד בפשמישל באשמת שווא של פיצוץ פסי רכבת — הדקדוק העברי אינו מבחין בין חם לחמות; בסיה (קוראת פולנית) מפרשת שרבקה היא שנהרגה באשמת הפיצוץ. בריש עצמו מופיע במאגר הקרבנות של מוזיאון אושוויץ (רשומה #188161, טרנספורט #689) — כלומר גורש לאושוויץ ושם נרצח. דף העד שהוגש ב-1953 נוקב בשנת 1940 כשנת המוות; רשומת מוזיאון אושוויץ עשויה לתת תאריך מדויק יותר."
     },
@@ -1751,7 +1760,8 @@
           "src_lusia_memoir_page_24",
           "doc_regina_rivka_yv_pot"
         ],
-        "note_en": "Killed in Przemyśl by Germans on a fabricated bomb-on-railway accusation, per Lusia's memoir page 24 — Basia's Polish reading interprets the ambiguous Hebrew חמה/חמותה as \"mother-in-law\". Yad Vashem PoT filed 1953 lists year 1943 place unknown — discrepancy attributed to 1953 submitter's incomplete knowledge."
+        "note_en": "Killed in Przemyśl by Germans on a fabricated bomb-on-railway accusation, per Lusia's memoir page 24 — Basia's Polish reading interprets the ambiguous Hebrew חמה/חמותה as \"mother-in-law\". Yad Vashem PoT filed 1953 lists year 1943 place unknown — discrepancy attributed to 1953 submitter's incomplete knowledge.",
+        "note_he": "נהרגה בפשמישל בידי הגרמנים באשמת שווא של פצצה במסילת הרכבת, לפי יומנה של לוסיה עמוד 24 — קריאתה הפולנית של בסיה מפרשת את המילה העברית הדו-משמעית חמה/חמותה כ״חמותה״. דף העד שהוגש ב-1953 נוקב בשנת 1943 ובמקום לא ידוע — הפער מיוחס לידיעתו החלקית של המגיש ב-1953."
       },
       "note_he": "סבתא-רבתא מצד האב של דורון, דנה ודניאל. אמם של דוד מנדל ולוטה. נולדה ב-1888 בנדבורנא, בתם של אליעזר ״זיידה״ גריפל ושרה מטל חייס. דף העד שהגישה המשפחה ביד ושם ב-1953 נוקב בשנת לידה 1892 — ככל הנראה טעות זיכרון של המגיש; ייחוס משפחת גריפל מאשש 1888. נישאה אזרחית לבריש רפפורט בנדבורנא ב-21 בדצמבר 1911, ארבעה ימים לפני לידת בנם דוד מנדל. פנקס הנישואין של נדבורנא לשנים 1890-1914 אבד במלחמת העולם הראשונה; רק הערה בתעודת הלידה של דוד מאשרת את הנישואין. ייחוס ״גריפל מנדבורנא״ של אדוארד גלס מתעד נישואין דתיים באולחובצה שבמחוז לבוב ב-1908 — קרוב לוודאי חתונה דתית מוקדמת יותר, לפני הרישום האזרחי. מגורים לפני המלחמה: פשמישל. בזמן המלחמה: פשמישל. לפי עמוד 24 ביומנה של לוסיה (בקריאתה הפולנית של בסיה), נהרגה בידי הגרמנים בפשמישל באשמה שהניחה פצצה על מסילת הרכבת ליד מקום מגורי המשפחה — אשמת שווא, ככל הנראה ב-1942. דף העד ביד ושם נוקב ב-1943 כשנת המוות, ומקום לא ידוע."
     },
@@ -1892,7 +1902,8 @@
         "sources": [
           "src_gelles_griffel_nadworna_pdf"
         ],
-        "note_en": "Born in Kolomea (Kolomyia), Galicia — exact year unknown but ~1855."
+        "note_en": "Born in Kolomea (Kolomyia), Galicia — exact year unknown but ~1855.",
+        "note_he": "נולדה בקולומיאה, גליציה — השנה המדויקת אינה ידועה, בקירוב 1855."
       },
       "death": {
         "date": "1940",
@@ -2614,7 +2625,8 @@
         "sources": [
           "src_gelles_griffel_nadworna_pdf"
         ],
-        "note_en": "Perished in the Holocaust."
+        "note_en": "Perished in the Holocaust.",
+        "note_he": "נספה בשואה."
       },
       "father_id": "p_leizor_griffel",
       "mother_id": "p_sara_chajes",
@@ -2861,7 +2873,8 @@
         "sources": [
           "src_gelles_griffel_nadworna_pdf"
         ],
-        "note_en": "Born early 19th century in Nadwórna."
+        "note_en": "Born early 19th century in Nadwórna.",
+        "note_he": "נולד בראשית המאה התשע עשרה בנדבורנא."
       },
       "role": "ggg_grandfather",
       "note_en": "Father of Eliezer \"Zeida\" Griffel (1850-1918) of Nadwórna. Edward Gelles places the Griffel rabbinical-merchant line in the 18th-century Lemberg circle of Rav Leiser Neches and Rav Jacob Leib.",
@@ -3234,7 +3247,8 @@
         "sources": [
           "src_ada_green_nadworna_burial_transcription"
         ],
-        "note_en": "Buried at Baron Hirsch Cemetery, 1126 Richmond Avenue, Staten Island NY — Nadworner YMBA Section I, Gate 51. Documented in Ada Green's transcription of the Nadworner landsmanshaft burials."
+        "note_en": "Buried at Baron Hirsch Cemetery, 1126 Richmond Avenue, Staten Island NY — Nadworner YMBA Section I, Gate 51. Documented in Ada Green's transcription of the Nadworner landsmanshaft burials.",
+        "note_he": "נטמן בבית העלמין ברון הירש, שדרות ריצ׳מונד 1126, סטטן איילנד, ניו יורק — חלקת יוצאי נדבורנא (Nadworner YMBA), חלקה I, שער 51. מתועד בתמלול של איידה גרין לקבורות בני העיירה נדבורנא."
       },
       "role": "first_cousin",
       "note_en": "1st cousin of David Memek. Son of David Mendel Griffel + Chawa Wahl. Born Nadwórna 1897, died 1951. VERIFIED 21 May 2026 (Basia's archive find): Zygmunt's timber-export firm was located at Lwów, ul. Kopernika 5. Founded 1923. Exporting 60,000 tons of pine timber annually to England (82.8% of output) plus Holland, Germany, Switzerland, France. Transit warehouses in Gdynia + Gdańsk. Confirms the family timber dynasty Eric Griffel described in his ADST oral history.",
@@ -3326,7 +3340,8 @@
         "sources": [
           "src_ada_green_nadworna_burial_transcription"
         ],
-        "note_en": "Buried at Baron Hirsch Cemetery, Staten Island — Nadworner YMBA Section I, Gate 51 (same plot as brother Zygmunt). Hebrew name: Aizik Chaim ben Dovid Menachem."
+        "note_en": "Buried at Baron Hirsch Cemetery, Staten Island — Nadworner YMBA Section I, Gate 51 (same plot as brother Zygmunt). Hebrew name: Aizik Chaim ben Dovid Menachem.",
+        "note_he": "נטמן בבית העלמין ברון הירש, סטטן איילנד — חלקת יוצאי נדבורנא, חלקה I, שער 51 (באותה חלקה עם אחיו זיגמונט). שמו העברי: אייזיק חיים בן דוד מנחם."
       },
       "role": "first_cousin",
       "note_en": "1st cousin of David Memek. Born Nadwórna 9 Oct 1904. Industrialist (Przemysłowiec) resident Stanisławów.",
@@ -3370,7 +3385,8 @@
         "sources": [
           "src_gelles_griffel_nadworna_pdf"
         ],
-        "note_en": "Murdered in 1941 — almost certainly the 6 October 1941 Bukowinka Forest mass shooting in Nadwórna."
+        "note_en": "Murdered in 1941 — almost certainly the 6 October 1941 Bukowinka Forest mass shooting in Nadwórna.",
+        "note_he": "נרצחה ב-1941 — קרוב לוודאי ברצח ההמוני ביער בוקובינקה שליד נדבורנא, ב-6 באוקטובר 1941."
       },
       "role": "first_cousin_in_law",
       "note_en": "Wife of David Mendel Griffel (Rebeka's eldest brother). Of the Wahl family — connecting to the Saul Wahl Katzenellenbogen rabbinical dynasty per Edward Gelles.",
@@ -3637,7 +3653,8 @@
         "sources": [
           "src_eric_griffel_adst_oral_history_2015"
         ],
-        "note_en": "Died of cancer in mid-sixties per Eric Griffel's 2015 ADST oral history."
+        "note_en": "Died of cancer in mid-sixties per Eric Griffel's 2015 ADST oral history.",
+        "note_he": "נפטרה מסרטן באמצע שנות השישים לחייה, לפי עדותו שבעל פה של אריק גריפל ל-ADST משנת 2015."
       },
       "note_he": "דיאנה מרגרט גריפל (נולדה בלונדון ב-27 באוקטובר 1943, נפטרה באמצע שנות השישים מסרטן). בתם של אדוארד גריפל וסוזן מנסון. בת דודה מדרגה שנייה של דוד ממק. פטירתה אושרה בעדותו ההיסטורית של אחיה אריק גריפל משנת 2015."
     },
@@ -4229,7 +4246,8 @@
         "sources": [
           "src_ada_green_nadworna_burial_transcription"
         ],
-        "note_en": "Calculated from age 67 at death (1978)."
+        "note_en": "Calculated from age 67 at death (1978).",
+        "note_he": "מחושב לפי גיל 67 בעת פטירתה (1978)."
       },
       "death": {
         "date": "1978-06-22",
@@ -4239,7 +4257,8 @@
         "sources": [
           "src_ada_green_nadworna_burial_transcription"
         ],
-        "note_en": "Buried at Baron Hirsch Cemetery, Staten Island — Nadworner YMBA Section I, Gate 51 (same plot as husband Edward Griffel). Hebrew name: Sarah bat Yisrael."
+        "note_en": "Buried at Baron Hirsch Cemetery, Staten Island — Nadworner YMBA Section I, Gate 51 (same plot as husband Edward Griffel). Hebrew name: Sarah bat Yisrael.",
+        "note_he": "נטמנה בבית העלמין ברון הירש, סטטן איילנד — חלקת יוצאי נדבורנא, חלקה I, שער 51 (באותה חלקה עם בעלה אדוארד גריפל). שמה העברי: שרה בת ישראל."
       },
       "role": "first_cousin_in_law",
       "spouse_id": "p_edward_griffel_uncle",
@@ -4266,7 +4285,8 @@
         "sources": [
           "src_ada_green_nadworna_burial_transcription"
         ],
-        "note_en": "Calculated from age 63 at death (1962). Joined NY landsmanshaft 1949 at age 50."
+        "note_en": "Calculated from age 63 at death (1962). Joined NY landsmanshaft 1949 at age 50.",
+        "note_he": "מחושב לפי גיל 63 בעת פטירתו (1962). הצטרף לאגודת יוצאי העיירה בניו יורק ב-1949, בגיל 50."
       },
       "death": {
         "date": "1962-12-13",
@@ -4276,7 +4296,8 @@
         "sources": [
           "src_ada_green_nadworna_burial_transcription"
         ],
-        "note_en": "Buried at Baron Hirsch Cemetery, Staten Island — First Nadworner SBA Section A, Gate 113."
+        "note_en": "Buried at Baron Hirsch Cemetery, Staten Island — First Nadworner SBA Section A, Gate 113.",
+        "note_he": "נטמן בבית העלמין ברון הירש, סטטן איילנד — חלקת נדבורנא הראשונה (First Nadworner SBA), חלקה A, שער 113."
       },
       "role": "nadworner_relative_likely_cousin",
       "spouse_id": "p_mollie_mehrbaum",
@@ -4303,7 +4324,8 @@
         "sources": [
           "src_ada_green_nadworna_burial_transcription"
         ],
-        "note_en": "Calculated from age 46 in 1949 membership and age 76 at death (1966). Born in Vorokhta (Worochta), Carpathian foothills near Nadwórna."
+        "note_en": "Calculated from age 46 in 1949 membership and age 76 at death (1966). Born in Vorokhta (Worochta), Carpathian foothills near Nadwórna.",
+        "note_he": "מחושב לפי גיל 46 ברשימת החברים של 1949 וגיל 76 בעת פטירתה (1966). נולדה בוורוכטה, במרגלות הקרפטים ליד נדבורנא."
       },
       "death": {
         "date": "1966-04-08",
@@ -4313,7 +4335,8 @@
         "sources": [
           "src_ada_green_nadworna_burial_transcription"
         ],
-        "note_en": "Buried at Baron Hirsch Cemetery, Staten Island — First Nadworner SBA Section A, Gate 113 (same plot as husband Bernard)."
+        "note_en": "Buried at Baron Hirsch Cemetery, Staten Island — First Nadworner SBA Section A, Gate 113 (same plot as husband Bernard).",
+        "note_he": "נטמנה בבית העלמין ברון הירש, סטטן איילנד — חלקת נדבורנא הראשונה, חלקה A, שער 113 (באותה חלקה עם בעלה ברנרד)."
       },
       "role": "nadworner_relative_in_law",
       "spouse_id": "p_bernard_griffel_nyc",
@@ -4575,7 +4598,8 @@
           "doc_abraham_abe_descendants_tree_2026",
           "report_basia_2026_08_05"
         ],
-        "note_en": "\"b. 1858 about\" on Basia’s chart, and the Tarnów death record of 1933 gives his age as 75, which agrees."
+        "note_en": "\"b. 1858 about\" on Basia’s chart, and the Tarnów death record of 1933 gives his age as 75, which agrees.",
+        "note_he": "״נולד 1858 בקירוב״ בתרשים של בסיה, ורשומת הפטירה מטרנוב 1933 נוקבת בגילו 75 — והשניים מסכימים."
       },
       "death": {
         "date": "1933-11-08",
@@ -4587,7 +4611,8 @@
           "report_basia_2026_08_05",
           "doc_tarnow_death_1933_152"
         ],
-        "note_en": "Tarnów death record 1933/152 — died at ul. Folwarczna, aged 75 — and the same date independently on Basia’s descendant chart."
+        "note_en": "Tarnów death record 1933/152 — died at ul. Folwarczna, aged 75 — and the same date independently on Basia’s descendant chart.",
+        "note_he": "רשומת פטירה מטרנוב 1933/152 — נפטר ברחוב פולברצ׳נה, בן 75 — ואותו תאריך עצמו, באופן בלתי תלוי, בתרשים הצאצאים של בסיה."
       }
     },
     {
@@ -4694,7 +4719,8 @@
         "sources": [
           "wa_export_2026-06-15"
         ],
-        "note_en": "Dana floated 20.11.1912; not yet on a primary record."
+        "note_en": "Dana floated 20.11.1912; not yet on a primary record.",
+        "note_he": "דנה העלתה את התאריך 20.11.1912; טרם נמצא ברשומה ראשונית."
       },
       "father_id": "p_szymon_rapaport_b1884",
       "mother_id": "p_paja_laub",
@@ -4770,7 +4796,8 @@
         "sources": [
           "wa_export_2026-06-15"
         ],
-        "note_en": "Buried Holon Cemetery, Bat Yam (Tel Aviv District), with husband Markus Türkel."
+        "note_en": "Buried Holon Cemetery, Bat Yam (Tel Aviv District), with husband Markus Türkel.",
+        "note_he": "נטמנה בבית העלמין חולון, בת ים (מחוז תל אביב), לצד בעלה מרקוס טירקל."
       },
       "father_id": "p_mendel_horowitz",
       "mother_id": "p_jente_rapaport",
@@ -5070,7 +5097,8 @@
           "doc_abraham_abe_descendants_tree",
           "report_basia_2026_08_05"
         ],
-        "note_en": "Basia’s descendant chart gives 1884. Rosenstein’s published tree gives Shabtai Rappaport, A.B.D. Dombrowa, died 1897. The archive records the conflict and does not settle it — see h_szabse_death_year."
+        "note_en": "Basia’s descendant chart gives 1884. Rosenstein’s published tree gives Shabtai Rappaport, A.B.D. Dombrowa, died 1897. The archive records the conflict and does not settle it — see h_szabse_death_year.",
+        "note_he": "תרשים הצאצאים של בסיה נוקב ב-1884. האילן שפרסם רוזנשטיין נוקב בשבתאי רפפורט, אב״ד דומברובה, שנפטר ב-1897. הארכיון מתעד את הסתירה ואינו מכריע בה — ראו h_szabse_death_year."
       },
       "children_ids": [
         "p_moses_saul_rapaport",
