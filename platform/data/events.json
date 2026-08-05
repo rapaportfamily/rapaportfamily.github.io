@@ -709,14 +709,15 @@
         "fr": "David et Shimon embarquent à Sète sur le Theodor Herzl"
       },
       "description": {
-        "en": "The ex-British cable-layer HMS Guardian, built in Newcastle in 1907, carrying 2,641 ma’apilim gathered from camps in France and Belgium. Lusia stayed behind in Brussels with the eight-month-old Dov.",
-        "he": "ספינת הכבלים הבריטית לשעבר HMS Guardian, שנבנתה בניוקאסל ב-1907, נושאת 2,641 מעפילים ממחנות בצרפת ובבלגיה. לוסיה נשארה בבריסל עם דב בן שמונת החודשים.",
+        "en": "The ex-British cable-layer HMS Guardian, built of metal in Newcastle in 1907 — 1,768 tons, coal-fired, eight knots flat out — carrying 2,641 ma’apilim gathered from camps in France and Belgium. Her commander was Mecca Limon; the radio operator, the \"Gideoni\", was Nachman (Bob) Burstein; and a party of journalists sailed with her under Moish Perlman, later head of the Israeli government press office. Lusia stayed behind in Brussels with the eight-month-old Dov.",
+        "he": "אוניית הכבלים הבריטית לשעבר HMS Guardian, שנבנתה ממתכת בניוקאסל ב-1907 — 1,768 טונות, מונעת פחם, שמונה קשרים במלוא המהירות — ונשאה 2,641 מעפילים שנאספו ממחנות בצרפת ובבלגיה. מפקדה היה מקה לימון; הגדעוני, אלחוטן האונייה, היה נחמן (בוב) בורשטיין; ועמם הפליגה חבורת עיתונאים בראשות מויש פרלמן, לימים ראש לשכת העיתונות הממשלתית. לוסיה נותרה מאחור בבריסל עם דב בן שמונת החודשים.",
         "pl": "Dawny brytyjski kablowiec HMS Guardian z 1907 r., z 2641 ma’apilim z obozów we Francji i Belgii.",
         "fr": "L’ancien câblier britannique HMS Guardian, de 1907, avec 2 641 ma’apilim venus de camps en France et en Belgique."
       },
       "confidence": "documented",
       "sources": [
-        "doc_lusia_memoir"
+        "doc_lusia_memoir",
+        "src_palyam_theodor_herzl"
       ],
       "context_brief": {
         "en": "The Theodor Herzl was the former British cable-layer HMS Guardian, built at Newcastle in 1907 and bought for Aliyah Bet. She sailed from Sète on 2 April 1947 with 2,641 ma’apilim gathered from displaced-persons camps across France and Belgium, and was intercepted eleven days later.",
@@ -753,14 +754,15 @@
         "fr": "Le Theodor Herzl est arraisonné par la Royal Navy"
       },
       "description": {
-        "en": "Intercepted off the coast by HMS Haydon and HMS St Brides Bay. The passengers resisted; three were killed and twenty-seven wounded. All aboard were deported to Cyprus.",
-        "he": "נתפסה מול החוף בידי HMS Haydon ו-HMS St Brides Bay. הנוסעים התנגדו; שלושה נהרגו ועשרים ושבעה נפצעו. כל מי שהיה על הסיפון גורש לקפריסין.",
-        "pl": "Przechwycony u wybrzeży; pasażerowie stawili opór, trzech zginęło. Wszystkich deportowano na Cypr.",
-        "fr": "Intercepté au large ; les passagers résistèrent, trois furent tués. Tous furent déportés à Chypre."
+        "en": "Intercepted off the coast by HMS Haydon and HMS St Brides Bay. The Palyam account calls it one of the most severe battles of the whole Aliyah Bet operation. Three ma’apilim were killed by gunfire and their names are known: AHARON DOV, PINCHAS WEISS and MENACHEM SAMET. The British commanders’ own report reads: \"The most unusual feature of the arrest was the level of employment of firearms by the boarding party: of over a score of casualties among the immigrants, ten suffered gunshot wounds, of which two died at the time and one died later.\" The wounded and the sick were taken to the Atlit detention camp; everyone else was deported to Cyprus. David and nine-year-old Shimon were aboard.",
+        "he": "נתפסה מול החוף בידי אוניות המלחמה HMS Haydon ו-HMS St Brides Bay. הפלי״ם מכנה את הקרב הזה אחד הקשים בכל מבצע העלייה ב׳. שלושה מעפילים נהרגו מירי ושמותיהם ידועים: אהרון דב, פנחס וייס ומנחם סמט. בדוח המפקדים הבריטיים עצמם נכתב: ״המאפיין החריג ביותר במעצר היה מידת השימוש בנשק חם מצד כוח ההשתלטות: מבין למעלה מעשרים נפגעים בקרב המהגרים, עשרה נפצעו מירי, ומהם שניים מתו במקום ואחד מת לאחר מכן.״ הפצועים והחולים הועברו למחנה המעצר בעתלית; כל השאר הוגלו לקפריסין. דוד ושמעון בן התשע היו על הסיפון.",
+        "pl": "Przechwycony przez okręty HMS Haydon i HMS St Brides Bay. Trzech ma’apilim zginęło od kul: Aharon Dow, Pinchas Weiss i Menachem Samet. Rannych i chorych umieszczono w obozie Atlit, resztę deportowano na Cypr.",
+        "fr": "Arraisonné par le HMS Haydon et le HMS St Brides Bay. Trois ma’apilim furent tués par balles : Aharon Dov, Pinchas Weiss et Menachem Samet. Les blessés et les malades furent internés à Atlit, tous les autres déportés à Chypre."
       },
       "confidence": "confirmed",
       "sources": [
-        "doc_lusia_memoir"
+        "doc_lusia_memoir",
+        "src_palyam_theodor_herzl"
       ],
       "context_brief": {
         "en": "From 1945 to 1948 the Royal Navy blockaded Palestine against Aliyah Bet, the clandestine immigration organised by the Mossad LeAliyah Bet. Some 66 voyages carried about 70,000 people; most were intercepted. After August 1946 the passengers were no longer sent back to Europe but deported to camps on Cyprus. Boarding parties met resistance on many ships — three ma’apilim were killed and twenty-seven wounded on the Theodor Herzl.",

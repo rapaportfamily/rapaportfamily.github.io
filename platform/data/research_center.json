@@ -2430,6 +2430,51 @@
       "intro_he": "ארכיוני תצלומים שסביר שיכילו תמונות מלפני המלחמה של נדבורנה, בולחוב, בני משפחה או חיי הקהילה.",
       "cards": [
         {
+          "id": "sete_1947_photograph_not_found",
+          "title_en": "Sète in 1947: searched, not found in any free collection",
+          "title_he": "סֶט ב-1947: חיפשנו, לא נמצא באוסף חופשי כלשהו",
+          "summary_en": "The port David and Shimon sailed from on 2 April 1947, and the port the Exodus sailed from that July. Searched on 5 August 2026: Wikimedia Commons (nothing of the port in the 1940s — only Albert Marquet’s paintings of it and a 1912 Agence Rol photograph, which is what this archive already shows), the Palmach photo treasury (no caption mentions סט), and the Palyam ship files. Where to ask next, in order: the Palmach archive directly, the Ha’apala collection at the Israel Defense Forces and Defense Establishment Archives, and the Musée-archives of the town of Sète itself, which is the least likely to have been searched by anyone doing this before.",
+          "summary_he": "הנמל שממנו הפליגו דוד ושמעון ב-2 באפריל 1947, והנמל שממנו הפליגה ״אקסודוס״ ביולי אותה שנה. נבדק ב-5 באוגוסט 2026: ויקישיתוף (אין דבר מן הנמל בשנות הארבעים — רק ציוריו של אלבר מארקה ותצלום של סוכנות רול מ-1912, שהוא מה שהארכיון הזה כבר מציג), אוצר תמונות הפלמ״ח (אין כיתוב שנוקב בסֶט), ותיקי האוניות של הפלי״ם. היכן לשאול הלאה, לפי הסדר: ארכיון הפלמ״ח ישירות, אוסף ההעפלה בארכיון צה״ל ומערכת הביטחון, וארכיון העיר סֶט עצמה — שהוא הפחות סביר שנבדק בידי מישהו שעשה זאת לפנינו.",
+          "status": "open",
+          "urls": [
+            "https://www.palyam.org/English/Hahapala/hf/hf_Theodor_Herzl.pdf"
+          ]
+        },
+        {
+          "id": "palyam_theodor_herzl_account",
+          "title_en": "The Palyam account of the voyage — and the three men who were killed",
+          "title_he": "תיאור המסע מטעם הפלי״ם — ושלושת ההרוגים",
+          "summary_en": "Read 5 August 2026. \"The Voyage of the Theodor Herzl\", compiled by Tzvi Ben-Tzur for the Palyam (the Palmach naval company) site. It supplies what our own entry was missing: the names of the three ma’apilim shot dead on 13 April 1947 — Aharon Dov, Pinchas Weiss, Menachem Samet — the British commanders’ own report on the shooting, the ship’s commander (Mecca Limon), and one correction: the wounded and sick were taken to ATLIT, not everyone was deported to Cyprus as this archive previously stated. The document carries three photographs, one captioned \"Preparation for boarding the Theodor Herzl\" — the closest thing found to a photograph of the embarkation David and Shimon were part of. Not republished here; the source is credited and linked instead.",
+          "summary_he": "נקרא ב-5 באוגוסט 2026. ״מסעה של תיאודור הרצל״, בעריכת צבי בן-צור לאתר הפלי״ם. הוא מספק את מה שחסר ברשומה שלנו: שמות שלושת המעפילים שנורו למוות ב-13 באפריל 1947 — אהרון דב, פנחס וייס ומנחם סמט — דוח המפקדים הבריטיים על הירי, שם מפקד האונייה (מקה לימון), ותיקון אחד: הפצועים והחולים הועברו לעתלית, ולא כולם הוגלו לקפריסין כפי שנכתב כאן קודם לכן. המסמך נושא שלושה תצלומים, ואחד מהם מכותרת ״היערכות לעלייה לתיאודור הרצל״ — הדבר הקרוב ביותר שנמצא לתצלום של ההפלגה שדוד ושמעון היו חלק ממנה. לא פורסם כאן; המקור מיוחס ומקושר במקומו.",
+          "status": "resolved",
+          "urls": [
+            "https://www.palyam.org/English/Hahapala/hf/hf_Theodor_Herzl.pdf"
+          ]
+        },
+        {
+          "id": "kedma_is_not_kadima",
+          "title_en": "A name trap: קדמה (Kedma) is not קדימה (Kadima)",
+          "title_he": "מלכודת שמות: ״קדמה״ אינה ״קדימה״",
+          "summary_en": "The ship Lusia and Dov crossed on in 1948 is קדמה, the KEDMA — Zim’s first vessel, a legal passenger liner bought in the summer of 1947 in partnership with Harris & Dixon of London. She is not in the Palmach or Palyam archives at all, and that is the correct outcome rather than a gap: those archives document clandestine immigration, and the Kedma was not a clandestine ship. After the State was declared she carried close to two thirds of the mass-immigration wave that arrived by sea — Lusia and Dov among them. THE TRAP: the Palmach archive does hold photographs captioned \"קדימה (REFAEL LUCCIA)\" — KADIMA, with a yud, a genuine Aliyah Bet ship and a DIFFERENT VESSEL. This archive had \"Kadima\" in its own timeline until 5 August 2026. Anyone searching will meet this trap; do not let the two become one ship.",
+          "summary_he": "האונייה שבה חצו לוסיה ודב ב-1948 היא ״קדמה״ — האונייה הראשונה של צים, ספינת נוסעים חוקית שנרכשה בקיץ 1947 בשותפות עם ״האריס אנד דיקסון״ מלונדון. היא אינה מופיעה כלל בארכיוני הפלמ״ח והפלי״ם, וזו התוצאה הנכונה ולא חֶסֶר: הארכיונים ההם מתעדים העפלה, ו״קדמה״ לא הייתה ספינת מעפילים. לאחר הכרזת המדינה הביאה קרוב לשני שלישים מגל העלייה ההמונית שהגיע דרך הים — ולוסיה ודב בתוכם. המלכודת: בארכיון הפלמ״ח יש תצלומים שכיתובם ״קדימה (REFAEL LUCCIA)״ — ״קדימה״ ביו״ד, ספינת מעפילים אמיתית, וכלי שיט אחר לגמרי. בארכיון הזה עצמו נרשמה ״קדימה״ בציר הזמן עד 5 באוגוסט 2026. כל מי שיחפש ייתקל במלכודת; אין לאחד בין השתיים.",
+          "status": "resolved",
+          "urls": [
+            "https://palmach.org.il/archive/galleries/gallerypage/?itemId=152510"
+          ]
+        },
+        {
+          "id": "palmach_theodor_herzl_photographs",
+          "title_en": "The Palmach archive holds 19 photographs of the Theodor Herzl",
+          "title_he": "ארכיון הפלמ״ח מחזיק 19 תצלומים של ״תיאודור הרצל״",
+          "summary_en": "Gallery \"פלי״ם ספינות המעפילים ב\" in the Palmach photo treasury (אוצר תמונות הפלמ״ח) holds nineteen photographs captioned \"תיאודור הרצל (GUARDIAN)\", itemId 46947 through 46965. This is the ship David and nine-year-old Shimon sailed on from Sète on 2 April 1947. THEY CANNOT BE PUBLISHED HERE: the gallery carries \"כל הזכויות שמורות לעמותת דור הפלמ״ח\" — all rights reserved to the Palmach Generation Association — and the archive says quality prints must be requested from it directly. This is a request Doron can make, naming the family connection. The archive holds over 30,000 photographs, of which about 1,000 are online.",
+          "summary_he": "הגלריה ״פלי״ם ספינות המעפילים ב״ באוצר תמונות הפלמ״ח מחזיקה תשעה עשר תצלומים שכיתובם ״תיאודור הרצל (GUARDIAN)״, מספרי פריט 46947 עד 46965. זו האונייה שבה הפליגו דוד ושמעון בן התשע מסֶט ב-2 באפריל 1947. אי אפשר לפרסמם כאן: בגלריה נכתב ״כל הזכויות שמורות לעמותת דור הפלמ״ח״, והארכיון מבקש שהעתקים איכותיים יוזמנו ישירות ממנו. זו פנייה שדורון יכול לעשות, בציון הקשר המשפחתי. הארכיון מחזיק למעלה מ-30,000 תצלומים, מהם כאלף מקוונים.",
+          "status": "lead",
+          "urls": [
+            "https://palmach.org.il/archive/galleries/gallerypage/?itemId=152510",
+            "https://palmach.org.il/archive/galleries/"
+          ]
+        },
+        {
           "id": "jgb_bolechow",
           "title_en": "Jewish Galicia & Bukovina — Bolechów photo gallery + 1914 map",
           "title_he": "Jewish Galicia & Bukovina — גלריית בולחוב + מפת 1914",
