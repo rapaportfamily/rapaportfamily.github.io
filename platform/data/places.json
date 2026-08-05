@@ -1685,6 +1685,21 @@
           "credit": "via Wikimedia Commons — public domain"
         }
       ]
+    },
+    {
+      "id": "pl_krakow",
+      "names": {
+        "en": "Kraków",
+        "he": "קרקוב",
+        "pl": "Kraków",
+        "fr": "Cracovie"
+      },
+      "coords": [
+        50.0647,
+        19.945
+      ],
+      "significance": "Where the paternal line ends up. Basia’s descendant chart of Abraham Abe Rapaport shows the family moving from Tarnów to Kraków across the nineteenth century: Józef married Rachela Jakobsohn there in 1832, and Moses Saul’s brothers Majer (d. 1920) and Izchak Chaim (d. 1921) both died there, as did Izchak Chaim’s wife Margulesa Bornstein (d. 1925).",
+      "significance_he": "לשם מגיע קו האב. תרשים הצאצאים של אברהם אבה רפפורט שערכה בסיה מראה את המשפחה עוברת מטרנוב לקרקוב לאורך המאה התשע עשרה: יוזף נשא שם את רחלה יקובסון ב-1832, ואחיו של משה שאול — מאיר (נפטר 1920) ויצחק חיים (נפטר 1921) — נפטרו שניהם שם, וכמוהם גם אשתו של יצחק חיים, מרגוליסה בורנשטיין (נפטרה 1925)."
     }
   ]
 }

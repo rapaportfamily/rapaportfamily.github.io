@@ -4566,7 +4566,29 @@
       ],
       "note_he": "אביו של בריש והאב הקדמון של קו האב. שמו נודע במאי 2026 מתוך תיק בקשת הדרכון של בריש מ-1924, לאחר שנה שבה הקו הזה היה מבוי סתום. שלושה שטרי נישואין מטרנוב — 1919, 1920 ו-1923, של שלוש מאחיותיו של בריש — נוקבים כל אחד בנפרד ב״משה ומנוחה״ כהוריהן. משה שאול ישב במועצת הקהילה ברדומישל ויילקי בשנים 1897-1905. לא נמצא שום תצלום שלו, והחיפוש נרשם ככישלון ולא הושאר פתוח.",
       "father_id": "p_szabse_rapaport",
-      "mother_id": "p_ita_feiga_jahr"
+      "mother_id": "p_ita_feiga_jahr",
+      "birth": {
+        "date": "1858",
+        "date_precision": "about",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ],
+        "note_en": "\"b. 1858 about\" on Basia’s chart, and the Tarnów death record of 1933 gives his age as 75, which agrees."
+      },
+      "death": {
+        "date": "1933-11-08",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06",
+          "doc_tarnow_death_1933_152"
+        ],
+        "note_en": "Tarnów death record 1933/152 — died at ul. Folwarczna, aged 75 — and the same date independently on Basia’s descendant chart."
+      }
     },
     {
       "id": "p_szymon_rapaport_b1884",
@@ -5051,7 +5073,12 @@
         "note_en": "Basia’s descendant chart gives 1884. Rosenstein’s published tree gives Shabtai Rappaport, A.B.D. Dombrowa, died 1897. The archive records the conflict and does not settle it — see h_szabse_death_year."
       },
       "children_ids": [
-        "p_moses_saul_rapaport"
+        "p_moses_saul_rapaport",
+        "p_abe_rapaport_1845",
+        "p_liebe_rapaport_1847",
+        "p_majer_rapaport_1849",
+        "p_izchak_chaim_rapaport",
+        "p_rachel_rapaport_weidenfeld"
       ],
       "note_en": "Father of Moses Saul Rapaport, and therefore the earliest ancestor this archive can name on the direct paternal line. Named as Moses Saul’s father on the Tarnów death record of 1933 and independently on the descendant chart of Abraham Abe Rapaport compiled by Basia in 2026. Rosenstein’s \"The Lurie Legacy\" carries a Shabtai Rappaport, A.B.D. Dombrowa — head of the rabbinical court of Dąbrowa — whom Basia marks as the same man; his death year there is 1897, not 1884.",
       "note_he": "אביו של משה שאול רפפורט, ומכאן האב הקדמון המוקדם ביותר שהארכיון הזה יודע לנקוב בשמו בקו האב הישיר. נקוב כאביו של משה שאול ברשומת הפטירה מטרנוב 1933, ובאופן בלתי תלוי בתרשים הצאצאים של אברהם אבה רפפורט שערכה בסיה ב-2026. אצל רוזנשטיין ב״מורשת לוריא״ מופיע שבתאי רפפורט, אב״ד דומברובה — ראש בית הדין של דומברובה — שבסיה מסמנת אותו כאותו אדם; שנת פטירתו שם היא 1897 ולא 1884.",
@@ -5059,7 +5086,9 @@
       "sources": [
         "doc_abraham_abe_descendants_tree",
         "report_basia_2026_08_06"
-      ]
+      ],
+      "father_id": "p_abraham_abe_rapaport",
+      "mother_id": "p_lea_herschl"
     },
     {
       "id": "p_ita_feiga_jahr",
@@ -5085,13 +5114,625 @@
         ]
       },
       "children_ids": [
-        "p_moses_saul_rapaport"
+        "p_moses_saul_rapaport",
+        "p_abe_rapaport_1845",
+        "p_liebe_rapaport_1847",
+        "p_majer_rapaport_1849",
+        "p_izchak_chaim_rapaport",
+        "p_rachel_rapaport_weidenfeld"
       ],
       "note_en": "Mother of Moses Saul Rapaport. The 1933 Tarnów death record names her only as \"Ita Feigi\"; her MAIDEN NAME, Jahr, comes from Basia’s descendant chart of 2026 and is new to this archive.",
       "note_he": "אמו של משה שאול רפפורט. רשומת הפטירה מטרנוב 1933 נוקבת בה רק כ״איטה פייגי״; שם נעוריה, יאהר, מגיע מתרשים הצאצאים של בסיה מ-2026 והוא חדש בארכיון הזה.",
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_abraham_abe_rapaport",
+      "primary_name": {
+        "en": "Abraham Abe Rapaport",
+        "he": "אברהם אבה רפפורט"
+      },
+      "role": "ancestor",
+      "birth": {
+        "date": "1784",
+        "date_precision": "year",
+        "place_id": null,
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "death": {
+        "date": "1844-07-30",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "note_en": "The head of the descendant chart Basia compiled in 2026, and the earliest Rapaport this archive can name. Great-great-grandfather of David. HIS GRAVESTONE SURVIVES — the chart carries a photograph of it above his card, the oldest object connected to this family that we know to exist.",
+      "note_he": "ראש תרשים הצאצאים שערכה בסיה ב-2026, והרפפורט המוקדם ביותר שהארכיון הזה יודע לנקוב בשמו. אביו של אבי סבו של דוד. מצבתו שרדה — התרשים נושא את תצלומה מעל כרטיסו, והיא החפץ העתיק ביותר הקשור למשפחה הזאת שידוע לנו על קיומו.",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ],
+      "children_ids": [
+        "p_pearl_rapaport",
+        "p_jozef_rapaport",
+        "p_izrael_rapaport_1813",
+        "p_sara_rapaport_1818",
+        "p_taube_rapaport_1821",
+        "p_szabse_rapaport",
+        "p_aaron_rapaport_1826",
+        "p_moses_meier_rapaport",
+        "p_salomon_rapaport_1831"
+      ],
+      "spouse_id": "p_lea_herschl"
+    },
+    {
+      "id": "p_lea_herschl",
+      "primary_name": {
+        "en": "Lea Rapaport (née Herschl)",
+        "he": "לאה רפפורט (לבית הרשל)"
+      },
+      "role": "ancestor",
+      "birth": {
+        "date": "1792",
+        "date_precision": "about",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "death": {
+        "date": "1874-05-23",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "note_en": "Wife of Abraham Abe Rapaport. Her maiden name, Herschl, is on the chart; her card carries a register scan.",
+      "note_he": "אשתו של אברהם אבה רפפורט. שם נעוריה, הרשל, מופיע בתרשים; כרטיסה נושא סריקת פנקס.",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ],
+      "children_ids": [
+        "p_pearl_rapaport",
+        "p_jozef_rapaport",
+        "p_izrael_rapaport_1813",
+        "p_sara_rapaport_1818",
+        "p_taube_rapaport_1821",
+        "p_szabse_rapaport",
+        "p_aaron_rapaport_1826",
+        "p_moses_meier_rapaport",
+        "p_salomon_rapaport_1831"
+      ],
+      "spouse_id": "p_abraham_abe_rapaport"
+    },
+    {
+      "id": "p_pearl_rapaport",
+      "primary_name": {
+        "en": "Pearl Rapaport",
+        "he": "פרל רפפורט"
+      },
+      "role": "ancestor",
+      "father_id": "p_abraham_abe_rapaport",
+      "mother_id": "p_lea_herschl",
+      "birth": {
+        "date": "1810",
+        "date_precision": "year",
+        "place_id": null,
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "death": {
+        "date": "1831-11-10",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "note_en": "Eldest recorded child of Abraham Abe and Lea. Died at twenty-one.",
+      "note_he": "הילדה הרשומה הבכורה של אברהם אבה ולאה. נפטרה בגיל עשרים ואחת.",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_jozef_rapaport",
+      "primary_name": {
+        "en": "Józef Rapaport",
+        "he": "יוזף רפפורט"
+      },
+      "role": "ancestor",
+      "father_id": "p_abraham_abe_rapaport",
+      "mother_id": "p_lea_herschl",
+      "birth": {
+        "date": "1811",
+        "date_precision": "year",
+        "place_id": null,
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "note_en": "Married Rachela Jakobsohn (b. 1817 Tarnów) at Kraków on 9 August 1832.",
+      "note_he": "נשא את רחלה יקובסון (ילידת 1817 טרנוב) בקרקוב ב-9 באוגוסט 1832.",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_izrael_rapaport_1813",
+      "primary_name": {
+        "en": "Izrael Rapaport",
+        "he": "ישראל רפפורט"
+      },
+      "role": "ancestor",
+      "father_id": "p_abraham_abe_rapaport",
+      "mother_id": "p_lea_herschl",
+      "birth": {
+        "date": "1813",
+        "date_precision": "about",
+        "place_id": null,
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "death": {
+        "date": "1881-06-15",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "note_en": "Married Chane Rachel (died after 1881).",
+      "note_he": "נשא את חנה רחל (נפטרה לאחר 1881).",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_sara_rapaport_1818",
+      "primary_name": {
+        "en": "Sara Rapaport",
+        "he": "שרה רפפורט"
+      },
+      "role": "ancestor",
+      "father_id": "p_abraham_abe_rapaport",
+      "mother_id": "p_lea_herschl",
+      "birth": {
+        "date": "1818-11-30",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "death": {
+        "date": "1820-05-08",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "note_en": "Died at seventeen months.",
+      "note_he": "נפטרה בגיל שבעה עשר חודשים.",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_taube_rapaport_1821",
+      "primary_name": {
+        "en": "Taube Rapaport",
+        "he": "טאובה רפפורט"
+      },
+      "role": "ancestor",
+      "father_id": "p_abraham_abe_rapaport",
+      "mother_id": "p_lea_herschl",
+      "birth": {
+        "date": "1821-05-31",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "death": {
+        "date": "1822-02-08",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "note_en": "Died at eight months.",
+      "note_he": "נפטרה בגיל שמונה חודשים.",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_aaron_rapaport_1826",
+      "primary_name": {
+        "en": "Aaron Rapaport",
+        "he": "אהרן רפפורט"
+      },
+      "role": "ancestor",
+      "father_id": "p_abraham_abe_rapaport",
+      "mother_id": "p_lea_herschl",
+      "birth": {
+        "date": "1826-11-03",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "death": {
+        "date": "1828-10-10",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "note_en": "Died at not quite two.",
+      "note_he": "נפטר בטרם מלאו לו שנתיים.",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_moses_meier_rapaport",
+      "primary_name": {
+        "en": "Moses Meier Rapaport",
+        "he": "משה מאיר רפפורט"
+      },
+      "role": "ancestor",
+      "father_id": "p_abraham_abe_rapaport",
+      "mother_id": "p_lea_herschl",
+      "birth": {
+        "date": "1828-09-04",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "death": {
+        "date": "1829-08-10",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "note_en": "Died at eleven months. Four of Abraham Abe and Lea’s children — Sara, Taube, Aaron and Moses Meier — died before the age of two.",
+      "note_he": "נפטר בגיל אחד עשר חודשים. ארבעה מילדיהם של אברהם אבה ולאה — שרה, טאובה, אהרן ומשה מאיר — נפטרו בטרם מלאו להם שנתיים.",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_salomon_rapaport_1831",
+      "primary_name": {
+        "en": "Salomon Rapaport",
+        "he": "שלמה רפפורט"
+      },
+      "role": "ancestor",
+      "father_id": "p_abraham_abe_rapaport",
+      "mother_id": "p_lea_herschl",
+      "birth": {
+        "date": "1831-09-20",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_abe_rapaport_1845",
+      "primary_name": {
+        "en": "Abe (Abraham) Rapaport",
+        "he": "אבה (אברהם) רפפורט"
+      },
+      "role": "ancestor",
+      "father_id": "p_szabse_rapaport",
+      "mother_id": "p_ita_feiga_jahr",
+      "birth": {
+        "date": "1845-02-08",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "death": {
+        "date": "1849-07-30",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "note_en": "Died at four. Named for his grandfather Abraham Abe.",
+      "note_he": "נפטר בגיל ארבע. נקרא על שם סבו אברהם אבה.",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_liebe_rapaport_1847",
+      "primary_name": {
+        "en": "Liebe Rapaport",
+        "he": "ליבה רפפורט"
+      },
+      "role": "ancestor",
+      "father_id": "p_szabse_rapaport",
+      "mother_id": "p_ita_feiga_jahr",
+      "birth": {
+        "date": "1847-03-28",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_majer_rapaport_1849",
+      "primary_name": {
+        "en": "Majer Rapaport",
+        "he": "מאיר רפפורט"
+      },
+      "role": "ancestor",
+      "father_id": "p_szabse_rapaport",
+      "mother_id": "p_ita_feiga_jahr",
+      "birth": {
+        "date": "1849",
+        "date_precision": "about",
+        "place_id": null,
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "death": {
+        "date": "1920-10-22",
+        "date_precision": "day",
+        "place_id": "pl_krakow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "note_en": "Brother of Moses Saul. Married Cerka (Cecylia) Margulies. Died at Kraków.",
+      "note_he": "אחיו של משה שאול. נשא את צרקה (צציליה) מרגוליס. נפטר בקרקוב.",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_izchak_chaim_rapaport",
+      "primary_name": {
+        "en": "Izchak Chaim Rapaport",
+        "he": "יצחק חיים רפפורט"
+      },
+      "role": "ancestor",
+      "father_id": "p_szabse_rapaport",
+      "mother_id": "p_ita_feiga_jahr",
+      "birth": {
+        "date": "1850-01-06",
+        "date_precision": "day",
+        "place_id": "pl_dabrowa",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "death": {
+        "date": "1921-08-15",
+        "date_precision": "day",
+        "place_id": "pl_krakow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "note_en": "Brother of Moses Saul, and the only man of that generation whose FACE this archive has: the chart carries a photograph of him, bearded, above his card. Born at DĄBROWA TARNOWSKA — which matters, because Rosenstein places a Shabtai Rappaport as head of the rabbinical court of Dąbrowa, and this is independent evidence that the family was living there. Married Margulesa Bornstein of Olkusz. Died at Kraków.",
+      "note_he": "אחיו של משה שאול, והאיש היחיד מאותו דור שפניו מצויות בארכיון הזה: התרשים נושא את תצלומו, מזוקן, מעל כרטיסו. נולד בדומברובה טרנובסקה — וזה חשוב, משום שרוזנשטיין ממקם שבתאי רפפורט כאב״ד דומברובה, וזו ראיה בלתי תלויה לכך שהמשפחה התגוררה שם. נשא את מרגוליסה בורנשטיין מאולקוש. נפטר בקרקוב.",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_rachel_rapaport_weidenfeld",
+      "primary_name": {
+        "en": "Rachel Weidenfeld (née Rapaport)",
+        "he": "רחל ויידנפלד (לבית רפפורט)"
+      },
+      "role": "ancestor",
+      "father_id": "p_szabse_rapaport",
+      "mother_id": "p_ita_feiga_jahr",
+      "note_en": "Sister of Moses Saul, and the join between this family and a rabbinical dynasty. She married JAKUB WEIDENFELD (b. 1840 Stryj, d. 1895 Grzymałów), head of the rabbinical court of Grzymałów and author of the responsa \"Kochav MiYaakov\". Rosenstein’s published Weidenfeld tree says the same thing — Shabtai Rappaport’s daughter Rachel married Jacob Weidenfeld — so Basia’s chart, built from registers, reproduces the published link independently. That is the second tie to the Rosenstein ancestor, after Izchak Chaim’s birth at Dąbrowa; only the death year still disagrees.",
+      "note_he": "אחותו של משה שאול, והחיבור בין המשפחה הזאת לשושלת רבנית. היא נישאה ליעקב ויידנפלד (יליד 1840 סטרי, נפטר 1895 גז׳ימאלוב), אב״ד גז׳ימאלוב ומחבר השו״ת ״כוכב מיעקב״. אילן ויידנפלד שפרסם רוזנשטיין אומר את אותו הדבר — בתו של שבתאי רפפורט, רחל, נישאה ליעקב ויידנפלד — ומכאן שתרשימה של בסיה, שנבנה מפנקסים, משחזר את הקשר שפורסם באופן בלתי תלוי. זהו החיבור השני אל האב הקדמון של רוזנשטיין, אחרי לידתו של יצחק חיים בדומברובה; רק שנת הפטירה עדיין אינה מסכימה.",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_jakub_weidenfeld",
+      "primary_name": {
+        "en": "Jakub Weidenfeld",
+        "he": "יעקב ויידנפלד"
+      },
+      "role": "ancestor",
+      "spouse_id": "p_rachel_rapaport_weidenfeld",
+      "birth": {
+        "date": "1840",
+        "date_precision": "year",
+        "place_id": null,
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "death": {
+        "date": "1895",
+        "date_precision": "year",
+        "place_id": null,
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "note_en": "Born Stryj, died Grzymałów. Head of the rabbinical court of Grzymałów; author of the responsa \"Kochav MiYaakov\". Rosenstein gives his dates as 1840-1894, one year earlier than Basia’s chart. Married Rachel, daughter of Szabse Rapaport.",
+      "note_he": "נולד בסטרי, נפטר בגז׳ימאלוב. אב״ד גז׳ימאלוב; מחבר השו״ת ״כוכב מיעקב״. רוזנשטיין נוקב בשנותיו 1840-1894, שנה אחת מוקדם יותר מתרשימה של בסיה. נשא את רחל בתו של שבסה רפפורט.",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_cerka_margulies",
+      "primary_name": {
+        "en": "Cerka (Cecylia) Margulies",
+        "he": "צרקה (צציליה) מרגוליס"
+      },
+      "role": "ancestor",
+      "spouse_id": "p_majer_rapaport_1849",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_margulesa_bornstein",
+      "primary_name": {
+        "en": "Margulesa Bornstein",
+        "he": "מרגוליסה בורנשטיין"
+      },
+      "role": "ancestor",
+      "spouse_id": "p_izchak_chaim_rapaport",
+      "birth": {
+        "date": "1852-01-10",
+        "date_precision": "day",
+        "place_id": null,
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "death": {
+        "date": "1925-12-22",
+        "date_precision": "day",
+        "place_id": "pl_krakow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "note_en": "Born at Olkusz, died at Kraków. Wife of Izchak Chaim Rapaport.",
+      "note_he": "נולדה באולקוש, נפטרה בקרקוב. אשתו של יצחק חיים רפפורט.",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
         "report_basia_2026_08_06"
       ]
     }
