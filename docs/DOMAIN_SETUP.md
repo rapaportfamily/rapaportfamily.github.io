@@ -18,11 +18,12 @@ Cloudflare, GoDaddy, or an Israeli registrar for a `.il` name).
 
 Shortest first. `rapaportfamily.github.io` is **24** characters.
 
-| Domain | Length | Note |
-|---|---|---|
-| **`rapaport.us`** | 11 | shortest, but reads American |
-| **`rapaport.me`** | 11 | **recommended** — short, personal, and permanent |
-| **`rapaport.co`** | 11 | Colombia's TLD, used generically worldwide |
+| Domain | Length | Cost/yr | Note |
+|---|---|---|---|
+| **`rapaport.me`** | 11 | ~$10–20 | **recommended** — short, personal, permanent, cheap |
+| **`rapaport.io`** | 11 | ~$35–60 | same length, looks sharper, three times the price — and see the note below |
+| `rapaport.co` | 11 | ~$25–35 | Colombia's TLD, used generically worldwide |
+| `rapaport.us` | 11 | ~$10 | shortest tier, but reads American |
 | `rapaport.link` | 13 | |
 | `rapaport.life` | 13 | |
 | `rapaport.house` | 14 | |
@@ -37,6 +38,29 @@ Rapaport group), `rapaport.family`, `rapaportfamily.com`, `rapaports.com`, `rapa
 
 **Avoid anything dated.** `dov80.com` is available and it is a bad idea: this archive should
 outlive the birthday by fifty years.
+
+**Avoid `rpaport.io`** — it is available, and one character shorter, because it is the family name
+misspelled. Not on a memorial.
+
+### One caveat about `.io`, since it is worth knowing before paying
+
+`.io` belongs to the British Indian Ocean Territory. In 2024 the UK agreed to hand the Chagos
+Archipelago to Mauritius, and when a territory stops existing its country code has historically
+been retired — `.su`, `.yu`, `.cs`. ICANN has signalled that `.io` will continue, registrars are
+still selling it, and nothing is expected to change for years. But for an archive meant to last
+fifty years it is a real if small risk, and `.me` (Montenegro) carries no such question and costs a
+third as much. If the look of `.io` matters more than that, buy it — just buy it knowing.
+
+### Shortening the GitHub address instead — checked, and not worth it
+
+Only the account name can change; `.github.io` is a fixed 10 characters. Checked 5 August 2026:
+`rapaport` (2012), `rpprt`, `dovr`, `rapa` and `rprt` are all **taken**. What is free is longer —
+`rapaports.github.io` (19), `rapaportfam.github.io` (21), `beitrapaport.github.io` (22).
+
+So the best case is 19 characters against 11 for a domain, **and renaming loses the redirect**:
+GitHub forwards renamed *repository* URLs, but `oldname.github.io` does not forward, and the old
+name is released for anyone to claim. Every link already sent to the family would die. A custom
+domain redirects permanently and breaks nothing. Buy the domain.
 
 ---
 
