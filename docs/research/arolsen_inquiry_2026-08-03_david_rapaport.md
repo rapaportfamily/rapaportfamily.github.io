@@ -82,3 +82,42 @@ present their only written memorial.
 - Arolsen answer by email, typically in several weeks. There is no charge.
 - If they come back with a reference code, record it in `documents.json` and add the finding to
   the Research Center — do not let it sit only in an inbox.
+
+---
+
+## ADDENDUM — 5 August 2026: search the online collection first, then send this
+
+The public collection at `collections.arolsen-archives.org` was searched name by name on
+5 August 2026, after rejecting non-essential cookies and accepting the Terms of Use.
+
+**One row matches David on an exact birth date.**
+
+| Collection | Entry | Date of birth |
+|---|---|---|
+| **3.1.1.1** — Names in "phonetical" order from R | RAPAPORT, **David** | **12/25/1911** |
+
+Our David was born **25 December 1911** at Nadwórna. Day, month and year all agree.
+
+This is a **lead, not a proof.** The results grid shows no place of birth for that row, and the
+record could not be opened from outside the archive's own interface. Rapaport is not a rare
+name and a second David Rapaport born on the same day is possible.
+
+**Two further collections are worth naming in the request:**
+
+- **3.1.1.3 — Registrations of former persecutees in Poland.** Holds both a `RAPAPORT Dawid`
+  and a `RAPOPORT Szymon`. This is exactly the sort of record Lusia and Shimon created when
+  they registered with the committee at Katowice on 1 July 1946 (cards 151738 and 151337).
+- **3.2.1.1 — Registrations and Files of Displaced Persons / IRO "Care and Maintenance"
+  (CM/1).** Where David's Brussels DP registration of 9 April 1946 would sit.
+
+**Three questions to put to them, in this order:**
+
+1. On the record in **3.1.1.1** for RAPAPORT David, d.o.b. 25.12.1911 — what place of birth is
+   given, and is it Nadwórna?
+2. Are the **3.1.1.3** entries for RAPAPORT Dawid and RAPOPORT Szymon the Katowice
+   registrations of 1 July 1946?
+3. Does **3.2.1.1** hold a CM/1 file for David Rapaport, Brussels, April 1946?
+
+*Note on the public interface: it is a single fuzzy free-text box. "Weitzner" also returns
+Wetzner, Waizner and Fitzner, and there is no way to filter by birthplace from outside. That
+filtering is the work this free written inquiry exists to do.*
