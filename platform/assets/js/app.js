@@ -785,6 +785,29 @@ function wireTreeViewport(svg, host) {
     apply();
   };
 
+  // The opening view. A true "fit everything" is the wrong first glance here:
+  // the drawing is about 25,000 units wide and 2,700 tall — roughly 9.5:1 —
+  // so containing it inside a phone screen leaves the tree a sliver a few
+  // percent of the height, technically fitted and completely unreadable.
+  // Fit the HEIGHT instead: every generation is legible top to bottom, and the
+  // width is explored by dragging sideways, which is how a tree this shape
+  // wants to be read. The Fit button still gives the whole picture on demand.
+  const fitHeight = () => {
+    const box = viewport.getBoundingClientRect();
+    if (!(box.width > 40 && box.height > 40)) { fit(); return; }
+    const aspect = box.width / box.height;
+    view.h = H * 1.06;                       // a little air above and below
+    view.w = view.h * aspect;
+    view.y = (H - view.h) / 2;
+    // start on the person the archive is for, if the tree is wider than the view
+    const subject = svg.querySelector('.person-box.subject');
+    const m = subject && /translate\(([-\d.]+),([-\d.]+)\)/.exec(subject.getAttribute('transform'));
+    const cx = m ? Number(m[1]) + TREE.BW / 2 + TREE.PAD : W / 2;
+    view.x = view.w >= W ? (W - view.w) / 2
+                         : Math.min(Math.max(cx - view.w / 2, 0), W - view.w);
+    apply();
+  };
+
   const zoomAt = (factor, cx, cy) => {
     const box = svg.getBoundingClientRect();
     const px = box.width ? (cx - box.left) / box.width : 0.5;
@@ -830,9 +853,13 @@ function wireTreeViewport(svg, host) {
     const b = svg.getBoundingClientRect();
     zoomAt(1.25, b.left + b.width / 2, b.top + b.height / 2);
   });
-  // Opening view: 122 people fitted to a screen is unreadable, so start
-  // centred on the person this archive is for, at a legible scale. "Fit"
-  // gives the whole picture.
+  // Opening view. This used to start centred on Dov at a legible scale,
+  // because fitting 122 people to a screen was unreadable. The tree is now
+  // 179 people and about 25,000 units wide, and starting zoomed in landed the
+  // visitor inside roughly 8% of it with no way of telling that the rest
+  // existed. So the first glance is now the WHOLE tree — the shape of it,
+  // six generations wide — and "Centre on Dov" is one button away for anyone
+  // who wants to read names.
   const SPAN = 2100;
   const start = () => {
     const box = viewport.getBoundingClientRect();
@@ -852,18 +879,18 @@ function wireTreeViewport(svg, host) {
   host.querySelector('[data-tree="fit"]').addEventListener('click', fit);
   host.querySelector('[data-tree="subject"]').addEventListener('click', start);
 
-  start();
+  fitHeight();
   // Re-run once the viewport actually has a size (first paint, hidden tab
   // becoming visible, orientation change) so the tree is never left mid-zoom.
   let settled = false;
   if (typeof ResizeObserver === 'function') {
     const ro = new ResizeObserver(() => {
       const box = viewport.getBoundingClientRect();
-      if (!settled && box.width > 40 && box.height > 40) { settled = true; start(); }
+      if (!settled && box.width > 40 && box.height > 40) { settled = true; fitHeight(); }
     });
     ro.observe(viewport);
   }
-  window.addEventListener('resize', () => { if (settled) start(); });
+  window.addEventListener('resize', () => { if (settled) fitHeight(); });
 }
 
 function renderTree(root) {
