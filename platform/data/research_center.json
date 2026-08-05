@@ -1100,7 +1100,8 @@
             "https://www.palyam.org/English/Hahapala/hf/hf_Theodor_Herzl.pdf"
           ],
           "summary_he": "🚢 פרטי הפלגת תיאודור הרצל — אומתו דרך היסטוריית הספינות של פלמ\"ח/פלי\"ם: הפליגה מסט, צרפת, ב-2 באפריל 1947 עם 2,641 מעפילים ממחנות בצרפת ובלגיה. מפקד מקה לימון; קצינים יוש הלוי, בצלאל 'צולו' פלדמן, חיים ויינשלבוים; גדעוני נחמן 'בוב' בורשטיין. יורטה ב-13 באפריל 1947 על-ידי HMS היידון ו-HMS סן ברידס באי. 3 מעפילים נהרגו ביריות הבריטים: אהרון דב, פנחס וייס, מנחם סמט. 27 פצועים. הנוסעים נשלחו למחנות המעצר בקפריסין (קראולוס ליד פמגוסטה) ל-8 חודשים.",
-          "pillar": "memoir_vs_history"
+          "pillar": "memoir_vs_history",
+          "title_he": "🚢 פרטי מסע ״תיאודור הרצל״ — סֶט, 2 באפריל 1947, 2,641 נוסעים, שלושה הרוגים"
         }
       ]
     },
@@ -1149,7 +1150,8 @@
               "caption_he": "פלמה דה מיורקה — בה נהג ד\"ר וידאל רפפא ברפואה ב-1305, אבי המשפחה הקדמון המתועד המוקדם ביותר.",
               "credit": "Wikipedia Commons (CC-BY-SA)"
             }
-          ]
+          ],
+          "summary_he": "רופא במיורקה. ב-1305 עמד בראש קבוצת יהודים ממיורקה — ובהם אהרון, מימון בן אסטרוק אבן-נונו, דוד בן סופרן, ואנסרום מסוריה (קטלוניה) — שקשרו קשר להציל צעירה יהודייה מהמרת דת כפויה דרך נישואין לנוצרי. חוקרי הכנסייה הספרדית חשפו את המזימה; הקבוצה נידונה למאסר ממושך ולקנסות כבדים, ולאחר מכן הפחית המלך ז׳יימה השני את העונשים בתמורה לשתיקתו של ד״ר וידאל רפפא. מתועד אצל אנטוניו פונס, ״יהודי ממלכת מיורקה במאות השלוש עשרה והארבע עשרה״, כרך 2 עמ׳ 29."
         },
         {
           "id": "jucef_salomon_rapapa_court_physician",
@@ -1157,7 +1159,8 @@
           "title_he": "ד\"ר יוסף שלמה רפפא — רופא חצר של המלך ז'איימה השלישי",
           "status": "confirmed",
           "summary_en": "Court physician (Physicus) to King Jaime III of Mallorca. In 1345 he filed suit against the successor King Pedro IV for non-payment of 10 Libres for medical services rendered to King Jaime III and his entourage. Dr Chanan Rapaport's analysis (consulting Prof. Jeff Malka and citing artist Bonaventura Perpinya's 1309 contract with King Sancho I) establishes that 1 Libra in 1345 ≈ €60,000-€150,000 today — so 10 Libres ≈ €600,000-€1.5 million in modern purchasing power. Documented in Contreras Mas Antonio, 'Médicos Judíos en Mallorca durante la Edad Media' (Palma de Mallorca, 1977) p.131.",
-          "source": "Contreras Mas Antonio, Médicos Judíos en Mallorca, 1977, p.131"
+          "source": "Contreras Mas Antonio, Médicos Judíos en Mallorca, 1977, p.131",
+          "summary_he": "רופא החצר (Physicus) של המלך ז׳יימה השלישי ממיורקה. ב-1345 הגיש תביעה נגד יורשו, המלך פדרו הרביעי, על אי-תשלום עשר ליברות עבור שירותים רפואיים שנתן למלך ז׳יימה השלישי ולפמלייתו. ניתוחו של ד״ר חנן רפפורט (בהתייעצות עם פרופ׳ ג׳ף מלכה ובהסתמך על חוזהו של האמן בונאוונטורה פרפיניה עם המלך סנצ׳ו הראשון מ-1309) קובע שליברה אחת ב-1345 שווה כ-60,000 עד 150,000 אירו של היום — ומכאן שעשר ליברות שוות כ-600,000 עד מיליון וחצי אירו בכוח קנייה מודרני. מתועד אצל קונטרראס מאס אנטוניו, ״רופאים יהודים במיורקה בימי הביניים״ (פלמה דה מיורקה, 1977) עמ׳ 131."
         },
         {
           "id": "rapa_porto_isaac_hamoel",
@@ -1173,7 +1176,8 @@
               "caption_he": "פורטובופולה, איטליה — העיירה הקטנה במחוז טרוויסו ששמה צורף ל-'רפא' ויצר את שם המשפחה 'רפא-פורטו' (~1550).",
               "credit": "Wikipedia Commons (CC-BY-SA)"
             }
-          ]
+          ],
+          "summary_he": "בנו של ר׳ יחיאל מיכל הכהן רפא (יליד 1502 פורטובופולה). לאחר שהמשפחה נמלטה מרדיפות ספרד ← מיינץ ← גירוש שני ממיינץ ← דרך נמלי נהר האדיג׳ה באיטליה (לניאגו, מסטרה, ונציה, פורטובופולה, פיובה די סאקו), היה יצחק ״המוהל״ הראשון במשפחה שהוסיף ״פורטו״ לשם המשפחה. ממנו התפשטה המסורת שיצרה את שם המשפחה המודרני רפא-פורטו = רפופורט. מתועד בידי החוקר ד״ר דניאל ניסים, מצוטט במאמרו של ד״ר חנן רפפורט."
         },
         {
           "id": "verona_1594_family_emblem",
@@ -1193,7 +1197,8 @@
               "caption_he": "ורונה, איטליה — בה פרסם רבי אברהם מנחם הכהן רפא-פורטו את 'מנחה בלולה' (1594) ובו סמל המשפחה: עורב ותחתיו ברכת כהנים.",
               "credit": "Wikipedia Commons (CC-BY-SA)"
             }
-          ]
+          ],
+          "summary_he": "הרב ד״ר אברהם מנחם הכהן רפא-פורטו (1520-1596) פרסם בוורונה ב-1594 את החיבור הרבני החשוב ״מנחה בלולה״, ובו כינה את עצמו ״מן העורבים״. סמל המדפיס של הספר — עורב במרכז, ולצדיו שתי כפות ידיים מורמות בתנוחת ברכת כהנים — הפך לסמל המשפחה המובהק. אותו סמל עצמו מופיע בשלט הנשק המשפחתי של דליה, דנה, דורון ודניאל, המוצג בראש אתר הארכיון הזה. הוא אף תואם את העורב שבשלט הנשק של גליציה ולודומריה (אוסטרו-הונגריה)."
         },
         {
           "id": "baron_arnold_von_porada",
@@ -1201,7 +1206,8 @@
           "title_he": "👑 הברון ד\"ר ארנולד רפפורט-אדלר פון פוראדה (גליציה, ח\"כ, ברון 1890)",
           "status": "confirmed",
           "summary_en": "Son of David, son of Shlomoh Yehudah Rapaport (the 'SHI\"R'), Chief Rabbi of Prague. Dr Juris (Krakow 1863), then Economics + Political Science at Vienna. Represented the Galician + Lodomerian Jews in the Austro-Hungarian Parliament. On 6 September 1890 Emperor Franz Joseph conferred the title of Baron — \"Baron Dr Arnold Rapoport-Adler Von Porada\". The name 'Von Porada' is an acronym: POrt-RApa-DAvid (his father's name). Also a Knight of the French Legion of Honour. His coat of arms displays TWO ravens: the central one for the Rapaport family, the upper one for the Kingdom of Galicia (whose own coat of arms also features a raven).",
-          "source": "Central Archives of the Austro-Hungarian Empire, Vienna; quoted in Chanan Rapaport 2018"
+          "source": "Central Archives of the Austro-Hungarian Empire, Vienna; quoted in Chanan Rapaport 2018",
+          "summary_he": "בנו של דוד, בנו של שלמה יהודה רפפורט (השי״ר), רבה הראשי של פראג. דוקטור למשפטים (קרקוב 1863), ולאחר מכן כלכלה ומדע המדינה בווינה. ייצג את יהודי גליציה ולודומריה בפרלמנט האוסטרו-הונגרי. ב-6 בספטמבר 1890 העניק לו הקיסר פרנץ יוזף את תואר הברון — ״הברון ד״ר ארנולד רפופורט-אדלר פון פורדה״. השם ״פון פורדה״ הוא ראשי תיבות: PO(rto) + RA(pa) + DA(vid), שמו של אביו. כמו כן אביר לגיון הכבוד הצרפתי. בשלט הנשק שלו שני עורבים: המרכזי למשפחת רפפורט, והעליון לממלכת גליציה (שבשלט הנשק שלה אף הוא עורב)."
         },
         {
           "id": "dna_evidence_sephardic",
@@ -1210,7 +1216,8 @@
           "status": "confirmed",
           "summary_en": "A member of the Rappoport family in the US and a member of a Chueta family in Mallorca were tested in a scientific laboratory. The mitochondrial DNA test revealed a direct and precise connection between two Ashkenazi people. It showed clearly that their haplogroup is NOT Spanish, but originates from the Levant — the eastern Mediterranean — and is ancient (like Jews of Eretz-Yisrael before the expulsions). They were brothers — going back 500 years — despite the chasm of vast oceans of geography and history.",
           "quote_en": "The mitochondrial DNA test revealed a direct and precise connection between two Ashkenazi people.",
-          "source": "Dr Chanan Rapaport 2018, citing private DNA test"
+          "source": "Dr Chanan Rapaport 2018, citing private DNA test",
+          "summary_he": "בן למשפחת רפופורט בארצות הברית ובן למשפחת צ׳ואטה במיורקה נבדקו במעבדה מדעית. בדיקת ה-DNA המיטוכונדריאלי חשפה קשר ישיר ומדויק בין שני אנשים אשכנזים. היא הראתה בבירור שההפלוגרופ שלהם אינו ספרדי, אלא מקורו בלבנט — מזרח הים התיכון — והוא עתיק (כמו יהודי ארץ ישראל לפני הגירושים). הם היו אחים — במרחק חמש מאות שנה — חרף התהום של אוקיינוסים עצומים של גיאוגרפיה ושל היסטוריה."
         }
       ]
     },
@@ -1540,7 +1547,8 @@
             "google_embed": "https://maps.google.com/maps?q=48.6378,24.5708&t=k&z=18&ie=UTF8&iwloc=&output=embed",
             "google_streetview_embed": "https://maps.google.com/maps?q=&layer=c&cbll=48.6378,24.5708&cbp=11,0,0,0,0&output=embed"
           },
-          "summary_he": "💀 המסור בנדבורנה — בריחתו של דוד מהשמדת גטו נדבורנה ב-24 באוקטובר 1942. דוד עבד באתר הצבעת העצים. בעת חיסול הגטו הסופי הוא נמלט דרך היערות. המסור היה ככל הנראה בבעלות יהודית (Glesinger) שהוחרמה תחת הכיבוש הנאצי."
+          "summary_he": "💀 המסור בנדבורנה — בריחתו של דוד מהשמדת גטו נדבורנה ב-24 באוקטובר 1942. דוד עבד באתר הצבעת העצים. בעת חיסול הגטו הסופי הוא נמלט דרך היערות. המסור היה ככל הנראה בבעלות יהודית (Glesinger) שהוחרמה תחת הכיבוש הנאצי.",
+          "title_he": "💀 המנסרה בנדבורנא — בריחתו של דוד מחיסול הגטו ב-24 באוקטובר 1942  [יומן עמ׳ 25-32, 41-42]"
         },
         {
           "id": "trip_lwow_legionow",
@@ -1800,7 +1808,8 @@
             "google_embed": "https://maps.google.com/maps?q=32.7264,34.9389&t=k&z=18&ie=UTF8&iwloc=&output=embed",
             "google_streetview_embed": "https://maps.google.com/maps?q=&layer=c&cbll=32.7264,34.9389&cbp=11,0,0,0,0&output=embed"
           },
-          "summary_he": "🇮🇱 מחנה המעצר עתלית — תעודת השחרור של שמעון. מחנה עתלית, על חוף הים הדרומי לחיפה, היה אתר המעצר הבריטי בארץ-ישראל המנדטורית עבור מעפילים שיורטו 1939-1948. היומן (עמ' 65) מזכיר את תעודת השחרור של שמעון מעתלית — מצביע שהילד שמעון הופרד מהוריו (ככל הנראה עם פצועי תיאודור הרצל) והוחזק בעתלית בעוד דוד ולוסיה היו בקפריסין."
+          "summary_he": "🇮🇱 מחנה המעצר עתלית — תעודת השחרור של שמעון. מחנה עתלית, על חוף הים הדרומי לחיפה, היה אתר המעצר הבריטי בארץ-ישראל המנדטורית עבור מעפילים שיורטו 1939-1948. היומן (עמ' 65) מזכיר את תעודת השחרור של שמעון מעתלית — מצביע שהילד שמעון הופרד מהוריו (ככל הנראה עם פצועי תיאודור הרצל) והוחזק בעתלית בעוד דוד ולוסיה היו בקפריסין.",
+          "title_he": "🇮🇱 מחנה המעצר בעתלית — תעודת השחרור של שמעון  [יומן עמ׳ 65]"
         },
         {
           "id": "trip_haifa_moriah",
@@ -1918,7 +1927,8 @@
           "source": "Edward Gelles, Griffel of Nadworna",
           "urls": [
             "https://nyulangone.org/doctors/1750329996/steven-lamm"
-          ]
+          ],
+          "title_he": "ד״ר סטיבן לאם, רופא — ניו יורק (בן דוד שני, פעם אחת מוסר)"
         },
         {
           "id": "cousin_andrew_griffel",
@@ -1930,7 +1940,8 @@
           "urls": [
             "https://www.linkedin.com/in/andrew-griffel-b5680623/",
             "https://www.timesofisrael.com/writers/andrew-griffel/"
-          ]
+          ],
+          "title_he": "אנדרו גריפל — ניו יורק / ישראל (בן דוד שני, פעם אחת מוסר)"
         },
         {
           "id": "cousin_pinhas_heyn",
@@ -1938,7 +1949,8 @@
           "status": "likely",
           "summary_en": "Edward Gelles's autosomal-DNA-confirmed cousin in Israel. Line: Eliezer Griffel → Chaya Griffel-Gruenfeld → Sima Gruenfeld-Blau → Clara Blau-Heyn → Pinhas.",
           "summary_he": "בן דוד של אדוארד גלס שאומת באמצעות בדיקת DNA. גר בישראל. שושלת: אליעזר גריפל → חיה גריפל-גרינפלד → סימה גרינפלד-בלאו → קלרה בלאו-היין → פנחס.",
-          "source": "Edward Gelles, Facets of My Family History"
+          "source": "Edward Gelles, Facets of My Family History",
+          "title_he": "פנחס היין / פנחס האין — ישראל (בן דוד שלישי)"
         },
         {
           "id": "cousin_haim_gelles",
@@ -1949,7 +1961,8 @@
           "source": "Edward Gelles, Griffel of Nadworna",
           "urls": [
             "mailto:archives@balliol.ox.ac.uk"
-          ]
+          ],
+          "title_he": "חיים גלס ואבי גלס — בריטניה / ישראל (בנו ונכדו של אדוארד גלס)"
         },
         {
           "id": "cousin_boruch_griffel",
@@ -1957,7 +1970,8 @@
           "status": "likely",
           "summary_en": "Son of Shmuel Shmelke Griffel (1900-?, brother of Dr Jacob Griffel the Vaad ha-Hatzala rescuer). Named by Edward Gelles as a private-communication source.",
           "summary_he": "בן שמואל שמלקה גריפל (יליד 1900, אחיו של ד\"ר יעקב גריפל המציל מטעם ועד ההצלה). מוזכר על-ידי אדוארד גלס כמקור התכתבות פרטית. גר בירושלים.",
-          "source": "Edward Gelles, Griffel of Nadworna"
+          "source": "Edward Gelles, Griffel of Nadworna",
+          "title_he": "ברוך גריפל — ירושלים"
         },
         {
           "id": "cousin_yehuda_nir",
@@ -1965,7 +1979,8 @@
           "status": "confirmed",
           "summary_en": "Born Juliusz Gruenfeld in Lwów 1930, died NYC 2014. Holocaust survivor, Cornell Professor of Psychiatry, author of the 1989 memoir The Lost Childhood — about surviving in Aryan-side Warsaw and Lwów with false papers (same world as Lusia's wartime experience). His mother Sima Blau (1895-1990) and sister Lala also survived. Line: Eliezer Griffel → Chaya Griffel-Gruenfeld → Samuel Gruenfeld → Yehuda. Required reading.",
           "summary_he": "נולד יוליוס גרינפלד בלבוב 1930, נפטר ניו יורק 2014. ניצול שואה, פרופ' לפסיכיאטריה בקורנל, מחבר הספר 'הילדות האבודה' (1989) — על הישרדות בצד הארי בוורשה ולבוב עם מסמכים מזויפים (אותו עולם של חוויית לוסיה במלחמה). אמו סימה בלאו ואחותו לאלה גם הן ניצלו. שושלת: אליעזר גריפל → חיה גריפל-גרינפלד → שמואל גרינפלד → יהודה.",
-          "source": "Edward Gelles, Griffel of Nadworna"
+          "source": "Edward Gelles, Griffel of Nadworna",
+          "title_he": "יהודה ניר (1930-2014) — מחבר ״הילדוּת האבודה״ (בן דוד ראשון, פעם אחת מוסר)"
         },
         {
           "id": "cousin_edward_gelles_alive",
@@ -1989,7 +2004,9 @@
           "urls": [
             "https://www.tabletmag.com/tags/tali-griffel",
             "https://www.israelstory.org/episode/thicker-than-water/"
-          ]
+          ],
+          "title_he": "🟢 טלי גריפל גינסבורג — ניו יורק (ניצולת הפיגוע בראס בורקה, בת דודה שלישית)",
+          "summary_he": "חיה — ניו יורק. בת דודה שלישית של דוד ממק רפפורט. בתו של אנדרו גריפל. ניצולת פיגוע הטרור בראס בורקה שבסיני, 5 באוקטובר 1985 — אמה אניטה שפינדל גריפל נרצחה כשהגנה בגופה על טלי בת החמש. אנדרו גידל אותה בניו יורק. כיום נשואה ואם. כותבת ב-Tablet Magazine ובפודקאסט ״סיפור ישראלי״ (הפרק ״סמיך יותר ממים״)."
         },
         {
           "id": "cousin_nir_siblings",
@@ -2000,21 +2017,27 @@
           "urls": [
             "https://www.nytimes.com/by/sarah-maslin-nir",
             "mailto:davidnir@dailykos.com"
-          ]
+          ],
+          "title_he": "🟢 ארבעת האחים ניר — ניו יורק (שרה, דיוויד, דניאל, אהרן; ילדיו של יהודה ניר)",
+          "summary_he": "כל ארבעת ילדיו של יהודה ניר (1930-2014, מחבר ״הילדוּת האבודה״) חיים בניו יורק. שרה מסלין ניר היא כתבת בניו יורק טיימס. דיוויד ניר הוא מנהל המדור הפוליטי ב-Daily Kos. דניאל ואהרן הם משקיע פרטי ומנהל בתעשיית האופנה בהתאמה (מנישואיו הראשונים של יהודה). כולם בני דודים שניים, פעם אחת מוסרים, של דוד ממק. האם בוני מסלין היא פסיכיאטרית וסופרת — ככל הנראה נקודת הפנייה החמה ביותר."
         },
         {
           "id": "cousin_joseph_griffel",
           "title_en": "🟢 Joseph Griffel — only surviving child of Dr Jacob Griffel (Istanbul rescuer)",
           "status": "confirmed",
           "summary_en": "Born 1953. LIVING. Only surviving child of Dr Jacob Griffel (1900-1962, the Vaad ha-Hatzala Istanbul rescuer of Polish Jews during WWII). Jacob's first wife and children perished in the Warsaw blitzkrieg; Joseph from Jacob's second marriage to Miriam Rottenberg (1914-1998). 2nd cousin once removed of David Memek.",
-          "source": "Edward Gelles, Griffel of Nadworna"
+          "source": "Edward Gelles, Griffel of Nadworna",
+          "title_he": "🟢 יוסף גריפל — הילד היחיד ששרד לד״ר יעקב גריפל (איש ההצלה מאיסטנבול)",
+          "summary_he": "יליד 1953. חי. בנו היחיד ששרד של ד״ר יעקב גריפל (1900-1962), איש ועד ההצלה באיסטנבול שהציל יהודים פולנים במלחמת העולם השנייה. אשתו הראשונה וילדיו של יעקב נספו בהפצצת ורשה; יוסף נולד מנישואיו השניים למרים רוטנברג (1914-1998). בן דוד שני, פעם אחת מוסר, של דוד ממק."
         },
         {
           "id": "cousin_diana_griffel",
           "title_en": "Diana Margaret Griffel — London (b. 27 Oct 1943, status uncertain)",
           "status": "lead",
           "summary_en": "Born London 27 October 1943. Daughter of Edward Griffel (David Memek's uncle) + Susan Manson. Status uncertain — would be 82. 2nd cousin of David Memek. Worth a targeted UK search.",
-          "source": "Edward Gelles, Griffel of Nadworna"
+          "source": "Edward Gelles, Griffel of Nadworna",
+          "title_he": "דיאנה מרגרט גריפל — לונדון (ילידת 27 באוקטובר 1943, מצבה אינו ידוע)",
+          "summary_he": "נולדה בלונדון ב-27 באוקטובר 1943. בתם של אדוארד גריפל (דודו של דוד ממק) וסוזן מנסון. מצבה אינו ידוע — הייתה בת 82. בת דודה שנייה של דוד ממק. שווה חיפוש ממוקד בבריטניה."
         },
         {
           "id": "cousin_jackie_griffel",
@@ -2024,14 +2047,18 @@
           "source": "USAID Alumni Association",
           "urls": [
             "https://usaidalumni.org/eric-griffel/"
-          ]
+          ],
+          "title_he": "🟢 ג׳קי בֶּמֶה גריפל — רוקוויל, מרילנד (אלמנתו של אריק גריפל)",
+          "summary_he": "חיה — אזור רוקוויל שבמרילנד. אלמנתו של אריק גריפל (1930-2020), בן דודו הראשון של אדוארד גלס וראש נציגות USAID בפקיסטן, שחתם על ״מברק הדם״ המפורסם שמחה על מדיניות ארצות הברית בזמן רצח העם בבנגלדש ב-1971. יצירת קשר דרך עמוד ההספד של איגוד בוגרי USAID."
         },
         {
           "id": "cousin_tripcovich_trieste",
           "title_en": "🟢 The Tripcovich family of Trieste — Italian shipping aristocracy",
           "status": "likely",
           "summary_en": "Branch via Rachel Griffel + Bonya Ohrenstein → Lucia Ohrenstein (1910-1988) who became Countess Tripcovich, marrying Italian shipping magnate Oliviero Tripcovich (later Romeo Puri Purini and Count Livio Tripcovich). Italian descendants in Trieste — Diodato Tripcovich named. Findable via Trieste Chamber of Commerce / Italian shipping history archives.",
-          "source": "Edward Gelles, Facets of My Family History Part 2, chapter 10"
+          "source": "Edward Gelles, Facets of My Family History Part 2, chapter 10",
+          "title_he": "🟢 משפחת טריפקוביץ׳ מטריאסטה — אצולת הספנות האיטלקית",
+          "summary_he": "ענף דרך רחל גריפל ובוניה אורנשטיין ← לוצ׳יה אורנשטיין (1910-1988), שהפכה לרוזנת טריפקוביץ׳ בנישואיה למגנט הספנות האיטלקי אוליבירו טריפקוביץ׳ (ולימים רומיאו פורי פוריני והרוזן ליביו טריפקוביץ׳). צאצאים איטלקים בטריאסטה — דיודאטו טריפקוביץ׳ נקוב בשמו. ניתן לאיתור דרך לשכת המסחר של טריאסטה או ארכיוני תולדות הספנות האיטלקית."
         }
       ]
     },
@@ -2048,7 +2075,8 @@
           "title_he": "📜 השרשרת המתועדת המלאה (1305 מיורקה → 2026 ישראל)",
           "status": "confirmed",
           "summary_en": "Step by step, generation by generation:\n\n**1305 Mallorca** — Dr Vidal Rapapa, the earliest documented Rapaport ancestor by name; led the 1305 conspiracy to save a Jewish girl from forced conversion-by-marriage.\n\n**1311-1345 Mallorca** — Dr Jucef Salomon Rapapa, court physician to King Jaime III; 1345 lawsuit against King Pedro IV for unpaid 10 Libres (≈ €600K-1.5M today).\n\n**1391-1492** — Spanish pogroms + Inquisition expulsion; family flees to Italy.\n\n**~1450 Mainz → Porto Italy** — R. Meshullam Yekutiel ha-Kohen Rapa (d.1450), progenitor of the Rapoport-Kohen dynasty.\n\n**1482-1565 Padua** — R. Meir Katzenellenbogen 'MaHaRaM Padua', Chief Rabbi of Padua, founded the Katzenellenbogen rabbinical dynasty.\n\n**1502 Portobuffolè** — R. Yechiel Michael ha-Kohen Rapa born; his son Isaac 'HaMoel' Rapa-Porto became the first to use 'Rapa-Porto' as a surname (~1550).\n\n**1520-1596 Verona** — R. Avraham Menachem ha-Kohen Rapa-Porto published 'Mincha Belulah' (1594) with the iconic raven + priestly-blessing family emblem — still on our website header today.\n\n**1541-1617** — Saul Wahl Katzenellenbogen, legendary 'King of Poland for one night'.\n\n**1584-1651 Lemberg (Lwów)** — R. Abraham Rapoport 'Schrenzel', head of Lemberg yeshiva 45 years, President of the Council of Four Lands. Founder of the Galician Rapaport branch.\n\n**1737-1802 Nadwórna** — R. Tzvi Hirsh Filip, founding Hasidic rebbe of Nadwórna, teacher of the Kosov dynasty founder.\n\n**1786-1867** — R. Solomon Judah Loeb Rapoport 'SHI\"R', Chief Rabbi of Tarnopol + Prague; Hebrew name explicitly contains כהן (Kohen).\n\n**1830-1884** — R. Menachem Mendel Hager, founder of Vizhnitz Hasidic dynasty; his son Reb Chaim Hager (1863-1931) was the rebbe of Ottynia where Eliezer Griffel + Berisz Rapaport prayed.\n\n**1850-1918 Nadwórna** — Eliezer 'Zeida' Griffel, head of Nadwórna Jewish community, timber + oil businessman. Married Sarah Matel Chajes (of the Chajes rabbinical dynasty of Kolomea). 10 children.\n\n**1877-1941** — Chawa Wahl (Tarnobrzeg branch of Saul Wahl line) married into the Griffel family — connecting our cousin line to the Wahl-Katzenellenbogen pedigree.\n\n**1888 Nadwórna** — Rebeka Griffel born (8th child); birth certificate found at ŻIH Warsaw 15 May 2026.\n\n**1890 Austria-Hungary** — Baron Dr Arnold Rapoport-Adler Von Porada, member of Parliament for Galician Jews, granted the title of Baron by Emperor Franz Joseph.\n\n**1911-12-25 Nadwórna** — David Mendel 'Memek' Rapaport born to Berisz Rapaport + Rebeka Griffel-Rapaport.\n\n**1913-04-08 Bolechów** — Lusia (Leah) Weitzner born to Eli Weitzner + Mathilde Weinreb.\n\n**1934-36 Muszyna** — David + Lusia marry at the Pensjonat Bristol.\n\n**1942-1944 Lwów** — Lusia at Legionów 24 under false identity Maria Cizlik.\n\n**1946 Brussels** — Dov 'Bernard' Rapaport born.\n\n**1947-48 Theodor Herzl → Cyprus → Atlit → Haifa.**\n\n**1990-08-29** — David Memek dies, age 78, buried Sde Yehoshua Haifa.\n\n**1996-12-28** — Lusia dies, age 83, adjacent grave 102ג.\n\n**2026** — Doron, Dana, Daniel + their children = the 22nd+ generation.",
-          "source": "Dossiers 1-19 + Dr Chanan Rapaport 2018 + Edward Gelles 2006"
+          "source": "Dossiers 1-19 + Dr Chanan Rapaport 2018 + Edward Gelles 2006",
+          "summary_he": "צעד אחר צעד, דור אחר דור:\n\n**1305 מיורקה** — ד״ר וידאל רפפא, האב הקדמון המתועד המוקדם ביותר של רפפורט הידוע בשמו; עמד בראש הקשר מ-1305 להצלת נערה יהודייה מהמרת דת כפויה בנישואין.\n\n**1311-1345 מיורקה** — ד״ר יוסף שלמה רפפא, רופא החצר של המלך ז׳יימה השלישי; תביעת 1345 נגד המלך פדרו הרביעי על עשר ליברות שלא שולמו (כ-600 אלף עד מיליון וחצי אירו של היום).\n\n**1391-1492** — הפרעות בספרד וגירוש האינקוויזיציה; המשפחה נמלטת לאיטליה.\n\n**1450 בקירוב, מיינץ ← פורטו שבאיטליה** — ר׳ משולם יקותיאל הכהן רפא (נפטר 1450), אבי שושלת רפופורט-כהן.\n\n**1482-1565 פדובה** — ר׳ מאיר קצנלנבוגן, ״מהר״ם פדובה״, רבה הראשי של פדובה, מייסד שושלת הרבנים קצנלנבוגן.\n\n**1502 פורטובופולה** — ר׳ יחיאל מיכל הכהן רפא נולד; בנו יצחק ״המוהל״ רפא-פורטו היה הראשון שהשתמש ב״רפא-פורטו״ כשם משפחה (בערך 1550).\n\n**1520-1596 ורונה** — ר׳ אברהם מנחם הכהן רפא-פורטו פרסם את ״מנחה בלולה״ (1594) ובו סמל המשפחה המובהק: עורב וברכת כהנים — הסמל שנמצא עד היום בראש אתר הארכיון שלנו.\n\n**1541-1617** — שאול ואהל קצנלנבוגן, ״מלך פולין לילה אחד״ שבאגדה.\n\n**1584-1651 למברג (לבוב)** — ר׳ אברהם רפופורט ״שרנצל״, ראש ישיבת למברג במשך ארבעים וחמש שנה, נשיא ועד ארבע ארצות. מייסד ענף רפפורט הגליציאני.\n\n**1737-1802 נדבורנא** — ר׳ צבי הירש פיליפ, האדמו״ר החסידי המייסד של"
         },
         {
           "id": "chajes_dynasty",
@@ -2056,7 +2084,8 @@
           "title_he": "שושלת חיות הרבנית — קולומיאה (שרה מאטל)",
           "status": "confirmed",
           "summary_en": "Sarah Matel Chajes (of Kolomea, married Eliezer Griffel of Nadwórna) descended from Isaac Chaim Chayes (1823-1866) of Kolomea, who descended from Isaac ben Abraham Chayes (1538-1617), Chief Rabbi of Prague. Through this line the family connects to David Halevi Segal (the 'Taz', Chief Rabbi of Lvov) and Joel Sirkes (the 'Bach', Chief Rabbi of Cracow).",
-          "source": "Edward Gelles 'Facets of My Family History' (Balliol Oxford)"
+          "source": "Edward Gelles 'Facets of My Family History' (Balliol Oxford)",
+          "summary_he": "שרה מטל חייס (מקולומיאה, נישאה לאליעזר גריפל מנדבורנא) הייתה צאצאית של יצחק חיים חייס (1823-1866) מקולומיאה, שהיה צאצא של יצחק בן אברהם חייס (1538-1617), רבה הראשי של פראג. דרך הקו הזה מתחברת המשפחה לדוד הלוי סג״ל (הט״ז, רבה הראשי של לבוב) וליואל סירקיש (הב״ח, רבה הראשי של קרקוב)."
         },
         {
           "id": "hager_ottynia",
@@ -2064,7 +2093,8 @@
           "title_he": "חסידי האגר-אוטיניה — עולמו הדתי של אליעזר גריפל",
           "status": "confirmed",
           "summary_en": "Eliezer Griffel and his sons + sons-in-law (including Berisz Rapaport) 'prayed regularly in the synagogue of the Rabbi of nearby Ottynia' — the Hager Chasidic dynasty's Ottynia branch under Reb Chaim Hager (1863-1931, author of 'Tal Chaim'). Pinkas Hakehillot Polin confirms the Ottynia kloiz was one of more than 20 houses of prayer in pre-war Nadwórna, alongside Kosow, Wiznitz, Czortkow + Belz Chasidim.",
-          "source": "Edward Gelles + Pinkas Hakehillot Polin Nadwórna"
+          "source": "Edward Gelles + Pinkas Hakehillot Polin Nadwórna",
+          "summary_he": "אליעזר גריפל, בניו וחתניו (ובהם בריש רפפורט) ״התפללו דרך קבע בבית הכנסת של הרבי מאוטיניה הסמוכה״ — ענף אוטיניה של שושלת החסידות האגר, תחת ר׳ חיים האגר (1863-1931, מחבר ״טל חיים״). פנקס הקהילות פולין מאשר שקלויז אוטיניה היה אחד מלמעלה מעשרים בתי תפילה בנדבורנא שלפני המלחמה, לצד חסידי קוסוב, ויז׳ניץ, צ׳ורטקוב ובעלז."
         },
         {
           "id": "nadvorna_dynasty_naming",
@@ -2072,7 +2102,8 @@
           "title_he": "בריש = יששכר בעריש = שמו של מייסד שושלת חסידי נדבורנה",
           "status": "likely",
           "summary_en": "David's father Berisz / Bernard Rapaport's Hebrew name was Issachar Berish — EXACT match to R. Issachar Dov Ber 'Bertche' Leifer (1790-1848), founder of the Nadvorna Hasidic dynasty. Overwhelming evidence that Berisz's father was a Nadvorner Chasid in the 1880s and that Berisz was named for the dynasty founder. R. Issachar Dov Leifer's mother was Feige bat R' Itamar ha-Kohen — Kohanic descent in the Leifer matriline as well.",
-          "source": "JewishGen Nadwórna authors page + JGB"
+          "source": "JewishGen Nadwórna authors page + JGB",
+          "summary_he": "שמו העברי של בריש/ברנרד רפפורט, אביו של דוד, היה יששכר בריש — התאמה מדויקת לר׳ יששכר דב בער ״ברטשה״ לייפר (1790-1848), מייסד שושלת החסידות מנדבורנא. ראיה מכרעת לכך שאביו של בריש היה חסיד נדבורנא בשנות השמונים של המאה התשע עשרה, ושבריש נקרא על שם מייסד השושלת. אמו של ר׳ יששכר דב לייפר הייתה פייגה בת ר׳ איתמר הכהן — ייחוס כהונה גם בקו האם של לייפר."
         }
       ]
     },
@@ -2092,7 +2123,9 @@
             "https://en.wikipedia.org/wiki/Saul_Wahl",
             "https://www.jewishencyclopedia.com/articles/14751-wahl-saul",
             "https://encyclopedia.yivo.org/article.aspx/Wahl_Shaul"
-          ]
+          ],
+          "title_he": "שאול ואהל קצנלנבוגן (1541-1617) — ״מלך פולין לילה אחד״",
+          "summary_he": "סוחר יהודי-פולני. נשא את דבורה רבקה דרוקר (קרובתו של משה איסרליש, הרמ״א). לפי האגדה היהודית שימש ״רקס פרו טמפורה״ של פולין ב-18 באוגוסט 1587, בין מותו של סטפן באתורי לבחירתו של זיגמונט השלישי ואזה. יש מסורות האומרות שמלך לילה אחד בלבד, ואחרות — כמה ימים. שם המשפחה ״ואהל״ בא מגרמנית wahl, כלומר בחירה. שלושה עשר ילדים. אב קדמון מאושש ב-Y-DNA לצאצאים מודרניים רבים, ובהם אדוארד גלס."
         },
         {
           "id": "katzenellenbogen_padua_venice",
@@ -2111,7 +2144,9 @@
               "caption_he": "פאדובה, איטליה — מקום מושבו של רבי מאיר קצנלנבוגן 'מהר\"ם מפדואה' (1482-1565), רבה הראשי של פדואה.",
               "credit": "Wikipedia Commons (CC-BY-SA)"
             }
-          ]
+          ],
+          "title_he": "שושלת קצנלנבוגן פדובה-ונציה (1482-1597)",
+          "summary_he": "ר׳ מאיר קצנלנבוגן, ״מהר״ם פדובה״ (1482 בקירוב-1565) — רבה הראשי של פדובה; אמו יוליה-מלכה לוריא הייתה צאצאית רש״י דרך בתו מרים; נשא את חנה, נכדתו של יהודה מינץ. בנו ר׳ שמואל יהודה קצנלנבוגן (1521-1597) היה לרבה הראשי של ונציה. בנו של שמואל היה שאול ואהל. שלושה דורות מתועדים של הנהגה רבנית איטלקית לפני שהמשפחה עברה אל יהדות פולין-ליטא."
         },
         {
           "id": "tarnobrzeg_wahl_to_chawa",
@@ -2130,7 +2165,9 @@
               "caption_he": "טרנוברז'ג, פולין — עיירה גליציאנית של משפחת וואהל שממנה יצאה חוה וואהל (1877-1941), סבתא-רבתא של דנה, דורון ודניאל רפפורט.",
               "credit": "Wikipedia Commons (CC-BY-SA)"
             }
-          ]
+          ],
+          "title_he": "משפחת ואהל מטרנוברז׳ג ← שולים ואהל ← חוה ואהל גריפל (1877-1941)",
+          "summary_he": "השרשרת ממאיר ואהל ״המהר״ש״ (1565 בקירוב-1631, אב״ד בריסק, נשא את הינדה הורוויץ מקרקוב) דרך משפחות ואהל/ווהל הגליציאניות של המאות השבע עשרה עד התשע עשרה בקרקוב ובטרנוברז׳ג ← שולים ואהל ושרה ספיר מטרנוברז׳ג ← חוה ואהל (1877-1941), שנישאה לדוד מנדל גריפל מנדבורנא בשנת 1896 בקירוב. ילדים: זיגמונט (1897-1951), רגינה (1900-1954, אמו של אדוארד גלס), אדוארד (1904-1959). מתועד בידי אדוארד גלס ב״ואהל מטרנוברז׳ג ווהל מקרקוב״ (בליול)."
         },
         {
           "id": "ydna_katzenellenbogen_avotaynu",
@@ -2140,7 +2177,9 @@
           "source": "Avotaynu Online 2016",
           "urls": [
             "https://avotaynuonline.com/2016/03/y-dna-genetic-signature-ethnic-origin-katzenellenbogen-rabbinical-lineage/"
-          ]
+          ],
+          "title_he": "🧬 אישוש Y-DNA — שושלת הרבנים קצנלנבוגן (Avotaynu 2016)",
+          "summary_he": "כתב העת Avotaynu Online פרסם את המאמר ״החתימה הגנטית בכרומוזום Y והמוצא האתני של שושלת הרבנים קצנלנבוגן״ (2016). המאמר מאשש שלקו שאול ואהל יש Y-DNA מתועד. אדוארד גלס בדק את ה-DNA של עצמו — והתוצאה מקשרת אותו הן לקו ואהל-קצנלנבוגן והן לצאצאי בנבנישתי הספרדים."
         }
       ]
     },
@@ -2160,7 +2199,9 @@
           "urls": [
             "https://www.jewishgen.org/yizkor/bolekhov/bol102.html"
           ],
-          "quote_en": "In the management of the big factories were Jews, who were doing their task their whole life, from their youth. They were engaged in the construction of the factory's building from the very beginning. In the surroundings they were well known as specialists in the wood-profession. The following should be mentioned: Mr. (Reb) Moyshe Bin, who emigrated to Israel and died here; Zaynvl Rapaport; Aharon Shor and the Shtrasman-brothers."
+          "quote_en": "In the management of the big factories were Jews, who were doing their task their whole life, from their youth. They were engaged in the construction of the factory's building from the very beginning. In the surroundings they were well known as specialists in the wood-profession. The following should be mentioned: Mr. (Reb) Moyshe Bin, who emigrated to Israel and died here; Zaynvl Rapaport; Aharon Shor and the Shtrasman-brothers.",
+          "title_he": "זיינוול רפפורט — מומחה עצים מבולחוב",
+          "summary_he": "נקוב בספר היזכור של בולחוב (bol102.html, ״עץ ותעשיות אחרות״ מאת אברהם ובר) כמומחה יהודי בכיר בתעשיית העץ במפעל העצים בבולחוב. ככל הנראה דוד מצד האב או בן דוד מבוגר של דוד ממק."
         },
         {
           "id": "zishe_vaytsner",
@@ -2171,7 +2212,9 @@
           "urls": [
             "https://www.jewishgen.org/yizkor/bolekhov/bol102.html"
           ],
-          "quote_en": "Other industries, like the leather or candle industry were not less represented by business activities at the station. The latter was concentrated around two factories, one run by Yoel Halpern and the other run by Zishe Vaytsner."
+          "quote_en": "Other industries, like the leather or candle industry were not less represented by business activities at the station. The latter was concentrated around two factories, one run by Yoel Halpern and the other run by Zishe Vaytsner.",
+          "title_he": "זישה ויצנר — בעל מפעל נרות בבולחוב",
+          "summary_he": "נקוב בספר היזכור של בולחוב כבעליו של מפעל נרות בבולחוב (המפעל הגדול האחר בעיירה היה של יואל הלפרן). ככל הנראה דוד או בן דוד מצד ויצנר של לוסיה."
         },
         {
           "id": "shlomele_weitzner",
@@ -2181,14 +2224,18 @@
           "source": "Bolechów Yizkor 1957",
           "urls": [
             "https://www.jewishgen.org/yizkor/bolekhov/bol086.html"
-          ]
+          ],
+          "title_he": "שלומלה ויצנר — נפטר צעיר מדיזנטריה",
+          "summary_he": "נקוב בספר היזכור של בולחוב (bol086.html) כנער מבולחוב שהקדיש מזמנו לתנועת נוער אך נפטר צעיר מדיזנטריה, לפני המלחמה. ככל הנראה אח צעיר או בן דוד של לוסיה/פייגה/משה/פנינה."
         },
         {
           "id": "rivka_siblings",
           "title_en": "Rivka Griffel's 9 confirmed siblings",
           "status": "confirmed",
           "summary_en": "David Mendel Griffel (1875-1941, perished Nadwórna), Machla Griffel-Wilner (b.1876), Zissel Griffel-Lamm (b.1878), Isaac Chaim Griffel (1880-1930), Shaya Griffel (b.1883), Leibish Griffel (b.1885), Benjamin Griffel (b.1887), Rachel Griffel-Ohrenstein (b.1892), Chaya Griffel-Gruenfeld (d.1918).",
-          "source": "Edward Gelles, Griffel of Nadworna"
+          "source": "Edward Gelles, Griffel of Nadworna",
+          "title_he": "תשעת אחיה ואחיותיה המאוששים של רבקה גריפל",
+          "summary_he": "דוד מנדל גריפל (1875-1941, נספה בנדבורנא), מחלה גריפל-וילנר (ילידת 1876), זיסל גריפל-לאם (ילידת 1878), יצחק חיים גריפל (1880-1930), שעיה גריפל (יליד 1883), לייביש גריפל (יליד 1885), בנימין גריפל (יליד 1887), רחל גריפל-אורנשטיין (ילידת 1892), חיה גריפל-גרינפלד (נפטרה 1918)."
         }
       ]
     },
@@ -2262,7 +2309,8 @@
               "credit": "Rapaport family archive"
             }
           ],
-          "source": "Doron Rapaport (family archive, 21 May 2026)"
+          "source": "Doron Rapaport (family archive, 21 May 2026)",
+          "summary_he": "חמישה תצלומי מסמכי זהות ששיתפה המשפחה, ובהם הוריה של דליה — שלמה גולדפישר ואסתר, סבם וסבתם של דנה, דורון ודניאל מצד האם: (א) תעודת הזהות המנדטורית של שלמה גולדפישר, עם החותמת ״Urban and Rural Inf. Bde. Office״ והחתימה ״שלמה גולדפישר״ — מלפני 1948, מסמכו המוקדם בארץ; (ב)-(ג) תצלומיה של אסתר גולדפישר (אחד בצעירותה, אחד מבוגר יותר עם משקפיים) מדרכון ישראלי דו-לשוני צרפתי-עברי; (ד)-(ה) עמוד הסימנים המזהים של שלמה גולדפישר, ובו המקצוע ״Marin״ (ימאי/ספנות סוחר), מקום לידה סקולה, נולד 23 בנובמבר 1909, גובה 172 ס״מ, עיניים חומות ושיער חום. אלה מאשרים ששלמה גולדפישר, אביה של דליה, נולד בסקולה — אותו אזור קרפטי גליציאני שאליו שייכות גם בולחוב וגם נדבורנא."
         },
         {
           "id": "burial_records_baron_hirsch_zygmunt",
@@ -2283,7 +2331,8 @@
               "caption_he": "בית הקברות באראן הירש, סטטן איילנד — בו קבור זיגמונט גריפל (1897-1951), בחלקת אגודת בני הנעורים הנדבורנים, סקטור I, שער 51.",
               "credit": "Wikipedia Commons (CC-BY-SA)"
             }
-          ]
+          ],
+          "summary_he": "עדותו של אריק גריפל ל-ADST משנת 2015 מאוששת כעת ממקור ראשוני. אביו זיגמונט גריפל (1897-1951) מתועד בתמלול של איידה גרין לפנקס הקבורה של אגודת הצעירים בני נדבורנא בבית העלמין ברון הירש, שדרות ריצ׳מונד 1126, סטטן איילנד, ניו יורק — חלקה I, שער 51. נפטר ב-16 במאי 1951, בגיל 53. אדוארד גריפל (1904-1959) וסוזן מנסון גריפל (נפטרה 1978) קבורים באותה חלקה. ברנרד גריפל (1899-1962) ומולי מהרבאום (1890-1966) בחלקה A הסמוכה, שער 113. דבריו של אריק, ״בסטטן איילנד בחלקת ארגון המהגרים היהודים מנדבורנא״, מאומתים תיעודית."
         },
         {
           "id": "yivo_rg_1622_smoking_gun",
@@ -2295,7 +2344,8 @@
           "urls": [
             "http://yivoarchives.org/index.php?p=collections/controlcard&id=33916&top=1",
             "mailto:archives@yivo.cjh.org"
-          ]
+          ],
+          "summary_he": "ארכיון YIVO, אוסף RG 1622, מחזיק את הרשומות המלאות של אגודת החולים הראשונה של בני נדבורנא (1897-1984): תקנון 1897 (אנגלית); פנקסי חברות 1900-1963 (גרמנית); יומני הכנסות והוצאות 1935-1984; תיקי הזמנת חלקות קבר של החברים בברון דה הירש; והתכתבות עם בית העלמין. שם נמצאים ניירות הזמנת החלקה המקוריים של זיגמונט גריפל מ-1951 — וקרוב לוודאי גם כרטיס החברות שלו, ובו שמות ההורים, תאריכי לידה ותאריכי הגירה. היעד היחיד בעל הערך הרב ביותר למסמך מקורי בענף גריפל-נדבורנא."
         },
         {
           "id": "jdc_cyprus_name_index",
@@ -2307,7 +2357,8 @@
           "urls": [
             "https://archives.jdc.org/topic-guides/detained-in-cyprus/",
             "https://archives.jdc.org/project/cyprus-detention-camps/"
-          ]
+          ],
+          "summary_he": "אוסף קפריסין של הג׳וינט (JDC) הוא מאגר המקוון הישים ביותר לאיתור משפחתנו. הוא מונה 16,667 עמודי קבצים שנסרקו מתשעה עשר סלילי מיקרופילם. מתוך מדריך הנושאים של הג׳וינט: ״לידות של עצורים בקפריסין בשנים 1948-1949 מתועדות, ויש רשימות ממופתחות החושפות מידע גנאלוגי כגון שמות, גיל, תאריך לידה, מקום לידה, לאום, שיוך קבוצתי, מצב משפחתי ואפילו משקל.״ משפחה בת שלוש נפשות — דוד יליד 25.12.1911, לוסיה ילידת 8.4.1913, שמעון יליד 22.6.1937 — אמורה להיות ניתנת לאיתור בהצלבת תאריכי לידה בלבד."
         },
         {
           "id": "haifa_chevra_kadisha_david_rapaport",
@@ -2319,7 +2370,8 @@
           "urls": [
             "https://kdh.org.il/memorial-info-dates-full/memorial-info-expanded/?deceased=10700",
             "http://kdh.org.il/funeral-info-dates-full/funeral-info-expanded/?deceased=148324"
-          ]
+          ],
+          "summary_he": "לחברה קדישא בחיפה יש רשומות ניתנות למפתוח עבור שני ״דוד רפפורט״ לפחות. הרשומות שלהם נוקבות בדרך כלל בתאריך פטירה עברי, שנת לידה ושמות ההורים — המקום הסביר ביותר לקבע את תאריך פטירתו המדויק של דוד ממק. שתי הכתובות לבדיקה ידנית: נפטר מס׳ 10700 (עמוד פרטי הנצחה) ונפטר מס׳ 148324 (עמוד פרטי לוויה)."
         },
         {
           "id": "daifo_r432_krueger",
@@ -2330,7 +2382,8 @@
           "source": "DAIFO (State Archive of Ivano-Frankivsk Oblast) — Yad Vashem academic article on Krueger",
           "urls": [
             "https://www.yadvashem.org/articles/academic/hans-krueger-and-the-murder-of-the-jews-in-the-stanislawow-region.html"
-          ]
+          ],
+          "summary_he": "הנס קרוגר היה ה-SD-האופטשטורמפיהרר שפיקח על חורבן החיים היהודיים במחוז סטניסלאו (ובכללו נדבורנא). אוסף DAIFO, פונד R-432, אופיס 1, ספרבה 1, מכיל את פקודות ההוצאה להורג שלו מ-13 באוקטובר עד 7 בנובמבר 1941, מיד לאחר האקציה הגדולה של 6 באוקטובר 1941. הכפר זלנוֹיֶה (זלנה, ליד נדבורנא) נקוב בשמו. ייתכן שאוסף זה נוקב בשמותיהם של בריש רפפורט ורבקה גריפל-רפפורט בין המוצאים להורג — התקווה החזקה ביותר לאשש את גורלם המדויק."
         },
         {
           "id": "brussels_aliens_police",
@@ -2342,7 +2395,8 @@
             "mailto:agr.searchdesk@arch.be",
             "https://search.arch.be"
           ],
-          "source": "Archives générales du Royaume, Bruxelles"
+          "source": "Archives générales du Royaume, Bruxelles",
+          "summary_he": "הארכיון הכללי של הממלכה בבריסל מחזיק למעלה משני מיליון תיקים אישיים של משטרת הזרים. לדוד, ללוסיה ולשמעון יש תיק לכל אחד מהגעתם לבריסל באפריל 1946 — בוודאות. התיק יכיל תצלום, מסמכי מעמד אישי, הצהרת תעסוקה, כתובות 1946-47, והודעת יציאה בעת עזיבתם דרך סֶט באפריל 1947. צפוי להכיל את תיאורו הכתוב הראשון של דוד את המלחמה, ובו שמות בני משפחתו שנרצחו."
         },
         {
           "id": "berlin_beg",
@@ -2352,7 +2406,9 @@
           "urls": [
             "mailto:info@landesarchiv-berlin.de"
           ],
-          "source": "Landesarchiv Berlin / LABO"
+          "source": "Landesarchiv Berlin / LABO",
+          "title_he": "🎯 הארכיון של מדינת ברלין — תיק השילומים של דוד",
+          "summary_he": "הסנאט של ברלין החליט בתחילת 2026 להעביר 250 עד 280 אלף תיקי שילומים אישיים (BEG, 1953-1969) מ-LABO אל ארכיון המדינה. לדוד יש כמעט בוודאות תיק BEG — היומן קובע במפורש שהוא ולוסיה קנו בכספי השילומים מגרמניה את דירתם בחיפה ברחוב מוריה 93. תוכן צפוי: תיאור הרדיפה (בכתב ידו של דוד, בגרמנית או בעברית), תצהירי עדים, תצלום ורשומות תשלום."
         },
         {
           "id": "arolsen_weitzner_lea",
@@ -2450,7 +2506,9 @@
             "https://www.yadvashem.org/communities/nadworna/before-holocaust.html",
             "https://www.yadvashem.org/communities/nadworna/german-occupation.html",
             "https://www.jewishgen.org/yizkor/pinkas_poland/pol2_00328.html"
-          ]
+          ],
+          "title_he": "🌲 חברת ״פורסטה״ — המנסרה שבה עבד דוד ממק במלחמה (בבעלות יהודית, הואררה ב-1941)",
+          "summary_he": "״פורסטה״ מאוששת בשלושה מקורות בלתי תלויים (יד ושם, פנקס הקהילות פולין, וגליציה ובוקובינה היהודית) כמפעל העצים של נדבורנא, שהיה בבעלות יהודית ובניהול יהודי. החברה חכרה יערות ממשלתיים מן השלטונות הפולנים וייצאה עצים. החוזה בוטל ב-1937 בלחץ אנטישמי. הולאמה בידי הסובייטים לאחר ספטמבר 1939 — והיהודים שמרו על עמדות ניהול. תחת הכיבוש הגרמני בשנים 1941-42 עבדו במנסרה כשש מאות יהודים מדי יום כדי לקבל אישורי ״עובד חיוני״. אישור העבודה של דוד ממק רפפורט בזמן המלחמה היה למפעל הזה. שמות הבעלים אינם מצויים ברשת הפומבית — הם בטקסט העברי המלא של פנקס הקהילות פולין, וקרוב לוודאי בספר היזכור של נדבורנא בעריכת כרמי משנת 1975."
         }
       ]
     },
@@ -2557,7 +2615,8 @@
               "caption_he": "בניין בית הספר היהודי בבולחוב.",
               "credit": "JGB"
             }
-          ]
+          ],
+          "summary_he": "עמוד הקהילה של JGB לבולחוב כולל את בית הכנסת הגדול (תצלום מן הצד הצפוני), מפת עיירה מ-1914, ובית עלמין מצולם במלואו (כשבע מאות מצבות תועדו במשלחת JGB בשנים 2013-14). כן יש גלריה של יצירות מופת בגילוף אבן."
         },
         {
           "id": "jgb_nadworna",
@@ -2584,7 +2643,8 @@
               "caption_he": "נדבורנה — בניין מלון היסטורי.",
               "credit": "Wikipedia Commons"
             }
-          ]
+          ],
+          "summary_he": "עמודי JGB לנדבורנא מכסים בתי כנסת, שושלות חסידיות, ופנקס נישואין דיגיטלי של נדבורנא משנת 1932. ייתכן שנישואיה של לוטה מופיעים בפנקס הנישואין, אם נישאה בנדבורנא."
         },
         {
           "id": "bolechow_flickr",
@@ -2595,7 +2655,8 @@
           "source": "Bolechów Jewish Heritage Society",
           "urls": [
             "https://www.flickr.com/photos/bolechow/"
-          ]
+          ],
+          "summary_he": "עמוד ה-Flickr הציבורי של אגודת מורשת יהודי בולחוב — תיעוד בית העלמין, שיקום, וביקורים בעיירה. ייתכנו תצלומי משפחה או עסקים מלפני המלחמה."
         },
         {
           "id": "yad_vashem_photos",
@@ -2606,7 +2667,8 @@
           "source": "Yad Vashem",
           "urls": [
             "https://photos.yadvashem.org/advanced-search.html?language=en"
-          ]
+          ],
+          "summary_he": "ארכיון התצלומים של יד ושם כולל חיפוש אינטראקטיבי. יש להריץ לפי שם מקום וגם לפי שמות משפחה. תצלומי אלבום משפחתיים רבים שנתרמו בידי ניצולים כוללים אנשים נקובים בשמם."
         },
         {
           "id": "ushmm_photos",
@@ -2620,7 +2682,8 @@
             "https://collections.ushmm.org/search/catalog/pa1177841",
             "https://www.ushmm.org/online/hsv/source_view.php?SourceId=33476",
             "https://www.ushmm.org/online/hsv/source_view.php?SourceId=33475"
-          ]
+          ],
+          "summary_he": "זוהו שני תצלומים מסוימים מלפני המלחמה: pa1081422 (משפחת ויניגר/הנדל בנדבורנא, שולחן בהרמת כוסית חגיגית) ו-pa1177841 (שרלוטה ורגינה זרוואניצר בגן בבולחוב, 1924-1942). כן מוחזקות רשימות של ניצולי בולחוב ושל הנספים."
         }
       ]
     },
@@ -2636,35 +2699,45 @@
           "title_en": "New person: \"Doner\" (p.48) — likely German employer surname",
           "status": "lead",
           "summary_en": "On p.48 of the memoir a German/Austrian surname \"Doner\" appears, possibly the supervisor or shop employer Lusia worked under while using her false identity.",
-          "source": "Memoir p.48 — Sonnet 4.5 retranslation"
+          "source": "Memoir p.48 — Sonnet 4.5 retranslation",
+          "title_he": "אדם חדש: ״דונר״ (עמ׳ 48) — ככל הנראה שם משפחה של מעסיק גרמני",
+          "summary_he": "בעמוד 48 של היומן מופיע שם משפחה גרמני/אוסטרי ״דונר״, ואפשר שזהו הממונה או בעל החנות שאצלו עבדה לוסיה בזהותה הבדויה."
         },
         {
           "id": "new_person_kramer_dentist",
           "title_en": "New person: Kramer the dentist from Nadwórna (p.48) — murdered after gold found in his home",
           "status": "lead",
           "summary_en": "p.48 mentions a Kramer dentist from Nadwórna whose daughter Lusia encountered in Lwów. The dentist was killed by the Germans after gold was found in his home. A community member, not direct family.",
-          "source": "Memoir p.48 — Sonnet 4.5 retranslation"
+          "source": "Memoir p.48 — Sonnet 4.5 retranslation",
+          "title_he": "אדם חדש: קרמר, רופא השיניים מנדבורנא (עמ׳ 48) — נרצח לאחר שנמצא זהב בביתו",
+          "summary_he": "עמוד 48 מזכיר רופא שיניים בשם קרמר מנדבורנא, שבבתו פגשה לוסיה בלבוב. הגרמנים הרגו את רופא השיניים לאחר שנמצא זהב בביתו. בן קהילה, לא קרוב משפחה ישיר."
         },
         {
           "id": "biblical_reference_p7",
           "title_en": "Biblical reference identified: 1 Kings 21:19 (p.7)",
           "status": "confirmed",
           "summary_en": "Sonnet identified that the Hebrew \"הרצחת וגם ירשת?!\" on p.7 is a direct quote from 1 Kings 21:19 — Elijah's accusation to Ahab after the theft of Naboth's vineyard: \"Have you murdered and also inherited?\" Lusia uses this as moral indictment of the Nazis.",
-          "source": "Memoir p.7 — Sonnet 4.5 retranslation"
+          "source": "Memoir p.7 — Sonnet 4.5 retranslation",
+          "title_he": "זוהה ציטוט מקראי: מלכים א׳ כ״א, י״ט (עמ׳ 7)",
+          "summary_he": "סונט זיהה שהמילים ״הרצחת וגם ירשת?!״ בעמוד 7 הן ציטוט ישיר ממלכים א׳ כ״א, י״ט — דברי אליהו לאחאב לאחר גזלת כרם נבות. לוסיה משתמשת בהם ככתב אישום מוסרי נגד הנאצים."
         },
         {
           "id": "second_shimon_p45",
           "title_en": "A second Shimon (NOT Lusia's son) appears p.45 — hidden in a wooden crate",
           "status": "lead",
           "summary_en": "p.45 mentions a different Jewish child named Shimon hidden by his mother (not Lusia) in a wooden crate 70 cm × 1.50 m, in the millinery shop where Lusia worked. Important to distinguish from Lusia's son Shimon b.1937.",
-          "source": "Memoir p.45 — Sonnet 4.5 retranslation"
+          "source": "Memoir p.45 — Sonnet 4.5 retranslation",
+          "title_he": "שמעון שני (לא בנה של לוסיה) מופיע בעמ׳ 45 — מוסתר בארגז עץ",
+          "summary_he": "עמוד 45 מזכיר ילד יהודי אחר בשם שמעון שאמו (לא לוסיה) הסתירה אותו בארגז עץ במידות 70 ס״מ על 1.50 מ׳, בחנות הכובעים שבה עבדה לוסיה. חשוב להבחין בינו לבין שמעון בנה של לוסיה, יליד 1937."
         },
         {
           "id": "lwow_places_unknown",
           "title_en": "Two Lwów place names need identification: \"Yaichor\" + \"Yeplatsovka\"",
           "status": "lead",
           "summary_en": "p.56 mentions \"Yaichor\" (ייחור) — possibly a small dwelling type — and \"Yeplatsovka\" (יפלאצבקה) — a place name near the Lwów market. Possibly Polish street/neighbourhood names like \"Pełczyńska\". Worth cross-referencing against 1939 Lwów street directories.",
-          "source": "Memoir p.56 — Sonnet 4.5 retranslation"
+          "source": "Memoir p.56 — Sonnet 4.5 retranslation",
+          "title_he": "שני שמות מקום בלבוב טעונים זיהוי: ״ייחור״ ו״יפלאצבקה״",
+          "summary_he": "עמוד 56 מזכיר ״ייחור״ — אולי סוג של מבנה מגורים קטן — ו״יפלאצבקה״ — שם מקום סמוך לשוק בלבוב. ייתכן שאלה שמות רחוב או שכונה בפולנית, כגון ״פלצ׳ינסקה״. שווה הצלבה מול מדריכי הרחובות של לבוב משנת 1939."
         }
       ]
     },
@@ -2809,7 +2882,8 @@
           "status": "lead",
           "summary_en": "The Firebase Cloud Function 'verifyUpload' uses Gemini 2.5 Flash to verify family-uploaded documents (PDFs / photos / WhatsApp chats). Currently returning HTTP 503 Service Unavailable — Gemini API capacity issue. Recommended fix: extend functions/index.js to fall back to Claude Sonnet 4.5 (via the existing ANTHROPIC_API_KEY secret) when Gemini returns 503/429/RECITATION/SAFETY. This makes the upload verifier robust. Meanwhile, Dalia, Dana, Doron and Daniel can manually re-trigger pending uploads by setting their Firestore doc field gemini_verification.status back to 'pending' (the function re-fires on next doc update if status === 'pending').",
           "source": "Repo functions/index.js + observed 503 error 19 May 2026 on Daniel's PDF upload",
-          "urls": []
+          "urls": [],
+          "summary_he": "פונקציית הענן ב-Firebase בשם verifyUpload משתמשת ב-Gemini 2.5 Flash כדי לאמת מסמכים שהמשפחה מעלה (קובצי PDF, תצלומים, שיחות וואטסאפ). כרגע היא מחזירה שגיאת HTTP 503 — בעיית קיבולת בממשק של Gemini. התיקון המומלץ: להרחיב את functions/index.js כך שייפול חזרה ל-Claude Sonnet 4.5 (דרך מפתח ה-ANTHROPIC_API_KEY הקיים) כאשר Gemini מחזיר 503/429/RECITATION/SAFETY. כך יהיה מאמת ההעלאות עמיד. בינתיים, דליה, דנה, דורון ודניאל יכולים להפעיל מחדש העלאות ממתינות באופן ידני בהחזרת השדה gemini_verification.status במסמך ה-Firestore לערך pending (הפונקציה נורית מחדש בעדכון הבא של המסמך אם הסטטוס הוא pending)."
         },
         {
           "id": "action_balliol_pdfs",
@@ -2820,7 +2894,9 @@
           "urls": [
             "https://archives.balliol.ox.ac.uk/Modern%20Papers/gelles/Griffel%20of%20Nadworna.pdf",
             "https://archives.balliol.ox.ac.uk/Modern%20Papers/gelles/An%20Ancient%20Lineage%20-%20%20%20Edward%20Gellles%20%20-%20%20INDEX.pdf"
-          ]
+          ],
+          "title_he": "לפתוח את מסמך ה-PDF של אדוארד גלס ״גריפל מנדבורנא״ ולחפש בו ״רפפורט״",
+          "summary_he": "קובצי ה-PDF של בליול נוקבים כמעט בוודאות בשמו של דוד ״ממק״ רפפורט בתוך אילן המשפחה של עשרת ילדיו של אליעזר גריפל. יש לקרוא תחילה את מסמך המפתח, ואז לדלג לכל הפניה לעמוד שבו מופיע ״רפפורט״."
         },
         {
           "id": "action_all_galicia_db",
@@ -2830,7 +2906,9 @@
           "source": "Gesher Galicia",
           "urls": [
             "https://search.geshergalicia.org/database.php"
-          ]
+          ],
+          "title_he": "להריץ חיפושים במאגר כל גליציה עבור ארבעת שמות המשפחה",
+          "summary_he": "במאגר כל גליציה של גשר גליציה יש 2,833 רשומות רפפורט, וכן מפתוח של נדבורנא ובולחוב. יש לחפש רפפורט+נדבורנא, גריפל+נדבורנא, ויצנר+בולחוב, ויינרב+דולינה. יש לשמור כל קוד מקור."
         },
         {
           "id": "action_arolsen",
@@ -2840,7 +2918,9 @@
           "source": "Arolsen Archives (ITS)",
           "urls": [
             "https://collections.arolsen-archives.org/en/search/person/"
-          ]
+          ],
+          "title_he": "להריץ חיפוש בארכיון ארולסן עבור רפפורט / ויצנר",
+          "summary_he": "ארכיון ארולסן ממפתח רישומי מחנות עקורים, טופסי ״טיפול והחזקה״, בקשות איתור ושברי כרטיסי עבודה. יש לחפש דוד מנדל רפפורט יליד 25.12.1911 נדבורנא; לוסיה ויצנר ילידת 8.4.1913 בולחוב; שמעון רפפורט יליד 1937."
         },
         {
           "id": "action_kazerne_dossin",
@@ -2850,7 +2930,9 @@
           "source": "Kazerne Dossin",
           "urls": [
             "mailto:archief@kazernedossin.eu"
-          ]
+          ],
+          "title_he": "לשלוח דוא״ל ל-Kazerne Dossin עבור תיק משטרת הזרים בבריסל",
+          "summary_he": "archief@kazernedossin.eu — לבקש סריקה של ״רפפורט, דוד מנדל, יליד 25.12.1911 נדבורנא, הגיע לבלגיה בערך באפריל 1946; אשתו לאה/לוסיה ויצנר ילידת 1913 בולחוב; בנו שמעון יליד 1937״."
         },
         {
           "id": "action_ap_przemysl",
@@ -2860,7 +2942,9 @@
           "source": "AP Przemyśl",
           "urls": [
             "https://przemysl.ap.gov.pl/"
-          ]
+          ],
+          "title_he": "לבקש מארכיון פשמישל 154/70/13 — לידות יהודיות בנדבורנא 1909-1941",
+          "summary_he": "הארכיון הממלכתי הפולני בפשמישל מחזיק את ספר המפתח ובו רשומת לידתו של דוד רפפורט מ-25.12.1911. בקשה בפולנית או באנגלית דרך przemysl.ap.gov.pl."
         },
         {
           "id": "action_nadworna_taxpayers_list",
@@ -2870,7 +2954,9 @@
           "source": "JewishGen / USHMM",
           "urls": [
             "https://www.jewishgen.org/yizkor/Nadvornaya/Nad901.html"
-          ]
+          ],
+          "title_he": "לקרוא את רשימת משלמי המסים של נדבורנא משנת 1932 — לחפש את בריש רפפורט",
+          "summary_he": "ב-JewishGen מתארח תמלולה של איידה גרין לרשימת 333 משלמי המסים של נדבורנא משנת 1932, ובה המקצועות. סביר מאוד שבריש/ברנרד רפפורט (סוחר) מופיע בה עם מקצועו וגובה המס ששילם."
         }
       ]
     }
