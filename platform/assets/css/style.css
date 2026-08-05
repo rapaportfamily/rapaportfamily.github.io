@@ -2064,3 +2064,37 @@ html[dir="rtl"] .detail-portrait { margin: 0 1.2rem 1rem 0; }
 .place-photo:hover { border-color: var(--accent); }
 /* the "today" strip reads quieter than the period one */
 .place-photo-group + .place-photo-group .place-photo img { opacity: 0.85; }
+
+/* ── An answered question ─────────────────────────────────────────────
+   Most cards on this page are still open. When one has been settled, the
+   answer is the point of the card and should read like one — not like
+   another row of research notes. */
+.hyp-answer {
+  margin-top: 0.9rem;
+  padding: 0.9rem 1.1rem;
+  background: var(--paper-deep);
+  border-inline-start: 3px solid var(--accent);
+  border-radius: var(--radius);
+}
+.hyp-answer h4 {
+  margin: 0 0 0.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--accent);
+}
+.hyp-answer p {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  line-height: 1.68;
+  color: var(--ink);
+}
+.hyp-evidence {
+  margin: 0.7rem 0 0;
+  padding-inline-start: 1.1rem;
+  font-size: 0.86rem;
+  color: var(--ink-soft);
+}
+.hyp-evidence li { margin: 0.2rem 0; }

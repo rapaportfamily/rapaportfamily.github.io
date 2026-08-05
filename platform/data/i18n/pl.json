@@ -216,7 +216,8 @@
     "title": "Pytania otwarte",
     "lead": "Czego jeszcze nie wiemy i co robimy, aby się dowiedzieć.",
     "by_priority": "Wg priorytetu",
-    "by_status": "Wg statusu"
+    "by_status": "Wg statusu",
+    "answer": "Odpowiedź"
   },
   "chat": {
     "title": "Archiwum czatu badawczego",

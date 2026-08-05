@@ -11,6 +11,46 @@
   },
   "hypotheses": [
     {
+      "id": "h_why_david_went_first",
+      "question": {
+        "en": "Why did David go to Palestine first, with nine-year-old Shimon, and leave Lusia and the baby Dov behind in Brussels — even at the cost of a year behind wire in Cyprus?",
+        "he": "מדוע עלה דוד ארצה ראשון, עם שמעון בן התשע, והשאיר מאחור בבריסל את לוסיה ואת דב התינוק — ואפילו במחיר שנה מאחורי גדר תיל בקפריסין?",
+        "pl": "Dlaczego Dawid popłynął do Palestyny pierwszy, z dziewięcioletnim Szymonem, zostawiając Lusię i niemowlę Dova w Brukseli — nawet za cenę roku za drutami na Cyprze?",
+        "fr": "Pourquoi David est-il parti le premier pour la Palestine, avec Shimon âgé de neuf ans, laissant Lusia et le bébé Dov à Bruxelles — même au prix d’une année derrière les barbelés à Chypre ?"
+      },
+      "priority": "HIGH",
+      "status": "RESOLVED — answered by the memoir, page 63",
+      "answer": {
+        "en": "It was not impatience, and it was not a choice about who mattered more. The rule made the decision. Lusia writes it plainly on page 63: \"One day Memek said to Lusia that since the family could not go up to the Land together — under Aliyah Bet, mothers with infants were not permitted to sail — they would split in two: he and Shimon would go first, and she and Dovik would join them later.\" Aliyah Bet — the clandestine immigration — would not take mothers with infants, and Dov was a few months old. So the family split along the line the operation drew. What it cost is documented. David and Shimon sailed from Sète on the Theodor Herzl in April 1947, were boarded and turned back, and were interned at Karaolos on Cyprus and then at Atlit; Shimon's release certificate is dated 22 August 1947 and is printed in the memoir. Lusia waited in Brussels with the baby for more than a year, and came only after the State was declared, on the ship Kedma. The separation is written into their own graves: the Haifa burial register gives his year of immigration as 1946 and hers as 1948.",
+        "he": "לא היה זה חוסר סבלנות, ולא הייתה זו הכרעה בשאלה מי חשוב יותר. הכלל הוא שהכריע. לוסיה כותבת זאת במפורש בעמוד 63: ״יום אחד אמר ממק ללוסיה כי מאחר ואין המשפחה יכולה לעלות ביחד ארצה (במסגרת עליה ב׳ לא התאפשרה עליית אמהות עם תינוקות), הם ייתחלקו לשניים: הוא ושמעון יעלו תחילה והיא ודוביק ייצטרפו אליהם מאוחר יותר.״ עליית ב׳ — ההעפלה — לא קיבלה אמהות עם תינוקות, ודב היה בן חודשים אחדים. וכך נחצתה המשפחה בדיוק לאורך הקו שההעפלה שרטטה. המחיר מתועד. דוד ושמעון הפליגו מסֶט ב״תיאודור הרצל״ באפריל 1947, האונייה נתפסה והוחזרה, והם נעצרו בקרַאוֹלוֹס שבקפריסין ואחר כך בעתלית; תעודת השחרור של שמעון נושאת את התאריך 22 באוגוסט 1947 והיא מודפסת ביומן. לוסיה המתינה בבריסל עם התינוק יותר משנה, והגיעה רק לאחר הכרזת המדינה, באוניית ״קדמה״. הפרידה כתובה בקבריהם שלהם: פנקס הקבורה בחיפה נוקב בשנת עלייתו 1946 ובשנת עלייתה 1948."
+      },
+      "evidence": [
+        "Memoir p.63 — the reason, in Lusia's own words.",
+        "Memoir p.64 — Shimon's Atlit release certificate, Haifa, 22 August 1947.",
+        "Memoir p.66 — Lusia and Dov cross on the ship Kedma after the State is declared.",
+        "Haifa Chevra Kadisha burial register — his year of immigration 1946, hers 1948."
+      ],
+      "note_2026_08_05_cc": "Asked by Doron during the August 2026 sessions and answered from the memoir then, but never written into the archive — so the answer lived only in a conversation. Recorded here.",
+      "candidates": [],
+      "next_steps": [
+        "None for the reason itself; the memoir settles it.",
+        "Still open and separate: the exact date Lusia and Dov landed at Haifa. The memoir names the ship (Kedma) but no date, and the burial register gives only the year, 1948."
+      ],
+      "related_people": [
+        "p_david",
+        "p_leah",
+        "p_shimon",
+        "p_dov_bernard"
+      ],
+      "related_places": [
+        "pl_brussels",
+        "pl_sete",
+        "pl_cyprus_karaolos",
+        "pl_atlit",
+        "pl_haifa"
+      ]
+    },
+    {
       "id": "h_mosina_location",
       "question": {
         "en": "Where is 'Mosina' — the town where David and Leah married, where Shimon was born, where they lived until 1939?",

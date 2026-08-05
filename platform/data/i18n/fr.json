@@ -216,7 +216,8 @@
     "title": "Questions ouvertes",
     "lead": "Ce que nous ne savons pas encore, et ce que nous faisons pour le savoir.",
     "by_priority": "Par priorité",
-    "by_status": "Par statut"
+    "by_status": "Par statut",
+    "answer": "La réponse"
   },
   "chat": {
     "title": "Archive du chat de recherche",

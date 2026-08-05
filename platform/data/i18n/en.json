@@ -216,7 +216,8 @@
     "title": "Open Questions",
     "lead": "Things we don't yet know, and what we are doing to find out.",
     "by_priority": "By priority",
-    "by_status": "By status"
+    "by_status": "By status",
+    "answer": "The answer"
   },
   "chat": {
     "title": "Research Chat Archive",

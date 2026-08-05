@@ -1878,6 +1878,14 @@ function openDocModal(id) {
 // ----------------------------------------
 // HYPOTHESES
 // ----------------------------------------
+// Several statuses in the data are whole sentences — "RESOLVED — Muszyna
+// confirmed by memoir 2026-05-20" — and t() returns the key when there is no
+// translation, so `t('status.' + s)` rendered the key itself. Show the sentence.
+function statusLabel(s) {
+  const k = 'status.' + s;
+  return t(k) !== k ? t(k) : s;
+}
+
 function renderHypotheses(root) {
   // sort by priority then status
   const priOrder = { HIGH: 0, MEDIUM: 1, LOW: 2 };
@@ -1892,9 +1900,18 @@ function renderHypotheses(root) {
             <h3 class="hyp-question">${escapeHtml(ml(h.question))}</h3>
             <div class="hyp-badges">
               ${h.priority ? `<span class="badge priority-${escapeHtml(h.priority)}">${escapeHtml(h.priority)}</span>` : ''}
-              ${h.status ? `<span class="badge status-${escapeHtml(h.status)}">${escapeHtml(t('status.' + h.status))}</span>` : ''}
+              ${h.status ? `<span class="badge status-${escapeHtml(h.status)}">${escapeHtml(statusLabel(h.status))}</span>` : ''}
             </div>
           </div>
+          ${h.answer ? `
+            <div class="hyp-answer" dir="auto">
+              <h4>${escapeHtml(t('hypotheses.answer'))}</h4>
+              <p>${escapeHtml(ml(h.answer))}</p>
+              ${asList(h.evidence).length ? `
+                <ul class="hyp-evidence">${asList(h.evidence).map(e => `<li>${escapeHtml(e)}</li>`).join('')}</ul>
+              ` : ''}
+            </div>
+          ` : ''}
           ${h.candidates?.length ? `
             <div class="candidates">
               ${h.candidates.map(c => `
