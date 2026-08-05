@@ -5285,7 +5285,19 @@
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
         "report_basia_2026_08_06"
-      ]
+      ],
+      "children_ids": [
+        "p_perl_liebe_rapaport",
+        "p_wolf_rapaport",
+        "p_ester_rapaport_1843",
+        "p_samuel_rapaport_1847",
+        "p_isaac_rapaport_1849",
+        "p_izrael_rapaport_1850",
+        "p_mayer_rapaport_1853",
+        "p_marjam_rapaport",
+        "p_saul_rapaport_1846"
+      ],
+      "spouse_id": "p_rachela_jakobsohn"
     },
     {
       "id": "p_izrael_rapaport_1813",
@@ -5322,7 +5334,21 @@
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
         "report_basia_2026_08_06"
-      ]
+      ],
+      "children_ids": [
+        "p_perl_rapaport_1835",
+        "p_ester_rapaport_1839",
+        "p_szabse_rapaport_1840",
+        "p_isaac_moses_rapaport",
+        "p_freude_rapaport",
+        "p_hersch_rapaport_1844",
+        "p_riwke_rapaport",
+        "p_abraham_chaim_rapaport",
+        "p_blume_rapaport",
+        "p_jakub_rapaport_1856",
+        "p_sprinze_rapaport"
+      ],
+      "spouse_id": "p_chane_rachel"
     },
     {
       "id": "p_sara_rapaport_1818",
@@ -5730,6 +5756,956 @@
       },
       "note_en": "Born at Olkusz, died at Kraków. Wife of Izchak Chaim Rapaport.",
       "note_he": "נולדה באולקוש, נפטרה בקרקוב. אשתו של יצחק חיים רפפורט.",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_rachela_jakobsohn",
+      "primary_name": {
+        "en": "Rachela Rapaport (née Jakobsohn)",
+        "he": "רחלה רפפורט (לבית יקובסון)"
+      },
+      "role": "relative",
+      "spouse_id": "p_jozef_rapaport",
+      "birth": {
+        "date": "1817",
+        "date_precision": "year",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "note_en": "Married Józef Rapaport at Kraków on 9 August 1832.",
+      "note_he": "נישאה ליוזף רפפורט בקרקוב ב-9 באוגוסט 1832.",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ],
+      "children_ids": [
+        "p_perl_liebe_rapaport",
+        "p_wolf_rapaport",
+        "p_ester_rapaport_1843",
+        "p_samuel_rapaport_1847",
+        "p_isaac_rapaport_1849",
+        "p_izrael_rapaport_1850",
+        "p_mayer_rapaport_1853",
+        "p_marjam_rapaport",
+        "p_saul_rapaport_1846"
+      ]
+    },
+    {
+      "id": "p_chane_rachel",
+      "primary_name": {
+        "en": "Chane Rachel Rapaport",
+        "he": "חנה רחל רפפורט"
+      },
+      "role": "relative",
+      "spouse_id": "p_izrael_rapaport_1813",
+      "death": {
+        "date": "1881",
+        "date_precision": "after",
+        "place_id": null,
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "note_en": "Wife of Izrael Rapaport. The chart gives her surname only as \"Abraham\" and she died after 1881.",
+      "note_he": "אשתו של ישראל רפפורט. התרשים נוקב בשם משפחתה ״אברהם״ בלבד, והיא נפטרה לאחר 1881.",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ],
+      "children_ids": [
+        "p_perl_rapaport_1835",
+        "p_ester_rapaport_1839",
+        "p_szabse_rapaport_1840",
+        "p_isaac_moses_rapaport",
+        "p_freude_rapaport",
+        "p_hersch_rapaport_1844",
+        "p_riwke_rapaport",
+        "p_abraham_chaim_rapaport",
+        "p_blume_rapaport",
+        "p_jakub_rapaport_1856",
+        "p_sprinze_rapaport"
+      ]
+    },
+    {
+      "id": "p_perl_liebe_rapaport",
+      "primary_name": {
+        "en": "Perl Liebe (Pauline) Rapaport",
+        "he": "פרל ליבה (פאולינה) רפפורט"
+      },
+      "role": "relative",
+      "father_id": "p_jozef_rapaport",
+      "mother_id": "p_rachela_jakobsohn",
+      "birth": {
+        "date": "1835-06-10",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "death": {
+        "date": "1922-11-12",
+        "date_precision": "day",
+        "place_id": "pl_vienna",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "note_en": "Died at Vienna, aged eighty-seven — she outlived every one of her brothers and sisters recorded here. Her husband on the chart is Benjamin Mises of Lwów.",
+      "note_he": "נפטרה בווינה בגיל שמונים ושבע — האריכה ימים אחרי כל אחיה ואחיותיה הרשומים כאן. בעלה לפי התרשים הוא בנימין מיזס מלבוב.",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_wolf_rapaport",
+      "primary_name": {
+        "en": "Wolf Rapaport",
+        "he": "וולף רפפורט"
+      },
+      "role": "relative",
+      "father_id": "p_jozef_rapaport",
+      "mother_id": "p_rachela_jakobsohn",
+      "birth": {
+        "date": "1839-10-18",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_ester_rapaport_1843",
+      "primary_name": {
+        "en": "Ester Rapaport",
+        "he": "אסתר רפפורט"
+      },
+      "role": "relative",
+      "father_id": "p_jozef_rapaport",
+      "mother_id": "p_rachela_jakobsohn",
+      "birth": {
+        "date": "1843-11-29",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_samuel_rapaport_1847",
+      "primary_name": {
+        "en": "Samuel Rapaport",
+        "he": "שמואל רפפורט"
+      },
+      "role": "relative",
+      "father_id": "p_jozef_rapaport",
+      "mother_id": "p_rachela_jakobsohn",
+      "birth": {
+        "date": "1847-03-23",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "death": {
+        "date": "1851-04-14",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "note_en": "Died on 14 April 1851 — the SAME DAY as his younger brother Izrael. Two children of one house buried together; almost certainly an epidemic.",
+      "note_he": "נפטר ב-14 באפריל 1851 — באותו יום עצמו שבו נפטר אחיו הצעיר ישראל. שני ילדים מבית אחד נקברו יחד; קרוב לוודאי מגפה.",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_isaac_rapaport_1849",
+      "primary_name": {
+        "en": "Isaac Rapaport",
+        "he": "יצחק רפפורט"
+      },
+      "role": "relative",
+      "father_id": "p_jozef_rapaport",
+      "mother_id": "p_rachela_jakobsohn",
+      "birth": {
+        "date": "1849-03-09",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "death": {
+        "date": "1896",
+        "date_precision": "before",
+        "place_id": null,
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "note_en": "His wife on the chart is Mathel Frenkel, born 1846.",
+      "note_he": "אשתו לפי התרשים היא מטל פרנקל, ילידת 1846.",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_izrael_rapaport_1850",
+      "primary_name": {
+        "en": "Izrael Rapaport",
+        "he": "ישראל רפפורט"
+      },
+      "role": "relative",
+      "father_id": "p_jozef_rapaport",
+      "mother_id": "p_rachela_jakobsohn",
+      "birth": {
+        "date": "1850",
+        "date_precision": "year",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "death": {
+        "date": "1851-04-14",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "note_en": "Died on 14 April 1851, the same day as his brother Samuel.",
+      "note_he": "נפטר ב-14 באפריל 1851, באותו יום שבו נפטר אחיו שמואל.",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_mayer_rapaport_1853",
+      "primary_name": {
+        "en": "Mayer Rapaport",
+        "he": "מאיר רפפורט"
+      },
+      "role": "relative",
+      "father_id": "p_jozef_rapaport",
+      "mother_id": "p_rachela_jakobsohn",
+      "birth": {
+        "date": "1853-09-25",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "note_en": "His wife on the chart is Rebeka, born 15 May 1854 at Staszów; her surname is left blank there.",
+      "note_he": "אשתו לפי התרשים היא רבקה, ילידת 15 במאי 1854 בסטשוב; שם משפחתה נותר ריק שם.",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_marjam_rapaport",
+      "primary_name": {
+        "en": "Marjam Rapaport",
+        "he": "מרים רפפורט"
+      },
+      "role": "relative",
+      "father_id": "p_jozef_rapaport",
+      "mother_id": "p_rachela_jakobsohn",
+      "birth": {
+        "date": "1855-08-04",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_saul_rapaport_1846",
+      "primary_name": {
+        "en": "Saul Rapaport",
+        "he": "שאול רפפורט"
+      },
+      "role": "relative",
+      "father_id": "p_jozef_rapaport",
+      "mother_id": "p_rachela_jakobsohn",
+      "birth": {
+        "date": "1846",
+        "date_precision": "about",
+        "place_id": null,
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "death": {
+        "date": "1896-11-03",
+        "date_precision": "day",
+        "place_id": null,
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "note_en": "Died at Wrocław. His wife on the chart is Gitla Feige Mieses (b. about 1843, d. 13 August 1934 at Kraków).",
+      "note_he": "נפטר בברסלאו (ורוצלב). אשתו לפי התרשים היא גיטלה פייגה מיזס (ילידת 1843 בקירוב, נפטרה ב-13 באוגוסט 1934 בקרקוב).",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_perl_rapaport_1835",
+      "primary_name": {
+        "en": "Perl Rapaport",
+        "he": "פרל רפפורט"
+      },
+      "role": "relative",
+      "father_id": "p_izrael_rapaport_1813",
+      "mother_id": "p_chane_rachel",
+      "birth": {
+        "date": "1835-06-08",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "death": {
+        "date": "1870-10",
+        "date_precision": "month",
+        "place_id": "pl_vienna",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "note_en": "Born two days before her cousin Perl Liebe, daughter of Józef — two Perls in one family born on 8 and 10 June 1835. Both died at Vienna. Her husband on the chart is Josef Hersch Gelernter, born 1834.",
+      "note_he": "נולדה יומיים לפני בת דודתה פרל ליבה, בתו של יוזף — שתי פרל במשפחה אחת, ילידות 8 ו-10 ביוני 1835. שתיהן נפטרו בווינה. בעלה לפי התרשים הוא יוסף הרש גלרנטר, יליד 1834.",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_ester_rapaport_1839",
+      "primary_name": {
+        "en": "Ester Rapaport",
+        "he": "אסתר רפפורט"
+      },
+      "role": "relative",
+      "father_id": "p_izrael_rapaport_1813",
+      "mother_id": "p_chane_rachel",
+      "birth": {
+        "date": "1839-06-29",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "death": {
+        "date": "1905-10-03",
+        "date_precision": "day",
+        "place_id": "pl_krakow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "note_en": "Her husband on the chart is Aron Dov Awigdor Novimiast, born 1848 at Biała.",
+      "note_he": "בעלה לפי התרשים הוא אהרן דב אביגדור נובימיאסט, יליד 1848 בביאלה.",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_szabse_rapaport_1840",
+      "primary_name": {
+        "en": "Szabse Rapaport",
+        "he": "שבסה רפפורט"
+      },
+      "role": "relative",
+      "father_id": "p_izrael_rapaport_1813",
+      "mother_id": "p_chane_rachel",
+      "birth": {
+        "date": "1840-09-18",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "death": {
+        "date": "1842-04-03",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "note_en": "Died at eighteen months. A nephew of our Szabse, carrying the same name while his uncle was still living.",
+      "note_he": "נפטר בגיל שמונה עשר חודשים. אחיינו של שבסה שלנו, נושא את אותו השם בעוד דודו עודנו בחיים.",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_isaac_moses_rapaport",
+      "primary_name": {
+        "en": "Isaac Moses Rapaport",
+        "he": "יצחק משה רפפורט"
+      },
+      "role": "relative",
+      "father_id": "p_izrael_rapaport_1813",
+      "mother_id": "p_chane_rachel",
+      "birth": {
+        "date": "1841-09-02",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "death": {
+        "date": "1866-10-13",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_freude_rapaport",
+      "primary_name": {
+        "en": "Freude Rapaport",
+        "he": "פרוידה רפפורט"
+      },
+      "role": "relative",
+      "father_id": "p_izrael_rapaport_1813",
+      "mother_id": "p_chane_rachel",
+      "birth": {
+        "date": "1844",
+        "date_precision": "year",
+        "place_id": null,
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "death": {
+        "date": "1855-07-18",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "note_en": "Died at eleven.",
+      "note_he": "נפטרה בגיל אחת עשרה.",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_hersch_rapaport_1844",
+      "primary_name": {
+        "en": "Hersch Rapaport",
+        "he": "הרש רפפורט"
+      },
+      "role": "relative",
+      "father_id": "p_izrael_rapaport_1813",
+      "mother_id": "p_chane_rachel",
+      "birth": {
+        "date": "1844-09-20",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_riwke_rapaport",
+      "primary_name": {
+        "en": "Riwke Rapaport",
+        "he": "רבקה רפפורט"
+      },
+      "role": "relative",
+      "father_id": "p_izrael_rapaport_1813",
+      "mother_id": "p_chane_rachel",
+      "birth": {
+        "date": "1848-04-18",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_abraham_chaim_rapaport",
+      "primary_name": {
+        "en": "Abraham Chaim Rapaport",
+        "he": "אברהם חיים רפפורט"
+      },
+      "role": "relative",
+      "father_id": "p_izrael_rapaport_1813",
+      "mother_id": "p_chane_rachel",
+      "birth": {
+        "date": "1849-11-01",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "death": {
+        "date": "1851-05-02",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "note_en": "Died at eighteen months.",
+      "note_he": "נפטר בגיל שמונה עשר חודשים.",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_blume_rapaport",
+      "primary_name": {
+        "en": "Blume Rapaport",
+        "he": "בלומה רפפורט"
+      },
+      "role": "relative",
+      "father_id": "p_izrael_rapaport_1813",
+      "mother_id": "p_chane_rachel",
+      "birth": {
+        "date": "1855-05-26",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "death": {
+        "date": "1857-02-24",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "note_en": "Died at twenty-one months.",
+      "note_he": "נפטרה בגיל עשרים ואחד חודשים.",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_jakub_rapaport_1856",
+      "primary_name": {
+        "en": "Jakub Rapaport",
+        "he": "יעקב רפפורט"
+      },
+      "role": "relative",
+      "father_id": "p_izrael_rapaport_1813",
+      "mother_id": "p_chane_rachel",
+      "birth": {
+        "date": "1856",
+        "date_precision": "year",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "death": {
+        "date": "1887-04-06",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_sprinze_rapaport",
+      "primary_name": {
+        "en": "Sprinze Rapaport",
+        "he": "שפרינצה רפפורט"
+      },
+      "role": "relative",
+      "father_id": "p_izrael_rapaport_1813",
+      "mother_id": "p_chane_rachel",
+      "birth": {
+        "date": "1858-11-04",
+        "date_precision": "day",
+        "place_id": "pl_tarnow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "note_en": "Her husband on the chart is Dawid Gruenfeld. Note that Rosenstein’s \"Descendants of the Shach\" also carries a Sprinza in this family — Basia highlights her — so the name may be the same person seen from two directions. Not established.",
+      "note_he": "בעלה לפי התרשים הוא דוד גרינפלד. יש לציין שגם ב״צאצאי הש״ך״ של רוזנשטיין מופיעה שפרינצה במשפחה הזאת — בסיה מדגישה אותה — ולכן ייתכן שמדובר באותו אדם משני כיוונים. לא הוכח.",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_benjamin_mises",
+      "primary_name": {
+        "en": "Benjamin Mises",
+        "he": "בנימין מיזס"
+      },
+      "role": "relative",
+      "spouse_id": "p_perl_liebe_rapaport",
+      "birth": {
+        "date": "1838",
+        "date_precision": "year",
+        "place_id": "pl_lwow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_noa_jakobsohn",
+      "primary_name": {
+        "en": "Noa Jakobsohn",
+        "he": "נועה יקובסון"
+      },
+      "role": "relative",
+      "birth": {
+        "date": "1840",
+        "date_precision": "year",
+        "place_id": "pl_krakow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_mathel_frenkel",
+      "primary_name": {
+        "en": "Mathel Frenkel",
+        "he": "מטל פרנקל"
+      },
+      "role": "relative",
+      "spouse_id": "p_isaac_rapaport_1849",
+      "birth": {
+        "date": "1846",
+        "date_precision": "year",
+        "place_id": null,
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_gitla_feige_mieses",
+      "primary_name": {
+        "en": "Gitla Feige Mieses",
+        "he": "גיטלה פייגה מיזס"
+      },
+      "role": "relative",
+      "spouse_id": "p_saul_rapaport_1846",
+      "birth": {
+        "date": "1843",
+        "date_precision": "about",
+        "place_id": null,
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "death": {
+        "date": "1934-08-13",
+        "date_precision": "day",
+        "place_id": "pl_krakow",
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_josef_hersch_gelernter",
+      "primary_name": {
+        "en": "Josef Hersch Gelernter",
+        "he": "יוסף הרש גלרנטר"
+      },
+      "role": "relative",
+      "spouse_id": "p_perl_rapaport_1835",
+      "birth": {
+        "date": "1834",
+        "date_precision": "year",
+        "place_id": null,
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_aron_dov_novimiast",
+      "primary_name": {
+        "en": "Aron Dov Awigdor Novimiast",
+        "he": "אהרן דב אביגדור נובימיאסט"
+      },
+      "role": "relative",
+      "spouse_id": "p_ester_rapaport_1839",
+      "birth": {
+        "date": "1848",
+        "date_precision": "year",
+        "place_id": null,
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_dawid_gruenfeld",
+      "primary_name": {
+        "en": "Dawid Gruenfeld",
+        "he": "דוד גרינפלד"
+      },
+      "role": "relative",
+      "spouse_id": "p_sprinze_rapaport",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_saul_margulies",
+      "primary_name": {
+        "en": "Saul Margulies",
+        "he": "שאול מרגוליס"
+      },
+      "role": "relative",
+      "birth": {
+        "date": "1834",
+        "date_precision": "year",
+        "place_id": null,
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "note_en": "Stands on the chart among Józef and Rachela’s children, so he married one of them — but he is flanked by two of the daughters and the adjacency alone does not say which. Left unpaired deliberately; the GEDCOM will settle it.",
+      "note_he": "עומד בתרשים בין ילדיהם של יוזף ורחלה, ומכאן שנשא אחת מהן — אך הוא ניצב בין שתי בנות ומיקומו לבדו אינו אומר את מי. הושאר בכוונה ללא זיווג; ה-GEDCOM יכריע.",
+      "confidence": "documented",
+      "sources": [
+        "doc_abraham_abe_descendants_tree_2026",
+        "report_basia_2026_08_06"
+      ]
+    },
+    {
+      "id": "p_rebeka_staszow",
+      "primary_name": {
+        "en": "Rebeka Rapaport",
+        "he": "רבקה רפפורט"
+      },
+      "role": "relative",
+      "spouse_id": "p_mayer_rapaport_1853",
+      "birth": {
+        "date": "1854-05-15",
+        "date_precision": "day",
+        "place_id": null,
+        "confidence": "documented",
+        "sources": [
+          "doc_abraham_abe_descendants_tree_2026",
+          "report_basia_2026_08_06"
+        ]
+      },
+      "note_en": "Born at Staszów. Her maiden surname is left blank on the chart.",
+      "note_he": "ילידת סטשוב. שם נעוריה נותר ריק בתרשים.",
       "confidence": "documented",
       "sources": [
         "doc_abraham_abe_descendants_tree_2026",
