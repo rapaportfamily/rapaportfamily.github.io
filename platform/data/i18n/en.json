@@ -234,7 +234,10 @@
   "places_page": {
     "title": "Places",
     "lead": "The Galician towns and beyond.",
-    "era_context": "Era context"
+    "era_context": "Era context",
+    "then": "Photographed at the time",
+    "now": "The place today",
+    "now_warning": "A modern photograph. It shows the place as it is now, not as they knew it."
   },
   "about": {
     "title": "About this archive",

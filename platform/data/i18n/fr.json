@@ -234,7 +234,10 @@
   "places_page": {
     "title": "Lieux",
     "lead": "Les villes galiciennes et au-delà.",
-    "era_context": "Contexte d'époque"
+    "era_context": "Contexte d'époque",
+    "then": "Photographié à l'époque",
+    "now": "Le lieu aujourd'hui",
+    "now_warning": "Photographie moderne. Elle montre le lieu tel qu'il est aujourd'hui, non tel qu'ils l'ont connu."
   },
   "about": {
     "title": "À propos de cette archive",

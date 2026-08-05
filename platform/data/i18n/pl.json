@@ -234,7 +234,10 @@
   "places_page": {
     "title": "Miejsca",
     "lead": "Miasta galicyjskie i nie tylko.",
-    "era_context": "Kontekst epoki"
+    "era_context": "Kontekst epoki",
+    "then": "Sfotografowane w tamtym czasie",
+    "now": "To miejsce dzisiaj",
+    "now_warning": "Fotografia współczesna. Pokazuje miejsce takim, jakie jest dziś, a nie jakim je znali."
   },
   "about": {
     "title": "O archiwum",

@@ -2013,3 +2013,54 @@ html[dir="rtl"] .detail-portrait { margin: 0 1.2rem 1rem 0; }
   cursor: pointer;
 }
 .memoir-person:hover { background: var(--paper-deep); }
+
+/* ── Photographs on the Places page ──────────────────────────────────
+   Two strips, never one. A photograph taken while they lived there is
+   evidence; a photograph of the same street in 2015 is a different kind of
+   thing, and the layout says so before the caption has to. */
+.place-photo-group { margin-top: 1rem; }
+.place-photo-label {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--muted);
+  margin-bottom: 0.4rem;
+}
+.place-photo-strip {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  padding-bottom: 0.4rem;
+}
+.place-photo {
+  position: relative;
+  flex: 0 0 auto;
+  width: 132px;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--paper-deep);
+  cursor: pointer;
+  overflow: hidden;
+}
+.place-photo img {
+  display: block;
+  width: 100%;
+  height: 92px;
+  object-fit: cover;
+}
+.place-photo-when {
+  display: block;
+  padding: 0.2rem 0.35rem;
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  color: var(--ink-soft);
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.place-photo:hover { border-color: var(--accent); }
+/* the "today" strip reads quieter than the period one */
+.place-photo-group + .place-photo-group .place-photo img { opacity: 0.85; }

@@ -1605,10 +1605,53 @@ function renderPlaces(root, paramId) {
               `).join('')}
             </div>
           ` : ''}
+          ${placeImages(p)}
         </div>
       `).join('')}
     </div>
   `;
+
+  root.querySelectorAll('.place-photo').forEach(el => {
+    el.addEventListener('click', () => openPlacePhoto(el.dataset.place, +el.dataset.idx));
+  });
+}
+
+// Photographs of the towns themselves. The split is the whole point: a picture
+// taken while they lived there is evidence, and a picture of the same street in
+// 2015 is not. They are never mixed, and every one states when it was taken —
+// "date not stated" where the source gives none, rather than a plausible guess.
+function placeImages(p) {
+  const imgs = p.images || [];
+  if (!imgs.length) return '';
+  const cap = i => (State.lang === 'he' && i.caption_he) ? i.caption_he : (i.caption_en || '');
+  const strip = (list, labelKey) => !list.length ? '' : `
+    <div class="place-photo-group">
+      <div class="place-photo-label">${escapeHtml(t(labelKey))}</div>
+      <div class="place-photo-strip">
+        ${list.map(i => `
+          <button class="place-photo" data-place="${escapeHtml(p.id)}" data-idx="${imgs.indexOf(i)}"
+                  title="${escapeHtml(cap(i))}">
+            <img src="${escapeHtml(i.src)}" alt="${escapeHtml(cap(i))}" loading="lazy">
+            <span class="place-photo-when">${escapeHtml(i.when || '')}</span>
+          </button>`).join('')}
+      </div>
+    </div>`;
+  return strip(imgs.filter(i => i.is_period), 'places_page.then')
+       + strip(imgs.filter(i => !i.is_period), 'places_page.now');
+}
+
+function openPlacePhoto(placeId, idx) {
+  const p = State.byId.places[placeId];
+  const im = p && (p.images || [])[idx];
+  if (!im) return;
+  const cap = (State.lang === 'he' && im.caption_he) ? im.caption_he : (im.caption_en || '');
+  showModal(`
+    <div class="doc-kind" style="font-family:var(--font-mono);font-size:0.78rem;color:var(--wine);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:0.3em;">${escapeHtml(ml(p.names))} · ${escapeHtml(im.when || '')}</div>
+    <img src="${escapeHtml(im.src)}" alt="${escapeHtml(cap)}" style="width:100%;height:auto;border-radius:var(--radius);margin:0.8rem 0;">
+    <p dir="auto" style="font-family:var(--font-serif);line-height:1.6;">${escapeHtml(cap)}</p>
+    ${im.credit ? `<p class="muted" style="font-size:0.78rem;">${escapeHtml(im.credit)}</p>` : ''}
+    ${!im.is_period ? `<p class="muted" style="font-size:0.8rem;font-style:italic;">${escapeHtml(t('places_page.now_warning'))}</p>` : ''}
+  `);
 }
 
 // ----------------------------------------

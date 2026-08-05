@@ -33,7 +33,65 @@
       ],
       "significance_he": "מקום הולדתו של דוד רפפורט (1911) ושל רבקה גריפל (1888). משפחות גריפל-חיות היו סוחרים במקום. אתר הגטו שממנו ברח דוד.",
       "significance_pl": "Miejsce urodzenia Dawida Rapaporta (1911) i Rebeki Griffel (1888). Rodziny Griffel-Chajes były tu kupcami. Miejsce getta, z którego Dawid uciekł.",
-      "significance_fr": "Lieu de naissance de David Rapaport (1911) et de Rebeka Griffel (1888). Les familles Griffel-Chajes y étaient commerçantes. Site du ghetto d'où David s'est échappé."
+      "significance_fr": "Lieu de naissance de David Rapaport (1911) et de Rebeka Griffel (1888). Les familles Griffel-Chajes y étaient commerçantes. Site du ghetto d'où David s'est échappé.",
+      "images": [
+        {
+          "src": "assets/research_images/period/nadworna_station_1914.jpg",
+          "when": "1914-1918",
+          "is_period": true,
+          "caption_en": "Nadwórna railway station, photographed 1914-1918 by the Austro-Hungarian war press office.",
+          "caption_he": "תחנת הרכבת של נדבורנא, צולמה 1914-1918 בידי לשכת העיתונות הצבאית האוסטרו-הונגרית.",
+          "credit": "k.u.k. Kriegspressequartier, Lichtbildstelle Wien / Bildarchiv Austria — public domain"
+        },
+        {
+          "src": "assets/research_images/period/nadworna_market_1928.jpg",
+          "when": "1928",
+          "is_period": true,
+          "caption_en": "Nadwórna, the market square, 1928 — David was sixteen. Photograph by L. and M. Heller.",
+          "caption_he": "נדבורנא, כיכר השוק, 1928 — דוד היה בן שש עשרה. צילום ל. ומ. הלר.",
+          "credit": "Photo L. and M. Heller, via Center for Urban History, Lviv — public domain"
+        },
+        {
+          "src": "assets/research_images/period/nadworna_centre_1932.jpg",
+          "when": "1932",
+          "is_period": true,
+          "caption_en": "Nadwórna, the town centre, 1932 — the streets David knew as a young man.",
+          "caption_he": "נדבורנא, מרכז העיר, 1932 — הרחובות שדוד הכיר כבחור צעיר.",
+          "credit": "Photo L. and M. Heller, via Center for Urban History, Lviv — public domain"
+        },
+        {
+          "src": "assets/research_images/period/nadworna_hospital_1937.jpg",
+          "when": "published 1937",
+          "is_period": true,
+          "caption_en": "The hospital in Nadwórna, published 1937 in the journal \"Wschód\".",
+          "caption_he": "בית החולים בנדבורנא, פורסם ב-1937 בכתב העת ״Wschód״.",
+          "credit": "\"Wschód\" 58/1937, Jagiellonian Digital Library — public domain"
+        },
+        {
+          "src": "assets/research_images/nadworna_town_hall.jpg",
+          "when": "date not stated",
+          "is_period": false,
+          "caption_en": "Nadwórna — the historic Town Hall on Hetman Mazepa Street.",
+          "caption_he": "",
+          "credit": "Wikipedia Commons"
+        },
+        {
+          "src": "assets/research_images/nadworna_hotel.jpg",
+          "when": "date not stated",
+          "is_period": false,
+          "caption_en": "Nadwórna — historic hotel building.",
+          "caption_he": "",
+          "credit": "Wikipedia Commons"
+        },
+        {
+          "src": "assets/research_images/trip/nadwirna_lead.jpg",
+          "when": "today",
+          "is_period": false,
+          "caption_en": "Nadvirna (Nadwórna) today — David Memek's birthplace.",
+          "caption_he": "",
+          "credit": "Wikipedia Commons (CC-BY-SA)"
+        }
+      ]
     },
     {
       "id": "pl_bolechow",
@@ -60,7 +118,97 @@
         "e_feige_birth",
         "e_moses_birth"
       ],
-      "significance_he": "מקום לידתה של לאה (לוסיה) ויצנר ב-8 באפריל, ושל אחיה — פייגה (1911) ומשה (1916). בתה של אליהו ויצנר ומטל לבית ויינרב. הוריה עלו לארץ ישראל ב-1933 והיא נשארה. כאן גם נישאה לדוד רפפורט ב-10 בפברואר 1935, לפי הרשומה האזרחית — שלוש שנים לפני התאריך שביומנה. שנת לידתה שנויה: 1913 בפנקס האזרחי, 1916 בכרטיס הניצולה שלה, במפתח ŻIH ובפנקס הקבורה בחיפה."
+      "significance_he": "מקום לידתה של לאה (לוסיה) ויצנר ב-8 באפריל, ושל אחיה — פייגה (1911) ומשה (1916). בתה של אליהו ויצנר ומטל לבית ויינרב. הוריה עלו לארץ ישראל ב-1933 והיא נשארה. כאן גם נישאה לדוד רפפורט ב-10 בפברואר 1935, לפי הרשומה האזרחית — שלוש שנים לפני התאריך שביומנה. שנת לידתה שנויה: 1913 בפנקס האזרחי, 1916 בכרטיס הניצולה שלה, במפתח ŻIH ובפנקס הקבורה בחיפה.",
+      "images": [
+        {
+          "src": "assets/research_images/bolechow_1914_map.jpg",
+          "when": "1914 (map)",
+          "is_period": true,
+          "caption_en": "Bolechów town map, 1914.",
+          "caption_he": "",
+          "credit": "New York Public Library / JGB"
+        },
+        {
+          "src": "assets/research_images/period/bolechow_1915.jpg",
+          "when": "1915",
+          "is_period": true,
+          "caption_en": "Bolechów, 1915 — Lusia’s town, photographed when she was an infant. Austro-Hungarian war photograph.",
+          "caption_he": "בולחוב, 1915 — עיירתה של לוסיה, מצולמת כשהייתה תינוקת. צילום מלחמה אוסטרו-הונגרי.",
+          "credit": "k.u.k. Kriegspressequartier, Lichtbildstelle Wien / Bildarchiv Austria — public domain"
+        },
+        {
+          "src": "assets/research_images/bolechow_23-Rynek-North1.jpg",
+          "when": "pre-war",
+          "is_period": true,
+          "caption_en": "Bolechów market square (Rynek), northern side.",
+          "caption_he": "",
+          "credit": "JGB"
+        },
+        {
+          "src": "assets/research_images/bolechow_great_synagogue.jpg",
+          "when": "2009",
+          "is_period": false,
+          "caption_en": "The Great Synagogue of Bolechów — northern side.",
+          "caption_he": "",
+          "credit": "Jewish Galicia & Bukovina (Vladimir Levin, 2009)"
+        },
+        {
+          "src": "assets/research_images/bolechow_32-Halickaya1-tarbut.jpg",
+          "when": "date not stated",
+          "is_period": false,
+          "caption_en": "Tarbut Hebrew school on Halicka Street (formerly Kościuszko Street), Bolechów. The same building housed the Beth Yakov girls' religious school. Per family stories: where Dana, Doron and Daniel's maternal grandmother (Dalia's mother) ESTER GOLDFISCHER and Lusia's older sister FEIGE (Tzipora) WEITZNER studied together in the late 1920s / early 1930s — connecting both halves of the family decades before Dov and Dalia ever met.",
+          "caption_he": "",
+          "credit": "JGB"
+        },
+        {
+          "src": "assets/research_images/bolechow_33-Halickaya-Strashman.jpg",
+          "when": "date not stated",
+          "is_period": false,
+          "caption_en": "Bolechów, 33 Halickaya street — Strashman family residence, contextual reference for Bolechów Jewish naming records.",
+          "caption_he": "בולחוב, רחוב הלצקאיה 33 — בית משפחת שטראשמן, הקשר לרישומי שמות יהודיים בבולחוב.",
+          "credit": "Family archive"
+        },
+        {
+          "src": "assets/research_images/bolechow_37-forest-lyc.jpg",
+          "when": "date not stated",
+          "is_period": false,
+          "caption_en": "Bolechów Forestry Lyceum.",
+          "caption_he": "",
+          "credit": "JGB"
+        },
+        {
+          "src": "assets/research_images/bolechow_39-School.jpg",
+          "when": "date not stated",
+          "is_period": false,
+          "caption_en": "Bolechów Jewish school building.",
+          "caption_he": "",
+          "credit": "JGB"
+        },
+        {
+          "src": "assets/research_images/trip/bolechow_town_hall_alt.jpg",
+          "when": "date not stated",
+          "is_period": false,
+          "caption_en": "Bolechów Town Hall.",
+          "caption_he": "",
+          "credit": "Wikipedia Commons"
+        },
+        {
+          "src": "assets/research_images/trip/bolechow_greek_catholic_church.jpg",
+          "when": "date not stated",
+          "is_period": false,
+          "caption_en": "Bolechów Greek Catholic Church.",
+          "caption_he": "",
+          "credit": "Wikipedia Commons"
+        },
+        {
+          "src": "assets/research_images/trip/bolekhiv_lead.jpg",
+          "when": "today",
+          "is_period": false,
+          "caption_en": "Bolekhiv (Bolechów) today — Lusia's birthplace.",
+          "caption_he": "",
+          "credit": "Wikipedia Commons"
+        }
+      ]
     },
     {
       "id": "pl_dolina",
@@ -112,7 +260,81 @@
       "building_now": "Prospekt Svobody 24, Lviv, Ukraine",
       "significance_he": "מקום מגוריו של דוד רפפורט נכון ל-1 בינואר 1938 (לפי כרטיס ה-DP מבריסל). שם שרדו דוד ולוסיה את המלחמה תחת זהויות בדויות. לוסיה התגוררה ברחוב לגיונוב 24 (היום פרוספקט סבובודי 24) בזהות 'מריה ציצליק' — בניין אבן ביידרמייר בן ארבע קומות שנבנה ב-1836-1837 על-ידי האדריכל יוהן זלצמן עבור פ. אדמסקי, ובו גר המשורר הפולסי וינצנטי פול 1856-1866. הרחוב נקרא אדולף-היטלר-רינג בזמן הכיבוש הנאצי 1941-1944. דוד עבד בבניית כבישים ומסילות. אחותו של דוד לוטה התגוררה אף היא בלבוב.",
       "significance_pl": "Miejsce zamieszkania Dawida Rapaporta od 1 stycznia 1938 (wg brukselskiej karty DP). Tu Dawid i Lusia przetrwali wojnę pod fałszywymi tożsamościami. Lusia mieszkała przy ulicy Legionów 24 (dzisiejszy Prospekt Swobody 24) jako 'Maria Cizlik' — czteropiętrowa kamienica w stylu biedermeier zbudowana w latach 1836-1837 przez Johanna Salzmanna dla F. Adamskiego. Polski poeta narodowy Wincenty Pol mieszkał tam w latach 1856-1866. Podczas okupacji nazistowskiej 1941-1944 ulica nosiła nazwę Adolf-Hitler-Ring.",
-      "significance_fr": "Lieu de résidence de David Rapaport au 1er janvier 1938 (selon la fiche DP de Bruxelles). David et Lusia y survécurent à la guerre sous de fausses identités. Lusia habitait rue Legionów 24 (aujourd'hui Prospekt Svobody 24) sous l'identité « Maria Cizlik » — un immeuble Biedermeier de quatre étages construit en 1836-1837 par l'architecte Johann Salzmann pour F. Adamski, où le poète national polonais Wincenty Pol vécut de 1856 à 1866. La rue fut rebaptisée Adolf-Hitler-Ring durant l'occupation nazie de 1941-1944."
+      "significance_fr": "Lieu de résidence de David Rapaport au 1er janvier 1938 (selon la fiche DP de Bruxelles). David et Lusia y survécurent à la guerre sous de fausses identités. Lusia habitait rue Legionów 24 (aujourd'hui Prospekt Svobody 24) sous l'identité « Maria Cizlik » — un immeuble Biedermeier de quatre étages construit en 1836-1837 par l'architecte Johann Salzmann pour F. Adamski, où le poète national polonais Wincenty Pol vécut de 1856 à 1866. La rue fut rebaptisée Adolf-Hitler-Ring durant l'occupation nazie de 1941-1944.",
+      "images": [
+        {
+          "src": "assets/research_images/period/lwow_legionow_1941.jpg",
+          "when": "1941",
+          "is_period": true,
+          "caption_en": "Legionów Street, Lwów, in 1941 — “Вулиця Легіонів (тепер проспект Свободи) у Львові у 1941 р”. This is Lusia’s street, photographed the year before she moved onto it. She lived at number 24 from 1942 to 1944, on the Aryan side, as “Maria Cizlik”.",
+          "caption_he": "רחוב לגיונוב בלבוב, 1941 — ״וולִיצְיָה לֶגיוֹניב (כיום פרוספקט סבובודי) בלבוב ב-1941״. זה הרחוב של לוסיה, מצולם בשנה שלפני שעברה אליו. היא התגוררה במספר 24 בשנים 1942-1944, בצד הארי, בזהות ״מריה צ׳יזליק״.",
+          "credit": "Private collection, via Wikimedia Commons — public domain"
+        },
+        {
+          "src": "assets/research_images/period/lwow_opera_occupation.jpg",
+          "when": "1941-1944",
+          "is_period": true,
+          "caption_en": "The Lviv Opera during the German occupation, 1941-1944 — at the head of Lusia’s street, a few hundred metres from her door. The Germans ran it as the “Operntheater Lemberg”.",
+          "caption_he": "האופרה של לבוב בזמן הכיבוש הגרמני, 1941-1944 — בראש הרחוב של לוסיה, כמה מאות מטרים מפתח ביתה. הגרמנים הפעילו אותה כ״אופרנתיאטר לֶמברג״.",
+          "credit": "Private collection, via Wikimedia Commons — public domain"
+        },
+        {
+          "src": "assets/research_images/period/lwow_jewish_quarter.jpg",
+          "when": "1942-1945",
+          "is_period": true,
+          "caption_en": "Lwów from the town hall, 1942-1945: the Jewish quarter destroyed, the synagogues gone — only the roofless Meforshei ha-Yam synagogue still standing. This is the city David and Lusia were hiding in.",
+          "caption_he": "לבוב מבניין העירייה, 1942-1945: הרובע היהודי חרב, בתי הכנסת אינם — רק בית הכנסת ״מפרשי הים״ עומד עוד, בלא גג. זו העיר שבה הסתתרו דוד ולוסיה.",
+          "credit": "Polish State Archives (szukajwarchiwach.gov.pl) — public domain"
+        },
+        {
+          "src": "assets/research_images/period/lwow_legionow_1921.jpg",
+          "when": "24 October 1921",
+          "is_period": true,
+          "caption_en": "Legionów Street, Lwów, 24 October 1921 — described by the archive as the Jewish business centre of the city, with orthodox Jews visible in the frame. Twenty years before the street in the photograph beside this one.",
+          "caption_he": "רחוב לגיונוב, לבוב, 24 באוקטובר 1921 — הארכיון מתאר אותו כמרכז העסקים היהודי של העיר, ויהודים חרדים נראים בתצלום. עשרים שנה לפני הרחוב שבתצלום שלצידו.",
+          "credit": "Archival photograph, via Wikimedia Commons — public domain"
+        },
+        {
+          "src": "assets/research_images/period/lwow_kopernyka_svobody_1941.jpg",
+          "when": "July 1941",
+          "is_period": true,
+          "caption_en": "The corner of Kopernyka and Legionów (now Svobody), Lwów, July 1941. Two family threads meet on this corner: Lusia’s wartime address was down this street, and the Griffel timber company had its office at Kopernika 5.",
+          "caption_he": "פינת רחוב קופרניקה ורחוב לגיונוב (כיום סבובודי), לבוב, יולי 1941. שני חוטים משפחתיים נפגשים בפינה הזאת: כתובתה של לוסיה בזמן המלחמה הייתה במורד הרחוב הזה, ולחברת העצים של גריפל היה משרד בקופרניקה 5.",
+          "credit": "Private collection, via Wikimedia Commons — public domain"
+        },
+        {
+          "src": "assets/research_images/period/lwow_legionow_1918.jpg",
+          "when": "between 1918 and 1919",
+          "is_period": true,
+          "caption_en": "Legionów Street, Lwów, 1918-1919. Held by the Museum of Photography in Kraków.",
+          "caption_he": "רחוב לגיונוב, לבוב, 1918-1919. מוחזק במוזיאון הצילום בקרקוב.",
+          "credit": "Muzeum Fotografii w Krakowie — public domain"
+        },
+        {
+          "src": "assets/research_images/trip/legionow24_svobody24_lviv.jpg",
+          "when": "today",
+          "is_period": false,
+          "caption_en": "🏠 THE BUILDING ITSELF — Prospekt Svobody 24, Lviv (formerly Legionów 24). The four-storey Biedermeier stone kamienica, built 1836-1837 by Johann Salzmann for F. Adamski. This is Lusia's wartime apartment building, where she lived 1942-1944 as 'Maria Cizlik' on the Aryan side. Polish poet Wincenty Pol lived here 1856-1866.",
+          "caption_he": "🏠 הבניין עצמו — פרוספקט סבובודי 24, לבוב (לשעבר לגיונוב 24). בניין אבן ביידרמייר בן ארבע קומות, נבנה 1836-1837 על-ידי האדריכל יוהן זלצמן עבור פ. אדמסקי. זוהי דירת המגורים של לוסיה בזמן המלחמה, בה התגוררה 1942-1944 בזהות הבדויה 'מריה ציצליק' בצד הארי. המשורר הפולסי וינצנטי פול גר כאן 1856-1866.",
+          "credit": "Wikimedia Commons (CC BY 3.0)"
+        },
+        {
+          "src": "assets/research_images/trip/lviv_opera_lead.jpg",
+          "when": "today",
+          "is_period": false,
+          "caption_en": "The Lviv Opera House (Lviv Theatre of Opera and Ballet, Svobody 28) — DIRECTLY UP THE STREET from Lusia's apartment at Legionów 24. During the Nazi occupation 1941-44 the Opera served as 'Operntheater Lemberg', Wehrmacht entertainment HQ.",
+          "caption_he": "האופרה של לבוב (בניין האופרה והבלט של לבוב, סבובודי 28) — ישירות במעלה הרחוב מדירת לוסיה בלגיונוב 24. בזמן הכיבוש הנאצי 1941-44 שימשה האופרה כ'אופרנתיאטר לֶמברג', מטה הבידור של הוורמאכט.",
+          "credit": "Wikipedia Commons (CC-BY-SA)"
+        },
+        {
+          "src": "assets/research_images/trip/lviv_rynek_square_lead.jpg",
+          "when": "today",
+          "is_period": false,
+          "caption_en": "Lviv Rynek Square (Площа Ринок) — the UNESCO-listed medieval merchant square. Lusia worked as manager of an art-objects shop in this commercial complex during 1943-1944.",
+          "caption_he": "",
+          "credit": "Wikipedia Commons (CC-BY-SA)"
+        }
+      ]
     },
     {
       "id": "pl_przemysl",
@@ -130,7 +352,33 @@
         "1939_09": "After 17 Sep 1939 Soviet invasion: Przemyśl was DIVIDED by the German-Soviet border along the San River — German side vs Soviet side"
       },
       "significance": "Leah fled here in 1939 (early war). Worked as teller / passport section under Soviets. Visited David's parents here. The exact people she stayed with (Matel? Regina/Rebeka?) is an open question — see hypotheses.",
-      "significance_he": "לוסיה הגיעה לכאן ב-1939, בראשית המלחמה, ועבדה זמן קצר כפקידה במחלקת הדרכונים תחת המנהל הסובייטי (זיכרון משפחתי). כשחילקו גרמניה וברית המועצות את פולין בספטמבר 1939 עבר קו התיחום לאורך נהר הסן — בתוך העיר. הגרמנים החזיקו בגדה המערבית, הסובייטים במזרחית, ולוסיה הייתה בצד הסובייטי. הוריו של דוד, בריש ורבקה, חיו בפשמישל עד 1939. הגרמנים שרפו את בית הכנסת הישן; משכבשו את הגדה המזרחית ביוני 1941 רוכזו יהודי העיר בגטו ואחר כך הושמדו."
+      "significance_he": "לוסיה הגיעה לכאן ב-1939, בראשית המלחמה, ועבדה זמן קצר כפקידה במחלקת הדרכונים תחת המנהל הסובייטי (זיכרון משפחתי). כשחילקו גרמניה וברית המועצות את פולין בספטמבר 1939 עבר קו התיחום לאורך נהר הסן — בתוך העיר. הגרמנים החזיקו בגדה המערבית, הסובייטים במזרחית, ולוסיה הייתה בצד הסובייטי. הוריו של דוד, בריש ורבקה, חיו בפשמישל עד 1939. הגרמנים שרפו את בית הכנסת הישן; משכבשו את הגדה המזרחית ביוני 1941 רוכזו יהודי העיר בגטו ואחר כך הושמדו.",
+      "images": [
+        {
+          "src": "assets/research_images/period/przemysl_san_1938.jpg",
+          "when": "1938",
+          "is_period": true,
+          "caption_en": "The San at Przemyśl, photographed in 1938 by Adam Lenkiewicz. A year later this river was the German-Soviet demarcation line, cutting the town in two: Lusia was on the Soviet side.",
+          "caption_he": "נהר הסן בפשמישל, צולם ב-1938 בידי אדם לנקביץ. שנה לאחר מכן היה הנהר הזה קו התיחום הגרמני-סובייטי שחצה את העיר לשניים: לוסיה הייתה בצד הסובייטי.",
+          "credit": "Adam Lenkiewicz / Polona, National Library of Poland — public domain"
+        },
+        {
+          "src": "assets/research_images/period/przemysl_jagiellonska_ruins.jpg",
+          "when": "1941-1945",
+          "is_period": true,
+          "caption_en": "Jagiellońska Street, Przemyśl, 1941-45 — the destroyed Tempel synagogue is the last building on the left. This is the town Lusia had lived in at the start of the war, photographed after the Germans took the eastern bank.",
+          "caption_he": "רחוב יגיילונסקה, פשמישל, 1941-45 — בית הכנסת ״טמפל״ ההרוס הוא הבניין האחרון משמאל. זו העיר שבה חיה לוסיה בראשית המלחמה, מצולמת לאחר שהגרמנים כבשו את הגדה המזרחית.",
+          "credit": "Narodowe Archiwum Cyfrowe — public domain"
+        },
+        {
+          "src": "assets/research_images/period/przemysl_old_synagogue_1940.jpg",
+          "when": "about 1940",
+          "is_period": true,
+          "caption_en": "The Old Synagogue in Przemyśl, about 1940 — already destroyed by the Germans. Lusia was in Przemyśl in 1939-40, working under the Soviet administration on the eastern side of the San. From the Polish record \"Martyrdom, Struggle and Extermination of the Jews in Poland 1939-1945\".",
+          "caption_he": "בית הכנסת הישן בפשמישל, בערך 1940 — כבר הרוס בידי הגרמנים. לוסיה שהתה בפשמישל ב-1939-40 ועבדה תחת המנהל הסובייטי בגדה המזרחית של הסן. מתוך התיעוד הפולני ״מרטירולוגיה, מאבק והשמדת יהודי פולין 1939-1945״.",
+          "credit": "\"Męczeństwo, walka, zagłada Żydów w Polsce 1939-1945\" — public domain"
+        }
+      ]
     },
     {
       "id": "pl_brussels",
@@ -146,7 +394,33 @@
         4.3517
       ],
       "significance": "Where the family arrived after the war. David registered as Displaced Person on 9 April 1946. Dov Bernard born here in 1946. The 'B.' on the DP card stands for Brussels or Belgium.",
-      "significance_he": "המקום שאליו הגיעה המשפחה אחרי המלחמה. דוד נרשם שם כעקור (DIPIS) ב-9 באפריל 1946. דב נולד בבריסל ב-28 באוגוסט 1946. הג׳וינט שילם את שכר המלון. מכאן הפליגו דוד ושמעון לסֶט באפריל 1947, ומכאן הפליגה לוסיה עם דב באונייה ״קדימה״ ב-1948, לאחר שהמתינה לבדה יותר משנה."
+      "significance_he": "המקום שאליו הגיעה המשפחה אחרי המלחמה. דוד נרשם שם כעקור (DIPIS) ב-9 באפריל 1946. דב נולד בבריסל ב-28 באוגוסט 1946. הג׳וינט שילם את שכר המלון. מכאן הפליגו דוד ושמעון לסֶט באפריל 1947, ומכאן הפליגה לוסיה עם דב באונייה ״קדימה״ ב-1948, לאחר שהמתינה לבדה יותר משנה.",
+      "images": [
+        {
+          "src": "assets/research_images/period/belgium_dp_centre_1945.jpg",
+          "when": "6 March 1945",
+          "is_period": true,
+          "caption_en": "A displaced persons centre in Belgium, 6 March 1945 — liberated forced labourers waiting to be assigned beds in a new billet. Photographed by the US Army Signal Corps; the location is a Belgian city, not Brussels itself. This is the machinery David passed through: he was registered as a Displaced Person in Brussels thirteen months later. Not our family.",
+          "caption_he": "מרכז עקורים בבלגיה, 6 במרץ 1945 — עובדי כפייה משוחררים ממתינים להקצאת מיטות. צולם בידי חיל הקשר של צבא ארה״ב; המקום הוא עיר בבלגיה, לא בריסל עצמה. זו המערכת שדרכה עבר דוד, שנרשם כעקור בבריסל שלושה עשר חודשים אחר כך. לא משפחתנו.",
+          "credit": "U.S. Army Signal Corps / U.S. National Archives — public domain"
+        },
+        {
+          "src": "assets/research_images/period/brussels_liberated_prisoner_1945.jpg",
+          "when": "April 1945",
+          "is_period": true,
+          "caption_en": "Brussels, April 1945: a liberated French political prisoner. This is the city as David reached it — Brussels in 1945-46 was full of people coming out of camps and hiding, and he was registered there as a Displaced Person on 9 April 1946. Not our family. Photographer unknown, Anefo.",
+          "caption_he": "בריסל, אפריל 1945: אסיר פוליטי צרפתי משוחרר. זו העיר כפי שדוד הגיע אליה — בריסל של 1945-46 הייתה מלאה אנשים שיצאו ממחנות וממחבוא, והוא נרשם בה כעקור ב-9 באפריל 1946. לא משפחתנו. צלם לא ידוע, אנפו.",
+          "credit": "Anefo / Nationaal Archief, Netherlands — CC0"
+        },
+        {
+          "src": "assets/research_images/trip/brussels_grand_place_lead.jpg",
+          "when": "today",
+          "is_period": false,
+          "caption_en": "Brussels Grand-Place — central Brussels square. David, Lusia and Shimon transited Brussels in April 1946; their son Dov 'Bernard' (Dana, Doron and Daniel's father) was born here later that year.",
+          "caption_he": "",
+          "credit": "Wikipedia Commons (CC-BY-SA)"
+        }
+      ]
     },
     {
       "id": "pl_katowice",
@@ -161,7 +435,17 @@
         19.0238
       ],
       "significance": "Last stop in Poland before Brussels (per family memory). Family came here from Lwów; from here travelled by bus to Brussels.",
-      "significance_he": "התחנה האחרונה בפולין לפני בריסל. המשפחה הגיעה לכאן מלבוב עם הריפטריאציה בתום המלחמה. ב-1 ביולי 1946 מילאו לוסיה ושמעון כרטיסי רישום ניצולים בוועד קטוביץ — מספרים 151738 ו-151337, אם ובנה, זה אחר זה, ושניהם נוקבים בקטוביץ ככתובת האחרונה הידועה. דוד כבר היה רשום כעקור בבריסל מ-9 באפריל 1946, שלושה חודשים קודם: הוא הקדים והם באו אחריו."
+      "significance_he": "התחנה האחרונה בפולין לפני בריסל. המשפחה הגיעה לכאן מלבוב עם הריפטריאציה בתום המלחמה. ב-1 ביולי 1946 מילאו לוסיה ושמעון כרטיסי רישום ניצולים בוועד קטוביץ — מספרים 151738 ו-151337, אם ובנה, זה אחר זה, ושניהם נוקבים בקטוביץ ככתובת האחרונה הידועה. דוד כבר היה רשום כעקור בבריסל מ-9 באפריל 1946, שלושה חודשים קודם: הוא הקדים והם באו אחריו.",
+      "images": [
+        {
+          "src": "assets/research_images/period/katowice_survivors_1946.jpg",
+          "when": "1946",
+          "is_period": true,
+          "caption_en": "Survivors in Katowice, 1946 — the town where Lusia and Shimon registered as survivors on 1 July 1946, cards 151738 and 151337. Not our family: this is who else was there, in the same year, doing the same thing.",
+          "caption_he": "ניצולים בקטוביץ, 1946 — העיר שבה נרשמו לוסיה ושמעון כניצולים ב-1 ביולי 1946, כרטיסים 151738 ו-151337. לא משפחתנו: אלה מי שהיו שם, באותה שנה, ועשו את אותו הדבר.",
+          "credit": "Katowice Yizkor book, via JewishGen — public domain"
+        }
+      ]
     },
     {
       "id": "pl_krynica",
@@ -179,7 +463,17 @@
       "important_events_ids": [
         "e_rebeka_krynica_1912"
       ],
-      "significance_he": "עיירת מרפא בדרום פולין. רבקה/רגינה רפפורט (אמו של דוד) נרשמה כאן ב״אלפרדובקה״ ב-25 ביולי 1912 כאשתו של סוחר מנדבורנא — מה שמאשש את זהותה בעיתונות הפולנית של התקופה."
+      "significance_he": "עיירת מרפא בדרום פולין. רבקה/רגינה רפפורט (אמו של דוד) נרשמה כאן ב״אלפרדובקה״ ב-25 ביולי 1912 כאשתו של סוחר מנדבורנא — מה שמאשש את זהותה בעיתונות הפולנית של התקופה.",
+      "images": [
+        {
+          "src": "assets/research_images/period/krynica_pijalnia.jpg",
+          "when": "between the wars",
+          "is_period": true,
+          "caption_en": "Krynica, the pump room, photographed by Henryk Poddębski between the wars. Menukha was recorded at Krynica in 1904, and Regina registered at Alfredówka there in 1912.",
+          "caption_he": "קריניצה, בית השאיבה, צולם בידי הנריק פודמבסקי בין המלחמות. מנוחה נרשמה בקרינצה ב-1904, ורגינה נרשמה שם באלפרדובקה ב-1912.",
+          "credit": "Henryk Poddębski / Narodowe Archiwum Cyfrowe — public domain"
+        }
+      ]
     },
     {
       "id": "pl_cieszyn",
@@ -288,7 +582,57 @@
         "1992": "Memorial plaque unveiled at the former Willa Helin honoring those tortured there."
       },
       "significance": "H1 RESOLVED — this is Lusia's 'Mosina'. Confirmed by memoir (Feb 1938 marriage 'in the small resort town', p.16) and by triangulation of Griffel sawmill records + Muszyna Council minutes (28 Oct 1933). Willa 'Helin' on Ogrodowa St. was Lusia's hotel. Family had nothing to return to after the war.",
-      "significance_he": "זוהי ״מוסינה״ של לוסיה — ההשערה נפתרה. עיירת מרפא בקרפטים הפולניים, שבה חיו דוד ולוסיה בשנים שלפני המלחמה. היומן ממקם כאן את חתונתם בפברואר 1938; הרשומה האזרחית ממקמת אותה בבולחוב ב-1935. הזיכרון, שנכתב ארבעים שנה אחר כך, מיקם את הנישואין בפתח שנות מושינה במקום שלוש שנים לפניהן."
+      "significance_he": "זוהי ״מוסינה״ של לוסיה — ההשערה נפתרה. עיירת מרפא בקרפטים הפולניים, שבה חיו דוד ולוסיה בשנים שלפני המלחמה. היומן ממקם כאן את חתונתם בפברואר 1938; הרשומה האזרחית ממקמת אותה בבולחוב ב-1935. הזיכרון, שנכתב ארבעים שנה אחר כך, מיקם את הנישואין בפתח שנות מושינה במקום שלוש שנים לפניהן.",
+      "images": [
+        {
+          "src": "assets/research_images/period/muszyna_villa_1925.jpg",
+          "when": "1925-1930",
+          "is_period": true,
+          "caption_en": "Muszyna, the Szwarc villa below the castle hill — postcard, 1925-1930.",
+          "caption_he": "מושינה, וילת שוורץ למרגלות גבעת הטירה — גלויה, 1925-1930.",
+          "credit": "National Library of Poland (Polona) — public domain"
+        },
+        {
+          "src": "assets/research_images/period/muszyna_poprad_1935.jpg",
+          "when": "1935-1944",
+          "is_period": true,
+          "caption_en": "Muszyna, the view from the castle hill over the river Poprad — a postcard printed between 1935 and 1944, the Muszyna years of the memoir.",
+          "caption_he": "מושינה, הנוף מגבעת הטירה אל נהר הפופרד — גלויה שנדפסה בין 1935 ל-1944, שנות מושינה שביומן.",
+          "credit": "National Library of Poland (Polona) — public domain"
+        },
+        {
+          "src": "assets/research_images/trip/muszyna_town_hall_market.jpg",
+          "when": "date not stated",
+          "is_period": false,
+          "caption_en": "Muszyna Town Hall on the Market Square. The Reich family hotel was on the Rynek.",
+          "caption_he": "",
+          "credit": "Wikipedia Commons"
+        },
+        {
+          "src": "assets/research_images/trip/muszyna_panorama.jpg",
+          "when": "date not stated",
+          "is_period": false,
+          "caption_en": "Panorama of Muszyna in the Beskid mountains.",
+          "caption_he": "",
+          "credit": "Wikipedia Commons"
+        },
+        {
+          "src": "assets/research_images/trip/muszyna_mineral_springs_pijalnia.jpg",
+          "when": "date not stated",
+          "is_period": false,
+          "caption_en": "Pijalnia Anna — Muszyna's mineral water pavilion.",
+          "caption_he": "",
+          "credit": "Wikipedia Commons"
+        },
+        {
+          "src": "assets/research_images/trip/muszyna_promenade.jpg",
+          "when": "date not stated",
+          "is_period": false,
+          "caption_en": "Promenades + sidewalks in Muszyna, with Muszyna Castle background.",
+          "caption_he": "",
+          "credit": "Wikipedia Commons"
+        }
+      ]
     },
     {
       "id": "pl_mszana_dolna",
@@ -378,7 +722,17 @@
       "era_context": {
         "1945_now": "Post-war home of several Griffel-Nadwórna descendants (Yehuda Nir d.2014, Steven Lamm, Andrew Griffel)"
       },
-      "note_en": "Several Griffel-line cousins of David Memek Rapaport settled in NYC: Yehuda Nir (1930-2014, author of 'The Lost Childhood'); Dr Steven Lamm (b.1948, NYU Langone); Andrew Griffel (attorney, splits time with Israel)."
+      "note_en": "Several Griffel-line cousins of David Memek Rapaport settled in NYC: Yehuda Nir (1930-2014, author of 'The Lost Childhood'); Dr Steven Lamm (b.1948, NYU Langone); Andrew Griffel (attorney, splits time with Israel).",
+      "images": [
+        {
+          "src": "assets/research_images/trip/staten_island_baron_hirsch.jpg",
+          "when": "today",
+          "is_period": false,
+          "caption_en": "Baron Hirsch Cemetery, Staten Island NY — where Zygmunt Griffel (1897-1951) is buried in the Nadworner Young Men's Benevolent Association plot, Section I Gate 51.",
+          "caption_he": "בית הקברות באראן הירש, סטטן איילנד — בו קבור זיגמונט גריפל (1897-1951), בחלקת אגודת בני הנעורים הנדבורנים, סקטור I, שער 51.",
+          "credit": "Wikipedia Commons (CC-BY-SA)"
+        }
+      ]
     },
     {
       "id": "pl_london",
@@ -451,7 +805,17 @@
         "13th_14th_century": "Kingdom of Mallorca — independent Catalan-speaking kingdom. Major medieval Jewish community including the Rapapa physicians (Dr Vidal 1305, Dr Jucef Salomon 1311). After 1391 pogroms and 1435 forced conversions, Mallorcan Jews became 'Chuetas'.",
         "now": "Capital of the Balearic Islands, Spain"
       },
-      "note_en": "Birthplace of the documented medieval Rapapa ancestors. The 1305 conspiracy to rescue a Jewish girl from forced conversion-by-marriage was led here by Dr Vidal Rapapa. Court physician Dr Jucef Salomon Rapapa served King Jaime III here. DNA testing confirmed living Mallorcan Chueta family ↔ US Rappoport family direct mitochondrial link."
+      "note_en": "Birthplace of the documented medieval Rapapa ancestors. The 1305 conspiracy to rescue a Jewish girl from forced conversion-by-marriage was led here by Dr Vidal Rapapa. Court physician Dr Jucef Salomon Rapapa served King Jaime III here. DNA testing confirmed living Mallorcan Chueta family ↔ US Rappoport family direct mitochondrial link.",
+      "images": [
+        {
+          "src": "assets/research_images/trip/mallorca_lead.jpg",
+          "when": "today",
+          "is_period": false,
+          "caption_en": "Palma, Mallorca — where Dr Vidal Rapapa practiced medicine in 1305, the earliest documented Rapaport ancestor.",
+          "caption_he": "פלמה דה מיורקה — בה נהג ד\"ר וידאל רפפא ברפואה ב-1305, אבי המשפחה הקדמון המתועד המוקדם ביותר.",
+          "credit": "Wikipedia Commons (CC-BY-SA)"
+        }
+      ]
     },
     {
       "id": "pl_portobuffole",
@@ -470,7 +834,17 @@
         "16th_century": "Renaissance Italian port on the Livaza river, Veneto region. Refuge for Jewish exiles. Birthplace of R. Yechiel Michael ha-Kohen Rapa (b.1502).",
         "now": "Comune in the Province of Treviso, Veneto, Italy"
       },
-      "note_en": "Where R. Yechiel Michael ha-Kohen Rapa was born in 1502. His son Isaac 'HaMoel' was the first to use the surname 'Rapa-Porto' (~1550), creating the modern Rapaport name."
+      "note_en": "Where R. Yechiel Michael ha-Kohen Rapa was born in 1502. His son Isaac 'HaMoel' was the first to use the surname 'Rapa-Porto' (~1550), creating the modern Rapaport name.",
+      "images": [
+        {
+          "src": "assets/research_images/trip/portobuffole_lead.jpg",
+          "when": "today",
+          "is_period": false,
+          "caption_en": "Portobuffolè, Italy — the small Treviso-province town whose name was added to 'Rapa' to create the surname 'Rapa-Porto' c. 1550.",
+          "caption_he": "פורטובופולה, איטליה — העיירה הקטנה במחוז טרוויסו ששמה צורף ל-'רפא' ויצר את שם המשפחה 'רפא-פורטו' (~1550).",
+          "credit": "Wikipedia Commons (CC-BY-SA)"
+        }
+      ]
     },
     {
       "id": "pl_verona",
@@ -489,7 +863,17 @@
         "16th_century": "Major Italian Jewish printing centre. Rabbi Avraham Menachem ha-Kohen Rapa-Porto (1520-1596) published 'Mincha Belulah' here in 1594 with the iconic raven + priestly blessing family emblem.",
         "now": "Comune in Veneto, Italy"
       },
-      "note_en": "Where R. Avraham Menachem ha-Kohen Rapa-Porto published Mincha Belulah in 1594, introducing the raven + priestly blessing family emblem still used by descendants today."
+      "note_en": "Where R. Avraham Menachem ha-Kohen Rapa-Porto published Mincha Belulah in 1594, introducing the raven + priestly blessing family emblem still used by descendants today.",
+      "images": [
+        {
+          "src": "assets/research_images/trip/verona_lead.jpg",
+          "when": "today",
+          "is_period": false,
+          "caption_en": "Verona, Italy — where R. Avraham Menachem ha-Kohen Rapa-Porto published 'Mincha Belulah' (1594) bearing the raven+priestly-blessing family emblem.",
+          "caption_he": "ורונה, איטליה — בה פרסם רבי אברהם מנחם הכהן רפא-פורטו את 'מנחה בלולה' (1594) ובו סמל המשפחה: עורב ותחתיו ברכת כהנים.",
+          "credit": "Wikipedia Commons (CC-BY-SA)"
+        }
+      ]
     },
     {
       "id": "pl_padua",
@@ -508,7 +892,17 @@
         "15th_16th_century": "Major Renaissance Italian Jewish centre. Birthplace of R. Meir Katzenellenbogen 'MaHaRaM Padua' (1482-1565) and his son R. Samuel Judah Katzenellenbogen (1521-1597), founders of the Katzenellenbogen rabbinical dynasty that ultimately reached our family via Chawa Wahl.",
         "now": "Comune in Veneto, Italy"
       },
-      "note_en": "Where the Katzenellenbogen rabbinical dynasty was founded. MaHaRaM Padua served as Chief Rabbi of Padua until 1565."
+      "note_en": "Where the Katzenellenbogen rabbinical dynasty was founded. MaHaRaM Padua served as Chief Rabbi of Padua until 1565.",
+      "images": [
+        {
+          "src": "assets/research_images/trip/padua_lead.jpg",
+          "when": "today",
+          "is_period": false,
+          "caption_en": "Padua, Italy — seat of R. Meir Katzenellenbogen 'MaHaRaM Padua' (1482-1565), Chief Rabbi of Padua, three generations before Saul Wahl.",
+          "caption_he": "פאדובה, איטליה — מקום מושבו של רבי מאיר קצנלנבוגן 'מהר\"ם מפדואה' (1482-1565), רבה הראשי של פדואה.",
+          "credit": "Wikipedia Commons (CC-BY-SA)"
+        }
+      ]
     },
     {
       "id": "pl_brest",
@@ -545,7 +939,17 @@
         "19th_century": "Galician Jewish town. Birthplace of Shulim Wahl and Sarah Safier — Chawa Wahl Griffel's parents.",
         "now": "Town in Subcarpathian Voivodeship, Poland"
       },
-      "note_en": "Where Chawa Wahl (1877-1941), David Mendel Griffel's wife, was born — into the Tarnobrzeg Wahl line documented as descending from Saul Wahl Katzenellenbogen."
+      "note_en": "Where Chawa Wahl (1877-1941), David Mendel Griffel's wife, was born — into the Tarnobrzeg Wahl line documented as descending from Saul Wahl Katzenellenbogen.",
+      "images": [
+        {
+          "src": "assets/research_images/trip/tarnobrzeg_lead.jpg",
+          "when": "today",
+          "is_period": false,
+          "caption_en": "Tarnobrzeg, Poland — Galician town of the Wahl family that produced Chawa Wahl (1877-1941), gg-grandmother of Dana, Doron and Daniel Rapaport (via Rebeka Griffel → David → Dov).",
+          "caption_he": "טרנוברז'ג, פולין — עיירה גליציאנית של משפחת וואהל שממנה יצאה חוה וואהל (1877-1941), סבתא-רבתא של דנה, דורון ודניאל רפפורט.",
+          "credit": "Wikipedia Commons (CC-BY-SA)"
+        }
+      ]
     },
     {
       "id": "pl_stanislawow",
@@ -645,7 +1049,17 @@
         "1884_pre_1924": "Rapaport household on Folwarczna 9 (today: Waryńskiego St.). Father Mojżesz Saul Rapaport worked as a private teacher (nauczyciel prywatny). Mother Rywka née Schiff was daughter of Michał Schiff (merchant) + Cywie Schiff of Tarnów.",
         "modern": "Tarnów, Lesser Poland Voivodeship (today in Poland, NOT Ukraine — distinct from the Galicia-East Stanisławów branch)."
       },
-      "note_en": "Source-of-origin city for the paternal Rapaport line — newly identified 23 May 2026 by Basia via the 1924 passport application. Tarnów was an established Jewish center within the Austro-Hungarian Kingdom of Galicia. Folwarczna 9 → Waryńskiego St. name-change is a standard 20th-century Polish street rename. The earlier Round-2 deep-research hypothesis that Berisz was born in eastern Galicia (Pasieczna/Loyowa/Pniow/Strymba/Bukowinka) is REFUTED."
+      "note_en": "Source-of-origin city for the paternal Rapaport line — newly identified 23 May 2026 by Basia via the 1924 passport application. Tarnów was an established Jewish center within the Austro-Hungarian Kingdom of Galicia. Folwarczna 9 → Waryńskiego St. name-change is a standard 20th-century Polish street rename. The earlier Round-2 deep-research hypothesis that Berisz was born in eastern Galicia (Pasieczna/Loyowa/Pniow/Strymba/Bukowinka) is REFUTED.",
+      "images": [
+        {
+          "src": "assets/research_images/period/tarnow_bem_mausoleum.jpg",
+          "when": "between the wars",
+          "is_period": true,
+          "caption_en": "Tarnów between the wars — the Bem mausoleum. Three of Berisz’s sisters married in this town, and their marriage deeds named the family’s apical couple.",
+          "caption_he": "טרנוב בין המלחמות — מאוזוליאום במבה. שלוש מאחיותיו של בריש נישאו בעיר הזאת, ושטרי נישואיהן נקבו בשמות זוג האב של המשפחה.",
+          "credit": "Koncern IKC / Narodowe Archiwum Cyfrowe, sygn. 1-U-6252 — public domain"
+        }
+      ]
     },
     {
       "id": "pl_dabrowa",
@@ -741,7 +1155,17 @@
         "1918_1939": "Stryj district, Stanyslaviv Voivodeship, Second Polish Republic",
         "now": "Skole, Lviv Oblast, Ukraine"
       },
-      "note_en": "Birthplace of Shlomo Goldfischer (Dalia's father; Dana, Doron and Daniel's maternal grandfather, b.23 November 1909). Skole is in the same Galician Carpathian region as Bolechów, Stryj, Dolina + Nadwórna — connecting Dana, Doron and Daniel's paternal (Rapaport-Weitzner) and maternal (Goldfischer) lines to the same small Jewish world of eastern Galicia."
+      "note_en": "Birthplace of Shlomo Goldfischer (Dalia's father; Dana, Doron and Daniel's maternal grandfather, b.23 November 1909). Skole is in the same Galician Carpathian region as Bolechów, Stryj, Dolina + Nadwórna — connecting Dana, Doron and Daniel's paternal (Rapaport-Weitzner) and maternal (Goldfischer) lines to the same small Jewish world of eastern Galicia.",
+      "images": [
+        {
+          "src": "assets/research_images/trip/stryj_lead.jpg",
+          "when": "today",
+          "is_period": false,
+          "caption_en": "Stryj — regional centre near Skole, the birthplace of Shlomo Goldfischer (1909). Same Carpathian-foothills world as Bolechów + Nadwórna.",
+          "caption_he": "",
+          "credit": "Wikipedia Commons"
+        }
+      ]
     },
     {
       "id": "pl_sete",
@@ -763,7 +1187,41 @@
       "significance_he": "נמל היציאה של אוניית העלייה ב' תיאודור הרצל ב-2 באפריל 1947 עם 2,641 מעפילים — ובהם דוד, לוסיה, שמעון ודב התינוק.",
       "significance_pl": "Port wyjścia statku Aliyah Bet Theodor Herzl 2 kwietnia 1947 z 2 641 ma'apilim — w tym Dawid, Lusia, Szymon i niemowlę Dov.",
       "significance_fr": "Port de départ du navire Aliyah Bet Theodor Herzl le 2 avril 1947 avec 2 641 ma'apilim — dont David, Lusia, Szymon et le bébé Dov.",
-      "important_events_ids": []
+      "important_events_ids": [],
+      "images": [
+        {
+          "src": "assets/research_images/period/sete_port_1912.jpg",
+          "when": "1912",
+          "is_period": true,
+          "caption_en": "The port of Sète, photographed in 1912 by the Agence Rol. This is the harbour David and Shimon sailed from on 2 April 1947 aboard the Theodor Herzl, with 2,641 ma’apilim gathered from camps across France and Belgium — but the picture is thirty-five years earlier, and is here to show the place, not the day.",
+          "caption_he": "נמל סֶט, צולם ב-1912 בידי סוכנות רול. זהו הנמל שממנו הפליגו דוד ושמעון ב-2 באפריל 1947 באונייה ״תיאודור הרצל״, עם 2,641 מעפילים ממחנות ברחבי צרפת ובלגיה — אך התצלום מוקדם בשלושים וחמש שנים, והוא כאן כדי להראות את המקום, לא את היום.",
+          "credit": "Agence Rol / Bibliothèque nationale de France — public domain"
+        },
+        {
+          "src": "assets/research_images/trip/theodor_herzl_haifa_1947.png",
+          "when": "April 1947",
+          "is_period": true,
+          "caption_en": "The Aliyah Bet ship Theodor Herzl in Haifa, April 1947 — black-stained 'NEVER DIE!' banner painted by the ma'apilim after the British boarding that killed three.",
+          "caption_he": "תיאודור הרצל בנמל חיפה, אפריל 1947 — שלט מצוייר ביד 'NEVER DIE!' שצבעו המעפילים לאחר שלוש ההריגות בהשתלטות הבריטית.",
+          "credit": "Public domain — pre-1948 photograph"
+        },
+        {
+          "src": "assets/research_images/trip/theodor_herzl_ship_naval_corps.jpg",
+          "when": "date not stated",
+          "is_period": false,
+          "caption_en": "Side-view of the Theodor Herzl from naval records — built 1907 in Newcastle as the cable ship HMS Guardian, 1,768 tons.",
+          "caption_he": "מבט-צד של תיאודור הרצל מתוך תיעוד חיל הים — נבנתה ב-1907 בניוקאסל כספינת כבלים HMS Guardian, 1,768 טון.",
+          "credit": "Public domain — naval-corps archive"
+        },
+        {
+          "src": "assets/research_images/trip/sete_lead.jpg",
+          "when": "today",
+          "is_period": false,
+          "caption_en": "The French port of Sète — where the Theodor Herzl sailed from on 2 April 1947 with 2,641 Ma'apilim including David, Lusia, Shimon and infant Dov.",
+          "caption_he": "נמל סט בצרפת — שממנו הפליגה תיאודור הרצל ב-2 באפריל 1947 עם 2,641 מעפילים, ובהם דוד, לושה, שמעון ודב התינוק.",
+          "credit": "Wikipedia Commons (CC-BY-SA)"
+        }
+      ]
     },
     {
       "id": "pl_cyprus_karaolos",
@@ -785,7 +1243,33 @@
       "significance_he": "אתר המעצר של דוד ושל בנו שמעון בן התשע במשך כשמונה חודשים, לאחר שהצי המלכותי השתלט על ״תיאודור הרצל״ ב-13 באפריל 1947. לוסיה לא הייתה כאן: היא נשארה בבריסל עם דב בן שבעת החודשים והמתינה יותר משנה. מחנות האוהלים הקיציים 55, 60, 61, 62 ו-63 עמדו בקרַאוֹלוֹס מצפון לפמגוסטה; מחנות החורף עם צריפי ניסן היו בדֶכֶליה ליד לרנקה. מחנות קפריסין החזיקו 53,510 יהודים מאחורי גדרות בין 1946 ל-1949, וכאלפיים ילדים נולדו בתוכם.",
       "significance_pl": "Miejsce internowania Dawida, Lusi, Szymona i niemowlęcia Dova przez około 8 miesięcy po przejęciu Theodora Herzla przez Brytyjczyków w kwietniu 1947. Letnie obozy namiotowe nr 55, 60, 61, 62, 63 znajdowały się w Karaolos koło Famagusty.",
       "significance_fr": "Lieu d'internement de David, Lusia, Szymon et Dov bébé pendant environ 8 mois après l'arraisonnement du Theodor Herzl en avril 1947. Camps d'été sous tente nos 55, 60, 61, 62, 63 à Karaolos, près de Famagouste.",
-      "important_events_ids": []
+      "important_events_ids": [],
+      "images": [
+        {
+          "src": "assets/research_images/period/famagusta_1945.jpg",
+          "when": "1945",
+          "is_period": true,
+          "caption_en": "Famagusta, 1945 — the town beside which the British internment camps stood. David and Shimon were held at Karaolos, just north of here, in 1947.",
+          "caption_he": "פמגוסטה, 1945 — העיר שלצידה עמדו מחנות המעצר הבריטיים. דוד ושמעון הוחזקו בקרַאוֹלוֹס, מצפון לכאן, ב-1947.",
+          "credit": "G. Eric and Edith Matson Collection, Library of Congress — public domain"
+        },
+        {
+          "src": "assets/research_images/period/cyprus_deportation_empire_rival.jpg",
+          "when": "date not stated by the archive",
+          "is_period": true,
+          "caption_en": "The Imperial War Museum describes this as Jewish immigrants aboard the troopship Empire Rival, waiting for the landing craft that will take them to a camp at Caraolos, Cyprus — the deportation that was done to David and Shimon in 1947. The IWM catalogue gives a range and not a date, so the year of this particular frame is unknown.",
+          "caption_he": "מוזיאון המלחמה הקיסרי מתאר את התצלום כמהגרים יהודים על סיפון ספינת החיילים ״אמפייר ריוול״, ממתינים לנחתות שיובילו אותם למחנה בקרַאוֹלוֹס שבקפריסין — ההגליה שנעשתה לדוד ולשמעון ב-1947. הקטלוג של המוזיאון נוקב בטווח ולא בתאריך, ולכן שנת הצילום המסוים הזה אינה ידועה.",
+          "credit": "No 1 Army Film & Photographic Unit / Imperial War Museum E32025 — public domain"
+        },
+        {
+          "src": "assets/research_images/trip/cyprus_caraolos_lead.jpg",
+          "when": "map",
+          "is_period": false,
+          "caption_en": "Cyprus internment camps map — held 53,510 Jews from 1946-1949. The Rapaport family was at Karaolos (near Famagusta) ~8 months.",
+          "caption_he": "",
+          "credit": "Wikipedia Commons"
+        }
+      ]
     },
     {
       "id": "pl_atlit",
@@ -806,7 +1290,33 @@
       "significance_he": "המקום שבו שוחרר שמעון ב-1948, בגיל עשר, לאחר כשנה של מעצר בקרַאוֹלוֹס שבקפריסין. היומן מכנה את עתלית ״הפרוזדור אל החופש״ (עמ׳ 65). הוא הגיע לכאן עם אביו דוד, ולא בהיפרדו מהוריו: לוסיה הייתה עדיין בבריסל עם דב התינוק והפליגה רק מאוחר יותר באותה שנה. הערה קודמת כאן אמרה שהופרד מהוריו ״בעוד דוד ולוסיה היו בקפריסין״ — לוסיה מעולם לא הייתה בקפריסין, והמשפט הזה נמשך.",
       "significance_pl": "Miejsce zatrzymania młodego Szymona Rapaporta (starszego syna Dawida i Lusi) wg dokumentu zwolnienia wspomnianego w pamiętniku (s. 65).",
       "significance_fr": "Lieu de détention du jeune Szymon Rapaport (fils aîné de David et Lusia) selon son document de libération mentionné dans le mémoire (p. 65).",
-      "important_events_ids": []
+      "important_events_ids": [],
+      "images": [
+        {
+          "src": "assets/research_images/period/atlit_children_1945.jpg",
+          "when": "15 October 1945",
+          "is_period": true,
+          "caption_en": "Children who survived the Holocaust getting down from the train at the Atlit reception camp, 15 July 1945. Shimon was released from Atlit in 1948, at ten, after about a year behind wire in Cyprus — the memoir calls Atlit \"the corridor to freedom\". This photograph is from three years earlier and he is not in it. Photograph by Zoltan Kluger.",
+          "caption_he": "ילדים ניצולי שואה יורדים מן הרכבת במחנה המעבר בעתלית, 15 ביולי 1945. שמעון שוחרר מעתלית ב-1948, בגיל עשר, אחרי כשנה מאחורי גדרות בקפריסין — היומן מכנה את עתלית ״הפרוזדור אל החופש״. התצלום הזה משלוש שנים קודם והוא אינו בו. צילום זולטן קלוגר.",
+          "credit": "Zoltan Kluger / National Photo Collection of Israel — public domain"
+        },
+        {
+          "src": "assets/research_images/period/atlit_ration_card_1947.jpg",
+          "when": "1947",
+          "is_period": true,
+          "caption_en": "A meal-ration card from the Atlit detention camp, 1947 — issued by the Government of the British Mandate. Shimon was released from Atlit on 22 August 1947, and his release certificate is printed in his mother’s memoir.",
+          "caption_he": "כרטיס מנות מזון ממחנה המעצר בעתלית, 1947 — הונפק בידי ממשלת המנדט הבריטי. שמעון שוחרר מעתלית ב-22 באוגוסט 1947, ותעודת השחרור שלו מודפסת ביומנה של אמו.",
+          "credit": "Government of the British Mandate for Palestine, via Wikimedia Commons — public domain"
+        },
+        {
+          "src": "assets/research_images/trip/atlit_lead.jpg",
+          "when": "today",
+          "is_period": false,
+          "caption_en": "Atlit detainee camp, British Mandate Palestine — where Shimon Rapaport was held (per memoir p.65 his release document came from Atlit).",
+          "caption_he": "",
+          "credit": "Wikipedia Commons (CC-BY-SA)"
+        }
+      ]
     },
     {
       "id": "pl_haifa",
@@ -830,7 +1340,57 @@
       "significance_he": "עיר ההגעה והבית של משפחת רפפורט לאחר קפריסין. דוד נפטר כאן ב-29 באוגוסט 1990, בן 78, נטמן בבית הקברות שדה יהושע. לוסיה נפטרה ב-28 בדצמבר 1996, בת 83, בקבר סמוך 102ג. דורון, דנה ודניאל גדלו כאן.",
       "significance_pl": "Miasto przybycia i pożycia rodziny Rapaport po Cyprze. Dawid zmarł tu 29 sierpnia 1990, wiek 78. Lusia zmarła 28 grudnia 1996, wiek 83.",
       "significance_fr": "Ville d'arrivée et de vie de la famille Rapaport après Chypre. David y mourut le 29 août 1990, à 78 ans. Lusia mourut le 28 décembre 1996, à 83 ans.",
-      "important_events_ids": []
+      "important_events_ids": [],
+      "images": [
+        {
+          "src": "assets/research_images/period/haifa_watching_intercepted_1946.jpg",
+          "when": "17 April 1946",
+          "is_period": true,
+          "caption_en": "Haifa port, 17 April 1946: relatives and friends on the quay watching the immigrant ships \"Fede\", \"Fenice\" and \"Dov Hoz\" after the Royal Navy intercepted them. Almost exactly a year later, on 13 April 1947, the Theodor Herzl was boarded the same way with David and nine-year-old Shimon aboard, and its passengers were deported to Cyprus. Photograph by Hans Pinn.",
+          "caption_he": "נמל חיפה, 17 באפריל 1946: קרובים וידידים על הרציף מביטים באוניות המעפילים ״פדה״, ״פניצ׳ה״ ו״דב הוז״ לאחר שהצי המלכותי תפס אותן. כמעט שנה בדיוק אחר כך, ב-13 באפריל 1947, נתפסה כך ״תיאודור הרצל״ ועל סיפונה דוד ושמעון בן התשע, ונוסעיה גורשו לקפריסין. צילום הנס פין.",
+          "credit": "Hans Pinn / National Photo Collection of Israel — public domain"
+        },
+        {
+          "src": "assets/research_images/period/haifa_refugees_aboard_1946.jpg",
+          "when": "1946",
+          "is_period": true,
+          "caption_en": "Holocaust survivors aboard the immigrant ships \"Dov Hoz\" and \"Eliyahu Golomb\" arriving at Haifa port, 19 July 1946. Lusia reached this harbour with the infant Dov on the Kadima in 1948, after waiting more than a year alone in Brussels. Photograph by Zoltan Kluger.",
+          "caption_he": "ניצולי שואה על סיפון אוניות המעפילים ״דב הוז״ ו״אליהו גולומב״ בהגיען לנמל חיפה, 19 ביולי 1946. לוסיה הגיעה לנמל הזה עם דב התינוק באונייה ״קדימה״ ב-1948, לאחר שהמתינה יותר משנה לבדה בבריסל. צילום זולטן קלוגר.",
+          "credit": "Zoltan Kluger / National Photo Collection of Israel — public domain"
+        },
+        {
+          "src": "assets/research_images/period/haifa_1947_kluger.jpg",
+          "when": "1947",
+          "is_period": true,
+          "caption_en": "Haifa in 1947, photographed by Zoltan Kluger. This is the city as David and Shimon reached it, and as Lusia and Dov would reach it the following year.",
+          "caption_he": "חיפה ב-1947, בצילומו של זולטן קלוגר. זו העיר כפי שדוד ושמעון הגיעו אליה, וכפי שלוסיה ודב יגיעו אליה בשנה שלאחר מכן.",
+          "credit": "Zoltan Kluger / Israel Preker via PikiWiki Israel — public domain"
+        },
+        {
+          "src": "assets/research_images/period/haifa_port_1947.jpg",
+          "when": "October 1947",
+          "is_period": true,
+          "caption_en": "The Haganah ship \"Jewish State\" at Haifa port, October 1947 — six months after the Theodor Herzl, carrying David and Shimon, was boarded and turned back to Cyprus.",
+          "caption_he": "אוניית ההגנה ״מדינת היהודים״ בנמל חיפה, אוקטובר 1947 — חצי שנה אחרי ש״תיאודור הרצל״, שנשאה את דוד ואת שמעון, נתפסה והוחזרה לקפריסין.",
+          "credit": "Wikimedia Commons — public domain"
+        },
+        {
+          "src": "assets/research_images/trip/mount_carmel_lead.jpg",
+          "when": "today",
+          "is_period": false,
+          "caption_en": "Mount Carmel, Haifa — David and Lusia's apartment at Moriah Street 93 sat on this ridge. Bought with German Wiedergutmachung reparations.",
+          "caption_he": "",
+          "credit": "Wikipedia Commons (CC-BY-SA)"
+        },
+        {
+          "src": "assets/research_images/trip/haifa_lead.jpg",
+          "when": "today",
+          "is_period": false,
+          "caption_en": "Haifa today, viewed from the Carmel ridge.",
+          "caption_he": "",
+          "credit": "Wikipedia Commons (CC-BY-SA)"
+        }
+      ]
     },
     {
       "id": "pl_marseille",
