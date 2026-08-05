@@ -2664,6 +2664,18 @@
       "intro_he": "צעדים קונקרטיים שדורון יכול לבצע. כל פריט הוא בקשה ספציפית למוסד ספציפי.",
       "cards": [
         {
+          "id": "palmach_permission_send",
+          "title_en": "📮 TO SEND — permission request to the Palmach archive for the 19 Theodor Herzl photographs",
+          "title_he": "📮 לשליחה — בקשת רשות מארכיון הפלמ״ח ל-19 תצלומי ״תיאודור הרצל״",
+          "summary_en": "Drafted 5 August 2026 in Hebrew and English, waiting on Doron because it needs his name, address and his own statement of the relationship. See docs/research/palmach_photo_permission_request_2026-08-05.md.\nThe photographs are items 46947–46965 in gallery \"פלי״ם ספינות המעפילים ב\" and carry \"all rights reserved to the Palmach Generation Association\", so they are not published here without an answer. The claim is unusually strong: non-commercial, and David and nine-year-old Shimon were on that ship — Shimon’s Atlit release certificate of 22 August 1947 proves it. The letter also asks the bigger question: does a PASSENGER LIST survive for the sailing of 2 April 1947? That document would name them, and would be worth more than the photographs.\nSend by 28 August 2026 — that is the birthday.",
+          "summary_he": "נוסח ב-5 באוגוסט 2026 בעברית ובאנגלית, וממתין לדורון משום שנדרשים שמו, כתובתו והצהרתו שלו על הקרבה המשפחתית. ראו docs/research/palmach_photo_permission_request_2026-08-05.md.\nהתצלומים הם פריטים 46947–46965 בגלריה ״פלי״ם ספינות המעפילים ב״, ועליהם ״כל הזכויות שמורות לעמותת דור הפלמ״ח״ — ולכן אינם מתפרסמים כאן ללא תשובה. הטענה חזקה במיוחד: שימוש לא־מסחרי, ודוד ושמעון בן התשע היו על האונייה הזאת — תעודת השחרור של שמעון מעתלית מ-22 באוגוסט 1947 מוכיחה זאת. המכתב שואל גם את השאלה הגדולה יותר: האם שרדה רשימת מעפילים של ההפלגה מ-2 באפריל 1947? מסמך כזה ינקוב בשמותיהם, והוא שווה יותר מן התצלומים.\nלשלוח עד 28 באוגוסט 2026 — זה יום ההולדת.",
+          "status": "action_item",
+          "urls": [
+            "https://palmach.org.il/contactus/form/",
+            "https://palmach.org.il/archive/galleries/gallerypage/?itemId=152510"
+          ]
+        },
+        {
           "id": "jdc_brussels_cyprus_lists",
           "title_en": "📂 TO SEARCH — the JDC Brussels 1946-47 and Cyprus camp lists",
           "title_he": "📂 לחפש — רשימות הג'וינט מבריסל 1946-47 וממחנות קפריסין",
