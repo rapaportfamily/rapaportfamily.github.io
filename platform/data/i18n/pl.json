@@ -33,7 +33,8 @@
     "group_open": "Wciąż otwarte",
     "journey": "Podróż",
     "story": "Historia",
-    "photographs": "Fotografie"
+    "photographs": "Fotografie",
+    "explore": "Szersze drzewo"
   },
   "ui": {
     "language": "Język",
@@ -278,5 +279,23 @@
     "processing_note": "Każda plansza to zgrubny druk rastrowy. Każdą oczyszczono z rastra i rozjaśniono cienie — niczego nie dodano.",
     "page_label": "Strona",
     "back_cover": "Tylna okładka"
+  },
+  "explore": {
+    "title": "Szersze drzewo",
+    "lead": "Badania Basi objęły 1442 osoby w 480 rodzinach, wstecz aż do Abrahama Abe Rapaporta, ur. 1784 w Tarnowie. Ta strona to całe tamto drzewo — ale otwiera się na Dovie i pozostaje przy nim, bo historia, którą opowiada to archiwum, to Dawid, Lusia, Szymon i Dov.",
+    "parents": "Rodzice",
+    "spouses": "Małżeństwo",
+    "children": "Dzieci",
+    "siblings": "Rodzeństwo",
+    "in_archive": "w archiwum",
+    "open_record": "Otwórz nasz zapis tej osoby →",
+    "is_family": "Jedna z czterech osób, o których jest to archiwum.",
+    "steps": "{n} kroków od Dawida, Lusi, Szymona i Dova.",
+    "unconnected": "Brak połączenia z czwórką.",
+    "back_to_family": "Powrót do Dova",
+    "search_ph": "Szukaj wśród 1442 osób…",
+    "no_hits": "Nikogo o tym nazwisku.",
+    "count": "{n} osób w szerszym drzewie",
+    "source": "Każda osoba na tej stronie pochodzi z pliku GEDCOM Basi z 5 sierpnia 2026."
   }
 }

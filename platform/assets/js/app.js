@@ -173,6 +173,7 @@ function router() {
     case 'chat': renderChat(root); break;
     case 'research': renderResearch(root, param); break;
     case 'photographs': renderPhotographs(root); break;
+    case 'explore': renderExplore(root, param); break;
     case 'about': renderAbout(root); break;
     default: renderHome(root);
   }
@@ -1187,6 +1188,160 @@ async function loadMemoirPhotos() {
       .then(r => r.json());
   }
   return _memoirCache;
+}
+
+// ----------------------------------------
+// EXPLORE — the wider tree, 1,442 people, walked one family at a time
+// ----------------------------------------
+// Basia's whole GEDCOM. Drawing 1,442 nodes at once would be a wall, so this
+// walks instead: one person in focus, their parents above, spouse beside,
+// children below, siblings in a row, and every branch showing how many people
+// hang off it before you open it. It always starts on Dov, and the "steps from
+// the family" figure keeps the four principals as the origin no matter how far
+// you wander — the point of the archive is their story, not the 1,442.
+let _extCache = null;
+async function loadExtended() {
+  if (!_extCache) {
+    _extCache = await fetch(`data/extended_tree.json?v=${Date.now()}`, { cache: 'no-store' })
+      .then(r => r.json());
+  }
+  return _extCache;
+}
+
+const ExploreState = { focus: null, search: '' };
+
+function exLabel(p) {
+  return [p.given, p.surname].filter(Boolean).join(' ').trim() || '—';
+}
+function exYears(p) {
+  const b = (p.birth || '').slice(0, 4), d = (p.death || '').slice(0, 4);
+  if (b && d) return `${b}–${d}`;
+  if (b) return `${b}–`;
+  if (d) return `–${d}`;
+  return '';
+}
+
+function renderExplore(root, param) {
+  root.innerHTML = `${pageHeader('explore.title', 'explore.lead')}
+    <div id="explore-body"><p class="muted">${escapeHtml(t('ui.loading'))}</p></div>`;
+
+  loadExtended().then(D => {
+    const P = D.people, F = D.families;
+    // open on Dov unless a person was asked for
+    const principals = Object.keys(D.focus.principals);
+    const dov = principals.find(id => D.focus.principals[id] === '1946-08-28') || principals[0];
+    ExploreState.focus = (param && P[param]) ? param : (ExploreState.focus && P[ExploreState.focus] ? ExploreState.focus : dov);
+    drawExplore(D);
+  }).catch(() => {
+    const b = document.getElementById('explore-body');
+    if (b) b.innerHTML = `<p class="muted">${escapeHtml(t('ui.error') || 'Could not load the wider tree.')}</p>`;
+  });
+}
+
+function drawExplore(D) {
+  const body = document.getElementById('explore-body');
+  if (!body) return;
+  const P = D.people, F = D.families;
+  const me = P[ExploreState.focus];
+  if (!me) { body.innerHTML = ''; return; }
+
+  // siblings: everyone sharing a parent, minus me
+  const sibs = [];
+  (me.parents || []).forEach(pid => {
+    ((P[pid] || {}).children || []).forEach(c => {
+      if (c !== me.id && !sibs.includes(c) && P[c]) sibs.push(c);
+    });
+  });
+
+  const card = (id, role) => {
+    const p = P[id];
+    if (!p) return '';
+    const core = p.core_id ? ' has-record' : '';
+    const steps = p.steps_from_family;
+    const kin = (p.parents || []).length + (p.children || []).length + (p.spouses || []).length;
+    return `
+      <button class="ex-node${core}" data-goto="${escapeHtml(id)}" title="${escapeHtml(exLabel(p))}">
+        <span class="ex-name">${escapeHtml(exLabel(p))}</span>
+        <span class="ex-years">${escapeHtml(exYears(p))}</span>
+        ${p.birth_place ? `<span class="ex-place">${escapeHtml(p.birth_place)}</span>` : ''}
+        <span class="ex-meta">${p.core_id ? `<span class="ex-badge">${escapeHtml(t('explore.in_archive'))}</span>` : ''}${kin ? `<span class="ex-kin">${kin}</span>` : ''}</span>
+      </button>`;
+  };
+
+  const group = (labelKey, ids) => !ids.length ? '' : `
+    <div class="ex-group">
+      <div class="ex-group-label">${escapeHtml(t(labelKey))} <span class="ex-count">${ids.length}</span></div>
+      <div class="ex-row">${ids.map(i => card(i)).join('')}</div>
+    </div>`;
+
+  const steps = me.steps_from_family;
+  const stepLine = steps === 0 ? t('explore.is_family')
+    : (steps == null ? t('explore.unconnected')
+       : t('explore.steps').replace('{n}', steps));
+
+  body.innerHTML = `
+    <div class="ex-controls">
+      <input class="chat-search" type="search" id="ex-search" autocomplete="off"
+             placeholder="${escapeHtml(t('explore.search_ph'))}" value="${escapeHtml(ExploreState.search)}" />
+      <button class="filter-btn" data-home="1">${escapeHtml(t('explore.back_to_family'))}</button>
+      <span class="tree-hint">${escapeHtml(t('explore.count').replace('{n}', D.counts.people))}</span>
+    </div>
+    <div id="ex-results" class="ex-results" hidden></div>
+
+    ${group('explore.parents', me.parents || [])}
+
+    <div class="ex-focus">
+      <div class="ex-focus-name">${escapeHtml(exLabel(me))}</div>
+      <div class="ex-focus-years">${escapeHtml(exYears(me))}${me.occupation ? ' · ' + escapeHtml(me.occupation) : ''}</div>
+      ${me.birth_place || me.death_place ? `<div class="ex-focus-place">${
+        [me.birth_place ? '★ ' + escapeHtml(me.birth_place) : '',
+         me.death_place ? '† ' + escapeHtml(me.death_place) : ''].filter(Boolean).join(' · ')}</div>` : ''}
+      <div class="ex-focus-steps">${escapeHtml(stepLine)}</div>
+      ${me.core_id ? `<button class="filter-btn ex-open-record" data-person="${escapeHtml(me.core_id)}">${escapeHtml(t('explore.open_record'))}</button>` : ''}
+    </div>
+
+    ${group('explore.spouses', me.spouses || [])}
+    ${group('explore.children', me.children || [])}
+    ${group('explore.siblings', sibs)}
+
+    <p class="ex-source">${escapeHtml(t('explore.source'))}</p>
+  `;
+
+  body.querySelectorAll('[data-goto]').forEach(el => el.addEventListener('click', () => {
+    ExploreState.focus = el.dataset.goto;
+    ExploreState.search = '';
+    drawExplore(D);
+    document.getElementById('explore-body').scrollIntoView({ block: 'start', behavior: 'smooth' });
+  }));
+  body.querySelectorAll('[data-person]').forEach(el => el.addEventListener('click', () =>
+    openPersonModal(el.dataset.person)));
+  const home = body.querySelector('[data-home]');
+  if (home) home.addEventListener('click', () => {
+    const principals = Object.keys(D.focus.principals);
+    ExploreState.focus = principals.find(id => D.focus.principals[id] === '1946-08-28') || principals[0];
+    drawExplore(D);
+  });
+
+  const box = document.getElementById('ex-search');
+  const results = document.getElementById('ex-results');
+  const runSearch = () => {
+    const q = foldText(box.value.trim());
+    ExploreState.search = box.value;
+    if (q.length < 2) { results.hidden = true; results.innerHTML = ''; return; }
+    const hits = Object.values(P)
+      .filter(p => foldText(exLabel(p)).includes(q))
+      .sort((a, b) => (a.steps_from_family ?? 99) - (b.steps_from_family ?? 99))
+      .slice(0, 40);
+    results.hidden = false;
+    results.innerHTML = hits.length
+      ? hits.map(p => card(p.id)).join('')
+      : `<p class="muted">${escapeHtml(t('explore.no_hits'))}</p>`;
+    results.querySelectorAll('[data-goto]').forEach(el => el.addEventListener('click', () => {
+      ExploreState.focus = el.dataset.goto; ExploreState.search = ''; drawExplore(D);
+    }));
+  };
+  box.addEventListener('input', runSearch);
+  if (ExploreState.search) runSearch();
 }
 
 function renderPhotographs(root) {

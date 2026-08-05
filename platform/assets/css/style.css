@@ -2161,3 +2161,62 @@ html[dir="rtl"] .detail-portrait { margin: 0 1.2rem 1rem 0; }
   line-height: 1.55;
   color: var(--ink-soft);
 }
+
+/* ── The wider tree ───────────────────────────────────────────────────
+   1,442 people cannot be drawn at once and stay legible, so this walks the
+   tree instead: one person in focus, their family around them, and a count
+   on every card saying how many relatives hang off it before you open it. */
+.ex-controls { display:flex; gap:.5rem; align-items:center; flex-wrap:wrap; margin-bottom:1rem; }
+.ex-controls .chat-search { flex:1 1 16rem; }
+.ex-results {
+  display:flex; flex-wrap:wrap; gap:.5rem; margin-bottom:1.2rem; padding:.8rem;
+  background:var(--paper-deep); border:1px solid var(--border); border-radius:var(--radius);
+  max-height:22rem; overflow-y:auto;
+}
+.ex-group { margin:.9rem 0; }
+.ex-group-label {
+  font-family:var(--font-mono); font-size:.68rem; text-transform:uppercase;
+  letter-spacing:.09em; color:var(--muted); margin-bottom:.4rem;
+}
+.ex-count {
+  display:inline-block; min-width:1.2em; padding:0 .35em; margin-inline-start:.3em;
+  background:var(--border); border-radius:999px; color:var(--ink-soft); font-size:.9em;
+}
+.ex-row { display:flex; flex-wrap:wrap; gap:.5rem; }
+.ex-node {
+  display:flex; flex-direction:column; align-items:flex-start; gap:.1rem;
+  min-width:9.5rem; max-width:15rem; padding:.5rem .7rem; text-align:start;
+  background:var(--paper-soft); border:1px solid var(--border);
+  border-radius:var(--radius); cursor:pointer; font-family:inherit;
+}
+.ex-node:hover { border-color:var(--accent); background:var(--paper); }
+.ex-node.has-record { border-inline-start:3px solid var(--wine); }
+.ex-name { font-family:var(--font-serif); font-size:.95rem; color:var(--ink); line-height:1.25; }
+.ex-years { font-family:var(--font-mono); font-size:.7rem; color:var(--muted); }
+.ex-place { font-size:.72rem; color:var(--ink-soft); }
+.ex-meta { display:flex; gap:.35rem; align-items:center; margin-top:.15rem; }
+.ex-badge {
+  font-family:var(--font-mono); font-size:.6rem; text-transform:uppercase; letter-spacing:.06em;
+  color:var(--wine); border:1px solid var(--wine); border-radius:3px; padding:0 .3em;
+}
+.ex-kin {
+  font-family:var(--font-mono); font-size:.62rem; color:var(--muted);
+  background:var(--paper-deep); border-radius:999px; padding:0 .4em;
+}
+/* the person currently in focus */
+.ex-focus {
+  margin:1rem 0; padding:1.1rem 1.3rem;
+  background:var(--accent-wash); border:1px solid var(--gold); border-radius:var(--radius);
+}
+.ex-focus-name { font-family:var(--font-serif); font-size:1.35rem; color:var(--ink); }
+.ex-focus-years { font-family:var(--font-mono); font-size:.8rem; color:var(--ink-soft); margin-top:.2rem; }
+.ex-focus-place { font-size:.85rem; color:var(--ink-soft); margin-top:.3rem; }
+.ex-focus-steps {
+  margin-top:.5rem; font-family:var(--font-serif); font-style:italic;
+  font-size:.9rem; color:var(--wine);
+}
+.ex-open-record { margin-top:.7rem; }
+.ex-source {
+  margin-top:2rem; padding-top:.9rem; border-top:1px solid var(--border);
+  font-size:.82rem; line-height:1.55; color:var(--muted);
+}

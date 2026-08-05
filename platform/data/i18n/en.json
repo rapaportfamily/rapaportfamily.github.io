@@ -33,7 +33,8 @@
     "group_open": "Still open",
     "journey": "The Journey",
     "story": "The Story",
-    "photographs": "Photographs"
+    "photographs": "Photographs",
+    "explore": "The wider tree"
   },
   "ui": {
     "language": "Language",
@@ -278,5 +279,23 @@
     "processing_note": "Every plate is a coarse halftone print. Each has been descreened and its shadows opened — nothing has been added to any of them.",
     "page_label": "Page",
     "back_cover": "Back cover"
+  },
+  "explore": {
+    "title": "The wider tree",
+    "lead": "Basia’s research reached 1,442 people across 480 families, back to Abraham Abe Rapaport, born 1784 at Tarnów. This page is that whole tree — but it opens on Dov and stays anchored to him, because the story this archive tells is David, Lusia, Shimon and Dov. Everything else stands behind them.",
+    "parents": "Parents",
+    "spouses": "Married",
+    "children": "Children",
+    "siblings": "Brothers and sisters",
+    "in_archive": "in the archive",
+    "open_record": "Open our record for this person →",
+    "is_family": "One of the four this archive is about.",
+    "steps": "{n} steps from David, Lusia, Shimon and Dov.",
+    "unconnected": "No path back to the four — an unattached branch of the file.",
+    "back_to_family": "Back to Dov",
+    "search_ph": "Search 1,442 people…",
+    "no_hits": "No one of that name.",
+    "count": "{n} people in the wider tree",
+    "source": "Every person on this page comes from Basia’s GEDCOM of 5 August 2026, exported from Ahnenblatt. Where a name is marked “in the archive”, this project has researched that person independently and the fuller record is ours."
   }
 }

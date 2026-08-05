@@ -33,7 +33,8 @@
     "group_open": "Encore ouvert",
     "journey": "Le voyage",
     "story": "L'Histoire",
-    "photographs": "Photographies"
+    "photographs": "Photographies",
+    "explore": "L’arbre élargi"
   },
   "ui": {
     "language": "Langue",
@@ -278,5 +279,23 @@
     "processing_note": "Chaque planche est une impression tramée grossière. Chacune a été détramée et ses ombres éclaircies — rien n’y a été ajouté.",
     "page_label": "Page",
     "back_cover": "Quatrième de couverture"
+  },
+  "explore": {
+    "title": "L’arbre élargi",
+    "lead": "Les recherches de Basia ont atteint 1 442 personnes réparties en 480 familles, jusqu’à Abraham Abe Rapaport, né en 1784 à Tarnów. Cette page est cet arbre entier — mais elle s’ouvre sur Dov et y reste ancrée, car l’histoire que raconte cette archive est celle de David, Lusia, Shimon et Dov.",
+    "parents": "Parents",
+    "spouses": "Mariage",
+    "children": "Enfants",
+    "siblings": "Frères et sœurs",
+    "in_archive": "dans l’archive",
+    "open_record": "Ouvrir notre fiche →",
+    "is_family": "L’une des quatre personnes dont parle cette archive.",
+    "steps": "{n} pas de David, Lusia, Shimon et Dov.",
+    "unconnected": "Aucun lien avec les quatre.",
+    "back_to_family": "Retour à Dov",
+    "search_ph": "Rechercher parmi 1 442 personnes…",
+    "no_hits": "Personne de ce nom.",
+    "count": "{n} personnes dans l’arbre élargi",
+    "source": "Chaque personne provient du GEDCOM de Basia du 5 août 2026."
   }
 }
