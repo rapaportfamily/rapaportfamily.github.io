@@ -1,6 +1,69 @@
 {
   "_readme": "Machine-readable film manifest for the Rapaport family archive. Generated from the data on 2026-08-03. Prose companions: docs/FILM_BRIEF.md (the rules) and docs/FILM_DOSSIER.md (the inventory). THE RULE: every claim here carries an evidence level and an explicit permission. A story about the Shoah that invents detail does harm, because the invented detail is what a denier points at afterwards. If you need something the evidence does not support, mark it openly as reconstruction.",
-  "generated": "2026-08-03",
+  "generated": "2026-08-05",
+  "start_here": {
+    "read_in_this_order": [
+      {
+        "step": 1,
+        "file": "platform/data/film_manifest.json",
+        "what": "THIS FILE. Every rule, every claim and every image with its evidence level and its permission. If you read nothing else, read hard_rules and known_gaps."
+      },
+      {
+        "step": 2,
+        "file": "platform/data/narrative.json",
+        "what": "THE SPINE. Nine chapters, 23 paragraphs, four languages, each paragraph carrying its sources and a kind: fact, conflict or testimony."
+      },
+      {
+        "step": 3,
+        "file": "docs/FILM_BRIEF.md",
+        "what": "The same rules in prose, for a human. Includes what may NOT be said."
+      },
+      {
+        "step": 4,
+        "file": "platform/data/memoir_photographs.json",
+        "what": "The fifteen plates printed in Lusia’s memoir — every photograph of the family that exists. Captions are the book’s own words."
+      },
+      {
+        "step": 5,
+        "file": "platform/data/events.json",
+        "what": "45 dated events, 31 of them now carrying a chosen image."
+      },
+      {
+        "step": 6,
+        "file": "platform/data/places.json",
+        "what": "81 photographs across 29 towns, each marked period or modern."
+      },
+      {
+        "step": 7,
+        "file": "platform/data/documents.json",
+        "what": "59 documents with the archive’s reading of each, in English and Hebrew."
+      },
+      {
+        "step": 8,
+        "file": "docs/FILM_DOSSIER.md",
+        "what": "Generated inventory of the whole archive. Reference, not reading."
+      }
+    ],
+    "where_the_files_live": {
+      "memoir_plates": "platform/assets/research_images/memoir/",
+      "period_and_place_photographs": "platform/assets/research_images/period/",
+      "research_card_images": "platform/assets/research_images/ and .../trip/",
+      "document_scans": "platform/assets/documents/",
+      "the_memoir_itself": "platform/assets/documents/lusia_memoir.pdf — 90 pages, and platform/data/memoir_pages.json for the transcribed text"
+    },
+    "the_website": {
+      "url": "https://rapaportfamily.github.io/",
+      "pages_worth_opening": [
+        "#/story — the narrative",
+        "#/photographs — the fifteen plates",
+        "#/timeline — 45 events with pictures",
+        "#/places — the towns",
+        "#/documents — the evidence",
+        "#/hypotheses — what is still open"
+      ]
+    },
+    "one_warning": "Do NOT use memoir_timeline_verified.json as verification. It is named misleadingly and carries a _warning at the top of the file explaining why."
+  },
   "subject": {
     "film_is_about": [
       "p_david",
@@ -9,7 +72,96 @@
       "p_dov_bernard"
     ],
     "occasion": "Dov Bernard Rapaport's 80th birthday, 28 August 2026",
-    "note": "Everyone else in the archive is material standing behind these four."
+    "spine": "David, Lusia, Shimon and Dov. Every other thread returns to these four.",
+    "but_it_is_not_only_them": [
+      "THE WIDER FAMILY AND ITS HISTORY. The paternal line is documented back six generations to Abraham Abe Rapaport, born 1784 at Tarnów, whose gravestone survives. Galicia, the timber and tannery trades, the rabbinical connections, and how a Jewish family of that region lived — and how many of its children did not reach two years old.",
+      "THE RESEARCH ITSELF, as a second narrative. This archive was built in three months of 2026 by a family and two researchers, and the discoveries are dated events in their own right. That thread has a shape: a wrong town on a document, a passport application that cracked a dead end, a chart that named a great-great-grandfather, a living cousin who had been looking for us.",
+      "THE OBJECTS THEMSELVES. Show the documents and the photographs on screen. They are catalogued here with their readings, their evidence levels and their file paths."
+    ],
+    "note": "Everyone else in the archive is material standing behind the four — but \"standing behind\" does not mean invisible. The research thread is what lets an audience feel how nearly all of this was lost."
+  },
+  "the_research_story": {
+    "what_this_is": "The making of the archive, 2026, as a narrative thread alongside the family story. Each of these is a dated event with sources in events.json.",
+    "discoveries": [
+      {
+        "date": "2026-05-04",
+        "title": "Family Tree research begins",
+        "description": "Magda connects Dalia, Dana, Doron and Daniel with Basia (Polish genealogist) over WhatsApp. The 'Family tree' group is created. The goal: trace David, Leah, and Shimon Rapaport's journey for Dov's 80th birthday in August.",
+        "image": null
+      },
+      {
+        "date": "2026-05-08",
+        "title": "Brussels DP card identified",
+        "description": "Basia finds a DIPIS Displaced Persons card for David Rapaport, born 25.12.1911, registered in B. on 9.04.1946, headed for Palestine or USA. The date of birth matches exactly. The card lists Cieszyn/Tesin as birthplace and parents Bernard and Regina née Grunfeld — which conflicts with family information.",
+        "image": "assets/research_images/period/cieszyn_przykopa_1930.jpg"
+      },
+      {
+        "date": "2026-05-15",
+        "title": "BREAKTHROUGH: David's birth record found in Nadwórna",
+        "description": "Ms. Kasia at the Jewish Historical Institute (ŻIH) in Warsaw finds David's birth certificate in Nadwórna. Confirms: parents Berisz Rapaport and Rebeka Griffel, daughter of Leizor Griffel and Sara née Chajes — merchants of Nadwórna. ALSO finds Rebeka's own birth certificate (1888 Nadwórna). The 'Cieszyn' on the DP card was a transcription error. Two new generations and the verified birthplace — all on one day.",
+        "image": "assets/research_images/period/nadworna_market_1928.jpg"
+      },
+      {
+        "date": "2026-05-21",
+        "title": "🗺️ Every Virtual Trip card now shows the address in Google Street View",
+        "description": "All 13 Virtual Trip cards now embed two side-by-side iframes: the OpenStreetMap location plus a Google Street View pegman view at the exact coordinates — labelled 'How it looks today'. No API key required. Click any card to see the place AS IT LOOKS RIGHT NOW.",
+        "image": null
+      },
+      {
+        "date": "2026-05-21",
+        "title": "👨‍👩‍👧‍👦 Attribution updated — Dalia, Dana, Doron and Daniel as equal partners",
+        "description": "All attribution language throughout the archive (events, people, places, documents, hypotheses, research center, multilingual UI strings) has been updated to credit Dalia (mother), Dana, Doron and Daniel Rapaport as equal partners in this birthday gift to Dov. Mother and three children — one family voice.",
+        "image": null
+      },
+      {
+        "date": "2026-05-21",
+        "title": "🏕️ Cyprus camp numbers DOCUMENTED — Karaolos 55/60/61/62/63 (summer tents) vs Dekhelia (winter huts)",
+        "description": "British internment camps in Cyprus were organised in two clusters: SUMMER tent camps numbered 55, 60, 61, 62, 63 at Caraolos/Karaolos north of Famagusta, and WINTER Nissen-hut camps at Dekhelia/Decauville near Larnaca (~50 km away). 53,510 Jews detained 1946-1949; ~2,200 children born in captivity. David's family was held ~8 months. JDC Archives only holds the Aug 1948 - Feb 1949 birth lists — for the family's roster look at Yad Vashem and USHMM databases.",
+        "image": "assets/research_images/trip/cyprus_caraolos_lead.jpg"
+      },
+      {
+        "date": "2026-05-21",
+        "title": "🚢 The Theodor Herzl ship VERIFIED — ex-HMS \"Guardian\", Newcastle 1907 (NOT Exodus 1947)",
+        "description": "The Aliyah Bet ship that carried David, Lusia, Shimon and infant Dov from Sète to Cyprus on 2 April 1947 was the ex-British cable-laying ship HMS/SS \"Guardian\" — built 1907 by Swan Hunter & Wigham Richardson in Newcastle, 1,768 tons, triple-expansion engine. Acquired by Mossad LeAliyah Bet in 1946 and refitted at Marseille. Distinct from the SS Exodus 1947 (ex-President Warfield), with which it is routinely conflated.",
+        "image": "assets/research_images/trip/theodor_herzl_ship_naval_corps.jpg"
+      },
+      {
+        "date": "2026-05-21",
+        "title": "🏠 Lusia's wartime apartment building IDENTIFIED — Prospekt Svobody 24, Lviv",
+        "description": "ulica Legionów 24 in 1942-1944 Lwów is today's Prospekt Svobody 24, Lviv: a four-storey Biedermeier stone kamienica built 1836-1837 by architect Johann Salzmann for F. Adamski. Polish national poet Wincenty Pol lived there 1856-1866. Lusia rented an upper-floor apartment as 'Maria Cizlik' while a German military base fired guns from across the central promenade. Current photo of the actual building now embedded in the Virtual Trip card.",
+        "image": "assets/research_images/trip/legionow24_svobody24_lviv.jpg"
+      },
+      {
+        "date": "2026-05-23",
+        "title": "Berisz’s 1924 passport application names his parents",
+        "description": "The paternal line had been a dead end even for Edward Gelles after twenty-five years. Basia found the passport file, and with it Moses Saul Rapaport and Menukha — and a photograph in which Dana saw a resemblance to her father.",
+        "image": null
+      },
+      {
+        "date": "2026-06-01",
+        "title": "Three Tarnów marriage deeds independently name the apical couple",
+        "description": "Read from the scans by Claude vision: the 1919, 1920 and 1923 marriages of three of Berisz’s sisters, each naming \"Moses and Menucha\" as their parents.",
+        "image": "assets/research_images/period/tarnow_new_synagogue_1920s.jpg"
+      },
+      {
+        "date": "2026-06-04",
+        "title": "A living cousin on the paternal side — and she wants to meet Dov",
+        "description": "Yehudit Shlomit, daughter of Zwi Ayalon Nussbaum and named after Freida, Berisz’s sister. She worked at Yad Vashem and had been looking for our branch for years — she once tried to reach Dov through a school essay Dana wrote at twelve. Dana spoke with her for an hour.",
+        "image": null
+      },
+      {
+        "date": "2026-06-10",
+        "title": "Jente survived — the 1941 list of Jews in Liège",
+        "description": "Her daughter Szewa appears on the 1941 census at 5 Place Delcour, and the 1946 Liège marriage record states that the bride’s mother, Jenta Rapaport, was living together with her daughter. A great-grand-aunt whose fate had been blank.",
+        "image": "assets/research_images/period/liege_1945.jpg"
+      },
+      {
+        "date": "2026-07-07",
+        "title": "Szabse Rapaport, rabbi of Dąbrowa Tarnowska",
+        "description": "Basia, from the Tarnów notarial records: \"they convinced me that Szabse was your ancestor.\" He served until 20 April 1884 — and it explains at last why Berisz’s passport registers the family commune as Dąbrowa, a town nobody could account for. The same evening, from a different direction entirely, Dana produced a record naming Schabse with Figa/Yete.",
+        "image": null
+      }
+    ]
   },
   "evidence_levels": {
     "confirmed": {
@@ -294,7 +446,7 @@
         },
         {
           "key": "1936_lwow",
-          "value": "Lived with relatives in Lwów, attended Carpathian forestry school filings",
+          "value": "In 1936 Lusia moved to Lwow to live with well-off relatives who owned a pharmacy. The purpose of the move was to learn a trade: she was enrolled at a professional dressmaking school, “Kleftinowa”, one of the prestigious schools in the city. Memoir p.15. This replaces an earlier garbled entry that read “attended Carpathian forestry school filings” — which the memoir does not say and which was not traceable to any source.",
           "evidence": "family_oral",
           "may_state_as_fact": false
         },
@@ -947,6 +1099,710 @@
       }
     ]
   },
+  "place_photographs": {
+    "rule": "is_period true = photographed in their lifetime and usable as period footage. is_period false = the place as it is today, or a map. NEVER cut a modern frame into a period sequence without marking it as now.",
+    "date_rule": "Every image carries \"when\", which is what the SOURCE states. \"date not stated\" means the archive holding it gives no date — do not supply one.",
+    "places": [
+      {
+        "place": "pl_nadworna",
+        "name": "Nadwórna (now Nadvirna, Ukraine)",
+        "period_images": [
+          {
+            "file": "assets/research_images/period/nadworna_station_1914.jpg",
+            "when": "1914-1918",
+            "caption": "Nadwórna railway station, photographed 1914-1918 by the Austro-Hungarian war press office.",
+            "credit": "k.u.k. Kriegspressequartier, Lichtbildstelle Wien / Bildarchiv Austria — public domain"
+          },
+          {
+            "file": "assets/research_images/period/nadworna_market_1928.jpg",
+            "when": "1928",
+            "caption": "Nadwórna, the market square, 1928 — David was sixteen. Photograph by L. and M. Heller.",
+            "credit": "Photo L. and M. Heller, via Center for Urban History, Lviv — public domain"
+          },
+          {
+            "file": "assets/research_images/period/nadworna_centre_1932.jpg",
+            "when": "1932",
+            "caption": "Nadwórna, the town centre, 1932 — the streets David knew as a young man.",
+            "credit": "Photo L. and M. Heller, via Center for Urban History, Lviv — public domain"
+          },
+          {
+            "file": "assets/research_images/period/nadworna_hospital_1937.jpg",
+            "when": "published 1937",
+            "caption": "The hospital in Nadwórna, published 1937 in the journal \"Wschód\".",
+            "credit": "\"Wschód\" 58/1937, Jagiellonian Digital Library — public domain"
+          }
+        ],
+        "today_images": [
+          {
+            "file": "assets/research_images/nadworna_town_hall.jpg",
+            "when": "date not stated",
+            "caption": "Nadwórna — the historic Town Hall on Hetman Mazepa Street.",
+            "credit": "Wikipedia Commons"
+          },
+          {
+            "file": "assets/research_images/nadworna_hotel.jpg",
+            "when": "date not stated",
+            "caption": "Nadwórna — historic hotel building.",
+            "credit": "Wikipedia Commons"
+          },
+          {
+            "file": "assets/research_images/trip/nadwirna_lead.jpg",
+            "when": "today",
+            "caption": "Nadvirna (Nadwórna) today — David Memek's birthplace.",
+            "credit": "Wikipedia Commons (CC-BY-SA)"
+          }
+        ]
+      },
+      {
+        "place": "pl_bolechow",
+        "name": "Bolechów (now Bolekhiv, Ukraine)",
+        "period_images": [
+          {
+            "file": "assets/research_images/bolechow_1914_map.jpg",
+            "when": "1914 (map)",
+            "caption": "Bolechów town map, 1914.",
+            "credit": "New York Public Library / JGB"
+          },
+          {
+            "file": "assets/research_images/period/bolechow_1915.jpg",
+            "when": "1915",
+            "caption": "Bolechów, 1915 — Lusia’s town, photographed when she was an infant. Austro-Hungarian war photograph.",
+            "credit": "k.u.k. Kriegspressequartier, Lichtbildstelle Wien / Bildarchiv Austria — public domain"
+          },
+          {
+            "file": "assets/research_images/bolechow_23-Rynek-North1.jpg",
+            "when": "pre-war",
+            "caption": "Bolechów market square (Rynek), northern side.",
+            "credit": "JGB"
+          }
+        ],
+        "today_images": [
+          {
+            "file": "assets/research_images/bolechow_great_synagogue.jpg",
+            "when": "2009",
+            "caption": "The Great Synagogue of Bolechów — northern side.",
+            "credit": "Jewish Galicia & Bukovina (Vladimir Levin, 2009)"
+          },
+          {
+            "file": "assets/research_images/bolechow_32-Halickaya1-tarbut.jpg",
+            "when": "date not stated",
+            "caption": "Tarbut Hebrew school on Halicka Street (formerly Kościuszko Street), Bolechów. The same building housed the Beth Yakov girls' religious school. Per family stories: where Dana, Doron and Daniel's maternal grandmother (Dalia's mother) ESTER GOLDFISCHER and Lusia's older sister FEIGE (Tzipora) WEITZNER studied together in the late 1920s / early 1930s — connecting both halves of the family decades before Dov and Dalia ever met.",
+            "credit": "JGB"
+          },
+          {
+            "file": "assets/research_images/bolechow_33-Halickaya-Strashman.jpg",
+            "when": "date not stated",
+            "caption": "Bolechów, 33 Halickaya street — Strashman family residence, contextual reference for Bolechów Jewish naming records.",
+            "credit": "Family archive"
+          },
+          {
+            "file": "assets/research_images/bolechow_37-forest-lyc.jpg",
+            "when": "date not stated",
+            "caption": "Bolechów Forestry Lyceum.",
+            "credit": "JGB"
+          },
+          {
+            "file": "assets/research_images/bolechow_39-School.jpg",
+            "when": "date not stated",
+            "caption": "Bolechów Jewish school building.",
+            "credit": "JGB"
+          },
+          {
+            "file": "assets/research_images/trip/bolechow_town_hall_alt.jpg",
+            "when": "date not stated",
+            "caption": "Bolechów Town Hall.",
+            "credit": "Wikipedia Commons"
+          },
+          {
+            "file": "assets/research_images/trip/bolechow_greek_catholic_church.jpg",
+            "when": "date not stated",
+            "caption": "Bolechów Greek Catholic Church.",
+            "credit": "Wikipedia Commons"
+          },
+          {
+            "file": "assets/research_images/trip/bolekhiv_lead.jpg",
+            "when": "today",
+            "caption": "Bolekhiv (Bolechów) today — Lusia's birthplace.",
+            "credit": "Wikipedia Commons"
+          }
+        ]
+      },
+      {
+        "place": "pl_dolina",
+        "name": "Dolina (now Dolyna, Ukraine)",
+        "period_images": [
+          {
+            "file": "assets/research_images/period/dolina_1904.jpg",
+            "when": "1904",
+            "caption": "Dolina in 1904, photographed by Kazimierz Mokłowski. Elias Weitzner and Matel Weinreb — Lusia’s parents — married in this town the following year.",
+            "credit": "Kazimierz Mokłowski, via Wikimedia Commons — public domain"
+          }
+        ],
+        "today_images": []
+      },
+      {
+        "place": "pl_lwow",
+        "name": "Lwów / Lviv / Lemberg",
+        "period_images": [
+          {
+            "file": "assets/research_images/period/lwow_legionow_1941.jpg",
+            "when": "1941",
+            "caption": "Legionów Street, Lwów, in 1941 — “Вулиця Легіонів (тепер проспект Свободи) у Львові у 1941 р”. This is Lusia’s street, photographed the year before she moved onto it. She lived at number 24 from 1942 to 1944, on the Aryan side, as “Maria Cizlik”.",
+            "credit": "Private collection, via Wikimedia Commons — public domain"
+          },
+          {
+            "file": "assets/research_images/period/lwow_opera_occupation.jpg",
+            "when": "1941-1944",
+            "caption": "The Lviv Opera during the German occupation, 1941-1944 — at the head of Lusia’s street, a few hundred metres from her door. The Germans ran it as the “Operntheater Lemberg”.",
+            "credit": "Private collection, via Wikimedia Commons — public domain"
+          },
+          {
+            "file": "assets/research_images/period/lwow_jewish_quarter.jpg",
+            "when": "1942-1945",
+            "caption": "Lwów from the town hall, 1942-1945: the Jewish quarter destroyed, the synagogues gone — only the roofless Meforshei ha-Yam synagogue still standing. This is the city David and Lusia were hiding in.",
+            "credit": "Polish State Archives (szukajwarchiwach.gov.pl) — public domain"
+          },
+          {
+            "file": "assets/research_images/period/lwow_legionow_1921.jpg",
+            "when": "24 October 1921",
+            "caption": "Legionów Street, Lwów, 24 October 1921 — described by the archive as the Jewish business centre of the city, with orthodox Jews visible in the frame. Twenty years before the street in the photograph beside this one.",
+            "credit": "Archival photograph, via Wikimedia Commons — public domain"
+          },
+          {
+            "file": "assets/research_images/period/lwow_kopernyka_svobody_1941.jpg",
+            "when": "July 1941",
+            "caption": "The corner of Kopernyka and Legionów (now Svobody), Lwów, July 1941. Two family threads meet on this corner: Lusia’s wartime address was down this street, and the Griffel timber company had its office at Kopernika 5.",
+            "credit": "Private collection, via Wikimedia Commons — public domain"
+          },
+          {
+            "file": "assets/research_images/period/lwow_legionow_1918.jpg",
+            "when": "between 1918 and 1919",
+            "caption": "Legionów Street, Lwów, 1918-1919. Held by the Museum of Photography in Kraków.",
+            "credit": "Muzeum Fotografii w Krakowie — public domain"
+          }
+        ],
+        "today_images": [
+          {
+            "file": "assets/research_images/trip/legionow24_svobody24_lviv.jpg",
+            "when": "today",
+            "caption": "🏠 THE BUILDING ITSELF — Prospekt Svobody 24, Lviv (formerly Legionów 24). The four-storey Biedermeier stone kamienica, built 1836-1837 by Johann Salzmann for F. Adamski. This is Lusia's wartime apartment building, where she lived 1942-1944 as 'Maria Cizlik' on the Aryan side. Polish poet Wincenty Pol lived here 1856-1866.",
+            "credit": "Wikimedia Commons (CC BY 3.0)"
+          },
+          {
+            "file": "assets/research_images/trip/lviv_opera_lead.jpg",
+            "when": "today",
+            "caption": "The Lviv Opera House (Lviv Theatre of Opera and Ballet, Svobody 28) — DIRECTLY UP THE STREET from Lusia's apartment at Legionów 24. During the Nazi occupation 1941-44 the Opera served as 'Operntheater Lemberg', Wehrmacht entertainment HQ.",
+            "credit": "Wikipedia Commons (CC-BY-SA)"
+          },
+          {
+            "file": "assets/research_images/trip/lviv_rynek_square_lead.jpg",
+            "when": "today",
+            "caption": "Lviv Rynek Square (Площа Ринок) — the UNESCO-listed medieval merchant square. Lusia worked as manager of an art-objects shop in this commercial complex during 1943-1944.",
+            "credit": "Wikipedia Commons (CC-BY-SA)"
+          }
+        ]
+      },
+      {
+        "place": "pl_przemysl",
+        "name": "Przemyśl",
+        "period_images": [
+          {
+            "file": "assets/research_images/period/przemysl_san_1938.jpg",
+            "when": "1938",
+            "caption": "The San at Przemyśl, photographed in 1938 by Adam Lenkiewicz. A year later this river was the German-Soviet demarcation line, cutting the town in two: Lusia was on the Soviet side.",
+            "credit": "Adam Lenkiewicz / Polona, National Library of Poland — public domain"
+          },
+          {
+            "file": "assets/research_images/period/przemysl_jagiellonska_ruins.jpg",
+            "when": "1941-1945",
+            "caption": "Jagiellońska Street, Przemyśl, 1941-45 — the destroyed Tempel synagogue is the last building on the left. This is the town Lusia had lived in at the start of the war, photographed after the Germans took the eastern bank.",
+            "credit": "Narodowe Archiwum Cyfrowe — public domain"
+          },
+          {
+            "file": "assets/research_images/period/przemysl_old_synagogue_1940.jpg",
+            "when": "about 1940",
+            "caption": "The Old Synagogue in Przemyśl, about 1940 — already destroyed by the Germans. Lusia was in Przemyśl in 1939-40, working under the Soviet administration on the eastern side of the San. From the Polish record \"Martyrdom, Struggle and Extermination of the Jews in Poland 1939-1945\".",
+            "credit": "\"Męczeństwo, walka, zagłada Żydów w Polsce 1939-1945\" — public domain"
+          }
+        ],
+        "today_images": []
+      },
+      {
+        "place": "pl_brussels",
+        "name": "Brussels (Bruxelles)",
+        "period_images": [
+          {
+            "file": "assets/research_images/period/belgium_dp_centre_1945.jpg",
+            "when": "6 March 1945",
+            "caption": "A displaced persons centre in Belgium, 6 March 1945 — liberated forced labourers waiting to be assigned beds in a new billet. Photographed by the US Army Signal Corps; the location is a Belgian city, not Brussels itself. This is the machinery David passed through: he was registered as a Displaced Person in Brussels thirteen months later. Not our family.",
+            "credit": "U.S. Army Signal Corps / U.S. National Archives — public domain"
+          },
+          {
+            "file": "assets/research_images/period/brussels_liberated_prisoner_1945.jpg",
+            "when": "April 1945",
+            "caption": "Brussels, April 1945: a liberated French political prisoner. This is the city as David reached it — Brussels in 1945-46 was full of people coming out of camps and hiding, and he was registered there as a Displaced Person on 9 April 1946. Not our family. Photographer unknown, Anefo.",
+            "credit": "Anefo / Nationaal Archief, Netherlands — CC0"
+          }
+        ],
+        "today_images": [
+          {
+            "file": "assets/research_images/trip/brussels_grand_place_lead.jpg",
+            "when": "today",
+            "caption": "Brussels Grand-Place — central Brussels square. David, Lusia and Shimon transited Brussels in April 1946; their son Dov 'Bernard' (Dana, Doron and Daniel's father) was born here later that year.",
+            "credit": "Wikipedia Commons (CC-BY-SA)"
+          }
+        ]
+      },
+      {
+        "place": "pl_katowice",
+        "name": "Katowice",
+        "period_images": [
+          {
+            "file": "assets/research_images/period/katowice_market_poddebski.jpg",
+            "when": "1929-1939",
+            "caption": "The market square at Katowice between the wars, photographed by Henryk Poddębski. Lusia and Shimon filed their survivor cards at the Katowice committee on 1 July 1946.",
+            "credit": "Henryk Poddębski, via Wikimedia Commons — public domain"
+          },
+          {
+            "file": "assets/research_images/period/katowice_survivors_1946.jpg",
+            "when": "1946",
+            "caption": "Survivors in Katowice, 1946 — the town where Lusia and Shimon registered as survivors on 1 July 1946, cards 151738 and 151337. Not our family: this is who else was there, in the same year, doing the same thing.",
+            "credit": "Katowice Yizkor book, via JewishGen — public domain"
+          },
+          {
+            "file": "assets/research_images/period/katowice_dror_1946.jpg",
+            "when": "1946",
+            "caption": "Members of a Dror youth-movement kibbutz in Katowice in 1946 — survivors gathering themselves into groups in the town where, on 1 July that year, Lusia and Shimon filed their survivor cards with the Jewish committee.",
+            "credit": "Ghetto Fighters House Archives, via Wikimedia Commons — public domain"
+          }
+        ],
+        "today_images": []
+      },
+      {
+        "place": "pl_krynica",
+        "name": "Krynica-Zdrój",
+        "period_images": [
+          {
+            "file": "assets/research_images/period/krynica_pijalnia.jpg",
+            "when": "between the wars",
+            "caption": "Krynica, the pump room, photographed by Henryk Poddębski between the wars. Menukha was recorded at Krynica in 1904, and Regina registered at Alfredówka there in 1912.",
+            "credit": "Henryk Poddębski / Narodowe Archiwum Cyfrowe — public domain"
+          }
+        ],
+        "today_images": []
+      },
+      {
+        "place": "pl_cieszyn",
+        "name": "Cieszyn (CZ: Český Těšín / DE: Teschen)",
+        "period_images": [
+          {
+            "file": "assets/research_images/period/cieszyn_przykopa_1930.jpg",
+            "when": "circa 1930",
+            "caption": "Cieszyn, ulica Przykopa, about 1930. This town has no connection to the family at all — it is here because a clerk in Brussels wrote “Cieszyn” as David’s birthplace on his 1946 Displaced Persons card. He was born at Nadwórna, four hundred kilometres away.",
+            "credit": "via Wikimedia Commons — public domain"
+          }
+        ],
+        "today_images": []
+      },
+      {
+        "place": "pl_morszyn",
+        "name": "Morszyn (now Morshyn, Ukraine)",
+        "period_images": [
+          {
+            "file": "assets/research_images/period/morszyn_1937.jpg",
+            "when": "published 1937",
+            "caption": "Morszyn-Zdrój, published 1937 — a spa town near Stryj, and one of the candidates put forward for the “Mosina” of the memoir. Not settled.",
+            "credit": "via Wikimedia Commons — public domain"
+          }
+        ],
+        "today_images": []
+      },
+      {
+        "place": "pl_muszyna",
+        "name": "Muszyna",
+        "period_images": [
+          {
+            "file": "assets/research_images/period/muszyna_villa_1925.jpg",
+            "when": "1925-1930",
+            "caption": "Muszyna, the Szwarc villa below the castle hill — postcard, 1925-1930.",
+            "credit": "National Library of Poland (Polona) — public domain"
+          },
+          {
+            "file": "assets/research_images/period/muszyna_poprad_1935.jpg",
+            "when": "1935-1944",
+            "caption": "Muszyna, the view from the castle hill over the river Poprad — a postcard printed between 1935 and 1944, the Muszyna years of the memoir.",
+            "credit": "National Library of Poland (Polona) — public domain"
+          }
+        ],
+        "today_images": [
+          {
+            "file": "assets/research_images/trip/muszyna_town_hall_market.jpg",
+            "when": "date not stated",
+            "caption": "Muszyna Town Hall on the Market Square. The Reich family hotel was on the Rynek.",
+            "credit": "Wikipedia Commons"
+          },
+          {
+            "file": "assets/research_images/trip/muszyna_panorama.jpg",
+            "when": "date not stated",
+            "caption": "Panorama of Muszyna in the Beskid mountains.",
+            "credit": "Wikipedia Commons"
+          },
+          {
+            "file": "assets/research_images/trip/muszyna_mineral_springs_pijalnia.jpg",
+            "when": "date not stated",
+            "caption": "Pijalnia Anna — Muszyna's mineral water pavilion.",
+            "credit": "Wikipedia Commons"
+          },
+          {
+            "file": "assets/research_images/trip/muszyna_promenade.jpg",
+            "when": "date not stated",
+            "caption": "Promenades + sidewalks in Muszyna, with Muszyna Castle background.",
+            "credit": "Wikipedia Commons"
+          }
+        ]
+      },
+      {
+        "place": "pl_mosina_greater_poland",
+        "name": "Mosina (near Poznań)",
+        "period_images": [
+          {
+            "file": "assets/research_images/period/mosina_marktplatz.jpg",
+            "when": "1906-1930",
+            "caption": "The market square at Mosina near Poznań, with the Hotel Silberstein — the only Mosina in the 1933 index of Polish place names. It was checked and ELIMINATED: its Jewish population had fallen to zero by the 1930s, its two sawmills belonged to Władysław Litke and Władysław Urbaniak, and its 1911 birth records do not contain David Rapaport.",
+            "credit": "via Wikimedia Commons — public domain"
+          }
+        ],
+        "today_images": []
+      },
+      {
+        "place": "pl_new_york",
+        "name": "New York City",
+        "period_images": [],
+        "today_images": [
+          {
+            "file": "assets/research_images/trip/staten_island_baron_hirsch.jpg",
+            "when": "today",
+            "caption": "Baron Hirsch Cemetery, Staten Island NY — where Zygmunt Griffel (1897-1951) is buried in the Nadworner Young Men's Benevolent Association plot, Section I Gate 51.",
+            "credit": "Wikipedia Commons (CC-BY-SA)"
+          }
+        ]
+      },
+      {
+        "place": "pl_mallorca",
+        "name": "Mallorca (Palma de Mallorca)",
+        "period_images": [],
+        "today_images": [
+          {
+            "file": "assets/research_images/trip/mallorca_lead.jpg",
+            "when": "today",
+            "caption": "Palma, Mallorca — where Dr Vidal Rapapa practiced medicine in 1305, the earliest documented Rapaport ancestor.",
+            "credit": "Wikipedia Commons (CC-BY-SA)"
+          }
+        ]
+      },
+      {
+        "place": "pl_portobuffole",
+        "name": "Portobuffolè, Italy",
+        "period_images": [],
+        "today_images": [
+          {
+            "file": "assets/research_images/trip/portobuffole_lead.jpg",
+            "when": "today",
+            "caption": "Portobuffolè, Italy — the small Treviso-province town whose name was added to 'Rapa' to create the surname 'Rapa-Porto' c. 1550.",
+            "credit": "Wikipedia Commons (CC-BY-SA)"
+          }
+        ]
+      },
+      {
+        "place": "pl_verona",
+        "name": "Verona, Italy",
+        "period_images": [],
+        "today_images": [
+          {
+            "file": "assets/research_images/trip/verona_lead.jpg",
+            "when": "today",
+            "caption": "Verona, Italy — where R. Avraham Menachem ha-Kohen Rapa-Porto published 'Mincha Belulah' (1594) bearing the raven+priestly-blessing family emblem.",
+            "credit": "Wikipedia Commons (CC-BY-SA)"
+          }
+        ]
+      },
+      {
+        "place": "pl_padua",
+        "name": "Padua, Italy",
+        "period_images": [],
+        "today_images": [
+          {
+            "file": "assets/research_images/trip/padua_lead.jpg",
+            "when": "today",
+            "caption": "Padua, Italy — seat of R. Meir Katzenellenbogen 'MaHaRaM Padua' (1482-1565), Chief Rabbi of Padua, three generations before Saul Wahl.",
+            "credit": "Wikipedia Commons (CC-BY-SA)"
+          }
+        ]
+      },
+      {
+        "place": "pl_tarnobrzeg",
+        "name": "Tarnobrzeg, Poland",
+        "period_images": [],
+        "today_images": [
+          {
+            "file": "assets/research_images/trip/tarnobrzeg_lead.jpg",
+            "when": "today",
+            "caption": "Tarnobrzeg, Poland — Galician town of the Wahl family that produced Chawa Wahl (1877-1941), gg-grandmother of Dana, Doron and Daniel Rapaport (via Rebeka Griffel → David → Dov).",
+            "credit": "Wikipedia Commons (CC-BY-SA)"
+          }
+        ]
+      },
+      {
+        "place": "pl_stanislawow",
+        "name": "Stanisławów (now Ivano-Frankivsk)",
+        "period_images": [
+          {
+            "file": "assets/research_images/period/stanislawow_koszciuszki_1930.jpg",
+            "when": "1930",
+            "caption": "Stanisławów in 1930, seen from ulica Kościuszki, with the Great Synagogue in the foreground. Berisz Rapaport gave his address on his 1924 passport application as Kościuszki 4 — this photograph looks down his own street.",
+            "credit": "via Wikimedia Commons — public domain"
+          },
+          {
+            "file": "assets/research_images/period/stanislawow_park_1930s.jpg",
+            "when": "1930s",
+            "caption": "The town park at Stanisławów in the 1930s. The family lived in this town from 1918.",
+            "credit": "via Wikimedia Commons — public domain"
+          }
+        ],
+        "today_images": []
+      },
+      {
+        "place": "pl_tarnow",
+        "name": "Tarnów, Poland",
+        "period_images": [
+          {
+            "file": "assets/research_images/period/tarnow_new_synagogue_1920s.jpg",
+            "when": "1920s",
+            "caption": "The New Synagogue in Tarnów in the 1920s. Three of Berisz’s sisters married in this town — in 1919, 1920 and 1923 — and all three marriage registers name the same parents, Moses Rapaport and Menucha.",
+            "credit": "via Wikimedia Commons — public domain"
+          },
+          {
+            "file": "assets/research_images/period/tarnow_synagogue_destroyed.jpg",
+            "when": "1939-1943",
+            "caption": "The same synagogue in Tarnów during the war. The Germans burned it in November 1939; only the bimah still stands in the town today.",
+            "credit": "via Wikimedia Commons — public domain"
+          },
+          {
+            "file": "assets/research_images/period/tarnow_bem_mausoleum.jpg",
+            "when": "between the wars",
+            "caption": "Tarnów between the wars — the Bem mausoleum. Three of Berisz’s sisters married in this town, and their marriage deeds named the family’s apical couple.",
+            "credit": "Koncern IKC / Narodowe Archiwum Cyfrowe, sygn. 1-U-6252 — public domain"
+          }
+        ],
+        "today_images": []
+      },
+      {
+        "place": "pl_skole",
+        "name": "Skole (now Skole, Ukraine)",
+        "period_images": [],
+        "today_images": [
+          {
+            "file": "assets/research_images/trip/stryj_lead.jpg",
+            "when": "today",
+            "caption": "Stryj — regional centre near Skole, the birthplace of Shlomo Goldfischer (1909). Same Carpathian-foothills world as Bolechów + Nadwórna.",
+            "credit": "Wikipedia Commons"
+          }
+        ]
+      },
+      {
+        "place": "pl_sete",
+        "name": "Sète, France",
+        "period_images": [
+          {
+            "file": "assets/research_images/period/sete_port_1912.jpg",
+            "when": "1912",
+            "caption": "The port of Sète, photographed in 1912 by the Agence Rol. This is the harbour David and Shimon sailed from on 2 April 1947 aboard the Theodor Herzl, with 2,641 ma’apilim gathered from camps across France and Belgium — but the picture is thirty-five years earlier, and is here to show the place, not the day.",
+            "credit": "Agence Rol / Bibliothèque nationale de France — public domain"
+          },
+          {
+            "file": "assets/research_images/trip/theodor_herzl_haifa_1947.png",
+            "when": "April 1947",
+            "caption": "The Aliyah Bet ship Theodor Herzl in Haifa, April 1947 — black-stained 'NEVER DIE!' banner painted by the ma'apilim after the British boarding that killed three.",
+            "credit": "Public domain — pre-1948 photograph"
+          }
+        ],
+        "today_images": [
+          {
+            "file": "assets/research_images/trip/theodor_herzl_ship_naval_corps.jpg",
+            "when": "date not stated",
+            "caption": "Side-view of the Theodor Herzl from naval records — built 1907 in Newcastle as the cable ship HMS Guardian, 1,768 tons.",
+            "credit": "Public domain — naval-corps archive"
+          },
+          {
+            "file": "assets/research_images/trip/sete_lead.jpg",
+            "when": "today",
+            "caption": "The French port of Sète — where the Theodor Herzl sailed from on 2 April 1947 with 2,641 Ma'apilim including David, Lusia, Shimon and infant Dov.",
+            "credit": "Wikipedia Commons (CC-BY-SA)"
+          }
+        ]
+      },
+      {
+        "place": "pl_cyprus_karaolos",
+        "name": "Karaolos / Caraolos, Cyprus",
+        "period_images": [
+          {
+            "file": "assets/research_images/period/famagusta_1945.jpg",
+            "when": "1945",
+            "caption": "Famagusta, 1945 — the town beside which the British internment camps stood. David and Shimon were held at Karaolos, just north of here, in 1947.",
+            "credit": "G. Eric and Edith Matson Collection, Library of Congress — public domain"
+          },
+          {
+            "file": "assets/research_images/period/cyprus_deportation_empire_rival.jpg",
+            "when": "date not stated by the archive",
+            "caption": "The Imperial War Museum describes this as Jewish immigrants aboard the troopship Empire Rival, waiting for the landing craft that will take them to a camp at Caraolos, Cyprus — the deportation that was done to David and Shimon in 1947. The IWM catalogue gives a range and not a date, so the year of this particular frame is unknown.",
+            "credit": "No 1 Army Film & Photographic Unit / Imperial War Museum E32025 — public domain"
+          }
+        ],
+        "today_images": [
+          {
+            "file": "assets/research_images/trip/cyprus_caraolos_lead.jpg",
+            "when": "map",
+            "caption": "Cyprus internment camps map — held 53,510 Jews from 1946-1949. The Rapaport family was at Karaolos (near Famagusta) ~8 months.",
+            "credit": "Wikipedia Commons"
+          }
+        ]
+      },
+      {
+        "place": "pl_atlit",
+        "name": "Atlit, British Mandate Palestine",
+        "period_images": [
+          {
+            "file": "assets/research_images/period/atlit_children_1945.jpg",
+            "when": "15 October 1945",
+            "caption": "Children who survived the Holocaust getting down from the train at the Atlit reception camp, 15 July 1945. Shimon was released from Atlit in 1948, at ten, after about a year behind wire in Cyprus — the memoir calls Atlit \"the corridor to freedom\". This photograph is from three years earlier and he is not in it. Photograph by Zoltan Kluger.",
+            "credit": "Zoltan Kluger / National Photo Collection of Israel — public domain"
+          },
+          {
+            "file": "assets/research_images/period/atlit_ration_card_1947.jpg",
+            "when": "1947",
+            "caption": "A meal-ration card from the Atlit detention camp, 1947 — issued by the Government of the British Mandate. Shimon was released from Atlit on 22 August 1947, and his release certificate is printed in his mother’s memoir.",
+            "credit": "Government of the British Mandate for Palestine, via Wikimedia Commons — public domain"
+          }
+        ],
+        "today_images": [
+          {
+            "file": "assets/research_images/trip/atlit_lead.jpg",
+            "when": "today",
+            "caption": "Atlit detainee camp, British Mandate Palestine — where Shimon Rapaport was held (per memoir p.65 his release document came from Atlit).",
+            "credit": "Wikipedia Commons (CC-BY-SA)"
+          }
+        ]
+      },
+      {
+        "place": "pl_haifa",
+        "name": "Haifa, Israel",
+        "period_images": [
+          {
+            "file": "assets/research_images/period/haifa_watching_intercepted_1946.jpg",
+            "when": "17 April 1946",
+            "caption": "Haifa port, 17 April 1946: relatives and friends on the quay watching the immigrant ships \"Fede\", \"Fenice\" and \"Dov Hoz\" after the Royal Navy intercepted them. Almost exactly a year later, on 13 April 1947, the Theodor Herzl was boarded the same way with David and nine-year-old Shimon aboard, and its passengers were deported to Cyprus. Photograph by Hans Pinn.",
+            "credit": "Hans Pinn / National Photo Collection of Israel — public domain"
+          },
+          {
+            "file": "assets/research_images/period/haifa_refugees_aboard_1946.jpg",
+            "when": "1946",
+            "caption": "Holocaust survivors aboard the immigrant ships \"Dov Hoz\" and \"Eliyahu Golomb\" arriving at Haifa port, 19 July 1946. Lusia reached this harbour with the infant Dov on the Kadima in 1948, after waiting more than a year alone in Brussels. Photograph by Zoltan Kluger.",
+            "credit": "Zoltan Kluger / National Photo Collection of Israel — public domain"
+          },
+          {
+            "file": "assets/research_images/period/haifa_1947_kluger.jpg",
+            "when": "1947",
+            "caption": "Haifa in 1947, photographed by Zoltan Kluger. This is the city as David and Shimon reached it, and as Lusia and Dov would reach it the following year.",
+            "credit": "Zoltan Kluger / Israel Preker via PikiWiki Israel — public domain"
+          },
+          {
+            "file": "assets/research_images/period/haifa_quay_reunion_1948.jpg",
+            "when": "1948",
+            "caption": "A reunion on the quay at Haifa harbour, 1948 — new arrivals meeting the relatives who had come to wait for them. The Dutch archive names these particular people: olim from Bulgaria, just off the transport ship Bulgaria. They are not our family. But this is the same quay in the same year, and it is the act itself: Lusia and Dov came ashore at Haifa in 1948 to a husband and a son she had not seen in more than a year.",
+            "credit": "Fotocollectie Van de Poll / Nationaal Archief, Bestanddeelnr 255-1151 — CC0"
+          },
+          {
+            "file": "assets/research_images/period/haifa_port_1947.jpg",
+            "when": "October 1947",
+            "caption": "The Haganah ship \"Jewish State\" at Haifa port, October 1947 — six months after the Theodor Herzl, carrying David and Shimon, was boarded and turned back to Cyprus.",
+            "credit": "Wikimedia Commons — public domain"
+          }
+        ],
+        "today_images": [
+          {
+            "file": "assets/research_images/trip/mount_carmel_lead.jpg",
+            "when": "today",
+            "caption": "Mount Carmel, Haifa — David and Lusia's apartment at Moriah Street 93 sat on this ridge. Bought with German Wiedergutmachung reparations.",
+            "credit": "Wikipedia Commons (CC-BY-SA)"
+          },
+          {
+            "file": "assets/research_images/trip/haifa_lead.jpg",
+            "when": "today",
+            "caption": "Haifa today, viewed from the Carmel ridge.",
+            "credit": "Wikipedia Commons (CC-BY-SA)"
+          }
+        ]
+      },
+      {
+        "place": "pl_sokal",
+        "name": "Sokal (now Sokalʹ, Ukraine)",
+        "period_images": [
+          {
+            "file": "assets/research_images/period/sokal_1938.jpg",
+            "when": "1938",
+            "caption": "Sokal in 1938, with the Beit Midrash and the Great Synagogue behind it. Mendel Horowitz, who married Berisz’s sister Jente in Tarnów in 1920, was from Sokal.",
+            "credit": "via Wikimedia Commons — public domain"
+          }
+        ],
+        "today_images": []
+      },
+      {
+        "place": "pl_tarnopol",
+        "name": "Tarnopol (now Ternopil, Ukraine)",
+        "period_images": [
+          {
+            "file": "assets/research_images/period/tarnopol_synagogue_1925.jpg",
+            "when": "1925-1930",
+            "caption": "The old synagogue at Tarnopol, 1925-1930.",
+            "credit": "via Wikimedia Commons — public domain"
+          },
+          {
+            "file": "assets/research_images/period/tarnopol_1930_poddebski.jpg",
+            "when": "circa 1930",
+            "caption": "Tarnopol about 1930, photographed by Henryk Poddębski. Alte Leja Rapaport married Jechiel Turkel here on 18 July 1909, and the household lived on Perla Street.",
+            "credit": "Henryk Poddębski, via Wikimedia Commons — public domain"
+          }
+        ],
+        "today_images": []
+      },
+      {
+        "place": "pl_liege",
+        "name": "Liège, Belgium",
+        "period_images": [
+          {
+            "file": "assets/research_images/period/liege_1945.jpg",
+            "when": "1945",
+            "caption": "Liège in 1945 — rue de l’Épée. Jente Rapaport survived the war in this city with her daughter Szewa, who married Markus Türkel here on 15 June 1946.",
+            "credit": "via Wikimedia Commons — public domain"
+          }
+        ],
+        "today_images": []
+      },
+      {
+        "place": "pl_trembowla",
+        "name": "Trembowla (now Terebovlia, Ukraine)",
+        "period_images": [
+          {
+            "file": "assets/research_images/period/trembowla_jewish_quarter_1930s.jpg",
+            "when": "1930s",
+            "caption": "Trembowla in the 1930s — the Ukrainian caption reads “general view of Terebovlia, in the foreground the Jewish quarter with its synagogues”. Jechiel Turkel, who married Alte Leja Rapaport, came from this town.",
+            "credit": "via Wikimedia Commons — public domain"
+          }
+        ],
+        "today_images": []
+      }
+    ]
+  },
   "images": [
     {
       "file": "assets/research_images/period/tarnow_bem_mausoleum.jpg",
@@ -1256,9 +2112,23 @@
       "title": "Rebeka Griffel born in Nadwórna",
       "type": "birth",
       "evidence": "confirmed",
+      "description": "Daughter of Leizor Griffel and Sara née Chajes, merchants of Nadwórna.",
+      "place": "pl_nadworna",
+      "people": [
+        "p_rebeka"
+      ],
       "sources": [
         "doc_rebeka_birth_nadworna"
       ],
+      "image": {
+        "file": "assets/research_images/period/nadworna_market_1928.jpg",
+        "when": "1928",
+        "caption": "Nadwórna, the market square, 1928 — David was sixteen. Photograph by L. and M. Heller.",
+        "credit": "Photo L. and M. Heller, via Center for Urban History, Lviv — public domain",
+        "shows_our_family": false,
+        "is_the_actual_event": false,
+        "usage": "The PLACE, at the date given in \"when\" — not the moment. Never imply the family is in the frame."
+      },
       "may_state_as_fact": true
     },
     {
@@ -1267,10 +2137,25 @@
       "title": "Elias Weitzner and Matel Weinreb marry in Dolina",
       "type": "marriage",
       "evidence": "confirmed",
+      "description": "Statutory civil marriage in Dolina, Galicia. From Lea's birth certificate.",
+      "place": "pl_dolina",
+      "people": [
+        "p_elias_weitzner",
+        "p_matel_weinreb"
+      ],
       "sources": [
         "doc_leah_birth_bolechow_1913",
         "report_basia_13may"
       ],
+      "image": {
+        "file": "assets/research_images/period/dolina_1904.jpg",
+        "when": "1904",
+        "caption": "Dolina in 1904, photographed by Kazimierz Mokłowski. Elias Weitzner and Matel Weinreb — Lusia’s parents — married in this town the following year.",
+        "credit": "Kazimierz Mokłowski, via Wikimedia Commons — public domain",
+        "shows_our_family": false,
+        "is_the_actual_event": false,
+        "usage": "The PLACE, at the date given in \"when\" — not the moment. Never imply the family is in the frame."
+      },
       "may_state_as_fact": true
     },
     {
@@ -1279,9 +2164,23 @@
       "title": "Feige (Tzipora) Weitzner born in Bolechów",
       "type": "birth",
       "evidence": "confirmed",
+      "description": "Leah's older sister. Father Elias is listed as a cattle dealer.",
+      "place": "pl_bolechow",
+      "people": [
+        "p_feige"
+      ],
       "sources": [
         "doc_feige_birth_1911"
       ],
+      "image": {
+        "file": "assets/research_images/period/bolechow_1915.jpg",
+        "when": "1915",
+        "caption": "Bolechów, 1915 — Lusia’s town, photographed when she was an infant. Austro-Hungarian war photograph.",
+        "credit": "k.u.k. Kriegspressequartier, Lichtbildstelle Wien / Bildarchiv Austria — public domain",
+        "shows_our_family": false,
+        "is_the_actual_event": false,
+        "usage": "The PLACE, at the date given in \"when\" — not the moment. Never imply the family is in the frame."
+      },
       "may_state_as_fact": true
     },
     {
@@ -1290,10 +2189,24 @@
       "title": "David (Dawid Mendel) Rapaport born in Nadwórna",
       "type": "birth",
       "evidence": "confirmed",
+      "description": "Son of Berisz Rapaport and Rebeka Griffel. The verified birthplace — the Brussels DP card listing 'Cieszyn (Tesin)' was a transcription error by the French clerk.",
+      "place": "pl_nadworna",
+      "people": [
+        "p_david"
+      ],
       "sources": [
         "doc_david_birth_nadworna",
         "report_basia_15may"
       ],
+      "image": {
+        "file": "assets/research_images/period/nadworna_station_1914.jpg",
+        "when": "1914-1918",
+        "caption": "Nadwórna railway station, photographed 1914-1918 by the Austro-Hungarian war press office.",
+        "credit": "k.u.k. Kriegspressequartier, Lichtbildstelle Wien / Bildarchiv Austria — public domain",
+        "shows_our_family": false,
+        "is_the_actual_event": false,
+        "usage": "The PLACE, at the date given in \"when\" — not the moment. Never imply the family is in the frame."
+      },
       "may_state_as_fact": true
     },
     {
@@ -1302,9 +2215,23 @@
       "title": "Regina Rapaport registers at Alfredówka in Krynica",
       "type": "registration",
       "evidence": "confirmed",
+      "description": "Regina (Rebeka) Rapaport, wife of a merchant from Nadwórna, registers alone at the Alfredówka guesthouse in the Krynica resort on 25 July 1912 (newspaper page 7).",
+      "place": "pl_krynica",
+      "people": [
+        "p_rebeka"
+      ],
       "sources": [
         "doc_newspaper_1912_krynica"
       ],
+      "image": {
+        "file": "assets/research_images/period/krynica_pijalnia.jpg",
+        "when": "between the wars",
+        "caption": "Krynica, the pump room, photographed by Henryk Poddębski between the wars. Menukha was recorded at Krynica in 1904, and Regina registered at Alfredówka there in 1912.",
+        "credit": "Henryk Poddębski / Narodowe Archiwum Cyfrowe — public domain",
+        "shows_our_family": false,
+        "is_the_actual_event": false,
+        "usage": "The PLACE, at the date given in \"when\" — not the moment. Never imply the family is in the frame."
+      },
       "may_state_as_fact": true
     },
     {
@@ -1313,10 +2240,24 @@
       "title": "Leah Weitzner born in Bolechów",
       "type": "birth",
       "evidence": "documented",
+      "description": "Daughter of Elias (cattle dealer) and Matel (née Weinreb) Weitzner. Named in Bolechów synagogue on 12 April. Family death certificate lists 6.4.1916 — a conflict to resolve.",
+      "place": "pl_bolechow",
+      "people": [
+        "p_leah"
+      ],
       "sources": [
         "doc_leah_birth_bolechow_1913",
         "report_basia_13may"
       ],
+      "image": {
+        "file": "assets/research_images/period/bolechow_1915.jpg",
+        "when": "1915",
+        "caption": "Bolechów, 1915 — Lusia’s town, photographed when she was an infant. Austro-Hungarian war photograph.",
+        "credit": "k.u.k. Kriegspressequartier, Lichtbildstelle Wien / Bildarchiv Austria — public domain",
+        "shows_our_family": false,
+        "is_the_actual_event": false,
+        "usage": "The PLACE, at the date given in \"when\" — not the moment. Never imply the family is in the frame."
+      },
       "may_state_as_fact": true
     },
     {
@@ -1325,9 +2266,23 @@
       "title": "Moses (Mojzesz) Weitzner born in Bolechów",
       "type": "birth",
       "evidence": "confirmed",
+      "description": "Leah's younger brother. Father Elias listed again as cattle dealer.",
+      "place": "pl_bolechow",
+      "people": [
+        "p_moses_weitzner"
+      ],
       "sources": [
         "doc_moses_birth_1916"
       ],
+      "image": {
+        "file": "assets/research_images/bolechow_23-Rynek-North1.jpg",
+        "when": "pre-war",
+        "caption": "Bolechów market square (Rynek), northern side.",
+        "credit": "JGB",
+        "shows_our_family": false,
+        "is_the_actual_event": false,
+        "usage": "The PLACE, at the date given in \"when\" — not the moment. Never imply the family is in the frame."
+      },
       "may_state_as_fact": true
     },
     {
@@ -1336,10 +2291,20 @@
       "title": "Weitzner family emigrates to Mandatory Palestine",
       "type": "migration",
       "evidence": "family_oral",
+      "description": "Elias and Matel sell the tannery and emigrate with three of their four children. Elias obtains a British 'capitalist' visa with 1000 GBP. Leah does NOT join them — she remains in Galicia.",
+      "place": "pl_bolechow",
+      "people": [
+        "p_elias_weitzner",
+        "p_matel_weinreb",
+        "p_feige",
+        "p_moses_weitzner",
+        "p_pnina_weitzner"
+      ],
       "sources": [
         "oral_doron_13may",
         "oral_dana_15may"
       ],
+      "image": null,
       "may_state_as_fact": false
     },
     {
@@ -1348,9 +2313,24 @@
       "title": "David Rapaport and Leah Weitzner marry in Bolechów",
       "type": "marriage",
       "evidence": "confirmed",
+      "description": "The civil record gives Bolechów, 10 February 1935 — Lusia 21, David 23. Her memoir places the wedding in Muszyna in February 1938, three years later and in another town; written forty years afterwards, it remembers the marriage as the beginning of the Muszyna years rather than three years before them. The document is followed here; her account is kept beside it.",
+      "place": "pl_bolechow",
+      "people": [
+        "p_david",
+        "p_leah"
+      ],
       "sources": [
         "doc_lea_dawid_marriage_1935"
       ],
+      "image": {
+        "file": "assets/research_images/memoir/lusia_david_wedding_1938.jpg",
+        "when": "memoir p.15",
+        "caption": "Mazal tov! Lusia and Memek on their wedding day",
+        "credit": "From the memoir of Lusia Rapaport, 1986",
+        "shows_our_family": true,
+        "is_the_actual_event": true,
+        "usage": "A memoir plate: these are the people themselves."
+      },
       "may_state_as_fact": true
     },
     {
@@ -1359,9 +2339,23 @@
       "title": "Shimon (Szymon) Rapaport born in Lwów",
       "type": "birth",
       "evidence": "confirmed",
+      "description": "His own post-war survivor card gives 22 June 1937 in Lwów. Family memory had placed his birth in \"Mosina\" — the town that turned out to be Muszyna — but the card is explicit, and it predates the memoir by forty years.",
+      "place": "pl_lwow",
+      "people": [
+        "p_shimon"
+      ],
       "sources": [
         "doc_szymon_ckzp"
       ],
+      "image": {
+        "file": "assets/research_images/memoir/shimon_baby.jpg",
+        "when": "memoir p.17",
+        "caption": "Shimon the baby",
+        "credit": "From the memoir of Lusia Rapaport, 1986",
+        "shows_our_family": true,
+        "is_the_actual_event": true,
+        "usage": "A memoir plate: these are the people themselves."
+      },
       "may_state_as_fact": true
     },
     {
@@ -1370,9 +2364,23 @@
       "title": "David Rapaport in Lwów (1 Jan 1938)",
       "type": "registration",
       "evidence": "confirmed",
+      "description": "Per the 1946 Brussels DP card, David's place of residence on 1 January 1938 was Lwów, Poland.",
+      "place": "pl_lwow",
+      "people": [
+        "p_david"
+      ],
       "sources": [
         "doc_david_dp_card"
       ],
+      "image": {
+        "file": "assets/research_images/period/lwow_legionow_1921.jpg",
+        "when": "24 October 1921",
+        "caption": "Legionów Street, Lwów, 24 October 1921 — described by the archive as the Jewish business centre of the city, with orthodox Jews visible in the frame. Twenty years before the street in the photograph beside this one.",
+        "credit": "Archival photograph, via Wikimedia Commons — public domain",
+        "shows_our_family": false,
+        "is_the_actual_event": false,
+        "usage": "The PLACE, at the date given in \"when\" — not the moment. Never imply the family is in the frame."
+      },
       "may_state_as_fact": true
     },
     {
@@ -1381,7 +2389,19 @@
       "title": "World War II begins — Germany invades Poland",
       "type": "war_event",
       "evidence": "context",
+      "description": "Germany invades Poland on 1 Sep 1939. USSR invades from the east on 17 Sep 1939, per the Ribbentrop-Molotov Pact. Eastern Poland (including Lwów, Bolechów, Nadwórna) falls under Soviet occupation.",
+      "place": null,
+      "people": [],
       "sources": null,
+      "image": {
+        "file": "assets/research_images/period/przemysl_san_1938.jpg",
+        "when": "1938",
+        "caption": "The San at Przemyśl, photographed in 1938 by Adam Lenkiewicz. A year later this river was the German-Soviet demarcation line, cutting the town in two: Lusia was on the Soviet side.",
+        "credit": "Adam Lenkiewicz / Polona, National Library of Poland — public domain",
+        "shows_our_family": false,
+        "is_the_actual_event": false,
+        "usage": "The PLACE, at the date given in \"when\" — not the moment. Never imply the family is in the frame."
+      },
       "may_state_as_fact": true
     },
     {
@@ -1390,10 +2410,24 @@
       "title": "Leah in Przemyśl, working under Soviet administration",
       "type": "occupation",
       "evidence": "family_oral",
+      "description": "After war broke out, Leah fled to Przemyśl. The city was DIVIDED across the San River — German on one side, Soviet on the other. Leah worked on the Soviet side as a teller and in the passport section. Visited David's parents (Berisz and Rebeka) there.",
+      "place": "pl_przemysl",
+      "people": [
+        "p_leah"
+      ],
       "sources": [
         "oral_dana_15may",
         "oral_doron_15may"
       ],
+      "image": {
+        "file": "assets/research_images/period/przemysl_old_synagogue_1940.jpg",
+        "when": "about 1940",
+        "caption": "The Old Synagogue in Przemyśl, about 1940 — already destroyed by the Germans. Lusia was in Przemyśl in 1939-40, working under the Soviet administration on the eastern side of the San. From the Polish record \"Martyrdom, Struggle and Extermination of the Jews in Poland 1939-1945\".",
+        "credit": "\"Męczeństwo, walka, zagłada Żydów w Polsce 1939-1945\" — public domain",
+        "shows_our_family": false,
+        "is_the_actual_event": false,
+        "usage": "The PLACE, at the date given in \"when\" — not the moment. Never imply the family is in the frame."
+      },
       "may_state_as_fact": false
     },
     {
@@ -1402,10 +2436,24 @@
       "title": "David escapes the Nadwórna ghetto",
       "type": "war_event",
       "evidence": "family_oral",
+      "description": "David had a work permit to a Nadwórna sawmill (likely the 'essential worker' tag mentioned in family memory). He escaped in a railway wagon — hidden in a niche he carved out between wooden logs — and reached Lwów.",
+      "place": "pl_nadworna",
+      "people": [
+        "p_david"
+      ],
       "sources": [
         "oral_doron_13may",
         "oral_dana_15may"
       ],
+      "image": {
+        "file": "assets/research_images/period/nadworna_centre_1932.jpg",
+        "when": "1932",
+        "caption": "Nadwórna, the town centre, 1932 — the streets David knew as a young man.",
+        "credit": "Photo L. and M. Heller, via Center for Urban History, Lviv — public domain",
+        "shows_our_family": false,
+        "is_the_actual_event": false,
+        "usage": "The PLACE, at the date given in \"when\" — not the moment. Never imply the family is in the frame."
+      },
       "may_state_as_fact": false
     },
     {
@@ -1414,9 +2462,24 @@
       "title": "David and Leah in Lwów under false identities",
       "type": "war_event",
       "evidence": "family_oral",
+      "description": "After the Germans took Lwów in 1941, David and Leah survived under fake identities. Leah lived at Legionów Street 24 under 'Hormek' false documents — also used the name 'Maria Cizlik' (a borrowed identity). She managed an art/antiques store. David worked in railway / road construction. They met on 'Rapaport Street' in Lwów. They lived apart for periods. David's sister Lota was also in Lwów.",
+      "place": "pl_lwow",
+      "people": [
+        "p_david",
+        "p_leah"
+      ],
       "sources": [
         "oral_doron_13may"
       ],
+      "image": {
+        "file": "assets/research_images/period/lwow_legionow_1941.jpg",
+        "when": "1941",
+        "caption": "Legionów Street, Lwów, in 1941 — “Вулиця Легіонів (тепер проспект Свободи) у Львові у 1941 р”. This is Lusia’s street, photographed the year before she moved onto it. She lived at number 24 from 1942 to 1944, on the Aryan side, as “Maria Cizlik”.",
+        "credit": "Private collection, via Wikimedia Commons — public domain",
+        "shows_our_family": false,
+        "is_the_actual_event": false,
+        "usage": "The PLACE, at the date given in \"when\" — not the moment. Never imply the family is in the frame."
+      },
       "may_state_as_fact": false
     },
     {
@@ -1425,9 +2488,15 @@
       "title": "David stripped of Polish citizenship",
       "type": "war_event",
       "evidence": "documented",
+      "description": "DP card notes 'deforce' (deprived) in 1942 — and Kasia (the French expert) read it as 'deported in 1942'. Likely indicates either deportation or formal denaturalization.",
+      "place": null,
+      "people": [
+        "p_david"
+      ],
       "sources": [
         "doc_david_dp_card"
       ],
+      "image": null,
       "may_state_as_fact": true
     },
     {
@@ -1436,9 +2505,23 @@
       "title": "David registered as Displaced Person in Brussels",
       "type": "registration",
       "evidence": "confirmed",
+      "description": "David Rapaport registered on the DIPIS (Displaced Persons) file at 'B.' (Brussels/Belgium) on 9 April 1946. Listed as married, Polish, Jewish, forestry engineer. Desired destination: Palestine or USA. He signed the card himself. Later stamped by the Belgian Repatriation Commission of the Ministry of Public Health and Family in 1969.",
+      "place": "pl_brussels",
+      "people": [
+        "p_david"
+      ],
       "sources": [
         "doc_david_dp_card"
       ],
+      "image": {
+        "file": "assets/research_images/period/belgium_dp_centre_1945.jpg",
+        "when": "6 March 1945",
+        "caption": "A displaced persons centre in Belgium, 6 March 1945 — liberated forced labourers waiting to be assigned beds in a new billet. Photographed by the US Army Signal Corps; the location is a Belgian city, not Brussels itself. This is the machinery David passed through: he was registered as a Displaced Person in Brussels thirteen months later. Not our family.",
+        "credit": "U.S. Army Signal Corps / U.S. National Archives — public domain",
+        "shows_our_family": false,
+        "is_the_actual_event": false,
+        "usage": "The PLACE, at the date given in \"when\" — not the moment. Never imply the family is in the frame."
+      },
       "may_state_as_fact": true
     },
     {
@@ -1447,11 +2530,25 @@
       "title": "Dov Bernard Rapaport born in Brussels",
       "type": "birth",
       "evidence": "documented",
+      "description": "Son of David and Leah, brother to Shimon. Born after the war ended.",
+      "place": "pl_brussels",
+      "people": [
+        "p_dov_bernard"
+      ],
       "sources": [
         "oral_doron_06may",
         "oral_doron_02aug",
         "src_rapaport_institute_tree"
       ],
+      "image": {
+        "file": "assets/research_images/memoir/shimon_holding_baby_dov.jpg",
+        "when": "memoir p.61",
+        "caption": "Shimon “the big one” holding his baby brother, Dov, in his arms",
+        "credit": "From the memoir of Lusia Rapaport, 1986",
+        "shows_our_family": true,
+        "is_the_actual_event": true,
+        "usage": "A memoir plate: these are the people themselves."
+      },
       "may_state_as_fact": true
     },
     {
@@ -1460,9 +2557,25 @@
       "title": "David and Shimon sail from Sète on the Theodor Herzl",
       "type": "migration",
       "evidence": "documented",
-      "sources": [
-        "doc_lusia_memoir"
+      "description": "The ex-British cable-layer HMS Guardian, built of metal in Newcastle in 1907 — 1,768 tons, coal-fired, eight knots flat out — carrying 2,641 ma’apilim gathered from camps in France and Belgium. Her commander was Mecca Limon; the radio operator, the \"Gideoni\", was Nachman (Bob) Burstein; and a party of journalists sailed with her under Moish Perlman, later head of the Israeli government press office. Lusia stayed behind in Brussels with the eight-month-old Dov.",
+      "place": "pl_sete",
+      "people": [
+        "p_david",
+        "p_shimon"
       ],
+      "sources": [
+        "doc_lusia_memoir",
+        "src_palyam_theodor_herzl"
+      ],
+      "image": {
+        "file": "assets/research_images/period/sete_port_1912.jpg",
+        "when": "1912",
+        "caption": "The port of Sète, photographed in 1912 by the Agence Rol. This is the harbour David and Shimon sailed from on 2 April 1947 aboard the Theodor Herzl, with 2,641 ma’apilim gathered from camps across France and Belgium — but the picture is thirty-five years earlier, and is here to show the place, not the day.",
+        "credit": "Agence Rol / Bibliothèque nationale de France — public domain",
+        "shows_our_family": false,
+        "is_the_actual_event": false,
+        "usage": "The PLACE, at the date given in \"when\" — not the moment. Never imply the family is in the frame."
+      },
       "may_state_as_fact": true
     },
     {
@@ -1471,9 +2584,25 @@
       "title": "The Theodor Herzl is boarded by the Royal Navy",
       "type": "war_event",
       "evidence": "confirmed",
-      "sources": [
-        "doc_lusia_memoir"
+      "description": "Intercepted off the coast by HMS Haydon and HMS St Brides Bay. The Palyam account calls it one of the most severe battles of the whole Aliyah Bet operation. Three ma’apilim were killed by gunfire and their names are known: AHARON DOV, PINCHAS WEISS and MENACHEM SAMET. The British commanders’ own report reads: \"The most unusual feature of the arrest was the level of employment of firearms by the boarding party: of over a score of casualties among the immigrants, ten suffered gunshot wounds, of which two died at the time and one died later.\" The wounded and the sick were taken to the Atlit detention camp; everyone else was deported to Cyprus. David and nine-year-old Shimon were aboard.",
+      "place": null,
+      "people": [
+        "p_david",
+        "p_shimon"
       ],
+      "sources": [
+        "doc_lusia_memoir",
+        "src_palyam_theodor_herzl"
+      ],
+      "image": {
+        "file": "assets/research_images/trip/theodor_herzl_haifa_1947.png",
+        "when": "April 1947",
+        "caption": "The Aliyah Bet ship Theodor Herzl in Haifa, April 1947 — black-stained 'NEVER DIE!' banner painted by the ma'apilim after the British boarding that killed three.",
+        "credit": "Public domain — pre-1948 photograph",
+        "shows_our_family": false,
+        "is_the_actual_event": false,
+        "usage": "The PLACE, at the date given in \"when\" — not the moment. Never imply the family is in the frame."
+      },
       "may_state_as_fact": true
     },
     {
@@ -1482,21 +2611,50 @@
       "title": "David and Shimon interned at Karaolos, Cyprus",
       "type": "migration",
       "evidence": "documented",
+      "description": "The camps north of Famagusta held 53,510 Jews behind wire between 1946 and 1949, and some two thousand children were born inside them. David and Shimon were there about eight months.",
+      "place": "pl_cyprus_karaolos",
+      "people": [
+        "p_david",
+        "p_shimon"
+      ],
       "sources": [
         "doc_lusia_memoir"
       ],
+      "image": {
+        "file": "assets/research_images/period/famagusta_1945.jpg",
+        "when": "1945",
+        "caption": "Famagusta, 1945 — the town beside which the British internment camps stood. David and Shimon were held at Karaolos, just north of here, in 1947.",
+        "credit": "G. Eric and Edith Matson Collection, Library of Congress — public domain",
+        "shows_our_family": false,
+        "is_the_actual_event": false,
+        "usage": "The PLACE, at the date given in \"when\" — not the moment. Never imply the family is in the frame."
+      },
       "may_state_as_fact": true
     },
     {
-      "date": "1948",
-      "sort": "1948-02-01",
+      "date": "1947-08-22",
+      "sort": "1947-08-22",
       "title": "Shimon released from the Atlit detention camp",
       "type": "registration",
-      "evidence": "family_oral",
+      "evidence": "documented",
+      "description": "The release certificate is printed in his mother’s memoir on page 64 and is dated at Haifa, 22 August 1947: \"This is to certify that RAPAPORT SH… whose photograph is hereby attached, has been released from ATHLIT Camp… on authority of the Palestine Government. He/she will be registered as an immigrant to Palestine in due course.\" He was ten years old. This archive recorded the document as missing and the year as 1948 until August 2026, when the memoir plates were read.",
+      "place": "pl_atlit",
+      "people": [
+        "p_shimon"
+      ],
       "sources": [
         "doc_lusia_memoir"
       ],
-      "may_state_as_fact": false
+      "image": {
+        "file": "assets/research_images/memoir/shimon_atlit_release_1947.jpg",
+        "when": "memoir p.64",
+        "caption": "Shimon’s release certificate from the Atlit detention camp",
+        "credit": "From the memoir of Lusia Rapaport, 1986",
+        "shows_our_family": true,
+        "is_the_actual_event": true,
+        "usage": "A memoir plate: these are the people themselves."
+      },
+      "may_state_as_fact": true
     },
     {
       "date": "1948-05-14",
@@ -1504,19 +2662,38 @@
       "title": "The State of Israel is declared",
       "type": "context",
       "evidence": "confirmed",
+      "description": "The Cyprus detainees were released to Israel over the months that followed.",
+      "place": null,
+      "people": [],
       "sources": [],
+      "image": null,
       "may_state_as_fact": true
     },
     {
       "date": "1948",
       "sort": "1948-06-01",
-      "title": "Lusia and Dov sail from Brussels on the Kadima",
+      "title": "Lusia and Dov sail for Israel on the Kedma",
       "type": "migration",
       "evidence": "documented",
+      "description": "She had stayed in Brussels more than a year with the baby, working, while David and Shimon were behind wire in Cyprus. The Haifa burial register records her year of immigration as 1948 and David’s as 1946 — the two-year gap the memoir describes. Dov’s first journey was with his mother, alone. The memoir names the ship — קדמה, the Kedma — but not the port she sailed from, and gives no date beyond the year. The memoir names the ship — קדמה, the Kedma — but not the port she sailed from, and gives no date beyond the year.",
+      "place": "pl_brussels",
+      "people": [
+        "p_leah",
+        "p_dov_bernard"
+      ],
       "sources": [
         "doc_lusia_memoir",
         "src_haifa_chevra_kadisha_records"
       ],
+      "image": {
+        "file": "assets/research_images/period/kedma_maiden_voyage_1947.jpg",
+        "when": "29 July 1947",
+        "caption": "The Kedma at Tel Aviv on her maiden voyage, 29 July 1947, arriving from London \"bringing with it tourists and immigrants from the Bergen-Belsen camps\". This is the ship Lusia and Dov crossed on the following year, photographed by Fred Chesnick.",
+        "credit": "Fred Chesnick / Israel Preker via PikiWiki Israel — public domain",
+        "shows_our_family": false,
+        "is_the_actual_event": false,
+        "usage": "The PLACE, at the date given in \"when\" — not the moment. Never imply the family is in the frame."
+      },
       "may_state_as_fact": true
     },
     {
@@ -1525,9 +2702,26 @@
       "title": "The family is together again in Haifa",
       "type": "migration",
       "evidence": "family_oral",
+      "description": "Lusia and Dov reach Haifa and are reunited with her parents, who had left for Palestine fifteen years earlier and whom she had not seen since. They went from the ship straight to her parents’ small flat on Shalom Street; the family later lived on Abbas Street, and later still on Moriah Street.",
+      "place": "pl_haifa",
+      "people": [
+        "p_leah",
+        "p_dov_bernard",
+        "p_david",
+        "p_shimon"
+      ],
       "sources": [
         "doc_lusia_memoir"
       ],
+      "image": {
+        "file": "assets/research_images/memoir/shimon_dov_cousin_akiva.jpg",
+        "when": "memoir p.65",
+        "caption": "The reunion, what a reunion: the brothers Shimon (left) and Dovik (right) with their cousin Akiva Eldar",
+        "credit": "From the memoir of Lusia Rapaport, 1986",
+        "shows_our_family": true,
+        "is_the_actual_event": true,
+        "usage": "A memoir plate: these are the people themselves."
+      },
       "may_state_as_fact": false
     },
     {
@@ -1536,9 +2730,24 @@
       "title": "The apartment on Moriah Street, bought with German reparations",
       "type": "occupation",
       "evidence": "family_oral",
+      "description": "David worked as a customs broker in Haifa — the trade his son Dov, and later his grandson Doron, would follow.",
+      "place": "pl_haifa",
+      "people": [
+        "p_david",
+        "p_leah"
+      ],
       "sources": [
         "doc_lusia_memoir"
       ],
+      "image": {
+        "file": "assets/research_images/memoir/lusia_purim_costume.jpg",
+        "when": "memoir p.69",
+        "caption": "Lusia as a “Hawaiian girl” at the Purim party held at her home",
+        "credit": "From the memoir of Lusia Rapaport, 1986",
+        "shows_our_family": true,
+        "is_the_actual_event": true,
+        "usage": "A memoir plate: these are the people themselves."
+      },
       "may_state_as_fact": false
     },
     {
@@ -1547,9 +2756,16 @@
       "title": "David and Lusia travel to West Berlin over the reparations",
       "type": "migration",
       "evidence": "estimated",
+      "description": "The memoir records David wrestling with it: part of him could not forgive the Germans, and part of him argued it would be wrong to refuse what was lawfully owed. The memoir does not date the trip; the late 1950s is our estimate.",
+      "place": null,
+      "people": [
+        "p_david",
+        "p_leah"
+      ],
       "sources": [
         "doc_lusia_memoir"
       ],
+      "image": null,
       "may_state_as_fact": false
     },
     {
@@ -1558,9 +2774,16 @@
       "title": "Shimon marries Tamar (Tami) Bugin in Tel Aviv",
       "type": "marriage",
       "evidence": "documented",
+      "description": "Shimon — the boy who spent two and a half years in a wooden crate in Lwów — became a journalist, working for Ma’ariv from the Tiberias and Haifa bureaus.",
+      "place": null,
+      "people": [
+        "p_shimon",
+        "p_tamar"
+      ],
       "sources": [
         "doc_rapaport_institute_tree"
       ],
+      "image": null,
       "may_state_as_fact": true
     },
     {
@@ -1569,7 +2792,14 @@
       "title": "Dov marries Dalia in Haifa",
       "type": "marriage",
       "evidence": "confirmed",
+      "description": "Read from the ketubah itself on 2 August 2026: \"here, in the holy community of Haifa, may it be rebuilt speedily in our days\" — the place is written into the document. The year is 5735; the groom is Dov son of Menachem David, the bride Dalia daughter of Dov Yosef. A machine reading in June 2026 had given Brussels and flagged an oddity, that the document said \"on Shabbat\" while the date fell on a Friday. Both were errors of reading rather than of the scribe: the printed formula is \"on the [Nth] day of the week\", and filled in for Friday it reads exactly as it should. The compiled family tree’s 16 January 1974 in Haifa had the town right and the date wrong.",
+      "place": "pl_haifa",
+      "people": [
+        "p_dov_bernard",
+        "p_dalia"
+      ],
       "sources": [],
+      "image": null,
       "may_state_as_fact": true
     },
     {
@@ -1578,9 +2808,23 @@
       "title": "Lusia tells her story — the memoir is recorded",
       "type": "registration",
       "evidence": "confirmed",
+      "description": "It began with a school assignment: her granddaughter Hadas approached her teacher, Esther Weiss, who then interviewed Lusia. Ninety pages in Hebrew. Without them almost nothing in this archive between 1939 and 1948 would have a voice.",
+      "place": "pl_haifa",
+      "people": [
+        "p_leah"
+      ],
       "sources": [
         "doc_lusia_memoir"
       ],
+      "image": {
+        "file": "assets/research_images/memoir/lusia_back_cover_portrait.jpg",
+        "when": "memoir p.back cover",
+        "caption": "Lusia Rapaport (pictured)",
+        "credit": "From the memoir of Lusia Rapaport, 1986",
+        "shows_our_family": true,
+        "is_the_actual_event": true,
+        "usage": "A memoir plate: these are the people themselves."
+      },
       "may_state_as_fact": true
     },
     {
@@ -1589,9 +2833,15 @@
       "title": "David (Memek) Rapaport dies in Haifa",
       "type": "death",
       "evidence": "confirmed",
+      "description": "8 Elul 5750. Buried at Sde Yehoshua cemetery, section ו, row 22, grave 102ד. He was 78. His death notice ran in Ma’ariv the following day.",
+      "place": "pl_haifa",
+      "people": [
+        "p_david"
+      ],
       "sources": [
         "src_haifa_chevra_kadisha_records"
       ],
+      "image": null,
       "may_state_as_fact": true
     },
     {
@@ -1600,9 +2850,15 @@
       "title": "Leah (Lusia) Rapaport dies in Haifa",
       "type": "death",
       "evidence": "confirmed",
+      "description": "18 Tevet 5757. Buried beside David at Sde Yehoshua, grave 102ג — the two graves adjacent. Her burial record names her father Eliyahu and her mother Matilda, the same parents her memoir opens with. She was 83.",
+      "place": "pl_haifa",
+      "people": [
+        "p_leah"
+      ],
       "sources": [
         "src_haifa_chevra_kadisha_records"
       ],
+      "image": null,
       "may_state_as_fact": true
     },
     {
@@ -1611,7 +2867,13 @@
       "title": "Family Tree research begins",
       "type": "discovery",
       "evidence": "context",
+      "description": "Magda connects Dalia, Dana, Doron and Daniel with Basia (Polish genealogist) over WhatsApp. The 'Family tree' group is created. The goal: trace David, Leah, and Shimon Rapaport's journey for Dov's 80th birthday in August.",
+      "place": null,
+      "people": [
+        "p_doron"
+      ],
       "sources": null,
+      "image": null,
       "may_state_as_fact": true
     },
     {
@@ -1620,10 +2882,24 @@
       "title": "Brussels DP card identified",
       "type": "discovery",
       "evidence": "context",
+      "description": "Basia finds a DIPIS Displaced Persons card for David Rapaport, born 25.12.1911, registered in B. on 9.04.1946, headed for Palestine or USA. The date of birth matches exactly. The card lists Cieszyn/Tesin as birthplace and parents Bernard and Regina née Grunfeld — which conflicts with family information.",
+      "place": "pl_brussels",
+      "people": [
+        "p_david"
+      ],
       "sources": [
         "doc_david_dp_card",
         "report_basia_13may"
       ],
+      "image": {
+        "file": "assets/research_images/period/cieszyn_przykopa_1930.jpg",
+        "when": "circa 1930",
+        "caption": "Cieszyn, ulica Przykopa, about 1930. This town has no connection to the family at all — it is here because a clerk in Brussels wrote “Cieszyn” as David’s birthplace on his 1946 Displaced Persons card. He was born at Nadwórna, four hundred kilometres away.",
+        "credit": "via Wikimedia Commons — public domain",
+        "shows_our_family": false,
+        "is_the_actual_event": false,
+        "usage": "The PLACE, at the date given in \"when\" — not the moment. Never imply the family is in the frame."
+      },
       "may_state_as_fact": true
     },
     {
@@ -1632,11 +2908,26 @@
       "title": "BREAKTHROUGH: David's birth record found in Nadwórna",
       "type": "discovery",
       "evidence": "context",
+      "description": "Ms. Kasia at the Jewish Historical Institute (ŻIH) in Warsaw finds David's birth certificate in Nadwórna. Confirms: parents Berisz Rapaport and Rebeka Griffel, daughter of Leizor Griffel and Sara née Chajes — merchants of Nadwórna. ALSO finds Rebeka's own birth certificate (1888 Nadwórna). The 'Cieszyn' on the DP card was a transcription error. Two new generations and the verified birthplace — all on one day.",
+      "place": "pl_nadworna",
+      "people": [
+        "p_david",
+        "p_rebeka"
+      ],
       "sources": [
         "doc_david_birth_nadworna",
         "doc_rebeka_birth_nadworna",
         "report_basia_15may"
       ],
+      "image": {
+        "file": "assets/research_images/period/nadworna_market_1928.jpg",
+        "when": "1928",
+        "caption": "Nadwórna, the market square, 1928 — David was sixteen. Photograph by L. and M. Heller.",
+        "credit": "Photo L. and M. Heller, via Center for Urban History, Lviv — public domain",
+        "shows_our_family": false,
+        "is_the_actual_event": false,
+        "usage": "The PLACE, at the date given in \"when\" — not the moment. Never imply the family is in the frame."
+      },
       "may_state_as_fact": true
     },
     {
@@ -1645,7 +2936,11 @@
       "title": "🗺️ Every Virtual Trip card now shows the address in Google Street View",
       "type": "discovery",
       "evidence": "context",
+      "description": "All 13 Virtual Trip cards now embed two side-by-side iframes: the OpenStreetMap location plus a Google Street View pegman view at the exact coordinates — labelled 'How it looks today'. No API key required. Click any card to see the place AS IT LOOKS RIGHT NOW.",
+      "place": null,
+      "people": [],
       "sources": null,
+      "image": null,
       "may_state_as_fact": true
     },
     {
@@ -1654,7 +2949,16 @@
       "title": "👨‍👩‍👧‍👦 Attribution updated — Dalia, Dana, Doron and Daniel as equal partners",
       "type": "discovery",
       "evidence": "context",
+      "description": "All attribution language throughout the archive (events, people, places, documents, hypotheses, research center, multilingual UI strings) has been updated to credit Dalia (mother), Dana, Doron and Daniel Rapaport as equal partners in this birthday gift to Dov. Mother and three children — one family voice.",
+      "place": null,
+      "people": [
+        "p_dalia",
+        "p_dana",
+        "p_doron",
+        "p_daniel"
+      ],
       "sources": null,
+      "image": null,
       "may_state_as_fact": true
     },
     {
@@ -1663,7 +2967,22 @@
       "title": "🏕️ Cyprus camp numbers DOCUMENTED — Karaolos 55/60/61/62/63 (summer tents) vs Dekhelia (winter huts)",
       "type": "discovery",
       "evidence": "documented",
+      "description": "British internment camps in Cyprus were organised in two clusters: SUMMER tent camps numbered 55, 60, 61, 62, 63 at Caraolos/Karaolos north of Famagusta, and WINTER Nissen-hut camps at Dekhelia/Decauville near Larnaca (~50 km away). 53,510 Jews detained 1946-1949; ~2,200 children born in captivity. David's family was held ~8 months. JDC Archives only holds the Aug 1948 - Feb 1949 birth lists — for the family's roster look at Yad Vashem and USHMM databases.",
+      "place": null,
+      "people": [
+        "p_david",
+        "p_leah"
+      ],
       "sources": null,
+      "image": {
+        "file": "assets/research_images/trip/cyprus_caraolos_lead.jpg",
+        "when": "map",
+        "caption": "Cyprus internment camps map — held 53,510 Jews from 1946-1949. The Rapaport family was at Karaolos (near Famagusta) ~8 months.",
+        "credit": "Wikipedia Commons",
+        "shows_our_family": false,
+        "is_the_actual_event": false,
+        "usage": "The PLACE, at the date given in \"when\" — not the moment. Never imply the family is in the frame."
+      },
       "may_state_as_fact": true
     },
     {
@@ -1672,7 +2991,22 @@
       "title": "🚢 The Theodor Herzl ship VERIFIED — ex-HMS \"Guardian\", Newcastle 1907 (NOT Exodus 1947)",
       "type": "discovery",
       "evidence": "documented",
+      "description": "The Aliyah Bet ship that carried David, Lusia, Shimon and infant Dov from Sète to Cyprus on 2 April 1947 was the ex-British cable-laying ship HMS/SS \"Guardian\" — built 1907 by Swan Hunter & Wigham Richardson in Newcastle, 1,768 tons, triple-expansion engine. Acquired by Mossad LeAliyah Bet in 1946 and refitted at Marseille. Distinct from the SS Exodus 1947 (ex-President Warfield), with which it is routinely conflated.",
+      "place": null,
+      "people": [
+        "p_david",
+        "p_leah"
+      ],
       "sources": null,
+      "image": {
+        "file": "assets/research_images/trip/theodor_herzl_ship_naval_corps.jpg",
+        "when": "date not stated",
+        "caption": "Side-view of the Theodor Herzl from naval records — built 1907 in Newcastle as the cable ship HMS Guardian, 1,768 tons.",
+        "credit": "Public domain — naval-corps archive",
+        "shows_our_family": false,
+        "is_the_actual_event": false,
+        "usage": "The PLACE, at the date given in \"when\" — not the moment. Never imply the family is in the frame."
+      },
       "may_state_as_fact": true
     },
     {
@@ -1681,7 +3015,21 @@
       "title": "🏠 Lusia's wartime apartment building IDENTIFIED — Prospekt Svobody 24, Lviv",
       "type": "discovery",
       "evidence": "documented",
+      "description": "ulica Legionów 24 in 1942-1944 Lwów is today's Prospekt Svobody 24, Lviv: a four-storey Biedermeier stone kamienica built 1836-1837 by architect Johann Salzmann for F. Adamski. Polish national poet Wincenty Pol lived there 1856-1866. Lusia rented an upper-floor apartment as 'Maria Cizlik' while a German military base fired guns from across the central promenade. Current photo of the actual building now embedded in the Virtual Trip card.",
+      "place": "pl_lwow",
+      "people": [
+        "p_leah"
+      ],
       "sources": null,
+      "image": {
+        "file": "assets/research_images/trip/legionow24_svobody24_lviv.jpg",
+        "when": "today",
+        "caption": "🏠 THE BUILDING ITSELF — Prospekt Svobody 24, Lviv (formerly Legionów 24). The four-storey Biedermeier stone kamienica, built 1836-1837 by Johann Salzmann for F. Adamski. This is Lusia's wartime apartment building, where she lived 1942-1944 as 'Maria Cizlik' on the Aryan side. Polish poet Wincenty Pol lived here 1856-1866.",
+        "credit": "Wikimedia Commons (CC BY 3.0)",
+        "shows_our_family": false,
+        "is_the_actual_event": false,
+        "usage": "The PLACE, at the date given in \"when\" — not the moment. Never imply the family is in the frame."
+      },
       "may_state_as_fact": true
     },
     {
@@ -1690,9 +3038,15 @@
       "title": "Berisz’s 1924 passport application names his parents",
       "type": "discovery",
       "evidence": "confirmed",
+      "description": "The paternal line had been a dead end even for Edward Gelles after twenty-five years. Basia found the passport file, and with it Moses Saul Rapaport and Menukha — and a photograph in which Dana saw a resemblance to her father.",
+      "place": null,
+      "people": [
+        "p_berisz"
+      ],
       "sources": [
         "doc_berisz_passport_application_1924"
       ],
+      "image": null,
       "may_state_as_fact": true
     },
     {
@@ -1701,11 +3055,26 @@
       "title": "Three Tarnów marriage deeds independently name the apical couple",
       "type": "discovery",
       "evidence": "confirmed",
+      "description": "Read from the scans by Claude vision: the 1919, 1920 and 1923 marriages of three of Berisz’s sisters, each naming \"Moses and Menucha\" as their parents.",
+      "place": "pl_tarnow",
+      "people": [
+        "p_moses_saul_rapaport",
+        "p_menukha"
+      ],
       "sources": [
         "doc_freida_amalia_marriage_1919",
         "doc_jente_marriage_1920",
         "doc_rebeka_younger_marriage_1923"
       ],
+      "image": {
+        "file": "assets/research_images/period/tarnow_new_synagogue_1920s.jpg",
+        "when": "1920s",
+        "caption": "The New Synagogue in Tarnów in the 1920s. Three of Berisz’s sisters married in this town — in 1919, 1920 and 1923 — and all three marriage registers name the same parents, Moses Rapaport and Menucha.",
+        "credit": "via Wikimedia Commons — public domain",
+        "shows_our_family": false,
+        "is_the_actual_event": false,
+        "usage": "The PLACE, at the date given in \"when\" — not the moment. Never imply the family is in the frame."
+      },
       "may_state_as_fact": true
     },
     {
@@ -1714,7 +3083,13 @@
       "title": "A living cousin on the paternal side — and she wants to meet Dov",
       "type": "discovery",
       "evidence": "family_oral",
+      "description": "Yehudit Shlomit, daughter of Zwi Ayalon Nussbaum and named after Freida, Berisz’s sister. She worked at Yad Vashem and had been looking for our branch for years — she once tried to reach Dov through a school essay Dana wrote at twelve. Dana spoke with her for an hour.",
+      "place": null,
+      "people": [
+        "p_yehudit_shlomit_ayalon"
+      ],
       "sources": [],
+      "image": null,
       "may_state_as_fact": false
     },
     {
@@ -1723,9 +3098,24 @@
       "title": "Jente survived — the 1941 list of Jews in Liège",
       "type": "discovery",
       "evidence": "confirmed",
+      "description": "Her daughter Szewa appears on the 1941 census at 5 Place Delcour, and the 1946 Liège marriage record states that the bride’s mother, Jenta Rapaport, was living together with her daughter. A great-grand-aunt whose fate had been blank.",
+      "place": "pl_liege",
+      "people": [
+        "p_jente_rapaport",
+        "p_szewa_horowitz"
+      ],
       "sources": [
         "doc_liege_jews_list_1941"
       ],
+      "image": {
+        "file": "assets/research_images/period/liege_1945.jpg",
+        "when": "1945",
+        "caption": "Liège in 1945 — rue de l’Épée. Jente Rapaport survived the war in this city with her daughter Szewa, who married Markus Türkel here on 15 June 1946.",
+        "credit": "via Wikimedia Commons — public domain",
+        "shows_our_family": false,
+        "is_the_actual_event": false,
+        "usage": "The PLACE, at the date given in \"when\" — not the moment. Never imply the family is in the frame."
+      },
       "may_state_as_fact": true
     },
     {
@@ -1734,9 +3124,15 @@
       "title": "Szabse Rapaport, rabbi of Dąbrowa Tarnowska",
       "type": "discovery",
       "evidence": "documented",
+      "description": "Basia, from the Tarnów notarial records: \"they convinced me that Szabse was your ancestor.\" He served until 20 April 1884 — and it explains at last why Berisz’s passport registers the family commune as Dąbrowa, a town nobody could account for. The same evening, from a different direction entirely, Dana produced a record naming Schabse with Figa/Yete.",
+      "place": "pl_dabrowa",
+      "people": [
+        "p_moses_saul_rapaport"
+      ],
       "sources": [
         "doc_schabse_myheritage_2026"
       ],
+      "image": null,
       "may_state_as_fact": true
     }
   ],
@@ -1869,337 +3265,759 @@
     {
       "id": "doc_abraham_abe_descendants_tree",
       "title": "Descendants table — Abraham Abe Rapaport (Basia, 7 July 2026)",
-      "status": "needs_reading",
+      "type": "family_tree_chart",
+      "evidence": null,
+      "archive_reading": "Sent minutes after Basia reported that the Tarnow notarial records had convinced her Szabse was our ancestor. Not yet read against our tree — the next thing to do on the paternal line.",
+      "held_at": "Compiled by Basia from Tarnow-area records; sent to the family group 7 July 2026.",
+      "files": [
+        "Tablica potomków Abraham Abe Rapaport.pdf"
+      ],
+      "pages": 1
+    },
+    {
+      "id": "doc_abraham_abe_descendants_tree_2026",
+      "title": "Descendant chart of Abraham Abe Rapaport — Basia, 2026",
+      "type": "family_tree_chart",
+      "evidence": "documented",
+      "archive_reading": "THE CHART THAT NAMED MOSES SAUL’S PARENTS. Read 5 August 2026. It descends from Abraham Abe Rapaport and carries document thumbnails above most cards, so Basia is working from registers rather than from other people’s trees.\n\nThe card that matters: SZABSE RAPAPORT, born 30 January 1823 at Tarnów, died 1884, married to ITA FEIGA JAHR (died before 1897). On the sibling bar beneath them sits MOSES SAUL RAPAPORT, born about 1858, died 8 November 1933 at Tarnów, married to MENYCHA LEINER.\n\nEvery particular matches what this archive already held independently — the Tarnów death record 1933/152 gives the same death date, the same age and the same two parents, and we had Menukha’s maiden name Leiner from the Sambor marriage record of 1913, which Basia did not use. The chart adds two things we never had: Ita Feiga’s maiden name, and Szabse’s date of birth.\n\nAlso on that sibling bar, so also children of Szabse and Ita Feiga: LIEBE (b. 28 March 1847), MAJER (b. about 1849, d. 22 October 1920, married Cerka/Cecylia Margulies) and IZCHAK CHAIM (d. 15 August 1921, Kraków). Moses Saul had brothers and sisters, and this archive did not know their names an hour earlier.\n\nThe chart reaches further back still — Herschl Rapaport, born about 1792 at Tarnów, died 23 May 1874 — and outward across Tarnów and Kraków. It has NOT yet been read line by line.",
+      "held_at": "Compiled by Basia from Tarnów and Kraków registers using Ahnenblatt 2.99p; plotted at 914 × 297 mm — one board of a tree that runs five metres. Received 5 August 2026.",
+      "files": [
+        "basia_2026_08/abraham_abe_descendant_chart.pdf"
+      ],
       "pages": 1
     },
     {
       "id": "doc_alte_leja_turkel_marriage_1909_tarnopol",
       "title": "Marriage record — Alte Leja Rapaport × Jechiel Turkel, Tarnopol 1909",
-      "status": "verified",
+      "type": "marriage_record",
+      "evidence": null,
+      "archive_reading": "",
+      "held_at": "Tarnopol Jewish marriage register, file 1909/45 (Basia, Jun 2026).",
+      "files": [
+        "1909 Akt ślubu Alte Lea Rapaport Jechiel Turkel.pdf",
+        "M_1909_Alte_Lea_Rapaport_Jechiel_Turkel_TP.jpg"
+      ],
       "pages": 2
     },
     {
       "id": "doc_auschwitz_victim_188161",
       "title": "Auschwitz Museum victim record — Bernard Rapaport #188161",
-      "status": "verified",
+      "type": "auschwitz_victim_record",
+      "evidence": null,
+      "archive_reading": "Berisz / Bernard Rapaport listed as victim #188161 on transport #689 to Auschwitz. Located by Basia 25 May 2026. The specific date of arrival and death will be available from the museum record once accessed in detail.",
+      "held_at": "Auschwitz-Birkenau State Museum, Database of victims",
+      "files": [],
       "pages": 0
     },
     {
       "id": "doc_berisz_passport_application_1924",
       "title": "Berisch Rapaport — passport application + ID renewal (Stanisławów 1924-1927)",
-      "status": "verified",
+      "type": "passport_application",
+      "evidence": null,
+      "archive_reading": "DEFINITIVE PRIMARY DOCUMENT establishing Berisz / Bernard Rapaport's identity: born 30 July 1886 in Radomyśl Wielki, son of Moses, industrialist, resident of Stanisławów since 1918, address Kościuszki 4. Located by Basia at USHMM 25 May 2026; this is the source that corrected the earlier confusion with the Tarnów-1884 'Benzion' birth certificate (different family).",
+      "held_at": "USHMM, microfilm collection RG-31.064M, file 0075 (frames 375, 378, 379, 380). Located 25 May 2026 by Basia.",
+      "files": [
+        "RG-31.064M.0075.00000375-S.JPG",
+        "RG-31.064M.0075.00000378-S.JPG",
+        "RG-31.064M.0075.00000379-S.JPG",
+        "RG-31.064M.0075.00000380-S.JPG"
+      ],
       "pages": 4
     },
     {
       "id": "doc_berisz_swiadectwo_kwalifikacyjne_1924",
       "title": "'Świadectwo kwalifikacyjne' (Qualification Certificate) attached to a 1924 passport file — ⚠ likely a DIFFERENT Benzion Rapaport, not our Berisz",
-      "status": "flagged_different_family",
+      "type": "passport_application",
+      "evidence": null,
+      "archive_reading": "Basia (23 May 2026) transcribed this 'Świadectwo kwalifikacyjne' (qualification certificate) as identifying Berisz Rapaport, son of Mojżesz Saul Rapaport, born Tarnów 6 Aug 1884 as 'Benzion'. On 25 May 2026 Basia found the actual passport application of our Berisz Rapaport (Stanisławów, August 1924, USHMM RG-31.064M) which states he was born 30 July 1886 in Radomyśl Wielki — different city and year. The original 1924 'Świadectwo' transcribed here therefore belongs to a different Benzion Rapaport. Photo and details retained here for audit; should NOT be linked to our Berisz.",
+      "held_at": "Polish Galician archives — located 23 May 2026 by Basia. WA0001 = application form. WA0002 = passport photograph.",
+      "files": [
+        "IMG-20260523-WA0001.jpg",
+        "IMG-20260523-WA0002.jpg"
+      ],
       "pages": 2
     },
     {
       "id": "doc_bernard_dov_yv_pot",
       "title": "Yad Vashem Page of Testimony — Bernard Dov Rapaport (filed 1953)",
-      "status": "verified",
+      "type": "page_of_testimony",
+      "evidence": null,
+      "archive_reading": "Primary documentary confirmation of Berisz's parents (Moshe + Menukha) and Holocaust fate (Auschwitz). PoT year of birth (1888) differs from passport application (1886) — the passport is a contemporary primary document and is the more reliable source for date.",
+      "held_at": "Yad Vashem Central Database of Shoah Victims' Names, record file 90394",
+      "files": [
+        "Bernard Dov Rapaport.pdf"
+      ],
       "pages": 1
     },
     {
       "id": "doc_bolechow_dolina_map",
       "title": "Map: Bolechów / Dolina (Galicia)",
-      "status": "verified",
+      "type": "map",
+      "evidence": null,
+      "archive_reading": "",
+      "held_at": null,
+      "files": [
+        "Bolechów Dolina Bołochów.png"
+      ],
       "pages": 1
     },
     {
       "id": "doc_charlotte_birth_vienna_1915",
       "title": "Birth index — Charlotte (Lota) Rapaport, Vienna ~1915",
-      "status": "index_only",
+      "type": "birth_record_index",
+      "evidence": null,
+      "archive_reading": "",
+      "held_at": "Austrian collection via MyHeritage (Basia, 8 Jun 2026).",
+      "files": [
+        "U_1915_Charlotte_Rapaport_1915.png"
+      ],
       "pages": 1
     },
     {
       "id": "doc_david_birth_nadworna",
       "title": "Birth record — Dawid Mendel Rapaport, Nadwórna 1911",
-      "status": "needs_translation",
+      "type": "birth_record",
+      "evidence": null,
+      "archive_reading": "",
+      "held_at": "Jewish Historical Institute (Żydowski Instytut Historyczny / ŻIH), Warsaw — Bolechów district records / Galician Jewish vital records",
+      "files": [
+        "Dawid Mendel Rapaport birth Nadworna 1911.jpg"
+      ],
       "pages": 1
     },
     {
       "id": "doc_david_dp_card",
       "title": "Displaced Persons (DIPIS) card — David Rapaport, Brussels 1946",
-      "status": "verified",
+      "type": "dp_card",
+      "evidence": null,
+      "archive_reading": "",
+      "held_at": "Belgian Repatriation Commission, Ministry of Public Health and Family (later stamp 1969). Originally a DIPIS file from teczka DP3299, naming range RANKIS-RAPAPORT.",
+      "files": [
+        "Karta David Rapaport 1 strona.pdf",
+        "Karta David Rapaport 2 strona.pdf"
+      ],
       "pages": 2
     },
     {
       "id": "doc_facets_family_history",
       "title": "Facets of my Family History, Part 2 (Edward Gelles)",
-      "status": "verified",
+      "type": "genealogical_paper",
+      "evidence": null,
+      "archive_reading": "Edward Gelles's published genealogical research on the extended Griffel-Chajes family, which includes the Rapaport branch via Berisz × Rebeka Griffel.",
+      "held_at": "Edward Gelles, published genealogical paper (Balliol College Oxford archives)",
+      "files": [
+        "Facets of my Family History. Part 2.pdf"
+      ],
       "pages": 1
     },
     {
       "id": "doc_feige_birth_1911",
       "title": "Birth record — Feige (Tzipora) Weitzner, 1911",
-      "status": "verified",
+      "type": "birth_record",
+      "evidence": null,
+      "archive_reading": "",
+      "held_at": "Bolechów Jewish vital records (AGAD Warsaw)",
+      "files": [
+        "Feige 1911.png"
+      ],
       "pages": 1
     },
     {
       "id": "doc_feige_englander_marriage_1932",
       "title": "Marriage record — Feige Weitzner × Israel Englander, 1932 (Bolechów)",
-      "status": "needs_translation",
+      "type": "marriage_record",
+      "evidence": null,
+      "archive_reading": "Primary documentary record of Lusia's elder sister Feige (Tzipora) Weitzner marrying Israel Englander in 1932 in Bolechów.",
+      "held_at": "Polish vital records, located by Basia May 2026",
+      "files": [
+        "M_ 1932_Feige_Weitzner_Israel_Englander_B.jpg"
+      ],
       "pages": 1
     },
     {
       "id": "doc_freida_amalia_marriage_1919",
       "title": "Marriage register Tarnów 1919, entry 40 — Freida Amalia Rapaport (widow) × Markus Elias Kleinbaum, 8 June 1919",
-      "status": "verified",
+      "type": "marriage_record",
+      "evidence": null,
+      "archive_reading": "Second marriage of Berisz's sister Freida Amalia Rapaport. Read via Claude vision OCR (Tesseract handled handwriting poorly). Confirms her widowed status as of June 1919 — her first husband (likely a Nussbaum, since her son Zwi Ayalon kept that surname) had died by then, possibly in WWI.",
+      "held_at": "Archiwum Narodowe w Krakowie, Oddział w Tarnowie — Tarnów Jewish marriage register, page including entries 40-42",
+      "files": [
+        "1919 Nussbaum Rapaport T.jpg",
+        "1919 Akt ślubu Freida Amalia Rapaport.pdf"
+      ],
       "pages": 2
     },
     {
       "id": "doc_gelles_horowitz_chajes",
       "title": "Gelles — Horowitz–Chajes connections",
-      "status": "verified",
+      "type": "genealogical_paper",
+      "evidence": null,
+      "archive_reading": "Edward Gelles's research on the Horowitz and Chajes rabbinical families. Sara Matel Chajes (Rebeka's mother) was from this line.",
+      "held_at": "Edward Gelles, published genealogical paper",
+      "files": [
+        "GellesHorowitzChajes.pdf"
+      ],
       "pages": 1
     },
     {
       "id": "doc_gelles_shapiro_friedman",
       "title": "Gelles — Shapiro–Friedman connections",
-      "status": "verified",
+      "type": "genealogical_paper",
+      "evidence": null,
+      "archive_reading": "Edward Gelles's research on the Shapiro and Friedman rabbinical families and their connections to the Griffel-Chajes-Rapaport network.",
+      "held_at": "Edward Gelles, published genealogical paper",
+      "files": [
+        "GellesShapiroFriedman.pdf"
+      ],
       "pages": 1
     },
     {
       "id": "doc_griffel_dawid_descendants_tree",
       "title": "Descendants table of Dawid Griffel (Basia, 24 May 2026)",
-      "status": "verified",
+      "type": "family_tree_chart",
+      "evidence": null,
+      "archive_reading": "Complete maternal-line tree: Dawid Griffel + Tauba → their son Lajzor Griffel (*1850, d.1918) m. 1892 Nadwórna → Sara Matel Chajes (*1851.03.05, d.1940), with 10+ children including Rivka (b.1888) who married Berish Rapaport at Olchowce, woj. lwowskie, in 1908. Connects to well-known Griffel descendants: Yehuda Nir (1930-2014 Manhattan), Sarah Maslin Nir (NYT journalist), Edward Gelles (genealogist).",
+      "held_at": "Family-built genealogy chart compiled by Basia 24 May 2026, integrating Edward Gelles's published Griffel-of-Nadworna pedigree with newly-found Polish archival data.",
+      "files": [
+        "Tablica potomkow Dawid Griffel.pdf"
+      ],
       "pages": 1
     },
     {
       "id": "doc_ipn_passportization_paper",
       "title": "NKVD repressions against residents of the border zone, 1939-1941 (IPN research paper 6066)",
-      "status": "needs_translation",
+      "type": "research_paper",
+      "evidence": null,
+      "archive_reading": "IPN academic paper covering Soviet repressions in the border zone with Germany 1939-1941. Includes a detailed section on 'Passportization' — the forced Soviet passport campaign that all residents of border towns like Przemyśl had to navigate. Basia shared this paper as historical CONTEXT — Leah was briefly in Soviet-occupied Przemyśl in 1939, and this paper documents what life under that occupation looked like for everyone living there. The paper also informs a planned formal IPN application for any Rapaport family records held by the Polish Institute of National Remembrance (see h_ipn_application). Reading this paper helps the family understand the conditions David and Leah lived through — both Soviet and Nazi occupations — before they were able to escape and reach Brussels in 1946.",
+      "held_at": "Polish Institute of National Remembrance (IPN), shared by Basia 17 May 2026 via WhatsApp",
+      "files": [
+        "represje-nkwd-wobec-mieszkancow-strefy-przygranicznej-1939-1941_6066.pdf"
+      ],
       "pages": 1
     },
     {
       "id": "doc_jente_marriage_1920",
       "title": "Marriage register Tarnów 1920, entry 98 — Jente Rapaport (widow) × Mendel Horowitz of Sokal, 12 December 1920",
-      "status": "verified",
+      "type": "marriage_record",
+      "evidence": null,
+      "archive_reading": "Second marriage of Berisz's sister Jente Rapaport. CRITICAL: explicitly names her parents as 'Moses Rapaport and Menucha' — direct primary-source corroboration of our apical couple.",
+      "held_at": "Archiwum Narodowe w Krakowie, Oddział w Tarnowie — Tarnów Jewish marriage register, page including entries 97-99",
+      "files": [
+        "1920 Horowitz Rapaport T.jpg",
+        "1920 Akt ślubu Jente Rapaport i Meschulem Horowitz.pdf"
+      ],
       "pages": 2
     },
     {
       "id": "doc_jewishgen_ten_ghettos_lotte_rapaport",
       "title": "Ancestry / JewishGen — Lotte Rapaport in Krakow ghetto 1940 (East Europe Ten Ghettos DB)",
-      "status": "verified",
+      "type": "ghetto_record",
+      "evidence": null,
+      "archive_reading": "Earliest documented record of our Lota Rapaport under Nazi rule. The birth year 1915 in this Ancestry record matches the family's records exactly (per Berisz's 1924 passport, Lota = Lottr age 8 → born ~1915-1916). The Krakow ghetto registration 1940 predates by ~2 years the betrayal and arrest in Lwów that Lusia's memoir describes. Full source record (parents' names, spouse, address, occupation) should be retrieved via the Ancestry citation Reel 13 / List 177 / Entry 72.",
+      "held_at": "JewishGen.org Volunteers, comp. 'East Europe, Registers and Listings from Ten Jewish Ghettos, 1939-1942' [database on-line]. Provo, UT: Ancestry.com Operations Inc, 2008. Original data: Lists of Jews in 10 ghettos including Balta (1941), Daugavpils (1941), Kozienice (1939-1942), Kraków (1940), Łódź (1940-1944), Lublin (1942), Lvov (1942-1945), Pinsk (1941-1942), Tirgu Mures (1945), Vilnius (1942). Discovered by Dana Rapaport 25 May 2026.",
+      "files": [
+        "IMG-20260525-WA0015.jpg",
+        "IMG-20260525-WA0016.jpg"
+      ],
       "pages": 2
     },
     {
       "id": "doc_krynica_1904_emilia_rapaport",
       "title": "Krynica spa guest list, 1904 — Emilia (Menukha) Rapaport",
-      "status": "verified",
+      "type": "press_resort_list",
+      "evidence": null,
+      "archive_reading": "",
+      "held_at": "Krynica spa guest register, 1904, no. 11 (Basia, 8 Jun 2026).",
+      "files": [
+        "103378_Krynica_1904_nr_11_PDF.pdf"
+      ],
       "pages": 1
     },
     {
       "id": "doc_lea_ckzp",
       "title": "CKŻP post-war registration — Lusia (Lea) Rappoport, née Weitzner (1916)",
-      "status": "verified",
+      "type": "ckzp_registration",
+      "evidence": null,
+      "archive_reading": "",
+      "held_at": "Central Committee of Polish Jews (CKŻP) — 'Karta informacyjna o osobach ocalałych', Wydział Ewidencji i Statystyki. Filed at Komitet Katowice, 1 July 1946. Card Nr 151738 (red index 3564). This is the long-awaited Lusia ŻIH/CKŻP registration card (research question h_zip_documents). Uploaded 18 May 2026 (upload aYoirGSgaPvA18H9qSAm), combined PDF with Szymon's card; Gemini auto-verification was blocked (RECITATION) so it was processed by CC on 1 June 2026.",
+      "files": [
+        "Lea and Shimon .pdf"
+      ],
       "pages": 1
     },
     {
       "id": "doc_lea_dawid_marriage_1935",
       "title": "Marriage record — Lea Weitzner × Dawid Mendel Rapoport, 1935 (Bolechów)",
-      "status": "needs_translation",
+      "type": "marriage_record",
+      "evidence": null,
+      "archive_reading": "Primary documentary record of David Memek's marriage to Leah Lusia Weitzner in 1935. Confirms Lusia's memoir account of their marriage.",
+      "held_at": "Polish vital records, located by Basia May 2026",
+      "files": [
+        "M_1935_Lea_Weitzner_Dawid_Mendel_Rapoport_B.jpg"
+      ],
       "pages": 1
     },
     {
       "id": "doc_lea_rapaport_divorce_1941",
       "title": "Certificate of Divorce No. H 13898 — Lea bat Shimon HaKohen Rapaport × Michael Sigal, Petach Tikvah 16 Sep 1941",
-      "status": "our_family_confirmed",
+      "type": "court_record",
+      "evidence": null,
+      "archive_reading": "⚠ NOT OUR FAMILY (most likely). This certificate of divorce, issued 16 September 1941 in Petach Tikvah, Mandatory Palestine, dissolves the marriage of Lea bat Shimon HaKohen Rapaport (age 29) and Michael Sigal (age 29, baker). Lea's father is named Shimon HaKohen Rapaport — but our paternal-line Shimon was a Griffel ancestor, not a Rapaport, and our Lusia (Lea Weitzner-Rapaport) was hiding in Lwów under the alias 'Maria Cizlik' in 1941. This Lea Rapaport (b. ~1912) is therefore a different person, from a different Rapaport-HaKohen rabbinical branch. The CC-Cohen patronymic suggests she may still be a distant cousin within the broader Rapoport-Kohen rabbinical dynasty, but no proximate link to our family has been established.",
+      "held_at": "Rabbinate of Petach Tikvah, Mandatory Palestine, register of divorce. Form: 'Certificate of Divorce / תעודת גרושין'. Number: H 13898. Shared by Basia May 2026 via WhatsApp.",
+      "files": [
+        "1941 rozwod Lea Rapaport.jpg"
+      ],
       "pages": 1
     },
     {
       "id": "doc_leah_birth_bolechow_1913",
       "title": "Birth record — Lea Weitzner, Bolechów 1913",
-      "status": "verified",
+      "type": "birth_record",
+      "evidence": null,
+      "archive_reading": "",
+      "held_at": "Bolechów Jewish vital records, AGAD Warsaw (former Eastern Borderlands collection) — gmina wyznaniowa Bolechów, powiat Dolina, księga metrykalna urodzeń 1907-1918",
+      "files": [
+        "Lea 1913.png"
+      ],
       "pages": 1
     },
     {
       "id": "doc_leizor_griffel_auction_1938",
       "title": "Auction notice — Leizor Griffel's heirs, Nadwórna 28 Nov 1938",
-      "status": "verified",
+      "type": "court_notice",
+      "evidence": null,
+      "archive_reading": "Primary-document confirmation of Rebeka Rapaport née Griffel's parentage and full sibling roster. Names all 10 Griffel siblings (matching Edward Gelles's pedigree) plus 7 Grünfeld co-heirs who were descendants of one of Leizor's daughters who married a Grünfeld (likely Chaya Griffel + Shlomo Gruenfeld per Gelles entry, with Grünfeld = Gruenfeld). Documents the family's pre-war wealth — 127,294 zł property in 1938 is substantial. Property at ul. Śródmieście (central Nadwórna) confirms Leizor's town-center residence.",
+      "held_at": "Polish legal/business press, 13 September 1938 (Lwów dateline). Posted by Akcyjny Bank Hipoteczny (Joint-Stock Mortgage Bank), reference 6935-p.",
+      "files": [
+        "IMG-20260520-WA0014.jpg"
+      ],
       "pages": 1
     },
     {
       "id": "doc_liege_jews_list_1941",
       "title": "Census of Jews in Liège, 1941 — Szewa Horowitz",
-      "status": "verified",
+      "type": "registry_list",
+      "evidence": null,
+      "archive_reading": "",
+      "held_at": "Belgian 1941 register of Jews, Liège (Basia, Jun 2026).",
+      "files": [
+        "Szewa Horowitz Liege 1941.pdf"
+      ],
+      "pages": 1
+    },
+    {
+      "id": "doc_lurie_descendants_of_shach",
+      "title": "The Lurie Legacy — Descendants of the Shach, with Basia’s 2026 overlay",
+      "type": "genealogical_paper",
+      "evidence": "hypothesis",
+      "archive_reading": "Basia’s marks run our line up into a published rabbinical genealogy. Highlighted in pink and named on the sheet: MOSES SAUL, and IZCHAK MAJER CHAIM — the same brothers who stand beside Moses Saul on her own descendant chart. Above them she highlights SHABTAI, A.B.D. Dombrowa, died 1897, with an arrow to the Weidenfeld sheet; and higher still ABRAHAM ABALE, A.B.D. Tarnow, died 1872, the head of her chart. The ascent continues through Isaac Rappaport, A.B.D. Pinczow (1741-1774), to SHABTAI HaKOHEN — the SHaCH, 1621-1662 — and across to Saul WAHL and Israel KATZENELLENBOGEN.\n\nHOW THIS ARCHIVE TREATS IT. The documented line stops at Szabse and Ita Feiga. Everything above them is a published compilation, and the Davidic descent at the top is TRADITION — held exactly as the Rapaport-Kohen priestly lineage is held: recorded, attributed, and never stated as proven descent. It is kept deliberately apart from the part we can put a record behind, so the documented part cannot be weakened by association if the traditional part is ever challenged.\n\nNOTE THE CONFLICT: Rosenstein’s Shabtai died 1897, Basia’s own chart has Szabse dying 1884. See h_szabse_death_year.",
+      "held_at": "Dr Neil Rosenstein, \"The Lurie Legacy: The House of Davidic Royal Descent\" (2004), Appendix B, pages 342–343. Pink highlighting added by Basia in 2026, keyed \"Individuals and connections confirmed in the Rapaport family tree 2026\".",
+      "files": [
+        "basia_2026_08/lurie_descendants_of_shach.pdf"
+      ],
+      "pages": 1
+    },
+    {
+      "id": "doc_lurie_weidenfeld_family",
+      "title": "The Lurie Legacy — the Weidenfeld family, with Basia’s 2026 overlay",
+      "type": "genealogical_paper",
+      "evidence": "hypothesis",
+      "archive_reading": "Headed by SHABTAI RAPPAPORT, A.B.D. Dombrowa, died 1897 — the man Basia marks as our ancestor. Almost the whole descent below him is highlighted as confirmed against the Rapaport tree of 2026: his daughter Rachel (d. 1914), who married Jacob WEIDENFELD (1840-1894), A.B.D. Grzymalow, author of the responsa \"Kochav MiYaakov\"; Meir, A.B.D. Lukow (d. 1920); Isaac Haim, A.B.D. Ostrowiec Swietokrzyski (d. 1921), who married a daughter of Zeev Nachum BORNSTEIN — the card Basia labels MARGULESA; and onward to Nachum (1874-1939), the Chazon Nachum, A.B.D. Dombrowa, who \"perished with his family\", and to DovBerish of Trzebin (1881-1965), the Chebiner Rov.\n\nIf the identification holds, our paternal line runs into a dynasty of rabbinical court heads across Galicia — and into the Holocaust, repeatedly and by name. IT DEPENDS ENTIRELY on whether the 1897 Shabtai is the 1884 Szabse. Unresolved; see h_szabse_death_year.",
+      "held_at": "Dr Neil Rosenstein, \"The Lurie Legacy\" (2004), Appendix B, page 346. Pink highlighting by Basia, 2026.",
+      "files": [
+        "basia_2026_08/lurie_weidenfeld_family.pdf"
+      ],
       "pages": 1
     },
     {
       "id": "doc_lusia_memoir",
       "title": "The Story of Lusia (Sipura shel Lusia)",
-      "status": "verified",
+      "type": "memoir",
+      "evidence": null,
+      "archive_reading": "Lusia (Leah) Rapaport née Weitzner's memoir, dictated and compiled in 1986 by her granddaughter's teacher Esther Weiss. The primary historical document for Lusia's life from childhood in Bolechów through marriage in Muszyna (Feb 1938), survival under Nazi occupation in Lwów with false identities, escape with David and Shimon, post-war Brussels and the journey to Israel. Settled in Haifa, Moriah Street 93. OCR'd 2026-05-20 via Google Cloud Vision (~70k Hebrew chars). Translated to English and Polish by Claude Haiku 4.5 (batched). PRIMARY SOURCE for resolving H1 Mosina = Muszyna, and confirming David's wooden-wagon escape, Lota's existence, the Legionów 24 address, and the marriage date Feb 1938.",
+      "held_at": "Family — scanned PDF uploaded by Dalia, Dana, Doron and Daniel 20 May 2026. 90 pages, Hebrew, with embedded photos and dedication page. Compiled in 1986 by Esther Weiss based on Lusia Rapaport's first-person recollections, with extensive multi-session interviews recorded by Esther's pen and later edited by Moshe Goter.",
+      "files": [
+        "lusia_memoir.pdf"
+      ],
       "pages": 1
     },
     {
       "id": "doc_meshulem_horowitz_records",
       "title": "Yad Vashem record and 1892 birth record — Meschulem Horowitz, Jente’s husband",
-      "status": "verified",
+      "type": "page_of_testimony",
+      "evidence": null,
+      "archive_reading": "Jente’s second husband, of Sokal, named on the Tarnów 1920 marriage register as son of Pinches Horowitz. Basia eliminated a different Meschulem Horowitz circulating on Geni (b.1897 Beszterce, second wife Rivka Hager) on document grounds — that family must not be grafted onto ours.",
+      "held_at": "Yad Vashem Central Database; 1892 birth record sent by Basia, June 2026.",
+      "files": [
+        "Meshulam Horowitz Yad Vashem.jpg",
+        "U 1892 Meshulim Horowitz.jpg"
+      ],
       "pages": 2
     },
     {
       "id": "doc_mojzesz_rapaport_death_1933_tarnow",
       "title": "Death record — Mojżesz Rapaport, Tarnów 1933 (candidate = our Moses Saul)",
-      "status": "candidate_identity",
+      "type": "death_record",
+      "evidence": null,
+      "archive_reading": "",
+      "held_at": "Tarnów Jewish death register, file 1933/152 (Basia, Jun 2026).",
+      "files": [
+        "Z_1933_Mojżesz Rapaport_T.jpg"
+      ],
       "pages": 1
     },
     {
       "id": "doc_moses_birth_1916",
       "title": "Birth record — Moses (Mojzesz) Weitzner, 1916",
-      "status": "verified",
+      "type": "birth_record",
+      "evidence": null,
+      "archive_reading": "",
+      "held_at": "Bolechów Jewish vital records (AGAD Warsaw)",
+      "files": [
+        "Mojzesz.png"
+      ],
       "pages": 1
     },
     {
       "id": "doc_moses_rappaport_descendant_list",
       "title": "Descendant list — Moses Rappaport",
-      "status": "needs_reading",
+      "type": "family_tree_chart",
+      "evidence": null,
+      "archive_reading": "A descendant list for a Moses Rappaport. Whether this is our Moses Saul of Radomyśl Wielki is precisely the question — read it before treating any of it as ours.",
+      "held_at": "Sent to the family group, June 2026.",
+      "files": [
+        "Descendant List of Moses Rappaport.docx"
+      ],
       "pages": 1
     },
     {
       "id": "doc_moses_saul_descendants_tree",
       "title": "Descendants table of Moses Saul Rapaport (Basia, 31 May 2026)",
-      "status": "verified",
+      "type": "family_tree_chart",
+      "evidence": null,
+      "archive_reading": "AUTHORITATIVE FAMILY TREE for the paternal Rapaport line: documents Moses Saul Rapaport as patriarch, his 5 children (all born Radomyśl Wielki), and their descendants including David Memek's first cousin Zwi Ayalon Nussbaum (b.1919 Przemyśl, survived to Israel d.2001 Haifa). The Turkel branch (Alte Leja's descendants) lived in Vienna; some perished in the Holocaust (Israel Menachem d.1942 Lwów; Siegfried d.1945 Belgium); others survived (Mordechai/Max d.1997, Rachel/Rosie d.1999).",
+      "held_at": "Family-built genealogy chart compiled by Basia 31 May 2026 from primary documents and family research. Apical couple: Moses Saul Rapaport (merchant) + Menukha. Five children all born in Radomyśl Wielki: Alte Leja (1882, m. Turkel, Vienna branch), Berish (1886, our line), Jente (1887), Freida Amalia (1888, d. Przemyśl 1942, descendants Nussbaum + Rosenfeld), Rebeka (1896, Austria).",
+      "files": [
+        "6_Tablica potomkow Moses Saul Rapaport.pdf",
+        "Tablica potomkow Moses Saul Rapaport 2.pdf"
+      ],
       "pages": 2
     },
     {
       "id": "doc_moshe_rapaport_descendants_table",
       "title": "Descendants table of Moshe Rapaport (early version, superseded by 'Moses Saul Rapaport' tree)",
-      "status": "superseded",
+      "type": "family_tree_chart",
+      "evidence": null,
+      "archive_reading": "Original family-built genealogy chart shared by Basia on 23 May 2026. Superseded by the more detailed 'Tablica potomków Moses Saul Rapaport' shared 31 May 2026.",
+      "held_at": "Shared by Basia 23 May 2026 via WhatsApp. Origin appears to be a family-built genealogy tool (Geni / MyHeritage style export with standard birth/death card layout). Built before the May 2026 Tarnów + Nadwórna breakthroughs — uses 'Mosina' as universal placeholder.",
+      "files": [
+        "Tablica potomków Moshe Rapaport.pdf"
+      ],
       "pages": 1
     },
     {
       "id": "doc_muszyna_1936_photos",
       "title": "Muszyna 1936 — period photographs",
-      "status": "verified",
+      "type": "period_photographs",
+      "evidence": null,
+      "archive_reading": "Set of 1936 period photographs that show what Muszyna looked like during the years Lusia ran the Willa Helin hotel. Provides visual context for the Rapaport-Griffel family's pre-war life in the resort town.",
+      "held_at": "Polish archival sources shared by Basia 20 May 2026 via WhatsApp.",
+      "files": [
+        "IMG-20260520-WA0006.jpg",
+        "IMG-20260520-WA0007.jpg",
+        "IMG-20260520-WA0024.jpg",
+        "IMG-20260520-WA0025.jpg",
+        "IMG-20260520-WA0026.jpg",
+        "IMG-20260520-WA0027.jpg",
+        "IMG-20260520-WA0028.jpg"
+      ],
       "pages": 7
     },
     {
       "id": "doc_newspaper_1912_krynica",
       "title": "Polish press 1912 — Krynica guest register listing Regina Rapaport",
-      "status": "verified",
+      "type": "press_record",
+      "evidence": null,
+      "archive_reading": "",
+      "held_at": "Polish digital press archive (NDIGCZAS), 1912 newspaper page 7",
+      "files": [
+        "NDIGCZAS002207_1912_011.pdf"
+      ],
       "pages": 1
     },
     {
       "id": "doc_nussbaum_palestinian_citizenship_1945",
       "title": "Application for Palestinian Citizenship — Hirsch Herman Nussbaum and Inge née Rosenbusch, Haifa 1945 (31 pages)",
-      "status": "verified",
+      "type": "citizenship_application",
+      "evidence": null,
+      "archive_reading": "Read page by page on 3 August 2026. It is a Government of Palestine, Department of Migration file: APPLICATION FOR PALESTINIAN CITIZENSHIP, headquarters serial 90563, held by the Israel State Archives (גנזך המדינה) in the Mandate Government series מ, file 3211/050.\n\nAPPLICANT: NUSSBAUM, Hirsch Herman. Wife: Inge, maiden name Rosenbusch.\n\nWhat the file states:\n  • Applicant's Polish passport no. 118839, issued at PRZEMYŚL on 21 September 1938\n  • Wife's German passport no. 94, issued at BORKEN on 10 July 1935\n  • First entry into Palestine: 12 October 1938; immigrant registration HA/5934/B of the same date\n  • Wife and children registered HA/4302/A on 22 August 1938\n  • Marriage solemnised at HAIFA on 12 June 1941 — Haifa Jewish Community Rabbinical Office certificate H-49343 of 15 June 1941\n  • A son, MORDECHAI YOSEF, born at Haifa on 25 April 1943 — certificate 1591/43 of 14 May 1943\n  • Fee of 250 mils, receipt 715052 of 29 October 1945; application made at Haifa\n  • Approved 29 November 1945; naturalisation certificate no. 48628\n  • Both passports withdrawn at Haifa in 1946\n\nWHY IT MATTERS, AND WHAT IS NOT YET PROVEN. Our tree holds Zwi (Hirsch) Nussbaum, born in Przemyśl in 1919 — father of Yehudit Shlomit Ayalon, the living cousin found in June 2026, who is named after Freida, Berisz's sister. Zwi is Hirsch. A Polish passport issued at Przemyśl in September 1938 fits a nineteen-year-old from that town leaving for Palestine, and he entered three weeks later.\n\nThat is a strong lead and it is NOT a proof. The pages read so far carry no birth date and no parents' names for the applicant, which are what would settle it. The wife here is Inge Rosenbusch and the recorded child is a son, Mordechai Yosef; we do not know the name of Yehudit Shlomit's mother. Nussbaum is not a rare name. He is therefore NOT attached to any person in the tree until the particulars page is read.\n\nNEXT: the remaining pages of the file almost certainly carry the applicant's declaration with date and place of birth and his father's name. Reading those decides it either way.",
+      "held_at": "Israel State Archives (גנזך המדינה), Mandate Government series מ, file 3211/050. Government of Palestine, Department of Migration, HQ serial 90563. Arrived in the WhatsApp export of 7 July 2026 with no caption; identified 3 August 2026.",
+      "files": [
+        "0001-000.jpg",
+        "0002-000.jpg",
+        "0003-000.jpg",
+        "0004-000.jpg",
+        "0005-000.jpg",
+        "0006-000.jpg",
+        "0007-000.jpg",
+        "0008-000.jpg",
+        "0009-000.jpg",
+        "0010-000.jpg",
+        "0011-000.jpg",
+        "0012-000.jpg",
+        "0013-000.jpg",
+        "0014-000.jpg",
+        "0015-000.jpg",
+        "0016-000.jpg",
+        "0017-000.jpg",
+        "0018-000.jpg",
+        "0019-000.jpg",
+        "0020-000.jpg",
+        "0021-000.jpg",
+        "0022-000.jpg",
+        "0023-000.jpg",
+        "0024-000.jpg",
+        "0025-000.jpg",
+        "0026-000.jpg",
+        "0027-000.jpg",
+        "0028-000.jpg",
+        "0029-000.jpg",
+        "0030-000.jpg",
+        "0031-000.jpg"
+      ],
       "pages": 31
     },
     {
       "id": "doc_rapaport_institute_tree",
       "title": "Descendants chart — Moshe Rapaport (Rapaport Research Institute)",
-      "status": "unverified",
+      "type": "family_tree_reference",
+      "evidence": null,
+      "archive_reading": "",
+      "held_at": "Rapaport Research Institute, Jerusalem (per Doron, 06 May)",
+      "files": [
+        "Tablica potomków Moshe Rapaport.pdf"
+      ],
       "pages": 1
     },
     {
       "id": "doc_rebeka_birth_nadworna",
       "title": "Birth record — Rebeka Griffel, Nadwórna 1888",
-      "status": "needs_translation",
+      "type": "birth_record",
+      "evidence": null,
+      "archive_reading": "",
+      "held_at": "Jewish Historical Institute (ŻIH), Warsaw — found by Ms. Kasia, 15 May 2026",
+      "files": [
+        "Rebeka Griffel birth Nadworna 1888.jpg"
+      ],
       "pages": 1
     },
     {
       "id": "doc_rebeka_younger_marriage_1923",
       "title": "Marriage register Tarnów 1923, entry 101 — Rebeka Rapaport (b. Radomyśl Wielki) × Sane Zylberfenig of Płońsk, 4 September 1923",
-      "status": "verified",
+      "type": "marriage_record",
+      "evidence": null,
+      "archive_reading": "First marriage of Berisz's youngest sister Rebeka (b.1896, NOT to be confused with Berisz's wife Rebeka née Griffel). Explicitly confirms her birth at Radomyśl Wielki AND names her parents as 'Moses Rapaport and Menucha'. Third independent primary-source confirmation of our apical couple.",
+      "held_at": "Archiwum Narodowe w Krakowie, Oddział w Tarnowie — Tarnów Jewish marriage register, page including entries 100-102",
+      "files": [
+        "1923 Zylberfenig Rapaport T.jpg",
+        "1923 Akt ślubu Rebeca Rapaport Sane Zylberfenig.pdf"
+      ],
       "pages": 2
     },
     {
       "id": "doc_regina_rivka_yv_pot",
       "title": "Yad Vashem Page of Testimony — Regina Rivka Rapaport (filed 1953)",
-      "status": "verified",
+      "type": "page_of_testimony",
+      "evidence": null,
+      "archive_reading": "Primary documentary confirmation that Rebecca (Regina Rivka née Griffel) lived in Przemyśl before and during the war, and perished in the Shoah. Year of birth (1892) differs from the Griffel pedigree (1888) — likely an error by the 1953 submitter.",
+      "held_at": "Yad Vashem Central Database of Shoah Victims' Names, record file 90395",
+      "files": [
+        "Regina Rivka Rapaport.pdf"
+      ],
       "pages": 1
     },
     {
       "id": "doc_report_basia_13may",
       "title": "Research report — Basia, 13 May 2026",
-      "status": "verified",
+      "type": "research_report",
+      "evidence": null,
+      "archive_reading": "",
+      "held_at": null,
+      "files": [
+        "13_05_2026_ Rapaport.pdf"
+      ],
       "pages": 1
     },
     {
       "id": "doc_report_basia_15may",
       "title": "Research report — Basia, 15 May 2026 (Nadwórna breakthrough)",
-      "status": "verified",
+      "type": "research_report",
+      "evidence": null,
+      "archive_reading": "",
+      "held_at": null,
+      "files": [
+        "15_05_2026_Rapaport.pdf"
+      ],
       "pages": 1
     },
     {
       "id": "doc_saul_horowitz_descendants_tree",
       "title": "Descendants table — Saul Horowitz (Basia, June 2026)",
-      "status": "needs_reading",
+      "type": "family_tree_chart",
+      "evidence": null,
+      "archive_reading": "The Horowitz side entered the family twice — Jente married Meschulem Isacher Horowitz of Sokal in 1920, and her daughter Szewa later married a Türkel, the family Alte Leja had married into. Not yet read against our tree.",
+      "held_at": "Compiled by Basia; sent to the family group June 2026.",
+      "files": [
+        "Tablica potomków Saul Horowitz.pdf"
+      ],
       "pages": 1
     },
     {
       "id": "doc_schabse_myheritage_2026",
       "title": "MyHeritage record — Schabse Rapaport with Figa/Yete and their son Yitzhak Haim",
-      "status": "needs_verification",
+      "type": "family_tree_reference",
+      "evidence": null,
+      "archive_reading": "Arrived the same evening as Basia’s Dąbrowa rabbinate findings and entirely independently of them. Dana: \"In Hebrew the translation is schabse and figa/yete and their son yitzhak Haim.\" Evidence toward h_moses_saul_parents. The second image is the record Dana read as a brother — \"This is his brother so we might relat !!\" — which is not yet established.",
+      "held_at": "MyHeritage. Brought to the group by Dana on 7 July 2026, after another researcher contacted her about Schabse Rapaport.",
+      "files": [
+        "IMG-20260707-WA0020.jpg",
+        "IMG-20260707-WA0021.jpg"
+      ],
       "pages": 2
     },
     {
       "id": "doc_shmuel_rosenfeld_yv",
       "title": "Yad Vashem — Shmuel Rosenfeld",
-      "status": "needs_reading",
+      "type": "page_of_testimony",
+      "evidence": null,
+      "archive_reading": "Rosenfeld reaches us through Freida Amalia’s line — her children Michael and Rachel Rosenfeld were flagged for a Yad Vashem search in the June ingest. The connection to this particular record is not yet established.",
+      "held_at": "Yad Vashem Central Database of Shoah Victims Names; sent to the group June 2026.",
+      "files": [
+        "Yad Vashem Shmuel Rosenfeld.pdf"
+      ],
       "pages": 1
     },
     {
       "id": "doc_szewa_horowitz_birth_1920",
       "title": "Birth record — Szewa Horowitz, Tarnów 1920",
-      "status": "verified",
+      "type": "birth_record",
+      "evidence": null,
+      "archive_reading": "",
+      "held_at": "Tarnów Jewish birth register (Basia, Jun 2026).",
+      "files": [
+        "U_1920_Szewa Horowitz_T.jpg"
+      ],
       "pages": 1
     },
     {
       "id": "doc_szewa_markus_turkel_marriage_1946_liege",
       "title": "Marriage record — Markus Türkel × Szewa Horowitz, Liège 1946 (No. 1142)",
-      "status": "verified",
+      "type": "marriage_record",
+      "evidence": null,
+      "archive_reading": "",
+      "held_at": "État-civil de Liège, Belgium, acte No. 1142 / II42 (translated by Kasia's daughter; Basia, Jun 2026).",
+      "files": [
+        "Liege Szewa Horowitz marriage.pdf"
+      ],
       "pages": 1
     },
     {
       "id": "doc_szymon_ckzp",
       "title": "CKŻP post-war registration — Szymon Rapaport (1937)",
-      "status": "verified",
+      "type": "ckzp_registration",
+      "evidence": null,
+      "archive_reading": "",
+      "held_at": "Central Committee of Polish Jews (Centralny Komitet Żydów w Polsce, CKŻP) — 'Karta informacyjna o osobach ocalałych' (information card on survivors), Wydział Ewidencji i Statystyki. Filed at Komitet Katowice, 1 July 1946. Card Nr 151337 (red index 2665). Now re-read from the full scan uploaded 18 May 2026 (upload aYoirGSgaPvA18H9qSAm).",
+      "files": [
+        "Szymon Rapaport CKŻP.png",
+        "Szymon Rapaport CKŻP 2.png",
+        "Rapaport Szymon.jpg"
+      ],
       "pages": 3
     },
     {
       "id": "doc_szymon_paja_marriage_1913_sambor",
       "title": "Marriage record — Szymon Rapaport × Paja Laub, Sambor 1913",
-      "status": "verified",
+      "type": "marriage_record",
+      "evidence": null,
+      "archive_reading": "",
+      "held_at": "Sambor Jewish marriage register (via MyHeritage / Basia, Jun 2026).",
+      "files": [
+        "U 1912 Lea Rapaport.jpg",
+        "M 1913 Simon Rapaport.jpg"
+      ],
       "pages": 2
     },
     {
       "id": "doc_turkel_descendant_list",
       "title": "Descendant list — Arieh Leib Türkel",
-      "status": "needs_reading",
+      "type": "family_tree_chart",
+      "evidence": null,
+      "archive_reading": "The Turkel line Alte Leja married into at Tarnopol in 1909. Bears directly on the open question of whether the Markus Türkel of the Liège 1946 marriage is the same man as Mordechai \"Max\" Levi-Turkel.",
+      "held_at": "Sent to the family group, June 2026.",
+      "files": [
+        "Descendant List of Arieh Leib Türkel.docx"
+      ],
       "pages": 1
     },
     {
       "id": "doc_zvi_ayalon_nussbaum_photo",
       "title": "Photo — Zwi (Hirsch Heschel) Ayalon Nussbaum, David Memek's first cousin",
-      "status": "verified",
+      "type": "photograph",
+      "evidence": null,
+      "archive_reading": "Photograph of Zwi Ayalon (born Nussbaum) — David Memek's paternal first cousin, b.1919 Przemyśl, d.2001 Haifa. Son of Berisz's sister Freida Amalia Rapaport.",
+      "held_at": "Israeli family archive",
+      "files": [
+        "Zvi Hirsch Heschu Ayalon (Nussbaum).jfif"
+      ],
       "pages": 1
     },
     {
       "id": "doc_zwi_nussbaum_birth_1919",
       "title": "Birth record — Zwi (Hirsch) Nussbaum, Przemyśl 1919 (with legitimation note)",
-      "status": "verified",
+      "type": "birth_record",
+      "evidence": null,
+      "archive_reading": "",
+      "held_at": "Przemyśl Jewish birth register (Basia, Jun 2026).",
+      "files": [
+        "1919 Akt urodzenia Zwi Nussbaum.pdf"
+      ],
       "pages": 1
     },
     {
       "id": "doc_zydzi_w_muszynie",
       "title": "Jews in Muszyna and the Holocaust (Rafał Żebrowski)",
-      "status": "needs_translation",
+      "type": "research_paper",
+      "evidence": null,
+      "archive_reading": "Describes the Muszyna sawmill (attributed to 'Segal-Żupnik-Wilf' — a holding name for Zygmunt Griffel's Lwów company per 1938 Przegląd Drzewny). The sawmill was converted into a concentration camp during the German occupation. Contains a map of the sawmill (per Basia's chat note 21 May 21:01). Provides timeline of 1939-1940 Jewish exodus from Muszyna.",
+      "held_at": "Shared by Basia 21 May 2026 via WhatsApp. Polish scholarly article on the Jewish community of Muszyna pre/during WWII.",
+      "files": [
+        "zydzi w muszynie.pdf"
+      ],
       "pages": 1
     },
     {
       "id": "doc_zygmunt_griffel_przeglad_drzewny_1938",
       "title": "Zygmunt Griffel — Przegląd Drzewny press feature, 1938 ('Export sets to Palestine')",
-      "status": "verified",
+      "type": "industry_press",
+      "evidence": null,
+      "archive_reading": "Article 'Eksport kompletów do Palestyny' (Export of sets to Palestine) listing Galician-Polish timber firms exporting to the British Mandate. Identifies 'Zygmunt Griffel Lwów (Segal, Żupnik, i Wilf)' — confirming the Muszyna sawmill operating under the holding-name 'Segal-Żupnik-Wilf' (per Żebrowski's Holocaust article) was Zygmunt Griffel's company. This is the key citation that linked Lusia's Muszyna hotel to a Griffel-family timber operation.",
+      "held_at": "Przegląd Drzewny (Polish Timber Review), 1938 issue. Found and cited by Basia 21 May 2026.",
+      "files": [
+        "Zygmunt Griffel 1938.png"
+      ],
       "pages": 1
     },
     {
       "id": "doc_zygmunt_griffel_sejm_album_1934",
       "title": "Zygmunt Griffel — Sejm Album industrial feature, 1934/35",
-      "status": "verified",
+      "type": "industry_press",
+      "evidence": null,
+      "archive_reading": "Zygmunt Griffel was David Memek's first cousin once removed — son of Dawid Mendel Griffel Sr. (Rebeka's brother, Leizor Griffel's eldest son). This page establishes him as a major Galician-Jewish timber industrialist in 1934-35: 60,000 t/year to England, a five-port operation, with ambitions to brand Polish softwood. The 1938 Muszyna sawmill operating under 'Segal-Żupnik-Wilf' (per Rafał Żebrowski's Holocaust article) is identified in 1938 Przegląd Drzewny as a Zygmunt Griffel front company. Lusia's Muszyna hotel Willa Helin was in Zygmunt's sawmill town — the family-business ecosystem extended from Lwów-Gdynia exports down to Carpathian spa-town milling.",
+      "held_at": "ALBUM-SKOROWIDZ SENATU I SEJMU RZPLITEJ ORAZ SEJMU ŚLĄSKIEGO, page 110* (industrial sponsor section). Polish governmental industrial-directory yearbook.",
+      "files": [
+        "IMG-20260520-WA0018.jpg"
+      ],
       "pages": 1
     }
   ],

@@ -48,16 +48,40 @@ different visual grammar, an acknowledged reconstruction. Do not smuggle it in.
 
 ## WHERE THE MATERIAL IS
 
+**`platform/data/film_manifest.json` opens with a `start_here` block giving this same list in
+reading order, plus the folder each kind of file lives in.** If you are a model, read that first.
+
 | File | What it holds |
 |---|---|
-| `platform/data/narrative.json` | **Start here.** Nine chapters, 23 paragraphs, four languages, every paragraph carrying its source and a `kind` marker. This is the spine. |
-| `platform/data/events.json` | 45 dated events, 1888–2026, each with confidence and sources |
+| `platform/data/film_manifest.json` | **Everything below, as data, with permissions attached.** Also `place_photographs`, `memoir_photographs`, `the_research_story`, `hard_rules`, `known_gaps`. |
+| `platform/data/narrative.json` | **The spine.** Nine chapters, 23 paragraphs, four languages, every paragraph carrying its source and a `kind` marker. |
+| `platform/data/memoir_photographs.json` | **The fifteen plates from the memoir** — every photograph of this family that exists, under the book's own captions. |
+| `platform/data/events.json` | 45 dated events, 1888–2026, each with confidence and sources. **31 now carry a chosen image.** |
+| `platform/data/places.json` | 49 places. **81 photographs across 29 towns, each marked period or modern.** |
 | `platform/data/journey.json` | The migration route as legs, with per-person tracks and coordinates — Nadwórna → Muszyna → Lwów → Katowice → Brussels → Sète → Cyprus → Atlit → Haifa |
-| `platform/data/people.json` | 124 people, with facts, confidence levels, and two portraits |
-| `platform/data/documents.json` | 57 curated documents with transcriptions and decoded fields |
+| `platform/data/people.json` | **179 people**, with facts, confidence levels, and four portraits |
+| `platform/data/documents.json` | **59 documents**, each with the archive's own reading in English and Hebrew |
 | `platform/data/memoir_pages.json` | Lusia's ninety pages, the primary voice |
-| `platform/data/research_center.json` | 157 cards — how each thing was found, including the failures |
+| `platform/data/research_center.json` | 178 cards — how each thing was found, including the failures |
 | `docs/research/` | The raw ingest notes, in date order |
+
+**Where the picture files are:**
+`platform/assets/research_images/memoir/` — the fifteen memoir plates ·
+`platform/assets/research_images/period/` — the town photographs ·
+`platform/assets/documents/` — document scans, and `lusia_memoir.pdf`, the book itself.
+
+## THE FILM IS THREE THREADS, NOT ONE
+
+1. **David, Lusia, Shimon and Dov.** The spine. Everything returns to these four.
+2. **The wider family and its history.** The paternal line is documented back six generations to
+   Abraham Abe Rapaport, born 1784 at Tarnów — *his gravestone survives*. Galicia, the timber and
+   tannery trades, the rabbinical connections, and how such a family lived: of the thirty-one
+   children on one 19th-century chart, at least eleven never reached adulthood.
+3. **The research itself.** This archive was built in three months of 2026, and the discoveries are
+   dated events with their own shape — a wrong town on a document, a passport application that
+   cracked a year-long dead end, a chart that named a great-great-grandfather, a living cousin who
+   had been looking for this family for years. `the_research_story` in the manifest collects them.
+   This thread is what lets an audience feel how nearly all of it was lost.
 
 **Do not use `memoir_timeline_verified.json` as verification.** It is named misleadingly and there
 is a `_warning` at the top of the file explaining why.

@@ -101,7 +101,7 @@ The voice. Almost everything known about the war years in this family is known b
 - `1935-02-10` David Rapaport and Leah Weitzner marry in Bolechów  [CONFIRMED · a document says so]
 - `1939` Leah in Przemyśl, working under Soviet administration  [FAMILY MEMORY · attribute it, do not film it as fact]
 - `1941` David and Leah in Lwów under false identities  [FAMILY MEMORY · attribute it, do not film it as fact]
-- `1948` Lusia and Dov sail from Brussels on the Kadima  [DOCUMENTED · a record supports it]
+- `1948` Lusia and Dov sail for Israel on the Kedma  [DOCUMENTED · a record supports it]
 - `1948` The family is together again in Haifa  [FAMILY MEMORY · attribute it, do not film it as fact]
 - `1950s` The apartment on Moriah Street, bought with German reparations  [FAMILY MEMORY · attribute it, do not film it as fact]
 - `1958` David and Lusia travel to West Berlin over the reparations  [ESTIMATED · our approximation, say so]
@@ -139,7 +139,7 @@ The child in the crate. Born in Lwów in 1937, hidden for two and a half years s
 - `1947-04-02` David and Shimon sail from Sète on the Theodor Herzl  [DOCUMENTED · a record supports it]
 - `1947-04-13` The Theodor Herzl is boarded by the Royal Navy  [CONFIRMED · a document says so]
 - `1947—1948` David and Shimon interned at Karaolos, Cyprus  [DOCUMENTED · a record supports it]
-- `1948` Shimon released from the Atlit detention camp  [FAMILY MEMORY · attribute it, do not film it as fact]
+- `1947-08-22` Shimon released from the Atlit detention camp  [DOCUMENTED · a record supports it]
 - `1948` The family is together again in Haifa  [FAMILY MEMORY · attribute it, do not film it as fact]
 - `1967-04-17` Shimon marries Tamar (Tami) Bugin in Tel Aviv  [DOCUMENTED · a record supports it]
 
@@ -163,7 +163,7 @@ The reason this exists. Born in Brussels in August 1946 while his father was int
 **Their events, in order:**
 
 - `1946-08-28` Dov Bernard Rapaport born in Brussels  [DOCUMENTED · a record supports it]
-- `1948` Lusia and Dov sail from Brussels on the Kadima  [DOCUMENTED · a record supports it]
+- `1948` Lusia and Dov sail for Israel on the Kedma  [DOCUMENTED · a record supports it]
 - `1948` The family is together again in Haifa  [FAMILY MEMORY · attribute it, do not film it as fact]
 - `1975-05-16` Dov marries Dalia in Haifa  [CONFIRMED · a document says so]
 
@@ -271,7 +271,7 @@ The reason this exists. Born in Brussels in August 1946 while his father was int
 | Krynica-Zdrój | Regina Rapaport registers at Alfredówka in Krynica | pump room, interwar |
 | Lwów / Lviv / Lemberg | Shimon (Szymon) Rapaport born in Lwów; David Rapaport in Lwów (1 Jan 1938); David and Leah in Lwów under false identities; 🏠 Lusia's wartime apartment building IDENTIFIED | 1942-45, the destroyed Jewish quarter |
 | Przemyśl | Leah in Przemyśl, working under Soviet administration | — none held |
-| Brussels (Bruxelles) | David registered as Displaced Person in Brussels; Dov Bernard Rapaport born in Brussels; Lusia and Dov sail from Brussels on the Kadima; Brussels DP card identified | — none held |
+| Brussels (Bruxelles) | David registered as Displaced Person in Brussels; Dov Bernard Rapaport born in Brussels; Lusia and Dov sail for Israel on the Kedma; Brussels DP card identified | — none held |
 | Sète, France | David and Shimon sail from Sète on the Theodor Herzl | — none held |
 | Karaolos / Caraolos, Cyprus | David and Shimon interned at Karaolos, Cyprus | Famagusta 1945 |
 | Atlit, British Mandate Palestine | Shimon released from the Atlit detention camp | — none held |
@@ -327,9 +327,9 @@ The reason this exists. Born in Brussels in August 1946 while his father was int
 | 1947-04-02 | David and Shimon sail from Sète on the Theodor Herzl | migration | **documented** |
 | 1947-04-13 | The Theodor Herzl is boarded by the Royal Navy | war_event | **confirmed** |
 | 1947—1948 | David and Shimon interned at Karaolos, Cyprus | migration | **documented** |
-| 1948 | Shimon released from the Atlit detention camp | registration | **family_oral** |
+| 1947-08-22 | Shimon released from the Atlit detention camp | registration | **documented** |
 | 1948-05-14 | The State of Israel is declared | context | **confirmed** |
-| 1948 | Lusia and Dov sail from Brussels on the Kadima | migration | **documented** |
+| 1948 | Lusia and Dov sail for Israel on the Kedma | migration | **documented** |
 | 1948 | The family is together again in Haifa | migration | **family_oral** |
 | 1950s | The apartment on Moriah Street, bought with German reparations | occupation | **family_oral** |
 | 1958 | David and Lusia travel to West Berlin over the reparations | migration | **estimated** |
@@ -354,7 +354,7 @@ The reason this exists. Born in Brussels in August 1946 while his father was int
 
 ---
 
-## DOCUMENTS — what a camera can rest on (56)
+## DOCUMENTS — what a camera can rest on (59)
 
 | Document | Kind | Status | Pages |
 |---|---|---|---|
@@ -377,6 +377,7 @@ The reason this exists. Born in Brussels in August 1946 while his father was int
 | Census of Jews in Liège, 1941 — Szewa Horowitz | image | verified | 1 |
 | Certificate of Divorce No. H 13898 — Lea bat Shimon HaKohen Rapaport × Michael Sigal, Petach | image | our_family_confirmed | 1 |
 | Death record — Mojżesz Rapaport, Tarnów 1933 (candidate = our Moses Saul) | image | candidate_identity | 1 |
+| Descendant chart of Abraham Abe Rapaport — Basia, 2026 | pdf |  | 1 |
 | Descendant list — Arieh Leib Türkel | file | needs_reading | 1 |
 | Descendant list — Moses Rappaport | file | needs_reading | 1 |
 | Descendants chart — Moshe Rapaport (Rapaport Research Institute) | pdf | unverified | 1 |
@@ -407,6 +408,8 @@ The reason this exists. Born in Brussels in August 1946 while his father was int
 | Polish press 1912 — Krynica guest register listing Regina Rapaport | pdf | verified | 1 |
 | Research report — Basia, 13 May 2026 | pdf | verified | 1 |
 | Research report — Basia, 15 May 2026 (Nadwórna breakthrough) | pdf | verified | 1 |
+| The Lurie Legacy — Descendants of the Shach, with Basia’s 2026 overlay | pdf |  | 1 |
+| The Lurie Legacy — the Weidenfeld family, with Basia’s 2026 overlay | pdf |  | 1 |
 | The Story of Lusia (Sipura shel Lusia) | pdf | verified | 1 |
 | Yad Vashem Page of Testimony — Bernard Dov Rapaport (filed 1953) | pdf | verified | 1 |
 | Yad Vashem Page of Testimony — Regina Rivka Rapaport (filed 1953) | pdf | verified | 1 |
@@ -467,7 +470,7 @@ here. There is no photograph of Berisz or Rebeka.
 
 ---
 
-## THE REST OF THE CAST (124 people)
+## THE REST OF THE CAST (179 people)
 
 | Name | Born | Died | Confidence |
 |---|---|---|---|
@@ -479,7 +482,54 @@ here. There is no photograph of Berisz or Rebeka.
 | R. Meir Wahl Katzenellenbogen 'MaHaRaSH' | 1565 | 1631 | documented |
 | R. Abraham Rapoport 'Schrenzel' | 1584 | 1651 | documented |
 | R. Tzvi Hirsh Filip of Nadworna | 1737 | 1802 | documented |
+| Abraham Abe Rapaport | 1784 | 1844-07-30 | documented |
+| Lea Rapaport (née Herschl) | 1792 | 1874-05-23 | documented |
+| Pearl Rapaport | 1810 | 1831-11-10 | documented |
+| Józef Rapaport | 1811 | — | documented |
+| Izrael Rapaport | 1813 | 1881-06-15 | documented |
+| Rachela Rapaport (née Jakobsohn) | 1817 | — | documented |
+| Sara Rapaport | 1818-11-30 | 1820-05-08 | documented |
+| Taube Rapaport | 1821-05-31 | 1822-02-08 | documented |
+| Szabse (Shabtai) Rapaport | 1823-01-30 | 1884 | documented |
+| Aaron Rapaport | 1826-11-03 | 1828-10-10 | documented |
+| Moses Meier Rapaport | 1828-09-04 | 1829-08-10 | documented |
+| Salomon Rapaport | 1831-09-20 | — | documented |
+| Josef Hersch Gelernter | 1834 | — | documented |
+| Saul Margulies | 1834 | — | documented |
+| Perl Rapaport | 1835-06-08 | 1870-10 | documented |
+| Perl Liebe (Pauline) Rapaport | 1835-06-10 | 1922-11-12 | documented |
+| Benjamin Mises | 1838 | — | documented |
+| Ester Rapaport | 1839-06-29 | 1905-10-03 | documented |
+| Wolf Rapaport | 1839-10-18 | — | documented |
+| Jakub Weidenfeld | 1840 | 1895 | documented |
+| Noa Jakobsohn | 1840 | — | documented |
+| Szabse Rapaport | 1840-09-18 | 1842-04-03 | documented |
+| Isaac Moses Rapaport | 1841-09-02 | 1866-10-13 | documented |
+| Gitla Feige Mieses | 1843 | 1934-08-13 | documented |
+| Ester Rapaport | 1843-11-29 | — | documented |
+| Freude Rapaport | 1844 | 1855-07-18 | documented |
+| Hersch Rapaport | 1844-09-20 | — | documented |
+| Abe (Abraham) Rapaport | 1845-02-08 | 1849-07-30 | documented |
+| Mathel Frenkel | 1846 | — | documented |
+| Saul Rapaport | 1846 | 1896-11-03 | documented |
+| Samuel Rapaport | 1847-03-23 | 1851-04-14 | documented |
+| Liebe Rapaport | 1847-03-28 | — | documented |
+| Aron Dov Awigdor Novimiast | 1848 | — | documented |
+| Riwke Rapaport | 1848-04-18 | — | documented |
+| Majer Rapaport | 1849 | 1920-10-22 | documented |
+| Isaac Rapaport | 1849-03-09 | 1896 | documented |
+| Abraham Chaim Rapaport | 1849-11-01 | 1851-05-02 | documented |
+| Izrael Rapaport | 1850 | 1851-04-14 | documented |
 | Eliezer "Zeida" Griffel | 1850 | 1918 | documented |
+| Izchak Chaim Rapaport | 1850-01-06 | 1921-08-15 | documented |
+| Margulesa Bornstein | 1852-01-10 | 1925-12-22 | documented |
+| Mayer Rapaport | 1853-09-25 | — | documented |
+| Rebeka Rapaport | 1854-05-15 | — | documented |
+| Blume Rapaport | 1855-05-26 | 1857-02-24 | documented |
+| Marjam Rapaport | 1855-08-04 | — | documented |
+| Jakub Rapaport | 1856 | 1887-04-06 | documented |
+| Moses (Moshe) Saul Rapaport | 1858 | 1933-11-08 | documented |
+| Sprinze Rapaport | 1858-11-04 | — | documented |
 | Reb Chaim Hager of Ottynia | 1863 | 1931 | documented |
 | David Mendel Griffel | 1875 | 1941 | documented |
 | Machla Griffel-Wilner | 1876 | — | documented |
@@ -528,9 +578,11 @@ here. There is no photograph of Berisz or Rebeka.
 | Dr Vidal Rapapa | c.1270 | — | documented |
 | Dr Jucef Salomon Rapapa | c.1280 | after 1345 | documented |
 | Aaron Nir | — | — | — |
+| Akiva Eldar | — | — | — |
 | Alma Rapaport | — | — | — |
 | Andrew Griffel | — | — | — |
 | Ariel Rapaport | — | — | — |
+| Arik | — | — | — |
 | Dr Arnold Lamm | — | — | — |
 | Avi Gelles | — | — | — |
 | Baron Dr Arnold Rapoport-Adler Von Porada | — | — | — |
@@ -538,6 +590,8 @@ here. There is no photograph of Berisz or Rebeka.
 | Bonnie Maslin | — | — | — |
 | Boruch Griffel | — | — | — |
 | Carmel Rapaport Hinkus | — | — | — |
+| Cerka (Cecylia) Margulies | — | — | — |
+| Chane Rachel Rapaport | — | 1881 | — |
 | Chaya Griffel-Gruenfeld | — | 1918 | — |
 | Dalia Rapaport | — | — | — |
 | Dana Rapaport Hinkus | — | — | — |
@@ -545,9 +599,11 @@ here. There is no photograph of Berisz or Rebeka.
 | Daniel Nir | — | — | — |
 | Daniela Zidon | — | — | — |
 | David Nir | — | — | — |
+| Dawid Gruenfeld | — | — | — |
 | David Mendel Griffel Sr. | — | — | documented |
 | Doron Rapaport | — | — | — |
 | Elias (Eliyahu) Weitzner | — | — | — |
+| Ella | — | — | — |
 | Ema Rapaport | — | — | — |
 | Ester Blima Weinreb | — | — | — |
 | Ester Goldfischer | — | — | — |
@@ -557,6 +613,7 @@ here. There is no photograph of Berisz or Rebeka.
 | Yehoshua Heshel "Henry" Griffel | — | — | — |
 | Hormak family | — | — | — |
 | Isaac 'HaMoel' Rapa-Porto | — | — | — |
+| Ita Feiga Rapaport (née Jahr) | — | before 1897 | — |
 | Itamar Rapaport Hinkus | — | — | — |
 | Ivanov | — | — | — |
 | Jackie Boehme Griffel | — | — | — |
@@ -568,12 +625,12 @@ here. There is no photograph of Berisz or Rebeka.
 | Matel (Mathilde) Weitzner (née Weinreb) | — | — | — |
 | Menukha Rapaport | — | — | — |
 | Miki (Michal Lea) Nativ (née Levi-Turkel) | — | — | — |
-| Moses (Moshe) Saul Rapaport | — | — | — |
 | Eliahu Mordechai Nussbaum | — | — | — |
 | Pietrozycki | — | — | — |
 | Pinches Horowitz | — | — | — |
 | Pinhas (Pinchas) Heyn | — | — | — |
 | Pnina Weitzner | — | — | — |
+| Rachel Weidenfeld (née Rapaport) | — | — | — |
 | Rom Rapaport Hinkus | — | — | — |
 | Ronen Rapaport | — | — | — |
 | Samuel Weinreb | — | — | — |
@@ -586,6 +643,7 @@ here. There is no photograph of Berisz or Rebeka.
 | Tali Griffel Ginsburg | — | — | — |
 | Tamar (Tami) Rapaport | — | — | — |
 | Taube Griffel | — | — | — |
+| Tzvika | — | — | — |
 | Yarden Rapaport Hinkus | — | — | — |
 | R. Meshullam Yekutiel ha-Kohen Rapa | — | 1450 | documented |
 | Zaynvl Rapaport | — | — | — |
@@ -596,11 +654,19 @@ here. There is no photograph of Berisz or Rebeka.
 
 ## STILL OPEN
 
+- **📩 Basia, evening of 5 August 2026 — the Rapaport lines finished, and a five-metre tree** — Arrived by WhatsApp on the EVENING OF 5 AUGUST 2026 — Basia has moved to WhatsApp for this and everything after it.
+
+She reports the Rapaport lines researched and the sources organised. The generated tree runs FIVE METRES, so she has split 
+- **🌐 A short address — checked, costed, and DECIDED AGAINST. Staying on rapaportfamily.github.io** — DECISION, 5 August 2026: Doron looked at the options and chose to keep the address as it is. Nothing further to do. The research below is kept because it is already done, and if anyone asks the same question again the answer is here rather 
+- **📮 TO SEND — permission request to the Palmach archive for the 19 Theodor Herzl photographs** — Drafted 5 August 2026 in Hebrew and English, waiting on Doron because it needs his name, address and his own statement of the relationship. See docs/research/palmach_photo_permission_request_2026-08-05.md.
+The photographs are items 46947–46
 - **📂 TO SEARCH — the JDC Brussels 1946-47 and Cyprus camp lists** — A relief list would catch all four of them on one page. The Joint paid their hotel in Brussels and operated in the Cyprus camps. This is a browse of specific collections, not a name search.
 - **🕊️ TO FIND — Shimon’s date of death** — He is the only one of the four whose end is undocumented here. The Haifa Chevra Kadisha records gave us David’s and Lusia’s graves to the row and plot; they should give his. Nobody has asked.
 - **📮 TO SEND — the German compensation (BEG) file request** — Drafted 3 August 2026. Free. Two addresses: the central register at Düsseldorf to locate the file, and LABO Berlin which most likely holds it. Ask for archival access as an heir. See docs/research/german_compensation_request_2026-08-03.md.
 - **🔐 TO DO — put the token check in front of data/ as well** — robots.txt and noindex are in place as of 3 August 2026, but they only ask. Until the magic-link check covers the JSON files themselves, this archive is readable by anyone who has the address — which is the reason living people’s dates are 
 - **📮 TO SEND — the Arolsen inquiry for David (and Lea, Szymon, Berisz, Rebeka)** — Drafted 3 August 2026 and waiting on Doron, because the form requires a real name, address and stated relationship. Free of charge. See docs/research/arolsen_inquiry_2026-08-03_david_rapaport.md.
+
+QUOTE THESE COLLECTION NUMBERS WHEN SENDING
 - **✅ Dov and Dalia married in HAIFA, 16 May 1975 — settled from the ketubah** — Doron answered "they married in Haifa" on 2 August 2026, and sent the ketubah the same evening. The document says it outright: "here, in the holy community of Haifa." Year 5735. The June machine reading that gave Brussels was wrong, and so 
 - **⚠ Unresolved: is Markus Türkel the same man as Mordechai "Max" Levi-Turkel?** — The Liège record of 15 June 1946 marries Szewa Horowitz to Markus Türkel, a British-Army soldier living in Tel Aviv, son of Leib Türkel and Lea Nüssenbaum. The Turkel family, through Miki Nativ, reports that Mordechai "Max" Levi-Turkel marr
 - **🔧 Retry Gemini upload verification (current 503 errors)** — The Firebase Cloud Function 'verifyUpload' uses Gemini 2.5 Flash to verify family-uploaded documents (PDFs / photos / WhatsApp chats). Currently returning HTTP 503 Service Unavailable — Gemini API capacity issue. Recommended fix: extend fun
