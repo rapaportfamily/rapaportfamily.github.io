@@ -1390,6 +1390,10 @@ function renderTimelineList() {
     }).filter(Boolean);
     html.push(`
       <div class="tl-event ${escapeHtml(e.type)}" data-event="${escapeHtml(e.id)}">
+        ${e.image ? `<figure class="tl-event-photo">
+          <img src="${escapeHtml(e.image.src)}" alt="${escapeHtml(e.image['caption_' + State.lang] || e.image.caption_en || '')}" loading="lazy">
+          ${e.image.when ? `<figcaption>${escapeHtml(e.image.when)}</figcaption>` : ''}
+        </figure>` : ''}
         <div class="tl-event-date">${escapeHtml(fmtDate(e.date))} · ${escapeHtml(t('event_type.' + e.type))}</div>
         <div class="tl-event-title">${escapeHtml(ml(e.title))}</div>
         <div class="tl-event-desc">${escapeHtml(ml(e.description))}</div>
@@ -2239,6 +2243,13 @@ function openEventModal(id) {
   let html = `
     <div class="doc-kind" style="font-family:var(--font-mono);font-size:0.78rem;color:var(--wine);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:0.3em;">${escapeHtml(t('event_type.' + e.type))} · ${escapeHtml(fmtDate(e.date))}</div>
     <h2 style="margin-bottom:0.5em;">${escapeHtml(ml(e.title))}</h2>
+    ${e.image ? `<figure style="margin:0 0 1rem;">
+      <img src="${escapeHtml(e.image.src)}" alt="" style="width:100%;height:auto;border-radius:var(--radius);">
+      <figcaption class="muted" dir="auto" style="font-size:0.82rem;line-height:1.5;margin-top:0.4rem;">
+        ${escapeHtml(e.image['caption_' + State.lang] || e.image.caption_en || '')}
+        ${e.image.credit ? `<span style="display:block;font-size:0.72rem;margin-top:0.2rem;">${escapeHtml(e.image.credit)}</span>` : ''}
+      </figcaption>
+    </figure>` : ''}
     <p style="font-family:var(--font-serif);font-size:1.08rem;line-height:1.7;color:var(--ink-soft);">${escapeHtml(ml(e.description))}</p>
     ${place ? `<div class="detail-fact"><div class="detail-fact-label">${escapeHtml(t('ui.place'))}</div><div class="detail-fact-val">${escapeHtml(ml(place.names))}</div></div>` : ''}
     ${people.length ? `<div class="detail-fact"><div class="detail-fact-label">${escapeHtml(t('ui.people_in_event'))}</div><div class="detail-fact-val">${people.map(p => `<a href="#" data-person="${escapeHtml(p.id)}">${escapeHtml(ml(p.primary_name))}</a>`).join(' · ')}</div></div>` : ''}

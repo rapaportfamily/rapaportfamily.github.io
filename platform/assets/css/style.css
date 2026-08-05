@@ -2098,3 +2098,39 @@ html[dir="rtl"] .detail-portrait { margin: 0 1.2rem 1rem 0; }
   color: var(--ink-soft);
 }
 .hyp-evidence li { margin: 0.2rem 0; }
+
+/* ── A picture on a timeline event ────────────────────────────────────
+   Small, and stamped with its own date. Most of these are the place rather
+   than the moment — Nadwórna in 1928 standing beside an 1888 birth — so the
+   date sits on the image itself and the reader can see the gap without
+   being told. Nothing here is presented as the event photographed. */
+.tl-event-photo {
+  position: relative;
+  float: inline-end;
+  width: 148px;
+  margin: 0 0 0.6rem 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--paper-deep);
+}
+.tl-event-photo img {
+  display: block;
+  width: 100%;
+  height: 104px;
+  object-fit: cover;
+}
+.tl-event-photo figcaption {
+  padding: 0.18rem 0.35rem;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  color: var(--ink-soft);
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@media (max-width: 560px) {
+  .tl-event-photo { float: none; width: 100%; margin: 0 0 0.7rem; }
+  .tl-event-photo img { height: 150px; }
+}
