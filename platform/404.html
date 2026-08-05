@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex, nofollow, noarchive" />
+<title>The Rapaport Family — A Research Archive</title>
+<style>
+  body { margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center;
+         background:#fbfaf7; color:#2b2b2b; font-family:Georgia,'Times New Roman',serif; }
+  .card { max-width:30rem; padding:2rem; text-align:center; line-height:1.6; }
+  .card img { width:96px; border-radius:4px; margin-bottom:1.2rem; }
+  h1 { font-size:1.15rem; color:#0038B8; margin:0 0 .8rem; }
+  p { margin:.4rem 0; font-size:.95rem; }
+  .he { direction:rtl; font-family:'Heebo',Arial,sans-serif; }
+  a { color:#0038B8; }
+  .muted { color:#6b6b6b; font-size:.8rem; margin-top:1.4rem; }
+</style>
+</head>
+<body>
+<div class="card">
+  <img src="/assets/img/rapaport-coat-of-arms.jpg" alt="" />
+  <h1>Taking you to the archive…</h1>
+  <p>That address doesn’t exist, but the archive does.</p>
+  <p class="he">הכתובת הזאת אינה קיימת, אבל הארכיון כן. מעבירים אותך אליו…</p>
+  <p><a id="go" href="/">Open the archive</a></p>
+  <p class="muted">For Dov Bernard Rapaport’s 80th birthday · August 2026</p>
+</div>
+<script>
+// GitHub Pages serves this file for any path it cannot find. Three things
+// commonly land here and all three are recoverable:
+//
+//   /platform/...     the repo folder is published AS the site root, so the
+//                     folder name must be dropped. Anyone who copied a link
+//                     out of the repository hits this.
+//   /photographs      the app is a hash router. A route typed or shared
+//                     without the "#" is not a real path.
+//   anything else     send them to the front door rather than a GitHub error.
+//
+// Only same-origin paths are ever used, and the result is always rewritten to
+// "/#/<route>" — nothing here can be pointed at another site.
+(function () {
+  var ROUTES = ['home','tree','people','ancestry','story','journey','timeline','memoir',
+                'photographs','places','documents','research','hypotheses','chat','about'];
+  var path = location.pathname.replace(/^\/+|\/+$/g, '');
+  if (path.indexOf('platform/') === 0) path = path.slice('platform/'.length);
+  else if (path === 'platform') path = '';
+  var first = path.split('/')[0].toLowerCase();
+  var target = (ROUTES.indexOf(first) !== -1) ? '/#/' + first : '/';
+  // keep an existing hash if the visitor already had a good one
+  if (location.hash && location.hash.length > 2) target = '/' + location.hash;
+  document.getElementById('go').setAttribute('href', target);
+  location.replace(target);
+})();
+</script>
+</body>
+</html>
