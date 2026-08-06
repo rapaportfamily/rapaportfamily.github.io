@@ -3067,7 +3067,10 @@
     "fr": "Acte de décès — Leia Rapaport, 1874"
    },
    "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: Z_1874_Leia_Rapaport_T.jpg (filing code T)",
-   "related_people": [],
+   "related_people": [
+    "p_lea_herschl",
+    "p_abraham_abe_rapaport"
+   ],
    "decoded_fields": {
     "record_type": "death_register",
     "year": "1874",
@@ -3076,16 +3079,11 @@
     "filing_code": "T"
    },
    "summary": {
-    "en": "Death register entry for Leia Rapaport, 1874. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It sits in the folder of Abraham Abe Rapaport.",
-    "he": "רישום פטירה של Leia Rapaport, 1874. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק בתיקייה של Abraham Abe Rapaport."
+    "en": "Death register entry for Leia Rapaport, 1874. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It sits in the folder of Abraham Abe Rapaport. Identified 6 August 2026: the 1826 birth register in the same folder names Aaron’s parents as Abraham Rappaport and Leise, and our tree gives Abraham Abe’s wife as Lea Herschl, died 23 May 1874 — the year on this record. This is her death entry, not his.",
+    "he": "רישום פטירה של Leia Rapaport, 1874. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק בתיקייה של Abraham Abe Rapaport. זוהה ב-6 באוגוסט 2026: פנקס הלידות מ-1826 שבאותה תיקייה נוקב בהוריו של אהרן כאברהם רפפורט ולייזה, ועץ המשפחה שלנו נוקב באשתו של אברהם אַבֶּה כלאה הרשל, שנפטרה ב-23 במאי 1874 — השנה שעל הרשומה הזו. זהו רישום פטירתה, לא שלו."
    },
-   "status": "catalogued_not_yet_read",
-   "open_questions": [
-    {
-     "en": "This record names Leia Rapaport but is filed in Abraham Abe Rapaport’s folder. Who is Leia Rapaport to that branch — spouse, parent, child?",
-     "he": "הרשומה נוקבת בשם Leia Rapaport אך מתויקת בתיקייה של Abraham Abe Rapaport. מיהו/מיהי Leia Rapaport לאותו ענף — בן/בת זוג, הורה, ילד/ה?"
-    }
-   ]
+   "status": "read",
+   "open_questions": []
   },
   {
    "id": "doc_reg_u1855_blume_rapaport",
