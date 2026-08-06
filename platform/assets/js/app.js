@@ -1260,12 +1260,36 @@ function drawExplore(D) {
     const steps = p.steps_from_family;
     const kin = (p.parents || []).length + (p.children || []).length + (p.spouses || []).length;
     return `
-      <button class="ex-node${core}" data-goto="${escapeHtml(id)}" title="${escapeHtml(exLabel(p))}">
+      <button class="ex-node${core}${p.photo ? ' has-face' : ''}" data-goto="${escapeHtml(id)}" title="${escapeHtml(exLabel(p))}">
+        ${p.photo ? `<img class="ex-thumb" src="${escapeHtml(p.photo)}" alt="" loading="lazy" />` : ''}
         <span class="ex-name">${escapeHtml(exLabel(p))}</span>
         <span class="ex-years">${escapeHtml(exYears(p))}</span>
         ${p.birth_place ? `<span class="ex-place">${escapeHtml(p.birth_place)}</span>` : ''}
         <span class="ex-meta">${p.core_id ? `<span class="ex-badge">${escapeHtml(t('explore.in_archive'))}</span>` : ''}${kin ? `<span class="ex-kin">${kin}</span>` : ''}</span>
       </button>`;
+  };
+
+  // Everything Basia's archive keeps in this person's folder. The distinction below is the
+  // whole honesty of the feature: a file whose NAME carries the person's own name is shown as
+  // theirs; anything else is shown as what it actually is — something kept in their folder,
+  // which may be a spouse, a child, or a document rather than a face.
+  const exGallery = (p) => {
+    const items = p.media || [];
+    if (!items.length) return '';
+    return `
+      <div class="ex-gallery">
+        <div class="ex-group-label">${escapeHtml(t('explore.photos'))} <span class="ex-count">${items.length}</span></div>
+        <div class="ex-gallery-row">
+          ${items.map(m => `
+            <figure class="ex-shot${m.names_the_person ? '' : ' unnamed'}">
+              <img src="${escapeHtml(m.file)}" alt="${escapeHtml(m.basename)}" loading="lazy"
+                   data-shot="${escapeHtml(m.file)}" data-shotcap="${escapeHtml(m.basename)}" />
+              <figcaption>${escapeHtml(m.basename)}${m.names_the_person ? ''
+                : `<span class="ex-shot-note">${escapeHtml(t('explore.in_folder'))}</span>`}</figcaption>
+            </figure>`).join('')}
+        </div>
+        <p class="ex-source">${escapeHtml(p.media_credit || '')}</p>
+      </div>`;
   };
 
   const group = (labelKey, ids) => !ids.length ? '' : `
@@ -1275,9 +1299,18 @@ function drawExplore(D) {
     </div>`;
 
   const steps = me.steps_from_family;
+  // "1 steps" was showing on Berish's card. Polish needs a third form too: 1 krok,
+  // 2-4 kroki, 5+ kroków — and t() returns the key itself when a form is absent, so the
+  // fallback has to be tested against the key, not against undefined.
+  const stepKey = (n) => {
+    if (n === 1) return 'explore.steps_one';
+    if (State.lang === 'pl' && n >= 2 && n <= 4) return 'explore.steps_few';
+    return 'explore.steps';
+  };
   const stepLine = steps === 0 ? t('explore.is_family')
     : (steps == null ? t('explore.unconnected')
-       : t('explore.steps').replace('{n}', steps));
+       : (t(stepKey(steps)) === stepKey(steps) ? t('explore.steps') : t(stepKey(steps)))
+           .replace('{n}', steps));
 
   body.innerHTML = `
     <div class="ex-controls">
@@ -1291,6 +1324,7 @@ function drawExplore(D) {
     ${group('explore.parents', me.parents || [])}
 
     <div class="ex-focus">
+      ${me.photo ? `<img class="ex-portrait" src="${escapeHtml(me.photo)}" alt="${escapeHtml(exLabel(me))}" />` : ''}
       <div class="ex-focus-name">${escapeHtml(exLabel(me))}</div>
       <div class="ex-focus-years">${escapeHtml(exYears(me))}${me.occupation ? ' · ' + escapeHtml(me.occupation) : ''}</div>
       ${me.birth_place || me.death_place ? `<div class="ex-focus-place">${
@@ -1300,12 +1334,19 @@ function drawExplore(D) {
       ${me.core_id ? `<button class="filter-btn ex-open-record" data-person="${escapeHtml(me.core_id)}">${escapeHtml(t('explore.open_record'))}</button>` : ''}
     </div>
 
+    ${exGallery(me)}
+
     ${group('explore.spouses', me.spouses || [])}
     ${group('explore.children', me.children || [])}
     ${group('explore.siblings', sibs)}
 
     <p class="ex-source">${escapeHtml(t('explore.source'))}</p>
   `;
+
+  body.querySelectorAll('[data-shot]').forEach(img => img.addEventListener('click', () => {
+    showModal(`<figure class="shot-full"><img src="${escapeHtml(img.dataset.shot)}" alt="" />
+      <figcaption dir="auto">${escapeHtml(img.dataset.shotcap || '')}</figcaption></figure>`);
+  }));
 
   body.querySelectorAll('[data-goto]').forEach(el => el.addEventListener('click', () => {
     ExploreState.focus = el.dataset.goto;
