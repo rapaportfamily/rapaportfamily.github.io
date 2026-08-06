@@ -2334,6 +2334,1795 @@
      "he": "האם דוד ולוסיה ידעו שינטה ושווה נמצאות בליאז׳ כשהגיעו לבלגיה ב-1946? שום דבר שבידינו אינו אומר כך או אחרת."
     }
    ]
+  },
+  {
+   "id": "doc_reg_u1912_lea_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/u_1912_lea_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "birth_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Birth register entry, Lea Rapaport, 1912",
+    "he": "רישום לידה — Lea Rapaport, 1912",
+    "pl": "Akt urodzenia — Lea Rapaport, 1912",
+    "fr": "Acte de naissance — Lea Rapaport, 1912"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: U 1912 Lea Rapaport.jpg",
+   "related_people": [
+    "p_lea_rapaport_segal"
+   ],
+   "decoded_fields": {
+    "record_type": "birth_register",
+    "year": "1912",
+    "named_in_record": "Lea Rapaport",
+    "branch_folder": "Lea Rapaport (m. Segal / Fridman)",
+    "filing_code": "—"
+   },
+   "summary": {
+    "en": "Birth register entry for Lea Rapaport, 1912. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום לידה של Lea Rapaport, 1912. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_m1919_nussbaum_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/m_1919_nussbaum_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "marriage_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Marriage register entry, Nussbaum Rapaport, 1919",
+    "he": "רישום נישואין — Nussbaum Rapaport, 1919",
+    "pl": "Akt małżeństwa — Nussbaum Rapaport, 1919",
+    "fr": "Acte de mariage — Nussbaum Rapaport, 1919"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: M_1919 Nussbaum Rapaport T.jpg (filing code T)",
+   "related_people": [
+    "p_freida_amalia_rapaport"
+   ],
+   "decoded_fields": {
+    "record_type": "marriage_register",
+    "year": "1919",
+    "named_in_record": "Nussbaum Rapaport",
+    "branch_folder": "Freida Amalia Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Marriage register entry for Nussbaum Rapaport, 1919. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום נישואין של Nussbaum Rapaport, 1919. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_m1909_alte_lea_rapaport_jechiel_turkel",
+   "file_pages": [
+    "basia_2026_08/registers/m_1909_alte_lea_rapaport_jechiel_turkel.jpg"
+   ],
+   "kind": "image",
+   "type": "marriage_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Marriage register entry, Alte Lea Rapaport Jechiel Turkel, 1909",
+    "he": "רישום נישואין — Alte Lea Rapaport Jechiel Turkel, 1909",
+    "pl": "Akt małżeństwa — Alte Lea Rapaport Jechiel Turkel, 1909",
+    "fr": "Acte de mariage — Alte Lea Rapaport Jechiel Turkel, 1909"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: M_1909_Alte_Lea_Rapaport_Jechiel_Turkel_TP.jpg (filing code TP)",
+   "related_people": [
+    "p_alte_leja_rapaport"
+   ],
+   "decoded_fields": {
+    "record_type": "marriage_register",
+    "year": "1909",
+    "named_in_record": "Alte Lea Rapaport Jechiel Turkel",
+    "branch_folder": "Alte Leja Rapaport (m. Turkel)",
+    "filing_code": "TP"
+   },
+   "summary": {
+    "en": "Marriage register entry for Alte Lea Rapaport Jechiel Turkel, 1909. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום נישואין של Alte Lea Rapaport Jechiel Turkel, 1909. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_u1920_markus_turkel",
+   "file_pages": [
+    "basia_2026_08/registers/u_1920_markus_turkel.png"
+   ],
+   "kind": "image",
+   "type": "birth_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Birth register entry, Markus Turkel, 1920",
+    "he": "רישום לידה — Markus Turkel, 1920",
+    "pl": "Akt urodzenia — Markus Turkel, 1920",
+    "fr": "Acte de naissance — Markus Turkel, 1920"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: U_1920_Markus Turkel_Vienna.png (filing code Vienna)",
+   "related_people": [
+    "p_szewa_horowitz"
+   ],
+   "decoded_fields": {
+    "record_type": "birth_register",
+    "year": "1920",
+    "named_in_record": "Markus Turkel",
+    "branch_folder": "Szewa Horowitz (m. Türkel)",
+    "filing_code": "Vienna"
+   },
+   "summary": {
+    "en": "Birth register entry for Markus Turkel, 1920. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום לידה של Markus Turkel, 1920. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_u1920_szewa_horowitz",
+   "file_pages": [
+    "basia_2026_08/registers/u_1920_szewa_horowitz.jpg"
+   ],
+   "kind": "image",
+   "type": "birth_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Birth register entry, Szewa Horowitz, 1920",
+    "he": "רישום לידה — Szewa Horowitz, 1920",
+    "pl": "Akt urodzenia — Szewa Horowitz, 1920",
+    "fr": "Acte de naissance — Szewa Horowitz, 1920"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: U_1920_Szewa Horowitz_T.jpg (filing code T)",
+   "related_people": [
+    "p_szewa_horowitz"
+   ],
+   "decoded_fields": {
+    "record_type": "birth_register",
+    "year": "1920",
+    "named_in_record": "Szewa Horowitz",
+    "branch_folder": "Szewa Horowitz (m. Türkel)",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Birth register entry for Szewa Horowitz, 1920. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום לידה של Szewa Horowitz, 1920. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_m1852_jozef_hersch_gelernter_perl_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/m_1852_jozef_hersch_gelernter_perl_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "marriage_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Marriage register entry, Józef Hersch Gelernter Perl Rapaport, 1852",
+    "he": "רישום נישואין — Józef Hersch Gelernter Perl Rapaport, 1852",
+    "pl": "Akt małżeństwa — Józef Hersch Gelernter Perl Rapaport, 1852",
+    "fr": "Acte de mariage — Józef Hersch Gelernter Perl Rapaport, 1852"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: M_1852_Józef_Hersch_Gelernter_Perl_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_sprinze_rapaport"
+   ],
+   "decoded_fields": {
+    "record_type": "marriage_register",
+    "year": "1852",
+    "named_in_record": "Józef Hersch Gelernter Perl Rapaport",
+    "branch_folder": "Sprinze Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Marriage register entry for Józef Hersch Gelernter Perl Rapaport, 1852. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום נישואין של Józef Hersch Gelernter Perl Rapaport, 1852. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_m1879_sprinze_gelernter_karl_luttinger",
+   "file_pages": [
+    "basia_2026_08/registers/m_1879_sprinze_gelernter_karl_luttinger.jpg"
+   ],
+   "kind": "image",
+   "type": "marriage_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Marriage register entry, Sprinze Gelernter Karl Luttinger, 1879",
+    "he": "רישום נישואין — Sprinze Gelernter Karl Luttinger, 1879",
+    "pl": "Akt małżeństwa — Sprinze Gelernter Karl Luttinger, 1879",
+    "fr": "Acte de mariage — Sprinze Gelernter Karl Luttinger, 1879"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: M_1879_Sprinze_Gelernter_Karl_Luttinger_St.jpg (filing code St)",
+   "related_people": [
+    "p_sprinze_rapaport"
+   ],
+   "decoded_fields": {
+    "record_type": "marriage_register",
+    "year": "1879",
+    "named_in_record": "Sprinze Gelernter Karl Luttinger",
+    "branch_folder": "Sprinze Rapaport",
+    "filing_code": "St"
+   },
+   "summary": {
+    "en": "Marriage register entry for Sprinze Gelernter Karl Luttinger, 1879. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום נישואין של Sprinze Gelernter Karl Luttinger, 1879. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_u1858_sprinze_gelernter",
+   "file_pages": [
+    "basia_2026_08/registers/u_1858_sprinze_gelernter.jpg"
+   ],
+   "kind": "image",
+   "type": "birth_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Birth register entry, Sprinze Gelernter, 1858",
+    "he": "רישום לידה — Sprinze Gelernter, 1858",
+    "pl": "Akt urodzenia — Sprinze Gelernter, 1858",
+    "fr": "Acte de naissance — Sprinze Gelernter, 1858"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: U_1858_Sprinze_Gelernter_T.jpg (filing code T)",
+   "related_people": [
+    "p_sprinze_rapaport"
+   ],
+   "decoded_fields": {
+    "record_type": "birth_register",
+    "year": "1858",
+    "named_in_record": "Sprinze Gelernter",
+    "branch_folder": "Sprinze Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Birth register entry for Sprinze Gelernter, 1858. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום לידה של Sprinze Gelernter, 1858. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_m1920_horowitz_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/m_1920_horowitz_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "marriage_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Marriage register entry, Horowitz Rapaport, 1920",
+    "he": "רישום נישואין — Horowitz Rapaport, 1920",
+    "pl": "Akt małżeństwa — Horowitz Rapaport, 1920",
+    "fr": "Acte de mariage — Horowitz Rapaport, 1920"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: M_1920 Horowitz Rapaport T.jpg (filing code T)",
+   "related_people": [
+    "p_jente_rapaport"
+   ],
+   "decoded_fields": {
+    "record_type": "marriage_register",
+    "year": "1920",
+    "named_in_record": "Horowitz Rapaport",
+    "branch_folder": "Jente Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Marriage register entry for Horowitz Rapaport, 1920. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום נישואין של Horowitz Rapaport, 1920. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_u1826_aaron_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/u_1826_aaron_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "birth_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Birth register entry, Aaron Rapaport, 1826",
+    "he": "רישום לידה — Aaron Rapaport, 1826",
+    "pl": "Akt urodzenia — Aaron Rapaport, 1826",
+    "fr": "Acte de naissance — Aaron Rapaport, 1826"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: U_1826_Aaron_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_aaron_rapaport_1826"
+   ],
+   "decoded_fields": {
+    "record_type": "birth_register",
+    "year": "1826",
+    "named_in_record": "Aaron Rapaport",
+    "branch_folder": "Aaron Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Birth register entry for Aaron Rapaport, 1826. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום לידה של Aaron Rapaport, 1826. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_u1826_aron_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/u_1826_aron_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "birth_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Birth register entry, Aron Rapaport, 1826",
+    "he": "רישום לידה — Aron Rapaport, 1826",
+    "pl": "Akt urodzenia — Aron Rapaport, 1826",
+    "fr": "Acte de naissance — Aron Rapaport, 1826"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: U_1826_Aron_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_aaron_rapaport_1826"
+   ],
+   "decoded_fields": {
+    "record_type": "birth_register",
+    "year": "1826",
+    "named_in_record": "Aron Rapaport",
+    "branch_folder": "Aaron Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Birth register entry for Aron Rapaport, 1826. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום לידה של Aron Rapaport, 1826. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_z1828_aron_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/z_1828_aron_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "death_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Death register entry, Aron Rapaport, 1828",
+    "he": "רישום פטירה — Aron Rapaport, 1828",
+    "pl": "Akt zgonu — Aron Rapaport, 1828",
+    "fr": "Acte de décès — Aron Rapaport, 1828"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: Z_1828_Aron_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_aaron_rapaport_1826"
+   ],
+   "decoded_fields": {
+    "record_type": "death_register",
+    "year": "1828",
+    "named_in_record": "Aron Rapaport",
+    "branch_folder": "Aaron Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Death register entry for Aron Rapaport, 1828. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום פטירה של Aron Rapaport, 1828. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_m1863_aron_novimiast_ester_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/m_1863_aron_novimiast_ester_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "marriage_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Marriage register entry, Aron Novimiast Ester Rapaport, 1863",
+    "he": "רישום נישואין — Aron Novimiast Ester Rapaport, 1863",
+    "pl": "Akt małżeństwa — Aron Novimiast Ester Rapaport, 1863",
+    "fr": "Acte de mariage — Aron Novimiast Ester Rapaport, 1863"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: M_1863_Aron_Novimiast_Ester_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_ester_rapaport_1839"
+   ],
+   "decoded_fields": {
+    "record_type": "marriage_register",
+    "year": "1863",
+    "named_in_record": "Aron Novimiast Ester Rapaport",
+    "branch_folder": "Ester Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Marriage register entry for Aron Novimiast Ester Rapaport, 1863. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום נישואין של Aron Novimiast Ester Rapaport, 1863. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_u1839_ester_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/u_1839_ester_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "birth_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Birth register entry, Ester Rapaport, 1839",
+    "he": "רישום לידה — Ester Rapaport, 1839",
+    "pl": "Akt urodzenia — Ester Rapaport, 1839",
+    "fr": "Acte de naissance — Ester Rapaport, 1839"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: U_1839_Ester_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_ester_rapaport_1839"
+   ],
+   "decoded_fields": {
+    "record_type": "birth_register",
+    "year": "1839",
+    "named_in_record": "Ester Rapaport",
+    "branch_folder": "Ester Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Birth register entry for Ester Rapaport, 1839. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום לידה של Ester Rapaport, 1839. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_z1905_ester_nowomiast",
+   "file_pages": [
+    "basia_2026_08/registers/z_1905_ester_nowomiast.jpg"
+   ],
+   "kind": "image",
+   "type": "death_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Death register entry, Ester Nowomiast, 1905",
+    "he": "רישום פטירה — Ester Nowomiast, 1905",
+    "pl": "Akt zgonu — Ester Nowomiast, 1905",
+    "fr": "Acte de décès — Ester Nowomiast, 1905"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: Z_1905_Ester_Nowomiast_Kr.jpg (filing code Kr)",
+   "related_people": [
+    "p_ester_rapaport_1839"
+   ],
+   "decoded_fields": {
+    "record_type": "death_register",
+    "year": "1905",
+    "named_in_record": "Ester Nowomiast",
+    "branch_folder": "Ester Rapaport",
+    "filing_code": "Kr"
+   },
+   "summary": {
+    "en": "Death register entry for Ester Nowomiast, 1905. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום פטירה של Ester Nowomiast, 1905. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_m1852_perl_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/m_1852_perl_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "marriage_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Marriage register entry, Perl Rapaport, 1852",
+    "he": "רישום נישואין — Perl Rapaport, 1852",
+    "pl": "Akt małżeństwa — Perl Rapaport, 1852",
+    "fr": "Acte de mariage — Perl Rapaport, 1852"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: M_1852_Perl_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_perl_liebe_rapaport"
+   ],
+   "decoded_fields": {
+    "record_type": "marriage_register",
+    "year": "1852",
+    "named_in_record": "Perl Rapaport",
+    "branch_folder": "Perl Liebe (Pauline) Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Marriage register entry for Perl Rapaport, 1852. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום נישואין של Perl Rapaport, 1852. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_u1835_perl_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/u_1835_perl_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "birth_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Birth register entry, Perl Rapaport, 1835",
+    "he": "רישום לידה — Perl Rapaport, 1835",
+    "pl": "Akt urodzenia — Perl Rapaport, 1835",
+    "fr": "Acte de naissance — Perl Rapaport, 1835"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: U_1835_Perl_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_perl_liebe_rapaport"
+   ],
+   "decoded_fields": {
+    "record_type": "birth_register",
+    "year": "1835",
+    "named_in_record": "Perl Rapaport",
+    "branch_folder": "Perl Liebe (Pauline) Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Birth register entry for Perl Rapaport, 1835. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום לידה של Perl Rapaport, 1835. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_m1864_noa_jacobson_ester_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/m_1864_noa_jacobson_ester_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "marriage_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Marriage register entry, Noa Jacobson Ester Rapaport, 1864",
+    "he": "רישום נישואין — Noa Jacobson Ester Rapaport, 1864",
+    "pl": "Akt małżeństwa — Noa Jacobson Ester Rapaport, 1864",
+    "fr": "Acte de mariage — Noa Jacobson Ester Rapaport, 1864"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: M_1864_Noa_Jacobson_Ester_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_ester_rapaport_1843"
+   ],
+   "decoded_fields": {
+    "record_type": "marriage_register",
+    "year": "1864",
+    "named_in_record": "Noa Jacobson Ester Rapaport",
+    "branch_folder": "Ester Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Marriage register entry for Noa Jacobson Ester Rapaport, 1864. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום נישואין של Noa Jacobson Ester Rapaport, 1864. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_m1880_saul_margulies_ester_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/m_1880_saul_margulies_ester_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "marriage_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Marriage register entry, Saul Margulies Ester Rapaport, 1880",
+    "he": "רישום נישואין — Saul Margulies Ester Rapaport, 1880",
+    "pl": "Akt małżeństwa — Saul Margulies Ester Rapaport, 1880",
+    "fr": "Acte de mariage — Saul Margulies Ester Rapaport, 1880"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: M_1880_Saul_Margulies_Ester_Rapaport_Kr.jpg (filing code Kr)",
+   "related_people": [
+    "p_ester_rapaport_1843"
+   ],
+   "decoded_fields": {
+    "record_type": "marriage_register",
+    "year": "1880",
+    "named_in_record": "Saul Margulies Ester Rapaport",
+    "branch_folder": "Ester Rapaport",
+    "filing_code": "Kr"
+   },
+   "summary": {
+    "en": "Marriage register entry for Saul Margulies Ester Rapaport, 1880. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום נישואין של Saul Margulies Ester Rapaport, 1880. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_u1843_ester_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/u_1843_ester_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "birth_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Birth register entry, Ester Rapaport, 1843",
+    "he": "רישום לידה — Ester Rapaport, 1843",
+    "pl": "Akt urodzenia — Ester Rapaport, 1843",
+    "fr": "Acte de naissance — Ester Rapaport, 1843"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: U_1843_Ester_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_ester_rapaport_1843"
+   ],
+   "decoded_fields": {
+    "record_type": "birth_register",
+    "year": "1843",
+    "named_in_record": "Ester Rapaport",
+    "branch_folder": "Ester Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Birth register entry for Ester Rapaport, 1843. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום לידה של Ester Rapaport, 1843. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_z1921_izaak_caim_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/z_1921_izaak_caim_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "death_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Death register entry, Izaak Caim Rapaport, 1921",
+    "he": "רישום פטירה — Izaak Caim Rapaport, 1921",
+    "pl": "Akt zgonu — Izaak Caim Rapaport, 1921",
+    "fr": "Acte de décès — Izaak Caim Rapaport, 1921"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: Z_1921_Izaak_Caim_Rapaport_Kr.jpg (filing code Kr)",
+   "related_people": [
+    "p_izchak_chaim_rapaport"
+   ],
+   "decoded_fields": {
+    "record_type": "death_register",
+    "year": "1921",
+    "named_in_record": "Izaak Caim Rapaport",
+    "branch_folder": "Izchak Chaim Rapaport",
+    "filing_code": "Kr"
+   },
+   "summary": {
+    "en": "Death register entry for Izaak Caim Rapaport, 1921. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום פטירה של Izaak Caim Rapaport, 1921. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_z1925_margulesa_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/z_1925_margulesa_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "death_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Death register entry, Margulesa Rapaport, 1925",
+    "he": "רישום פטירה — Margulesa Rapaport, 1925",
+    "pl": "Akt zgonu — Margulesa Rapaport, 1925",
+    "fr": "Acte de décès — Margulesa Rapaport, 1925"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: Z_1925_Margulesa_Rapaport_Kr.jpg (filing code Kr)",
+   "related_people": [],
+   "decoded_fields": {
+    "record_type": "death_register",
+    "year": "1925",
+    "named_in_record": "Margulesa Rapaport",
+    "branch_folder": "Izchak Chaim Rapaport",
+    "filing_code": "Kr"
+   },
+   "summary": {
+    "en": "Death register entry for Margulesa Rapaport, 1925. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It sits in the folder of Izchak Chaim Rapaport.",
+    "he": "רישום פטירה של Margulesa Rapaport, 1925. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק בתיקייה של Izchak Chaim Rapaport."
+   },
+   "status": "catalogued_not_yet_read",
+   "open_questions": [
+    {
+     "en": "This record names Margulesa Rapaport but is filed in Izchak Chaim Rapaport’s folder. Who is Margulesa Rapaport to that branch — spouse, parent, child?",
+     "he": "הרשומה נוקבת בשם Margulesa Rapaport אך מתויקת בתיקייה של Izchak Chaim Rapaport. מיהו/מיהי Margulesa Rapaport לאותו ענף — בן/בת זוג, הורה, ילד/ה?"
+    }
+   ]
+  },
+  {
+   "id": "doc_reg_z1844_abraham_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/z_1844_abraham_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "death_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Death register entry, Abraham Rapaport, 1844",
+    "he": "רישום פטירה — Abraham Rapaport, 1844",
+    "pl": "Akt zgonu — Abraham Rapaport, 1844",
+    "fr": "Acte de décès — Abraham Rapaport, 1844"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: Z_1844_Abraham_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_abraham_abe_rapaport"
+   ],
+   "decoded_fields": {
+    "record_type": "death_register",
+    "year": "1844",
+    "named_in_record": "Abraham Rapaport",
+    "branch_folder": "Abraham Abe Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Death register entry for Abraham Rapaport, 1844. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום פטירה של Abraham Rapaport, 1844. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_z1874_leia_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/z_1874_leia_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "death_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Death register entry, Leia Rapaport, 1874",
+    "he": "רישום פטירה — Leia Rapaport, 1874",
+    "pl": "Akt zgonu — Leia Rapaport, 1874",
+    "fr": "Acte de décès — Leia Rapaport, 1874"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: Z_1874_Leia_Rapaport_T.jpg (filing code T)",
+   "related_people": [],
+   "decoded_fields": {
+    "record_type": "death_register",
+    "year": "1874",
+    "named_in_record": "Leia Rapaport",
+    "branch_folder": "Abraham Abe Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Death register entry for Leia Rapaport, 1874. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It sits in the folder of Abraham Abe Rapaport.",
+    "he": "רישום פטירה של Leia Rapaport, 1874. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק בתיקייה של Abraham Abe Rapaport."
+   },
+   "status": "catalogued_not_yet_read",
+   "open_questions": [
+    {
+     "en": "This record names Leia Rapaport but is filed in Abraham Abe Rapaport’s folder. Who is Leia Rapaport to that branch — spouse, parent, child?",
+     "he": "הרשומה נוקבת בשם Leia Rapaport אך מתויקת בתיקייה של Abraham Abe Rapaport. מיהו/מיהי Leia Rapaport לאותו ענף — בן/בת זוג, הורה, ילד/ה?"
+    }
+   ]
+  },
+  {
+   "id": "doc_reg_u1855_blume_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/u_1855_blume_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "birth_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Birth register entry, Blume Rapaport, 1855",
+    "he": "רישום לידה — Blume Rapaport, 1855",
+    "pl": "Akt urodzenia — Blume Rapaport, 1855",
+    "fr": "Acte de naissance — Blume Rapaport, 1855"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: U_1855_Blume_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_blume_rapaport"
+   ],
+   "decoded_fields": {
+    "record_type": "birth_register",
+    "year": "1855",
+    "named_in_record": "Blume Rapaport",
+    "branch_folder": "Blume Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Birth register entry for Blume Rapaport, 1855. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום לידה של Blume Rapaport, 1855. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_z1857_blume_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/z_1857_blume_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "death_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Death register entry, Blume Rapaport, 1857",
+    "he": "רישום פטירה — Blume Rapaport, 1857",
+    "pl": "Akt zgonu — Blume Rapaport, 1857",
+    "fr": "Acte de décès — Blume Rapaport, 1857"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: Z_1857_Blume_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_blume_rapaport"
+   ],
+   "decoded_fields": {
+    "record_type": "death_register",
+    "year": "1857",
+    "named_in_record": "Blume Rapaport",
+    "branch_folder": "Blume Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Death register entry for Blume Rapaport, 1857. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום פטירה של Blume Rapaport, 1857. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_u1849_abraham_chaim_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/u_1849_abraham_chaim_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "birth_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Birth register entry, Abraham Chaim Rapaport, 1849",
+    "he": "רישום לידה — Abraham Chaim Rapaport, 1849",
+    "pl": "Akt urodzenia — Abraham Chaim Rapaport, 1849",
+    "fr": "Acte de naissance — Abraham Chaim Rapaport, 1849"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: U_1849_Abraham_Chaim_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_abraham_chaim_rapaport"
+   ],
+   "decoded_fields": {
+    "record_type": "birth_register",
+    "year": "1849",
+    "named_in_record": "Abraham Chaim Rapaport",
+    "branch_folder": "Abraham Chaim Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Birth register entry for Abraham Chaim Rapaport, 1849. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום לידה של Abraham Chaim Rapaport, 1849. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_z1851_abraham_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/z_1851_abraham_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "death_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Death register entry, Abraham Rapaport, 1851",
+    "he": "רישום פטירה — Abraham Rapaport, 1851",
+    "pl": "Akt zgonu — Abraham Rapaport, 1851",
+    "fr": "Acte de décès — Abraham Rapaport, 1851"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: Z_1851_Abraham_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_abraham_chaim_rapaport"
+   ],
+   "decoded_fields": {
+    "record_type": "death_register",
+    "year": "1851",
+    "named_in_record": "Abraham Rapaport",
+    "branch_folder": "Abraham Chaim Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Death register entry for Abraham Rapaport, 1851. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום פטירה של Abraham Rapaport, 1851. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_u1841_isaac_moses_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/u_1841_isaac_moses_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "birth_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Birth register entry, Isaac Moses Rapaport, 1841",
+    "he": "רישום לידה — Isaac Moses Rapaport, 1841",
+    "pl": "Akt urodzenia — Isaac Moses Rapaport, 1841",
+    "fr": "Acte de naissance — Isaac Moses Rapaport, 1841"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: U_1841_Isaac_Moses_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_isaac_moses_rapaport"
+   ],
+   "decoded_fields": {
+    "record_type": "birth_register",
+    "year": "1841",
+    "named_in_record": "Isaac Moses Rapaport",
+    "branch_folder": "Isaac Moses Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Birth register entry for Isaac Moses Rapaport, 1841. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום לידה של Isaac Moses Rapaport, 1841. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_u1841_izaak_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/u_1841_izaak_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "birth_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Birth register entry, Izaak Rapaport, 1841",
+    "he": "רישום לידה — Izaak Rapaport, 1841",
+    "pl": "Akt urodzenia — Izaak Rapaport, 1841",
+    "fr": "Acte de naissance — Izaak Rapaport, 1841"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: U_1841_Izaak_Rapaport_T.jpg (filing code T)",
+   "related_people": [],
+   "decoded_fields": {
+    "record_type": "birth_register",
+    "year": "1841",
+    "named_in_record": "Izaak Rapaport",
+    "branch_folder": "Isaac Moses Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Birth register entry for Izaak Rapaport, 1841. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It sits in the folder of Isaac Moses Rapaport.",
+    "he": "רישום לידה של Izaak Rapaport, 1841. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק בתיקייה של Isaac Moses Rapaport."
+   },
+   "status": "catalogued_not_yet_read",
+   "open_questions": [
+    {
+     "en": "This record names Izaak Rapaport but is filed in Isaac Moses Rapaport’s folder. Who is Izaak Rapaport to that branch — spouse, parent, child?",
+     "he": "הרשומה נוקבת בשם Izaak Rapaport אך מתויקת בתיקייה של Isaac Moses Rapaport. מיהו/מיהי Izaak Rapaport לאותו ענף — בן/בת זוג, הורה, ילד/ה?"
+    }
+   ]
+  },
+  {
+   "id": "doc_reg_z1881_izrael_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/z_1881_izrael_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "death_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Death register entry, Izrael Rapaport, 1881",
+    "he": "רישום פטירה — Izrael Rapaport, 1881",
+    "pl": "Akt zgonu — Izrael Rapaport, 1881",
+    "fr": "Acte de décès — Izrael Rapaport, 1881"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: Z_1881_Izrael_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_izrael_rapaport_1813"
+   ],
+   "decoded_fields": {
+    "record_type": "death_register",
+    "year": "1881",
+    "named_in_record": "Izrael Rapaport",
+    "branch_folder": "Izrael Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Death register entry for Izrael Rapaport, 1881. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום פטירה של Izrael Rapaport, 1881. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_u1849_israel_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/u_1849_israel_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "birth_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Birth register entry, Israel Rapaport, 1849",
+    "he": "רישום לידה — Israel Rapaport, 1849",
+    "pl": "Akt urodzenia — Israel Rapaport, 1849",
+    "fr": "Acte de naissance — Israel Rapaport, 1849"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: U_1849_Israel_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_izrael_rapaport_1850"
+   ],
+   "decoded_fields": {
+    "record_type": "birth_register",
+    "year": "1849",
+    "named_in_record": "Israel Rapaport",
+    "branch_folder": "Izrael Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Birth register entry for Israel Rapaport, 1849. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום לידה של Israel Rapaport, 1849. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "conflict_open",
+   "open_questions": [
+    {
+     "en": "CONFLICT: the register is filed as 1849 but this archive records 1850 for Israel Rapaport. One of the two is wrong and neither has been corrected.",
+     "he": "סתירה: הרישום מתויק כ-1849 ואילו הארכיון רושם 1850 עבור Israel Rapaport. אחד מן השניים שגוי ואיש מהם לא תוקן."
+    }
+   ]
+  },
+  {
+   "id": "doc_reg_z1851_izrael_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/z_1851_izrael_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "death_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Death register entry, Izrael Rapaport, 1851",
+    "he": "רישום פטירה — Izrael Rapaport, 1851",
+    "pl": "Akt zgonu — Izrael Rapaport, 1851",
+    "fr": "Acte de décès — Izrael Rapaport, 1851"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: Z_1851_Izrael_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_izrael_rapaport_1850"
+   ],
+   "decoded_fields": {
+    "record_type": "death_register",
+    "year": "1851",
+    "named_in_record": "Izrael Rapaport",
+    "branch_folder": "Izrael Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Death register entry for Izrael Rapaport, 1851. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום פטירה של Izrael Rapaport, 1851. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_m1855_perl_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/m_1855_perl_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "marriage_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Marriage register entry, Perl Rapaport, 1855",
+    "he": "רישום נישואין — Perl Rapaport, 1855",
+    "pl": "Akt małżeństwa — Perl Rapaport, 1855",
+    "fr": "Acte de mariage — Perl Rapaport, 1855"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: M_1855_Perl_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_perl_liebe_rapaport"
+   ],
+   "decoded_fields": {
+    "record_type": "marriage_register",
+    "year": "1855",
+    "named_in_record": "Perl Rapaport",
+    "branch_folder": "Perl Liebe (Pauline) Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Marriage register entry for Perl Rapaport, 1855. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום נישואין של Perl Rapaport, 1855. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_z1896_saul_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/z_1896_saul_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "death_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Death register entry, Saul Rapaport, 1896",
+    "he": "רישום פטירה — Saul Rapaport, 1896",
+    "pl": "Akt zgonu — Saul Rapaport, 1896",
+    "fr": "Acte de décès — Saul Rapaport, 1896"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: Z_1896_Saul_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_saul_rapaport_1846"
+   ],
+   "decoded_fields": {
+    "record_type": "death_register",
+    "year": "1896",
+    "named_in_record": "Saul Rapaport",
+    "branch_folder": "Saul Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Death register entry for Saul Rapaport, 1896. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום פטירה של Saul Rapaport, 1896. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_z1934_gitla_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/z_1934_gitla_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "death_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Death register entry, Gitla Rapaport, 1934",
+    "he": "רישום פטירה — Gitla Rapaport, 1934",
+    "pl": "Akt zgonu — Gitla Rapaport, 1934",
+    "fr": "Acte de décès — Gitla Rapaport, 1934"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: Z_1934_Gitla_Rapaport_Kr.jpg (filing code Kr)",
+   "related_people": [],
+   "decoded_fields": {
+    "record_type": "death_register",
+    "year": "1934",
+    "named_in_record": "Gitla Rapaport",
+    "branch_folder": "Saul Rapaport",
+    "filing_code": "Kr"
+   },
+   "summary": {
+    "en": "Death register entry for Gitla Rapaport, 1934. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It sits in the folder of Saul Rapaport.",
+    "he": "רישום פטירה של Gitla Rapaport, 1934. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק בתיקייה של Saul Rapaport."
+   },
+   "status": "catalogued_not_yet_read",
+   "open_questions": [
+    {
+     "en": "This record names Gitla Rapaport but is filed in Saul Rapaport’s folder. Who is Gitla Rapaport to that branch — spouse, parent, child?",
+     "he": "הרשומה נוקבת בשם Gitla Rapaport אך מתויקת בתיקייה של Saul Rapaport. מיהו/מיהי Gitla Rapaport לאותו ענף — בן/בת זוג, הורה, ילד/ה?"
+    }
+   ]
+  },
+  {
+   "id": "doc_reg_u1828_moses_meier_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/u_1828_moses_meier_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "birth_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Birth register entry, Moses Meier Rapaport, 1828",
+    "he": "רישום לידה — Moses Meier Rapaport, 1828",
+    "pl": "Akt urodzenia — Moses Meier Rapaport, 1828",
+    "fr": "Acte de naissance — Moses Meier Rapaport, 1828"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: U_1828_Moses_Meier_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_moses_meier_rapaport"
+   ],
+   "decoded_fields": {
+    "record_type": "birth_register",
+    "year": "1828",
+    "named_in_record": "Moses Meier Rapaport",
+    "branch_folder": "Moses Meier Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Birth register entry for Moses Meier Rapaport, 1828. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום לידה של Moses Meier Rapaport, 1828. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_z1829_moses_meier_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/z_1829_moses_meier_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "death_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Death register entry, Moses Meier Rapaport, 1829",
+    "he": "רישום פטירה — Moses Meier Rapaport, 1829",
+    "pl": "Akt zgonu — Moses Meier Rapaport, 1829",
+    "fr": "Acte de décès — Moses Meier Rapaport, 1829"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: Z_1829_Moses_Meier_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_moses_meier_rapaport"
+   ],
+   "decoded_fields": {
+    "record_type": "death_register",
+    "year": "1829",
+    "named_in_record": "Moses Meier Rapaport",
+    "branch_folder": "Moses Meier Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Death register entry for Moses Meier Rapaport, 1829. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום פטירה של Moses Meier Rapaport, 1829. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_u1818_sara_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/u_1818_sara_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "birth_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Birth register entry, Sara Rapaport, 1818",
+    "he": "רישום לידה — Sara Rapaport, 1818",
+    "pl": "Akt urodzenia — Sara Rapaport, 1818",
+    "fr": "Acte de naissance — Sara Rapaport, 1818"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: U_1818_Sara_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_sara_rapaport_1818"
+   ],
+   "decoded_fields": {
+    "record_type": "birth_register",
+    "year": "1818",
+    "named_in_record": "Sara Rapaport",
+    "branch_folder": "Sara Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Birth register entry for Sara Rapaport, 1818. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום לידה של Sara Rapaport, 1818. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_z1820_sara_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/z_1820_sara_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "death_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Death register entry, Sara Rapaport, 1820",
+    "he": "רישום פטירה — Sara Rapaport, 1820",
+    "pl": "Akt zgonu — Sara Rapaport, 1820",
+    "fr": "Acte de décès — Sara Rapaport, 1820"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: Z_1820_Sara_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_sara_rapaport_1818"
+   ],
+   "decoded_fields": {
+    "record_type": "death_register",
+    "year": "1820",
+    "named_in_record": "Sara Rapaport",
+    "branch_folder": "Sara Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Death register entry for Sara Rapaport, 1820. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום פטירה של Sara Rapaport, 1820. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_u1845_abraham_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/u_1845_abraham_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "birth_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Birth register entry, Abraham Rapaport, 1845",
+    "he": "רישום לידה — Abraham Rapaport, 1845",
+    "pl": "Akt urodzenia — Abraham Rapaport, 1845",
+    "fr": "Acte de naissance — Abraham Rapaport, 1845"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: U_1845_Abraham_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_abe_rapaport_1845"
+   ],
+   "decoded_fields": {
+    "record_type": "birth_register",
+    "year": "1845",
+    "named_in_record": "Abraham Rapaport",
+    "branch_folder": "Abe (Abraham) Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Birth register entry for Abraham Rapaport, 1845. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום לידה של Abraham Rapaport, 1845. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_z1849_abe_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/z_1849_abe_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "death_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Death register entry, Abe Rapaport, 1849",
+    "he": "רישום פטירה — Abe Rapaport, 1849",
+    "pl": "Akt zgonu — Abe Rapaport, 1849",
+    "fr": "Acte de décès — Abe Rapaport, 1849"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: Z_1849_Abe_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_abe_rapaport_1845"
+   ],
+   "decoded_fields": {
+    "record_type": "death_register",
+    "year": "1849",
+    "named_in_record": "Abe Rapaport",
+    "branch_folder": "Abe (Abraham) Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Death register entry for Abe Rapaport, 1849. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום פטירה של Abe Rapaport, 1849. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_m1897_majer_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/m_1897_majer_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "marriage_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Marriage register entry, Majer Rapaport, 1897",
+    "he": "רישום נישואין — Majer Rapaport, 1897",
+    "pl": "Akt małżeństwa — Majer Rapaport, 1897",
+    "fr": "Acte de mariage — Majer Rapaport, 1897"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: M_1897_Majer_Rapaport_Kr.jpg (filing code Kr)",
+   "related_people": [
+    "p_majer_rapaport_1849"
+   ],
+   "decoded_fields": {
+    "record_type": "marriage_register",
+    "year": "1897",
+    "named_in_record": "Majer Rapaport",
+    "branch_folder": "Majer Rapaport",
+    "filing_code": "Kr"
+   },
+   "summary": {
+    "en": "Marriage register entry for Majer Rapaport, 1897. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום נישואין של Majer Rapaport, 1897. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_z1920_majer_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/z_1920_majer_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "death_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Death register entry, Majer Rapaport, 1920",
+    "he": "רישום פטירה — Majer Rapaport, 1920",
+    "pl": "Akt zgonu — Majer Rapaport, 1920",
+    "fr": "Acte de décès — Majer Rapaport, 1920"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: Z_1920_ Majer_Rapaport_Kr.jpg (filing code Kr)",
+   "related_people": [
+    "p_majer_rapaport_1849"
+   ],
+   "decoded_fields": {
+    "record_type": "death_register",
+    "year": "1920",
+    "named_in_record": "Majer Rapaport",
+    "branch_folder": "Majer Rapaport",
+    "filing_code": "Kr"
+   },
+   "summary": {
+    "en": "Death register entry for Majer Rapaport, 1920. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום פטירה של Majer Rapaport, 1920. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_u1821_taube_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/u_1821_taube_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "birth_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Birth register entry, Taube Rapaport, 1821",
+    "he": "רישום לידה — Taube Rapaport, 1821",
+    "pl": "Akt urodzenia — Taube Rapaport, 1821",
+    "fr": "Acte de naissance — Taube Rapaport, 1821"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: U_1821_Taube_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_taube_rapaport_1821"
+   ],
+   "decoded_fields": {
+    "record_type": "birth_register",
+    "year": "1821",
+    "named_in_record": "Taube Rapaport",
+    "branch_folder": "Taube Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Birth register entry for Taube Rapaport, 1821. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום לידה של Taube Rapaport, 1821. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_z1822_taube_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/z_1822_taube_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "death_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Death register entry, Taube Rapaport, 1822",
+    "he": "רישום פטירה — Taube Rapaport, 1822",
+    "pl": "Akt zgonu — Taube Rapaport, 1822",
+    "fr": "Acte de décès — Taube Rapaport, 1822"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: Z_1822_Taube_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_taube_rapaport_1821"
+   ],
+   "decoded_fields": {
+    "record_type": "death_register",
+    "year": "1822",
+    "named_in_record": "Taube Rapaport",
+    "branch_folder": "Taube Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Death register entry for Taube Rapaport, 1822. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום פטירה של Taube Rapaport, 1822. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_z1855_freude_rapoport",
+   "file_pages": [
+    "basia_2026_08/registers/z_1855_freude_rapoport.jpg"
+   ],
+   "kind": "image",
+   "type": "death_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Death register entry, Freude Rapoport, 1855",
+    "he": "רישום פטירה — Freude Rapoport, 1855",
+    "pl": "Akt zgonu — Freude Rapoport, 1855",
+    "fr": "Acte de décès — Freude Rapoport, 1855"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: Z_1855_Freude_Rapoport_T.jpg (filing code T)",
+   "related_people": [
+    "p_freude_rapaport"
+   ],
+   "decoded_fields": {
+    "record_type": "death_register",
+    "year": "1855",
+    "named_in_record": "Freude Rapoport",
+    "branch_folder": "Freude Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Death register entry for Freude Rapoport, 1855. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום פטירה של Freude Rapoport, 1855. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_u1844_hersch_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/u_1844_hersch_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "birth_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Birth register entry, Hersch Rapaport, 1844",
+    "he": "רישום לידה — Hersch Rapaport, 1844",
+    "pl": "Akt urodzenia — Hersch Rapaport, 1844",
+    "fr": "Acte de naissance — Hersch Rapaport, 1844"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: U_1844_Hersch_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_hersch_rapaport_1844"
+   ],
+   "decoded_fields": {
+    "record_type": "birth_register",
+    "year": "1844",
+    "named_in_record": "Hersch Rapaport",
+    "branch_folder": "Hersch Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Birth register entry for Hersch Rapaport, 1844. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום לידה של Hersch Rapaport, 1844. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_z1887_jakub_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/z_1887_jakub_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "death_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Death register entry, Jakub Rapaport, 1887",
+    "he": "רישום פטירה — Jakub Rapaport, 1887",
+    "pl": "Akt zgonu — Jakub Rapaport, 1887",
+    "fr": "Acte de décès — Jakub Rapaport, 1887"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: Z_1887_Jakub_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_jakub_rapaport_1856"
+   ],
+   "decoded_fields": {
+    "record_type": "death_register",
+    "year": "1887",
+    "named_in_record": "Jakub Rapaport",
+    "branch_folder": "Jakub Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Death register entry for Jakub Rapaport, 1887. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום פטירה של Jakub Rapaport, 1887. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_u1848_riwka_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/u_1848_riwka_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "birth_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Birth register entry, Riwka Rapaport, 1848",
+    "he": "רישום לידה — Riwka Rapaport, 1848",
+    "pl": "Akt urodzenia — Riwka Rapaport, 1848",
+    "fr": "Acte de naissance — Riwka Rapaport, 1848"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: U_1848_Riwka_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_riwke_rapaport"
+   ],
+   "decoded_fields": {
+    "record_type": "birth_register",
+    "year": "1848",
+    "named_in_record": "Riwka Rapaport",
+    "branch_folder": "Riwke Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Birth register entry for Riwka Rapaport, 1848. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום לידה של Riwka Rapaport, 1848. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_u1858_sprinze_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/u_1858_sprinze_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "birth_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Birth register entry, Sprinze Rapaport, 1858",
+    "he": "רישום לידה — Sprinze Rapaport, 1858",
+    "pl": "Akt urodzenia — Sprinze Rapaport, 1858",
+    "fr": "Acte de naissance — Sprinze Rapaport, 1858"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: U_1858_Sprinze_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_sprinze_rapaport"
+   ],
+   "decoded_fields": {
+    "record_type": "birth_register",
+    "year": "1858",
+    "named_in_record": "Sprinze Rapaport",
+    "branch_folder": "Sprinze Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Birth register entry for Sprinze Rapaport, 1858. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום לידה של Sprinze Rapaport, 1858. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_u1855_marjam_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/u_1855_marjam_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "birth_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Birth register entry, Marjam Rapaport, 1855",
+    "he": "רישום לידה — Marjam Rapaport, 1855",
+    "pl": "Akt urodzenia — Marjam Rapaport, 1855",
+    "fr": "Acte de naissance — Marjam Rapaport, 1855"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: U_1855_Marjam_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_marjam_rapaport"
+   ],
+   "decoded_fields": {
+    "record_type": "birth_register",
+    "year": "1855",
+    "named_in_record": "Marjam Rapaport",
+    "branch_folder": "Marjam Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Birth register entry for Marjam Rapaport, 1855. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום לידה של Marjam Rapaport, 1855. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_u1853_mayer_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/u_1853_mayer_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "birth_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Birth register entry, Mayer Rapaport, 1853",
+    "he": "רישום לידה — Mayer Rapaport, 1853",
+    "pl": "Akt urodzenia — Mayer Rapaport, 1853",
+    "fr": "Acte de naissance — Mayer Rapaport, 1853"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: U_1853_Mayer_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_mayer_rapaport_1853"
+   ],
+   "decoded_fields": {
+    "record_type": "birth_register",
+    "year": "1853",
+    "named_in_record": "Mayer Rapaport",
+    "branch_folder": "Mayer Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Birth register entry for Mayer Rapaport, 1853. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום לידה של Mayer Rapaport, 1853. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_u1847_samuel_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/u_1847_samuel_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "birth_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Birth register entry, Samuel Rapaport, 1847",
+    "he": "רישום לידה — Samuel Rapaport, 1847",
+    "pl": "Akt urodzenia — Samuel Rapaport, 1847",
+    "fr": "Acte de naissance — Samuel Rapaport, 1847"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: U_1847_Samuel_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_samuel_rapaport_1847"
+   ],
+   "decoded_fields": {
+    "record_type": "birth_register",
+    "year": "1847",
+    "named_in_record": "Samuel Rapaport",
+    "branch_folder": "Samuel Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Birth register entry for Samuel Rapaport, 1847. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום לידה של Samuel Rapaport, 1847. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_u1839_wolf_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/u_1839_wolf_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "birth_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Birth register entry, Wolf Rapaport, 1839",
+    "he": "רישום לידה — Wolf Rapaport, 1839",
+    "pl": "Akt urodzenia — Wolf Rapaport, 1839",
+    "fr": "Acte de naissance — Wolf Rapaport, 1839"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: U_1839_Wolf_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_wolf_rapaport"
+   ],
+   "decoded_fields": {
+    "record_type": "birth_register",
+    "year": "1839",
+    "named_in_record": "Wolf Rapaport",
+    "branch_folder": "Wolf Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Birth register entry for Wolf Rapaport, 1839. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום לידה של Wolf Rapaport, 1839. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_u1831_salomon_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/u_1831_salomon_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "birth_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Birth register entry, Salomon Rapaport, 1831",
+    "he": "רישום לידה — Salomon Rapaport, 1831",
+    "pl": "Akt urodzenia — Salomon Rapaport, 1831",
+    "fr": "Acte de naissance — Salomon Rapaport, 1831"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: U_1831_Salomon_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_salomon_rapaport_1831"
+   ],
+   "decoded_fields": {
+    "record_type": "birth_register",
+    "year": "1831",
+    "named_in_record": "Salomon Rapaport",
+    "branch_folder": "Salomon Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Birth register entry for Salomon Rapaport, 1831. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום לידה של Salomon Rapaport, 1831. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_reg_u1847_liebe_rapaport",
+   "file_pages": [
+    "basia_2026_08/registers/u_1847_liebe_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "birth_register",
+   "primary_language": "pl",
+   "title": {
+    "en": "Birth register entry, Liebe Rapaport, 1847",
+    "he": "רישום לידה — Liebe Rapaport, 1847",
+    "pl": "Akt urodzenia — Liebe Rapaport, 1847",
+    "fr": "Acte de naissance — Liebe Rapaport, 1847"
+   },
+   "source_archive": "Basia, Ahnenblatt family archive, received 6 August 2026. Her filing name: U_1847_Liebe_Rapaport_T.jpg (filing code T)",
+   "related_people": [
+    "p_liebe_rapaport_1847"
+   ],
+   "decoded_fields": {
+    "record_type": "birth_register",
+    "year": "1847",
+    "named_in_record": "Liebe Rapaport",
+    "branch_folder": "Liebe Rapaport",
+    "filing_code": "T"
+   },
+   "summary": {
+    "en": "Birth register entry for Liebe Rapaport, 1847. One of 58 civil-register photographs in Basia’s family archive covering 1818 to 1934. The U_/M_/Z_ naming was verified before these were published: 27 of 28 birth files carry the same year as the birth this archive already held for that person, and 16 of 19 death files match too. It is filed under the person it names.",
+    "he": "רישום לידה של Liebe Rapaport, 1847. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
+   },
+   "status": "catalogued_not_yet_read"
   }
  ],
  "additional_files": [

@@ -1,408 +1,444 @@
 {
-  "generated": "2026-08-03",
-  "note": {
-    "en": "Every paragraph names the record it rests on. Where the memoir and the documents disagree, the text says so instead of quietly choosing between them. The wider research has now reached 1,442 people across 480 families, back to Abraham Abe Rapaport, born 1784 at Tarnów. This story stays with four of them — David, Lusia, Shimon and Dov — and the rest is the ground they stood on.",
-    "he": "כל פסקה נוקבת ברשומה שעליה היא נשענת. במקום שבו היומן והמסמכים אינם מסכימים, הטקסט אומר זאת במקום לבחור ביניהם בשקט. המחקר הרחב הגיע עד כה ל-1,442 אנשים ב-480 משפחות, אחורה עד אברהם אבה רפפורט, יליד 1784 בטרנוב. הסיפור הזה נשאר עם ארבעה מהם — דוד, לוסיה, שמעון ודב — וכל השאר הוא הקרקע שעליה עמדו.",
-    "pl": "Każdy akapit wskazuje dokument, na którym się opiera. Tam, gdzie pamiętnik i dokumenty się różnią, tekst to mówi, zamiast po cichu wybierać między nimi. Szersze badania objęły dotąd 1442 osoby w 480 rodzinach, wstecz aż do Abrahama Abe Rapaporta, ur. 1784 w Tarnowie. Ta opowieść pozostaje przy czworgu z nich — Dawidzie, Lusi, Szymonie i Dovie — a reszta to grunt, na którym stali.",
-    "fr": "Chaque paragraphe cite le document sur lequel il repose. Là où le mémoire et les archives divergent, le texte le dit au lieu de trancher en silence. Les recherches élargies atteignent désormais 1 442 personnes réparties en 480 familles, jusqu’à Abraham Abe Rapaport, né en 1784 à Tarnów. Ce récit s’en tient à quatre d’entre eux — David, Lusia, Shimon et Dov — et le reste est le sol sur lequel ils se tenaient."
-  },
-  "chapters": [
+ "generated": "2026-08-06",
+ "note": {
+  "en": "Every paragraph names the record it rests on. Where the memoir and the documents disagree, the text says so instead of quietly choosing between them. The wider research has now reached 1,442 people across 480 families, back to Abraham Abe Rapaport, born 1784 at Tarnów. This story stays with four of them — David, Lusia, Shimon and Dov — and the rest is the ground they stood on.",
+  "he": "כל פסקה נוקבת ברשומה שעליה היא נשענת. במקום שבו היומן והמסמכים אינם מסכימים, הטקסט אומר זאת במקום לבחור ביניהם בשקט. המחקר הרחב הגיע עד כה ל-1,442 אנשים ב-480 משפחות, אחורה עד אברהם אבה רפפורט, יליד 1784 בטרנוב. הסיפור הזה נשאר עם ארבעה מהם — דוד, לוסיה, שמעון ודב — וכל השאר הוא הקרקע שעליה עמדו.",
+  "pl": "Każdy akapit wskazuje dokument, na którym się opiera. Tam, gdzie pamiętnik i dokumenty się różnią, tekst to mówi, zamiast po cichu wybierać między nimi. Szersze badania objęły dotąd 1442 osoby w 480 rodzinach, wstecz aż do Abrahama Abe Rapaporta, ur. 1784 w Tarnowie. Ta opowieść pozostaje przy czworgu z nich — Dawidzie, Lusi, Szymonie i Dovie — a reszta to grunt, na którym stali.",
+  "fr": "Chaque paragraphe cite le document sur lequel il repose. Là où le mémoire et les archives divergent, le texte le dit au lieu de trancher en silence. Les recherches élargies atteignent désormais 1 442 personnes réparties en 480 familles, jusqu’à Abraham Abe Rapaport, né en 1784 à Tarnów. Ce récit s’en tient à quatre d’entre eux — David, Lusia, Shimon et Dov — et le reste est le sol sur lequel ils se tenaient."
+ },
+ "chapters": [
+  {
+   "id": "origins",
+   "years": "1850—1886",
+   "title": {
+    "en": "Before the beginning — Radomyśl Wielki",
+    "he": "לפני ההתחלה — רדומישל ויילקי",
+    "pl": "Zanim się zaczęło — Radomyśl Wielki",
+    "fr": "Avant le commencement — Radomyśl Wielki"
+   },
+   "paragraphs": [
     {
-      "id": "origins",
-      "years": "1850—1886",
-      "title": {
-        "en": "Before the beginning — Radomyśl Wielki",
-        "he": "לפני ההתחלה — רדומישל ויילקי",
-        "pl": "Zanim się zaczęło — Radomyśl Wielki",
-        "fr": "Avant le commencement — Radomyśl Wielki"
-      },
-      "paragraphs": [
-        {
-          "text": {
-            "en": "For a year this family could go back no further than a name on a passport. The paternal line stopped at Berisz Rapaport, and even Edward Gelles, who spent twenty-five years on the Rapaport rabbinical genealogies, could not carry it past him. In May 2026 Basia found the passport file itself, and inside it were his parents: Moses Saul Rapaport and Menukha.",
-            "he": "במשך שנה לא יכלה המשפחה הזאת לחזור אחורה מעבר לשם על דרכון. קו האב נעצר בבריש רפפורט, ואפילו אדוארד גלס, שהקדיש עשרים וחמש שנה לייחוסי הרבנים לבית רפפורט, לא הצליח לעבור אותו. במאי 2026 מצאה בסיה את תיק הדרכון עצמו, ובתוכו היו הוריו: משה שאול רפפורט ומנוחה.",
-            "pl": "Przez rok ta rodzina nie mogła cofnąć się dalej niż nazwisko w paszporcie. Linia ojcowska urywała się na Beriszu Rapaporcie, a nawet Edward Gelles, który poświęcił dwadzieścia pięć lat rabinackim genealogiom Rapaportów, nie potrafił jej przekroczyć. W maju 2026 Basia odnalazła same akta paszportowe, a w nich jego rodziców: Moszego Saula Rapaporta i Menuchę.",
-            "fr": "Pendant un an, cette famille n’a pas pu remonter au-delà d’un nom sur un passeport. La lignée paternelle s’arrêtait à Berisz Rapaport, et même Edward Gelles, qui a consacré vingt-cinq ans aux généalogies rabbiniques des Rapaport, n’a pas pu la dépasser. En mai 2026, Basia a retrouvé le dossier de passeport lui-même, et à l’intérieur ses parents : Moses Saul Rapaport et Menukha."
-          },
-          "sources": [
-            "Berisz Rapaport passport application, Stanisławów 1924"
-          ],
-          "kind": "fact"
-        },
-        {
-          "text": {
-            "en": "Berisz was born on 30 July 1886 in Radomyśl Wielki, and the family's registered commune was Dąbrowa Tarnowska — a town nobody could account for until July 2026, when Basia read the Tarnów notarial records and found Szabse Rapaport serving as rabbi of Dąbrowa until 20 April 1884. That is why the passport says Dąbrowa. The same evening, from a completely different direction, Dana was sent a record naming Schabse with Figa/Yete.",
-            "he": "בריש נולד ב-30 ביולי 1886 ברדומישל ויילקי, והקהילה הרשומה של המשפחה הייתה דומברובה טרנובסקה — עיירה שאיש לא ידע להסבירה עד יולי 2026, כשבסיה קראה את רשומות הנוטריון בטרנוב ומצאה את שבסה רפפורט מכהן כרבה של דומברובה עד 20 באפריל 1884. זו הסיבה שהדרכון נוקב בדומברובה. באותו ערב ממש, מכיוון אחר לגמרי, נשלחה לדנה רשומה הנוקבת בשבסה עם פיגה/יטה.",
-            "pl": "Berisz urodził się 30 lipca 1886 w Radomyślu Wielkim, a zarejestrowaną gminą rodziny była Dąbrowa Tarnowska — miasto, którego nikt nie potrafił wyjaśnić aż do lipca 2026, gdy Basia odczytała tarnowskie akta notarialne i znalazła Szabsego Rapaporta pełniącego funkcję rabina Dąbrowy do 20 kwietnia 1884. Dlatego paszport podaje Dąbrowę. Tego samego wieczoru, z zupełnie innej strony, Dana otrzymała rekord wymieniający Szabsego z Figą/Jete.",
-            "fr": "Berisz est né le 30 juillet 1886 à Radomyśl Wielki, et la commune enregistrée de la famille était Dąbrowa Tarnowska — une ville que personne ne pouvait expliquer jusqu’en juillet 2026, quand Basia a lu les actes notariés de Tarnów et trouvé Szabse Rapaport rabbin de Dąbrowa jusqu’au 20 avril 1884. Voilà pourquoi le passeport indique Dąbrowa. Le même soir, d’une tout autre direction, Dana a reçu une fiche nommant Schabse avec Figa/Yete."
-          },
-          "sources": [
-            "Tarnów notarial records (Basia, July 2026)",
-            "MyHeritage record, 7 July 2026"
-          ],
-          "kind": "fact"
-        },
-        {
-          "text": {
-            "en": "Three marriage deeds from Tarnów — 1919, 1920 and 1923, for three of Berisz's sisters — each independently name the same couple as their parents. Three separate clerks, in three different years, writing the same two names. That is as close to certainty as this kind of research reaches.",
-            "he": "שלושה שטרי נישואין מטרנוב — 1919, 1920 ו-1923, של שלוש מאחיותיו של בריש — נוקבים כל אחד בנפרד באותו זוג כהוריהן. שלושה פקידים שונים, בשלוש שנים שונות, כותבים את אותם שני שמות. זה קרוב לוודאות כפי שמחקר מסוג זה מגיע.",
-            "pl": "Trzy akty ślubu z Tarnowa — z 1919, 1920 i 1923 roku, trzech sióstr Berisza — niezależnie wymieniają tę samą parę jako ich rodziców. Trzech różnych urzędników, w trzech różnych latach, zapisuje te same dwa imiona. To tyle pewności, ile takie badania mogą dać.",
-            "fr": "Trois actes de mariage de Tarnów — 1919, 1920 et 1923, pour trois des sœurs de Berisz — nomment chacun indépendamment le même couple comme leurs parents. Trois greffiers différents, trois années différentes, les mêmes deux noms. C’est le plus près de la certitude où ce genre de recherche puisse arriver."
-          },
-          "sources": [
-            "Tarnów marriage registers 1919 (entry 40), 1920 (entry 98), 1923 (entry 101)"
-          ],
-          "kind": "fact"
-        }
-      ]
+     "text": {
+      "en": "For a year this family could go back no further than a name on a passport. The paternal line stopped at Berisz Rapaport, and even Edward Gelles, who spent twenty-five years on the Rapaport rabbinical genealogies, could not carry it past him. In May 2026 Basia found the passport file itself, and inside it were his parents: Moses Saul Rapaport and Menukha.",
+      "he": "במשך שנה לא יכלה המשפחה הזאת לחזור אחורה מעבר לשם על דרכון. קו האב נעצר בבריש רפפורט, ואפילו אדוארד גלס, שהקדיש עשרים וחמש שנה לייחוסי הרבנים לבית רפפורט, לא הצליח לעבור אותו. במאי 2026 מצאה בסיה את תיק הדרכון עצמו, ובתוכו היו הוריו: משה שאול רפפורט ומנוחה.",
+      "pl": "Przez rok ta rodzina nie mogła cofnąć się dalej niż nazwisko w paszporcie. Linia ojcowska urywała się na Beriszu Rapaporcie, a nawet Edward Gelles, który poświęcił dwadzieścia pięć lat rabinackim genealogiom Rapaportów, nie potrafił jej przekroczyć. W maju 2026 Basia odnalazła same akta paszportowe, a w nich jego rodziców: Moszego Saula Rapaporta i Menuchę.",
+      "fr": "Pendant un an, cette famille n’a pas pu remonter au-delà d’un nom sur un passeport. La lignée paternelle s’arrêtait à Berisz Rapaport, et même Edward Gelles, qui a consacré vingt-cinq ans aux généalogies rabbiniques des Rapaport, n’a pas pu la dépasser. En mai 2026, Basia a retrouvé le dossier de passeport lui-même, et à l’intérieur ses parents : Moses Saul Rapaport et Menukha."
+     },
+     "sources": [
+      "Berisz Rapaport passport application, Stanisławów 1924"
+     ],
+     "kind": "fact"
     },
     {
-      "id": "nadworna",
-      "years": "1911",
-      "title": {
-        "en": "Nadwórna — David",
-        "he": "נדבורנא — דוד",
-        "pl": "Nadwórna — Dawid",
-        "fr": "Nadwórna — David"
-      },
-      "paragraphs": [
-        {
-          "text": {
-            "en": "David Mendel Rapaport — Memek — was born in Nadwórna on 25 December 1911, son of Berisz Rapaport and Rebeka Griffel. Nadwórna sat in the Carpathian foothills of eastern Galicia, then Austria-Hungary, then Poland, today Nadvirna in Ukraine.",
-            "he": "דוד מנדל רפפורט — ממק — נולד בנדבורנא ב-25 בדצמבר 1911, בנם של בריש רפפורט ורבקה גריפל. נדבורנא שכנה למרגלות הקרפטים במזרח גליציה, אז אוסטרו-הונגריה, אחר כך פולין, וכיום נדבירנה שבאוקראינה.",
-            "pl": "Dawid Mendel Rapaport — Memek — urodził się w Nadwórnej 25 grudnia 1911, syn Berisza Rapaporta i Rebeki Griffel. Nadwórna leżała u podnóża Karpat we wschodniej Galicji, wówczas Austro-Węgry, potem Polska, dziś Nadwirna na Ukrainie.",
-            "fr": "David Mendel Rapaport — Memek — est né à Nadwórna le 25 décembre 1911, fils de Berisz Rapaport et de Rebeka Griffel. Nadwórna se trouvait au pied des Carpates, en Galicie orientale : Autriche-Hongrie, puis Pologne, aujourd’hui Nadvirna en Ukraine."
-          },
-          "sources": [
-            "Nadwórna civil birth register"
-          ],
-          "kind": "fact"
-        },
-        {
-          "text": {
-            "en": "His Brussels Displaced Persons card of 1946 gives his birthplace as \"Cieszyn (Tesin)\" — a town four hundred kilometres away, where no one in this family ever lived. It is a transcription error by a French clerk, and it is worth pausing on: here the document is wrong and the family's memory is right. That is why nothing in this archive ranks paper above testimony as a rule.",
-            "he": "כרטיס העקורים שלו מבריסל, 1946, נוקב במקום לידתו ״צ׳שין״ — עיירה במרחק ארבע מאות קילומטרים, שאיש במשפחה הזאת מעולם לא חי בה. זו טעות תעתיק של פקיד צרפתי, וכדאי לעצור עליה: כאן המסמך שוגה והזיכרון המשפחתי צודק. זו הסיבה ששום דבר בארכיון הזה אינו מדרג נייר מעל עדות כברירת מחדל.",
-            "pl": "Jego brukselska karta dipisa z 1946 podaje jako miejsce urodzenia „Cieszyn (Tesin)” — miasto oddalone o czterysta kilometrów, w którym nikt z tej rodziny nigdy nie mieszkał. To błąd transkrypcji francuskiego urzędnika, i warto się przy nim zatrzymać: tutaj dokument się myli, a pamięć rodzinna ma rację. Dlatego nic w tym archiwum nie stawia z zasady papieru ponad świadectwem.",
-            "fr": "Sa fiche de personne déplacée, Bruxelles 1946, donne comme lieu de naissance « Cieszyn (Tesin) » — une ville à quatre cents kilomètres, où personne de cette famille n’a jamais vécu. C’est une erreur de transcription d’un fonctionnaire français, et elle mérite qu’on s’y arrête : ici le document a tort et la mémoire familiale a raison. C’est pourquoi rien dans ces archives ne place par principe le papier au-dessus du témoignage."
-          },
-          "sources": [
-            "DIPIS card, Brussels 1946",
-            "Nadwórna civil birth register"
-          ],
-          "kind": "conflict"
-        }
-      ]
+     "text": {
+      "en": "Berisz was born on 30 July 1886 in Radomyśl Wielki, and the family's registered commune was Dąbrowa Tarnowska — a town nobody could account for until July 2026, when Basia read the Tarnów notarial records and found Szabse Rapaport serving as rabbi of Dąbrowa until 20 April 1884. That is why the passport says Dąbrowa. The same evening, from a completely different direction, Dana was sent a record naming Schabse with Figa/Yete.",
+      "he": "בריש נולד ב-30 ביולי 1886 ברדומישל ויילקי, והקהילה הרשומה של המשפחה הייתה דומברובה טרנובסקה — עיירה שאיש לא ידע להסבירה עד יולי 2026, כשבסיה קראה את רשומות הנוטריון בטרנוב ומצאה את שבסה רפפורט מכהן כרבה של דומברובה עד 20 באפריל 1884. זו הסיבה שהדרכון נוקב בדומברובה. באותו ערב ממש, מכיוון אחר לגמרי, נשלחה לדנה רשומה הנוקבת בשבסה עם פיגה/יטה.",
+      "pl": "Berisz urodził się 30 lipca 1886 w Radomyślu Wielkim, a zarejestrowaną gminą rodziny była Dąbrowa Tarnowska — miasto, którego nikt nie potrafił wyjaśnić aż do lipca 2026, gdy Basia odczytała tarnowskie akta notarialne i znalazła Szabsego Rapaporta pełniącego funkcję rabina Dąbrowy do 20 kwietnia 1884. Dlatego paszport podaje Dąbrowę. Tego samego wieczoru, z zupełnie innej strony, Dana otrzymała rekord wymieniający Szabsego z Figą/Jete.",
+      "fr": "Berisz est né le 30 juillet 1886 à Radomyśl Wielki, et la commune enregistrée de la famille était Dąbrowa Tarnowska — une ville que personne ne pouvait expliquer jusqu’en juillet 2026, quand Basia a lu les actes notariés de Tarnów et trouvé Szabse Rapaport rabbin de Dąbrowa jusqu’au 20 avril 1884. Voilà pourquoi le passeport indique Dąbrowa. Le même soir, d’une tout autre direction, Dana a reçu une fiche nommant Schabse avec Figa/Yete."
+     },
+     "sources": [
+      "Tarnów notarial records (Basia, July 2026)",
+      "MyHeritage record, 7 July 2026"
+     ],
+     "kind": "fact"
     },
     {
-      "id": "bolechow",
-      "years": "1913—1933",
-      "title": {
-        "en": "Bolechów — Lusia",
-        "he": "בולחוב — לוסיה",
-        "pl": "Bolechów — Łucja",
-        "fr": "Bolechów — Lusia"
-      },
-      "paragraphs": [
-        {
-          "text": {
-            "en": "Leah Weitzner — Lusia — was born in Bolechów on 8 April, daughter of Elias (Eliyahu) Weitzner and Matel (Matylda) née Weinreb. Every record agrees on the day. They do not agree on the year: the Bolechów civil register says 1913, while her own survivor card, the ŻIH index and the Haifa burial register all say 1916. Three against two, but the two include the civil register. It remains unresolved.",
-            "he": "לאה ויצנר — לוסיה — נולדה בבולחוב ב-8 באפריל, בתם של אליהו ויצנר ומטל (מטילדה) לבית ויינרב. כל הרשומות מסכימות על היום. הן אינן מסכימות על השנה: הפנקס האזרחי בבולחוב אומר 1913, ואילו כרטיס הניצולה שלה, מפתח ŻIH ופנקס הקבורה בחיפה אומרים כולם 1916. שלוש מול שתיים, אך השתיים כוללות את הפנקס האזרחי. הדבר טרם הוכרע.",
-            "pl": "Lea Weitzner — Łucja — urodziła się w Bolechowie 8 kwietnia, córka Eliasza (Eliahu) Weitznera i Matel (Matyldy) z domu Weinreb. Wszystkie zapisy zgadzają się co do dnia. Nie zgadzają się co do roku: bolechowska księga cywilna podaje 1913, natomiast jej własna karta ocalałej, indeks ŻIH i rejestr pochówków w Hajfie podają 1916. Trzy przeciw dwóm, ale wśród tych dwóch jest akt cywilny. Sprawa pozostaje nierozstrzygnięta.",
-            "fr": "Leah Weitzner — Lusia — est née à Bolechów le 8 avril, fille d’Elias (Eliyahu) Weitzner et de Matel (Matylda) née Weinreb. Tous les documents s’accordent sur le jour. Pas sur l’année : le registre civil de Bolechów dit 1913, tandis que sa propre fiche de survivante, l’index ŻIH et le registre funéraire de Haïfa disent 1916. Trois contre deux, mais ces deux-là comprennent le registre civil. La question reste ouverte."
-          },
-          "sources": [
-            "Bolechów birth register 1913",
-            "CKŻP card nr 151738",
-            "Haifa Chevra Kadisha register"
-          ],
-          "kind": "conflict"
-        },
-        {
-          "text": {
-            "en": "In 1933 her parents left for Mandatory Palestine. Lusia stayed. It is a small sentence with the whole of what follows inside it: she would not see them again for fifteen years, and the war would fall on the side of the family that remained.",
-            "he": "ב-1933 עזבו הוריה לארץ ישראל המנדטורית. לוסיה נשארה. זה משפט קטן שכל מה שבא אחריו כלול בתוכו: היא לא תראה אותם עוד חמש עשרה שנה, והמלחמה תיפול על הצד של המשפחה שנשאר.",
-            "pl": "W 1933 jej rodzice wyjechali do Palestyny. Łucja została. To krótkie zdanie zawiera w sobie wszystko, co nastąpi: nie zobaczy ich przez piętnaście lat, a wojna spadnie na tę część rodziny, która została.",
-            "fr": "En 1933, ses parents partirent pour la Palestine mandataire. Lusia resta. C’est une petite phrase qui contient tout ce qui suit : elle ne les reverra pas avant quinze ans, et la guerre s’abattra sur la partie de la famille restée sur place."
-          },
-          "sources": [
-            "Memoir ch.1 — family testimony, no document held"
-          ],
-          "kind": "testimony"
-        }
-      ]
+     "text": {
+      "en": "Three marriage deeds from Tarnów — 1919, 1920 and 1923, for three of Berisz's sisters — each independently name the same couple as their parents. Three separate clerks, in three different years, writing the same two names. That is as close to certainty as this kind of research reaches.",
+      "he": "שלושה שטרי נישואין מטרנוב — 1919, 1920 ו-1923, של שלוש מאחיותיו של בריש — נוקבים כל אחד בנפרד באותו זוג כהוריהן. שלושה פקידים שונים, בשלוש שנים שונות, כותבים את אותם שני שמות. זה קרוב לוודאות כפי שמחקר מסוג זה מגיע.",
+      "pl": "Trzy akty ślubu z Tarnowa — z 1919, 1920 i 1923 roku, trzech sióstr Berisza — niezależnie wymieniają tę samą parę jako ich rodziców. Trzech różnych urzędników, w trzech różnych latach, zapisuje te same dwa imiona. To tyle pewności, ile takie badania mogą dać.",
+      "fr": "Trois actes de mariage de Tarnów — 1919, 1920 et 1923, pour trois des sœurs de Berisz — nomment chacun indépendamment le même couple comme leurs parents. Trois greffiers différents, trois années différentes, les mêmes deux noms. C’est le plus près de la certitude où ce genre de recherche puisse arriver."
+     },
+     "sources": [
+      "Tarnów marriage registers 1919 (entry 40), 1920 (entry 98), 1923 (entry 101)"
+     ],
+     "kind": "fact"
     },
     {
-      "id": "marriage",
-      "years": "1935—1938",
-      "title": {
-        "en": "The marriage, and Shimon",
-        "he": "הנישואין, ושמעון",
-        "pl": "Ślub, i Szymon",
-        "fr": "Le mariage, et Shimon"
-      },
-      "paragraphs": [
-        {
-          "text": {
-            "en": "They married on 10 February 1935 in Bolechów, her own town. She was twenty-one and he was twenty-three.",
-            "he": "הם נישאו ב-10 בפברואר 1935 בבולחוב, עיירתה שלה. היא הייתה בת עשרים ואחת והוא בן עשרים ושלוש.",
-            "pl": "Pobrali się 10 lutego 1935 w Bolechowie, w jej rodzinnym mieście. Miała dwadzieścia jeden lat, on dwadzieścia trzy.",
-            "fr": "Ils se sont mariés le 10 février 1935 à Bolechów, sa ville natale. Elle avait vingt et un ans, lui vingt-trois."
-          },
-          "sources": [
-            "Civil marriage record, Bolechów, 10 February 1935"
-          ],
-          "kind": "fact"
-        },
-        {
-          "text": {
-            "en": "Her memoir puts the wedding in Muszyna, in February 1938 — three years later and in another town. Written forty years afterwards, the memory placed the marriage at the opening of the Muszyna years rather than three years before them. The month is right in both. And the record resolves something the memoir left broken: under her date, Shimon arrives eight months before his parents marry; under the register, he is born two and a half years into the marriage.",
-            "he": "ביומנה ממוקמת החתונה במושינה, בפברואר 1938 — שלוש שנים מאוחר יותר ובעיירה אחרת. נכתב ארבעים שנה אחר כך, והזיכרון מיקם את הנישואין בפתח שנות מושינה במקום שלוש שנים לפניהן. החודש נכון בשניהם. והרשומה פותרת דבר שהיומן הותיר שבור: לפי תאריכה, שמעון מגיע שמונה חודשים לפני שהוריו נישאו; לפי הפנקס, הוא נולד שנתיים וחצי לתוך הנישואין.",
-            "pl": "Jej pamiętnik umieszcza ślub w Muszynie, w lutym 1938 — trzy lata później i w innym mieście. Spisany czterdzieści lat po fakcie, umieścił małżeństwo na początku lat muszyńskich, a nie trzy lata przed nimi. Miesiąc zgadza się w obu wersjach. I dokument naprawia to, co pamiętnik zostawił wyłamane: według jej daty Szymon przychodzi na świat osiem miesięcy przed ślubem rodziców; według aktu rodzi się dwa i pół roku po nim.",
-            "fr": "Son mémoire situe le mariage à Muszyna, en février 1938 — trois ans plus tard et dans une autre ville. Écrit quarante ans après, le souvenir a placé le mariage à l’ouverture des années de Muszyna plutôt que trois ans avant. Le mois est juste dans les deux. Et le registre répare ce que le mémoire laissait brisé : à sa date, Shimon arrive huit mois avant le mariage de ses parents ; au registre, deux ans et demi après."
-          },
-          "sources": [
-            "Memoir p.16",
-            "Civil marriage record 1935"
-          ],
-          "kind": "conflict"
-        },
-        {
-          "text": {
-            "en": "Shimon was born on 22 June 1937 in Lwów. The family had long said \"Mosina\" — a name that turned out to be Muszyna — but his own survivor card, filled in after the war, says Lwów.",
-            "he": "שמעון נולד ב-22 ביוני 1937 בלבוב. המשפחה אמרה שנים ״מוסינה״ — שם שהתברר כמושינה — אך כרטיס הניצולים שלו עצמו, שמולא לאחר המלחמה, נוקב בלבוב.",
-            "pl": "Szymon urodził się 22 czerwca 1937 we Lwowie. Rodzina długo mówiła „Mosina” — nazwa, która okazała się Muszyną — ale jego własna karta ocalałego, wypełniona po wojnie, podaje Lwów.",
-            "fr": "Shimon est né le 22 juin 1937 à Lwów. La famille a longtemps dit « Mosina » — un nom qui s’est révélé être Muszyna — mais sa propre fiche de survivant, remplie après la guerre, indique Lwów."
-          },
-          "sources": [
-            "CKŻP survivor card nr 151337"
-          ],
-          "kind": "fact"
-        }
-      ]
-    },
-    {
-      "id": "war",
-      "years": "1939—1944",
-      "title": {
-        "en": "The war",
-        "he": "המלחמה",
-        "pl": "Wojna",
-        "fr": "La guerre"
-      },
-      "paragraphs": [
-        {
-          "text": {
-            "en": "Germany invaded Poland on 1 September 1939. What the family did over the next five years is known almost entirely from Lusia's testimony, because almost no one who could have written it down survived to do so.",
-            "he": "גרמניה פלשה לפולין ב-1 בספטמבר 1939. מה שעשתה המשפחה בחמש השנים הבאות ידוע כמעט כולו מעדותה של לוסיה, משום שכמעט איש מאלה שיכלו לרשום זאת לא שרד כדי לעשות זאת.",
-            "pl": "Niemcy najechały Polskę 1 września 1939. To, co rodzina robiła przez następne pięć lat, wiadomo niemal wyłącznie ze świadectwa Łucji, ponieważ prawie nikt, kto mógłby to spisać, nie przeżył.",
-            "fr": "L’Allemagne envahit la Pologne le 1er septembre 1939. Ce que la famille a fait pendant les cinq années suivantes n’est connu presque que par le témoignage de Lusia, parce que presque personne qui aurait pu l’écrire n’a survécu."
-          },
-          "sources": [
-            "Memoir chs.2-6"
-          ],
-          "kind": "testimony"
-        },
-        {
-          "text": {
-            "en": "She tells of Przemyśl under Soviet administration; of the Nadwórna ghetto and David's escape from it hidden in a wooden wagon; of false identities in Lwów; of the Hormak family, and of neighbours named Pietrozycki and Ivanov who helped them; and of Shimon, three years old, kept in a crate for two and a half years so that he would not be seen or heard. No document we hold corroborates any of it. That is not a weakness in the account — it is what happens when the people who would have kept the records are the people who were killed.",
-            "he": "היא מספרת על פשמישל תחת המנהל הסובייטי; על גטו נדבורנא ועל בריחתו של דוד ממנו מוחבא בעגלת עץ; על זהויות בדויות בלבוב; על משפחת הורמק, ועל שכנים בשם פייטרוז׳יצקי ואיוונוב שסייעו להם; ועל שמעון, בן שלוש, שהוחזק בארגז שנתיים וחצי כדי שלא ייראה ולא יישמע. שום מסמך שבידינו אינו מאשש דבר מכל אלה. זו אינה חולשה בעדות — כך קורה כאשר האנשים שהיו שומרים את הרשומות הם האנשים שנרצחו.",
-            "pl": "Opowiada o Przemyślu pod administracją sowiecką; o getcie w Nadwórnej i ucieczce Dawida ukrytego w drewnianym wozie; o fałszywych tożsamościach we Lwowie; o rodzinie Hormaków i o sąsiadach nazwiskiem Pietrożycki i Iwanow, którzy im pomogli; i o Szymonie, trzylatku, trzymanym w skrzyni przez dwa i pół roku, żeby nie było go widać ani słychać. Żaden dokument, który mamy, tego nie potwierdza. To nie jest słabość tej relacji — tak właśnie bywa, gdy ludzie, którzy prowadziliby zapisy, są tymi, których zamordowano.",
-            "fr": "Elle raconte Przemyśl sous administration soviétique ; le ghetto de Nadwórna et l’évasion de David caché dans une charrette de bois ; les fausses identités à Lwów ; la famille Hormak, et des voisins nommés Pietrozycki et Ivanov qui les ont aidés ; et Shimon, trois ans, gardé dans une caisse pendant deux ans et demi pour qu’on ne le voie ni ne l’entende. Aucun document que nous détenons ne le corrobore. Ce n’est pas une faiblesse du récit — c’est ce qui arrive quand ceux qui auraient tenu les registres sont ceux qu’on a tués."
-          },
-          "sources": [
-            "Memoir chs.3-6 — no corroborating record held"
-          ],
-          "kind": "testimony"
-        },
-        {
-          "text": {
-            "en": "Two things from those years are on paper. David was stripped of Polish citizenship in 1942. And his father Berisz was murdered at Auschwitz — our research associates him with victim number 188161, a reading we have asked the Arolsen Archives to confirm or correct. No Page of Testimony was ever filed at Yad Vashem for Berisz or for Rebeka. This archive is, at present, their only written memorial anywhere.",
-            "he": "שני דברים משנים אלה מצויים על נייר. דוד נשללה אזרחותו הפולנית ב-1942. ואביו בריש נרצח באושוויץ — מחקרנו מקשר אותו למספר קרבן 188161, קריאה שביקשנו מארכיוני ארולסן לאשר או לתקן. מעולם לא הוגש דף עד ביד ושם עבור בריש או עבור רבקה. הארכיון הזה הוא, נכון לעכשיו, ההנצחה הכתובה היחידה שלהם בכל מקום.",
-            "pl": "Dwie rzeczy z tamtych lat są na papierze. Dawidowi odebrano obywatelstwo polskie w 1942. A jego ojciec Berisz został zamordowany w Auschwitz — nasze badania wiążą go z numerem ofiary 188161, a o potwierdzenie lub sprostowanie tego odczytu poprosiliśmy Arolsen Archives. Za Berisza ani za Rebekę nigdy nie złożono w Jad Waszem karty świadectwa. To archiwum jest obecnie ich jedynym pisemnym pomnikiem gdziekolwiek.",
-            "fr": "Deux choses de ces années sont sur papier. David fut déchu de la nationalité polonaise en 1942. Et son père Berisz fut assassiné à Auschwitz — nos recherches l’associent au numéro de victime 188161, lecture dont nous avons demandé confirmation ou correction aux Arolsen Archives. Aucune feuille de témoignage n’a jamais été déposée à Yad Vashem pour Berisz ni pour Rebeka. Ces archives sont, à ce jour, leur seul mémorial écrit où que ce soit."
-          },
-          "sources": [
-            "DIPIS card, Brussels 1946",
-            "Yad Vashem name search, 21 May 2026 — nil result"
-          ],
-          "kind": "fact"
-        }
-      ]
-    },
-    {
-      "id": "katowice",
-      "years": "1945—1946",
-      "title": {
-        "en": "Katowice — and a separation nobody recorded",
-        "he": "קטוביץ — ופרידה שאיש לא רשם",
-        "pl": "Katowice — i rozstanie, którego nikt nie zapisał",
-        "fr": "Katowice — et une séparation que personne n’a notée"
-      },
-      "paragraphs": [
-        {
-          "text": {
-            "en": "The war ended and they came west with the repatriation, to Katowice. On 1 July 1946 Lusia and Shimon each filed a survivor-registration card at the Katowice committee — cards 151738 and 151337, mother and son, one after the other.",
-            "he": "המלחמה נגמרה והם באו מערבה עם הריפטריאציה, לקטוביץ. ב-1 ביולי 1946 מילאו לוסיה ושמעון כל אחד כרטיס רישום ניצולים בוועד קטוביץ — כרטיסים 151738 ו-151337, אם ובנה, זה אחר זה.",
-            "pl": "Wojna się skończyła i wrócili na zachód wraz z repatriacją, do Katowic. 1 lipca 1946 Łucja i Szymon złożyli w katowickim komitecie karty rejestracyjne ocalałych — numery 151738 i 151337, matka i syn, jedna po drugiej.",
-            "fr": "La guerre finie, ils revinrent vers l’ouest avec le rapatriement, à Katowice. Le 1er juillet 1946, Lusia et Shimon déposèrent chacun une fiche d’enregistrement de survivant au comité de Katowice — nos 151738 et 151337, la mère et le fils, l’une après l’autre."
-          },
-          "sources": [
-            "CKŻP cards nr 151738 and nr 151337, Katowice, 1 July 1946"
-          ],
-          "kind": "fact"
-        },
-        {
-          "text": {
-            "en": "But David had been registered as a Displaced Person in Brussels since 9 April 1946 — three months earlier. On the day he was recorded in Belgium, his wife and son were still in Poland. He had gone ahead, and they followed later that year. The memoir says only that \"the family reaches Brussels and stays in a hotel\": one movement, everyone together. The two cards, held in this archive since May and never read against each other until August 2026, say otherwise. It is the first of the two separations in this story.",
-            "he": "אך דוד היה רשום כעקור בבריסל כבר מ-9 באפריל 1946 — שלושה חודשים קודם. ביום שבו נרשם בבלגיה, אשתו ובנו היו עדיין בפולין. הוא הקדים, והם באו אחריו באותה שנה. היומן אומר רק ש״המשפחה מגיעה לבריסל ומתאכסנת במלון״: תנועה אחת, כולם יחד. שני הכרטיסים, שהיו בארכיון הזה מאז מאי ומעולם לא נקראו זה מול זה עד אוגוסט 2026, אומרים אחרת. זו הראשונה משתי הפרידות בסיפור הזה.",
-            "pl": "Ale Dawid był zarejestrowany jako dipis w Brukseli już od 9 kwietnia 1946 — trzy miesiące wcześniej. W dniu, w którym zapisano go w Belgii, jego żona i syn byli jeszcze w Polsce. Pojechał przodem, a oni dołączyli później tego samego roku. Pamiętnik mówi tylko, że „rodzina dociera do Brukseli i mieszka w hotelu”: jeden ruch, wszyscy razem. Obie karty, w tym archiwum od maja i nigdy dotąd nieprzeczytane obok siebie, mówią co innego. To pierwsze z dwóch rozstań w tej historii.",
-            "fr": "Mais David était enregistré comme personne déplacée à Bruxelles depuis le 9 avril 1946 — trois mois plus tôt. Le jour où il fut inscrit en Belgique, sa femme et son fils étaient encore en Pologne. Il est parti devant, ils ont suivi plus tard cette année-là. Le mémoire dit seulement que « la famille arrive à Bruxelles et loge à l’hôtel » : un seul mouvement, tous ensemble. Les deux fiches, dans ces archives depuis mai et jamais lues l’une contre l’autre, disent autre chose. C’est la première des deux séparations de cette histoire."
-          },
-          "sources": [
-            "DIPIS card, 9 April 1946",
-            "CKŻP cards, 1 July 1946",
-            "Memoir p.62"
-          ],
-          "kind": "conflict"
-        }
-      ]
-    },
-    {
-      "id": "brussels",
-      "years": "1946",
-      "title": {
-        "en": "Brussels — and Dov",
-        "he": "בריסל — ודב",
-        "pl": "Bruksela — i Dov",
-        "fr": "Bruxelles — et Dov"
-      },
-      "paragraphs": [
-        {
-          "text": {
-            "en": "David's Displaced Persons card describes a forestry engineer, Polish nationality stripped in 1942, speaking Polish, Italian, German, Czech and Russian. It is the only document that reaches across from the war into what came after.",
-            "he": "כרטיס העקורים של דוד מתאר מהנדס יערות, אזרחותו הפולנית נשללה ב-1942, דובר פולנית, איטלקית, גרמנית, צ׳כית ורוסית. זהו המסמך היחיד המגשר מן המלחמה אל מה שבא אחריה.",
-            "pl": "Karta dipisa Dawida opisuje inżyniera leśnictwa, pozbawionego obywatelstwa polskiego w 1942, mówiącego po polsku, włosku, niemiecku, czesku i rosyjsku. To jedyny dokument, który przerzuca most z wojny w to, co nastąpiło po niej.",
-            "fr": "La fiche de personne déplacée de David décrit un ingénieur forestier, déchu de la nationalité polonaise en 1942, parlant polonais, italien, allemand, tchèque et russe. C’est le seul document qui fasse le pont entre la guerre et ce qui suivit."
-          },
-          "sources": [
-            "DIPIS card, Brussels, 9 April 1946"
-          ],
-          "kind": "fact"
-        },
-        {
-          "text": {
-            "en": "Dov Bernard Rapaport was born in Brussels on 28 August 1946. No Belgian birth registration is held in this archive — it is the easiest missing document of all, and only he can request it, as the person the record belongs to.",
-            "he": "דב ברנרד רפפורט נולד בבריסל ב-28 באוגוסט 1946. אין בארכיון הזה רישום לידה בלגי — זהו המסמך החסר הקל ביותר מכולם, ורק הוא יכול לבקש אותו, כאדם שהרשומה שייכת לו.",
-            "pl": "Dov Bernard Rapaport urodził się w Brukseli 28 sierpnia 1946. W tym archiwum nie ma belgijskiego aktu urodzenia — to najłatwiejszy do zdobycia brakujący dokument, a poprosić o niego może tylko on sam, jako osoba, której zapis dotyczy.",
-            "fr": "Dov Bernard Rapaport est né à Bruxelles le 28 août 1946. Aucun acte de naissance belge ne figure dans ces archives — c’est le document manquant le plus facile à obtenir, et lui seul peut le demander, en tant que personne concernée."
-          },
-          "sources": [
-            "Family (Doron, 2026)",
-            "Memoir p.62"
-          ],
-          "kind": "fact"
-        }
-      ]
-    },
-    {
-      "id": "sete",
-      "years": "1947—1948",
-      "title": {
-        "en": "Sète, the Theodor Herzl, Cyprus",
-        "he": "סֶט, ״תיאודור הרצל״, קפריסין",
-        "pl": "Sète, Theodor Herzl, Cypr",
-        "fr": "Sète, le Theodor Herzl, Chypre"
-      },
-      "paragraphs": [
-        {
-          "text": {
-            "en": "On 2 April 1947 David and Shimon sailed from Sète in southern France aboard the Theodor Herzl — the ex-British cable-layer HMS Guardian, built at Newcastle in 1907, carrying 2,641 ma'apilim gathered from camps across France and Belgium. Shimon was nine. Lusia stayed behind in Brussels with the seven-month-old Dov.",
-            "he": "ב-2 באפריל 1947 הפליגו דוד ושמעון מסֶט שבדרום צרפת באונייה ״תיאודור הרצל״ — ספינת הכבלים הבריטית לשעבר HMS Guardian, שנבנתה בניוקאסל ב-1907, ונשאה 2,641 מעפילים ממחנות ברחבי צרפת ובלגיה. שמעון היה בן תשע. לוסיה נשארה בבריסל עם דב בן שבעת החודשים.",
-            "pl": "2 kwietnia 1947 Dawid i Szymon wypłynęli z Sète na południu Francji na pokładzie Theodora Herzla — dawnego brytyjskiego kablowca HMS Guardian, zbudowanego w Newcastle w 1907, wiozącego 2641 ma’apilim zebranych z obozów we Francji i Belgii. Szymon miał dziewięć lat. Łucja została w Brukseli z siedmiomiesięcznym Dovem.",
-            "fr": "Le 2 avril 1947, David et Shimon quittèrent Sète, dans le sud de la France, à bord du Theodor Herzl — l’ancien câblier britannique HMS Guardian, construit à Newcastle en 1907, transportant 2 641 ma’apilim rassemblés dans les camps de France et de Belgique. Shimon avait neuf ans. Lusia resta à Bruxelles avec Dov, âgé de sept mois."
-          },
-          "sources": [
-            "Memoir p.63",
-            "Palyam / ship histories — the vessel is fully documented"
-          ],
-          "kind": "fact"
-        },
-        {
-          "text": {
-            "en": "On 13 April the Royal Navy boarded her off the coast. The passengers fought; three were killed and twenty-seven wounded. Everyone aboard was deported to Cyprus, and David and Shimon were interned at Karaolos, north of Famagusta, for about eight months. The camps there held 53,510 Jews behind wire between 1946 and 1949, and some two thousand children were born inside them. Shimon was released from Atlit in 1948.",
-            "he": "ב-13 באפריל השתלט עליה הצי המלכותי מול החוף. הנוסעים נלחמו; שלושה נהרגו ועשרים ושבעה נפצעו. כל מי שהיה על הסיפון גורש לקפריסין, ודוד ושמעון נעצרו בקרַאוֹלוֹס, מצפון לפמגוסטה, כשמונה חודשים. המחנות שם החזיקו 53,510 יהודים מאחורי גדרות בין 1946 ל-1949, וכאלפיים ילדים נולדו בתוכם. שמעון שוחרר מעתלית ב-1948.",
-            "pl": "13 kwietnia Royal Navy wzięła statek abordażem u wybrzeży. Pasażerowie stawili opór; trzech zginęło, dwudziestu siedmiu zostało rannych. Wszystkich deportowano na Cypr, a Dawida i Szymona internowano w Karaolos na północ od Famagusty na jakieś osiem miesięcy. Tamtejsze obozy przetrzymywały za drutami 53 510 Żydów w latach 1946–1949, a wewnątrz urodziło się około dwóch tysięcy dzieci. Szymon został zwolniony z Atlit w 1948.",
-            "fr": "Le 13 avril, la Royal Navy l’arraisonna au large. Les passagers résistèrent ; trois furent tués et vingt-sept blessés. Tous furent déportés à Chypre, et David et Shimon furent internés à Karaolos, au nord de Famagouste, pendant environ huit mois. Ces camps retinrent 53 510 Juifs derrière les barbelés entre 1946 et 1949, et quelque deux mille enfants y naquirent. Shimon fut libéré d’Atlit en 1948."
-          },
-          "sources": [
-            "Memoir pp.63-66",
-            "Cyprus internment camp figures, 1946-1949"
-          ],
-          "kind": "fact"
-        }
-      ]
-    },
-    {
-      "id": "haifa",
-      "years": "1948—1996",
-      "title": {
-        "en": "Haifa",
-        "he": "חיפה",
-        "pl": "Hajfa",
-        "fr": "Haïfa"
-      },
-      "paragraphs": [
-        {
-          "text": {
-            "en": "Lusia sailed from Brussels with Dov on the Kadima. She had waited more than a year alone with the baby, working, while David and Shimon were behind wire. The Haifa burial register records her year of immigration as 1948 and David's as 1946 — the two-year gap the memoir describes, written into their own graves. Dov's first journey was with his mother, the two of them.",
-            "he": "לוסיה הפליגה מבריסל עם דב באונייה ״קדימה״. היא המתינה יותר משנה לבדה עם התינוק, ועבדה, בזמן שדוד ושמעון היו מאחורי גדרות. פנקס הקבורה בחיפה רושם את שנת עלייתה 1948 ואת של דוד 1946 — פער השנתיים שהיומן מתאר, חקוק ברשומות קבריהם שלהם. מסעו הראשון של דב היה עם אמו, שניהם לבדם.",
-            "pl": "Łucja wypłynęła z Brukseli z Dovem na statku Kadima. Czekała ponad rok sama z niemowlęciem, pracując, gdy Dawid i Szymon byli za drutami. Rejestr pochówków w Hajfie zapisuje rok jej alii jako 1948, a Dawida jako 1946 — dwuletnia luka, którą opisuje pamiętnik, wpisana w ich własne groby. Pierwsza podróż Dova była z matką, we dwoje.",
-            "fr": "Lusia quitta Bruxelles avec Dov à bord du Kadima. Elle avait attendu plus d’un an, seule avec le bébé, en travaillant, pendant que David et Shimon étaient derrière les barbelés. Le registre funéraire de Haïfa note son année d’immigration : 1948, et celle de David : 1946 — l’écart de deux ans que décrit le mémoire, inscrit dans leurs propres tombes. Le premier voyage de Dov fut avec sa mère, tous les deux."
-          },
-          "sources": [
-            "Memoir p.66",
-            "Haifa Chevra Kadisha register"
-          ],
-          "kind": "fact"
-        },
-        {
-          "text": {
-            "en": "In Haifa she saw her parents for the first time since 1933. The family settled on Abbas Street, and later bought an apartment on Moriah Street with German reparations — money David argued with himself about taking. He worked as a customs broker, the trade his son Dov followed, and then his grandson Doron.",
-            "he": "בחיפה ראתה את הוריה לראשונה מאז 1933. המשפחה התיישבה ברחוב עבאס, ולימים קנתה דירה ברחוב מוריה בכספי הפיצויים מגרמניה — כסף שדוד התלבט אם לקחת. הוא עבד כעמיל מכס, המקצוע שבו הלך בנו דב, ואחריו נכדו דורון.",
-            "pl": "W Hajfie zobaczyła rodziców po raz pierwszy od 1933. Rodzina zamieszkała przy ulicy Abbas, a później kupiła mieszkanie przy ulicy Moria za niemieckie odszkodowania — pieniądze, o które Dawid spierał się sam ze sobą. Pracował jako agent celny; ten zawód przejął jego syn Dov, a potem wnuk Doron.",
-            "fr": "À Haïfa, elle revit ses parents pour la première fois depuis 1933. La famille s’installa rue Abbas, puis acheta un appartement rue Moriah avec les réparations allemandes — un argent que David hésita longtemps à accepter. Il fut commissionnaire en douane, métier que suivirent son fils Dov, puis son petit-fils Doron."
-          },
-          "sources": [
-            "Memoir pp.67-76"
-          ],
-          "kind": "testimony"
-        },
-        {
-          "text": {
-            "en": "In 1986 a granddaughter, Hadas, asked her teacher Esther Weiss for help with a school assignment, and Esther sat down and interviewed Lusia. Ninety pages in Hebrew. Without them, almost nothing in this archive between 1939 and 1948 would have a voice at all.",
-            "he": "ב-1986 ביקשה נכדה, הדס, עזרה ממורתה אסתר ויס במטלת בית ספר, ואסתר ישבה וראיינה את לוסיה. תשעים עמודים בעברית. בלעדיהם, כמעט דבר בארכיון הזה בין 1939 ל-1948 לא היה נשמע כלל.",
-            "pl": "W 1986 wnuczka, Hadas, poprosiła swoją nauczycielkę Esther Weiss o pomoc w szkolnym zadaniu, a Esther usiadła i przeprowadziła z Łucją rozmowy. Dziewięćdziesiąt stron po hebrajsku. Bez nich prawie nic w tym archiwum między 1939 a 1948 nie miałoby głosu.",
-            "fr": "En 1986, une petite-fille, Hadas, demanda de l’aide à son professeur Esther Weiss pour un devoir scolaire, et Esther s’assit et interrogea Lusia. Quatre-vingt-dix pages en hébreu. Sans elles, presque rien dans ces archives entre 1939 et 1948 n’aurait de voix."
-          },
-          "sources": [
-            "The memoir, compiled 1986"
-          ],
-          "kind": "fact"
-        },
-        {
-          "text": {
-            "en": "David died on 29 August 1990 and Lusia on 28 December 1996. They are buried beside one another at Sde Yehoshua, graves 102ד and 102ג. Her burial record names her father Eliyahu and her mother Matilda — the same two people her memoir opens with, sixty years earlier and in another language. The last page of the record matches the first page of the testimony.",
-            "he": "דוד נפטר ב-29 באוגוסט 1990 ולוסיה ב-28 בדצמבר 1996. הם טמונים זה לצד זו בשדה יהושע, קברים 102ד ו-102ג. רשומת הקבורה שלה נוקבת באביה אליהו ובאמה מטילדה — אותם שני אנשים שבהם נפתח יומנה, שישים שנה קודם ובשפה אחרת. העמוד האחרון של הרשומה תואם לעמוד הראשון של העדות.",
-            "pl": "Dawid zmarł 29 sierpnia 1990, Łucja 28 grudnia 1996. Spoczywają obok siebie na cmentarzu Sde Jehoszua, groby 102ד i 102ג. Jej akt pochówku wymienia ojca Eliahu i matkę Matyldę — tych samych dwoje ludzi, od których zaczyna się jej pamiętnik, sześćdziesiąt lat wcześniej i w innym języku. Ostatnia strona dokumentu zgadza się z pierwszą stroną świadectwa.",
-            "fr": "David mourut le 29 août 1990 et Lusia le 28 décembre 1996. Ils reposent l’un à côté de l’autre à Sde Yehoshua, tombes 102ד et 102ג. Son acte d’inhumation nomme son père Eliyahu et sa mère Matilda — les deux mêmes personnes par lesquelles s’ouvre son mémoire, soixante ans plus tôt et dans une autre langue. La dernière page du registre correspond à la première page du témoignage."
-          },
-          "sources": [
-            "Haifa Chevra Kadisha register",
-            "Memoir ch.1"
-          ],
-          "kind": "fact"
-        }
-      ]
+     "text": {
+      "en": "Behind all of it now stands a spine of paper. Fifty-eight civil-register photographs came from Basia's archive on 6 August 2026 — twenty-seven births, eleven marriages, nineteen deaths — running from a birth in 1818 to a death in 1934. They are the ordinary machinery of a town: a clerk writing down that a child was born, that two people married, that someone died. Read together they carry six generations of this family from Abraham Abe, born 1784, down to the parents of the man this archive is written for. The naming was tested before any of it was believed: twenty-seven of the twenty-eight birth records carry the same year this archive already held for that person. One does not — a birth filed 1849 where we hold 1850 — and it is published as the disagreement it is.",
+      "he": "מאחורי כל זה ניצב כעת עמוד שדרה של נייר. חמישים ושמונה תצלומי רישום אזרחי הגיעו מארכיונה של בסיה ב-6 באוגוסט 2026 — עשרים ושבע לידות, אחת־עשרה חתונות, תשע־עשרה פטירות — ממשתרעים מלידה ב-1818 ועד פטירה ב-1934. אלה מנגנוני היומיום של עיירה: פקיד רושם שנולד ילד, ששניים נישאו, שמישהו מת. יחד הם נושאים שישה דורות של המשפחה הזאת, מאברהם אַבֶּה יליד 1784 ועד הוריו של האיש שלמענו נכתב הארכיון הזה. שיטת השמות נבדקה בטרם האמינו לה: עשרים ושבעה מתוך עשרים ושמונה רישומי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם. אחד אינו — לידה שתויקה כ-1849 במקום שאנו מחזיקים 1850 — והוא מתפרסם כמחלוקת שהוא.",
+      "pl": "Za tym wszystkim stoi teraz kręgosłup z papieru. 6 sierpnia 2026 z archiwum Basi przyszło pięćdziesiąt osiem fotografii akt stanu cywilnego — dwadzieścia siedem urodzeń, jedenaście małżeństw, dziewiętnaście zgonów — od narodzin w 1818 do śmierci w 1934. To zwykła machina miasteczka. Razem prowadzą sześć pokoleń od Abrahama Abe, ur. 1784. Konwencję sprawdzono, zanim jej uwierzono: 27 z 28 aktów urodzenia zgadza się z rokiem, który już mieliśmy.",
+      "fr": "Derrière tout cela se dresse désormais une colonne vertébrale de papier. Cinquante-huit photographies de registres d'état civil sont arrivées le 6 août 2026 — vingt-sept naissances, onze mariages, dix-neuf décès — d'une naissance en 1818 à un décès en 1934. Ensemble, elles portent six générations depuis Abraham Abe, né en 1784. La convention a été vérifiée avant d'être crue : 27 des 28 actes de naissance portent l'année que ces archives détenaient déjà."
+     },
+     "sources": [
+      "58 civil-register photographs, Basia’s family archive, received 6 August 2026"
+     ]
     }
-  ]
+   ]
+  },
+  {
+   "id": "nadworna",
+   "years": "1911",
+   "title": {
+    "en": "Nadwórna — David",
+    "he": "נדבורנא — דוד",
+    "pl": "Nadwórna — Dawid",
+    "fr": "Nadwórna — David"
+   },
+   "paragraphs": [
+    {
+     "text": {
+      "en": "David Mendel Rapaport — Memek — was born in Nadwórna on 25 December 1911, son of Berisz Rapaport and Rebeka Griffel. Nadwórna sat in the Carpathian foothills of eastern Galicia, then Austria-Hungary, then Poland, today Nadvirna in Ukraine.",
+      "he": "דוד מנדל רפפורט — ממק — נולד בנדבורנא ב-25 בדצמבר 1911, בנם של בריש רפפורט ורבקה גריפל. נדבורנא שכנה למרגלות הקרפטים במזרח גליציה, אז אוסטרו-הונגריה, אחר כך פולין, וכיום נדבירנה שבאוקראינה.",
+      "pl": "Dawid Mendel Rapaport — Memek — urodził się w Nadwórnej 25 grudnia 1911, syn Berisza Rapaporta i Rebeki Griffel. Nadwórna leżała u podnóża Karpat we wschodniej Galicji, wówczas Austro-Węgry, potem Polska, dziś Nadwirna na Ukrainie.",
+      "fr": "David Mendel Rapaport — Memek — est né à Nadwórna le 25 décembre 1911, fils de Berisz Rapaport et de Rebeka Griffel. Nadwórna se trouvait au pied des Carpates, en Galicie orientale : Autriche-Hongrie, puis Pologne, aujourd’hui Nadvirna en Ukraine."
+     },
+     "sources": [
+      "Nadwórna civil birth register"
+     ],
+     "kind": "fact"
+    },
+    {
+     "text": {
+      "en": "His Brussels Displaced Persons card of 1946 gives his birthplace as \"Cieszyn (Tesin)\" — a town four hundred kilometres away, where no one in this family ever lived. It is a transcription error by a French clerk, and it is worth pausing on: here the document is wrong and the family's memory is right. That is why nothing in this archive ranks paper above testimony as a rule.",
+      "he": "כרטיס העקורים שלו מבריסל, 1946, נוקב במקום לידתו ״צ׳שין״ — עיירה במרחק ארבע מאות קילומטרים, שאיש במשפחה הזאת מעולם לא חי בה. זו טעות תעתיק של פקיד צרפתי, וכדאי לעצור עליה: כאן המסמך שוגה והזיכרון המשפחתי צודק. זו הסיבה ששום דבר בארכיון הזה אינו מדרג נייר מעל עדות כברירת מחדל.",
+      "pl": "Jego brukselska karta dipisa z 1946 podaje jako miejsce urodzenia „Cieszyn (Tesin)” — miasto oddalone o czterysta kilometrów, w którym nikt z tej rodziny nigdy nie mieszkał. To błąd transkrypcji francuskiego urzędnika, i warto się przy nim zatrzymać: tutaj dokument się myli, a pamięć rodzinna ma rację. Dlatego nic w tym archiwum nie stawia z zasady papieru ponad świadectwem.",
+      "fr": "Sa fiche de personne déplacée, Bruxelles 1946, donne comme lieu de naissance « Cieszyn (Tesin) » — une ville à quatre cents kilomètres, où personne de cette famille n’a jamais vécu. C’est une erreur de transcription d’un fonctionnaire français, et elle mérite qu’on s’y arrête : ici le document a tort et la mémoire familiale a raison. C’est pourquoi rien dans ces archives ne place par principe le papier au-dessus du témoignage."
+     },
+     "sources": [
+      "DIPIS card, Brussels 1946",
+      "Nadwórna civil birth register"
+     ],
+     "kind": "conflict"
+    }
+   ]
+  },
+  {
+   "id": "bolechow",
+   "years": "1913—1933",
+   "title": {
+    "en": "Bolechów — Lusia",
+    "he": "בולחוב — לוסיה",
+    "pl": "Bolechów — Łucja",
+    "fr": "Bolechów — Lusia"
+   },
+   "paragraphs": [
+    {
+     "text": {
+      "en": "Leah Weitzner — Lusia — was born in Bolechów on 8 April, daughter of Elias (Eliyahu) Weitzner and Matel (Matylda) née Weinreb. Every record agrees on the day. They do not agree on the year: the Bolechów civil register says 1913, while her own survivor card, the ŻIH index and the Haifa burial register all say 1916. Three against two, but the two include the civil register. It remains unresolved.",
+      "he": "לאה ויצנר — לוסיה — נולדה בבולחוב ב-8 באפריל, בתם של אליהו ויצנר ומטל (מטילדה) לבית ויינרב. כל הרשומות מסכימות על היום. הן אינן מסכימות על השנה: הפנקס האזרחי בבולחוב אומר 1913, ואילו כרטיס הניצולה שלה, מפתח ŻIH ופנקס הקבורה בחיפה אומרים כולם 1916. שלוש מול שתיים, אך השתיים כוללות את הפנקס האזרחי. הדבר טרם הוכרע.",
+      "pl": "Lea Weitzner — Łucja — urodziła się w Bolechowie 8 kwietnia, córka Eliasza (Eliahu) Weitznera i Matel (Matyldy) z domu Weinreb. Wszystkie zapisy zgadzają się co do dnia. Nie zgadzają się co do roku: bolechowska księga cywilna podaje 1913, natomiast jej własna karta ocalałej, indeks ŻIH i rejestr pochówków w Hajfie podają 1916. Trzy przeciw dwóm, ale wśród tych dwóch jest akt cywilny. Sprawa pozostaje nierozstrzygnięta.",
+      "fr": "Leah Weitzner — Lusia — est née à Bolechów le 8 avril, fille d’Elias (Eliyahu) Weitzner et de Matel (Matylda) née Weinreb. Tous les documents s’accordent sur le jour. Pas sur l’année : le registre civil de Bolechów dit 1913, tandis que sa propre fiche de survivante, l’index ŻIH et le registre funéraire de Haïfa disent 1916. Trois contre deux, mais ces deux-là comprennent le registre civil. La question reste ouverte."
+     },
+     "sources": [
+      "Bolechów birth register 1913",
+      "CKŻP card nr 151738",
+      "Haifa Chevra Kadisha register"
+     ],
+     "kind": "conflict"
+    },
+    {
+     "text": {
+      "en": "In 1933 her parents left for Mandatory Palestine. Lusia stayed. It is a small sentence with the whole of what follows inside it: she would not see them again for fifteen years, and the war would fall on the side of the family that remained.",
+      "he": "ב-1933 עזבו הוריה לארץ ישראל המנדטורית. לוסיה נשארה. זה משפט קטן שכל מה שבא אחריו כלול בתוכו: היא לא תראה אותם עוד חמש עשרה שנה, והמלחמה תיפול על הצד של המשפחה שנשאר.",
+      "pl": "W 1933 jej rodzice wyjechali do Palestyny. Łucja została. To krótkie zdanie zawiera w sobie wszystko, co nastąpi: nie zobaczy ich przez piętnaście lat, a wojna spadnie na tę część rodziny, która została.",
+      "fr": "En 1933, ses parents partirent pour la Palestine mandataire. Lusia resta. C’est une petite phrase qui contient tout ce qui suit : elle ne les reverra pas avant quinze ans, et la guerre s’abattra sur la partie de la famille restée sur place."
+     },
+     "sources": [
+      "Memoir ch.1 — family testimony, no document held"
+     ],
+     "kind": "testimony"
+    }
+   ]
+  },
+  {
+   "id": "marriage",
+   "years": "1935—1938",
+   "title": {
+    "en": "The marriage, and Shimon",
+    "he": "הנישואין, ושמעון",
+    "pl": "Ślub, i Szymon",
+    "fr": "Le mariage, et Shimon"
+   },
+   "paragraphs": [
+    {
+     "text": {
+      "en": "They married on 10 February 1935 in Bolechów, her own town. She was twenty-one and he was twenty-three.",
+      "he": "הם נישאו ב-10 בפברואר 1935 בבולחוב, עיירתה שלה. היא הייתה בת עשרים ואחת והוא בן עשרים ושלוש.",
+      "pl": "Pobrali się 10 lutego 1935 w Bolechowie, w jej rodzinnym mieście. Miała dwadzieścia jeden lat, on dwadzieścia trzy.",
+      "fr": "Ils se sont mariés le 10 février 1935 à Bolechów, sa ville natale. Elle avait vingt et un ans, lui vingt-trois."
+     },
+     "sources": [
+      "Civil marriage record, Bolechów, 10 February 1935"
+     ],
+     "kind": "fact"
+    },
+    {
+     "text": {
+      "en": "Her memoir puts the wedding in Muszyna, in February 1938 — three years later and in another town. Written forty years afterwards, the memory placed the marriage at the opening of the Muszyna years rather than three years before them. The month is right in both. And the record resolves something the memoir left broken: under her date, Shimon arrives eight months before his parents marry; under the register, he is born two and a half years into the marriage.",
+      "he": "ביומנה ממוקמת החתונה במושינה, בפברואר 1938 — שלוש שנים מאוחר יותר ובעיירה אחרת. נכתב ארבעים שנה אחר כך, והזיכרון מיקם את הנישואין בפתח שנות מושינה במקום שלוש שנים לפניהן. החודש נכון בשניהם. והרשומה פותרת דבר שהיומן הותיר שבור: לפי תאריכה, שמעון מגיע שמונה חודשים לפני שהוריו נישאו; לפי הפנקס, הוא נולד שנתיים וחצי לתוך הנישואין.",
+      "pl": "Jej pamiętnik umieszcza ślub w Muszynie, w lutym 1938 — trzy lata później i w innym mieście. Spisany czterdzieści lat po fakcie, umieścił małżeństwo na początku lat muszyńskich, a nie trzy lata przed nimi. Miesiąc zgadza się w obu wersjach. I dokument naprawia to, co pamiętnik zostawił wyłamane: według jej daty Szymon przychodzi na świat osiem miesięcy przed ślubem rodziców; według aktu rodzi się dwa i pół roku po nim.",
+      "fr": "Son mémoire situe le mariage à Muszyna, en février 1938 — trois ans plus tard et dans une autre ville. Écrit quarante ans après, le souvenir a placé le mariage à l’ouverture des années de Muszyna plutôt que trois ans avant. Le mois est juste dans les deux. Et le registre répare ce que le mémoire laissait brisé : à sa date, Shimon arrive huit mois avant le mariage de ses parents ; au registre, deux ans et demi après."
+     },
+     "sources": [
+      "Memoir p.16",
+      "Civil marriage record 1935"
+     ],
+     "kind": "conflict"
+    },
+    {
+     "text": {
+      "en": "Shimon was born on 22 June 1937 in Lwów. The family had long said \"Mosina\" — a name that turned out to be Muszyna — but his own survivor card, filled in after the war, says Lwów.",
+      "he": "שמעון נולד ב-22 ביוני 1937 בלבוב. המשפחה אמרה שנים ״מוסינה״ — שם שהתברר כמושינה — אך כרטיס הניצולים שלו עצמו, שמולא לאחר המלחמה, נוקב בלבוב.",
+      "pl": "Szymon urodził się 22 czerwca 1937 we Lwowie. Rodzina długo mówiła „Mosina” — nazwa, która okazała się Muszyną — ale jego własna karta ocalałego, wypełniona po wojnie, podaje Lwów.",
+      "fr": "Shimon est né le 22 juin 1937 à Lwów. La famille a longtemps dit « Mosina » — un nom qui s’est révélé être Muszyna — mais sa propre fiche de survivant, remplie après la guerre, indique Lwów."
+     },
+     "sources": [
+      "CKŻP survivor card nr 151337"
+     ],
+     "kind": "fact"
+    }
+   ]
+  },
+  {
+   "id": "war",
+   "years": "1939—1944",
+   "title": {
+    "en": "The war",
+    "he": "המלחמה",
+    "pl": "Wojna",
+    "fr": "La guerre"
+   },
+   "paragraphs": [
+    {
+     "text": {
+      "en": "Germany invaded Poland on 1 September 1939. What the family did over the next five years is known almost entirely from Lusia's testimony, because almost no one who could have written it down survived to do so.",
+      "he": "גרמניה פלשה לפולין ב-1 בספטמבר 1939. מה שעשתה המשפחה בחמש השנים הבאות ידוע כמעט כולו מעדותה של לוסיה, משום שכמעט איש מאלה שיכלו לרשום זאת לא שרד כדי לעשות זאת.",
+      "pl": "Niemcy najechały Polskę 1 września 1939. To, co rodzina robiła przez następne pięć lat, wiadomo niemal wyłącznie ze świadectwa Łucji, ponieważ prawie nikt, kto mógłby to spisać, nie przeżył.",
+      "fr": "L’Allemagne envahit la Pologne le 1er septembre 1939. Ce que la famille a fait pendant les cinq années suivantes n’est connu presque que par le témoignage de Lusia, parce que presque personne qui aurait pu l’écrire n’a survécu."
+     },
+     "sources": [
+      "Memoir chs.2-6"
+     ],
+     "kind": "testimony"
+    },
+    {
+     "text": {
+      "en": "She tells of Przemyśl under Soviet administration; of the Nadwórna ghetto and David's escape from it hidden in a wooden wagon; of false identities in Lwów; of the Hormak family, and of neighbours named Pietrozycki and Ivanov who helped them; and of Shimon, three years old, kept in a crate for two and a half years so that he would not be seen or heard. No document we hold corroborates any of it. That is not a weakness in the account — it is what happens when the people who would have kept the records are the people who were killed.",
+      "he": "היא מספרת על פשמישל תחת המנהל הסובייטי; על גטו נדבורנא ועל בריחתו של דוד ממנו מוחבא בעגלת עץ; על זהויות בדויות בלבוב; על משפחת הורמק, ועל שכנים בשם פייטרוז׳יצקי ואיוונוב שסייעו להם; ועל שמעון, בן שלוש, שהוחזק בארגז שנתיים וחצי כדי שלא ייראה ולא יישמע. שום מסמך שבידינו אינו מאשש דבר מכל אלה. זו אינה חולשה בעדות — כך קורה כאשר האנשים שהיו שומרים את הרשומות הם האנשים שנרצחו.",
+      "pl": "Opowiada o Przemyślu pod administracją sowiecką; o getcie w Nadwórnej i ucieczce Dawida ukrytego w drewnianym wozie; o fałszywych tożsamościach we Lwowie; o rodzinie Hormaków i o sąsiadach nazwiskiem Pietrożycki i Iwanow, którzy im pomogli; i o Szymonie, trzylatku, trzymanym w skrzyni przez dwa i pół roku, żeby nie było go widać ani słychać. Żaden dokument, który mamy, tego nie potwierdza. To nie jest słabość tej relacji — tak właśnie bywa, gdy ludzie, którzy prowadziliby zapisy, są tymi, których zamordowano.",
+      "fr": "Elle raconte Przemyśl sous administration soviétique ; le ghetto de Nadwórna et l’évasion de David caché dans une charrette de bois ; les fausses identités à Lwów ; la famille Hormak, et des voisins nommés Pietrozycki et Ivanov qui les ont aidés ; et Shimon, trois ans, gardé dans une caisse pendant deux ans et demi pour qu’on ne le voie ni ne l’entende. Aucun document que nous détenons ne le corrobore. Ce n’est pas une faiblesse du récit — c’est ce qui arrive quand ceux qui auraient tenu les registres sont ceux qu’on a tués."
+     },
+     "sources": [
+      "Memoir chs.3-6 — no corroborating record held"
+     ],
+     "kind": "testimony"
+    },
+    {
+     "text": {
+      "en": "Two things from those years are on paper. David was stripped of Polish citizenship in 1942. And his father Berisz was murdered at Auschwitz — not on an approximate date but on a known one. He was given prisoner number 27310, arrived at the camp on 27 March 1942 and was dead on 29 March. Two days. Two independent records say so and agree exactly: the Auschwitz-Birkenau State Museum's victim page, and the camp's own Sterbebücher, the death books kept for registered prisoners. The register adds one word that matters — his residence, Przemyśl. Lusia's memoir, written from memory decades later, says David's parents were in Przemyśl when the war came and that the Germans killed one of them there. A German clerk writing at the time put him in the same town. Neither could have copied the other. The camp recorded his occupation as robotnik, labourer; he was an industrialist in Stanisławów, and that word is the camp's, not his.",
+      "he": "שני דברים מאותן שנים מצויים על הנייר. דוד נשלל מאזרחותו הפולנית ב-1942. ואביו בעריש נרצח באושוויץ — לא בתאריך משוער אלא בתאריך ידוע. הוא קיבל את מספר האסיר 27310, הגיע למחנה ב-27 במרץ 1942 ומת ב-29 במרץ. יומיים. שתי רשומות בלתי תלויות אומרות זאת ומסכימות במדויק: דף הקורבן של מוזיאון המדינה אושוויץ-בירקנאו, וספרי המתים של המחנה עצמו, ה-Sterbebücher שנוהלו עבור אסירים רשומים. הפנקס מוסיף מילה אחת שיש בה ממש — מקום מגוריו, פשמישל. ספר הזיכרונות של לוסיה, שנכתב מן הזיכרון עשרות שנים לאחר מכן, אומר שהוריו של דוד היו בפשמישל עם פרוץ המלחמה ושהגרמנים הרגו שם את אחד מהם. פקיד גרמני שכתב בזמן אמת מציב אותו באותה עיר. איש מהם לא יכול היה להעתיק מן האחר. המחנה רשם את מקצועו robotnik, פועל; הוא היה תעשיין בסטניסלבוב, והמילה הזאת היא של המחנה ולא שלו.",
+      "pl": "Dwie rzeczy z tamtych lat są na papierze. Dawida pozbawiono obywatelstwa polskiego w 1942. A jego ojciec Berisz został zamordowany w Auschwitz — nie w przybliżonej dacie, lecz w znanej. Otrzymał numer obozowy 27310, przybył do obozu 27 marca 1942 i zmarł 29 marca. Dwa dni. Mówią o tym dwa niezależne źródła, zgodne co do dnia: karta ofiary Państwowego Muzeum Auschwitz-Birkenau oraz obozowe Sterbebücher. Rejestr dodaje jedno istotne słowo — miejsce zamieszkania: Przemyśl. Pamiętnik Łucji mówi, że rodzice Dawida byli w Przemyślu, gdy przyszła wojna. Niemiecki urzędnik piszący wówczas umieszcza go w tym samym mieście.",
+      "fr": "Deux choses de ces années-là sont sur le papier. David fut déchu de la nationalité polonaise en 1942. Et son père Berisz fut assassiné à Auschwitz — non à une date approximative, mais à une date connue. Matricule 27310, arrivé au camp le 27 mars 1942, mort le 29 mars. Deux jours. Deux sources indépendantes le disent et s'accordent au jour près : la fiche de victime du Musée d'État d'Auschwitz-Birkenau et les Sterbebücher du camp. Le registre ajoute un mot qui compte — sa résidence, Przemyśl, la ville même où le mémoire de Lusia place les parents de David. Ni l'un ni l'autre n'a pu copier sur l'autre."
+     },
+     "sources": [
+      "Auschwitz-Birkenau State Museum victim page (prisoner 27310)",
+      "Auschwitz Sterbebücher 1941–1943, source record 49478",
+      "Lusia’s memoir, ch. 24",
+      "DIPIS card, Brussels 1946"
+     ]
+    },
+    {
+     "text": {
+      "en": "And they were remembered. For a long time this page said that no Page of Testimony had ever been filed at Yad Vashem for Berisz or for Rebeka, and that this archive was their only written memorial anywhere. That was wrong — and not because the evidence was missing. Both pages were already here, attached to their own records in this archive's document list: No. 53072 for Bernard, No. 53074 for Regina, each signed on 26 April 1953. The story simply had not been read against the file it was built on. Basia's copies, which arrived on 6 August 2026, are what finally prompted the check. Berisz's page names his father Moshe and his mother Menucha, gives his trade as merchant and sets his death in 1940 — eleven years after the fact, and two years early. Rebeka's gives her birth as 1892 in Nadwórna and her death as 1943; this archive holds 1888 and 1942. Those dates disagree and are left disagreeing. What does not disagree is that in the spring of 1953 somebody who had known them sat down and wrote their names on a form so they would not be lost. They were never unremembered. We had simply not looked at what we were holding.",
+      "he": "והם נזכרו. במשך זמן רב אמר העמוד הזה שמעולם לא הוגש דף עד ביד ושם עבור בעריש או עבור רבקה, ושהארכיון הזה הוא האזכרה הכתובה היחידה שלהם בעולם. זה היה שגוי — ולא משום שהראיה חסרה. שני הדפים כבר היו כאן, מצורפים לרשומות שלהם ברשימת המסמכים של הארכיון עצמו: מס׳ 53072 עבור ברנרד ומס׳ 53074 עבור רגינה, שניהם חתומים ב-26 באפריל 1953. הסיפור פשוט לא נקרא מול התיק שעליו הוא בנוי. עותקיה של בסיה, שהגיעו ב-6 באוגוסט 2026, הם שהניעו סוף־סוף את הבדיקה. דפו של בעריש נוקב בשם אביו משה ובשם אמו מנוחה, רושם את מקצועו סוחר וקובע את מותו ב-1940 — אחת־עשרה שנה לאחר המעשה, ובשנתיים מוקדם מדי. דפה של רבקה נוקב בלידתה ב-1892 בנדבורנא ובמותה ב-1943; הארכיון הזה מחזיק ב-1888 וב-1942. התאריכים חלוקים והם נותרים חלוקים. מה שאינו חלוק הוא שבאביב 1953 ישב מישהו שהכיר אותם וכתב את שמותיהם על טופס כדי שלא ילכו לאיבוד. הם מעולם לא נשכחו. אנחנו פשוט לא הסתכלנו במה שהחזקנו בידינו.",
+      "pl": "I zostali zapamiętani. Przez długi czas ta strona twierdziła, że dla Berisza i Rebeki nigdy nie złożono Kart Świadectwa w Yad Vashem. To było błędne — i nie dlatego, że brakowało dowodu. Obie karty już tu były, dołączone do ich własnych rekordów w spisie dokumentów tego archiwum: nr 53072 dla Bernarda, nr 53074 dla Reginy, obie podpisane 26 kwietnia 1953. Kopie Basi, które przyszły 6 sierpnia 2026, skłoniły wreszcie do sprawdzenia. Karta Berisza wymienia ojca Moshe i matkę Menuchę, zawód kupiec, śmierć w 1940. Karta Rebeki podaje urodzenie 1892 w Nadwórnej i śmierć 1943; my mamy 1888 i 1942. Daty się różnią i tak zostają. Nie różni się to, że wiosną 1953 ktoś, kto ich znał, zapisał ich imiona.",
+      "fr": "Et on s'est souvenu d'eux. Longtemps, cette page a affirmé qu'aucune Feuille de Témoignage n'avait été déposée à Yad Vashem pour Berisz ni pour Rebeka. C'était faux — et non faute de preuve. Les deux feuilles étaient déjà ici, jointes à leurs propres fiches dans la liste de documents de ces archives : n° 53072 pour Bernard, n° 53074 pour Regina, signées le 26 avril 1953. Les copies de Basia, arrivées le 6 août 2026, ont enfin déclenché la vérification. Celle de Berisz nomme son père Moshe et sa mère Menucha, le dit marchand, et fixe sa mort en 1940. Celle de Rebeka donne 1892 à Nadwórna et une mort en 1943 ; nous avons 1888 et 1942. Les dates divergent et le restent. Ce qui ne diverge pas, c'est qu'au printemps 1953 quelqu'un qui les avait connus a écrit leurs noms pour qu'ils ne se perdent pas."
+     },
+     "sources": [
+      "Yad Vashem Page of Testimony 53072 (Bernard Rapaport), signed 26 April 1953 — held in this archive as doc_bernard_dov_yv_pot",
+      "Yad Vashem Page of Testimony 53074 (Regina Rapaport), signed 26 April 1953 — held in this archive as doc_regina_rivka_yv_pot"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "katowice",
+   "years": "1945—1946",
+   "title": {
+    "en": "Katowice — and a separation nobody recorded",
+    "he": "קטוביץ — ופרידה שאיש לא רשם",
+    "pl": "Katowice — i rozstanie, którego nikt nie zapisał",
+    "fr": "Katowice — et une séparation que personne n’a notée"
+   },
+   "paragraphs": [
+    {
+     "text": {
+      "en": "The war ended and they came west with the repatriation, to Katowice. On 1 July 1946 Lusia and Shimon each filed a survivor-registration card at the Katowice committee — cards 151738 and 151337, mother and son, one after the other.",
+      "he": "המלחמה נגמרה והם באו מערבה עם הריפטריאציה, לקטוביץ. ב-1 ביולי 1946 מילאו לוסיה ושמעון כל אחד כרטיס רישום ניצולים בוועד קטוביץ — כרטיסים 151738 ו-151337, אם ובנה, זה אחר זה.",
+      "pl": "Wojna się skończyła i wrócili na zachód wraz z repatriacją, do Katowic. 1 lipca 1946 Łucja i Szymon złożyli w katowickim komitecie karty rejestracyjne ocalałych — numery 151738 i 151337, matka i syn, jedna po drugiej.",
+      "fr": "La guerre finie, ils revinrent vers l’ouest avec le rapatriement, à Katowice. Le 1er juillet 1946, Lusia et Shimon déposèrent chacun une fiche d’enregistrement de survivant au comité de Katowice — nos 151738 et 151337, la mère et le fils, l’une après l’autre."
+     },
+     "sources": [
+      "CKŻP cards nr 151738 and nr 151337, Katowice, 1 July 1946"
+     ],
+     "kind": "fact"
+    },
+    {
+     "text": {
+      "en": "But David had been registered as a Displaced Person in Brussels since 9 April 1946 — three months earlier. On the day he was recorded in Belgium, his wife and son were still in Poland. He had gone ahead, and they followed later that year. The memoir says only that \"the family reaches Brussels and stays in a hotel\": one movement, everyone together. The two cards, held in this archive since May and never read against each other until August 2026, say otherwise. It is the first of the two separations in this story.",
+      "he": "אך דוד היה רשום כעקור בבריסל כבר מ-9 באפריל 1946 — שלושה חודשים קודם. ביום שבו נרשם בבלגיה, אשתו ובנו היו עדיין בפולין. הוא הקדים, והם באו אחריו באותה שנה. היומן אומר רק ש״המשפחה מגיעה לבריסל ומתאכסנת במלון״: תנועה אחת, כולם יחד. שני הכרטיסים, שהיו בארכיון הזה מאז מאי ומעולם לא נקראו זה מול זה עד אוגוסט 2026, אומרים אחרת. זו הראשונה משתי הפרידות בסיפור הזה.",
+      "pl": "Ale Dawid był zarejestrowany jako dipis w Brukseli już od 9 kwietnia 1946 — trzy miesiące wcześniej. W dniu, w którym zapisano go w Belgii, jego żona i syn byli jeszcze w Polsce. Pojechał przodem, a oni dołączyli później tego samego roku. Pamiętnik mówi tylko, że „rodzina dociera do Brukseli i mieszka w hotelu”: jeden ruch, wszyscy razem. Obie karty, w tym archiwum od maja i nigdy dotąd nieprzeczytane obok siebie, mówią co innego. To pierwsze z dwóch rozstań w tej historii.",
+      "fr": "Mais David était enregistré comme personne déplacée à Bruxelles depuis le 9 avril 1946 — trois mois plus tôt. Le jour où il fut inscrit en Belgique, sa femme et son fils étaient encore en Pologne. Il est parti devant, ils ont suivi plus tard cette année-là. Le mémoire dit seulement que « la famille arrive à Bruxelles et loge à l’hôtel » : un seul mouvement, tous ensemble. Les deux fiches, dans ces archives depuis mai et jamais lues l’une contre l’autre, disent autre chose. C’est la première des deux séparations de cette histoire."
+     },
+     "sources": [
+      "DIPIS card, 9 April 1946",
+      "CKŻP cards, 1 July 1946",
+      "Memoir p.62"
+     ],
+     "kind": "conflict"
+    }
+   ]
+  },
+  {
+   "id": "brussels",
+   "years": "1946",
+   "title": {
+    "en": "Brussels — and Dov",
+    "he": "בריסל — ודב",
+    "pl": "Bruksela — i Dov",
+    "fr": "Bruxelles — et Dov"
+   },
+   "paragraphs": [
+    {
+     "text": {
+      "en": "David's Displaced Persons card describes a forestry engineer, Polish nationality stripped in 1942, speaking Polish, Italian, German, Czech and Russian. It is the only document that reaches across from the war into what came after.",
+      "he": "כרטיס העקורים של דוד מתאר מהנדס יערות, אזרחותו הפולנית נשללה ב-1942, דובר פולנית, איטלקית, גרמנית, צ׳כית ורוסית. זהו המסמך היחיד המגשר מן המלחמה אל מה שבא אחריה.",
+      "pl": "Karta dipisa Dawida opisuje inżyniera leśnictwa, pozbawionego obywatelstwa polskiego w 1942, mówiącego po polsku, włosku, niemiecku, czesku i rosyjsku. To jedyny dokument, który przerzuca most z wojny w to, co nastąpiło po niej.",
+      "fr": "La fiche de personne déplacée de David décrit un ingénieur forestier, déchu de la nationalité polonaise en 1942, parlant polonais, italien, allemand, tchèque et russe. C’est le seul document qui fasse le pont entre la guerre et ce qui suivit."
+     },
+     "sources": [
+      "DIPIS card, Brussels, 9 April 1946"
+     ],
+     "kind": "fact"
+    },
+    {
+     "text": {
+      "en": "Dov Bernard Rapaport was born in Brussels on 28 August 1946. No Belgian birth registration is held in this archive — it is the easiest missing document of all, and only he can request it, as the person the record belongs to.",
+      "he": "דב ברנרד רפפורט נולד בבריסל ב-28 באוגוסט 1946. אין בארכיון הזה רישום לידה בלגי — זהו המסמך החסר הקל ביותר מכולם, ורק הוא יכול לבקש אותו, כאדם שהרשומה שייכת לו.",
+      "pl": "Dov Bernard Rapaport urodził się w Brukseli 28 sierpnia 1946. W tym archiwum nie ma belgijskiego aktu urodzenia — to najłatwiejszy do zdobycia brakujący dokument, a poprosić o niego może tylko on sam, jako osoba, której zapis dotyczy.",
+      "fr": "Dov Bernard Rapaport est né à Bruxelles le 28 août 1946. Aucun acte de naissance belge ne figure dans ces archives — c’est le document manquant le plus facile à obtenir, et lui seul peut le demander, en tant que personne concernée."
+     },
+     "sources": [
+      "Family (Doron, 2026)",
+      "Memoir p.62"
+     ],
+     "kind": "fact"
+    },
+    {
+     "text": {
+      "en": "One thing about Belgium had been sitting in plain sight. David's aunt Jente — his father's sister — spent the war in Liège, at Rue Lairesse 88, registered as a Polish national. Her daughter Szewa married there in 1941, a marriage this archive already held without seeing what stood behind it. So when David and Lusia reached Belgium in 1946, it was not a country the family had never been to: part of it had lived there straight through the occupation, a hundred kilometres from Brussels. Whether David went where he had people, no document in our hands says. It is worth asking and it is not worth inventing.",
+      "he": "דבר אחד בנוגע לבלגיה ישב לנגד עינינו כל העת. דודתו של דוד, ינטה — אחות אביו — עברה את המלחמה בליאז׳, ברחוב לרס 88, רשומה כנתינה פולנייה. בתה שווה נישאה שם ב-1941, נישואין שהארכיון הזה כבר החזיק מבלי לראות מה עומד מאחוריהם. וכך, כשהגיעו דוד ולוסיה לבלגיה ב-1946, לא הייתה זו ארץ שהמשפחה מעולם לא דרכה בה: חלק ממנה חי שם לאורך כל הכיבוש, במרחק מאה קילומטרים מבריסל. האם הלך דוד למקום שבו היו לו אנשים — אין בידינו מסמך שאומר זאת. שווה לשאול, ולא שווה להמציא.",
+      "pl": "Jedna rzecz o Belgii leżała na widoku. Ciotka Dawida, Jenta — siostra jego ojca — spędziła wojnę w Liège, przy Rue Lairesse 88, zarejestrowana jako obywatelka polska. Jej córka Szewa wyszła tam za mąż w 1941. Gdy więc Dawid i Łucja dotarli do Belgii w 1946, nie był to kraj, w którym rodzina nigdy nie była. Czy Dawid poszedł tam, gdzie miał swoich — żaden dokument tego nie mówi.",
+      "fr": "Une chose au sujet de la Belgique était restée sous nos yeux. La tante de David, Jente — la sœur de son père — a passé la guerre à Liège, rue Lairesse 88, enregistrée comme ressortissante polonaise. Sa fille Szewa s'y est mariée en 1941. Ainsi, quand David et Lusia sont arrivés en Belgique en 1946, ce n'était pas un pays où la famille n'avait jamais mis les pieds. Aucun document en notre possession ne dit si David est allé là où il avait des siens."
+     },
+     "sources": [
+      "Wartime name record 4494611 (Jenta Rapaport, Rue Lairesse 88, Liège)",
+      "Liège marriage of Szewa Horowitz and Markus Türkel, 1941"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sete",
+   "years": "1947—1948",
+   "title": {
+    "en": "Sète, the Theodor Herzl, Cyprus",
+    "he": "סֶט, ״תיאודור הרצל״, קפריסין",
+    "pl": "Sète, Theodor Herzl, Cypr",
+    "fr": "Sète, le Theodor Herzl, Chypre"
+   },
+   "paragraphs": [
+    {
+     "text": {
+      "en": "On 2 April 1947 David and Shimon sailed from Sète in southern France aboard the Theodor Herzl — the ex-British cable-layer HMS Guardian, built at Newcastle in 1907, carrying 2,641 ma'apilim gathered from camps across France and Belgium. Shimon was nine. Lusia stayed behind in Brussels with the seven-month-old Dov.",
+      "he": "ב-2 באפריל 1947 הפליגו דוד ושמעון מסֶט שבדרום צרפת באונייה ״תיאודור הרצל״ — ספינת הכבלים הבריטית לשעבר HMS Guardian, שנבנתה בניוקאסל ב-1907, ונשאה 2,641 מעפילים ממחנות ברחבי צרפת ובלגיה. שמעון היה בן תשע. לוסיה נשארה בבריסל עם דב בן שבעת החודשים.",
+      "pl": "2 kwietnia 1947 Dawid i Szymon wypłynęli z Sète na południu Francji na pokładzie Theodora Herzla — dawnego brytyjskiego kablowca HMS Guardian, zbudowanego w Newcastle w 1907, wiozącego 2641 ma’apilim zebranych z obozów we Francji i Belgii. Szymon miał dziewięć lat. Łucja została w Brukseli z siedmiomiesięcznym Dovem.",
+      "fr": "Le 2 avril 1947, David et Shimon quittèrent Sète, dans le sud de la France, à bord du Theodor Herzl — l’ancien câblier britannique HMS Guardian, construit à Newcastle en 1907, transportant 2 641 ma’apilim rassemblés dans les camps de France et de Belgique. Shimon avait neuf ans. Lusia resta à Bruxelles avec Dov, âgé de sept mois."
+     },
+     "sources": [
+      "Memoir p.63",
+      "Palyam / ship histories — the vessel is fully documented"
+     ],
+     "kind": "fact"
+    },
+    {
+     "text": {
+      "en": "On 13 April the Royal Navy boarded her off the coast. The passengers fought; three were killed and twenty-seven wounded. Everyone aboard was deported to Cyprus, and David and Shimon were interned at Karaolos, north of Famagusta, for about eight months. The camps there held 53,510 Jews behind wire between 1946 and 1949, and some two thousand children were born inside them. Shimon was released from Atlit in 1948.",
+      "he": "ב-13 באפריל השתלט עליה הצי המלכותי מול החוף. הנוסעים נלחמו; שלושה נהרגו ועשרים ושבעה נפצעו. כל מי שהיה על הסיפון גורש לקפריסין, ודוד ושמעון נעצרו בקרַאוֹלוֹס, מצפון לפמגוסטה, כשמונה חודשים. המחנות שם החזיקו 53,510 יהודים מאחורי גדרות בין 1946 ל-1949, וכאלפיים ילדים נולדו בתוכם. שמעון שוחרר מעתלית ב-1948.",
+      "pl": "13 kwietnia Royal Navy wzięła statek abordażem u wybrzeży. Pasażerowie stawili opór; trzech zginęło, dwudziestu siedmiu zostało rannych. Wszystkich deportowano na Cypr, a Dawida i Szymona internowano w Karaolos na północ od Famagusty na jakieś osiem miesięcy. Tamtejsze obozy przetrzymywały za drutami 53 510 Żydów w latach 1946–1949, a wewnątrz urodziło się około dwóch tysięcy dzieci. Szymon został zwolniony z Atlit w 1948.",
+      "fr": "Le 13 avril, la Royal Navy l’arraisonna au large. Les passagers résistèrent ; trois furent tués et vingt-sept blessés. Tous furent déportés à Chypre, et David et Shimon furent internés à Karaolos, au nord de Famagouste, pendant environ huit mois. Ces camps retinrent 53 510 Juifs derrière les barbelés entre 1946 et 1949, et quelque deux mille enfants y naquirent. Shimon fut libéré d’Atlit en 1948."
+     },
+     "sources": [
+      "Memoir pp.63-66",
+      "Cyprus internment camp figures, 1946-1949"
+     ],
+     "kind": "fact"
+    }
+   ]
+  },
+  {
+   "id": "haifa",
+   "years": "1948—1996",
+   "title": {
+    "en": "Haifa",
+    "he": "חיפה",
+    "pl": "Hajfa",
+    "fr": "Haïfa"
+   },
+   "paragraphs": [
+    {
+     "text": {
+      "en": "Lusia sailed from Brussels with Dov on the Kadima. She had waited more than a year alone with the baby, working, while David and Shimon were behind wire. The Haifa burial register records her year of immigration as 1948 and David's as 1946 — the two-year gap the memoir describes, written into their own graves. Dov's first journey was with his mother, the two of them.",
+      "he": "לוסיה הפליגה מבריסל עם דב באונייה ״קדימה״. היא המתינה יותר משנה לבדה עם התינוק, ועבדה, בזמן שדוד ושמעון היו מאחורי גדרות. פנקס הקבורה בחיפה רושם את שנת עלייתה 1948 ואת של דוד 1946 — פער השנתיים שהיומן מתאר, חקוק ברשומות קבריהם שלהם. מסעו הראשון של דב היה עם אמו, שניהם לבדם.",
+      "pl": "Łucja wypłynęła z Brukseli z Dovem na statku Kadima. Czekała ponad rok sama z niemowlęciem, pracując, gdy Dawid i Szymon byli za drutami. Rejestr pochówków w Hajfie zapisuje rok jej alii jako 1948, a Dawida jako 1946 — dwuletnia luka, którą opisuje pamiętnik, wpisana w ich własne groby. Pierwsza podróż Dova była z matką, we dwoje.",
+      "fr": "Lusia quitta Bruxelles avec Dov à bord du Kadima. Elle avait attendu plus d’un an, seule avec le bébé, en travaillant, pendant que David et Shimon étaient derrière les barbelés. Le registre funéraire de Haïfa note son année d’immigration : 1948, et celle de David : 1946 — l’écart de deux ans que décrit le mémoire, inscrit dans leurs propres tombes. Le premier voyage de Dov fut avec sa mère, tous les deux."
+     },
+     "sources": [
+      "Memoir p.66",
+      "Haifa Chevra Kadisha register"
+     ],
+     "kind": "fact"
+    },
+    {
+     "text": {
+      "en": "In Haifa she saw her parents for the first time since 1933. The family settled on Abbas Street, and later bought an apartment on Moriah Street with German reparations — money David argued with himself about taking. He worked as a customs broker, the trade his son Dov followed, and then his grandson Doron.",
+      "he": "בחיפה ראתה את הוריה לראשונה מאז 1933. המשפחה התיישבה ברחוב עבאס, ולימים קנתה דירה ברחוב מוריה בכספי הפיצויים מגרמניה — כסף שדוד התלבט אם לקחת. הוא עבד כעמיל מכס, המקצוע שבו הלך בנו דב, ואחריו נכדו דורון.",
+      "pl": "W Hajfie zobaczyła rodziców po raz pierwszy od 1933. Rodzina zamieszkała przy ulicy Abbas, a później kupiła mieszkanie przy ulicy Moria za niemieckie odszkodowania — pieniądze, o które Dawid spierał się sam ze sobą. Pracował jako agent celny; ten zawód przejął jego syn Dov, a potem wnuk Doron.",
+      "fr": "À Haïfa, elle revit ses parents pour la première fois depuis 1933. La famille s’installa rue Abbas, puis acheta un appartement rue Moriah avec les réparations allemandes — un argent que David hésita longtemps à accepter. Il fut commissionnaire en douane, métier que suivirent son fils Dov, puis son petit-fils Doron."
+     },
+     "sources": [
+      "Memoir pp.67-76"
+     ],
+     "kind": "testimony"
+    },
+    {
+     "text": {
+      "en": "In 1986 a granddaughter, Hadas, asked her teacher Esther Weiss for help with a school assignment, and Esther sat down and interviewed Lusia. Ninety pages in Hebrew. Without them, almost nothing in this archive between 1939 and 1948 would have a voice at all.",
+      "he": "ב-1986 ביקשה נכדה, הדס, עזרה ממורתה אסתר ויס במטלת בית ספר, ואסתר ישבה וראיינה את לוסיה. תשעים עמודים בעברית. בלעדיהם, כמעט דבר בארכיון הזה בין 1939 ל-1948 לא היה נשמע כלל.",
+      "pl": "W 1986 wnuczka, Hadas, poprosiła swoją nauczycielkę Esther Weiss o pomoc w szkolnym zadaniu, a Esther usiadła i przeprowadziła z Łucją rozmowy. Dziewięćdziesiąt stron po hebrajsku. Bez nich prawie nic w tym archiwum między 1939 a 1948 nie miałoby głosu.",
+      "fr": "En 1986, une petite-fille, Hadas, demanda de l’aide à son professeur Esther Weiss pour un devoir scolaire, et Esther s’assit et interrogea Lusia. Quatre-vingt-dix pages en hébreu. Sans elles, presque rien dans ces archives entre 1939 et 1948 n’aurait de voix."
+     },
+     "sources": [
+      "The memoir, compiled 1986"
+     ],
+     "kind": "fact"
+    },
+    {
+     "text": {
+      "en": "David died on 29 August 1990 and Lusia on 28 December 1996. They are buried beside one another at Sde Yehoshua, graves 102ד and 102ג. Her burial record names her father Eliyahu and her mother Matilda — the same two people her memoir opens with, sixty years earlier and in another language. The last page of the record matches the first page of the testimony.",
+      "he": "דוד נפטר ב-29 באוגוסט 1990 ולוסיה ב-28 בדצמבר 1996. הם טמונים זה לצד זו בשדה יהושע, קברים 102ד ו-102ג. רשומת הקבורה שלה נוקבת באביה אליהו ובאמה מטילדה — אותם שני אנשים שבהם נפתח יומנה, שישים שנה קודם ובשפה אחרת. העמוד האחרון של הרשומה תואם לעמוד הראשון של העדות.",
+      "pl": "Dawid zmarł 29 sierpnia 1990, Łucja 28 grudnia 1996. Spoczywają obok siebie na cmentarzu Sde Jehoszua, groby 102ד i 102ג. Jej akt pochówku wymienia ojca Eliahu i matkę Matyldę — tych samych dwoje ludzi, od których zaczyna się jej pamiętnik, sześćdziesiąt lat wcześniej i w innym języku. Ostatnia strona dokumentu zgadza się z pierwszą stroną świadectwa.",
+      "fr": "David mourut le 29 août 1990 et Lusia le 28 décembre 1996. Ils reposent l’un à côté de l’autre à Sde Yehoshua, tombes 102ד et 102ג. Son acte d’inhumation nomme son père Eliyahu et sa mère Matilda — les deux mêmes personnes par lesquelles s’ouvre son mémoire, soixante ans plus tôt et dans une autre langue. La dernière page du registre correspond à la première page du témoignage."
+     },
+     "sources": [
+      "Haifa Chevra Kadisha register",
+      "Memoir ch.1"
+     ],
+     "kind": "fact"
+    }
+   ]
+  }
+ ]
 }
