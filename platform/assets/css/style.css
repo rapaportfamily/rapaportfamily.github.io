@@ -2268,3 +2268,19 @@ html[dir="rtl"] .detail-portrait { margin: 0 1.2rem 1rem 0; }
   .ex-gallery-row { grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); }
   .ex-portrait { max-width: 150px; }
 }
+
+/* Pages of Testimony sit apart from the photographs — a different heading, a sentence of
+   explanation, and no cropping. A memorial form must not be square-cropped into a thumbnail
+   like a holiday snap: it is shown whole, and it is the only place on this page that is. */
+.ex-group-label.testimony-label { margin-top: 0.4rem; }
+.ex-testimony-note {
+  font-size: 0.76rem; line-height: 1.5; margin: 0.15rem 0 0.6rem;
+  color: var(--ink-soft, #666); max-width: 62ch;
+}
+.ex-shot.testimony img {
+  /* Not 'aspect-ratio: auto': these are lazy-loaded, and with no intrinsic size the box
+     collapsed to 7px tall before the image arrived. The ratio reserves the space; contain
+     shows the whole form inside it without cropping the top off a memorial page. */
+  aspect-ratio: 3 / 4; object-fit: contain;
+  background: #fff; padding: 3px;
+}

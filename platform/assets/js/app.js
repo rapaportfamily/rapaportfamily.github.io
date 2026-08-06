@@ -1276,18 +1276,31 @@ function drawExplore(D) {
   const exGallery = (p) => {
     const items = p.media || [];
     if (!items.length) return '';
+    const shots = (list) => `
+      <div class="ex-gallery-row">
+        ${list.map(m => `
+          <figure class="ex-shot${m.names_the_person ? '' : ' unnamed'}${m.kind === 'yad_vashem' ? ' testimony' : ''}">
+            <img src="${escapeHtml(m.file)}" alt="${escapeHtml(m.basename)}" loading="lazy"
+                 data-shot="${escapeHtml(m.file)}" data-shotcap="${escapeHtml(m.basename)}" />
+            <figcaption>${escapeHtml(m.basename)}${m.names_the_person ? ''
+              : `<span class="ex-shot-note">${escapeHtml(t('explore.in_folder'))}</span>`}</figcaption>
+          </figure>`).join('')}
+      </div>`;
+    // A Page of Testimony is not a snapshot. It is a form somebody filled in by hand to state
+    // that this person was murdered, and for most of these people it is the only marker they
+    // have anywhere. It gets its own heading and its own sentence instead of being mixed into
+    // a strip of family photographs.
+    const pot = items.filter(m => m.kind === 'yad_vashem');
+    const rest = items.filter(m => m.kind !== 'yad_vashem');
     return `
       <div class="ex-gallery">
-        <div class="ex-group-label">${escapeHtml(t('explore.photos'))} <span class="ex-count">${items.length}</span></div>
-        <div class="ex-gallery-row">
-          ${items.map(m => `
-            <figure class="ex-shot${m.names_the_person ? '' : ' unnamed'}">
-              <img src="${escapeHtml(m.file)}" alt="${escapeHtml(m.basename)}" loading="lazy"
-                   data-shot="${escapeHtml(m.file)}" data-shotcap="${escapeHtml(m.basename)}" />
-              <figcaption>${escapeHtml(m.basename)}${m.names_the_person ? ''
-                : `<span class="ex-shot-note">${escapeHtml(t('explore.in_folder'))}</span>`}</figcaption>
-            </figure>`).join('')}
-        </div>
+        ${pot.length ? `
+          <div class="ex-group-label testimony-label">${escapeHtml(t('explore.testimony'))} <span class="ex-count">${pot.length}</span></div>
+          <p class="ex-testimony-note">${escapeHtml(t('explore.testimony_note'))}</p>
+          ${shots(pot)}` : ''}
+        ${rest.length ? `
+          <div class="ex-group-label">${escapeHtml(t('explore.photos'))} <span class="ex-count">${rest.length}</span></div>
+          ${shots(rest)}` : ''}
         <p class="ex-source">${escapeHtml(p.media_credit || '')}</p>
       </div>`;
   };

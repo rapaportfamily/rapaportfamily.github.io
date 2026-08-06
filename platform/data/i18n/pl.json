@@ -300,6 +300,8 @@
   "photos": "Zdjęcia i papiery w folderze tej osoby",
   "in_folder": " — przechowywane w tym folderze; plik nie wymienia tej osoby",
   "steps_one": "Jeden krok od Dawida, Lusi, Szymona i Dova.",
-  "steps_few": "{n} kroki od Dawida, Lusi, Szymona i Dova."
+  "steps_few": "{n} kroki od Dawida, Lusi, Szymona i Dova.",
+  "testimony": "Karty Świadectwa w Yad Vashem",
+  "testimony_note": "Karta Świadectwa to formularz wypełniony ręcznie — zwykle przez ocalałego krewnego w latach pięćdziesiątych — by zapisać, że wymieniona osoba została zamordowana w Zagładzie. Dla wielu osób w tym drzewie to jedyny ślad."
  }
 }
