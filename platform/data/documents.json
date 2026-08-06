@@ -1194,7 +1194,10 @@
     "prisoner_number": "27310",
     "arrival_at_auschwitz": "27-03-1942",
     "date_of_death": "29.3.1942, KL Auschwitz"
-   }
+   },
+   "related_documents": [
+    "doc_berish_sterbebucher_1942"
+   ]
   },
   {
    "id": "doc_moses_saul_descendants_tree",
@@ -2256,6 +2259,81 @@
     "he": "Sprawozdanie Dyrekcji I. Gimnazjum Państwowego im. M. Romanowskiego w Stanisławowie za rok szkolny 1927/28 — הדוח השנתי של הגימנסיה הממלכתית הראשונה על שם מייצ׳יסלב רומנובסקי, שנדפס בסטניסלבוב ב-1928 בידי ליאון דנקייביץ׳, אותו מדפיס ששמו מופיע בתחתית תעודת הכשירות של בעריש מ-1924. הדוח מציין מאתיים שנה לבית הספר, 1728–1928. כאן היה דוד תלמיד: המשפחה ישבה בסטניסלבוב מאז 1918 והתגוררה בקושצ׳יושקו 4. אחד משלושת הקבצים ששלחה בסיה מסומן nieukończone — לא הושלם — והארכיון חוזר על התווית הזו במקום לנחש למה היא מכוונת."
    },
    "status": "read"
+  },
+  {
+   "id": "doc_berish_sterbebucher_1942",
+   "file_pages": [
+    "basia_2026_08/berish_sterbebucher_name_record.png",
+    "basia_2026_08/berish_sterbebucher_source_record.png"
+   ],
+   "kind": "image",
+   "type": "camp_death_register",
+   "primary_language": "en",
+   "title": {
+    "en": "Auschwitz Sterbebücher (death books) 1941–1943 — Berisch Rapaport, died 29 March 1942",
+    "he": "ספרי המתים של אושוויץ (Sterbebücher) 1941–1943 — בעריש רפפורט, נפטר ב-29 במרץ 1942",
+    "pl": "Księgi zgonów Auschwitz (Sterbebücher) 1941–1943 — Berisch Rapaport, zmarł 29 marca 1942",
+    "fr": "Sterbebücher d’Auschwitz (registres de décès) 1941-1943 — Berisch Rapaport, mort le 29 mars 1942"
+   },
+   "source_archive": "Auschwitz Death Certificates 1941–1943 (Sterbebücher), source record 49478; name record 12520683. Received from Basia 6 August 2026.",
+   "related_people": [
+    "p_berisz"
+   ],
+   "decoded_fields": {
+    "primary_name": "Berisch Rapaport",
+    "date_of_birth": "Jul 30, 1886",
+    "date_of_death": "Mar 29, 1942",
+    "place_of_birth": "Radomysl Wielki",
+    "residence": "Przemysl",
+    "religion": "Jew",
+    "source_scope": "46 volumes, 65,280 registered prisoners who died 29 Jul 1941 – 31 Dec 1943"
+   },
+   "summary": {
+    "en": "The camp’s own death books, kept for prisoners registered in Auschwitz between July 1941 and December 1943 — 46 partially preserved volumes, 65,280 names. Berisch Rapaport, born 30 July 1886 at Radomyśl Wielki, died 29 March 1942. This is a second and independent witness to the date the Museum victim page gives, and the two agree to the day. It also carries something the Museum page does not: residence PRZEMYŚL. Lusia’s memoir says David’s parents were in Przemyśl when the war came, and that the Germans killed one of them there on a fabricated accusation. The register, written by the men who ran the camp, puts him in the same town. A memoir written from memory decades later and a German clerk’s entry made at the time agree, and neither could have been copying the other.",
+    "he": "ספרי המתים של המחנה עצמו, שנוהלו עבור אסירים שנרשמו באושוויץ בין יולי 1941 לדצמבר 1943 — 46 כרכים ששרדו בחלקם, 65,280 שמות. בעריש רפפורט, יליד 30 ביולי 1886 ברדומישל ויילקי, נפטר ב-29 במרץ 1942. זהו עד שני ובלתי תלוי לתאריך שנוקב בו דף הקורבן של המוזיאון, ושניהם מסכימים עד ליום. הוא נושא גם דבר שאין בדף המוזיאון: מקום מגורים פשמישל. ספר הזיכרונות של לוסיה אומר שהוריו של דוד היו בפשמישל עם פרוץ המלחמה, ושהגרמנים הרגו שם את אחד מהם באשמת שווא. הפנקס, שנכתב בידי מנהלי המחנה, מציב אותו באותה עיר. ספר זיכרונות שנכתב מן הזיכרון עשרות שנים לאחר מכן ורישום של פקיד גרמני שנעשה בזמן אמת מסכימים — ואיש מהם לא יכול היה להעתיק מן האחר."
+   },
+   "status": "read"
+  },
+  {
+   "id": "doc_jente_rapaport_liege_wartime",
+   "file_pages": [
+    "basia_2026_08/jente_rapaport_liege_wartime_record.png"
+   ],
+   "kind": "image",
+   "type": "wartime_registration",
+   "primary_language": "en",
+   "title": {
+    "en": "Jenta Rapaport registered at Rue Lairesse 88, Liège, during the war",
+    "he": "ינטה רפפורט רשומה ברחוב לרס 88, ליֶאז׳, בימי המלחמה",
+    "pl": "Jenta Rapaport zarejestrowana przy Rue Lairesse 88 w Liège podczas wojny",
+    "fr": "Jenta Rapaport enregistrée rue Lairesse 88, Liège, pendant la guerre"
+   },
+   "source_archive": "Wartime name record 4494611, box 15, internal number 110381. Received from Basia 6 August 2026.",
+   "related_people": [
+    "p_jente_rapaport",
+    "p_szewa_horowitz",
+    "p_david"
+   ],
+   "decoded_fields": {
+    "primary_name": "Jenta RAPAPORT",
+    "date_of_birth": "Oct 7, 1887",
+    "place_during_war": "Liège",
+    "wartime_address": "Rue Lairesse, 88",
+    "nationality": "Polonaise (Polish)",
+    "box_number": "15",
+    "internal_number": "110381"
+   },
+   "summary": {
+    "en": "Jente Rapaport — David’s aunt, sister of his father Berish — spent the war in Liège at Rue Lairesse 88, registered as a Polish national. Her daughter Szewa Horowitz married Markus Türkel in Liège in 1941, and the archive already holds that marriage. Together they change the shape of one thing: when David and Lusia reached Belgium in 1946, Belgium was not a country the family had never been to. Part of it had been living there through the occupation, in a city 100 km from Brussels. Whether the two facts are connected — whether David went where he had people — is not stated by any document here, and the archive does not assert it.",
+    "he": "ינטה רפפורט — דודתו של דוד, אחותו של אביו בעריש — עברה את המלחמה בליאז׳, ברחוב לרס 88, רשומה כנתינה פולנייה. בתה שֶׁוָוה הורוביץ נישאה למרקוס טורקל בליאז׳ ב-1941, והארכיון כבר מחזיק בתעודת הנישואין ההיא. יחד הם משנים דבר אחד: כשהגיעו דוד ולוסיה לבלגיה ב-1946, בלגיה לא הייתה ארץ שהמשפחה מעולם לא דרכה בה. חלק ממנה חי שם לאורך הכיבוש, בעיר במרחק 100 ק״מ מבריסל. האם שתי העובדות קשורות — האם דוד הלך למקום שבו היו לו אנשים — אינו נאמר באף מסמך כאן, והארכיון אינו טוען זאת."
+   },
+   "status": "read",
+   "open_questions": [
+    {
+     "en": "Did David and Lusia know Jente and Szewa were in Liège when they came to Belgium in 1946? Nothing in hand says so either way.",
+     "he": "האם דוד ולוסיה ידעו שינטה ושווה נמצאות בליאז׳ כשהגיעו לבלגיה ב-1946? שום דבר שבידינו אינו אומר כך או אחרת."
+    }
+   ]
   }
  ],
  "additional_files": [
