@@ -4121,6 +4121,89 @@
     "he": "רישום לידה של Liebe Rapaport, 1847. אחד מ-58 תצלומי רישום אזרחי בארכיון המשפחתי של בסיה, המשתרעים מ-1818 עד 1934. שיטת השמות U_/M_/Z_ אומתה לפני הפרסום: 27 מתוך 28 קובצי לידה נושאים את אותה שנה שהארכיון כבר החזיק עבור אותו אדם, וכן 16 מתוך 19 קובצי פטירה. הקובץ מתויק תחת האדם שהוא נוקב בשמו."
    },
    "status": "catalogued_not_yet_read"
+  },
+  {
+   "id": "doc_auschwitz_transport_689",
+   "file_pages": [],
+   "kind": "external_source",
+   "type": "deportation_transport",
+   "primary_language": "en",
+   "title": {
+    "en": "Auschwitz transport 689 — 55 men from the prison in Tarnów, 27 March 1942",
+    "he": "טרנספורט 689 לאושוויץ — 55 גברים מבית הכלא בטרנוב, 27 במרץ 1942",
+    "pl": "Transport 689 do Auschwitz — 55 mężczyzn z więzienia w Tarnowie, 27 marca 1942",
+    "fr": "Transport 689 vers Auschwitz — 55 hommes de la prison de Tarnów, 27 mars 1942"
+   },
+   "source_archive": "Auschwitz-Birkenau State Museum, Database of victims — transport 689. Read at source on the open web, 6 August 2026.",
+   "external_urls": [
+    "https://victims.auschwitz.org/transports/689",
+    "https://victims.auschwitz.org/victims/188161"
+   ],
+   "related_people": [
+    "p_berisz"
+   ],
+   "summary": {
+    "en": "The transport that carried David’s father to Auschwitz, read from the Museum’s own database rather than from a copy. Fifty-five men from the prison in Tarnów, registered at Auschwitz on 27 March 1942 with numbers 27305 to 27359, sent by the Security Police (Sicherheitspolizei) and Security Service (Sicherheitsdienst) of the Kraków district. The Museum records that no documentation survives explaining the circumstances of the transport’s arrival and admission. Eighteen of the fifty-five were identified in the camp records as Jewish, and seventeen of those died at Auschwitz; at least forty-one of the fifty-five died there. Berish Rapaport held number 27310 — the sixth in the block — and died two days after arrival, on 29 March 1942. The detail that changes the story is where the transport started: the prison in Tarnów. The family came from Radomyśl Wielki, a short way from Tarnów, and their registered address in 1924 was Tarnów, Folwarczna 9. He was not taken from Przemyśl and sent east; he was held in the town his family belonged to.",
+    "he": "הטרנספורט שהוביל את אביו של דוד לאושוויץ, שנקרא ממסד הנתונים של המוזיאון עצמו ולא מהעתק. חמישים וחמישה גברים מבית הכלא בטרנוב, שנרשמו באושוויץ ב-27 במרץ 1942 במספרים 27305 עד 27359, ונשלחו בידי משטרת הביטחון (Sicherheitspolizei) ושירות הביטחון (Sicherheitsdienst) של מחוז קרקוב. המוזיאון מציין כי לא שרד תיעוד המסביר את נסיבות הגעתו וקליטתו של הטרנספורט. שמונה־עשר מן החמישים וחמישה זוהו ברשומות המחנה כיהודים, ושבעה־עשר מהם מתו באושוויץ; לכל הפחות ארבעים ואחד מתוך החמישים וחמישה מתו שם. בעריש רפפורט נשא את המספר 27310 — השישי במקבץ — ומת יומיים לאחר הגעתו, ב-29 במרץ 1942. הפרט המשנה את הסיפור הוא היכן החל הטרנספורט: בית הכלא בטרנוב. המשפחה באה מרדומישל ויילקי, מרחק קצר מטרנוב, וכתובתה הרשומה ב-1924 הייתה טרנוב, פולברצ׳נה 9. הוא לא נלקח מפשמישל ונשלח מזרחה; הוא הוחזק בעיר שאליה השתייכה משפחתו."
+   },
+   "status": "read"
+  },
+  {
+   "id": "doc_auschwitz_rapaport_index",
+   "file_pages": [],
+   "kind": "external_source",
+   "type": "database_index",
+   "primary_language": "en",
+   "title": {
+    "en": "Everyone named Rapaport in the Auschwitz victims database — 26 people, one of them ours",
+    "he": "כל מי שנקרא רפפורט במסד נתוני הקורבנות של אושוויץ — 26 בני אדם, אחד מהם שלנו",
+    "pl": "Wszyscy o nazwisku Rapaport w bazie ofiar Auschwitz — 26 osób, jedna z nich nasza",
+    "fr": "Toutes les personnes nommées Rapaport dans la base des victimes d’Auschwitz — 26, dont une des nôtres"
+   },
+   "source_archive": "Auschwitz-Birkenau State Museum, Database of victims, surname search \"Rapaport\". Read at source 6 August 2026.",
+   "external_urls": [
+    "https://victims.auschwitz.org/en/victims?pattern=Rapaport"
+   ],
+   "related_people": [
+    "p_berisz"
+   ],
+   "decoded_fields": {
+    "total": 26,
+    "ours": 1,
+    "people": [
+     "Abram Rapaport · b.08-02-1917 · Jozefow",
+     "Aron Rapaport · b.05-03-1913 · Będzin",
+     "Berisch Rapaport · b.30-07-1886 · Radomyśl Wielki · no. 27310",
+     "Dorota Rapaport · b.03-03-1909 · Lwów",
+     "Ester Rapaport · b.21-03-1926",
+     "Helen Rapaport · b.14-09-1924",
+     "Iser Rapaport · b.29-12-1895 · Warschau",
+     "Israel Rapaport · b.06-07-1922 · Radom · no. 137486",
+     "Josef;Jozef Dawid Rapaport · b.16-10-1891 · Volove · no. 33088",
+     "Karola Rapaport · b.02-09-1908",
+     "Menaszy Rapaport · b.02-08-1905 · Radom · no. 34203",
+     "Moszek Rapaport · b.01-01-1896 · Radom · no. 50312",
+     "Rafael Rapaport · b.10-11-1900 · Oestringen · no. 38886",
+     "Rywen Rapaport · b.08-05-1910 · Chocz",
+     "Sarah Sara Rapaport · b.15-10-1908 · no. 50286",
+     "Simcha Rapaport · b.1907 · Ostenburg",
+     "Szmul Rapaport · b.16-08-1911 · Karczowice · no. 23879",
+     "Zelman Rapaport · b.23-07-1904 · Warschau · no. 42442",
+     "Naftal Rapaport;Rapeport · b.15-11-1891 · Warschau · no. 43446",
+     "Carl;Karl;Karol Rapaport;Rappaport · b.07-07-1894 · Podwoloczyska;Podwołoczyska · no. 49174",
+     "Artur Isr. Rapaport · no. 161561",
+     "David Isr. Rapaport · no. 157188",
+     "Fernand Isr. Rapaport · no. 167643",
+     "Icek Majer Isr. Rapaport · no. 142497",
+     "Judel Rapaport · no. 99448",
+     "Salomon Isr. Rapaport · no. 58954"
+    ]
+   },
+   "summary": {
+    "en": "Twenty-six people named Rapaport appear in the Auschwitz-Birkenau Museum’s victims database. Exactly one is ours: Berisch, born 30 July 1886 at Radomyśl Wielki, prisoner 27310. The other twenty-five were born in Radom, Warsaw, Będzin, Lwów, Volove, Chocz, Karczowice, Oestringen, Podwołoczyska and Józefów, or have no birthplace recorded at all. Nothing connects them to this family except a surname that was common across Poland, and this archive has already been wrong once by reading a shared name as a shared line. They are listed here because they are worth listing — and kept out of the family’s own records for the same reason.",
+    "he": "עשרים ושישה בני אדם בשם רפפורט מופיעים במסד נתוני הקורבנות של מוזיאון אושוויץ-בירקנאו. אחד בדיוק הוא שלנו: בעריש, יליד 30 ביולי 1886 ברדומישל ויילקי, אסיר 27310. עשרים וחמישה האחרים נולדו ברדום, ורשה, בנדין, לבוב, וולובה, חוץ׳, קרצ׳וביצה, אסטרינגן, פודווולוצ׳יסקה ויוזפוב, או שאין להם מקום לידה רשום כלל. דבר אינו קושר אותם למשפחה הזאת מלבד שם משפחה שהיה נפוץ בכל פולין, והארכיון הזה כבר טעה פעם אחת כשקרא שם משותף כשושלת משותפת. הם מופיעים כאן משום שראוי לרשום אותם — ונשמרים מחוץ לרשומות המשפחה מאותו הטעם עצמו."
+   },
+   "status": "read"
   }
  ],
  "additional_files": [

@@ -1,0 +1,191 @@
+{
+ "_readme": "Everyone named Rapaport in the Auschwitz-Birkenau Museum victims database, read at source on 6 August 2026. ONE of these 26 is ours (188161, Berisch, Radomyśl Wielki). The rest share only a surname. This file is deliberately NOT merged into people.json or extended_tree.json.",
+ "source": "https://victims.auschwitz.org/en/victims?pattern=Rapaport",
+ "read_on": "2026-08-06",
+ "ours": "188161",
+ "count": 26,
+ "victims": [
+  {
+   "id": "188158",
+   "name": "Abram Rapaport",
+   "number": null,
+   "birthplace": "Jozefow",
+   "dob": "08-02-1917"
+  },
+  {
+   "id": "188159",
+   "name": "Aron Rapaport",
+   "number": null,
+   "birthplace": "Będzin",
+   "dob": "05-03-1913"
+  },
+  {
+   "id": "188161",
+   "name": "Berisch Rapaport",
+   "number": "27310",
+   "birthplace": "Radomyśl Wielki",
+   "dob": "30-07-1886"
+  },
+  {
+   "id": "188163",
+   "name": "Dorota Rapaport",
+   "number": null,
+   "birthplace": "Lwów",
+   "dob": "03-03-1909"
+  },
+  {
+   "id": "188164",
+   "name": "Ester Rapaport",
+   "number": null,
+   "birthplace": null,
+   "dob": "21-03-1926"
+  },
+  {
+   "id": "188166",
+   "name": "Helen Rapaport",
+   "number": null,
+   "birthplace": null,
+   "dob": "14-09-1924"
+  },
+  {
+   "id": "188168",
+   "name": "Iser Rapaport",
+   "number": null,
+   "birthplace": "Warschau",
+   "dob": "29-12-1895"
+  },
+  {
+   "id": "188169",
+   "name": "Israel Rapaport",
+   "number": "137486",
+   "birthplace": "Radom",
+   "dob": "06-07-1922"
+  },
+  {
+   "id": "188170",
+   "name": "Josef;Jozef Dawid Rapaport",
+   "number": "33088",
+   "birthplace": "Volove",
+   "dob": "16-10-1891"
+  },
+  {
+   "id": "188172",
+   "name": "Karola Rapaport",
+   "number": null,
+   "birthplace": null,
+   "dob": "02-09-1908"
+  },
+  {
+   "id": "188173",
+   "name": "Menaszy Rapaport",
+   "number": "34203",
+   "birthplace": "Radom",
+   "dob": "02-08-1905"
+  },
+  {
+   "id": "188174",
+   "name": "Moszek Rapaport",
+   "number": "50312",
+   "birthplace": "Radom",
+   "dob": "01-01-1896"
+  },
+  {
+   "id": "188175",
+   "name": "Rafael Rapaport",
+   "number": "38886",
+   "birthplace": "Oestringen",
+   "dob": "10-11-1900"
+  },
+  {
+   "id": "188176",
+   "name": "Rywen Rapaport",
+   "number": null,
+   "birthplace": "Chocz",
+   "dob": "08-05-1910"
+  },
+  {
+   "id": "188178",
+   "name": "Sarah Sara Rapaport",
+   "number": "50286",
+   "birthplace": null,
+   "dob": "15-10-1908"
+  },
+  {
+   "id": "188179",
+   "name": "Simcha Rapaport",
+   "number": null,
+   "birthplace": "Ostenburg",
+   "dob": "1907"
+  },
+  {
+   "id": "188180",
+   "name": "Szmul Rapaport",
+   "number": "23879",
+   "birthplace": "Karczowice",
+   "dob": "16-08-1911"
+  },
+  {
+   "id": "188181",
+   "name": "Zelman Rapaport",
+   "number": "42442",
+   "birthplace": "Warschau",
+   "dob": "23-07-1904"
+  },
+  {
+   "id": "188182",
+   "name": "Naftal Rapaport;Rapeport",
+   "number": "43446",
+   "birthplace": "Warschau",
+   "dob": "15-11-1891"
+  },
+  {
+   "id": "188183",
+   "name": "Carl;Karl;Karol Rapaport;Rappaport",
+   "number": "49174",
+   "birthplace": "Podwoloczyska;Podwołoczyska",
+   "dob": "07-07-1894"
+  },
+  {
+   "id": "188160",
+   "name": "Artur Isr. Rapaport",
+   "number": "161561",
+   "birthplace": null,
+   "dob": null
+  },
+  {
+   "id": "188162",
+   "name": "David Isr. Rapaport",
+   "number": "157188",
+   "birthplace": null,
+   "dob": null
+  },
+  {
+   "id": "188165",
+   "name": "Fernand Isr. Rapaport",
+   "number": "167643",
+   "birthplace": null,
+   "dob": null
+  },
+  {
+   "id": "188167",
+   "name": "Icek Majer Isr. Rapaport",
+   "number": "142497",
+   "birthplace": null,
+   "dob": null
+  },
+  {
+   "id": "188171",
+   "name": "Judel Rapaport",
+   "number": "99448",
+   "birthplace": null,
+   "dob": null
+  },
+  {
+   "id": "188177",
+   "name": "Salomon Isr. Rapaport",
+   "number": "58954",
+   "birthplace": null,
+   "dob": null
+  }
+ ]
+}

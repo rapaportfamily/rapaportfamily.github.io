@@ -1058,6 +1058,18 @@
      "sources": [
       "doc_auschwitz_victim_188161"
      ]
+    },
+    {
+     "key": "auschwitz_transport_route",
+     "value": {
+      "en": "Deported on transport 689 — 55 men from the PRISON IN TARNÓW, registered 27 March 1942 with numbers 27305–27359. Berish was 27310. Not deported from Przemyśl directly: he was held in Tarnów, the town his own family came from, and sent by the Sicherheitspolizei of the Kraków district. The Museum records that no documentation survives explaining the circumstances of the transport’s arrival and admission. Eighteen of the fifty-five were identified in the camp records as Jewish, and seventeen of those died at Auschwitz; at least forty-one of the fifty-five died there.",
+      "he": "גורש בטרנספורט 689 — 55 גברים מבית הכלא בטרנוב, שנרשמו ב-27 במרץ 1942 במספרים 27305–27359. בעריש היה 27310. לא גורש ישירות מפשמישל: הוא הוחזק בטרנוב, העיר שממנה באה משפחתו, ונשלח בידי משטרת הביטחון של מחוז קרקוב. המוזיאון מציין כי לא שרד תיעוד המסביר את נסיבות הגעתו וקליטתו של הטרנספורט. שמונה־עשר מן החמישים וחמישה זוהו ברשומות המחנה כיהודים, ושבעה־עשר מהם מתו באושוויץ; לכל הפחות ארבעים ואחד מתוך החמישים וחמישה מתו שם."
+     },
+     "confidence": "documented",
+     "sources": [
+      "doc_auschwitz_victim_188161",
+      "doc_auschwitz_transport_689"
+     ]
     }
    ],
    "father_id": "p_moses_saul_rapaport",
