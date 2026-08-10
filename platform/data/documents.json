@@ -4204,6 +4204,31 @@
     "he": "עשרים ושישה בני אדם בשם רפפורט מופיעים במסד נתוני הקורבנות של מוזיאון אושוויץ-בירקנאו. אחד בדיוק הוא שלנו: בעריש, יליד 30 ביולי 1886 ברדומישל ויילקי, אסיר 27310. עשרים וחמישה האחרים נולדו ברדום, ורשה, בנדין, לבוב, וולובה, חוץ׳, קרצ׳וביצה, אסטרינגן, פודווולוצ׳יסקה ויוזפוב, או שאין להם מקום לידה רשום כלל. דבר אינו קושר אותם למשפחה הזאת מלבד שם משפחה שהיה נפוץ בכל פולין, והארכיון הזה כבר טעה פעם אחת כשקרא שם משותף כשושלת משותפת. הם מופיעים כאן משום שראוי לרשום אותם — ונשמרים מחוץ לרשומות המשפחה מאותו הטעם עצמו."
    },
    "status": "read"
+  },
+  {
+   "id": "doc_griffel_tree_jacob_2026_08_10",
+   "file_pages": [],
+   "kind": "dataset",
+   "type": "gedcom_tree",
+   "primary_language": "pl",
+   "title": {
+    "en": "Jacob’s Griffel tree — David’s mother’s side, 390 people, received 10 August 2026",
+    "he": "עץ גריפל של יעקב — צד אמו של דוד, 390 בני אדם, התקבל ב-10 באוגוסט 2026",
+    "pl": "Drzewo Griffelów od Jakuba — strona matki Dawida, 390 osób, 10 sierpnia 2026",
+    "fr": "L’arbre Griffel de Jacob — le côté maternel de David, 390 personnes, 10 août 2026"
+   },
+   "source_archive": "Jacob, Griffel family archive (Ahnenblatt export), received 10 August 2026 (4_Griffel.ged, 390 individuals, 140 families, with 569 image files)",
+   "related_people": [
+    "p_rebeka",
+    "p_david",
+    "p_lajzor_griffel",
+    "p_sara_matel_chajes"
+   ],
+   "summary": {
+    "en": "A second family archive, and a different family. Not one of its 569 files appears in Basia’s Rapaport export — this is the GRIFFEL line, David’s mother’s people, the side of the house this archive had least on. Rebeka Griffel, of whom we held a name, a year and a death recorded only in Lusia’s memoir, appears here with her parents: Lajzor Griffel, born 26 March 1850 at Nadwórna, died 1918, and Sara Matel Chajes, born 5 March 1851, died 1940. She had twelve brothers and sisters. Where the two archives overlap they agree without having consulted each other: Berish born 1886 at Radomyśl Wielki and dead at Auschwitz in 1942; David born 1911 at Nadwórna and dead at Haifa in 1990; Lota born about 1915. Jacob dates Rebeka’s death \"1942?\" — with the question mark — which sits beside our 1942 and the 1943 on her Yad Vashem page. All three are kept.",
+    "he": "ארכיון משפחתי שני, ומשפחה אחרת. אף לא אחד מ-569 קבציו מופיע בייצוא הרפפורטי של בסיה — זהו קו גריפל, אנשיה של אמו של דוד, הצד שעליו החזיק הארכיון הזה הכי מעט. רבקה גריפל, שממנה החזקנו שם, שנה ומוות המתועד רק בספר הזיכרונות של לוסיה, מופיעה כאן עם הוריה: לייזור גריפל, יליד 26 במרץ 1850 בנדבורנא, נפטר 1918, ושרה מטל חיות, ילידת 5 במרץ 1851, נפטרה 1940. היו לה שנים־עשר אחים ואחיות. במקום שבו שני הארכיונים נפגשים הם מסכימים בלי שהתייעצו זה עם זה: בעריש יליד 1886 ברדומישל ויילקי שמת באושוויץ ב-1942; דוד יליד 1911 בנדבורנא שמת בחיפה ב-1990; לוטה ילידת 1915 בקירוב. יעקב מתארך את מותה של רבקה ״1942?״ — עם סימן השאלה — וזה ניצב לצד ה-1942 שלנו ולצד ה-1943 שבדף העד שלה. שלושתם נשמרים."
+   },
+   "status": "read"
   }
  ],
  "additional_files": [

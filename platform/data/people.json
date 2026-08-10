@@ -1762,8 +1762,8 @@
      "doc_regina_rivka_yv_pot"
     ]
    },
-   "father_id": "p_leizor_griffel",
-   "mother_id": "p_sara_chajes",
+   "father_id": "p_lajzor_griffel",
+   "mother_id": "p_sara_matel_chajes",
    "children_ids": [
     "p_david",
     "p_lota"
@@ -1810,7 +1810,23 @@
     "note_en": "Killed in Przemyśl by Germans on a fabricated bomb-on-railway accusation, per Lusia's memoir page 24 — Basia's Polish reading interprets the ambiguous Hebrew חמה/חמותה as \"mother-in-law\". Yad Vashem PoT filed 1953 lists year 1943 place unknown — discrepancy attributed to 1953 submitter's incomplete knowledge.",
     "note_he": "נהרגה בפשמישל בידי הגרמנים באשמת שווא של פצצה במסילת הרכבת, לפי יומנה של לוסיה עמוד 24 — קריאתה הפולנית של בסיה מפרשת את המילה העברית הדו-משמעית חמה/חמותה כ״חמותה״. דף העד שהוגש ב-1953 נוקב בשנת 1943 ובמקום לא ידוע — הפער מיוחס לידיעתו החלקית של המגיש ב-1953."
    },
-   "note_he": "סבתא-רבתא מצד האב של דורון, דנה ודניאל. אמם של דוד מנדל ולוטה. נולדה ב-1888 בנדבורנא, בתם של אליעזר ״זיידה״ גריפל ושרה מטל חייס. דף העד שהגישה המשפחה ביד ושם ב-1953 נוקב בשנת לידה 1892 — ככל הנראה טעות זיכרון של המגיש; ייחוס משפחת גריפל מאשש 1888. נישאה אזרחית לבריש רפפורט בנדבורנא ב-21 בדצמבר 1911, ארבעה ימים לפני לידת בנם דוד מנדל. פנקס הנישואין של נדבורנא לשנים 1890-1914 אבד במלחמת העולם הראשונה; רק הערה בתעודת הלידה של דוד מאשרת את הנישואין. ייחוס ״גריפל מנדבורנא״ של אדוארד גלס מתעד נישואין דתיים באולחובצה שבמחוז לבוב ב-1908 — קרוב לוודאי חתונה דתית מוקדמת יותר, לפני הרישום האזרחי. מגורים לפני המלחמה: פשמישל. בזמן המלחמה: פשמישל. לפי עמוד 24 ביומנה של לוסיה (בקריאתה הפולנית של בסיה), נהרגה בידי הגרמנים בפשמישל באשמה שהניחה פצצה על מסילת הרכבת ליד מקום מגורי המשפחה — אשמת שווא, ככל הנראה ב-1942. דף העד ביד ושם נוקב ב-1943 כשנת המוות, ומקום לא ידוע."
+   "note_he": "סבתא-רבתא מצד האב של דורון, דנה ודניאל. אמם של דוד מנדל ולוטה. נולדה ב-1888 בנדבורנא, בתם של אליעזר ״זיידה״ גריפל ושרה מטל חייס. דף העד שהגישה המשפחה ביד ושם ב-1953 נוקב בשנת לידה 1892 — ככל הנראה טעות זיכרון של המגיש; ייחוס משפחת גריפל מאשש 1888. נישאה אזרחית לבריש רפפורט בנדבורנא ב-21 בדצמבר 1911, ארבעה ימים לפני לידת בנם דוד מנדל. פנקס הנישואין של נדבורנא לשנים 1890-1914 אבד במלחמת העולם הראשונה; רק הערה בתעודת הלידה של דוד מאשרת את הנישואין. ייחוס ״גריפל מנדבורנא״ של אדוארד גלס מתעד נישואין דתיים באולחובצה שבמחוז לבוב ב-1908 — קרוב לוודאי חתונה דתית מוקדמת יותר, לפני הרישום האזרחי. מגורים לפני המלחמה: פשמישל. בזמן המלחמה: פשמישל. לפי עמוד 24 ביומנה של לוסיה (בקריאתה הפולנית של בסיה), נהרגה בידי הגרמנים בפשמישל באשמה שהניחה פצצה על מסילת הרכבת ליד מקום מגורי המשפחה — אשמת שווא, ככל הנראה ב-1942. דף העד ביד ושם נוקב ב-1943 כשנת המוות, ומקום לא ידוע.",
+   "siblings_ids": [
+    "p_beniamin_griffel",
+    "p_chaya_gitel_griffel",
+    "p_dawid_mendel_griffel",
+    "p_isaac_chaim_griffel",
+    "p_leibisch_griffel",
+    "p_machla_griffel",
+    "p_rachel_griffel",
+    "p_rachel_griffel_1881",
+    "p_shaye_griffel",
+    "p_simce_griffel",
+    "p_zissel_griffel"
+   ],
+   "sources": [
+    "doc_griffel_tree_jacob_2026_08_10"
+   ]
   },
   {
    "id": "p_leizor_griffel",
@@ -2706,11 +2722,26 @@
      "src_gelles_griffel_nadworna_pdf"
     ]
    },
-   "father_id": "p_leizor_griffel",
-   "mother_id": "p_sara_chajes",
-   "note_en": "One of the 10 children of Eliezer Griffel + Sarah Matel Chajes of Nadwórna.  Married Benzion Wilner.",
+   "father_id": "p_lajzor_griffel",
+   "mother_id": "p_sara_matel_chajes",
+   "note_en": "One of the 10 children of Eliezer Griffel + Sarah Matel Chajes of Nadwórna.  Married Benzion Wilner. Jacob’s tree gives her birth as 1873 at Nadwórna; this archive holds 1876. Both are kept.",
    "spouse_id": "p_benzion_wilner",
-   "note_he": "אחד מעשרת ילדיהם של אליעזר גריפל ושרה מטל חייס מנדבורנא. נישאה לבן ציון וילנר."
+   "note_he": "אחד מעשרת ילדיהם של אליעזר גריפל ושרה מטל חייס מנדבורנא. נישאה לבן ציון וילנר. עץ המשפחה של יעקב נוקב בלידתה ב-1873 בנדבורנא; הארכיון הזה מחזיק ב-1876. שניהם נשמרים.",
+   "sources": [
+    "doc_griffel_tree_jacob_2026_08_10"
+   ],
+   "siblings_ids": [
+    "p_beniamin_griffel",
+    "p_chaya_gitel_griffel",
+    "p_dawid_mendel_griffel",
+    "p_isaac_chaim_griffel",
+    "p_leibisch_griffel",
+    "p_rachel_griffel",
+    "p_rachel_griffel_1881",
+    "p_shaye_griffel",
+    "p_simce_griffel",
+    "p_zissel_griffel"
+   ]
   },
   {
    "id": "p_zissel_griffel",
@@ -2732,14 +2763,29 @@
      "src_gelles_griffel_nadworna_pdf"
     ]
    },
-   "father_id": "p_leizor_griffel",
-   "mother_id": "p_sara_chajes",
-   "note_en": "One of the 10 children of Eliezer Griffel + Sarah Matel Chajes of Nadwórna. Her son was Dr Arnold Lamm; her grandson is Dr Steven Lamm (b.1948, NYC, NYU Langone — living 2nd cousin once removed of David Memek). Married Zygmunt (Shalom) Lamm.",
+   "father_id": "p_lajzor_griffel",
+   "mother_id": "p_sara_matel_chajes",
+   "note_en": "One of the 10 children of Eliezer Griffel + Sarah Matel Chajes of Nadwórna. Her son was Dr Arnold Lamm; her grandson is Dr Steven Lamm (b.1948, NYC, NYU Langone — living 2nd cousin once removed of David Memek). Married Zygmunt (Shalom) Lamm. Jacob’s tree adds the exact day: born 14 April 1878.",
    "spouse_id": "p_zygmunt_lamm",
    "children_ids": [
     "p_arnold_lamm"
    ],
-   "note_he": "אחד מעשרת ילדיהם של אליעזר גריפל ושרה מטל חייס מנדבורנא. בנה היה ד״ר ארנולד לאם; נכדה הוא ד״ר סטיבן לאם (יליד 1948, ניו יורק, NYU Langone — בן דוד חי מדרגה שנייה, פעם אחת מוסר, של דוד ממק). נישאה לזיגמונט (שלום) לאם."
+   "note_he": "אחד מעשרת ילדיהם של אליעזר גריפל ושרה מטל חייס מנדבורנא. בנה היה ד״ר ארנולד לאם; נכדה הוא ד״ר סטיבן לאם (יליד 1948, ניו יורק, NYU Langone — בן דוד חי מדרגה שנייה, פעם אחת מוסר, של דוד ממק). נישאה לזיגמונט (שלום) לאם. עץ המשפחה של יעקב מוסיף את היום המדויק: נולדה ב-14 באפריל 1878.",
+   "sources": [
+    "doc_griffel_tree_jacob_2026_08_10"
+   ],
+   "siblings_ids": [
+    "p_beniamin_griffel",
+    "p_chaya_gitel_griffel",
+    "p_dawid_mendel_griffel",
+    "p_isaac_chaim_griffel",
+    "p_leibisch_griffel",
+    "p_machla_griffel",
+    "p_rachel_griffel",
+    "p_rachel_griffel_1881",
+    "p_shaye_griffel",
+    "p_simce_griffel"
+   ]
   },
   {
    "id": "p_isaac_chaim_griffel",
@@ -2769,15 +2815,30 @@
      "src_gelles_griffel_nadworna_pdf"
     ]
    },
-   "father_id": "p_leizor_griffel",
-   "mother_id": "p_sara_chajes",
-   "note_en": "One of the 10 children of Eliezer Griffel + Sarah Matel Chajes of Nadwórna. Had 10 children. His eldest son Dr Jacob Griffel (1900-1962) was a famous Vaad ha-Hatzala rescuer based in Istanbul during WWII. Another son Yehoshua Heshel \"Henry\" Griffel emigrated to New Jersey; his son Andrew Griffel is alive — living 2nd cousin once removed of David Memek. Married Judith Breit (d.1938).",
+   "father_id": "p_lajzor_griffel",
+   "mother_id": "p_sara_matel_chajes",
+   "note_en": "One of the 10 children of Eliezer Griffel + Sarah Matel Chajes of Nadwórna. Had 10 children. His eldest son Dr Jacob Griffel (1900-1962) was a famous Vaad ha-Hatzala rescuer based in Istanbul during WWII. Another son Yehoshua Heshel \"Henry\" Griffel emigrated to New Jersey; his son Andrew Griffel is alive — living 2nd cousin once removed of David Memek. Married Judith Breit (d.1938). Jacob’s tree gives his birth as about 23 August 1879 and his death as 30 September 1930 at Kraków; this archive held 1880 and 1930. Both are kept.",
    "spouse_id": "p_judith_breit",
    "children_ids": [
     "p_dr_jacob_griffel",
     "p_henry_griffel"
    ],
-   "note_he": "אחד מעשרת ילדיהם של אליעזר גריפל ושרה מטל חייס מנדבורנא. היו לו עשרה ילדים. בנו הבכור, ד״ר יעקב גריפל (1900-1962), היה איש הצלה נודע מטעם ועד ההצלה, שפעל מאיסטנבול בימי מלחמת העולם השנייה. בן אחר, יהושע השל ״הנרי״ גריפל, היגר לניו ג׳רזי; בנו אנדרו גריפל חי — בן דוד חי מדרגה שנייה, פעם אחת מוסר, של דוד ממק. נשוי ליהודית ברייט (נפטרה 1938)."
+   "note_he": "אחד מעשרת ילדיהם של אליעזר גריפל ושרה מטל חייס מנדבורנא. היו לו עשרה ילדים. בנו הבכור, ד״ר יעקב גריפל (1900-1962), היה איש הצלה נודע מטעם ועד ההצלה, שפעל מאיסטנבול בימי מלחמת העולם השנייה. בן אחר, יהושע השל ״הנרי״ גריפל, היגר לניו ג׳רזי; בנו אנדרו גריפל חי — בן דוד חי מדרגה שנייה, פעם אחת מוסר, של דוד ממק. נשוי ליהודית ברייט (נפטרה 1938). עץ המשפחה של יעקב נוקב בלידתו סביב 23 באוגוסט 1879 ובמותו ב-30 בספטמבר 1930 בקרקוב; הארכיון הזה החזיק ב-1880 וב-1930. שניהם נשמרים.",
+   "sources": [
+    "doc_griffel_tree_jacob_2026_08_10"
+   ],
+   "siblings_ids": [
+    "p_beniamin_griffel",
+    "p_chaya_gitel_griffel",
+    "p_dawid_mendel_griffel",
+    "p_leibisch_griffel",
+    "p_machla_griffel",
+    "p_rachel_griffel",
+    "p_rachel_griffel_1881",
+    "p_shaye_griffel",
+    "p_simce_griffel",
+    "p_zissel_griffel"
+   ]
   },
   {
    "id": "p_shaya_griffel",
@@ -2874,10 +2935,25 @@
      "src_gelles_griffel_nadworna_pdf"
     ]
    },
-   "father_id": "p_leizor_griffel",
-   "mother_id": "p_sara_chajes",
-   "note_en": "One of the 10 children of Eliezer Griffel + Sarah Matel Chajes of Nadwórna.  Married Bonya (Abraham) Ohrenstein.",
-   "note_he": "אחד מעשרת ילדיהם של אליעזר גריפל ושרה מטל חייס מנדבורנא. נישאה לבוניה (אברהם) אורנשטיין."
+   "father_id": "p_lajzor_griffel",
+   "mother_id": "p_sara_matel_chajes",
+   "note_en": "One of the 10 children of Eliezer Griffel + Sarah Matel Chajes of Nadwórna.  Married Bonya (Abraham) Ohrenstein. Jacob’s Griffel tree (10 August 2026) records her as Ruchel Griffel, born 14 July 1892 at Nadwórna — the same woman, with the exact day this archive lacked. She is one of the thirteen children of Lajzor Griffel and Sara Matel Chajes.",
+   "note_he": "אחד מעשרת ילדיהם של אליעזר גריפל ושרה מטל חייס מנדבורנא. נישאה לבוניה (אברהם) אורנשטיין. עץ גריפל של יעקב (10 באוגוסט 2026) רושם אותה כרוחל גריפל, ילידת 14 ביולי 1892 בנדבורנא — אותה אישה, עם היום המדויק שחסר לארכיון הזה. היא אחת משלושה־עשר ילדיהם של לייזור גריפל ושרה מטל חיות.",
+   "sources": [
+    "doc_griffel_tree_jacob_2026_08_10"
+   ],
+   "siblings_ids": [
+    "p_beniamin_griffel",
+    "p_chaya_gitel_griffel",
+    "p_dawid_mendel_griffel",
+    "p_isaac_chaim_griffel",
+    "p_leibisch_griffel",
+    "p_machla_griffel",
+    "p_rachel_griffel_1881",
+    "p_shaye_griffel",
+    "p_simce_griffel",
+    "p_zissel_griffel"
+   ]
   },
   {
    "id": "p_chaya_griffel",
@@ -6819,6 +6895,409 @@
    "sources": [
     "doc_abraham_abe_descendants_tree_2026",
     "report_basia_2026_08_05"
+   ]
+  },
+  {
+   "id": "p_lajzor_griffel",
+   "primary_name": {
+    "en": "Lajzor Griffel",
+    "he": "לייזור גריפל",
+    "pl": "Lajzor Griffel",
+    "fr": "Lajzor Griffel"
+   },
+   "role": "great_grandfather_maternal",
+   "note_en": "David’s maternal grandfather — the father of Rebeka. Born 26 March 1850 in Nadwórna, died 1918. Thirteen children are recorded to him and Sara Matel Chajes.",
+   "note_he": "סבו של דוד מצד אמו — אביה של רבקה. נולד ב-26 במרץ 1850 בנדבורנא ונפטר ב-1918. רשומים לו ולשרה מטל חיות שלושה־עשר ילדים.",
+   "sources": [
+    "doc_griffel_tree_jacob_2026_08_10"
+   ],
+   "birth": {
+    "date": "1850-03-26",
+    "date_precision": "day",
+    "place_name": "Nadwórna",
+    "confidence": "documented",
+    "sources": [
+     "doc_griffel_tree_jacob_2026_08_10"
+    ]
+   },
+   "death": {
+    "date": "1918",
+    "date_precision": "year",
+    "place_name": null,
+    "confidence": "documented",
+    "sources": [
+     "doc_griffel_tree_jacob_2026_08_10"
+    ]
+   },
+   "children_ids": [
+    "p_beniamin_griffel",
+    "p_chaya_gitel_griffel",
+    "p_dawid_mendel_griffel",
+    "p_isaac_chaim_griffel",
+    "p_leibisch_griffel",
+    "p_machla_griffel",
+    "p_rachel_griffel",
+    "p_rachel_griffel_1881",
+    "p_rebeka",
+    "p_shaye_griffel",
+    "p_simce_griffel",
+    "p_zissel_griffel"
+   ]
+  },
+  {
+   "id": "p_sara_matel_chajes",
+   "primary_name": {
+    "en": "Sara Matel Chajes",
+    "he": "שרה מטל חיות",
+    "pl": "Sara Matel Chajes",
+    "fr": "Sara Matel Chajes"
+   },
+   "role": "great_grandmother_maternal",
+   "note_en": "David’s maternal grandmother — the mother of Rebeka. Born 5 March 1851, died 1940, so she lived into the first year of the occupation. Her family name, Chajes, is a rabbinical line of Galicia.",
+   "note_he": "סבתו של דוד מצד אמו — אמה של רבקה. נולדה ב-5 במרץ 1851 ונפטרה ב-1940, כלומר הגיעה אל השנה הראשונה של הכיבוש. שם משפחתה, חיות, הוא שושלת רבנית בגליציה.",
+   "sources": [
+    "doc_griffel_tree_jacob_2026_08_10"
+   ],
+   "birth": {
+    "date": "1851-03-05",
+    "date_precision": "day",
+    "place_name": null,
+    "confidence": "documented",
+    "sources": [
+     "doc_griffel_tree_jacob_2026_08_10"
+    ]
+   },
+   "death": {
+    "date": "1940",
+    "date_precision": "year",
+    "place_name": null,
+    "confidence": "documented",
+    "sources": [
+     "doc_griffel_tree_jacob_2026_08_10"
+    ]
+   },
+   "children_ids": [
+    "p_beniamin_griffel",
+    "p_chaya_gitel_griffel",
+    "p_dawid_mendel_griffel",
+    "p_isaac_chaim_griffel",
+    "p_leibisch_griffel",
+    "p_machla_griffel",
+    "p_rachel_griffel",
+    "p_rachel_griffel_1881",
+    "p_rebeka",
+    "p_shaye_griffel",
+    "p_simce_griffel",
+    "p_zissel_griffel"
+   ]
+  },
+  {
+   "id": "p_dawid_mendel_griffel",
+   "primary_name": {
+    "en": "Dawid Mendel Griffel",
+    "he": "דוד מנדל גריפל",
+    "pl": "Dawid Mendel Griffel",
+    "fr": "Dawid Mendel Griffel"
+   },
+   "role": "great_aunt_or_uncle_maternal",
+   "note_en": "One of Rebeka’s twelve brothers and sisters — David’s aunt or uncle on his mother’s side. From Jacob’s Griffel tree, received 10 August 2026.",
+   "note_he": "אחד משנים־עשר אחיה ואחיותיה של רבקה — דודו או דודתו של דוד מצד אמו. מתוך עץ גריפל של יעקב, שהתקבל ב-10 באוגוסט 2026.",
+   "sources": [
+    "doc_griffel_tree_jacob_2026_08_10"
+   ],
+   "birth": {
+    "date": "1875-11-02",
+    "date_precision": "day",
+    "place_name": "Nadwórna",
+    "confidence": "documented",
+    "sources": [
+     "doc_griffel_tree_jacob_2026_08_10"
+    ]
+   },
+   "death": {
+    "date": "1941",
+    "date_precision": "year",
+    "place_name": null,
+    "confidence": "documented",
+    "sources": [
+     "doc_griffel_tree_jacob_2026_08_10"
+    ]
+   },
+   "father_id": "p_lajzor_griffel",
+   "mother_id": "p_sara_matel_chajes",
+   "siblings_ids": [
+    "p_beniamin_griffel",
+    "p_chaya_gitel_griffel",
+    "p_isaac_chaim_griffel",
+    "p_leibisch_griffel",
+    "p_machla_griffel",
+    "p_rachel_griffel",
+    "p_rachel_griffel_1881",
+    "p_shaye_griffel",
+    "p_simce_griffel",
+    "p_zissel_griffel"
+   ]
+  },
+  {
+   "id": "p_shaye_griffel",
+   "primary_name": {
+    "en": "Shaye Griffel",
+    "he": "שייע גריפל",
+    "pl": "Shaye Griffel",
+    "fr": "Shaye Griffel"
+   },
+   "role": "great_aunt_or_uncle_maternal",
+   "note_en": "One of Rebeka’s twelve brothers and sisters — David’s aunt or uncle on his mother’s side. From Jacob’s Griffel tree, received 10 August 2026.",
+   "note_he": "אחד משנים־עשר אחיה ואחיותיה של רבקה — דודו או דודתו של דוד מצד אמו. מתוך עץ גריפל של יעקב, שהתקבל ב-10 באוגוסט 2026.",
+   "sources": [
+    "doc_griffel_tree_jacob_2026_08_10"
+   ],
+   "birth": {
+    "date": "1883",
+    "date_precision": "year",
+    "place_name": null,
+    "confidence": "documented",
+    "sources": [
+     "doc_griffel_tree_jacob_2026_08_10"
+    ]
+   },
+   "death": {
+    "date": "1943",
+    "date_precision": "year",
+    "place_name": null,
+    "confidence": "documented",
+    "sources": [
+     "doc_griffel_tree_jacob_2026_08_10"
+    ]
+   },
+   "father_id": "p_lajzor_griffel",
+   "mother_id": "p_sara_matel_chajes",
+   "siblings_ids": [
+    "p_beniamin_griffel",
+    "p_chaya_gitel_griffel",
+    "p_dawid_mendel_griffel",
+    "p_isaac_chaim_griffel",
+    "p_leibisch_griffel",
+    "p_machla_griffel",
+    "p_rachel_griffel",
+    "p_rachel_griffel_1881",
+    "p_simce_griffel",
+    "p_zissel_griffel"
+   ]
+  },
+  {
+   "id": "p_leibisch_griffel",
+   "primary_name": {
+    "en": "Leibisch Griffel",
+    "he": "לייביש גריפל",
+    "pl": "Leibisch Griffel",
+    "fr": "Leibisch Griffel"
+   },
+   "role": "great_aunt_or_uncle_maternal",
+   "note_en": "One of Rebeka’s twelve brothers and sisters — David’s aunt or uncle on his mother’s side. From Jacob’s Griffel tree, received 10 August 2026. Jacob’s tree records the death only as \"Shoah\", with no year.",
+   "note_he": "אחד משנים־עשר אחיה ואחיותיה של רבקה — דודו או דודתו של דוד מצד אמו. מתוך עץ גריפל של יעקב, שהתקבל ב-10 באוגוסט 2026. עץ המשפחה של יעקב רושם את מותו כ״שואה״ בלבד, ללא שנה.",
+   "sources": [
+    "doc_griffel_tree_jacob_2026_08_10"
+   ],
+   "birth": {
+    "date": "1885-05-16",
+    "date_precision": "day",
+    "place_name": "Nadwórna",
+    "confidence": "documented",
+    "sources": [
+     "doc_griffel_tree_jacob_2026_08_10"
+    ]
+   },
+   "father_id": "p_lajzor_griffel",
+   "mother_id": "p_sara_matel_chajes",
+   "siblings_ids": [
+    "p_beniamin_griffel",
+    "p_chaya_gitel_griffel",
+    "p_dawid_mendel_griffel",
+    "p_isaac_chaim_griffel",
+    "p_machla_griffel",
+    "p_rachel_griffel",
+    "p_rachel_griffel_1881",
+    "p_shaye_griffel",
+    "p_simce_griffel",
+    "p_zissel_griffel"
+   ]
+  },
+  {
+   "id": "p_beniamin_griffel",
+   "primary_name": {
+    "en": "Beniamin Griffel",
+    "he": "בנימין גריפל",
+    "pl": "Beniamin Griffel",
+    "fr": "Beniamin Griffel"
+   },
+   "role": "great_aunt_or_uncle_maternal",
+   "note_en": "One of Rebeka’s twelve brothers and sisters — David’s aunt or uncle on his mother’s side. From Jacob’s Griffel tree, received 10 August 2026.",
+   "note_he": "אחד משנים־עשר אחיה ואחיותיה של רבקה — דודו או דודתו של דוד מצד אמו. מתוך עץ גריפל של יעקב, שהתקבל ב-10 באוגוסט 2026.",
+   "sources": [
+    "doc_griffel_tree_jacob_2026_08_10"
+   ],
+   "birth": {
+    "date": "1887-01-14",
+    "date_precision": "day",
+    "place_name": "Nadwórna",
+    "confidence": "documented",
+    "sources": [
+     "doc_griffel_tree_jacob_2026_08_10"
+    ]
+   },
+   "death": {
+    "date": "1943",
+    "date_precision": "year",
+    "place_name": null,
+    "confidence": "documented",
+    "sources": [
+     "doc_griffel_tree_jacob_2026_08_10"
+    ]
+   },
+   "father_id": "p_lajzor_griffel",
+   "mother_id": "p_sara_matel_chajes",
+   "siblings_ids": [
+    "p_chaya_gitel_griffel",
+    "p_dawid_mendel_griffel",
+    "p_isaac_chaim_griffel",
+    "p_leibisch_griffel",
+    "p_machla_griffel",
+    "p_rachel_griffel",
+    "p_rachel_griffel_1881",
+    "p_shaye_griffel",
+    "p_simce_griffel",
+    "p_zissel_griffel"
+   ]
+  },
+  {
+   "id": "p_simce_griffel",
+   "primary_name": {
+    "en": "Simce Griffel",
+    "he": "שמחה גריפל",
+    "pl": "Simce Griffel",
+    "fr": "Simce Griffel"
+   },
+   "role": "great_aunt_or_uncle_maternal",
+   "note_en": "One of Rebeka’s twelve brothers and sisters — David’s aunt or uncle on his mother’s side. From Jacob’s Griffel tree, received 10 August 2026.",
+   "note_he": "אחד משנים־עשר אחיה ואחיותיה של רבקה — דודו או דודתו של דוד מצד אמו. מתוך עץ גריפל של יעקב, שהתקבל ב-10 באוגוסט 2026.",
+   "sources": [
+    "doc_griffel_tree_jacob_2026_08_10"
+   ],
+   "birth": {
+    "date": "1890",
+    "date_precision": "year",
+    "place_name": null,
+    "confidence": "documented",
+    "sources": [
+     "doc_griffel_tree_jacob_2026_08_10"
+    ]
+   },
+   "death": {
+    "date": "1891",
+    "date_precision": "year",
+    "place_name": null,
+    "confidence": "documented",
+    "sources": [
+     "doc_griffel_tree_jacob_2026_08_10"
+    ]
+   },
+   "father_id": "p_lajzor_griffel",
+   "mother_id": "p_sara_matel_chajes",
+   "siblings_ids": [
+    "p_beniamin_griffel",
+    "p_chaya_gitel_griffel",
+    "p_dawid_mendel_griffel",
+    "p_isaac_chaim_griffel",
+    "p_leibisch_griffel",
+    "p_machla_griffel",
+    "p_rachel_griffel",
+    "p_rachel_griffel_1881",
+    "p_shaye_griffel",
+    "p_zissel_griffel"
+   ]
+  },
+  {
+   "id": "p_chaya_gitel_griffel",
+   "primary_name": {
+    "en": "Chaya Gitel (Klara) Griffel",
+    "he": "חיה גיטל (קלרה) גריפל",
+    "pl": "Chaya Gitel (Klara) Griffel",
+    "fr": "Chaya Gitel (Klara) Griffel"
+   },
+   "role": "great_aunt_or_uncle_maternal",
+   "note_en": "One of Rebeka’s twelve brothers and sisters — David’s aunt or uncle on his mother’s side. From Jacob’s Griffel tree, received 10 August 2026.",
+   "note_he": "אחד משנים־עשר אחיה ואחיותיה של רבקה — דודו או דודתו של דוד מצד אמו. מתוך עץ גריפל של יעקב, שהתקבל ב-10 באוגוסט 2026.",
+   "sources": [
+    "doc_griffel_tree_jacob_2026_08_10"
+   ],
+   "death": {
+    "date": "1918",
+    "date_precision": "year",
+    "place_name": null,
+    "confidence": "documented",
+    "sources": [
+     "doc_griffel_tree_jacob_2026_08_10"
+    ]
+   },
+   "father_id": "p_lajzor_griffel",
+   "mother_id": "p_sara_matel_chajes",
+   "siblings_ids": [
+    "p_beniamin_griffel",
+    "p_dawid_mendel_griffel",
+    "p_isaac_chaim_griffel",
+    "p_leibisch_griffel",
+    "p_machla_griffel",
+    "p_rachel_griffel",
+    "p_rachel_griffel_1881",
+    "p_shaye_griffel",
+    "p_simce_griffel",
+    "p_zissel_griffel"
+   ]
+  },
+  {
+   "id": "p_rachel_griffel_1881",
+   "primary_name": {
+    "en": "Rachel Griffel (1881–1883)",
+    "he": "רחל גריפל (1881–1883)",
+    "pl": "Rachela Griffel (1881–1883)",
+    "fr": "Rachel Griffel (1881-1883)"
+   },
+   "role": "great_aunt_maternal",
+   "father_id": "p_lajzor_griffel",
+   "mother_id": "p_sara_matel_chajes",
+   "birth": {
+    "date": "1881",
+    "date_precision": "year",
+    "confidence": "documented",
+    "sources": [
+     "doc_griffel_tree_jacob_2026_08_10"
+    ]
+   },
+   "death": {
+    "date": "1883",
+    "date_precision": "year",
+    "confidence": "documented",
+    "sources": [
+     "doc_griffel_tree_jacob_2026_08_10"
+    ]
+   },
+   "note_en": "A sister of Rebeka who lived two years. She is in Jacob’s tree and in no other record this archive holds, and she was very nearly lost a second time: her id was taken by a niece of the same name, so the first import skipped her silently.",
+   "note_he": "אחותה של רבקה שחיה שנתיים. היא מופיעה בעץ של יעקב ובשום רשומה אחרת שבידי הארכיון הזה, וכמעט אבדה בשנית: המזהה שלה נתפס בידי קרובה בעלת אותו שם, ולכן הייבוא הראשון דילג עליה בשקט.",
+   "sources": [
+    "doc_griffel_tree_jacob_2026_08_10"
+   ],
+   "siblings_ids": [
+    "p_beniamin_griffel",
+    "p_chaya_gitel_griffel",
+    "p_dawid_mendel_griffel",
+    "p_isaac_chaim_griffel",
+    "p_leibisch_griffel",
+    "p_machla_griffel",
+    "p_rachel_griffel",
+    "p_shaye_griffel",
+    "p_simce_griffel",
+    "p_zissel_griffel"
    ]
   }
  ]

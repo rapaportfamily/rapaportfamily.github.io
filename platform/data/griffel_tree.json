@@ -1,0 +1,9232 @@
+{
+ "_readme": "Jacob’s Griffel tree — DAVID’S MOTHER’S SIDE. A separate family from Basia’s Rapaport export: not one of its 569 files appears in hers. 390 people, 140 families. The people who are David’s own blood — his maternal grandparents and his mother’s twelve brothers and sisters — are ALSO written into people.json, where the archive keeps what it has researched itself. Everything else lives only here.",
+ "source": "Jacob, Griffel family archive (Ahnenblatt export), received 10 August 2026",
+ "generated": "2026-08-10",
+ "counts": {
+  "people": 390,
+  "families": 140
+ },
+ "families": {
+  "F1": {
+   "husb": "I1",
+   "wife": "I2",
+   "children": [
+    "I8",
+    "I3",
+    "I39",
+    "I10",
+    "I14",
+    "I23",
+    "I17",
+    "I19",
+    "I40",
+    "I21",
+    "I46",
+    "I330",
+    "I25"
+   ],
+   "married": "1892",
+   "married_place": "Nadwórna"
+  },
+  "F2": {
+   "husb": "I3",
+   "wife": "I4",
+   "children": [
+    "I6",
+    "I5",
+    "I7"
+   ],
+   "married": "1902",
+   "married_place": "Nadwórna"
+  },
+  "F3": {
+   "husb": "I9",
+   "wife": "I8",
+   "children": [
+    "I115",
+    "I47",
+    "I48",
+    "I49",
+    "I51",
+    "I52",
+    "I55",
+    "I58"
+   ],
+   "married": "1900",
+   "married_place": "Nadwórna"
+  },
+  "F4": {
+   "husb": "I11",
+   "wife": "I10",
+   "children": [
+    "I157",
+    "I12",
+    "I54"
+   ],
+   "married": "1900",
+   "married_place": "Nadwórna"
+  },
+  "F6": {
+   "husb": "I14",
+   "wife": "I15",
+   "children": [
+    "I16",
+    "I43",
+    "I42",
+    "I110",
+    "I60",
+    "I59",
+    "I44",
+    "I158",
+    "I118",
+    "I144"
+   ],
+   "married": "1902-07-31",
+   "married_place": "Stanisławów"
+  },
+  "F7": {
+   "husb": "I17",
+   "wife": "I18",
+   "children": [
+    "I159",
+    "I212",
+    "I57"
+   ],
+   "married": "1908",
+   "married_place": "Nadwórna"
+  },
+  "F8": {
+   "husb": "I19",
+   "wife": "I20",
+   "children": [
+    "I61"
+   ],
+   "married": "1908-11-24",
+   "married_place": "Mielnica Podolska"
+  },
+  "F9": {
+   "husb": "I22",
+   "wife": "I21",
+   "children": [
+    "I98",
+    "I109"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F11": {
+   "husb": "I26",
+   "wife": "I25",
+   "children": [
+    "I45",
+    "I29",
+    "I34",
+    "I50",
+    "I53",
+    "I56",
+    "I27"
+   ],
+   "married": "1898",
+   "married_place": "Nadwórna"
+  },
+  "F12": {
+   "husb": "I28",
+   "wife": "I27",
+   "children": [],
+   "married": "",
+   "married_place": ""
+  },
+  "F13": {
+   "husb": "I30",
+   "wife": "I29",
+   "children": [
+    "I33",
+    "I31"
+   ],
+   "married": "1917-12-18",
+   "married_place": "Budapest"
+  },
+  "F14": {
+   "husb": "I32",
+   "wife": "I31",
+   "children": [
+    "I183",
+    "I184",
+    "I185"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F15": {
+   "husb": "I34",
+   "wife": "I35",
+   "children": [
+    "I169",
+    "I36"
+   ],
+   "married": "1922-06-14",
+   "married_place": "Stanisławów"
+  },
+  "F17": {
+   "husb": "I37",
+   "wife": "I38",
+   "children": [
+    "I82",
+    "I1"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F18": {
+   "husb": "I36",
+   "wife": null,
+   "children": [
+    "I41"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F19": {
+   "husb": "I43",
+   "wife": "I62",
+   "children": [
+    "I143",
+    "I63"
+   ],
+   "married": "1926-08-20",
+   "married_place": "Lublin"
+  },
+  "F20": {
+   "husb": "I6",
+   "wife": "I66",
+   "children": [
+    "I89",
+    "I90"
+   ],
+   "married": "1928-11-21",
+   "married_place": "Kraków"
+  },
+  "F21": {
+   "husb": "I64",
+   "wife": "I65",
+   "children": [
+    "I69",
+    "I2",
+    "I71",
+    "I342",
+    "I341",
+    "I74"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F22": {
+   "husb": "I7",
+   "wife": "I67",
+   "children": [
+    "I87",
+    "I88"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F23": {
+   "husb": "I68",
+   "wife": "I5",
+   "children": [
+    "I81",
+    "I80"
+   ],
+   "married": "1921-08-18",
+   "married_place": "Vienna"
+  },
+  "F24": {
+   "husb": "I70",
+   "wife": "I69",
+   "children": [
+    "I213",
+    "I214",
+    "I215",
+    "I216",
+    "I217",
+    "I218",
+    "I219",
+    "I220",
+    "I221"
+   ],
+   "married": "1891-01-01",
+   "married_place": "Kołomyja"
+  },
+  "F25": {
+   "husb": "I72",
+   "wife": "I71",
+   "children": [
+    "I233"
+   ],
+   "married": "1889",
+   "married_place": "Kołomyja"
+  },
+  "F27": {
+   "husb": "I74",
+   "wife": "I75",
+   "children": [
+    "I317",
+    "I238",
+    "I240",
+    "I239",
+    "I237"
+   ],
+   "married": "1891-01-11",
+   "married_place": "Kołomyja"
+  },
+  "F29": {
+   "husb": "I76",
+   "wife": "I77",
+   "children": [
+    "I4"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F30": {
+   "husb": "I78",
+   "wife": "I79",
+   "children": [
+    "I76"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F32": {
+   "husb": "I84",
+   "wife": "I85",
+   "children": [
+    "I272",
+    "I266",
+    "I267",
+    "I268",
+    "I86",
+    "I269",
+    "I270",
+    "I271",
+    "I38"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F33": {
+   "husb": "I89",
+   "wife": "I91",
+   "children": [],
+   "married": "1973",
+   "married_place": ""
+  },
+  "F34": {
+   "husb": null,
+   "wife": "I91",
+   "children": [
+    "I92",
+    "I93"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F35": {
+   "husb": "I94",
+   "wife": "I90",
+   "children": [
+    "I399"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F36": {
+   "husb": "I16",
+   "wife": "I95",
+   "children": [
+    "I96",
+    "I132"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F37": {
+   "husb": "I12",
+   "wife": "I97",
+   "children": [
+    "I13"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F38": {
+   "husb": "I101",
+   "wife": "I102",
+   "children": [
+    "I103",
+    "I104",
+    "I105"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F39": {
+   "husb": "I98",
+   "wife": "I100",
+   "children": [
+    "I99",
+    "I101"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F40": {
+   "husb": "I99",
+   "wife": "I106",
+   "children": [
+    "I107",
+    "I108"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F41": {
+   "husb": "I118",
+   "wife": "I119",
+   "children": [
+    "I123",
+    "I122",
+    "I124",
+    "I125",
+    "I126"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F42": {
+   "husb": "I111",
+   "wife": "I112",
+   "children": [
+    "I20"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F43": {
+   "husb": "I113",
+   "wife": "I114",
+   "children": [
+    "I9"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F44": {
+   "husb": "I116",
+   "wife": "I117",
+   "children": [
+    "I62"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F45": {
+   "husb": "I44",
+   "wife": "I127",
+   "children": [
+    "I128",
+    "I129"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F46": {
+   "husb": "I120",
+   "wife": "I121",
+   "children": [
+    "I119"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F47": {
+   "husb": "I16",
+   "wife": "I133",
+   "children": [
+    "I136",
+    "I137"
+   ],
+   "married": "1926-03-02",
+   "married_place": "Kraków"
+  },
+  "F48": {
+   "husb": "I130",
+   "wife": "I131",
+   "children": [
+    "I95"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F49": {
+   "husb": "I42",
+   "wife": "I138",
+   "children": [
+    "I141",
+    "I142"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F50": {
+   "husb": "I134",
+   "wife": "I135",
+   "children": [
+    "I133",
+    "I278",
+    "I279"
+   ],
+   "married": "1907",
+   "married_place": "Kraków"
+  },
+  "F51": {
+   "husb": "I145",
+   "wife": "I144",
+   "children": [
+    "I147"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F52": {
+   "husb": "I139",
+   "wife": "I140",
+   "children": [
+    "I138"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F53": {
+   "husb": "I146",
+   "wife": null,
+   "children": [
+    "I145"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F54": {
+   "husb": "I40",
+   "wife": "I148",
+   "children": [
+    "I149",
+    "I150"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F55": {
+   "husb": "I156",
+   "wife": "I61",
+   "children": [],
+   "married": "",
+   "married_place": ""
+  },
+  "F56": {
+   "husb": "I152",
+   "wife": "I149",
+   "children": [],
+   "married": "",
+   "married_place": ""
+  },
+  "F57": {
+   "husb": "I153",
+   "wife": "I149",
+   "children": [
+    "I154"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F58": {
+   "husb": "I151",
+   "wife": "I155",
+   "children": [
+    "I148"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F59": {
+   "husb": "I160",
+   "wife": "I53",
+   "children": [
+    "I181",
+    "I182"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F60": {
+   "husb": "I161",
+   "wife": "I56",
+   "children": [
+    "I299"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F61": {
+   "husb": "I50",
+   "wife": "I162",
+   "children": [
+    "I163",
+    "I164"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F62": {
+   "husb": "I165",
+   "wife": "I164",
+   "children": [],
+   "married": "",
+   "married_place": ""
+  },
+  "F63": {
+   "husb": "I45",
+   "wife": "I166",
+   "children": [
+    "I167",
+    "I168"
+   ],
+   "married": "1921-12-14",
+   "married_place": "Lwów"
+  },
+  "F64": {
+   "husb": "I170",
+   "wife": "I169",
+   "children": [
+    "I173"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F65": {
+   "husb": "I173",
+   "wife": "I174",
+   "children": [
+    "I175",
+    "I176"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F66": {
+   "husb": "I171",
+   "wife": "I172",
+   "children": [
+    "I170"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F67": {
+   "husb": "I26",
+   "wife": "I178",
+   "children": [],
+   "married": "1919-10-25",
+   "married_place": "Chodorów"
+  },
+  "F68": {
+   "husb": "I177",
+   "wife": "I178",
+   "children": [
+    "I207",
+    "I35"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F69": {
+   "husb": "I179",
+   "wife": "I180",
+   "children": [
+    "I26"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F70": {
+   "husb": "I186",
+   "wife": "I185",
+   "children": [],
+   "married": "",
+   "married_place": ""
+  },
+  "F71": {
+   "husb": "I33",
+   "wife": "I187",
+   "children": [
+    "I188",
+    "I189"
+   ],
+   "married": "1945-06-19",
+   "married_place": ""
+  },
+  "F72": {
+   "husb": "I190",
+   "wife": "I189",
+   "children": [
+    "I191",
+    "I198",
+    "I200",
+    "I201",
+    "I203"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F73": {
+   "husb": "I192",
+   "wife": "I191",
+   "children": [
+    "I193",
+    "I194",
+    "I195",
+    "I196",
+    "I197"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F74": {
+   "husb": "I199",
+   "wife": "I198",
+   "children": [],
+   "married": "",
+   "married_place": ""
+  },
+  "F75": {
+   "husb": "I202",
+   "wife": "I201",
+   "children": [],
+   "married": "",
+   "married_place": ""
+  },
+  "F76": {
+   "husb": "I204",
+   "wife": null,
+   "children": [
+    "I166"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F77": {
+   "husb": "I208",
+   "wife": "I159",
+   "children": [
+    "I209"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F78": {
+   "husb": "I205",
+   "wife": "I206",
+   "children": [
+    "I178"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F79": {
+   "husb": "I211",
+   "wife": "I210",
+   "children": [
+    "I18"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F80": {
+   "husb": "I224",
+   "wife": "I213",
+   "children": [],
+   "married": "1897",
+   "married_place": "Kołomyja"
+  },
+  "F81": {
+   "husb": "I222",
+   "wife": "I223",
+   "children": [
+    "I70"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F82": {
+   "husb": "I225",
+   "wife": "I213",
+   "children": [],
+   "married": "1885",
+   "married_place": "Kołomyja"
+  },
+  "F83": {
+   "husb": "I226",
+   "wife": "I220",
+   "children": [
+    "I256",
+    "I257",
+    "I258",
+    "I259"
+   ],
+   "married": "1904",
+   "married_place": "Kołomyja"
+  },
+  "F84": {
+   "husb": "I227",
+   "wife": "I217",
+   "children": [
+    "I313",
+    "I314"
+   ],
+   "married": "1904",
+   "married_place": "Kołomyja"
+  },
+  "F85": {
+   "husb": "I230",
+   "wife": "I216",
+   "children": [
+    "I246",
+    "I247",
+    "I248",
+    "I309"
+   ],
+   "married": "1909",
+   "married_place": "Stanisławów/Kołomyja"
+  },
+  "F86": {
+   "husb": "I228",
+   "wife": "I229",
+   "children": [
+    "I227"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F87": {
+   "husb": "I234",
+   "wife": "I233",
+   "children": [
+    "I260",
+    "I261",
+    "I303"
+   ],
+   "married": "1909",
+   "married_place": "Kołomyja"
+  },
+  "F88": {
+   "husb": "I231",
+   "wife": "I232",
+   "children": [
+    "I230"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F89": {
+   "husb": "I241",
+   "wife": "I240",
+   "children": [
+    "I320"
+   ],
+   "married": "1939",
+   "married_place": "Kołomyja"
+  },
+  "F90": {
+   "husb": "I235",
+   "wife": "I236",
+   "children": [
+    "I234"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F91": {
+   "husb": "I247",
+   "wife": "I249",
+   "children": [
+    "I315"
+   ],
+   "married": "1928-03-27",
+   "married_place": "Chodorów"
+  },
+  "F92": {
+   "husb": "I242",
+   "wife": "I243",
+   "children": [
+    "I241"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F93": {
+   "husb": "I244",
+   "wife": "I245",
+   "children": [
+    "I75"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F94": {
+   "husb": "I273",
+   "wife": "I110",
+   "children": [
+    "I340"
+   ],
+   "married": "1931-07-13",
+   "married_place": "Kraków"
+  },
+  "F95": {
+   "husb": "I250",
+   "wife": "I251",
+   "children": [
+    "I249"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F96": {
+   "husb": "I252",
+   "wife": "I253",
+   "children": [
+    "I224"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F97": {
+   "husb": "I254",
+   "wife": "I255",
+   "children": [
+    "I226"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F98": {
+   "husb": "I281",
+   "wife": "I280",
+   "children": [
+    "I284",
+    "I285"
+   ],
+   "married": "1906",
+   "married_place": "Kraków"
+  },
+  "F99": {
+   "husb": "I274",
+   "wife": "I275",
+   "children": [
+    "I135"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F100": {
+   "husb": "I276",
+   "wife": "I277",
+   "children": [
+    "I288",
+    "I134",
+    "I280"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F101": {
+   "husb": "I285",
+   "wife": "I286",
+   "children": [],
+   "married": "",
+   "married_place": ""
+  },
+  "F102": {
+   "husb": "I282",
+   "wife": "I283",
+   "children": [
+    "I281",
+    "I287"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F103": {
+   "husb": "I288",
+   "wife": "I287",
+   "children": [
+    "I289",
+    "I290"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F104": {
+   "husb": "I291",
+   "wife": "I47",
+   "children": [
+    "I292",
+    "I293"
+   ],
+   "married": "1921-11-01",
+   "married_place": "Baden, Vienna"
+  },
+  "F105": {
+   "husb": "I294",
+   "wife": "I292",
+   "children": [
+    "I295"
+   ],
+   "married": "1948",
+   "married_place": "Brooklyn, Kings, NY"
+  },
+  "F106": {
+   "husb": "I296",
+   "wife": "I295",
+   "children": [],
+   "married": "",
+   "married_place": ""
+  },
+  "F107": {
+   "husb": "I293",
+   "wife": "I297",
+   "children": [
+    "I298"
+   ],
+   "married": "1948-06-25",
+   "married_place": "New York"
+  },
+  "F108": {
+   "husb": "I300",
+   "wife": "I256",
+   "children": [],
+   "married": "1924",
+   "married_place": "Vienna, Pazmanitengasse"
+  },
+  "F109": {
+   "husb": "I301",
+   "wife": "I260",
+   "children": [
+    "I302",
+    "I307"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F110": {
+   "husb": "I303",
+   "wife": "I304",
+   "children": [
+    "I305",
+    "I306"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F111": {
+   "husb": "I310",
+   "wife": "I259",
+   "children": [],
+   "married": "1936",
+   "married_place": "Vienna, Pazmanitengasse"
+  },
+  "F113": {
+   "husb": "I311",
+   "wife": "I312",
+   "children": [
+    "I225"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F114": {
+   "husb": "I238",
+   "wife": "I318",
+   "children": [
+    "I319"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F115": {
+   "husb": "I270",
+   "wife": "I321",
+   "children": [
+    "I324",
+    "I323",
+    "I322"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F116": {
+   "husb": "I12",
+   "wife": "I327",
+   "children": [],
+   "married": "1936-09-22",
+   "married_place": "Kraków"
+  },
+  "F117": {
+   "husb": "I325",
+   "wife": "I326",
+   "children": [
+    "I66"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F118": {
+   "husb": "I51",
+   "wife": "I335",
+   "children": [
+    "I336"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F119": {
+   "husb": "I328",
+   "wife": "I329",
+   "children": [
+    "I327"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F120": {
+   "husb": "I331",
+   "wife": "I332",
+   "children": [
+    "I97"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F121": {
+   "husb": "I333",
+   "wife": "I334",
+   "children": [
+    "I297"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F122": {
+   "husb": "I337",
+   "wife": "I330",
+   "children": [],
+   "married": "",
+   "married_place": ""
+  },
+  "F123": {
+   "husb": "I73",
+   "wife": "I343",
+   "children": [
+    "I72"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F124": {
+   "husb": "I338",
+   "wife": "I339",
+   "children": [
+    "I273"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F125": {
+   "husb": "I344",
+   "wife": "I306",
+   "children": [
+    "I345",
+    "I346"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F126": {
+   "husb": "I347",
+   "wife": "I346",
+   "children": [
+    "I348",
+    "I349"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F127": {
+   "husb": "I302",
+   "wife": "I350",
+   "children": [
+    "I352",
+    "I351"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F128": {
+   "husb": "I307",
+   "wife": "I353",
+   "children": [
+    "I354",
+    "I360",
+    "I365"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F129": {
+   "husb": "I355",
+   "wife": "I354",
+   "children": [
+    "I356",
+    "I357",
+    "I358",
+    "I359"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F130": {
+   "husb": "I361",
+   "wife": "I360",
+   "children": [
+    "I362",
+    "I363",
+    "I364"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F131": {
+   "husb": "I366",
+   "wife": "I365",
+   "children": [
+    "I367",
+    "I368"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F132": {
+   "husb": "I219",
+   "wife": "I369",
+   "children": [
+    "I374",
+    "I373",
+    "I372"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F133": {
+   "husb": "I96",
+   "wife": "I371",
+   "children": [
+    "I375",
+    "I377",
+    "I379",
+    "I381",
+    "I383",
+    "I384",
+    "I385"
+   ],
+   "married": "1977",
+   "married_place": "Brooklyn, NY"
+  },
+  "F134": {
+   "husb": "I376",
+   "wife": "I375",
+   "children": [],
+   "married": "1999-02-21",
+   "married_place": "Brooklyn, NY"
+  },
+  "F135": {
+   "husb": "I377",
+   "wife": "I378",
+   "children": [],
+   "married": "",
+   "married_place": ""
+  },
+  "F136": {
+   "husb": "I379",
+   "wife": "I380",
+   "children": [],
+   "married": "",
+   "married_place": ""
+  },
+  "F137": {
+   "husb": "I381",
+   "wife": "I382",
+   "children": [],
+   "married": "2006-12-17",
+   "married_place": "Staten Island, NY, (USA)"
+  },
+  "F138": {
+   "husb": "I128",
+   "wife": "I386",
+   "children": [
+    "I387"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F139": {
+   "husb": "I128",
+   "wife": "I388",
+   "children": [],
+   "married": "1994",
+   "married_place": "Manhattan NY (USA)"
+  },
+  "F140": {
+   "husb": "I123",
+   "wife": "I390",
+   "children": [],
+   "married": "1976-02-16",
+   "married_place": "Montreal"
+  },
+  "F141": {
+   "husb": "I124",
+   "wife": "I391",
+   "children": [
+    "I392"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F142": {
+   "husb": "I393",
+   "wife": "I392",
+   "children": [],
+   "married": "2011",
+   "married_place": ""
+  },
+  "F143": {
+   "husb": "I389",
+   "wife": null,
+   "children": [
+    "I11"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F144": {
+   "husb": "I89",
+   "wife": "I396",
+   "children": [],
+   "married": "",
+   "married_place": ""
+  },
+  "F145": {
+   "husb": "I394",
+   "wife": "I395",
+   "children": [
+    "I390"
+   ],
+   "married": "",
+   "married_place": ""
+  },
+  "F146": {
+   "husb": "I397",
+   "wife": "I90",
+   "children": [],
+   "married": "1975-03-09",
+   "married_place": "Los Angeles, California (USA)"
+  },
+  "F147": {
+   "husb": "I94",
+   "wife": null,
+   "children": [
+    "I398"
+   ],
+   "married": "",
+   "married_place": ""
+  }
+ },
+ "people": {
+  "I1": {
+   "id": "I1",
+   "given": "Lajzor",
+   "surname": "Griffel",
+   "sex": "M",
+   "birth": "1850-03-26",
+   "birth_place": "Nadwórna",
+   "death": "1918",
+   "death_place": "",
+   "death_raw": "1918",
+   "occupation": "",
+   "parents": [
+    "I37",
+    "I38"
+   ],
+   "children": [
+    "I8",
+    "I3",
+    "I39",
+    "I10",
+    "I14",
+    "I23",
+    "I17",
+    "I19",
+    "I40",
+    "I21",
+    "I46",
+    "I330",
+    "I25"
+   ],
+   "spouses": [
+    "I2"
+   ]
+  },
+  "I2": {
+   "id": "I2",
+   "given": "Sara Matel",
+   "surname": "Chajes",
+   "sex": "F",
+   "birth": "1851-03-05",
+   "birth_place": "",
+   "death": "1940",
+   "death_place": "",
+   "death_raw": "1940",
+   "occupation": "",
+   "parents": [
+    "I64",
+    "I65"
+   ],
+   "children": [
+    "I8",
+    "I3",
+    "I39",
+    "I10",
+    "I14",
+    "I23",
+    "I17",
+    "I19",
+    "I40",
+    "I21",
+    "I46",
+    "I330",
+    "I25"
+   ],
+   "spouses": [
+    "I1"
+   ]
+  },
+  "I3": {
+   "id": "I3",
+   "given": "Dawid Mendel",
+   "surname": "Griffel",
+   "sex": "M",
+   "birth": "1875-11-02",
+   "birth_place": "Nadwórna",
+   "death": "1941",
+   "death_place": "",
+   "death_raw": "1941",
+   "occupation": "",
+   "parents": [
+    "I1",
+    "I2"
+   ],
+   "children": [
+    "I6",
+    "I5",
+    "I7"
+   ],
+   "spouses": [
+    "I4"
+   ]
+  },
+  "I4": {
+   "id": "I4",
+   "given": "Chawa",
+   "surname": "Wahl",
+   "sex": "F",
+   "birth": "1880-12-01",
+   "birth_place": "Tarnobrzeg",
+   "death": "1941",
+   "death_place": "",
+   "death_raw": "1941",
+   "occupation": "",
+   "parents": [
+    "I76",
+    "I77"
+   ],
+   "children": [
+    "I6",
+    "I5",
+    "I7"
+   ],
+   "spouses": [
+    "I3"
+   ]
+  },
+  "I5": {
+   "id": "I5",
+   "given": "Regina",
+   "surname": "Griffel",
+   "sex": "F",
+   "birth": "1899-03-18",
+   "birth_place": "Nadwórna",
+   "death": "1954-06-03",
+   "death_place": "Paddington, London (England)",
+   "death_raw": "3 JUN 1954",
+   "occupation": "",
+   "parents": [
+    "I3",
+    "I4"
+   ],
+   "children": [
+    "I81",
+    "I80"
+   ],
+   "spouses": [
+    "I68"
+   ]
+  },
+  "I6": {
+   "id": "I6",
+   "given": "Zygmunt",
+   "surname": "Griffel",
+   "sex": "M",
+   "birth": "1897-12-26",
+   "birth_place": "Nadwórna",
+   "death": "1951-05-16",
+   "death_place": "Staten Island, NY, (USA)",
+   "death_raw": "16 MAY 1951",
+   "occupation": "",
+   "parents": [
+    "I3",
+    "I4"
+   ],
+   "children": [
+    "I89",
+    "I90"
+   ],
+   "spouses": [
+    "I66"
+   ]
+  },
+  "I7": {
+   "id": "I7",
+   "given": "Edward Isaac Chaim",
+   "surname": "Griffel",
+   "sex": "M",
+   "birth": "1904-10-09",
+   "birth_place": "Tarnobrzeg",
+   "death": "1959-02-08",
+   "death_place": "Staten Island, NY, (USA)",
+   "death_raw": "8 FEB 1959",
+   "occupation": "",
+   "parents": [
+    "I3",
+    "I4"
+   ],
+   "children": [
+    "I87",
+    "I88"
+   ],
+   "spouses": [
+    "I67"
+   ]
+  },
+  "I8": {
+   "id": "I8",
+   "given": "Machla",
+   "surname": "Griffel",
+   "sex": "F",
+   "birth": "1873",
+   "birth_place": "Nadwórna",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I1",
+    "I2"
+   ],
+   "children": [
+    "I115",
+    "I47",
+    "I48",
+    "I49",
+    "I51",
+    "I52",
+    "I55",
+    "I58"
+   ],
+   "spouses": [
+    "I9"
+   ]
+  },
+  "I9": {
+   "id": "I9",
+   "given": "Benzion",
+   "surname": "Willner",
+   "sex": "M",
+   "birth": "1871-10-22",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "buchalter/bookkeeper",
+   "parents": [
+    "I113",
+    "I114"
+   ],
+   "children": [
+    "I115",
+    "I47",
+    "I48",
+    "I49",
+    "I51",
+    "I52",
+    "I55",
+    "I58"
+   ],
+   "spouses": [
+    "I8"
+   ]
+  },
+  "I10": {
+   "id": "I10",
+   "given": "Zissel",
+   "surname": "Griffel",
+   "sex": "F",
+   "birth": "1878-04-14",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I1",
+    "I2"
+   ],
+   "children": [
+    "I157",
+    "I12",
+    "I54"
+   ],
+   "spouses": [
+    "I11"
+   ]
+  },
+  "I11": {
+   "id": "I11",
+   "given": "Zygmunt (Shalom)",
+   "surname": "Lamm",
+   "sex": "M",
+   "birth": "1877-03-30",
+   "birth_place": "Tarnobrzeg",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I389"
+   ],
+   "children": [
+    "I157",
+    "I12",
+    "I54"
+   ],
+   "spouses": [
+    "I10"
+   ]
+  },
+  "I12": {
+   "id": "I12",
+   "given": "dr Arnold (Abraham Benzion)",
+   "surname": "Lamm",
+   "sex": "M",
+   "birth": "1902-03-03",
+   "birth_place": "Nadwórna",
+   "death": "1987-10",
+   "death_place": "NY (USA)",
+   "death_raw": "OCT 1987",
+   "occupation": "",
+   "parents": [
+    "I11",
+    "I10"
+   ],
+   "children": [
+    "I13"
+   ],
+   "spouses": [
+    "I97",
+    "I327"
+   ]
+  },
+  "I13": {
+   "id": "I13",
+   "given": "dr Stephen",
+   "surname": "Lamm",
+   "sex": "M",
+   "birth": "1948-09-16",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I12",
+    "I97"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I14": {
+   "id": "I14",
+   "given": "Isaac Chaim",
+   "surname": "Griffel",
+   "sex": "M",
+   "birth": "1879",
+   "birth_place": "Nadwórna",
+   "death": "1930-09-30",
+   "death_place": "Kraków",
+   "death_raw": "30 SEP 1930",
+   "occupation": "",
+   "parents": [
+    "I1",
+    "I2"
+   ],
+   "children": [
+    "I16",
+    "I43",
+    "I42",
+    "I110",
+    "I60",
+    "I59",
+    "I44",
+    "I158",
+    "I118",
+    "I144"
+   ],
+   "spouses": [
+    "I15"
+   ]
+  },
+  "I15": {
+   "id": "I15",
+   "given": "Judith",
+   "surname": "Breit",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "1938",
+   "death_place": "",
+   "death_raw": "1938",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I16",
+    "I43",
+    "I42",
+    "I110",
+    "I60",
+    "I59",
+    "I44",
+    "I158",
+    "I118",
+    "I144"
+   ],
+   "spouses": [
+    "I14"
+   ]
+  },
+  "I16": {
+   "id": "I16",
+   "given": "dr Jacob",
+   "surname": "Griffel",
+   "sex": "M",
+   "birth": "1900-10-23",
+   "birth_place": "Kraków",
+   "death": "1962-03-13",
+   "death_place": "U.S.A.",
+   "death_raw": "13 MAR 1962",
+   "occupation": "",
+   "parents": [
+    "I14",
+    "I15"
+   ],
+   "children": [
+    "I96",
+    "I132",
+    "I136",
+    "I137"
+   ],
+   "spouses": [
+    "I95",
+    "I133"
+   ]
+  },
+  "I17": {
+   "id": "I17",
+   "given": "Shaye",
+   "surname": "Griffel",
+   "sex": "M",
+   "birth": "1883",
+   "birth_place": "",
+   "death": "1943",
+   "death_place": "",
+   "death_raw": "1943",
+   "occupation": "",
+   "parents": [
+    "I1",
+    "I2"
+   ],
+   "children": [
+    "I159",
+    "I212",
+    "I57"
+   ],
+   "spouses": [
+    "I18"
+   ]
+  },
+  "I18": {
+   "id": "I18",
+   "given": "Adela",
+   "surname": "Englard",
+   "sex": "F",
+   "birth": "1883",
+   "birth_place": "Przeworsk",
+   "death": "1943",
+   "death_place": "",
+   "death_raw": "1943",
+   "occupation": "",
+   "parents": [
+    "I211",
+    "I210"
+   ],
+   "children": [
+    "I159",
+    "I212",
+    "I57"
+   ],
+   "spouses": [
+    "I17"
+   ]
+  },
+  "I19": {
+   "id": "I19",
+   "given": "Leibisch",
+   "surname": "Griffel",
+   "sex": "M",
+   "birth": "1885-05-16",
+   "birth_place": "Nadwórna",
+   "death": "",
+   "death_place": "",
+   "death_raw": "(Shoah)",
+   "occupation": "",
+   "parents": [
+    "I1",
+    "I2"
+   ],
+   "children": [
+    "I61"
+   ],
+   "spouses": [
+    "I20"
+   ]
+  },
+  "I20": {
+   "id": "I20",
+   "given": "Ziporah",
+   "surname": "Haffner",
+   "sex": "F",
+   "birth": "1890",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "(Shoah)",
+   "occupation": "",
+   "parents": [
+    "I111",
+    "I112"
+   ],
+   "children": [
+    "I61"
+   ],
+   "spouses": [
+    "I19"
+   ]
+  },
+  "I21": {
+   "id": "I21",
+   "given": "Rebeka",
+   "surname": "Griffel",
+   "sex": "F",
+   "birth": "1888",
+   "birth_place": "Nadwórna",
+   "death": "1942",
+   "death_place": "?",
+   "death_raw": "(1942?)",
+   "occupation": "",
+   "parents": [
+    "I1",
+    "I2"
+   ],
+   "children": [
+    "I98",
+    "I109"
+   ],
+   "spouses": [
+    "I22"
+   ]
+  },
+  "I22": {
+   "id": "I22",
+   "given": "Berish",
+   "surname": "Rapaport",
+   "sex": "M",
+   "birth": "1886",
+   "birth_place": "Radomyśl Wielki",
+   "death": "1942",
+   "death_place": "KL Auschwitz",
+   "death_raw": "1942",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I98",
+    "I109"
+   ],
+   "spouses": [
+    "I21"
+   ]
+  },
+  "I23": {
+   "id": "I23",
+   "given": "Rachel",
+   "surname": "Griffel",
+   "sex": "F",
+   "birth": "1881",
+   "birth_place": "",
+   "death": "1883",
+   "death_place": "",
+   "death_raw": "1883",
+   "occupation": "",
+   "parents": [
+    "I1",
+    "I2"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I25": {
+   "id": "I25",
+   "given": "Chaya Gitel (Klara)",
+   "surname": "Griffel",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "1918",
+   "death_place": "",
+   "death_raw": "1918",
+   "occupation": "",
+   "parents": [
+    "I1",
+    "I2"
+   ],
+   "children": [
+    "I45",
+    "I29",
+    "I34",
+    "I50",
+    "I53",
+    "I56",
+    "I27"
+   ],
+   "spouses": [
+    "I26"
+   ]
+  },
+  "I26": {
+   "id": "I26",
+   "given": "Shlomo (Salomon)",
+   "surname": "Gruenfeld",
+   "sex": "M",
+   "birth": "1869",
+   "birth_place": "Skole",
+   "death": "1953",
+   "death_place": "",
+   "death_raw": "1953",
+   "occupation": "kupiec/merchant",
+   "parents": [
+    "I179",
+    "I180"
+   ],
+   "children": [
+    "I45",
+    "I29",
+    "I34",
+    "I50",
+    "I53",
+    "I56",
+    "I27"
+   ],
+   "spouses": [
+    "I25",
+    "I178"
+   ]
+  },
+  "I27": {
+   "id": "I27",
+   "given": "Busha (Berta)",
+   "surname": "Gruenfeld",
+   "sex": "F",
+   "birth": "1914-11-26",
+   "birth_place": "Vienna",
+   "death": "2020",
+   "death_place": "",
+   "death_raw": "2020",
+   "occupation": "",
+   "parents": [
+    "I26",
+    "I25"
+   ],
+   "children": [],
+   "spouses": [
+    "I28"
+   ]
+  },
+  "I28": {
+   "id": "I28",
+   "given": "Max",
+   "surname": "Lipman",
+   "sex": "M",
+   "birth": "1910-06-01",
+   "birth_place": "Strzelno",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "fizyk/physicist",
+   "parents": [],
+   "children": [],
+   "spouses": [
+    "I27"
+   ]
+  },
+  "I29": {
+   "id": "I29",
+   "given": "Sima",
+   "surname": "Gruenfeld",
+   "sex": "F",
+   "birth": "1895-08-08",
+   "birth_place": "",
+   "death": "1990-03-12",
+   "death_place": "Jerusalem",
+   "death_raw": "12 MAR 1990",
+   "occupation": "",
+   "parents": [
+    "I26",
+    "I25"
+   ],
+   "children": [
+    "I33",
+    "I31"
+   ],
+   "spouses": [
+    "I30"
+   ]
+  },
+  "I30": {
+   "id": "I30",
+   "given": "Pinkas (Paul)",
+   "surname": "Blau",
+   "sex": "M",
+   "birth": "1889-01-04",
+   "birth_place": "Budapest",
+   "death": "1948-03-11",
+   "death_place": "Jerusalem",
+   "death_raw": "11 MAR 1948",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I33",
+    "I31"
+   ],
+   "spouses": [
+    "I29"
+   ]
+  },
+  "I31": {
+   "id": "I31",
+   "given": "Clara",
+   "surname": "Blau",
+   "sex": "F",
+   "birth": "1924-06-13",
+   "birth_place": "Cluj-Napoca (Romania)",
+   "death": "1998-12-27",
+   "death_place": "Jerusalem",
+   "death_raw": "27 DEC 1998",
+   "occupation": "",
+   "parents": [
+    "I30",
+    "I29"
+   ],
+   "children": [
+    "I183",
+    "I184",
+    "I185"
+   ],
+   "spouses": [
+    "I32"
+   ]
+  },
+  "I32": {
+   "id": "I32",
+   "given": "Zalman",
+   "surname": "Heyn",
+   "sex": "M",
+   "birth": "1915-12-01",
+   "birth_place": "Daugavpils (Latvia)",
+   "death": "1995-05-26",
+   "death_place": "",
+   "death_raw": "26 MAY 1995",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I183",
+    "I184",
+    "I185"
+   ],
+   "spouses": [
+    "I31"
+   ]
+  },
+  "I33": {
+   "id": "I33",
+   "given": "Joshua",
+   "surname": "Blau",
+   "sex": "M",
+   "birth": "1919-09-22",
+   "birth_place": "Cluj-Napoca (Romania)",
+   "death": "2020-10-20",
+   "death_place": "Jerusalem",
+   "death_raw": "20 OCT 2020",
+   "occupation": "",
+   "parents": [
+    "I30",
+    "I29"
+   ],
+   "children": [
+    "I188",
+    "I189"
+   ],
+   "spouses": [
+    "I187"
+   ]
+  },
+  "I34": {
+   "id": "I34",
+   "given": "Samuel",
+   "surname": "Gruenfeld",
+   "sex": "M",
+   "birth": "1897-11-13",
+   "birth_place": "Pinów pow. Nadwórna",
+   "death": "1941-12-26",
+   "death_place": "Lwów",
+   "death_raw": "26 DEC 1941",
+   "occupation": "przemysłowiec/industrialist",
+   "parents": [
+    "I26",
+    "I25"
+   ],
+   "children": [
+    "I169",
+    "I36"
+   ],
+   "spouses": [
+    "I35"
+   ]
+  },
+  "I35": {
+   "id": "I35",
+   "given": "Sitka (Sidonia)",
+   "surname": "Hager",
+   "sex": "F",
+   "birth": "1903-06-30",
+   "birth_place": "",
+   "death": "2000",
+   "death_place": "",
+   "death_raw": "2000",
+   "occupation": "",
+   "parents": [
+    "I177",
+    "I178"
+   ],
+   "children": [
+    "I169",
+    "I36"
+   ],
+   "spouses": [
+    "I34"
+   ]
+  },
+  "I36": {
+   "id": "I36",
+   "given": "dr Yehuda (Juliusz)",
+   "surname": "Nir",
+   "sex": "M",
+   "birth": "1930-03-31",
+   "birth_place": "Stanisławów",
+   "death": "2014-07-19",
+   "death_place": "Manhattan NY (USA)",
+   "death_raw": "19 JUL 2014",
+   "occupation": "",
+   "parents": [
+    "I34",
+    "I35"
+   ],
+   "children": [
+    "I41"
+   ],
+   "spouses": []
+  },
+  "I37": {
+   "id": "I37",
+   "given": "Dawid",
+   "surname": "Griffel",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "1876",
+   "death_place": "",
+   "death_raw": "1876",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I82",
+    "I1"
+   ],
+   "spouses": [
+    "I38"
+   ]
+  },
+  "I38": {
+   "id": "I38",
+   "given": "Taube",
+   "surname": "Zeisler",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "1904-06-08",
+   "death_place": "Nadwórna",
+   "death_raw": "8 JUN 1904",
+   "occupation": "",
+   "parents": [
+    "I84",
+    "I85"
+   ],
+   "children": [
+    "I82",
+    "I1"
+   ],
+   "spouses": [
+    "I37"
+   ]
+  },
+  "I39": {
+   "id": "I39",
+   "given": "...",
+   "surname": "Griffel",
+   "sex": "F",
+   "birth": "1877",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I1",
+    "I2"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I40": {
+   "id": "I40",
+   "given": "Beniamin",
+   "surname": "Griffel",
+   "sex": "M",
+   "birth": "1887-01-14",
+   "birth_place": "Nadwórna",
+   "death": "1943",
+   "death_place": "",
+   "death_raw": "1943",
+   "occupation": "industrialist",
+   "parents": [
+    "I1",
+    "I2"
+   ],
+   "children": [
+    "I149",
+    "I150"
+   ],
+   "spouses": [
+    "I148"
+   ]
+  },
+  "I41": {
+   "id": "I41",
+   "given": "Sarah Maslin",
+   "surname": "Nir",
+   "sex": "F",
+   "birth": "1983-03-23",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "journalist",
+   "parents": [
+    "I36"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I42": {
+   "id": "I42",
+   "given": "Schalom",
+   "surname": "Griffel",
+   "sex": "M",
+   "birth": "1904-12-25",
+   "birth_place": "Knihin Kolonia",
+   "death": "1942",
+   "death_place": "KL Auschwitz",
+   "death_raw": "1942",
+   "occupation": "",
+   "parents": [
+    "I14",
+    "I15"
+   ],
+   "children": [
+    "I141",
+    "I142"
+   ],
+   "spouses": [
+    "I138"
+   ]
+  },
+  "I43": {
+   "id": "I43",
+   "given": "Dawid Mendel",
+   "surname": "Griffel",
+   "sex": "M",
+   "birth": "1902-07-24",
+   "birth_place": "Knihin Kolonia",
+   "death": "",
+   "death_place": "",
+   "death_raw": "(Shoah)",
+   "occupation": "",
+   "parents": [
+    "I14",
+    "I15"
+   ],
+   "children": [
+    "I143",
+    "I63"
+   ],
+   "spouses": [
+    "I62"
+   ]
+  },
+  "I44": {
+   "id": "I44",
+   "given": "Ozjasz Henryk",
+   "surname": "Griffel",
+   "sex": "M",
+   "birth": "1910-09-16",
+   "birth_place": "Stanisławów",
+   "death": "1968-11-09",
+   "death_place": "Jersey City",
+   "death_raw": "9 NOV 1968",
+   "occupation": "prawnik/lawyer, RABBI",
+   "parents": [
+    "I14",
+    "I15"
+   ],
+   "children": [
+    "I128",
+    "I129"
+   ],
+   "spouses": [
+    "I127"
+   ]
+  },
+  "I45": {
+   "id": "I45",
+   "given": "Schmeril",
+   "surname": "Gruenfeld",
+   "sex": "M",
+   "birth": "1891",
+   "birth_place": "Nadwórna",
+   "death": "1941",
+   "death_place": "Lwów",
+   "death_raw": "1941",
+   "occupation": "merchant",
+   "parents": [
+    "I26",
+    "I25"
+   ],
+   "children": [
+    "I167",
+    "I168"
+   ],
+   "spouses": [
+    "I166"
+   ]
+  },
+  "I46": {
+   "id": "I46",
+   "given": "Simce",
+   "surname": "Griffel",
+   "sex": "M",
+   "birth": "1890",
+   "birth_place": "",
+   "death": "1891",
+   "death_place": "",
+   "death_raw": "1891",
+   "occupation": "",
+   "parents": [
+    "I1",
+    "I2"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I47": {
+   "id": "I47",
+   "given": "Chaje",
+   "surname": "Willner",
+   "sex": "F",
+   "birth": "1894-07-13",
+   "birth_place": "Nadwórna",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I9",
+    "I8"
+   ],
+   "children": [
+    "I292",
+    "I293"
+   ],
+   "spouses": [
+    "I291"
+   ]
+  },
+  "I48": {
+   "id": "I48",
+   "given": "Reisel",
+   "surname": "Willner",
+   "sex": "F",
+   "birth": "1897",
+   "birth_place": "Nadwórna",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I9",
+    "I8"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I49": {
+   "id": "I49",
+   "given": "Hersch Meilich",
+   "surname": "Willner",
+   "sex": "M",
+   "birth": "1899",
+   "birth_place": "Nadwórna",
+   "death": "1902",
+   "death_place": "Nadwórna",
+   "death_raw": "1902",
+   "occupation": "",
+   "parents": [
+    "I9",
+    "I8"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I50": {
+   "id": "I50",
+   "given": "Eisig Chaim",
+   "surname": "Gruenfeld",
+   "sex": "M",
+   "birth": "1900-09-04",
+   "birth_place": "Nadwórna",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I26",
+    "I25"
+   ],
+   "children": [
+    "I163",
+    "I164"
+   ],
+   "spouses": [
+    "I162"
+   ]
+  },
+  "I51": {
+   "id": "I51",
+   "given": "Dawid Mendel",
+   "surname": "Willner",
+   "sex": "M",
+   "birth": "1901-12-28",
+   "birth_place": "Nadwórna",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I9",
+    "I8"
+   ],
+   "children": [
+    "I336"
+   ],
+   "spouses": [
+    "I335"
+   ]
+  },
+  "I52": {
+   "id": "I52",
+   "given": "Eidel",
+   "surname": "Willner",
+   "sex": "F",
+   "birth": "1903-02-28",
+   "birth_place": "Nadwórna",
+   "death": "1903",
+   "death_place": "Nadwórna",
+   "death_raw": "1903",
+   "occupation": "",
+   "parents": [
+    "I9",
+    "I8"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I53": {
+   "id": "I53",
+   "given": "Perl",
+   "surname": "Gruenfeld",
+   "sex": "F",
+   "birth": "1903-05-24",
+   "birth_place": "Nadwórna",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I26",
+    "I25"
+   ],
+   "children": [
+    "I181",
+    "I182"
+   ],
+   "spouses": [
+    "I160"
+   ]
+  },
+  "I54": {
+   "id": "I54",
+   "given": "Mojżesz",
+   "surname": "Lamm",
+   "sex": "M",
+   "birth": "1906-06-02",
+   "birth_place": "Nadwórna",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I11",
+    "I10"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I55": {
+   "id": "I55",
+   "given": "Taube",
+   "surname": "Willner",
+   "sex": "F",
+   "birth": "1906-12-24",
+   "birth_place": "Nadwórna",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I9",
+    "I8"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I56": {
+   "id": "I56",
+   "given": "Tauba",
+   "surname": "Gruenfeld",
+   "sex": "F",
+   "birth": "1907-07-10",
+   "birth_place": "Nadwórna",
+   "death": "1941",
+   "death_place": "Transnistria",
+   "death_raw": "1941",
+   "occupation": "",
+   "parents": [
+    "I26",
+    "I25"
+   ],
+   "children": [
+    "I299"
+   ],
+   "spouses": [
+    "I161"
+   ]
+  },
+  "I57": {
+   "id": "I57",
+   "given": "Chaim",
+   "surname": "Griffel",
+   "sex": "M",
+   "birth": "1908-09-23",
+   "birth_place": "Nadwórna",
+   "death": "1943",
+   "death_place": "",
+   "death_raw": "1943",
+   "occupation": "",
+   "parents": [
+    "I17",
+    "I18"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I58": {
+   "id": "I58",
+   "given": "Isak",
+   "surname": "Willner",
+   "sex": "M",
+   "birth": "1908-11-15",
+   "birth_place": "Nadwórna",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I9",
+    "I8"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I59": {
+   "id": "I59",
+   "given": "Berla (Berta)",
+   "surname": "Griffel",
+   "sex": "F",
+   "birth": "1908-03-08",
+   "birth_place": "Stanisławów",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I14",
+    "I15"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I60": {
+   "id": "I60",
+   "given": "Rozalia",
+   "surname": "Griffel",
+   "sex": "F",
+   "birth": "1907-09-21",
+   "birth_place": "Stanisławów",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I14",
+    "I15"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I61": {
+   "id": "I61",
+   "given": "Mariem",
+   "surname": "Griffel",
+   "sex": "F",
+   "birth": "1910-06-08",
+   "birth_place": "Olchowiec",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I19",
+    "I20"
+   ],
+   "children": [],
+   "spouses": [
+    "I156"
+   ]
+  },
+  "I62": {
+   "id": "I62",
+   "given": "Frejndla Laja",
+   "surname": "Ajchenbaum",
+   "sex": "F",
+   "birth": "1907-05-01",
+   "birth_place": "Lublin",
+   "death": "",
+   "death_place": "",
+   "death_raw": "(Shoah)",
+   "occupation": "",
+   "parents": [
+    "I116",
+    "I117"
+   ],
+   "children": [
+    "I143",
+    "I63"
+   ],
+   "spouses": [
+    "I43"
+   ]
+  },
+  "I63": {
+   "id": "I63",
+   "given": "Chaja",
+   "surname": "Griffel",
+   "sex": "F",
+   "birth": "1934-06",
+   "birth_place": "Kraków",
+   "death": "1936-01-01",
+   "death_place": "Lublin",
+   "death_raw": "1 JAN 1936",
+   "occupation": "",
+   "parents": [
+    "I43",
+    "I62"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I64": {
+   "id": "I64",
+   "given": "Isaac Chaim",
+   "surname": "Chajes",
+   "sex": "M",
+   "birth": "1823",
+   "birth_place": "Brody",
+   "death": "1866-08-16",
+   "death_place": "Kołomyja",
+   "death_raw": "16 AUG 1866",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I69",
+    "I2",
+    "I71",
+    "I342",
+    "I341",
+    "I74"
+   ],
+   "spouses": [
+    "I65"
+   ]
+  },
+  "I65": {
+   "id": "I65",
+   "given": "Beile",
+   "surname": "Chajes",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I69",
+    "I2",
+    "I71",
+    "I342",
+    "I341",
+    "I74"
+   ],
+   "spouses": [
+    "I64"
+   ]
+  },
+  "I66": {
+   "id": "I66",
+   "given": "Maryla M.",
+   "surname": "Suesser",
+   "sex": "F",
+   "birth": "1909-08-19",
+   "birth_place": "Kraków",
+   "death": "1976-02-10",
+   "death_place": "Los Angeles, California (USA)",
+   "death_raw": "10 FEB 1976",
+   "occupation": "",
+   "parents": [
+    "I325",
+    "I326"
+   ],
+   "children": [
+    "I89",
+    "I90"
+   ],
+   "spouses": [
+    "I6"
+   ]
+  },
+  "I67": {
+   "id": "I67",
+   "given": "Susan",
+   "surname": "Manson",
+   "sex": "F",
+   "birth": "1911",
+   "birth_place": "",
+   "death": "1978",
+   "death_place": "",
+   "death_raw": "1978",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I87",
+    "I88"
+   ],
+   "spouses": [
+    "I7"
+   ]
+  },
+  "I68": {
+   "id": "I68",
+   "given": "David Isaac (Itzig)",
+   "surname": "Gelles",
+   "sex": "M",
+   "birth": "1883-12-24",
+   "birth_place": "Krudrynce Khmelnystski (Ukraine)",
+   "death": "1964-09-20",
+   "death_place": "Vienna",
+   "death_raw": "20 SEP 1964",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I81",
+    "I80"
+   ],
+   "spouses": [
+    "I5"
+   ]
+  },
+  "I69": {
+   "id": "I69",
+   "given": "Jenta",
+   "surname": "Chajes",
+   "sex": "F",
+   "birth": "1844",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I64",
+    "I65"
+   ],
+   "children": [
+    "I213",
+    "I214",
+    "I215",
+    "I216",
+    "I217",
+    "I218",
+    "I219",
+    "I220",
+    "I221"
+   ],
+   "spouses": [
+    "I70"
+   ]
+  },
+  "I70": {
+   "id": "I70",
+   "given": "Itzig",
+   "surname": "Hermann",
+   "sex": "M",
+   "birth": "1845",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I222",
+    "I223"
+   ],
+   "children": [
+    "I213",
+    "I214",
+    "I215",
+    "I216",
+    "I217",
+    "I218",
+    "I219",
+    "I220",
+    "I221"
+   ],
+   "spouses": [
+    "I69"
+   ]
+  },
+  "I71": {
+   "id": "I71",
+   "given": "Chana",
+   "surname": "Chajes",
+   "sex": "F",
+   "birth": "1854",
+   "birth_place": "",
+   "death": "1915-11-16",
+   "death_place": "Vienna",
+   "death_raw": "16 NOV 1915",
+   "occupation": "",
+   "parents": [
+    "I64",
+    "I65"
+   ],
+   "children": [
+    "I233"
+   ],
+   "spouses": [
+    "I72"
+   ]
+  },
+  "I72": {
+   "id": "I72",
+   "given": "Wolf Leib",
+   "surname": "Lichtenstein",
+   "sex": "M",
+   "birth": "1859",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I73",
+    "I343"
+   ],
+   "children": [
+    "I233"
+   ],
+   "spouses": [
+    "I71"
+   ]
+  },
+  "I73": {
+   "id": "I73",
+   "given": "Hillel (Bendet)",
+   "surname": "Lichtenstein",
+   "sex": "M",
+   "birth": "1815",
+   "birth_place": "",
+   "death": "1891",
+   "death_place": "",
+   "death_raw": "1891",
+   "occupation": "RABBI",
+   "parents": [],
+   "children": [
+    "I72"
+   ],
+   "spouses": [
+    "I343"
+   ]
+  },
+  "I74": {
+   "id": "I74",
+   "given": "Isaac Chaim",
+   "surname": "Chajes",
+   "sex": "M",
+   "birth": "1866",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "kupiec/merchant",
+   "parents": [
+    "I64",
+    "I65"
+   ],
+   "children": [
+    "I317",
+    "I238",
+    "I240",
+    "I239",
+    "I237"
+   ],
+   "spouses": [
+    "I75"
+   ]
+  },
+  "I75": {
+   "id": "I75",
+   "given": "Cypra",
+   "surname": "Sternhell",
+   "sex": "F",
+   "birth": "1865",
+   "birth_place": "",
+   "death": "1934",
+   "death_place": "Kołomyja",
+   "death_raw": "1934",
+   "occupation": "",
+   "parents": [
+    "I244",
+    "I245"
+   ],
+   "children": [
+    "I317",
+    "I238",
+    "I240",
+    "I239",
+    "I237"
+   ],
+   "spouses": [
+    "I74"
+   ]
+  },
+  "I76": {
+   "id": "I76",
+   "given": "Shulim",
+   "surname": "Wahl",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I78",
+    "I79"
+   ],
+   "children": [
+    "I4"
+   ],
+   "spouses": [
+    "I77"
+   ]
+  },
+  "I77": {
+   "id": "I77",
+   "given": "Sarah",
+   "surname": "Safier",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I4"
+   ],
+   "spouses": [
+    "I76"
+   ]
+  },
+  "I78": {
+   "id": "I78",
+   "given": "Leizer",
+   "surname": "Wahl",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I76"
+   ],
+   "spouses": [
+    "I79"
+   ]
+  },
+  "I79": {
+   "id": "I79",
+   "given": "Zlate",
+   "surname": "Roisel",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I76"
+   ],
+   "spouses": [
+    "I78"
+   ]
+  },
+  "I80": {
+   "id": "I80",
+   "given": "Eduard (Edward)",
+   "surname": "Gelles",
+   "sex": "M",
+   "birth": "1927-11-24",
+   "birth_place": "Vienna",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I68",
+    "I5"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I81": {
+   "id": "I81",
+   "given": "Ludwig Friedrich",
+   "surname": "Gelles",
+   "sex": "M",
+   "birth": "1922-06-03",
+   "birth_place": "Vienna",
+   "death": "1942",
+   "death_place": "",
+   "death_raw": "1942",
+   "occupation": "",
+   "parents": [
+    "I68",
+    "I5"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I82": {
+   "id": "I82",
+   "given": "Rivka",
+   "surname": "Griffel",
+   "sex": "F",
+   "birth": "1840-01-17",
+   "birth_place": "Stanisławów",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I37",
+    "I38"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I84": {
+   "id": "I84",
+   "given": "Schaje",
+   "surname": "Zeisler",
+   "sex": "M",
+   "birth": "1804",
+   "birth_place": "",
+   "death": "1871-04-22",
+   "death_place": "Stanisławów",
+   "death_raw": "22 APR 1871",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I272",
+    "I266",
+    "I267",
+    "I268",
+    "I86",
+    "I269",
+    "I270",
+    "I271",
+    "I38"
+   ],
+   "spouses": [
+    "I85"
+   ]
+  },
+  "I85": {
+   "id": "I85",
+   "given": "Chaje",
+   "surname": "...",
+   "sex": "F",
+   "birth": "1804",
+   "birth_place": "",
+   "death": "1872-02-24",
+   "death_place": "Stanisławów",
+   "death_raw": "24 FEB 1872",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I272",
+    "I266",
+    "I267",
+    "I268",
+    "I86",
+    "I269",
+    "I270",
+    "I271",
+    "I38"
+   ],
+   "spouses": [
+    "I84"
+   ]
+  },
+  "I86": {
+   "id": "I86",
+   "given": "Itzig (Hersch Issac)",
+   "surname": "Zeisler",
+   "sex": "M",
+   "birth": "1836-04-15",
+   "birth_place": "Stanisławów",
+   "death": "1904-01-25",
+   "death_place": "Kołomyja/Stanisławów",
+   "death_raw": "25 JAN 1904",
+   "occupation": "",
+   "parents": [
+    "I84",
+    "I85"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I87": {
+   "id": "I87",
+   "given": "Dawid M.",
+   "surname": "Griffel",
+   "sex": "M",
+   "birth": "1946",
+   "birth_place": "NY (USA)",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I7",
+    "I67"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I88": {
+   "id": "I88",
+   "given": "Eve A.",
+   "surname": "Griffel",
+   "sex": "F",
+   "birth": "1949",
+   "birth_place": "NY (USA)",
+   "death": "1998",
+   "death_place": "",
+   "death_raw": "1998",
+   "occupation": "",
+   "parents": [
+    "I7",
+    "I67"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I89": {
+   "id": "I89",
+   "given": "Eryk",
+   "surname": "Griffel",
+   "sex": "M",
+   "birth": "1931-07-15",
+   "birth_place": "Kraków",
+   "death": "2020-02-06",
+   "death_place": "Rockville MD (USA)",
+   "death_raw": "6 FEB 2020",
+   "occupation": "",
+   "parents": [
+    "I6",
+    "I66"
+   ],
+   "children": [],
+   "spouses": [
+    "I91",
+    "I396"
+   ]
+  },
+  "I90": {
+   "id": "I90",
+   "given": "Diana Margaret",
+   "surname": "Griffel",
+   "sex": "F",
+   "birth": "1943-10-27",
+   "birth_place": "Paddington, London (England)",
+   "death": "2011-10-13",
+   "death_place": "NY (USA)",
+   "death_raw": "13 OCT 2011",
+   "occupation": "",
+   "parents": [
+    "I6",
+    "I66"
+   ],
+   "children": [
+    "I399"
+   ],
+   "spouses": [
+    "I94",
+    "I397"
+   ]
+  },
+  "I91": {
+   "id": "I91",
+   "given": "Barbara",
+   "surname": "Waddington",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "2004",
+   "death_place": "",
+   "death_raw": "2004",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I92",
+    "I93"
+   ],
+   "spouses": [
+    "I89"
+   ]
+  },
+  "I92": {
+   "id": "I92",
+   "given": "Dennis",
+   "surname": "...",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I91"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I93": {
+   "id": "I93",
+   "given": "Richard",
+   "surname": "...",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I91"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I94": {
+   "id": "I94",
+   "given": "William Lewis",
+   "surname": "Schreiber",
+   "sex": "M",
+   "birth": "1947-03-15",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I399",
+    "I398"
+   ],
+   "spouses": [
+    "I90"
+   ]
+  },
+  "I95": {
+   "id": "I95",
+   "given": "Miriam Devorah",
+   "surname": "Rottenberg",
+   "sex": "F",
+   "birth": "1914-05-31",
+   "birth_place": "Dębica",
+   "death": "1998-06-03",
+   "death_place": "",
+   "death_raw": "3 JUN 1998",
+   "occupation": "",
+   "parents": [
+    "I130",
+    "I131"
+   ],
+   "children": [
+    "I96",
+    "I132"
+   ],
+   "spouses": [
+    "I16"
+   ]
+  },
+  "I96": {
+   "id": "I96",
+   "given": "Joseph",
+   "surname": "Griffel",
+   "sex": "M",
+   "birth": "1953-01-13",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I16",
+    "I95"
+   ],
+   "children": [
+    "I375",
+    "I377",
+    "I379",
+    "I381",
+    "I383",
+    "I384",
+    "I385"
+   ],
+   "spouses": [
+    "I371"
+   ]
+  },
+  "I97": {
+   "id": "I97",
+   "given": "Lucy",
+   "surname": "Hauser-Auerbach",
+   "sex": "F",
+   "birth": "1920-11-12",
+   "birth_place": "Kraków",
+   "death": "2012-01-01",
+   "death_place": "NY (USA)",
+   "death_raw": "1 JAN 2012",
+   "occupation": "",
+   "parents": [
+    "I331",
+    "I332"
+   ],
+   "children": [
+    "I13"
+   ],
+   "spouses": [
+    "I12"
+   ]
+  },
+  "I98": {
+   "id": "I98",
+   "given": "Dawid Mendel",
+   "surname": "Rapaport",
+   "sex": "M",
+   "birth": "1911",
+   "birth_place": "Nadwórna",
+   "death": "1990",
+   "death_place": "Haifa",
+   "death_raw": "1990",
+   "occupation": "",
+   "parents": [
+    "I22",
+    "I21"
+   ],
+   "children": [
+    "I99",
+    "I101"
+   ],
+   "spouses": [
+    "I100"
+   ]
+  },
+  "I99": {
+   "id": "I99",
+   "given": "Shimon",
+   "surname": "Rapaport",
+   "sex": "M",
+   "birth": "1937",
+   "birth_place": "Muszyna ?",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I98",
+    "I100"
+   ],
+   "children": [
+    "I107",
+    "I108"
+   ],
+   "spouses": [
+    "I106"
+   ]
+  },
+  "I100": {
+   "id": "I100",
+   "given": "Lea (Lusia)",
+   "surname": "Weitzner (Wizner)",
+   "sex": "F",
+   "birth": "1913",
+   "birth_place": "Bolechów",
+   "death": "1996",
+   "death_place": "Haifa",
+   "death_raw": "1996",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I99",
+    "I101"
+   ],
+   "spouses": [
+    "I98"
+   ]
+  },
+  "I101": {
+   "id": "I101",
+   "given": "Dov",
+   "surname": "Rapaport",
+   "sex": "M",
+   "birth": "1949",
+   "birth_place": "Brussels",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I98",
+    "I100"
+   ],
+   "children": [
+    "I103",
+    "I104",
+    "I105"
+   ],
+   "spouses": [
+    "I102"
+   ]
+  },
+  "I102": {
+   "id": "I102",
+   "given": "Dalia",
+   "surname": "Goldfish",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I103",
+    "I104",
+    "I105"
+   ],
+   "spouses": [
+    "I101"
+   ]
+  },
+  "I103": {
+   "id": "I103",
+   "given": "Dana",
+   "surname": "Rapaport",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I101",
+    "I102"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I104": {
+   "id": "I104",
+   "given": "Doron",
+   "surname": "Rapaport",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I101",
+    "I102"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I105": {
+   "id": "I105",
+   "given": "Daniel",
+   "surname": "Rapaport",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I101",
+    "I102"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I106": {
+   "id": "I106",
+   "given": "Tamar",
+   "surname": "Bugin",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I107",
+    "I108"
+   ],
+   "spouses": [
+    "I99"
+   ]
+  },
+  "I107": {
+   "id": "I107",
+   "given": "Ronen",
+   "surname": "Rapaport",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I99",
+    "I106"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I108": {
+   "id": "I108",
+   "given": "Hadas",
+   "surname": "Rapaport",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I99",
+    "I106"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I109": {
+   "id": "I109",
+   "given": "Lota",
+   "surname": "Rapaport",
+   "sex": "F",
+   "birth": "1915",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I22",
+    "I21"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I110": {
+   "id": "I110",
+   "given": "Teofila Tauba",
+   "surname": "Griffel",
+   "sex": "F",
+   "birth": "1906-02-22",
+   "birth_place": "Stanisławów",
+   "death": "",
+   "death_place": "",
+   "death_raw": "(Shoah)",
+   "occupation": "",
+   "parents": [
+    "I14",
+    "I15"
+   ],
+   "children": [
+    "I340"
+   ],
+   "spouses": [
+    "I273"
+   ]
+  },
+  "I111": {
+   "id": "I111",
+   "given": "Israel",
+   "surname": "Haffner",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I20"
+   ],
+   "spouses": [
+    "I112"
+   ]
+  },
+  "I112": {
+   "id": "I112",
+   "given": "Reisie Pearl",
+   "surname": "...",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I20"
+   ],
+   "spouses": [
+    "I111"
+   ]
+  },
+  "I113": {
+   "id": "I113",
+   "given": "Hersch Meilech",
+   "surname": "Wilner",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I9"
+   ],
+   "spouses": [
+    "I114"
+   ]
+  },
+  "I114": {
+   "id": "I114",
+   "given": "Rivka Chana",
+   "surname": "...",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I9"
+   ],
+   "spouses": [
+    "I113"
+   ]
+  },
+  "I115": {
+   "id": "I115",
+   "given": "Freude",
+   "surname": "Willner",
+   "sex": "F",
+   "birth": "1892-11-21",
+   "birth_place": "Nadwórna",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I9",
+    "I8"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I116": {
+   "id": "I116",
+   "given": "Szmul",
+   "surname": "Ajchenbaum",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I62"
+   ],
+   "spouses": [
+    "I117"
+   ]
+  },
+  "I117": {
+   "id": "I117",
+   "given": "Chadesa Malka",
+   "surname": "Adler",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I62"
+   ],
+   "spouses": [
+    "I116"
+   ]
+  },
+  "I118": {
+   "id": "I118",
+   "given": "Samuel",
+   "surname": "Griffel",
+   "sex": "M",
+   "birth": "1913-09-29",
+   "birth_place": "Stanisławów",
+   "death": "1999-02-25",
+   "death_place": "Brooklyn, Kings, NY",
+   "death_raw": "25 FEB 1999",
+   "occupation": "",
+   "parents": [
+    "I14",
+    "I15"
+   ],
+   "children": [
+    "I123",
+    "I122",
+    "I124",
+    "I125",
+    "I126"
+   ],
+   "spouses": [
+    "I119"
+   ]
+  },
+  "I119": {
+   "id": "I119",
+   "given": "Chana",
+   "surname": "Rosenfeld",
+   "sex": "F",
+   "birth": "1923-03-05",
+   "birth_place": "Rimbolov (USSR)",
+   "death": "2013-06",
+   "death_place": "",
+   "death_raw": "JUN 2013",
+   "occupation": "",
+   "parents": [
+    "I120",
+    "I121"
+   ],
+   "children": [
+    "I123",
+    "I122",
+    "I124",
+    "I125",
+    "I126"
+   ],
+   "spouses": [
+    "I118"
+   ]
+  },
+  "I120": {
+   "id": "I120",
+   "given": "Baruch",
+   "surname": "Rosenfeld",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I119"
+   ],
+   "spouses": [
+    "I121"
+   ]
+  },
+  "I121": {
+   "id": "I121",
+   "given": "Henna Rivka",
+   "surname": "...",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I119"
+   ],
+   "spouses": [
+    "I120"
+   ]
+  },
+  "I122": {
+   "id": "I122",
+   "given": "Isaac",
+   "surname": "Griffel",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I118",
+    "I119"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I123": {
+   "id": "I123",
+   "given": "Baruch",
+   "surname": "Griffel",
+   "sex": "M",
+   "birth": "1954-12-04",
+   "birth_place": "Frunze (USSR)",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I118",
+    "I119"
+   ],
+   "children": [],
+   "spouses": [
+    "I390"
+   ]
+  },
+  "I124": {
+   "id": "I124",
+   "given": "Moshe Eliezer",
+   "surname": "Griffel",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I118",
+    "I119"
+   ],
+   "children": [
+    "I392"
+   ],
+   "spouses": [
+    "I391"
+   ]
+  },
+  "I125": {
+   "id": "I125",
+   "given": "Judith",
+   "surname": "Griffel",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I118",
+    "I119"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I126": {
+   "id": "I126",
+   "given": "Rivka",
+   "surname": "Griffel",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I118",
+    "I119"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I127": {
+   "id": "I127",
+   "given": "Pauline Pearl",
+   "surname": "Werchajzer",
+   "sex": "F",
+   "birth": "1918-06-08",
+   "birth_place": "Radom",
+   "death": "2000-10-15",
+   "death_place": "",
+   "death_raw": "15 OCT 2000",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I128",
+    "I129"
+   ],
+   "spouses": [
+    "I44"
+   ]
+  },
+  "I128": {
+   "id": "I128",
+   "given": "Andrew",
+   "surname": "Griffel",
+   "sex": "M",
+   "birth": "1942-10-06",
+   "birth_place": "Radom",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I44",
+    "I127"
+   ],
+   "children": [
+    "I387"
+   ],
+   "spouses": [
+    "I386",
+    "I388"
+   ]
+  },
+  "I129": {
+   "id": "I129",
+   "given": "Judy",
+   "surname": "Griffel",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I44",
+    "I127"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I130": {
+   "id": "I130",
+   "given": "Aron",
+   "surname": "Rottenberg",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I95"
+   ],
+   "spouses": [
+    "I131"
+   ]
+  },
+  "I131": {
+   "id": "I131",
+   "given": "Sara Rifka",
+   "surname": "Anisfeld",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I95"
+   ],
+   "spouses": [
+    "I130"
+   ]
+  },
+  "I132": {
+   "id": "I132",
+   "given": "Sara",
+   "surname": "Griffel",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I16",
+    "I95"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I133": {
+   "id": "I133",
+   "given": "Fela",
+   "surname": "Freilich",
+   "sex": "F",
+   "birth": "1907-01-12",
+   "birth_place": "Kraków",
+   "death": "1942",
+   "death_place": "",
+   "death_raw": "1942",
+   "occupation": "",
+   "parents": [
+    "I134",
+    "I135"
+   ],
+   "children": [
+    "I136",
+    "I137"
+   ],
+   "spouses": [
+    "I16"
+   ]
+  },
+  "I134": {
+   "id": "I134",
+   "given": "Chaim Yehoshua",
+   "surname": "Freilich",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I276",
+    "I277"
+   ],
+   "children": [
+    "I133",
+    "I278",
+    "I279"
+   ],
+   "spouses": [
+    "I135"
+   ]
+  },
+  "I135": {
+   "id": "I135",
+   "given": "Marya",
+   "surname": "Freilich",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I274",
+    "I275"
+   ],
+   "children": [
+    "I133",
+    "I278",
+    "I279"
+   ],
+   "spouses": [
+    "I134"
+   ]
+  },
+  "I136": {
+   "id": "I136",
+   "given": "Eline",
+   "surname": "Griffel",
+   "sex": "F",
+   "birth": "1928-01-05",
+   "birth_place": "Vienna",
+   "death": "1942",
+   "death_place": "",
+   "death_raw": "(1942 about)",
+   "occupation": "",
+   "parents": [
+    "I16",
+    "I133"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I137": {
+   "id": "I137",
+   "given": "Eliezer (Burli)",
+   "surname": "Griffel",
+   "sex": "M",
+   "birth": "1929-02-23",
+   "birth_place": "Kraków",
+   "death": "1942",
+   "death_place": "",
+   "death_raw": "(1942 about)",
+   "occupation": "",
+   "parents": [
+    "I16",
+    "I133"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I138": {
+   "id": "I138",
+   "given": "Rivka Chaya",
+   "surname": "Fortgang",
+   "sex": "F",
+   "birth": "1905",
+   "birth_place": "Trzebinia",
+   "death": "1942",
+   "death_place": "",
+   "death_raw": "1942",
+   "occupation": "",
+   "parents": [
+    "I139",
+    "I140"
+   ],
+   "children": [
+    "I141",
+    "I142"
+   ],
+   "spouses": [
+    "I42"
+   ]
+  },
+  "I139": {
+   "id": "I139",
+   "given": "Shmiel",
+   "surname": "Fortgang",
+   "sex": "M",
+   "birth": "1885",
+   "birth_place": "Bardejov (Slovakia)",
+   "death": "1943",
+   "death_place": "KL Auschwitz",
+   "death_raw": "(1943 about)",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I138"
+   ],
+   "spouses": [
+    "I140"
+   ]
+  },
+  "I140": {
+   "id": "I140",
+   "given": "Tilla",
+   "surname": "Glass",
+   "sex": "F",
+   "birth": "1884",
+   "birth_place": "Trzebinia",
+   "death": "1960",
+   "death_place": "Ramat Gan, Tel Aviv (Israel)",
+   "death_raw": "1960",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I138"
+   ],
+   "spouses": [
+    "I139"
+   ]
+  },
+  "I141": {
+   "id": "I141",
+   "given": "Thea",
+   "surname": "Griffel",
+   "sex": "F",
+   "birth": "1930-01-08",
+   "birth_place": "Vienna",
+   "death": "1942",
+   "death_place": "",
+   "death_raw": "1942",
+   "occupation": "",
+   "parents": [
+    "I42",
+    "I138"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I142": {
+   "id": "I142",
+   "given": "Chaja Mindel",
+   "surname": "Griffel",
+   "sex": "F",
+   "birth": "1935",
+   "birth_place": "Stanisławów",
+   "death": "1942",
+   "death_place": "",
+   "death_raw": "1942",
+   "occupation": "",
+   "parents": [
+    "I42",
+    "I138"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I143": {
+   "id": "I143",
+   "given": "Rebeka Rachela",
+   "surname": "Griffel",
+   "sex": "F",
+   "birth": "1927-11-02",
+   "birth_place": "Lublin",
+   "death": "",
+   "death_place": "",
+   "death_raw": "(Shoah)",
+   "occupation": "",
+   "parents": [
+    "I43",
+    "I62"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I144": {
+   "id": "I144",
+   "given": "Rebeka",
+   "surname": "Griffel",
+   "sex": "F",
+   "birth": "1919-07-12",
+   "birth_place": "Stanisławów",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I14",
+    "I15"
+   ],
+   "children": [
+    "I147"
+   ],
+   "spouses": [
+    "I145"
+   ]
+  },
+  "I145": {
+   "id": "I145",
+   "given": "Zalman",
+   "surname": "Horowitz",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "1945",
+   "death_place": "",
+   "death_raw": "1945",
+   "occupation": "",
+   "parents": [
+    "I146"
+   ],
+   "children": [
+    "I147"
+   ],
+   "spouses": [
+    "I144"
+   ]
+  },
+  "I146": {
+   "id": "I146",
+   "given": "Pinkas",
+   "surname": "Horowitz",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I145"
+   ],
+   "spouses": []
+  },
+  "I147": {
+   "id": "I147",
+   "given": "...",
+   "surname": "Horowitz",
+   "sex": "U",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I145",
+    "I144"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I148": {
+   "id": "I148",
+   "given": "Janka (Khana Yanku)",
+   "surname": "Kratz",
+   "sex": "F",
+   "birth": "1886",
+   "birth_place": "Sziget, Maramaros, Crisana-Maramures (Romania)",
+   "death": "1943",
+   "death_place": "",
+   "death_raw": "1943",
+   "occupation": "",
+   "parents": [
+    "I151",
+    "I155"
+   ],
+   "children": [
+    "I149",
+    "I150"
+   ],
+   "spouses": [
+    "I40"
+   ]
+  },
+  "I149": {
+   "id": "I149",
+   "given": "Rivka",
+   "surname": "Griffel",
+   "sex": "F",
+   "birth": "1910-08-23",
+   "birth_place": "Sigeth (Romania)",
+   "death": "1999-09-14",
+   "death_place": "Petach Tikwa",
+   "death_raw": "14 SEP 1999",
+   "occupation": "composer",
+   "parents": [
+    "I40",
+    "I148"
+   ],
+   "children": [
+    "I154"
+   ],
+   "spouses": [
+    "I152",
+    "I153"
+   ]
+  },
+  "I150": {
+   "id": "I150",
+   "given": "Willy Zeev Dov Volf",
+   "surname": "Griffel",
+   "sex": "M",
+   "birth": "1913-02-18",
+   "birth_place": "Budapest",
+   "death": "1943",
+   "death_place": "Nadwórna",
+   "death_raw": "1943",
+   "occupation": "engineer",
+   "parents": [
+    "I40",
+    "I148"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I151": {
+   "id": "I151",
+   "given": "Sender",
+   "surname": "Kratz",
+   "sex": "M",
+   "birth": "1860",
+   "birth_place": "Sigeth (Romania)",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "wood merchant",
+   "parents": [],
+   "children": [
+    "I148"
+   ],
+   "spouses": [
+    "I155"
+   ]
+  },
+  "I152": {
+   "id": "I152",
+   "given": "Alexander",
+   "surname": "Broide",
+   "sex": "M",
+   "birth": "1916-01-20",
+   "birth_place": "",
+   "death": "2004-12-21",
+   "death_place": "",
+   "death_raw": "21 DEC 2004",
+   "occupation": "",
+   "parents": [],
+   "children": [],
+   "spouses": [
+    "I149"
+   ]
+  },
+  "I153": {
+   "id": "I153",
+   "given": "Aryeh",
+   "surname": "Gvili",
+   "sex": "M",
+   "birth": "1907",
+   "birth_place": "",
+   "death": "1997",
+   "death_place": "",
+   "death_raw": "1997",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I154"
+   ],
+   "spouses": [
+    "I149"
+   ]
+  },
+  "I154": {
+   "id": "I154",
+   "given": "",
+   "surname": "Gwili",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I153",
+    "I149"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I155": {
+   "id": "I155",
+   "given": "Nisel",
+   "surname": "Kahana",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I148"
+   ],
+   "spouses": [
+    "I151"
+   ]
+  },
+  "I156": {
+   "id": "I156",
+   "given": "...",
+   "surname": "Brenner",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [],
+   "spouses": [
+    "I61"
+   ]
+  },
+  "I157": {
+   "id": "I157",
+   "given": "Scheindel",
+   "surname": "Lamm",
+   "sex": "F",
+   "birth": "1900-04-11",
+   "birth_place": "Nadwórna",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I11",
+    "I10"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I158": {
+   "id": "I158",
+   "given": "Amalia",
+   "surname": "Griffel",
+   "sex": "F",
+   "birth": "1912-03-22",
+   "birth_place": "Stanisławów",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I14",
+    "I15"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I159": {
+   "id": "I159",
+   "given": "Race",
+   "surname": "Griffel",
+   "sex": "F",
+   "birth": "1906-05-26",
+   "birth_place": "Przeworsk",
+   "death": "1943",
+   "death_place": "",
+   "death_raw": "1943",
+   "occupation": "",
+   "parents": [
+    "I17",
+    "I18"
+   ],
+   "children": [
+    "I209"
+   ],
+   "spouses": [
+    "I208"
+   ]
+  },
+  "I160": {
+   "id": "I160",
+   "given": "Lutek",
+   "surname": "Sapir",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I181",
+    "I182"
+   ],
+   "spouses": [
+    "I53"
+   ]
+  },
+  "I161": {
+   "id": "I161",
+   "given": "dr Bernard",
+   "surname": "Cahane",
+   "sex": "M",
+   "birth": "1901",
+   "birth_place": "Cernauti, Bukowina",
+   "death": "",
+   "death_place": "",
+   "death_raw": "(Shoah)",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I299"
+   ],
+   "spouses": [
+    "I56"
+   ]
+  },
+  "I162": {
+   "id": "I162",
+   "given": "Maltzha",
+   "surname": "...",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I163",
+    "I164"
+   ],
+   "spouses": [
+    "I50"
+   ]
+  },
+  "I163": {
+   "id": "I163",
+   "given": "Eli",
+   "surname": "Gruenfeld",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I50",
+    "I162"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I164": {
+   "id": "I164",
+   "given": "...",
+   "surname": "Gruenfeld",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I50",
+    "I162"
+   ],
+   "children": [],
+   "spouses": [
+    "I165"
+   ]
+  },
+  "I165": {
+   "id": "I165",
+   "given": "...",
+   "surname": "Mozess",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [],
+   "spouses": [
+    "I164"
+   ]
+  },
+  "I166": {
+   "id": "I166",
+   "given": "Gizela",
+   "surname": "Kalmus",
+   "sex": "F",
+   "birth": "1898",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I204"
+   ],
+   "children": [
+    "I167",
+    "I168"
+   ],
+   "spouses": [
+    "I45"
+   ]
+  },
+  "I167": {
+   "id": "I167",
+   "given": "...",
+   "surname": "Gruenfeld",
+   "sex": "U",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I45",
+    "I166"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I168": {
+   "id": "I168",
+   "given": "...",
+   "surname": "Gruenfeld",
+   "sex": "U",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I45",
+    "I166"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I169": {
+   "id": "I169",
+   "given": "Ilana (Klara)",
+   "surname": "Gruenfeld",
+   "sex": "F",
+   "birth": "1924-05-25",
+   "birth_place": "Stanisławów",
+   "death": "2014",
+   "death_place": "",
+   "death_raw": "2014",
+   "occupation": "",
+   "parents": [
+    "I34",
+    "I35"
+   ],
+   "children": [
+    "I173"
+   ],
+   "spouses": [
+    "I170"
+   ]
+  },
+  "I170": {
+   "id": "I170",
+   "given": "Arie",
+   "surname": "Weinreb",
+   "sex": "M",
+   "birth": "1923-04-24",
+   "birth_place": "",
+   "death": "1969-08-06",
+   "death_place": "",
+   "death_raw": "6 AUG 1969",
+   "occupation": "",
+   "parents": [
+    "I171",
+    "I172"
+   ],
+   "children": [
+    "I173"
+   ],
+   "spouses": [
+    "I169"
+   ]
+  },
+  "I171": {
+   "id": "I171",
+   "given": "Natan",
+   "surname": "Weinreb",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I170"
+   ],
+   "spouses": [
+    "I172"
+   ]
+  },
+  "I172": {
+   "id": "I172",
+   "given": "Pnina",
+   "surname": "...",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I170"
+   ],
+   "spouses": [
+    "I171"
+   ]
+  },
+  "I173": {
+   "id": "I173",
+   "given": "Eli (Shmuel)",
+   "surname": "Ben Ari",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I170",
+    "I169"
+   ],
+   "children": [
+    "I175",
+    "I176"
+   ],
+   "spouses": [
+    "I174"
+   ]
+  },
+  "I174": {
+   "id": "I174",
+   "given": "...",
+   "surname": "Belaish",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I175",
+    "I176"
+   ],
+   "spouses": [
+    "I173"
+   ]
+  },
+  "I175": {
+   "id": "I175",
+   "given": "...",
+   "surname": "Ben Ari",
+   "sex": "U",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I173",
+    "I174"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I176": {
+   "id": "I176",
+   "given": "...",
+   "surname": "Ben Ari",
+   "sex": "U",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I173",
+    "I174"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I177": {
+   "id": "I177",
+   "given": "Yehuda",
+   "surname": "Hager",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I207",
+    "I35"
+   ],
+   "spouses": [
+    "I178"
+   ]
+  },
+  "I178": {
+   "id": "I178",
+   "given": "Cypra",
+   "surname": "Burstyn",
+   "sex": "F",
+   "birth": "1879",
+   "birth_place": "Lwów",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I205",
+    "I206"
+   ],
+   "children": [
+    "I207",
+    "I35"
+   ],
+   "spouses": [
+    "I26",
+    "I177"
+   ]
+  },
+  "I179": {
+   "id": "I179",
+   "given": "Mendel",
+   "surname": "Gruenfeld",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I26"
+   ],
+   "spouses": [
+    "I180"
+   ]
+  },
+  "I180": {
+   "id": "I180",
+   "given": "Tauba",
+   "surname": "Goldfischer",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I26"
+   ],
+   "spouses": [
+    "I179"
+   ]
+  },
+  "I181": {
+   "id": "I181",
+   "given": "...",
+   "surname": "Sapir",
+   "sex": "U",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I160",
+    "I53"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I182": {
+   "id": "I182",
+   "given": "...",
+   "surname": "Sapir",
+   "sex": "U",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I160",
+    "I53"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I183": {
+   "id": "I183",
+   "given": "...",
+   "surname": "Heyn",
+   "sex": "U",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I32",
+    "I31"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I184": {
+   "id": "I184",
+   "given": "...",
+   "surname": "Heyn",
+   "sex": "U",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I32",
+    "I31"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I185": {
+   "id": "I185",
+   "given": "...",
+   "surname": "Heyn",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I32",
+    "I31"
+   ],
+   "children": [],
+   "spouses": [
+    "I186"
+   ]
+  },
+  "I186": {
+   "id": "I186",
+   "given": "...",
+   "surname": "Apelbauem",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [],
+   "spouses": [
+    "I185"
+   ]
+  },
+  "I187": {
+   "id": "I187",
+   "given": "Shulamit",
+   "surname": "Haviv (Liblich)",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I188",
+    "I189"
+   ],
+   "spouses": [
+    "I33"
+   ]
+  },
+  "I188": {
+   "id": "I188",
+   "given": "...",
+   "surname": "Blau",
+   "sex": "U",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I33",
+    "I187"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I189": {
+   "id": "I189",
+   "given": "...",
+   "surname": "Blau",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I33",
+    "I187"
+   ],
+   "children": [
+    "I191",
+    "I198",
+    "I200",
+    "I201",
+    "I203"
+   ],
+   "spouses": [
+    "I190"
+   ]
+  },
+  "I190": {
+   "id": "I190",
+   "given": "Shaul Zeev",
+   "surname": "Margaliot",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I191",
+    "I198",
+    "I200",
+    "I201",
+    "I203"
+   ],
+   "spouses": [
+    "I189"
+   ]
+  },
+  "I191": {
+   "id": "I191",
+   "given": "...",
+   "surname": "Margaliot",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I190",
+    "I189"
+   ],
+   "children": [
+    "I193",
+    "I194",
+    "I195",
+    "I196",
+    "I197"
+   ],
+   "spouses": [
+    "I192"
+   ]
+  },
+  "I192": {
+   "id": "I192",
+   "given": "...",
+   "surname": "Cohen",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I193",
+    "I194",
+    "I195",
+    "I196",
+    "I197"
+   ],
+   "spouses": [
+    "I191"
+   ]
+  },
+  "I193": {
+   "id": "I193",
+   "given": "Adi",
+   "surname": "Cohen",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I192",
+    "I191"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I194": {
+   "id": "I194",
+   "given": "Yuval",
+   "surname": "Cohen",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I192",
+    "I191"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I195": {
+   "id": "I195",
+   "given": "...",
+   "surname": "Cohen",
+   "sex": "U",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I192",
+    "I191"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I196": {
+   "id": "I196",
+   "given": "...",
+   "surname": "Cohen",
+   "sex": "U",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I192",
+    "I191"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I197": {
+   "id": "I197",
+   "given": "...",
+   "surname": "Cohen",
+   "sex": "U",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I192",
+    "I191"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I198": {
+   "id": "I198",
+   "given": "...",
+   "surname": "Margaliot",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I190",
+    "I189"
+   ],
+   "children": [],
+   "spouses": [
+    "I199"
+   ]
+  },
+  "I199": {
+   "id": "I199",
+   "given": "...",
+   "surname": "Dahan",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [],
+   "spouses": [
+    "I198"
+   ]
+  },
+  "I200": {
+   "id": "I200",
+   "given": "...",
+   "surname": "Margaliot",
+   "sex": "U",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I190",
+    "I189"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I201": {
+   "id": "I201",
+   "given": "...",
+   "surname": "Margaliot",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I190",
+    "I189"
+   ],
+   "children": [],
+   "spouses": [
+    "I202"
+   ]
+  },
+  "I202": {
+   "id": "I202",
+   "given": "...",
+   "surname": "Gera",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [],
+   "spouses": [
+    "I201"
+   ]
+  },
+  "I203": {
+   "id": "I203",
+   "given": "...",
+   "surname": "Margaliot",
+   "sex": "U",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I190",
+    "I189"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I204": {
+   "id": "I204",
+   "given": "Lazar",
+   "surname": "Kalmus",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I166"
+   ],
+   "spouses": []
+  },
+  "I205": {
+   "id": "I205",
+   "given": "Nuchim",
+   "surname": "Burstyn",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "kupiec we Lwowie/merchant in Lwów",
+   "parents": [],
+   "children": [
+    "I178"
+   ],
+   "spouses": [
+    "I206"
+   ]
+  },
+  "I206": {
+   "id": "I206",
+   "given": "Spinca",
+   "surname": "Meisels",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I178"
+   ],
+   "spouses": [
+    "I205"
+   ]
+  },
+  "I207": {
+   "id": "I207",
+   "given": "Arnold",
+   "surname": "Hager",
+   "sex": "M",
+   "birth": "1900",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I177",
+    "I178"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I208": {
+   "id": "I208",
+   "given": "Dutzik",
+   "surname": "Landes",
+   "sex": "M",
+   "birth": "1901",
+   "birth_place": "",
+   "death": "1943",
+   "death_place": "",
+   "death_raw": "1943",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I209"
+   ],
+   "spouses": [
+    "I159"
+   ]
+  },
+  "I209": {
+   "id": "I209",
+   "given": "Lantzia",
+   "surname": "Landes",
+   "sex": "F",
+   "birth": "1923",
+   "birth_place": "",
+   "death": "1943",
+   "death_place": "",
+   "death_raw": "1943",
+   "occupation": "",
+   "parents": [
+    "I208",
+    "I159"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I210": {
+   "id": "I210",
+   "given": "Chaja",
+   "surname": "Folger",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I18"
+   ],
+   "spouses": [
+    "I211"
+   ]
+  },
+  "I211": {
+   "id": "I211",
+   "given": "Eisig",
+   "surname": "Englard",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I18"
+   ],
+   "spouses": [
+    "I210"
+   ]
+  },
+  "I212": {
+   "id": "I212",
+   "given": "Lea",
+   "surname": "Griffel",
+   "sex": "F",
+   "birth": "1907",
+   "birth_place": "",
+   "death": "1943",
+   "death_place": "",
+   "death_raw": "1943",
+   "occupation": "",
+   "parents": [
+    "I17",
+    "I18"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I213": {
+   "id": "I213",
+   "given": "Sura",
+   "surname": "Hermann",
+   "sex": "F",
+   "birth": "1866",
+   "birth_place": "Kołomyja",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I70",
+    "I69"
+   ],
+   "children": [],
+   "spouses": [
+    "I224",
+    "I225"
+   ]
+  },
+  "I214": {
+   "id": "I214",
+   "given": "Eisig Chaim",
+   "surname": "Hermann",
+   "sex": "M",
+   "birth": "1868",
+   "birth_place": "Kołomyja",
+   "death": "1874",
+   "death_place": "Kołomyja",
+   "death_raw": "1874",
+   "occupation": "",
+   "parents": [
+    "I70",
+    "I69"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I215": {
+   "id": "I215",
+   "given": "Schmul",
+   "surname": "Hermann",
+   "sex": "M",
+   "birth": "1870",
+   "birth_place": "Kołomyja",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I70",
+    "I69"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I216": {
+   "id": "I216",
+   "given": "Machla",
+   "surname": "Hermann",
+   "sex": "F",
+   "birth": "1871",
+   "birth_place": "Kołomyja",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I70",
+    "I69"
+   ],
+   "children": [
+    "I246",
+    "I247",
+    "I248",
+    "I309"
+   ],
+   "spouses": [
+    "I230"
+   ]
+  },
+  "I217": {
+   "id": "I217",
+   "given": "Sussel",
+   "surname": "Hermann",
+   "sex": "F",
+   "birth": "1872",
+   "birth_place": "Kołomyja",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I70",
+    "I69"
+   ],
+   "children": [
+    "I313",
+    "I314"
+   ],
+   "spouses": [
+    "I227"
+   ]
+  },
+  "I218": {
+   "id": "I218",
+   "given": "Chane",
+   "surname": "Hermann",
+   "sex": "F",
+   "birth": "1875",
+   "birth_place": "Kołomyja",
+   "death": "1881",
+   "death_place": "Kołomyja",
+   "death_raw": "1881",
+   "occupation": "",
+   "parents": [
+    "I70",
+    "I69"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I219": {
+   "id": "I219",
+   "given": "Abracham Leib",
+   "surname": "Hermann",
+   "sex": "M",
+   "birth": "1876-11-14",
+   "birth_place": "Kołomyja",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I70",
+    "I69"
+   ],
+   "children": [
+    "I374",
+    "I373",
+    "I372"
+   ],
+   "spouses": [
+    "I369"
+   ]
+  },
+  "I220": {
+   "id": "I220",
+   "given": "Chaje",
+   "surname": "Hermann",
+   "sex": "F",
+   "birth": "1878-04-26",
+   "birth_place": "Kołomyja",
+   "death": "1943-09",
+   "death_place": "KL Auschwitz",
+   "death_raw": "SEP 1943",
+   "occupation": "",
+   "parents": [
+    "I70",
+    "I69"
+   ],
+   "children": [
+    "I256",
+    "I257",
+    "I258",
+    "I259"
+   ],
+   "spouses": [
+    "I226"
+   ]
+  },
+  "I221": {
+   "id": "I221",
+   "given": "Schaja",
+   "surname": "Hermann",
+   "sex": "M",
+   "birth": "1881-11-03",
+   "birth_place": "Kołomyja",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I70",
+    "I69"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I222": {
+   "id": "I222",
+   "given": "Schaja",
+   "surname": "Hermann",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I70"
+   ],
+   "spouses": [
+    "I223"
+   ]
+  },
+  "I223": {
+   "id": "I223",
+   "given": "Sussel",
+   "surname": "...",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "1872",
+   "death_place": "Kołomyja",
+   "death_raw": "1872",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I70"
+   ],
+   "spouses": [
+    "I222"
+   ]
+  },
+  "I224": {
+   "id": "I224",
+   "given": "Uren",
+   "surname": "Mimeles Sokal",
+   "sex": "M",
+   "birth": "1860",
+   "birth_place": "Lwów",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I252",
+    "I253"
+   ],
+   "children": [],
+   "spouses": [
+    "I213"
+   ]
+  },
+  "I225": {
+   "id": "I225",
+   "given": "Juda Ber",
+   "surname": "Seidman",
+   "sex": "M",
+   "birth": "1863",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I311",
+    "I312"
+   ],
+   "children": [],
+   "spouses": [
+    "I213"
+   ]
+  },
+  "I226": {
+   "id": "I226",
+   "given": "Jakob",
+   "surname": "Heliczer",
+   "sex": "M",
+   "birth": "1880-10-01",
+   "birth_place": "Jezierna",
+   "death": "1943-09",
+   "death_place": "KL Auschwitz",
+   "death_raw": "SEP 1943",
+   "occupation": "kupiec",
+   "parents": [
+    "I254",
+    "I255"
+   ],
+   "children": [
+    "I256",
+    "I257",
+    "I258",
+    "I259"
+   ],
+   "spouses": [
+    "I220"
+   ]
+  },
+  "I227": {
+   "id": "I227",
+   "given": "Eisig Chaim",
+   "surname": "Chajes",
+   "sex": "M",
+   "birth": "1875",
+   "birth_place": "",
+   "death": "1932-12-16",
+   "death_place": "Vienna",
+   "death_raw": "16 DEC 1932",
+   "occupation": "",
+   "parents": [
+    "I228",
+    "I229"
+   ],
+   "children": [
+    "I313",
+    "I314"
+   ],
+   "spouses": [
+    "I217"
+   ]
+  },
+  "I228": {
+   "id": "I228",
+   "given": "Selig",
+   "surname": "Chajes",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I227"
+   ],
+   "spouses": [
+    "I229"
+   ]
+  },
+  "I229": {
+   "id": "I229",
+   "given": "Chana",
+   "surname": "Sperber",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I227"
+   ],
+   "spouses": [
+    "I228"
+   ]
+  },
+  "I230": {
+   "id": "I230",
+   "given": "Berl",
+   "surname": "Triebfeder",
+   "sex": "M",
+   "birth": "1872-09-12",
+   "birth_place": "Stanisławów",
+   "death": "",
+   "death_place": "Israel",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I231",
+    "I232"
+   ],
+   "children": [
+    "I246",
+    "I247",
+    "I248",
+    "I309"
+   ],
+   "spouses": [
+    "I216"
+   ]
+  },
+  "I231": {
+   "id": "I231",
+   "given": "Meier",
+   "surname": "Triebfeder",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I230"
+   ],
+   "spouses": [
+    "I232"
+   ]
+  },
+  "I232": {
+   "id": "I232",
+   "given": "Itte",
+   "surname": "Hermann",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I230"
+   ],
+   "spouses": [
+    "I231"
+   ]
+  },
+  "I233": {
+   "id": "I233",
+   "given": "Fanny (Feige Rivka)",
+   "surname": "Lichtenstein",
+   "sex": "F",
+   "birth": "1887",
+   "birth_place": "Kołomyja",
+   "death": "1963-11-03",
+   "death_place": "",
+   "death_raw": "3 NOV 1963",
+   "occupation": "",
+   "parents": [
+    "I72",
+    "I71"
+   ],
+   "children": [
+    "I260",
+    "I261",
+    "I303"
+   ],
+   "spouses": [
+    "I234"
+   ]
+  },
+  "I234": {
+   "id": "I234",
+   "given": "Mendel",
+   "surname": "Preminger",
+   "sex": "M",
+   "birth": "1885-11-10",
+   "birth_place": "",
+   "death": "1972-10-29",
+   "death_place": "",
+   "death_raw": "29 OCT 1972",
+   "occupation": "",
+   "parents": [
+    "I235",
+    "I236"
+   ],
+   "children": [
+    "I260",
+    "I261",
+    "I303"
+   ],
+   "spouses": [
+    "I233"
+   ]
+  },
+  "I235": {
+   "id": "I235",
+   "given": "Izrael",
+   "surname": "Preminger",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I234"
+   ],
+   "spouses": [
+    "I236"
+   ]
+  },
+  "I236": {
+   "id": "I236",
+   "given": "Genesie",
+   "surname": "Rinzler",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I234"
+   ],
+   "spouses": [
+    "I235"
+   ]
+  },
+  "I237": {
+   "id": "I237",
+   "given": "Jenta",
+   "surname": "Chajes",
+   "sex": "F",
+   "birth": "1882",
+   "birth_place": "",
+   "death": "1888",
+   "death_place": "Kołomyja",
+   "death_raw": "1888",
+   "occupation": "",
+   "parents": [
+    "I74",
+    "I75"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I238": {
+   "id": "I238",
+   "given": "Hersz",
+   "surname": "Chajes Khaiot",
+   "sex": "M",
+   "birth": "1892",
+   "birth_place": "Kołomyja",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "merchant",
+   "parents": [
+    "I74",
+    "I75"
+   ],
+   "children": [
+    "I319"
+   ],
+   "spouses": [
+    "I318"
+   ]
+  },
+  "I239": {
+   "id": "I239",
+   "given": "Scheindel",
+   "surname": "Chajes",
+   "sex": "F",
+   "birth": "1898",
+   "birth_place": "",
+   "death": "1902",
+   "death_place": "Kołomyja",
+   "death_raw": "1902",
+   "occupation": "",
+   "parents": [
+    "I74",
+    "I75"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I240": {
+   "id": "I240",
+   "given": "Lea",
+   "surname": "Chajes",
+   "sex": "F",
+   "birth": "1894",
+   "birth_place": "Kołomyja",
+   "death": "1942-06-02",
+   "death_place": "Kołomyja",
+   "death_raw": "2 JUN 1942",
+   "occupation": "",
+   "parents": [
+    "I74",
+    "I75"
+   ],
+   "children": [
+    "I320"
+   ],
+   "spouses": [
+    "I241"
+   ]
+  },
+  "I241": {
+   "id": "I241",
+   "given": "Samuel",
+   "surname": "Kupferman",
+   "sex": "M",
+   "birth": "1897",
+   "birth_place": "Czernolica, Horodenka",
+   "death": "",
+   "death_place": "Bełżec",
+   "death_raw": "",
+   "occupation": "merchant",
+   "parents": [
+    "I242",
+    "I243"
+   ],
+   "children": [
+    "I320"
+   ],
+   "spouses": [
+    "I240"
+   ]
+  },
+  "I242": {
+   "id": "I242",
+   "given": "Juda",
+   "surname": "Kupferman",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I241"
+   ],
+   "spouses": [
+    "I243"
+   ]
+  },
+  "I243": {
+   "id": "I243",
+   "given": "Chaje",
+   "surname": "Oliwer",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I241"
+   ],
+   "spouses": [
+    "I242"
+   ]
+  },
+  "I244": {
+   "id": "I244",
+   "given": "Hersz",
+   "surname": "Sternhell",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I75"
+   ],
+   "spouses": [
+    "I245"
+   ]
+  },
+  "I245": {
+   "id": "I245",
+   "given": "Risie",
+   "surname": "Herman",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I75"
+   ],
+   "spouses": [
+    "I244"
+   ]
+  },
+  "I246": {
+   "id": "I246",
+   "given": "Szeyndel Raca",
+   "surname": "Triebfeder",
+   "sex": "M",
+   "birth": "1894-01-17",
+   "birth_place": "Kołomyja",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I230",
+    "I216"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I247": {
+   "id": "I247",
+   "given": "Eisig Chaim",
+   "surname": "Triebfeder",
+   "sex": "M",
+   "birth": "1895-08-27",
+   "birth_place": "Kołomyja",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "merchant",
+   "parents": [
+    "I230",
+    "I216"
+   ],
+   "children": [
+    "I315"
+   ],
+   "spouses": [
+    "I249"
+   ]
+  },
+  "I248": {
+   "id": "I248",
+   "given": "Sussel",
+   "surname": "Triebfeder",
+   "sex": "F",
+   "birth": "1904",
+   "birth_place": "Stanisławów",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I230",
+    "I216"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I249": {
+   "id": "I249",
+   "given": "Hinde",
+   "surname": "Horowitz",
+   "sex": "F",
+   "birth": "1897-10",
+   "birth_place": "Stanisławów",
+   "death": "1941",
+   "death_place": "Stanisławów",
+   "death_raw": "1941",
+   "occupation": "",
+   "parents": [
+    "I250",
+    "I251"
+   ],
+   "children": [
+    "I315"
+   ],
+   "spouses": [
+    "I247"
+   ]
+  },
+  "I250": {
+   "id": "I250",
+   "given": "Jakub Ozyjasz",
+   "surname": "Horowitz",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I249"
+   ],
+   "spouses": [
+    "I251"
+   ]
+  },
+  "I251": {
+   "id": "I251",
+   "given": "Feiga",
+   "surname": "...",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I249"
+   ],
+   "spouses": [
+    "I250"
+   ]
+  },
+  "I252": {
+   "id": "I252",
+   "given": "Meyer Samuel",
+   "surname": "Mimeles",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I224"
+   ],
+   "spouses": [
+    "I253"
+   ]
+  },
+  "I253": {
+   "id": "I253",
+   "given": "Chawe Pessel",
+   "surname": "Sokal",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I224"
+   ],
+   "spouses": [
+    "I252"
+   ]
+  },
+  "I254": {
+   "id": "I254",
+   "given": "Josef",
+   "surname": "Heliczer",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I226"
+   ],
+   "spouses": [
+    "I255"
+   ]
+  },
+  "I255": {
+   "id": "I255",
+   "given": "Henie",
+   "surname": "...",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I226"
+   ],
+   "spouses": [
+    "I254"
+   ]
+  },
+  "I256": {
+   "id": "I256",
+   "given": "Henrieta",
+   "surname": "Heliczer",
+   "sex": "F",
+   "birth": "1905-01-11",
+   "birth_place": "Kołomyja",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I226",
+    "I220"
+   ],
+   "children": [],
+   "spouses": [
+    "I300"
+   ]
+  },
+  "I257": {
+   "id": "I257",
+   "given": "Eisig Chaim",
+   "surname": "Heliczer",
+   "sex": "M",
+   "birth": "1905-12-09",
+   "birth_place": "Kołomyja",
+   "death": "1906-12-07",
+   "death_place": "Kołomyja",
+   "death_raw": "7 DEC 1906",
+   "occupation": "",
+   "parents": [
+    "I226",
+    "I220"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I258": {
+   "id": "I258",
+   "given": "Fiszel",
+   "surname": "Heliczer",
+   "sex": "M",
+   "birth": "1905-12-09",
+   "birth_place": "Kołomyja",
+   "death": "1911-08-29",
+   "death_place": "Kołomyja",
+   "death_raw": "29 AUG 1911",
+   "occupation": "",
+   "parents": [
+    "I226",
+    "I220"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I259": {
+   "id": "I259",
+   "given": "Bella",
+   "surname": "Heliczer",
+   "sex": "F",
+   "birth": "1912-10-28",
+   "birth_place": "Kołomyja",
+   "death": "1978-01-04",
+   "death_place": "Hendon, Greater London",
+   "death_raw": "4 JAN 1978",
+   "occupation": "",
+   "parents": [
+    "I226",
+    "I220"
+   ],
+   "children": [],
+   "spouses": [
+    "I310"
+   ]
+  },
+  "I260": {
+   "id": "I260",
+   "given": "Genesia (Genia)",
+   "surname": "Preminger",
+   "sex": "F",
+   "birth": "1910-02-05",
+   "birth_place": "Kołomyja",
+   "death": "2002-12-22",
+   "death_place": "",
+   "death_raw": "22 DEC 2002",
+   "occupation": "pharmasist",
+   "parents": [
+    "I234",
+    "I233"
+   ],
+   "children": [
+    "I302",
+    "I307"
+   ],
+   "spouses": [
+    "I301"
+   ]
+  },
+  "I261": {
+   "id": "I261",
+   "given": "Boruch Bendit",
+   "surname": "Preminger",
+   "sex": "M",
+   "birth": "1911",
+   "birth_place": "Nadwórna",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I234",
+    "I233"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I266": {
+   "id": "I266",
+   "given": "Chane",
+   "surname": "Zeisler",
+   "sex": "F",
+   "birth": "1828-12-01",
+   "birth_place": "Stanisławów",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I84",
+    "I85"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I267": {
+   "id": "I267",
+   "given": "Josel",
+   "surname": "Zeisler",
+   "sex": "M",
+   "birth": "1831-10-11",
+   "birth_place": "Stanisławów",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I84",
+    "I85"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I268": {
+   "id": "I268",
+   "given": "Moses",
+   "surname": "Zeisler",
+   "sex": "M",
+   "birth": "1833-03-05",
+   "birth_place": "Stanisławów",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I84",
+    "I85"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I269": {
+   "id": "I269",
+   "given": "Mariam",
+   "surname": "Zeisler",
+   "sex": "F",
+   "birth": "1838-09-10",
+   "birth_place": "Stanisławów",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I84",
+    "I85"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I270": {
+   "id": "I270",
+   "given": "Efraim",
+   "surname": "Zeisler",
+   "sex": "M",
+   "birth": "1842-06-26",
+   "birth_place": "Stanisławów",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I84",
+    "I85"
+   ],
+   "children": [
+    "I324",
+    "I323",
+    "I322"
+   ],
+   "spouses": [
+    "I321"
+   ]
+  },
+  "I271": {
+   "id": "I271",
+   "given": "Leisor",
+   "surname": "Zeisler",
+   "sex": "M",
+   "birth": "1842-06-26",
+   "birth_place": "Stanisławów",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I84",
+    "I85"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I272": {
+   "id": "I272",
+   "given": "Sara",
+   "surname": "Zeisler",
+   "sex": "F",
+   "birth": "1827-01-28",
+   "birth_place": "Stanisławów",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I84",
+    "I85"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I273": {
+   "id": "I273",
+   "given": "Awigdor Schmul",
+   "surname": "Rosenbojm",
+   "sex": "M",
+   "birth": "1902-12-06",
+   "birth_place": "Warszawa",
+   "death": "1942",
+   "death_place": "Lublin",
+   "death_raw": "1942",
+   "occupation": "kupiec/merchant",
+   "parents": [
+    "I338",
+    "I339"
+   ],
+   "children": [
+    "I340"
+   ],
+   "spouses": [
+    "I110"
+   ]
+  },
+  "I274": {
+   "id": "I274",
+   "given": "Jakub",
+   "surname": "Freilich",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I135"
+   ],
+   "spouses": [
+    "I275"
+   ]
+  },
+  "I275": {
+   "id": "I275",
+   "given": "Cypra",
+   "surname": "...",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I135"
+   ],
+   "spouses": [
+    "I274"
+   ]
+  },
+  "I276": {
+   "id": "I276",
+   "given": "Dawid",
+   "surname": "Freilich",
+   "sex": "M",
+   "birth": "1859-02",
+   "birth_place": "Kraków",
+   "death": "1896-05-24",
+   "death_place": "Kraków",
+   "death_raw": "24 MAY 1896",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I288",
+    "I134",
+    "I280"
+   ],
+   "spouses": [
+    "I277"
+   ]
+  },
+  "I277": {
+   "id": "I277",
+   "given": "Judesa",
+   "surname": "Karmel",
+   "sex": "F",
+   "birth": "1861",
+   "birth_place": "Kraków",
+   "death": "1932",
+   "death_place": "Kraków",
+   "death_raw": "1932",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I288",
+    "I134",
+    "I280"
+   ],
+   "spouses": [
+    "I276"
+   ]
+  },
+  "I278": {
+   "id": "I278",
+   "given": "Sara",
+   "surname": "Freilich",
+   "sex": "F",
+   "birth": "1909-03-11",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I134",
+    "I135"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I279": {
+   "id": "I279",
+   "given": "Dawid",
+   "surname": "Freilich",
+   "sex": "M",
+   "birth": "1909-03-11",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I134",
+    "I135"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I280": {
+   "id": "I280",
+   "given": "Matel",
+   "surname": "Freilich",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I276",
+    "I277"
+   ],
+   "children": [
+    "I284",
+    "I285"
+   ],
+   "spouses": [
+    "I281"
+   ]
+  },
+  "I281": {
+   "id": "I281",
+   "given": "Srul Fischel",
+   "surname": "Karmel",
+   "sex": "M",
+   "birth": "1882-08-08",
+   "birth_place": "Berdyczów",
+   "death": "1943-03-27",
+   "death_place": "Płaszów",
+   "death_raw": "27 MAR 1943",
+   "occupation": "",
+   "parents": [
+    "I282",
+    "I283"
+   ],
+   "children": [
+    "I284",
+    "I285"
+   ],
+   "spouses": [
+    "I280"
+   ]
+  },
+  "I282": {
+   "id": "I282",
+   "given": "Aron Józef",
+   "surname": "Karmel",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I281",
+    "I287"
+   ],
+   "spouses": [
+    "I283"
+   ]
+  },
+  "I283": {
+   "id": "I283",
+   "given": "Eidla Adela",
+   "surname": "Karmel",
+   "sex": "F",
+   "birth": "1862",
+   "birth_place": "Berdyczów",
+   "death": "1893-06-28",
+   "death_place": "Kraków",
+   "death_raw": "28 JUN 1893",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I281",
+    "I287"
+   ],
+   "spouses": [
+    "I282"
+   ]
+  },
+  "I284": {
+   "id": "I284",
+   "given": "Dawid Chaim",
+   "surname": "Karmel",
+   "sex": "M",
+   "birth": "1903-04-01",
+   "birth_place": "Kalisz",
+   "death": "1995",
+   "death_place": "Tel-Aviv",
+   "death_raw": "1995",
+   "occupation": "",
+   "parents": [
+    "I281",
+    "I280"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I285": {
+   "id": "I285",
+   "given": "Juda Leib",
+   "surname": "Karmel",
+   "sex": "M",
+   "birth": "1905-07-09",
+   "birth_place": "Kraków",
+   "death": "1976-05-22",
+   "death_place": "Israel",
+   "death_raw": "22 MAY 1976",
+   "occupation": "",
+   "parents": [
+    "I281",
+    "I280"
+   ],
+   "children": [],
+   "spouses": [
+    "I286"
+   ]
+  },
+  "I286": {
+   "id": "I286",
+   "given": "Tzipora",
+   "surname": "Deitsch",
+   "sex": "F",
+   "birth": "1898-07-17",
+   "birth_place": "",
+   "death": "1983-03-19",
+   "death_place": "",
+   "death_raw": "19 MAR 1983",
+   "occupation": "",
+   "parents": [],
+   "children": [],
+   "spouses": [
+    "I285"
+   ]
+  },
+  "I287": {
+   "id": "I287",
+   "given": "Sara",
+   "surname": "Karmel",
+   "sex": "F",
+   "birth": "1887-12-20",
+   "birth_place": "Kraków",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I282",
+    "I283"
+   ],
+   "children": [
+    "I289",
+    "I290"
+   ],
+   "spouses": [
+    "I288"
+   ]
+  },
+  "I288": {
+   "id": "I288",
+   "given": "Menasche",
+   "surname": "Freilich",
+   "sex": "M",
+   "birth": "1886-11-12",
+   "birth_place": "Kraków",
+   "death": "1939-09-30",
+   "death_place": "Kraków",
+   "death_raw": "30 SEP 1939",
+   "occupation": "",
+   "parents": [
+    "I276",
+    "I277"
+   ],
+   "children": [
+    "I289",
+    "I290"
+   ],
+   "spouses": [
+    "I287"
+   ]
+  },
+  "I289": {
+   "id": "I289",
+   "given": "Józef",
+   "surname": "Freilich",
+   "sex": "M",
+   "birth": "1911-09-17",
+   "birth_place": "Kraków",
+   "death": "1943",
+   "death_place": "",
+   "death_raw": "(1943 about)",
+   "occupation": "",
+   "parents": [
+    "I288",
+    "I287"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I290": {
+   "id": "I290",
+   "given": "Dawid",
+   "surname": "Freilich",
+   "sex": "M",
+   "birth": "1917-07-20",
+   "birth_place": "Kraków",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I288",
+    "I287"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I291": {
+   "id": "I291",
+   "given": "Jona",
+   "surname": "Stern",
+   "sex": "M",
+   "birth": "1891-01-09",
+   "birth_place": "Jagielnica",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I292",
+    "I293"
+   ],
+   "spouses": [
+    "I47"
+   ]
+  },
+  "I292": {
+   "id": "I292",
+   "given": "Renee",
+   "surname": "Stern",
+   "sex": "F",
+   "birth": "1922-11-09",
+   "birth_place": "Vienna",
+   "death": "2004-04-26",
+   "death_place": "Washington",
+   "death_raw": "26 APR 2004",
+   "occupation": "",
+   "parents": [
+    "I291",
+    "I47"
+   ],
+   "children": [
+    "I295"
+   ],
+   "spouses": [
+    "I294"
+   ]
+  },
+  "I293": {
+   "id": "I293",
+   "given": "Ludwig Robert",
+   "surname": "Stern",
+   "sex": "M",
+   "birth": "1928-08-17",
+   "birth_place": "Vienna",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I291",
+    "I47"
+   ],
+   "children": [
+    "I298"
+   ],
+   "spouses": [
+    "I297"
+   ]
+  },
+  "I294": {
+   "id": "I294",
+   "given": "Erich",
+   "surname": "Bloch",
+   "sex": "M",
+   "birth": "1925-01-09",
+   "birth_place": "",
+   "death": "2016-11-25",
+   "death_place": "",
+   "death_raw": "25 NOV 2016",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I295"
+   ],
+   "spouses": [
+    "I292"
+   ]
+  },
+  "I295": {
+   "id": "I295",
+   "given": "...",
+   "surname": "Bloch",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I294",
+    "I292"
+   ],
+   "children": [],
+   "spouses": [
+    "I296"
+   ]
+  },
+  "I296": {
+   "id": "I296",
+   "given": "...",
+   "surname": "Rosen",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [],
+   "spouses": [
+    "I295"
+   ]
+  },
+  "I297": {
+   "id": "I297",
+   "given": "Marie",
+   "surname": "Stampfli",
+   "sex": "F",
+   "birth": "1921-06-15",
+   "birth_place": "Schwarzenburg (Switzerland)",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I333",
+    "I334"
+   ],
+   "children": [
+    "I298"
+   ],
+   "spouses": [
+    "I293"
+   ]
+  },
+  "I298": {
+   "id": "I298",
+   "given": "Mark",
+   "surname": "Stern",
+   "sex": "M",
+   "birth": "1951-12-24",
+   "birth_place": "NY (USA)",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I293",
+    "I297"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I299": {
+   "id": "I299",
+   "given": "Kiti",
+   "surname": "Cahane",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "Cernauti, Bukowina",
+   "death": "",
+   "death_place": "",
+   "death_raw": "(Shoah)",
+   "occupation": "",
+   "parents": [
+    "I161",
+    "I56"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I300": {
+   "id": "I300",
+   "given": "Joseph Leib",
+   "surname": "Schaechter",
+   "sex": "M",
+   "birth": "1894-11-19",
+   "birth_place": "Kołomyja",
+   "death": "1945-04-18",
+   "death_place": "Zschipkau",
+   "death_raw": "18 APR 1945",
+   "occupation": "",
+   "parents": [],
+   "children": [],
+   "spouses": [
+    "I256"
+   ]
+  },
+  "I301": {
+   "id": "I301",
+   "given": "Meshulam Faibish",
+   "surname": "Gafni",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I302",
+    "I307"
+   ],
+   "spouses": [
+    "I260"
+   ]
+  },
+  "I302": {
+   "id": "I302",
+   "given": "Yedidya",
+   "surname": "Gafni",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I301",
+    "I260"
+   ],
+   "children": [
+    "I352",
+    "I351"
+   ],
+   "spouses": [
+    "I350"
+   ]
+  },
+  "I303": {
+   "id": "I303",
+   "given": "Zeev",
+   "surname": "Preminger",
+   "sex": "M",
+   "birth": "1921-07-26",
+   "birth_place": "",
+   "death": "2012-01-23",
+   "death_place": "Miami, Miami-Dade, Florida (USA)",
+   "death_raw": "23 JAN 2012",
+   "occupation": "",
+   "parents": [
+    "I234",
+    "I233"
+   ],
+   "children": [
+    "I305",
+    "I306"
+   ],
+   "spouses": [
+    "I304"
+   ]
+  },
+  "I304": {
+   "id": "I304",
+   "given": "Chana",
+   "surname": "Tzitovsky",
+   "sex": "F",
+   "birth": "1927-11-17",
+   "birth_place": "Petach Tikwa",
+   "death": "2018-08-22",
+   "death_place": "Miami, Miami-Dade, Florida (USA)",
+   "death_raw": "22 AUG 2018",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I305",
+    "I306"
+   ],
+   "spouses": [
+    "I303"
+   ]
+  },
+  "I305": {
+   "id": "I305",
+   "given": "Issac",
+   "surname": "Preminger",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I303",
+    "I304"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I306": {
+   "id": "I306",
+   "given": "Anat",
+   "surname": "Preminger",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I303",
+    "I304"
+   ],
+   "children": [
+    "I345",
+    "I346"
+   ],
+   "spouses": [
+    "I344"
+   ]
+  },
+  "I307": {
+   "id": "I307",
+   "given": "Ari",
+   "surname": "Gafni",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I301",
+    "I260"
+   ],
+   "children": [
+    "I354",
+    "I360",
+    "I365"
+   ],
+   "spouses": [
+    "I353"
+   ]
+  },
+  "I309": {
+   "id": "I309",
+   "given": "dr Natan",
+   "surname": "Triebfeder",
+   "sex": "M",
+   "birth": "1909-07-01",
+   "birth_place": "Stanisławów",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I230",
+    "I216"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I310": {
+   "id": "I310",
+   "given": "dr Moritz",
+   "surname": "Tilinger",
+   "sex": "M",
+   "birth": "1909-01-20",
+   "birth_place": "",
+   "death": "1990-05-09",
+   "death_place": "London",
+   "death_raw": "9 MAY 1990",
+   "occupation": "Austrian physician and dental surgeon living in London",
+   "parents": [],
+   "children": [],
+   "spouses": [
+    "I259"
+   ]
+  },
+  "I311": {
+   "id": "I311",
+   "given": "Mendel",
+   "surname": "Seidman",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I225"
+   ],
+   "spouses": [
+    "I312"
+   ]
+  },
+  "I312": {
+   "id": "I312",
+   "given": "Henia",
+   "surname": "...",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I225"
+   ],
+   "spouses": [
+    "I311"
+   ]
+  },
+  "I313": {
+   "id": "I313",
+   "given": "Rebeka",
+   "surname": "Chajes",
+   "sex": "F",
+   "birth": "1898-11-15",
+   "birth_place": "Kołomyja",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I227",
+    "I217"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I314": {
+   "id": "I314",
+   "given": "Jadwiga",
+   "surname": "Chajes",
+   "sex": "F",
+   "birth": "1904-12-02",
+   "birth_place": "Kołomyja",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I227",
+    "I217"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I315": {
+   "id": "I315",
+   "given": "Joszua",
+   "surname": "Triebfeder",
+   "sex": "M",
+   "birth": "1929-09-30",
+   "birth_place": "Stanisławów",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I247",
+    "I249"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I317": {
+   "id": "I317",
+   "given": "Zysla",
+   "surname": "Chajes",
+   "sex": "F",
+   "birth": "1886",
+   "birth_place": "Kołomyja",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I74",
+    "I75"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I318": {
+   "id": "I318",
+   "given": "Sara",
+   "surname": "Koller",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I319"
+   ],
+   "spouses": [
+    "I238"
+   ]
+  },
+  "I319": {
+   "id": "I319",
+   "given": "Dawid",
+   "surname": "Chajes Khaiot",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I238",
+    "I318"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I320": {
+   "id": "I320",
+   "given": "Zissel",
+   "surname": "Kupferman",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I241",
+    "I240"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I321": {
+   "id": "I321",
+   "given": "Chanze",
+   "surname": "Griffel",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I324",
+    "I323",
+    "I322"
+   ],
+   "spouses": [
+    "I270"
+   ]
+  },
+  "I322": {
+   "id": "I322",
+   "given": "Ozajasz",
+   "surname": "Zeisler",
+   "sex": "M",
+   "birth": "1873-07-20",
+   "birth_place": "Stanisławów",
+   "death": "1873-09-29",
+   "death_place": "Stanisławów",
+   "death_raw": "29 SEP 1873",
+   "occupation": "",
+   "parents": [
+    "I270",
+    "I321"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I323": {
+   "id": "I323",
+   "given": "Malke",
+   "surname": "Zeisler",
+   "sex": "F",
+   "birth": "1871-11-18",
+   "birth_place": "Stanisławów",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I270",
+    "I321"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I324": {
+   "id": "I324",
+   "given": "Sime",
+   "surname": "Zeisler",
+   "sex": "M",
+   "birth": "1868-02-20",
+   "birth_place": "Stanisławów",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I270",
+    "I321"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I325": {
+   "id": "I325",
+   "given": "Benedykt",
+   "surname": "Suesser",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I66"
+   ],
+   "spouses": [
+    "I326"
+   ]
+  },
+  "I326": {
+   "id": "I326",
+   "given": "Salca",
+   "surname": "Wohl",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I66"
+   ],
+   "spouses": [
+    "I325"
+   ]
+  },
+  "I327": {
+   "id": "I327",
+   "given": "Karolina",
+   "surname": "Frankel",
+   "sex": "F",
+   "birth": "1908",
+   "birth_place": "Monasterzyska",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I328",
+    "I329"
+   ],
+   "children": [],
+   "spouses": [
+    "I12"
+   ]
+  },
+  "I328": {
+   "id": "I328",
+   "given": "Jakub",
+   "surname": "Frankel",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I327"
+   ],
+   "spouses": [
+    "I329"
+   ]
+  },
+  "I329": {
+   "id": "I329",
+   "given": "Roza",
+   "surname": "Krel",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I327"
+   ],
+   "spouses": [
+    "I328"
+   ]
+  },
+  "I330": {
+   "id": "I330",
+   "given": "Ruchel",
+   "surname": "Griffel",
+   "sex": "F",
+   "birth": "1892-07-14",
+   "birth_place": "Nadwórna",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I1",
+    "I2"
+   ],
+   "children": [],
+   "spouses": [
+    "I337"
+   ]
+  },
+  "I331": {
+   "id": "I331",
+   "given": "Rafael Hirsch",
+   "surname": "Auerbach",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I97"
+   ],
+   "spouses": [
+    "I332"
+   ]
+  },
+  "I332": {
+   "id": "I332",
+   "given": "Keila Karoline Estera",
+   "surname": "Hauser",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I97"
+   ],
+   "spouses": [
+    "I331"
+   ]
+  },
+  "I333": {
+   "id": "I333",
+   "given": "Armin",
+   "surname": "Stampfli",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I297"
+   ],
+   "spouses": [
+    "I334"
+   ]
+  },
+  "I334": {
+   "id": "I334",
+   "given": "Marie",
+   "surname": "Gutknecht",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I297"
+   ],
+   "spouses": [
+    "I333"
+   ]
+  },
+  "I335": {
+   "id": "I335",
+   "given": "...",
+   "surname": "Peeters",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I336"
+   ],
+   "spouses": [
+    "I51"
+   ]
+  },
+  "I336": {
+   "id": "I336",
+   "given": "...",
+   "surname": "Wilner",
+   "sex": "U",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I51",
+    "I335"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I337": {
+   "id": "I337",
+   "given": "...",
+   "surname": "Ohrenstein",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [],
+   "spouses": [
+    "I330"
+   ]
+  },
+  "I338": {
+   "id": "I338",
+   "given": "Izajasz",
+   "surname": "Rosenbojm",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I273"
+   ],
+   "spouses": [
+    "I339"
+   ]
+  },
+  "I339": {
+   "id": "I339",
+   "given": "Frajda",
+   "surname": "...",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I273"
+   ],
+   "spouses": [
+    "I338"
+   ]
+  },
+  "I340": {
+   "id": "I340",
+   "given": "Izajasz",
+   "surname": "Rosenbojm",
+   "sex": "M",
+   "birth": "1940",
+   "birth_place": "",
+   "death": "1943",
+   "death_place": "",
+   "death_raw": "1943",
+   "occupation": "",
+   "parents": [
+    "I273",
+    "I110"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I341": {
+   "id": "I341",
+   "given": "Salman",
+   "surname": "Chajes",
+   "sex": "M",
+   "birth": "1863",
+   "birth_place": "",
+   "death": "1865",
+   "death_place": "Kołomyja",
+   "death_raw": "1865",
+   "occupation": "",
+   "parents": [
+    "I64",
+    "I65"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I342": {
+   "id": "I342",
+   "given": "Fischel",
+   "surname": "Chajes",
+   "sex": "M",
+   "birth": "1858",
+   "birth_place": "",
+   "death": "1866",
+   "death_place": "Kołomyja",
+   "death_raw": "1866",
+   "occupation": "",
+   "parents": [
+    "I64",
+    "I65"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I343": {
+   "id": "I343",
+   "given": "Fanie",
+   "surname": "Mandel",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I72"
+   ],
+   "spouses": [
+    "I73"
+   ]
+  },
+  "I344": {
+   "id": "I344",
+   "given": "...",
+   "surname": "Stein",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I345",
+    "I346"
+   ],
+   "spouses": [
+    "I306"
+   ]
+  },
+  "I345": {
+   "id": "I345",
+   "given": "Elan",
+   "surname": "Stein",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I344",
+    "I306"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I346": {
+   "id": "I346",
+   "given": "Ariel",
+   "surname": "Stein",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I344",
+    "I306"
+   ],
+   "children": [
+    "I348",
+    "I349"
+   ],
+   "spouses": [
+    "I347"
+   ]
+  },
+  "I347": {
+   "id": "I347",
+   "given": "...",
+   "surname": "Warshaw",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I348",
+    "I349"
+   ],
+   "spouses": [
+    "I346"
+   ]
+  },
+  "I348": {
+   "id": "I348",
+   "given": "...",
+   "surname": "Warshaw",
+   "sex": "U",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I347",
+    "I346"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I349": {
+   "id": "I349",
+   "given": "...",
+   "surname": "Warshaw",
+   "sex": "U",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I347",
+    "I346"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I350": {
+   "id": "I350",
+   "given": "Anat",
+   "surname": "...",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I352",
+    "I351"
+   ],
+   "spouses": [
+    "I302"
+   ]
+  },
+  "I351": {
+   "id": "I351",
+   "given": "Itamar",
+   "surname": "Gafni",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I302",
+    "I350"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I352": {
+   "id": "I352",
+   "given": "Noa",
+   "surname": "Gafni",
+   "sex": "F",
+   "birth": "1991-06-24",
+   "birth_place": "Israel",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I302",
+    "I350"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I353": {
+   "id": "I353",
+   "given": "Ilana",
+   "surname": "Weinstein",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I354",
+    "I360",
+    "I365"
+   ],
+   "spouses": [
+    "I307"
+   ]
+  },
+  "I354": {
+   "id": "I354",
+   "given": "Iris",
+   "surname": "Gafni",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I307",
+    "I353"
+   ],
+   "children": [
+    "I356",
+    "I357",
+    "I358",
+    "I359"
+   ],
+   "spouses": [
+    "I355"
+   ]
+  },
+  "I355": {
+   "id": "I355",
+   "given": "Adam",
+   "surname": "Kane",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I356",
+    "I357",
+    "I358",
+    "I359"
+   ],
+   "spouses": [
+    "I354"
+   ]
+  },
+  "I356": {
+   "id": "I356",
+   "given": "...",
+   "surname": "Gafni-Kane",
+   "sex": "U",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I355",
+    "I354"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I357": {
+   "id": "I357",
+   "given": "...",
+   "surname": "Gafni-Kane",
+   "sex": "U",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I355",
+    "I354"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I358": {
+   "id": "I358",
+   "given": "...",
+   "surname": "Gafni-Kane",
+   "sex": "U",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I355",
+    "I354"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I359": {
+   "id": "I359",
+   "given": "...",
+   "surname": "Gafni-Kane",
+   "sex": "U",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I355",
+    "I354"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I360": {
+   "id": "I360",
+   "given": "Osnat",
+   "surname": "Gafni",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I307",
+    "I353"
+   ],
+   "children": [
+    "I362",
+    "I363",
+    "I364"
+   ],
+   "spouses": [
+    "I361"
+   ]
+  },
+  "I361": {
+   "id": "I361",
+   "given": "Gregory",
+   "surname": "Pappas",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I362",
+    "I363",
+    "I364"
+   ],
+   "spouses": [
+    "I360"
+   ]
+  },
+  "I362": {
+   "id": "I362",
+   "given": "...",
+   "surname": "Gafni-Pappas",
+   "sex": "U",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I361",
+    "I360"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I363": {
+   "id": "I363",
+   "given": "...",
+   "surname": "Gafni-Pappas",
+   "sex": "U",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I361",
+    "I360"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I364": {
+   "id": "I364",
+   "given": "...",
+   "surname": "Gafni-Pappas",
+   "sex": "U",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I361",
+    "I360"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I365": {
+   "id": "I365",
+   "given": "Orna",
+   "surname": "Gafni",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I307",
+    "I353"
+   ],
+   "children": [
+    "I367",
+    "I368"
+   ],
+   "spouses": [
+    "I366"
+   ]
+  },
+  "I366": {
+   "id": "I366",
+   "given": "Joshua Robert",
+   "surname": "Ehrlich",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I367",
+    "I368"
+   ],
+   "spouses": [
+    "I365"
+   ]
+  },
+  "I367": {
+   "id": "I367",
+   "given": "...",
+   "surname": "Ehrlich",
+   "sex": "U",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I366",
+    "I365"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I368": {
+   "id": "I368",
+   "given": "...",
+   "surname": "Ehrlich",
+   "sex": "U",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I366",
+    "I365"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I369": {
+   "id": "I369",
+   "given": "Ester",
+   "surname": "Zimand",
+   "sex": "F",
+   "birth": "1880",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I374",
+    "I373",
+    "I372"
+   ],
+   "spouses": [
+    "I219"
+   ]
+  },
+  "I371": {
+   "id": "I371",
+   "given": "Rashka",
+   "surname": "Blum",
+   "sex": "F",
+   "birth": "1954-07-11",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I375",
+    "I377",
+    "I379",
+    "I381",
+    "I383",
+    "I384",
+    "I385"
+   ],
+   "spouses": [
+    "I96"
+   ]
+  },
+  "I372": {
+   "id": "I372",
+   "given": "Dolko",
+   "surname": "Hermann",
+   "sex": "M",
+   "birth": "1911-04-05",
+   "birth_place": "Kołomyja",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I219",
+    "I369"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I373": {
+   "id": "I373",
+   "given": "Zofia",
+   "surname": "Hermann",
+   "sex": "F",
+   "birth": "1904-08-14",
+   "birth_place": "Lwów",
+   "death": "1922",
+   "death_place": "",
+   "death_raw": "1922",
+   "occupation": "",
+   "parents": [
+    "I219",
+    "I369"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I374": {
+   "id": "I374",
+   "given": "Eisik",
+   "surname": "Hermann",
+   "sex": "M",
+   "birth": "1900-11-22",
+   "birth_place": "Sokal",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I219",
+    "I369"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I375": {
+   "id": "I375",
+   "given": "Yehudis Ester",
+   "surname": "Griffel",
+   "sex": "F",
+   "birth": "1980-01-27",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I96",
+    "I371"
+   ],
+   "children": [],
+   "spouses": [
+    "I376"
+   ]
+  },
+  "I376": {
+   "id": "I376",
+   "given": "Chaim Benzion",
+   "surname": "Minzer",
+   "sex": "M",
+   "birth": "1976-03-27",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [],
+   "spouses": [
+    "I375"
+   ]
+  },
+  "I377": {
+   "id": "I377",
+   "given": "Moshe Chaim",
+   "surname": "Griffel",
+   "sex": "M",
+   "birth": "1984-10-07",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I96",
+    "I371"
+   ],
+   "children": [],
+   "spouses": [
+    "I378"
+   ]
+  },
+  "I378": {
+   "id": "I378",
+   "given": "Baila",
+   "surname": "G",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [],
+   "spouses": [
+    "I377"
+   ]
+  },
+  "I379": {
+   "id": "I379",
+   "given": "Yaakov",
+   "surname": "Griffel",
+   "sex": "M",
+   "birth": "1984-10-07",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I96",
+    "I371"
+   ],
+   "children": [],
+   "spouses": [
+    "I380"
+   ]
+  },
+  "I380": {
+   "id": "I380",
+   "given": "Sarah",
+   "surname": "Goldfinger",
+   "sex": "F",
+   "birth": "1985-11-11",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [],
+   "spouses": [
+    "I379"
+   ]
+  },
+  "I381": {
+   "id": "I381",
+   "given": "Shmuel Aharon",
+   "surname": "Griffel",
+   "sex": "M",
+   "birth": "1986-07",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I96",
+    "I371"
+   ],
+   "children": [],
+   "spouses": [
+    "I382"
+   ]
+  },
+  "I382": {
+   "id": "I382",
+   "given": "Libby A",
+   "surname": "Reiss",
+   "sex": "F",
+   "birth": "1986-05",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [],
+   "spouses": [
+    "I381"
+   ]
+  },
+  "I383": {
+   "id": "I383",
+   "given": "Raphael",
+   "surname": "Griffel",
+   "sex": "M",
+   "birth": "1989",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I96",
+    "I371"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I384": {
+   "id": "I384",
+   "given": "David Y",
+   "surname": "Griffel",
+   "sex": "M",
+   "birth": "1991-01-14",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I96",
+    "I371"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I385": {
+   "id": "I385",
+   "given": "Naftali B",
+   "surname": "Griffel",
+   "sex": "M",
+   "birth": "1993",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I96",
+    "I371"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I386": {
+   "id": "I386",
+   "given": "Anita",
+   "surname": "Spindel",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "1985-10",
+   "death_place": "",
+   "death_raw": "OCT 1985",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I387"
+   ],
+   "spouses": [
+    "I128"
+   ]
+  },
+  "I387": {
+   "id": "I387",
+   "given": "Tali O",
+   "surname": "Griffel",
+   "sex": "M",
+   "birth": "1979-12",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I128",
+    "I386"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I388": {
+   "id": "I388",
+   "given": "Ahavia W",
+   "surname": "Scheinlin",
+   "sex": "F",
+   "birth": "1945-10-26",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [],
+   "spouses": [
+    "I128"
+   ]
+  },
+  "I389": {
+   "id": "I389",
+   "given": "Salomon",
+   "surname": "Lamm",
+   "sex": "M",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I11"
+   ],
+   "spouses": []
+  },
+  "I390": {
+   "id": "I390",
+   "given": "Malka",
+   "surname": "Monheit",
+   "sex": "F",
+   "birth": "1955-07-04",
+   "birth_place": "Montreal, Quebec, Canada",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I394",
+    "I395"
+   ],
+   "children": [],
+   "spouses": [
+    "I123"
+   ]
+  },
+  "I391": {
+   "id": "I391",
+   "given": "Rachel P",
+   "surname": "...",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I392"
+   ],
+   "spouses": [
+    "I124"
+   ]
+  },
+  "I392": {
+   "id": "I392",
+   "given": "Sarah Judith",
+   "surname": "Griffel",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I124",
+    "I391"
+   ],
+   "children": [],
+   "spouses": [
+    "I393"
+   ]
+  },
+  "I393": {
+   "id": "I393",
+   "given": "Zalman",
+   "surname": "Eisenbach",
+   "sex": "M",
+   "birth": "1988-02-19",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [],
+   "spouses": [
+    "I392"
+   ]
+  },
+  "I394": {
+   "id": "I394",
+   "given": "Sanel",
+   "surname": "Monheit",
+   "sex": "M",
+   "birth": "1819-02-28",
+   "birth_place": "Strasbourg",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I390"
+   ],
+   "spouses": [
+    "I395"
+   ]
+  },
+  "I395": {
+   "id": "I395",
+   "given": "Sabine",
+   "surname": "Friedmann",
+   "sex": "F",
+   "birth": "1930-06-12",
+   "birth_place": "Vienna",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [
+    "I390"
+   ],
+   "spouses": [
+    "I394"
+   ]
+  },
+  "I396": {
+   "id": "I396",
+   "given": "Jacqueline H",
+   "surname": "Boehme",
+   "sex": "F",
+   "birth": "1930-05-25",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [],
+   "spouses": [
+    "I89"
+   ]
+  },
+  "I397": {
+   "id": "I397",
+   "given": "John A",
+   "surname": "King",
+   "sex": "M",
+   "birth": "1942",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [],
+   "children": [],
+   "spouses": [
+    "I90"
+   ]
+  },
+  "I398": {
+   "id": "I398",
+   "given": "Robyn Nancy",
+   "surname": "Schreiber",
+   "sex": "F",
+   "birth": "",
+   "birth_place": "",
+   "death": "",
+   "death_place": "",
+   "death_raw": "",
+   "occupation": "",
+   "parents": [
+    "I94"
+   ],
+   "children": [],
+   "spouses": []
+  },
+  "I399": {
+   "id": "I399",
+   "given": "Mark Edward",
+   "surname": "Schreiber",
+   "sex": "M",
+   "birth": "1981-06-03",
+   "birth_place": "",
+   "death": "2008-09-30",
+   "death_place": "Los Angeles, California (USA)",
+   "death_raw": "30 SEP 2008",
+   "occupation": "",
+   "parents": [
+    "I94",
+    "I90"
+   ],
+   "children": [],
+   "spouses": []
+  }
+ }
+}
