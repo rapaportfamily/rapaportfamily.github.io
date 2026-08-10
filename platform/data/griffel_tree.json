@@ -4,7 +4,10 @@
  "generated": "2026-08-10",
  "counts": {
   "people": 390,
-  "families": 140
+  "families": 140,
+  "people_with_media": 80,
+  "media_files": 431,
+  "linked_to_core": 22
  },
  "families": {
   "F1": {
@@ -1392,7 +1395,8 @@
    ],
    "spouses": [
     "I2"
-   ]
+   ],
+   "core_id": "p_lajzor_griffel"
   },
   "I2": {
    "id": "I2",
@@ -1426,7 +1430,8 @@
    ],
    "spouses": [
     "I1"
-   ]
+   ],
+   "core_id": "p_sara_matel_chajes"
   },
   "I3": {
    "id": "I3",
@@ -1450,7 +1455,59 @@
    ],
    "spouses": [
     "I4"
-   ]
+   ],
+   "core_id": "p_david_mendel_griffel",
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I3__ewa_griffel.jpg",
+     "basename": "Ewa_Griffel.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I3__rg_31_064m_0039_00000158_s.jpg",
+     "basename": "RG-31.064M.0039.00000158-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I3__rg_31_064m_0039_00000159_s.jpg",
+     "basename": "RG-31.064M.0039.00000159-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I3__rg_31_064m_0039_00000181_s.jpg",
+     "basename": "RG-31.064M.0039.00000181-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I3__rg_31_064m_0039_00000184_s.jpg",
+     "basename": "RG-31.064M.0039.00000184-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I3__rg_31_064m_0039_00000202_s.jpg",
+     "basename": "RG-31.064M.0039.00000202-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I3__rg_31_064m_0039_00000204_s.jpg",
+     "basename": "RG-31.064M.0039.00000204-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I3__u_1875_dawid_mendel_griffel.jpg",
+     "basename": "U_1875_Dawid_Mendel_Griffel.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I4": {
    "id": "I4",
@@ -1497,7 +1554,71 @@
    ],
    "spouses": [
     "I68"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I5__p_regina_griffel.jpg",
+     "basename": "P_Regina_Griffel.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I5__regina_griffel_photobook2_5.jpg",
+     "basename": "Regina_Griffel_Photobook2-5.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I5__david_gelles_photobook2_2.jpg",
+     "basename": "David_Gelles_Photobook2-2.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I5__edward_gelles_photobook2_1.jpg",
+     "basename": "Edward_Gelles_Photobook2-1.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I5__edward_griffel_photobook2_18.jpg",
+     "basename": "Edward_Griffel_Photobook2-18.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I5__rg_31_064m_0039_00000169_s.jpg",
+     "basename": "RG-31.064M.0039.00000169-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I5__zygmunt_griffel_photobook2_18.jpg",
+     "basename": "Zygmunt_Griffel_Photobook2-18.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I5__m_1921_regina_griffel_dawid_itzig_gelles.jpg",
+     "basename": "M_1921_Regina_Griffel_Dawid_Itzig_Gelles.png",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I5__u_1899_rivka_griffel.jpg",
+     "basename": "U_1899_Rivka_Griffel.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I5__u_1927_eduard_gelles.jpg",
+     "basename": "U_1927_Eduard_Gelles.png",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
+   "photo": "assets/documents/griffel_2026_08/photos/I5__p_regina_griffel.jpg"
   },
   "I6": {
    "id": "I6",
@@ -1520,7 +1641,72 @@
    ],
    "spouses": [
     "I66"
-   ]
+   ],
+   "core_id": "p_zygmunt_griffel",
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I6__p_zygmunt_griffel.jpg",
+     "basename": "P_Zygmunt_Griffel.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I6__zygmunt_griffel.jpg",
+     "basename": "Zygmunt_Griffel.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I6__zygmunt_griffel_photobook2_18.jpg",
+     "basename": "Zygmunt_Griffel_Photobook2-18.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I6__1946_griffel_maryla_eryk_diana.jpg",
+     "basename": "1946_Griffel_Maryla_Eryk_Diana.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I6__1948_maryla_griffel.jpg",
+     "basename": "1948_Maryla_Griffel.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I6__eric_griffel.jpg",
+     "basename": "Eric_Griffel.png",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I6__komunalizacja_maryla_griffel.jpg",
+     "basename": "Komunalizacja_Maryla_Griffel.png",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I6__maryla_griffel.jpg",
+     "basename": "Maryla_Griffel.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I6__u_1897_zygmunt_griffel.jpg",
+     "basename": "U_1897_Zygmunt_Griffel.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/census/I6__1950_census_edward_griffel.jpg",
+     "basename": "1950_Census_Edward_Griffel.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
+   "photo": "assets/documents/griffel_2026_08/photos/I6__p_zygmunt_griffel.jpg"
   },
   "I7": {
    "id": "I7",
@@ -1543,7 +1729,42 @@
    ],
    "spouses": [
     "I67"
-   ]
+   ],
+   "core_id": "p_edward_griffel_uncle",
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I7__1940_edward_griffel.jpg",
+     "basename": "1940_Edward_Griffel.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I7__edward_griffel.jpg",
+     "basename": "Edward_Griffel.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I7__p_edward_griffel_syn_dawid_mendel.jpg",
+     "basename": "P_Edward_Griffel_syn_Dawid_Mendel.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I7__1942_registration_card.jpg",
+     "basename": "1942_registration_card.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I7__u_1904_edward_griffel.jpg",
+     "basename": "U_1904_Edward_Griffel.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
+   "photo": "assets/documents/griffel_2026_08/photos/I7__1940_edward_griffel.jpg"
   },
   "I8": {
    "id": "I8",
@@ -1572,7 +1793,83 @@
    ],
    "spouses": [
     "I9"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I8__machla_willner.jpg",
+     "basename": "Machla_Willner.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I8__p_benzion_willner.jpg",
+     "basename": "P_Benzion_Willner.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I8__p_benzion_willner_2.jpg",
+     "basename": "P_Benzion_Willner_2.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I8__rg_31_064m_0021_00000586_s.jpg",
+     "basename": "RG-31.064M.0021.00000586-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I8__rg_31_064m_0021_00000587_s.jpg",
+     "basename": "RG-31.064M.0021.00000587-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I8__rg_31_064m_0021_00000588_s.jpg",
+     "basename": "RG-31.064M.0021.00000588-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I8__rg_31_064m_0021_00000589_s.jpg",
+     "basename": "RG-31.064M.0021.00000589-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I8__rg_31_064m_0021_00000590_s.jpg",
+     "basename": "RG-31.064M.0021.00000590-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I8__rg_31_064m_0021_00000591_s.jpg",
+     "basename": "RG-31.064M.0021.00000591-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I8__rg_31_064m_0021_00000593_s.jpg",
+     "basename": "RG-31.064M.0021.00000593-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I8__rg_31_064m_0021_00000595_s.jpg",
+     "basename": "RG-31.064M.0021.00000595-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I8__u_1873_machla_griffel.jpg",
+     "basename": "U_1873_Machla_Griffel.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
+   "photo": "assets/documents/griffel_2026_08/photos/I8__machla_willner.jpg"
   },
   "I9": {
    "id": "I9",
@@ -1625,7 +1922,77 @@
    ],
    "spouses": [
     "I11"
-   ]
+   ],
+   "core_id": "p_zissel_griffel",
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I10__p_szulim_lamm_10.jpg",
+     "basename": "P_Szulim_Lamm_10.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I10__p_szulim_lamm_2.jpg",
+     "basename": "P_Szulim_Lamm_2.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I10__p_szulim_lamm_3.jpg",
+     "basename": "P_Szulim_Lamm_3.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I10__p_szulim_lamm_4.jpg",
+     "basename": "P_Szulim_Lamm_4.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I10__p_szulim_lamm_5.jpg",
+     "basename": "P_Szulim_Lamm_5.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I10__p_szulim_lamm_6.jpg",
+     "basename": "P_Szulim_Lamm_6.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I10__p_szulim_lamm_7.jpg",
+     "basename": "P_Szulim_Lamm_7.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I10__p_szulim_lamm_8.jpg",
+     "basename": "P_Szulim_Lamm_8.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I10__p_szulim_lamm_9.jpg",
+     "basename": "P_Szulim_Lamm_9.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I10__szulim_lamm.jpg",
+     "basename": "Szulim_Lamm.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I10__u_1878_sussel_griffel.jpg",
+     "basename": "U_1878_Sussel_Griffel.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I11": {
    "id": "I11",
@@ -1671,7 +2038,47 @@
    "spouses": [
     "I97",
     "I327"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I12__arnold_lamm.jpg",
+     "basename": "Arnold_Lamm.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I12__arnold_lamm_and_family.jpg",
+     "basename": "Arnold_Lamm_and_family.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I12__ludwika_lamm.jpg",
+     "basename": "Ludwika_Lamm.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I12__steven_lamm.jpg",
+     "basename": "Steven_Lamm.png",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I12__steven_lamm_md_the_international_amp_american_associations_o.jpg",
+     "basename": "steven-lamm-md-the-international-amp-american-associations-of.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I12__u_1902_abraham_benzion_lamm.jpg",
+     "basename": "U_1902_Abraham_Benzion_Lamm.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
+   "photo": "assets/documents/griffel_2026_08/photos/I12__arnold_lamm.jpg"
   },
   "I13": {
    "id": "I13",
@@ -1689,7 +2096,8 @@
     "I97"
    ],
    "children": [],
-   "spouses": []
+   "spouses": [],
+   "core_id": "p_steven_lamm_living"
   },
   "I14": {
    "id": "I14",
@@ -1720,7 +2128,41 @@
    ],
    "spouses": [
     "I15"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I14__griffel_eizik_chaim_with_antiniye_rebbe_large.jpg",
+     "basename": "griffel_eizik_chaim_with_antiniye_rebbe_large.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I14__judyta_breit_griffel.jpg",
+     "basename": "Judyta_Breit_Griffel.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I14__m_1902_eisig_chaim_griffel_judyta_breit.jpg",
+     "basename": "M_1902_Eisig_Chaim_Griffel_Judyta_Breit.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I14__u_1879_isig_chaim_griffel.jpg",
+     "basename": "U_1879_Isig_Chaim_Griffel.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I14__z_1930_eisig_chaim_griffel.jpg",
+     "basename": "Z_1930_Eisig_Chaim_Griffel.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
+   "photo": "assets/documents/griffel_2026_08/photos/I14__griffel_eizik_chaim_with_antiniye_rebbe_large.jpg"
   },
   "I15": {
    "id": "I15",
@@ -1774,7 +2216,156 @@
    "spouses": [
     "I95",
     "I133"
-   ]
+   ],
+   "core_id": "p_dr_jacob_griffel",
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I16__jacob_griffel.jpg",
+     "basename": "Jacob_Griffel.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I16__jacob_griffel_1.jpg",
+     "basename": "Jacob_Griffel_1.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I16__jacob_griffel_2.jpg",
+     "basename": "Jacob_Griffel_2.jfif",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I16__felicja_fela_griffel.jpg",
+     "basename": "Felicja_Fela_Griffel.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I16__jakub_griffel.jpg",
+     "basename": "Jakub_Griffel.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I16__m973_573_1133.jpg",
+     "basename": "M973-573-1133.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I16__m973_573_1137.jpg",
+     "basename": "M973-573-1137.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I16__m973_573_1218.jpg",
+     "basename": "M973-573-1218.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I16__m973_573_1219.jpg",
+     "basename": "M973-573-1219.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I16__m973_573_1230.jpg",
+     "basename": "M973-573-1230.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I16__m973_573_1288.jpg",
+     "basename": "M973-573-1288.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I16__m973_573_1292.jpg",
+     "basename": "M973-573-1292.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I16__m973_573_1294.jpg",
+     "basename": "M973-573-1294.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I16__m973_573_1327.jpg",
+     "basename": "M973-573-1327.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I16__m973_573_1333.jpg",
+     "basename": "M973-573-1333.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I16__m973_573_1345.jpg",
+     "basename": "M973-573-1345.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I16__rg_31_064m_0039_00000217_s.jpg",
+     "basename": "RG-31.064M.0039.00000217-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I16__rg_31_064m_0039_00000219_s.jpg",
+     "basename": "RG-31.064M.0039.00000219-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I16__rg_31_064m_0039_00000224_s.jpg",
+     "basename": "RG-31.064M.0039.00000224-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I16__rg_31_064m_0039_00000226_s.jpg",
+     "basename": "RG-31.064M.0039.00000226-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I16__rg_31_064m_0039_00000228_s.jpg",
+     "basename": "RG-31.064M.0039.00000228-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I16__rg_31_064m_0039_00000346_s.jpg",
+     "basename": "RG-31.064M.0039.00000346-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I16__u_1900_jakub_griffel.jpg",
+     "basename": "U_1900_Jakub_Griffel.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I16__u_1928_eline_griffel.jpg",
+     "basename": "U_1928_Eline_Griffel.png",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
+   "photo": "assets/documents/griffel_2026_08/photos/I16__jacob_griffel.jpg"
   },
   "I17": {
    "id": "I17",
@@ -1798,7 +2389,47 @@
    ],
    "spouses": [
     "I18"
-   ]
+   ],
+   "core_id": "p_shaye_griffel",
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I17__m1948027000001_adela_englard_griffel_6.jpg",
+     "basename": "M1948027000001_Adela_Englard_Griffel-6.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I17__uprawnienia_rzadowe_na_zak_ady_elektryczne.jpg",
+     "basename": "Uprawnienia_rządowe_na_zakłady_elektryczne.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/yad_vashem/I17__schaye_griffel_yv.jpg",
+     "basename": "Schaye_Griffel_YV.avif",
+     "names_the_person": true,
+     "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/yad_vashem/I17__adela_griffel_yv.jpg",
+     "basename": "Adela_Griffel_YV.avif",
+     "names_the_person": false,
+     "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/yad_vashem/I17__lea_griffel_yv.jpg",
+     "basename": "Lea_Griffel_YV.avif",
+     "names_the_person": false,
+     "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I17__u_1883_schaje_griffel.jpg",
+     "basename": "U_1883_Schaje_Griffel.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I18": {
    "id": "I18",
@@ -1844,7 +2475,48 @@
    ],
    "spouses": [
     "I20"
-   ]
+   ],
+   "core_id": "p_leibisch_griffel",
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I19__getto_leibisch_griffel.jpg",
+     "basename": "Getto_Leibisch_Griffel.avif",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I19__tzipora_griffel_yv_2.jpg",
+     "basename": "Tzipora_Griffel_YV_2.avif",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/yad_vashem/I19__leibisch_griffel_yv.jpg",
+     "basename": "Leibisch_Griffel_YV.avif",
+     "names_the_person": true,
+     "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I19__u_1885_leibisch_griffel.jpg",
+     "basename": "U_1885_Leibisch_Griffel.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/yad_vashem/I19__tzipora_griffel_yv.jpg",
+     "basename": "Tzipora_Griffel_YV.avif",
+     "names_the_person": false,
+     "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I19__u_1910_mariem_griffel.jpg",
+     "basename": "U_1910_Mariem_Griffel.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
+   "photo": "assets/documents/griffel_2026_08/photos/I19__getto_leibisch_griffel.jpg"
   },
   "I20": {
    "id": "I20",
@@ -1889,7 +2561,29 @@
    ],
    "spouses": [
     "I22"
-   ]
+   ],
+   "core_id": "p_rebeka",
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I21__m1938231000000_5.jpg",
+     "basename": "M1938231000000-5.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I21__u_1888_rebeka_griffel.jpg",
+     "basename": "U_1888_Rebeka_Griffel.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I21__u_1911_dawid_mendel_rapaport.jpg",
+     "basename": "U_1911_Dawid_Mendel_Rapaport.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I22": {
    "id": "I22",
@@ -1927,7 +2621,23 @@
     "I2"
    ],
    "children": [],
-   "spouses": []
+   "spouses": [],
+   "core_id": "p_rachel_griffel_1881",
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I23__u_1881_rachel_griffel.jpg",
+     "basename": "U_1881_Rachel_Griffel.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I23__z_1883_rachel_griffel.jpg",
+     "basename": "Z_1883_Rachel_Griffel.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I25": {
    "id": "I25",
@@ -2004,7 +2714,161 @@
    "children": [],
    "spouses": [
     "I28"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I27__berta_gruenfeld.jpg",
+     "basename": "Berta_Gruenfeld.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I27__berta_gruenfeld_2.jpg",
+     "basename": "Berta_Gruenfeld_2.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I27__berta_gruenfeld_podanie.jpg",
+     "basename": "Berta_Gruenfeld_podanie.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I27__berta_gruenfeld_pokwitowanie.jpg",
+     "basename": "Berta_Gruenfeld_pokwitowanie.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I27__berta_gruenfeld_swiadectwo.jpg",
+     "basename": "Berta_Gruenfeld_świadectwo.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I27__0001_000.jpg",
+     "basename": "0001-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I27__0002_000.jpg",
+     "basename": "0002-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I27__0003_000.jpg",
+     "basename": "0003-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I27__0004_000.jpg",
+     "basename": "0004-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I27__0005_000.jpg",
+     "basename": "0005-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I27__0006_000.jpg",
+     "basename": "0006-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I27__0007_000.jpg",
+     "basename": "0007-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I27__0008_000.jpg",
+     "basename": "0008-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I27__0009_000.jpg",
+     "basename": "0009-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I27__0010_000.jpg",
+     "basename": "0010-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I27__0011_000.jpg",
+     "basename": "0011-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I27__0012_000.jpg",
+     "basename": "0012-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I27__0013_000.jpg",
+     "basename": "0013-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I27__0014_000.jpg",
+     "basename": "0014-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I27__0015_000.jpg",
+     "basename": "0015-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I27__0016_000.jpg",
+     "basename": "0016-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I27__0017_000.jpg",
+     "basename": "0017-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I27__0018_000.jpg",
+     "basename": "0018-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I27__max_lippmann.jpg",
+     "basename": "Max_Lippmann.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I27__u_1914_berta_gruenfeld.jpg",
+     "basename": "U_1914_Berta_Gruenfeld.png",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
+   "photo": "assets/documents/griffel_2026_08/photos/I27__berta_gruenfeld.jpg"
   },
   "I28": {
    "id": "I28",
@@ -2044,7 +2908,41 @@
    ],
    "spouses": [
     "I30"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I29__sima_blau.jpg",
+     "basename": "Sima_Blau.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I29__sima_blau_1.jpg",
+     "basename": "Sima_Blau_1.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I29__sima_blau_2.jpg",
+     "basename": "Sima_Blau_2.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I29__pinkas_blau.jpg",
+     "basename": "Pinkas_Blau.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I29__u_1895_sima_gruenfeld.jpg",
+     "basename": "U_1895_Sima_Gruenfeld.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
+   "photo": "assets/documents/griffel_2026_08/photos/I29__sima_blau.jpg"
   },
   "I30": {
    "id": "I30",
@@ -2088,7 +2986,28 @@
    ],
    "spouses": [
     "I32"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I31__534448636944a8f9_large.jpg",
+     "basename": "534448636944a8f9_large.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I31__zalman_chen.jpg",
+     "basename": "Zalman_Chen.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I31__screenshot_2024_06_09_at_9_t.jpg",
+     "basename": "screenshot_2024-06-09_at_9_t.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I32": {
    "id": "I32",
@@ -2132,7 +3051,125 @@
    ],
    "spouses": [
     "I187"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I33__joshua_blau_2.jpg",
+     "basename": "Joshua _Blau_2.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I33__joshua_blau_1.jpg",
+     "basename": "Joshua_Blau_1.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I33__0001_000.jpg",
+     "basename": "0001-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I33__0002_000.jpg",
+     "basename": "0002-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I33__0003_000.jpg",
+     "basename": "0003-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I33__0004_000.jpg",
+     "basename": "0004-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I33__0005_000.jpg",
+     "basename": "0005-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I33__0006_000.jpg",
+     "basename": "0006-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I33__0007_000.jpg",
+     "basename": "0007-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I33__0008_000.jpg",
+     "basename": "0008-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I33__0009_000.jpg",
+     "basename": "0009-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I33__0010_000.jpg",
+     "basename": "0010-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I33__0011_000.jpg",
+     "basename": "0011-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I33__0012_000.jpg",
+     "basename": "0012-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I33__0013_000.jpg",
+     "basename": "0013-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I33__0014_000.jpg",
+     "basename": "0014-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I33__0015_000.jpg",
+     "basename": "0015-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I33__0017_000.jpg",
+     "basename": "0017-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I33__jehoszua_blau.jpg",
+     "basename": "Jehoszua_Blau.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
+   "photo": "assets/documents/griffel_2026_08/photos/I33__joshua_blau_2.jpg"
   },
   "I34": {
    "id": "I34",
@@ -2155,7 +3192,113 @@
    ],
    "spouses": [
     "I35"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I34__p_samuel_gruenfeld_0.jpg",
+     "basename": "P_Samuel_Gruenfeld_0.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I34__p_samuel_gruenfeld_1.jpg",
+     "basename": "P_Samuel_Gruenfeld_1.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I34__p_samuel_gruenfeld_2.jpg",
+     "basename": "P_Samuel_Gruenfeld_2.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I34__p_samuel_gruenfeld_3.jpg",
+     "basename": "P_Samuel_Gruenfeld_3.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I34__p_samuel_gruenfeld_5.jpg",
+     "basename": "P_Samuel_Gruenfeld_5.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I34__p_samuel_gruenfeld_6.jpg",
+     "basename": "P_Samuel_Gruenfeld_6.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I34__samuel_gruenfeld.jpg",
+     "basename": "Samuel_Gruenfeld.avif",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I34__samuel_grunfeld_2.jpg",
+     "basename": "Samuel_Grunfeld_2.avif",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I34__p_schmuel_gruenfeld.jpg",
+     "basename": "P_Schmuel_Gruenfeld.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I34__p_sidonia_gruenfeld_2.jpg",
+     "basename": "P_Sidonia_Gruenfeld_2.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I34__p_sidonia_gruenfeld_3.jpg",
+     "basename": "P_Sidonia_Gruenfeld_3.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I34__p_sidonia_gruenfeld_4.jpg",
+     "basename": "P_Sidonia_Gruenfeld_4.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I34__p_sydonia_gruenfeld.jpg",
+     "basename": "P_Sydonia_Gruenfeld.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I34__p_sydonia_hager_gruenfeld.jpg",
+     "basename": "P_Sydonia_Hager_Gruenfeld.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I34__shmuel_grunfeld_1.jpg",
+     "basename": "Shmuel_Grunfeld-1.png",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I34__shmuel_grunfeld_2.jpg",
+     "basename": "Shmuel_Grunfeld-2.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I34__u_1897_samuel_gruenfeld.jpg",
+     "basename": "U_1897_Samuel_Gruenfeld.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
+   "photo": "assets/documents/griffel_2026_08/photos/I34__p_samuel_gruenfeld_0.jpg"
   },
   "I35": {
    "id": "I35",
@@ -2198,7 +3341,8 @@
    "children": [
     "I41"
    ],
-   "spouses": []
+   "spouses": [],
+   "core_id": "p_yehuda_nir"
   },
   "I37": {
    "id": "I37",
@@ -2241,7 +3385,16 @@
    ],
    "spouses": [
     "I37"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I38__z_1904_taube_zeisler_griffel.jpg",
+     "basename": "Z_1904_Taube_Zeisler_Griffel.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I39": {
    "id": "I39",
@@ -2282,7 +3435,8 @@
    ],
    "spouses": [
     "I148"
-   ]
+   ],
+   "core_id": "p_beniamin_griffel"
   },
   "I41": {
    "id": "I41",
@@ -2322,7 +3476,167 @@
    ],
    "spouses": [
     "I138"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I42__p_schalom_syn_eisig_chaim_griffel.jpg",
+     "basename": "P_Schalom_syn_Eisig_Chaim_Griffel.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I42__p_schalom_syn_eisig_chaim_griffel_1.jpg",
+     "basename": "P_Schalom_syn_Eisig_Chaim_Griffel_1.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I42__schalom_griffel_yv_2.jpg",
+     "basename": "Schalom_Griffel_YV_2.avif",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I42__schalom_griffel_yv_3.jpg",
+     "basename": "Schalom_Griffel_YV_3.avif",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I42__1942_bolechow_holzwerke_liste_0.jpg",
+     "basename": "1942_Bolechów_Holzwerke_liste-0.tiff",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I42__1942_bolechow_holzwerke_liste_1.jpg",
+     "basename": "1942_Bolechów_Holzwerke_liste-1.tiff",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I42__1942_bolechow_holzwerke_liste_2.jpg",
+     "basename": "1942_Bolechów_Holzwerke_liste-2.tiff",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I42__1942_bolechow_holzwerke_liste_3.jpg",
+     "basename": "1942_Bolechów_Holzwerke_liste-3.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I42__1942_bolechow_holzwerke_liste_4.jpg",
+     "basename": "1942_Bolechów_Holzwerke_liste-4.tiff",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I42__1942_bolechow_holzwerke_liste_5.jpg",
+     "basename": "1942_Bolechów_Holzwerke_liste-5.tiff",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I42__1942_bolechow_holzwerke_liste_6.jpg",
+     "basename": "1942_Bolechów_Holzwerke_liste-6.tiff",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I42__1942_bolechow_holzwerke_liste_7.jpg",
+     "basename": "1942_Bolechów_Holzwerke_liste-7.tiff",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I42__1942_bolechow_holzwerke_liste_8.jpg",
+     "basename": "1942_Bolechów_Holzwerke_liste-8.tiff",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I42__p_szalom_griffel_2.jpg",
+     "basename": "P_Szalom_Griffel_2.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I42__rg_31_064m_0039_00000102_s.jpg",
+     "basename": "RG-31.064M.0039.00000102-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I42__rg_31_064m_0039_00000105_s.jpg",
+     "basename": "RG-31.064M.0039.00000105-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I42__rg_31_064m_0039_00000108_s.jpg",
+     "basename": "RG-31.064M.0039.00000108-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I42__rg_31_064m_0039_00000109_s.jpg",
+     "basename": "RG-31.064M.0039.00000109-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I42__rg_31_064m_0039_00000111_s.jpg",
+     "basename": "RG-31.064M.0039.00000111-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I42__rg_31_064m_0039_00000117_s.jpg",
+     "basename": "RG-31.064M.0039.00000117-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I42__regina_fortgang_griffel_aa_1.jpg",
+     "basename": "Regina_Fortgang_Griffel_ AA_1.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I42__regina_fortgang_griffel_aa_2.jpg",
+     "basename": "Regina_Fortgang_Griffel_AA_2.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I42__szalom_griffel.jpg",
+     "basename": "Szalom_Griffel.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/yad_vashem/I42__schalom_griffel_yv.jpg",
+     "basename": "Schalom_Griffel_YV.avif",
+     "names_the_person": true,
+     "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I42__u_1904_schalom_griffel.jpg",
+     "basename": "U_1904_Schalom_Griffel.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/yad_vashem/I42__rivka_griffel_yv.jpg",
+     "basename": "Rivka_Griffel_YV.avif",
+     "names_the_person": false,
+     "kind": "yad_vashem"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
+   "photo": "assets/documents/griffel_2026_08/photos/I42__p_schalom_syn_eisig_chaim_griffel.jpg"
   },
   "I43": {
    "id": "I43",
@@ -2345,7 +3659,161 @@
    ],
    "spouses": [
     "I62"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I43__dawid_mendel_griffel.jpg",
+     "basename": "Dawid_Mendel_Griffel.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I43__p_dawid_mendel_griffel_syn_2.jpg",
+     "basename": "P_Dawid_Mendel_Griffel_syn_2.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I43__p_dawid_mendel_syn_eisig_chaim_griffel.jpg",
+     "basename": "P_Dawid_Mendel_syn_Eisig_Chaim_Griffel.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I43__rg_31_064m_0038_00001029_s.jpg",
+     "basename": "RG-31.064M.0038.00001029-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I43__rg_31_064m_0038_00001030_s.jpg",
+     "basename": "RG-31.064M.0038.00001030-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I43__rg_31_064m_0038_00001031_s.jpg",
+     "basename": "RG-31.064M.0038.00001031-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I43__rg_31_064m_0038_00001032_s.jpg",
+     "basename": "RG-31.064M.0038.00001032-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I43__rg_31_064m_0038_00001034_s.jpg",
+     "basename": "RG-31.064M.0038.00001034-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I43__rg_31_064m_0038_00001036_s.jpg",
+     "basename": "RG-31.064M.0038.00001036-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I43__rg_31_064m_0038_00001038_s.jpg",
+     "basename": "RG-31.064M.0038.00001038-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I43__rg_31_064m_0038_00001039_s.jpg",
+     "basename": "RG-31.064M.0038.00001039-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I43__rg_31_064m_0038_00001047_s.jpg",
+     "basename": "RG-31.064M.0038.00001047-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I43__rg_31_064m_0038_00001051_s.jpg",
+     "basename": "RG-31.064M.0038.00001051-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I43__rg_31_064m_0038_00001053_s.jpg",
+     "basename": "RG-31.064M.0038.00001053-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I43__rg_31_064m_0038_00001054_s.jpg",
+     "basename": "RG-31.064M.0038.00001054-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I43__rg_31_064m_0038_00001058_s.jpg",
+     "basename": "RG-31.064M.0038.00001058-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I43__rg_31_064m_0038_00001060_s.jpg",
+     "basename": "RG-31.064M.0038.00001060-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I43__rg_31_064m_0038_00001078_s.jpg",
+     "basename": "RG-31.064M.0038.00001078-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I43__rg_31_064m_0038_00001087_s.jpg",
+     "basename": "RG-31.064M.0038.00001087-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I43__rg_31_064m_0038_00001089_s.jpg",
+     "basename": "RG-31.064M.0038.00001089-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I43__rg_31_064m_0039_00000020_s.jpg",
+     "basename": "RG-31.064M.0039.00000020-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I43__rg_31_064m_0039_00000026_s.jpg",
+     "basename": "RG-31.064M.0039.00000026-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I43__m_1926_dawid_mendel_griffel_frajndla_ajchenbaum.jpg",
+     "basename": "M_1926_Dawid_Mendel_Griffel_Frajndla_Ajchenbaum.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I43__u_1902_dawid_mendel_griffel.jpg",
+     "basename": "U_1902_Dawid_Mendel_Griffel.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I43__z_1936_chaja_griffel.jpg",
+     "basename": "Z_1936_Chaja_Griffel.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
+   "photo": "assets/documents/griffel_2026_08/photos/I43__dawid_mendel_griffel.jpg"
   },
   "I44": {
    "id": "I44",
@@ -2368,7 +3836,77 @@
    ],
    "spouses": [
     "I127"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I44__henry_griffel_aa_1.jpg",
+     "basename": "Henry_Griffel_AA_1.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I44__henry_griffel_aa_2.jpg",
+     "basename": "Henry_Griffel_AA_2.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I44__henry_o_griffel.jpg",
+     "basename": "Henry_O_Griffel.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I44__henryk_griffel_1946_aa.jpg",
+     "basename": "Henryk_Griffel_1946_AA.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I44__henryk_osias_griffel.jpg",
+     "basename": "Henryk_Osias_Griffel.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I44__h_o_griffel_zagubienie_ksiazeczki.jpg",
+     "basename": "H_O_Griffel_zagubienie_książeczki.png",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I44__heinrich_griffel_aa.jpg",
+     "basename": "Heinrich_Griffel_AA.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I44__heinrich_griffel_aa_2.jpg",
+     "basename": "Heinrich_Griffel_AA_2.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I44__paulina_griffel_aa.jpg",
+     "basename": "Paulina_Griffel_AA.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I44__paulina_griffel_aa_1946.jpg",
+     "basename": "Paulina_Griffel_AA_1946.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I44__u_1910_ozajasz_henryk_griffel.jpg",
+     "basename": "U_1910_Ozajasz_Henryk_Griffel.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
+   "photo": "assets/documents/griffel_2026_08/photos/I44__henryk_griffel_1946_aa.jpg"
   },
   "I45": {
    "id": "I45",
@@ -2391,7 +3929,22 @@
    ],
    "spouses": [
     "I166"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/yad_vashem/I45__schmerl_gruenfeld_yv.jpg",
+     "basename": "Schmerl_Gruenfeld_YV.avif",
+     "names_the_person": true,
+     "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I45__u_1891_schmeril_gruenfeld.jpg",
+     "basename": "U_1891_Schmeril_Gruenfeld.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I46": {
    "id": "I46",
@@ -2409,7 +3962,8 @@
     "I2"
    ],
    "children": [],
-   "spouses": []
+   "spouses": [],
+   "core_id": "p_simce_griffel"
   },
   "I47": {
    "id": "I47",
@@ -2432,7 +3986,64 @@
    ],
    "spouses": [
     "I291"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I47__chaja_willner_stern.jpg",
+     "basename": "Chaja_Willner_Stern.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I47__chaja_willner_stern_2.jpg",
+     "basename": "Chaja_Willner_Stern_2.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I47__chaja_willner_stern_3.jpg",
+     "basename": "Chaja_Willner_Stern_3.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I47__jona_stern.jpg",
+     "basename": "Jona_Stern.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I47__jona_stern_2.jpg",
+     "basename": "Jona_Stern_2.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I47__jona_stern_3.jpg",
+     "basename": "Jona_Stern_3.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I47__jona_stern_4.jpg",
+     "basename": "Jona_Stern_4.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I47__u_1894_chaje_willner.jpg",
+     "basename": "U_1894_Chaje_Willner.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I47__m_1921_chaja_willner_jona_stern.jpg",
+     "basename": "M_1921_Chaja_Willner_Jona_Stern.png",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I48": {
    "id": "I48",
@@ -2450,7 +4061,16 @@
     "I8"
    ],
    "children": [],
-   "spouses": []
+   "spouses": [],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I48__u_1897_reisel_willner.jpg",
+     "basename": "U_1897_Reisel_Willner.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I49": {
    "id": "I49",
@@ -2468,7 +4088,22 @@
     "I8"
    ],
    "children": [],
-   "spouses": []
+   "spouses": [],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I49__u_1899_hersch_meilech_willner.jpg",
+     "basename": "U_1899_Hersch_Meilech_Willner.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I49__z_1902_hersch_meilech_willner.jpg",
+     "basename": "Z_1902_Hersch_Meilech_Willner.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I50": {
    "id": "I50",
@@ -2491,7 +4126,16 @@
    ],
    "spouses": [
     "I162"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I50__u_1900_eisig_chaim_gruenfeld.jpg",
+     "basename": "U_1900_Eisig_Chaim_Gruenfeld.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I51": {
    "id": "I51",
@@ -2513,7 +4157,16 @@
    ],
    "spouses": [
     "I335"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I51__u_1901_dawid_mendel_willner.jpg",
+     "basename": "U_1901_Dawid_Mendel_Willner.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I52": {
    "id": "I52",
@@ -2531,7 +4184,22 @@
     "I8"
    ],
    "children": [],
-   "spouses": []
+   "spouses": [],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I52__u_1903_eidel_willner.jpg",
+     "basename": "U_1903_Eidel_Willner.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I52__z_1913_eidel_willner.jpg",
+     "basename": "Z_1913_Eidel_Willner.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I53": {
    "id": "I53",
@@ -2554,7 +4222,16 @@
    ],
    "spouses": [
     "I160"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I53__u_1903_pearl_gruenfeld.jpg",
+     "basename": "U_1903_Pearl_Gruenfeld.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I54": {
    "id": "I54",
@@ -2572,7 +4249,59 @@
     "I10"
    ],
    "children": [],
-   "spouses": []
+   "spouses": [],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I54__mojzesz_lamm.jpg",
+     "basename": "Mojżesz_Lamm.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I54__rg_31_064m_0063_00000305_s.jpg",
+     "basename": "RG-31.064M.0063.00000305-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I54__rg_31_064m_0063_00000307_s.jpg",
+     "basename": "RG-31.064M.0063.00000307-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I54__rg_31_064m_0063_00000309_s.jpg",
+     "basename": "RG-31.064M.0063.00000309-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I54__rg_31_064m_0063_00000312_s.jpg",
+     "basename": "RG-31.064M.0063.00000312-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I54__rg_31_064m_0063_00000313_s.jpg",
+     "basename": "RG-31.064M.0063.00000313-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I54__rg_31_064m_0063_00000316_s.jpg",
+     "basename": "RG-31.064M.0063.00000316-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I54__u_1906_moses_lamm.jpg",
+     "basename": "U_1906_Moses_Lamm.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
+   "photo": "assets/documents/griffel_2026_08/photos/I54__mojzesz_lamm.jpg"
   },
   "I55": {
    "id": "I55",
@@ -2590,7 +4319,52 @@
     "I8"
    ],
    "children": [],
-   "spouses": []
+   "spouses": [],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I55__rg_31_064m_0021_00000681_s.jpg",
+     "basename": "RG-31.064M.0021.00000681-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I55__rg_31_064m_0021_00000683_s.jpg",
+     "basename": "RG-31.064M.0021.00000683-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I55__rg_31_064m_0021_00000684_s.jpg",
+     "basename": "RG-31.064M.0021.00000684-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I55__rg_31_064m_0021_00000685_s.jpg",
+     "basename": "RG-31.064M.0021.00000685-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I55__rg_31_064m_0021_00000686_s.jpg",
+     "basename": "RG-31.064M.0021.00000686-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I55__tauba_willner.jpg",
+     "basename": "Tauba_Willner.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I55__u_1906_taube_willner.jpg",
+     "basename": "U_1906_Taube_Willner.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I56": {
    "id": "I56",
@@ -2612,7 +4386,95 @@
    ],
    "spouses": [
     "I161"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I56__p_tauba_gruenfeld.jpg",
+     "basename": "P_Tauba_Gruenfeld.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I56__p_tauba_gruenfeld_2.jpg",
+     "basename": "P_Tauba_Gruenfeld_2.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I56__p_tauba_gruenfeld_3.jpg",
+     "basename": "P_Tauba_Gruenfeld_3.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I56__p_tauba_gruenfeld_4.jpg",
+     "basename": "P_Tauba_Gruenfeld_4.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I56__p_tauba_gruenfeld_5.jpg",
+     "basename": "P_Tauba_Gruenfeld_5.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I56__p_tauba_gruenfeld_6.jpg",
+     "basename": "P_Tauba_Gruenfeld_6.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I56__p_tauba_gruenfeld_7.jpg",
+     "basename": "P_Tauba_Gruenfeld_7.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I56__p_tauba_gruenfeld_8.jpg",
+     "basename": "P_Tauba_Gruenfeld_8.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I56__p_tauba_gruenfeld_9.jpg",
+     "basename": "P_Tauba_Gruenfeld_9.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I56__tauba_gruenfeld.jpg",
+     "basename": "Tauba_Gruenfeld.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/yad_vashem/I56__tauba_kahana_yv.jpg",
+     "basename": "Tauba_Kahana_YV.avif",
+     "names_the_person": true,
+     "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/yad_vashem/I56__bernard_kahana_yv.jpg",
+     "basename": "Bernard_Kahana_YV.avif",
+     "names_the_person": false,
+     "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/yad_vashem/I56__kiti_kahana_yv.jpg",
+     "basename": "Kiti_Kahana_YV.avif",
+     "names_the_person": false,
+     "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I56__u_1907_taube_griffel.jpg",
+     "basename": "U_1907_Taube_Griffel.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
+   "photo": "assets/documents/griffel_2026_08/photos/I56__p_tauba_gruenfeld.jpg"
   },
   "I57": {
    "id": "I57",
@@ -2630,7 +4492,41 @@
     "I18"
    ],
    "children": [],
-   "spouses": []
+   "spouses": [],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I57__chaim_griffel_1908_0.jpg",
+     "basename": "Chaim_Griffel_1908-0.png",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I57__chaim_griffel_1908_1.jpg",
+     "basename": "Chaim_Griffel_1908-1.png",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I57__chaim_griffel_1908_2.jpg",
+     "basename": "Chaim_Griffel_1908-2.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/yad_vashem/I57__chaim_griffel_yv.jpg",
+     "basename": "Chaim_Griffel_YV.avif",
+     "names_the_person": true,
+     "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I57__u_1908_chaim_griffel_n.jpg",
+     "basename": "U_1908_Chaim_Griffel_N.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
+   "photo": "assets/documents/griffel_2026_08/photos/I57__chaim_griffel_1908_0.jpg"
   },
   "I58": {
    "id": "I58",
@@ -2648,7 +4544,16 @@
     "I8"
    ],
    "children": [],
-   "spouses": []
+   "spouses": [],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I58__u_1908_isak_willner.jpg",
+     "basename": "U_1908_Isak_Willner.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I59": {
    "id": "I59",
@@ -2666,7 +4571,47 @@
     "I15"
    ],
    "children": [],
-   "spouses": []
+   "spouses": [],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I59__berta_griffel.jpg",
+     "basename": "Berta_Griffel.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I59__p1_berta_griffel_corka_eisig_chaim.jpg",
+     "basename": "P1_Berta_Griffel_córka_Eisig_Chaim.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I59__p2_berta_griffel_corka_eisig_chaim.jpg",
+     "basename": "P2_Berta_Griffel_córka_Eisig_Chaim.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I59__p3_berta_griffel_corka_eisig_chaim.jpg",
+     "basename": "P3_Berta_Griffel_córka_Eisig_Chaim.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I59__p4_berta_griffel_corka_eisig_chaim.jpg",
+     "basename": "P4_Berta_Griffel_córka_Eisig_Chaim.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I59__u_1909_berta_griffel.jpg",
+     "basename": "U_1909_Berta_Griffel.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
+   "photo": "assets/documents/griffel_2026_08/photos/I59__berta_griffel.jpg"
   },
   "I60": {
    "id": "I60",
@@ -2684,7 +4629,41 @@
     "I15"
    ],
    "children": [],
-   "spouses": []
+   "spouses": [],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I60__p_rozalia_griffel.jpg",
+     "basename": "P_Rozalia_Griffel.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I60__p_rozalia_griffel_2.jpg",
+     "basename": "P_Rozalia_Griffel_2.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I60__p_rozalia_griffel_3.jpg",
+     "basename": "P_Rozalia_Griffel_3.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I60__p_rozalia_griffel_4.jpg",
+     "basename": "P_Rozalia_Griffel_4.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I60__u_1907_rozalia_griffel.jpg",
+     "basename": "U_1907_Rozalia_Griffel.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
+   "photo": "assets/documents/griffel_2026_08/photos/I60__p_rozalia_griffel.jpg"
   },
   "I61": {
    "id": "I61",
@@ -2745,7 +4724,23 @@
     "I62"
    ],
    "children": [],
-   "spouses": []
+   "spouses": [],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I63__chaja_griffel.jpg",
+     "basename": "Chaja_Griffel.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I63__chaja_griffel_2.jpg",
+     "basename": "Chaja_Griffel_2.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
+   "photo": "assets/documents/griffel_2026_08/photos/I63__chaja_griffel.jpg"
   },
   "I64": {
    "id": "I64",
@@ -2769,7 +4764,22 @@
    ],
    "spouses": [
     "I65"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I64__z_1866_isaac_chaim_chajes.jpg",
+     "basename": "Z_1866_Isaac_Chaim_Chajes.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I64__z_1866_fischel_chajes.jpg",
+     "basename": "Z_1866_Fischel_Chajes.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I65": {
    "id": "I65",
@@ -2836,7 +4846,8 @@
    ],
    "spouses": [
     "I7"
-   ]
+   ],
+   "core_id": "p_susan_manson_griffel"
   },
   "I68": {
    "id": "I68",
@@ -2886,7 +4897,16 @@
    ],
    "spouses": [
     "I70"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I69__m_1891_itzig_hermann_jenta_chajes.jpg",
+     "basename": "M_1891_Itzig_Hermann_Jenta_Chajes.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I70": {
    "id": "I70",
@@ -2938,7 +4958,16 @@
    ],
    "spouses": [
     "I72"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I71__m_1889_chana_chajes_wolf_lichtenstein.jpg",
+     "basename": "M_1889_Chana_Chajes_Wolf_Lichtenstein.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I72": {
    "id": "I72",
@@ -3005,7 +5034,16 @@
    ],
    "spouses": [
     "I75"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I74__m_1891_isaak_chajes_cypra_sternhell.jpg",
+     "basename": "M_1891_Isaak_Chajes_Cypra_Sternhell.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I75": {
    "id": "I75",
@@ -3128,7 +5166,8 @@
     "I5"
    ],
    "children": [],
-   "spouses": []
+   "spouses": [],
+   "core_id": "p_edward_gelles_cousin"
   },
   "I81": {
    "id": "I81",
@@ -3146,7 +5185,23 @@
     "I5"
    ],
    "children": [],
-   "spouses": []
+   "spouses": [],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I81__ludwig_friedrich_gelles_photobook2_6.jpg",
+     "basename": "Ludwig_Friedrich_Gelles_Photobook2-6.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I81__u_1922_ludwig_friedrich_gelles.jpg",
+     "basename": "U_1922_Ludwig_Friedrich_Gelles.png",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
+   "photo": "assets/documents/griffel_2026_08/photos/I81__ludwig_friedrich_gelles_photobook2_6.jpg"
   },
   "I82": {
    "id": "I82",
@@ -3218,7 +5273,16 @@
    ],
    "spouses": [
     "I84"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I85__z_1918_chaje_griffel_gruenfeld.jpg",
+     "basename": "Z_1918_Chaje_Griffel_Gruenfeld.png",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I86": {
    "id": "I86",
@@ -3236,7 +5300,16 @@
     "I85"
    ],
    "children": [],
-   "spouses": []
+   "spouses": [],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I86__z_1904_itzik_ziesler.jpg",
+     "basename": "Z_1904_Itzik_Ziesler.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I87": {
    "id": "I87",
@@ -3316,7 +5389,8 @@
    "spouses": [
     "I94",
     "I397"
-   ]
+   ],
+   "core_id": "p_diana_griffel"
   },
   "I91": {
    "id": "I91",
@@ -3441,7 +5515,8 @@
    ],
    "spouses": [
     "I371"
-   ]
+   ],
+   "core_id": "p_joseph_griffel_living"
   },
   "I97": {
    "id": "I97",
@@ -3509,7 +5584,8 @@
    ],
    "spouses": [
     "I106"
-   ]
+   ],
+   "core_id": "p_shimon"
   },
   "I100": {
    "id": "I100",
@@ -3529,7 +5605,8 @@
    ],
    "spouses": [
     "I98"
-   ]
+   ],
+   "core_id": "p_leah"
   },
   "I101": {
    "id": "I101",
@@ -3702,7 +5779,8 @@
     "I21"
    ],
    "children": [],
-   "spouses": []
+   "spouses": [],
+   "core_id": "p_lota"
   },
   "I110": {
    "id": "I110",
@@ -3724,7 +5802,65 @@
    ],
    "spouses": [
     "I273"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I110__p_teofila_griffel_corka_eisig_chaim.jpg",
+     "basename": "P_Teofila_Griffel_córka_Eisig_Chaim.JPG",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I110__teofila_griffel.jpg",
+     "basename": "Teofila_Griffel.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I110__rg_31_064m_0039_00000409_s.jpg",
+     "basename": "RG-31.064M.0039.00000409-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I110__rg_31_064m_0039_00000410_s.jpg",
+     "basename": "RG-31.064M.0039.00000410-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I110__rg_31_064m_0039_00000412_s.jpg",
+     "basename": "RG-31.064M.0039.00000412-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I110__rg_31_064m_0039_00000413_s.jpg",
+     "basename": "RG-31.064M.0039.00000413-S.JPG",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I110__schmuel_rosenbojm_yv_1.jpg",
+     "basename": "Schmuel_Rosenbojm_YV_1.avif",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I110__schmuel_rosenbojm_yv_2.jpg",
+     "basename": "Schmuel_Rosenbojm_YV_2.avif",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/yad_vashem/I110__schmul_and_taube_rosenbojm_yv.jpg",
+     "basename": "Schmul_and_Taube_Rosenbojm_YV.avif",
+     "names_the_person": false,
+     "kind": "yad_vashem"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
+   "photo": "assets/documents/griffel_2026_08/photos/I110__p_teofila_griffel_corka_eisig_chaim.jpg"
   },
   "I111": {
    "id": "I111",
@@ -3818,7 +5954,16 @@
     "I8"
    ],
    "children": [],
-   "spouses": []
+   "spouses": [],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I115__u_1892_freude_willner.jpg",
+     "basename": "U_1892_Freude_Willner.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I116": {
    "id": "I116",
@@ -3882,7 +6027,22 @@
    ],
    "spouses": [
     "I119"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I118__shmelke_griffel.jpg",
+     "basename": "Shmelke_Griffel.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I118__u_1913_samuel_griffel.jpg",
+     "basename": "U_1913_Samuel_Griffel.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I119": {
    "id": "I119",
@@ -3984,7 +6144,16 @@
    "children": [],
    "spouses": [
     "I390"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I123__m_1976_baruch_griffel_malka_monheit.jpg",
+     "basename": "M_1976_Baruch_Griffel_Malka_Monheit.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I124": {
    "id": "I124",
@@ -4085,7 +6254,17 @@
    "spouses": [
     "I386",
     "I388"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I128__andrew_griffel.jpg",
+     "basename": "Andrew_Griffel.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
+   "photo": "assets/documents/griffel_2026_08/photos/I128__andrew_griffel.jpg"
   },
   "I129": {
    "id": "I129",
@@ -4345,7 +6524,35 @@
     "I138"
    ],
    "children": [],
-   "spouses": []
+   "spouses": [],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I141__thea_griffel_aa.jpg",
+     "basename": "Thea_Griffel_AA.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I141__toiba_griffel_yv_2.jpg",
+     "basename": "Toiba_griffel_YV_2.avif",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I141__u_1930_thea_griffel.jpg",
+     "basename": "U_1930_Thea_Griffel.png",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/yad_vashem/I141__toiba_griffel_yv.jpg",
+     "basename": "Toiba_Griffel_YV.avif",
+     "names_the_person": false,
+     "kind": "yad_vashem"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
+   "photo": "assets/documents/griffel_2026_08/photos/I141__thea_griffel_aa.jpg"
   },
   "I142": {
    "id": "I142",
@@ -4363,7 +6570,29 @@
     "I138"
    ],
    "children": [],
-   "spouses": []
+   "spouses": [],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I142__mindl_griffel_yv_2.jpg",
+     "basename": "Mindl_Griffel_YV_2.avif",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I142__mina_griffel_aa.jpg",
+     "basename": "Mina_Griffel_AA.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/yad_vashem/I142__mindl_griffel_yv.jpg",
+     "basename": "Mindl_Griffel_YV.avif",
+     "names_the_person": true,
+     "kind": "yad_vashem"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
+   "photo": "assets/documents/griffel_2026_08/photos/I142__mindl_griffel_yv_2.jpg"
   },
   "I143": {
    "id": "I143",
@@ -4403,7 +6632,16 @@
    ],
    "spouses": [
     "I145"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I144__u_1919_rebeka_griffel.jpg",
+     "basename": "U_1919_Rebeka_Griffel.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I145": {
    "id": "I145",
@@ -4505,7 +6743,17 @@
    "spouses": [
     "I152",
     "I153"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I149__rivka_griffel.jpg",
+     "basename": "Rivka_Griffel.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
+   "photo": "assets/documents/griffel_2026_08/photos/I149__rivka_griffel.jpg"
   },
   "I150": {
    "id": "I150",
@@ -4523,7 +6771,16 @@
     "I148"
    ],
    "children": [],
-   "spouses": []
+   "spouses": [],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/yad_vashem/I150__willy_griffel_yv.jpg",
+     "basename": "Willy_Griffel_YV.avif",
+     "names_the_person": true,
+     "kind": "yad_vashem"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I151": {
    "id": "I151",
@@ -4650,7 +6907,16 @@
     "I10"
    ],
    "children": [],
-   "spouses": []
+   "spouses": [],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I157__u_1900_scheindel_lamm.jpg",
+     "basename": "U_1900_Scheindel_Lamm.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I158": {
    "id": "I158",
@@ -4690,7 +6956,28 @@
    ],
    "spouses": [
     "I208"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/yad_vashem/I159__dudzik_landes_yv.jpg",
+     "basename": "Dudzik_Landes_YV.avif",
+     "names_the_person": false,
+     "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/yad_vashem/I159__lantzia_landes_yv.jpg",
+     "basename": "Lantzia_Landes_YV.avif",
+     "names_the_person": false,
+     "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/yad_vashem/I159__rosa_landes_yv.jpg",
+     "basename": "Rosa_Landes_YV.avif",
+     "names_the_person": false,
+     "kind": "yad_vashem"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I160": {
    "id": "I160",
@@ -5737,7 +8024,28 @@
    "spouses": [
     "I224",
     "I225"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I213__m_1885_sura_hermann_juda_ber_seidman.jpg",
+     "basename": "M_1885_Sura_Hermann_Juda_Ber_Seidman.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I213__u_1866_sura_hermann_ko_omyja.jpg",
+     "basename": "U_1866_Sura_Hermann_Kołomyja.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I213__m_1897_sara_hermann_uren_mimeles.jpg",
+     "basename": "M_1897_Sara_Hermann_Uren_Mimeles.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I214": {
    "id": "I214",
@@ -5755,7 +8063,22 @@
     "I69"
    ],
    "children": [],
-   "spouses": []
+   "spouses": [],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I214__u_1868_eisig_chaim_hermann.jpg",
+     "basename": "U_1868_Eisig_Chaim_Hermann.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I214__z_1874_eisig_chaim_hermann.jpg",
+     "basename": "Z_1874_Eisig_Chaim_Hermann.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I215": {
    "id": "I215",
@@ -5773,7 +8096,16 @@
     "I69"
    ],
    "children": [],
-   "spouses": []
+   "spouses": [],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I215__u_1870_schmul_hermann.jpg",
+     "basename": "U_1870_Schmul_Hermann.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I216": {
    "id": "I216",
@@ -5798,7 +8130,22 @@
    ],
    "spouses": [
     "I230"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I216__m_1909_berl_triebfeder_machla_hermann.jpg",
+     "basename": "M_1909_Berl_Triebfeder_Machla_Hermann.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I216__u_1872_berl_triebfeder.jpg",
+     "basename": "U_1872_Berl_Triebfeder.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I217": {
    "id": "I217",
@@ -5821,7 +8168,34 @@
    ],
    "spouses": [
     "I227"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I217__m_1904_eisig_chaim_chajes_sussel_hermann.jpg",
+     "basename": "M_1904_Eisig_Chaim_Chajes_Sussel_Hermann.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I217__u_1872_sussel_hermann.jpg",
+     "basename": "U_1872_Sussel_Hermann.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I217__u_1898_rebeka_chajes.jpg",
+     "basename": "U_1898_Rebeka_Chajes.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I217__u_1904_jadwiga_chajes.jpg",
+     "basename": "U_1904_Jadwiga_Chajes.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I218": {
    "id": "I218",
@@ -5839,7 +8213,22 @@
     "I69"
    ],
    "children": [],
-   "spouses": []
+   "spouses": [],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I218__u_1875_chane_hermann.jpg",
+     "basename": "U_1875_Chane_Hermann.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I218__z_1881_chane_hermann.jpg",
+     "basename": "Z_1881_Chane_Hermann.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I219": {
    "id": "I219",
@@ -5863,7 +8252,34 @@
    ],
    "spouses": [
     "I369"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I219__u_1876_abraham_herman.jpg",
+     "basename": "U_1876_Abraham_Herman.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I219__u_1900_eisik_herman.jpg",
+     "basename": "U_1900_Eisik_Herman.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I219__u_1904_zofia_herman.jpg",
+     "basename": "U_1904_Zofia_Herman.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I219__u_1911_dolko_herman.jpg",
+     "basename": "U_1911_Dolko_Herman.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I220": {
    "id": "I220",
@@ -5888,7 +8304,76 @@
    ],
    "spouses": [
     "I226"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I220__henrietta_schaechter_aa_1.jpg",
+     "basename": "Henrietta_Schaechter_AA_1.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I220__henrietta_schaechter_aa_2.jpg",
+     "basename": "Henrietta_Schaechter_AA_2.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I220__henrietta_schaechter_aa_3.jpg",
+     "basename": "Henrietta_Schaechter_AA_3.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I220__henrietta_schaechter_aa_4.jpg",
+     "basename": "Henrietta_Schaechter_AA_4.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I220__jakob_heliczer_aa_1.jpg",
+     "basename": "Jakob_Heliczer_ AA_1 .jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I220__jakob_heliczer_aa_2.jpg",
+     "basename": "Jakob_Heliczer_AA_2.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I220__jakob_heliczer_aa_3.jpg",
+     "basename": "Jakob_Heliczer_AA_3.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I220__josef_schaechter_aa_1.jpg",
+     "basename": "Josef_Schaechter_AA_1.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I220__u_1878_chaje_herman.jpg",
+     "basename": "U_1878_Chaje_Herman.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I220__m_1904_jakob_heliczer_chaja_hermann.jpg",
+     "basename": "M_1904_Jakob_Heliczer_Chaja_Hermann.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I220__u_1905_henrietta_heliczer.jpg",
+     "basename": "U_1905_Henrietta_Heliczer.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I221": {
    "id": "I221",
@@ -5906,7 +8391,16 @@
     "I69"
    ],
    "children": [],
-   "spouses": []
+   "spouses": [],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I221__u_1881_schaja_hermann.jpg",
+     "basename": "U_1881_Schaja_Hermann.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I222": {
    "id": "I222",
@@ -6157,7 +8651,40 @@
    ],
    "spouses": [
     "I234"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I233__m_1909_mendel_preminger_fanny_lichtenstein.jpg",
+     "basename": "M_1909_Mendel_Preminger_Fanny_Lichtenstein.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/census/I233__census.jpg",
+     "basename": "Census.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/census/I233__census_1920.jpg",
+     "basename": "Census_1920.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I233__u_1910_genesia_preminger.jpg",
+     "basename": "U_1910_Genesia_Preminger.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I233__u_1911_boruch_bendit_preminger.jpg",
+     "basename": "U_1911_Boruch_Bendit_Preminger.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I234": {
    "id": "I234",
@@ -6415,7 +8942,16 @@
     "I216"
    ],
    "children": [],
-   "spouses": []
+   "spouses": [],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I246__u_1894_szejndel_raca_triebfeder.jpg",
+     "basename": "U_1894_Szejndel_Raca_Triebfeder.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I247": {
    "id": "I247",
@@ -6437,7 +8973,137 @@
    ],
    "spouses": [
     "I249"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I247__eisig_chaim_triebfeder.jpg",
+     "basename": "Eisig_Chaim_Triebfeder.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I247__0001_000.jpg",
+     "basename": "0001-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I247__0002_000.jpg",
+     "basename": "0002-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I247__0003_000.jpg",
+     "basename": "0003-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I247__0004_000.jpg",
+     "basename": "0004-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I247__0005_000.jpg",
+     "basename": "0005-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I247__0006_000.jpg",
+     "basename": "0006-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I247__0007_000.jpg",
+     "basename": "0007-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I247__0008_000.jpg",
+     "basename": "0008-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I247__0009_000.jpg",
+     "basename": "0009-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I247__0010_000.jpg",
+     "basename": "0010-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I247__0011_000.jpg",
+     "basename": "0011-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I247__0012_000.jpg",
+     "basename": "0012-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I247__0013_000.jpg",
+     "basename": "0013-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I247__0015_000.jpg",
+     "basename": "0015-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I247__hinda_triebfeder_aa.jpg",
+     "basename": "Hinda_Triebfeder_AA.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I247__hinda_triebfeder_aa_2.jpg",
+     "basename": "Hinda_Triebfeder_AA_2.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I247__hinda_triebfeder_aa_3.jpg",
+     "basename": "Hinda_Triebfeder_AA_3.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I247__m_1928_eisig_chaim_triebfeder_hinde_horowitz.jpg",
+     "basename": "M_1928_Eisig_Chaim_Triebfeder_Hinde_Horowitz.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I247__u_1895_eisig_chaim_triebfeder.jpg",
+     "basename": "U_1895_Eisig_Chaim_Triebfeder.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/yad_vashem/I247__hinda_triebfeder_yv.jpg",
+     "basename": "Hinda_Triebfeder_YV.avif",
+     "names_the_person": false,
+     "kind": "yad_vashem"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
+   "photo": "assets/documents/griffel_2026_08/photos/I247__eisig_chaim_triebfeder.jpg"
   },
   "I248": {
    "id": "I248",
@@ -6455,7 +9121,16 @@
     "I216"
    ],
    "children": [],
-   "spouses": []
+   "spouses": [],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I248__u_1904_sussel_triebfeder.jpg",
+     "basename": "U_1904_Sussel_Triebfeder.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I249": {
    "id": "I249",
@@ -6629,7 +9304,22 @@
     "I220"
    ],
    "children": [],
-   "spouses": []
+   "spouses": [],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I257__u_1905_eizig_chaim_heliczer.jpg",
+     "basename": "U_1905_Eizig_Chaim_Heliczer.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I257__z_1906_eizig_chaim_heliczer.jpg",
+     "basename": "Z_1906_Eizig_Chaim_Heliczer.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I258": {
    "id": "I258",
@@ -6647,7 +9337,22 @@
     "I220"
    ],
    "children": [],
-   "spouses": []
+   "spouses": [],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I258__u_1905_fiszel_heliczer.jpg",
+     "basename": "U_1905_Fiszel_Heliczer.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I258__z_1911_fiszel_heliczer.jpg",
+     "basename": "Z_1911_Fiszel_Heliczer.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I259": {
    "id": "I259",
@@ -6667,7 +9372,34 @@
    "children": [],
    "spouses": [
     "I310"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I259__naturalizacja_moritz_tillinger.jpg",
+     "basename": "Naturalizacja_Moritz_Tillinger.png",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I259__m_1936_moritz_tillinger_bella_heliczer.jpg",
+     "basename": "M_1936_Moritz_Tillinger_Bella_Heliczer.png",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I259__z_1978_bella_tillinger.jpg",
+     "basename": "Z_1978_Bella_Tillinger.png",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I259__z_1990_moritz_tillinger.jpg",
+     "basename": "Z_1990_Moritz_Tillinger.png",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I260": {
    "id": "I260",
@@ -6804,7 +9536,28 @@
    ],
    "spouses": [
     "I321"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I270__u_1868_sime_zeisler.jpg",
+     "basename": "U_1868_Sime_Zeisler.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I270__u_1871_malke_zeisler.jpg",
+     "basename": "U_1871_Malke_Zeisler.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I270__u_1873_osias_zeisler.jpg",
+     "basename": "U_1873_Osias_Zeisler.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I271": {
    "id": "I271",
@@ -7243,7 +9996,23 @@
    ],
    "spouses": [
     "I294"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I292__renee_stern.jpg",
+     "basename": "Renee_Stern.png",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I292__u_1922_rene_stern.jpg",
+     "basename": "U_1922_Rene_Stern.png",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
+   "photo": "assets/documents/griffel_2026_08/photos/I292__renee_stern.jpg"
   },
   "I293": {
    "id": "I293",
@@ -7265,7 +10034,59 @@
    ],
    "spouses": [
     "I297"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I293__ludwik_robert_stern_1.jpg",
+     "basename": "Ludwik_Robert_Stern_1.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I293__ludwik_robert_stern_2.jpg",
+     "basename": "Ludwik_Robert_Stern_2.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I293__robert_louis_stern.jpg",
+     "basename": "Robert_Louis_Stern.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I293__0000.jpg",
+     "basename": "0000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I293__0001.jpg",
+     "basename": "0001.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I293__0002.jpg",
+     "basename": "0002.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I293__0003.jpg",
+     "basename": "0003.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I293__u_1928_ludwik_stern.jpg",
+     "basename": "U_1928_Ludwik_Stern.png",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
+   "photo": "assets/documents/griffel_2026_08/photos/I293__ludwik_robert_stern_1.jpg"
   },
   "I294": {
    "id": "I294",
@@ -7462,7 +10283,23 @@
    ],
    "spouses": [
     "I304"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I303__zeev_preminger.jpg",
+     "basename": "Zeev_Preminger.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I303__zeev_and_chava_preminger.jpg",
+     "basename": "Zeev_and_Chava_Preminger.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
+   "photo": "assets/documents/griffel_2026_08/photos/I303__zeev_and_chava_preminger.jpg"
   },
   "I304": {
    "id": "I304",
@@ -7565,7 +10402,23 @@
     "I216"
    ],
    "children": [],
-   "spouses": []
+   "spouses": [],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I309__triebfeder_natan_aa.jpg",
+     "basename": "Triebfeder_Natan_AA.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I309__triebfeder_natan_aa_2.jpg",
+     "basename": "Triebfeder_Natan_AA_2.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
+   "photo": "assets/documents/griffel_2026_08/photos/I309__triebfeder_natan_aa.jpg"
   },
   "I310": {
    "id": "I310",
@@ -7674,7 +10527,28 @@
     "I249"
    ],
    "children": [],
-   "spouses": []
+   "spouses": [],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I315__001.jpg",
+     "basename": "001.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/photos/I315__002.jpg",
+     "basename": "002.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/yad_vashem/I315__jakov_jehoshua_triebfeder_yv.jpg",
+     "basename": "Jakov_Jehoshua_Triebfeder_YV.avif",
+     "names_the_person": false,
+     "kind": "yad_vashem"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I317": {
    "id": "I317",
@@ -7938,7 +10812,16 @@
    "children": [],
    "spouses": [
     "I337"
-   ]
+   ],
+   "media": [
+    {
+     "file": "assets/documents/griffel_2026_08/registers/I330__u_1892_ruchel_griffel.jpg",
+     "basename": "U_1892_Ruchel_Griffel.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   "I331": {
    "id": "I331",

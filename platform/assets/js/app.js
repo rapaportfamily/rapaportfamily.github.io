@@ -1199,16 +1199,26 @@ async function loadMemoirPhotos() {
 // hang off it before you open it. It always starts on Dov, and the "steps from
 // the family" figure keeps the four principals as the origin no matter how far
 // you wander — the point of the archive is their story, not the 1,442.
-let _extCache = null;
-async function loadExtended() {
-  if (!_extCache) {
-    _extCache = await fetch(`data/extended_tree.json?v=${Date.now()}`, { cache: 'no-store' })
+// TWO trees, from two researchers who never met: Basia's Rapaport line (David's father's
+// side) and Jacob's Griffel line (his mother's). They are separate files because they are
+// separate research, and merging them would blur whose word each fact is. The page switches
+// between them; it never silently mixes them.
+const EX_TREES = {
+  rapaport: { file: 'data/extended_tree.json', key: 'explore.tree_rapaport' },
+  griffel:  { file: 'data/griffel_tree.json',  key: 'explore.tree_griffel' },
+};
+const _extCache = {};
+async function loadExtended(which) {
+  const t = EX_TREES[which] ? which : 'rapaport';
+  if (!_extCache[t]) {
+    _extCache[t] = await fetch(`${EX_TREES[t].file}?v=${Date.now()}`, { cache: 'no-store' })
       .then(r => r.json());
+    _extCache[t]._tree = t;
   }
-  return _extCache;
+  return _extCache[t];
 }
 
-const ExploreState = { focus: null, search: '' };
+const ExploreState = { focus: null, search: '', tree: 'rapaport' };
 
 function exLabel(p) {
   return [p.given, p.surname].filter(Boolean).join(' ').trim() || '—';
@@ -1225,12 +1235,20 @@ function renderExplore(root, param) {
   root.innerHTML = `${pageHeader('explore.title', 'explore.lead')}
     <div id="explore-body"><p class="muted">${escapeHtml(t('ui.loading'))}</p></div>`;
 
-  loadExtended().then(D => {
-    const P = D.people, F = D.families;
-    // open on Dov unless a person was asked for
-    const principals = Object.keys(D.focus.principals);
-    const dov = principals.find(id => D.focus.principals[id] === '1946-08-28') || principals[0];
-    ExploreState.focus = (param && P[param]) ? param : (ExploreState.focus && P[ExploreState.focus] ? ExploreState.focus : dov);
+  loadExtended(ExploreState.tree).then(D => {
+    const P = D.people;
+    // Open on Dov in the Rapaport tree. The Griffel file has no principals block — it is not
+    // built around the four — so it opens on Rebeka, who is the join between the two sides.
+    let start;
+    if (D.focus && D.focus.principals) {
+      const principals = Object.keys(D.focus.principals);
+      start = principals.find(id => D.focus.principals[id] === '1946-08-28') || principals[0];
+    } else {
+      const reb = Object.values(P).find(p => p.core_id === 'p_rebeka');
+      start = reb ? reb.id : Object.keys(P)[0];
+    }
+    ExploreState.focus = (param && P[param]) ? param
+      : (ExploreState.focus && P[ExploreState.focus] ? ExploreState.focus : start);
     drawExplore(D);
   }).catch(() => {
     const b = document.getElementById('explore-body');
@@ -1320,7 +1338,12 @@ function drawExplore(D) {
     if (State.lang === 'pl' && n >= 2 && n <= 4) return 'explore.steps_few';
     return 'explore.steps';
   };
-  const stepLine = steps === 0 ? t('explore.is_family')
+  // Only the Rapaport file is built around the four. The Griffel file carries no
+  // steps_from_family at all, and without this guard every person in it would read
+  // "No path back to the four" — which is not a finding about them, it is a different tree.
+  const anchored = !!(D.focus && D.focus.principals);
+  const stepLine = !anchored ? ''
+    : steps === 0 ? t('explore.is_family')
     : (steps == null ? t('explore.unconnected')
        : (t(stepKey(steps)) === stepKey(steps) ? t('explore.steps') : t(stepKey(steps)))
            .replace('{n}', steps));
@@ -1329,8 +1352,15 @@ function drawExplore(D) {
     <div class="ex-controls">
       <input class="chat-search" type="search" id="ex-search" autocomplete="off"
              placeholder="${escapeHtml(t('explore.search_ph'))}" value="${escapeHtml(ExploreState.search)}" />
-      <button class="filter-btn" data-home="1">${escapeHtml(t('explore.back_to_family'))}</button>
+      ${anchored ? `<button class="filter-btn" data-home="1">${escapeHtml(t('explore.back_to_family'))}</button>` : ''}
       <span class="tree-hint">${escapeHtml(t('explore.count').replace('{n}', D.counts.people))}</span>
+    </div>
+    <div class="ex-treeswitch">
+      ${Object.keys(EX_TREES).map(k => `
+        <button class="filter-btn${ExploreState.tree === k ? ' active' : ''}" data-tree="${k}">
+          ${escapeHtml(t(EX_TREES[k].key))}
+        </button>`).join('')}
+      <span class="tree-hint">${escapeHtml(t('explore.tree_note'))}</span>
     </div>
     <div id="ex-results" class="ex-results" hidden></div>
 
@@ -1375,6 +1405,15 @@ function drawExplore(D) {
     ExploreState.focus = principals.find(id => D.focus.principals[id] === '1946-08-28') || principals[0];
     drawExplore(D);
   });
+
+  body.querySelectorAll('[data-tree]').forEach(el => el.addEventListener('click', () => {
+    const which = el.dataset.tree;
+    if (which === ExploreState.tree) return;
+    ExploreState.tree = which;
+    ExploreState.focus = null;               // each tree opens where it should, not where the other left off
+    ExploreState.search = '';
+    renderExplore(document.getElementById('view') || document.querySelector('main'), null);
+  }));
 
   const box = document.getElementById('ex-search');
   const results = document.getElementById('ex-results');

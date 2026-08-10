@@ -2284,3 +2284,14 @@ html[dir="rtl"] .detail-portrait { margin: 0 1.2rem 1rem 0; }
   aspect-ratio: 3 / 4; object-fit: contain;
   background: #fff; padding: 3px;
 }
+
+/* Two trees, one page. The switch sits under the search rather than beside it so that on a
+   phone it never squeezes the search box into a stub. */
+.ex-treeswitch {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem;
+  margin: 0.15rem 0 0.9rem;
+}
+.ex-treeswitch .filter-btn.active {
+  background: var(--accent, #0038B8); color: #fff; border-color: var(--accent, #0038B8);
+}
+.ex-treeswitch .tree-hint { flex-basis: 100%; font-size: 0.72rem; opacity: 0.85; }

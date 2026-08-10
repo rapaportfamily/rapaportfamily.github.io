@@ -3212,7 +3212,13 @@
    "note_en": "1st cousin of David Memek Rapaport. Famed Vaad ha-Hatzala rescuer in Istanbul during WWII, helping save Polish Jews. Subject of Joseph Friedenson's book 'Dateline: Istanbul: Dr Jacob Griffel's Lone Odyssey Through a Sea of Indifference' (ArtScroll, 1987). Son of Isaac Chaim Griffel + Judith Breit.",
    "father_id": "p_isaac_chaim_griffel",
    "mother_id": "p_judith_breit",
-   "note_he": "בן דודו הראשון של דוד ממק רפפורט. איש הצלה נודע מטעם ועד ההצלה באיסטנבול בימי מלחמת העולם השנייה, שסייע להציל יהודים מפולין. נושא ספרו של יוסף פרידנזון ״Dateline: Istanbul״ (ארטסקרול, 1987). בנם של יצחק חיים גריפל ויהודית ברייט."
+   "note_he": "בן דודו הראשון של דוד ממק רפפורט. איש הצלה נודע מטעם ועד ההצלה באיסטנבול בימי מלחמת העולם השנייה, שסייע להציל יהודים מפולין. נושא ספרו של יוסף פרידנזון ״Dateline: Istanbul״ (ארטסקרול, 1987). בנם של יצחק חיים גריפל ויהודית ברייט.",
+   "photo": "assets/documents/griffel_2026_08/photos/I16__jacob_griffel.jpg",
+   "photo_caption": {
+    "en": "Dr Jacob Griffel — from Jacob’s Griffel archive.",
+    "he": "ד\"ר יעקב גריפל — מארכיון גריפל של יעקב."
+   },
+   "photo_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   {
    "id": "p_yehuda_nir",
@@ -3377,7 +3383,13 @@
    "note_en": "1st cousin of David Memek. Son of David Mendel Griffel + Chawa Wahl. Born Nadwórna 1897, died 1951. VERIFIED 21 May 2026 (Basia's archive find): Zygmunt's timber-export firm was located at Lwów, ul. Kopernika 5. Founded 1923. Exporting 60,000 tons of pine timber annually to England (82.8% of output) plus Holland, Germany, Switzerland, France. Transit warehouses in Gdynia + Gdańsk. Confirms the family timber dynasty Eric Griffel described in his ADST oral history.",
    "father_id": "p_david_mendel_griffel",
    "mother_id": "p_chawa_wahl",
-   "note_he": "בן דודו הראשון של דוד ממק. בנם של דוד מנדל גריפל וחוה ואהל. נולד בנדבורנא ב-1897, נפטר ב-1951. אומת ב-21 במאי 2026 (מציאה של בסיה בארכיון): חברת ייצוא העצים של זיגמונט שכנה בלבוב, רחוב קופרניקה 5. נוסדה ב-1923. ייצאה 60,000 טונות עצי אורן בשנה לאנגליה (82.8% מן התפוקה), וכן להולנד, גרמניה, שווייץ וצרפת. מחסני מעבר בגדיניה ובגדנסק. מאשש את שושלת העצים המשפחתית שתיאר אריק גריפל בעדותו ההיסטורית."
+   "note_he": "בן דודו הראשון של דוד ממק. בנם של דוד מנדל גריפל וחוה ואהל. נולד בנדבורנא ב-1897, נפטר ב-1951. אומת ב-21 במאי 2026 (מציאה של בסיה בארכיון): חברת ייצוא העצים של זיגמונט שכנה בלבוב, רחוב קופרניקה 5. נוסדה ב-1923. ייצאה 60,000 טונות עצי אורן בשנה לאנגליה (82.8% מן התפוקה), וכן להולנד, גרמניה, שווייץ וצרפת. מחסני מעבר בגדיניה ובגדנסק. מאשש את שושלת העצים המשפחתית שתיאר אריק גריפל בעדותו ההיסטורית.",
+   "photo": "assets/documents/griffel_2026_08/photos/I6__p_zygmunt_griffel.jpg",
+   "photo_caption": {
+    "en": "Zygmunt Griffel — from Jacob’s Griffel archive.",
+    "he": "זיגמונט גריפל — מארכיון גריפל של יעקב."
+   },
+   "photo_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   {
    "id": "p_regina_gelles",
@@ -3470,7 +3482,13 @@
    "note_en": "1st cousin of David Memek. Born Nadwórna 9 Oct 1904. Industrialist (Przemysłowiec) resident Stanisławów.",
    "father_id": "p_david_mendel_griffel",
    "mother_id": "p_chawa_wahl",
-   "note_he": "בן דודו הראשון של דוד ממק. נולד בנדבורנא ב-9 באוקטובר 1904. תעשיין המתגורר בסטניסלבוב."
+   "note_he": "בן דודו הראשון של דוד ממק. נולד בנדבורנא ב-9 באוקטובר 1904. תעשיין המתגורר בסטניסלבוב.",
+   "photo": "assets/documents/griffel_2026_08/photos/I7__1940_edward_griffel.jpg",
+   "photo_caption": {
+    "en": "Edward Griffel — from Jacob’s Griffel archive.",
+    "he": "אדוארד גריפל — מארכיון גריפל של יעקב."
+   },
+   "photo_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   {
    "id": "p_chawa_wahl",
@@ -7121,7 +7139,13 @@
     "p_shaye_griffel",
     "p_simce_griffel",
     "p_zissel_griffel"
-   ]
+   ],
+   "photo": "assets/documents/griffel_2026_08/photos/I19__getto_leibisch_griffel.jpg",
+   "photo_caption": {
+    "en": "Leibisch Griffel — from Jacob’s Griffel archive.",
+    "he": "לייביש גריפל — מארכיון גריפל של יעקב."
+   },
+   "photo_credit": "Jacob, Griffel family archive, received 10 August 2026"
   },
   {
    "id": "p_beniamin_griffel",

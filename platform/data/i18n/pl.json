@@ -302,6 +302,9 @@
   "steps_one": "Jeden krok od Dawida, Lusi, Szymona i Dova.",
   "steps_few": "{n} kroki od Dawida, Lusi, Szymona i Dova.",
   "testimony": "Karty Świadectwa w Yad Vashem",
-  "testimony_note": "Karta Świadectwa to formularz wypełniony ręcznie — zwykle przez ocalałego krewnego w latach pięćdziesiątych — by zapisać, że wymieniona osoba została zamordowana w Zagładzie. Dla wielu osób w tym drzewie to jedyny ślad."
+  "testimony_note": "Karta Świadectwa to formularz wypełniony ręcznie — zwykle przez ocalałego krewnego w latach pięćdziesiątych — by zapisać, że wymieniona osoba została zamordowana w Zagładzie. Dla wielu osób w tym drzewie to jedyny ślad.",
+  "tree_rapaport": "Rapaport — strona ojca (Basia)",
+  "tree_griffel": "Griffel — strona matki (Jakub)",
+  "tree_note": "Dwoje badaczy, dwa pliki, trzymane osobno, byś zawsze wiedział, czyje to słowa."
  }
 }
