@@ -1051,18 +1051,32 @@
     "pre_war_residence": "Tarnów, Poland",
     "during_war": "Przemyśl, Poland",
     "place_and_year_of_death": "Auschwitz, 1940",
-    "submitter": "family member, 1953"
+    "submitter": "family member, 1953",
+    "page_number": "53072",
+    "subject": "Bernard (Berisz) Rapaport",
+    "submitter_residence": "Haifa",
+    "submitter_address": "street only partly legible; house number 93",
+    "relationship_as_written": "בנו — his son",
+    "signature_reads": "רפפורט ד (read from the signature, not a typed field)",
+    "place_and_date_signed": "26.4.53"
    },
    "summary": {
-    "en": "Primary documentary confirmation of Berisz's parents (Moshe + Menukha) and Holocaust fate (Auschwitz). PoT year of birth (1888) differs from passport application (1886) — the passport is a contemporary primary document and is the more reliable source for date.",
-    "he": "אישוש תיעודי ראשוני לזהות הוריו של בריש (משה ומנוחה) ולגורלו בשואה (אושוויץ). שנת הלידה שבדף העד (1888) שונה מזו שבבקשת הדרכון (1886) — והדרכון הוא מסמך ראשוני בן הזמן, ולכן המקור המהימן יותר לתאריך."
+    "en": "Primary documentary confirmation of Berisz's parents (Moshe + Menukha) and Holocaust fate (Auschwitz). PoT year of birth (1888) differs from passport application (1886) — the passport is a contemporary primary document and is the more reliable source for date. WHO FILED IT. The declaration at the foot gives a filer living in Haifa, at a street only partly legible with house number 93, signing on 26 April 1953. Where the form asks what the filer was to the person, the word written is בנו — his son. The signature reads רפפורט ד. The identification does not rest on that signature: Berish and Rebeka had one son, David, their other child being Lota, so \"his son\" is David whoever wrote the letters. He filed it seven years after reaching the country, for parents he had last seen before the war. Yad Vashem’s own database would show the submitter independently; it refused connection from this machine on 11 August 2026, so that confirmation is still outstanding.",
+    "he": "אישוש תיעודי ראשוני לזהות הוריו של בריש (משה ומנוחה) ולגורלו בשואה (אושוויץ). שנת הלידה שבדף העד (1888) שונה מזו שבבקשת הדרכון (1886) — והדרכון הוא מסמך ראשוני בן הזמן, ולכן המקור המהימן יותר לתאריך. מי הגיש. ההצהרה בתחתית נוקבת במגיש המתגורר בחיפה, ברחוב שקריאתו חלקית ובמספר בית 93, וחתום ב-26 באפריל 1953. במקום שבו שואל הטופס מה היה המגיש לנספה, המילה הכתובה היא ״בנו״. החתימה נקראת ״רפפורט ד״. הזיהוי אינו נשען על החתימה: לבעריש ולרבקה היה בן אחד, דוד, וילדתם האחרת הייתה לוטה — ולכן ״בנו״ הוא דוד, יהא מי שיהא מי שרשם את האותיות. הוא הגיש את הדף שבע שנים אחרי שהגיע לארץ, עבור הורים שראה לאחרונה לפני המלחמה. מסד הנתונים של יד ושם היה מציג את שם המגיש באופן בלתי תלוי; הוא סירב לחיבור ממכונה זו ב-11 באוגוסט 2026, ולכן האימות הזה עדיין חסר."
    },
    "related_people": [
     "p_berisz",
     "p_moses_saul_rapaport",
-    "p_menukha"
+    "p_menukha",
+    "p_david"
    ],
-   "status": "verified"
+   "status": "verified",
+   "open_questions": [
+    {
+     "en": "Confirm the submitter name against Yad Vashem’s own name database — it refused connection on 11 August 2026 and has not been checked.",
+     "he": "לאמת את שם המגיש מול מסד השמות של יד ושם עצמו — הוא סירב לחיבור ב-11 באוגוסט 2026 ולא נבדק."
+    }
+   ]
   },
   {
    "id": "doc_regina_rivka_yv_pot",
@@ -1089,18 +1103,32 @@
     "pre_war_residence": "Przemyśl, Poland",
     "during_war": "Przemyśl, Poland",
     "place_and_year_of_death": "unknown, 1943",
-    "submitter": "family member, 1953"
+    "submitter": "family member, 1953",
+    "page_number": "53074",
+    "subject": "Regina (Rebeka) Rapaport",
+    "submitter_residence": "Haifa",
+    "submitter_address": "street only partly legible; house number 93",
+    "relationship_as_written": "בנה — her son",
+    "signature_reads": "רפפורט ד (read from the signature, not a typed field)",
+    "place_and_date_signed": "26.4.53"
    },
    "summary": {
-    "en": "Primary documentary confirmation that Rebecca (Regina Rivka née Griffel) lived in Przemyśl before and during the war, and perished in the Shoah. Year of birth (1892) differs from the Griffel pedigree (1888) — likely an error by the 1953 submitter.",
-    "he": "אישוש תיעודי ראשוני לכך שרבקה (רגינה רבקה לבית גריפל) התגוררה בפשמישל לפני המלחמה ובמהלכה, ונספתה בשואה. שנת הלידה (1892) שונה מזו שבאילן היוחסין של גריפל (1888) — ככל הנראה טעות של מגיש דף העד ב-1953."
+    "en": "Primary documentary confirmation that Rebecca (Regina Rivka née Griffel) lived in Przemyśl before and during the war, and perished in the Shoah. Year of birth (1892) differs from the Griffel pedigree (1888) — likely an error by the 1953 submitter. WHO FILED IT. The declaration at the foot gives a filer living in Haifa, at a street only partly legible with house number 93, signing on 26 April 1953. Where the form asks what the filer was to the person, the word written is בנה — her son. The signature reads רפפורט ד. The identification does not rest on that signature: Berish and Rebeka had one son, David, their other child being Lota, so \"her son\" is David whoever wrote the letters. He filed it seven years after reaching the country, for parents he had last seen before the war. Yad Vashem’s own database would show the submitter independently; it refused connection from this machine on 11 August 2026, so that confirmation is still outstanding.",
+    "he": "אישוש תיעודי ראשוני לכך שרבקה (רגינה רבקה לבית גריפל) התגוררה בפשמישל לפני המלחמה ובמהלכה, ונספתה בשואה. שנת הלידה (1892) שונה מזו שבאילן היוחסין של גריפל (1888) — ככל הנראה טעות של מגיש דף העד ב-1953. מי הגיש. ההצהרה בתחתית נוקבת במגיש המתגורר בחיפה, ברחוב שקריאתו חלקית ובמספר בית 93, וחתום ב-26 באפריל 1953. במקום שבו שואל הטופס מה היה המגיש לנספה, המילה הכתובה היא ״בנה״. החתימה נקראת ״רפפורט ד״. הזיהוי אינו נשען על החתימה: לבעריש ולרבקה היה בן אחד, דוד, וילדתם האחרת הייתה לוטה — ולכן ״בנה״ הוא דוד, יהא מי שיהא מי שרשם את האותיות. הוא הגיש את הדף שבע שנים אחרי שהגיע לארץ, עבור הורים שראה לאחרונה לפני המלחמה. מסד הנתונים של יד ושם היה מציג את שם המגיש באופן בלתי תלוי; הוא סירב לחיבור ממכונה זו ב-11 באוגוסט 2026, ולכן האימות הזה עדיין חסר."
    },
    "related_people": [
     "p_rebeka",
     "p_leizor_griffel",
-    "p_sara_chajes"
+    "p_sara_chajes",
+    "p_david"
    ],
-   "status": "verified"
+   "status": "verified",
+   "open_questions": [
+    {
+     "en": "Confirm the submitter name against Yad Vashem’s own name database — it refused connection on 11 August 2026 and has not been checked.",
+     "he": "לאמת את שם המגיש מול מסד השמות של יד ושם עצמו — הוא סירב לחיבור ב-11 באוגוסט 2026 ולא נבדק."
+    }
+   ]
   },
   {
    "id": "doc_berisz_passport_application_1924",
