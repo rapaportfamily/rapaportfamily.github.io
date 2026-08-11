@@ -23,6 +23,11 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    # A run that hangs holds the 'pages' concurrency group, and with cancel-in-progress false
+    # every later deploy queues behind it forever. That is exactly what happened: a run sat
+    # waiting 108 hours, four days of work never reached the site, and pushing kept reporting
+    # success. A job that cannot finish in 20 minutes is stuck; let it die and free the queue.
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
@@ -31,3 +36,30 @@ jobs:
           path: platform/
       - id: deployment
         uses: actions/deploy-pages@v4
+
+      # deploy-pages reporting success is not the same as the site serving the new build.
+      # This asks the live URL what it is actually serving and fails the run if it disagrees
+      # with what was just committed — so a silent stale site shows up as a red run, not as
+      # a link that quietly hands people last week's archive.
+      - name: Verify the live site is serving this build
+        run: |
+          set -uo pipefail
+          WANT=$(grep -o 'auth-gate\.js?v=[0-9A-Za-z.\-]*' platform/index.html | head -1 | sed 's/.*?v=//')
+          if [ -z "$WANT" ]; then
+            echo "::error::could not read the build stamp out of platform/index.html"
+            exit 2
+          fi
+          echo "committed build stamp: $WANT"
+          for i in $(seq 1 12); do
+            LIVE=$(curl -fsSL -H 'Cache-Control: no-cache' \
+                   "https://rapaportfamily.github.io/index.html?cachebust=$RANDOM$i" \
+                   | grep -o 'auth-gate\.js?v=[0-9A-Za-z.\-]*' | head -1 | sed 's/.*?v=//') || LIVE=""
+            echo "attempt $i: live=$LIVE"
+            if [ "$LIVE" = "$WANT" ]; then
+              echo "the live site is serving $LIVE"
+              exit 0
+            fi
+            sleep 15
+          done
+          echo "::error::the deploy reported success but https://rapaportfamily.github.io is still serving '$LIVE', not '$WANT'"
+          exit 1
