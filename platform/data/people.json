@@ -881,9 +881,13 @@
     },
     {
      "key": "husband_name_szmid",
-     "value": "Her husband's surname was SZMID — recorded by David in his Yad Vashem testimony (Basia, 4 Jun 2026). (Earlier the husband was 'name unrecorded' in Lusia's memoir.) Marriage place still unknown.",
+     "value": {
+      "en": "Her husband's surname was SZMID — recorded by David in his Yad Vashem testimony (Basia, 4 Jun 2026). (Earlier the husband was 'name unrecorded' in Lusia's memoir.) Marriage place still unknown. Confirmed at source 11 August 2026: the page is Yad Vashem No. 53075, and it gives her family name as שמיד - רפפורט. Basia’s own tree files her as LOTTA_Rapaport_Szmid_1915 with the husband recorded only as \"… Szmid\"; Jacob’s tree has no marriage for her at all. Two records name the surname, none names the man.",
+      "he": "אומת במקור ב-11 באוגוסט 2026: הדף הוא דף עד ביד ושם מס׳ 53075, והוא נוקב בשם משפחתה ״שמיד - רפפורט״. עץ המשפחה של בסיה מתייק אותה כ-LOTTA_Rapaport_Szmid_1915 והבעל רשום כ״… שמיד״ בלבד; בעץ של יעקב אין לה נישואין כלל. שתי רשומות נוקבות בשם המשפחה, אף אחת אינה נוקבת באיש."
+     },
      "confidence": "documented",
      "sources": [
+      "doc_lotte_yv_pot_53075",
       "wa_export_2026-06-15"
      ],
      "value_he": "שם משפחתו של בעלה היה שמיד (SZMID) — כפי שרשם דוד בעדותו ביד ושם (בסיה, 4 ביוני 2026). קודם לכן היה הבעל ״ללא שם רשום״ ביומנה של לוסיה."
@@ -898,14 +902,29 @@
      "value_he": "בסיה פנתה למוניקה מנייבסקה (שותפה לחיבור ״רשימת ואדוש״ / passportyzycia.pl) כדי לברר אם לוטה הייתה קרבן של סחיטת הדרכונים המזויפים. ממתין לתשובה."
     },
     {
-     "key": "married_name_schmid",
+     "key": "lwow_corroborated_date_unknown",
      "value": {
-      "en": "Her Page of Testimony gives the family name as שמיד - רפפורט, Schmid – Rapaport, and her marital status as married. Nothing else in this archive records that she married, or whom.",
-      "he": "דף העד שלה נוקב בשם המשפחה ״שמיד - רפפורט״ ובמצבה המשפחתי ״נשואה״. שום דבר אחר בארכיון הזה אינו מתעד שנישאה, ולמי."
+      "en": "WHERE is corroborated; WHEN is not known by anyone. Her brother wrote \"Lwów\" as the place of death on her Yad Vashem page in 1953. Lusia’s memoir, written independently and decades later, puts her in the Lwów ghetto, has her buy a forged US-residency certificate there, and has her arrested with her husband and never seen again. Two sources that could not have copied one another put her end in the same city. But no source anywhere — not the page, not the memoir, not Basia’s tree, not Jacob’s, both of which record no death for her at all — gives a year. David left that box empty.",
+      "he": "ה״היכן״ מאושר; ה״מתי״ אינו ידוע לאיש. אחיה כתב ״לבוב״ כמקום המוות בדף העד שלה ב-1953. ספר הזיכרונות של לוסיה, שנכתב באופן בלתי תלוי ועשרות שנים לאחר מכן, ממקם אותה בגטו לבוב, מתאר כיצד קנתה שם תעודת תושבות אמריקנית מזויפת, וכיצד נעצרה עם בעלה ולא נראתה שוב. שני מקורות שלא יכלו להעתיק זה מזה ממקמים את סופה באותה עיר. אך שום מקור — לא הדף, לא הזיכרונות, לא עץ המשפחה של בסיה ולא של יעקב, ששניהם אינם רושמים לה מוות כלל — אינו נוקב בשנה. דוד השאיר את המשבצת ריקה."
      },
      "confidence": "documented",
      "sources": [
-      "doc_lotte_yv_pot_53075"
+      "doc_lotte_yv_pot_53075",
+      "src_lusia_memoir_page_41",
+      "doc_basia_gedcom_2026_08_05",
+      "doc_griffel_tree_jacob_2026_08_10"
+     ]
+    },
+    {
+     "key": "not_her_cousin_charlotte",
+     "value": {
+      "en": "DO NOT MERGE with Charlotte Horowitz, born 21 November 1914 in Vienna — the daughter of Jente Rapaport, Berish’s sister, and therefore Lotte’s first cousin. Same name, same city, one year apart, and Basia holds a file placing the cousin in Liège. The Yad Vashem page says 1914, which matches the cousin rather than our Lotte’s 1915 — but the page names her father as בעריש and her mother as רבקה, and those are ours. The year is David writing from memory, off by one, as his father’s year was off by two.",
+      "he": "אין למזג עם שרלוט הורוביץ, ילידת 21 בנובמבר 1914 בווינה — בתה של ינטה רפפורט, אחותו של בעריש, ולפיכך בת דודתה של לוטה. אותו שם, אותה עיר, בהפרש שנה, ובידי בסיה קובץ הממקם את בת הדודה בליאז׳. דף העד נוקב ב-1914, התואם את בת הדודה ולא את 1915 של לוטה שלנו — אך הדף נוקב באביה ״בעריש״ ובאמה ״רבקה״, ואלה שלנו. השנה היא דוד הכותב מן הזיכרון, בפער של שנה, כפי ששנת אביו הייתה בפער שנתיים."
+     },
+     "confidence": "documented",
+     "sources": [
+      "doc_lotte_yv_pot_53075",
+      "doc_basia_gedcom_2026_08_05"
      ]
     }
    ],
@@ -935,8 +954,8 @@
     "sources": [
      "doc_lotte_yv_pot_53075"
     ],
-    "note_en": "Died at Lwów. Her brother David wrote the place on her Yad Vashem Page of Testimony, No. 53075, filed from Haifa on 26 April 1953 — but he left the year blank, so this archive records where and not when. Until this page was read it held no death for her at all.",
-    "note_he": "מתה בלבוב. אחיה דוד רשם את המקום בדף העד שלה ביד ושם, מס׳ 53075, שהוגש מחיפה ב-26 באפריל 1953 — אך את השנה השאיר ריקה, ולכן הארכיון רושם היכן ולא מתי. עד לקריאת הדף הזה לא החזיק עבורה מוות כלל."
+    "note_en": "Died at Lwów. Her brother David wrote the place on her Yad Vashem Page of Testimony, No. 53075, filed from Haifa on 26 April 1953 — but he left the year blank, so this archive records where and not when. Until this page was read it held no death for her at all. The place is corroborated: Lusia’s memoir independently puts her in the Lwów ghetto and has her arrested there. Neither family tree records any death for her at all, and no source gives a year.",
+    "note_he": "מתה בלבוב. אחיה דוד רשם את המקום בדף העד שלה ביד ושם, מס׳ 53075, שהוגש מחיפה ב-26 באפריל 1953 — אך את השנה השאיר ריקה, ולכן הארכיון רושם היכן ולא מתי. עד לקריאת הדף הזה לא החזיק עבורה מוות כלל. המקום מאושר: ספר הזיכרונות של לוסיה ממקם אותה באופן בלתי תלוי בגטו לבוב ומתאר את מעצרה שם. אף אחד משני עצי המשפחה אינו רושם לה מוות כלל, ואף מקור אינו נוקב בשנה."
    },
    "sources": [
     "doc_lotte_yv_pot_53075"
