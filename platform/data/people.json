@@ -289,12 +289,13 @@
     {
      "key": "filed_yad_vashem_pages",
      "value": {
-      "en": "On 26 April 1953, from Haifa, David filed the Pages of Testimony at Yad Vashem for both his murdered parents — No. 53072 for his father and No. 53074 for his mother — signing each in the relationship line as their son. He gave his father’s year of death as 1940 and his mother’s as 1943; the camp register gives his father 29 March 1942. He was writing from memory, seven years after reaching the country.",
-      "he": "ב-26 באפריל 1953, מחיפה, הגיש דוד את דפי העד ביד ושם עבור שני הוריו שנרצחו — מס׳ 53072 עבור אביו ומס׳ 53074 עבור אמו — וחתם על שניהם בשורת הקרבה כבנם. הוא נקב בשנת מותו של אביו 1940 ובשל אמו 1943; פנקס המחנה נוקב באביו 29 במרץ 1942. הוא כתב מן הזיכרון, שבע שנים אחרי שהגיע לארץ."
+      "en": "On 26 April 1953, from Haifa, David filed the Pages of Testimony at Yad Vashem for three people — No. 53072 for his father, No. 53074 for his mother and No. 53075 for his sister Lotte — signing the relationship line as their son, their son, and her brother. No. 53073 is missing from the run, so there may be a fourth. He gave his father’s year of death as 1940 and his mother’s as 1943; the camp register gives his father 29 March 1942. He was writing from memory, seven years after reaching the country.",
+      "he": "ב-26 באפריל 1953, מחיפה, הגיש דוד את דפי העד ביד ושם עבור שלושה — מס׳ 53072 עבור אביו, מס׳ 53074 עבור אמו ומס׳ 53075 עבור אחותו לוטה — וחתם בשורת הקרבה כבנם, כבנם, וכאחיה. מס׳ 53073 חסר ברצף, ולכן ייתכן שיש רביעי. הוא נקב בשנת מותו של אביו 1940 ובשל אמו 1943; פנקס המחנה נוקב באביו 29 במרץ 1942. הוא כתב מן הזיכרון, שבע שנים אחרי שהגיע לארץ."
      },
      "confidence": "documented",
      "sources": [
       "doc_bernard_dov_yv_pot",
+      "doc_lotte_yv_pot_53075",
       "doc_regina_rivka_yv_pot"
      ]
     }
@@ -795,8 +796,8 @@
   {
    "id": "p_lota",
    "primary_name": {
-    "en": "Lota Rapaport",
-    "he": "לוטה רפפורט",
+    "en": "Lota (Lotte) Schmid-Rapaport",
+    "he": "לוטה שמיד־רפפורט",
     "pl": "Lota Rapaport",
     "fr": "Lota Rapaport"
    },
@@ -895,6 +896,17 @@
       "wa_export_2026-06-15"
      ],
      "value_he": "בסיה פנתה למוניקה מנייבסקה (שותפה לחיבור ״רשימת ואדוש״ / passportyzycia.pl) כדי לברר אם לוטה הייתה קרבן של סחיטת הדרכונים המזויפים. ממתין לתשובה."
+    },
+    {
+     "key": "married_name_schmid",
+     "value": {
+      "en": "Her Page of Testimony gives the family name as שמיד - רפפורט, Schmid – Rapaport, and her marital status as married. Nothing else in this archive records that she married, or whom.",
+      "he": "דף העד שלה נוקב בשם המשפחה ״שמיד - רפפורט״ ובמצבה המשפחתי ״נשואה״. שום דבר אחר בארכיון הזה אינו מתעד שנישאה, ולמי."
+     },
+     "confidence": "documented",
+     "sources": [
+      "doc_lotte_yv_pot_53075"
+     ]
     }
    ],
    "father_id": "p_berisz",
@@ -914,7 +926,21 @@
     "note_en": "Vienna birth index found (Austrian collection). David had the date slightly wrong but the location right.",
     "note_he": "מפתח הלידות של וינה נמצא (האוסף האוסטרי). דוד טעה מעט בתאריך אך צדק במקום."
    },
-   "note_he": "אחותו של דוד. חיה בגטו לבוב עם משפחתה. לפי עמוד 37 ביומן: קנתה מסמכי הגירה מזויפים לארצות הברית אך לפי המסופר הוסגרה בידי המוכרים; לימים נעלמה במלחמה (ככל הנראה נרצחה בשואה). הזיכרון המשפחתי עליה אושר מחדש בידי דליה ב-17 במאי 2026. — מתועדת במאגר JewishGen/Ancestry ״עשרה גטאות יהודיים 1939-1942״ תחת ״לוטה רפפורט, ילידת 1915, גטו קרקוב, 1940״ (סליל 13, רשימה 177, מספר 72)."
+   "note_he": "אחותו של דוד. חיה בגטו לבוב עם משפחתה. לפי עמוד 37 ביומן: קנתה מסמכי הגירה מזויפים לארצות הברית אך לפי המסופר הוסגרה בידי המוכרים; לימים נעלמה במלחמה (ככל הנראה נרצחה בשואה). הזיכרון המשפחתי עליה אושר מחדש בידי דליה ב-17 במאי 2026. — מתועדת במאגר JewishGen/Ancestry ״עשרה גטאות יהודיים 1939-1942״ תחת ״לוטה רפפורט, ילידת 1915, גטו קרקוב, 1940״ (סליל 13, רשימה 177, מספר 72).",
+   "death": {
+    "date": "",
+    "date_precision": "unknown",
+    "place_name": "Lwów",
+    "confidence": "documented",
+    "sources": [
+     "doc_lotte_yv_pot_53075"
+    ],
+    "note_en": "Died at Lwów. Her brother David wrote the place on her Yad Vashem Page of Testimony, No. 53075, filed from Haifa on 26 April 1953 — but he left the year blank, so this archive records where and not when. Until this page was read it held no death for her at all.",
+    "note_he": "מתה בלבוב. אחיה דוד רשם את המקום בדף העד שלה ביד ושם, מס׳ 53075, שהוגש מחיפה ב-26 באפריל 1953 — אך את השנה השאיר ריקה, ולכן הארכיון רושם היכן ולא מתי. עד לקריאת הדף הזה לא החזיק עבורה מוות כלל."
+   },
+   "sources": [
+    "doc_lotte_yv_pot_53075"
+   ]
   },
   {
    "id": "p_ronen_rapaport",

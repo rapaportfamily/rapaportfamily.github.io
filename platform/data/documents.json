@@ -4257,6 +4257,55 @@
     "he": "ארכיון משפחתי שני, ומשפחה אחרת. אף לא אחד מ-569 קבציו מופיע בייצוא הרפפורטי של בסיה — זהו קו גריפל, אנשיה של אמו של דוד, הצד שעליו החזיק הארכיון הזה הכי מעט. רבקה גריפל, שממנה החזקנו שם, שנה ומוות המתועד רק בספר הזיכרונות של לוסיה, מופיעה כאן עם הוריה: לייזור גריפל, יליד 26 במרץ 1850 בנדבורנא, נפטר 1918, ושרה מטל חיות, ילידת 5 במרץ 1851, נפטרה 1940. היו לה שנים־עשר אחים ואחיות. במקום שבו שני הארכיונים נפגשים הם מסכימים בלי שהתייעצו זה עם זה: בעריש יליד 1886 ברדומישל ויילקי שמת באושוויץ ב-1942; דוד יליד 1911 בנדבורנא שמת בחיפה ב-1990; לוטה ילידת 1915 בקירוב. יעקב מתארך את מותה של רבקה ״1942?״ — עם סימן השאלה — וזה ניצב לצד ה-1942 שלנו ולצד ה-1943 שבדף העד שלה. שלושתם נשמרים."
    },
    "status": "read"
+  },
+  {
+   "id": "doc_lotte_yv_pot_53075",
+   "file_pages": [
+    "basia_2026_08/yad_vashem/I15__yad_vashem_lotte_rapaport.jpg"
+   ],
+   "kind": "image",
+   "type": "yad_vashem_page_of_testimony",
+   "primary_language": "he",
+   "title": {
+    "en": "Yad Vashem Page of Testimony 53075 — Lotte Schmid-Rapaport, filed by her brother David, 26 April 1953",
+    "he": "דף עד ביד ושם 53075 — לוטה שמיד־רפפורט, הוגש בידי אחיה דוד, 26 באפריל 1953",
+    "pl": "Karta Świadectwa Yad Vashem 53075 — Lotte Schmid-Rapaport, złożona przez brata Dawida, 26 kwietnia 1953",
+    "fr": "Feuille de Témoignage Yad Vashem 53075 — Lotte Schmid-Rapaport, déposée par son frère David, 26 avril 1953"
+   },
+   "source_archive": "Yad Vashem, Page of Testimony No. 53075. Copy from Basia, Ahnenblatt family archive, received 6 August 2026; read 11 August 2026.",
+   "related_people": [
+    "p_lota",
+    "p_david",
+    "p_berisz",
+    "p_rebeka"
+   ],
+   "decoded_fields": {
+    "page_number": "53075",
+    "family_name": "שמיד - רפפורט / Schmid – Rapaport",
+    "first_name": "לוטה / Lotte",
+    "father": "בעריש (Berish)",
+    "mother": "רבקה (Rebeka)",
+    "marital_status": "נשואה — married",
+    "date_of_birth": "1914",
+    "place_of_birth": "וינה, אוסטריה — Vienna, Austria",
+    "nationality_1939": "פולנית — Polish",
+    "place_of_death": "לבוב — Lwów",
+    "date_of_death": "not filled in",
+    "submitted_by": "her brother — אחיה — living in Haifa, house number 93",
+    "signed": "26.4.53",
+    "not_transcribed": "the occupation line and the community line are not legible enough in this scan to transcribe, and are left blank rather than guessed"
+   },
+   "summary": {
+    "en": "The third form David filled in that day. His sister Lotte was born in Vienna in 1914 — this page says 1914, the family trees say 27 September 1915, and both are kept — daughter of Berish and Rebeka, married, a Polish national in 1939, and she died at Lwów. This archive held no death for her at all: she was a birth record from Vienna and then nothing. Her brother, writing in Haifa eight years after the war, put down where she died and signed himself אחיה, her brother. He did not fill in the year. The married name on the page, Schmid, is new here too — nothing else in this archive records that she married, or whom.",
+    "he": "הטופס השלישי שמילא דוד באותו יום. אחותו לוטה נולדה בווינה ב-1914 — הדף הזה נוקב ב-1914, עצי המשפחה נוקבים ב-27 בספטמבר 1915, ושניהם נשמרים — בתם של בעריש ורבקה, נשואה, נתינה פולנייה ב-1939, ומתה בלבוב. הארכיון הזה לא החזיק עבורה מוות כלל: היא הייתה רישום לידה מווינה ואחר כך כלום. אחיה, שכתב בחיפה שמונה שנים אחרי המלחמה, רשם היכן מתה וחתם ״אחיה״. את השנה לא מילא. גם שם הנישואין שעל הדף, שמיד, חדש כאן — שום דבר אחר בארכיון הזה אינו מתעד שנישאה, ולמי."
+   },
+   "status": "read",
+   "open_questions": [
+    {
+     "en": "Who was Schmid? Nothing else here records Lotte’s marriage. And the year of her death is blank on the page — Lwów is where, not when.",
+     "he": "מי היה שמיד? שום דבר אחר כאן אינו מתעד את נישואיה של לוטה. ושנת מותה ריקה בדף — לבוב היא היכן, לא מתי."
+    }
+   ]
   }
  ],
  "additional_files": [
