@@ -1475,11 +1475,39 @@ function renderPhotographs(root) {
               </figcaption>
             </figure>`;
         }).join('')}
-      </div>`;
+      </div>
+      <div id="unid-block"></div>`;
 
     body.querySelectorAll('[data-person]').forEach(el => {
       el.addEventListener('click', () => openPersonModal(el.dataset.person));
     });
+
+    // The album nobody can name. It loads after the memoir plates and fails quietly if the
+    // file is absent, because an unidentified extra must never break the page that carries
+    // the identified ones.
+    fetch(`data/unidentified_photographs.json?v=${Date.now()}`, { cache: 'no-store' })
+      .then(r => r.json())
+      .then(u => {
+        const box = document.getElementById('unid-block');
+        const shots = (u.photographs || []);
+        if (!box || !shots.length) return;
+        box.innerHTML = `
+          <h2 class="unid-title">${escapeHtml(t('memoir.unid_title'))} <span class="ex-count">${shots.length}</span></h2>
+          <p class="story-note">${escapeHtml(t('memoir.unid_lead'))}</p>
+          <div class="unid-grid">
+            ${shots.map(s => `
+              <figure class="unid-shot">
+                <img src="${escapeHtml(s.file)}" alt="" loading="lazy"
+                     data-shot="${escapeHtml(s.file)}" data-shotcap="${escapeHtml(s.label)}" />
+              </figure>`).join('')}
+          </div>
+          <p class="ex-source">${escapeHtml(u.source || '')}</p>`;
+        box.querySelectorAll('[data-shot]').forEach(img => img.addEventListener('click', () => {
+          showModal(`<figure class="shot-full"><img src="${escapeHtml(img.dataset.shot)}" alt="" />
+            <figcaption dir="auto">${escapeHtml(img.dataset.shotcap || '')}</figcaption></figure>`);
+        }));
+      })
+      .catch(() => {});
   }).catch(() => {
     const body = document.getElementById('memoir-body');
     if (body) body.innerHTML = `<p class="muted">${escapeHtml(t('ui.error') || 'Could not load the memoir photographs.')}</p>`;

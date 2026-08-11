@@ -2295,3 +2295,21 @@ html[dir="rtl"] .detail-portrait { margin: 0 1.2rem 1rem 0; }
   background: var(--accent, #0038B8); color: #fff; border-color: var(--accent, #0038B8);
 }
 .ex-treeswitch .tree-hint { flex-basis: 100%; font-size: 0.72rem; opacity: 0.85; }
+
+/* The unidentified album. A tighter grid than the memoir plates, because there is no caption
+   to read — only a face to recognise. */
+.unid-title { margin: 2rem 0 0.2rem; font-size: 1.15rem; }
+.unid-grid {
+  display: grid; gap: 0.6rem; margin: 0.8rem 0 0.4rem;
+  grid-template-columns: repeat(auto-fill, minmax(148px, 1fr));
+}
+.unid-shot { margin: 0; }
+.unid-shot img {
+  width: 100%; aspect-ratio: 1 / 1; object-fit: cover;
+  border-radius: 2px; cursor: zoom-in;
+  border: 1px solid var(--rule, rgba(0,0,0,0.15));
+  background: var(--paper, #eee);
+}
+@media (max-width: 820px) {
+  .unid-grid { grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); }
+}

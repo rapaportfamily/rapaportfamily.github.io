@@ -6,8 +6,8 @@
   "people": 1442,
   "families": 480,
   "linked_to_core": 59,
-  "people_with_media": 89,
-  "media_files": 473,
+  "people_with_media": 176,
+  "media_files": 856,
   "people_with_yad_vashem_page": 42,
   "yad_vashem_pages": 133
  },
@@ -4772,22 +4772,50 @@
     {
      "file": "assets/documents/basia_2026_08/photos/I1__schabse_rapaport_1885_08_08.jpg",
      "basename": "Schabse_Rapaport_1885_08_08.png",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I1__schabse_rapaport_1885_08_08_2.jpg",
      "basename": "Schabse_Rapaport_1885_08_08_(2).png",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I1__schabse_rapaport_vienna_1.jpg",
      "basename": "Schabse_Rapaport_Vienna_1.png",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I1__schabse_rappaort_vienna_2.jpg",
      "basename": "Schabse_Rappaort_Vienna_2.png",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I1__1923_zylberfenig_rapaport_t.jpg",
+     "basename": "1923 Zylberfenig Rapaport T.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I1__cecylia_sara_rapaport_liege.jpg",
+     "basename": "Cecylia_Sara_Rapaport-Liege.png",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I1__u_1926_cecylie_rapaport_vienna.jpg",
+     "basename": "U_1926_Cecylie_Rapaport_Vienna.png",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I1__z_1933_mojzesz_rapaport_t.jpg",
+     "basename": "Z_1933_Mojżesz Rapaport_T.jpg",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
@@ -5361,6 +5389,12 @@
      "basename": "Dina_Rapaport_YV.avif",
      "names_the_person": false,
      "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I1024__u_1906_shabtai_rapaport_kr.jpg",
+     "basename": "U_1906_Shabtai_Rapaport_Kr.jpg",
+     "names_the_person": true,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -5851,7 +5885,22 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 7
+   "steps_from_family": 7,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I1053__u_1862_ester_mises_t.jpg",
+     "basename": "U_1862_Ester_Mises_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I1053__z_1863_ester_mises_t.jpg",
+     "basename": "Z_1863_Ester_Mises_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I1054": {
    "id": "I1054",
@@ -5870,7 +5919,16 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 7
+   "steps_from_family": 7,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I1054__u_1867_feige_chaye_mises_t.jpg",
+     "basename": "U_1867_Feige_Chaye_Mises_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I1055": {
    "id": "I1055",
@@ -6237,7 +6295,16 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 9
+   "steps_from_family": 9,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I1066__u_1922_alfred_mises.jpg",
+     "basename": "U_1922_Alfred_Mises.png",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I1067": {
    "id": "I1067",
@@ -6589,7 +6656,14 @@
     {
      "file": "assets/documents/basia_2026_08/photos/I1079__m1946140000001.jpg",
      "basename": "M1946140000001.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I1079__najer_folksblat1932no230a_0.jpg",
+     "basename": "Najer_Folksblat1932no230a-0.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
@@ -9969,7 +10043,22 @@
     "I1222"
    ],
    "core_id": null,
-   "steps_from_family": 7
+   "steps_from_family": 7,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I1221__m_1898_laia_rapaport_simcha_rozenblum_rad.jpg",
+     "basename": "M_1898_Laia_Rapaport_Simcha_Rozenblum_Rad.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I1221__u_1903_rywka_ruchla_rozenblum_rad.jpg",
+     "basename": "U_1903_Rywka_Ruchla_Rozenblum_Rad.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I1222": {
    "id": "I1222",
@@ -10054,7 +10143,16 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 8
+   "steps_from_family": 8,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I1225__u_1899_matla_rozenblum_rad.jpg",
+     "basename": "U_1899_Matla_Rozenblum_Rad.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I1226": {
    "id": "I1226",
@@ -10073,7 +10171,16 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 8
+   "steps_from_family": 8,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I1226__u_1900_izrael_jozef_rozeblum_rad.jpg",
+     "basename": "U_1900_Izrael_Jozef_Rozeblum_Rad.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I1227": {
    "id": "I1227",
@@ -10111,7 +10218,16 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 8
+   "steps_from_family": 8,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I1228__u_1908_estera_rozenblum_rad.jpg",
+     "basename": "U_1908_Estera_Rozenblum_Rad.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I1229": {
    "id": "I1229",
@@ -10665,25 +10781,78 @@
     {
      "file": "assets/documents/basia_2026_08/photos/I125__91jdff6tbal_sy425.jpg",
      "basename": "91jdFf6tbaL._SY425_.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I125__israel_stein_an_israeli_architect.jpg",
      "basename": "Israel_Stein,_an_Israeli_architect.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I125__szabse_rapaport_dabrowa_geshergalicia.jpg",
      "basename": "Szabse_Rapaport_Dąbrowa_geshergalicia.png",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I125__moshe_stein_large.jpg",
      "basename": "moshe-stein_large.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I125__grave_abraham_abele_rapaport.jpg",
+     "basename": "Grave Abraham Abele Rapaport.jpeg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I125__z_1844_abraham_rapaport_t.jpg",
+     "basename": "Z_1844_Abraham_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I125__m_1832_jozef_rapaport_rachela_jacobson_kr.jpg",
+     "basename": "M_1832_Józef_Rapaport_Rachela_Jacobson_Kr.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I125__m_1866_isaak_rapaport_matel_frinkl_o.jpg",
+     "basename": "M_1866_Isaak_Rapaport_Matel_Frinkl_Łó.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I125__m_1893_ester_rapaport_blankstein_jozef_kr.jpg",
+     "basename": "M_1893_Ester_Rapaport_Blankstein_Józef_Kr.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I125__u_1823_szabsa_rapaport_t.jpg",
+     "basename": "U_1823_Szabsa_Rapaport_T.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I125__u_1849_isaac_rapaport_t.jpg",
+     "basename": "U_1849_Isaac_Rapaport_T.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I125__z_1874_leia_rapaport_t.jpg",
+     "basename": "Z_1874_Leia_Rapaport_T.jpg",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
-   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
+   "photo": "assets/documents/basia_2026_08/photos/I125__grave_abraham_abele_rapaport.jpg"
   },
   "I1250": {
    "id": "I1250",
@@ -11117,7 +11286,34 @@
     "I128"
    ],
    "core_id": "p_majer_rapaport_1849",
-   "steps_from_family": 4
+   "steps_from_family": 4,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I127__m_1897_majer_rapaport_kr.jpg",
+     "basename": "M_1897_Majer_Rapaport_Kr.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I127__z_1920_majer_rapaport_kr.jpg",
+     "basename": "Z_1920_ Majer_Rapaport_Kr.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I127__m_1903_ester_rapaport_kr.jpg",
+     "basename": "M_1903_Ester_Rapaport_Kr.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I127__u_1878_estera_rapaport.jpg",
+     "basename": "U_1878_Estera_Rapaport_Ł.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I1270": {
    "id": "I1270",
@@ -11210,7 +11406,16 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 3
+   "steps_from_family": 3,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I1275__z_1894_sara_rapaport_kr.jpg",
+     "basename": "Z_1894_Sara_Rapaport_Kr.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I1276": {
    "id": "I1276",
@@ -12033,12 +12238,104 @@
     {
      "file": "assets/documents/basia_2026_08/photos/I131__yuta_feiga_frenkel_turkel.jpg",
      "basename": "Yuta_Feiga_Frenkel_Turkel.avif",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I131__yuta_feiga_frenkel_turkel.jpg",
      "basename": "Yuta_Feiga_Frenkel_Turkel.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/yad_vashem/I131__lea_weidenfeld_turkel_yv.jpg",
+     "basename": "Lea_Weidenfeld_Turkel_YV.avif",
+     "names_the_person": true,
+     "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/yad_vashem/I131__lea_zlata_weidenfeld_turkel_yv.jpg",
+     "basename": "Lea_Zlata_Weidenfeld_Turkel_YV.avif",
+     "names_the_person": true,
+     "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/yad_vashem/I131__child_turkel_yv.jpg",
+     "basename": "Child_Turkel_YV.avif",
+     "names_the_person": false,
+     "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/yad_vashem/I131__feiwel_shragah_turkel_yv.jpg",
+     "basename": "Feiwel_Shragah_Turkel_YV.avif",
+     "names_the_person": false,
+     "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/yad_vashem/I131__feiwel_turkel_yv.jpg",
+     "basename": "Feiwel_Turkel_YV.avif",
+     "names_the_person": false,
+     "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/yad_vashem/I131__jakub_frenkel_yv.jpg",
+     "basename": "Jakub_Frenkel_YV.avif",
+     "names_the_person": false,
+     "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/yad_vashem/I131__nn_frenkel_1_yv.jpg",
+     "basename": "NN_Frenkel_1_YV.avif",
+     "names_the_person": false,
+     "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/yad_vashem/I131__nn_frenkel_2_yv.jpg",
+     "basename": "NN_Frenkel_2_YV.avif",
+     "names_the_person": false,
+     "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/yad_vashem/I131__nn_frenkel_3_yv.jpg",
+     "basename": "NN_Frenkel_3_YV.avif",
+     "names_the_person": false,
+     "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/yad_vashem/I131__schabtai_turkel_yv.jpg",
+     "basename": "Schabtai_Turkel_YV.avif",
+     "names_the_person": false,
+     "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/yad_vashem/I131__szabse_turkel_yv.jpg",
+     "basename": "Szabse_Turkel_YV.avif",
+     "names_the_person": false,
+     "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I131__u_1902_markus_turkel_tp.jpg",
+     "basename": "U_1902_Markus_Turkel_Tp.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I131__u_1909_jetta_feiga_turkel_tp.jpg",
+     "basename": "U_1909_Jetta_Feiga_Turkel_Tp.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I131__u_1911_szabse_turkel_tarn.jpg",
+     "basename": "U_1911_Szabse_Turkel_Tarn.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/yad_vashem/I131__wife_turkel_yv.jpg",
+     "basename": "Wife_Turkel_YV.avif",
+     "names_the_person": false,
+     "kind": "yad_vashem"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
@@ -12135,32 +12432,146 @@
     {
      "file": "assets/documents/basia_2026_08/photos/I1313__joshua_stein.jpg",
      "basename": "Joshua_Stein.jpg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I1313__mina_blum_stein.jpg",
      "basename": "Mina_Blum_Stein.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I1313__yechezkel_stein.jpg",
      "basename": "Yechezkel_Stein.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I1313__olga_stein_large.jpg",
      "basename": "olga-stein_large.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I1313__ram99pub_large.jpg",
      "basename": "ram99pub_large.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I1313__yehoshua_stein_large.jpg",
      "basename": "yehoshua-stein_large.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I1313__0001_000.jpg",
+     "basename": "0001-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I1313__0002_000.jpg",
+     "basename": "0002-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I1313__0003_000.jpg",
+     "basename": "0003-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I1313__0004_000.jpg",
+     "basename": "0004-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I1313__0005_000.jpg",
+     "basename": "0005-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I1313__0006_000.jpg",
+     "basename": "0006-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I1313__0007_000.jpg",
+     "basename": "0007-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I1313__0008_000.jpg",
+     "basename": "0008-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I1313__0009_000.jpg",
+     "basename": "0009-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I1313__0010_000.jpg",
+     "basename": "0010-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I1313__0011_000.jpg",
+     "basename": "0011-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I1313__0012_000.jpg",
+     "basename": "0012-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I1313__0013_000.jpg",
+     "basename": "0013-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I1313__0014_000.jpg",
+     "basename": "0014-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I1313__0015_000.jpg",
+     "basename": "0015-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I1313__0016_000.jpg",
+     "basename": "0016-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I1313__0017_000.jpg",
+     "basename": "0017-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I1313__0018_000.jpg",
+     "basename": "0018-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -12694,7 +13105,16 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 7
+   "steps_from_family": 7,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I1335__u_1864_israel_jacobson_kr.jpg",
+     "basename": "U_1864_Israel_Jacobson_Kr.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I1336": {
    "id": "I1336",
@@ -13032,7 +13452,16 @@
     "I136"
    ],
    "core_id": null,
-   "steps_from_family": 5
+   "steps_from_family": 5,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I135__m_1919_szabse_rapaport_kr.jpg",
+     "basename": "M_1919_Szabse Rapaport_Kr.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I1350": {
    "id": "I1350",
@@ -13635,6 +14064,12 @@
      "basename": "Samuel_Turkel_YV.avif",
      "names_the_person": true,
      "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I1377__u_1924_samuel_turkl_v.jpg",
+     "basename": "U_1924_Samuel_Turkl_V.png",
+     "names_the_person": true,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -15078,7 +15513,28 @@
    "children": [],
    "spouses": [],
    "core_id": "p_aaron_rapaport_1826",
-   "steps_from_family": 5
+   "steps_from_family": 5,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I144__u_1826_aaron_rapaport_t.jpg",
+     "basename": "U_1826_Aaron_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I144__u_1826_aron_rapaport_t.jpg",
+     "basename": "U_1826_Aron_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I144__z_1828_aron_rapaport_t.jpg",
+     "basename": "Z_1828_Aron_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I1440": {
    "id": "I1440",
@@ -15290,7 +15746,16 @@
    "children": [],
    "spouses": [],
    "core_id": "p_salomon_rapaport_1831",
-   "steps_from_family": 5
+   "steps_from_family": 5,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I145__u_1831_salomon_rapaport_t.jpg",
+     "basename": "U_1831_Salomon_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I1450": {
    "id": "I1450",
@@ -15522,7 +15987,35 @@
     "I153"
    ],
    "core_id": "p_izrael_rapaport_1813",
-   "steps_from_family": 5
+   "steps_from_family": 5,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/photos/I146__nagrobek_izrael_rapaport_tarnow.jpg",
+     "basename": "Nagrobek_Izrael_Rapaport_Tarnów.png",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I146__z_1881_izrael_rapaport_t.jpg",
+     "basename": "Z_1881_Izrael_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I146__u_1840_szabse_rapaport_t.jpg",
+     "basename": "U_1840_Szabse_Rapaport_T.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I146__z_1842_szabse_rapaport_t.jpg",
+     "basename": "Z_1842_Szabse_Rapaport_T.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
+   "photo": "assets/documents/basia_2026_08/photos/I146__nagrobek_izrael_rapaport_tarnow.jpg"
   },
   "I1460": {
    "id": "I1460",
@@ -15741,7 +16234,22 @@
    "children": [],
    "spouses": [],
    "core_id": "p_taube_rapaport_1821",
-   "steps_from_family": 5
+   "steps_from_family": 5,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I147__u_1821_taube_rapaport_t.jpg",
+     "basename": "U_1821_Taube_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I147__z_1822_taube_rapaport_t.jpg",
+     "basename": "Z_1822_Taube_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I1470": {
    "id": "I1470",
@@ -15895,7 +16403,16 @@
     "I280"
    ],
    "core_id": null,
-   "steps_from_family": 6
+   "steps_from_family": 6,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I1477__u_1914_frymeta_rapaport_kr.jpg",
+     "basename": "U_1914_Frymeta_Rapaport_Kr.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I1478": {
    "id": "I1478",
@@ -15985,7 +16502,22 @@
    "children": [],
    "spouses": [],
    "core_id": "p_abe_rapaport_1845",
-   "steps_from_family": 4
+   "steps_from_family": 4,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I148__u_1845_abraham_rapaport_t.jpg",
+     "basename": "U_1845_Abraham_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I148__z_1849_abe_rapaport_t.jpg",
+     "basename": "Z_1849_Abe_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I1480": {
    "id": "I1480",
@@ -16125,7 +16657,22 @@
    "children": [],
    "spouses": [],
    "core_id": "p_sara_rapaport_1818",
-   "steps_from_family": 5
+   "steps_from_family": 5,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I149__u_1818_sara_rapaport_t.jpg",
+     "basename": "U_1818_Sara_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I149__z_1820_sara_rapaport_t.jpg",
+     "basename": "Z_1820_Sara_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I15": {
    "id": "I15",
@@ -16252,6 +16799,42 @@
      "basename": "YadVashem Regina Rapaport.jpg",
      "names_the_person": false,
      "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I15__berisch_rapaport_mhmm.jpg",
+     "basename": "Berisch Rapaport mhmm.png",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I15__berisch_rapaport_mhmm_2.jpg",
+     "basename": "Berisch Rapaport mhmm_2.png",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I15__berisch_rapaport_muzeum_auschwitz.jpg",
+     "basename": "Berisch Rapaport muzeum Auschwitz.png",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I15__kurjer_stanis_awowski_r_36_nr_160_12_sierpnia_1923_4.jpg",
+     "basename": "Kurjer Stanisławowski  R. 36, nr 160 (12 sierpnia 1923) - 4.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I15__zbior_og_oszen_firmowych_trybuna_ow_handlowych_sta_y_dodatek.jpg",
+     "basename": "Zbiór Ogłoszeń Firmowych Trybunałów Handlowych _ stały dodatek do P... - 74.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I15__u_1915_charlotte_rapaport_1915.jpg",
+     "basename": "U_1915_Charlotte_Rapaport_1915.png",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -16275,7 +16858,22 @@
    "children": [],
    "spouses": [],
    "core_id": "p_moses_meier_rapaport",
-   "steps_from_family": 5
+   "steps_from_family": 5,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I150__u_1828_moses_meier_rapaport_t.jpg",
+     "basename": "U_1828_Moses_Meier_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I150__z_1829_moses_meier_rapaport_t.jpg",
+     "basename": "Z_1829_Moses_Meier_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I151": {
    "id": "I151",
@@ -16294,7 +16892,16 @@
    "children": [],
    "spouses": [],
    "core_id": "p_liebe_rapaport_1847",
-   "steps_from_family": 4
+   "steps_from_family": 4,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I151__u_1847_liebe_rapaport_t.jpg",
+     "basename": "U_1847_Liebe_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I152": {
    "id": "I152",
@@ -16365,7 +16972,16 @@
    "children": [],
    "spouses": [],
    "core_id": "p_jakub_rapaport_1856",
-   "steps_from_family": 6
+   "steps_from_family": 6,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I154__z_1887_jakub_rapaport_t.jpg",
+     "basename": "Z_1887_Jakub_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I155": {
    "id": "I155",
@@ -16449,6 +17065,30 @@
      "basename": "Feiga_Laufer_Wassertheil_YV.avif",
      "names_the_person": false,
      "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I155__z_1896_saul_rapaport_t.jpg",
+     "basename": "Z_1896_Saul_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I155__m_1925_josef_weidenfeld_ester_wassertheil_kr.jpg",
+     "basename": "M_1925_Josef_Weidenfeld_Ester_Wassertheil_Kr.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I155__m_1934_jozef_wassertheil_sara_loewi_kr.jpg",
+     "basename": "M_1934_Józef_Wassertheil_Sara_Loewi_Kr.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I155__z_1934_gitla_rapaport_kr.jpg",
+     "basename": "Z_1934_Gitla_Rapaport_Kr.jpg",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -16510,7 +17150,22 @@
     "I158"
    ],
    "core_id": null,
-   "steps_from_family": 7
+   "steps_from_family": 7,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I157__m_1893_tobias_teitelbaum_feiga_rapaport_kr.jpg",
+     "basename": "M_1893_Tobias_Teitelbaum_Feiga_Rapaport_Kr.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I157__u_1864_feige_rapaport_t.jpg",
+     "basename": "U_1864_Feige_Rapaport_T.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I158": {
    "id": "I158",
@@ -16632,7 +17287,28 @@
     "I181"
    ],
    "core_id": null,
-   "steps_from_family": 7
+   "steps_from_family": 7,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I161__m_1888_dwora_rapaport_t.jpg",
+     "basename": "M_1888-Dwora_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I161__u_1869_dwora_rapaport_t.jpg",
+     "basename": "U_1869_Dwora_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I161__u_1890_izak_singer_t.jpg",
+     "basename": "U_1890_Izak_Singer_T.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I162": {
    "id": "I162",
@@ -16651,7 +17327,16 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 7
+   "steps_from_family": 7,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I162__u_1870_dobe_rapaport_t.jpg",
+     "basename": "U_1870_Dobe Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I163": {
    "id": "I163",
@@ -16672,7 +17357,22 @@
     "I321"
    ],
    "core_id": null,
-   "steps_from_family": 7
+   "steps_from_family": 7,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I163__m_1897_dawid_sussman_amalia_rapaport.jpg",
+     "basename": "M_1897_Dawid_Sussman_Amalia_Rapaport.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I163__u_1872_maltsche_rapaort_t.jpg",
+     "basename": "U_1872_Maltsche_Rapaort_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I164": {
    "id": "I164",
@@ -16700,42 +17400,74 @@
     {
      "file": "assets/documents/basia_2026_08/photos/I164__schepsel_rapaport_1876.jpg",
      "basename": "Schepsel_Rapaport_ 1876.png",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I164__family_szabse_rapaport_sheveningen.jpg",
      "basename": "Family Szabse_Rapaport_Sheveningen.avif",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I164__family_szabse_rapaport_sheveningen.jpg",
      "basename": "Family Szabse_Rapaport_Sheveningen.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I164__fryderyk_kanner_aa.jpg",
      "basename": "Fryderyk Kanner_AA.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I164__helena_rapaport_kanner_aa.jpg",
      "basename": "Helena_Rapaport_Kanner_AA.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I164__szabse_rapaport_yv_1.jpg",
      "basename": "Szabse_Rapaport_YV_1.avif",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I164__szabse_rapaport_yv_1.jpg",
      "basename": "Szabse_Rapaport_YV_1.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I164__szepsel_rapaport_aa.jpg",
      "basename": "Szepsel_Rapaport_AA.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I164__m_1900_schepsel_rapaport_elka_kanner_am_0.jpg",
+     "basename": "M_1900_Schepsel_Rapaport_Elka_Kanner_Am-0.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I164__u_1876_schapsel_rapaport_t.jpg",
+     "basename": "U_1876_Schapsel_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I164__m_1900_szabse_rapaport_elka_kanner_t.jpg",
+     "basename": "M_1900_Szabse_Rapaport_Elka_Kanner_T.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I164__u_1901_helena_rapaport_lw.jpg",
+     "basename": "U_1901_Helena_Rapaport_Lw.jpg",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -16847,7 +17579,22 @@
     "I170"
    ],
    "core_id": null,
-   "steps_from_family": 8
+   "steps_from_family": 8,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I169__m_1909_chaja_teitelbaum_naftali_blatt_kr.jpg",
+     "basename": "M_1909_Chaja_Teitelbaum_Naftali_Blatt_Kr.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I169__u_1886_chaja_malka_teitelbaum_kr.jpg",
+     "basename": "U_1886_Chaja_Malka_Teitelbaum_Kr.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I17": {
    "id": "I17",
@@ -16954,7 +17701,16 @@
     "I174"
    ],
    "core_id": null,
-   "steps_from_family": 8
+   "steps_from_family": 8,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I173__u_1887_josef_teitelbaum_kr.jpg",
+     "basename": "U_1887_Josef_Teitelbaum_Kr.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I174": {
    "id": "I174",
@@ -17046,7 +17802,14 @@
     {
      "file": "assets/documents/basia_2026_08/photos/I177__u_pinia_rivka_teitelbaum_kr.jpg",
      "basename": "U_Pinia_Rivka_Teitelbaum_Kr.jpg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I177__m_1923_pinia_riwka_teitelbaum_schulem_silberstein_kr.jpg",
+     "basename": "M_1923_Pinia_Riwka_Teitelbaum_Schulem_Silberstein_Kr.jpg",
+     "names_the_person": true,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -17207,7 +17970,22 @@
     "I187"
    ],
    "core_id": null,
-   "steps_from_family": 8
+   "steps_from_family": 8,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I183__m_1913_mendel_wallech_rachel_singer_t.jpg",
+     "basename": "M_1913_Mendel_Wallech_Rachel_Singer_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I183__u_1913_marjem_wallech_t.jpg",
+     "basename": "U_1913_Marjem_Wallech_T.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I184": {
    "id": "I184",
@@ -17228,7 +18006,16 @@
     "I190"
    ],
    "core_id": null,
-   "steps_from_family": 8
+   "steps_from_family": 8,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I184__m_1914_mailech_blattberg_franciszka_singer_t.jpg",
+     "basename": "M_1914_Mailech_Blattberg_Franciszka_Singer_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I185": {
    "id": "I185",
@@ -17257,57 +18044,74 @@
     {
      "file": "assets/documents/basia_2026_08/photos/I185__regina_josef_margalit_seidman_0.jpg",
      "basename": "Regina_Josef_Margalit_Seidman-0.jpg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I185__regina_josef_margalit_seidman_2_0.jpg",
      "basename": "Regina_Josef_Margalit_Seidman_2-0.jpg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I185__regina_josef_seidman_0.jpg",
      "basename": "Regina_Josef_Seidman-0.jpg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I185__regina_seidman_0.jpg",
      "basename": "Regina_Seidman-0.jpg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I185__regina_seidman.jpg",
      "basename": "Regina_Seidman.jpg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I185__regina_seidman_2_0.jpg",
      "basename": "Regina_Seidman_2-0.jpg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I185__regina_seidman_3_0.jpg",
      "basename": "Regina_Seidman_3-0.jpg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I185__family_seidman_0.jpg",
      "basename": "Family_Seidman-0.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I185__nachman_seidman.jpg",
      "basename": "Nachman_Seidman.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I185__nachman_seidman_1_0.jpg",
      "basename": "Nachman_Seidman_1-0.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I185__nachman_seidman_2_0.jpg",
      "basename": "Nachman_Seidman_2-0.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I185__u_1895_regina_singer_t.jpg",
+     "basename": "U_1895_Regina_Singer_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -17330,7 +18134,16 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 8
+   "steps_from_family": 8,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I186__u_1896_salomea_singer_t.jpg",
+     "basename": "U_1896_Salomea_Singer_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I187": {
    "id": "I187",
@@ -17525,7 +18338,26 @@
     {
      "file": "assets/documents/basia_2026_08/photos/I194__burial_1870_paulina_rapaport_gelernter_vienna.jpg",
      "basename": "Burial_1870_Paulina_Rapaport_Gelernter_Vienna.png",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I194__m_1852_perl_rapaport_t.jpg",
+     "basename": "M_1852_Perl_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I194__m_1855_perl_rapaport_t.jpg",
+     "basename": "M_1855_Perl_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I194__u_1835_perl_rapaport_t.jpg",
+     "basename": "U_1835_Perl_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -17548,7 +18380,16 @@
    "children": [],
    "spouses": [],
    "core_id": "p_wolf_rapaport",
-   "steps_from_family": 6
+   "steps_from_family": 6,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I195__u_1839_wolf_rapaport_t.jpg",
+     "basename": "U_1839_Wolf_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I196": {
    "id": "I196",
@@ -17582,47 +18423,80 @@
     {
      "file": "assets/documents/basia_2026_08/photos/I196__paul_nebenzahl.jpg",
      "basename": "Paul_Nebenzahl.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I196__paul_nebenzahl_1_0.jpg",
      "basename": "Paul_Nebenzahl_1-0.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I196__paul_nebenzahl_2_0.jpg",
      "basename": "Paul_Nebenzahl_2-0.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I196__paul_nebenzahl_3_0.jpg",
      "basename": "Paul_Nebenzahl_3-0.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I196__paul_nebenzahl_4_0.jpg",
      "basename": "Paul_Nebenzahl_4-0.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I196__rachel_rose_nebenzahl.jpg",
      "basename": "Rachel_Rose_Nebenzahl.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I196__rachela_1_0.jpg",
      "basename": "Rachela_1-0.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I196__salomon_nebenzahl.jpg",
      "basename": "Salomon Nebenzahl.png",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I196__transkrypcja_3_0.jpg",
      "basename": "Transkrypcja (3)-0.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I196__m_1864_noa_jacobson_ester_rapaport_t.jpg",
+     "basename": "M_1864_Noa_Jacobson_Ester_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I196__m_1880_saul_margulies_ester_rapaport_kr.jpg",
+     "basename": "M_1880_Saul_Margulies_Ester_Rapaport_Kr.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I196__u_1843_ester_rapaport_t.jpg",
+     "basename": "U_1843_Ester_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I196__u_1862_cecylie_jacobson_t.jpg",
+     "basename": "U_1862_Cecylie_Jacobson_T.jpg",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
@@ -17644,7 +18518,16 @@
    "children": [],
    "spouses": [],
    "core_id": "p_samuel_rapaport_1847",
-   "steps_from_family": 6
+   "steps_from_family": 6,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I197__u_1847_samuel_rapaport_t.jpg",
+     "basename": "U_1847_Samuel_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I198": {
    "id": "I198",
@@ -17690,7 +18573,22 @@
    "children": [],
    "spouses": [],
    "core_id": "p_izrael_rapaport_1850",
-   "steps_from_family": 6
+   "steps_from_family": 6,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I199__z_1851_izrael_rapaport_t.jpg",
+     "basename": "Z_1851_Izrael_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I199__u_1849_israel_rapaport_t.jpg",
+     "basename": "U_1849_Israel_Rapaport_T.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I2": {
    "id": "I2",
@@ -17762,7 +18660,16 @@
     "I201"
    ],
    "core_id": "p_perl_rapaport_1835",
-   "steps_from_family": 6
+   "steps_from_family": 6,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I200__z_1831_perl_rapaport_t.jpg",
+     "basename": "Z_1831_Perl_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I201": {
    "id": "I201",
@@ -17849,7 +18756,16 @@
     "I1274"
    ],
    "core_id": "p_mayer_rapaport_1853",
-   "steps_from_family": 6
+   "steps_from_family": 6,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I204__u_1853_mayer_rapaport_t.jpg",
+     "basename": "U_1853_Mayer_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I205": {
    "id": "I205",
@@ -17868,7 +18784,16 @@
    "children": [],
    "spouses": [],
    "core_id": "p_marjam_rapaport",
-   "steps_from_family": 6
+   "steps_from_family": 6,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I205__u_1855_marjam_rapaport_t.jpg",
+     "basename": "U_1855_Marjam_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I206": {
    "id": "I206",
@@ -17994,7 +18919,22 @@
    "children": [],
    "spouses": [],
    "core_id": "p_isaac_moses_rapaport",
-   "steps_from_family": 6
+   "steps_from_family": 6,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I211__u_1841_isaac_moses_rapaport_t.jpg",
+     "basename": "U_1841_Isaac_Moses_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I211__u_1841_izaak_rapaport_t.jpg",
+     "basename": "U_1841_Izaak_Rapaport_T.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I212": {
    "id": "I212",
@@ -18013,7 +18953,16 @@
    "children": [],
    "spouses": [],
    "core_id": "p_hersch_rapaport_1844",
-   "steps_from_family": 6
+   "steps_from_family": 6,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I212__u_1844_hersch_rapaport_t.jpg",
+     "basename": "U_1844_Hersch_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I213": {
    "id": "I213",
@@ -18032,7 +18981,16 @@
    "children": [],
    "spouses": [],
    "core_id": "p_riwke_rapaport",
-   "steps_from_family": 6
+   "steps_from_family": 6,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I213__u_1848_riwka_rapaport_t.jpg",
+     "basename": "U_1848_Riwka_Rapaport_T.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I214": {
    "id": "I214",
@@ -18051,7 +19009,22 @@
    "children": [],
    "spouses": [],
    "core_id": "p_abraham_chaim_rapaport",
-   "steps_from_family": 6
+   "steps_from_family": 6,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I214__u_1849_abraham_chaim_rapaport_t.jpg",
+     "basename": "U_1849_Abraham_Chaim_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I214__z_1851_abraham_rapaport_t.jpg",
+     "basename": "Z_1851_Abraham_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I215": {
    "id": "I215",
@@ -18070,7 +19043,22 @@
    "children": [],
    "spouses": [],
    "core_id": "p_blume_rapaport",
-   "steps_from_family": 6
+   "steps_from_family": 6,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I215__u_1855_blume_rapaport_t.jpg",
+     "basename": "U_1855_Blume_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I215__z_1857_blume_rapaport_t.jpg",
+     "basename": "Z_1857_Blume_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I216": {
    "id": "I216",
@@ -18089,7 +19077,16 @@
    "children": [],
    "spouses": [],
    "core_id": "p_freude_rapaport",
-   "steps_from_family": 6
+   "steps_from_family": 6,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I216__z_1855_freude_rapoport_t.jpg",
+     "basename": "Z_1855_Freude_Rapoport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I217": {
    "id": "I217",
@@ -18112,7 +19109,64 @@
     "I329"
    ],
    "core_id": "p_sprinze_rapaport",
-   "steps_from_family": 6
+   "steps_from_family": 6,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/photos/I217__nagrobek_sabine_luttinger.jpg",
+     "basename": "Nagrobek Sabine Luttinger.png",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I217__nekrolog_carl_luttinger.jpg",
+     "basename": "Nekrolog_Carl_Luttinger.png",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I217__nekrolog_sabine_luttinger.jpg",
+     "basename": "Nekrolog_Sabine_Luttinger.png",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I217__m_1879_sprinze_gelernter_karl_luttinger_st.jpg",
+     "basename": "M_1879_Sprinze_Gelernter_Karl_Luttinger_St.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I217__u_1858_sprinze_gelernter_t.jpg",
+     "basename": "U_1858_Sprinze_Gelernter_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I217__u_1858_sprinze_rapaport_t.jpg",
+     "basename": "U_1858_Sprinze_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I217__m_1852_jozef_hersch_gelernter_perl_rapaport_t.jpg",
+     "basename": "M_1852_Józef_Hersch_Gelernter_Perl_Rapaport_T.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I217__m_1902_polina_luttinger_vienna.jpg",
+     "basename": "M_1902_Polina_Luttinger_Vienna.png",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I217__u_1880_pauline_luttinger_vienna.jpg",
+     "basename": "U_1880_Pauline_Luttinger_Vienna.png",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I218": {
    "id": "I218",
@@ -18142,7 +19196,28 @@
     "I219"
    ],
    "core_id": "p_ester_rapaport_1839",
-   "steps_from_family": 6
+   "steps_from_family": 6,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I218__m_1863_aron_novimiast_ester_rapaport_t.jpg",
+     "basename": "M_1863_Aron_Novimiast_Ester_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I218__u_1839_ester_rapaport_t.jpg",
+     "basename": "U_1839_Ester_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I218__z_1905_ester_nowomiast_kr.jpg",
+     "basename": "Z_1905_Ester_Nowomiast_Kr.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I219": {
    "id": "I219",
@@ -18257,7 +19332,16 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 7
+   "steps_from_family": 7,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I222__u_1881_szabse_novimiast_t.jpg",
+     "basename": "U_1881_Szabse_Novimiast_T.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I224": {
    "id": "I224",
@@ -18432,12 +19516,56 @@
     {
      "file": "assets/documents/basia_2026_08/photos/I230__chana_teschnauer.jpg",
      "basename": "Chana Teschnauer.png",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I230__samuel_teschnauer.jpg",
      "basename": "Samuel Teschnauer.png",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I230__u_1863_abraham_abele_novimiast_t.jpg",
+     "basename": "U_1863_Abraham_Abele_Novimiast_T_.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I230__z_1936_abraham_nowimiast_t.jpg",
+     "basename": "Z_1936_Abraham_Nowimiast_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I230__m_1913_izrael_nowimiast_lea_jakubowicz_kr.jpg",
+     "basename": "M_1913_Izrael_Nowimiast_Lea_Jakubowicz_Kr.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I230__m_1924_bernard_gutenberg_rozalia_nowimiast_kr.jpg",
+     "basename": "M_1924_Bernard_Gutenberg_Rozalia_Nowimiast_Kr.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I230__m_1924_samuel_teschnauer_hanna_nowimiast_kr.jpg",
+     "basename": "M_1924_Samuel_Teschnauer_Hanna_Nowimiast_Kr.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I230__u_1891_chana_liba_nowimiast_jas.jpg",
+     "basename": "U_1891_CHana_Liba_Nowimiast_Jas.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I230__u_1891_samuel_teschnauer.jpg",
+     "basename": "U_1891_Samuel_Teschnauer.png",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
@@ -18459,7 +19587,16 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 7
+   "steps_from_family": 7,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I231__u_1865_salomon_meyer_novimiast_t.jpg",
+     "basename": "U_1865_Salomon_Meyer_Novimiast_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I232": {
    "id": "I232",
@@ -18514,7 +19651,22 @@
     "I282"
    ],
    "core_id": null,
-   "steps_from_family": 7
+   "steps_from_family": 7,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I233__m_1890_herman_mises_dwora_minz_v.jpg",
+     "basename": "M_1890_Herman_Mises_Dwora_Minz_V.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I233__u_1857_joshua_mises_t.jpg",
+     "basename": "U_1857_Joshua_Mises_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I234": {
    "id": "I234",
@@ -18533,7 +19685,16 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 7
+   "steps_from_family": 7,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I234__u_1859_abraham_mises_t.jpg",
+     "basename": "U_1859_Abraham_Mises_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I235": {
    "id": "I235",
@@ -18589,17 +19750,32 @@
     {
      "file": "assets/documents/basia_2026_08/photos/I236__chana_wassertheil_visa.jpg",
      "basename": "Chana_Wassertheil_Visa.jpg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I236__passenger_1948_0.jpg",
      "basename": "Passenger 1948-0.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I236__saul_wassertheil_visa.jpg",
      "basename": "Saul_Wassertheil_Visa.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I236__m_1921_alter_zelig_chana_wassertheil.jpg",
+     "basename": "M_1921_Alter_Zelig_Chana_Wassertheil.png",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I236__u_1897_chana_wassertheil_t.jpg",
+     "basename": "U_1897_Chana_Wassertheil_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -18709,6 +19885,216 @@
      "basename": "Yad Vashem Shmuel Rosenfeld.png",
      "names_the_person": false,
      "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I238__0001_000.jpg",
+     "basename": "0001-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I238__0002_000.jpg",
+     "basename": "0002-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I238__0003_000.jpg",
+     "basename": "0003-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I238__0004_000.jpg",
+     "basename": "0004-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I238__0005_000.jpg",
+     "basename": "0005-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I238__0006_000.jpg",
+     "basename": "0006-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I238__0007_000.jpg",
+     "basename": "0007-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I238__0008_000.jpg",
+     "basename": "0008-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I238__0009_000.jpg",
+     "basename": "0009-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I238__0010_000.jpg",
+     "basename": "0010-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I238__0011_000.jpg",
+     "basename": "0011-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I238__0012_000.jpg",
+     "basename": "0012-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I238__0013_000.jpg",
+     "basename": "0013-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I238__0014_000.jpg",
+     "basename": "0014-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I238__0015_000.jpg",
+     "basename": "0015-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I238__0016_000.jpg",
+     "basename": "0016-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I238__0017_000.jpg",
+     "basename": "0017-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I238__0018_000.jpg",
+     "basename": "0018-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I238__0019_000.jpg",
+     "basename": "0019-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I238__0020_000.jpg",
+     "basename": "0020-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I238__0021_000.jpg",
+     "basename": "0021-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I238__0022_000.jpg",
+     "basename": "0022-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I238__0023_000.jpg",
+     "basename": "0023-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I238__0024_000.jpg",
+     "basename": "0024-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I238__0025_000.jpg",
+     "basename": "0025-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I238__0026_000.jpg",
+     "basename": "0026-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I238__0027_000.jpg",
+     "basename": "0027-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I238__0028_000.jpg",
+     "basename": "0028-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I238__0029_000.jpg",
+     "basename": "0029-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I238__0030_000.jpg",
+     "basename": "0030-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I238__0031_000.jpg",
+     "basename": "0031-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I238__1919_akt_urodzenia_zwi_nussbaum.jpg",
+     "basename": "1919 Akt urodzenia Zwi Nussbaum.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I238__zvi_hirsch_heschu_ayalon_nussbaum.jpg",
+     "basename": "Zvi Hirsch Heschu Ayalon (Nussbaum).jfif",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I238__m_1919_nussbaum_rapaport_t.jpg",
+     "basename": "M_1919 Nussbaum Rapaport T.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I238__u_1919_zwi_nussbaum_t.jpg",
+     "basename": "U_1919_Zwi Nussbaum_T.jpg",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -18839,7 +20225,16 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 7
+   "steps_from_family": 7,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I243__u_1866_feige_jacobson_t.jpg",
+     "basename": "U_1866_Feige_Jacobson_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I244": {
    "id": "I244",
@@ -18882,7 +20277,16 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 7
+   "steps_from_family": 7,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I245__u_1864_marcus_gelernter_stryj.jpg",
+     "basename": "U_1864_Marcus_Gelernter_Stryj.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I246": {
    "id": "I246",
@@ -18901,7 +20305,16 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 7
+   "steps_from_family": 7,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I246__u_1867_schabse_gelernter_stryj.jpg",
+     "basename": "U_1867_Schabse_Gelernter_Stryj.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I247": {
    "id": "I247",
@@ -19010,27 +20423,56 @@
     {
      "file": "assets/documents/basia_2026_08/photos/I250__riviera_siegfried_luttinger.jpg",
      "basename": "Riviera_SIEGFRIED_Luttinger.png",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I250__siegfried_luttinger_naturalizacja_england.jpg",
      "basename": "SIEGFRIED_LUTTINGER_naturalizacja_England.png",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I250__siegfried_luttinger_1939_england_2.jpg",
      "basename": "SIEGFRIED_Luttinger_1939_England_2.png",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I250__siegfried_luttinger_1939_england_1.jpg",
      "basename": "SIEGFRIED_Luttinger__1939_England_1.png",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I250__travel_siegfried_luttinger.jpg",
      "basename": "Travel_SIEGFRIED_Luttinger.jpg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I250__m_1922_siegfried_luttinger_vienna.jpg",
+     "basename": "M_1922_Siegfried_Luttinger_Vienna.png",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I250__u_1883_siegfried_luttinger_v.jpg",
+     "basename": "U_1883_Siegfried_Luttinger_V.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I250__u_1883_siegfried_luttinger_vienna.jpg",
+     "basename": "U_1883_Siegfried_Luttinger_Vienna.png",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I250__z_1968_siegfried_luttinger_london.jpg",
+     "basename": "Z_1968_Siegfried_Luttinger_London.jpg",
+     "names_the_person": true,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -19124,42 +20566,74 @@
     {
      "file": "assets/documents/basia_2026_08/photos/I254__1938_fragebogen_01_walter_sandbank.jpg",
      "basename": "1938_Fragebogen_01_Walter_Sandbank.png",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I254__1938_fragebogen_02_walter_sandbank.jpg",
      "basename": "1938_Fragebogen_02_Walter_Sandbank.png",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I254__1940_immigration_walter_sandbank.jpg",
      "basename": "1940_immigration_Walter_Sandbank.png",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I254__walter_sandbank.jpg",
      "basename": "Walter_Sandbank.jpg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I254__walter_sandbank_1_0.jpg",
      "basename": "Walter_Sandbank_1-0.jpg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I254__walter_sandbank_2_0.jpg",
      "basename": "Walter_Sandbank_2-0.jpg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I254__walter_sandbank_3_0.jpg",
      "basename": "Walter_Sandbank_3-0.jpg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I254__1943.jpg",
      "basename": "1943.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I254__u_1903_walter_sandbank_01_0.jpg",
+     "basename": "U_1903_Walter_Sandbank_01-0.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I254__u_1903_walter_sandbank_02_0.jpg",
+     "basename": "U_1903_Walter_Sandbank_02-0.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I254__u_1903_walter_sandbank_03_0.jpg",
+     "basename": "U_1903_Walter_Sandbank_03-0.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I254__u_1903_walter_sandbank_v_0.jpg",
+     "basename": "U_1903_Walter_Sandbank_V-0.jpg",
+     "names_the_person": true,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -19406,7 +20880,16 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 9
+   "steps_from_family": 9,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I264__u_1908_roza_blatt_kr.jpg",
+     "basename": "U_1908_Roza_Blatt_Kr.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I265": {
    "id": "I265",
@@ -19432,12 +20915,116 @@
     {
      "file": "assets/documents/basia_2026_08/photos/I265__louisa_blatt_segall.jpg",
      "basename": "Louisa_Blatt_Segall.jpg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I265__grigorij_segall.jpg",
      "basename": "Grigorij_Segall.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I265__0001_000.jpg",
+     "basename": "0001-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I265__0002_000.jpg",
+     "basename": "0002-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I265__0003_000.jpg",
+     "basename": "0003-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I265__0004_000.jpg",
+     "basename": "0004-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I265__0005_000.jpg",
+     "basename": "0005-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I265__0006_000.jpg",
+     "basename": "0006-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I265__0007_000.jpg",
+     "basename": "0007-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I265__0008_000.jpg",
+     "basename": "0008-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I265__0009_000.jpg",
+     "basename": "0009-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I265__0010_000.jpg",
+     "basename": "0010-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I265__0011_000.jpg",
+     "basename": "0011-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I265__0012_000.jpg",
+     "basename": "0012-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I265__0013_000.jpg",
+     "basename": "0013-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I265__0014_000.jpg",
+     "basename": "0014-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I265__0015_000.jpg",
+     "basename": "0015-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I265__0016_000.jpg",
+     "basename": "0016-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I265__u_1910_louiza_blatt_kr.jpg",
+     "basename": "U_1910_Louiza_Blatt_Kr.jpg",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -19460,7 +21047,16 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 7
+   "steps_from_family": 7,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I266__z_1941_laura_rapaport_t.jpg",
+     "basename": "Z_1941_Laura_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I267": {
    "id": "I267",
@@ -19479,7 +21075,16 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 5
+   "steps_from_family": 5,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I267__u_1830_hersch_lob_kurchon_rapaport_t.jpg",
+     "basename": "U_1830_Hersch_Lob_Kurchon_Rapaport_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I268": {
    "id": "I268",
@@ -19517,7 +21122,16 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 7
+   "steps_from_family": 7,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I269__z_1873_perl_nowimiast_t.jpg",
+     "basename": "Z_1873_Perl_Nowimiast_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I27": {
    "id": "I27",
@@ -19558,7 +21172,22 @@
     "I271"
    ],
    "core_id": null,
-   "steps_from_family": 7
+   "steps_from_family": 7,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I270__m_1917_chane_basche_nowomiast_t.jpg",
+     "basename": "M_1917_Chane_Basche_Nowomiast_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I270__u_1874_chane_basche_nowomiast_t.jpg",
+     "basename": "U_1874_Chane_Basche_Nowomiast_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I271": {
    "id": "I271",
@@ -19735,7 +21364,26 @@
     {
      "file": "assets/documents/basia_2026_08/photos/I277__jakub_rapaport.jpg",
      "basename": "Jakub Rapaport.jpg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I277__m_1909abraham_saul_rapaport_prokesch.jpg",
+     "basename": "M_1909Abraham_Saul_Rapaport_Prokesch.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I277__m_1910_salomon_luksner_chaja_gitel_bloch_kr.jpg",
+     "basename": "M_1910_Salomon_Luksner_Chaja_Gitel_Bloch_Kr.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I277__m_1923_lobel_leichter_sara_luksner_kr.jpg",
+     "basename": "M_1923_Lobel_Leichter_Sara_Luksner_Kr.jpg",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -19847,7 +21495,23 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 4
+   "steps_from_family": 4,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/photos/I281__charlotte_horowitz_liege.jpg",
+     "basename": "Charlotte_Horowitz_Liege.png",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I281__u_1914_charlotte_horowitz_v.jpg",
+     "basename": "U_1914_Charlotte_Horowitz_V.png",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
+   "photo": "assets/documents/basia_2026_08/photos/I281__charlotte_horowitz_liege.jpg"
   },
   "I282": {
    "id": "I282",
@@ -19938,27 +21602,38 @@
     {
      "file": "assets/documents/basia_2026_08/photos/I285__adolf_israel_mises.jpg",
      "basename": "Adolf_Israel_Mises.jpg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I285__adolf_mises_1_0.jpg",
      "basename": "Adolf_Mises_1-0.jpg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I285__adolf_mises_2_0.jpg",
      "basename": "Adolf_Mises_2-0.jpg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I285__adolf_mises_3_0.jpg",
      "basename": "Adolf_Mises_3-0.jpg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I285__adolf_mises_4_0.jpg",
      "basename": "Adolf_Mises_4-0.jpg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I285__u_1891_adolf_mises_v_0.jpg",
+     "basename": "U_1891_Adolf_Mises_V-0.jpg",
+     "names_the_person": true,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -20348,7 +22023,22 @@
     "I302"
    ],
    "core_id": null,
-   "steps_from_family": 7
+   "steps_from_family": 7,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I300__m_1904_chaim_geler_rozalia_nowimiast.jpg",
+     "basename": "M_1904_Chaim_Geler_Rozalia_Nowimiast.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I300__u_1907_ernestyna_geller_sam.jpg",
+     "basename": "U_1907_Ernestyna_Geller_Sam.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I301": {
    "id": "I301",
@@ -20589,6 +22279,24 @@
      "basename": "Jechiel_Turkel_YV.avif",
      "names_the_person": false,
      "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I31__1909_akt_slubu_alte_lea_rapaport_jechiel_turkel.jpg",
+     "basename": "1909 Akt ślubu Alte Lea Rapaport Jechiel Turkel.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I31__m_1909_alte_lea_rapaport_jechiel_turkel_tp.jpg",
+     "basename": "M_1909_Alte_Lea_Rapaport_Jechiel_Turkel_TP.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I31__u_1917_rachela_turkel_w.jpg",
+     "basename": "U_1917_Rachela_Turkel_W.png",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -21011,7 +22719,16 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 7
+   "steps_from_family": 7,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I327__u_1869_mali_novimiast_t.jpg",
+     "basename": "U_1869_Mali_Novimiast_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I328": {
    "id": "I328",
@@ -21030,7 +22747,16 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 7
+   "steps_from_family": 7,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I328__u_1872_mirl_novimiast_t.jpg",
+     "basename": "U_1872_Mirl_Novimiast_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I329": {
    "id": "I329",
@@ -21076,67 +22802,86 @@
     {
      "file": "assets/documents/basia_2026_08/photos/I33__1939_vienna_1.jpg",
      "basename": "1939_Vienna_1.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I33__1939_vienna_10.jpg",
      "basename": "1939_Vienna_10.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I33__1939_vienna_11.jpg",
      "basename": "1939_Vienna_11.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I33__1939_vienna_12.jpg",
      "basename": "1939_Vienna_12.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I33__1939_vienna_13.jpg",
      "basename": "1939_Vienna_13.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I33__1939_vienna_2.jpg",
      "basename": "1939_Vienna_2.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I33__1939_vienna_3.jpg",
      "basename": "1939_Vienna_3.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I33__1939_vienna_4.jpg",
      "basename": "1939_Vienna_4.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I33__1939_vienna_5.jpg",
      "basename": "1939_Vienna_5.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I33__1939_vienna_6.jpg",
      "basename": "1939_Vienna_6.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I33__1939_vienna_7.jpg",
      "basename": "1939_Vienna_7.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I33__1939_vienna_8.jpg",
      "basename": "1939_Vienna_8.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I33__1939_vienna_9.jpg",
      "basename": "1939_Vienna_9.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I33__u_1924_herta_turkel_w.jpg",
+     "basename": "U_1924_Herta_Turkel_W.png",
+     "names_the_person": true,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
@@ -21158,7 +22903,16 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 7
+   "steps_from_family": 7,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I330__u_1877_anna_grunfeld_t.jpg",
+     "basename": "U_1877_Anna_Grunfeld_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I331": {
    "id": "I331",
@@ -21593,7 +23347,16 @@
     "I36"
    ],
    "core_id": null,
-   "steps_from_family": 4
+   "steps_from_family": 4,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I35__u_1907_szeindla_jutta_turkel_t.jpg",
+     "basename": "U_1907 Szeindla_Jutta_Turkel_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I350": {
    "id": "I350",
@@ -22074,6 +23837,12 @@
      "basename": "Chana_Glickman_Turkel_YV.avif",
      "names_the_person": false,
      "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I37__u_1909_izrael_menachem_turkel_tp.jpg",
+     "basename": "U_1909_Izrael_Menachem_Turkel_TP.png",
+     "names_the_person": true,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -22529,7 +24298,16 @@
     "I40"
    ],
    "core_id": null,
-   "steps_from_family": 4
+   "steps_from_family": 4,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I39__u_1913_markus_turkel_t.jpg",
+     "basename": "U 1913 Markus Turkel T.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I390": {
    "id": "I390",
@@ -23828,7 +25606,22 @@
     "I446"
    ],
    "core_id": null,
-   "steps_from_family": 7
+   "steps_from_family": 7,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I445__m_1906_rachel_margulies_abraham_nehmer_kr.jpg",
+     "basename": "M_1906_Rachel_Margulies_Abraham_Nehmer_Kr.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I445__u_1886_rachel_margulies_kr.jpg",
+     "basename": "U_1886_Rachel_Margulies_Kr.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I446": {
    "id": "I446",
@@ -23998,7 +25791,16 @@
     "I500"
    ],
    "core_id": null,
-   "steps_from_family": 8
+   "steps_from_family": 8,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I452__u_1907_aleksander_nehmer_kr.jpg",
+     "basename": "U_1907_Aleksander_Nehmer_Kr.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I453": {
    "id": "I453",
@@ -24173,22 +25975,38 @@
     {
      "file": "assets/documents/basia_2026_08/photos/I46__siegfried_turkl_01.jpg",
      "basename": "Siegfried_Turkl_01.png",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I46__siegfried_turkl_02.jpg",
      "basename": "Siegfried_Turkl_02.png",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I46__siegfried_turkl_03.jpg",
      "basename": "Siegfried_Turkl_03.png",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I46__siegfried_turkl_rtjoww2.jpg",
      "basename": "Siegfried_Turkl_RTJoWW2.png",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I46__siegfried_turkl_grave.jpg",
+     "basename": "Siegfried_Turkl_Grave.png",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I46__u_1922_siegfried_turkl_w.jpg",
+     "basename": "U_1922_Siegfried_Turkl_W.png",
+     "names_the_person": true,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -24418,7 +26236,16 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 4
+   "steps_from_family": 4,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I47__u_1911_chana_turkel_t.jpg",
+     "basename": "U_1911_Chana_Turkel_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I470": {
    "id": "I470",
@@ -24694,12 +26521,80 @@
     {
      "file": "assets/documents/basia_2026_08/photos/I481__gabriel_koren_1987.jpg",
      "basename": "Gabriel Koren 1987.jpeg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I481__gabriel_koren_1987.jpg",
      "basename": "Gabriel_Koren_1987.jpeg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I481__2003_117_1_001_001_0001.jpg",
+     "basename": "2003.117.1_001_001_0001.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I481__2003_117_1_001_001_0002.jpg",
+     "basename": "2003.117.1_001_001_0002.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I481__2003_117_1_001_001_0003.jpg",
+     "basename": "2003.117.1_001_001_0003.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I481__2003_117_1_001_001_0004.jpg",
+     "basename": "2003.117.1_001_001_0004.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I481__2003_117_1_001_001_0006.jpg",
+     "basename": "2003.117.1_001_001_0006.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I481__2003_117_1_001_001_0007.jpg",
+     "basename": "2003.117.1_001_001_0007.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I481__2003_117_1_001_001_0009.jpg",
+     "basename": "2003.117.1_001_001_0009.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I481__2003_117_1_001_001_0011.jpg",
+     "basename": "2003.117.1_001_001_0011.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I481__2003_117_1_001_001_0013.jpg",
+     "basename": "2003.117.1_001_001_0013.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I481__2003_117_1_001_001_0015.jpg",
+     "basename": "2003.117.1_001_001_0015.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I481__archive.jpg",
+     "basename": "archive.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -24908,12 +26803,32 @@
     {
      "file": "assets/documents/basia_2026_08/photos/I49__karta_david_rapaport_1_strona.jpg",
      "basename": "Karta David Rapaport 1 strona.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I49__karta_david_rapaport_2_strona.jpg",
      "basename": "Karta David Rapaport 2 strona.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I49__1926_gimnazjum_s.jpg",
+     "basename": "1926 gimnazjum S.gif",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I49__gimnazjum_1927_1928_nieukonczone.jpg",
+     "basename": "Gimnazjum 1927_1928 nieukończone.png",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I49__gimnazjum_1927_1928.jpg",
+     "basename": "Gimnazjum 1927_1928.png",
+     "names_the_person": false,
+     "kind": "photograph"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
@@ -25118,7 +27033,16 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 7
+   "steps_from_family": 7,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I499__u_1882_jozef_margulies_kr.jpg",
+     "basename": "U_1882_Józef_Margulies_Kr.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I5": {
    "id": "I5",
@@ -25147,7 +27071,50 @@
     {
      "file": "assets/documents/basia_2026_08/photos/I5__m_pinkas_horowitz_szewa_konstantin_sokal.jpg",
      "basename": "M_Pinkas Horowitz_Szewa_Konstantin_Sokal.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I5__jenta_rapaport_mhmm.jpg",
+     "basename": "Jenta_Rapaport_mhmm.png",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I5__liege_1941.jpg",
+     "basename": "Liege_1941.png",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I5__m_1920_horowitz_rapaport_t.jpg",
+     "basename": "M_1920 Horowitz Rapaport T.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I5__u_1892_meshulim_horowitz_sokal.jpg",
+     "basename": "U 1892 Meshulim Horowitz Sokal.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I5__u_1887_mirla_horowitz_sokal.jpg",
+     "basename": "U_1887_Mirla_Horowitz_Sokal.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I5__u_1889_reisel_horowitz_sokal.jpg",
+     "basename": "U_1889_Reisel_Horowitz_Sokal.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I5__u_1893_mariem_horowitz_sokal.jpg",
+     "basename": "U_1893_Mariem_Horowitz_Sokal.jpg",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
@@ -25249,7 +27216,16 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 8
+   "steps_from_family": 8,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I503__u_1883_maria_teitelbaum_kr.jpg",
+     "basename": "U_1883_Maria_Teitelbaum_Kr.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I505": {
    "id": "I505",
@@ -25268,7 +27244,16 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 8
+   "steps_from_family": 8,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I505__u_1889_mendel_beirech_kr.jpg",
+     "basename": "U_1889_Mendel_Beirech_Kr.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I506": {
    "id": "I506",
@@ -25289,7 +27274,22 @@
     "I1301"
    ],
    "core_id": null,
-   "steps_from_family": 8
+   "steps_from_family": 8,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I506__u_1894_szabse_teitelbaum_kr.jpg",
+     "basename": "U_1894_Szabse_Teitelbaum_Kr.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I506__m_1935_schabse_teitelbaum_cerel_kr.jpg",
+     "basename": "M_1935_Schabse_Teitelbaum_Cerel_Kr.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I507": {
    "id": "I507",
@@ -25308,7 +27308,16 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 8
+   "steps_from_family": 8,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I507__u_1884_rachel_teitelbaum_kr.jpg",
+     "basename": "U_1884_Rachel_Teitelbaum_Kr.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I508": {
    "id": "I508",
@@ -25327,7 +27336,16 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 8
+   "steps_from_family": 8,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I508__u_1891_izrael_teitelbaum_kr.jpg",
+     "basename": "U_1891_Izrael_Teitelbaum_Kr.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I509": {
    "id": "I509",
@@ -25346,7 +27364,16 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 8
+   "steps_from_family": 8,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I509__u_1896_abraham_teitelbaum_kr.jpg",
+     "basename": "U_1896_Abraham_Teitelbaum_Kr.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I51": {
    "id": "I51",
@@ -25403,7 +27430,20 @@
     {
      "file": "assets/documents/basia_2026_08/photos/I510__itzhak_chaim_rapaport.jpg",
      "basename": "Itzhak_Chaim_Rapaport.png",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I510__z_1921_izaak_caim_rapaport_kr.jpg",
+     "basename": "Z_1921_Izaak_Caim_Rapaport_Kr.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I510__z_1925_margulesa_rapaport_kr.jpg",
+     "basename": "Z_1925_Margulesa_Rapaport_Kr.jpg",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -25482,6 +27522,12 @@
      "basename": "Sara Zina Borenstein Elbinger_YV.avif",
      "names_the_person": false,
      "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I512__m_1889_menahem_bornstein_ita_feiga_rapaport_bp.jpg",
+     "basename": "M_1889_Menahem_Bornstein_Ita_Feiga_Rapaport_BP.jpg",
+     "names_the_person": true,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -25504,7 +27550,22 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 5
+   "steps_from_family": 5,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I513__u_1872_berish_rapaport_bp.jpg",
+     "basename": "U_1872_Berish_Rapaport_BP.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I513__z_1873_berish_rapaport_bp.jpg",
+     "basename": "Z_1873_Berish_Rapaport_BP.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I514": {
    "id": "I514",
@@ -25537,27 +27598,146 @@
     {
      "file": "assets/documents/basia_2026_08/photos/I514__eidel_lea_rachel_rapaport_karmel.jpg",
      "basename": "Eidel_Lea_Rachel_Rapaport_Karmel.png",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I514__aron_jozef_karmel.jpg",
      "basename": "Aron_Jozef_Karmel.png",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I514__ita_feiga_karmel_lieblich.jpg",
      "basename": "Ita_Feiga_Karmel_Lieblich.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I514__menasche_karmel.jpg",
      "basename": "Menasche_Karmel.png",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I514__menasche_karmel_1939.jpg",
      "basename": "Menasche_Karmel_1939.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I514__0001_000.jpg",
+     "basename": "0001-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I514__0002_000.jpg",
+     "basename": "0002-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I514__0003_000.jpg",
+     "basename": "0003-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I514__0004_000.jpg",
+     "basename": "0004-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I514__0005_000.jpg",
+     "basename": "0005-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I514__0006_000.jpg",
+     "basename": "0006-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I514__0007_000.jpg",
+     "basename": "0007-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I514__0008_000.jpg",
+     "basename": "0008-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I514__0009_000.jpg",
+     "basename": "0009-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I514__0010_000.jpg",
+     "basename": "0010-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I514__0011_000.jpg",
+     "basename": "0011-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I514__0012_000.jpg",
+     "basename": "0012-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I514__0013_000.jpg",
+     "basename": "0013-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I514__0014_000.jpg",
+     "basename": "0014-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I514__0016_000.jpg",
+     "basename": "0016-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I514__m_1895_aron_karmel_eidel_rapaport_kr.jpg",
+     "basename": "M_1895_Aron_Karmel_Eidel_Rapaport_Kr.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I514__m_1924_salomon_lieblich_ite_feige_karmel_kr.jpg",
+     "basename": "M_1924_Salomon_Lieblich_Ite_Feige_Karmel_Kr.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I514__u_1897_ite_feige_karmel_kr.jpg",
+     "basename": "U_1897_Ite_Feige_Karmel_Kr.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I514__u_1898_mensche_and_doba_karmel_kr.jpg",
+     "basename": "U_1898_Mensche_and_Doba_Karmel_Kr.jpg",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -25580,7 +27760,22 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 5
+   "steps_from_family": 5,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I515__u_1879_meir_rapaport_bp.jpg",
+     "basename": "U_1879_Meir_Rapaport_BP.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I515__z_1884_meir_rapaport_bp.jpg",
+     "basename": "Z_1884_Meir_Rapaport_BP.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I516": {
    "id": "I516",
@@ -25613,17 +27808,26 @@
     {
      "file": "assets/documents/basia_2026_08/photos/I516__riwka_wolf_rapaport.jpg",
      "basename": "Riwka Wolf Rapaport.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I516__yota_rapaport_yv_1.jpg",
      "basename": "Yota_Rapaport_YV_1.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I516__yota_rapaport_yv_2.jpg",
      "basename": "Yota_Rapaport_YV_2.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I516__u_1884_aron_rapaport_bp.jpg",
+     "basename": "U_1884_Aron_Rapaport_BP.jpg",
+     "names_the_person": true,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
@@ -25712,6 +27916,18 @@
      "basename": "Shabtai_Rapaport_second_from the left_YV.avif",
      "names_the_person": true,
      "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I517__m_1913_schabse_rapaport_feige_eckstein_kr.jpg",
+     "basename": "M_1913_Schabse_Rapaport_Feige_Eckstein_Kr.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I517__u_1885_szabse_rapaport_bp.jpg",
+     "basename": "U_1885_Szabse_Rapaport_BP.jpg",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -27734,22 +29950,32 @@
     {
      "file": "assets/documents/basia_2026_08/photos/I601__beila_karmel_zucker.jpg",
      "basename": "Beila_Karmel_Zucker.png",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I601__hirsz_karmel.jpg",
      "basename": "Hirsz_Karmel.png",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I601__mita_karmel.jpg",
      "basename": "Mita_Karmel.png",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I601__mita_rosenbaum_karmel_warsaw_19.jpg",
      "basename": "Mita_Rosenbaum_Karmel_Warsaw_19.jpeg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I601__u_1895_hirsch_karmel_kr.jpg",
+     "basename": "U_1895_Hirsch_Karmel_Kr.jpg",
+     "names_the_person": true,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
@@ -27808,7 +30034,14 @@
     {
      "file": "assets/documents/basia_2026_08/photos/I603__juda_leib_karmel.jpg",
      "basename": "Juda_Leib_Karmel.jpg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I603__u_1905_juda_leib_karmel_kr.jpg",
+     "basename": "U_1905_Juda_Leib_Karmel_Kr.jpg",
+     "names_the_person": true,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -27857,7 +30090,16 @@
     "I653"
    ],
    "core_id": null,
-   "steps_from_family": 6
+   "steps_from_family": 6,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I605__u_1898_menasche_and_doba_karmel_kr.jpg",
+     "basename": "U_1898_Menasche_and_Doba_Karmel_Kr.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I606": {
    "id": "I606",
@@ -27973,7 +30215,16 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 6
+   "steps_from_family": 6,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I610__u_1908_baruch_mendel_rapaport_kr.jpg",
+     "basename": "U_1908_Baruch_Mendel_Rapaport_Kr.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I611": {
    "id": "I611",
@@ -27997,7 +30248,16 @@
     "I664"
    ],
    "core_id": null,
-   "steps_from_family": 6
+   "steps_from_family": 6,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I611__u_1908_mojzesz_jozef_rapaport_kr.jpg",
+     "basename": "U_1908_Mojzesz_Józef_Rapaport_Kr.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I612": {
    "id": "I612",
@@ -28023,12 +30283,20 @@
     {
      "file": "assets/documents/basia_2026_08/photos/I612__00071706_81_d0_07_9b_0284.jpg",
      "basename": "00071706_81_d0_07_9b_0284.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I612__00071706_81_d0_07_9b_0285.jpg",
      "basename": "00071706_81_d0_07_9b_0285.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I612__u_1911_anna_rapaport_kr.jpg",
+     "basename": "U_1911_Anna_Rapaport_Kr.jpg",
+     "names_the_person": true,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
@@ -29256,6 +31524,48 @@
      "basename": "YadVashem Szymon Rapaport.png",
      "names_the_person": false,
      "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I67__search_abraham_korn_1.jpg",
+     "basename": "Search_Abraham_Korn_1.png",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I67__search_abraham_korn_2.jpg",
+     "basename": "Search_Abraham_Korn_2.png",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I67__search_gitel_rapaport_korn_1.jpg",
+     "basename": "Search_Gitel_Rapaport_Korn_1.png",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I67__search_gittel_rapaport_korn_2.jpg",
+     "basename": "Search_Gittel_Rapaport_Korn_2.png",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I67__search_gittel_rapaport_korn_3.jpg",
+     "basename": "Search_Gittel_Rapaport_Korn_3.png",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I67__search_gittel_rapaport_korn_4.jpg",
+     "basename": "Search_Gittel_Rapaport_Korn_4.png",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I67__m_1913_simon_rapaport.jpg",
+     "basename": "M 1913 Simon Rapaport.jpg",
+     "names_the_person": true,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -29470,7 +31780,22 @@
     "I678"
    ],
    "core_id": null,
-   "steps_from_family": 6
+   "steps_from_family": 6,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I677__m_1928_abraham_abeles_ides_weidenfeld_dt.jpg",
+     "basename": "M_1928_Abraham_Abeles_Ides_Weidenfeld_DT.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I677__u_1905_ides_weidenfeld.jpg",
+     "basename": "U_1905_Ides_Weidenfeld.png",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I678": {
    "id": "I678",
@@ -29585,7 +31910,16 @@
     "I703"
    ],
    "core_id": null,
-   "steps_from_family": 5
+   "steps_from_family": 5,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I681__m_1905_mayer_mandel_chana_weidenfeld_tarn.jpg",
+     "basename": "M_1905_Mayer_Mandel_Chana_Weidenfeld_Tarn.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I682": {
    "id": "I682",
@@ -29635,7 +31969,16 @@
     "I684"
    ],
    "core_id": null,
-   "steps_from_family": 6
+   "steps_from_family": 6,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I683__m_1921_izrael_rubin_ita_mendelbaum_dt.jpg",
+     "basename": "M_1921_Izrael_Rubin_Ita_Mendelbaum_DT.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I684": {
    "id": "I684",
@@ -29732,6 +32075,18 @@
      "basename": "Margula_Weidenfeld_Landau_YV.avif",
      "names_the_person": true,
      "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I687__m_1921_moses_landau_margula_weidenfeld_dt.jpg",
+     "basename": "M_1921_Moses_Landau_Margula_Weidenfeld_DT.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I687__u_1922_jakub_landau_dt.jpg",
+     "basename": "U_1922_Jakub_Landau_DT.jpg",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -29842,7 +32197,16 @@
     "I692"
    ],
    "core_id": null,
-   "steps_from_family": 6
+   "steps_from_family": 6,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I691__u_1898_jakub_weidenfeld_dt.jpg",
+     "basename": "U_1898_Jakub_Weidenfeld_DT.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I692": {
    "id": "I692",
@@ -29963,6 +32327,12 @@
      "basename": "Izaak_Weidenfeld_YV.avif",
      "names_the_person": false,
      "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I696__u_1913_izak_weidenfeld_dt.jpg",
+     "basename": "U_1913_Izak_Weidenfeld_DT.jpg",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -30036,6 +32406,12 @@
      "basename": "Abraham_Weidenfeld_YV.avif",
      "names_the_person": true,
      "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I699__u_1911_abraham_weidenfeld_dt.jpg",
+     "basename": "U_1911_Abraham_Weidenfeld_DT.jpg",
+     "names_the_person": true,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -30115,6 +32491,12 @@
      "basename": "Judyta_Weidenfeld_YV.avif",
      "names_the_person": false,
      "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I701__m_1905_izak_weidenfeld_judyta_bertram_grz.jpg",
+     "basename": "M_1905_Izak_Weidenfeld_Judyta_Bertram_Grz.jpg",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -30304,7 +32686,16 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 4
+   "steps_from_family": 4,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I71__u_1914_ewa_rapaport_s.jpg",
+     "basename": "U 1914 Ewa Rapaport S.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I710": {
    "id": "I710",
@@ -30333,87 +32724,116 @@
     {
      "file": "assets/documents/basia_2026_08/photos/I710__004341303_10_0103.jpg",
      "basename": "004341303-10_0103.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I710__004341303_10_0104.jpg",
      "basename": "004341303-10_0104.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I710__004341451_10_0204.jpg",
      "basename": "004341451-10_0204.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I710__004341451_10_0205.jpg",
      "basename": "004341451-10_0205.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I710__004773350_10_0001.jpg",
      "basename": "004773350-10_0001.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I710__004773350_10_0002.jpg",
      "basename": "004773350-10_0002.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I710__004773350_10_0003.jpg",
      "basename": "004773350-10_0003.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I710__004773350_10_0004.jpg",
      "basename": "004773350-10_0004.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I710__004773350_10_0005.jpg",
      "basename": "004773350-10_0005.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I710__lipe_samuel_geldwerth_0.jpg",
      "basename": "Lipe_Samuel_Geldwerth-0.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I710__lipe_samuel_geldwerth.jpg",
      "basename": "Lipe_Samuel_Geldwerth.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I710__lipe_samuel_zyrla_geldwerth_0.jpg",
      "basename": "Lipe_Samuel_Zyrla_Geldwerth-0.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I710__simon_geldwerth.jpg",
      "basename": "Simon_Geldwerth.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I710__simon_geldwerth_1_0.jpg",
      "basename": "Simon_Geldwerth_1-0.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I710__simon_geldwerth_2_0.jpg",
      "basename": "Simon_Geldwerth_2-0.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I710__simon_geldwerth_3_0.jpg",
      "basename": "Simon_Geldwerth_3-0.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I710__simon_geldwerth_4_0.jpg",
      "basename": "Simon_Geldwerth_4-0.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I710__m_1910_lipa_geldwerth_zirla_weidenfeld_t.jpg",
+     "basename": "M_1910_Lipa_Geldwerth_Zirla_Weidenfeld_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I710__u_1914_simon_geldwerth_t.jpg",
+     "basename": "U_1914_SIMON_Geldwerth_T.jpg",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
@@ -30509,47 +32929,62 @@
     {
      "file": "assets/documents/basia_2026_08/photos/I714__mendel_geldwerth.jpg",
      "basename": "Mendel_Geldwerth.jpg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I714__mendel_geldwerth_1_0.jpg",
      "basename": "Mendel_Geldwerth_1-0.jpg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I714__mendel_geldwerth_3_0.jpg",
      "basename": "Mendel_Geldwerth_3-0.jpg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I714__mendel_geldwerth_4_0.jpg",
      "basename": "Mendel_Geldwerth_4-0.jpg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I714__mendel_geldwerth_5_0.jpg",
      "basename": "Mendel_Geldwerth_5-0.jpg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I714__mendel_geldwerth_6_0.jpg",
      "basename": "Mendel_Geldwerth_6-0.jpg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I714__mendel_geldwwerth_2_0.jpg",
      "basename": "Mendel_Geldwwerth_2-0.jpg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I714__004341451_10_0202.jpg",
      "basename": "004341451-10_0202.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I714__004341451_10_0203.jpg",
      "basename": "004341451-10_0203.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I714__u_1910_mendel_geldwerth_t.jpg",
+     "basename": "U_1910_Mendel_Geldwerth_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -30735,17 +33170,110 @@
     {
      "file": "assets/documents/basia_2026_08/photos/I72__1941_rozwod_lea_rapaport.jpg",
      "basename": "1941 rozwód Lea Rapaport.jpg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I72__lea_rapaport_segal_friedman.jpg",
      "basename": "Lea_Rapaport_Segal_Friedman.jpg",
-     "names_the_person": true
+     "names_the_person": true,
+     "kind": "photograph"
     },
     {
      "file": "assets/documents/basia_2026_08/photos/I72__michael_yechiel_segal.jpg",
      "basename": "Michael_Yechiel_Segal.jpg",
-     "names_the_person": false
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I72__0001_000.jpg",
+     "basename": "0001-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I72__0002_000.jpg",
+     "basename": "0002-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I72__0003_000.jpg",
+     "basename": "0003-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I72__0004_000.jpg",
+     "basename": "0004-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I72__0005_000.jpg",
+     "basename": "0005-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I72__0006_000.jpg",
+     "basename": "0006-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I72__0007_000.jpg",
+     "basename": "0007-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I72__0008_000.jpg",
+     "basename": "0008-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I72__0009_000.jpg",
+     "basename": "0009-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I72__0010_000.jpg",
+     "basename": "0010-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I72__0011_000.jpg",
+     "basename": "0011-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I72__0012_000.jpg",
+     "basename": "0012-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I72__0013_000.jpg",
+     "basename": "0013-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I72__0014_000.jpg",
+     "basename": "0014-000.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I72__u_1912_lea_rapaport.jpg",
+     "basename": "U 1912 Lea Rapaport.jpg",
+     "names_the_person": true,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -31228,6 +33756,12 @@
      "basename": "NN_Turkel_1_YV.avif",
      "names_the_person": false,
      "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I733__u_1899_jacob_turkel_tarn.jpg",
+     "basename": "U_1899_Jacob_Turkel_Tarn.jpg",
+     "names_the_person": true,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -31285,6 +33819,12 @@
      "basename": "Rachel_Turkel_YV.avif",
      "names_the_person": true,
      "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I735__u_1923_rachel_turkl_v.jpg",
+     "basename": "U_1923_Rachel_Turkl_V.png",
+     "names_the_person": true,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -31314,6 +33854,12 @@
      "basename": "Sara_Turkel_YV.avif",
      "names_the_person": true,
      "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I736__u_1927_hertha_turkl_v.jpg",
+     "basename": "U_1927_Hertha_Turkl_V.png",
+     "names_the_person": true,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -31336,7 +33882,16 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 6
+   "steps_from_family": 6,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I737__z_1900_schmuel_turkel_tp.jpg",
+     "basename": "Z_1900_Schmuel_Turkel_TP.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I738": {
    "id": "I738",
@@ -31411,6 +33966,24 @@
      "basename": "YadVashem Szabse Rapaport.png",
      "names_the_person": true,
      "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I74__swiadectwo_maturalne_szabse_rapaport_1.jpg",
+     "basename": "Świadectwo maturalne Szabse Rapaport 1.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I74__swiadectwo_maturalne_szabse_rapaport_2.jpg",
+     "basename": "Świadectwo maturalne Szabse Rapaport 2.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I74__protoko_z_matury_1931.jpg",
+     "basename": "Protokół z matury 1931.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -31913,6 +34486,12 @@
      "basename": "YV_9.avif",
      "names_the_person": false,
      "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I756__u_1904_chaya_perl_turkel_tp.jpg",
+     "basename": "U_1904_Chaya_Perl_Turkel_Tp.jpg",
+     "names_the_person": true,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -32034,7 +34613,16 @@
    "children": [],
    "spouses": [],
    "core_id": null,
-   "steps_from_family": 6
+   "steps_from_family": 6,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I760__u_1920_izak_turkel_v.jpg",
+     "basename": "U_1920_Izak_Turkel_V.png",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I761": {
    "id": "I761",
@@ -32159,6 +34747,18 @@
      "basename": "Shabse_Saul_Weidenfeld_YV.avif",
      "names_the_person": false,
      "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I761__u_1901_ester_turkel_tp.jpg",
+     "basename": "U_1901_Ester_Turkel_TP.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I761__u_1900_szabse_saul_weidenfeld_dt.jpg",
+     "basename": "U_1900_Szabse_Saul_Weidenfeld_DT.jpg",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -32239,6 +34839,18 @@
      "basename": "Schabse_Weidenfeld_YV.avif",
      "names_the_person": false,
      "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I762__u_1900_szabse_saul_weidenfeld_dt.jpg",
+     "basename": "U_1900_Szabse_Saul_Weidenfeld_DT.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I762__u_1900_schabse_karmel_kr.jpg",
+     "basename": "U_1900_Schabse_Karmel_Kr.jpg",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -32589,6 +35201,12 @@
      "basename": "NN_Gelernter_2_YV.avif",
      "names_the_person": false,
      "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I777__u_1912_anna_turkel_tp.jpg",
+     "basename": "U_1912_Anna_Turkel_Tp.jpg",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -34072,7 +36690,53 @@
     "I954"
    ],
    "core_id": "p_szewa_horowitz",
-   "steps_from_family": 4
+   "steps_from_family": 4,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/photos/I84__bann_szewa_horowitz_markus_turkel_liege.jpg",
+     "basename": "Bann_Szewa_Horowitz_Markus_Turkel_Liege.png",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I84__liege_szewa_horowitz_marriage_0.jpg",
+     "basename": "Liege Szewa Horowitz marriage-0.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I84__szewa_horowitz_liege_1941_1.jpg",
+     "basename": "Szewa Horowitz Liege 1941-1.jpg",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I84__szewa_horowitz_liege_1945.jpg",
+     "basename": "Szewa_Horowitz_Liege_1945.png",
+     "names_the_person": true,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I84__markus_turkel_liege_bann.jpg",
+     "basename": "Markus_Turkel_Liege_Bann.png",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I84__u_1920_szewa_horowitz_t.jpg",
+     "basename": "U_1920_Szewa Horowitz_T.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I84__u_1920_markus_turkel_vienna.jpg",
+     "basename": "U_1920_Markus Turkel_Vienna.png",
+     "names_the_person": false,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
+   "photo": "assets/documents/basia_2026_08/photos/I84__bann_szewa_horowitz_markus_turkel_liege.jpg"
   },
   "I840": {
    "id": "I840",
@@ -34685,7 +37349,16 @@
     "I867"
    ],
    "core_id": null,
-   "steps_from_family": 6
+   "steps_from_family": 6,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/registers/I866__m_1927_mindel_rapaport_shlomo_goldstoff.jpg",
+     "basename": "M_1927_Mindel_Rapaport_Shlomo_Goldstoff.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I867": {
    "id": "I867",
@@ -37746,6 +40419,24 @@
      "basename": "Wife_Wolf_YV.avif",
      "names_the_person": false,
      "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I976__m_1886_abba_rapaport_sprinza_rapaport_pin.jpg",
+     "basename": "M_1886_Abba_Rapaport_Sprinza_Rapaport_Pin.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I976__u_1865_abbe_rapaport_t.jpg",
+     "basename": "U_1865_Abbe_Rapaport_T.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I976__u_1888_szabse_rapaport_pin.jpg",
+     "basename": "U_1888_Szabse_Rapaport_Pin.jpg",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -37938,6 +40629,18 @@
      "basename": "Matl_Weingort_YV.avif",
      "names_the_person": false,
      "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/photos/I982__saul_weingort_grave.jpg",
+     "basename": "Saul Weingort_Grave.jpg",
+     "names_the_person": false,
+     "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/registers/I982__z_1946_saul_weingort.jpg",
+     "basename": "Z_1946_Saul_Weingort.jpg",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
