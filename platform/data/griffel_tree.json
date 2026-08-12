@@ -6,7 +6,7 @@
   "people": 390,
   "families": 140,
   "people_with_media": 80,
-  "media_files": 431,
+  "media_files": 439,
   "linked_to_core": 22
  },
  "families": {
@@ -2427,6 +2427,18 @@
      "basename": "U_1883_Schaje_Griffel.jpg",
      "names_the_person": false,
      "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/papers/I17__afera_z_czekiem.pdf",
+     "basename": "Afera_z_czekiem.pdf",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/papers/I17__m1948027000001_adela_englard_griffel.pdf",
+     "basename": "M1948027000001_Adela_Englard_Griffel.pdf",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
    "media_credit": "Jacob, Griffel family archive, received 10 August 2026"
@@ -2579,6 +2591,12 @@
     {
      "file": "assets/documents/griffel_2026_08/registers/I21__u_1911_dawid_mendel_rapaport.jpg",
      "basename": "U_1911_Dawid_Mendel_Rapaport.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/papers/I21__m1938231000000.pdf",
+     "basename": "M1938231000000.pdf",
      "names_the_person": false,
      "kind": "document"
     }
@@ -3295,6 +3313,12 @@
      "basename": "U_1897_Samuel_Gruenfeld.jpg",
      "names_the_person": true,
      "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/papers/I34__shmuel_grunfeld.pdf",
+     "basename": "Shmuel_Grunfeld.pdf",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
    "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
@@ -3633,6 +3657,12 @@
      "basename": "Rivka_Griffel_YV.avif",
      "names_the_person": false,
      "kind": "yad_vashem"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/papers/I42__1942_bolechow_holzwerke_liste.pdf",
+     "basename": "1942_Bolechów_Holzwerke_liste.pdf",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
    "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
@@ -3902,6 +3932,18 @@
      "file": "assets/documents/griffel_2026_08/registers/I44__u_1910_ozajasz_henryk_griffel.jpg",
      "basename": "U_1910_Ozajasz_Henryk_Griffel.jpg",
      "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/papers/I44__army_henry_ozjas_griffel.pdf",
+     "basename": "Army_Henry_Ozjas_Griffel.pdf",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/papers/I44__census_1950_henry_griffel.pdf",
+     "basename": "Census_1950_Henry_Griffel.pdf",
+     "names_the_person": false,
      "kind": "document"
     }
    ],
@@ -4521,6 +4563,12 @@
     {
      "file": "assets/documents/griffel_2026_08/registers/I57__u_1908_chaim_griffel_n.jpg",
      "basename": "U_1908_Chaim_Griffel_N.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/griffel_2026_08/papers/I57__chaim_griffel_1908.pdf",
+     "basename": "Chaim_Griffel_1908.pdf",
      "names_the_person": true,
      "kind": "document"
     }

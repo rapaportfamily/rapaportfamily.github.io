@@ -6,8 +6,8 @@
   "people": 1442,
   "families": 480,
   "linked_to_core": 59,
-  "people_with_media": 176,
-  "media_files": 856,
+  "people_with_media": 177,
+  "media_files": 917,
   "people_with_yad_vashem_page": 42,
   "yad_vashem_pages": 133
  },
@@ -5970,7 +5970,16 @@
     "I1057"
    ],
    "core_id": null,
-   "steps_from_family": 8
+   "steps_from_family": 8,
+   "media": [
+    {
+     "file": "assets/documents/basia_2026_08/papers/I1056__u_1907_rachel_mises_vi.pdf",
+     "basename": "U_1907_Rachel_Mises_Vi.pdf",
+     "names_the_person": true,
+     "kind": "document"
+    }
+   ],
+   "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
   },
   "I1057": {
    "id": "I1057",
@@ -6129,6 +6138,18 @@
      "file": "assets/documents/basia_2026_08/photos/I1060__lola_bergner.jpg",
      "basename": "Lola_Bergner.jpg",
      "names_the_person": false
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I1060__ludwik_bergner.pdf",
+     "basename": "Ludwik_Bergner.pdf",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I1060__ludwik_bergner_4.pdf",
+     "basename": "Ludwik_Bergner_4.pdf",
+     "names_the_person": true,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -6253,6 +6274,12 @@
      "file": "assets/documents/basia_2026_08/photos/I1064__bruno_mises_4.jpg",
      "basename": "Bruno_Mises_4.jpg",
      "names_the_person": false
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I1064__bruno_mises_1.pdf",
+     "basename": "Bruno_Mises_1.pdf",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
@@ -6436,6 +6463,18 @@
      "file": "assets/documents/basia_2026_08/photos/I1070__madeline_sandra_schwartz_rubin.jpg",
      "basename": "Madeline Sandra Schwartz Rubin.jpeg",
      "names_the_person": false
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I1070__ascher_rubin.pdf",
+     "basename": "Ascher_Rubin.pdf",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I1070__ascher_rubin_2.pdf",
+     "basename": "Ascher_Rubin_2.pdf",
+     "names_the_person": true,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -6664,6 +6703,12 @@
      "basename": "Najer_Folksblat1932no230a-0.jpg",
      "names_the_person": false,
      "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I1079__najer_folksblat1932no230a.pdf",
+     "basename": "Najer_Folksblat1932no230a.pdf",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
@@ -16835,6 +16880,24 @@
      "basename": "U_1915_Charlotte_Rapaport_1915.png",
      "names_the_person": false,
      "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I15__m1938230000000.pdf",
+     "basename": "M1938230000000.pdf",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I15__1923_rias_ca_osc.pdf",
+     "basename": "1923 Rias całość.pdf",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I15__44451_gazeta_lwowska_1936_nr_130_pdf.pdf",
+     "basename": "44451_Gazeta_Lwowska_1936_nr_130_PDF.pdf",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -17087,6 +17150,12 @@
     {
      "file": "assets/documents/basia_2026_08/registers/I155__z_1934_gitla_rapaport_kr.jpg",
      "basename": "Z_1934_Gitla_Rapaport_Kr.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I155__wassertheil_rachel_debora_dawid.pdf",
+     "basename": "Wassertheil_Rachel_Debora_Dawid.pdf",
      "names_the_person": false,
      "kind": "document"
     }
@@ -17467,6 +17536,12 @@
      "file": "assets/documents/basia_2026_08/registers/I164__u_1901_helena_rapaport_lw.jpg",
      "basename": "U_1901_Helena_Rapaport_Lw.jpg",
      "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I164__m_1900_schepsel_rapaport_elka_kanner_am.pdf",
+     "basename": "M_1900_Schepsel_Rapaport_Elka_Kanner_Am.pdf",
+     "names_the_person": true,
      "kind": "document"
     }
    ],
@@ -18112,6 +18187,54 @@
      "basename": "U_1895_Regina_Singer_T.jpg",
      "names_the_person": true,
      "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I185__family_seidman.pdf",
+     "basename": "Family_Seidman.pdf",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I185__nachman_seidman_1.pdf",
+     "basename": "Nachman_Seidman_1.pdf",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I185__nachman_seidman_2.pdf",
+     "basename": "Nachman_Seidman_2.pdf",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I185__regina_josef_margalit_seidman.pdf",
+     "basename": "Regina_Josef_Margalit_Seidman.pdf",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I185__regina_josef_margalit_seidman_2.pdf",
+     "basename": "Regina_Josef_Margalit_Seidman_2.pdf",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I185__regina_josef_seidman.pdf",
+     "basename": "Regina_Josef_Seidman.pdf",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I185__regina_seidman_2.pdf",
+     "basename": "Regina_Seidman_2.pdf",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I185__regina_seidman_3.pdf",
+     "basename": "Regina_Seidman_3.pdf",
+     "names_the_person": true,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -18495,6 +18618,42 @@
     {
      "file": "assets/documents/basia_2026_08/registers/I196__u_1862_cecylie_jacobson_t.jpg",
      "basename": "U_1862_Cecylie_Jacobson_T.jpg",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I196__paul_nebenzahl_1.pdf",
+     "basename": "Paul_Nebenzahl_1.pdf",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I196__paul_nebenzahl_2.pdf",
+     "basename": "Paul_Nebenzahl_2.pdf",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I196__paul_nebenzahl_3.pdf",
+     "basename": "Paul_Nebenzahl_3.pdf",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I196__paul_nebenzahl_4.pdf",
+     "basename": "Paul_Nebenzahl_4.pdf",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I196__transkrypcja_3.pdf",
+     "basename": "Transkrypcja (3).pdf",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I196__rachela_1.pdf",
+     "basename": "Rachela_1.pdf",
      "names_the_person": false,
      "kind": "document"
     }
@@ -19776,6 +19935,12 @@
      "basename": "U_1897_Chana_Wassertheil_T.jpg",
      "names_the_person": true,
      "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I236__passenger_1948.pdf",
+     "basename": "Passenger 1948.pdf",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -20632,6 +20797,48 @@
     {
      "file": "assets/documents/basia_2026_08/registers/I254__u_1903_walter_sandbank_v_0.jpg",
      "basename": "U_1903_Walter_Sandbank_V-0.jpg",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I254__u_1903_walter_sandbank_01.pdf",
+     "basename": "U_1903_Walter_Sandbank_01.pdf",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I254__u_1903_walter_sandbank_02.pdf",
+     "basename": "U_1903_Walter_Sandbank_02.pdf",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I254__u_1903_walter_sandbank_03.pdf",
+     "basename": "U_1903_Walter_Sandbank_03.pdf",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I254__u_1903_walter_sandbank_v.pdf",
+     "basename": "U_1903_Walter_Sandbank_V.pdf",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I254__walter_sandbank_1.pdf",
+     "basename": "Walter_Sandbank_1.pdf",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I254__walter_sandbank_2.pdf",
+     "basename": "Walter_Sandbank_2.pdf",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I254__walter_sandbank_3.pdf",
+     "basename": "Walter_Sandbank_3.pdf",
      "names_the_person": true,
      "kind": "document"
     }
@@ -21634,6 +21841,36 @@
      "basename": "U_1891_Adolf_Mises_V-0.jpg",
      "names_the_person": true,
      "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I285__adolf_mises_1.pdf",
+     "basename": "Adolf_Mises_1.pdf",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I285__adolf_mises_2.pdf",
+     "basename": "Adolf_Mises_2.pdf",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I285__adolf_mises_3.pdf",
+     "basename": "Adolf_Mises_3.pdf",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I285__adolf_mises_4.pdf",
+     "basename": "Adolf_Mises_4.pdf",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I285__u_1891_adolf_mises_v.pdf",
+     "basename": "U_1891_Adolf_Mises_V.pdf",
+     "names_the_person": true,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -21667,6 +21904,12 @@
      "file": "assets/documents/basia_2026_08/photos/I286__febus_knossow_firma.jpg",
      "basename": "Febus Knossow firma.png",
      "names_the_person": false
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I286__u_1898_fanni_mises_v.pdf",
+     "basename": "U_1898_Fanni_Mises_V.pdf",
+     "names_the_person": true,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
@@ -26595,6 +26838,12 @@
      "basename": "archive.jpg",
      "names_the_person": false,
      "kind": "photograph"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I481__korn_gabriel.pdf",
+     "basename": "Korn Gabriel.pdf",
+     "names_the_person": true,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -32834,6 +33083,36 @@
      "basename": "U_1914_SIMON_Geldwerth_T.jpg",
      "names_the_person": false,
      "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I710__lipe_samuel_zyrla_geldwerth.pdf",
+     "basename": "Lipe_Samuel_Zyrla_Geldwerth.pdf",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I710__simon_geldwerth_1.pdf",
+     "basename": "Simon_Geldwerth_1.pdf",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I710__simon_geldwerth_2.pdf",
+     "basename": "Simon_Geldwerth_2.pdf",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I710__simon_geldwerth_3.pdf",
+     "basename": "Simon_Geldwerth_3.pdf",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I710__simon_geldwerth_4.pdf",
+     "basename": "Simon_Geldwerth_4.pdf",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
@@ -32985,6 +33264,42 @@
      "basename": "U_1910_Mendel_Geldwerth_T.jpg",
      "names_the_person": true,
      "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I714__mendel_geldwerth_1.pdf",
+     "basename": "Mendel_Geldwerth_1.pdf",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I714__mendel_geldwerth_3.pdf",
+     "basename": "Mendel_Geldwerth_3.pdf",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I714__mendel_geldwerth_4.pdf",
+     "basename": "Mendel_Geldwerth_4.pdf",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I714__mendel_geldwerth_5.pdf",
+     "basename": "Mendel_Geldwerth_5.pdf",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I714__mendel_geldwerth_6.pdf",
+     "basename": "Mendel_Geldwerth_6.pdf",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I714__mendel_geldwwerth_2.pdf",
+     "basename": "Mendel_Geldwwerth_2.pdf",
+     "names_the_person": true,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -33079,6 +33394,54 @@
      "file": "assets/documents/basia_2026_08/photos/I716__rosa_jakub_riwa_rubin_0.jpg",
      "basename": "Rosa_Jakub_Riwa_Rubin-0.jpg",
      "names_the_person": false
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I716__leiser_rubin_2.pdf",
+     "basename": "Leiser_Rubin_2.pdf",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I716__leiser_rubin_3.pdf",
+     "basename": "Leiser_Rubin_3.pdf",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I716__leiser_rubin_4.pdf",
+     "basename": "Leiser_Rubin_4.pdf",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I716__leiser_rubin_5.pdf",
+     "basename": "Leiser_Rubin_5.pdf",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I716__leiser_rubin_6.pdf",
+     "basename": "Leiser_Rubin_6.pdf",
+     "names_the_person": false,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I716__leizer_rubin.pdf",
+     "basename": "Leizer_Rubin.pdf",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I716__leizer_rubin_7.pdf",
+     "basename": "Leizer_Rubin_7.pdf",
+     "names_the_person": true,
+     "kind": "document"
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I716__rosa_jakub_riwa_rubin.pdf",
+     "basename": "Rosa_Jakub_Riwa_Rubin.pdf",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
@@ -33384,6 +33747,12 @@
      "file": "assets/documents/basia_2026_08/photos/I723__ny_frieda_ashkenazy_2_0.jpg",
      "basename": "NY_Frieda_Ashkenazy_2-0.jpg",
      "names_the_person": false
+    },
+    {
+     "file": "assets/documents/basia_2026_08/papers/I723__ny_frieda_ashkenazy_2.pdf",
+     "basename": "NY_Frieda_Ashkenazy_2.pdf",
+     "names_the_person": false,
+     "kind": "document"
     }
    ],
    "media_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",

@@ -354,9 +354,7 @@
   },
   {
    "id": "doc_lea_ckzp",
-   "file_pages": [
-    "Lea and Shimon .pdf"
-   ],
+   "file_pages": [],
    "kind": "pdf",
    "type": "ckzp_registration",
    "primary_language": "pl",
@@ -381,7 +379,11 @@
     "p_matel_weinreb"
    ],
    "related_events": [],
-   "status": "verified"
+   "status": "record_without_scan",
+   "summary": {
+    "en": "NO SCAN. This record was catalogued from the research correspondence, and the document itself — \"Lea and Shimon .pdf\" — has never reached this archive. The pointer to it was left in place for months and rendered as a broken frame, which looks like a fault in the site rather than what it is: a gap in the evidence. It is now empty and says so. Of everything the family has sent us, this is the one document we are still missing.",
+    "he": "אין סריקה. הרשומה הזו נקטלגה מתוך התכתובת המחקרית, והמסמך עצמו — ״Lea and Shimon .pdf״ — מעולם לא הגיע לארכיון הזה. המצביע אליו נותר במקומו חודשים והוצג כמסגרת שבורה, מה שנראה כתקלה באתר ולא כמה שהוא: פער בראיות. כעת הוא ריק ואומר זאת. מכל מה שהמשפחה שלחה לנו, זה המסמך האחד שעדיין חסר לנו."
+   }
   },
   {
    "id": "doc_newspaper_1912_krynica",
@@ -4310,6 +4312,42 @@
      "he": "שמו הפרטי של שמיד אינו ידוע בשני עצי המשפחה ואף לא על הדף. ואין מקור מלבד הדף הזה שאומר דבר על אופן מותה של לוטה."
     }
    ]
+  },
+  {
+   "id": "doc_coverage_audit_2026_08_11",
+   "file_pages": [],
+   "kind": "dataset",
+   "type": "coverage_audit",
+   "primary_language": "en",
+   "title": {
+    "en": "What is in this archive, and what is not — coverage audit, 11 August 2026",
+    "he": "מה יש בארכיון הזה ומה אין — ביקורת כיסוי, 11 באוגוסט 2026",
+    "pl": "Co jest w tym archiwum, a czego nie ma — audyt kompletności, 11 sierpnia 2026",
+    "fr": "Ce que contiennent ces archives, et ce qui manque — audit de couverture, 11 août 2026"
+   },
+   "source_archive": "This archive, audited against every source the family has sent.",
+   "related_people": [
+    "p_david",
+    "p_leah",
+    "p_shimon",
+    "p_dov_bernard"
+   ],
+   "decoded_fields": {
+    "curated_people": 188,
+    "documents": 125,
+    "rapaport_tree": "1442 people, 177 with media, 917 files",
+    "griffel_tree": "390 people, 80 with media, 439 files",
+    "unidentified_photographs": 60,
+    "files_on_the_site": 1848,
+    "megabytes": 933,
+    "not_published_1": "Photobook2.pdf — all 47 of its pages are already here as individual photographs",
+    "not_published_2": "\"Lea and Shimon .pdf\" — the scan has never reached us"
+   },
+   "summary": {
+    "en": "Every source the family has given us has been walked file by file and compared against what this site actually serves — in both directions, because either one alone lies. Nothing the site references is missing, and nothing we were given is unpublished, with exactly two exceptions, both named: Photobook2.pdf, whose 47 pages are already here one by one, and \"Lea and Shimon .pdf\", which has never reached us. Along the way this audit found 71 files that every earlier pass had skipped in silence — all of them PDFs, because each publisher filtered on image extensions and said nothing about what it dropped. Among them a 1938 document from Rebeka Griffel’s own folder and a 1942 list from the Bolechów Holzwerke, the town where Lusia was born. That is why the audit walks the sources and not the site: a check that only asks \"does everything here work\" cannot see what never arrived.",
+    "he": "כל מקור שהמשפחה נתנה לנו נסרק קובץ אחר קובץ והושווה למה שהאתר הזה מגיש בפועל — בשני הכיוונים, משום שכל אחד מהם לבדו משקר. שום דבר שהאתר מפנה אליו אינו חסר, ושום דבר שקיבלנו אינו בלתי מפורסם, למעט שני חריגים שנקובים בשמם: Photobook2.pdf, ש-47 עמודיו כבר כאן אחד־אחד, ו״Lea and Shimon .pdf״, שמעולם לא הגיע אלינו. בדרך מצאה הביקורת 71 קבצים שכל המעברים הקודמים דילגו עליהם בשקט — כולם PDF, משום שכל מפרסם סינן לפי סיומות של תמונות ולא אמר דבר על מה שהשמיט. ביניהם מסמך מ-1938 מתיקייתה של רבקה גריפל ורשימה מ-1942 ממפעלי העץ של בולחוב, העיר שבה נולדה לוסיה. זו הסיבה שהביקורת סורקת את המקורות ולא את האתר: בדיקה השואלת רק ״האם כל מה שכאן עובד״ אינה יכולה לראות את מה שמעולם לא הגיע."
+   },
+   "status": "read"
   }
  ],
  "additional_files": [
