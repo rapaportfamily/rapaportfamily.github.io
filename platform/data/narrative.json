@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-06",
+ "generated": "2026-08-11",
  "note": {
   "en": "Every paragraph names the record it rests on. Where the memoir and the documents disagree, the text says so instead of quietly choosing between them. The wider research has now reached 1,442 people across 480 families, back to Abraham Abe Rapaport, born 1784 at Tarnów. This story stays with four of them — David, Lusia, Shimon and Dov — and the rest is the ground they stood on.",
   "he": "כל פסקה נוקבת ברשומה שעליה היא נשענת. במקום שבו היומן והמסמכים אינם מסכימים, הטקסט אומר זאת במקום לבחור ביניהם בשקט. המחקר הרחב הגיע עד כה ל-1,442 אנשים ב-480 משפחות, אחורה עד אברהם אבה רפפורט, יליד 1784 בטרנוב. הסיפור הזה נשאר עם ארבעה מהם — דוד, לוסיה, שמעון ודב — וכל השאר הוא הקרקע שעליה עמדו.",
@@ -439,6 +439,54 @@
       "Memoir ch.1"
      ],
      "kind": "fact"
+    }
+   ]
+  },
+  {
+   "id": "going_back",
+   "years": "2015 – 2019",
+   "title": {
+    "en": "Going back",
+    "he": "לחזור",
+    "pl": "Powrót",
+    "fr": "Le retour"
+   },
+   "paragraphs": [
+    {
+     "text": {
+      "en": "In April 2015 Dov flew to Poland with his son Doron. They spent a week in Warsaw — the Old Town, the Barbican, the Royal Castle, a city flattened and put back stone by stone — and on 19 April they drove to Przemyśl. That is not a sightseeing stop. Przemyśl is the town where Berish and Rebeka were living when the war came; it is the residence the Auschwitz death books give for Berish, and it is where Lusia’s memoir says the Germans killed one of David’s parents on a fabricated charge. Most of the forty photographs from that day are taken through a car windscreen, driving its streets slowly, in the rain.",
+      "he": "באפריל 2015 טס דב לפולין עם בנו דורון. הם עשו שבוע בוורשה — העיר העתיקה, הברבקן, הטירה המלכותית, עיר שנמחקה ונבנתה מחדש אבן אחר אבן — וב-19 באפריל נסעו לפשמישל. זו אינה עצירת תיירים. פשמישל היא העיירה שבה חיו בעריש ורבקה עם פרוץ המלחמה; זו כתובת המגורים שנוקבים בה ספרי המתים של אושוויץ עבור בעריש, וזה המקום שבו, לפי ספר הזיכרונות של לוסיה, הרגו הגרמנים את אחד מהוריו של דוד באשמת שווא. רוב ארבעים התצלומים מאותו יום צולמו מבעד לשמשת מכונית, בנסיעה איטית ברחובותיה, בגשם.",
+      "pl": "W kwietniu 2015 Dow polechiał do Polski z synem Doronem. Tydzień w Warszawie — Stare Miasto, Barbakan, Zamek Królewski — a 19 kwietnia pojechali do Przemyśla. To nie przystanek turystyczny: w Przemyślu mieszkali Berisz i Rebeka, gdy przyszła wojna, i to Przemyśl podają jako jego miejsce zamieszkania obozowe księgi zgonów. Większość czterdziestu zdjęć z tego dnia zrobiono przez przednią szybę samochodu.",
+      "fr": "En avril 2015, Dov s’est rendu en Pologne avec son fils Doron. Une semaine à Varsovie — la vieille ville, la Barbacane, le Château royal — puis, le 19 avril, la route de Przemyśl. Ce n’est pas une étape touristique : c’est la ville où vivaient Berish et Rebeka quand la guerre est venue, celle que les registres de décès d’Auschwitz donnent comme résidence de Berish. La plupart des quarante photographies de ce jour-là sont prises à travers un pare-brise."
+     },
+     "sources": [
+      "Dov and Doron, Warsaw and Przemyśl albums, April 2015",
+      "Auschwitz Sterbebücher — residence Przemyśl",
+      "Lusia’s memoir, ch. 24"
+     ]
+    },
+    {
+     "text": {
+      "en": "In June 2018 he went to Brussels, where he was born on 28 August 1946 — four months after his father filled in a Displaced Persons card in that city and wrote \"Palestine or U.S.A.\" in the box for where he wanted to go. In January 2019 he went to Katowice, in the snow, and photographed it from above and on foot: the town of the separation nobody recorded, where the family was together before David and Shimon went one way and Lusia and the baby another. One hundred and twenty photographs from the four journeys are in this archive.",
+      "he": "ביוני 2018 נסע לבריסל, שבה נולד ב-28 באוגוסט 1946 — ארבעה חודשים אחרי שאביו מילא באותה עיר כרטיס עקורים ורשם במשבצת היעד ״פלשתינה או ארה״ב״. בינואר 2019 נסע לקטוביץ, בשלג, וצילם אותה מלמעלה וברגל: עיירת ההיפרדות שאיש לא תיעד, שבה הייתה המשפחה יחד לפני שדוד ושמעון פנו לדרך אחת ולוסיה והתינוק לאחרת. מאה ועשרים תצלומים מארבעת המסעות שמורים בארכיון הזה.",
+      "pl": "W czerwcu 2018 pojechał do Brukseli, gdzie urodził się 28 sierpnia 1946 — cztery miesiące po tym, jak jego ojciec wypełnił w tym mieście kartę dipisa i wpisał „Palestyna albo USA”. W styczniu 2019 pojechał do Katowic, w śniegu. Sto dwadzieścia zdjęć z czterech podróży jest w tym archiwum.",
+      "fr": "En juin 2018, il est allé à Bruxelles, où il est né le 28 août 1946 — quatre mois après que son père y a rempli une fiche de personne déplacée en inscrivant « Palestine ou U.S.A. ». En janvier 2019, il est allé à Katowice, sous la neige. Cent vingt photographies de ces quatre voyages sont dans ces archives."
+     },
+     "sources": [
+      "Dov and Doron, Brussels and Katowice albums, 2018 and 2019",
+      "DIPIS card, Brussels, 9 April 1946"
+     ]
+    },
+    {
+     "text": {
+      "en": "It is worth saying what that means for an archive like this one. Every other chapter here is assembled from what other people wrote down — clerks, registrars, a camp administration, a memoir. This is the only chapter in which somebody in the story goes back and looks for himself, and the pictures are his. Nothing in them was recovered. They were made.",
+      "he": "כדאי לומר מה משמעות הדבר עבור ארכיון כמו זה. כל פרק אחר כאן מורכב ממה שאנשים אחרים רשמו — פקידים, רשמי מרשם, מנהלת מחנה, ספר זיכרונות. זהו הפרק היחיד שבו מישהו מן הסיפור חוזר ומביט בעצמו, והתמונות הן שלו. שום דבר בהן לא אוחזר. הן נעשו.",
+      "pl": "Warto powiedzieć, co to znaczy dla takiego archiwum. Każdy inny rozdział złożony jest z tego, co zapisali inni — urzędnicy, administracja obozu, pamiętnik. To jedyny rozdział, w którym ktoś z tej historii wraca i patrzy sam, a zdjęcia są jego. Nic w nich nie zostało odzyskane. Zostały zrobione.",
+      "fr": "Il vaut la peine de dire ce que cela signifie pour de telles archives. Tous les autres chapitres sont assemblés à partir de ce que d’autres ont écrit — des employés, une administration de camp, un mémoire. C’est le seul chapitre où quelqu’un de l’histoire revient et regarde lui-même, et les images sont les siennes. Rien n’y a été retrouvé. Elles ont été faites."
+     },
+     "sources": [
+      "doc_dov_journeys_back"
+     ]
     }
    ]
   }

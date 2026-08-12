@@ -1476,7 +1476,44 @@ function renderPhotographs(root) {
             </figure>`;
         }).join('')}
       </div>
+      <div id="trips-block"></div>
       <div id="unid-block"></div>`;
+
+    // Dov's four returns. Grouped by trip and headed by the place, because Przemyśl and
+    // Brussels and Katowice are not destinations here — they are the towns in his parents'
+    // file, and he went to stand in them.
+    fetch(`data/dov_trips.json?v=${Date.now()}`, { cache: 'no-store' })
+      .then(r => r.json())
+      .then(T => {
+        const box = document.getElementById('trips-block');
+        if (!box || !(T.albums || []).length) return;
+        box.innerHTML = `
+          <h2 class="unid-title">${escapeHtml(t('memoir.trips_title'))}</h2>
+          <p class="story-note">${escapeHtml(t('memoir.trips_lead'))}</p>
+          ${T.albums.map(a => {
+            const shots = (T.photographs || []).filter(p => p.album === a.key);
+            if (!shots.length) return '';
+            return `
+              <div class="trip-block">
+                <div class="trip-head">
+                  <h3>${escapeHtml(ml(a.title))}</h3>
+                  <span class="trip-when">${escapeHtml(a.when)} · ${shots.length}</span>
+                </div>
+                <p class="trip-note" dir="auto">${escapeHtml(ml(a.note) || '')}</p>
+                <div class="trip-grid">
+                  ${shots.map(s => `<img src="${escapeHtml(s.file)}" alt="" loading="lazy"
+                       data-shot="${escapeHtml(s.file)}"
+                       data-shotcap="${escapeHtml(ml(a.title) + ' · ' + a.when)}" />`).join('')}
+                </div>
+              </div>`;
+          }).join('')}
+          <p class="ex-source">${escapeHtml(T.source || '')}</p>`;
+        box.querySelectorAll('[data-shot]').forEach(img => img.addEventListener('click', () => {
+          showModal(`<figure class="shot-full"><img src="${escapeHtml(img.dataset.shot)}" alt="" />
+            <figcaption dir="auto">${escapeHtml(img.dataset.shotcap || '')}</figcaption></figure>`);
+        }));
+      })
+      .catch(() => {});
 
     body.querySelectorAll('[data-person]').forEach(el => {
       el.addEventListener('click', () => openPersonModal(el.dataset.person));

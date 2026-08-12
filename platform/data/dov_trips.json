@@ -1,0 +1,669 @@
+{
+ "_readme": "Dov Rapaport’s journeys back to the places in his own file, photographed with his son Doron. Four shared Google Photos albums, supplied by Doron on 11 August 2026. Every frame was reviewed before publishing; one was left out and the reason is recorded in the album note.",
+ "source": "Doron Rapaport, from the family’s Google Photos albums, 11 August 2026",
+ "reviewed": "all 121 frames looked at on 11 August 2026; 1 excluded",
+ "albums": [
+  {
+   "key": "warsaw",
+   "title": {
+    "en": "Warsaw",
+    "he": "ורשה"
+   },
+   "when": "14–20 April 2015",
+   "count": 36,
+   "note": {
+    "en": "The Old Town, the Barbican, the Royal Castle, the rebuilt squares — and the churches and streets of a city that was flattened and put back stone by stone.",
+    "he": "העיר העתיקה, הברבקן, הטירה המלכותית, הכיכרות שנבנו מחדש — והכנסיות והרחובות של עיר שנמחקה והוקמה שוב אבן אחר אבן.",
+    "pl": "Stare Miasto, Barbakan, Zamek Królewski, odbudowane rynki — kościoły i ulice miasta, które zburzono i postawiono z powrotem kamień po kamieniu.",
+    "fr": "La vieille ville, la Barbacane, le Château royal, les places reconstruites — les églises et les rues d’une ville rasée puis relevée pierre à pierre."
+   }
+  },
+  {
+   "key": "przemysl",
+   "title": {
+    "en": "Przemyśl",
+    "he": "פשמישל"
+   },
+   "when": "19 April 2015",
+   "count": 40,
+   "note": {
+    "en": "The town where Berish and Rebeka were living when the war came. The camp death books give Przemyśl as Berish’s residence, and Lusia’s memoir says the Germans killed one of David’s parents here. Most of these frames are taken through a car windscreen, driving its streets slowly, in the rain.",
+    "he": "העיירה שבה חיו בעריש ורבקה עם פרוץ המלחמה. ספרי המתים של המחנה נוקבים בפשמישל כמקום מגוריו של בעריש, וספר הזיכרונות של לוסיה אומר שהגרמנים הרגו כאן את אחד מהוריו של דוד. רוב הפריימים האלה צולמו מבעד לשמשת מכונית, בנסיעה איטית ברחובות, בגשם.",
+    "pl": "Miasto, w którym mieszkali Berisz i Rebeka, gdy przyszła wojna. Obozowe księgi zgonów podają Przemyśl jako miejsce zamieszkania Berisza. Większość tych zdjęć zrobiono przez przednią szybę samochodu, w deszczu.",
+    "fr": "La ville où vivaient Berish et Rebeka quand la guerre est venue. Les registres de décès du camp donnent Przemyśl comme résidence de Berish. La plupart de ces images sont prises à travers un pare-brise, sous la pluie."
+   }
+  },
+  {
+   "key": "brussels",
+   "title": {
+    "en": "Brussels",
+    "he": "בריסל"
+   },
+   "when": "21–23 June 2018",
+   "count": 13,
+   "note": {
+    "en": "Where Dov was born on 28 August 1946, four months after his father registered as a displaced person in this city and wrote “Palestine or U.S.A.” in the box for where he wanted to go.",
+    "he": "המקום שבו נולד דב ב-28 באוגוסט 1946, ארבעה חודשים אחרי שאביו נרשם בעיר הזאת כעקור ורשם במשבצת היעד ״פלשתינה או ארה״ב״.",
+    "pl": "Tu urodził się Dow, 28 sierpnia 1946, cztery miesiące po tym, jak jego ojciec zarejestrował się w tym mieście jako dipis i wpisał „Palestyna albo USA”.",
+    "fr": "Où Dov est né le 28 août 1946, quatre mois après que son père s’y est enregistré comme personne déplacée en inscrivant « Palestine ou U.S.A. »."
+   }
+  },
+  {
+   "key": "katowice",
+   "title": {
+    "en": "Katowice",
+    "he": "קטוביץ"
+   },
+   "when": "17–19 January 2019",
+   "count": 31,
+   "note": {
+    "en": "The town of chapter 5 — where the family was together before the separation nobody recorded. Photographed in winter, from above and on foot.",
+    "he": "עיירת פרק 5 — שבה הייתה המשפחה יחד לפני ההיפרדות שאיש לא תיעד. צולמה בחורף, מלמעלה וברגל.",
+    "pl": "Miasto z rozdziału 5 — gdzie rodzina była razem przed rozłąką, której nikt nie zapisał. Sfotografowane zimą, z góry i z ulicy.",
+    "fr": "La ville du chapitre 5 — où la famille était réunie avant la séparation que personne n’a consignée. Photographiée en hiver, d’en haut et à pied."
+   }
+  }
+ ],
+ "photographs": [
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_01.jpg",
+   "n": 1
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_02.jpg",
+   "n": 2
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_03.jpg",
+   "n": 3
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_04.jpg",
+   "n": 4
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_05.jpg",
+   "n": 5
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_06.jpg",
+   "n": 6
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_07.jpg",
+   "n": 7
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_08.jpg",
+   "n": 8
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_09.jpg",
+   "n": 9
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_10.jpg",
+   "n": 10
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_11.jpg",
+   "n": 11
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_12.jpg",
+   "n": 12
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_14.jpg",
+   "n": 14
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_15.jpg",
+   "n": 15
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_16.jpg",
+   "n": 16
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_17.jpg",
+   "n": 17
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_18.jpg",
+   "n": 18
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_19.jpg",
+   "n": 19
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_20.jpg",
+   "n": 20
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_21.jpg",
+   "n": 21
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_22.jpg",
+   "n": 22
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_23.jpg",
+   "n": 23
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_24.jpg",
+   "n": 24
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_25.jpg",
+   "n": 25
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_26.jpg",
+   "n": 26
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_27.jpg",
+   "n": 27
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_28.jpg",
+   "n": 28
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_29.jpg",
+   "n": 29
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_30.jpg",
+   "n": 30
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_31.jpg",
+   "n": 31
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_32.jpg",
+   "n": 32
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_33.jpg",
+   "n": 33
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_34.jpg",
+   "n": 34
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_35.jpg",
+   "n": 35
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_36.jpg",
+   "n": 36
+  },
+  {
+   "album": "warsaw",
+   "file": "assets/documents/dov_trips_2026_08/warsaw_37.jpg",
+   "n": 37
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_01.jpg",
+   "n": 1
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_02.jpg",
+   "n": 2
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_03.jpg",
+   "n": 3
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_04.jpg",
+   "n": 4
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_05.jpg",
+   "n": 5
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_06.jpg",
+   "n": 6
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_07.jpg",
+   "n": 7
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_08.jpg",
+   "n": 8
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_09.jpg",
+   "n": 9
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_10.jpg",
+   "n": 10
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_11.jpg",
+   "n": 11
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_12.jpg",
+   "n": 12
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_13.jpg",
+   "n": 13
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_14.jpg",
+   "n": 14
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_15.jpg",
+   "n": 15
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_16.jpg",
+   "n": 16
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_17.jpg",
+   "n": 17
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_18.jpg",
+   "n": 18
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_19.jpg",
+   "n": 19
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_20.jpg",
+   "n": 20
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_21.jpg",
+   "n": 21
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_22.jpg",
+   "n": 22
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_23.jpg",
+   "n": 23
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_24.jpg",
+   "n": 24
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_25.jpg",
+   "n": 25
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_26.jpg",
+   "n": 26
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_27.jpg",
+   "n": 27
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_28.jpg",
+   "n": 28
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_29.jpg",
+   "n": 29
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_30.jpg",
+   "n": 30
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_31.jpg",
+   "n": 31
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_32.jpg",
+   "n": 32
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_33.jpg",
+   "n": 33
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_34.jpg",
+   "n": 34
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_35.jpg",
+   "n": 35
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_36.jpg",
+   "n": 36
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_37.jpg",
+   "n": 37
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_38.jpg",
+   "n": 38
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_39.jpg",
+   "n": 39
+  },
+  {
+   "album": "przemysl",
+   "file": "assets/documents/dov_trips_2026_08/przemysl_40.jpg",
+   "n": 40
+  },
+  {
+   "album": "brussels",
+   "file": "assets/documents/dov_trips_2026_08/brussels_01.jpg",
+   "n": 1
+  },
+  {
+   "album": "brussels",
+   "file": "assets/documents/dov_trips_2026_08/brussels_02.jpg",
+   "n": 2
+  },
+  {
+   "album": "brussels",
+   "file": "assets/documents/dov_trips_2026_08/brussels_03.jpg",
+   "n": 3
+  },
+  {
+   "album": "brussels",
+   "file": "assets/documents/dov_trips_2026_08/brussels_04.jpg",
+   "n": 4
+  },
+  {
+   "album": "brussels",
+   "file": "assets/documents/dov_trips_2026_08/brussels_05.jpg",
+   "n": 5
+  },
+  {
+   "album": "brussels",
+   "file": "assets/documents/dov_trips_2026_08/brussels_06.jpg",
+   "n": 6
+  },
+  {
+   "album": "brussels",
+   "file": "assets/documents/dov_trips_2026_08/brussels_07.jpg",
+   "n": 7
+  },
+  {
+   "album": "brussels",
+   "file": "assets/documents/dov_trips_2026_08/brussels_08.jpg",
+   "n": 8
+  },
+  {
+   "album": "brussels",
+   "file": "assets/documents/dov_trips_2026_08/brussels_09.jpg",
+   "n": 9
+  },
+  {
+   "album": "brussels",
+   "file": "assets/documents/dov_trips_2026_08/brussels_10.jpg",
+   "n": 10
+  },
+  {
+   "album": "brussels",
+   "file": "assets/documents/dov_trips_2026_08/brussels_11.jpg",
+   "n": 11
+  },
+  {
+   "album": "brussels",
+   "file": "assets/documents/dov_trips_2026_08/brussels_12.jpg",
+   "n": 12
+  },
+  {
+   "album": "brussels",
+   "file": "assets/documents/dov_trips_2026_08/brussels_13.jpg",
+   "n": 13
+  },
+  {
+   "album": "katowice",
+   "file": "assets/documents/dov_trips_2026_08/katowice_01.jpg",
+   "n": 1
+  },
+  {
+   "album": "katowice",
+   "file": "assets/documents/dov_trips_2026_08/katowice_02.jpg",
+   "n": 2
+  },
+  {
+   "album": "katowice",
+   "file": "assets/documents/dov_trips_2026_08/katowice_03.jpg",
+   "n": 3
+  },
+  {
+   "album": "katowice",
+   "file": "assets/documents/dov_trips_2026_08/katowice_04.jpg",
+   "n": 4
+  },
+  {
+   "album": "katowice",
+   "file": "assets/documents/dov_trips_2026_08/katowice_05.jpg",
+   "n": 5
+  },
+  {
+   "album": "katowice",
+   "file": "assets/documents/dov_trips_2026_08/katowice_06.jpg",
+   "n": 6
+  },
+  {
+   "album": "katowice",
+   "file": "assets/documents/dov_trips_2026_08/katowice_07.jpg",
+   "n": 7
+  },
+  {
+   "album": "katowice",
+   "file": "assets/documents/dov_trips_2026_08/katowice_08.jpg",
+   "n": 8
+  },
+  {
+   "album": "katowice",
+   "file": "assets/documents/dov_trips_2026_08/katowice_09.jpg",
+   "n": 9
+  },
+  {
+   "album": "katowice",
+   "file": "assets/documents/dov_trips_2026_08/katowice_10.jpg",
+   "n": 10
+  },
+  {
+   "album": "katowice",
+   "file": "assets/documents/dov_trips_2026_08/katowice_11.jpg",
+   "n": 11
+  },
+  {
+   "album": "katowice",
+   "file": "assets/documents/dov_trips_2026_08/katowice_12.jpg",
+   "n": 12
+  },
+  {
+   "album": "katowice",
+   "file": "assets/documents/dov_trips_2026_08/katowice_13.jpg",
+   "n": 13
+  },
+  {
+   "album": "katowice",
+   "file": "assets/documents/dov_trips_2026_08/katowice_14.jpg",
+   "n": 14
+  },
+  {
+   "album": "katowice",
+   "file": "assets/documents/dov_trips_2026_08/katowice_15.jpg",
+   "n": 15
+  },
+  {
+   "album": "katowice",
+   "file": "assets/documents/dov_trips_2026_08/katowice_16.jpg",
+   "n": 16
+  },
+  {
+   "album": "katowice",
+   "file": "assets/documents/dov_trips_2026_08/katowice_17.jpg",
+   "n": 17
+  },
+  {
+   "album": "katowice",
+   "file": "assets/documents/dov_trips_2026_08/katowice_18.jpg",
+   "n": 18
+  },
+  {
+   "album": "katowice",
+   "file": "assets/documents/dov_trips_2026_08/katowice_19.jpg",
+   "n": 19
+  },
+  {
+   "album": "katowice",
+   "file": "assets/documents/dov_trips_2026_08/katowice_20.jpg",
+   "n": 20
+  },
+  {
+   "album": "katowice",
+   "file": "assets/documents/dov_trips_2026_08/katowice_21.jpg",
+   "n": 21
+  },
+  {
+   "album": "katowice",
+   "file": "assets/documents/dov_trips_2026_08/katowice_22.jpg",
+   "n": 22
+  },
+  {
+   "album": "katowice",
+   "file": "assets/documents/dov_trips_2026_08/katowice_23.jpg",
+   "n": 23
+  },
+  {
+   "album": "katowice",
+   "file": "assets/documents/dov_trips_2026_08/katowice_24.jpg",
+   "n": 24
+  },
+  {
+   "album": "katowice",
+   "file": "assets/documents/dov_trips_2026_08/katowice_25.jpg",
+   "n": 25
+  },
+  {
+   "album": "katowice",
+   "file": "assets/documents/dov_trips_2026_08/katowice_26.jpg",
+   "n": 26
+  },
+  {
+   "album": "katowice",
+   "file": "assets/documents/dov_trips_2026_08/katowice_27.jpg",
+   "n": 27
+  },
+  {
+   "album": "katowice",
+   "file": "assets/documents/dov_trips_2026_08/katowice_28.jpg",
+   "n": 28
+  },
+  {
+   "album": "katowice",
+   "file": "assets/documents/dov_trips_2026_08/katowice_29.jpg",
+   "n": 29
+  },
+  {
+   "album": "katowice",
+   "file": "assets/documents/dov_trips_2026_08/katowice_30.jpg",
+   "n": 30
+  },
+  {
+   "album": "katowice",
+   "file": "assets/documents/dov_trips_2026_08/katowice_31.jpg",
+   "n": 31
+  }
+ ]
+}

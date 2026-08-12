@@ -4348,6 +4348,40 @@
     "he": "כל מקור שהמשפחה נתנה לנו נסרק קובץ אחר קובץ והושווה למה שהאתר הזה מגיש בפועל — בשני הכיוונים, משום שכל אחד מהם לבדו משקר. שום דבר שהאתר מפנה אליו אינו חסר, ושום דבר שקיבלנו אינו בלתי מפורסם, למעט שני חריגים שנקובים בשמם: Photobook2.pdf, ש-47 עמודיו כבר כאן אחד־אחד, ו״Lea and Shimon .pdf״, שמעולם לא הגיע אלינו. בדרך מצאה הביקורת 71 קבצים שכל המעברים הקודמים דילגו עליהם בשקט — כולם PDF, משום שכל מפרסם סינן לפי סיומות של תמונות ולא אמר דבר על מה שהשמיט. ביניהם מסמך מ-1938 מתיקייתה של רבקה גריפל ורשימה מ-1942 ממפעלי העץ של בולחוב, העיר שבה נולדה לוסיה. זו הסיבה שהביקורת סורקת את המקורות ולא את האתר: בדיקה השואלת רק ״האם כל מה שכאן עובד״ אינה יכולה לראות את מה שמעולם לא הגיע."
    },
    "status": "read"
+  },
+  {
+   "id": "doc_dov_journeys_back",
+   "file_pages": [],
+   "kind": "dataset",
+   "type": "photograph_album",
+   "primary_language": "en",
+   "title": {
+    "en": "Dov’s journeys back — Warsaw, Przemyśl, Brussels, Katowice (2015–2019)",
+    "he": "מסעותיו של דב אל המקומות — ורשה, פשמישל, בריסל, קטוביץ (2015–2019)",
+    "pl": "Podróże Dowa — Warszawa, Przemyśl, Bruksela, Katowice (2015–2019)",
+    "fr": "Les retours de Dov — Varsovie, Przemyśl, Bruxelles, Katowice (2015-2019)"
+   },
+   "source_archive": "Four shared Google Photos albums supplied by Doron Rapaport, 11 August 2026.",
+   "related_people": [
+    "p_dov_bernard",
+    "p_david",
+    "p_berisz",
+    "p_rebeka"
+   ],
+   "decoded_fields": {
+    "warsaw": "14–20 April 2015",
+    "przemysl": "19 April 2015",
+    "brussels": "21–23 June 2018",
+    "katowice": "17–19 January 2019",
+    "published": 120,
+    "reviewed": "every frame, 11 August 2026",
+    "excluded": "1 — a hotel lavatory"
+   },
+   "summary": {
+    "en": "Four albums, 121 frames, 120 published. They are not holidays. Przemyśl is where Berish and Rebeka were when the war came — the camp register gives it as Berish’s residence, and the memoir says the Germans killed one of his parents there. Brussels is where Dov was born in 1946. Katowice is the town of the separation in chapter 5. Warsaw is the city that was flattened and rebuilt. Dov walked and drove them with his son and photographed what he saw. Every frame was looked at before publishing; one was left out, a hotel lavatory, and saying which is part of the check.",
+    "he": "ארבעה אלבומים, 121 פריימים, 120 פורסמו. אין אלה חופשות. פשמישל היא המקום שבו היו בעריש ורבקה עם פרוץ המלחמה — פנקס המחנה נוקב בה כמקום מגוריו של בעריש, וספר הזיכרונות אומר שהגרמנים הרגו שם את אחד מהוריו. בריסל היא המקום שבו נולד דב ב-1946. קטוביץ היא עיירת ההיפרדות מפרק 5. ורשה היא העיר שנמחקה ונבנתה מחדש. דב עבר בהן ברגל וברכב עם בנו וצילם את מה שראה. כל פריים נבדק לפני הפרסום; אחד הושאר בחוץ, שירותים בבית מלון, ואמירת מה הושאר היא חלק מן הבדיקה."
+   },
+   "status": "read"
   }
  ],
  "additional_files": [
