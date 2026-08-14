@@ -1,240 +1,126 @@
-# Notes for whoever makes the film
+# Brief for the film — "Dov at Eighty"
 
-Written 3 August 2026, for a future model or filmmaker working from this archive.
-Read this before you write a line of script.
+**For whoever makes the film, human or LLM. Read this first, then read the manifest.**
 
----
+- The archive: **https://rapaportfamily.github.io**
+- The manifest — everything, in one file: **https://rapaportfamily.github.io/data/film_manifest.json**
+- This brief: **https://rapaportfamily.github.io/docs/FILM_BRIEF.md**
 
-## IF YOU ARE A MODEL, READ THIS FILE FIRST
-
-**`platform/data/film_manifest.json`** is this brief in machine-readable form. Every claim, every
-image and every paragraph carries an explicit evidence level and an explicit permission:
-
-| Field | Meaning |
-|---|---|
-| `may_state_as_fact` | true → you may present it as fact. false → you may not. |
-| `must_attribute` | Name who said it. "Lusia said…", never "it happened that…". |
-| `must_not_resolve` | The sources disagree. Do not settle it for the audience. |
-| `must_show_as_remembered` | Memoir only. No document. Show it as memory, not as filmed fact. |
-| `shows_our_family` | false on every period photograph. True only on the fifteen memoir plates (see `memoir_photographs`) and two portraits cropped from a 1945 citizenship file. Never imply otherwise. |
-| `is_the_actual_event` | false on all of them. No image here shows the moment it illustrates. |
-
-Eight non-negotiables are listed under `hard_rules`, and the honest holes under `known_gaps`.
-Parse that file. This page is the same thing in prose, for a human.
-
-## THE ONE RULE
-
-**Everything in this archive is marked for how well it is known. Keep those marks.**
-
-A story about the Shoah that invents detail does harm, because the invented detail is exactly what
-a denier will later point at. This family's archive was built on a hard rule — every claim names
-its source, or is labelled testimony, or is labelled unresolved — and the rule survived several
-occasions when breaking it would have made a better sentence.
-
-The machine-readable version of that rule:
-
-| Marking in the data | What you may do with it |
-|---|---|
-| `confidence: confirmed` | State it. A document says so. |
-| `confidence: documented` | State it, with the source named on screen if it carries weight. |
-| `confidence: family_oral` | Attribute it. "Lusia said…", not "It happened that…" |
-| `kind: testimony` (in `narrative.json`) | This is memoir only. No document corroborates it. Show it as remembered, not as filmed fact. |
-| `kind: conflict` | The sources disagree. **Do not resolve it for the audience.** The disagreement is part of the story. |
-
-If you need a scene that the evidence does not support, invent it openly — a title card, a
-different visual grammar, an acknowledged reconstruction. Do not smuggle it in.
+Generated 11 August 2026. Runtime 7–10 minutes. Occasion: Dov Bernard Rapaport turns 80 on
+28 August 2026.
 
 ---
 
-## WHERE THE MATERIAL IS
+## Your source is this website and nothing else
 
-**`platform/data/film_manifest.json` opens with a `start_here` block giving this same list in
-reading order, plus the folder each kind of file lives in.** If you are a model, read that first.
+Start with the manifest. It holds every chapter with its sources, all **126 documents** with
+their decoded fields and file paths, **188 people**, both family trees (**1,442 Rapaports**,
+**390 Griffels**), **15 memoir plates**, **120 journey photographs**, **60 unidentified**,
+**45 timeline events**, **49 places**, **18 open questions**, and a conflicts list. Read all of
+it before writing a word. Anything you cannot trace to it does not go in the film.
 
-| File | What it holds |
-|---|---|
-| `platform/data/film_manifest.json` | **Everything below, as data, with permissions attached.** Also `place_photographs`, `memoir_photographs`, `the_research_story`, `hard_rules`, `known_gaps`. |
-| `platform/data/narrative.json` | **The spine.** Nine chapters, 23 paragraphs, four languages, every paragraph carrying its source and a `kind` marker. |
-| `platform/data/memoir_photographs.json` | **The fifteen plates from the memoir** — every photograph of this family that exists, under the book's own captions. |
-| `platform/data/events.json` | 45 dated events, 1888–2026, each with confidence and sources. **31 now carry a chosen image.** |
-| `platform/data/places.json` | 49 places. **81 photographs across 29 towns, each marked period or modern.** |
-| `platform/data/journey.json` | The migration route as legs, with per-person tracks and coordinates — Nadwórna → Muszyna → Lwów → Katowice → Brussels → Sète → Cyprus → Atlit → Haifa |
-| `platform/data/people.json` | **179 people**, with facts, confidence levels, and four portraits |
-| `platform/data/documents.json` | **59 documents**, each with the archive's own reading in English and Hebrew |
-| `platform/data/memoir_pages.json` | Lusia's ninety pages, the primary voice |
-| `platform/data/research_center.json` | 178 cards — how each thing was found, including the failures |
-| `docs/research/` | The raw ingest notes, in date order |
+## The man this is for
 
-**Where the picture files are:**
-`platform/assets/research_images/memoir/` — the fifteen memoir plates ·
-`platform/assets/research_images/period/` — the town photographs ·
-`platform/assets/documents/` — document scans, and `lusia_memoir.pdf`, the book itself.
+Chronologically eighty; in spirit twenty-eight — energetic, sharp, physically strong, still
+arguing. He says one thing repeatedly: he wishes he could take his mother Lusia back to those
+places, wheel her there on a gurney if that is what it took, and have her show him where she
+lived, what happened, how they survived.
 
-## THE FILM IS THREE THREADS, NOT ONE
+**That wish is the spine of the film.** He cannot take her. So the film does it for him: it goes
+to the places, opens the documents, and lays her book beside the evidence.
 
-1. **David, Lusia, Shimon and Dov.** The spine. Everything returns to these four.
-2. **The wider family and its history.** The paternal line is documented back six generations to
-   Abraham Abe Rapaport, born 1784 at Tarnów — *his gravestone survives*. Galicia, the timber and
-   tannery trades, the rabbinical connections, and how such a family lived: of the thirty-one
-   children on one 19th-century chart, at least eleven never reached adulthood.
-3. **The research itself.** This archive was built in three months of 2026, and the discoveries are
-   dated events with their own shape — a wrong town on a document, a passport application that
-   cracked a year-long dead end, a chart that named a great-great-grandfather, a living cousin who
-   had been looking for this family for years. `the_research_story` in the manifest collects them.
-   This thread is what lets an audience feel how nearly all of it was lost.
+## Hard rules — not style notes
 
-**Do not use `memoir_timeline_verified.json` as verification.** It is named misleadingly and there
-is a `_warning` at the top of the file explaining why.
+1. **Never invent.** Every claim traces to the manifest. No invented dialogue, no invented
+   dates, no "they must have felt".
+2. **Show conflicts as conflicts.** This archive publishes disagreements instead of tidying
+   them. Berish's death: two camp records say **29 March 1942**; the Yad Vashem page **David
+   himself filed** says 1940. Show both. Same for Rebeka (1888/1892, 1942/1943) and Lotte
+   (1915/1914).
+3. **The memoir is testimony, not proof — treat it with respect.** Where documents confirm
+   Lusia, say so plainly. Where nothing corroborates her, say "no document we hold corroborates
+   this" — and immediately say why: the people who would have kept the records are the people
+   who were killed. Never imply she was wrong for lacking paper.
+4. **Living people: no birth dates.**
+5. **Never caption an "unidentified" photograph with a name.** Sixty faces nobody can identify —
+   show them as exactly that.
+6. **Illustration is welcome but must be visibly marked.** Real photograph and AI illustration
+   must never be mistaken for each other.
 
----
+## Structure — macro to micro
 
-## THE STORY, AS IT ACTUALLY RUNS
+| # | Time | Beat |
+|---|------|------|
+| 1 | 0:00–0:40 | **Cold open.** Dov today, the gurney line in his own words. Cut to the oldest thing we own: Abraham Abe Rapaport, born 1784, and his gravestone. |
+| 2 | 0:40–1:30 | **The wide tree.** 1,442 people, 480 families, six generations of Galicia, collapsing inward to four. Register scans as texture: 27 birth, 11 marriage, 19 death records, 1818–1934. |
+| 3 | 1:30–2:40 | **The generation before.** Berish's face — the 1924 portrait and the certificate it was pasted onto, listing "Mendel 12 lat, Lotte 8 lat". Rebeka Griffel, and her parents Lajzor Griffel and Sara Matel Chajes, from Jacob's tree. |
+| 4 | 2:40–4:00 | **David, Lusia, Shimon.** Nadwórna 1911, Bolechów 1913, the 1938 marriage. David has a face — the wedding and picnic plates. |
+| 5 | 4:00–5:30 | **The war.** Lusia's account: the ghetto, the wagon, the false papers, Shimon in a crate for two and a half years. Then the paper: Berish, prisoner 27310, transport 689 — fifty-five men from the prison at Tarnów — arrived 27 March 1942, dead on 29 March. Two days. And Lotte, betrayed in the Lwów ghetto over a forged US-residency paper. |
+| 6 | 5:30–6:10 | **The correction.** In 1953, from Haifa, David filed three Pages of Testimony — 53072 his father, 53074 his mother, 53075 his sister — signing them *his son, her son, her brother*. He got his father's year wrong by two. This archive had claimed for months that nobody ever filed them, while holding both pages in its own filing cabinet. |
+| 7 | 6:10–7:00 | **Getting out.** Katowice and the separation nobody recorded; Brussels; Dov born 28 August 1946; the DP card — forestry engineer, four languages, destination "Palestine or U.S.A." Then Sète, the *Theodor Herzl*, Cyprus, Haifa. |
+| 8 | 7:00–8:00 | **Going back.** Chapter 10. Dov in Warsaw, Przemyśl, Brussels, Katowice with Doron, 2015–2019, 120 photographs. |
+| 9 | 8:00–8:40 | **The researchers.** Light, warm, fast. |
+| 10 | 8:40–9:30 | **Close.** Back to Dov at 80. He couldn't take her, so they went and found her. |
 
-Nine chapters, in `narrative.json`. The shape is not a rise or a fall; it is **a family taken
-apart and reassembled two continents away, with two separations in the middle that nobody in the
-family ever described.**
+## The line to use in beat 8
 
-1. **Radomyśl Wielki** — a paternal line that was a dead end for a year, cracked in May 2026 by a
-   passport application found in an archive.
-2. **Nadwórna, 1911** — David is born. The town is half Jewish. It will be emptied.
-3. **Bolechów** — Lusia is born. In 1933 her parents leave for Palestine and she stays. *She will
-   not see them for fifteen years.*
-4. **The marriage, 1935** — and Shimon, born Lwów 1937.
-5. **The war** — the ghetto, the wooden wagon, false identities, a three-year-old kept in a crate
-   for two and a half years. **Almost none of this has a document. Almost nobody who could have
-   written it down survived.**
-6. **Katowice, 1946** — and the first separation.
-7. **Brussels, 1946** — Dov is born.
-8. **Sète, the Theodor Herzl, Cyprus, 1947** — and the second separation.
-9. **Haifa** — reunion, forty more years, two graves side by side.
+> Every other chapter here was assembled from what other people wrote down — clerks,
+> registrars, a camp administration. This is the only one where somebody in the story goes back
+> and looks for himself. Nothing in these pictures was recovered. They were made.
 
-### The two separations — this is your third act structure
+## The research story — where the film breathes
 
-Neither is in the memoir. Both come from reading two documents against each other, which nobody had
-done until August 2026.
+**Basia** in Poland rebuilt the paternal line back to 1784 and mentioned in passing that the
+printed tree is **five metres long**. **Jacob** sent the maternal side — 390 Griffels, and not
+one of his 569 files overlapped hers. **Ms. Kasia** at the Jewish Historical Institute in
+Warsaw found David's birth certificate and corrected a birthplace a Brussels clerk had misheard
+in 1946. And the archive kept catching itself: it filed a 1924 certificate as "a different
+family" when the form plainly names Mendel aged 12 and Lotte aged 8; it announced nobody had
+remembered Berish and Rebeka while holding the proof; it found two Charlottes born in Vienna a
+year apart and nearly merged them.
 
-**First:** David was registered as a Displaced Person in **Brussels on 9 April 1946**. Lusia and
-Shimon filed survivor cards at **Katowice on 1 July 1946** — three months later, still in Poland.
-He went ahead. The memoir says only *"the family reaches Brussels and stays in a hotel."*
+## Where the humour lives
 
-**Second:** In April 1947 David and nine-year-old Shimon sail from Sète and are captured and
-interned in Cyprus. Lusia is left in Brussels with a seven-month-old baby, and waits **more than a
-year**. The Haifa burial register records her year of immigration as 1948 and his as 1946 — the
-separation is written into their own graves.
+It must come from the material, never from the tragedy.
 
-**The baby is Dov. The film is being made for his eightieth birthday.**
+- Jacob's folder of forty-seven strangers, named simply **"Photobook2"**.
+- Dov photographing Przemyśl **through a car windscreen, in the rain — forty near-identical
+  frames**. He was not going to miss it.
+- David's destination box: **"Palestine or U.S.A."** A man keeping his options open.
+- A five-metre family tree that fits in no room in Israel.
+- Dov himself: eighty, and the least eighty-year-old person in the film.
 
----
+**Never a joke within thirty seconds of Auschwitz, Lwów or the crate.**
 
-## MOMENTS THAT ARE ALREADY CINEMA
+## Visual instruction
 
-Each of these is documented. None is invented.
+Real assets first, always: memoir plates, portraits, register scans (handwriting in three
+alphabets), Yad Vashem forms — show the handwriting, then translate on screen — and Dov's own
+photographs. **Every document that appears must be named and explained in one sentence: what it
+is, who made it, what it proves.** Use illustration only for what was never photographed — the
+crate, the wagon, the prison at Tarnów, the boarding of the *Theodor Herzl* — and mark it.
 
-- **The wrong town.** David's Brussels DP card says he was born in "Cieszyn" — four hundred
-  kilometres from Nadwórna. A French clerk misheard. *Here the document is wrong and the family's
-  memory is right*, which is the thesis of the whole archive in one line.
-- **The crate.** Shimon, three years old, kept in a box for two and a half years so he would not be
-  seen or heard. He grew up to be a journalist. Testimony only.
-- **The wedding that was three years earlier than anyone remembered.** The memoir says Muszyna,
-  February 1938. The register says Bolechów, 10 February 1935. And the register *repairs* the
-  memoir: under her date, Shimon is born eight months before his parents marry.
-- **A school assignment.** In 1986 a granddaughter, Hadas, asked her teacher for help with
-  homework. The teacher, Esther Weiss, sat down and interviewed Lusia. **Ninety pages.** Without
-  that homework, this entire film has no first act.
-- **The last page matches the first.** Lusia's burial record names her father Eliyahu and her
-  mother Matilda — the same two people her memoir opens with, sixty years earlier, in another
-  language.
-- **Two cousins, one year.** Yehudit Shlomit born Haifa, 25 April 1946. Dov born Brussels, 28
-  August 1946. Four months and one sea apart, while Dov's father was behind wire in Cyprus. In June
-  2026 she got in touch: she had been looking for this branch of the family for years.
-- **A son names his father.** In 1996, filling in a government form, Zwi Nussbaum wrote his
-  father's name — Eliahu Mordechai — seventy-seven years after the man died. Until August 2026 this
-  archive did not know it.
-- **No Page of Testimony.** Berisz and Rebeka were murdered and **nobody ever filed a memorial page
-  for them at Yad Vashem.** David and Lusia lived forty-five years after the war and did not do it.
-  This archive is their only written memorial anywhere in the world. *That is your ending, or your
-  opening.*
+## Deliverables
 
----
+Narration script with a source id per line · shot list keyed to real file paths from the
+manifest · a list of every illustration and what it stands in for · Hebrew and English versions
+(the site carries both, plus Polish and French).
 
-## WHAT YOU MAY NOT SAY
+## Do not miss
 
-- **Do not resolve Leah's birth year.** 1913 in the civil register; 1916 on her own survivor card,
-  the ŻIH index and the burial register. Unresolved, and the family was asked.
-- **Do not resolve Zwi's birthplace.** He said Tarnów twice, in 1945 and 1996. The birth register
-  says Przemyśl. A clerk noted "1919 only acc. to ppt".
-- **Do not claim Isak Goldfischer as family.** A 2026 research pass called him a "USHMM-confirmed
-  relative" on the strength of a shared surname and town. He was removed. He is a stranger unless a
-  document says otherwise.
-- **Do not date the deaths of Berisz and Rebeka precisely.** Berisz is associated with Auschwitz
-  victim number 188161; that reading has been sent to the Arolsen Archives for confirmation and has
-  not come back.
-- **Do not put words in Dov's mouth.** He is alive, he is the reason this exists, and nobody has
-  interviewed him for it.
+The wider tree · the register spine · Berish's face, date, and the prison he was taken from ·
+Lotte, and that David filed for her · the Griffel line and Rebeka's parents · the memoir
+compared with the record · Dov's four journeys · the two things the archive admits it does not
+have · the sixty faces nobody can name.
+
+## One warning
+
+The manifest's `open_questions` are **questions, not findings** — eighteen of them: how David
+survived 1939–46, where "Mosina" is, Lotte's husband's first name. A film that answers them
+invents history. A film that **ends** on them is telling the truth about what this family still
+does not know.
 
 ---
 
-## THE VISUAL MATERIAL THAT EXISTS
-
-- **Twelve period photographs** of the actual towns, in `platform/assets/research_images/period/` —
-  Nadwórna's market square in 1928 and its town centre in 1932, the railway station, Bolechów in
-  1915, Muszyna over the Poprad, Krynica's pump room, Tarnów, Famagusta 1945, a Haganah ship at
-  Haifa in 1947. All public domain, all captioned with date and archive.
-- **Lwów from the town hall, 1942–45** — the Jewish quarter destroyed, only the roofless Meforshei
-  ha-Yam synagogue standing. *This is the city they were hiding in, photographed while they were in
-  it.*
-- **Two portraits**, cropped from a 1945 citizenship application: Zwi Nussbaum and Inge née
-  Rosenbusch. Identity-document photographs, sepia, small.
-- **Fifteen photographs of the family — every one of them from the memoir, and there are no others.**
-  They are listed in `film_manifest.json` under `memoir_photographs`, and they are the entire
-  photographic record of these people. In page order: Lusia on horseback before the war (p.9,
-  "Lajka on the horse" — her own nickname, which the same page explains); the wedding (p.15); Shimon
-  as a baby (p.17) and beside the family dog (p.22); Shimon holding the infant Dov in Brussels
-  (p.61) and at his school desk there (p.62); **his release certificate from the Atlit detention
-  camp, Haifa, 22 August 1947, with his photograph attached to it** (p.64); the brothers reunited
-  with their cousin (p.65); Lusia with her father in Israel (p.66); her mother's portrait (p.67);
-  Lusia in Israel (p.68) and in costume at Purim (p.69); **the family picnic (p.70) — the only frame
-  that holds all four of them at once**; her B'nai B'rith delegate card (p.71); and her portrait on
-  the back cover.
-- **Each plate is identified by the caption the BOOK prints beneath it**, quoted verbatim in Hebrew.
-  No face in this archive was identified by looking at it. Where the archive knows more — a date, a
-  conflict with the records — that sits in a separate `archive_note` field. *Do not merge the two
-  into one line of narration.* All are coarse halftone prints, descreened and contrast-corrected and
-  nothing else. **No detail in any of them was generated.**
-- **The documents themselves** — the DP card, the CKŻP cards, the Tarnów marriage deeds, the
-  ketubah, the 31-page citizenship file, the burial register.
-- **What does not exist:** no photograph of Moses Saul or of Szabse has been found, and the search
-  for one is recorded as a failure rather than left open. There is no photograph of Berisz or
-  Rebeka. **And there is no photograph of any of them during the war** — Lusia's riding picture is
-  from before it and everything else is from after, so the six years the film is mostly about have
-  no image at all. Of David only two frames exist, the wedding and the picnic, and in neither is he
-  facing the camera.
-
----
-
-## THE VOICE
-
-The archive's own register is plain, specific, and unsentimental — it lets the facts carry the
-weight, because they do. Numbers are used exactly: 53,510 Jews behind wire in Cyprus, 2,641 aboard
-the Theodor Herzl, 2,000 children born in the camps, ninety pages, graves 102ד and 102ג.
-
-Two sentences from the archive that set the tone:
-
-> "These are not weak claims. They are the parts of a life that no clerk was ever going to write
-> down, and for most of them no clerk survives who could have."
-
-> "The last page of the record matches the first page of the testimony."
-
----
-
-## STILL OPEN, IF YOU ARE MAKING THIS LATER
-
-Some of these may have been answered after August 2026. Check the Research Center before assuming.
-
-- The Arolsen Archives inquiry for David, Lea, Szymon, Berisz and Rebeka — drafted, not yet sent
-- The German compensation (BEG) files — David and Lusia went to West Berlin around 1958 and were
-  paid; the file should exist and would be the largest body of their own testimony anywhere
-- Dov's Brussels birth registration — only he can request it
-- Shimon's Ma'ariv bylines, in the JPress newspaper archive
-- Leah's birth year
-- Five document references with no file behind them
+*By Dalia, Dana, Daniel and Doron Rapaport — with Basia, Jacob, Magda, Kasia and Ms. Kasia of
+the Jewish Historical Institute, Warsaw.*
