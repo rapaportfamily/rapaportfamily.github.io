@@ -1,0 +1,24 @@
+# The Rapaport Family Archive
+
+> A researched family archive for Dov Bernard Rapaport's 80th birthday, 28 August 2026.
+> The website is a JavaScript app and crawlers cannot read it. These files are the archive in
+> plain text.
+
+## Read this first
+- [Start here](https://rapaportfamily.github.io/llm/00-START-HERE.md): the rules and what each file holds
+- [Everything in one file](https://rapaportfamily.github.io/llm/99-EVERYTHING.md): the whole archive, one document
+
+## By subject
+- [The story, ten chapters](https://rapaportfamily.github.io/llm/01-narrative.md)
+- [The four, and the generation before](https://rapaportfamily.github.io/llm/02-the-four.md)
+- [All people](https://rapaportfamily.github.io/llm/03-people.md)
+- [All documents](https://rapaportfamily.github.io/llm/04-documents.md)
+- [Timeline](https://rapaportfamily.github.io/llm/05-timeline.md)
+- [Places](https://rapaportfamily.github.io/llm/06-places.md)
+- [Every picture with its address](https://rapaportfamily.github.io/llm/07-pictures.md)
+- [Conflicts and open questions](https://rapaportfamily.github.io/llm/08-conflicts-and-open-questions.md)
+- [How it was researched, and where we were wrong](https://rapaportfamily.github.io/llm/09-research-story.md)
+- [The film brief](https://rapaportfamily.github.io/llm/10-film-brief.md)
+
+## Machine-readable
+- [Full manifest, JSON](https://rapaportfamily.github.io/data/film_manifest.json)

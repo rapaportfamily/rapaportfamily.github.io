@@ -1,0 +1,192 @@
+# Everybody in the curated core (188 people)
+
+The wider trees hold far more: 1442 Rapaports across 480 families, and 390 Griffels across 140 families. Those are separate research and live in the site’s tree files.
+
+- **R. Meir Katzenellenbogen 'MaHaRaM Padua'** (1482–1565-01-12), born pl_padua
+- **R. Yechiel Michael ha-Kohen Rapa** (1502–), born pl_portobuffole
+- **Rabbi Dr Avraham Menachem ha-Kohen Rapa-Porto** (1520–1596), born pl_porto_italy
+- **R. Samuel Judah Katzenellenbogen** (1521–1597-03-25), born pl_padua
+- **Saul Wahl Katzenellenbogen** (1541–1617), born pl_brest
+- **R. Meir Wahl Katzenellenbogen 'MaHaRaSH'** (1565–1631), born pl_brest
+- **R. Abraham Rapoport 'Schrenzel'** (1584–1651), born pl_lwow
+- **R. Tzvi Hirsh Filip of Nadworna** (1737–1802), born pl_nadworna
+- **Abraham Abe Rapaport** (1784–1844-07-30)
+- **Lea Rapaport (née Herschl)** (1792–1874-05-23), born pl_tarnow
+- **Pearl Rapaport** (1810–1831-11-10)
+- **Józef Rapaport** (1811–)
+- **Izrael Rapaport** (1813–1881-06-15)
+- **Rachela Rapaport (née Jakobsohn)** (1817–), born pl_tarnow
+- **Sara Rapaport** (1818-11-30–1820-05-08), born pl_tarnow
+- **Taube Rapaport** (1821-05-31–1822-02-08), born pl_tarnow
+- **Szabse (Shabtai) Rapaport** (1823-01-30–1884), born pl_tarnow
+- **Aaron Rapaport** (1826-11-03–1828-10-10), born pl_tarnow
+- **Moses Meier Rapaport** (1828-09-04–1829-08-10), born pl_tarnow
+- **Salomon Rapaport** (1831-09-20–), born pl_tarnow
+- **Josef Hersch Gelernter** (1834–)
+- **Saul Margulies** (1834–)
+- **Perl Rapaport** (1835-06-08–1870-10), born pl_tarnow
+- **Perl Liebe (Pauline) Rapaport** (1835-06-10–1922-11-12), born pl_tarnow
+- **Benjamin Mises** (1838–), born pl_lwow
+- **Ester Rapaport** (1839-06-29–1905-10-03), born pl_tarnow
+- **Wolf Rapaport** (1839-10-18–), born pl_tarnow
+- **Jakub Weidenfeld** (1840–1895)
+- **Noa Jakobsohn** (1840–), born pl_krakow
+- **Szabse Rapaport** (1840-09-18–1842-04-03), born pl_tarnow
+- **Isaac Moses Rapaport** (1841-09-02–1866-10-13), born pl_tarnow
+- **Gitla Feige Mieses** (1843–1934-08-13)
+- **Ester Rapaport** (1843-11-29–), born pl_tarnow
+- **Freude Rapaport** (1844–1855-07-18)
+- **Hersch Rapaport** (1844-09-20–), born pl_tarnow
+- **Abe (Abraham) Rapaport** (1845-02-08–1849-07-30), born pl_tarnow
+- **Saul Rapaport** (1846–1896-11-03)
+- **Mathel Frenkel** (1846–)
+- **Samuel Rapaport** (1847-03-23–1851-04-14), born pl_tarnow
+- **Liebe Rapaport** (1847-03-28–), born pl_tarnow
+- **Aron Dov Awigdor Novimiast** (1848–)
+- **Riwke Rapaport** (1848-04-18–), born pl_tarnow
+- **Majer Rapaport** (1849–1920-10-22)
+- **Isaac Rapaport** (1849-03-09–1896), born pl_tarnow
+- **Abraham Chaim Rapaport** (1849-11-01–1851-05-02), born pl_tarnow
+- **Eliezer "Zeida" Griffel** (1850–1918), born pl_nadworna
+- **Izrael Rapaport** (1850–1851-04-14), born pl_tarnow
+- **Izchak Chaim Rapaport** (1850-01-06–1921-08-15), born pl_dabrowa
+- **Lajzor Griffel** (1850-03-26–1918), born Nadwórna
+- **Sara Matel Chajes** (1851-03-05–1940)
+- **Margulesa Bornstein** (1852-01-10–1925-12-22)
+- **Mayer Rapaport** (1853-09-25–), born pl_tarnow
+- **Rebeka Rapaport** (1854-05-15–)
+- **Blume Rapaport** (1855-05-26–1857-02-24), born pl_tarnow
+- **Marjam Rapaport** (1855-08-04–), born pl_tarnow
+- **Jakub Rapaport** (1856–1887-04-06), born pl_tarnow
+- **Moses (Moshe) Saul Rapaport** (1858–1933-11-08)
+- **Sprinze Rapaport** (1858-11-04–), born pl_tarnow
+- **Reb Chaim Hager of Ottynia** (1863–1931), born pl_kosov
+- **David Mendel Griffel** (1875–1941), born pl_nadworna
+- **Dawid Mendel Griffel** (1875-11-02–1941), born Nadwórna
+- **Machla Griffel-Wilner** (1876–), born pl_nadworna
+- **Chawa Griffel (née Wahl)** (1877–1941)
+- **Zissel Griffel-Lamm** (1878–), born pl_nadworna
+- **Jechiel Turkel** (1879-02-04–1942-07-17), born pl_trembowla
+- **Isaac Chaim Griffel** (1880–1930), born pl_nadworna
+- **Rachel Griffel (1881–1883)** (1881–1883)
+- **Alte Leja Rapaport (m. Turkel)** (1882–1942), born pl_radomysl_wielki · portrait: https://rapaportfamily.github.io/assets/documents/basia_2026_08/alte_lea_rapaport_turkel_portrait.jpg
+- **Shaya Griffel** (1883–), born pl_nadworna
+- **Shaye Griffel** (1883–1943)
+- **Szymon (Simon) Rapaport** (1884–), born pl_radomysl_wielki
+- **Leibish Griffel** (1885–), born pl_nadworna
+- **Leibisch Griffel** (1885-05-16–), born Nadwórna · portrait: https://rapaportfamily.github.io/assets/documents/griffel_2026_08/photos/I19__getto_leibisch_griffel.jpg
+- **Berisz / Bernard / Dov Rapaport** (1886-07-30–1942-03-29), born pl_radomysl_wielki · portrait: https://rapaportfamily.github.io/assets/documents/basia_2026_08/berish_rapaport_portrait_1924.jpg
+- **Jente Rapaport** (1887–), born pl_radomysl_wielki
+- **Benjamin Griffel** (1887–), born pl_nadworna
+- **Beniamin Griffel** (1887-01-14–1943), born Nadwórna
+- **Freida Amalia Rapaport** (1888–1942), born pl_radomysl_wielki · portrait: https://rapaportfamily.github.io/assets/documents/basia_2026_08/freida_amalia_rapaport_portrait.jpg
+- **Rebeka / Regina Rapaport (née Griffel)** (1888–1942), born pl_nadworna
+- **Sane Zylberfenig** (1888-11–), born pl_plonsk
+- **Paja Laub** (1889–)
+- **Mollie Griffel (née Mehrbaum)** (1890–1966-04-08), born pl_vorokhta
+- **Simce Griffel** (1890–1891)
+- **Markus Elias Kleinbaum** (1892–)
+- **Mendel Eachem Horowitz** (1892–), born pl_sokal
+- **Rachel Griffel-Ohrenstein** (1892–), born pl_nadworna
+- **Rebeka Rapaport (Berisz's sister)** (1896–), born pl_radomysl_wielki
+- **Zygmunt Griffel** (1897–1951-05-16), born pl_nadworna · portrait: https://rapaportfamily.github.io/assets/documents/griffel_2026_08/photos/I6__p_zygmunt_griffel.jpg
+- **Bernard Griffel (NYC)** (1899–1962-12-13), born pl_nadworna
+- **Dr Jacob Griffel** (1900–1962), born pl_nadworna · portrait: https://rapaportfamily.github.io/assets/documents/griffel_2026_08/photos/I16__jacob_griffel.jpg
+- **Regina Gelles (née Griffel)** (1900-03-18–1954), born pl_nadworna
+- **Edward Griffel** (1904-10-09–1959-02-08), born pl_nadworna · portrait: https://rapaportfamily.github.io/assets/documents/griffel_2026_08/photos/I7__1940_edward_griffel.jpg
+- **Shlomo Goldfischer** (1909-11-23–), born pl_skole
+- **Feige / Tzipora Weitzner** (1911–), born pl_bolechow
+- **Susan Manson Griffel** (1911–1978-06-22)
+- **David (Memek) Rapaport** (1911-12-25–1990-08-29), born pl_nadworna · portrait: https://rapaportfamily.github.io/assets/research_images/memoir/lusia_david_wedding_1938.jpg
+- **Lea Rapaport (m. Segal / Fridman)** (1912–), born pl_sambor · portrait: https://rapaportfamily.github.io/assets/documents/basia_2026_08/lea_rapaport_segal_portrait.jpg
+- **Leah Lusha Rapaport (née Weitzner)** (1913-04-08–1996-12-28), born pl_bolechow · portrait: https://rapaportfamily.github.io/assets/research_images/memoir/lusia_lajka_on_horse.jpg
+- **Lota (Lotte) Schmid-Rapaport** (1915–), born pl_vienna
+- **Moses (Mojzesz) Weitzner** (1916–), born pl_bolechow
+- **Zwi (Hersh Heschel) Ayalon Nussbaum** (1919-05-07–2001-11-27), born pl_przemysl · portrait: https://rapaportfamily.github.io/assets/research_images/period/zwi_nussbaum_1945.jpg
+- **Szewa Horowitz (m. Türkel)** (1920–1985), born pl_tarnow
+- **Inge Nussbaum (née Rosenbusch)** (1922-07-03–2009-01-14) · portrait: https://rapaportfamily.github.io/assets/research_images/period/inge_nussbaum_1945.jpg
+- **Edward Gelles** (1927-11-24–), born pl_vienna
+- **Dr Chanan Rapaport** (1928-09-08–2022-01-02), born pl_stanislawow
+- **Yehuda Nir (Juliusz Gruenfeld)** (1930–2014), born pl_lwow
+- **Shimon Rapaport** (1937-06-22–), born pl_lwow · portrait: https://rapaportfamily.github.io/assets/research_images/memoir/shimon_brussels_school.jpg
+- **Mordekhai Yosef Nussbaum** (1943-04-25–), born pl_haifa
+- **Diana Margaret Griffel** (1943-10-27–1965), born pl_london
+- **Yehudit Shlomit (Ayalon / Nussbaum)** (1946-04-25–), born pl_haifa
+- **Dov Rapaport** (1946-08-28–), born pl_brussels · portrait: https://rapaportfamily.github.io/assets/research_images/memoir/shimon_holding_baby_dov.jpg
+- **Dr Steven Lamm, MD** (1948–)
+- **Joseph Griffel** (1953–)
+- **Tamar (Tami) Rapaport**
+- **Maria Ciccelik**
+- **Pietrozycki**
+- **Ivanov**
+- **Hormak family**
+- **Ronen Rapaport**
+- **Hadas Rapaport**
+- **Menukha Rapaport**
+- **Pinches Horowitz**
+- **Eliahu Mordechai Nussbaum**
+- **[unknown] (Jente Rapaport's first husband)**
+- **Sarah Matel Griffel (née Chajes)** (?–1940), born pl_kolomea
+- **Elias (Eliyahu) Weitzner** · portrait: https://rapaportfamily.github.io/assets/research_images/memoir/lusia_with_her_father.jpg
+- **Matel (Mathilde) Weitzner (née Weinreb)** · portrait: https://rapaportfamily.github.io/assets/research_images/memoir/matel_weinreb_portrait.jpg
+- **Samuel Weinreb**
+- **Ester Blima Weinreb**
+- **Pnina Weitzner**
+- **Doron Rapaport**
+- **Dalia Rapaport**
+- **Dana Rapaport Hinkus**
+- **Daniel Rapaport**
+- **Lior Rapaport Hinkus**
+- **Heli Rapaport**
+- **Yarden Rapaport Hinkus**
+- **Itamar Rapaport Hinkus**
+- **Carmel Rapaport Hinkus**
+- **Rom Rapaport Hinkus**
+- **Alma Rapaport**
+- **Ema Rapaport**
+- **Ariel Rapaport**
+- **Chaya Griffel-Gruenfeld** (?–1918)
+- **David Mendel Griffel Sr.**, born pl_nadworna
+- **Taube Griffel**
+- **Andrew Griffel**
+- **Boruch Griffel**
+- **Pinhas (Pinchas) Heyn**
+- **Haim Gelles**
+- **Avi Gelles**
+- **Zaynvl Rapaport**
+- **Zishe Vaytsner**
+- **Shlomele Weitzner**
+- **Benzion Wilner**
+- **Zygmunt (Shalom) Lamm**
+- **Dr Arnold Lamm**
+- **Judith Griffel (née Breit)**
+- **Yehoshua Heshel "Henry" Griffel**
+- **Shlomo Gruenfeld**
+- **Tali Griffel Ginsburg**
+- **Sarah Maslin Nir**
+- **David Nir**
+- **Daniel Nir**
+- **Aaron Nir**
+- **Bonnie Maslin**
+- **Jackie Boehme Griffel**
+- **R. Meshullam Yekutiel ha-Kohen Rapa** (?–1450), born pl_mainz
+- **Isaac 'HaMoel' Rapa-Porto**
+- **Baron Dr Arnold Rapoport-Adler Von Porada**
+- **Shulim Wahl of Tarnobrzeg**
+- **Sarah Wahl (née Safier) of Tarnobrzeg**
+- **Ester Goldfischer**
+- **Markus Türkel**
+- **Daniela Zidon**
+- **Miki (Michal Lea) Nativ (née Levi-Turkel)**
+- **Akiva Eldar**
+- **Tzvika**
+- **Ella**
+- **Arik**
+- **Ita Feiga Rapaport (née Jahr)** (?–before 189)
+- **Rachel Weidenfeld (née Rapaport)**
+- **Cerka (Cecylia) Margulies**
+- **Chane Rachel Rapaport** (?–1881)
+- **Dawid Gruenfeld**
+- **Chaya Gitel (Klara) Griffel** (?–1918)
+- **Dr Vidal Rapapa** (c.1270–), born pl_mallorca
+- **Dr Jucef Salomon Rapapa** (c.1280–after 1345), born pl_mallorca
