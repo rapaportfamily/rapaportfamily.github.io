@@ -18,7 +18,7 @@ exit 0 = the live site matches this checkout
 exit 1 = it does not, or a run is stuck — the message says which
 exit 2 = the check itself could not run (never confuse this with a healthy site)
 """
-import io, os, re, sys, json, time, subprocess, argparse
+import io, os, re, sys, json, time, calendar, subprocess, argparse
 import urllib.request
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -102,7 +102,12 @@ def main():
         stuck, failed = [], []
         for r in rs:
             if r['status'] in ('queued', 'waiting', 'pending', 'in_progress'):
-                age = (now - time.mktime(time.strptime(r['createdAt'], '%Y-%m-%dT%H:%M:%SZ'))) / 3600.0
+                # GitHub stamps createdAt in UTC. time.mktime() would read that struct as
+                # LOCAL time, and Israel is UTC+3 — which made every run look three hours
+                # old the second it started, and this checker cried STUCK over its own
+                # push. calendar.timegm() is the UTC-correct inverse of gmtime.
+                age = (now - calendar.timegm(
+                    time.strptime(r['createdAt'], '%Y-%m-%dT%H:%M:%SZ'))) / 3600.0
                 if age > STUCK_HOURS:
                     stuck.append((r['databaseId'], round(age, 1), r['displayTitle'][:44]))
             elif r['conclusion'] == 'failure':
