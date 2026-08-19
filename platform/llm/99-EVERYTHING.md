@@ -43,7 +43,7 @@ So the archive did it for him.
 | `01-narrative.md` | The story, ten chapters, with the sources under each paragraph |
 | `02-the-four.md` | David, Lusia, Shimon, Dov — and the generation before them |
 | `03-people.md` | All 188 people in the curated core |
-| `04-documents.md` | All 129 documents: what each one is, what it says, where the scan is |
+| `04-documents.md` | All 131 documents: what each one is, what it says, where the scan is |
 | `05-timeline.md` | 45 dated events |
 | `06-places.md` | 49 places |
 | `07-pictures.md` | Every picture with its caption and its address |
@@ -529,7 +529,7 @@ The wider trees hold far more: 1442 Rapaports across 480 families, and 390 Griff
 - **Shaye Griffel** (1883–1943)
 - **Szymon (Simon) Rapaport** (1884–), born pl_radomysl_wielki
 - **Leibish Griffel** (1885–), born pl_nadworna
-- **Leibisch Griffel** (1885-05-16–), born Nadwórna · portrait: https://rapaportfamily.github.io/assets/documents/griffel_2026_08/photos/I19__getto_leibisch_griffel.jpg
+- **Leibisch Griffel** (1885-05-16–), born Nadwórna
 - **Berisz / Bernard / Dov Rapaport** (1886-07-30–1942-03-29), born pl_radomysl_wielki · portrait: https://rapaportfamily.github.io/assets/documents/basia_2026_08/berish_rapaport_portrait_1924.jpg
 - **Jente Rapaport** (1887–), born pl_radomysl_wielki
 - **Benjamin Griffel** (1887–), born pl_nadworna
@@ -544,11 +544,11 @@ The wider trees hold far more: 1442 Rapaports across 480 families, and 390 Griff
 - **Mendel Eachem Horowitz** (1892–), born pl_sokal
 - **Rachel Griffel-Ohrenstein** (1892–), born pl_nadworna
 - **Rebeka Rapaport (Berisz's sister)** (1896–), born pl_radomysl_wielki
-- **Zygmunt Griffel** (1897–1951-05-16), born pl_nadworna · portrait: https://rapaportfamily.github.io/assets/documents/griffel_2026_08/photos/I6__p_zygmunt_griffel.jpg
+- **Zygmunt Griffel** (1897–1951-05-16), born pl_nadworna
 - **Bernard Griffel (NYC)** (1899–1962-12-13), born pl_nadworna
-- **Dr Jacob Griffel** (1900–1962), born pl_nadworna · portrait: https://rapaportfamily.github.io/assets/documents/griffel_2026_08/photos/I16__jacob_griffel.jpg
+- **Dr Jacob Griffel** (1900–1962), born pl_nadworna
 - **Regina Gelles (née Griffel)** (1900-03-18–1954), born pl_nadworna
-- **Edward Griffel** (1904-10-09–1959-02-08), born pl_nadworna · portrait: https://rapaportfamily.github.io/assets/documents/griffel_2026_08/photos/I7__1940_edward_griffel.jpg
+- **Edward Griffel** (1904-10-09–1959-02-08), born pl_nadworna
 - **Shlomo Goldfischer** (1909-11-23–), born pl_skole
 - **Feige / Tzipora Weitzner** (1911–), born pl_bolechow
 - **Susan Manson Griffel** (1911–1978-06-22)
@@ -649,7 +649,7 @@ The wider trees hold far more: 1442 Rapaports across 480 families, and 390 Griff
 
 <!-- ===== 04-documents.md ===== -->
 
-# The documents (129)
+# The documents (131)
 
 Each entry says what the document is, what it tells us, who it concerns, and where the scan is. A film should name and explain every document it shows.
 
@@ -1868,6 +1868,28 @@ If the identification holds, our paternal line runs into a dynasty of rabbinical
 Earliest documented record of our Lota Rapaport under Nazi rule. The birth year 1915 in this Ancestry record matches the family's records exactly (per Berisz's 1924 passport, Lota = Lottr age 8 → born ~1915-1916). The Krakow ghetto registration 1940 predates by ~2 years the betrayal and arrest in Lwów that Lusia's memoir describes. Full source record (parents' names, spouse, address, occupation) should be retrieved via the Ancestry citation Reel 13 / List 177 / Entry 72.
 
 
+## Jewish Community of the City of Lemberg, registration department — four cards, one of them Leibisch Griffel
+
+- Type: ghetto_record
+- Source: Jacob, Griffel family archive, received 10 August 2026
+- People: Leibisch Griffel, Leah Lusha Rapaport (née Weitzner)
+- Scan: https://rapaportfamily.github.io/assets/documents/griffel_2026_08/photos/I19__getto_leibisch_griffel.jpg
+- What it records: issuing_body = JÜDISCHE GEMEINDE der STADT LEMBERG, EVIDENZ-ABTEILUNG; card_3_name = Griffel; card_3_given = Leibisch; card_3_born = 16 May 1885; card_3_address = Sommerstein 17/8; card_3_work = Arbeiter bei Distriktpostverwaltung (worker, District Post Administration); card_3_note = Meldekarte No. 17262; other_cards_on_the_sheet = Griebel Rebeka b.28.III.1881; Grzeb Maurycy b.1921; Ing. Grunfeld Josef b.31.III.1902
+
+Registration cards of the Jewish Community of Lemberg — Lwów — from the years the ghetto was administered. One of the four is Leibisch Griffel, Rebeka’s brother and David’s uncle by marriage: born 16 May 1885, living at Sommerstein 17/8, working for the District Post Administration, registration card number 17262. It places him in Lwów, in work, inside the system that was counting Jews. His Yad Vashem record gives his death only as "Shoah", with no year. This card is the last document that shows him alive.
+
+
+## US immigration manifest — Edward Griffel enters at Rouses Point, N.Y., 26 May 1941
+
+- Type: immigration_manifest
+- Source: Jacob, Griffel family archive, received 10 August 2026
+- People: Edward Griffel
+- Scan: https://rapaportfamily.github.io/assets/documents/griffel_2026_08/photos/I7__1940_edward_griffel.jpg
+- What it records: family_name = GRIFFEL; given_name = Edward; date = May 26 1941; port = Rouses Point, N.Y.; serial = 1194; polish_passport = No. 03317/VII/39, valid to 4/22/42; issued = Montreal 5/26/41; place_of_birth = Nadworna, Poland; age = 38; occupation = Exporter; language = English; race = Hebrew; nationality = Poland; nearest_relative_in_country_whence_he_came = father David Griffel, Kolomyja, Poland
+
+A Griffel who got out. Edward, born in Nadwórna, thirty-eight years old, an exporter, crossed into the United States from Montreal on 26 May 1941 to reside permanently, giving his father David Griffel at Kolomyja as his nearest relative in the country he came from. Doron reports that Basia has now finished the Weitzner side and found many of them emigrated to the United States, settling mainly in New Jersey; this card is the same movement on the Griffel side, and it is dated eight months before the family in Galicia was destroyed.
+
+
 ## Zygmunt Griffel — Sejm Album industrial feature, 1934/35
 
 - Type: industry_press
@@ -2657,7 +2679,7 @@ Download any of these directly. **Never put a name on anything marked UNIDENTIFI
   Translation: Lusia Rapaport (pictured)  
   Note: The back cover of the book. It carries no caption of its own — the blurb beside it names her, “Lusia Rapaport (pictured)”. Undated; the memoir was dictated in 1986. It is the clearest photograph of her the archive holds.
 
-## Portraits of named people (16)
+## Portraits of named people (12)
 
 - Dov Rapaport — https://rapaportfamily.github.io/assets/research_images/memoir/shimon_holding_baby_dov.jpg  
   Dov as an infant in Brussels, held by his brother Shimon — from their mother’s memoir, page 61, captioned “Shimon ‘the big one’ holding his baby brother, Dov”. He was born 28 August 1946.
@@ -2679,18 +2701,10 @@ Download any of these directly. **Never put a name on anything marked UNIDENTIFI
   Elias Weitzner with his daughter Lusia in Israel — from her memoir, page 66, captioned “Lusia with her father, in Israel”. He had emigrated in the 1930s; she stayed behind to finish her studies, and the war came.
 - Matel (Mathilde) Weitzner (née Weinreb) — https://rapaportfamily.github.io/assets/research_images/memoir/matel_weinreb_portrait.jpg  
   Matel Weinreb — from her daughter’s memoir, page 67, captioned simply “Lusia’s mother”. The only photograph of her the archive holds.
-- Dr Jacob Griffel — https://rapaportfamily.github.io/assets/documents/griffel_2026_08/photos/I16__jacob_griffel.jpg  
-  Dr Jacob Griffel — from Jacob’s Griffel archive.
-- Zygmunt Griffel — https://rapaportfamily.github.io/assets/documents/griffel_2026_08/photos/I6__p_zygmunt_griffel.jpg  
-  Zygmunt Griffel — from Jacob’s Griffel archive.
-- Edward Griffel — https://rapaportfamily.github.io/assets/documents/griffel_2026_08/photos/I7__1940_edward_griffel.jpg  
-  Edward Griffel — from Jacob’s Griffel archive.
 - Lea Rapaport (m. Segal / Fridman) — https://rapaportfamily.github.io/assets/documents/basia_2026_08/lea_rapaport_segal_portrait.jpg  
   Lea Rapaport, later Segal and then Fridman — David’s first cousin, daughter of his uncle Simon. Born 10 November 1912, eleven months after David.
 - Inge Nussbaum (née Rosenbusch) — https://rapaportfamily.github.io/assets/research_images/period/inge_nussbaum_1945.jpg  
   Inge Nussbaum née Rosenbusch, c.1945 — from her husband’s citizenship application
-- Leibisch Griffel — https://rapaportfamily.github.io/assets/documents/griffel_2026_08/photos/I19__getto_leibisch_griffel.jpg  
-  Leibisch Griffel — from Jacob’s Griffel archive.
 
 ## Dov’s four journeys back (120 photographs)
 
@@ -3027,6 +3041,15 @@ Lusia’s own card, the twin of David’s. She registered in Brussels on 26 Dece
 Two days after she registered as a displaced person, a Jewish aid society asked the Belgian authorities to let her stay six months. It repeats the two strange things from her card — born Haifa, came from a camp in Prague — and adds an address: 250 rue des Coteaux, Schaerbeek. That is where Lusia was living in Brussels, and where she was still living when Dov was born eight months later.
 
 
+## [MEDIUM] US immigration manifest — Edward Griffel enters at Rouses Point, N.Y., 26 May 1941
+
+- Source: Jacob, Griffel family archive, received 10 August 2026
+- Scan: https://rapaportfamily.github.io/assets/documents/griffel_2026_08/photos/I7__1940_edward_griffel.jpg
+- What it records: family_name = GRIFFEL; given_name = Edward; date = May 26 1941; port = Rouses Point, N.Y.; serial = 1194; polish_passport = No. 03317/VII/39, valid to 4/22/42; issued = Montreal 5/26/41; place_of_birth = Nadworna, Poland; age = 38; occupation = Exporter; language = English; race = Hebrew; nationality = Poland; nearest_relative_in_country_whence_he_came = father David Griffel, Kolomyja, Poland; destination = Alden Hotel, 225 Central Park West, New York City, Apt. 811; previously_in_us = 7/30/40 to 5/20/41 NY, ship "Britannic"; purpose = reside permanently
+
+A Griffel who got out. Edward, born in Nadwórna, thirty-eight years old, an exporter, crossed into the United States from Montreal on 26 May 1941 to reside permanently, giving his father David Griffel at Kolomyja as his nearest relative in the country he came from. Doron reports that Basia has now finished the Weitzner side and found many of them emigrated to the United States, settling mainly in New Jersey; this card is the same movement on the Griffel side, and it is dated eight months before the family in Galicia was destroyed.
+
+
 ## [MEDIUM] Belgian Ministry of Justice — permission to stay pending emigration, 7 February 1946
 
 - Source: Basia, received 19 August 2026
@@ -3034,6 +3057,15 @@ Two days after she registered as a displaced person, a Jewish aid society asked 
 - What it records: ministry = Ministère de la Justice, Administration de la Police des Étrangers; reference = No. 2063253; dated = Bruxelles, 7.2.1946; addressed_to = the Chief Commissioner of Police, Schaerbeek; under_cover_of = Comité Intergouvernemental pour réfugiés; authorisation = authorised to stay in Belgium pending emigration; certificate = MODÈLE C, bearing the mention "EN VUE D’ÉMIGRATION"; validity = three months, renewable for two further periods of three months
 
 The state answering. Six weeks after the aid society asked, the Ministry of Justice told the Schaerbeek police to enter her in the aliens’ register and issue a Modèle C certificate marked EN VUE D’ÉMIGRATION — permission to be in Belgium only while waiting to leave it. Three months at a time, twice renewable. Dov was born under this arrangement.
+
+
+## [MEDIUM] Jewish Community of the City of Lemberg, registration department — four cards, one of them Leibisch Griffel
+
+- Source: Jacob, Griffel family archive, received 10 August 2026
+- Scan: https://rapaportfamily.github.io/assets/documents/griffel_2026_08/photos/I19__getto_leibisch_griffel.jpg
+- What it records: issuing_body = JÜDISCHE GEMEINDE der STADT LEMBERG, EVIDENZ-ABTEILUNG; card_3_name = Griffel; card_3_given = Leibisch; card_3_born = 16 May 1885; card_3_address = Sommerstein 17/8; card_3_work = Arbeiter bei Distriktpostverwaltung (worker, District Post Administration); card_3_note = Meldekarte No. 17262; other_cards_on_the_sheet = Griebel Rebeka b.28.III.1881; Grzeb Maurycy b.1921; Ing. Grunfeld Josef b.31.III.1902
+
+Registration cards of the Jewish Community of Lemberg — Lwów — from the years the ghetto was administered. One of the four is Leibisch Griffel, Rebeka’s brother and David’s uncle by marriage: born 16 May 1885, living at Sommerstein 17/8, working for the District Post Administration, registration card number 17262. It places him in Lwów, in work, inside the system that was counting Jews. His Yad Vashem record gives his death only as "Shoah", with no year. This card is the last document that shows him alive.
 
 
 ## Expected but not yet here
@@ -3092,6 +3124,13 @@ to the places, opens the documents, and lays her book beside the evidence.
    show them as exactly that.
 6. **Illustration is welcome but must be visibly marked.** Real photograph and AI illustration
    must never be mistaken for each other.
+7. **A document is not a face.** Every portrait in the data was looked at by eye on 19 August
+   2026, and forty of the seventy-four "portraits" on the two big trees turned out to be
+   passports, qualification certificates, Yad Vashem pages, a gravestone, a Bremen
+   missing-persons card. They were demoted. A picture is a person's face only where the record
+   carries `photo_verified`. Everything else is a paper about them, and must be captioned as a
+   paper about them. The film pack PDF prints verified faces only, so if you work from that file
+   you cannot get this wrong.
 
 ## Structure — macro to micro
 

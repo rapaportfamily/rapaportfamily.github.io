@@ -4511,6 +4511,86 @@
     "he": "תשובת המדינה. שישה שבועות אחרי בקשת אגודת הסיוע הורה משרד המשפטים למשטרת סכרבק לרשום אותה בפנקס הזרים ולהנפיק תעודת ״Modèle C״ נושאת הכיתוב EN VUE D’ÉMIGRATION — היתר לשהות בבלגיה רק כל עוד היא ממתינה לעזוב אותה. שלושה חודשים בכל פעם, הניתנים להארכה פעמיים. דב נולד תחת ההסדר הזה."
    },
    "status": "read"
+  },
+  {
+   "id": "doc_edward_griffel_us_manifest_1941",
+   "file_pages": [
+    "griffel_2026_08/photos/I7__1940_edward_griffel.jpg"
+   ],
+   "kind": "image",
+   "type": "immigration_manifest",
+   "primary_language": "en",
+   "film_priority": "medium",
+   "title": {
+    "en": "US immigration manifest — Edward Griffel enters at Rouses Point, N.Y., 26 May 1941",
+    "he": "מניפסט הגירה אמריקני — אדוארד גריפל נכנס ברוזס פוינט, ניו יורק, 26 במאי 1941",
+    "pl": "Manifest imigracyjny USA — Edward Griffel, Rouses Point, 26 maja 1941",
+    "fr": "Manifeste d’immigration — Edward Griffel, Rouses Point, 26 mai 1941"
+   },
+   "source_archive": "Jacob, Griffel family archive, received 10 August 2026",
+   "related_people": [
+    "p_edward_griffel_uncle"
+   ],
+   "decoded_fields": {
+    "family_name": "GRIFFEL",
+    "given_name": "Edward",
+    "date": "May 26 1941",
+    "port": "Rouses Point, N.Y.",
+    "serial": "1194",
+    "polish_passport": "No. 03317/VII/39, valid to 4/22/42",
+    "issued": "Montreal 5/26/41",
+    "place_of_birth": "Nadworna, Poland",
+    "age": "38",
+    "occupation": "Exporter",
+    "language": "English",
+    "race": "Hebrew",
+    "nationality": "Poland",
+    "nearest_relative_in_country_whence_he_came": "father David Griffel, Kolomyja, Poland",
+    "destination": "Alden Hotel, 225 Central Park West, New York City, Apt. 811",
+    "previously_in_us": "7/30/40 to 5/20/41 NY, ship \"Britannic\"",
+    "purpose": "reside permanently"
+   },
+   "summary": {
+    "en": "A Griffel who got out. Edward, born in Nadwórna, thirty-eight years old, an exporter, crossed into the United States from Montreal on 26 May 1941 to reside permanently, giving his father David Griffel at Kolomyja as his nearest relative in the country he came from. Doron reports that Basia has now finished the Weitzner side and found many of them emigrated to the United States, settling mainly in New Jersey; this card is the same movement on the Griffel side, and it is dated eight months before the family in Galicia was destroyed.",
+    "he": "גריפל שיצא. אדוארד, יליד נדבורנא, בן שלושים ושמונה, יצואן, נכנס לארצות הברית ממונטריאול ב-26 במאי 1941 כדי להתגורר בה דרך קבע, ורשם את אביו דוד גריפל מקולומיה כקרובו הקרוב ביותר בארץ שממנה בא. לפי דורון, בסיה סיימה כעת את צד ויצנר ומצאה שרבים מהם היגרו לארצות הברית והתיישבו בעיקר בניו ג׳רזי; הכרטיס הזה הוא אותה תנועה בצד גריפל, והוא מתוארך שמונה חודשים לפני שהושמדה המשפחה בגליציה."
+   },
+   "status": "read"
+  },
+  {
+   "id": "doc_lwow_jewish_community_cards",
+   "file_pages": [
+    "griffel_2026_08/photos/I19__getto_leibisch_griffel.jpg"
+   ],
+   "kind": "image",
+   "type": "ghetto_record",
+   "primary_language": "de",
+   "film_priority": "medium",
+   "title": {
+    "en": "Jewish Community of the City of Lemberg, registration department — four cards, one of them Leibisch Griffel",
+    "he": "הקהילה היהודית של העיר לבוב, מחלקת הרישום — ארבעה כרטיסים, אחד מהם לייביש גריפל",
+    "pl": "Gmina Żydowska miasta Lwowa, dział ewidencji — cztery karty, jedna Leibisch Griffel",
+    "fr": "Communauté juive de Lemberg, service du recensement — quatre fiches, dont Leibisch Griffel"
+   },
+   "source_archive": "Jacob, Griffel family archive, received 10 August 2026",
+   "related_people": [
+    "p_leibisch_griffel",
+    "p_leah"
+   ],
+   "decoded_fields": {
+    "issuing_body": "JÜDISCHE GEMEINDE der STADT LEMBERG, EVIDENZ-ABTEILUNG",
+    "card_3_name": "Griffel",
+    "card_3_given": "Leibisch",
+    "card_3_born": "16 May 1885",
+    "card_3_address": "Sommerstein 17/8",
+    "card_3_work": "Arbeiter bei Distriktpostverwaltung (worker, District Post Administration)",
+    "card_3_note": "Meldekarte No. 17262",
+    "other_cards_on_the_sheet": "Griebel Rebeka b.28.III.1881; Grzeb Maurycy b.1921; Ing. Grunfeld Josef b.31.III.1902"
+   },
+   "summary": {
+    "en": "Registration cards of the Jewish Community of Lemberg — Lwów — from the years the ghetto was administered. One of the four is Leibisch Griffel, Rebeka’s brother and David’s uncle by marriage: born 16 May 1885, living at Sommerstein 17/8, working for the District Post Administration, registration card number 17262. It places him in Lwów, in work, inside the system that was counting Jews. His Yad Vashem record gives his death only as \"Shoah\", with no year. This card is the last document that shows him alive.",
+    "he": "כרטיסי רישום של הקהילה היהודית בלמברג — לבוב — מן השנים שבהן נוהל הגטו. אחד מארבעת הכרטיסים הוא של לייביש גריפל, אחיה של רבקה ודודו של דוד בנישואין: יליד 16 במאי 1885, מתגורר בסומרשטיין 17/8, עובד במינהל הדואר המחוזי, כרטיס רישום מספר 17262. הכרטיס ממקם אותו בלבוב, בעבודה, בתוך המערכת שספרה יהודים. רשומת יד ושם שלו נוקבת במותו כ״שואה״ בלבד, ללא שנה. זהו המסמך האחרון המראה אותו בחיים."
+   },
+   "status": "read"
   }
  ],
  "additional_files": [

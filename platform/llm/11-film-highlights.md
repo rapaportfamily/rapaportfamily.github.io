@@ -30,6 +30,15 @@ Lusia’s own card, the twin of David’s. She registered in Brussels on 26 Dece
 Two days after she registered as a displaced person, a Jewish aid society asked the Belgian authorities to let her stay six months. It repeats the two strange things from her card — born Haifa, came from a camp in Prague — and adds an address: 250 rue des Coteaux, Schaerbeek. That is where Lusia was living in Brussels, and where she was still living when Dov was born eight months later.
 
 
+## [MEDIUM] US immigration manifest — Edward Griffel enters at Rouses Point, N.Y., 26 May 1941
+
+- Source: Jacob, Griffel family archive, received 10 August 2026
+- Scan: https://rapaportfamily.github.io/assets/documents/griffel_2026_08/photos/I7__1940_edward_griffel.jpg
+- What it records: family_name = GRIFFEL; given_name = Edward; date = May 26 1941; port = Rouses Point, N.Y.; serial = 1194; polish_passport = No. 03317/VII/39, valid to 4/22/42; issued = Montreal 5/26/41; place_of_birth = Nadworna, Poland; age = 38; occupation = Exporter; language = English; race = Hebrew; nationality = Poland; nearest_relative_in_country_whence_he_came = father David Griffel, Kolomyja, Poland; destination = Alden Hotel, 225 Central Park West, New York City, Apt. 811; previously_in_us = 7/30/40 to 5/20/41 NY, ship "Britannic"; purpose = reside permanently
+
+A Griffel who got out. Edward, born in Nadwórna, thirty-eight years old, an exporter, crossed into the United States from Montreal on 26 May 1941 to reside permanently, giving his father David Griffel at Kolomyja as his nearest relative in the country he came from. Doron reports that Basia has now finished the Weitzner side and found many of them emigrated to the United States, settling mainly in New Jersey; this card is the same movement on the Griffel side, and it is dated eight months before the family in Galicia was destroyed.
+
+
 ## [MEDIUM] Belgian Ministry of Justice — permission to stay pending emigration, 7 February 1946
 
 - Source: Basia, received 19 August 2026
@@ -37,6 +46,15 @@ Two days after she registered as a displaced person, a Jewish aid society asked 
 - What it records: ministry = Ministère de la Justice, Administration de la Police des Étrangers; reference = No. 2063253; dated = Bruxelles, 7.2.1946; addressed_to = the Chief Commissioner of Police, Schaerbeek; under_cover_of = Comité Intergouvernemental pour réfugiés; authorisation = authorised to stay in Belgium pending emigration; certificate = MODÈLE C, bearing the mention "EN VUE D’ÉMIGRATION"; validity = three months, renewable for two further periods of three months
 
 The state answering. Six weeks after the aid society asked, the Ministry of Justice told the Schaerbeek police to enter her in the aliens’ register and issue a Modèle C certificate marked EN VUE D’ÉMIGRATION — permission to be in Belgium only while waiting to leave it. Three months at a time, twice renewable. Dov was born under this arrangement.
+
+
+## [MEDIUM] Jewish Community of the City of Lemberg, registration department — four cards, one of them Leibisch Griffel
+
+- Source: Jacob, Griffel family archive, received 10 August 2026
+- Scan: https://rapaportfamily.github.io/assets/documents/griffel_2026_08/photos/I19__getto_leibisch_griffel.jpg
+- What it records: issuing_body = JÜDISCHE GEMEINDE der STADT LEMBERG, EVIDENZ-ABTEILUNG; card_3_name = Griffel; card_3_given = Leibisch; card_3_born = 16 May 1885; card_3_address = Sommerstein 17/8; card_3_work = Arbeiter bei Distriktpostverwaltung (worker, District Post Administration); card_3_note = Meldekarte No. 17262; other_cards_on_the_sheet = Griebel Rebeka b.28.III.1881; Grzeb Maurycy b.1921; Ing. Grunfeld Josef b.31.III.1902
+
+Registration cards of the Jewish Community of Lemberg — Lwów — from the years the ghetto was administered. One of the four is Leibisch Griffel, Rebeka’s brother and David’s uncle by marriage: born 16 May 1885, living at Sommerstein 17/8, working for the District Post Administration, registration card number 17262. It places him in Lwów, in work, inside the system that was counting Jews. His Yad Vashem record gives his death only as "Shoah", with no year. This card is the last document that shows him alive.
 
 
 ## Expected but not yet here

@@ -80,7 +80,8 @@
     "en": "Dov as an infant in Brussels, held by his brother Shimon — from their mother’s memoir, page 61, captioned “Shimon ‘the big one’ holding his baby brother, Dov”. He was born 28 August 1946.",
     "he": "דב כתינוק בבריסל, מוחזק בידי אחיו שמעון — מתוך יומנה של אמם, עמוד 61, בכיתוב ״שמעון ׳הגדול׳ מחזיק בידיו את אחיו התינוק, דב״. הוא נולד ב-28 באוגוסט 1946."
    },
-   "photo_credit": "From the memoir of Lusia Rapaport, dictated 1986 — family copy. Scan descreened and contrast-corrected; no detail added."
+   "photo_credit": "From the memoir of Lusia Rapaport, dictated 1986 — family copy. Scan descreened and contrast-corrected; no detail added.",
+   "photo_verified": true
   },
   {
    "id": "p_david",
@@ -317,7 +318,8 @@
     "en": "David (Memek) with Lusia on their wedding day — from her memoir, page 15, captioned “Mazal tov! Lusia and Memek on their wedding day”. One of only two photographs of him known to exist. The memoir dates the wedding February 1938 in Muszyna; the civil record says 10 February 1935 in Bolechów. Unresolved.",
     "he": "דוד (ממק) ולוסיה ביום חתונתם — מתוך יומנה, עמוד 15, בכיתוב ״מזל טוב! לוסיה וממק ביום חתונתם״. אחד משני התצלומים היחידים הידועים שלו. היומן מתארך את החתונה לפברואר 1938 במושינה; הרשומה האזרחית נוקבת ב-10 בפברואר 1935 בבולחוב. לא הוכרע."
    },
-   "photo_credit": "From the memoir of Lusia Rapaport, dictated 1986 — family copy. Scan descreened and contrast-corrected; no detail added."
+   "photo_credit": "From the memoir of Lusia Rapaport, dictated 1986 — family copy. Scan descreened and contrast-corrected; no detail added.",
+   "photo_verified": true
   },
   {
    "id": "p_leah",
@@ -624,7 +626,8 @@
     "doc_lusia_1945_dp_card",
     "doc_lusia_1945_residence_request",
     "doc_lusia_1945_stay_permit_1946"
-   ]
+   ],
+   "photo_verified": true
   },
   {
    "id": "p_shimon",
@@ -736,7 +739,8 @@
     "en": "Shimon at his school desk in Brussels, about 1946-47 — from his mother’s memoir, where the caption reads “Shimon on the school bench in Brussels”. He was nine or ten. Two and a half years of his childhood had been spent hidden in a crate.",
     "he": "שמעון ליד שולחן הלימודים בבריסל, בערך 1946-47 — מתוך יומן אמו, שם נכתב תחת התצלום ״שמעון על ספסל בית-הספר בבריסל״. הוא היה בן תשע או עשר. שנתיים וחצי מילדותו עברו עליו מוסתר בארגז."
    },
-   "photo_credit": "From the memoir of Lusia Rapaport, dictated 1986, page 62 — family copy. Scan descreened and contrast-corrected; no detail added."
+   "photo_credit": "From the memoir of Lusia Rapaport, dictated 1986, page 62 — family copy. Scan descreened and contrast-corrected; no detail added.",
+   "photo_verified": true
   },
   {
    "id": "p_tamar",
@@ -1243,7 +1247,8 @@
     "pl": "Berisz Rapaport, 1924 — fotografia naklejona na jego świadectwo kwalifikacyjne z lipca tego roku.",
     "fr": "Berish Rapaport, 1924 — la photographie collée sur son propre certificat de qualification."
    },
-   "photo_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
+   "photo_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
+   "photo_verified": true
   },
   {
    "id": "p_menukha",
@@ -1356,7 +1361,8 @@
     "pl": "Alte Lea Rapaport, później Turkel — ciotka Dawida, córka Mojżesza Saula.",
     "fr": "Alte Lea Rapaport, plus tard Turkel — la tante de David, fille de Moïse Saül."
    },
-   "photo_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
+   "photo_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
+   "photo_verified": true
   },
   {
    "id": "p_jente_rapaport",
@@ -1509,7 +1515,8 @@
     "pl": "Freida Amalia Rapaport, później Nussbaum — ciotka Dawida.",
     "fr": "Freida Amalia Rapaport, plus tard Nussbaum — la tante de David."
    },
-   "photo_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
+   "photo_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
+   "photo_verified": true
   },
   {
    "id": "p_rebeka_rapaport_sister",
@@ -1873,7 +1880,8 @@
     "he": "צבי (הירש הרמן) נוסבאום, בערך 1945 — מתוך בקשת האזרחות שלו"
    },
    "father_id": "p_nussbaum_first_husband_freida",
-   "note_he": "בן דוד מדרגה ראשונה של דוד ממק ובן דודם של דורון, דנה ודניאל מדרגה שנייה. בנה של פרידה אמליה רפפורט. נולד ב-7 במאי 1919 (לפי פנקס הלידה בפשמישל) — אך בבקשת האזרחות שלו מ-1945 ובטופס משרד הפנים מ-1996 הוא עצמו נקב בטרנוב, ובתאריכים 6 ו-7 במאי בהתאמה. פקיד רשם על הטופס מ-1945: ״1919 רק לפי הדרכון״. שרד את השואה בארץ ישראל: הגיע ב-12 באוקטובר 1938, שלושה שבועות לאחר שהונפק דרכונו הפולני בפשמישל. קצב במקצועו. נשא את אינגה רוזנבוש בחיפה ב-12 ביוני 1941; התאזרח ב-29 בנובמבר 1945. גר ברחוב הלל 24 בחיפה, ולימים בשדרות הנשיא 84. נפטר ב-27 בנובמבר 2001 בחיפה."
+   "note_he": "בן דוד מדרגה ראשונה של דוד ממק ובן דודם של דורון, דנה ודניאל מדרגה שנייה. בנה של פרידה אמליה רפפורט. נולד ב-7 במאי 1919 (לפי פנקס הלידה בפשמישל) — אך בבקשת האזרחות שלו מ-1945 ובטופס משרד הפנים מ-1996 הוא עצמו נקב בטרנוב, ובתאריכים 6 ו-7 במאי בהתאמה. פקיד רשם על הטופס מ-1945: ״1919 רק לפי הדרכון״. שרד את השואה בארץ ישראל: הגיע ב-12 באוקטובר 1938, שלושה שבועות לאחר שהונפק דרכונו הפולני בפשמישל. קצב במקצועו. נשא את אינגה רוזנבוש בחיפה ב-12 ביוני 1941; התאזרח ב-29 בנובמבר 1945. גר ברחוב הלל 24 בחיפה, ולימים בשדרות הנשיא 84. נפטר ב-27 בנובמבר 2001 בחיפה.",
+   "photo_verified": true
   },
   {
    "id": "p_rebeka",
@@ -2185,7 +2193,8 @@
     "en": "Elias Weitzner with his daughter Lusia in Israel — from her memoir, page 66, captioned “Lusia with her father, in Israel”. He had emigrated in the 1930s; she stayed behind to finish her studies, and the war came.",
     "he": "אליאס ויצנר עם בתו לוסיה בישראל — מתוך יומנה, עמוד 66, בכיתוב ״לוסיה עם אביה בישראל״. הוא עלה ארצה בשנות השלושים; היא נותרה מאחור לסיים את לימודיה, ואז באה המלחמה."
    },
-   "photo_credit": "From the memoir of Lusia Rapaport, dictated 1986 — family copy. Scan descreened and contrast-corrected; no detail added."
+   "photo_credit": "From the memoir of Lusia Rapaport, dictated 1986 — family copy. Scan descreened and contrast-corrected; no detail added.",
+   "photo_verified": true
   },
   {
    "id": "p_matel_weinreb",
@@ -2229,7 +2238,8 @@
     "en": "Matel Weinreb — from her daughter’s memoir, page 67, captioned simply “Lusia’s mother”. The only photograph of her the archive holds.",
     "he": "מטל ויינרב — מתוך יומנה של בתה, עמוד 67, בכיתוב ״אמא של לוסיה״ בלבד. התצלום היחיד שלה שבארכיון."
    },
-   "photo_credit": "From the memoir of Lusia Rapaport, dictated 1986 — family copy. Scan descreened and contrast-corrected; no detail added."
+   "photo_credit": "From the memoir of Lusia Rapaport, dictated 1986 — family copy. Scan descreened and contrast-corrected; no detail added.",
+   "photo_verified": true
   },
   {
    "id": "p_samuel_weinreb",
@@ -3328,7 +3338,19 @@
     "fr": "Dr Jacob Griffel"
    },
    "aliases": [],
-   "facts": [],
+   "facts": [
+    {
+     "key": "document_image",
+     "value": {
+      "en": "This archive briefly showed I16__jacob_griffel.jpg as this person’s portrait. It is a typed list, not a portrait. The file is kept as a document. Promoting it was done by a script matching filenames, and no one looked at it until it was laid out full-size in the film pack.",
+      "he": "הארכיון הציג לזמן קצר את I16__jacob_griffel.jpg כדיוקנו של אדם זה. למעשה מדובר במסמך. הקובץ נשמר כמסמך. ההעלאה לדרגת דיוקן נעשתה בידי סקריפט שהתאים שמות קבצים, ואיש לא הביט בו עד שנפרש בגודל מלא בחבילת הסרט."
+     },
+     "confidence": "documented",
+     "sources": [
+      "doc_griffel_tree_jacob_2026_08_10"
+     ]
+    }
+   ],
    "birth": {
     "date": "1900",
     "date_precision": "year",
@@ -3351,12 +3373,9 @@
    "father_id": "p_isaac_chaim_griffel",
    "mother_id": "p_judith_breit",
    "note_he": "בן דודו הראשון של דוד ממק רפפורט. איש הצלה נודע מטעם ועד ההצלה באיסטנבול בימי מלחמת העולם השנייה, שסייע להציל יהודים מפולין. נושא ספרו של יוסף פרידנזון ״Dateline: Istanbul״ (ארטסקרול, 1987). בנם של יצחק חיים גריפל ויהודית ברייט.",
-   "photo": "assets/documents/griffel_2026_08/photos/I16__jacob_griffel.jpg",
-   "photo_caption": {
-    "en": "Dr Jacob Griffel — from Jacob’s Griffel archive.",
-    "he": "ד\"ר יעקב גריפל — מארכיון גריפל של יעקב."
-   },
-   "photo_credit": "Jacob, Griffel family archive, received 10 August 2026"
+   "document_images": [
+    "assets/documents/griffel_2026_08/photos/I16__jacob_griffel.jpg"
+   ]
   },
   {
    "id": "p_yehuda_nir",
@@ -3495,6 +3514,17 @@
       "src_basia_archive_finds_2026_05_21"
      ],
      "value_he": "אלבום-מפתח של הסנאט והסיים של הרפובליקה הפולנית ושל הסיים השלזי (מדריך בין-מלחמתי), עמוד 110"
+    },
+    {
+     "key": "document_image",
+     "value": {
+      "en": "This archive briefly showed I6__p_zygmunt_griffel.jpg as this person’s portrait. It is a qualification certificate, not a portrait. The file is kept as a document. Promoting it was done by a script matching filenames, and no one looked at it until it was laid out full-size in the film pack.",
+      "he": "הארכיון הציג לזמן קצר את I6__p_zygmunt_griffel.jpg כדיוקנו של אדם זה. למעשה מדובר במסמך. הקובץ נשמר כמסמך. ההעלאה לדרגת דיוקן נעשתה בידי סקריפט שהתאים שמות קבצים, ואיש לא הביט בו עד שנפרש בגודל מלא בחבילת הסרט."
+     },
+     "confidence": "documented",
+     "sources": [
+      "doc_griffel_tree_jacob_2026_08_10"
+     ]
     }
    ],
    "birth": {
@@ -3522,12 +3552,9 @@
    "father_id": "p_david_mendel_griffel",
    "mother_id": "p_chawa_wahl",
    "note_he": "בן דודו הראשון של דוד ממק. בנם של דוד מנדל גריפל וחוה ואהל. נולד בנדבורנא ב-1897, נפטר ב-1951. אומת ב-21 במאי 2026 (מציאה של בסיה בארכיון): חברת ייצוא העצים של זיגמונט שכנה בלבוב, רחוב קופרניקה 5. נוסדה ב-1923. ייצאה 60,000 טונות עצי אורן בשנה לאנגליה (82.8% מן התפוקה), וכן להולנד, גרמניה, שווייץ וצרפת. מחסני מעבר בגדיניה ובגדנסק. מאשש את שושלת העצים המשפחתית שתיאר אריק גריפל בעדותו ההיסטורית.",
-   "photo": "assets/documents/griffel_2026_08/photos/I6__p_zygmunt_griffel.jpg",
-   "photo_caption": {
-    "en": "Zygmunt Griffel — from Jacob’s Griffel archive.",
-    "he": "זיגמונט גריפל — מארכיון גריפל של יעקב."
-   },
-   "photo_credit": "Jacob, Griffel family archive, received 10 August 2026"
+   "document_images": [
+    "assets/documents/griffel_2026_08/photos/I6__p_zygmunt_griffel.jpg"
+   ]
   },
   {
    "id": "p_regina_gelles",
@@ -3593,6 +3620,17 @@
       "src_ada_green_nadworna_burial_transcription"
      ],
      "value_he": "בית העלמין ברון הירש, סטטן איילנד, ניו יורק — חלקת יוצאי נדבורנא, חלקה I, שער 51"
+    },
+    {
+     "key": "document_image",
+     "value": {
+      "en": "This archive briefly showed I7__1940_edward_griffel.jpg as this person’s portrait. It is a US immigration manifest, not a portrait. The file is kept as a document. Promoting it was done by a script matching filenames, and no one looked at it until it was laid out full-size in the film pack.",
+      "he": "הארכיון הציג לזמן קצר את I7__1940_edward_griffel.jpg כדיוקנו של אדם זה. למעשה מדובר במסמך. הקובץ נשמר כמסמך. ההעלאה לדרגת דיוקן נעשתה בידי סקריפט שהתאים שמות קבצים, ואיש לא הביט בו עד שנפרש בגודל מלא בחבילת הסרט."
+     },
+     "confidence": "documented",
+     "sources": [
+      "doc_griffel_tree_jacob_2026_08_10"
+     ]
     }
    ],
    "birth": {
@@ -3621,12 +3659,9 @@
    "father_id": "p_david_mendel_griffel",
    "mother_id": "p_chawa_wahl",
    "note_he": "בן דודו הראשון של דוד ממק. נולד בנדבורנא ב-9 באוקטובר 1904. תעשיין המתגורר בסטניסלבוב.",
-   "photo": "assets/documents/griffel_2026_08/photos/I7__1940_edward_griffel.jpg",
-   "photo_caption": {
-    "en": "Edward Griffel — from Jacob’s Griffel archive.",
-    "he": "אדוארד גריפל — מארכיון גריפל של יעקב."
-   },
-   "photo_credit": "Jacob, Griffel family archive, received 10 August 2026"
+   "document_images": [
+    "assets/documents/griffel_2026_08/photos/I7__1940_edward_griffel.jpg"
+   ]
   },
   {
    "id": "p_chawa_wahl",
@@ -5023,7 +5058,8 @@
     "pl": "Lea Rapaport, później Segal i Fridman — kuzynka Dawida, córka jego wuja Szymona.",
     "fr": "Lea Rapaport, plus tard Segal puis Fridman — la cousine germaine de David."
    },
-   "photo_credit": "Basia, Ahnenblatt family archive, received 6 August 2026"
+   "photo_credit": "Basia, Ahnenblatt family archive, received 6 August 2026",
+   "photo_verified": true
   },
   {
    "id": "p_jechiel_turkel",
@@ -5278,7 +5314,8 @@
     ],
     "note_en": "Died at Jerusalem, 14 January 2009; born at Kassel, Hessen. From Basia’s GEDCOM of 5 August 2026.",
     "note_he": "נפטרה בירושלים ב-14 בינואר 2009; נולדה בקאסל שבהסן. מתוך קובץ ה-GEDCOM של בסיה מ-5 באוגוסט 2026."
-   }
+   },
+   "photo_verified": true
   },
   {
    "id": "p_mordekhai_yosef_nussbaum",
@@ -7278,12 +7315,22 @@
     "p_simce_griffel",
     "p_zissel_griffel"
    ],
-   "photo": "assets/documents/griffel_2026_08/photos/I19__getto_leibisch_griffel.jpg",
-   "photo_caption": {
-    "en": "Leibisch Griffel — from Jacob’s Griffel archive.",
-    "he": "לייביש גריפל — מארכיון גריפל של יעקב."
-   },
-   "photo_credit": "Jacob, Griffel family archive, received 10 August 2026"
+   "facts": [
+    {
+     "key": "document_image",
+     "value": {
+      "en": "This archive briefly showed I19__getto_leibisch_griffel.jpg as this person’s portrait. It is a Lwow Jewish Community registration card, not a portrait. The file is kept as a document. Promoting it was done by a script matching filenames, and no one looked at it until it was laid out full-size in the film pack.",
+      "he": "הארכיון הציג לזמן קצר את I19__getto_leibisch_griffel.jpg כדיוקנו של אדם זה. למעשה מדובר במסמך. הקובץ נשמר כמסמך. ההעלאה לדרגת דיוקן נעשתה בידי סקריפט שהתאים שמות קבצים, ואיש לא הביט בו עד שנפרש בגודל מלא בחבילת הסרט."
+     },
+     "confidence": "documented",
+     "sources": [
+      "doc_griffel_tree_jacob_2026_08_10"
+     ]
+    }
+   ],
+   "document_images": [
+    "assets/documents/griffel_2026_08/photos/I19__getto_leibisch_griffel.jpg"
+   ]
   },
   {
    "id": "p_beniamin_griffel",

@@ -46,6 +46,13 @@ to the places, opens the documents, and lays her book beside the evidence.
    show them as exactly that.
 6. **Illustration is welcome but must be visibly marked.** Real photograph and AI illustration
    must never be mistaken for each other.
+7. **A document is not a face.** Every portrait in the data was looked at by eye on 19 August
+   2026, and forty of the seventy-four "portraits" on the two big trees turned out to be
+   passports, qualification certificates, Yad Vashem pages, a gravestone, a Bremen
+   missing-persons card. They were demoted. A picture is a person's face only where the record
+   carries `photo_verified`. Everything else is a paper about them, and must be captioned as a
+   paper about them. The film pack PDF prints verified faces only, so if you work from that file
+   you cannot get this wrong.
 
 ## Structure — macro to micro
 

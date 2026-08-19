@@ -1,4 +1,4 @@
-# The documents (129)
+# The documents (131)
 
 Each entry says what the document is, what it tells us, who it concerns, and where the scan is. A film should name and explain every document it shows.
 
@@ -1215,6 +1215,28 @@ If the identification holds, our paternal line runs into a dynasty of rabbinical
 - What it records: ghetto = Kraków; name = Lotte Rapaport; birth_year = 1915; document_year = 1940; reel = 13; list_number = 177; entry_number = 72
 
 Earliest documented record of our Lota Rapaport under Nazi rule. The birth year 1915 in this Ancestry record matches the family's records exactly (per Berisz's 1924 passport, Lota = Lottr age 8 → born ~1915-1916). The Krakow ghetto registration 1940 predates by ~2 years the betrayal and arrest in Lwów that Lusia's memoir describes. Full source record (parents' names, spouse, address, occupation) should be retrieved via the Ancestry citation Reel 13 / List 177 / Entry 72.
+
+
+## Jewish Community of the City of Lemberg, registration department — four cards, one of them Leibisch Griffel
+
+- Type: ghetto_record
+- Source: Jacob, Griffel family archive, received 10 August 2026
+- People: Leibisch Griffel, Leah Lusha Rapaport (née Weitzner)
+- Scan: https://rapaportfamily.github.io/assets/documents/griffel_2026_08/photos/I19__getto_leibisch_griffel.jpg
+- What it records: issuing_body = JÜDISCHE GEMEINDE der STADT LEMBERG, EVIDENZ-ABTEILUNG; card_3_name = Griffel; card_3_given = Leibisch; card_3_born = 16 May 1885; card_3_address = Sommerstein 17/8; card_3_work = Arbeiter bei Distriktpostverwaltung (worker, District Post Administration); card_3_note = Meldekarte No. 17262; other_cards_on_the_sheet = Griebel Rebeka b.28.III.1881; Grzeb Maurycy b.1921; Ing. Grunfeld Josef b.31.III.1902
+
+Registration cards of the Jewish Community of Lemberg — Lwów — from the years the ghetto was administered. One of the four is Leibisch Griffel, Rebeka’s brother and David’s uncle by marriage: born 16 May 1885, living at Sommerstein 17/8, working for the District Post Administration, registration card number 17262. It places him in Lwów, in work, inside the system that was counting Jews. His Yad Vashem record gives his death only as "Shoah", with no year. This card is the last document that shows him alive.
+
+
+## US immigration manifest — Edward Griffel enters at Rouses Point, N.Y., 26 May 1941
+
+- Type: immigration_manifest
+- Source: Jacob, Griffel family archive, received 10 August 2026
+- People: Edward Griffel
+- Scan: https://rapaportfamily.github.io/assets/documents/griffel_2026_08/photos/I7__1940_edward_griffel.jpg
+- What it records: family_name = GRIFFEL; given_name = Edward; date = May 26 1941; port = Rouses Point, N.Y.; serial = 1194; polish_passport = No. 03317/VII/39, valid to 4/22/42; issued = Montreal 5/26/41; place_of_birth = Nadworna, Poland; age = 38; occupation = Exporter; language = English; race = Hebrew; nationality = Poland; nearest_relative_in_country_whence_he_came = father David Griffel, Kolomyja, Poland
+
+A Griffel who got out. Edward, born in Nadwórna, thirty-eight years old, an exporter, crossed into the United States from Montreal on 26 May 1941 to reside permanently, giving his father David Griffel at Kolomyja as his nearest relative in the country he came from. Doron reports that Basia has now finished the Weitzner side and found many of them emigrated to the United States, settling mainly in New Jersey; this card is the same movement on the Griffel side, and it is dated eight months before the family in Galicia was destroyed.
 
 
 ## Zygmunt Griffel — Sejm Album industrial feature, 1934/35

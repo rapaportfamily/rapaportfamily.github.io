@@ -65,7 +65,7 @@ Download any of these directly. **Never put a name on anything marked UNIDENTIFI
   Translation: Lusia Rapaport (pictured)  
   Note: The back cover of the book. It carries no caption of its own — the blurb beside it names her, “Lusia Rapaport (pictured)”. Undated; the memoir was dictated in 1986. It is the clearest photograph of her the archive holds.
 
-## Portraits of named people (16)
+## Portraits of named people (12)
 
 - Dov Rapaport — https://rapaportfamily.github.io/assets/research_images/memoir/shimon_holding_baby_dov.jpg  
   Dov as an infant in Brussels, held by his brother Shimon — from their mother’s memoir, page 61, captioned “Shimon ‘the big one’ holding his baby brother, Dov”. He was born 28 August 1946.
@@ -87,18 +87,10 @@ Download any of these directly. **Never put a name on anything marked UNIDENTIFI
   Elias Weitzner with his daughter Lusia in Israel — from her memoir, page 66, captioned “Lusia with her father, in Israel”. He had emigrated in the 1930s; she stayed behind to finish her studies, and the war came.
 - Matel (Mathilde) Weitzner (née Weinreb) — https://rapaportfamily.github.io/assets/research_images/memoir/matel_weinreb_portrait.jpg  
   Matel Weinreb — from her daughter’s memoir, page 67, captioned simply “Lusia’s mother”. The only photograph of her the archive holds.
-- Dr Jacob Griffel — https://rapaportfamily.github.io/assets/documents/griffel_2026_08/photos/I16__jacob_griffel.jpg  
-  Dr Jacob Griffel — from Jacob’s Griffel archive.
-- Zygmunt Griffel — https://rapaportfamily.github.io/assets/documents/griffel_2026_08/photos/I6__p_zygmunt_griffel.jpg  
-  Zygmunt Griffel — from Jacob’s Griffel archive.
-- Edward Griffel — https://rapaportfamily.github.io/assets/documents/griffel_2026_08/photos/I7__1940_edward_griffel.jpg  
-  Edward Griffel — from Jacob’s Griffel archive.
 - Lea Rapaport (m. Segal / Fridman) — https://rapaportfamily.github.io/assets/documents/basia_2026_08/lea_rapaport_segal_portrait.jpg  
   Lea Rapaport, later Segal and then Fridman — David’s first cousin, daughter of his uncle Simon. Born 10 November 1912, eleven months after David.
 - Inge Nussbaum (née Rosenbusch) — https://rapaportfamily.github.io/assets/research_images/period/inge_nussbaum_1945.jpg  
   Inge Nussbaum née Rosenbusch, c.1945 — from her husband’s citizenship application
-- Leibisch Griffel — https://rapaportfamily.github.io/assets/documents/griffel_2026_08/photos/I19__getto_leibisch_griffel.jpg  
-  Leibisch Griffel — from Jacob’s Griffel archive.
 
 ## Dov’s four journeys back (120 photographs)
 

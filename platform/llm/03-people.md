@@ -74,7 +74,7 @@ The wider trees hold far more: 1442 Rapaports across 480 families, and 390 Griff
 - **Shaye Griffel** (1883–1943)
 - **Szymon (Simon) Rapaport** (1884–), born pl_radomysl_wielki
 - **Leibish Griffel** (1885–), born pl_nadworna
-- **Leibisch Griffel** (1885-05-16–), born Nadwórna · portrait: https://rapaportfamily.github.io/assets/documents/griffel_2026_08/photos/I19__getto_leibisch_griffel.jpg
+- **Leibisch Griffel** (1885-05-16–), born Nadwórna
 - **Berisz / Bernard / Dov Rapaport** (1886-07-30–1942-03-29), born pl_radomysl_wielki · portrait: https://rapaportfamily.github.io/assets/documents/basia_2026_08/berish_rapaport_portrait_1924.jpg
 - **Jente Rapaport** (1887–), born pl_radomysl_wielki
 - **Benjamin Griffel** (1887–), born pl_nadworna
@@ -89,11 +89,11 @@ The wider trees hold far more: 1442 Rapaports across 480 families, and 390 Griff
 - **Mendel Eachem Horowitz** (1892–), born pl_sokal
 - **Rachel Griffel-Ohrenstein** (1892–), born pl_nadworna
 - **Rebeka Rapaport (Berisz's sister)** (1896–), born pl_radomysl_wielki
-- **Zygmunt Griffel** (1897–1951-05-16), born pl_nadworna · portrait: https://rapaportfamily.github.io/assets/documents/griffel_2026_08/photos/I6__p_zygmunt_griffel.jpg
+- **Zygmunt Griffel** (1897–1951-05-16), born pl_nadworna
 - **Bernard Griffel (NYC)** (1899–1962-12-13), born pl_nadworna
-- **Dr Jacob Griffel** (1900–1962), born pl_nadworna · portrait: https://rapaportfamily.github.io/assets/documents/griffel_2026_08/photos/I16__jacob_griffel.jpg
+- **Dr Jacob Griffel** (1900–1962), born pl_nadworna
 - **Regina Gelles (née Griffel)** (1900-03-18–1954), born pl_nadworna
-- **Edward Griffel** (1904-10-09–1959-02-08), born pl_nadworna · portrait: https://rapaportfamily.github.io/assets/documents/griffel_2026_08/photos/I7__1940_edward_griffel.jpg
+- **Edward Griffel** (1904-10-09–1959-02-08), born pl_nadworna
 - **Shlomo Goldfischer** (1909-11-23–), born pl_skole
 - **Feige / Tzipora Weitzner** (1911–), born pl_bolechow
 - **Susan Manson Griffel** (1911–1978-06-22)
