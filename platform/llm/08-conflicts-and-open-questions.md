@@ -10,7 +10,7 @@ This archive publishes disagreements rather than resolving them quietly. A film 
 - **David’s birthplace.** Nadwórna per the birth certificate found in Warsaw; "Cieszyn/Tesin" on the 1946 Brussels DP card, most likely a clerk mishearing.
 - **A birth register filed 1849** where this archive holds 1850.
 
-## Open questions (18)
+## Open questions (20)
 
 - Did Szabse Rapaport die in 1884 or in 1897 — and is he the same man as Shabtai Rappaport, head of the rabbinical court of Dąbrowa?  *(open — conflicting sources)*
 - Why did David go to Palestine first, with nine-year-old Shimon, and leave Lusia and the baby Dov behind in Brussels — even at the cost of a year behind wire in Cyprus?  *(RESOLVED — answered by the memoir, page 63)*
@@ -30,3 +30,5 @@ This archive publishes disagreements rather than resolving them quietly. A film 
 - Who were Moses Saul Rapaport's parents — were they Shabtai (Szabse) + Ita Feigi?  *(RESOLVED — Szabse Rapaport and Ita Feiga Jahr, corroborated 5 August 2026)*
 - Did Jente Rapaport survive the war, and what became of her line?  *(RESOLVED — Jente survived; lived in Liège with her daughter Szewa in 1946)*
 - Is Markus Türkel (m. Szewa Horowitz, Liège 1946) the same as Mordechai 'Max' Levi-Turkel (m. Margalit Halperin, Palestine 1947)?  *(open — conflicting records)*
+- Which camp in Prague did Lusia come from, and when was she there? Her DP card and the 1945 residence request both say she came from a camp in Prague. Nothing else in this archive — and nothing in her own memoir — mentions Prague at all.  *(open)*
+- Why do both Rapaport DP cards give a wrong birthplace — Haifa for Lusia, Cieszyn for David — and does the fact that Lusia’s stated destination was Palestine bear on it? No source states a reason.  *(open)*

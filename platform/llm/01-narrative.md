@@ -90,6 +90,10 @@ But David had been registered as a Displaced Person in Brussels since 9 April 19
 ## 6. Brussels — and Dov  
 *1946*
 
+And she was there first. For as long as this archive has existed, the earliest Brussels record in it was David’s Displaced Persons card of 9 April 1946. On 19 August 2026 Basia sent Lusia’s: she registered in the same city on 26 DECEMBER 1945, three and a half months earlier, signing it "Rapaport Lea" while the clerk filed her under her maiden name. Two days later a Jewish aid society asked the Belgians to let her stay six months; on 7 February 1946 the Ministry of Justice agreed, on condition the permission was marked "with a view to emigration" — she could be in Belgium only while waiting to leave it. She was living at 250 rue des Coteaux in Schaerbeek. Dov was born under that arrangement. Her card carries two things nobody can yet explain: it says she came from a camp in Prague, which appears nowhere else and not in her own book; and it gives her birthplace as Haifa, Palestine. She was born in Bolechów. David’s card of the same series names Cieszyn, also wrong. Two cards, two wrong birthplaces — and on hers, under destination, the word Palestine.
+
+> Sources: doc_lusia_1945_dp_card; doc_lusia_1945_residence_request; doc_lusia_1945_stay_permit_1946; doc_david_dp_card
+
 David's Displaced Persons card describes a forestry engineer, Polish nationality stripped in 1942, speaking Polish, Italian, German, Czech and Russian. It is the only document that reaches across from the war into what came after.
 
 > Sources: DIPIS card, Brussels, 9 April 1946

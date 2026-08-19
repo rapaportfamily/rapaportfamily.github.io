@@ -543,6 +543,71 @@
       "doc_lusia_memoir"
      ],
      "value_he": "בידה היה אפידביט לארצות הברית, ששלח קרובו של בעלה דוד גריפל, והיא עמדה שנייה במכסה האמריקאית. אביה, שכבר היה בארץ ישראל, האיץ בה לקבלו. היא סירבה, ובלבד שלא להיפרד שוב מדוד ומשמעון. יומן, עמ׳ 64."
+    },
+    {
+     "key": "brussels_1945",
+     "value": {
+      "en": "She was in Brussels by 26 December 1945, when she registered as a displaced person and signed the card \"Rapaport Lea\". That is three and a half months before David registered in the same city on 9 April 1946, and eight months before Dov was born there. Until this card was read, the earliest Brussels record this archive held was David’s.",
+      "he": "היא הייתה בבריסל כבר ב-26 בדצמבר 1945, כשנרשמה כעקורה וחתמה על הכרטיס ״רפפורט לאה״. זהו שלושה חודשים וחצי לפני שדוד נרשם באותה עיר ב-9 באפריל 1946, ושמונה חודשים לפני שנולד שם דב. עד לקריאת הכרטיס הזה, הרשומה הבריסלית המוקדמת ביותר שהחזיק הארכיון הייתה של דוד."
+     },
+     "confidence": "documented",
+     "sources": [
+      "doc_lusia_1945_dp_card",
+      "doc_lusia_1945_residence_request",
+      "doc_lusia_1945_stay_permit_1946"
+     ]
+    },
+    {
+     "key": "prague_camp",
+     "value": {
+      "en": "Both her registration card and the residence request say she came from a camp in PRAGUE — \"Vient de Prague\". Nothing else in this archive, and nothing in her own memoir, mentions Prague. Which camp, and when, is unknown.",
+      "he": "גם כרטיס הרישום שלה וגם בקשת השהייה אומרים שהגיעה ממחנה בפראג — ״Vient de Prague״. שום דבר אחר בארכיון, ושום דבר בספר הזיכרונות שלה, אינו מזכיר את פראג. איזה מחנה, ומתי — לא ידוע."
+     },
+     "confidence": "documented",
+     "sources": [
+      "doc_lusia_1945_dp_card",
+      "doc_lusia_1945_residence_request",
+      "doc_lusia_1945_stay_permit_1946"
+     ]
+    },
+    {
+     "key": "birthplace_haifa_on_the_form",
+     "value": {
+      "en": "Her DP card gives her birthplace as HAIFA, PALESTINE and her birth date as 8.4.1916. She was born in Bolechów. David’s card of the same series gives his birthplace as Cieszyn, also wrong. On Lusia’s card the desired destination is Palestine. The archive records the pattern and asserts no motive. The date 8.4.1916 is one of the three dates already held in conflict for her, and this is the earliest document to carry it.",
+      "he": "כרטיס העקורים שלה נוקב במקום לידתה חיפה, פלשתינה ובתאריך לידתה 8.4.1916. היא נולדה בבולחוב. בכרטיסו של דוד מאותה סדרה רשום צ׳ישין, גם הוא שגוי. בכרטיסה של לוסיה היעד המבוקש הוא פלשתינה. הארכיון רושם את הדפוס ואינו טוען למניע. התאריך 8.4.1916 הוא אחד משלושת התאריכים שכבר מצויים במחלוקת לגביה, וזהו המסמך המוקדם ביותר הנושא אותו."
+     },
+     "confidence": "documented",
+     "sources": [
+      "doc_lusia_1945_dp_card",
+      "doc_lusia_1945_residence_request",
+      "doc_lusia_1945_stay_permit_1946"
+     ]
+    },
+    {
+     "key": "address_brussels_1945",
+     "value": {
+      "en": "Her address in Brussels: 250 rue des Coteaux, Schaerbeek. She was living there in December 1945 and still under the same permit when Dov was born on 28 August 1946.",
+      "he": "כתובתה בבריסל: רחוב דה קוטו 250, סכרבק. שם התגוררה בדצמבר 1945, ותחת אותו היתר עצמו כשנולד דב ב-28 באוגוסט 1946."
+     },
+     "confidence": "documented",
+     "sources": [
+      "doc_lusia_1945_dp_card",
+      "doc_lusia_1945_residence_request",
+      "doc_lusia_1945_stay_permit_1946"
+     ]
+    },
+    {
+     "key": "parents_on_the_dp_card",
+     "value": {
+      "en": "The card names her father Elias and gives her mother’s maiden name as MATHILDE WEINREB — the Weitzner–Weinreb line Basia has been reconstructing. A contemporary document, signed by Lusia herself, for a couple this archive had only from later testimony.",
+      "he": "הכרטיס נוקב בשם אביה אליאס ובשם נעוריה של אמה — מתילדה ויינרב — קו ויצנר־ויינרב שבסיה משחזרת. מסמך בן הזמן, חתום בידי לוסיה עצמה, על זוג שהארכיון הכיר עד כה רק מעדות מאוחרת."
+     },
+     "confidence": "documented",
+     "sources": [
+      "doc_lusia_1945_dp_card",
+      "doc_lusia_1945_residence_request",
+      "doc_lusia_1945_stay_permit_1946"
+     ]
     }
    ],
    "birth_date": "1913-04-08",
@@ -554,7 +619,12 @@
     "en": "Lusia on horseback in Bolechów, before the war — from her own memoir, where the caption reads “Lajka on the horse”. Lajka was her nickname; the same page says she never knew what it meant. Her father called her wild, “like a naughty boy”. This is the earliest photograph of her the archive holds.",
     "he": "לוסיה על סוס בבולחוב, לפני המלחמה — מתוך יומנה שלה. הכיתוב שמתחת לתמונה בספר הוא ״לייקה״ על הסוס: לייקה היה כינויה, ובאותו עמוד היא כותבת שמעולם לא ידעה מה פירושו. אביה קרא לה פראית, ״כמו ילד שובב״. זו התמונה המוקדמת ביותר שלה שבארכיון."
    },
-   "photo_credit": "From the memoir of Lusia Rapaport, dictated 1986, page 9 — family copy. Scan descreened and contrast-corrected; no detail added."
+   "photo_credit": "From the memoir of Lusia Rapaport, dictated 1986, page 9 — family copy. Scan descreened and contrast-corrected; no detail added.",
+   "sources": [
+    "doc_lusia_1945_dp_card",
+    "doc_lusia_1945_residence_request",
+    "doc_lusia_1945_stay_permit_1946"
+   ]
   },
   {
    "id": "p_shimon",

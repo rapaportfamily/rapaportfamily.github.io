@@ -4382,6 +4382,135 @@
     "he": "ארבעה אלבומים, 121 פריימים, 120 פורסמו. אין אלה חופשות. פשמישל היא המקום שבו היו בעריש ורבקה עם פרוץ המלחמה — פנקס המחנה נוקב בה כמקום מגוריו של בעריש, וספר הזיכרונות אומר שהגרמנים הרגו שם את אחד מהוריו. בריסל היא המקום שבו נולד דב ב-1946. קטוביץ היא עיירת ההיפרדות מפרק 5. ורשה היא העיר שנמחקה ונבנתה מחדש. דב עבר בהן ברגל וברכב עם בנו וצילם את מה שראה. כל פריים נבדק לפני הפרסום; אחד הושאר בחוץ, שירותים בבית מלון, ואמירת מה הושאר היא חלק מן הבדיקה."
    },
    "status": "read"
+  },
+  {
+   "id": "doc_lusia_1945_dp_card",
+   "file_pages": [
+    "basia_2026_08_19/lusia_dp_card_1945_front.jpg",
+    "basia_2026_08_19/lusia_dp_card_1945_back.jpg"
+   ],
+   "kind": "image",
+   "type": "dp_card",
+   "primary_language": "fr",
+   "film_priority": "high",
+   "film_note": "FILM — USE THIS. The strongest new evidence in the archive, and it changes the order of chapter 5: Lusia reached Brussels three and a half months before David.",
+   "title": {
+    "en": "Lusia’s own Displaced Persons card, Brussels, 26 December 1945",
+    "he": "כרטיס העקורים של לוסיה עצמה, בריסל, 26 בדצמבר 1945",
+    "pl": "Karta dipisa Łucji, Bruksela, 26 grudnia 1945",
+    "fr": "Fiche de personne déplacée de Lusia, Bruxelles, 26 décembre 1945"
+   },
+   "source_archive": "Basia, received 19 August 2026. Same series and provenance as David’s card: Commissariat Belge au Rapatriement, received by the BVM on 3 October 1969.",
+   "related_people": [
+    "p_leah",
+    "p_david",
+    "p_dov_bernard"
+   ],
+   "decoded_fields": {
+    "annotation_top_left": "ép.se RAPAPORT — wife of Rapaport",
+    "family_name": "WEITZNER",
+    "given_name": "Léa",
+    "signature_of_registrant": "Rapaport Lea",
+    "claimed_nationality": "Polonaise",
+    "religion": "Israélite",
+    "birthdate_as_written": "8.4.1916",
+    "birthplace_as_written": "Haifa, Palestine — SHE WAS BORN IN BOLECHÓW",
+    "father": "Elias",
+    "mother_maiden_name": "Mathilde Weinreb",
+    "desired_destination": "Palestine",
+    "last_residence_1_january_1938": "Lemberg (Lwów), Pologne",
+    "languages_in_order": "German, Polish, Russian",
+    "prisoner_of_war": "No",
+    "date": "26.12.45",
+    "assembly_center": "Bru.",
+    "remarks": "Vient de Prague — se rend en Palestine  (Comes from Prague — going to Palestine)"
+   },
+   "summary": {
+    "en": "Lusia’s own card, the twin of David’s. She registered in Brussels on 26 December 1945 — three and a half months BEFORE he did on 9 April 1946, and eight months before Dov was born there. She signed it Rapaport Lea while the clerk filed her under her maiden name and added \"ép.se Rapaport\" at the top. Three things it gives us. Her parents: father Elias, mother’s maiden name MATHILDE WEINREB — the Weitzner–Weinreb line. The remark \"Vient de Prague\" — she came from a camp in Prague, which nothing else in this archive mentions and which is now an open question. And a birthplace that is simply wrong: HAIFA, PALESTINE. She was born in Bolechów. David’s card of the same series gives Cieszyn, also wrong. Two cards, two wrong birthplaces — and on Lusia’s the desired destination is Palestine. The archive records the pattern and asserts no motive.",
+    "he": "כרטיסה של לוסיה עצמה, תאומו של כרטיס דוד. היא נרשמה בבריסל ב-26 בדצמבר 1945 — שלושה חודשים וחצי לפניו, שנרשם ב-9 באפריל 1946, ושמונה חודשים לפני שנולד שם דב. היא חתמה ״רפפורט לאה״, בעוד הפקיד תייק אותה בשם נעוריה והוסיף למעלה ״ép.se Rapaport״. שלושה דברים עולים מכאן. הוריה: האב אליאס, ושם נעוריה של האם מתילדה ויינרב — קו ויצנר־ויינרב. ההערה ״Vient de Prague״ — היא הגיעה ממחנה בפראג, דבר שאינו נזכר בשום מקום אחר בארכיון והוא כעת שאלה פתוחה. ומקום לידה שפשוט אינו נכון: חיפה, פלשתינה. היא נולדה בבולחוב. בכרטיסו של דוד מאותה סדרה רשום צ׳ישין, גם הוא שגוי. שני כרטיסים, שני מקומות לידה שגויים — ובכרטיסה של לוסיה היעד המבוקש הוא פלשתינה. הארכיון רושם את הדפוס ואינו טוען למניע."
+   },
+   "status": "read",
+   "open_questions": [
+    {
+     "en": "WHICH camp in Prague, and when was she there? Nothing else in this archive mentions Prague at all.",
+     "he": "איזה מחנה בפראג, ומתי הייתה שם? שום דבר אחר בארכיון אינו מזכיר את פראג כלל."
+    },
+    {
+     "en": "Why is her birthplace given as Haifa? Her stated destination on the same card is Palestine. No source states a reason.",
+     "he": "מדוע נרשם מקום לידתה כחיפה? היעד המבוקש באותו כרטיס הוא פלשתינה. שום מקור אינו נוקב בסיבה."
+    }
+   ]
+  },
+  {
+   "id": "doc_lusia_1945_residence_request",
+   "file_pages": [
+    "basia_2026_08_19/lusia_residence_request_1945-12-28.pdf"
+   ],
+   "kind": "image",
+   "type": "residence_application",
+   "primary_language": "fr",
+   "film_priority": "high",
+   "film_note": "FILM — USE THIS. The strongest new evidence in the archive, and it changes the order of chapter 5: Lusia reached Brussels three and a half months before David.",
+   "title": {
+    "en": "Request for temporary residence in Belgium, 28 December 1945",
+    "he": "בקשה לשהייה זמנית בבלגיה, 28 בדצמבר 1945",
+    "pl": "Prośba o pobyt tymczasowy w Belgii, 28 grudnia 1945",
+    "fr": "Demande de séjour temporaire en Belgique, 28 décembre 1945"
+   },
+   "source_archive": "Basia, received 19 August 2026. Transcribed and translated by Basia.",
+   "related_people": [
+    "p_leah"
+   ],
+   "decoded_fields": {
+    "body": "International Refugee Committee, Belgian Branch",
+    "submitted_by": "the association \"Aid to Jewish Victims of War\"",
+    "on_behalf_of": "Lea Weitzner, born Haifa 8.04.1916, Polish",
+    "residence_abroad": "Lwów",
+    "address_in_belgium": "250 rue des Coteaux, Schaerbeek",
+    "reason_for_stay": "came from a camp in Prague, awaiting departure for Palestine",
+    "duration_requested": "6 months",
+    "dated": "Brussels, 28 December 1945"
+   },
+   "summary": {
+    "en": "Two days after she registered as a displaced person, a Jewish aid society asked the Belgian authorities to let her stay six months. It repeats the two strange things from her card — born Haifa, came from a camp in Prague — and adds an address: 250 rue des Coteaux, Schaerbeek. That is where Lusia was living in Brussels, and where she was still living when Dov was born eight months later.",
+    "he": "יומיים אחרי שנרשמה כעקורה, ביקשה אגודת סיוע יהודית מן הרשויות הבלגיות להתיר לה שהייה של שישה חודשים. הבקשה חוזרת על שני הדברים המוזרים שבכרטיסה — ילידת חיפה, הגיעה ממחנה בפראג — ומוסיפה כתובת: רחוב דה קוטו 250, סכרבק. שם התגוררה לוסיה בבריסל, ושם התגוררה גם כשנולד דב שמונה חודשים לאחר מכן."
+   },
+   "status": "read"
+  },
+  {
+   "id": "doc_lusia_1945_stay_permit_1946",
+   "file_pages": [
+    "basia_2026_08_19/lusia_stay_permit_1946-02-07.pdf"
+   ],
+   "kind": "image",
+   "type": "residence_permit",
+   "primary_language": "fr",
+   "film_priority": "medium",
+   "title": {
+    "en": "Belgian Ministry of Justice — permission to stay pending emigration, 7 February 1946",
+    "he": "משרד המשפטים הבלגי — אישור שהייה עד ההגירה, 7 בפברואר 1946",
+    "pl": "Belgijskie Ministerstwo Sprawiedliwości — zezwolenie na pobyt, 7 lutego 1946",
+    "fr": "Ministère de la Justice — autorisation de séjour en attendant l’émigration, 7 février 1946"
+   },
+   "source_archive": "Basia, received 19 August 2026",
+   "related_people": [
+    "p_leah"
+   ],
+   "decoded_fields": {
+    "ministry": "Ministère de la Justice, Administration de la Police des Étrangers",
+    "reference": "No. 2063253",
+    "dated": "Bruxelles, 7.2.1946",
+    "addressed_to": "the Chief Commissioner of Police, Schaerbeek",
+    "under_cover_of": "Comité Intergouvernemental pour réfugiés",
+    "authorisation": "authorised to stay in Belgium pending emigration",
+    "certificate": "MODÈLE C, bearing the mention \"EN VUE D’ÉMIGRATION\"",
+    "validity": "three months, renewable for two further periods of three months"
+   },
+   "summary": {
+    "en": "The state answering. Six weeks after the aid society asked, the Ministry of Justice told the Schaerbeek police to enter her in the aliens’ register and issue a Modèle C certificate marked EN VUE D’ÉMIGRATION — permission to be in Belgium only while waiting to leave it. Three months at a time, twice renewable. Dov was born under this arrangement.",
+    "he": "תשובת המדינה. שישה שבועות אחרי בקשת אגודת הסיוע הורה משרד המשפטים למשטרת סכרבק לרשום אותה בפנקס הזרים ולהנפיק תעודת ״Modèle C״ נושאת הכיתוב EN VUE D’ÉMIGRATION — היתר לשהות בבלגיה רק כל עוד היא ממתינה לעזוב אותה. שלושה חודשים בכל פעם, הניתנים להארכה פעמיים. דב נולד תחת ההסדר הזה."
+   },
+   "status": "read"
   }
  ],
  "additional_files": [

@@ -23,9 +23,9 @@
  "counts": {
   "curated_people": 188,
   "people_with_a_portrait": 16,
-  "documents": 126,
+  "documents": 129,
   "document_types": {
-   "dp_card": 1,
+   "dp_card": 2,
    "birth_record": 7,
    "ckzp_registration": 2,
    "press_record": 1,
@@ -62,7 +62,9 @@
    "gedcom_tree": 1,
    "yad_vashem_page_of_testimony": 1,
    "coverage_audit": 1,
-   "photograph_album": 1
+   "photograph_album": 1,
+   "residence_application": 1,
+   "residence_permit": 1
   },
   "rapaport_tree": {
    "people": 1442,
@@ -84,7 +86,7 @@
   "dov_trip_photographs": 120,
   "unidentified_photographs": 60,
   "timeline_events": 45,
-  "open_questions": 18,
+  "open_questions": 20,
   "places": 49
  },
  "data_files": {
@@ -395,6 +397,51 @@
      "value": "She held an affidavit for the United States, sent by her husband’s relative David Grifel, and stood second in the American quota. Her father, already in Palestine, urged her to take it. She refused rather than be separated again from David and Shimon. Memoir p.64.",
      "sources": [
       "doc_lusia_memoir"
+     ]
+    },
+    {
+     "key": "brussels_1945",
+     "value": "She was in Brussels by 26 December 1945, when she registered as a displaced person and signed the card \"Rapaport Lea\". That is three and a half months before David registered in the same city on 9 April 1946, and eight months before Dov was born there. Until this card was read, the earliest Brussels record this archive held was David’s.",
+     "sources": [
+      "doc_lusia_1945_dp_card",
+      "doc_lusia_1945_residence_request",
+      "doc_lusia_1945_stay_permit_1946"
+     ]
+    },
+    {
+     "key": "prague_camp",
+     "value": "Both her registration card and the residence request say she came from a camp in PRAGUE — \"Vient de Prague\". Nothing else in this archive, and nothing in her own memoir, mentions Prague. Which camp, and when, is unknown.",
+     "sources": [
+      "doc_lusia_1945_dp_card",
+      "doc_lusia_1945_residence_request",
+      "doc_lusia_1945_stay_permit_1946"
+     ]
+    },
+    {
+     "key": "birthplace_haifa_on_the_form",
+     "value": "Her DP card gives her birthplace as HAIFA, PALESTINE and her birth date as 8.4.1916. She was born in Bolechów. David’s card of the same series gives his birthplace as Cieszyn, also wrong. On Lusia’s card the desired destination is Palestine. The archive records the pattern and asserts no motive. The date 8.4.1916 is one of the three dates already held in conflict for her, and this is the earliest document to carry it.",
+     "sources": [
+      "doc_lusia_1945_dp_card",
+      "doc_lusia_1945_residence_request",
+      "doc_lusia_1945_stay_permit_1946"
+     ]
+    },
+    {
+     "key": "address_brussels_1945",
+     "value": "Her address in Brussels: 250 rue des Coteaux, Schaerbeek. She was living there in December 1945 and still under the same permit when Dov was born on 28 August 1946.",
+     "sources": [
+      "doc_lusia_1945_dp_card",
+      "doc_lusia_1945_residence_request",
+      "doc_lusia_1945_stay_permit_1946"
+     ]
+    },
+    {
+     "key": "parents_on_the_dp_card",
+     "value": "The card names her father Elias and gives her mother’s maiden name as MATHILDE WEINREB — the Weitzner–Weinreb line Basia has been reconstructing. A contemporary document, signed by Lusia herself, for a couple this archive had only from later testimony.",
+     "sources": [
+      "doc_lusia_1945_dp_card",
+      "doc_lusia_1945_residence_request",
+      "doc_lusia_1945_stay_permit_1946"
      ]
     }
    ]
@@ -1072,6 +1119,20 @@
     "fr": "Bruxelles — et Dov"
    },
    "paragraphs": [
+    {
+     "text": {
+      "en": "And she was there first. For as long as this archive has existed, the earliest Brussels record in it was David’s Displaced Persons card of 9 April 1946. On 19 August 2026 Basia sent Lusia’s: she registered in the same city on 26 DECEMBER 1945, three and a half months earlier, signing it \"Rapaport Lea\" while the clerk filed her under her maiden name. Two days later a Jewish aid society asked the Belgians to let her stay six months; on 7 February 1946 the Ministry of Justice agreed, on condition the permission was marked \"with a view to emigration\" — she could be in Belgium only while waiting to leave it. She was living at 250 rue des Coteaux in Schaerbeek. Dov was born under that arrangement. Her card carries two things nobody can yet explain: it says she came from a camp in Prague, which appears nowhere else and not in her own book; and it gives her birthplace as Haifa, Palestine. She was born in Bolechów. David’s card of the same series names Cieszyn, also wrong. Two cards, two wrong birthplaces — and on hers, under destination, the word Palestine.",
+      "he": "והיא הייתה שם ראשונה. מאז קיומו של הארכיון הזה, הרשומה הבריסלית המוקדמת ביותר שבו הייתה כרטיס העקורים של דוד מ-9 באפריל 1946. ב-19 באוגוסט 2026 שלחה בסיה את כרטיסה של לוסיה: היא נרשמה באותה עיר ב-26 בדצמבר 1945, שלושה חודשים וחצי קודם לכן, וחתמה ״רפפורט לאה״ בעוד הפקיד מתייק אותה בשם נעוריה. יומיים לאחר מכן ביקשה אגודת סיוע יהודית מן הבלגים להתיר לה שהייה של שישה חודשים; ב-7 בפברואר 1946 הסכים משרד המשפטים, בתנאי שההיתר יסומן ״לקראת הגירה״ — מותר לה לשהות בבלגיה רק כל עוד היא ממתינה לעזוב אותה. היא התגוררה ברחוב דה קוטו 250 בסכרבק. דב נולד תחת ההסדר הזה. כרטיסה נושא שני דברים שאיש אינו יכול עדיין להסביר: כתוב בו שהגיעה ממחנה בפראג, דבר שאינו מופיע בשום מקום אחר ואף לא בספרה שלה; ומקום לידתה רשום כחיפה, פלשתינה. היא נולדה בבולחוב. בכרטיסו של דוד מאותה סדרה רשום צ׳ישין, גם הוא שגוי. שני כרטיסים, שני מקומות לידה שגויים — ובכרטיסה, תחת יעד, המילה פלשתינה.",
+      "pl": "I to ona była tam pierwsza. Najwcześniejszym brukselskim dokumentem w tym archiwum była karta dipisa Dawida z 9 kwietnia 1946. 19 sierpnia 2026 Basia przysłała kartę Łucji: zarejestrowała się w tym samym mieście 26 GRUDNIA 1945, trzy i pół miesiąca wcześniej, podpisując się \"Rapaport Lea\". 7 lutego 1946 Ministerstwo Sprawiedliwości zezwoliło jej na pobyt \"w celu emigracji\". Mieszkała przy 250 rue des Coteaux w Schaerbeek. Tam urodził się Dow. Karta mówi też, że przyjechała z obozu w Pradze — czego nie ma nigdzie indziej — i podaje jako miejsce urodzenia Hajfę w Palestynie. Urodziła się w Bolechowie.",
+      "fr": "Et c’est elle qui est arrivée la première. Le plus ancien document bruxellois de ces archives était la fiche de David, du 9 avril 1946. Le 19 août 2026, Basia a envoyé celle de Lusia : elle s’est enregistrée dans la même ville le 26 DÉCEMBRE 1945, trois mois et demi plus tôt, signant « Rapaport Lea ». Le 7 février 1946, le ministère de la Justice l’autorise à séjourner « en vue de l’émigration ». Elle habitait 250 rue des Coteaux, à Schaerbeek. Dov y est né. Sa fiche dit aussi qu’elle venait d’un camp à Prague — introuvable ailleurs — et donne pour lieu de naissance Haïfa, Palestine. Elle est née à Bolechów."
+     },
+     "sources": [
+      "doc_lusia_1945_dp_card",
+      "doc_lusia_1945_residence_request",
+      "doc_lusia_1945_stay_permit_1946",
+      "doc_david_dp_card"
+     ]
+    },
     {
      "text": {
       "en": "David's Displaced Persons card describes a forestry engineer, Polish nationality stripped in 1942, speaking Polish, Italian, German, Czech and Russian. It is the only document that reaches across from the war into what came after.",
@@ -4732,6 +4793,117 @@
     "David (Memek) Rapaport",
     "Berisz / Bernard / Dov Rapaport",
     "Rebeka / Regina Rapaport (née Griffel)"
+   ],
+   "external": null,
+   "status": "read",
+   "open_questions": null
+  },
+  {
+   "id": "doc_lusia_1945_dp_card",
+   "type": "dp_card",
+   "title": {
+    "en": "Lusia’s own Displaced Persons card, Brussels, 26 December 1945",
+    "he": "כרטיס העקורים של לוסיה עצמה, בריסל, 26 בדצמבר 1945",
+    "pl": "Karta dipisa Łucji, Bruksela, 26 grudnia 1945",
+    "fr": "Fiche de personne déplacée de Lusia, Bruxelles, 26 décembre 1945"
+   },
+   "summary_en": "Lusia’s own card, the twin of David’s. She registered in Brussels on 26 December 1945 — three and a half months BEFORE he did on 9 April 1946, and eight months before Dov was born there. She signed it Rapaport Lea while the clerk filed her under her maiden name and added \"ép.se Rapaport\" at the top. Three things it gives us. Her parents: father Elias, mother’s maiden name MATHILDE WEINREB — the Weitzner–Weinreb line. The remark \"Vient de Prague\" — she came from a camp in Prague, which nothing else in this archive mentions and which is now an open question. And a birthplace that is simply wrong: HAIFA, PALESTINE. She was born in Bolechów. David’s card of the same series gives Cieszyn, also wrong. Two cards, two wrong birthplaces — and on Lusia’s the desired destination is Palestine. The archive records the pattern and asserts no motive.",
+   "decoded_fields": {
+    "annotation_top_left": "ép.se RAPAPORT — wife of Rapaport",
+    "family_name": "WEITZNER",
+    "given_name": "Léa",
+    "signature_of_registrant": "Rapaport Lea",
+    "claimed_nationality": "Polonaise",
+    "religion": "Israélite",
+    "birthdate_as_written": "8.4.1916",
+    "birthplace_as_written": "Haifa, Palestine — SHE WAS BORN IN BOLECHÓW",
+    "father": "Elias",
+    "mother_maiden_name": "Mathilde Weinreb",
+    "desired_destination": "Palestine",
+    "last_residence_1_january_1938": "Lemberg (Lwów), Pologne",
+    "languages_in_order": "German, Polish, Russian",
+    "prisoner_of_war": "No",
+    "date": "26.12.45",
+    "assembly_center": "Bru.",
+    "remarks": "Vient de Prague — se rend en Palestine  (Comes from Prague — going to Palestine)"
+   },
+   "files": [
+    "platform/assets/documents/basia_2026_08_19/lusia_dp_card_1945_front.jpg",
+    "platform/assets/documents/basia_2026_08_19/lusia_dp_card_1945_back.jpg"
+   ],
+   "people": [
+    "Leah Lusha Rapaport (née Weitzner)",
+    "David (Memek) Rapaport",
+    "Dov Rapaport"
+   ],
+   "external": null,
+   "status": "read",
+   "open_questions": [
+    {
+     "en": "WHICH camp in Prague, and when was she there? Nothing else in this archive mentions Prague at all.",
+     "he": "איזה מחנה בפראג, ומתי הייתה שם? שום דבר אחר בארכיון אינו מזכיר את פראג כלל."
+    },
+    {
+     "en": "Why is her birthplace given as Haifa? Her stated destination on the same card is Palestine. No source states a reason.",
+     "he": "מדוע נרשם מקום לידתה כחיפה? היעד המבוקש באותו כרטיס הוא פלשתינה. שום מקור אינו נוקב בסיבה."
+    }
+   ]
+  },
+  {
+   "id": "doc_lusia_1945_residence_request",
+   "type": "residence_application",
+   "title": {
+    "en": "Request for temporary residence in Belgium, 28 December 1945",
+    "he": "בקשה לשהייה זמנית בבלגיה, 28 בדצמבר 1945",
+    "pl": "Prośba o pobyt tymczasowy w Belgii, 28 grudnia 1945",
+    "fr": "Demande de séjour temporaire en Belgique, 28 décembre 1945"
+   },
+   "summary_en": "Two days after she registered as a displaced person, a Jewish aid society asked the Belgian authorities to let her stay six months. It repeats the two strange things from her card — born Haifa, came from a camp in Prague — and adds an address: 250 rue des Coteaux, Schaerbeek. That is where Lusia was living in Brussels, and where she was still living when Dov was born eight months later.",
+   "decoded_fields": {
+    "body": "International Refugee Committee, Belgian Branch",
+    "submitted_by": "the association \"Aid to Jewish Victims of War\"",
+    "on_behalf_of": "Lea Weitzner, born Haifa 8.04.1916, Polish",
+    "residence_abroad": "Lwów",
+    "address_in_belgium": "250 rue des Coteaux, Schaerbeek",
+    "reason_for_stay": "came from a camp in Prague, awaiting departure for Palestine",
+    "duration_requested": "6 months",
+    "dated": "Brussels, 28 December 1945"
+   },
+   "files": [
+    "platform/assets/documents/basia_2026_08_19/lusia_residence_request_1945-12-28.pdf"
+   ],
+   "people": [
+    "Leah Lusha Rapaport (née Weitzner)"
+   ],
+   "external": null,
+   "status": "read",
+   "open_questions": null
+  },
+  {
+   "id": "doc_lusia_1945_stay_permit_1946",
+   "type": "residence_permit",
+   "title": {
+    "en": "Belgian Ministry of Justice — permission to stay pending emigration, 7 February 1946",
+    "he": "משרד המשפטים הבלגי — אישור שהייה עד ההגירה, 7 בפברואר 1946",
+    "pl": "Belgijskie Ministerstwo Sprawiedliwości — zezwolenie na pobyt, 7 lutego 1946",
+    "fr": "Ministère de la Justice — autorisation de séjour en attendant l’émigration, 7 février 1946"
+   },
+   "summary_en": "The state answering. Six weeks after the aid society asked, the Ministry of Justice told the Schaerbeek police to enter her in the aliens’ register and issue a Modèle C certificate marked EN VUE D’ÉMIGRATION — permission to be in Belgium only while waiting to leave it. Three months at a time, twice renewable. Dov was born under this arrangement.",
+   "decoded_fields": {
+    "ministry": "Ministère de la Justice, Administration de la Police des Étrangers",
+    "reference": "No. 2063253",
+    "dated": "Bruxelles, 7.2.1946",
+    "addressed_to": "the Chief Commissioner of Police, Schaerbeek",
+    "under_cover_of": "Comité Intergouvernemental pour réfugiés",
+    "authorisation": "authorised to stay in Belgium pending emigration",
+    "certificate": "MODÈLE C, bearing the mention \"EN VUE D’ÉMIGRATION\"",
+    "validity": "three months, renewable for two further periods of three months"
+   },
+   "files": [
+    "platform/assets/documents/basia_2026_08_19/lusia_stay_permit_1946-02-07.pdf"
+   ],
+   "people": [
+    "Leah Lusha Rapaport (née Weitzner)"
    ],
    "external": null,
    "status": "read",
@@ -10004,6 +10176,33 @@
    "related_places": [
     "pl_liege",
     "pl_haifa"
+   ]
+  },
+  {
+   "id": "h_prague_camp",
+   "status": "open",
+   "question": {
+    "en": "Which camp in Prague did Lusia come from, and when was she there? Her DP card and the 1945 residence request both say she came from a camp in Prague. Nothing else in this archive — and nothing in her own memoir — mentions Prague at all.",
+    "he": "מאיזה מחנה בפראג הגיעה לוסיה, ומתי הייתה שם? גם כרטיס העקורים וגם בקשת השהייה מ-1945 אומרים שהגיעה ממחנה בפראג. שום דבר אחר בארכיון — ושום דבר בספר הזיכרונות שלה — אינו מזכיר את פראג כלל."
+   },
+   "sources": [
+    "doc_lusia_1945_dp_card",
+    "doc_lusia_1945_residence_request",
+    "doc_lusia_1945_stay_permit_1946"
+   ]
+  },
+  {
+   "id": "h_haifa_birthplace",
+   "status": "open",
+   "question": {
+    "en": "Why do both Rapaport DP cards give a wrong birthplace — Haifa for Lusia, Cieszyn for David — and does the fact that Lusia’s stated destination was Palestine bear on it? No source states a reason.",
+    "he": "מדוע שני כרטיסי העקורים של בני רפפורט נוקבים במקום לידה שגוי — חיפה ללוסיה, צ׳ישין לדוד — והאם העובדה שיעדה המוצהר של לוסיה היה פלשתינה נוגעת לכך? שום מקור אינו נוקב בסיבה."
+   },
+   "sources": [
+    "doc_lusia_1945_dp_card",
+    "doc_lusia_1945_residence_request",
+    "doc_lusia_1945_stay_permit_1946",
+    "doc_david_dp_card"
    ]
   }
  ],

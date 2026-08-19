@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-11",
+ "generated": "2026-08-19",
  "note": {
   "en": "Every paragraph names the record it rests on. Where the memoir and the documents disagree, the text says so instead of quietly choosing between them. The wider research has now reached 1,442 people across 480 families, back to Abraham Abe Rapaport, born 1784 at Tarnów. This story stays with four of them — David, Lusia, Shimon and Dov — and the rest is the ground they stood on.",
   "he": "כל פסקה נוקבת ברשומה שעליה היא נשענת. במקום שבו היומן והמסמכים אינם מסכימים, הטקסט אומר זאת במקום לבחור ביניהם בשקט. המחקר הרחב הגיע עד כה ל-1,442 אנשים ב-480 משפחות, אחורה עד אברהם אבה רפפורט, יליד 1784 בטרנוב. הסיפור הזה נשאר עם ארבעה מהם — דוד, לוסיה, שמעון ודב — וכל השאר הוא הקרקע שעליה עמדו.",
@@ -303,6 +303,20 @@
     "fr": "Bruxelles — et Dov"
    },
    "paragraphs": [
+    {
+     "text": {
+      "en": "And she was there first. For as long as this archive has existed, the earliest Brussels record in it was David’s Displaced Persons card of 9 April 1946. On 19 August 2026 Basia sent Lusia’s: she registered in the same city on 26 DECEMBER 1945, three and a half months earlier, signing it \"Rapaport Lea\" while the clerk filed her under her maiden name. Two days later a Jewish aid society asked the Belgians to let her stay six months; on 7 February 1946 the Ministry of Justice agreed, on condition the permission was marked \"with a view to emigration\" — she could be in Belgium only while waiting to leave it. She was living at 250 rue des Coteaux in Schaerbeek. Dov was born under that arrangement. Her card carries two things nobody can yet explain: it says she came from a camp in Prague, which appears nowhere else and not in her own book; and it gives her birthplace as Haifa, Palestine. She was born in Bolechów. David’s card of the same series names Cieszyn, also wrong. Two cards, two wrong birthplaces — and on hers, under destination, the word Palestine.",
+      "he": "והיא הייתה שם ראשונה. מאז קיומו של הארכיון הזה, הרשומה הבריסלית המוקדמת ביותר שבו הייתה כרטיס העקורים של דוד מ-9 באפריל 1946. ב-19 באוגוסט 2026 שלחה בסיה את כרטיסה של לוסיה: היא נרשמה באותה עיר ב-26 בדצמבר 1945, שלושה חודשים וחצי קודם לכן, וחתמה ״רפפורט לאה״ בעוד הפקיד מתייק אותה בשם נעוריה. יומיים לאחר מכן ביקשה אגודת סיוע יהודית מן הבלגים להתיר לה שהייה של שישה חודשים; ב-7 בפברואר 1946 הסכים משרד המשפטים, בתנאי שההיתר יסומן ״לקראת הגירה״ — מותר לה לשהות בבלגיה רק כל עוד היא ממתינה לעזוב אותה. היא התגוררה ברחוב דה קוטו 250 בסכרבק. דב נולד תחת ההסדר הזה. כרטיסה נושא שני דברים שאיש אינו יכול עדיין להסביר: כתוב בו שהגיעה ממחנה בפראג, דבר שאינו מופיע בשום מקום אחר ואף לא בספרה שלה; ומקום לידתה רשום כחיפה, פלשתינה. היא נולדה בבולחוב. בכרטיסו של דוד מאותה סדרה רשום צ׳ישין, גם הוא שגוי. שני כרטיסים, שני מקומות לידה שגויים — ובכרטיסה, תחת יעד, המילה פלשתינה.",
+      "pl": "I to ona była tam pierwsza. Najwcześniejszym brukselskim dokumentem w tym archiwum była karta dipisa Dawida z 9 kwietnia 1946. 19 sierpnia 2026 Basia przysłała kartę Łucji: zarejestrowała się w tym samym mieście 26 GRUDNIA 1945, trzy i pół miesiąca wcześniej, podpisując się \"Rapaport Lea\". 7 lutego 1946 Ministerstwo Sprawiedliwości zezwoliło jej na pobyt \"w celu emigracji\". Mieszkała przy 250 rue des Coteaux w Schaerbeek. Tam urodził się Dow. Karta mówi też, że przyjechała z obozu w Pradze — czego nie ma nigdzie indziej — i podaje jako miejsce urodzenia Hajfę w Palestynie. Urodziła się w Bolechowie.",
+      "fr": "Et c’est elle qui est arrivée la première. Le plus ancien document bruxellois de ces archives était la fiche de David, du 9 avril 1946. Le 19 août 2026, Basia a envoyé celle de Lusia : elle s’est enregistrée dans la même ville le 26 DÉCEMBRE 1945, trois mois et demi plus tôt, signant « Rapaport Lea ». Le 7 février 1946, le ministère de la Justice l’autorise à séjourner « en vue de l’émigration ». Elle habitait 250 rue des Coteaux, à Schaerbeek. Dov y est né. Sa fiche dit aussi qu’elle venait d’un camp à Prague — introuvable ailleurs — et donne pour lieu de naissance Haïfa, Palestine. Elle est née à Bolechów."
+     },
+     "sources": [
+      "doc_lusia_1945_dp_card",
+      "doc_lusia_1945_residence_request",
+      "doc_lusia_1945_stay_permit_1946",
+      "doc_david_dp_card"
+     ]
+    },
     {
      "text": {
       "en": "David's Displaced Persons card describes a forestry engineer, Polish nationality stripped in 1942, speaking Polish, Italian, German, Czech and Russian. It is the only document that reaches across from the war into what came after.",

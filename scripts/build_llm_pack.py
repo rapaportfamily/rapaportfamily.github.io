@@ -109,6 +109,7 @@ So the archive did it for him.
 | `08-conflicts-and-open-questions.md` | What the sources disagree about and what nobody knows |
 | `09-research-story.md` | Who found what, and how — including where we were wrong |
 | `10-film-brief.md` | The film brief |
+| `11-film-highlights.md` | **What is new and must not be missed** — read this first |
 | `99-EVERYTHING.md` | All of the above in one file |
 
 Images are not embedded here — they are files on the site. Every picture in `07-pictures.md`
@@ -345,6 +346,36 @@ Two things, and the site names them both: `Photobook2.pdf`, whose 47 pages are a
 published one by one, and *"Lea and Shimon .pdf"*, a document catalogued from correspondence
 whose scan has never reached us.
 """
+
+# ── 11 film highlights ─────────────────────────
+hot = [d for d in docs if d.get('film_priority') in ('high', 'medium')]
+hot.sort(key=lambda d: (d.get('film_priority') != 'high', d['id']))
+buf = ['# FILM \u2014 what is new, and what must not be missed\n',
+       '\nRead this before writing a script. These are the records the family has flagged as '
+       'carrying the most weight.\n']
+for d in hot:
+    buf.append('\n\n## [%s] %s\n' % (d.get('film_priority', '').upper(), en(d.get('title'))))
+    if d.get('film_note'):
+        buf.append('\n**%s**\n' % d['film_note'])
+    if d.get('source_archive'):
+        buf.append('\n- Source: %s' % d['source_archive'])
+    for f in d.get('file_pages') or []:
+        buf.append('\n- Scan: %sassets/documents/%s' % (BASE, f))
+    df = d.get('decoded_fields') or {}
+    if df:
+        buf.append('\n- What it records: ' + '; '.join(
+            '%s = %s' % (k, v) for k, v in df.items() if not isinstance(v, list)))
+    if en(d.get('summary')):
+        buf.append('\n\n%s\n' % en(d.get('summary')))
+    for q in d.get('open_questions') or []:
+        buf.append('\n> Still unknown: %s\n' % en(q))
+buf.append('\n\n## Expected but not yet here\n')
+buf.append('\nBasia has finished and proofread the WEITZNER family \u2014 Lusia\u2019s side \u2014 '
+           'and reports that many of them emigrated to the United States and settled mainly in '
+           'NEW JERSEY. That material had not arrived when this file was generated. The film '
+           'should not state anything about the American Weitzners beyond the fact that the '
+           'research exists.\n')
+files['11-film-highlights.md'] = ''.join(buf)
 
 # ── 10 film brief (copied from the site's own brief) ────────────────────
 brief_path = os.path.join(SITE, 'docs', 'FILM_BRIEF.md')

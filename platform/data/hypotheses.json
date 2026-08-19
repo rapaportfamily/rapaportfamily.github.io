@@ -1,799 +1,826 @@
 {
-  "_schema": {
-    "description": "Open research questions. Each has competing hypotheses, evidence for/against, status, and next steps.",
-    "statuses": [
-      "open",
-      "active_investigation",
-      "probable_answer",
-      "resolved",
-      "blocked_waiting_archive"
-    ]
-  },
-  "hypotheses": [
-    {
-      "id": "h_szabse_death_year",
-      "question": {
-        "en": "Did Szabse Rapaport die in 1884 or in 1897 — and is he the same man as Shabtai Rappaport, head of the rabbinical court of Dąbrowa?",
-        "he": "האם שבסה רפפורט נפטר ב-1884 או ב-1897 — והאם הוא אותו אדם כמו שבתאי רפפורט, אב״ד דומברובה?"
-      },
-      "priority": "HIGH",
-      "status": "open — conflicting sources",
-      "answer": {
-        "en": "UNRESOLVED, and both readings come from Basia on the same day. Her own descendant chart of Abraham Abe Rapaport gives Szabse Rapaport, born 30 January 1823 at Tarnów, died 1884, married to Ita Feiga Jahr, father of our Moses Saul. On the sheets she marked up from Rosenstein’s \"The Lurie Legacy\", the man she highlights as the same ancestor is Shabtai Rappaport, A.B.D. Dombrowa, died 1897 — and Rosenstein makes him the head of the Weidenfeld family tree. Thirteen years apart. Either they are two men and the line is joined in the wrong place, or one of the death years is wrong. This archive already held a separate note, from MyHeritage in July 2026, of a \"Szabse Rapaport, rabbi of Dąbrowa Tarnowska\" — which fits the Rosenstein man, not the 1884 one. Do not merge them until Basia produces the record behind 1884.",
-        "he": "לא הוכרע, ושתי הקריאות הגיעו מבסיה באותו יום. תרשים הצאצאים שלה של אברהם אבה רפפורט נוקב בשבסה רפפורט, יליד 30 בינואר 1823 בטרנוב, שנפטר ב-1884, נשוי לאיטה פייגה יאהר, אביו של משה שאול שלנו. בגיליונות שסימנה מתוך ״מורשת לוריא״ של רוזנשטיין, האיש שהיא מדגישה כאותו אב קדמון הוא שבתאי רפפורט, אב״ד דומברובה, שנפטר ב-1897 — ורוזנשטיין מציב אותו בראש אילן משפחת ויידנפלד. שלוש עשרה שנות הפרש. או שאלה שני אנשים והקו חובר במקום הלא נכון, או שאחת משנות הפטירה שגויה. בארכיון הזה כבר הייתה רשומה נפרדת, מ-MyHeritage ביולי 2026, על ״שבסה רפפורט, רבה של דומברובה טרנובסקה״ — המתאימה לאיש של רוזנשטיין ולא לזה של 1884. אין לאחד ביניהם עד שבסיה תציג את הרשומה שמאחורי 1884."
-      },
-      "evidence": [
-        "Basia, descendant chart of Abraham Abe Rapaport, 5 August 2026 — Szabse b. 1823.01.30 Tarnów, d. 1884.",
-        "Rosenstein, The Lurie Legacy (2004), Weidenfeld family sheet — Shabtai Rappaport, A.B.D. Dombrowa, d. 1897, as marked by Basia.",
-        "MyHeritage note, July 2026 — Szabse Rapaport, rabbi of Dąbrowa Tarnowska."
-      ],
-      "next_steps": [
-        "Ask Basia which record gives 1884, and whether she has reconciled it with the A.B.D. Dombrowa man she highlighted on the Rosenstein sheet."
-      ],
-      "related_people": [
-        "p_szabse_rapaport",
-        "p_ita_feiga_jahr",
-        "p_moses_saul_rapaport"
-      ],
-      "related_places": [
-        "pl_tarnow",
-        "pl_dabrowa"
-      ]
-    },
-    {
-      "id": "h_why_david_went_first",
-      "question": {
-        "en": "Why did David go to Palestine first, with nine-year-old Shimon, and leave Lusia and the baby Dov behind in Brussels — even at the cost of a year behind wire in Cyprus?",
-        "he": "מדוע עלה דוד ארצה ראשון, עם שמעון בן התשע, והשאיר מאחור בבריסל את לוסיה ואת דב התינוק — ואפילו במחיר שנה מאחורי גדר תיל בקפריסין?",
-        "pl": "Dlaczego Dawid popłynął do Palestyny pierwszy, z dziewięcioletnim Szymonem, zostawiając Lusię i niemowlę Dova w Brukseli — nawet za cenę roku za drutami na Cyprze?",
-        "fr": "Pourquoi David est-il parti le premier pour la Palestine, avec Shimon âgé de neuf ans, laissant Lusia et le bébé Dov à Bruxelles — même au prix d’une année derrière les barbelés à Chypre ?"
-      },
-      "priority": "HIGH",
-      "status": "RESOLVED — answered by the memoir, page 63",
-      "answer": {
-        "en": "It was not impatience, and it was not a choice about who mattered more. The rule made the decision. Lusia writes it plainly on page 63: \"One day Memek said to Lusia that since the family could not go up to the Land together — under Aliyah Bet, mothers with infants were not permitted to sail — they would split in two: he and Shimon would go first, and she and Dovik would join them later.\" Aliyah Bet — the clandestine immigration — would not take mothers with infants, and Dov was a few months old. So the family split along the line the operation drew. What it cost is documented. David and Shimon sailed from Sète on the Theodor Herzl in April 1947, were boarded and turned back, and were interned at Karaolos on Cyprus and then at Atlit; Shimon's release certificate is dated 22 August 1947 and is printed in the memoir. Lusia waited in Brussels with the baby for more than a year, and came only after the State was declared, on the ship Kedma. The separation is written into their own graves: the Haifa burial register gives his year of immigration as 1946 and hers as 1948.",
-        "he": "לא היה זה חוסר סבלנות, ולא הייתה זו הכרעה בשאלה מי חשוב יותר. הכלל הוא שהכריע. לוסיה כותבת זאת במפורש בעמוד 63: ״יום אחד אמר ממק ללוסיה כי מאחר ואין המשפחה יכולה לעלות ביחד ארצה (במסגרת עליה ב׳ לא התאפשרה עליית אמהות עם תינוקות), הם ייתחלקו לשניים: הוא ושמעון יעלו תחילה והיא ודוביק ייצטרפו אליהם מאוחר יותר.״ עליית ב׳ — ההעפלה — לא קיבלה אמהות עם תינוקות, ודב היה בן חודשים אחדים. וכך נחצתה המשפחה בדיוק לאורך הקו שההעפלה שרטטה. המחיר מתועד. דוד ושמעון הפליגו מסֶט ב״תיאודור הרצל״ באפריל 1947, האונייה נתפסה והוחזרה, והם נעצרו בקרַאוֹלוֹס שבקפריסין ואחר כך בעתלית; תעודת השחרור של שמעון נושאת את התאריך 22 באוגוסט 1947 והיא מודפסת ביומן. לוסיה המתינה בבריסל עם התינוק יותר משנה, והגיעה רק לאחר הכרזת המדינה, באוניית ״קדמה״. הפרידה כתובה בקבריהם שלהם: פנקס הקבורה בחיפה נוקב בשנת עלייתו 1946 ובשנת עלייתה 1948."
-      },
-      "evidence": [
-        "Memoir p.63 — the reason, in Lusia's own words.",
-        "Memoir p.64 — Shimon's Atlit release certificate, Haifa, 22 August 1947.",
-        "Memoir p.66 — Lusia and Dov cross on the ship Kedma after the State is declared.",
-        "Haifa Chevra Kadisha burial register — his year of immigration 1946, hers 1948."
-      ],
-      "note_2026_08_05_cc": "Asked by Doron during the August 2026 sessions and answered from the memoir then, but never written into the archive — so the answer lived only in a conversation. Recorded here.",
-      "candidates": [],
-      "next_steps": [
-        "None for the reason itself; the memoir settles it.",
-        "Still open and separate: the exact date Lusia and Dov landed at Haifa. The memoir names the ship (Kedma) but no date, and the burial register gives only the year, 1948."
-      ],
-      "related_people": [
-        "p_david",
-        "p_leah",
-        "p_shimon",
-        "p_dov_bernard"
-      ],
-      "related_places": [
-        "pl_brussels",
-        "pl_sete",
-        "pl_cyprus_karaolos",
-        "pl_atlit",
-        "pl_haifa"
-      ]
-    },
-    {
-      "id": "h_mosina_location",
-      "question": {
-        "en": "Where is 'Mosina' — the town where David and Leah married, where Shimon was born, where they lived until 1939?",
-        "he": "היכן 'מוסינה' — העיר בה התחתנו דוד ולאה, בה נולד שמעון, בה גרו עד 1939?",
-        "pl": "Gdzie jest 'Mosina' — miasto, w którym pobrali się Dawid i Lea, gdzie urodził się Szymon, gdzie mieszkali do 1939?",
-        "fr": "Où se trouve « Mosina » — la ville où Dawid et Léa se sont mariés, où Szymon est né, où ils ont vécu jusqu'en 1939 ?"
-      },
-      "priority": "HIGH",
-      "status": "RESOLVED — Muszyna confirmed by memoir 2026-05-20",
-      "note_2026_06_01_cc": "The marriage/resort 'Mosina' = Muszyna is settled by the memoir. But two pending uploads reopen a SEPARATE 'Mosina' thread that should not be conflated: (a) the Rapaport-institute online tree [upload 3eXByT1gs9KM3YTdFunc] places the PATERNAL deep ancestors (Moshe Rapaport and descendants) and even Shimon + Lota's births 'in Mosina' near Poznań — this contradicts the documented Nadwórna paternal line and is treated as an unreliable third-party compilation, NOT accepted. (b) Barbara Sieińska's lead to the JHI (19 May 2026): the long-sought family 'sawmill in Mosina' may have belonged to the GRIFFEL family (still being sorted) — see h_griffel_chajes_family. (c) Counter-evidence on the institute tree: Shimon's CKŻP card states he was born in LWÓW (not Mosina), and the memoir places the marriage in Muszyna — so the institute tree's 'born in Mosina' claims are likely errors/conflation. Net: keep Muszyna as the resolved resort; investigate whether a Griffel timber sawmill existed at a place rendered 'Mosina' as a distinct question.",
-      "candidates": [
-        {
-          "label": "Mosina near Poznań (Greater Poland)",
-          "evidence_for": [
-            "Only 'Mosina' in 1933 Polish placenames index",
-            "Listed in Rapaport Research Institute descendants tree"
-          ],
-          "evidence_against": [
-            "No Jewish residents by 1930s (last 6 Jews left 1922)",
-            "1911 birth records do not include David",
-            "2 sawmills owned by Polish non-Jewish Władysław Litke and Władysław Urbaniak",
-            "Far from where Leah's family lived"
-          ],
-          "verdict": "ruled_out"
-        },
-        {
-          "label": "Morszyn (spa town near Stryj)",
-          "evidence_for": [
-            "Ms. Kasia (ŻIH) hypothesis",
-            "Near Bolechów and Dolina region",
-            "Spa town fits the 'rental hotel for Polish visitors' family memory"
-          ],
-          "evidence_against": [
-            "Phonetically a stretch from Mosina"
-          ],
-          "verdict": "candidate"
-        },
-        {
-          "label": "Muszyna (spa town near Krynica)",
-          "evidence_for": [
-            "Magda's recollection of past conversation with Dov Rapaport about this area",
-            "Spa town fits 'rental hotel for Polish visitors' memory",
-            "Phonetically closer to 'Mosina'",
-            "Near Krynica where Rebeka was confirmed in 1912",
-            "PRIMARY-SOURCE CONFIRMATION (2026-05-20): Lusia's memoir (סיפורה של לוסיה) explicitly names מושינה (Muszyna) as 'the small resort town' where she and David married in February 1938 (page 17) and where Lusia managed a hotel that hosted 'all the social cream' of the town's visitors (page 18). The memoir uses the Hebrew spelling מושינה consistently. See docs/research/memoir_extraction_2026-05-20.md."
-          ],
-          "evidence_against": [
-            "Far from Lwów / Bolechów (but no longer disqualifying — the memoir explicitly places them there)"
-          ],
-          "verdict": "RESOLVED — confirmed by primary source (memoir)"
-        },
-        {
-          "label": "Mszana Dolna (Kraków Voivodeship)",
-          "evidence_for": [
-            "Dana found family reference to 'Rapaports of Mszana' as 'forest people' (ludzie lasu) in timber trade",
-            "Memorial/Yizkor books reportedly mention 'Rapaport Sawmill' / 'The Masina'",
-            "Mountain area fitting the family wood-sawmill story"
-          ],
-          "evidence_against": [
-            "No Rapaport in 1930 industry directory there (but pre-1930 not yet checked)",
-            "2026-05-17 CC web research: Sztetl Mszana Dolna site enumerates every Jewish timber-trade family pre-WWII (Goldberger, Geller, Wiener, Feuerstein, Kleinmann, Frey, Wachtel, Weinberg, Faber) — no Rapaport. Dedicated descendant pages exist for Rebhun and Rotkopf families but no Rapaport page. Source: docs/research/h1_mosina_2026-05-17.md"
-          ],
-          "verdict": "weak_candidate"
-        },
-        {
-          "label": "Dolina (district seat near Bolechów)",
-          "evidence_for": [
-            "Basia's hypothesis — phonetic/orthographic similarity (same length, same -ina ending)",
-            "Multiple sawmills 1930",
-            "Heart of Weinreb territory"
-          ],
-          "evidence_against": [
-            "Doesn't sound like 'Mosina' when spoken",
-            "Sawmill owners listed in 1930 are not Rapaports"
-          ],
-          "verdict": "weak_candidate"
-        }
-      ],
-      "next_steps": [
-        "Check pre-1930 industrial directories for Mszana Dolna and Mszana area for Rapaport timber business",
-        "Check Yizkor books for Mszana, Morszyn, Muszyna referencing Rapaport sawmills",
-        "Cross-reference with Shimon's 1937 birth records — where exactly was he registered?",
-        "Ask Dalia (Dana, Doron and Daniel's mother) and the family for any specific landmark/feature memories (the river? mountains? lake? neighbors? language spoken on the street?)"
-      ],
-      "related_people": [
-        "p_david",
-        "p_leah",
-        "p_shimon"
-      ],
-      "related_places": [
-        "pl_mosina_disputed",
-        "pl_morszyn",
-        "pl_muszyna",
-        "pl_mszana_dolna",
-        "pl_dolina"
-      ]
-    },
-    {
-      "id": "h_leah_dob",
-      "question": {
-        "en": "What is Leah's actual date of birth — 8 April 1913, 6 April 1916, 8 April 1916, or ~1917?",
-        "he": "מהו תאריך לידתה האמיתי של לאה — 8 באפריל 1913, 6 באפריל 1916, 8 באפריל 1916, או ~1917?",
-        "pl": "Jaka jest rzeczywista data urodzenia Lei — 8 kwietnia 1913, 6 kwietnia 1916, 8 kwietnia 1916, czy ~1917?",
-        "fr": "Quelle est la véritable date de naissance de Léa — 8 avril 1913, 6 avril 1916, 8 avril 1916, ou ~1917 ?"
-      },
-      "priority": "MEDIUM",
-      "status": "probable_answer",
-      "research_2026_06_01_cc": {
-        "summary": "The long-awaited CKŻP survivor card for Lusia is now in hand (came in as the 'Lea and Shimon' PDF upload, whose Gemini auto-verification had been blocked by a RECITATION filter). Card Nr 151738, filed by the family at the Katowice committee on 1 July 1946, states Lusia Rappoport born 8.4.1916 in Bolechów, parents Eljan (Elias) and Matylda. The DAY and MONTH (8 April) are now unanimous across every source. The YEAR is 1916 in three independent later sources (this CKŻP card + ŻIH index + Haifa Chevra Kadisha) against the single 1913 Bolechów civil birth certificate. Probable answer: 8 April; year most likely 1916, but the 1913 civil record cannot be dismissed (and age-understatement at marriage would actually favour 1913). Not declared fully resolved.",
-        "report": "docs/research/h_leah_dob_2026-06-01.md"
-      },
-      "candidates": [
-        {
-          "label": "8 April 1913",
-          "evidence_for": [
-            "Bolechów civil birth certificate (1913) — only contemporaneous civil document",
-            "If Lea genuinely declared age 18 at marriage and understated, the true year would be earlier — consistent with 1913"
-          ],
-          "evidence_against": [
-            "Conflicts with family death certificate and with three later self-reported/administrative records giving 1916"
-          ]
-        },
-        {
-          "label": "6 April 1916",
-          "evidence_for": [
-            "Family death certificate"
-          ],
-          "evidence_against": [
-            "No civil document found for this exact date; day (6th) contradicted by the unanimous 8th in every other source"
-          ]
-        },
-        {
-          "label": "8 April 1916",
-          "evidence_for": [
-            "PRIMARY (2026-06-01): Lusia's own CKŻP survivor card Nr 151738 (Katowice, 1 July 1946) states b. 8.4.1916 Bolechów, parents Eljan/Matylda [doc_lea_ckzp]",
-            "ŻIH index lists 'Lusia Rappoport' b. 1916-04-08, parents Eljan/Mahylda — now confirmed to be the index of this very card",
-            "Haifa Chevra Kadisha death record gives 08/04/1916",
-            "Three independent sources converge on this exact date"
-          ],
-          "evidence_against": [
-            "Survivor-era self-reported years are often imprecise; one earlier civil record (1913) disagrees on the year"
-          ],
-          "verdict": "leading_candidate"
-        },
-        {
-          "label": "~1917",
-          "evidence_for": [
-            "Leah said she was 18 at marriage in 1935 (per memoir) → would imply 1917"
-          ],
-          "evidence_against": [
-            "Brides commonly understate age; the 1935 vs 1938 marriage date is also unclear"
-          ]
-        }
-      ],
-      "next_steps": [
-        "Wait for the Lusia ŻIH registration card (Basia is requesting from Warsaw archives)",
-        "Look for sibling birth records to triangulate (Pnina's birth record not yet found)"
-      ],
-      "related_people": [
-        "p_leah"
-      ]
-    },
-    {
-      "id": "h_david_signature",
-      "question": {
-        "en": "Verify David's signature on the 1946 Brussels DP card against any later document",
-        "he": "אימות חתימת דוד על כרטיס העקור מבריסל 1946 מול כל מסמך מאוחר יותר",
-        "pl": "Weryfikacja podpisu Dawida z karty DP z Brukseli 1946 z jakimkolwiek późniejszym dokumentem",
-        "fr": "Vérifier la signature de Dawid sur la fiche DP de Bruxelles de 1946 par rapport à tout document ultérieur"
-      },
-      "priority": "MEDIUM",
-      "status": "RESOLVED — David's own handwriting on his 1953 Yad Vashem Pages of Testimony",
-      "next_steps": [
-        "Family search: Israeli customs authority records of David (he worked there post-war)",
-        "Family search: any letters, official documents, will, or photographs with signature",
-        "The DP card is the highest-trust evidence; signature match would settle remaining doubts"
-      ],
-      "related_people": [
-        "p_david"
-      ],
-      "related_documents": [
-        "doc_david_dp_card"
-      ],
-      "note_2026_06_15_cc": "Resolved: Dana confirmed the handwriting (31 May 2026) and Dalia recognised David's signature (4 Jun 2026) on the Yad Vashem PoTs he filed for his parents in 1953."
-    },
-    {
-      "id": "h_david_war_escape",
-      "question": {
-        "en": "How did David survive 1939-1946? Did he serve in the Polish Army? Was he deported to Siberia? Did he escape via Anders' Army to Iran in 1942?",
-        "he": "כיצד שרד דוד בין 1939-1946? האם שירת בצבא הפולני? האם הוגלה לסיביר? האם נמלט עם צבא אנדרס לאיראן ב-1942?",
-        "pl": "Jak Dawid przeżył lata 1939-1946? Czy służył w Wojsku Polskim? Czy został deportowany na Syberię? Czy uciekł z Armią Andersa do Iranu w 1942?",
-        "fr": "Comment Dawid a-t-il survécu de 1939 à 1946 ? A-t-il servi dans l'Armée polonaise ? A-t-il été déporté en Sibérie ? S'est-il évadé via l'Armée Anders en Iran en 1942 ?"
-      },
-      "priority": "HIGH",
-      "status": "probable_answer",
-      "context": "The DP card has '1942' as the citizenship-strip / deportation date. Basia notes 1942 corresponds to Anders' Army evacuation through Iran (10% of evacuees were Jewish). Family memory: David escaped Nadwórna ghetto in a railway wagon, reached Lwów, worked railway construction. These don't fully reconcile — family memory has him in Lwów, DP card lists Lwów as 1938 residence and 1942 as the loss-of-status year.",
-      "candidates": [
-        {
-          "label": "Path A — Soviet deportation 1940 → Anders Army → Italy → West",
-          "evidence_for": [
-            "Galicia was Soviet-occupied Sept 1939 - June 1941, so David was under Soviet rule then",
-            "Soviet April 1940 deportation wave specifically targeted FORESTERS as a category (Wikipedia: Soviet repressions of Polish citizens 1939-1946)",
-            "DP card lists David's Italian fluency — Anders Army Italian campaign (1944-45) explains where a Galician forester learned fluent Italian",
-            "Anders Army demobilization in Western Europe explains Brussels arrival 1946",
-            "Anders evacuation Aug 1942 (110,000 Poles, ~5,000-6,000 Jewish) matches the DP card '1942' citizenship-loss timing"
-          ],
-          "evidence_against": [
-            "Family oral history places David in Nadwórna ghetto escape in 1942, not Iran",
-            "No Polish military record yet checked"
-          ],
-          "verdict": "candidate",
-          "next_step": "Apply UK MoD Polish Records office (NOR-PolishDiscOffice@mod.uk, £30, 1-month) — single most testable question"
-        },
-        {
-          "label": "Path B — Stayed in German Galicia → Nadwórna ghetto escape → Lwów hiding → liberation",
-          "evidence_for": [
-            "Family oral history is specific (railway wagon, hidden in niche between wooden logs, reached Lwów)",
-            "Nadwórna ghetto liquidation 24 Oct 1942 aligns with DP card '1942' as the year of deprivation",
-            "Forester profession would have provided access to timber transport for the escape route",
-            "Some Jews DID escape Nadwórna ghetto to forests / Hungary (Yad Vashem confirms)"
-          ],
-          "evidence_against": [
-            "Italian fluency is hard to explain on this path — where did he learn it?",
-            "Brussels arrival from Lwów 1944-46 is geographically less direct than Italy → West"
-          ],
-          "verdict": "candidate",
-          "next_step": "Lwów Aryan-side construction worker registries 1942-44 in DALO; Leah's memoir for cross-references"
-        },
-        {
-          "label": "Path C — Combination (e.g. deported & returned, or escaped & joined partisans)",
-          "evidence_for": [
-            "Logically possible"
-          ],
-          "evidence_against": [
-            "Evidence-free at present"
-          ],
-          "verdict": "weak_candidate",
-          "next_step": "Trace by document trail across both paths"
-        }
-      ],
-      "research_2026_05_17_cc": {
-        "summary": "Path A (Anders Army) and Path B (ghetto escape) both have evidence. David's Italian fluency on the DP card is a STRONG clue pointing to Path A that the family memory has not previously addressed. Recommend the UK MoD records query as the highest-leverage next step.",
-        "report": "docs/research/h4_david_war_2026-05-17.md"
-      },
-      "next_steps": [
-        "Run JDC Names Index Bricha search (https://names.archives.jdc.org) for David Rapaport — confirms Lwów→Brussels Bricha route",
-        "Email Belgian State Archives Anderlecht (aos_avg@arch.be) for Brussels 1946 IRO file — would contain full bio",
-        "Look for Lwów Ostbahn worker records — could find Pesach's surname"
-      ],
-      "related_people": [
-        "p_david"
-      ],
-      "confidence": "documented",
-      "verdict": {
-        "en": "CORRECTED — David survived 1941-44 IN LWÓW UNDER DISGUISE, not in Soviet exile. Doron's manual 2026-05-21 search of Indeks Represjonowanych (Polish Soviet-deportee DB) returned 21 Rapaports, none matching our David (b.1911 Nadwórna, son of Berisz). The Soviet-exile hypothesis from dossier 21 is disconfirmed at the database level.\n\nLusia's memoir Chapter D page 46 already told us where David was: Lwów, with grown mustache and changed hairstyle, working on Ostbahn (German railroad) track construction with a circumcised-Jewish friend named Pesach. He lived separately from Lusia and Shimon for their joint safety. He met her secretly. After the Soviet liberation of Lwów (July 1944), David travelled west via the Bricha route to Brussels (DP card 1946) → Theodor Herzl ship from Sète 2 April 1947.",
-        "he": "תוקן — דוד שרד 1941-44 בלבוב בתחפושת, ולא בגלות סובייטית. החיפוש הידני של דורון ב-Indeks Represjonowanych ב-21 במאי 2026 החזיר 21 תוצאות 'רפפורט', אף אחת לא תואמת לדוד שלנו (יליד 1911 נדבורנה, בנו של ברישו). השערת הגלות הסובייטית ממסה 21 נשללת ברמת מסד הנתונים. יומן לוסיה פרק ד' עמ' 46 כבר סיפר היכן דוד היה: בלבוב, עם שפם מגודל ותספורת שונה, עבד בבניית מסילות הרכבת של אוסטבאן עם חבר יהודי-נימול בשם פסח."
-      },
-      "evidence_for": [
-        "Lusia memoir Chapter D page 46: explicit account of David in Lwów with disguise + railroad work + Pesach",
-        "Indeks Represjonowanych 2026-05-21: 21 Rapaports, none matching David Memek (Soviet exile DISCONFIRMED)",
-        "Brussels DP card 1946: confirms David in Brussels by 1946 (consistent with post-1944 Bricha westward)"
-      ],
-      "evidence_against": [
-        "Family recollection of Betar membership could be confused with Anders' Army (only ~5,000 Jews ever served)",
-        "Of Anders Jews who reached Palestine in 1942-43, ~3,000 deserted to Haganah/Irgun and STAYED — they would not have re-routed to Belgium"
-      ]
-    },
-    {
-      "id": "h_leah_shimon_survival",
-      "question": {
-        "en": "How did Leah and 4-year-old Shimon survive in Poland 1941-1944? Were they in the ghetto or on the Aryan side?",
-        "he": "כיצד שרדו לאה ושמעון בן ה-4 בפולין 1941-1944? האם היו בגטו או בצד הארי?",
-        "pl": "Jak Lea i 4-letni Szymon przeżyli w Polsce 1941-1944? Byli w getcie czy po stronie aryjskiej?",
-        "fr": "Comment Léa et Szymon (4 ans) ont-ils survécu en Pologne entre 1941 et 1944 ? Étaient-ils dans le ghetto ou du côté aryen ?"
-      },
-      "priority": "HIGH",
-      "status": "resolved",
-      "context": "Family memory: Leah at Legionów St 24 Lwów under 'Hormek' fake docs / 'Maria Cizlik' identity, managing art store. Worked as teller / passport section in Przemyśl (1939). Also moved to Nadwórna at some point to David's parents. Survived under multiple identities.",
-      "research_2026_05_17_cc": {
-        "summary": "Aryan-side hiding in Lwów was widespread. Per JewishGen Lvov Yizkor (pp. 693-734): 'In 1942-1943, the number of Jews who were hidden by Aryans or who masqueraded as Aryans based on false certificates... reached the thousands.' An industry produced forged identity cards, marriage certs, work permits. Leah's pattern (Maria Cizlik identity + Legionów 24 + antiques shop) is consistent with documented practice. 'Hormek' may relate to Żegota — the Polish underground that produced forged papers in its Kraków and Lwów branches. No 'Maria Cizlik' record found in open web (most cover identities never publicly documented for safety).",
-        "report": "docs/research/h5_leah_shimon_survival_2026-05-17.md",
-        "highest_leverage_action": "Leah's own memoir — extract every concrete detail (street, neighbor, ration-card date) and triangulate against Lviv State Archive (DALO) Legionów 24 building registry"
-      },
-      "research_2026_05_17_cc_round2": {
-        "trigger": "New WhatsApp chat export 17 May 22:17-22:45 from Basia + Doron + Dalia",
-        "framing_note": "David and Leah were Holocaust survivors who escaped Nazi persecution under harrowing conditions. This research is about understanding the HISTORICAL CONTEXT they lived through — Soviet and German occupations alike — never about questioning their character or choices. Where archives are silent, we record questions, not accusations.",
-        "new_evidence": [
-          "DOCUMENT ANOMALY (Basia): in Polish records 1945-1946 only Lusia is listed; in Brussels DP records only Dawid is listed. Common in post-war chaos — they likely traveled separately and reunited in Brussels in time for Dov's birth (1946). Worth a targeted archive cross-check to fill the gap.",
-          "HISTORICAL CONTEXT — Soviet 'passportization' in border zones (Basia, IPN paper #6066): During the Soviet occupation 1939-41, ALL residents of border zones were subject to a forced Soviet passport campaign. Leah was briefly in Soviet-occupied Przemyśl in 1939; the IPN paper provides historical context for what life under that occupation looked like. This is context about the period, not a claim about Leah's actions.",
-          "NEW PRIMARY SOURCE: IPN academic paper (represje-nkwd-wobec-mieszkancow-strefy-przygranicznej-1939-1941, ref 6066) by the Polish Institute of National Remembrance. Useful background for what Galician Jews faced under successive Soviet and Nazi occupations.",
-          "DORON CLARIFICATION: 'Lucia received an affidavit to go to USA. David as a Betar member wanted to go to Israel.' → explains the choice they eventually made together to reach Israel via Brussels DP.",
-          "DORON CLARIFICATION: Leah's Przemyśl stay was short — 'most of the war she was elsewhere and doing other things to escape' the Nazi persecution. Consistent with Holocaust-survivor-on-the-run pattern."
-        ],
-        "what_this_adds_to_research": [
-          "The 'separation in records' anomaly is now a tracked archival question — see h_lusia_dawid_paper_separation (new)",
-          "Soviet occupation context is better documented via the IPN paper — useful for understanding the period",
-          "Formal IPN application (h_ipn_application) escalated to high priority — IPN holds records that could complete the picture of how David and Leah survived"
-        ]
-      },
-      "next_steps": [
-        "Cross-reference with Shimon's own testimony if one survives (he died — exact date TBD)",
-        "Polscy Sprawiedliwi: search for any post-war recognition of the Hormak family of Nadwórna as Righteous Among the Nations (memoir says they helped smuggle and feed the family — they qualify)",
-        "Lota Rapaport — find her in Lwów ghetto records (Yad Vashem)"
-      ],
-      "related_people": [
-        "p_leah",
-        "p_shimon"
-      ],
-      "confidence": "confirmed",
-      "verdict": {
-        "en": "RESOLVED via the memoir itself (Chapter D, pages 30-46). Shimon was NOT placed in a convent. Sequence: (1) Hormak family (gentile Nadwórna neighbours) helped move Shimon; (2) Lota Rapaport (David's sister) hid him in the Lwów ghetto for a period; (3) Hormaks smuggled him out of the Lwów ghetto and brought him to Lusia; (4) Shimon then lived in a 70 cm × 1.50 m crate inside Lusia's apartment at Legionów 24 from then until July 1944 Soviet liberation. Lusia operated a phonograph to mask his sounds when visitors came; he never saw sunlight; his complexion went white and pale. David Memek lived separately in Lwów under disguise (grew a mustache, changed his hair) and worked on railroad-track construction with a friend named Pesach — both circumcised Jews passing as gentiles, sewing up their members to bathe with the gentile crews.",
-        "he": "נפתר באמצעות היומן עצמו (פרק ד', עמ' 30-46). שמעון לא הוכנס למנזר. רצף האירועים: (1) משפחת הורמק (שכנים גויים בנדבורנה) עזרה להעביר את שמעון; (2) לוטה רפפורט (אחותו של דוד) הסתירה אותו בגטו לבוב תקופת מה; (3) הורמקים הבריחו אותו מגטו לבוב והביאו אותו ללוסיה; (4) משם והלאה התגורר שמעון בארגז של 70 ס\"מ × 1.50 מ' בתוך דירת לוסיה בלגיונוב 24, עד שחרור לבוב על-ידי הסובייטים ביולי 1944. לוסיה הפעילה פטיפון להסוות את קולותיו כאשר באו אורחים; הוא לא ראה את אור השמש; עורו הלבין והחוויר. דוד ממק התגורר בלבוב בנפרד תחת תחפושת (הצמיח שפם, שינה את תספורתו) ועבד בהנחת מסילות רכבת עם חבר בשם פסח — שניהם יהודים נימולים שעברו כגויים, ותפרו את איבריהם כדי להתקלח עם הצוותים הגויים."
-      },
-      "evidence_for": [
-        "Memoir Chapter D pages 36-38: Lusia retrieves Shimon from the Lwów ghetto via Hormak family",
-        "Memoir Chapter D page 38: 'All that time he lived with Lucia's sister-in-law, Lota, in the ghetto' (before Lusia retrieved him)",
-        "Memoir Chapter D pages 44-46: 'Shimon and the Crate' chapter — explicit description of the 70cm × 1.50m crate, the phonograph, the sunless skin",
-        "Memoir Chapter D page 46: David Memek lived separately, sewed circumcision to bathe with gentiles"
-      ],
-      "evidence_against": []
-    },
-    {
-      "id": "h_przemysl_who",
-      "question": {
-        "en": "When Leah was in Przemyśl (1939), whose home did she stay at — her mother Matel's (but Matel was in Palestine since 1933) or her mother-in-law Rebeka/Regina's?",
-        "he": "כשלאה הייתה בפשמישל (1939), בבית של מי היא שהתה — אמה מתל (אבל היא הייתה בארץ ישראל מ-1933) או חמותה רבקה/רגינה?",
-        "pl": "Kiedy Lea była w Przemyślu (1939), u kogo mieszkała — swojej matki Matel (ale Matel była w Palestynie od 1933) czy teściowej Rebeki/Reginy?",
-        "fr": "Quand Léa était à Przemyśl (1939), chez qui logeait-elle — chez sa mère Matel (mais Matel était en Palestine depuis 1933) ou chez sa belle-mère Rebeka/Regina ?"
-      },
-      "priority": "MEDIUM",
-      "status": "open",
-      "context": "Basia asks: per the WhatsApp message earlier, Doron said Leah lived with 'my granddaughter's parents in Przemyśl' — likely a typo (granddaughter→grandfather?) — meaning Leah stayed with David's parents Berisz and Rebeka in Przemyśl. If that's correct, Berisz and Rebeka had moved from Nadwórna to Przemyśl by then.",
-      "next_steps": [
-        "Doron to confirm/clarify the message (Basia asked on 08 May)",
-        "Check Przemyśl 1910 records for Bernard Rapaport (Basia found a Bernard there)",
-        "Check Przemyśl 1939 residence registers"
-      ],
-      "related_people": [
-        "p_leah",
-        "p_berisz",
-        "p_rebeka"
-      ]
-    },
-    {
-      "id": "h_griffel_chajes_family",
-      "question": {
-        "en": "Extend research to the Griffel and Chajes families of Nadwórna — Dana, Doron and Daniel's paternal gg-grandparents (via Rebeka Griffel → David)",
-        "he": "להרחיב את המחקר למשפחות גריפל וחיות מנדבורנא — סבי-סבא של דורון",
-        "pl": "Rozszerzyć badania na rodziny Griffel i Chajes z Nadwórnej — pra-pradziadków Dorona",
-        "fr": "Étendre les recherches aux familles Griffel et Chajes de Nadwórna — les arrière-arrière-grands-parents de Doron"
-      },
-      "priority": "MEDIUM",
-      "status": "open",
-      "context": "The 15 May Nadwórna breakthrough opened TWO new generations: Leizor Griffel + Sara née Chajes. Both Galician Jewish surnames — Chajes is a notable rabbinic name family (Tzvi Hirsch Chajes etc., though connection unverified). This branch is now researchable.",
-      "research_2026_05_17_cc": {
-        "summary": "Nadwórna Jewish vital records ARE catalogued at Gesher Galicia. High-value finding: Przemyśl State Archive holds a Nadwórna marriage index for 1877-1907 (ref 154/70/313) — Leizor Griffel × Sara Chajes marriage (likely 1883-1887, before Rebeka's 1888 birth) should be directly findable in this index. Rebeka's 1888 birth falls in a GAP in indexed records (1865→1903), so the breakthrough cert Ms. Kasia found must be from a different fond; Dalia, Dana, Doron and Daniel should ask Ms. Kasia which one to find Rebeka's siblings.",
-        "report": "docs/research/h8_griffel_chajes_2026-05-17.md",
-        "highest_leverage_action": "Basia → Przemyśl archive ref 154/70/313 (1877-1907 Nadwórna marriage index) — pull the Leizor Griffel × Sara Chajes entry"
-      },
-      "research_2026_06_01_cc": {
-        "summary": "Processed two pending uploads that corroborate this branch from primary records, plus the JHI/ŻIH genealogy department's own verification. (1) A JRI-Poland index screenshot [upload 4hFR7pAuFl3lYDTJjQWN] confirms the Nadwórna Jewish vital-record funds: births 1877-1896 = Sygnatura 941, deaths 1877-1896 = Sygnatura 946, and lists Griffel children plus a cluster of Chajes children whose mother is 'Sura CHAJES'. (2) Email correspondence with the Emanuel Ringelblum Jewish Historical Institute (JHI/ŻIH) genealogy centre [upload ElUEJykulI1sHqenTTKU, dated 18-19 May 2026, Katarzyna + Barbara Sieińska + Doron]: the JHI confirmed the family tree is genuine ('confirmation of the accuracy of the material from the source'). NEW documented details: Leizor (Eliezer) Griffel was a 'Schaechter' (shochet — ritual slaughterer) and a Hausbesitzer (house-owner) in Kolomyia, at least in the 1880s; there were TWO men named Lajzor Griffel in the industrial registers (father 'senior' + son); the Leizor × Sara Chajes MARRIAGE record exists ('S 1892 Leizer i Sara Griffel N' — Nadwórna). Barbara also flags that 'Rechel' and 'Simcie' Griffel are two children who died in childhood and are not in the family tree. The actual birth-record akta list (all Nadwórna): Machla 1873, Dawid 1875, stillborn 1877, Zissel 1878, Eisig Chaim 1879, Rachel 1881, Chaja 1883, Leibisch 1885, Beniamin 1887, Rebeca 1888. (3) The Edward Gelles 'Facets of my Family History, Part 2' (chapters 13-20) [upload KPmyxEBTxjwGBrRVJMjE] is the full text of the canonical source already cited as src_gelles_griffel_nadworna_pdf; chapter 13 'Some Griffel cousins' + chapter 14 'The Chayes family' confirm the 10-children list and the Chajes rabbinic descent.",
-        "new_lead": "Barbara Sieińska (to JHI, 19 May 2026): 'I believe the sawmill in Mosina we are looking for belonged to the Griffels, but I still need to sort out the materials.' This is the first link between the unresolved 'Mosina' place mystery and the Griffel family — see h_mosina_location.",
-        "report": "docs/research/incoming_2026-06-01_pending_uploads.md"
-      },
-      "archive_paths": {
-        "all_galicia_database": "https://www.geshergalicia.org/all-galicia-database/?surname=Griffel&town=Nadworna",
-        "jri_poland": "https://jri-poland.org/search.htm (Nadwórna births 1876-1897, deaths 1868-1892)",
-        "yad_vashem_names": "https://collections.yadvashem.org/en/names — search Griffel + Nadwórna for Holocaust testimonies of Rebeka's relatives"
-      },
-      "next_steps": [
-        "Nadwórna Jewish vital records — siblings of Rebeka, marriage of Leizor and Sara, parents of Sara Chajes",
-        "Galician Jewish records archive (e.g. JewishGen, Gesher Galicia)",
-        "Ask Ms. Kasia at ŻIH which fond held Rebeka's 1888 birth cert — that fond likely has her siblings",
-        "Investigate possible Chajes family connection to Rabbi Tzvi Hirsch Chajes (1805-1855, prominent Galician rabbi)"
-      ],
-      "related_people": [
-        "p_leizor_griffel",
-        "p_sara_chajes",
-        "p_rebeka"
-      ]
-    },
-    {
-      "id": "h_betar_records",
-      "question": {
-        "en": "Does Betar Poland have archives that would record David's membership?",
-        "he": "האם לבית״ר פולין יש ארכיונים שירשמו את חברותו של דוד?",
-        "pl": "Czy Betar Polska ma archiwa, które rejestrowałyby członkostwo Dawida?",
-        "fr": "Le Betar Pologne possède-t-il des archives où l'adhésion de Dawid serait enregistrée ?"
-      },
-      "priority": "LOW",
-      "status": "open",
-      "next_steps": [
-        "Jabotinsky Institute in Israel (Tel Aviv) — holds Betar Poland archives",
-        "Virtual Shtetl Betar resource: https://share.google/ntEBJi1PH7APKgyPG"
-      ],
-      "research_2026_05_17_cc": {
-        "summary": "Two rounds: (1) open-web Hebrew search found no direct match; (2) CC drove Dalia, Dana, Doron and Daniel's Chrome through the Jabotinsky Institute archive (jabotinsky.org/ארכיון/חיפוש-פשוט) — searched 'רפפורט' (37 hits, none our David — Lehi member, Latvia Betar Y., Polish 2nd Division Chaim, sculptor Natan, etc.), 'מנדל רפפורט' (0), 'רפפורט נדבורנה' (0). Partial negative: online portion has no match. NOT full refutation — Institute states only ~44 of 215 archives are online, and the personal files (סימול פ) which would contain individual Betar member files are NOT in the online index at all and must be requested by name from the archivists.",
-        "report": "docs/research/h_betar_2026-05-17.md",
-        "highest_leverage_action": "Doron emails the Jabotinsky Institute archivists in Hebrew requesting a personal-file search for David Mendel Rapaport b. 25.12.1911 Nadwórna. Template Hebrew email is in the research report.",
-        "verdict": "family_oral — plausible; online archive returned no match; physical archive not yet checked"
-      },
-      "related_people": [
-        "p_david"
-      ]
-    },
-    {
-      "id": "h_lusia_dawid_paper_separation",
-      "question": {
-        "en": "Why does Lusia appear in Polish records 1945-46 but not Dawid, while Dawid appears in Brussels DP records but not Lusia? When and where did they reunite for Dov's 1946 Brussels birth?",
-        "he": "מדוע לוסיה מופיעה ברשומות פולין 1945-46 ללא דוד, ואילו דוד מופיע ברישומי העקורים בבריסל ללא לוסיה? מתי והיכן התאחדו לקראת לידת דב בבריסל 1946?",
-        "pl": "Dlaczego Lusia figuruje w polskich rejestrach 1945-46 bez Dawida, a Dawid w brukselskich rejestrach DP bez Lusi? Kiedy i gdzie się ponownie spotkali przed narodzinami Dova w Brukseli 1946?",
-        "fr": "Pourquoi Lusia apparaît-elle dans les registres polonais 1945-46 sans Dawid, tandis que Dawid apparaît dans les registres DP de Bruxelles sans Lusia ? Quand et où se sont-ils retrouvés avant la naissance de Dov à Bruxelles en 1946 ?"
-      },
-      "priority": "HIGH",
-      "status": "probable_answer",
-      "context": "Basia observation 17 May 2026: documentary trail shows them apart in 1945-46. Possible explanations: (a) Lusia traveled separately and joined later; (b) records are incomplete in one location; (c) deliberate separation (different declared destinations — Doron: 'Lucia received affidavit to USA, David as Betar member wanted Israel'); (d) Lusia stayed in Poland longer to wrap up affairs / sell property / find documents.",
-      "research_2026_06_01_cc": {
-        "summary": "NEW HARD DATAPOINT for the Polish leg. Lusia's and Shimon's CKŻP survivor cards (doc_lea_ckzp Nr 151738; doc_szymon_ckzp Nr 151337) were both filed at the KATOWICE committee on 1 JULY 1946, each listing Katowice as last known address. This documents mother + son in Katowice (Upper Silesia, Poland) in mid-1946 — exactly the 'Lusia in Polish records, registered with CKŻP' leg the reconstruction predicted. Katowice was a major repatriation/Bricha staging hub in 1946. It is consistent with David having already moved ahead toward Brussels (men-first pattern). Tightens the timeline: Lusia + Shimon still in Poland (Katowice) as of 1 July 1946; Dov born Brussels later in 1946 — so their westward Bricha leg falls in the second half of 1946.",
-        "report": "docs/research/incoming_2026-06-01_pending_uploads.md"
-      },
-      "candidates": [
-        {
-          "label": "Separate travel, Leah joined Brussels in time for Dov's 1946 birth",
-          "evidence_for": [
-            "Dov born Brussels 1946 (family oral) — must have been together by then"
-          ],
-          "evidence_against": [
-            "No direct travel record yet"
-          ],
-          "verdict": "candidate"
-        },
-        {
-          "label": "Differing intended destinations (Doron: USA vs Israel) — couple eventually aligned on Israel via Brussels DP",
-          "evidence_for": [
-            "Doron explicit statement 17 May 2026"
-          ],
-          "evidence_against": [],
-          "verdict": "candidate"
-        },
-        {
-          "label": "Records incomplete — they were together but Polish record lost Dawid, Brussels record lost Lusia",
-          "evidence_for": [
-            "Common pattern in post-war chaos"
-          ],
-          "evidence_against": [
-            "Selective loss across two systems is statistically unlikely"
-          ],
-          "verdict": "weak_candidate"
-        }
-      ],
-      "next_steps": [
-        "JDC Names Index (archives.jdc.org/our-collections/names-index/) — Brussels 1946 Rapaport entries",
-        "EHRI Brussels file il-006088 (JDC Jerusalem G 45-54) — original DP intake records",
-        "JHI Warsaw CKŻP central registry of survivors (1944-47) — search Lusia Rapaport née Weitzner",
-        "Lubartworld / CNRS digitised CKŻP card archive"
-      ],
-      "related_people": [
-        "p_david",
-        "p_leah"
-      ],
-      "confidence": "hypothesis",
-      "verdict": {
-        "en": "Most plausible reconstruction: Lusia and Shimon left Lwów post-July 1944 (Soviet liberation), repatriated to Poland under the 1944-46 transfers, where Lusia registered with CKŻP as 'Rapaport née Weitzner' (real name, re-Judaised post-liberation). From spring 1946 they joined the Bricha through Czechoslovakia, reaching Brussels by mid-1946 — early enough for Dov's conception/birth in November 1946. David likely reached Brussels first via the same Bricha route (typical 'men first' pattern to secure papers and housing). In Brussels JDC/HIAS files Lusia is under 'Rapaport' — the Cizlik identity discarded once safe.",
-        "he": "השחזור הסביר ביותר: לוסיה ושמעון עזבו את לבוב לאחר יולי 1944 (שחרור סובייטי), הוחזרו לפולין במסגרת ההעברות 1944-46, ושם נרשמה לוסיה ב-ועד היהודים הפולנים המרכזי (CKŻP) בשם 'רפפורט לבית וייצנר' (שמה האמיתי, לאחר חזרה לזהות יהודית). מאביב 1946 הצטרפו לבריחה דרך צ'כוסלובקיה, הגיעו לבריסל באמצע 1946 — מספיק מוקדם להריון/לידת דב בנובמבר 1946. דוד ככל הנראה הגיע לבריסל ראשון באותו מסלול בריחה ('הגברים תחילה' — דפוס טיפוסי לאבטחת מסמכים ודיור). בתיקי הג'וינט/HIAS בבריסל לוסיה רשומה בשם 'רפפורט' — זהות ציצליק נזנחה לאחר שהמשפחה הייתה בטוחה."
-      }
-    },
-    {
-      "id": "h_zip_documents",
-      "question": {
-        "en": "What's in the Lusia ŻIH registration cards Basia is requesting from Warsaw?",
-        "he": "מה יש בכרטיסי הרישום של לוסיה ב-ŻIH שבסיה מבקשת מוורשה?",
-        "pl": "Co jest w kartach rejestracyjnych Lusi w ŻIH, których Basia żąda z Warszawy?",
-        "fr": "Que contiennent les fiches d'enregistrement de Lusia au ŻIH que Basia demande à Varsovie ?"
-      },
-      "priority": "HIGH",
-      "status": "resolved",
-      "verdict": {
-        "en": "RESOLVED 2026-06-01. The ŻIH/CKŻP registration cards are now in hand — they were uploaded 18 May 2026 as the 'Lea and Shimon' PDF, but the Gemini auto-verifier had been blocked (RECITATION filter), so they sat unprocessed until CC read the scans directly. Two cards, both 'Karta informacyjna o osobach ocalałych' filed at the Katowice committee on 1 July 1946: (1) Nr 151738 — Lusia Rappoport, b. 8.4.1916 Bolechów, parents Eljan/Matylda, last address Katowice [doc_lea_ckzp]; (2) Nr 151337 — Szymon Rappoport, b. 22.6.1937 Lwów, parents Dawid/Lusia, last address Katowice [doc_szymon_ckzp]. Net new facts: Leah's DOB cluster (see h_leah_dob), Shimon's stated birthplace = Lwów (corrects the 'Mosina' assumption), and mother+son together in Katowice in mid-1946 (see h_lusia_dawid_paper_separation).",
-        "he": "נפתר ב-2026-06-01. כרטיסי הרישום של ŻIH/CKŻP נמצאים כעת בידינו — הם הועלו ב-18 במאי 2026 כקובץ ה-PDF 'Lea and Shimon', אך מאמת ה-Gemini נחסם (מסנן RECITATION), ולכן הם לא עובדו עד שה-CC קרא את הסריקות ישירות. שני כרטיסים, שניהם 'כרטיס מידע על ניצולים' שהוגשו בוועד קטוביץ ב-1 ביולי 1946: (1) מס' 151738 — לוסיה רפפורט, ילידת 8.4.1916 בולחוב; (2) מס' 151337 — שמעון רפפורט, יליד 22.6.1937 לבוב. שניהם רשמו את קטוביץ ככתובת אחרונה."
-      },
-      "next_steps": [
-        "DONE — cards received and processed. Optional: request the reverse side / any attached pages from ŻIH if a fuller intake form exists.",
-        "Reconcile Shimon's Lwów birthplace (June 1937) with the February-1938 Muszyna marriage in the memoir — flagged for Doron."
-      ],
-      "related_people": [
-        "p_leah",
-        "p_shimon"
-      ],
-      "related_documents": [
-        "doc_lea_ckzp",
-        "doc_szymon_ckzp"
-      ]
-    },
-    {
-      "id": "h_ipn_application",
-      "question": {
-        "en": "Apply to IPN (Institute of National Remembrance) for any David / Leah / Shimon Rapaport records — KL camps, Gestapo, Stutthof",
-        "he": "להגיש בקשה ל-IPN (המכון לזכרון לאומי) לכל רשומה של דוד / לאה / שמעון רפפורט",
-        "pl": "Złożyć wniosek do IPN o wszelkie zapisy dotyczące Dawida / Lei / Szymona Rapaport",
-        "fr": "Demander à l'IPN tout dossier concernant Dawid / Léa / Szymon Rapaport"
-      },
-      "priority": "MEDIUM",
-      "status": "open",
-      "context": "Basia notes 6+ month wait. As family member Dalia, Dana, Doron and Daniel can apply directly. Need to attach: death certificates, David's DP card, ŻIH materials.",
-      "next_steps": [
-        "Doron to fill IPN application (English version, Basia can help)",
-        "Attach death certificates and DP card"
-      ],
-      "related_people": [
-        "p_david",
-        "p_leah",
-        "p_shimon"
-      ]
-    },
-    {
-      "id": "h_brussels_to_israel_route",
-      "question": {
-        "en": "Which ship brought the Rapaport family from Brussels DP to Cyprus and on to Israel? Strongest candidate: Theodor Herzl (April 1947).",
-        "he": "באיזו אונייה הגיעה משפחת רפפורט מבריסל לקפריסין ולישראל? המועמדת החזקה ביותר: תיאודור הרצל (אפריל 1947).",
-        "pl": "Którym statkiem rodzina Rapaport dotarła z Brukseli przez Cypr do Izraela? Najsilniejszy kandydat: Theodor Herzl (kwiecień 1947).",
-        "fr": "Quel navire a amené la famille Rapaport de Bruxelles à Chypre puis en Israël? Candidat le plus probable: Theodor Herzl (avril 1947)."
-      },
-      "priority": "HIGH",
-      "status": "resolved",
-      "context": "Family memory + DP card: Brussels April 1946 → Dov born Brussels 1946 → 'Cyprus internment camps' → Israel post-1948. Theodor Herzl (Aliyah Bet ship) sailed Sète 2 Apr 1947 with 2,620 survivors, ~500 children, EXPLICITLY some passengers brought by train FROM BELGIUM (Hebrew Wikipedia). Intercepted 13 Apr 1947 → Cyprus → released after Israel founded May 1948. This fits the timeline, geography, and 'Cyprus' detail exactly.",
-      "candidates": [
-        {
-          "label": "Theodor Herzl (תיאודור הרצל), 2 April 1947 from Sète",
-          "evidence_for": [
-            "Hebrew Wikipedia explicitly states 'חלקם הובאו ברכבת מבלגיה' (some brought by train from Belgium)",
-            "2,620 passengers including 500 children — Dov as baby fits",
-            "Intercepted off Tel Aviv 13 Apr 1947 → Cyprus detention (family memory of Cyprus is specific)",
-            "Released to Israel after May 1948 statehood — fits 'reached Israel late 1940s'"
-          ],
-          "evidence_against": [
-            "Median passenger age stated as 20-30 — David 35, Leah 31 or 34, slightly older than median",
-            "No primary-source passenger list checked yet"
-          ],
-          "verdict": "candidate (strong)"
-        }
-      ],
-      "research_2026_05_17_cc": {
-        "summary": "First-pass research identifies Theodor Herzl as the strongest single-ship match for our family's known Brussels → Cyprus → Israel route. Belgian-train origin + ~April 1947 timing + Cyprus deportation are explicit aligned data points.",
-        "report": "docs/research/h_theodor_herzl_2026-05-17.md",
-        "highest_leverage_action": "Search Israel State Archives (catalog.archives.gov.il) for 'תיאודור הרצל' + 'רפפורט', OR email library@archives.gov.il requesting passenger-manifest check for the Rapaport family"
-      },
-      "next_steps": [
-        "Search Israel State Archives catalog for Theodor Herzl passenger files",
-        "Search Central Zionist Archives פנקסי רשימות עולים",
-        "Check JDC Archives Cyprus detainee birth/registration records (Dov was infant)",
-        "Cross-reference with other April-1947 Aliyah Bet ships if Theodor Herzl manifest is negative (Geulah, Yehuda Halevy, Mishmar Haemek were also active that month)"
-      ],
-      "related_people": [
-        "p_david",
-        "p_leah",
-        "p_shimon",
-        "p_dov_bernard"
-      ],
-      "confidence": "confirmed",
-      "verdict": {
-        "en": "RESOLVED — Theodor Herzl, Sète, 2 April 1947. The ex-British cable-laying ship HMS/SS 'Guardian' (built 1907, Newcastle, 1,768 tons), acquired by Mossad LeAliyah Bet in 1946 and refitted at Marseille. Loaded 2,641 ma'apilim from camps in France and Belgium. Intercepted 13 April 1947 by HMS Haydon + HMS St Brides Bay; 3 killed, 27 wounded; deported to Cyprus. NOT the SS Exodus 1947 (that was the ex-President Warfield, July 1947). Verified via Palyam/Palmach archives.",
-        "he": "נפתר — תיאודור הרצל, סט, 2 באפריל 1947. ספינת הכבלים הבריטית HMS/SS 'גארדיאן' לשעבר (נבנתה ב-1907 בניוקאסל, 1,768 טון), נרכשה על-ידי המוסד לעלייה ב' ב-1946 ושופצה במרסיי. טענה 2,641 מעפילים ממחנות בצרפת ובלגיה. יורטה ב-13 באפריל 1947 על-ידי HMS היידון + HMS סן ברידס באי; 3 הרוגים, 27 פצועים; גורשו לקפריסין. אינה אקסודוס 1947 (זו הייתה פרסידנט וורפילד לשעבר, יולי 1947). אומת דרך ארכיוני פלי\"ם/פלמ\"ח."
-      }
-    },
-    {
-      "id": "h_cieszyn_check",
-      "question": {
-        "en": "Even though Nadwórna is confirmed, check Cieszyn archives in Katowice to be exhaustive",
-        "he": "אף שנדבורנא מאומתת, יש לבדוק את ארכיוני צ'שין בקטוביץ למען השלמות",
-        "pl": "Mimo że Nadwórna jest potwierdzona, sprawdzić archiwa Cieszyna w Katowicach dla kompletności",
-        "fr": "Bien que Nadwórna soit confirmé, vérifier les archives de Cieszyn à Katowice par exhaustivité"
-      },
-      "priority": "LOW",
-      "status": "open",
-      "context": "Cieszyn records not online; available at Archiwum w Katowicach. Could rule out the DP card birthplace one way or the other.",
-      "next_steps": [
-        "Basia to call Katowice archive (noted but not yet done as of 13 May)"
-      ],
-      "related_people": [
-        "p_david"
-      ]
-    },
-    {
-      "id": "h_moses_saul_parents",
-      "question": {
-        "en": "Who were Moses Saul Rapaport's parents — were they Shabtai (Szabse) + Ita Feigi?",
-        "he": "מי היו הוריו של משה שאול רפפורט — האם שבתאי (שבסה) + איטה פייגי?",
-        "pl": "Who were Moses Saul Rapaport's parents — were they Shabtai (Szabse) + Ita Feigi?",
-        "fr": "Who were Moses Saul Rapaport's parents — were they Shabtai (Szabse) + Ita Feigi?"
-      },
-      "priority": "MEDIUM",
-      "status": "RESOLVED — Szabse Rapaport and Ita Feiga Jahr, corroborated 5 August 2026",
-      "note_2026_06_15_cc": "Tarnów death record 1933/152: Mojżesz Rapaport, d. 8 Nov 1933, ul. Folwarczna, age 75, son of Szabse + Ita Feigi. Street matches Berisz's passport (9 Folwarczna; death cert says 199, likely a clerk repeating the ordinal). A SECOND Moses Saul died 30 Oct 1931 under Dąbrowa. Basia leans toward the 1933 one being ours. If so, parents = Shabtai + Ita Feigi. Not asserted in the tree structure until corroborated.",
-      "candidates": [
-        {
-          "label": "Moses Saul = son of Shabtai + Ita Feigi (d. Tarnów 1933, age 75)",
-          "evidence_for": [
-            "street matches",
-            "naming custom (Moses Saul son of Moses Saul does not fit)",
-            "Basia's review of the Tarnów notarial records (7 Jul 2026) — she is satisfied Szabse is the ancestor",
-            "Szabse Rapaport documented as rabbi in Dąbrowa Tarnowska until 20 Apr 1884",
-            "Berisz's 1924 passport registers the family commune as Dąbrowa Tarnowska — the town Szabse served",
-            "MyHeritage record (Dana, 7 Jul 2026): Schabse + Figa/Yete, son Yitzhak Haim — given names align with Ita Feigi"
-          ],
-          "evidence_against": [
-            "house number mismatch (9 vs 199)",
-            "Radomyśl records lost"
-          ]
-        },
-        {
-          "label": "Moses Saul = the Dąbrowa one (d. 1931)",
-          "evidence_for": [
-            "Berisz's passport lists commune Dąbrowa Tarnowska"
-          ],
-          "evidence_against": [
-            "no Tarnów death record there",
-            "date/stone older",
-            "the Dąbrowa link is now explained by Szabse's rabbinate there, not by a second Moses Saul"
-          ]
-        }
-      ],
-      "next_steps": [
-        "Ask Basia for the source citations behind Szabse’s 1823 birth date and Ita Feiga’s maiden name — they must come from Tarnów registers we have not seen.",
-        "Separate and still open: Szabse died 1884 (Basia) or 1897 (Rosenstein). See h_szabse_death_year."
-      ],
-      "related_people": [
-        "p_moses_saul_rapaport",
-        "p_berisz"
-      ],
-      "related_places": [
-        "pl_tarnow",
-        "pl_dabrowa",
-        "pl_radomysl_wielki"
-      ],
-      "note_2026_07_07_cc": "7 Jul 2026 — Basia worked the Tarnów notarial records and the Dąbrowa Tarnowska rabbinate lists and reports: 'I looked through the records at the notary's office in Tarnów, and they convinced me that Szabse was your ancestor.' She also establishes that Szabse Rapaport was RABBI in Dąbrowa Tarnowska until 20 April 1884, succeeded that year by Majer Rapaport (from Łuków, 19 May) and then Hirsz Weiss (19 Sept); the 1886 entry shows 'Hersz Weiss' written over a crossed-out 'Szabsa Rapaport', which she reads as a scribal duplicate. Independently, Dana produced a MyHeritage record the same evening naming Schabse + Figa/Yete and their son Yitzhak Haim — the given names match the Ita Feigi of the 1933 Tarnów death record. This also explains a detail that had been unexplained since May: Berisz's 1924 passport gives his commune as Dąbrowa Tarnowska, the town where his grandfather had been rabbi. NOT yet a document naming Moses Saul's father outright, so this stays probable, not resolved. Basia's own caution stands: 'I don't include anything I can't find evidence for.'",
-      "answer": {
-        "en": "Szabse (Shabtai) Rapaport and Ita Feiga née Jahr. Two independent lines of evidence now agree. Ours: the Tarnów death record 1933/152 for Mojżesz Rapaport, died 8 November 1933 at ul. Folwarczna aged 75, son of Szabse and Ita Feigi. Basia’s: a descendant chart of Abraham Abe Rapaport compiled in 2026, which places Moses Saul — born about 1858, died 8 November 1933, married to Menycha Leiner — as their son. Menycha Leiner is our Menukha, and we had her maiden name from the Sambor marriage record of 1913, which Basia did not use. The chart adds two particulars we never had: Ita Feiga’s maiden name Jahr, and Szabse born 30 January 1823 at Tarnów.",
-        "he": "שבסה (שבתאי) רפפורט ואיטה פייגה לבית יאהר. שני קווי ראיות בלתי תלויים מסכימים כעת. שלנו: רשומת הפטירה מטרנוב 1933/152 של מוישה רפפורט, שנפטר ב-8 בנובמבר 1933 ברחוב פולברצ׳נה בגיל 75, בנם של שבסה ואיטה פייגי. של בסיה: תרשים צאצאים של אברהם אבה רפפורט שנערך ב-2026, הממקם את משה שאול — יליד 1858 בקירוב, נפטר 8 בנובמבר 1933, נשוי למניכה ליינער — כבנם. מניכה ליינער היא מנוחה שלנו, ושם נעוריה היה בידינו מרשומת הנישואין מסמבור 1913, שבסיה לא השתמשה בה. התרשים מוסיף שני פרטים שמעולם לא היו לנו: שם נעוריה של איטה פייגה, יאהר, ושבסה נולד ב-30 בינואר 1823 בטרנוב."
-      }
-    },
-    {
-      "id": "h_jente_survival",
-      "question": {
-        "en": "Did Jente Rapaport survive the war, and what became of her line?",
-        "he": "האם יענטה רפפורט שרדה את המלחמה, ומה עלה בגורל הענף שלה?",
-        "pl": "Did Jente Rapaport survive the war, and what became of her line?",
-        "fr": "Did Jente Rapaport survive the war, and what became of her line?"
-      },
-      "priority": "HIGH",
-      "status": "RESOLVED — Jente survived; lived in Liège with her daughter Szewa in 1946",
-      "note_2026_06_15_cc": "The Liège marriage record of Szewa Horowitz (15 Jun 1946, No. 1142) states the bride's mother Jenta Rapaport was 'living together with her daughter'. Szewa (b.1920 Tarnów) is on the 1941 Liège census of Jews and married Markus Türkel (British-Army soldier, of Tel Aviv). Jente's death after 1946 is unknown.",
-      "candidates": [],
-      "next_steps": [
-        "Trace Jente's death record in Belgium/Israel after 1946",
-        "Resolve the Markus-Türkel identity conflict (see h_markus_turkel_identity)"
-      ],
-      "related_people": [
-        "p_jente_rapaport",
-        "p_szewa_horowitz",
-        "p_markus_turkel",
-        "p_mendel_horowitz"
-      ],
-      "related_places": [
-        "pl_liege",
-        "pl_tarnow"
-      ]
-    },
-    {
-      "id": "h_markus_turkel_identity",
-      "question": {
-        "en": "Is Markus Türkel (m. Szewa Horowitz, Liège 1946) the same as Mordechai 'Max' Levi-Turkel (m. Margalit Halperin, Palestine 1947)?",
-        "he": "האם מרקוס טורקל (נשא את שבע הורוויץ, ליאז' 1946) זהה למרדכי 'מקס' לוי-טורקל (נשא את מרגלית הלפרין, ארץ ישראל 1947)?",
-        "pl": "Is Markus Türkel (m. Szewa Horowitz, Liège 1946) the same as Mordechai 'Max' Levi-Turkel (m. Margalit Halperin, Palestine 1947)?",
-        "fr": "Is Markus Türkel (m. Szewa Horowitz, Liège 1946) the same as Mordechai 'Max' Levi-Turkel (m. Margalit Halperin, Palestine 1947)?"
-      },
-      "priority": "MEDIUM",
-      "status": "open — conflicting records",
-      "note_2026_06_15_cc": "Liège record: Markus Türkel, British-Army soldier of Tel Aviv, son of Leib Türkel + Lea Nüssenbaum, married Szewa Horowitz 15 Jun 1946. Turkel family (via Miki/Michal Lea Nativ): Mordechai 'Max' Levi-Turkel (1913-1997) married Margalit Halperin in Palestine 1947. Either two different Turkels, or the 1946 banns did not result in marriage. Markus + Szewa are buried together in Holon, which argues they did marry.",
-      "candidates": [
-        {
-          "label": "Different men",
-          "evidence_for": [
-            "different spouse, place, year",
-            "Holon burial of Markus+Szewa"
-          ],
-          "evidence_against": [
-            "double Turkel-Horowitz tie makes confusion easy"
-          ]
-        },
-        {
-          "label": "Same man / banns only",
-          "evidence_for": [
-            "British-Army soldier from Tel Aviv fits a returning emigrant"
-          ],
-          "evidence_against": [
-            "Turkel family records a 1947 Palestine marriage to Halperin"
-          ]
-        }
-      ],
-      "next_steps": [
-        "Ask the Turkel family (Doron Turkel / Miki Nativ) for Markus's record",
-        "Check Holon Cemetery records for Markus + Szewa Türkel"
-      ],
-      "related_people": [
-        "p_markus_turkel",
-        "p_szewa_horowitz",
-        "p_miki_nativ",
-        "p_alte_leja_rapaport"
-      ],
-      "related_places": [
-        "pl_liege",
-        "pl_haifa"
-      ]
-    }
+ "_schema": {
+  "description": "Open research questions. Each has competing hypotheses, evidence for/against, status, and next steps.",
+  "statuses": [
+   "open",
+   "active_investigation",
+   "probable_answer",
+   "resolved",
+   "blocked_waiting_archive"
   ]
+ },
+ "hypotheses": [
+  {
+   "id": "h_szabse_death_year",
+   "question": {
+    "en": "Did Szabse Rapaport die in 1884 or in 1897 — and is he the same man as Shabtai Rappaport, head of the rabbinical court of Dąbrowa?",
+    "he": "האם שבסה רפפורט נפטר ב-1884 או ב-1897 — והאם הוא אותו אדם כמו שבתאי רפפורט, אב״ד דומברובה?"
+   },
+   "priority": "HIGH",
+   "status": "open — conflicting sources",
+   "answer": {
+    "en": "UNRESOLVED, and both readings come from Basia on the same day. Her own descendant chart of Abraham Abe Rapaport gives Szabse Rapaport, born 30 January 1823 at Tarnów, died 1884, married to Ita Feiga Jahr, father of our Moses Saul. On the sheets she marked up from Rosenstein’s \"The Lurie Legacy\", the man she highlights as the same ancestor is Shabtai Rappaport, A.B.D. Dombrowa, died 1897 — and Rosenstein makes him the head of the Weidenfeld family tree. Thirteen years apart. Either they are two men and the line is joined in the wrong place, or one of the death years is wrong. This archive already held a separate note, from MyHeritage in July 2026, of a \"Szabse Rapaport, rabbi of Dąbrowa Tarnowska\" — which fits the Rosenstein man, not the 1884 one. Do not merge them until Basia produces the record behind 1884.",
+    "he": "לא הוכרע, ושתי הקריאות הגיעו מבסיה באותו יום. תרשים הצאצאים שלה של אברהם אבה רפפורט נוקב בשבסה רפפורט, יליד 30 בינואר 1823 בטרנוב, שנפטר ב-1884, נשוי לאיטה פייגה יאהר, אביו של משה שאול שלנו. בגיליונות שסימנה מתוך ״מורשת לוריא״ של רוזנשטיין, האיש שהיא מדגישה כאותו אב קדמון הוא שבתאי רפפורט, אב״ד דומברובה, שנפטר ב-1897 — ורוזנשטיין מציב אותו בראש אילן משפחת ויידנפלד. שלוש עשרה שנות הפרש. או שאלה שני אנשים והקו חובר במקום הלא נכון, או שאחת משנות הפטירה שגויה. בארכיון הזה כבר הייתה רשומה נפרדת, מ-MyHeritage ביולי 2026, על ״שבסה רפפורט, רבה של דומברובה טרנובסקה״ — המתאימה לאיש של רוזנשטיין ולא לזה של 1884. אין לאחד ביניהם עד שבסיה תציג את הרשומה שמאחורי 1884."
+   },
+   "evidence": [
+    "Basia, descendant chart of Abraham Abe Rapaport, 5 August 2026 — Szabse b. 1823.01.30 Tarnów, d. 1884.",
+    "Rosenstein, The Lurie Legacy (2004), Weidenfeld family sheet — Shabtai Rappaport, A.B.D. Dombrowa, d. 1897, as marked by Basia.",
+    "MyHeritage note, July 2026 — Szabse Rapaport, rabbi of Dąbrowa Tarnowska."
+   ],
+   "next_steps": [
+    "Ask Basia which record gives 1884, and whether she has reconciled it with the A.B.D. Dombrowa man she highlighted on the Rosenstein sheet."
+   ],
+   "related_people": [
+    "p_szabse_rapaport",
+    "p_ita_feiga_jahr",
+    "p_moses_saul_rapaport"
+   ],
+   "related_places": [
+    "pl_tarnow",
+    "pl_dabrowa"
+   ]
+  },
+  {
+   "id": "h_why_david_went_first",
+   "question": {
+    "en": "Why did David go to Palestine first, with nine-year-old Shimon, and leave Lusia and the baby Dov behind in Brussels — even at the cost of a year behind wire in Cyprus?",
+    "he": "מדוע עלה דוד ארצה ראשון, עם שמעון בן התשע, והשאיר מאחור בבריסל את לוסיה ואת דב התינוק — ואפילו במחיר שנה מאחורי גדר תיל בקפריסין?",
+    "pl": "Dlaczego Dawid popłynął do Palestyny pierwszy, z dziewięcioletnim Szymonem, zostawiając Lusię i niemowlę Dova w Brukseli — nawet za cenę roku za drutami na Cyprze?",
+    "fr": "Pourquoi David est-il parti le premier pour la Palestine, avec Shimon âgé de neuf ans, laissant Lusia et le bébé Dov à Bruxelles — même au prix d’une année derrière les barbelés à Chypre ?"
+   },
+   "priority": "HIGH",
+   "status": "RESOLVED — answered by the memoir, page 63",
+   "answer": {
+    "en": "It was not impatience, and it was not a choice about who mattered more. The rule made the decision. Lusia writes it plainly on page 63: \"One day Memek said to Lusia that since the family could not go up to the Land together — under Aliyah Bet, mothers with infants were not permitted to sail — they would split in two: he and Shimon would go first, and she and Dovik would join them later.\" Aliyah Bet — the clandestine immigration — would not take mothers with infants, and Dov was a few months old. So the family split along the line the operation drew. What it cost is documented. David and Shimon sailed from Sète on the Theodor Herzl in April 1947, were boarded and turned back, and were interned at Karaolos on Cyprus and then at Atlit; Shimon's release certificate is dated 22 August 1947 and is printed in the memoir. Lusia waited in Brussels with the baby for more than a year, and came only after the State was declared, on the ship Kedma. The separation is written into their own graves: the Haifa burial register gives his year of immigration as 1946 and hers as 1948.",
+    "he": "לא היה זה חוסר סבלנות, ולא הייתה זו הכרעה בשאלה מי חשוב יותר. הכלל הוא שהכריע. לוסיה כותבת זאת במפורש בעמוד 63: ״יום אחד אמר ממק ללוסיה כי מאחר ואין המשפחה יכולה לעלות ביחד ארצה (במסגרת עליה ב׳ לא התאפשרה עליית אמהות עם תינוקות), הם ייתחלקו לשניים: הוא ושמעון יעלו תחילה והיא ודוביק ייצטרפו אליהם מאוחר יותר.״ עליית ב׳ — ההעפלה — לא קיבלה אמהות עם תינוקות, ודב היה בן חודשים אחדים. וכך נחצתה המשפחה בדיוק לאורך הקו שההעפלה שרטטה. המחיר מתועד. דוד ושמעון הפליגו מסֶט ב״תיאודור הרצל״ באפריל 1947, האונייה נתפסה והוחזרה, והם נעצרו בקרַאוֹלוֹס שבקפריסין ואחר כך בעתלית; תעודת השחרור של שמעון נושאת את התאריך 22 באוגוסט 1947 והיא מודפסת ביומן. לוסיה המתינה בבריסל עם התינוק יותר משנה, והגיעה רק לאחר הכרזת המדינה, באוניית ״קדמה״. הפרידה כתובה בקבריהם שלהם: פנקס הקבורה בחיפה נוקב בשנת עלייתו 1946 ובשנת עלייתה 1948."
+   },
+   "evidence": [
+    "Memoir p.63 — the reason, in Lusia's own words.",
+    "Memoir p.64 — Shimon's Atlit release certificate, Haifa, 22 August 1947.",
+    "Memoir p.66 — Lusia and Dov cross on the ship Kedma after the State is declared.",
+    "Haifa Chevra Kadisha burial register — his year of immigration 1946, hers 1948."
+   ],
+   "note_2026_08_05_cc": "Asked by Doron during the August 2026 sessions and answered from the memoir then, but never written into the archive — so the answer lived only in a conversation. Recorded here.",
+   "candidates": [],
+   "next_steps": [
+    "None for the reason itself; the memoir settles it.",
+    "Still open and separate: the exact date Lusia and Dov landed at Haifa. The memoir names the ship (Kedma) but no date, and the burial register gives only the year, 1948."
+   ],
+   "related_people": [
+    "p_david",
+    "p_leah",
+    "p_shimon",
+    "p_dov_bernard"
+   ],
+   "related_places": [
+    "pl_brussels",
+    "pl_sete",
+    "pl_cyprus_karaolos",
+    "pl_atlit",
+    "pl_haifa"
+   ]
+  },
+  {
+   "id": "h_mosina_location",
+   "question": {
+    "en": "Where is 'Mosina' — the town where David and Leah married, where Shimon was born, where they lived until 1939?",
+    "he": "היכן 'מוסינה' — העיר בה התחתנו דוד ולאה, בה נולד שמעון, בה גרו עד 1939?",
+    "pl": "Gdzie jest 'Mosina' — miasto, w którym pobrali się Dawid i Lea, gdzie urodził się Szymon, gdzie mieszkali do 1939?",
+    "fr": "Où se trouve « Mosina » — la ville où Dawid et Léa se sont mariés, où Szymon est né, où ils ont vécu jusqu'en 1939 ?"
+   },
+   "priority": "HIGH",
+   "status": "RESOLVED — Muszyna confirmed by memoir 2026-05-20",
+   "note_2026_06_01_cc": "The marriage/resort 'Mosina' = Muszyna is settled by the memoir. But two pending uploads reopen a SEPARATE 'Mosina' thread that should not be conflated: (a) the Rapaport-institute online tree [upload 3eXByT1gs9KM3YTdFunc] places the PATERNAL deep ancestors (Moshe Rapaport and descendants) and even Shimon + Lota's births 'in Mosina' near Poznań — this contradicts the documented Nadwórna paternal line and is treated as an unreliable third-party compilation, NOT accepted. (b) Barbara Sieińska's lead to the JHI (19 May 2026): the long-sought family 'sawmill in Mosina' may have belonged to the GRIFFEL family (still being sorted) — see h_griffel_chajes_family. (c) Counter-evidence on the institute tree: Shimon's CKŻP card states he was born in LWÓW (not Mosina), and the memoir places the marriage in Muszyna — so the institute tree's 'born in Mosina' claims are likely errors/conflation. Net: keep Muszyna as the resolved resort; investigate whether a Griffel timber sawmill existed at a place rendered 'Mosina' as a distinct question.",
+   "candidates": [
+    {
+     "label": "Mosina near Poznań (Greater Poland)",
+     "evidence_for": [
+      "Only 'Mosina' in 1933 Polish placenames index",
+      "Listed in Rapaport Research Institute descendants tree"
+     ],
+     "evidence_against": [
+      "No Jewish residents by 1930s (last 6 Jews left 1922)",
+      "1911 birth records do not include David",
+      "2 sawmills owned by Polish non-Jewish Władysław Litke and Władysław Urbaniak",
+      "Far from where Leah's family lived"
+     ],
+     "verdict": "ruled_out"
+    },
+    {
+     "label": "Morszyn (spa town near Stryj)",
+     "evidence_for": [
+      "Ms. Kasia (ŻIH) hypothesis",
+      "Near Bolechów and Dolina region",
+      "Spa town fits the 'rental hotel for Polish visitors' family memory"
+     ],
+     "evidence_against": [
+      "Phonetically a stretch from Mosina"
+     ],
+     "verdict": "candidate"
+    },
+    {
+     "label": "Muszyna (spa town near Krynica)",
+     "evidence_for": [
+      "Magda's recollection of past conversation with Dov Rapaport about this area",
+      "Spa town fits 'rental hotel for Polish visitors' memory",
+      "Phonetically closer to 'Mosina'",
+      "Near Krynica where Rebeka was confirmed in 1912",
+      "PRIMARY-SOURCE CONFIRMATION (2026-05-20): Lusia's memoir (סיפורה של לוסיה) explicitly names מושינה (Muszyna) as 'the small resort town' where she and David married in February 1938 (page 17) and where Lusia managed a hotel that hosted 'all the social cream' of the town's visitors (page 18). The memoir uses the Hebrew spelling מושינה consistently. See docs/research/memoir_extraction_2026-05-20.md."
+     ],
+     "evidence_against": [
+      "Far from Lwów / Bolechów (but no longer disqualifying — the memoir explicitly places them there)"
+     ],
+     "verdict": "RESOLVED — confirmed by primary source (memoir)"
+    },
+    {
+     "label": "Mszana Dolna (Kraków Voivodeship)",
+     "evidence_for": [
+      "Dana found family reference to 'Rapaports of Mszana' as 'forest people' (ludzie lasu) in timber trade",
+      "Memorial/Yizkor books reportedly mention 'Rapaport Sawmill' / 'The Masina'",
+      "Mountain area fitting the family wood-sawmill story"
+     ],
+     "evidence_against": [
+      "No Rapaport in 1930 industry directory there (but pre-1930 not yet checked)",
+      "2026-05-17 CC web research: Sztetl Mszana Dolna site enumerates every Jewish timber-trade family pre-WWII (Goldberger, Geller, Wiener, Feuerstein, Kleinmann, Frey, Wachtel, Weinberg, Faber) — no Rapaport. Dedicated descendant pages exist for Rebhun and Rotkopf families but no Rapaport page. Source: docs/research/h1_mosina_2026-05-17.md"
+     ],
+     "verdict": "weak_candidate"
+    },
+    {
+     "label": "Dolina (district seat near Bolechów)",
+     "evidence_for": [
+      "Basia's hypothesis — phonetic/orthographic similarity (same length, same -ina ending)",
+      "Multiple sawmills 1930",
+      "Heart of Weinreb territory"
+     ],
+     "evidence_against": [
+      "Doesn't sound like 'Mosina' when spoken",
+      "Sawmill owners listed in 1930 are not Rapaports"
+     ],
+     "verdict": "weak_candidate"
+    }
+   ],
+   "next_steps": [
+    "Check pre-1930 industrial directories for Mszana Dolna and Mszana area for Rapaport timber business",
+    "Check Yizkor books for Mszana, Morszyn, Muszyna referencing Rapaport sawmills",
+    "Cross-reference with Shimon's 1937 birth records — where exactly was he registered?",
+    "Ask Dalia (Dana, Doron and Daniel's mother) and the family for any specific landmark/feature memories (the river? mountains? lake? neighbors? language spoken on the street?)"
+   ],
+   "related_people": [
+    "p_david",
+    "p_leah",
+    "p_shimon"
+   ],
+   "related_places": [
+    "pl_mosina_disputed",
+    "pl_morszyn",
+    "pl_muszyna",
+    "pl_mszana_dolna",
+    "pl_dolina"
+   ]
+  },
+  {
+   "id": "h_leah_dob",
+   "question": {
+    "en": "What is Leah's actual date of birth — 8 April 1913, 6 April 1916, 8 April 1916, or ~1917?",
+    "he": "מהו תאריך לידתה האמיתי של לאה — 8 באפריל 1913, 6 באפריל 1916, 8 באפריל 1916, או ~1917?",
+    "pl": "Jaka jest rzeczywista data urodzenia Lei — 8 kwietnia 1913, 6 kwietnia 1916, 8 kwietnia 1916, czy ~1917?",
+    "fr": "Quelle est la véritable date de naissance de Léa — 8 avril 1913, 6 avril 1916, 8 avril 1916, ou ~1917 ?"
+   },
+   "priority": "MEDIUM",
+   "status": "probable_answer",
+   "research_2026_06_01_cc": {
+    "summary": "The long-awaited CKŻP survivor card for Lusia is now in hand (came in as the 'Lea and Shimon' PDF upload, whose Gemini auto-verification had been blocked by a RECITATION filter). Card Nr 151738, filed by the family at the Katowice committee on 1 July 1946, states Lusia Rappoport born 8.4.1916 in Bolechów, parents Eljan (Elias) and Matylda. The DAY and MONTH (8 April) are now unanimous across every source. The YEAR is 1916 in three independent later sources (this CKŻP card + ŻIH index + Haifa Chevra Kadisha) against the single 1913 Bolechów civil birth certificate. Probable answer: 8 April; year most likely 1916, but the 1913 civil record cannot be dismissed (and age-understatement at marriage would actually favour 1913). Not declared fully resolved.",
+    "report": "docs/research/h_leah_dob_2026-06-01.md"
+   },
+   "candidates": [
+    {
+     "label": "8 April 1913",
+     "evidence_for": [
+      "Bolechów civil birth certificate (1913) — only contemporaneous civil document",
+      "If Lea genuinely declared age 18 at marriage and understated, the true year would be earlier — consistent with 1913"
+     ],
+     "evidence_against": [
+      "Conflicts with family death certificate and with three later self-reported/administrative records giving 1916"
+     ]
+    },
+    {
+     "label": "6 April 1916",
+     "evidence_for": [
+      "Family death certificate"
+     ],
+     "evidence_against": [
+      "No civil document found for this exact date; day (6th) contradicted by the unanimous 8th in every other source"
+     ]
+    },
+    {
+     "label": "8 April 1916",
+     "evidence_for": [
+      "PRIMARY (2026-06-01): Lusia's own CKŻP survivor card Nr 151738 (Katowice, 1 July 1946) states b. 8.4.1916 Bolechów, parents Eljan/Matylda [doc_lea_ckzp]",
+      "ŻIH index lists 'Lusia Rappoport' b. 1916-04-08, parents Eljan/Mahylda — now confirmed to be the index of this very card",
+      "Haifa Chevra Kadisha death record gives 08/04/1916",
+      "Three independent sources converge on this exact date"
+     ],
+     "evidence_against": [
+      "Survivor-era self-reported years are often imprecise; one earlier civil record (1913) disagrees on the year"
+     ],
+     "verdict": "leading_candidate"
+    },
+    {
+     "label": "~1917",
+     "evidence_for": [
+      "Leah said she was 18 at marriage in 1935 (per memoir) → would imply 1917"
+     ],
+     "evidence_against": [
+      "Brides commonly understate age; the 1935 vs 1938 marriage date is also unclear"
+     ]
+    }
+   ],
+   "next_steps": [
+    "Wait for the Lusia ŻIH registration card (Basia is requesting from Warsaw archives)",
+    "Look for sibling birth records to triangulate (Pnina's birth record not yet found)"
+   ],
+   "related_people": [
+    "p_leah"
+   ]
+  },
+  {
+   "id": "h_david_signature",
+   "question": {
+    "en": "Verify David's signature on the 1946 Brussels DP card against any later document",
+    "he": "אימות חתימת דוד על כרטיס העקור מבריסל 1946 מול כל מסמך מאוחר יותר",
+    "pl": "Weryfikacja podpisu Dawida z karty DP z Brukseli 1946 z jakimkolwiek późniejszym dokumentem",
+    "fr": "Vérifier la signature de Dawid sur la fiche DP de Bruxelles de 1946 par rapport à tout document ultérieur"
+   },
+   "priority": "MEDIUM",
+   "status": "RESOLVED — David's own handwriting on his 1953 Yad Vashem Pages of Testimony",
+   "next_steps": [
+    "Family search: Israeli customs authority records of David (he worked there post-war)",
+    "Family search: any letters, official documents, will, or photographs with signature",
+    "The DP card is the highest-trust evidence; signature match would settle remaining doubts"
+   ],
+   "related_people": [
+    "p_david"
+   ],
+   "related_documents": [
+    "doc_david_dp_card"
+   ],
+   "note_2026_06_15_cc": "Resolved: Dana confirmed the handwriting (31 May 2026) and Dalia recognised David's signature (4 Jun 2026) on the Yad Vashem PoTs he filed for his parents in 1953."
+  },
+  {
+   "id": "h_david_war_escape",
+   "question": {
+    "en": "How did David survive 1939-1946? Did he serve in the Polish Army? Was he deported to Siberia? Did he escape via Anders' Army to Iran in 1942?",
+    "he": "כיצד שרד דוד בין 1939-1946? האם שירת בצבא הפולני? האם הוגלה לסיביר? האם נמלט עם צבא אנדרס לאיראן ב-1942?",
+    "pl": "Jak Dawid przeżył lata 1939-1946? Czy służył w Wojsku Polskim? Czy został deportowany na Syberię? Czy uciekł z Armią Andersa do Iranu w 1942?",
+    "fr": "Comment Dawid a-t-il survécu de 1939 à 1946 ? A-t-il servi dans l'Armée polonaise ? A-t-il été déporté en Sibérie ? S'est-il évadé via l'Armée Anders en Iran en 1942 ?"
+   },
+   "priority": "HIGH",
+   "status": "probable_answer",
+   "context": "The DP card has '1942' as the citizenship-strip / deportation date. Basia notes 1942 corresponds to Anders' Army evacuation through Iran (10% of evacuees were Jewish). Family memory: David escaped Nadwórna ghetto in a railway wagon, reached Lwów, worked railway construction. These don't fully reconcile — family memory has him in Lwów, DP card lists Lwów as 1938 residence and 1942 as the loss-of-status year.",
+   "candidates": [
+    {
+     "label": "Path A — Soviet deportation 1940 → Anders Army → Italy → West",
+     "evidence_for": [
+      "Galicia was Soviet-occupied Sept 1939 - June 1941, so David was under Soviet rule then",
+      "Soviet April 1940 deportation wave specifically targeted FORESTERS as a category (Wikipedia: Soviet repressions of Polish citizens 1939-1946)",
+      "DP card lists David's Italian fluency — Anders Army Italian campaign (1944-45) explains where a Galician forester learned fluent Italian",
+      "Anders Army demobilization in Western Europe explains Brussels arrival 1946",
+      "Anders evacuation Aug 1942 (110,000 Poles, ~5,000-6,000 Jewish) matches the DP card '1942' citizenship-loss timing"
+     ],
+     "evidence_against": [
+      "Family oral history places David in Nadwórna ghetto escape in 1942, not Iran",
+      "No Polish military record yet checked"
+     ],
+     "verdict": "candidate",
+     "next_step": "Apply UK MoD Polish Records office (NOR-PolishDiscOffice@mod.uk, £30, 1-month) — single most testable question"
+    },
+    {
+     "label": "Path B — Stayed in German Galicia → Nadwórna ghetto escape → Lwów hiding → liberation",
+     "evidence_for": [
+      "Family oral history is specific (railway wagon, hidden in niche between wooden logs, reached Lwów)",
+      "Nadwórna ghetto liquidation 24 Oct 1942 aligns with DP card '1942' as the year of deprivation",
+      "Forester profession would have provided access to timber transport for the escape route",
+      "Some Jews DID escape Nadwórna ghetto to forests / Hungary (Yad Vashem confirms)"
+     ],
+     "evidence_against": [
+      "Italian fluency is hard to explain on this path — where did he learn it?",
+      "Brussels arrival from Lwów 1944-46 is geographically less direct than Italy → West"
+     ],
+     "verdict": "candidate",
+     "next_step": "Lwów Aryan-side construction worker registries 1942-44 in DALO; Leah's memoir for cross-references"
+    },
+    {
+     "label": "Path C — Combination (e.g. deported & returned, or escaped & joined partisans)",
+     "evidence_for": [
+      "Logically possible"
+     ],
+     "evidence_against": [
+      "Evidence-free at present"
+     ],
+     "verdict": "weak_candidate",
+     "next_step": "Trace by document trail across both paths"
+    }
+   ],
+   "research_2026_05_17_cc": {
+    "summary": "Path A (Anders Army) and Path B (ghetto escape) both have evidence. David's Italian fluency on the DP card is a STRONG clue pointing to Path A that the family memory has not previously addressed. Recommend the UK MoD records query as the highest-leverage next step.",
+    "report": "docs/research/h4_david_war_2026-05-17.md"
+   },
+   "next_steps": [
+    "Run JDC Names Index Bricha search (https://names.archives.jdc.org) for David Rapaport — confirms Lwów→Brussels Bricha route",
+    "Email Belgian State Archives Anderlecht (aos_avg@arch.be) for Brussels 1946 IRO file — would contain full bio",
+    "Look for Lwów Ostbahn worker records — could find Pesach's surname"
+   ],
+   "related_people": [
+    "p_david"
+   ],
+   "confidence": "documented",
+   "verdict": {
+    "en": "CORRECTED — David survived 1941-44 IN LWÓW UNDER DISGUISE, not in Soviet exile. Doron's manual 2026-05-21 search of Indeks Represjonowanych (Polish Soviet-deportee DB) returned 21 Rapaports, none matching our David (b.1911 Nadwórna, son of Berisz). The Soviet-exile hypothesis from dossier 21 is disconfirmed at the database level.\n\nLusia's memoir Chapter D page 46 already told us where David was: Lwów, with grown mustache and changed hairstyle, working on Ostbahn (German railroad) track construction with a circumcised-Jewish friend named Pesach. He lived separately from Lusia and Shimon for their joint safety. He met her secretly. After the Soviet liberation of Lwów (July 1944), David travelled west via the Bricha route to Brussels (DP card 1946) → Theodor Herzl ship from Sète 2 April 1947.",
+    "he": "תוקן — דוד שרד 1941-44 בלבוב בתחפושת, ולא בגלות סובייטית. החיפוש הידני של דורון ב-Indeks Represjonowanych ב-21 במאי 2026 החזיר 21 תוצאות 'רפפורט', אף אחת לא תואמת לדוד שלנו (יליד 1911 נדבורנה, בנו של ברישו). השערת הגלות הסובייטית ממסה 21 נשללת ברמת מסד הנתונים. יומן לוסיה פרק ד' עמ' 46 כבר סיפר היכן דוד היה: בלבוב, עם שפם מגודל ותספורת שונה, עבד בבניית מסילות הרכבת של אוסטבאן עם חבר יהודי-נימול בשם פסח."
+   },
+   "evidence_for": [
+    "Lusia memoir Chapter D page 46: explicit account of David in Lwów with disguise + railroad work + Pesach",
+    "Indeks Represjonowanych 2026-05-21: 21 Rapaports, none matching David Memek (Soviet exile DISCONFIRMED)",
+    "Brussels DP card 1946: confirms David in Brussels by 1946 (consistent with post-1944 Bricha westward)"
+   ],
+   "evidence_against": [
+    "Family recollection of Betar membership could be confused with Anders' Army (only ~5,000 Jews ever served)",
+    "Of Anders Jews who reached Palestine in 1942-43, ~3,000 deserted to Haganah/Irgun and STAYED — they would not have re-routed to Belgium"
+   ]
+  },
+  {
+   "id": "h_leah_shimon_survival",
+   "question": {
+    "en": "How did Leah and 4-year-old Shimon survive in Poland 1941-1944? Were they in the ghetto or on the Aryan side?",
+    "he": "כיצד שרדו לאה ושמעון בן ה-4 בפולין 1941-1944? האם היו בגטו או בצד הארי?",
+    "pl": "Jak Lea i 4-letni Szymon przeżyli w Polsce 1941-1944? Byli w getcie czy po stronie aryjskiej?",
+    "fr": "Comment Léa et Szymon (4 ans) ont-ils survécu en Pologne entre 1941 et 1944 ? Étaient-ils dans le ghetto ou du côté aryen ?"
+   },
+   "priority": "HIGH",
+   "status": "resolved",
+   "context": "Family memory: Leah at Legionów St 24 Lwów under 'Hormek' fake docs / 'Maria Cizlik' identity, managing art store. Worked as teller / passport section in Przemyśl (1939). Also moved to Nadwórna at some point to David's parents. Survived under multiple identities.",
+   "research_2026_05_17_cc": {
+    "summary": "Aryan-side hiding in Lwów was widespread. Per JewishGen Lvov Yizkor (pp. 693-734): 'In 1942-1943, the number of Jews who were hidden by Aryans or who masqueraded as Aryans based on false certificates... reached the thousands.' An industry produced forged identity cards, marriage certs, work permits. Leah's pattern (Maria Cizlik identity + Legionów 24 + antiques shop) is consistent with documented practice. 'Hormek' may relate to Żegota — the Polish underground that produced forged papers in its Kraków and Lwów branches. No 'Maria Cizlik' record found in open web (most cover identities never publicly documented for safety).",
+    "report": "docs/research/h5_leah_shimon_survival_2026-05-17.md",
+    "highest_leverage_action": "Leah's own memoir — extract every concrete detail (street, neighbor, ration-card date) and triangulate against Lviv State Archive (DALO) Legionów 24 building registry"
+   },
+   "research_2026_05_17_cc_round2": {
+    "trigger": "New WhatsApp chat export 17 May 22:17-22:45 from Basia + Doron + Dalia",
+    "framing_note": "David and Leah were Holocaust survivors who escaped Nazi persecution under harrowing conditions. This research is about understanding the HISTORICAL CONTEXT they lived through — Soviet and German occupations alike — never about questioning their character or choices. Where archives are silent, we record questions, not accusations.",
+    "new_evidence": [
+     "DOCUMENT ANOMALY (Basia): in Polish records 1945-1946 only Lusia is listed; in Brussels DP records only Dawid is listed. Common in post-war chaos — they likely traveled separately and reunited in Brussels in time for Dov's birth (1946). Worth a targeted archive cross-check to fill the gap.",
+     "HISTORICAL CONTEXT — Soviet 'passportization' in border zones (Basia, IPN paper #6066): During the Soviet occupation 1939-41, ALL residents of border zones were subject to a forced Soviet passport campaign. Leah was briefly in Soviet-occupied Przemyśl in 1939; the IPN paper provides historical context for what life under that occupation looked like. This is context about the period, not a claim about Leah's actions.",
+     "NEW PRIMARY SOURCE: IPN academic paper (represje-nkwd-wobec-mieszkancow-strefy-przygranicznej-1939-1941, ref 6066) by the Polish Institute of National Remembrance. Useful background for what Galician Jews faced under successive Soviet and Nazi occupations.",
+     "DORON CLARIFICATION: 'Lucia received an affidavit to go to USA. David as a Betar member wanted to go to Israel.' → explains the choice they eventually made together to reach Israel via Brussels DP.",
+     "DORON CLARIFICATION: Leah's Przemyśl stay was short — 'most of the war she was elsewhere and doing other things to escape' the Nazi persecution. Consistent with Holocaust-survivor-on-the-run pattern."
+    ],
+    "what_this_adds_to_research": [
+     "The 'separation in records' anomaly is now a tracked archival question — see h_lusia_dawid_paper_separation (new)",
+     "Soviet occupation context is better documented via the IPN paper — useful for understanding the period",
+     "Formal IPN application (h_ipn_application) escalated to high priority — IPN holds records that could complete the picture of how David and Leah survived"
+    ]
+   },
+   "next_steps": [
+    "Cross-reference with Shimon's own testimony if one survives (he died — exact date TBD)",
+    "Polscy Sprawiedliwi: search for any post-war recognition of the Hormak family of Nadwórna as Righteous Among the Nations (memoir says they helped smuggle and feed the family — they qualify)",
+    "Lota Rapaport — find her in Lwów ghetto records (Yad Vashem)"
+   ],
+   "related_people": [
+    "p_leah",
+    "p_shimon"
+   ],
+   "confidence": "confirmed",
+   "verdict": {
+    "en": "RESOLVED via the memoir itself (Chapter D, pages 30-46). Shimon was NOT placed in a convent. Sequence: (1) Hormak family (gentile Nadwórna neighbours) helped move Shimon; (2) Lota Rapaport (David's sister) hid him in the Lwów ghetto for a period; (3) Hormaks smuggled him out of the Lwów ghetto and brought him to Lusia; (4) Shimon then lived in a 70 cm × 1.50 m crate inside Lusia's apartment at Legionów 24 from then until July 1944 Soviet liberation. Lusia operated a phonograph to mask his sounds when visitors came; he never saw sunlight; his complexion went white and pale. David Memek lived separately in Lwów under disguise (grew a mustache, changed his hair) and worked on railroad-track construction with a friend named Pesach — both circumcised Jews passing as gentiles, sewing up their members to bathe with the gentile crews.",
+    "he": "נפתר באמצעות היומן עצמו (פרק ד', עמ' 30-46). שמעון לא הוכנס למנזר. רצף האירועים: (1) משפחת הורמק (שכנים גויים בנדבורנה) עזרה להעביר את שמעון; (2) לוטה רפפורט (אחותו של דוד) הסתירה אותו בגטו לבוב תקופת מה; (3) הורמקים הבריחו אותו מגטו לבוב והביאו אותו ללוסיה; (4) משם והלאה התגורר שמעון בארגז של 70 ס\"מ × 1.50 מ' בתוך דירת לוסיה בלגיונוב 24, עד שחרור לבוב על-ידי הסובייטים ביולי 1944. לוסיה הפעילה פטיפון להסוות את קולותיו כאשר באו אורחים; הוא לא ראה את אור השמש; עורו הלבין והחוויר. דוד ממק התגורר בלבוב בנפרד תחת תחפושת (הצמיח שפם, שינה את תספורתו) ועבד בהנחת מסילות רכבת עם חבר בשם פסח — שניהם יהודים נימולים שעברו כגויים, ותפרו את איבריהם כדי להתקלח עם הצוותים הגויים."
+   },
+   "evidence_for": [
+    "Memoir Chapter D pages 36-38: Lusia retrieves Shimon from the Lwów ghetto via Hormak family",
+    "Memoir Chapter D page 38: 'All that time he lived with Lucia's sister-in-law, Lota, in the ghetto' (before Lusia retrieved him)",
+    "Memoir Chapter D pages 44-46: 'Shimon and the Crate' chapter — explicit description of the 70cm × 1.50m crate, the phonograph, the sunless skin",
+    "Memoir Chapter D page 46: David Memek lived separately, sewed circumcision to bathe with gentiles"
+   ],
+   "evidence_against": []
+  },
+  {
+   "id": "h_przemysl_who",
+   "question": {
+    "en": "When Leah was in Przemyśl (1939), whose home did she stay at — her mother Matel's (but Matel was in Palestine since 1933) or her mother-in-law Rebeka/Regina's?",
+    "he": "כשלאה הייתה בפשמישל (1939), בבית של מי היא שהתה — אמה מתל (אבל היא הייתה בארץ ישראל מ-1933) או חמותה רבקה/רגינה?",
+    "pl": "Kiedy Lea była w Przemyślu (1939), u kogo mieszkała — swojej matki Matel (ale Matel była w Palestynie od 1933) czy teściowej Rebeki/Reginy?",
+    "fr": "Quand Léa était à Przemyśl (1939), chez qui logeait-elle — chez sa mère Matel (mais Matel était en Palestine depuis 1933) ou chez sa belle-mère Rebeka/Regina ?"
+   },
+   "priority": "MEDIUM",
+   "status": "open",
+   "context": "Basia asks: per the WhatsApp message earlier, Doron said Leah lived with 'my granddaughter's parents in Przemyśl' — likely a typo (granddaughter→grandfather?) — meaning Leah stayed with David's parents Berisz and Rebeka in Przemyśl. If that's correct, Berisz and Rebeka had moved from Nadwórna to Przemyśl by then.",
+   "next_steps": [
+    "Doron to confirm/clarify the message (Basia asked on 08 May)",
+    "Check Przemyśl 1910 records for Bernard Rapaport (Basia found a Bernard there)",
+    "Check Przemyśl 1939 residence registers"
+   ],
+   "related_people": [
+    "p_leah",
+    "p_berisz",
+    "p_rebeka"
+   ]
+  },
+  {
+   "id": "h_griffel_chajes_family",
+   "question": {
+    "en": "Extend research to the Griffel and Chajes families of Nadwórna — Dana, Doron and Daniel's paternal gg-grandparents (via Rebeka Griffel → David)",
+    "he": "להרחיב את המחקר למשפחות גריפל וחיות מנדבורנא — סבי-סבא של דורון",
+    "pl": "Rozszerzyć badania na rodziny Griffel i Chajes z Nadwórnej — pra-pradziadków Dorona",
+    "fr": "Étendre les recherches aux familles Griffel et Chajes de Nadwórna — les arrière-arrière-grands-parents de Doron"
+   },
+   "priority": "MEDIUM",
+   "status": "open",
+   "context": "The 15 May Nadwórna breakthrough opened TWO new generations: Leizor Griffel + Sara née Chajes. Both Galician Jewish surnames — Chajes is a notable rabbinic name family (Tzvi Hirsch Chajes etc., though connection unverified). This branch is now researchable.",
+   "research_2026_05_17_cc": {
+    "summary": "Nadwórna Jewish vital records ARE catalogued at Gesher Galicia. High-value finding: Przemyśl State Archive holds a Nadwórna marriage index for 1877-1907 (ref 154/70/313) — Leizor Griffel × Sara Chajes marriage (likely 1883-1887, before Rebeka's 1888 birth) should be directly findable in this index. Rebeka's 1888 birth falls in a GAP in indexed records (1865→1903), so the breakthrough cert Ms. Kasia found must be from a different fond; Dalia, Dana, Doron and Daniel should ask Ms. Kasia which one to find Rebeka's siblings.",
+    "report": "docs/research/h8_griffel_chajes_2026-05-17.md",
+    "highest_leverage_action": "Basia → Przemyśl archive ref 154/70/313 (1877-1907 Nadwórna marriage index) — pull the Leizor Griffel × Sara Chajes entry"
+   },
+   "research_2026_06_01_cc": {
+    "summary": "Processed two pending uploads that corroborate this branch from primary records, plus the JHI/ŻIH genealogy department's own verification. (1) A JRI-Poland index screenshot [upload 4hFR7pAuFl3lYDTJjQWN] confirms the Nadwórna Jewish vital-record funds: births 1877-1896 = Sygnatura 941, deaths 1877-1896 = Sygnatura 946, and lists Griffel children plus a cluster of Chajes children whose mother is 'Sura CHAJES'. (2) Email correspondence with the Emanuel Ringelblum Jewish Historical Institute (JHI/ŻIH) genealogy centre [upload ElUEJykulI1sHqenTTKU, dated 18-19 May 2026, Katarzyna + Barbara Sieińska + Doron]: the JHI confirmed the family tree is genuine ('confirmation of the accuracy of the material from the source'). NEW documented details: Leizor (Eliezer) Griffel was a 'Schaechter' (shochet — ritual slaughterer) and a Hausbesitzer (house-owner) in Kolomyia, at least in the 1880s; there were TWO men named Lajzor Griffel in the industrial registers (father 'senior' + son); the Leizor × Sara Chajes MARRIAGE record exists ('S 1892 Leizer i Sara Griffel N' — Nadwórna). Barbara also flags that 'Rechel' and 'Simcie' Griffel are two children who died in childhood and are not in the family tree. The actual birth-record akta list (all Nadwórna): Machla 1873, Dawid 1875, stillborn 1877, Zissel 1878, Eisig Chaim 1879, Rachel 1881, Chaja 1883, Leibisch 1885, Beniamin 1887, Rebeca 1888. (3) The Edward Gelles 'Facets of my Family History, Part 2' (chapters 13-20) [upload KPmyxEBTxjwGBrRVJMjE] is the full text of the canonical source already cited as src_gelles_griffel_nadworna_pdf; chapter 13 'Some Griffel cousins' + chapter 14 'The Chayes family' confirm the 10-children list and the Chajes rabbinic descent.",
+    "new_lead": "Barbara Sieińska (to JHI, 19 May 2026): 'I believe the sawmill in Mosina we are looking for belonged to the Griffels, but I still need to sort out the materials.' This is the first link between the unresolved 'Mosina' place mystery and the Griffel family — see h_mosina_location.",
+    "report": "docs/research/incoming_2026-06-01_pending_uploads.md"
+   },
+   "archive_paths": {
+    "all_galicia_database": "https://www.geshergalicia.org/all-galicia-database/?surname=Griffel&town=Nadworna",
+    "jri_poland": "https://jri-poland.org/search.htm (Nadwórna births 1876-1897, deaths 1868-1892)",
+    "yad_vashem_names": "https://collections.yadvashem.org/en/names — search Griffel + Nadwórna for Holocaust testimonies of Rebeka's relatives"
+   },
+   "next_steps": [
+    "Nadwórna Jewish vital records — siblings of Rebeka, marriage of Leizor and Sara, parents of Sara Chajes",
+    "Galician Jewish records archive (e.g. JewishGen, Gesher Galicia)",
+    "Ask Ms. Kasia at ŻIH which fond held Rebeka's 1888 birth cert — that fond likely has her siblings",
+    "Investigate possible Chajes family connection to Rabbi Tzvi Hirsch Chajes (1805-1855, prominent Galician rabbi)"
+   ],
+   "related_people": [
+    "p_leizor_griffel",
+    "p_sara_chajes",
+    "p_rebeka"
+   ]
+  },
+  {
+   "id": "h_betar_records",
+   "question": {
+    "en": "Does Betar Poland have archives that would record David's membership?",
+    "he": "האם לבית״ר פולין יש ארכיונים שירשמו את חברותו של דוד?",
+    "pl": "Czy Betar Polska ma archiwa, które rejestrowałyby członkostwo Dawida?",
+    "fr": "Le Betar Pologne possède-t-il des archives où l'adhésion de Dawid serait enregistrée ?"
+   },
+   "priority": "LOW",
+   "status": "open",
+   "next_steps": [
+    "Jabotinsky Institute in Israel (Tel Aviv) — holds Betar Poland archives",
+    "Virtual Shtetl Betar resource: https://share.google/ntEBJi1PH7APKgyPG"
+   ],
+   "research_2026_05_17_cc": {
+    "summary": "Two rounds: (1) open-web Hebrew search found no direct match; (2) CC drove Dalia, Dana, Doron and Daniel's Chrome through the Jabotinsky Institute archive (jabotinsky.org/ארכיון/חיפוש-פשוט) — searched 'רפפורט' (37 hits, none our David — Lehi member, Latvia Betar Y., Polish 2nd Division Chaim, sculptor Natan, etc.), 'מנדל רפפורט' (0), 'רפפורט נדבורנה' (0). Partial negative: online portion has no match. NOT full refutation — Institute states only ~44 of 215 archives are online, and the personal files (סימול פ) which would contain individual Betar member files are NOT in the online index at all and must be requested by name from the archivists.",
+    "report": "docs/research/h_betar_2026-05-17.md",
+    "highest_leverage_action": "Doron emails the Jabotinsky Institute archivists in Hebrew requesting a personal-file search for David Mendel Rapaport b. 25.12.1911 Nadwórna. Template Hebrew email is in the research report.",
+    "verdict": "family_oral — plausible; online archive returned no match; physical archive not yet checked"
+   },
+   "related_people": [
+    "p_david"
+   ]
+  },
+  {
+   "id": "h_lusia_dawid_paper_separation",
+   "question": {
+    "en": "Why does Lusia appear in Polish records 1945-46 but not Dawid, while Dawid appears in Brussels DP records but not Lusia? When and where did they reunite for Dov's 1946 Brussels birth?",
+    "he": "מדוע לוסיה מופיעה ברשומות פולין 1945-46 ללא דוד, ואילו דוד מופיע ברישומי העקורים בבריסל ללא לוסיה? מתי והיכן התאחדו לקראת לידת דב בבריסל 1946?",
+    "pl": "Dlaczego Lusia figuruje w polskich rejestrach 1945-46 bez Dawida, a Dawid w brukselskich rejestrach DP bez Lusi? Kiedy i gdzie się ponownie spotkali przed narodzinami Dova w Brukseli 1946?",
+    "fr": "Pourquoi Lusia apparaît-elle dans les registres polonais 1945-46 sans Dawid, tandis que Dawid apparaît dans les registres DP de Bruxelles sans Lusia ? Quand et où se sont-ils retrouvés avant la naissance de Dov à Bruxelles en 1946 ?"
+   },
+   "priority": "HIGH",
+   "status": "probable_answer",
+   "context": "Basia observation 17 May 2026: documentary trail shows them apart in 1945-46. Possible explanations: (a) Lusia traveled separately and joined later; (b) records are incomplete in one location; (c) deliberate separation (different declared destinations — Doron: 'Lucia received affidavit to USA, David as Betar member wanted Israel'); (d) Lusia stayed in Poland longer to wrap up affairs / sell property / find documents.",
+   "research_2026_06_01_cc": {
+    "summary": "NEW HARD DATAPOINT for the Polish leg. Lusia's and Shimon's CKŻP survivor cards (doc_lea_ckzp Nr 151738; doc_szymon_ckzp Nr 151337) were both filed at the KATOWICE committee on 1 JULY 1946, each listing Katowice as last known address. This documents mother + son in Katowice (Upper Silesia, Poland) in mid-1946 — exactly the 'Lusia in Polish records, registered with CKŻP' leg the reconstruction predicted. Katowice was a major repatriation/Bricha staging hub in 1946. It is consistent with David having already moved ahead toward Brussels (men-first pattern). Tightens the timeline: Lusia + Shimon still in Poland (Katowice) as of 1 July 1946; Dov born Brussels later in 1946 — so their westward Bricha leg falls in the second half of 1946.",
+    "report": "docs/research/incoming_2026-06-01_pending_uploads.md"
+   },
+   "candidates": [
+    {
+     "label": "Separate travel, Leah joined Brussels in time for Dov's 1946 birth",
+     "evidence_for": [
+      "Dov born Brussels 1946 (family oral) — must have been together by then"
+     ],
+     "evidence_against": [
+      "No direct travel record yet"
+     ],
+     "verdict": "candidate"
+    },
+    {
+     "label": "Differing intended destinations (Doron: USA vs Israel) — couple eventually aligned on Israel via Brussels DP",
+     "evidence_for": [
+      "Doron explicit statement 17 May 2026"
+     ],
+     "evidence_against": [],
+     "verdict": "candidate"
+    },
+    {
+     "label": "Records incomplete — they were together but Polish record lost Dawid, Brussels record lost Lusia",
+     "evidence_for": [
+      "Common pattern in post-war chaos"
+     ],
+     "evidence_against": [
+      "Selective loss across two systems is statistically unlikely"
+     ],
+     "verdict": "weak_candidate"
+    }
+   ],
+   "next_steps": [
+    "JDC Names Index (archives.jdc.org/our-collections/names-index/) — Brussels 1946 Rapaport entries",
+    "EHRI Brussels file il-006088 (JDC Jerusalem G 45-54) — original DP intake records",
+    "JHI Warsaw CKŻP central registry of survivors (1944-47) — search Lusia Rapaport née Weitzner",
+    "Lubartworld / CNRS digitised CKŻP card archive"
+   ],
+   "related_people": [
+    "p_david",
+    "p_leah"
+   ],
+   "confidence": "hypothesis",
+   "verdict": {
+    "en": "Most plausible reconstruction: Lusia and Shimon left Lwów post-July 1944 (Soviet liberation), repatriated to Poland under the 1944-46 transfers, where Lusia registered with CKŻP as 'Rapaport née Weitzner' (real name, re-Judaised post-liberation). From spring 1946 they joined the Bricha through Czechoslovakia, reaching Brussels by mid-1946 — early enough for Dov's conception/birth in November 1946. David likely reached Brussels first via the same Bricha route (typical 'men first' pattern to secure papers and housing). In Brussels JDC/HIAS files Lusia is under 'Rapaport' — the Cizlik identity discarded once safe.",
+    "he": "השחזור הסביר ביותר: לוסיה ושמעון עזבו את לבוב לאחר יולי 1944 (שחרור סובייטי), הוחזרו לפולין במסגרת ההעברות 1944-46, ושם נרשמה לוסיה ב-ועד היהודים הפולנים המרכזי (CKŻP) בשם 'רפפורט לבית וייצנר' (שמה האמיתי, לאחר חזרה לזהות יהודית). מאביב 1946 הצטרפו לבריחה דרך צ'כוסלובקיה, הגיעו לבריסל באמצע 1946 — מספיק מוקדם להריון/לידת דב בנובמבר 1946. דוד ככל הנראה הגיע לבריסל ראשון באותו מסלול בריחה ('הגברים תחילה' — דפוס טיפוסי לאבטחת מסמכים ודיור). בתיקי הג'וינט/HIAS בבריסל לוסיה רשומה בשם 'רפפורט' — זהות ציצליק נזנחה לאחר שהמשפחה הייתה בטוחה."
+   }
+  },
+  {
+   "id": "h_zip_documents",
+   "question": {
+    "en": "What's in the Lusia ŻIH registration cards Basia is requesting from Warsaw?",
+    "he": "מה יש בכרטיסי הרישום של לוסיה ב-ŻIH שבסיה מבקשת מוורשה?",
+    "pl": "Co jest w kartach rejestracyjnych Lusi w ŻIH, których Basia żąda z Warszawy?",
+    "fr": "Que contiennent les fiches d'enregistrement de Lusia au ŻIH que Basia demande à Varsovie ?"
+   },
+   "priority": "HIGH",
+   "status": "resolved",
+   "verdict": {
+    "en": "RESOLVED 2026-06-01. The ŻIH/CKŻP registration cards are now in hand — they were uploaded 18 May 2026 as the 'Lea and Shimon' PDF, but the Gemini auto-verifier had been blocked (RECITATION filter), so they sat unprocessed until CC read the scans directly. Two cards, both 'Karta informacyjna o osobach ocalałych' filed at the Katowice committee on 1 July 1946: (1) Nr 151738 — Lusia Rappoport, b. 8.4.1916 Bolechów, parents Eljan/Matylda, last address Katowice [doc_lea_ckzp]; (2) Nr 151337 — Szymon Rappoport, b. 22.6.1937 Lwów, parents Dawid/Lusia, last address Katowice [doc_szymon_ckzp]. Net new facts: Leah's DOB cluster (see h_leah_dob), Shimon's stated birthplace = Lwów (corrects the 'Mosina' assumption), and mother+son together in Katowice in mid-1946 (see h_lusia_dawid_paper_separation).",
+    "he": "נפתר ב-2026-06-01. כרטיסי הרישום של ŻIH/CKŻP נמצאים כעת בידינו — הם הועלו ב-18 במאי 2026 כקובץ ה-PDF 'Lea and Shimon', אך מאמת ה-Gemini נחסם (מסנן RECITATION), ולכן הם לא עובדו עד שה-CC קרא את הסריקות ישירות. שני כרטיסים, שניהם 'כרטיס מידע על ניצולים' שהוגשו בוועד קטוביץ ב-1 ביולי 1946: (1) מס' 151738 — לוסיה רפפורט, ילידת 8.4.1916 בולחוב; (2) מס' 151337 — שמעון רפפורט, יליד 22.6.1937 לבוב. שניהם רשמו את קטוביץ ככתובת אחרונה."
+   },
+   "next_steps": [
+    "DONE — cards received and processed. Optional: request the reverse side / any attached pages from ŻIH if a fuller intake form exists.",
+    "Reconcile Shimon's Lwów birthplace (June 1937) with the February-1938 Muszyna marriage in the memoir — flagged for Doron."
+   ],
+   "related_people": [
+    "p_leah",
+    "p_shimon"
+   ],
+   "related_documents": [
+    "doc_lea_ckzp",
+    "doc_szymon_ckzp"
+   ]
+  },
+  {
+   "id": "h_ipn_application",
+   "question": {
+    "en": "Apply to IPN (Institute of National Remembrance) for any David / Leah / Shimon Rapaport records — KL camps, Gestapo, Stutthof",
+    "he": "להגיש בקשה ל-IPN (המכון לזכרון לאומי) לכל רשומה של דוד / לאה / שמעון רפפורט",
+    "pl": "Złożyć wniosek do IPN o wszelkie zapisy dotyczące Dawida / Lei / Szymona Rapaport",
+    "fr": "Demander à l'IPN tout dossier concernant Dawid / Léa / Szymon Rapaport"
+   },
+   "priority": "MEDIUM",
+   "status": "open",
+   "context": "Basia notes 6+ month wait. As family member Dalia, Dana, Doron and Daniel can apply directly. Need to attach: death certificates, David's DP card, ŻIH materials.",
+   "next_steps": [
+    "Doron to fill IPN application (English version, Basia can help)",
+    "Attach death certificates and DP card"
+   ],
+   "related_people": [
+    "p_david",
+    "p_leah",
+    "p_shimon"
+   ]
+  },
+  {
+   "id": "h_brussels_to_israel_route",
+   "question": {
+    "en": "Which ship brought the Rapaport family from Brussels DP to Cyprus and on to Israel? Strongest candidate: Theodor Herzl (April 1947).",
+    "he": "באיזו אונייה הגיעה משפחת רפפורט מבריסל לקפריסין ולישראל? המועמדת החזקה ביותר: תיאודור הרצל (אפריל 1947).",
+    "pl": "Którym statkiem rodzina Rapaport dotarła z Brukseli przez Cypr do Izraela? Najsilniejszy kandydat: Theodor Herzl (kwiecień 1947).",
+    "fr": "Quel navire a amené la famille Rapaport de Bruxelles à Chypre puis en Israël? Candidat le plus probable: Theodor Herzl (avril 1947)."
+   },
+   "priority": "HIGH",
+   "status": "resolved",
+   "context": "Family memory + DP card: Brussels April 1946 → Dov born Brussels 1946 → 'Cyprus internment camps' → Israel post-1948. Theodor Herzl (Aliyah Bet ship) sailed Sète 2 Apr 1947 with 2,620 survivors, ~500 children, EXPLICITLY some passengers brought by train FROM BELGIUM (Hebrew Wikipedia). Intercepted 13 Apr 1947 → Cyprus → released after Israel founded May 1948. This fits the timeline, geography, and 'Cyprus' detail exactly.",
+   "candidates": [
+    {
+     "label": "Theodor Herzl (תיאודור הרצל), 2 April 1947 from Sète",
+     "evidence_for": [
+      "Hebrew Wikipedia explicitly states 'חלקם הובאו ברכבת מבלגיה' (some brought by train from Belgium)",
+      "2,620 passengers including 500 children — Dov as baby fits",
+      "Intercepted off Tel Aviv 13 Apr 1947 → Cyprus detention (family memory of Cyprus is specific)",
+      "Released to Israel after May 1948 statehood — fits 'reached Israel late 1940s'"
+     ],
+     "evidence_against": [
+      "Median passenger age stated as 20-30 — David 35, Leah 31 or 34, slightly older than median",
+      "No primary-source passenger list checked yet"
+     ],
+     "verdict": "candidate (strong)"
+    }
+   ],
+   "research_2026_05_17_cc": {
+    "summary": "First-pass research identifies Theodor Herzl as the strongest single-ship match for our family's known Brussels → Cyprus → Israel route. Belgian-train origin + ~April 1947 timing + Cyprus deportation are explicit aligned data points.",
+    "report": "docs/research/h_theodor_herzl_2026-05-17.md",
+    "highest_leverage_action": "Search Israel State Archives (catalog.archives.gov.il) for 'תיאודור הרצל' + 'רפפורט', OR email library@archives.gov.il requesting passenger-manifest check for the Rapaport family"
+   },
+   "next_steps": [
+    "Search Israel State Archives catalog for Theodor Herzl passenger files",
+    "Search Central Zionist Archives פנקסי רשימות עולים",
+    "Check JDC Archives Cyprus detainee birth/registration records (Dov was infant)",
+    "Cross-reference with other April-1947 Aliyah Bet ships if Theodor Herzl manifest is negative (Geulah, Yehuda Halevy, Mishmar Haemek were also active that month)"
+   ],
+   "related_people": [
+    "p_david",
+    "p_leah",
+    "p_shimon",
+    "p_dov_bernard"
+   ],
+   "confidence": "confirmed",
+   "verdict": {
+    "en": "RESOLVED — Theodor Herzl, Sète, 2 April 1947. The ex-British cable-laying ship HMS/SS 'Guardian' (built 1907, Newcastle, 1,768 tons), acquired by Mossad LeAliyah Bet in 1946 and refitted at Marseille. Loaded 2,641 ma'apilim from camps in France and Belgium. Intercepted 13 April 1947 by HMS Haydon + HMS St Brides Bay; 3 killed, 27 wounded; deported to Cyprus. NOT the SS Exodus 1947 (that was the ex-President Warfield, July 1947). Verified via Palyam/Palmach archives.",
+    "he": "נפתר — תיאודור הרצל, סט, 2 באפריל 1947. ספינת הכבלים הבריטית HMS/SS 'גארדיאן' לשעבר (נבנתה ב-1907 בניוקאסל, 1,768 טון), נרכשה על-ידי המוסד לעלייה ב' ב-1946 ושופצה במרסיי. טענה 2,641 מעפילים ממחנות בצרפת ובלגיה. יורטה ב-13 באפריל 1947 על-ידי HMS היידון + HMS סן ברידס באי; 3 הרוגים, 27 פצועים; גורשו לקפריסין. אינה אקסודוס 1947 (זו הייתה פרסידנט וורפילד לשעבר, יולי 1947). אומת דרך ארכיוני פלי\"ם/פלמ\"ח."
+   }
+  },
+  {
+   "id": "h_cieszyn_check",
+   "question": {
+    "en": "Even though Nadwórna is confirmed, check Cieszyn archives in Katowice to be exhaustive",
+    "he": "אף שנדבורנא מאומתת, יש לבדוק את ארכיוני צ'שין בקטוביץ למען השלמות",
+    "pl": "Mimo że Nadwórna jest potwierdzona, sprawdzić archiwa Cieszyna w Katowicach dla kompletności",
+    "fr": "Bien que Nadwórna soit confirmé, vérifier les archives de Cieszyn à Katowice par exhaustivité"
+   },
+   "priority": "LOW",
+   "status": "open",
+   "context": "Cieszyn records not online; available at Archiwum w Katowicach. Could rule out the DP card birthplace one way or the other.",
+   "next_steps": [
+    "Basia to call Katowice archive (noted but not yet done as of 13 May)"
+   ],
+   "related_people": [
+    "p_david"
+   ]
+  },
+  {
+   "id": "h_moses_saul_parents",
+   "question": {
+    "en": "Who were Moses Saul Rapaport's parents — were they Shabtai (Szabse) + Ita Feigi?",
+    "he": "מי היו הוריו של משה שאול רפפורט — האם שבתאי (שבסה) + איטה פייגי?",
+    "pl": "Who were Moses Saul Rapaport's parents — were they Shabtai (Szabse) + Ita Feigi?",
+    "fr": "Who were Moses Saul Rapaport's parents — were they Shabtai (Szabse) + Ita Feigi?"
+   },
+   "priority": "MEDIUM",
+   "status": "RESOLVED — Szabse Rapaport and Ita Feiga Jahr, corroborated 5 August 2026",
+   "note_2026_06_15_cc": "Tarnów death record 1933/152: Mojżesz Rapaport, d. 8 Nov 1933, ul. Folwarczna, age 75, son of Szabse + Ita Feigi. Street matches Berisz's passport (9 Folwarczna; death cert says 199, likely a clerk repeating the ordinal). A SECOND Moses Saul died 30 Oct 1931 under Dąbrowa. Basia leans toward the 1933 one being ours. If so, parents = Shabtai + Ita Feigi. Not asserted in the tree structure until corroborated.",
+   "candidates": [
+    {
+     "label": "Moses Saul = son of Shabtai + Ita Feigi (d. Tarnów 1933, age 75)",
+     "evidence_for": [
+      "street matches",
+      "naming custom (Moses Saul son of Moses Saul does not fit)",
+      "Basia's review of the Tarnów notarial records (7 Jul 2026) — she is satisfied Szabse is the ancestor",
+      "Szabse Rapaport documented as rabbi in Dąbrowa Tarnowska until 20 Apr 1884",
+      "Berisz's 1924 passport registers the family commune as Dąbrowa Tarnowska — the town Szabse served",
+      "MyHeritage record (Dana, 7 Jul 2026): Schabse + Figa/Yete, son Yitzhak Haim — given names align with Ita Feigi"
+     ],
+     "evidence_against": [
+      "house number mismatch (9 vs 199)",
+      "Radomyśl records lost"
+     ]
+    },
+    {
+     "label": "Moses Saul = the Dąbrowa one (d. 1931)",
+     "evidence_for": [
+      "Berisz's passport lists commune Dąbrowa Tarnowska"
+     ],
+     "evidence_against": [
+      "no Tarnów death record there",
+      "date/stone older",
+      "the Dąbrowa link is now explained by Szabse's rabbinate there, not by a second Moses Saul"
+     ]
+    }
+   ],
+   "next_steps": [
+    "Ask Basia for the source citations behind Szabse’s 1823 birth date and Ita Feiga’s maiden name — they must come from Tarnów registers we have not seen.",
+    "Separate and still open: Szabse died 1884 (Basia) or 1897 (Rosenstein). See h_szabse_death_year."
+   ],
+   "related_people": [
+    "p_moses_saul_rapaport",
+    "p_berisz"
+   ],
+   "related_places": [
+    "pl_tarnow",
+    "pl_dabrowa",
+    "pl_radomysl_wielki"
+   ],
+   "note_2026_07_07_cc": "7 Jul 2026 — Basia worked the Tarnów notarial records and the Dąbrowa Tarnowska rabbinate lists and reports: 'I looked through the records at the notary's office in Tarnów, and they convinced me that Szabse was your ancestor.' She also establishes that Szabse Rapaport was RABBI in Dąbrowa Tarnowska until 20 April 1884, succeeded that year by Majer Rapaport (from Łuków, 19 May) and then Hirsz Weiss (19 Sept); the 1886 entry shows 'Hersz Weiss' written over a crossed-out 'Szabsa Rapaport', which she reads as a scribal duplicate. Independently, Dana produced a MyHeritage record the same evening naming Schabse + Figa/Yete and their son Yitzhak Haim — the given names match the Ita Feigi of the 1933 Tarnów death record. This also explains a detail that had been unexplained since May: Berisz's 1924 passport gives his commune as Dąbrowa Tarnowska, the town where his grandfather had been rabbi. NOT yet a document naming Moses Saul's father outright, so this stays probable, not resolved. Basia's own caution stands: 'I don't include anything I can't find evidence for.'",
+   "answer": {
+    "en": "Szabse (Shabtai) Rapaport and Ita Feiga née Jahr. Two independent lines of evidence now agree. Ours: the Tarnów death record 1933/152 for Mojżesz Rapaport, died 8 November 1933 at ul. Folwarczna aged 75, son of Szabse and Ita Feigi. Basia’s: a descendant chart of Abraham Abe Rapaport compiled in 2026, which places Moses Saul — born about 1858, died 8 November 1933, married to Menycha Leiner — as their son. Menycha Leiner is our Menukha, and we had her maiden name from the Sambor marriage record of 1913, which Basia did not use. The chart adds two particulars we never had: Ita Feiga’s maiden name Jahr, and Szabse born 30 January 1823 at Tarnów.",
+    "he": "שבסה (שבתאי) רפפורט ואיטה פייגה לבית יאהר. שני קווי ראיות בלתי תלויים מסכימים כעת. שלנו: רשומת הפטירה מטרנוב 1933/152 של מוישה רפפורט, שנפטר ב-8 בנובמבר 1933 ברחוב פולברצ׳נה בגיל 75, בנם של שבסה ואיטה פייגי. של בסיה: תרשים צאצאים של אברהם אבה רפפורט שנערך ב-2026, הממקם את משה שאול — יליד 1858 בקירוב, נפטר 8 בנובמבר 1933, נשוי למניכה ליינער — כבנם. מניכה ליינער היא מנוחה שלנו, ושם נעוריה היה בידינו מרשומת הנישואין מסמבור 1913, שבסיה לא השתמשה בה. התרשים מוסיף שני פרטים שמעולם לא היו לנו: שם נעוריה של איטה פייגה, יאהר, ושבסה נולד ב-30 בינואר 1823 בטרנוב."
+   }
+  },
+  {
+   "id": "h_jente_survival",
+   "question": {
+    "en": "Did Jente Rapaport survive the war, and what became of her line?",
+    "he": "האם יענטה רפפורט שרדה את המלחמה, ומה עלה בגורל הענף שלה?",
+    "pl": "Did Jente Rapaport survive the war, and what became of her line?",
+    "fr": "Did Jente Rapaport survive the war, and what became of her line?"
+   },
+   "priority": "HIGH",
+   "status": "RESOLVED — Jente survived; lived in Liège with her daughter Szewa in 1946",
+   "note_2026_06_15_cc": "The Liège marriage record of Szewa Horowitz (15 Jun 1946, No. 1142) states the bride's mother Jenta Rapaport was 'living together with her daughter'. Szewa (b.1920 Tarnów) is on the 1941 Liège census of Jews and married Markus Türkel (British-Army soldier, of Tel Aviv). Jente's death after 1946 is unknown.",
+   "candidates": [],
+   "next_steps": [
+    "Trace Jente's death record in Belgium/Israel after 1946",
+    "Resolve the Markus-Türkel identity conflict (see h_markus_turkel_identity)"
+   ],
+   "related_people": [
+    "p_jente_rapaport",
+    "p_szewa_horowitz",
+    "p_markus_turkel",
+    "p_mendel_horowitz"
+   ],
+   "related_places": [
+    "pl_liege",
+    "pl_tarnow"
+   ]
+  },
+  {
+   "id": "h_markus_turkel_identity",
+   "question": {
+    "en": "Is Markus Türkel (m. Szewa Horowitz, Liège 1946) the same as Mordechai 'Max' Levi-Turkel (m. Margalit Halperin, Palestine 1947)?",
+    "he": "האם מרקוס טורקל (נשא את שבע הורוויץ, ליאז' 1946) זהה למרדכי 'מקס' לוי-טורקל (נשא את מרגלית הלפרין, ארץ ישראל 1947)?",
+    "pl": "Is Markus Türkel (m. Szewa Horowitz, Liège 1946) the same as Mordechai 'Max' Levi-Turkel (m. Margalit Halperin, Palestine 1947)?",
+    "fr": "Is Markus Türkel (m. Szewa Horowitz, Liège 1946) the same as Mordechai 'Max' Levi-Turkel (m. Margalit Halperin, Palestine 1947)?"
+   },
+   "priority": "MEDIUM",
+   "status": "open — conflicting records",
+   "note_2026_06_15_cc": "Liège record: Markus Türkel, British-Army soldier of Tel Aviv, son of Leib Türkel + Lea Nüssenbaum, married Szewa Horowitz 15 Jun 1946. Turkel family (via Miki/Michal Lea Nativ): Mordechai 'Max' Levi-Turkel (1913-1997) married Margalit Halperin in Palestine 1947. Either two different Turkels, or the 1946 banns did not result in marriage. Markus + Szewa are buried together in Holon, which argues they did marry.",
+   "candidates": [
+    {
+     "label": "Different men",
+     "evidence_for": [
+      "different spouse, place, year",
+      "Holon burial of Markus+Szewa"
+     ],
+     "evidence_against": [
+      "double Turkel-Horowitz tie makes confusion easy"
+     ]
+    },
+    {
+     "label": "Same man / banns only",
+     "evidence_for": [
+      "British-Army soldier from Tel Aviv fits a returning emigrant"
+     ],
+     "evidence_against": [
+      "Turkel family records a 1947 Palestine marriage to Halperin"
+     ]
+    }
+   ],
+   "next_steps": [
+    "Ask the Turkel family (Doron Turkel / Miki Nativ) for Markus's record",
+    "Check Holon Cemetery records for Markus + Szewa Türkel"
+   ],
+   "related_people": [
+    "p_markus_turkel",
+    "p_szewa_horowitz",
+    "p_miki_nativ",
+    "p_alte_leja_rapaport"
+   ],
+   "related_places": [
+    "pl_liege",
+    "pl_haifa"
+   ]
+  },
+  {
+   "id": "h_prague_camp",
+   "status": "open",
+   "question": {
+    "en": "Which camp in Prague did Lusia come from, and when was she there? Her DP card and the 1945 residence request both say she came from a camp in Prague. Nothing else in this archive — and nothing in her own memoir — mentions Prague at all.",
+    "he": "מאיזה מחנה בפראג הגיעה לוסיה, ומתי הייתה שם? גם כרטיס העקורים וגם בקשת השהייה מ-1945 אומרים שהגיעה ממחנה בפראג. שום דבר אחר בארכיון — ושום דבר בספר הזיכרונות שלה — אינו מזכיר את פראג כלל."
+   },
+   "sources": [
+    "doc_lusia_1945_dp_card",
+    "doc_lusia_1945_residence_request",
+    "doc_lusia_1945_stay_permit_1946"
+   ]
+  },
+  {
+   "id": "h_haifa_birthplace",
+   "status": "open",
+   "question": {
+    "en": "Why do both Rapaport DP cards give a wrong birthplace — Haifa for Lusia, Cieszyn for David — and does the fact that Lusia’s stated destination was Palestine bear on it? No source states a reason.",
+    "he": "מדוע שני כרטיסי העקורים של בני רפפורט נוקבים במקום לידה שגוי — חיפה ללוסיה, צ׳ישין לדוד — והאם העובדה שיעדה המוצהר של לוסיה היה פלשתינה נוגעת לכך? שום מקור אינו נוקב בסיבה."
+   },
+   "sources": [
+    "doc_lusia_1945_dp_card",
+    "doc_lusia_1945_residence_request",
+    "doc_lusia_1945_stay_permit_1946",
+    "doc_david_dp_card"
+   ]
+  }
+ ]
 }

@@ -33,13 +33,14 @@ So the archive did it for him.
 | `01-narrative.md` | The story, ten chapters, with the sources under each paragraph |
 | `02-the-four.md` | David, Lusia, Shimon, Dov — and the generation before them |
 | `03-people.md` | All 188 people in the curated core |
-| `04-documents.md` | All 126 documents: what each one is, what it says, where the scan is |
+| `04-documents.md` | All 129 documents: what each one is, what it says, where the scan is |
 | `05-timeline.md` | 45 dated events |
 | `06-places.md` | 49 places |
 | `07-pictures.md` | Every picture with its caption and its address |
 | `08-conflicts-and-open-questions.md` | What the sources disagree about and what nobody knows |
 | `09-research-story.md` | Who found what, and how — including where we were wrong |
 | `10-film-brief.md` | The film brief |
+| `11-film-highlights.md` | **What is new and must not be missed** — read this first |
 | `99-EVERYTHING.md` | All of the above in one file |
 
 Images are not embedded here — they are files on the site. Every picture in `07-pictures.md`

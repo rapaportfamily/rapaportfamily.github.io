@@ -90,6 +90,16 @@ Paternal grandmother of Doron, Dana and Daniel. Mother of Dov. Holocaust survivo
 
 **refused_america_1947** — She held an affidavit for the United States, sent by her husband’s relative David Grifel, and stood second in the American quota. Her father, already in Palestine, urged her to take it. She refused rather than be separated again from David and Shimon. Memoir p.64.
 
+**brussels_1945** — She was in Brussels by 26 December 1945, when she registered as a displaced person and signed the card "Rapaport Lea". That is three and a half months before David registered in the same city on 9 April 1946, and eight months before Dov was born there. Until this card was read, the earliest Brussels record this archive held was David’s.
+
+**prague_camp** — Both her registration card and the residence request say she came from a camp in PRAGUE — "Vient de Prague". Nothing else in this archive, and nothing in her own memoir, mentions Prague. Which camp, and when, is unknown.
+
+**birthplace_haifa_on_the_form** — Her DP card gives her birthplace as HAIFA, PALESTINE and her birth date as 8.4.1916. She was born in Bolechów. David’s card of the same series gives his birthplace as Cieszyn, also wrong. On Lusia’s card the desired destination is Palestine. The archive records the pattern and asserts no motive. The date 8.4.1916 is one of the three dates already held in conflict for her, and this is the earliest document to carry it.
+
+**address_brussels_1945** — Her address in Brussels: 250 rue des Coteaux, Schaerbeek. She was living there in December 1945 and still under the same permit when Dov was born on 28 August 1946.
+
+**parents_on_the_dp_card** — The card names her father Elias and gives her mother’s maiden name as MATHILDE WEINREB — the Weitzner–Weinreb line Basia has been reconstructing. A contemporary document, signed by Lusia herself, for a couple this archive had only from later testimony.
+
 ## Shimon Rapaport
 
 Hebrew name: שמעון רפפורט
