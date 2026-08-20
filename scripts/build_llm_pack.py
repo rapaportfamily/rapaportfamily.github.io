@@ -72,6 +72,19 @@ files['00-START-HERE.md'] = """# The Rapaport Family Archive — read this first
 This folder is the whole archive as plain text. Nothing here needs a browser, a script or a
 login. If you are an AI tool: read **99-EVERYTHING.md** and you have all of it in one file.
 
+## MAKING THE FILM? UPLOAD THE PDF, NOT THESE FILES
+
+**`RAPAPORT-FILM-PACK.pdf`** — in this same folder — carries the story, the documents AND the
+photographs together in one file. Upload that.
+
+The reason matters. Notebook and video tools import text from Markdown but they do **not**
+import images from Markdown, and they cannot read the website at all, because the site is a
+JavaScript app and their crawlers do not run JavaScript. A film built from the text files alone
+would tell this family's story with **none of this family's faces in it**. The PDF is the fix:
+same words, plus 71 pictures, each captioned with what it is and who is in it.
+
+Use these Markdown files for depth, quotation and checking. Use the PDF to make the film.
+
 **Occasion.** Dov Bernard Rapaport turns 80 on 28 August 2026. His family built this archive
 as the present.
 
@@ -111,9 +124,11 @@ So the archive did it for him.
 | `10-film-brief.md` | The film brief |
 | `11-film-highlights.md` | **What is new and must not be missed** — read this first |
 | `99-EVERYTHING.md` | All of the above in one file |
+| `RAPAPORT-FILM-PACK.pdf` | **The one to upload to a film tool** — the text AND the pictures, 60 pages |
 
-Images are not embedded here — they are files on the site. Every picture in `07-pictures.md`
-carries its full address; open it or download it directly.
+Images are not embedded in the Markdown files — they are files on the site, and every picture
+in `07-pictures.md` carries its full address. They ARE embedded in `RAPAPORT-FILM-PACK.pdf`,
+which is the only file here that carries the words and the pictures together.
 """ % (len(people), len(docs), len(events), len(places))
 
 # ── 01 narrative ────────────────────────────────────────────────────────
@@ -403,6 +418,12 @@ LLMS = """# The Rapaport Family Archive
 > The website is a JavaScript app and crawlers cannot read it. These files are the archive in
 > plain text.
 
+## To make a film or a video from this archive, use this one file
+- [Film pack PDF — the text AND the pictures, 60 pages](@/llm/RAPAPORT-FILM-PACK.pdf):
+  upload this to a notebook or video tool. Markdown sources do not carry images, and the
+  website itself cannot be read by a crawler, so this PDF is the only source that gives a
+  film both the story and the family's faces.
+
 ## Read this first
 - [Start here](@/llm/00-START-HERE.md): the rules and what each file holds
 - [Everything in one file](@/llm/99-EVERYTHING.md): the whole archive, one document
@@ -424,8 +445,14 @@ LLMS = """# The Rapaport Family Archive
 """
 # Counting %s placeholders by hand is how the first attempt failed - one more link than
 # arguments. A plain replace cannot miscount.
-write('llms.txt', LLMS.replace('@/', BASE))
-
+# llms.txt belongs at the SITE ROOT — that is the whole convention: a tool fetches
+# https://<host>/llms.txt and nothing else. It was being written into llm/ instead, so the
+# root copy an LLM actually reads sat frozen at its 19 August contents while every rebuild
+# quietly updated a copy nobody fetches. Both are written now; the root one is the real one.
+_llms = LLMS.replace('@/', BASE).rstrip()
+write('llms.txt', _llms)
+io.open(os.path.join(SITE, 'llms.txt'), 'w', encoding='utf-8').write(_llms + chr(10))
+print('  llms.txt written to the SITE ROOT and to llm/')
 print('LLM pack written to platform/llm/\n')
 total = 0
 for name, w in counts.items():

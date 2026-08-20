@@ -13,6 +13,19 @@ If you can only read one file, read this one.
 This folder is the whole archive as plain text. Nothing here needs a browser, a script or a
 login. If you are an AI tool: read **99-EVERYTHING.md** and you have all of it in one file.
 
+## MAKING THE FILM? UPLOAD THE PDF, NOT THESE FILES
+
+**`RAPAPORT-FILM-PACK.pdf`** — in this same folder — carries the story, the documents AND the
+photographs together in one file. Upload that.
+
+The reason matters. Notebook and video tools import text from Markdown but they do **not**
+import images from Markdown, and they cannot read the website at all, because the site is a
+JavaScript app and their crawlers do not run JavaScript. A film built from the text files alone
+would tell this family's story with **none of this family's faces in it**. The PDF is the fix:
+same words, plus 71 pictures, each captioned with what it is and who is in it.
+
+Use these Markdown files for depth, quotation and checking. Use the PDF to make the film.
+
 **Occasion.** Dov Bernard Rapaport turns 80 on 28 August 2026. His family built this archive
 as the present.
 
@@ -52,9 +65,11 @@ So the archive did it for him.
 | `10-film-brief.md` | The film brief |
 | `11-film-highlights.md` | **What is new and must not be missed** — read this first |
 | `99-EVERYTHING.md` | All of the above in one file |
+| `RAPAPORT-FILM-PACK.pdf` | **The one to upload to a film tool** — the text AND the pictures, 60 pages |
 
-Images are not embedded here — they are files on the site. Every picture in `07-pictures.md`
-carries its full address; open it or download it directly.
+Images are not embedded in the Markdown files — they are files on the site, and every picture
+in `07-pictures.md` carries its full address. They ARE embedded in `RAPAPORT-FILM-PACK.pdf`,
+which is the only file here that carries the words and the pictures together.
 
 
 

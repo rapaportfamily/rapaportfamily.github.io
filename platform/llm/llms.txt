@@ -4,6 +4,12 @@
 > The website is a JavaScript app and crawlers cannot read it. These files are the archive in
 > plain text.
 
+## To make a film or a video from this archive, use this one file
+- [Film pack PDF — the text AND the pictures, 60 pages](https://rapaportfamily.github.io/llm/RAPAPORT-FILM-PACK.pdf):
+  upload this to a notebook or video tool. Markdown sources do not carry images, and the
+  website itself cannot be read by a crawler, so this PDF is the only source that gives a
+  film both the story and the family's faces.
+
 ## Read this first
 - [Start here](https://rapaportfamily.github.io/llm/00-START-HERE.md): the rules and what each file holds
 - [Everything in one file](https://rapaportfamily.github.io/llm/99-EVERYTHING.md): the whole archive, one document
