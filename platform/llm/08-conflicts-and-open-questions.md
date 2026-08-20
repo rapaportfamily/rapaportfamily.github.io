@@ -12,7 +12,7 @@ This archive publishes disagreements rather than resolving them quietly. A film 
 
 ## Open questions (22)
 
-- Did Szabse Rapaport die in 1884 or in 1897 — and is he the same man as Shabtai Rappaport, head of the rabbinical court of Dąbrowa?  *(open — conflicting sources)*
+- Did Szabse Rapaport die in 1884 or in 1897 — and is he the same man as Shabtai Rappaport, head of the rabbinical court of Dąbrowa?  *(ANSWERED from primary records, 20 August 2026 — 1884)*
 - Why did David go to Palestine first, with nine-year-old Shimon, and leave Lusia and the baby Dov behind in Brussels — even at the cost of a year behind wire in Cyprus?  *(RESOLVED — answered by the memoir, page 63)*
 - Where is 'Mosina' — the town where David and Leah married, where Shimon was born, where they lived until 1939?  *(RESOLVED — Muszyna confirmed by memoir 2026-05-20)*
 - What is Leah's actual date of birth — 8 April 1913, 6 April 1916, 8 April 1916, or ~1917?  *(probable_answer)*

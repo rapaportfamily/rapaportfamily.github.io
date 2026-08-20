@@ -43,7 +43,7 @@ So the archive did it for him.
 | `01-narrative.md` | The story, ten chapters, with the sources under each paragraph |
 | `02-the-four.md` | David, Lusia, Shimon, Dov — and the generation before them |
 | `03-people.md` | All 188 people in the curated core |
-| `04-documents.md` | All 133 documents: what each one is, what it says, where the scan is |
+| `04-documents.md` | All 135 documents: what each one is, what it says, where the scan is |
 | `05-timeline.md` | 45 dated events |
 | `06-places.md` | 49 places |
 | `07-pictures.md` | Every picture with its caption and its address |
@@ -70,7 +70,7 @@ For a year this family could go back no further than a name on a passport. The p
 
 > Sources: Berisz Rapaport passport application, Stanisławów 1924
 
-Berisz was born on 30 July 1886 in Radomyśl Wielki, and the family's registered commune was Dąbrowa Tarnowska — a town nobody could account for until July 2026, when Basia read the Tarnów notarial records and found Szabse Rapaport serving as rabbi of Dąbrowa until 20 April 1884. That is why the passport says Dąbrowa. The same evening, from a completely different direction, Dana was sent a record naming Schabse with Figa/Yete.
+Berisz was born on 30 July 1886 in Radomyśl Wielki, and the family's registered commune was Dąbrowa Tarnowska — a town nobody could account for until July 2026, when Basia read the Tarnów notarial records and found Szabse Rapaport serving as rabbi of Dąbrowa until 27 April 1884. That is why the passport says Dąbrowa. The same evening, from a completely different direction, Dana was sent a record naming Schabse with Figa/Yete.
 
 > Sources: Tarnów notarial records (Basia, July 2026); MyHeritage record, 7 July 2026
 
@@ -85,6 +85,10 @@ Behind all of it now stands a spine of paper. Fifty-eight civil-register photogr
 And then, on 19 October 1904, Moses Saul walked into a notary's office in Tarnów and paid two crowns. Entry 392 of the day-book: Mojżesz Rapaport, capitalist in Tarnów, legalises his signature on a power of attorney so that his wife Menicha may collect the post. That is the whole of it. No catastrophe, no register of the dead — a married couple arranging who fetches the mail. It is the earliest ordinary day this archive holds from the direct line, and it is the only piece of paper anywhere in it that names Menycha Leiner in her own right. She had been a name on a tree with no birth date, no death date and nothing of her own. Here she is, with legal authority over her husband's letters.
 
 > Sources: Tarnów notarial repertory, entry 392, 19 October 1904 — held in this archive as doc_tarnow_notary_1904_postal_poa; Transcribed and translated by Basia, sent 20 August 2026; Moses Saul Rapaport (1858 – Tarnów, 8 November 1933) and Menycha Leiner, extended_tree I1 and I2
+
+How they knew when he died is worth telling on its own, because no death record for him has ever been found. A sandek is the man who holds the child at a circumcision, and the register names him every single time. In Dąbrowa that man is Szabse Rapaport, the town's rabbi — and then, after 27 April 1884, he is never named again. Three weeks later his son Majer, rabbi of Łuków across the Russian border, holds a child in his place. From September 1884 the office belongs to rabbi Hirsz Weiss and stays his for thirteen years, until Szabse's own grandson Nuchim Weidenfeld takes it on 4 November 1897. The page that gives it away is from 1886: two years after the old rabbi was gone, the clerk copying the birth book wrote "Szabsa Rapaport, rabin w Dąbrowie" out of sheer habit, then squeezed "Hersz Weiss" into the space above it. And the custom closes it from the other side — Ashkenazi Jews name a child for the dead and never for the living, and three grandsons were named Schabse in the years immediately after: June 1885, August 1885, July 1891, each the first boy born in his branch. The one born on 8 August 1885 was the son of Moses Saul and Menycha. So the rabbinical books that say Shabtai Rappaport of Dąbrowa died in 1897 are recording something else: the year the post passed from Weiss to Weidenfeld. Rabbi Hirsz Weiss, who held it for thirteen years, seems simply to have dropped out of the tradition.
+
+> Sources: Dąbrowa Tarnowska Jewish birth register, entries 84, 92, 107 and 160 — Archiwum Narodowe w Krakowie, Oddział w Tarnowie; held here as doc_dabrowa_sandek_sequence; Basia, 20 August 2026, who located and argued the sequence; all four pages read here before this was written; Naming cross-check against extended_tree I517, I949 and I135; Closes h_szabse_death_year, open and marked HIGH since 5 August 2026
 
 ## 1. Nadwórna — David  
 *1911*
@@ -657,7 +661,7 @@ The wider trees hold far more: 1442 Rapaports across 480 families, and 390 Griff
 
 <!-- ===== 04-documents.md ===== -->
 
-# The documents (133)
+# The documents (135)
 
 Each entry says what the document is, what it tells us, who it concerns, and where the scan is. A film should name and explain every document it shows.
 
@@ -1243,6 +1247,28 @@ WHY IT MATTERS, AND WHAT IS NOT YET PROVEN. Our tree holds Zwi (Hirsch) Nussbaum
 That is a strong lead and it is NOT a proof. The pages read so far carry no birth date and no parents' names for the applicant, which are what would settle it. The wife here is Inge Rosenbusch and the recorded child is a son, Mordechai Yosef; we do not know the name of Yehudit Shlomit's mother. Nussbaum is not a rare name. He is therefore NOT attached to any person in the tree until the particulars page is read.
 
 NEXT: the remaining pages of the file almost certainly carry the applicant's declaration with date and place of birth and his father's name. Reading those decides it either way.
+
+
+## Who held the child — four pages of the Dąbrowa Tarnowska birth register that date the death of Rabbi Szabse Rapaport
+
+- Type: civil_register
+- Source: Dąbrowa Tarnowska Jewish birth register — Archiwum Narodowe w Krakowie, Oddział w Tarnowie. Located, transcribed and argued by Basia; sent 20 August 2026.
+- People: Szabse (Shabtai) Rapaport, Moses (Moshe) Saul Rapaport
+- Scan: https://rapaportfamily.github.io/assets/documents/basia_2026_08_20/dabrowa_1884_04_27_sandek_szabse_rapaport.jpg
+- Scan: https://rapaportfamily.github.io/assets/documents/basia_2026_08_20/dabrowa_1884_05_19_sandek_majer_rapaport.jpg
+- Scan: https://rapaportfamily.github.io/assets/documents/basia_2026_08_20/dabrowa_1886_06_22_clerks_slip.jpg
+- Scan: https://rapaportfamily.github.io/assets/documents/basia_2026_08_20/dabrowa_1897_11_04_sandek_nuchim_weidenfeld.jpg
+- What it records: page_1_1884_04_27 = Entry 84. Born 20 April 1884 at Dąbrowa, house 53; circumcised 27 April 1884. Child Salamon, father Izrael Löwe, mother Rebeka. Column 8: "Sandek — SZABSA RAPAPORT, rabin w Dąbrowie". This is the LAST time he appears in the register at all.; page_2_1884_05_19 = Entry 92. Born 12 May 1884 at Dąbrowa; circumcised 19 May 1884. Child Abraham Izak, father Hirsz Kampf. Column 8: "Sandek — MAJER RAPAPORT, rabin z Łukowa w Królestwie Polskim". Szabse’s own son, the rabbi of Łuków in Russian Poland, standing in — three weeks after his father’s last appearance.; page_3_1886_06_22 = Entry 107. Born 15 June 1886; circumcised 22 June 1886. Child Efroim, father Jakób Kukuk, mother Beila Glückman. In the sandek cell the clerk wrote "Szabsa Rapaport, rabin w Dąbrowie" — and then squeezed "Hersz Weiss." in above it, small, in the gap under the word Sandek. Two years after the man had gone, the pen still went to his name first.; page_4_1897_11_04 = Entry 160. Born 28 October 1897 at Dąbrowa; circumcised 4 November 1897. Child Berisz, father Salamon Musszel. Column 8: "Sandek — NUCHIM WEIDENFELD, rabin w Dąbrowie" — Szabse’s own grandson, for the first time. Entry 161, two days later, is the same. The register also shows rabbi Markus Twerski "of Włodawek, now in Dąbrowa" on the same pages.; the_gap = From 26 September 1884 the sandek in Dąbrowa is rabbi HIRSZ WEISS, or Markus Twerski. Weiss holds the post from 1884 to 1897.; the_naming_argument = Ashkenazi custom names a child for a dead ancestor, never a living one. Three grandsons were named Schabse immediately after: 15 June 1885, son of Izchak Chaim (extended_tree I517); 8 August 1885, son of Moses Saul (I949 — our own line); 2 July 1891, son of Majer (I135). In each case the first male descendant born after the death.; what_the_1897_date_actually_is = The year Hirsz Weiss’s tenure ended and Nuchim Weidenfeld’s began. Basia’s reading: the tradition dropped Weiss entirely and slid Szabse’s death forward to the handover.
+
+A rabbi’s death date, recovered without a death record — by watching who holds the babies.
+
+A sandek is the man who holds the child at a circumcision, and the register names him every time. In Dąbrowa Tarnowska that man is Szabse Rapaport, rabbi of the town — until 27 April 1884, which is the last time his name appears. Three weeks later, on 19 May 1884, the sandek is Majer Rapaport, rabbi of Łuków — his son, standing in. From 26 September 1884 the office belongs to rabbi Hirsz Weiss, and it stays his for thirteen years. Then on 4 November 1897 the sandek in Dąbrowa is Nuchim Weidenfeld — Szabse’s grandson.
+
+The page in the middle is the one to look at. On 15 June 1886, two years after the old rabbi had gone, the clerk copying the birth book wrote "Szabsa Rapaport, rabin w Dąbrowie" in the sandek column out of pure habit, and then squeezed "Hersz Weiss." into the gap above it. The correction is small and apologetic and it is still there, 140 years later.
+
+And the custom seals it: Ashkenazi Jews name a child for the dead, never for the living. Three grandsons were named Schabse in the years straight after — June 1885, August 1885, July 1891 — each the first boy born in his branch. One of them, born 8 August 1885, was the son of Moses Saul and Menycha, which puts this argument inside our own line.
+
+Basia’s conclusion: Rabbi Szabse Rapaport died in May 1884, and the 1897 date carried by the published rabbinical genealogies is the year the post passed from Weiss to Weidenfeld. It is as if Hirsz Weiss, who was rabbi of Dąbrowa for thirteen years, had been quietly removed from the tradition.
 
 
 ## CKŻP post-war registration — Szymon Rapaport (1937)
@@ -2134,6 +2160,15 @@ Marriage register entry for Majer Rapaport, 1897. One of 58 civil-register photo
 Lusia (Leah) Rapaport née Weitzner's memoir, dictated and compiled in 1986 by her granddaughter's teacher Esther Weiss. The primary historical document for Lusia's life from childhood in Bolechów through marriage in Muszyna (Feb 1938), survival under Nazi occupation in Lwów with false identities, escape with David and Shimon, post-war Brussels and the journey to Israel. Settled in Haifa, Moriah Street 93. OCR'd 2026-05-20 via Google Cloud Vision (~70k Hebrew chars). Translated to English and Polish by Claude Haiku 4.5 (batched). PRIMARY SOURCE for resolving H1 Mosina = Muszyna, and confirming David's wooden-wagon escape, Lota's existence, the Legionów 24 address, and the marriage date Feb 1938.
 
 
+## How to read Basia’s marked-up boards — pink means matched, and a blank is deliberate
+
+- Type: method_note
+- Source: Basia, 20 August 2026
+- People: Szabse (Shabtai) Rapaport
+
+Stated by Basia on 20 August 2026, and it changes how every board she has sent should be read: on the Rosenstein sheets she marks in pink ONLY the elements that match the records she has verified. So she did not mark Shabtai’s death date — she left the 1897 out on purpose, because she does not accept it. An unmarked element on one of her boards is not something she overlooked. It is something she is declining to confirm.
+
+
 ## Notary’s day-book, Tarnów, 19 October 1904 — Mojżesz Rapaport gives his wife Menicha power of attorney to collect the post
 
 - Type: notarial_record
@@ -2981,7 +3016,7 @@ This archive publishes disagreements rather than resolving them quietly. A film 
 
 ## Open questions (22)
 
-- Did Szabse Rapaport die in 1884 or in 1897 — and is he the same man as Shabtai Rappaport, head of the rabbinical court of Dąbrowa?  *(open — conflicting sources)*
+- Did Szabse Rapaport die in 1884 or in 1897 — and is he the same man as Shabtai Rappaport, head of the rabbinical court of Dąbrowa?  *(ANSWERED from primary records, 20 August 2026 — 1884)*
 - Why did David go to Palestine first, with nine-year-old Shimon, and leave Lusia and the baby Dov behind in Brussels — even at the cost of a year behind wire in Cyprus?  *(RESOLVED — answered by the memoir, page 63)*
 - Where is 'Mosina' — the town where David and Leah married, where Shimon was born, where they lived until 1939?  *(RESOLVED — Muszyna confirmed by memoir 2026-05-20)*
 - What is Leah's actual date of birth — 8 April 1913, 6 April 1916, 8 April 1916, or ~1917?  *(probable_answer)*
@@ -3057,6 +3092,28 @@ whose scan has never reached us.
 # FILM — what is new, and what must not be missed
 
 Read this before writing a script. These are the records the family has flagged as carrying the most weight.
+
+
+## [HIGH] Who held the child — four pages of the Dąbrowa Tarnowska birth register that date the death of Rabbi Szabse Rapaport
+
+**The detective beat of the film, and it is genuinely enjoyable: a death date nobody recorded, found by watching who holds the babies. Show the clerk’s slip of the pen — a man writes the old rabbi’s name out of habit two years after he died, then squeezes the new rabbi’s name in above it.**
+
+- Source: Dąbrowa Tarnowska Jewish birth register — Archiwum Narodowe w Krakowie, Oddział w Tarnowie. Located, transcribed and argued by Basia; sent 20 August 2026.
+- Scan: https://rapaportfamily.github.io/assets/documents/basia_2026_08_20/dabrowa_1884_04_27_sandek_szabse_rapaport.jpg
+- Scan: https://rapaportfamily.github.io/assets/documents/basia_2026_08_20/dabrowa_1884_05_19_sandek_majer_rapaport.jpg
+- Scan: https://rapaportfamily.github.io/assets/documents/basia_2026_08_20/dabrowa_1886_06_22_clerks_slip.jpg
+- Scan: https://rapaportfamily.github.io/assets/documents/basia_2026_08_20/dabrowa_1897_11_04_sandek_nuchim_weidenfeld.jpg
+- What it records: page_1_1884_04_27 = Entry 84. Born 20 April 1884 at Dąbrowa, house 53; circumcised 27 April 1884. Child Salamon, father Izrael Löwe, mother Rebeka. Column 8: "Sandek — SZABSA RAPAPORT, rabin w Dąbrowie". This is the LAST time he appears in the register at all.; page_2_1884_05_19 = Entry 92. Born 12 May 1884 at Dąbrowa; circumcised 19 May 1884. Child Abraham Izak, father Hirsz Kampf. Column 8: "Sandek — MAJER RAPAPORT, rabin z Łukowa w Królestwie Polskim". Szabse’s own son, the rabbi of Łuków in Russian Poland, standing in — three weeks after his father’s last appearance.; page_3_1886_06_22 = Entry 107. Born 15 June 1886; circumcised 22 June 1886. Child Efroim, father Jakób Kukuk, mother Beila Glückman. In the sandek cell the clerk wrote "Szabsa Rapaport, rabin w Dąbrowie" — and then squeezed "Hersz Weiss." in above it, small, in the gap under the word Sandek. Two years after the man had gone, the pen still went to his name first.; page_4_1897_11_04 = Entry 160. Born 28 October 1897 at Dąbrowa; circumcised 4 November 1897. Child Berisz, father Salamon Musszel. Column 8: "Sandek — NUCHIM WEIDENFELD, rabin w Dąbrowie" — Szabse’s own grandson, for the first time. Entry 161, two days later, is the same. The register also shows rabbi Markus Twerski "of Włodawek, now in Dąbrowa" on the same pages.; the_gap = From 26 September 1884 the sandek in Dąbrowa is rabbi HIRSZ WEISS, or Markus Twerski. Weiss holds the post from 1884 to 1897.; the_naming_argument = Ashkenazi custom names a child for a dead ancestor, never a living one. Three grandsons were named Schabse immediately after: 15 June 1885, son of Izchak Chaim (extended_tree I517); 8 August 1885, son of Moses Saul (I949 — our own line); 2 July 1891, son of Majer (I135). In each case the first male descendant born after the death.; what_the_1897_date_actually_is = The year Hirsz Weiss’s tenure ended and Nuchim Weidenfeld’s began. Basia’s reading: the tradition dropped Weiss entirely and slid Szabse’s death forward to the handover.
+
+A rabbi’s death date, recovered without a death record — by watching who holds the babies.
+
+A sandek is the man who holds the child at a circumcision, and the register names him every time. In Dąbrowa Tarnowska that man is Szabse Rapaport, rabbi of the town — until 27 April 1884, which is the last time his name appears. Three weeks later, on 19 May 1884, the sandek is Majer Rapaport, rabbi of Łuków — his son, standing in. From 26 September 1884 the office belongs to rabbi Hirsz Weiss, and it stays his for thirteen years. Then on 4 November 1897 the sandek in Dąbrowa is Nuchim Weidenfeld — Szabse’s grandson.
+
+The page in the middle is the one to look at. On 15 June 1886, two years after the old rabbi had gone, the clerk copying the birth book wrote "Szabsa Rapaport, rabin w Dąbrowie" in the sandek column out of pure habit, and then squeezed "Hersz Weiss." into the gap above it. The correction is small and apologetic and it is still there, 140 years later.
+
+And the custom seals it: Ashkenazi Jews name a child for the dead, never for the living. Three grandsons were named Schabse in the years straight after — June 1885, August 1885, July 1891 — each the first boy born in his branch. One of them, born 8 August 1885, was the son of Moses Saul and Menycha, which puts this argument inside our own line.
+
+Basia’s conclusion: Rabbi Szabse Rapaport died in May 1884, and the 1897 date carried by the published rabbinical genealogies is the year the post passed from Weiss to Weidenfeld. It is as if Hirsz Weiss, who was rabbi of Dąbrowa for thirteen years, had been quietly removed from the tradition.
 
 
 ## [HIGH] Typed list of fifteen families, addressed care of Jakob Griffel in Bucharest — identified by the Pilecki Institute as belonging to the wartime operation to issue foreign passports to Jews
