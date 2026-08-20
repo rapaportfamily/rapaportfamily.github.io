@@ -10,7 +10,7 @@ This archive publishes disagreements rather than resolving them quietly. A film 
 - **David’s birthplace.** Nadwórna per the birth certificate found in Warsaw; "Cieszyn/Tesin" on the 1946 Brussels DP card, most likely a clerk mishearing.
 - **A birth register filed 1849** where this archive holds 1850.
 
-## Open questions (20)
+## Open questions (22)
 
 - Did Szabse Rapaport die in 1884 or in 1897 — and is he the same man as Shabtai Rappaport, head of the rabbinical court of Dąbrowa?  *(open — conflicting sources)*
 - Why did David go to Palestine first, with nine-year-old Shimon, and leave Lusia and the baby Dov behind in Brussels — even at the cost of a year behind wire in Cyprus?  *(RESOLVED — answered by the memoir, page 63)*
@@ -32,3 +32,5 @@ This archive publishes disagreements rather than resolving them quietly. A film 
 - Is Markus Türkel (m. Szewa Horowitz, Liège 1946) the same as Mordechai 'Max' Levi-Turkel (m. Margalit Halperin, Palestine 1947)?  *(open — conflicting records)*
 - Which camp in Prague did Lusia come from, and when was she there? Her DP card and the 1945 residence request both say she came from a camp in Prague. Nothing else in this archive — and nothing in her own memoir — mentions Prague at all.  *(open)*
 - Why do both Rapaport DP cards give a wrong birthplace — Haifa for Lusia, Cieszyn for David — and does the fact that Lusia’s stated destination was Palestine bear on it? No source states a reason.  *(open)*
+- Can a Weinreb family tree be built for Lusia’s mother’s side? Basia’s answer, 19 August 2026: no, and here is why. The vital records of Dolina are completely lost — which is visible on the genealogy sites too, where almost no trees reach Dolina at all. Many Bolechów families married into Dolina families, and it is the Dolina half that is gone. If it is ever done it will be from commercial, court and notarial records rather than birth registers, and those may still be lying in Ukraine. She sees no chance at present. This is a blank that has a reason, and the reason is the record office, not the research.  *(closed_for_now)*
+- Lotte again. Basia asked the Pilecki Institute about her; Ms Manowska replied that unfortunately they know little about the Lwów… — and the message Doron forwarded breaks off there, mid-sentence. Do not fill the gap. Ask Basia what the rest of that sentence said.  *(open)*

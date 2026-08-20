@@ -3342,12 +3342,12 @@
     {
      "key": "document_image",
      "value": {
-      "en": "This archive briefly showed I16__jacob_griffel.jpg as this person’s portrait. It is a typed list, not a portrait. The file is kept as a document. Promoting it was done by a script matching filenames, and no one looked at it until it was laid out full-size in the film pack.",
-      "he": "הארכיון הציג לזמן קצר את I16__jacob_griffel.jpg כדיוקנו של אדם זה. למעשה מדובר במסמך. הקובץ נשמר כמסמך. ההעלאה לדרגת דיוקן נעשתה בידי סקריפט שהתאים שמות קבצים, ואיש לא הביט בו עד שנפרש בגודל מלא בחבילת הסרט."
+      "en": "The file this archive briefly showed as Dr Jacob Griffel’s portrait is not a portrait. It is the typed list of fifteen families addressed care of him in Bucharest — the Pilecki Institute identified it as material of the operation that issued foreign passports to Jews. Six of the fifteen entries are his own relatives. See doc_griffel_rescue_list_bucharest.",
+      "he": "הקובץ שהארכיון הציג לזמן קצר כדיוקנו של ד״ר יעקב גריפל אינו דיוקן. זוהי הרשימה המודפסת של חמש-עשרה משפחות, הממוענת לידיו בבוקרשט — מכון פילצקי זיהה אותה כחומר של מבצע הנפקת הדרכונים הזרים ליהודים. שש מתוך חמש-עשרה הרשומות הן קרוביו שלו."
      },
      "confidence": "documented",
      "sources": [
-      "doc_griffel_tree_jacob_2026_08_10"
+      "doc_griffel_rescue_list_bucharest"
      ]
     }
    ],

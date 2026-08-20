@@ -821,6 +821,28 @@
     "doc_lusia_1945_stay_permit_1946",
     "doc_david_dp_card"
    ]
+  },
+  {
+   "id": "h_weinreb_dolina_records",
+   "status": "closed_for_now",
+   "question": {
+    "en": "Can a Weinreb family tree be built for Lusia’s mother’s side? Basia’s answer, 19 August 2026: no, and here is why. The vital records of Dolina are completely lost — which is visible on the genealogy sites too, where almost no trees reach Dolina at all. Many Bolechów families married into Dolina families, and it is the Dolina half that is gone. If it is ever done it will be from commercial, court and notarial records rather than birth registers, and those may still be lying in Ukraine. She sees no chance at present. This is a blank that has a reason, and the reason is the record office, not the research.",
+    "he": "האם ניתן לבנות עץ משפחת ויינרב לצד אמה של לוסיה? תשובתה של בסיה, 19 באוגוסט 2026: לא, וזו הסיבה. רשומות האוכלוסין של דולינה אבדו כליל — הדבר ניכר גם באתרי הגנאלוגיה, שבהם כמעט אין עצים המגיעים לדולינה. משפחות רבות מבולחוב התחתנו עם משפחות מדולינה, והחצי הדולינאי הוא שנעלם. אם הדבר ייעשה אי-פעם, יהיה זה מתוך רשומות מסחר, בתי משפט ונוטריונים ולא מפנקסי לידה, ואלה אולי עודם מונחים באוקראינה. כרגע אין סיכוי. זהו חֶסֶר שיש לו סיבה, והסיבה היא ארכיון הרשומות, לא המחקר."
+   },
+   "sources": [
+    "doc_lusia_memoir"
+   ]
+  },
+  {
+   "id": "h_lotte_lwow_pilecki",
+   "status": "open",
+   "question": {
+    "en": "Lotte again. Basia asked the Pilecki Institute about her; Ms Manowska replied that unfortunately they know little about the Lwów… — and the message Doron forwarded breaks off there, mid-sentence. Do not fill the gap. Ask Basia what the rest of that sentence said.",
+    "he": "שוב לוטה. בסיה שאלה את מכון פילצקי עליה; הגב׳ מנובסקה השיבה שלמרבה הצער ידוע להם מעט על הלבובי… — וההודעה שדורון העביר נקטעת שם, באמצע המשפט. אל תמלאו את החסר. שאלו את בסיה מה נאמר בהמשך."
+   },
+   "sources": [
+    "doc_lotte_yv_pot_53075"
+   ]
   }
  ]
 }

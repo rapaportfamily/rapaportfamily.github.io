@@ -2238,7 +2238,7 @@
      "file": "assets/documents/griffel_2026_08/photos/I16__jacob_griffel.jpg",
      "basename": "Jacob_Griffel.jpg",
      "names_the_person": true,
-     "kind": "document"
+     "kind": "rescue_list"
     },
     {
      "file": "assets/documents/griffel_2026_08/photos/I16__jacob_griffel_1.jpg",
@@ -2382,8 +2382,8 @@
    "media_credit": "Jacob, Griffel family archive, received 10 August 2026",
    "photo_demoted": {
     "file": "assets/documents/griffel_2026_08/photos/I16__jacob_griffel.jpg",
-    "kind": "document",
-    "why": "looked at 19 August 2026: this is a document, not a portrait; it was promoted by filename match on 11 August and never eyeballed"
+    "kind": "rescue_list",
+    "why": "not a portrait: this is the typed list of fifteen families addressed care of Jakob Griffel in Bucharest, identified by the Pilecki Institute as belonging to the wartime operation to issue foreign passports to Jews. Catalogued as doc_griffel_rescue_list_bucharest."
    }
   },
   "I17": {

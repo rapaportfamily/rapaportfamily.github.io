@@ -4591,6 +4591,142 @@
     "he": "כרטיסי רישום של הקהילה היהודית בלמברג — לבוב — מן השנים שבהן נוהל הגטו. אחד מארבעת הכרטיסים הוא של לייביש גריפל, אחיה של רבקה ודודו של דוד בנישואין: יליד 16 במאי 1885, מתגורר בסומרשטיין 17/8, עובד במינהל הדואר המחוזי, כרטיס רישום מספר 17262. הכרטיס ממקם אותו בלבוב, בעבודה, בתוך המערכת שספרה יהודים. רשומת יד ושם שלו נוקבת במותו כ״שואה״ בלבד, ללא שנה. זהו המסמך האחרון המראה אותו בחיים."
    },
    "status": "read"
+  },
+  {
+   "id": "doc_tarnow_notary_1904_postal_poa",
+   "file_pages": [
+    "basia_2026_08_20/tarnow_notary_1904_postal_poa.png"
+   ],
+   "kind": "image",
+   "type": "notarial_record",
+   "primary_language": "pl",
+   "film_priority": "high",
+   "film_note": "The one light document in the whole archive. Use it early, before the darkness, and let it be funny: a man goes to a notary so that his wife may legally collect the post.",
+   "title": {
+    "en": "Notary’s day-book, Tarnów, 19 October 1904 — Mojżesz Rapaport gives his wife Menicha power of attorney to collect the post",
+    "he": "פנקס הנוטריון, טרנוב, 19 באוקטובר 1904 — מוישה רפפורט מייפה את כוח אשתו מניכה לקבל את הדואר",
+    "pl": "Repertorium notarialne, Tarnów, 19 października 1904 — Mojżesz Rapaport udziela żonie Menisze pełnomocnictwa do odbioru przesyłek pocztowych",
+    "fr": "Répertoire notarial, Tarnów, 19 octobre 1904 — Mojżesz Rapaport donne procuration à sa femme Menicha pour retirer le courrier"
+   },
+   "source_archive": "Basia, 19-20 August 2026 — Tarnów notarial records; sent as a Word file with the scan embedded, transcribed and translated by Basia",
+   "related_people": [],
+   "related_tree_people": [
+    "extended_tree:I1",
+    "extended_tree:I2"
+   ],
+   "decoded_fields": {
+    "entry_number": "392",
+    "date": "19 October 1904",
+    "office": "Deputy of the Imperial-Royal notary in Tarnów, by decree of the Imperial-Royal District Court in Tarnów of 25 July 1904",
+    "party": "Mojżesz Rapaport, kapitalista (capitalist) in Tarnów",
+    "act": "Legalizacya podpisu na pełnomocnictwie — legalisation of the signature on a power of attorney dated Tarnów, 19 October",
+    "granted_to": "his wife, Menicha Rapaportowa (Menycha née Leiner)",
+    "purpose": "do odbioru przesyłek pocztowych — to collect postal items",
+    "fee": "2 korony"
+   },
+   "summary": {
+    "en": "Nineteen years before the century turned violent, a man walked into a notary’s office in Tarnów and paid two crowns so that his wife could pick up his mail. The clerk wrote entry 392: Mojżesz Rapaport, capitalist in Tarnów, legalises his signature on a power of attorney for his wife Menicha to receive postal items. That is the whole document, and it is worth more than its size. This is Moses Saul Rapaport, born 1858, died in Tarnów on 8 November 1933 — David’s grandfather, Dov’s great-grandfather — and the tree records his occupation as \"merchant\"; the notary wrote \"capitalist\". And it is the only document this archive holds that names his wife at all: Menycha Leiner has, until today, been a name on a tree with no birth date, no death date and no paper of her own. Here she is, in 1904, being given legal authority over the family post.",
+    "he": "תשע-עשרה שנים לפני שהמאה הפכה אלימה, נכנס אדם למשרד נוטריון בטרנוב ושילם שני כתרים כדי שאשתו תוכל לאסוף את דברי הדואר שלו. הפקיד רשם את רשומה 392: מוישה רפפורט, קפיטליסט בטרנוב, מאשר את חתימתו על ייפוי כוח לאשתו מניכה לקבלת דברי דואר. זה כל המסמך, והוא שווה יותר מגודלו. זהו משה שאול רפפורט, יליד 1858, שנפטר בטרנוב ב-8 בנובמבר 1933 — סבו של דוד, סב-סבו של דב — ובעץ המשפחה מקצועו רשום ״סוחר״; הנוטריון כתב ״קפיטליסט״. וזהו המסמך היחיד בארכיון הזה שמזכיר את אשתו בכלל: מניכה ליינר הייתה עד היום שם על עץ, בלי תאריך לידה, בלי תאריך פטירה ובלי נייר משלה. הנה היא, ב-1904, מקבלת סמכות חוקית על דואר המשפחה."
+   },
+   "open_questions": [
+    {
+     "en": "Why did Moses Saul need a notary for this at all — was he travelling, ill, or simply away on business? The entry does not say.",
+     "he": "מדוע נזקק משה שאול לנוטריון לשם כך — האם נסע, חלה, או פשוט שהה מחוץ לעיר לרגל עסקים? הרשומה אינה אומרת."
+    }
+   ],
+   "status": "read"
+  },
+  {
+   "id": "doc_griffel_rescue_list_bucharest",
+   "file_pages": [
+    "griffel_2026_08/photos/I16__jacob_griffel.jpg"
+   ],
+   "kind": "image",
+   "type": "rescue_list",
+   "primary_language": "de",
+   "film_priority": "high",
+   "film_note": "If the film shows one document large and reads it out loud, this is the one. Fifteen numbered lines, six of them the brothers and sisters of David’s own family, and a man in Bucharest trying to get them onto paper that might count as a foreign passport. Then say which of them lived.",
+   "title": {
+    "en": "Typed list of fifteen families, addressed care of Jakob Griffel in Bucharest — identified by the Pilecki Institute as belonging to the wartime operation to issue foreign passports to Jews",
+    "he": "רשימה מודפסת של חמש-עשרה משפחות, ממוענת לידי יעקב גריפל בבוקרשט — מכון פילצקי זיהה אותה כשייכת למבצע הנפקת הדרכונים הזרים ליהודים בימי המלחמה",
+    "pl": "Maszynopis — lista piętnastu rodzin, adresowana na ręce Jakuba Griffla w Bukareszcie; Instytut Pileckiego rozpoznał ją jako materiał akcji paszportowej",
+    "fr": "Liste dactylographiée de quinze familles, adressée aux bons soins de Jakob Griffel à Bucarest — rattachée par l’Institut Pilecki à l’opération des passeports étrangers"
+   },
+   "source_archive": "Jacob, Griffel family archive, received 10 August 2026. Identified by Ms Manowska of the Pilecki Institute, reported by Basia on 19 August 2026.",
+   "related_people": [
+    "p_david",
+    "p_dr_jacob_griffel"
+   ],
+   "transcription_lines": [
+    "1. Moses Friedman, b. 22/III 1881 in Husiaty[n] … Friedmann b. 7/5 1885",
+    "2. Felicia Griffel, b. 7/I 1907 in Krakau, and … b. 12/I 1928, and Eliazar Griffel b. 23/I…",
+    "3. Josek Abramczyk, b. in Wielka-Wieś im …, Sara Judes Abramczyk and Freida Liba Abramczyk",
+    "4. Osias Heinrich Griffel, b. August 1910",
+    "5. Rebeka Griffel, b. July 1919",
+    "6. [X] Menasche Karmel and his mother Rachel Karmel …, all resident in Kraków, Sebastianagasse 12",
+    "7. Abraham Aba Abramczyk, b. Sosnowitz 14/II 1917, and … Liba Abramczyk, b. in Bielitz 16/XI 1912",
+    "8. [X] Szmul Ajchenbaum and his wife Malka Ajchenbaum — Lublin",
+    "9. [X] Chaim Freylich and his wife Marie Freylich and son …, resident Kraków, Dietelsgasse 66",
+    "10. Dawid Mendel Griffel, b. 1902, his wife Lea Griffel, [and] Rebeka Rachel Griffel",
+    "11. Schalom Griffel, b. 1904, and his wife Regi… , Minna and Toni Griffel",
+    "12. Samuel Griffel, b. 1913",
+    "13. Amalia Griffel, b. 1912",
+    "14. [Z]almen Horowitz and his wife Rachella and …",
+    "15. Schmul Rosenbojm and his wife Teophila Rosenbojm and chi[ldren] — Eisig",
+    "[16 =] pencilled below the last line",
+    "Pencilled address at the foot: \"Jakob Griffel, c/o Ing. L. Filderman, Strada Paleolog[u], Bucureşti\""
+   ],
+   "decoded_fields": {
+    "language": "German, typewritten, torn along the right edge — the right-hand third of every line is missing",
+    "entries": "15 numbered, a pencilled \"16 =\" below",
+    "marked_with_X": "entries 6, 8 and 9 carry a pencilled X. Meaning unknown.",
+    "forwarding_address": "Jakob Griffel, c/o Ing. L. Filderman, Strada Paleolog[u], Bucureşti",
+    "who_jacob_griffel_was": "Dr Jacob Griffel (1900-1962), the Agudath Israel and Vaad Hatzalah rescue representative in Istanbul — the channel through which Orthodox rescue money and papers moved into occupied Europe",
+    "who_filderman_was": "the address places the sheet with the Bucharest end of that channel; Wilhelm Filderman led Romanian Jewry, and the pencil reads \"Ing. L. Filderman\""
+   },
+   "cross_check_against_our_trees": {
+    "4 Osias Heinrich Griffel b. Aug 1910": "Ozjasz Henryk Griffel, b. 16 September 1910 Stanisławów — the sheet says August, the tree says 16 September. SURVIVED; died Jersey City, 9 November 1968.",
+    "5 Rebeka Griffel b. July 1919": "Rebeka Griffel, b. 12 July 1919 Stanisławów — exact. Wife of Zalman Horowitz, who is entry 14.",
+    "10 Dawid Mendel Griffel b.1902 + wife Lea + Rebeka Rachel": "Dawid Mendel Griffel, b. 24 July 1902 Knihin Kolonia; wife Frejndla LAJA Ajchenbaum (b. 1907); daughter Rebeka Rachela, b. 2 November 1927 Lublin. Three for three.",
+    "11 Schalom Griffel b.1904 + wife + Minna and Toni": "Schalom Griffel, b. 25 December 1904 Knihin Kolonia, MURDERED 1942 AT AUSCHWITZ; wife Rivka Chaya Fortgang, d. 1942; daughters Thea (b. 8 January 1930) and Chaja Mindel (b. 1935), both d. 1942. The sheet names two girls, Minna and Toni; the tree names Thea and Chaja Mindel. Probably the same two children under German forms — not proven.",
+    "12 Samuel Griffel b.1913": "Samuel Griffel, b. 29 September 1913 Stanisławów — exact. SURVIVED; died Brooklyn, 25 February 1999.",
+    "13 Amalia Griffel b.1912": "Amalia Griffel, b. 22 March 1912 Stanisławów — exact.",
+    "8 Szmul Ajchenbaum + wife Malka": "Szmul Ajchenbaum and Chadesa MALKA Adler — the parents-in-law of entry 10.",
+    "14 Zalmen Horowitz + wife Rachella": "Zalman Horowitz, d. 1945, husband of the Rebeka Griffel at entry 5. The sheet writes his wife as Rachella; the tree has Rebeka. Unresolved.",
+    "15 Schmul Rosenbojm + wife Teophila + children": "Awigdor Schmul Rosenbojm, b. 6 December 1902 Warsaw, d. 1942 in LUBLIN; wife Teofila Tauba Griffel, b. 22 February 1906 Stanisławów; son Izajasz, b. 1940, d. 1943.",
+    "6 Menasche Karmel + mother Rachel, Kraków Sebastianagasse 12": "Menashe Karmel, b. 28 March 1898, d. 19 October 1989 — he lived. The Karmels are on the Rapaport side of the house; the writers Ilona and Henia Karmel are of this family."
+   },
+   "lados_list_check": {
+    "method": "The Pilecki Institute’s published Ładoś List was downloaded and parsed in full — 2,987 entries — and every surname on this sheet searched in it.",
+    "griffel": "NOT on the published list. Not one Griffel among 2,987 entries.",
+    "rapaport": "42 Rapaport entries, from Łódź, Zgierz, Warsaw, Aleksandrów, Łuków, Bielsko, Biała, Sanok, Wodzisław, Sosnowiec, Pińczów, Radymno and Asunción — none from Tarnów, Nadwórna, Stanisławów, Bolechów or Dolina. None of them is ours.",
+    "possible_single_match": "Entry 23 of the Ładoś List is \"ABRAMCZYK, Aron (Sosnowiec), Paraguayan citizenship certificate, fate unknown\". Entry 7 of this sheet is \"Abraham Aba Abramczyk, b. Sosnowitz 14/II 1917\". Same rare surname — the only Abramczyk in the whole list — and the same town. Different given name. Possible, not proven.",
+    "weak_match": "Entry 683, \"FRIEDMAN, Moses (Tarnów)\", against line 1, \"Moses Friedman, b. 1881 in Husiatyn\". Common name, different town. Weak.",
+    "what_the_absence_means": "Nothing conclusive. The Pilecki Institute states that it has identified 3,282 holders and estimates a further 5,000-7,000 remain unknown. A sheet of names that is NOT on the published list is precisely the kind of material the project is looking for — which is why the researcher asked, at once, for its reference number."
+   },
+   "summary": {
+    "en": "A torn sheet of typing that this archive misfiled for ten days as a portrait of Dr Jacob Griffel, because the file was named after him. It is not a portrait. It is a list of fifteen families — names, birth dates, street addresses in Kraków, Sosnowiec, Bielsko and Lublin — with his own forwarding address pencilled at the foot: care of Ing. L. Filderman, Strada Paleologu, Bucharest. Jacob Griffel was the Agudath Israel and Vaad Hatzalah rescue man in Istanbul. Shown this sheet, Ms Manowska of the Pilecki Institute — who researches the \"passports of life\" — recognised at sight that it came from the operation that issued foreign passports to Jews, and asked immediately where it had been found and what its reference number was.\n\nSix of the fifteen entries are the children of Isaac Chaim Griffel and Judith Breit, and the birth dates match this family’s tree to the month: Dawid Mendel b. 1902 with his wife Laja and their daughter Rebeka Rachela; Schalom b. 1904 with his wife and two little girls; Samuel b. 1913; Amalia b. 1912; Rebeka b. July 1919; Osias Heinrich b. 1910. Entry 15 is their sister Teofila with her husband Rosenbojm and their small son. This was a man in Bucharest trying to get his own family onto paper that might save them.\n\nAnd then the outcome, which the film must not soften. Samuel lived, and died in Brooklyn in 1999. Osias Heinrich lived, and died in Jersey City in 1968. Menashe Karmel, entry 6, lived until 1989. Schalom, his wife and both daughters were murdered in 1942. Schmul Rosenbojm was murdered in Lublin in 1942 and his son Izajasz in 1943. Zalman Horowitz died in 1945. Whether any passport was ever issued against this sheet, and whether it reached anybody, this archive cannot say.",
+    "he": "דף מודפס וקרוע, שהארכיון הזה תייק בטעות במשך עשרה ימים כדיוקנו של ד״ר יעקב גריפל, מפני שכך נקרא הקובץ. זה אינו דיוקן. זו רשימה של חמש-עשרה משפחות — שמות, תאריכי לידה, כתובות רחוב בקרקוב, סוסנוביץ, ביילסקו ולובלין — ובתחתיתה, בעיפרון, כתובתו שלו: אצל אינג׳ ל׳ פילדרמן, רחוב פלאולוגו, בוקרשט. יעקב גריפל היה איש ההצלה של אגודת ישראל וּועד ההצלה באיסטנבול. כשהוצג הדף בפני הגב׳ מנובסקה ממכון פילצקי, החוקרת את ״דרכונות החיים״, היא זיהתה מיד שהוא בא ממבצע הנפקת הדרכונים הזרים ליהודים, ושאלה על אתר היכן נמצא ומה מספר הסימוכין שלו.\n\nשש מתוך חמש-עשרה הרשומות הן ילדיהם של יצחק חיים גריפל ויהודית ברייט, ותאריכי הלידה תואמים את עץ המשפחה עד כדי חודש. זה היה אדם בבוקרשט שניסה להעלות את בני משפחתו שלו על נייר שאולי יציל אותם.\n\nואז התוצאה, שאסור לסרט לרכך: שמואל חי ונפטר בברוקלין ב-1999. אושיאס היינריך חי ונפטר בג׳רזי סיטי ב-1968. מנשה כרמל, רשומה 6, חי עד 1989. שלום, אשתו ושתי בנותיו נרצחו ב-1942. שמואל רוזנבוים נרצח בלובלין ב-1942 ובנו ישעיהו ב-1943. זלמן הורוביץ מת ב-1945. האם הונפק דרכון כלשהו על סמך הדף הזה, והאם הגיע למישהו — הארכיון הזה אינו יודע לומר."
+   },
+   "open_questions": [
+    {
+     "en": "What is the reference number and provenance of this sheet? Ms Manowska asked first and it is still unanswered — Jacob sent the file on 10 August with the rest of the Griffel library.",
+     "he": "מהו מספר הסימוכין ומקורו של הדף? זו הייתה שאלתה הראשונה של הגב׳ מנובסקה והיא עדיין ללא מענה."
+    },
+    {
+     "en": "Who put a pencilled X beside entries 6, 8 and 9 — and did it mean saved, refused, or already dead?",
+     "he": "מי סימן ב-X בעיפרון ליד רשומות 6, 8 ו-9 — והאם משמעותו ניצל, נדחה, או כבר איננו?"
+    },
+    {
+     "en": "The last line ends with a dash and the word \"Eisig\". Chaim Eiss of Zurich was one of the six men of the Ładoś Group who made these passports; \"Eisig Chaim\" is also a given name that runs through this very family. It could be either. Do not decide it in a film.",
+     "he": "השורה האחרונה מסתיימת בקו מפריד ובמילה ״Eisig״. חיים אייס מציריך היה אחד מששת אנשי קבוצת לאדוש שהנפיקו את הדרכונים; ״אייזיק חיים״ הוא גם שם פרטי החוזר במשפחה הזו עצמה. אל תכריעו בסרט."
+    },
+    {
+     "en": "Are Minna and Toni at entry 11 the same two girls the tree calls Chaja Mindel and Thea? Both were murdered in 1942 either way.",
+     "he": "האם מינה וטוני שברשומה 11 הן אותן שתי ילדות שהעץ מכנה חיה מינדל ותיאה? כך או כך, שתיהן נרצחו ב-1942."
+    }
+   ],
+   "status": "read"
   }
  ],
  "additional_files": [
