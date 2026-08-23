@@ -14,6 +14,7 @@ const State = {
     hypotheses: [],
     press: [],
     overview: null,
+    closeFamily: null,
     messages: [],
   },
   byId: {
@@ -32,7 +33,7 @@ async function loadAll() {
   // Cache-bust on every load - data files update frequently
   const v = Date.now();
   const noCache = { cache: 'no-store' };
-  const [en, he, pl, fr, people, places, events, documents, hypotheses, messages, research, press, overview] = await Promise.all([
+  const [en, he, pl, fr, people, places, events, documents, hypotheses, messages, research, press, overview, closeFamily] = await Promise.all([
     fetch(`data/i18n/en.json?v=${v}`, noCache).then(r => r.json()),
     fetch(`data/i18n/he.json?v=${v}`, noCache).then(r => r.json()),
     fetch(`data/i18n/pl.json?v=${v}`, noCache).then(r => r.json()),
@@ -50,6 +51,9 @@ async function loadAll() {
     fetch(`data/overview.json?v=${v}`, noCache)
       .then(r => r.ok ? r.json() : null)
       .catch(() => null),
+    fetch(`data/close_family.json?v=${v}`, noCache)
+      .then(r => r.ok ? r.json() : null)
+      .catch(() => null),
   ]);
   State.i18n = { en, he, pl, fr };
   State.data.people = people.people;
@@ -60,6 +64,7 @@ async function loadAll() {
   State.data.hypotheses = hypotheses.hypotheses;
   State.data.press = (press && press.notices) || [];
   State.data.overview = overview;
+  State.data.closeFamily = closeFamily;
   State.data.messages = messages.messages || messages;
   State.data.research = research;
 
@@ -2250,6 +2255,39 @@ function statusLabel(s) {
 // The page Doron asked for: why this exists, then every section of the site with what it
 // holds and what was found in it, each one a way straight in. The numbers come from
 // data/overview.json, which is regenerated from the live data, so they cannot drift.
+// The close family, generation by generation — the part Doron asked to be documented:
+// only findings with a named document, and the document printed on the same line.
+function closeFamilyBlock() {
+  const cf = State.data.closeFamily;
+  if (!cf) return '';
+  const proofLabel = ml(cf.proof_label);
+  return `
+    <section class="cf" id="close-family">
+      <h2 class="cf-title">${escapeHtml(ml(cf.title))}</h2>
+      <p class="cf-lead">${escapeHtml(ml(cf.lead))}</p>
+      ${cf.generations.map(g => `
+        <section class="cf-gen">
+          <div class="cf-gen-head">
+            <h3>${escapeHtml(ml(g.who))}</h3>
+            <div class="cf-gen-meta">
+              <span class="cf-role">${escapeHtml(ml(g.title))}</span>
+              <span class="cf-years">${escapeHtml(g.years || '')}</span>
+            </div>
+          </div>
+          <p class="cf-blurb" dir="auto">${escapeHtml(ml(g.blurb))}</p>
+          <ol class="cf-finds">
+            ${g.finds.map(f => `
+              <li>
+                <div class="cf-find" dir="auto">${escapeHtml(ml(f.text))}</div>
+                <div class="cf-proof" dir="auto"><span>${escapeHtml(proofLabel)}:</span>
+                  ${escapeHtml(ml(f.proof))}
+                  ${f.link ? ` <a href="${escapeHtml(f.link)}" data-link>&rarr;</a>` : ''}</div>
+              </li>`).join('')}
+          </ol>
+        </section>`).join('')}
+    </section>`;
+}
+
 function renderOverview(root) {
   const o = State.data.overview;
   if (!o) {
@@ -2268,6 +2306,8 @@ function renderOverview(root) {
         .map(p => `<p>${escapeHtml(p)}</p>`).join('')}</div>
       <p class="ov-stats">${escapeHtml(ml(o.intro.stat_line))}</p>
     </section>
+
+    ${closeFamilyBlock()}
 
     <h2 class="ov-index-title">${escapeHtml(t('start.index'))}</h2>
 

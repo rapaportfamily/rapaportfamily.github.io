@@ -1,0 +1,485 @@
+{
+ "_schema": "The close family, generation by generation, from Dov’s great-grandparents down to Dov. Only findings this archive can put a named document behind; the proof is printed on the same line as the claim. Suspicions live on the Open Questions page instead. Hand-written from people.json and documents.json.",
+ "title": {
+  "en": "The close family — what was found, generation by generation",
+  "he": "המשפחה הקרובה — מה נמצא, דור אחר דור",
+  "pl": "Najbliższa rodzina — co odnaleziono, pokolenie po pokoleniu",
+  "fr": "La famille proche — ce qui a été trouvé, génération après génération"
+ },
+ "lead": {
+  "en": "Every line below is something a document says. The document is named beside it. Where the archive only suspects, it is not on this page — it is on Open Questions.",
+  "he": "כל שורה להלן היא דבר שמסמך אומר. המסמך נקוב לצדה. היכן שהארכיון רק משער — הדבר אינו בעמוד הזה, אלא בעמוד השאלות הפתוחות.",
+  "pl": "Każdy wiersz poniżej to coś, co mówi dokument. Dokument jest wymieniony obok.",
+  "fr": "Chaque ligne ci-dessous est ce que dit un document. Le document est nommé à côté."
+ },
+ "proof_label": {
+  "en": "How we know",
+  "he": "מניין אנו יודעים",
+  "pl": "Skąd to wiemy",
+  "fr": "Comment nous le savons"
+ },
+ "generations": [
+  {
+   "key": "great_grandparents",
+   "who": {
+    "en": "Moses Saul Rapaport and Menycha Leiner",
+    "he": "משה שאול רפפורט ומניכה ליינר",
+    "pl": "Moses Saul Rapaport i Menycha Leiner",
+    "fr": "Moses Saul Rapaport et Menycha Leiner"
+   },
+   "years": "1858 – 1933",
+   "title": {
+    "en": "Dov’s great-grandparents",
+    "he": "סב-סבו וסבתא-סבתו של דב",
+    "pl": "Pradziadkowie Dowa",
+    "fr": "Les arrière-grands-parents de Dov"
+   },
+   "blurb": {
+    "en": "For a year the paternal line simply stopped. Nobody could get past Berish — not even Edward Gelles, who had spent twenty-five years on the Rapaport rabbinical genealogies. Then the passport file was found, and his parents were in it.",
+    "he": "במשך שנה פשוט נעצר קו האב. איש לא הצליח לעבור את בריש — גם לא אדוארד גלס, שהקדיש עשרים וחמש שנים לייחוסי הרבנים לבית רפפורט. ואז נמצא תיק הדרכון, ובתוכו היו הוריו."
+   },
+   "finds": [
+    {
+     "text": {
+      "en": "The wall came down: Berish’s parents are named as Moses Saul Rapaport and Menucha.",
+      "he": "החומה נפלה: הוריו של בריש נקובים בשמם — משה שאול רפפורט ומנוחה."
+     },
+     "proof": {
+      "en": "His own 1924 passport application, found by Basia in May 2026.",
+      "he": "בקשת הדרכון שלו משנת 1924, שמצאה בסיה במאי 2026."
+     },
+     "link": "#/story"
+    },
+    {
+     "text": {
+      "en": "Moses Saul died in Tarnów on 8 November 1933, and the trade he lived by is on record: the family tree calls him a merchant, the notary wrote \"capitalist\".",
+      "he": "משה שאול נפטר בטרנוב ב-8 בנובמבר 1933, ומקצועו מתועד: עץ המשפחה מכנה אותו סוחר, הנוטריון כתב ״קפיטליסט״."
+     },
+     "proof": {
+      "en": "Three Tarnów marriage certificates of 1919, 1920 and 1923 — his daughters’ — each name \"Moshe and Menucha\" as the parents.",
+      "he": "שלוש תעודות נישואין מטרנוב, 1919, 1920 ו-1923 — של בנותיו — וכל אחת נוקבת ב״משה ומנוחה״ כהורים."
+     },
+     "link": "#/people"
+    },
+    {
+     "text": {
+      "en": "Menycha appears on paper exactly once in her whole life: in 1904 her husband walks into a notary’s office and pays two crowns so that she may collect the family post.",
+      "he": "מניכה מופיעה על נייר בדיוק פעם אחת בכל חייה: ב-1904 נכנס בעלה למשרד נוטריון ומשלם שני כתרים כדי שתוכל לאסוף את דואר המשפחה."
+     },
+     "proof": {
+      "en": "Tarnów notarial day-book, entry 392, 19 October 1904 — sent by Basia, August 2026.",
+      "he": "פנקס הנוטריון בטרנוב, רשומה 392, 19 באוקטובר 1904 — נשלח בידי בסיה, אוגוסט 2026."
+     },
+     "link": "#/documents"
+    }
+   ]
+  },
+  {
+   "key": "paternal_grandparents",
+   "who": {
+    "en": "Berish Rapaport and Rebeka Griffel",
+    "he": "בריש רפפורט ורבקה גריפל",
+    "pl": "Berisz Rapaport i Rebeka Griffel",
+    "fr": "Berish Rapaport et Rebeka Griffel"
+   },
+   "years": "1886 – 1942",
+   "title": {
+    "en": "Dov’s grandparents on his father’s side",
+    "he": "סבו וסבתו של דב מצד אביו",
+    "pl": "Dziadkowie Dowa ze strony ojca",
+    "fr": "Les grands-parents paternels de Dov"
+   },
+   "blurb": {
+    "en": "David’s parents. Murdered in 1942. Almost everything now known about them was found in the last twelve months, and one of the findings corrected the archive’s own published claim about itself.",
+    "he": "הוריו של דוד. נרצחו ב-1942. כמעט כל מה שידוע עליהם היום נמצא בשנים-עשר החודשים האחרונים, ואחד הממצאים תיקן טענה שהארכיון עצמו פרסם על עצמו."
+   },
+   "finds": [
+    {
+     "text": {
+      "en": "Berish has a face. There is a photographic portrait of him from 1924.",
+      "he": "לבריש יש פנים. קיים דיוקן מצולם שלו משנת 1924."
+     },
+     "proof": {
+      "en": "Portrait attached to his 1924 qualification certificate.",
+      "he": "דיוקן המצורף לתעודת הכשירות שלו מ-1924."
+     },
+     "link": "#/people"
+    },
+    {
+     "text": {
+      "en": "The exact day he died, confirmed at three independent archives: 29 March 1942, two days after arriving. Prisoner number 27310, registered as a labourer.",
+      "he": "היום המדויק שבו מת, מאושר בשלושה ארכיונים בלתי תלויים: 29 במרס 1942, יומיים אחרי שהגיע. מספר אסיר 27310, נרשם כפועל."
+     },
+     "proof": {
+      "en": "Auschwitz Museum victim record 188161; the camp death books; and the Page of Testimony David filed in 1953 — which gives 1940. The archive publishes the disagreement rather than choosing.",
+      "he": "רשומת קורבן 188161 של מוזיאון אושוויץ; פנקסי הפטירות של המחנה; ודף העד שמילא דוד ב-1953 — הנוקב ב-1940. הארכיון מפרסם את הסתירה במקום להכריע."
+     },
+     "link": "#/people"
+    },
+    {
+     "text": {
+      "en": "He was not deported from a ghetto. He was deported from the PRISON AT TARNÓW, on transport 689 — fifty-five men registered on 27 March 1942 with numbers 27305 to 27359.",
+      "he": "הוא לא גורש מגטו. הוא גורש מבית הכלא בטרנוב, בטרנספורט 689 — חמישים וחמישה גברים שנרשמו ב-27 במרס 1942 במספרים 27305 עד 27359."
+     },
+     "proof": {
+      "en": "The transport list itself.",
+      "he": "רשימת הטרנספורט עצמה."
+     },
+     "link": "#/documents"
+    },
+    {
+     "text": {
+      "en": "David himself filed the Yad Vashem Pages of Testimony for his parents — from Haifa, on 26 April 1953. For years this archive said no page had ever been filed and that it was their only memorial. That was wrong, and both pages were already here.",
+      "he": "דוד עצמו מילא את דפי העד ביד ושם עבור הוריו — מחיפה, ב-26 באפריל 1953. במשך שנים אמר הארכיון הזה שמעולם לא הוגש דף, ושהוא לבדו הנציח אותם. זו הייתה טעות, ושני הדפים כבר היו כאן."
+     },
+     "proof": {
+      "en": "Pages 53072 (Bernard Dov) and 53074 (Regina Rivka), signed 26 April 1953. Dana confirmed the handwriting is David’s.",
+      "he": "דפים 53072 (ברנרד דב) ו-53074 (רגינה רבקה), חתומים 26 באפריל 1953. דנה אישרה שכתב היד הוא של דוד."
+     },
+     "link": "#/documents"
+    },
+    {
+     "text": {
+      "en": "They were married civilly at Nadwórna on 21 December 1911 — four days before David was born.",
+      "he": "הם נישאו בנישואין אזרחיים בנדבורנא ב-21 בדצמבר 1911 — ארבעה ימים לפני שנולד דוד."
+     },
+     "proof": {
+      "en": "The Nadwórna civil marriage register.",
+      "he": "פנקס הנישואין האזרחי של נדבורנא."
+     },
+     "link": "#/documents"
+    },
+    {
+     "text": {
+      "en": "Rebeka’s family turned out to be a house the newspapers followed for eighty years: her father Leizor Griffel of Nadwórna, his shop, his refinery, his sawmill. Her brother’s grandson was Dr Jacob Griffel, the Agudath Israel rescue man in Istanbul.",
+      "he": "משפחתה של רבקה התבררה כבית שהעיתונות עקבה אחריו שמונים שנה: אביה לייזור גריפל מנדבורנא, חנותו, בית הזיקוק שלו, המנסרה שלו. נכד אחיה היה ד״ר יעקב גריפל, איש ההצלה של אגודת ישראל באיסטנבול."
+     },
+     "proof": {
+      "en": "142 press notices, 1866-1946, and the Griffel family tree of 390 people sent by Jacob.",
+      "he": "142 ידיעות עיתונות, 1866—1946, ועץ משפחת גריפל בן 390 האנשים ששלח יעקב."
+     },
+     "link": "#/press"
+    }
+   ]
+  },
+  {
+   "key": "maternal_grandparents",
+   "who": {
+    "en": "Elias Weitzner and Matel Weinreb",
+    "he": "אליאס ויצנר ומטל ויינרב",
+    "pl": "Elias Weitzner i Matel Weinreb",
+    "fr": "Elias Weitzner et Matel Weinreb"
+   },
+   "years": "Bolechów",
+   "title": {
+    "en": "Dov’s grandparents on his mother’s side",
+    "he": "סבו וסבתו של דב מצד אמו",
+    "pl": "Dziadkowie Dowa ze strony matki",
+    "fr": "Les grands-parents maternels de Dov"
+   },
+   "blurb": {
+    "en": "Lusia’s parents, of Bolechów. This is the side where the paper runs out — and the archive says so plainly instead of guessing.",
+    "he": "הוריה של לוסיה, מבולחוב. זהו הצד שבו הנייר נגמר — והארכיון אומר זאת במפורש במקום לנחש."
+   },
+   "finds": [
+    {
+     "text": {
+      "en": "There is a photograph of Lusia standing with her father. It is one of the few pictures of that side of the family at all.",
+      "he": "קיים תצלום של לוסיה עומדת עם אביה. זו אחת התמונות הבודדות של הצד הזה של המשפחה בכלל."
+     },
+     "proof": {
+      "en": "Held in the archive as the portrait attached to Elias Weitzner.",
+      "he": "שמור בארכיון כדיוקן המצורף לאליאס ויצנר."
+     },
+     "link": "#/photographs"
+    },
+    {
+     "text": {
+      "en": "Her mother’s maiden name is fixed in writing: MATHILDE WEINREB, with Elias named as the father — on a form Lusia filled in herself in Brussels in December 1945.",
+      "he": "שם נעוריה של אמה מקובע בכתב: מתילדה ויינרב, ואליאס נקוב כאב — בטופס שמילאה לוסיה עצמה בבריסל בדצמבר 1945."
+     },
+     "proof": {
+      "en": "Her Displaced Persons card, Brussels, 26 December 1945.",
+      "he": "כרטיס העקורים שלה, בריסל, 26 בדצמבר 1945."
+     },
+     "link": "#/documents"
+    },
+    {
+     "text": {
+      "en": "A Weitzner–Weinreb family tree cannot be built, and the reason is not the research: the vital records of DOLINA are completely lost. If it is ever done it will come from commercial, court and notarial papers, which may still be lying in Ukraine.",
+      "he": "אי אפשר לבנות עץ משפחת ויצנר–ויינרב, והסיבה אינה המחקר: רשומות האוכלוסין של דולינה אבדו כליל. אם הדבר ייעשה אי-פעם, יהיה זה מרשומות מסחר, בתי משפט ונוטריונים, שאולי עודן מונחות באוקראינה."
+     },
+     "proof": {
+      "en": "Basia, 19 August 2026. A blank with a reason, which is worth more than a guess.",
+      "he": "בסיה, 19 באוגוסט 2026. חֶסֶר שיש לו סיבה, ששווה יותר מניחוש."
+     },
+     "link": "#/hypotheses"
+    }
+   ]
+  },
+  {
+   "key": "parents",
+   "who": {
+    "en": "David and Lusia",
+    "he": "דוד ולוסיה",
+    "pl": "Dawid i Lusia",
+    "fr": "David et Lusia"
+   },
+   "years": "1911 – 1990  ·  1913 – 1996",
+   "title": {
+    "en": "Dov’s father and mother",
+    "he": "אביו ואמו של דב",
+    "pl": "Ojciec i matka Dowa",
+    "fr": "Le père et la mère de Dov"
+   },
+   "blurb": {
+    "en": "The two people the whole archive turns around. He was a forestry engineer who escaped a ghetto inside a railway wagon; she survived the war on false papers in Lwów with a child hidden in a vegetable crate. Almost everything between 1939 and 1948 is known because she dictated ninety pages in 1986.",
+    "he": "שני האנשים שסביבם סובב כל הארכיון. הוא היה מהנדס יערות שנמלט מגטו בתוך קרון רכבת; היא שרדה את המלחמה על ניירות מזויפים בלבוב, עם ילד מוחבא בארגז ירקות. כמעט כל מה שידוע בין 1939 ל-1948 ידוע מפני שהיא הכתיבה תשעים עמודים ב-1986."
+   },
+   "finds": [
+    {
+     "text": {
+      "en": "The wedding date the family believed was wrong by three years. They married on 10 February 1935 in Bolechów — she was 21 and he was 23. The memoir says Muszyna, February 1938, and says 18 and 24.",
+      "he": "תאריך החתונה שבו האמינה המשפחה שגוי בשלוש שנים. הם נישאו ב-10 בפברואר 1935 בבולחוב — היא הייתה בת 21 והוא בן 23. הממואר אומר מושינה, פברואר 1938, ובני 18 ו-24."
+     },
+     "proof": {
+      "en": "The civil marriage record. Both versions are published side by side; the memoir is testimony, not proof.",
+      "he": "רשומת הנישואין האזרחית. שתי הגרסאות מתפרסמות זו לצד זו; הממואר הוא עדות ולא הוכחה."
+     },
+     "link": "#/people"
+    },
+    {
+     "text": {
+      "en": "How David got out of the Nadwórna ghetto: a neighbour drilled holes in thick logs loaded onto railway wagons, and eighteen men hid among them. Someone informed; they jumped from the moving train. He reached Lwów.",
+      "he": "כיצד יצא דוד מגטו נדבורנא: שכן קדח חורים בבולי עץ עבים שהועמסו על קרונות רכבת, ושמונה-עשר איש הסתתרו ביניהם. מישהו הלשין; הם קפצו מן הרכבת הנוסעת. הוא הגיע ללבוב."
+     },
+     "proof": {
+      "en": "Lusia’s memoir, pages 41-42, in David’s own words as she recorded them.",
+      "he": "הממואר של לוסיה, עמודים 41—42, בלשונו של דוד כפי שרשמה אותה."
+     },
+     "link": "#/memoir"
+    },
+    {
+     "text": {
+      "en": "Lusia lived in Lwów as \"Maria Cizlik\" on borrowed papers, at Legionów 24 opposite the theatre, managing an antiques shop — and kept four-year-old Shimon hidden in a narrow crate against the wall, the kind gentiles used for potatoes.",
+      "he": "לוסיה חיה בלבוב בשם ״מריה צ׳יזליק״ על ניירות שאולים, ברחוב לגיונוב 24 מול התיאטרון, וניהלה חנות עתיקות — והחביאה את שמעון בן הארבע בארגז צר צמוד לקיר, מן הסוג שבו החזיקו הגויים תפוחי אדמה."
+     },
+     "proof": {
+      "en": "The memoir, pages 40-42.",
+      "he": "הממואר, עמודים 40—42."
+     },
+     "link": "#/memoir"
+    },
+    {
+     "text": {
+      "en": "She was in Brussels far earlier than the family thought — by 26 December 1945, when she signed her own DP card \"Rapaport Lea\". Three and a half months before David registered there.",
+      "he": "היא הייתה בבריסל מוקדם בהרבה משסברה המשפחה — כבר ב-26 בדצמבר 1945, כשחתמה על כרטיס העקורים שלה ״רפפורט לאה״. שלושה חודשים וחצי לפני שדוד נרשם שם."
+     },
+     "proof": {
+      "en": "Her DP card and the Belgian residence request, found by Basia, August 2026.",
+      "he": "כרטיס העקורים שלה ובקשת השהייה הבלגית, שמצאה בסיה באוגוסט 2026."
+     },
+     "link": "#/documents"
+    },
+    {
+     "text": {
+      "en": "Both their post-war cards give the wrong birthplace. Hers says HAIFA, PALESTINE — she was born in Bolechów. His says Cieszyn — he was born in Nadwórna. Nobody knows why, and the archive does not pretend to.",
+      "he": "שני כרטיסיהם שאחרי המלחמה נוקבים במקום לידה שגוי. שלה אומר חיפה, פלשתינה — היא נולדה בבולחוב. שלו אומר צ׳ישין — הוא נולד בנדבורנא. איש אינו יודע מדוע, והארכיון אינו מעמיד פנים שכן."
+     },
+     "proof": {
+      "en": "Both cards, 1945-46. Recorded as an open question.",
+      "he": "שני הכרטיסים, 1945—46. נרשם כשאלה פתוחה."
+     },
+     "link": "#/hypotheses"
+    },
+    {
+     "text": {
+      "en": "They refused America. She held an affidavit and stood second in the American quota, sent by a Griffel relative — and did not go.",
+      "he": "הם סירבו לאמריקה. היה בידה תצהיר והיא עמדה שנייה במכסה האמריקנית, שנשלח בידי קרוב ממשפחת גריפל — והיא לא נסעה."
+     },
+     "proof": {
+      "en": "Recorded in the memoir and confirmed by Doron.",
+      "he": "מתועד בממואר ואושר בידי דורון."
+     },
+     "link": "#/memoir"
+    },
+    {
+     "text": {
+      "en": "They lie side by side. Sde Yehoshua cemetery in Haifa, section ו, row 22 — graves 102ד and 102ג.",
+      "he": "הם שוכבים זה לצד זו. בית העלמין שדה יהושע בחיפה, חלקה ו׳, שורה 22 — קברים 102ד ו-102ג."
+     },
+     "proof": {
+      "en": "Haifa burial society records 43981 and 144046.",
+      "he": "רשומות חברה קדישא חיפה 43981 ו-144046."
+     },
+     "link": "#/people"
+    }
+   ]
+  },
+  {
+   "key": "lotte",
+   "who": {
+    "en": "Lotte, David’s sister",
+    "he": "לוטה, אחותו של דוד",
+    "pl": "Lotte, siostra Dawida",
+    "fr": "Lotte, la sœur de David"
+   },
+   "years": "1915 – murdered",
+   "title": {
+    "en": "Dov’s aunt",
+    "he": "דודתו של דב",
+    "pl": "Ciotka Dowa",
+    "fr": "La tante de Dov"
+   },
+   "blurb": {
+    "en": "For eighty years the family knew she was killed and did not know how. The answer was inside the memoir the whole time; nobody had put it next to the question.",
+    "he": "שמונים שנה ידעה המשפחה שהיא נרצחה ולא ידעה כיצד. התשובה הייתה בתוך הממואר כל אותו זמן; איש לא הניח אותה לצד השאלה."
+   },
+   "finds": [
+    {
+     "text": {
+      "en": "Poles were selling forged certificates that the holder was a resident of the United States. Each cost ten thousand dollars. Lotte bought one. THE SELLERS INFORMED THE GESTAPO, and she and her husband were taken to a place from which they never returned.",
+      "he": "פולנים מכרו תעודות מזויפות שלפיהן המחזיק בהן הוא תושב ארצות הברית. כל אחת עלתה עשרת אלפים דולר. לוטה קנתה אחת. המוכרים הלשינו לגסטפו, והיא ובעלה נלקחו למקום שממנו לא חזרו עוד."
+     },
+     "proof": {
+      "en": "Lusia’s memoir, page 40 — her own testimony about her sister-in-law.",
+      "he": "הממואר של לוסיה, עמוד 40 — עדותה שלה על גיסתה."
+     },
+     "link": "#/memoir"
+    },
+    {
+     "text": {
+      "en": "It happened at the LWÓW ghetto — the passage stands at the ghetto gate on Rapaport Street. The Pilecki Institute told Basia they know little about that ghetto; this page is a first-hand account of it.",
+      "he": "הדבר קרה בגטו לבוב — הקטע עומד ליד שער הגטו ברחוב רפפורט. מכון פילצקי אמר לבסיה שידוע להם מעט על אותו גטו; העמוד הזה הוא עדות ראייה עליו."
+     },
+     "proof": {
+      "en": "Cross-checked against her Yad Vashem page and the Kraków ghetto database entry.",
+      "he": "הוצלב מול דף יד ושם שלה ומול רשומת מסד הנתונים של גטו קרקוב."
+     },
+     "link": "#/hypotheses"
+    },
+    {
+     "text": {
+      "en": "She also gained a married name and a place of death from the records — Schmid.",
+      "he": "היא גם קיבלה מן הרשומות שם נישואין ומקום פטירה — שמיד."
+     },
+     "proof": {
+      "en": "Yad Vashem Page of Testimony 53075.",
+      "he": "דף עד יד ושם 53075."
+     },
+     "link": "#/people"
+    }
+   ]
+  },
+  {
+   "key": "shimon",
+   "who": {
+    "en": "Shimon, the older brother",
+    "he": "שמעון, האח הגדול",
+    "pl": "Szymon, starszy brat",
+    "fr": "Shimon, le frère aîné"
+   },
+   "years": "1937 – ",
+   "title": {
+    "en": "Dov’s brother",
+    "he": "אחיו של דב",
+    "pl": "Brat Dowa",
+    "fr": "Le frère de Dov"
+   },
+   "blurb": {
+    "en": "Born 22 June 1937 — the child who was hidden in the crate, and who survived the war before Dov was ever born.",
+    "he": "נולד ב-22 ביוני 1937 — הילד שהוחבא בארגז, ששרד את המלחמה עוד לפני שדב נולד בכלל."
+   },
+   "finds": [
+    {
+     "text": {
+      "en": "He is in the post-war Jewish committee register: card 151337, Katowice, 1 July 1946, entered as the son of Lusia and Dawid.",
+      "he": "הוא מופיע בפנקס הוועד היהודי שאחרי המלחמה: כרטיס 151337, קטוביץ, 1 ביולי 1946, רשום כבנם של לוסיה ודוד."
+     },
+     "proof": {
+      "en": "CKŻP registration card, Katowice.",
+      "he": "כרטיס רישום של ועד יהודי פולין, קטוביץ."
+     },
+     "link": "#/documents"
+    },
+    {
+     "text": {
+      "en": "David and Shimon sailed for Palestine first, in April 1947 — not by preference. The clandestine immigration would not take mothers with infants, and Dov was months old.",
+      "he": "דוד ושמעון הפליגו לפלשתינה ראשונים, באפריל 1947 — ולא מתוך בחירה. ההעפלה לא לקחה אימהות עם תינוקות, ודב היה בן חודשים."
+     },
+     "proof": {
+      "en": "Established from the family record; it corrects an assumption the archive had made.",
+      "he": "נקבע מתוך רשומות המשפחה; הדבר מתקן הנחה שהארכיון החזיק בה."
+     },
+     "link": "#/story"
+    },
+    {
+     "text": {
+      "en": "He became the senior northern-region correspondent of Ma’ariv, for many years.",
+      "he": "הוא היה כתב מעריב הבכיר לאזור הצפון, במשך שנים רבות."
+     },
+     "proof": {
+      "en": "Ma’ariv archives, National Library of Israel.",
+      "he": "ארכיון מעריב, הספרייה הלאומית."
+     },
+     "link": "#/people"
+    }
+   ]
+  },
+  {
+   "key": "dov",
+   "who": {
+    "en": "Dov",
+    "he": "דב",
+    "pl": "Dow",
+    "fr": "Dov"
+   },
+   "years": "28 August 1946, Brussels",
+   "title": {
+    "en": "The man this archive is for",
+    "he": "האיש שעבורו נבנה הארכיון הזה",
+    "pl": "Człowiek, dla którego powstało to archiwum",
+    "fr": "L’homme à qui cette archive est destinée"
+   },
+   "blurb": {
+    "en": "Born in Brussels on 28 August 1946, in the middle of everything — after the war, before Israel, in a rented room in Schaerbeek.",
+    "he": "נולד בבריסל ב-28 באוגוסט 1946, באמצע הכול — אחרי המלחמה, לפני ישראל, בחדר שכור בסכארבק."
+   },
+   "finds": [
+    {
+     "text": {
+      "en": "The address he was born into is known exactly: 250 rue des Coteaux, Schaerbeek. His mother was living there in December 1945 and still on the same permit when he was born.",
+      "he": "הכתובת שאליה נולד ידועה במדויק: רחוב דה קוטו 250, סכארבק. אמו התגוררה שם בדצמבר 1945 ועדיין הייתה באותו היתר כשנולד."
+     },
+     "proof": {
+      "en": "Her Brussels residence request and stay permit, 1945-46.",
+      "he": "בקשת השהייה והיתר השהייה שלה בבריסל, 1945—46."
+     },
+     "link": "#/documents"
+    },
+    {
+     "text": {
+      "en": "He is a Kohen — of the Rapoport-Kohen rabbinical line traced to Rabbi Meshullam Yekutiel ha-Kohen Rapa, who died in 1450, Mainz to Porto.",
+      "he": "הוא כהן — משושלת הרבנים רפפורט-כהן, המיוחסת לרבי משולם יקותיאל הכהן רפא, שנפטר ב-1450, ממיינץ לפורטו."
+     },
+     "proof": {
+      "en": "The rabbinical genealogies, cross-checked against the family record.",
+      "he": "ספרי הייחוס הרבניים, מוצלבים מול רשומות המשפחה."
+     },
+     "link": "#/explore"
+    },
+    {
+     "text": {
+      "en": "He went back. Warsaw in April 2015, Przemyśl on 19 April 2015, Brussels in June 2018, Katowice in January 2019 — his own birthplace and three of the towns. He could not take his mother, so he went and photographed it. 120 of those photographs are here.",
+      "he": "הוא חזר לשם. ורשה באפריל 2015, פשמישל ב-19 באפריל 2015, בריסל ביוני 2018, קטוביץ בינואר 2019 — עיר הולדתו ושלוש מן העיירות. הוא לא יכול היה לקחת את אמו, ולכן נסע וצילם. 120 מן התצלומים האלה נמצאים כאן."
+     },
+     "proof": {
+      "en": "Four albums, 120 photographs, dated and placed.",
+      "he": "ארבעה אלבומים, 120 תצלומים, מתוארכים וממוקמים."
+     },
+     "link": "#/photographs"
+    }
+   ]
+  }
+ ]
+}

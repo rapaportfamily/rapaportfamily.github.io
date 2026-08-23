@@ -2390,3 +2390,34 @@ html[dir="rtl"] .detail-portrait { margin: 0 1.2rem 1rem 0; }
   .ov-grid { grid-template-columns: 1fr; }
   .ov-card { padding: .9rem .85rem; }
 }
+
+
+/* ── the nav grew to 18 links and stopped fitting ────────────────────
+   'Start here' pushed the row past the width. flex-wrap was nowrap with
+   overflow-x:auto, so Research Chat and About simply vanished off the right
+   edge behind a scrollbar nobody would think to drag. Let it wrap instead:
+   every link stays visible, which is the whole point for readers who are not
+   computer people. */
+.nav-inner { flex-wrap: wrap !important; overflow-x: visible !important;
+  row-gap: .15rem; }
+
+/* ── the close family ───────────────────────────────────────────────── */
+.cf { max-width: 52rem; margin: 2.5rem auto 1rem; }
+.cf-title { font-size: 1.5rem; margin: 0 0 .5rem; padding-bottom: .4rem;
+  border-bottom: 1px solid var(--line, #ddd); }
+.cf-lead { color: var(--muted, #666); margin: 0 0 1.8rem; line-height: 1.65; }
+.cf-gen { margin: 0 0 2rem; padding-inline-start: 1rem;
+  border-inline-start: 3px solid var(--line, #e0ddd6); }
+.cf-gen-head h3 { margin: 0 0 .2rem; font-size: 1.22rem; overflow-wrap: anywhere; }
+.cf-gen-meta { display: flex; gap: .8rem; flex-wrap: wrap; margin-bottom: .6rem; }
+.cf-role { color: var(--muted, #777); font-size: .9rem; }
+.cf-years { color: var(--muted, #999); font-size: .9rem; white-space: nowrap; }
+.cf-blurb { margin: 0 0 .9rem; line-height: 1.68; overflow-wrap: anywhere; }
+.cf-finds { margin: 0; padding-inline-start: 1.2rem; }
+.cf-finds li { margin-bottom: 1rem; }
+.cf-find { line-height: 1.6; overflow-wrap: anywhere; }
+.cf-proof { margin-top: .25rem; font-size: .86rem; color: var(--muted, #777);
+  line-height: 1.5; overflow-wrap: anywhere; }
+.cf-proof span { text-transform: uppercase; letter-spacing: .07em; font-size: .72rem; }
+.cf-proof a { text-decoration: none; font-weight: 700; }
+@media (max-width: 640px) { .cf-gen { padding-inline-start: .7rem; } }
