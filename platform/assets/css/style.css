@@ -2344,11 +2344,15 @@ html[dir="rtl"] .detail-portrait { margin: 0 1.2rem 1rem 0; }
   margin-bottom: .5rem; }
 .press-year { font-weight: 700; font-size: 1.05rem; }
 .press-source { color: var(--muted, #666); font-size: .88rem; }
-.press-body { line-height: 1.62; white-space: pre-wrap; }
+.press-body { line-height: 1.62; white-space: pre-wrap; overflow-wrap: anywhere;
+  max-width: 100%; }
 .press-tags { margin-top: .6rem; display: flex; gap: .4rem; flex-wrap: wrap; }
 .press-tag { font-size: .75rem; padding: .12rem .5rem; border-radius: 1rem;
   background: var(--chip, #f0efec); color: var(--muted, #555); }
 .press-original { margin-top: .7rem; }
 .press-original summary { cursor: pointer; font-size: .85rem; color: var(--muted, #666); }
 .press-original pre { white-space: pre-wrap; font-size: .82rem; line-height: 1.5;
-  background: var(--chip, #f7f6f4); padding: .8rem; border-radius: .4rem; overflow-x: auto; }
+  background: var(--chip, #f7f6f4); padding: .8rem; border-radius: .4rem;
+  overflow-x: auto; overflow-wrap: anywhere; max-width: 100%; }
+.press-card, .press-meta, .press-source { max-width: 100%; overflow-wrap: anywhere; }
+@media (max-width: 640px) { .press-card { padding: .8rem .7rem; } }

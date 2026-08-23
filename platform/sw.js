@@ -7,7 +7,7 @@
 // SW_VERSION must be bumped on every deploy that ships JS/HTML changes —
 // browsers re-fetch a new SW when its byte-content changes.
 
-const SW_VERSION = "2026-08-23-t144";
+const SW_VERSION = "2026-08-23-t145";
 
 self.addEventListener("install", (event) => {
   self.skipWaiting();
