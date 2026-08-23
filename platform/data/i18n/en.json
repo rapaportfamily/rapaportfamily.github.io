@@ -35,7 +35,8 @@
   "story": "The Story",
   "photographs": "Photographs",
   "explore": "The wider tree",
-  "press": "In the Papers"
+  "press": "In the Papers",
+  "start": "Start here"
  },
  "ui": {
   "language": "Language",
@@ -321,5 +322,11 @@
   "items": "notices",
   "download": "Download the whole press file as Basia sent it (PDF, 128 pages)",
   "empty": "The press file has not loaded."
+ },
+ "start": {
+  "index": "What is in here, and where",
+  "found_here": "Found here",
+  "open": "Open",
+  "empty": "The opening page has not loaded."
  }
 }

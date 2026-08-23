@@ -35,7 +35,8 @@
   "story": "L'Histoire",
   "photographs": "Photographies",
   "explore": "L’arbre élargi",
-  "press": "Dans la presse"
+  "press": "Dans la presse",
+  "start": "Commencer ici"
  },
  "ui": {
   "language": "Langue",
@@ -321,5 +322,11 @@
   "items": "notices",
   "download": "Télécharger tout le dossier de presse tel que Basia l’a envoyé (PDF, 128 pages)",
   "empty": "Le dossier de presse n’a pas été chargé."
+ },
+ "start": {
+  "index": "Ce qu’il y a ici, et où",
+  "found_here": "Ce qui a été trouvé ici",
+  "open": "Ouvrir",
+  "empty": "La page d’accueil n’a pas été chargée."
  }
 }

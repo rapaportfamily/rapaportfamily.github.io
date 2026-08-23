@@ -2356,3 +2356,37 @@ html[dir="rtl"] .detail-portrait { margin: 0 1.2rem 1rem 0; }
   overflow-x: auto; overflow-wrap: anywhere; max-width: 100%; }
 .press-card, .press-meta, .press-source { max-width: 100%; overflow-wrap: anywhere; }
 @media (max-width: 640px) { .press-card { padding: .8rem .7rem; } }
+
+
+/* ── Start here ─────────────────────────────────────────────────────── */
+.ov-hero { max-width: 46rem; margin: 1rem auto 2.5rem; }
+.ov-hero-title { font-size: clamp(1.9rem, 4vw, 2.9rem); line-height: 1.15; margin: 0 0 1.2rem; }
+.ov-hero-body p { font-size: 1.08rem; line-height: 1.72; margin: 0 0 1rem;
+  max-width: 44rem; overflow-wrap: anywhere; }
+.ov-stats { margin-top: 1.4rem; padding-top: 1rem; border-top: 1px solid var(--line, #ddd);
+  color: var(--muted, #666); font-size: .92rem; line-height: 1.7; overflow-wrap: anywhere; }
+.ov-index-title { font-size: 1.35rem; margin: 2.5rem 0 1.2rem;
+  padding-bottom: .4rem; border-bottom: 1px solid var(--line, #ddd); }
+.ov-grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr)); }
+.ov-card { border: 1px solid var(--line, #e2e2e2); border-radius: .6rem; padding: 1.1rem 1.2rem;
+  background: var(--card, #fff); display: flex; flex-direction: column; max-width: 100%; }
+.ov-card-head { display: flex; align-items: baseline; justify-content: space-between;
+  gap: .6rem; margin-bottom: .5rem; }
+.ov-card-head h3 { margin: 0; font-size: 1.18rem; overflow-wrap: anywhere; }
+.ov-count { font-size: 1.35rem; font-weight: 700; color: var(--accent, #8a6d3b);
+  line-height: 1; white-space: nowrap; }
+.ov-what { margin: 0 0 .9rem; line-height: 1.62; overflow-wrap: anywhere; }
+.ov-finds-label { font-size: .74rem; letter-spacing: .09em; text-transform: uppercase;
+  color: var(--muted, #777); margin-bottom: .35rem; }
+.ov-finds { margin: 0 0 1rem; padding-inline-start: 1.1rem; }
+.ov-finds li { margin-bottom: .5rem; line-height: 1.58; overflow-wrap: anywhere; }
+.ov-go { margin-top: auto; display: inline-block; font-weight: 600; text-decoration: none;
+  padding: .55rem .1rem; overflow-wrap: anywhere; }
+.ov-go:hover { text-decoration: underline; }
+.ov-closing { max-width: 44rem; margin: 2.5rem auto 1rem; line-height: 1.72;
+  color: var(--muted, #555); font-style: italic; overflow-wrap: anywhere; }
+.nav-start { font-weight: 700; }
+@media (max-width: 640px) {
+  .ov-grid { grid-template-columns: 1fr; }
+  .ov-card { padding: .9rem .85rem; }
+}

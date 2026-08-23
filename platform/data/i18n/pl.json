@@ -35,7 +35,8 @@
   "story": "Historia",
   "photographs": "Fotografie",
   "explore": "Szersze drzewo",
-  "press": "W prasie"
+  "press": "W prasie",
+  "start": "Zacznij tutaj"
  },
  "ui": {
   "language": "Język",
@@ -322,5 +323,11 @@
   "items": "notatek",
   "download": "Pobierz cały plik prasowy tak, jak przysłała go Basia (PDF, 128 stron)",
   "empty": "Plik prasowy nie został wczytany."
+ },
+ "start": {
+  "index": "Co tu jest i gdzie",
+  "found_here": "Co tu znaleziono",
+  "open": "Otwórz",
+  "empty": "Strona startowa nie została wczytana."
  }
 }

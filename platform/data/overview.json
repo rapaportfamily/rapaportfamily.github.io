@@ -1,0 +1,421 @@
+{
+ "_schema": "The opening page. Counts are computed from the data at build time by scripts/build_overview.py — never typed by hand — so the page cannot drift from what the archive actually holds. Prose is hand-written; English and Hebrew in full, Polish and French for every heading and description.",
+ "generated_from": "the live data files",
+ "counts": {
+  "people": 188,
+  "faces": 12,
+  "documents": 137,
+  "chapters": 10,
+  "events": 45,
+  "places": 49,
+  "questions": 24,
+  "answered": 14,
+  "open": 10,
+  "messages": 863,
+  "press": 142,
+  "press_from": 1866,
+  "press_to": 1946,
+  "tree_rapaport": 1442,
+  "tree_griffel": 390,
+  "tree_total": 1832,
+  "memoir_pages": 90,
+  "memoir_plates": 15,
+  "trip_photos": 120,
+  "trip_albums": 4,
+  "unidentified": 60,
+  "research_sections": 14,
+  "journey_legs": 13
+ },
+ "intro": {
+  "title": {
+   "en": "A journey he could not take",
+   "he": "המסע שלא יכול היה לצאת אליו",
+   "pl": "Podróż, której nie mógł odbyć",
+   "fr": "Un voyage qu’il n’a pas pu faire"
+  },
+  "body": {
+   "en": "For years Dov Rapaport has said the same thing: what he would have wanted, more than anything, was to travel with his mother. To stand with her in the places she came from, hear her tell it where it happened, and learn who his family were.\n\nHe cannot. So Dalia, Dana, Daniel and Doron went and did it for him.\n\nThis website is that journey. Everything in it was found the slow way — in Polish state archives, in Yad Vashem, in birth registers and passport files and eighty-year-old newspapers, and in ninety pages his mother dictated in 1986 to a teacher who sat down and asked her. Some of it answers questions the family has carried for decades. Some of it contradicts what everyone believed, and that is published too. Where nobody knows, it says nobody knows.\n\nBelow is everything that is here, and where to find it.",
+   "he": "שנים אומר דב רפפורט את אותו הדבר: מה שהיה רוצה יותר מכול הוא לנסוע עם אמו. לעמוד איתה במקומות שמהם באה, לשמוע אותה מספרת אותם במקום שבו קרו, וללמוד מי הייתה משפחתו.\n\nהוא אינו יכול. ולכן דליה, דנה, דניאל ודורון נסעו ועשו זאת עבורו.\n\nהאתר הזה הוא המסע ההוא. כל מה שיש בו נמצא בדרך האיטית — בארכיוני המדינה בפולין, ביד ושם, בפנקסי לידה ובתיקי דרכונים ובעיתונים בני שמונים שנה, ובתשעים עמודים שהכתיבה אמו ב-1986 למורה שישבה ושאלה אותה. חלק מכך עונה על שאלות שהמשפחה נשאה עשרות שנים. חלק סותר את מה שכולם האמינו — וגם זה מתפרסם. היכן שאיש אינו יודע, כתוב שאיש אינו יודע.\n\nלהלן כל מה שיש כאן, והיכן למצוא אותו.",
+   "pl": "Od lat Dow Rapaport powtarza to samo: najbardziej chciałby pojechać ze swoją matką. Stanąć z nią w miejscach, z których pochodziła, usłyszeć jej opowieść tam, gdzie się wydarzyła, i dowiedzieć się, kim była jego rodzina.\n\nNie może. Więc Dalia, Dana, Daniel i Doron pojechali i zrobili to za niego.\n\nTa strona jest tą podróżą. Wszystko tutaj znaleziono powoli — w polskich archiwach państwowych, w Jad Waszem, w księgach urodzeń, aktach paszportowych i osiemdziesięcioletniej prasie, oraz na dziewięćdziesięciu stronach, które jego matka podyktowała w 1986 roku. Tam, gdzie nikt nie wie, napisano, że nikt nie wie.\n\nPoniżej wszystko, co tu jest, i gdzie to znaleźć.",
+   "fr": "Depuis des années, Dov Rapaport dit la même chose : ce qu’il aurait voulu par dessus tout, c’était voyager avec sa mère. Se tenir avec elle dans les lieux d’où elle venait, l’entendre raconter là où cela s’est passé, et apprendre qui était sa famille.\n\nIl ne le peut pas. Alors Dalia, Dana, Daniel et Doron y sont allés et l’ont fait pour lui.\n\nCe site est ce voyage. Tout y a été trouvé lentement — dans les archives polonaises, à Yad Vashem, dans les registres de naissance, les dossiers de passeports et des journaux vieux de quatre-vingts ans, et dans les quatre-vingt-dix pages que sa mère a dictées en 1986. Là où personne ne sait, il est écrit que personne ne sait.\n\nCi-dessous, tout ce qui s’y trouve, et où le trouver."
+  },
+  "stat_line": {
+   "en": "137 documents read · 188 people · 1832 in the wider trees · 142 newspaper notices, 1866-1946 · 90 memoir pages · 24 questions, 14 of them answered",
+   "he": "137 מסמכים נקראו · 188 אנשים · 1832 בעצים הרחבים · 142 ידיעות עיתונות, 1866—1946 · 90 עמודי ממואר · 24 שאלות, 14 מהן נענו"
+  }
+ },
+ "closing": {
+  "en": "Nothing here was invented. Where two sources disagree, both are shown. Where the answer is not known, the question is left standing — because the people who would have kept those records are the people who were killed, and pretending otherwise would be its own kind of forgetting.",
+  "he": "שום דבר כאן לא הומצא. היכן ששני מקורות חלוקים, שניהם מוצגים. היכן שהתשובה אינה ידועה, השאלה נותרת עומדת — מפני שמי שהיו שומרים את הרשומות האלה הם אלה שנרצחו, והעמדת פנים אחרת הייתה סוג של שכחה בפני עצמה.",
+  "pl": "Niczego tu nie wymyślono. Gdy dwa źródła się nie zgadzają, pokazane są oba. Gdy odpowiedź nie jest znana, pytanie pozostaje otwarte.",
+  "fr": "Rien ici n’a été inventé. Quand deux sources divergent, les deux sont montrées. Quand la réponse est inconnue, la question reste ouverte."
+ },
+ "sections": [
+  {
+   "route": "#/story",
+   "key": "story",
+   "count": [
+    {
+     "en": "The paternal line stopped at Berisz for a year — even Edward Gelles, after twenty-five years on the Rapaport rabbinical genealogies, could not get past him. The passport file broke it open: his parents were Moses Saul Rapaport and Menucha.",
+     "he": "קו האב נעצר בבריש במשך שנה — אפילו אדוארד גלס, אחרי עשרים וחמש שנות מחקר בייחוסי רפפורט, לא הצליח לעבור אותו. תיק הדרכון פרץ את החומה: הוריו היו משה שאול רפפורט ומנוחה."
+    },
+    {
+     "en": "A rabbi’s death date recovered without a death record, by watching who holds the babies at circumcisions in the Dąbrowa register.",
+     "he": "תאריך פטירתו של רב שהושב ללא שטר פטירה, מתוך התבוננות במי מחזיק את התינוקות בבריתות בפנקס דומברובה."
+    },
+    {
+     "en": "The lightest document in the archive: in 1904 a man pays two crowns at a notary so his wife may collect the post — and she is named on paper for the only time.",
+     "he": "המסמך הקל ביותר בארכיון: ב-1904 משלם אדם שני כתרים אצל נוטריון כדי שאשתו תוכל לאסוף את הדואר — וזו הפעם היחידה ששמה מופיע על נייר."
+    }
+   ],
+   "title": 10,
+   "what": {
+    "en": "The story",
+    "he": "הסיפור",
+    "pl": "Opowieść",
+    "fr": "L’histoire"
+   },
+   "finds": {
+    "en": "The whole thing told straight through, in ten chapters, from a market town in Galicia in 1850 to Haifa and back again. Every paragraph carries its sources underneath it, so you can see exactly what each sentence rests on.",
+    "he": "הכול מסופר ברצף, בעשרה פרקים, מעיירת שוק בגליציה של 1850 ועד חיפה ובחזרה. תחת כל פסקה מופיעים מקורותיה, כך שאפשר לראות בדיוק על מה נשענת כל שורה.",
+    "pl": "Całość opowiedziana po kolei, w dziesięciu rozdziałach, od galicyjskiego miasteczka w 1850 roku po Hajfę i z powrotem. Pod każdym akapitem podane są jego źródła.",
+    "fr": "Le tout raconté d’un trait, en dix chapitres, d’une petite ville de Galicie en 1850 jusqu’à Haïfa et retour. Chaque paragraphe porte ses sources en dessous."
+   }
+  },
+  {
+   "route": "#/tree",
+   "key": "tree",
+   "count": [
+    {
+     "en": "Four people stand at the centre — David, Lusia, Shimon and Dov — and everyone else is measured in steps away from them.",
+     "he": "ארבעה אנשים עומדים במרכז — דוד, לוסיה, שמעון ודב — וכל השאר נמדדים במרחק צעדים מהם."
+    },
+    {
+     "en": "Twelve of them have a face. Every one of those twelve was looked at by eye before it was published, after four documents turned out to have been filed as portraits.",
+     "he": "לשנים-עשר מהם יש פנים. כל אחד מן השנים-עשר נבדק בעין לפני הפרסום, אחרי שהתברר שארבעה מסמכים תויקו כדיוקנאות."
+    }
+   ],
+   "title": 188,
+   "what": {
+    "en": "The family tree",
+    "he": "עץ המשפחה",
+    "pl": "Drzewo genealogiczne",
+    "fr": "L’arbre généalogique"
+   },
+   "finds": {
+    "en": "The curated core: the people this archive can speak about with evidence, arranged so you can see who stood next to whom. Click anyone to open what is known about them.",
+    "he": "הליבה הערוכה: האנשים שעליהם הארכיון יכול לדבר בראיות, מסודרים כך שאפשר לראות מי עמד לצד מי. הקליקו על כל אחד כדי לפתוח את מה שידוע עליו.",
+    "pl": "Rdzeń archiwum: osoby, o których można mówić na podstawie dowodów, ułożone tak, by widać było, kto stał obok kogo.",
+    "fr": "Le noyau de l’archive : les personnes dont on peut parler preuves à l’appui, disposées de façon à voir qui se tenait auprès de qui."
+   }
+  },
+  {
+   "route": "#/people",
+   "key": "people",
+   "count": [
+    {
+     "en": "Berish gained a face, an exact death date confirmed at three independent archives, and the prison at Tarnów on the way to Auschwitz.",
+     "he": "לבריש נוספו פנים, תאריך פטירה מדויק שאושר בשלושה ארכיונים בלתי תלויים, ובית הכלא בטרנוב בדרך לאושוויץ."
+    },
+    {
+     "en": "Lotte has a place of death and a married name — and, in Lusia’s own memoir, the reason she was taken.",
+     "he": "ללוטה יש מקום פטירה ושם נישואין — ובממואר של לוסיה עצמה, גם הסיבה שבגללה נלקחה."
+    }
+   ],
+   "title": 188,
+   "what": {
+    "en": "People, one by one",
+    "he": "אנשים, אחד אחד",
+    "pl": "Ludzie, po kolei",
+    "fr": "Les personnes, une à une"
+   },
+   "finds": {
+    "en": "A page for each person: dates, places, family, and every fact the archive holds with the document it came from beside it. Where sources disagree, both are shown.",
+    "he": "עמוד לכל אדם: תאריכים, מקומות, משפחה, וכל עובדה שהארכיון מחזיק לצד המסמך שממנו באה. היכן שהמקורות חלוקים — שניהם מוצגים.",
+    "pl": "Strona dla każdej osoby: daty, miejsca, rodzina i każdy fakt wraz z dokumentem, z którego pochodzi.",
+    "fr": "Une page par personne : dates, lieux, famille, et chaque fait avec le document dont il provient."
+   }
+  },
+  {
+   "route": "#/explore",
+   "key": "explore",
+   "count": [
+    {
+     "en": "The Griffel tree is how the family finally saw the mother’s side at full size — and six of its names turned out to be on a wartime rescue list.",
+     "he": "עץ גריפל הוא האופן שבו ראתה המשפחה לבסוף את צד האם בגודלו המלא — ושישה משמותיו נמצאו ברשימת הצלה מימי המלחמה."
+    },
+    {
+     "en": "Forty pictures once shown as faces here were documents. They were all checked, one contact sheet per tree, and demoted with the reason kept on the record.",
+     "he": "ארבעים תמונות שהוצגו כאן פעם כפנים היו מסמכים. כולן נבדקו, גיליון מגע לכל עץ, והורדו מדרגתן תוך שמירת הסיבה ברשומה."
+    }
+   ],
+   "title": 1832,
+   "what": {
+    "en": "The wider trees",
+    "he": "העצים הרחבים",
+    "pl": "Szersze drzewa",
+    "fr": "Les arbres élargis"
+   },
+   "finds": {
+    "en": "Two large research trees kept apart from the core: the Rapaport side built by Basia, and the Griffel side — David’s mother’s family — sent by Jacob. Not every line in them is proven, and the page says which is which.",
+    "he": "שני עצי מחקר גדולים המוחזקים בנפרד מן הליבה: צד רפפורט שבנתה בסיה, וצד גריפל — משפחת אמו של דוד — ששלח יעקב. לא כל קו בהם מוכח, והעמוד אומר מה הוא מה.",
+    "pl": "Dwa duże drzewa badawcze trzymane osobno od rdzenia: strona Rapaportów zbudowana przez Basię i strona Grifflów, rodzina matki Dawida, przysłana przez Jakuba.",
+    "fr": "Deux grands arbres de recherche tenus à part du noyau : les Rapaport, construits par Basia, et les Griffel — la famille de la mère de David — envoyés par Jacob."
+   }
+  },
+  {
+   "route": "#/timeline",
+   "key": "timeline",
+   "count": [
+    {
+     "en": "Lusia’s Displaced Persons card is dated 26 December 1945 in Brussels — which moved the whole post-war sequence and put her in Belgium earlier than the family thought.",
+     "he": "כרטיס העקורים של לוסיה מתוארך 26 בדצמבר 1945 בבריסל — דבר שהזיז את כל הרצף שאחרי המלחמה והציב אותה בבלגיה מוקדם מכפי שסברה המשפחה."
+    }
+   ],
+   "title": 45,
+   "what": {
+    "en": "The timeline",
+    "he": "ציר הזמן",
+    "pl": "Oś czasu",
+    "fr": "La chronologie"
+   },
+   "finds": {
+    "en": "Everything that has a date, in order — births, papers, borders crossed, the days that cannot be softened. Useful when you want to know what was happening at the same time somewhere else.",
+    "he": "כל מה שיש לו תאריך, לפי הסדר — לידות, ניירות, גבולות שנחצו, והימים שאי אפשר לרכך. שימושי כשרוצים לדעת מה קרה באותו זמן במקום אחר.",
+    "pl": "Wszystko, co ma datę, po kolei — narodziny, dokumenty, przekroczone granice.",
+    "fr": "Tout ce qui porte une date, dans l’ordre — naissances, papiers, frontières franchies."
+   }
+  },
+  {
+   "route": "#/journey",
+   "key": "journey",
+   "count": [
+    {
+     "en": "Sète, the Theodor Herzl, and Cyprus — the crossing that did not go where it was meant to go.",
+     "he": "סט, ״תיאודור הרצל״ וקפריסין — ההפלגה שלא הגיעה לאן שנועדה להגיע."
+    }
+   ],
+   "title": 13,
+   "what": {
+    "en": "The journey",
+    "he": "המסע",
+    "pl": "Podróż",
+    "fr": "Le voyage"
+   },
+   "finds": {
+    "en": "The route itself, drawn on a map: where they were taken, where they ran, where they waited, and how they finally got to Israel. This is the part that answers \"where exactly\".",
+    "he": "המסלול עצמו, משורטט על מפה: לאן נלקחו, לאן ברחו, היכן המתינו, וכיצד הגיעו לבסוף לישראל. זה החלק שעונה על ״איפה בדיוק״.",
+    "pl": "Sama trasa, narysowana na mapie: dokąd ich zabrano, dokąd uciekali, gdzie czekali i jak w końcu dotarli do Izraela.",
+    "fr": "L’itinéraire lui-même, tracé sur une carte : où ils furent emmenés, où ils ont fui, où ils ont attendu, et comment ils sont enfin arrivés en Israël."
+   }
+  },
+  {
+   "route": "#/memoir",
+   "key": "memoir",
+   "count": [
+    {
+     "en": "Page 40 answers a question the family had carried for eighty years: Lotte bought a forged certificate of American residence for ten thousand dollars, the sellers informed the Gestapo, and she and her husband never came back.",
+     "he": "עמוד 40 עונה על שאלה שהמשפחה נשאה שמונים שנה: לוטה קנתה תעודה מזויפת של תושבות אמריקנית בעשרת אלפים דולר, המוכרים הלשינו לגסטפו, והיא ובעלה לא חזרו עוד."
+    },
+    {
+     "en": "The archive treats it as testimony, not proof — and where no document confirms her, it says so, and says why: the people who kept the records were the people who were killed.",
+     "he": "הארכיון מתייחס אליו כעדות ולא כהוכחה — והיכן ששום מסמך אינו מאשר אותה, הוא אומר זאת, ואומר גם מדוע: מי ששמרו את הרשומות היו אלה שנרצחו."
+    }
+   ],
+   "title": 90,
+   "what": {
+    "en": "Lusia’s memoir",
+    "he": "הממואר של לוסיה",
+    "pl": "Wspomnienia Lusi",
+    "fr": "Les mémoires de Lusia"
+   },
+   "finds": {
+    "en": "In 1986 a granddaughter asked her teacher for help with a school assignment, and the teacher sat down and interviewed Lusia. Ninety pages in Hebrew. Without them almost nothing between 1939 and 1948 would have a voice at all. You can read it here as she wrote it.",
+    "he": "ב-1986 ביקשה נכדה עזרה ממורתה בעבודה לבית הספר, והמורה ישבה וראיינה את לוסיה. תשעים עמודים בעברית. בלעדיהם כמעט לכלום בין 1939 ל-1948 לא היה קול. אפשר לקרוא אותם כאן כפי שנכתבו.",
+    "pl": "W 1986 roku wnuczka poprosiła nauczycielkę o pomoc w szkolnym zadaniu, a ta przeprowadziła z Lusią wywiad. Dziewięćdziesiąt stron po hebrajsku.",
+    "fr": "En 1986, une petite-fille demanda de l’aide à son professeur pour un devoir, et celle-ci interrogea Lusia. Quatre-vingt-dix pages en hébreu."
+   }
+  },
+  {
+   "route": "#/photographs",
+   "key": "photographs",
+   "count": [
+    {
+     "en": "Sixty photographs nobody can identify are published as exactly that. Nothing is captioned with a name that is not certain.",
+     "he": "שישים תצלומים שאיש אינו מזהה מתפרסמים בדיוק ככאלה. שום תמונה אינה נושאת שם שאינו ודאי."
+    },
+    {
+     "en": "Dov did go back — four times. He could not take his mother, so he went and photographed it, and those pictures are here.",
+     "he": "דב אכן חזר לשם — ארבע פעמים. הוא לא יכול היה לקחת את אמו, ולכן נסע וצילם, והתמונות האלה כאן."
+    }
+   ],
+   "title": 195,
+   "what": {
+    "en": "The photographs",
+    "he": "התצלומים",
+    "pl": "Fotografie",
+    "fr": "Les photographies"
+   },
+   "finds": {
+    "en": "The plates printed inside Lusia’s book, the faces nobody has been able to name, and the four journeys Dov made back to those places between 2015 and 2019.",
+    "he": "הלוחות שנדפסו בתוך ספרה של לוסיה, הפנים שאיש לא הצליח לזהות, וארבעת המסעות שערך דב חזרה אל אותם מקומות בין 2015 ל-2019.",
+    "pl": "Plansze wydrukowane w książce Lusi, twarze, których nikt nie potrafi nazwać, oraz cztery podróże Dowa w tamte miejsca w latach 2015-2019.",
+    "fr": "Les planches imprimées dans le livre de Lusia, les visages que nul n’a pu nommer, et les quatre voyages de Dov sur ces lieux entre 2015 et 2019."
+   }
+  },
+  {
+   "route": "#/places",
+   "key": "places",
+   "count": [
+    {
+     "en": "Nadwórna, Bolechów, Stanisławów, Dąbrowa Tarnowska, Lwów, Katowice, Brussels, Sète, Cyprus, Haifa — the addresses are exact where a document gives one.",
+     "he": "נדבורנא, בולחוב, סטניסלבוב, דומברובה טרנובסקה, לבוב, קטוביץ, בריסל, סט, קפריסין, חיפה — הכתובות מדויקות היכן שמסמך נוקב בהן."
+    }
+   ],
+   "title": 49,
+   "what": {
+    "en": "The places",
+    "he": "המקומות",
+    "pl": "Miejsca",
+    "fr": "Les lieux"
+   },
+   "finds": {
+    "en": "Every town, street and camp the family passed through, with what it looked like then and what stands there now.",
+    "he": "כל עיירה, רחוב ומחנה שבהם עברה המשפחה, עם מראם אז ומה שעומד שם היום.",
+    "pl": "Każde miasteczko, ulica i obóz, przez które przeszła rodzina — jak wyglądały wtedy i co stoi tam dziś.",
+    "fr": "Chaque ville, rue et camp traversés par la famille, tels qu’ils étaient alors et ce qui s’y trouve aujourd’hui."
+   }
+  },
+  {
+   "route": "#/documents",
+   "key": "documents",
+   "count": [
+    {
+     "en": "A torn sheet of typing, filed for ten days as a portrait, turned out to be a list of fifteen families addressed care of Dr Jacob Griffel in Bucharest. The Pilecki Institute recognised it at sight as part of the wartime operation to issue foreign passports to Jews. Six of the fifteen are his own brothers and sisters.",
+     "he": "דף מודפס וקרוע, שתויק עשרה ימים כדיוקן, התברר כרשימה של חמש-עשרה משפחות הממוענת לידי ד״ר יעקב גריפל בבוקרשט. מכון פילצקי זיהה אותו מיד כחלק ממבצע הנפקת הדרכונים הזרים ליהודים. שש מן החמש-עשרה הן אחיו ואחיותיו שלו."
+    },
+    {
+     "en": "David is in the printed school lists three years running — which turned an assumption the archive had been making into a record.",
+     "he": "דוד מופיע ברשימות התלמידים המודפסות שלוש שנים ברציפות — דבר שהפך הנחה שהארכיון החזיק בה לרשומה."
+    }
+   ],
+   "title": 137,
+   "what": {
+    "en": "The documents",
+    "he": "המסמכים",
+    "pl": "Dokumenty",
+    "fr": "Les documents"
+   },
+   "finds": {
+    "en": "Every scan, certificate, card and register page the archive holds, each one read and explained in plain language: what it is, what it says, where it came from, and what it proves.",
+    "he": "כל סריקה, תעודה, כרטיס ועמוד פנקס שהארכיון מחזיק, כל אחד נקרא ומוסבר בשפה פשוטה: מה הוא, מה הוא אומר, מאין בא, ומה הוא מוכיח.",
+    "pl": "Każdy skan, świadectwo, karta i strona księgi, każde przeczytane i wyjaśnione prostym językiem: co to jest, co mówi, skąd pochodzi i co dowodzi.",
+    "fr": "Chaque scan, certificat, fiche et page de registre, lu et expliqué simplement : ce que c’est, ce qu’il dit, d’où il vient et ce qu’il prouve."
+   }
+  },
+  {
+   "route": "#/press",
+   "key": "press",
+   "count": [
+    {
+     "en": "Berish Rapaport appears twice by name: in 1912 he is given the signature of a Griffel firm, and in 1913 the drilling journal reports a new company called \"Griffel jun. et Rappaport\".",
+     "he": "בריש רפפורט מופיע פעמיים בשמו: ב-1912 ניתנת לו זכות החתימה בפירמת גריפל, וב-1913 מדווח כתב העת לקידוחים על חברה חדשה בשם ״גריפל הבן ורפפורט״."
+    },
+    {
+     "en": "Three engagement notices name the brides — Freilich, Ajchenbaum of Lublin, and Rega Fortgang — and all three surnames appear on the wartime rescue list.",
+     "he": "שלוש הודעות אירוסין נוקבות בשמות הכלות — פריילִיך, אייכנבאום מלובלין, ורגה פורטגנג — ושלושת השמות מופיעים ברשימת ההצלה מימי המלחמה."
+    },
+    {
+     "en": "And the crash of 1930, printed unsoftened: widows and orphans who trusted the firm more than the banks, and a man who died in a Kraków prison.",
+     "he": "והקריסה של 1930, מודפסת בלי ריכוך: אלמנות ויתומים שבטחו בפירמה יותר מאשר בבנקים, ואיש שמת בבית כלא בקרקוב."
+    }
+   ],
+   "title": 142,
+   "what": {
+    "en": "In the papers",
+    "he": "בעיתונים",
+    "pl": "W prasie",
+    "fr": "Dans la presse"
+   },
+   "finds": {
+    "en": "Eighty years of the family as the Galician newspapers reported them, translated in full with the Polish or German original one click below each one. This is where they stop being dates and become people with a reputation in a town.",
+    "he": "שמונים שנה של המשפחה כפי שדיווחו עליה עיתוני גליציה, מתורגמות במלואן עם המקור הפולני או הגרמני במרחק הקלקה מתחת לכל אחת. כאן הם חדלים להיות תאריכים והופכים לאנשים בעלי שם בעיירה.",
+    "pl": "Osiemdziesiąt lat rodziny w prasie galicyjskiej, przetłumaczone w całości, z oryginałem tuż pod spodem.",
+    "fr": "Quatre-vingts ans de la famille dans la presse galicienne, traduits intégralement, l’original juste en dessous."
+   }
+  },
+  {
+   "route": "#/research",
+   "key": "research",
+   "count": [
+    {
+     "en": "The people who did it: Dalia, Dana, Daniel and Doron, with Basia, Magda, Kasia and Ms Kasia of the Jewish Historical Institute in Warsaw.",
+     "he": "האנשים שעשו זאת: דליה, דנה, דניאל ודורון, עם בסיה, מגדה, קטיה והגב׳ קטיה מן המכון ההיסטורי היהודי בוורשה."
+    }
+   ],
+   "title": 14,
+   "what": {
+    "en": "The research centre",
+    "he": "מרכז המחקר",
+    "pl": "Centrum badań",
+    "fr": "Le centre de recherche"
+   },
+   "finds": {
+    "en": "How all of this was actually found — which archive answered, which refused, what was paid for, what took months. Including the times the archive was wrong about itself and had to correct the record.",
+    "he": "כיצד נמצא כל זה בפועל — איזה ארכיון ענה, איזה סירב, על מה שולם, מה ארך חודשים. כולל הפעמים שבהן טעה הארכיון לגבי עצמו ונאלץ לתקן את הרשומה.",
+    "pl": "Jak to wszystko naprawdę znaleziono — które archiwum odpowiedziało, które odmówiło, co trwało miesiącami.",
+    "fr": "Comment tout cela a réellement été trouvé — quelles archives ont répondu, lesquelles ont refusé, ce qui a pris des mois."
+   }
+  },
+  {
+   "route": "#/hypotheses",
+   "key": "hypotheses",
+   "count": [
+    {
+     "en": "Answered this month: when Rabbi Szabse Rapaport died, and what happened to Lotte.",
+     "he": "נענו החודש: מתי נפטר הרב שבסה רפפורט, ומה עלה בגורלה של לוטה."
+    },
+    {
+     "en": "Still open: why both post-war cards give the wrong birthplace, and where Ozjasz Henryk Griffel was in 1941.",
+     "he": "עדיין פתוח: מדוע שני כרטיסי שאחרי המלחמה נוקבים במקום לידה שגוי, והיכן היה אושיאס הנריק גריפל ב-1941."
+    }
+   ],
+   "title": 24,
+   "what": {
+    "en": "What is still open",
+    "he": "מה עדיין פתוח",
+    "pl": "Co pozostaje otwarte",
+    "fr": "Ce qui reste ouvert"
+   },
+   "finds": {
+    "en": "The questions nobody can answer yet, kept in plain sight instead of tidied away — and the ones that have been answered, with what answered them. An archive that hides its gaps cannot be trusted about anything else.",
+    "he": "השאלות שאיש אינו יכול לענות עליהן עדיין, מוצגות לעין ולא מוסתרות — ולצדן אלה שנענו, ומה שענה עליהן. ארכיון המסתיר את חוריו אינו ראוי לאמון בשום דבר אחר.",
+    "pl": "Pytania, na które nikt jeszcze nie potrafi odpowiedzieć, trzymane na widoku — oraz te, na które już odpowiedziano.",
+    "fr": "Les questions auxquelles nul ne peut encore répondre, laissées bien en vue — et celles qui ont trouvé réponse."
+   }
+  },
+  {
+   "route": "#/chat",
+   "key": "chat",
+   "count": [
+    {
+     "en": "This is where Basia writes that she cannot build a Weinreb tree, because the records of Dolina are gone — a blank with a reason, which is worth more than a guess.",
+     "he": "כאן כותבת בסיה שאין ביכולתה לבנות עץ ויינרב, מפני שרשומות דולינה אבדו — חֶסֶר שיש לו סיבה, ששווה יותר מניחוש."
+    }
+   ],
+   "title": 863,
+   "what": {
+    "en": "The research chat",
+    "he": "צ׳אט המחקר",
+    "pl": "Czat badawczy",
+    "fr": "La conversation de recherche"
+   },
+   "finds": {
+    "en": "The actual conversation, as it happened, between the family and the researchers in Poland — the false starts, the corrections, the days something arrived. It reads like the search felt.",
+    "he": "השיחה עצמה, כפי שהתרחשה, בין המשפחה לחוקרות בפולין — ההתחלות השגויות, התיקונים, והימים שבהם הגיע משהו. היא נקראת כפי שהרגיש החיפוש.",
+    "pl": "Rzeczywista rozmowa między rodziną a badaczkami w Polsce — falstarty, poprawki i dni, w których coś przyszło.",
+    "fr": "La conversation réelle entre la famille et les chercheuses en Pologne — les fausses pistes, les corrections, et les jours où quelque chose arrivait."
+   }
+  }
+ ]
+}

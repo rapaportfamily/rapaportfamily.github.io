@@ -13,6 +13,7 @@ const State = {
     documents: [],
     hypotheses: [],
     press: [],
+    overview: null,
     messages: [],
   },
   byId: {
@@ -31,7 +32,7 @@ async function loadAll() {
   // Cache-bust on every load - data files update frequently
   const v = Date.now();
   const noCache = { cache: 'no-store' };
-  const [en, he, pl, fr, people, places, events, documents, hypotheses, messages, research, press] = await Promise.all([
+  const [en, he, pl, fr, people, places, events, documents, hypotheses, messages, research, press, overview] = await Promise.all([
     fetch(`data/i18n/en.json?v=${v}`, noCache).then(r => r.json()),
     fetch(`data/i18n/he.json?v=${v}`, noCache).then(r => r.json()),
     fetch(`data/i18n/pl.json?v=${v}`, noCache).then(r => r.json()),
@@ -46,6 +47,9 @@ async function loadAll() {
     fetch(`data/griffel_press.json?v=${v}`, noCache)
       .then(r => r.ok ? r.json() : { notices: [] })
       .catch(() => ({ notices: [] })),
+    fetch(`data/overview.json?v=${v}`, noCache)
+      .then(r => r.ok ? r.json() : null)
+      .catch(() => null),
   ]);
   State.i18n = { en, he, pl, fr };
   State.data.people = people.people;
@@ -55,6 +59,7 @@ async function loadAll() {
   State.data.additional_files = documents.additional_files || [];
   State.data.hypotheses = hypotheses.hypotheses;
   State.data.press = (press && press.notices) || [];
+  State.data.overview = overview;
   State.data.messages = messages.messages || messages;
   State.data.research = research;
 
@@ -176,6 +181,7 @@ function router() {
     case 'documents': renderDocuments(root, param); break;
     case 'hypotheses': renderHypotheses(root); break;
     case 'press': renderPress(root); break;
+    case 'start': renderOverview(root); break;
     case 'chat': renderChat(root); break;
     case 'research': renderResearch(root, param); break;
     case 'photographs': renderPhotographs(root); break;
@@ -2240,6 +2246,50 @@ function statusLabel(s) {
 // Eighty years of the Griffels in the Galician papers, 1866-1946, as Basia found them.
 // Every notice carries its own original underneath, because a translation nobody can check
 // against the source is just somebody's word for it.
+// ── Start here ──────────────────────────────────────────────────────────
+// The page Doron asked for: why this exists, then every section of the site with what it
+// holds and what was found in it, each one a way straight in. The numbers come from
+// data/overview.json, which is regenerated from the live data, so they cannot drift.
+function renderOverview(root) {
+  const o = State.data.overview;
+  if (!o) {
+    root.innerHTML = `<p class="muted">${escapeHtml(t('start.empty'))}</p>`;
+    return;
+  }
+  const finds = (list) => !list || !list.length ? '' : `
+    <ul class="ov-finds">
+      ${list.map(f => `<li>${escapeHtml(ml(f))}</li>`).join('')}
+    </ul>`;
+
+  root.innerHTML = `
+    <section class="ov-hero">
+      <h1 class="ov-hero-title">${escapeHtml(ml(o.intro.title))}</h1>
+      <div class="ov-hero-body" dir="auto">${ml(o.intro.body).split('\n\n')
+        .map(p => `<p>${escapeHtml(p)}</p>`).join('')}</div>
+      <p class="ov-stats">${escapeHtml(ml(o.intro.stat_line))}</p>
+    </section>
+
+    <h2 class="ov-index-title">${escapeHtml(t('start.index'))}</h2>
+
+    <div class="ov-grid">
+      ${o.sections.map(sec => `
+        <article class="ov-card">
+          <div class="ov-card-head">
+            <h3>${escapeHtml(ml(sec.title))}</h3>
+            ${sec.count ? `<span class="ov-count">${escapeHtml(String(sec.count))}</span>` : ''}
+          </div>
+          <p class="ov-what" dir="auto">${escapeHtml(ml(sec.what))}</p>
+          ${sec.finds && sec.finds.length ? `
+            <div class="ov-finds-label">${escapeHtml(t('start.found_here'))}</div>
+            ${finds(sec.finds)}` : ''}
+          <a class="ov-go" href="${escapeHtml(sec.route)}" data-link>
+            ${escapeHtml(t('start.open'))} ${escapeHtml(ml(sec.title))} →</a>
+        </article>`).join('')}
+    </div>
+
+    <p class="ov-closing" dir="auto">${escapeHtml(ml(o.closing))}</p>`;
+}
+
 function renderPress(root) {
   const items = State.data.press || [];
   if (!items.length) {
