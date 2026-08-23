@@ -10085,7 +10085,7 @@
    "lang": "en",
    "author_normalized": "Basia",
    "pasted_by_doron": true,
-   "note": "Sent on WhatsApp and pasted into the archive by Doron; not part of the _chat.txt export of 2 August 2026."
+   "note": "Sent on WhatsApp and pasted into the archive by Doron. This is how the chat is normally kept current — he copies the messages across rather than re-exporting and downloading the entire WhatsApp history each time."
   },
   {
    "timestamp": "2026-08-19T21:54:00",
@@ -10098,7 +10098,7 @@
    "lang": "en",
    "author_normalized": "Basia",
    "pasted_by_doron": true,
-   "note": "Sent on WhatsApp and pasted into the archive by Doron; not part of the _chat.txt export of 2 August 2026."
+   "note": "Sent on WhatsApp and pasted into the archive by Doron. This is how the chat is normally kept current — he copies the messages across rather than re-exporting and downloading the entire WhatsApp history each time."
   },
   {
    "timestamp": "2026-08-20T11:06:00",
@@ -10111,7 +10111,7 @@
    "lang": "en",
    "author_normalized": "Basia",
    "pasted_by_doron": true,
-   "note": "Sent on WhatsApp and pasted into the archive by Doron; not part of the _chat.txt export of 2 August 2026."
+   "note": "Sent on WhatsApp and pasted into the archive by Doron. This is how the chat is normally kept current — he copies the messages across rather than re-exporting and downloading the entire WhatsApp history each time."
   },
   {
    "timestamp": "2026-08-20T11:13:00",
@@ -10124,7 +10124,7 @@
    "lang": "en",
    "author_normalized": "Basia",
    "pasted_by_doron": true,
-   "note": "Sent on WhatsApp and pasted into the archive by Doron; not part of the _chat.txt export of 2 August 2026."
+   "note": "Sent on WhatsApp and pasted into the archive by Doron. This is how the chat is normally kept current — he copies the messages across rather than re-exporting and downloading the entire WhatsApp history each time."
   },
   {
    "timestamp": "2026-08-23T10:50:00",
@@ -10137,7 +10137,7 @@
    "lang": "en",
    "author_normalized": "Basia",
    "pasted_by_doron": true,
-   "note": "Sent on WhatsApp and pasted into the archive by Doron; not part of the _chat.txt export of 2 August 2026."
+   "note": "Sent on WhatsApp and pasted into the archive by Doron. This is how the chat is normally kept current — he copies the messages across rather than re-exporting and downloading the entire WhatsApp history each time."
   },
   {
    "timestamp": "2026-08-23T11:00:00",
@@ -10150,7 +10150,7 @@
    "lang": "en",
    "author_normalized": "Basia",
    "pasted_by_doron": true,
-   "note": "Sent on WhatsApp and pasted into the archive by Doron; not part of the _chat.txt export of 2 August 2026."
+   "note": "Sent on WhatsApp and pasted into the archive by Doron. This is how the chat is normally kept current — he copies the messages across rather than re-exporting and downloading the entire WhatsApp history each time."
   },
   {
    "timestamp": "2026-08-23T11:05:00",
@@ -10163,7 +10163,7 @@
    "lang": "en",
    "author_normalized": "Basia",
    "pasted_by_doron": true,
-   "note": "Sent on WhatsApp and pasted into the archive by Doron; not part of the _chat.txt export of 2 August 2026."
+   "note": "Sent on WhatsApp and pasted into the archive by Doron. This is how the chat is normally kept current — he copies the messages across rather than re-exporting and downloading the entire WhatsApp history each time."
   },
   {
    "timestamp": "2026-08-23T11:12:00",
@@ -10176,11 +10176,12 @@
    "lang": "en",
    "author_normalized": "Doron",
    "pasted_by_doron": true,
-   "note": "Sent on WhatsApp and pasted into the archive by Doron; not part of the _chat.txt export of 2 August 2026."
+   "note": "Sent on WhatsApp and pasted into the archive by Doron. This is how the chat is normally kept current — he copies the messages across rather than re-exporting and downloading the entire WhatsApp history each time."
   }
  ],
  "sources": [
-  "_chat.txt, WhatsApp export parsed 2 August 2026 (855 messages)",
-  "Messages pasted into the archive by Doron, 19-23 August 2026 (8 messages) — marked pasted_by_doron"
- ]
+  "_chat.txt — a full WhatsApp export, parsed 2 August 2026 (855 messages). A full export is a heavy download and is only done occasionally.",
+  "Messages copied across by Doron as they arrive (8 so far, marked pasted_by_doron). This is the normal way the chat is kept current between exports; a gap between the last exported date and today is not a gap in the record."
+ ],
+ "_note_on_dates": "The last exported message and the last pasted message will usually have different dates. That is the method working, not the file falling behind."
 }
