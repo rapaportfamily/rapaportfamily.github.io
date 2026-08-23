@@ -34,7 +34,8 @@
   "journey": "Podróż",
   "story": "Historia",
   "photographs": "Fotografie",
-  "explore": "Szersze drzewo"
+  "explore": "Szersze drzewo",
+  "press": "W prasie"
  },
  "ui": {
   "language": "Język",
@@ -310,5 +311,16 @@
   "tree_rapaport": "Rapaport — strona ojca (Basia)",
   "tree_griffel": "Griffel — strona matki (Jakub)",
   "tree_note": "Dwoje badaczy, dwa pliki, trzymane osobno, byś zawsze wiedział, czyje to słowa."
+ },
+ "press": {
+  "title": "W prasie, 1866-1946",
+  "lead": "Osiemdziesiąt lat rodziny Grifflów w prasie galicyjskiej — sklep, nafta, drewno, krach, proces i ostatni tartak przejęty w 1946 roku.",
+  "note": "Matką Dawida Rapaporta była Rebeka Griffel. Te 142 notatki towarzyszą domowi jej ojca od datku wojennego w wysokości pięćdziesięciu centów w 1866 roku po zarządzenie o upaństwowieniu w 1946. Występuje tu również Berisz Rapaport, ojciec Dawida: w 1912 roku z prokurą firmy Griffel, a rok później jako połowa spółki wiertniczej „Griffel jun. et Rappaport”. Odnalazła i przepisała Basia; przetłumaczono dla tego archiwum z polskiego i niemieckiego. Oryginał znajduje się pod każdą notatką.",
+  "show_original": "Pokaż oryginał",
+  "page": "strona",
+  "filter": "Wpisz nazwisko, miejsce lub rok",
+  "items": "notatek",
+  "download": "Pobierz cały plik prasowy tak, jak przysłała go Basia (PDF, 128 stron)",
+  "empty": "Plik prasowy nie został wczytany."
  }
 }

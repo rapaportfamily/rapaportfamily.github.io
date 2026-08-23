@@ -123,6 +123,7 @@ So the archive did it for him.
 | `09-research-story.md` | Who found what, and how — including where we were wrong |
 | `10-film-brief.md` | The film brief |
 | `11-film-highlights.md` | **What is new and must not be missed** — read this first |
+| `12-press.md` | Eighty years of the family in the Galician newspapers, 1866-1946 |
 | `99-EVERYTHING.md` | All of the above in one file |
 | `RAPAPORT-FILM-PACK.pdf` | **The one to upload to a film tool** — the text AND the pictures, 60 pages |
 
@@ -391,6 +392,31 @@ buf.append('\nBasia has finished and proofread the WEITZNER family \u2014 Lusia\
            'should not state anything about the American Weitzners beyond the fact that the '
            'research exists.\n')
 files['11-film-highlights.md'] = ''.join(buf)
+
+# ── 12 the press file ───────────────────
+press = load('griffel_press.json') or {}
+notices = press.get('notices') or []
+if notices:
+    buf = ['# THE FAMILY IN THE NEWSPAPERS, 1866-1946\n',
+           '\n', press.get('why_it_matters', ''), '\n',
+           '\n%d notices from 128 pages of Polish and German press, located and transcribed by '
+           'Basia and translated in full for this archive. Each one below gives the year, the '
+           'paper it appeared in, and what it says. The Polish or German original of every one, '
+           'and the Hebrew, are on the site at %s#/press\n' % (len(notices), BASE),
+           '\nThis is where the family stops being a list of dates and becomes people with a '
+           'reputation in a town. Quote it freely; every line traces to a named newspaper and '
+           'issue.\n']
+    decade = None
+    for n in notices:
+        d = (n['year'] // 10) * 10
+        if d != decade:
+            decade = d
+            buf.append('\n\n## %ds\n' % d)
+        buf.append('\n**%s — %s**  \n' % (n.get('date') or n['year'], n.get('source', '')))
+        buf.append('%s\n' % (n.get('en') or ''))
+        if n.get('tags'):
+            buf.append('*%s*\n' % ' · '.join(n['tags']))
+    files['12-press.md'] = ''.join(buf)
 
 # ── 10 film brief (copied from the site's own brief) ────────────────────
 brief_path = os.path.join(SITE, 'docs', 'FILM_BRIEF.md')

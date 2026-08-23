@@ -1,4 +1,4 @@
-# The documents (135)
+# The documents (137)
 
 Each entry says what the document is, what it tells us, who it concerns, and where the scan is. A film should name and explain every document it shows.
 
@@ -1634,6 +1634,17 @@ Photograph of Zwi Ayalon (born Nussbaum) — David Memek's paternal first cousin
 Four albums, 121 frames, 120 published. They are not holidays. Przemyśl is where Berish and Rebeka were when the war came — the camp register gives it as Berish’s residence, and the memoir says the Germans killed one of his parents there. Brussels is where Dov was born in 1946. Katowice is the town of the separation in chapter 5. Warsaw is the city that was flattened and rebuilt. Dov walked and drove them with his son and photographed what he saw. Every frame was looked at before publishing; one was left out, a hotel lavatory, and saying which is part of the check.
 
 
+## The Griffels in the Galician press, 1866-1946 — 128 pages, 142 notices
+
+- Type: press_collection
+- Source: Basia — located, transcribed and compiled by her from Gazeta Lwowska, Chwila, Kurier Stanisławowski, Nowy Dziennik, Nasz Głos, Przegląd Drzewny and some thirty other titles; sent 23 August 2026. Translated into English and Hebrew for this archive.
+- People: David (Memek) Rapaport, Berisz / Bernard / Dov Rapaport, Dr Jacob Griffel
+- Scan: https://rapaportfamily.github.io/assets/documents/basia_2026_08_20/griffel_press_notices_1866_1946.pdf
+- What it records: span = 1866-1946, eighty years; notices = 142, every one translated in full into English and Hebrew with the Polish or German original beside it; read_on_the_site = https://rapaportfamily.github.io/#/press; earliest = Gazeta Lwowska, 31 July 1866 — Griffel Benjamin, Griffel Chaim Samuel and Griffel Taube of Nadwórna give to the Israelite Patriotic Central Committee’s war fund during the Austro-Prussian War; latest = Rzeszów voivodeship gazette, 21 November 1946 — the steam sawmill and box factory at Zarszyn, belonging to Zygmunt Griffel of Lwów, passes to the communist state; our_own_line = Berish Rapaport appears twice: in the register entry of 31 October 1912 he is given procuration in the Griffel-Schwarz ironworks lease at Pasieczna, and in June 1913 the drilling journal Ropa reports a new oil company at Pasieczna called "Griffel jun. et Rappaport"; the_four_brothers = The trial reports of 1935 name Eisig Chaim Griffel’s sons and their jobs: Szulim in the Stanisławów head office, JAKÓB running the Korneuburg refinery in Austria, Mendel on the technical side, Ozjasz Henryk in his father’s office. That is the sibling group on the wartime rescue list.; the_three_engagements = Chwila announces Jakób Griffel to Fela FREILICH (1924), Mendel Griffel to Lucja AJCHENBAUM of Lublin (1925), and Szalom Griffel to Rega FORTGANG (1926) — all three surnames appear on the rescue list, and Rega answers the "Regi…" torn off its right edge.
+
+Basia wrote that while researching Muszyna she came across an unprecedented number of press sources, and that the local papers described the Griffels’ ups and downs much as papers describe celebrities now — so that in the articles you can catch glimpses of their personalities, which is rare. She is right. Eighty years of them: Taube Griffel’s spice, haberdashery and iron shop at Nadwórna registered in 1882 with power of attorney to her son Leizor; the credit cooperative of 1890; Leizor on the jury list of 1892; the first petroleum refinery at Nadwórna in 1900; the sawmill; the ironworks lease at Pasieczna in 1912 where Berish Rapaport is given the signature; the great fire of 1907 with Leizor collecting for the homeless; the 2,500 wagons a year and the exports as far as China; the refinery fire of 1923; Eisig Chaim elected fifth to the Stanisławów kahal board in 1924 with 2,175 votes; three sons’ engagements announced by their own clerks; the strike of 1926; the anonymous letter with a skull; and then July 1930, when it all came down — eleven million złoty of debt, widows and orphans who had trusted the firm more than the banks, the family leaving town days before the filing, Eisig Chaim dead in a Kraków prison that October, a five-year composition in which the administrators collected over a million and a half and the creditors got about a hundred thousand, workers unpaid for twenty-three months, two brothers beaten in the street outside the courthouse, and an acquittal in February 1936. And alongside all of it the other brother’s house holding: Zygmunt Griffel of Lwów, 60,000 tonnes of timber to England in one year, orange crates to Palestine, boycott sheets naming him as a Jew not to be traded with, ten thousand złoty given to Poland’s air-defence loan in March 1939, and the state taking his sawmill in 1946.
+
+
 ## Polish press 1912 — Krynica guest register listing Regina Rapaport
 
 - Type: press_record
@@ -1742,6 +1753,21 @@ The state answering. Six weeks after the aid society asked, the Ministry of Just
 - Scan: https://rapaportfamily.github.io/assets/documents/basia_2026_08/david_gimnazjum_stanislawow_1926.gif
 
 Sprawozdanie Dyrekcji I. Gimnazjum Państwowego im. M. Romanowskiego w Stanisławowie za rok szkolny 1927/28 — the annual report of the First State Gymnasium named for Mieczysław Romanowski, printed in Stanisławów in 1928 by Leon Dankiewicz, the same printer whose name sits at the foot of Berish’s 1924 certificate. It marks the school’s bicentenary, 1728–1928. This is where David was a pupil: the family had been in Stanisławów since 1918 and lived at Kościuszki 4. One of the three files Basia sent is labelled nieukończone — unfinished — and the archive repeats that label rather than guessing what it refers to.
+
+
+## David in the school register — printed student lists of the First State Gymnasium, Stanisławów, 1925/26 to 1928/29
+
+- Type: school_record
+- Source: Basia, 23 August 2026 — annual reports of the First State Gymnasium named for M. Romanowski, Stanisławów
+- People: David (Memek) Rapaport
+- Scan: https://rapaportfamily.github.io/assets/documents/basia_2026_08_20/gimnazjum_student_list_1925_26.png
+- Scan: https://rapaportfamily.github.io/assets/documents/basia_2026_08_20/gimnazjum_student_list_1926_27.png
+- Scan: https://rapaportfamily.github.io/assets/documents/basia_2026_08_20/gimnazjum_student_list_1927_28.png
+- What it records: 1925_26 = KLASA IV (39), group D — "Rapaport Dawid".; 1926_27 = KLASA IVa (29), group a — "Rapaport MENDEL DAWID", under both his given names.; 1927_28 = KLASA Vb (27), group d — "Rapaport Dawid".; 1928_29 = Not present. Basia’s covering note reads "Dawid Rapaport is not on the list of students", and it follows the 1928/29 heading.; also_on_these_pages = KLASA V of 1926/27 carries "Finder false Rapaport Chaim" and KLASA VI of 1927/28 "Finder f. Rapaport Chaim" — a different person, recorded here so nobody later mistakes him for ours.
+
+Since 6 August this archive has said that the First State Gymnasium in Stanisławów is "where David was a pupil". It held the school’s annual reports, but not the student lists, so the statement was an inference. The lists are now here, and they carry his name three years running: Klasa IV in 1925/26, Klasa IVa in 1926/27 written out as "Rapaport Mendel Dawid", and Klasa Vb in 1927/28. He was born on 25 December 1911, so that is ages thirteen to sixteen. What was an assumption is now a printed record.
+
+He is not on the 1928/29 list, and that is what Basia’s note refers to. Why he left after Klasa V — a change of school, a move, the family’s circumstances, or something else — no source here says. It is written down as a question rather than guessed at, and Basia has been asked to confirm that the sentence was meant about that one year.
 
 
 ## Jenta Rapaport registered at Rue Lairesse 88, Liège, during the war

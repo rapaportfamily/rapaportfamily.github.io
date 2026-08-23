@@ -4788,6 +4788,78 @@
     "he": "נאמר בידי בסיה ב-20 באוגוסט 2026, והדבר משנה את אופן הקריאה של כל לוח ששלחה: בגיליונות רוזנשטיין היא מסמנת בוורוד אך ורק את הרכיבים התואמים לרשומות שאימתה. לכן היא לא סימנה את תאריך פטירתו של שבתאי — היא השמיטה את 1897 במתכוון, מפני שאינה מקבלת אותו. רכיב לא מסומן באחד הלוחות שלה אינו דבר שנעלם מעיניה. זהו דבר שהיא נמנעת מלאשר."
    },
    "status": "read"
+  },
+  {
+   "id": "doc_griffel_press_1866_1946",
+   "file_pages": [
+    "basia_2026_08_20/griffel_press_notices_1866_1946.pdf"
+   ],
+   "kind": "pdf",
+   "type": "press_collection",
+   "primary_language": "pl",
+   "film_priority": "high",
+   "film_note": "This is where the family stops being a list of dates and becomes people with a reputation. Use the 1866 war donation, the 1907 fire, the 1930 crash and the 1946 nationalisation. And use the small human ones: the anonymous letter with a skull, the stolen brooch, the merchant who caught a post-office thief himself.",
+   "title": {
+    "en": "The Griffels in the Galician press, 1866-1946 — 128 pages, 142 notices",
+    "he": "הגריפלים בעיתונות הגליצאית, 1866—1946 — 128 עמודים, 142 ידיעות",
+    "pl": "Grifflowie w prasie galicyjskiej, 1866-1946 — 128 stron, 142 notatki",
+    "fr": "Les Griffel dans la presse galicienne, 1866-1946 — 128 pages, 142 notices"
+   },
+   "source_archive": "Basia — located, transcribed and compiled by her from Gazeta Lwowska, Chwila, Kurier Stanisławowski, Nowy Dziennik, Nasz Głos, Przegląd Drzewny and some thirty other titles; sent 23 August 2026. Translated into English and Hebrew for this archive.",
+   "related_people": [
+    "p_david",
+    "p_berisz",
+    "p_dr_jacob_griffel"
+   ],
+   "decoded_fields": {
+    "span": "1866-1946, eighty years",
+    "notices": "142, every one translated in full into English and Hebrew with the Polish or German original beside it",
+    "read_on_the_site": "https://rapaportfamily.github.io/#/press",
+    "earliest": "Gazeta Lwowska, 31 July 1866 — Griffel Benjamin, Griffel Chaim Samuel and Griffel Taube of Nadwórna give to the Israelite Patriotic Central Committee’s war fund during the Austro-Prussian War",
+    "latest": "Rzeszów voivodeship gazette, 21 November 1946 — the steam sawmill and box factory at Zarszyn, belonging to Zygmunt Griffel of Lwów, passes to the communist state",
+    "our_own_line": "Berish Rapaport appears twice: in the register entry of 31 October 1912 he is given procuration in the Griffel-Schwarz ironworks lease at Pasieczna, and in June 1913 the drilling journal Ropa reports a new oil company at Pasieczna called \"Griffel jun. et Rappaport\"",
+    "the_four_brothers": "The trial reports of 1935 name Eisig Chaim Griffel’s sons and their jobs: Szulim in the Stanisławów head office, JAKÓB running the Korneuburg refinery in Austria, Mendel on the technical side, Ozjasz Henryk in his father’s office. That is the sibling group on the wartime rescue list.",
+    "the_three_engagements": "Chwila announces Jakób Griffel to Fela FREILICH (1924), Mendel Griffel to Lucja AJCHENBAUM of Lublin (1925), and Szalom Griffel to Rega FORTGANG (1926) — all three surnames appear on the rescue list, and Rega answers the \"Regi…\" torn off its right edge."
+   },
+   "summary": {
+    "en": "Basia wrote that while researching Muszyna she came across an unprecedented number of press sources, and that the local papers described the Griffels’ ups and downs much as papers describe celebrities now — so that in the articles you can catch glimpses of their personalities, which is rare. She is right. Eighty years of them: Taube Griffel’s spice, haberdashery and iron shop at Nadwórna registered in 1882 with power of attorney to her son Leizor; the credit cooperative of 1890; Leizor on the jury list of 1892; the first petroleum refinery at Nadwórna in 1900; the sawmill; the ironworks lease at Pasieczna in 1912 where Berish Rapaport is given the signature; the great fire of 1907 with Leizor collecting for the homeless; the 2,500 wagons a year and the exports as far as China; the refinery fire of 1923; Eisig Chaim elected fifth to the Stanisławów kahal board in 1924 with 2,175 votes; three sons’ engagements announced by their own clerks; the strike of 1926; the anonymous letter with a skull; and then July 1930, when it all came down — eleven million złoty of debt, widows and orphans who had trusted the firm more than the banks, the family leaving town days before the filing, Eisig Chaim dead in a Kraków prison that October, a five-year composition in which the administrators collected over a million and a half and the creditors got about a hundred thousand, workers unpaid for twenty-three months, two brothers beaten in the street outside the courthouse, and an acquittal in February 1936. And alongside all of it the other brother’s house holding: Zygmunt Griffel of Lwów, 60,000 tonnes of timber to England in one year, orange crates to Palestine, boycott sheets naming him as a Jew not to be traded with, ten thousand złoty given to Poland’s air-defence loan in March 1939, and the state taking his sawmill in 1946.",
+    "he": "בסיה כתבה שבמהלך המחקר על מושינה נתקלה במספר חסר תקדים של מקורות עיתונות, ושהעיתונות המקומית תיארה את עליותיהם ומורדותיהם של הגריפלים כפי שמתארים היום סלבריטאים — כך שבכתבות אפשר לתפוס הצצות אל אישיותם, וזה נדיר. היא צודקת. שמונים שנה שלהם: חנות התבלינים, הסדקית והברזל של טאובה גריפל בנדבורנא שנרשמה ב-1882 עם ייפוי כוח לבנה לייזור; אגודת האשראי מ-1890; לייזור ברשימת המושבעים ב-1892; בית הזיקוק הראשון לנפט ב-1900; המנסרה; חכירת בית היציקה בפסייצ׳נה ב-1912, שם ניתנת זכות החתימה לבריש רפפורט; השרפה הגדולה של 1907; 2,500 קרונות בשנה וייצוא עד סין; שרפת בית הזיקוק ב-1923; אייזיג חיים שנבחר חמישי לוועד הקהילה ב-1924 עם 2,175 קולות; שלושה אירוסים שהודיעו עליהם פקידיו; השביתה של 1926; המכתב האנונימי עם הגולגולת; ואז יולי 1930, כשהכול קרס — אחד עשר מיליון זהובים של חוב, אלמנות ויתומים שבטחו בפירמה יותר מאשר בבנקים, המשפחה שעזבה את העיר ימים לפני הגשת הבקשה, אייזיג חיים שמת בבית כלא בקרקוב באוקטובר, חמש שנות פשרה שבהן גבו המנהלים למעלה ממיליון וחצי והנושים קיבלו כמאה אלף, עובדים שלא קיבלו שכר עשרים ושלושה חודשים, שני אחים שהוכו ברחוב מול בית המשפט, וזיכוי בפברואר 1936. ולצד כל זה ביתו של האח האחר שעמד: זיגמונט גריפל מלבוב, 60,000 טונות עץ לאנגליה בשנה אחת, ארגזי תפוזים לפלשתינה, עלוני חרם הנוקבים בשמו כיהודי שאין לסחור עמו, עשרת אלפים זהובים להלוואת ההגנה האווירית של פולין במרס 1939, והמדינה שנטלה את מנסרתו ב-1946."
+   },
+   "status": "read"
+  },
+  {
+   "id": "doc_david_gimnazjum_student_lists",
+   "file_pages": [
+    "basia_2026_08_20/gimnazjum_student_list_1925_26.png",
+    "basia_2026_08_20/gimnazjum_student_list_1926_27.png",
+    "basia_2026_08_20/gimnazjum_student_list_1927_28.png"
+   ],
+   "kind": "image",
+   "type": "school_record",
+   "primary_language": "pl",
+   "film_priority": "medium",
+   "title": {
+    "en": "David in the school register — printed student lists of the First State Gymnasium, Stanisławów, 1925/26 to 1928/29",
+    "he": "דוד ברשימת התלמידים — רשימות התלמידים המודפסות של הגימנסיה הממלכתית הראשונה, סטניסלבוב, 1925/26 עד 1928/29",
+    "pl": "Dawid w wykazie uczniów — Sprawozdania Dyrekcji I. Gimnazjum Państwowego im. M. Romanowskiego w Stanisławowie, 1925/26-1928/29",
+    "fr": "David dans le registre scolaire — listes d’élèves du 1er Gymnase d’État, Stanisławów, 1925/26 à 1928/29"
+   },
+   "source_archive": "Basia, 23 August 2026 — annual reports of the First State Gymnasium named for M. Romanowski, Stanisławów",
+   "related_people": [
+    "p_david"
+   ],
+   "decoded_fields": {
+    "1925_26": "KLASA IV (39), group D — \"Rapaport Dawid\".",
+    "1926_27": "KLASA IVa (29), group a — \"Rapaport MENDEL DAWID\", under both his given names.",
+    "1927_28": "KLASA Vb (27), group d — \"Rapaport Dawid\".",
+    "1928_29": "Not present. Basia’s covering note reads \"Dawid Rapaport is not on the list of students\", and it follows the 1928/29 heading.",
+    "also_on_these_pages": "KLASA V of 1926/27 carries \"Finder false Rapaport Chaim\" and KLASA VI of 1927/28 \"Finder f. Rapaport Chaim\" — a different person, recorded here so nobody later mistakes him for ours."
+   },
+   "summary": {
+    "en": "Since 6 August this archive has said that the First State Gymnasium in Stanisławów is \"where David was a pupil\". It held the school’s annual reports, but not the student lists, so the statement was an inference. The lists are now here, and they carry his name three years running: Klasa IV in 1925/26, Klasa IVa in 1926/27 written out as \"Rapaport Mendel Dawid\", and Klasa Vb in 1927/28. He was born on 25 December 1911, so that is ages thirteen to sixteen. What was an assumption is now a printed record.\n\nHe is not on the 1928/29 list, and that is what Basia’s note refers to. Why he left after Klasa V — a change of school, a move, the family’s circumstances, or something else — no source here says. It is written down as a question rather than guessed at, and Basia has been asked to confirm that the sentence was meant about that one year.",
+    "he": "מאז 6 באוגוסט אומר הארכיון הזה שהגימנסיה הממלכתית הראשונה בסטניסלבוב היא ״המקום שבו למד דוד״. הוא החזיק את דוחות בית הספר, אך לא את רשימות התלמידים, ולכן הייתה זו הסקה. הרשימות כאן עתה, ובהן שמו שלוש שנים ברציפות: כיתה IV ב-1925/26, כיתה IVa ב-1926/27 בשמו המלא ״רפפורט מנדל דוד״, וכיתה Vb ב-1927/28. הוא נולד ב-25 בדצמבר 1911, כלומר גילאי שלוש-עשרה עד שש-עשרה. מה שהיה הנחה הוא כעת רשומה מודפסת.\n\nהוא אינו ברשימת 1928/29, ולכך מתייחסת הערתה של בסיה. מדוע עזב אחרי כיתה V — מעבר לבית ספר אחר, מעבר דירה, נסיבות המשפחה או דבר אחר — שום מקור כאן אינו אומר. הדבר נרשם כשאלה ולא נוחש, ובסיה נשאלה לאשר שכוונת המשפט הייתה לאותה שנה בלבד."
+   },
+   "status": "read"
   }
  ],
  "additional_files": [

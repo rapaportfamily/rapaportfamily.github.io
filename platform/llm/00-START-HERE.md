@@ -46,7 +46,7 @@ So the archive did it for him.
 | `01-narrative.md` | The story, ten chapters, with the sources under each paragraph |
 | `02-the-four.md` | David, Lusia, Shimon, Dov — and the generation before them |
 | `03-people.md` | All 188 people in the curated core |
-| `04-documents.md` | All 135 documents: what each one is, what it says, where the scan is |
+| `04-documents.md` | All 137 documents: what each one is, what it says, where the scan is |
 | `05-timeline.md` | 45 dated events |
 | `06-places.md` | 49 places |
 | `07-pictures.md` | Every picture with its caption and its address |
@@ -54,6 +54,7 @@ So the archive did it for him.
 | `09-research-story.md` | Who found what, and how — including where we were wrong |
 | `10-film-brief.md` | The film brief |
 | `11-film-highlights.md` | **What is new and must not be missed** — read this first |
+| `12-press.md` | Eighty years of the family in the Galician newspapers, 1866-1946 |
 | `99-EVERYTHING.md` | All of the above in one file |
 | `RAPAPORT-FILM-PACK.pdf` | **The one to upload to a film tool** — the text AND the pictures, 60 pages |
 

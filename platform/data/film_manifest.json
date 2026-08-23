@@ -23,7 +23,7 @@
  "counts": {
   "curated_people": 188,
   "people_with_a_portrait": 12,
-  "documents": 135,
+  "documents": 137,
   "document_types": {
    "dp_card": 2,
    "birth_record": 7,
@@ -51,7 +51,7 @@
    "birth_record_index": 1,
    "press_resort_list": 1,
    "citizenship_application": 1,
-   "school_record": 1,
+   "school_record": 2,
    "camp_death_register": 1,
    "wartime_registration": 1,
    "birth_register": 27,
@@ -69,7 +69,8 @@
    "notarial_record": 1,
    "rescue_list": 1,
    "civil_register": 1,
-   "method_note": 1
+   "method_note": 1,
+   "press_collection": 1
   },
   "rapaport_tree": {
    "people": 1442,
@@ -91,7 +92,7 @@
   "dov_trip_photographs": 120,
   "unidentified_photographs": 60,
   "timeline_events": 45,
-  "open_questions": 22,
+  "open_questions": 24,
   "places": 49
  },
  "data_files": {
@@ -5150,6 +5151,67 @@
    "files": [],
    "people": [
     "Szabse (Shabtai) Rapaport"
+   ],
+   "external": null,
+   "status": "read",
+   "open_questions": null
+  },
+  {
+   "id": "doc_griffel_press_1866_1946",
+   "type": "press_collection",
+   "title": {
+    "en": "The Griffels in the Galician press, 1866-1946 — 128 pages, 142 notices",
+    "he": "הגריפלים בעיתונות הגליצאית, 1866—1946 — 128 עמודים, 142 ידיעות",
+    "pl": "Grifflowie w prasie galicyjskiej, 1866-1946 — 128 stron, 142 notatki",
+    "fr": "Les Griffel dans la presse galicienne, 1866-1946 — 128 pages, 142 notices"
+   },
+   "summary_en": "Basia wrote that while researching Muszyna she came across an unprecedented number of press sources, and that the local papers described the Griffels’ ups and downs much as papers describe celebrities now — so that in the articles you can catch glimpses of their personalities, which is rare. She is right. Eighty years of them: Taube Griffel’s spice, haberdashery and iron shop at Nadwórna registered in 1882 with power of attorney to her son Leizor; the credit cooperative of 1890; Leizor on the jury list of 1892; the first petroleum refinery at Nadwórna in 1900; the sawmill; the ironworks lease at Pasieczna in 1912 where Berish Rapaport is given the signature; the great fire of 1907 with Leizor collecting for the homeless; the 2,500 wagons a year and the exports as far as China; the refinery fire of 1923; Eisig Chaim elected fifth to the Stanisławów kahal board in 1924 with 2,175 votes; three sons’ engagements announced by their own clerks; the strike of 1926; the anonymous letter with a skull; and then July 1930, when it all came down — eleven million złoty of debt, widows and orphans who had trusted the firm more than the banks, the family leaving town days before the filing, Eisig Chaim dead in a Kraków prison that October, a five-year composition in which the administrators collected over a million and a half and the creditors got about a hundred thousand, workers unpaid for twenty-three months, two brothers beaten in the street outside the courthouse, and an acquittal in February 1936. And alongside all of it the other brother’s house holding: Zygmunt Griffel of Lwów, 60,000 tonnes of timber to England in one year, orange crates to Palestine, boycott sheets naming him as a Jew not to be traded with, ten thousand złoty given to Poland’s air-defence loan in March 1939, and the state taking his sawmill in 1946.",
+   "decoded_fields": {
+    "span": "1866-1946, eighty years",
+    "notices": "142, every one translated in full into English and Hebrew with the Polish or German original beside it",
+    "read_on_the_site": "https://rapaportfamily.github.io/#/press",
+    "earliest": "Gazeta Lwowska, 31 July 1866 — Griffel Benjamin, Griffel Chaim Samuel and Griffel Taube of Nadwórna give to the Israelite Patriotic Central Committee’s war fund during the Austro-Prussian War",
+    "latest": "Rzeszów voivodeship gazette, 21 November 1946 — the steam sawmill and box factory at Zarszyn, belonging to Zygmunt Griffel of Lwów, passes to the communist state",
+    "our_own_line": "Berish Rapaport appears twice: in the register entry of 31 October 1912 he is given procuration in the Griffel-Schwarz ironworks lease at Pasieczna, and in June 1913 the drilling journal Ropa reports a new oil company at Pasieczna called \"Griffel jun. et Rappaport\"",
+    "the_four_brothers": "The trial reports of 1935 name Eisig Chaim Griffel’s sons and their jobs: Szulim in the Stanisławów head office, JAKÓB running the Korneuburg refinery in Austria, Mendel on the technical side, Ozjasz Henryk in his father’s office. That is the sibling group on the wartime rescue list.",
+    "the_three_engagements": "Chwila announces Jakób Griffel to Fela FREILICH (1924), Mendel Griffel to Lucja AJCHENBAUM of Lublin (1925), and Szalom Griffel to Rega FORTGANG (1926) — all three surnames appear on the rescue list, and Rega answers the \"Regi…\" torn off its right edge."
+   },
+   "files": [
+    "platform/assets/documents/basia_2026_08_20/griffel_press_notices_1866_1946.pdf"
+   ],
+   "people": [
+    "David (Memek) Rapaport",
+    "Berisz / Bernard / Dov Rapaport",
+    "Dr Jacob Griffel"
+   ],
+   "external": null,
+   "status": "read",
+   "open_questions": null
+  },
+  {
+   "id": "doc_david_gimnazjum_student_lists",
+   "type": "school_record",
+   "title": {
+    "en": "David in the school register — printed student lists of the First State Gymnasium, Stanisławów, 1925/26 to 1928/29",
+    "he": "דוד ברשימת התלמידים — רשימות התלמידים המודפסות של הגימנסיה הממלכתית הראשונה, סטניסלבוב, 1925/26 עד 1928/29",
+    "pl": "Dawid w wykazie uczniów — Sprawozdania Dyrekcji I. Gimnazjum Państwowego im. M. Romanowskiego w Stanisławowie, 1925/26-1928/29",
+    "fr": "David dans le registre scolaire — listes d’élèves du 1er Gymnase d’État, Stanisławów, 1925/26 à 1928/29"
+   },
+   "summary_en": "Since 6 August this archive has said that the First State Gymnasium in Stanisławów is \"where David was a pupil\". It held the school’s annual reports, but not the student lists, so the statement was an inference. The lists are now here, and they carry his name three years running: Klasa IV in 1925/26, Klasa IVa in 1926/27 written out as \"Rapaport Mendel Dawid\", and Klasa Vb in 1927/28. He was born on 25 December 1911, so that is ages thirteen to sixteen. What was an assumption is now a printed record.\n\nHe is not on the 1928/29 list, and that is what Basia’s note refers to. Why he left after Klasa V — a change of school, a move, the family’s circumstances, or something else — no source here says. It is written down as a question rather than guessed at, and Basia has been asked to confirm that the sentence was meant about that one year.",
+   "decoded_fields": {
+    "1925_26": "KLASA IV (39), group D — \"Rapaport Dawid\".",
+    "1926_27": "KLASA IVa (29), group a — \"Rapaport MENDEL DAWID\", under both his given names.",
+    "1927_28": "KLASA Vb (27), group d — \"Rapaport Dawid\".",
+    "1928_29": "Not present. Basia’s covering note reads \"Dawid Rapaport is not on the list of students\", and it follows the 1928/29 heading.",
+    "also_on_these_pages": "KLASA V of 1926/27 carries \"Finder false Rapaport Chaim\" and KLASA VI of 1927/28 \"Finder f. Rapaport Chaim\" — a different person, recorded here so nobody later mistakes him for ours."
+   },
+   "files": [
+    "platform/assets/documents/basia_2026_08_20/gimnazjum_student_list_1925_26.png",
+    "platform/assets/documents/basia_2026_08_20/gimnazjum_student_list_1926_27.png",
+    "platform/assets/documents/basia_2026_08_20/gimnazjum_student_list_1927_28.png"
+   ],
+   "people": [
+    "David (Memek) Rapaport"
    ],
    "external": null,
    "status": "read",
@@ -10471,13 +10533,38 @@
   },
   {
    "id": "h_lotte_lwow_pilecki",
-   "status": "open",
+   "status": "ANSWERED by the memoir this archive already held — one part still open",
    "question": {
-    "en": "Lotte again. Basia asked the Pilecki Institute about her; Ms Manowska replied that unfortunately they know little about the Lwów… — and the message Doron forwarded breaks off there, mid-sentence. Do not fill the gap. Ask Basia what the rest of that sentence said.",
-    "he": "שוב לוטה. בסיה שאלה את מכון פילצקי עליה; הגב׳ מנובסקה השיבה שלמרבה הצער ידוע להם מעט על הלבובי… — וההודעה שדורון העביר נקטעת שם, באמצע המשפט. אל תמלאו את החסר. שאלו את בסיה מה נאמר בהמשך."
+    "en": "What happened to Lotte? Basia asked the Pilecki Institute. Ms Manowska replied that unfortunately THEY KNOW LITTLE ABOUT THE LWÓW GHETTO, but that she will look through the materials of the \"passports of life\" project — an article came to mind that she needs to check. Some time has passed since the project ended and she may not remember the details, but the case intrigued her, so she may connect the dots. She was also genuinely grateful for the solving of the mystery of the Griffel brothers’ photographs and their connection to Jacob Griffel. Basia will telephone her on Monday, and even if nothing surfaces about the Lwów ghetto she will discuss Lusia’s story and draw parallels with other ghettos: \"We won’t know exactly what happened, but we can learn from her the origins of such situations. BECAUSE SOMEONE MUST HAVE BETRAYED OR DECEIVED HER.\"\n\nTHE ANSWER WAS ALREADY IN THIS ARCHIVE, AND NOBODY HAD PUT IT BESIDE THE QUESTION. Doron said Lusia’s own account describes being deceived — paying a huge sum for the time and receiving false documents. Page 40 of her memoir says it outright:\n\n\"Poles arrived with FORGED CERTIFICATES confirming that the holder was a RESIDENT OF THE UNITED STATES. Each such forged certificate cost TEN THOUSAND DOLLARS. The moneyed Jews of the ghetto tried to save their lives by buying these certificates. LOTTE TOO BOUGHT SUCH A CERTIFICATE, BUT THE SELLERS INFORMED ON THE DEAL TO THE GESTAPO, AND LOTTE AND HER HUSBAND WERE TAKEN TO A PLACE FROM WHICH THEY NEVER RETURNED.\"\n\nThat is Lusia’s testimony to how her sister-in-law died, and it names the exact mechanism Ms Manowska was reaching for without having seen it. It stands in the passage where Lusia has just smuggled four-year-old Shimon out of the ghetto and then finds David waiting at a kiosk by the ghetto gate — in RAPAPORT STREET, in LWÓW. So Lotte’s death belongs to the very ghetto the Institute says it knows little about, and this page is a first-hand account of it.\n\nWHAT IS STILL OPEN, and must not be closed in a film: this was a criminal racket selling forged AMERICAN papers, and the sellers were themselves the informers. The Berne operation the Pilecki Institute researches issued Latin American passports through a Polish legation. They are not the same thing and no source holds them together. Whether Lotte’s certificate came from some corrupted edge of that world or from a racket that merely imitated it, nobody knows. Ms Manowska should be shown this page.",
+    "he": "מה עלה בגורלה של לוטה? בסיה שאלה את מכון פילצקי. הגב׳ מנובסקה השיבה שלמרבה הצער ידוע להם מעט על גטו לבוב, אך היא תעיין בחומרי פרויקט ״דרכונות החיים״ — עלה בדעתה מאמר שעליה לבדוק. עבר זמן מאז הסתיים הפרויקט וייתכן שאינה זוכרת פרטים, אך הפרשה סקרנה אותה. היא גם הודתה מקרב לב על פתרון תעלומת תצלומי האחים גריפל וקישורם ליעקב גריפל. בסיה תטלפן אליה ביום שני, וגם אם לא יימצא דבר על גטו לבוב תדון עמה בסיפורה של לוסיה ותקביל לגטאות אחרים: ״לא נדע בדיוק מה קרה, אבל נוכל ללמוד ממנה את מקורותיהם של מצבים כאלה. שכן מישהו ודאי בגד בה או רימה אותה.״\n\nהתשובה כבר הייתה בארכיון הזה, ואיש לא הניח אותה לצד השאלה. דורון אמר שסיפורה של לוסיה עצמה מתאר הונאה — תשלום סכום עצום לתקופה וקבלת מסמכים מזויפים. עמוד 40 של הממואר אומר זאת במפורש:\n\n״פולנים הגיעו עם תעודות מזויפות, המאשרות כי המחזיק בהן הינו תושב ארצות-הברית. כל תעודה מזויפת שכזו עלתה עשרת אלפים דולר; יהודי הגטו בעלי הממון ניסו להציל את נפשם ע״י רכישת התעודות הללו. גם לוטה קנתה תעודה שכזו, אך המוכרים הלשינו על העסקה לגסטפו, ולוטה ובעלה נלקחו למקום ממנו לא חזרו יותר.״\n\nזו עדותה של לוסיה על מותה של גיסתה, והיא נוקבת במנגנון המדויק שאליו חתרה הגב׳ מנובסקה בלי שראתה אותו. הקטע עומד במקום שבו לוסיה הבריחה זה עתה את שמעון בן הארבע מן הגטו, ואז מוצאת את דוד ממתין בקיוסק ליד שער הגטו — ברחוב רפפורט, בלבוב. מותה של לוטה שייך אפוא לאותו גטו עצמו שעליו אומר המכון שידוע לו מעט, והעמוד הזה הוא עדות ראייה עליו.\n\nמה שעודנו פתוח, ואין לסגור אותו בסרט: זו הייתה רשת פלילית שמכרה ניירות אמריקאיים מזויפים, והמוכרים עצמם הם שהלשינו. מבצע ברן שאותו חוקר מכון פילצקי הנפיק דרכונים לטינו-אמריקאיים דרך נציגות פולנית. אלה אינם אותו דבר, ואין מקור המחבר ביניהם. אם תעודתה של לוטה באה משוליים מושחתים של אותו עולם או מרשת שרק חיקתה אותו — איש אינו יודע. יש להראות לגב׳ מנובסקה את העמוד הזה."
    },
    "sources": [
-    "doc_lotte_yv_pot_53075"
+    "doc_griffel_rescue_list_bucharest",
+    "doc_lotte_yv_pot_53075",
+    "doc_lusia_memoir"
+   ]
+  },
+  {
+   "id": "h_david_left_gimnazjum_1928",
+   "status": "open",
+   "question": {
+    "en": "David Rapaport is printed in the student lists of the First State Gymnasium in Stanisławów for 1925/26, 1926/27 and 1927/28, and is absent from 1928/29. Why did he leave after Klasa V, at sixteen or seventeen? No source we hold says. (Basia’s note reads simply \"Dawid Rapaport is not on the list of students\"; the three scans she sent show him on three of the four lists, so she has been asked to confirm the note was about 1928/29 alone.)",
+    "he": "דוד רפפורט מודפס ברשימות התלמידים של הגימנסיה הממלכתית הראשונה בסטניסלבוב לשנים 1925/26, 1926/27 ו-1927/28, ואינו מופיע ב-1928/29. מדוע עזב אחרי כיתה V, בגיל שש-עשרה או שבע-עשרה? שום מקור שבידינו אינו אומר. (הערתה של בסיה אומרת רק ״דוד רפפורט אינו ברשימת התלמידים״; שלושת הסריקות ששלחה מראות אותו בשלוש מארבע הרשימות, ולכן היא נשאלה לאשר שההערה נגעה ל-1928/29 בלבד.)"
+   },
+   "sources": [
+    "doc_david_gimnazjum_student_lists",
+    "doc_david_gimnazjum_stanislawow"
+   ]
+  },
+  {
+   "id": "h_griffel_rapaport_second_surname_passports",
+   "status": "open",
+   "question": {
+    "en": "Basia, 20 August 2026: \"As a side note: there is another surname, this time IN THE RAPAPORT LINE, that is connected to the passports. When I me…\" — the message breaks off there. Which surname, and connected how? This is the second thread into the wartime foreign-passport operation and it is unanswered.",
+    "he": "בסיה, 20 באוגוסט 2026: ״הערה בצד: יש עוד שם משפחה, הפעם בקו רפפורט, הקשור לדרכונים. כשאני…״ — ההודעה נקטעת שם. איזה שם משפחה, ובאיזה אופן קשור? זהו החוט השני אל מבצע הדרכונים הזרים, והוא ללא מענה."
+   },
+   "sources": [
+    "doc_griffel_rescue_list_bucharest"
    ]
   }
  ],

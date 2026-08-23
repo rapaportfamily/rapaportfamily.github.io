@@ -34,7 +34,8 @@
   "journey": "The Journey",
   "story": "The Story",
   "photographs": "Photographs",
-  "explore": "The wider tree"
+  "explore": "The wider tree",
+  "press": "In the Papers"
  },
  "ui": {
   "language": "Language",
@@ -309,5 +310,16 @@
   "tree_rapaport": "Rapaport — his father’s side (Basia)",
   "tree_griffel": "Griffel — his mother’s side (Jacob)",
   "tree_note": "Two researchers, two files, kept apart so you always know whose word a fact is."
+ },
+ "press": {
+  "title": "In the papers, 1866-1946",
+  "lead": "Eighty years of the Griffel family as the Galician press reported them — the shop, the oil, the timber, the crash, the trial, and the last sawmill taken in 1946.",
+  "note": "David Rapaport’s mother was Rebeka Griffel. These 142 notices follow her father’s house from a war donation of fifty kreuzer in 1866 to a nationalisation order in 1946. Berish Rapaport — David’s father — appears here too, holding the signature of a Griffel firm in 1912 and, a year later, as half of a drilling company called “Griffel jun. et Rappaport”. Located and transcribed by Basia; translated for this archive from the Polish and German. Nothing is summarised: every name, date and sum in the original is here, and the original itself is under each one.",
+  "show_original": "Show the original",
+  "page": "page",
+  "filter": "Type a name, a place or a year",
+  "items": "notices",
+  "download": "Download the whole press file as Basia sent it (PDF, 128 pages)",
+  "empty": "The press file has not loaded."
  }
 }

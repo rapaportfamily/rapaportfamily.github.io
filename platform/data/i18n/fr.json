@@ -34,7 +34,8 @@
   "journey": "Le voyage",
   "story": "L'Histoire",
   "photographs": "Photographies",
-  "explore": "L’arbre élargi"
+  "explore": "L’arbre élargi",
+  "press": "Dans la presse"
  },
  "ui": {
   "language": "Langue",
@@ -309,5 +310,16 @@
   "tree_rapaport": "Rapaport — le côté paternel (Basia)",
   "tree_griffel": "Griffel — le côté maternel (Jacob)",
   "tree_note": "Deux chercheurs, deux fichiers, tenus séparés pour qu’on sache toujours de qui vient un fait."
+ },
+ "press": {
+  "title": "Dans la presse, 1866-1946",
+  "lead": "Quatre-vingts ans de la famille Griffel dans la presse galicienne — la boutique, le pétrole, le bois, la faillite, le procès, et la dernière scierie saisie en 1946.",
+  "note": "La mère de David Rapaport était Rebeka Griffel. Ces 142 notices suivent la maison de son père, d’un don de guerre de cinquante kreuzer en 1866 jusqu’à un arrêté de nationalisation en 1946. Berisz Rapaport, le père de David, y figure aussi : en 1912 avec la procuration d’une firme Griffel, et un an plus tard comme moitié d’une société de forage nommée « Griffel jun. et Rappaport ». Retrouvées et transcrites par Basia ; traduites pour cette archive du polonais et de l’allemand. L’original est sous chaque notice.",
+  "show_original": "Afficher l’original",
+  "page": "page",
+  "filter": "Tapez un nom, un lieu ou une année",
+  "items": "notices",
+  "download": "Télécharger tout le dossier de presse tel que Basia l’a envoyé (PDF, 128 pages)",
+  "empty": "Le dossier de presse n’a pas été chargé."
  }
 }

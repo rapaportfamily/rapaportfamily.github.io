@@ -12,6 +12,7 @@ const State = {
     events: [],
     documents: [],
     hypotheses: [],
+    press: [],
     messages: [],
   },
   byId: {
@@ -30,7 +31,7 @@ async function loadAll() {
   // Cache-bust on every load - data files update frequently
   const v = Date.now();
   const noCache = { cache: 'no-store' };
-  const [en, he, pl, fr, people, places, events, documents, hypotheses, messages, research] = await Promise.all([
+  const [en, he, pl, fr, people, places, events, documents, hypotheses, messages, research, press] = await Promise.all([
     fetch(`data/i18n/en.json?v=${v}`, noCache).then(r => r.json()),
     fetch(`data/i18n/he.json?v=${v}`, noCache).then(r => r.json()),
     fetch(`data/i18n/pl.json?v=${v}`, noCache).then(r => r.json()),
@@ -42,6 +43,9 @@ async function loadAll() {
     fetch(`data/hypotheses.json?v=${v}`, noCache).then(r => r.json()),
     fetch(`data/messages.json?v=${v}`, noCache).then(r => r.json()),
     fetch(`data/research_center.json?v=${v}`, noCache).then(r => r.json()).catch(() => ({ sections: [] })),
+    fetch(`data/griffel_press.json?v=${v}`, noCache)
+      .then(r => r.ok ? r.json() : { notices: [] })
+      .catch(() => ({ notices: [] })),
   ]);
   State.i18n = { en, he, pl, fr };
   State.data.people = people.people;
@@ -50,6 +54,7 @@ async function loadAll() {
   State.data.documents = documents.documents;
   State.data.additional_files = documents.additional_files || [];
   State.data.hypotheses = hypotheses.hypotheses;
+  State.data.press = (press && press.notices) || [];
   State.data.messages = messages.messages || messages;
   State.data.research = research;
 
@@ -170,6 +175,7 @@ function router() {
     case 'places': renderPlaces(root, param); break;
     case 'documents': renderDocuments(root, param); break;
     case 'hypotheses': renderHypotheses(root); break;
+    case 'press': renderPress(root); break;
     case 'chat': renderChat(root); break;
     case 'research': renderResearch(root, param); break;
     case 'photographs': renderPhotographs(root); break;
@@ -2228,6 +2234,77 @@ function openDocModal(id) {
 function statusLabel(s) {
   const k = 'status.' + s;
   return t(k) !== k ? t(k) : s;
+}
+
+// ── The press file ──────────────────────────────────────────────────────
+// Eighty years of the Griffels in the Galician papers, 1866-1946, as Basia found them.
+// Every notice carries its own original underneath, because a translation nobody can check
+// against the source is just somebody's word for it.
+function renderPress(root) {
+  const items = State.data.press || [];
+  if (!items.length) {
+    root.innerHTML = pageHeader('press.title', 'press.lead') +
+      `<p class="muted">${escapeHtml(t('press.empty'))}</p>`;
+    return;
+  }
+  const decades = [];
+  for (const it of items) {
+    const d = Math.floor(it.year / 10) * 10;
+    if (!decades.length || decades[decades.length - 1].decade !== d) decades.push({ decade: d, list: [] });
+    decades[decades.length - 1].list.push(it);
+  }
+  const card = (it) => `
+    <article class="press-card" data-hay="${escapeHtml(((it.en || '') + ' ' + (it.he || '') + ' ' +
+      (it.source || '') + ' ' + (it.people || []).join(' ') + ' ' + (it.places || []).join(' ') +
+      ' ' + (it.tags || []).join(' ') + ' ' + (it.original || '')).toLowerCase())}">
+      <div class="press-meta">
+        <span class="press-year">${escapeHtml(String(it.year))}</span>
+        <span class="press-source">${escapeHtml(it.source || '')}</span>
+      </div>
+      <div class="press-body" dir="auto">${escapeHtml(State.lang === 'he' ? (it.he || it.en) : (it.en || ''))}</div>
+      ${(it.tags || []).length ? `<div class="press-tags">${it.tags.map(x =>
+        `<span class="press-tag">${escapeHtml(x)}</span>`).join('')}</div>` : ''}
+      ${it.original ? `
+        <details class="press-original">
+          <summary>${escapeHtml(t('press.show_original'))} · ${escapeHtml(t('press.page'))} ${escapeHtml(String(it.page))}</summary>
+          <pre dir="ltr">${escapeHtml(it.original)}</pre>
+        </details>` : ''}
+    </article>`;
+
+  root.innerHTML = `
+    ${pageHeader('press.title', 'press.lead')}
+    <p class="press-note">${escapeHtml(t('press.note'))}</p>
+    <p class="press-source-line">
+      <a href="assets/documents/basia_2026_08_20/griffel_press_notices_1866_1946.pdf" target="_blank" rel="noopener">
+        ${escapeHtml(t('press.download'))}</a>
+    </p>
+    <input id="press-filter" class="press-filter" type="search"
+           placeholder="${escapeHtml(t('press.filter'))}" aria-label="${escapeHtml(t('press.filter'))}" />
+    <div id="press-count" class="press-count">${escapeHtml(String(items.length))} ${escapeHtml(t('press.items'))}</div>
+    <div class="press-list">
+      ${decades.map(g => `
+        <section class="press-decade">
+          <h2 class="press-decade-label">${escapeHtml(String(g.decade))}s</h2>
+          ${g.list.map(card).join('')}
+        </section>`).join('')}
+    </div>`;
+
+  const box = root.querySelector('#press-filter');
+  const count = root.querySelector('#press-count');
+  box.addEventListener('input', () => {
+    const q = box.value.trim().toLowerCase();
+    let shown = 0;
+    root.querySelectorAll('.press-card').forEach(el => {
+      const hit = !q || (el.dataset.hay || '').includes(q);
+      el.style.display = hit ? '' : 'none';
+      if (hit) shown++;
+    });
+    root.querySelectorAll('.press-decade').forEach(sec => {
+      const any = [...sec.querySelectorAll('.press-card')].some(c => c.style.display !== 'none');
+      sec.style.display = any ? '' : 'none';
+    });
+    count.textContent = shown + ' ' + t('press.items');
+  });
 }
 
 function renderHypotheses(root) {
