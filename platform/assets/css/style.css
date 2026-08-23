@@ -2421,3 +2421,8 @@ html[dir="rtl"] .detail-portrait { margin: 0 1.2rem 1rem 0; }
 .cf-proof span { text-transform: uppercase; letter-spacing: .07em; font-size: .72rem; }
 .cf-proof a { text-decoration: none; font-weight: 700; }
 @media (max-width: 640px) { .cf-gen { padding-inline-start: .7rem; } }
+
+.ov-present{margin:1.5rem 0 0;padding:.9rem 1.1rem;background:#fff;
+  border:1px solid var(--line,#e2e2e2);border-radius:.5rem}
+.ov-present a{font-weight:700;text-decoration:none;overflow-wrap:anywhere}
+.ov-present a:hover{text-decoration:underline}

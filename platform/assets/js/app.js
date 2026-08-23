@@ -2307,6 +2307,8 @@ function renderOverview(root) {
       <p class="ov-stats">${escapeHtml(ml(o.intro.stat_line))}</p>
     </section>
 
+    <p class="ov-present"><a href="presentation.html">${escapeHtml(t('start.presentation'))}</a></p>
+
     ${closeFamilyBlock()}
 
     <h2 class="ov-index-title">${escapeHtml(t('start.index'))}</h2>
