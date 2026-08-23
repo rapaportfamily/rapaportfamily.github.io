@@ -88,7 +88,8 @@
   "events_count": "events",
   "places_count": "places",
   "en_fallback": "Shown in English — a Hebrew version of this note has not been written yet.",
-  "background": "Background"
+  "background": "Background",
+  "error": "Sorry — this part could not be loaded. Please refresh the page."
  },
  "confidence": {
   "confirmed": "Confirmed",

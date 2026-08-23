@@ -88,7 +88,8 @@
   "events_count": "événements",
   "places_count": "lieux",
   "en_fallback": "Affiché en anglais — la version française n'a pas encore été écrite.",
-  "background": "Contexte"
+  "background": "Contexte",
+  "error": "Désolé — cette partie n’a pas pu être chargée. Veuillez rafraîchir la page."
  },
  "confidence": {
   "confirmed": "Confirmé",

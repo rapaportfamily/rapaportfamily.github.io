@@ -88,7 +88,8 @@
   "events_count": "אירועים",
   "places_count": "מקומות",
   "en_fallback": "מוצג באנגלית — גרסה עברית להערה הזאת טרם נכתבה.",
-  "background": "רקע"
+  "background": "רקע",
+  "error": "מצטערים — לא הצלחנו לטעון את החלק הזה. רעננו את העמוד."
  },
  "confidence": {
   "confirmed": "מאומת",

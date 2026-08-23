@@ -88,7 +88,8 @@
   "events_count": "wydarzenia",
   "places_count": "miejsca",
   "en_fallback": "Pokazane po angielsku — wersja polska jeszcze nie powstała.",
-  "background": "Tło"
+  "background": "Tło",
+  "error": "Przepraszamy — tej części nie udało się wczytać. Odśwież stronę."
  },
  "confidence": {
   "confirmed": "Potwierdzone",
