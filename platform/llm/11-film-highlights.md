@@ -99,6 +99,25 @@ Nineteen years before the century turned violent, a man walked into a notary’s
 > Still unknown: Why did Moses Saul need a notary for this at all — was he travelling, ill, or simply away on business? The entry does not say.
 
 
+## [MEDIUM] Arolsen tracing index card — Lea Rapaport née Weitzner, document pulled 17 December 1970
+
+**Small and quiet, but it is the moment the archive learns that somebody else went looking for Lusia — twenty-five years after the war, and fifty-six years before we did.**
+
+- Source: Arolsen Archives (formerly the International Tracing Service), DocID 68746393. Found online by Basia some months ago and sent on 24 August 2026, once Lusia’s own DP card made sense of it.
+- Scan: https://rapaportfamily.github.io/assets/documents/basia_2026_08_24/arolsen_index_card_lea_rapaport_1970.png
+- What it records: name = RAPAPORT; maiden_name = Weißner — the German spelling of WEITZNER; given_name = Lea; geb_datum_field_contains = Haifa  (the PLACE, written in the DATE box); geb_ort_field_contains = 8.4.1916  (the DATE, written in the PLACE box); father = Elias; mother = Mathilde; reference = T/D 442582; docid = 68746393; entnommen_am = 17.12.1970 — "taken out on", with a clerk’s initials; ticked_on_the_list = DP Karten — and only that one; left_unticked = IRO Identity Card, IRO Case Card, Fiche Individuelle, Italienische Karte, Schwabing-Karte, AJDC-Belsen, CCLJ-Karte
+
+An index card from the tracing service at Arolsen. It is not a record of Lusia’s life; it is a record of somebody LOOKING FOR IT. The card names her exactly as her own Displaced Persons card does — Lea Rapaport, born Weitzner, 8 April 1916, father Elias, mother Mathilde — which is what finally convinced Basia the two belonged together.
+
+Two things on it are worth more than the rest.
+
+FIRST, THE FIELDS ARE SWAPPED. "Geb.-Datum" — date of birth — contains the word Haifa. "Geb.-Ort" — place of birth — contains 8.4.1916. A clerk has put the place in the date box and the date in the place box. This archive has carried an open question about why Lusia’s DP card says she was born in Haifa when she was born in Bolechów. This is a second document carrying the same Haifa, and the first evidence that the two fields have been mishandled by somebody along the way. It does not settle the question. It changes what kind of question it is.
+
+SECOND, ONLY ONE BOX IS TICKED. The card lists the sorts of record the file might contain — IRO identity card, IRO case card, Fiche Individuelle, an Italian card, a Schwabing card, an AJDC Belsen card, a CCLJ card. Only DP Karten is marked. So as far as this card goes, the DP card is the only thing the tracing service held for her, and she was not in the Belsen or Italian files. A blank with a reason is worth keeping.
+
+"Entnommen am 17.12.1970" means the document was taken out of the file on 17 December 1970. Files were pulled when somebody asked for them. Nobody in this family knows who asked, or why, twenty-five years after the war.
+
+
 ## [MEDIUM] David in the school register — printed student lists of the First State Gymnasium, Stanisławów, 1925/26 to 1928/29
 
 - Source: Basia, 23 August 2026 — annual reports of the First State Gymnasium named for M. Romanowski, Stanisławów

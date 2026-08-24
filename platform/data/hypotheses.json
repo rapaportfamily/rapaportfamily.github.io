@@ -817,7 +817,7 @@
   },
   {
    "id": "h_haifa_birthplace",
-   "status": "open",
+   "status": "open — and a second document now carries the same error",
    "question": {
     "en": "Why do both Rapaport DP cards give a wrong birthplace — Haifa for Lusia, Cieszyn for David — and does the fact that Lusia’s stated destination was Palestine bear on it? No source states a reason.",
     "he": "מדוע שני כרטיסי העקורים של בני רפפורט נוקבים במקום לידה שגוי — חיפה ללוסיה, צ׳ישין לדוד — והאם העובדה שיעדה המוצהר של לוסיה היה פלשתינה נוגעת לכך? שום מקור אינו נוקב בסיבה."
@@ -827,7 +827,14 @@
     "doc_lusia_1945_residence_request",
     "doc_lusia_1945_stay_permit_1946",
     "doc_david_dp_card"
-   ]
+   ],
+   "evidence": [
+    "Arolsen tracing index card, DocID 68746393, T/D 442582: the \"Geb.-Datum\" box contains the word HAIFA and the \"Geb.-Ort\" box contains 8.4.1916 — the place and the date are in each other’s fields. Sent by Basia, 24 August 2026."
+   ],
+   "note": {
+    "en": "A second document now carries the Haifa. On the Arolsen index card the place and the date are written into each other’s boxes, which is the first hard evidence that these two fields were being mishandled by the clerks who copied them. That does not tell us how HAIFA got into the record in the first place — Lusia was born in Bolechów, and her husband’s card of the same series says Cieszyn when he was born in Nadwórna. But it moves the question from \"why did she say Haifa\" towards \"who wrote these cards, and how carefully\". Still open.",
+    "he": "מסמך שני נושא כעת את ״חיפה״. בכרטיס האינדקס של ארולזן נכתבו המקום והתאריך זה בתיבתו של זה, וזו הראיה הממשית הראשונה לכך ששני השדות טופלו ברשלנות בידי הפקידים שהעתיקו אותם. אין בכך כדי לומר כיצד הגיעה ״חיפה״ לרשומה מלכתחילה. אך הדבר מסיט את השאלה מ״מדוע אמרה חיפה״ אל ״מי כתב את הכרטיסים האלה, ובאיזו זהירות״. עדיין פתוח."
+   }
   },
   {
    "id": "h_weinreb_dolina_records",
@@ -874,6 +881,23 @@
    },
    "sources": [
     "doc_griffel_rescue_list_bucharest"
+   ]
+  },
+  {
+   "id": "h_who_searched_for_lusia_1970",
+   "status": "open",
+   "priority": "MEDIUM",
+   "question": {
+    "en": "WHO WENT LOOKING FOR LUSIA IN 1970, AND WHY? Her Displaced Persons card was taken out of the tracing-service file on 17 December 1970 — \"entnommen am\" — and an index card was written to record it, reference T/D 442582. She was alive, living in Haifa, and would live another twenty-six years. Files were pulled when somebody asked. The usual reasons in 1970 were a compensation claim, a paper needed for a pension, or a tracing enquiry from a relative or an organisation. This archive does not know which, and nobody in the family remembers a claim being made. Arolsen may be able to say who requested it — that is the next question to ask them, quoting DocID 68746393.",
+    "he": "מי חיפש את לוסיה ב-1970, ומדוע? כרטיס העקורים שלה נשלף מתיק שירות האיתור ב-17 בדצמבר 1970 — ״entnommen am״ — ונכתב כרטיס אינדקס לתעד זאת, סימוכין T/D 442582. היא הייתה בחיים, גרה בחיפה, ועתידה הייתה לחיות עוד עשרים ושש שנים. תיקים נשלפו כשמישהו ביקש. הסיבות המקובלות ב-1970 היו תביעת פיצויים, מסמך לצורך קצבה, או פניית איתור מקרוב משפחה או מארגון. הארכיון הזה אינו יודע איזו מהן, ואיש במשפחה אינו זוכר שהוגשה תביעה. ייתכן שארולזן יוכלו לומר מי ביקש — זו השאלה הבאה שיש להפנות אליהם, בציון DocID 68746393."
+   },
+   "sources": [
+    "doc_arolsen_index_card_lea_1970",
+    "doc_lusia_1945_dp_card"
+   ],
+   "next_steps": [
+    "Ask the Arolsen Archives who requested the file in December 1970, quoting DocID 68746393 and T/D 442582.",
+    "Ask Dov and the family whether a compensation or pension claim was ever filed in or around 1970."
    ]
   }
  ]

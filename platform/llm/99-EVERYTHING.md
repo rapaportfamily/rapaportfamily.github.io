@@ -56,7 +56,7 @@ So the archive did it for him.
 | `01-narrative.md` | The story, ten chapters, with the sources under each paragraph |
 | `02-the-four.md` | David, Lusia, Shimon, Dov — and the generation before them |
 | `03-people.md` | All 188 people in the curated core |
-| `04-documents.md` | All 137 documents: what each one is, what it says, where the scan is |
+| `04-documents.md` | All 138 documents: what each one is, what it says, where the scan is |
 | `05-timeline.md` | 45 dated events |
 | `06-places.md` | 49 places |
 | `07-pictures.md` | Every picture with its caption and its address |
@@ -677,7 +677,7 @@ The wider trees hold far more: 1442 Rapaports across 480 families, and 390 Griff
 
 <!-- ===== 04-documents.md ===== -->
 
-# The documents (137)
+# The documents (138)
 
 Each entry says what the document is, what it tells us, who it concerns, and where the scan is. A film should name and explain every document it shows.
 
@@ -2449,6 +2449,25 @@ Since 6 August this archive has said that the First State Gymnasium in Stanisła
 He is not on the 1928/29 list, and that is what Basia’s note refers to. Why he left after Klasa V — a change of school, a move, the family’s circumstances, or something else — no source here says. It is written down as a question rather than guessed at, and Basia has been asked to confirm that the sentence was meant about that one year.
 
 
+## Arolsen tracing index card — Lea Rapaport née Weitzner, document pulled 17 December 1970
+
+- Type: tracing_index_card
+- Source: Arolsen Archives (formerly the International Tracing Service), DocID 68746393. Found online by Basia some months ago and sent on 24 August 2026, once Lusia’s own DP card made sense of it.
+- People: Leah Lusha Rapaport (née Weitzner), Elias (Eliyahu) Weitzner, Matel (Mathilde) Weitzner (née Weinreb)
+- Scan: https://rapaportfamily.github.io/assets/documents/basia_2026_08_24/arolsen_index_card_lea_rapaport_1970.png
+- What it records: name = RAPAPORT; maiden_name = Weißner — the German spelling of WEITZNER; given_name = Lea; geb_datum_field_contains = Haifa  (the PLACE, written in the DATE box); geb_ort_field_contains = 8.4.1916  (the DATE, written in the PLACE box); father = Elias; mother = Mathilde; reference = T/D 442582; docid = 68746393; entnommen_am = 17.12.1970 — "taken out on", with a clerk’s initials; ticked_on_the_list = DP Karten — and only that one; left_unticked = IRO Identity Card, IRO Case Card, Fiche Individuelle, Italienische Karte, Schwabing-Karte, AJDC-Belsen, CCLJ-Karte
+
+An index card from the tracing service at Arolsen. It is not a record of Lusia’s life; it is a record of somebody LOOKING FOR IT. The card names her exactly as her own Displaced Persons card does — Lea Rapaport, born Weitzner, 8 April 1916, father Elias, mother Mathilde — which is what finally convinced Basia the two belonged together.
+
+Two things on it are worth more than the rest.
+
+FIRST, THE FIELDS ARE SWAPPED. "Geb.-Datum" — date of birth — contains the word Haifa. "Geb.-Ort" — place of birth — contains 8.4.1916. A clerk has put the place in the date box and the date in the place box. This archive has carried an open question about why Lusia’s DP card says she was born in Haifa when she was born in Bolechów. This is a second document carrying the same Haifa, and the first evidence that the two fields have been mishandled by somebody along the way. It does not settle the question. It changes what kind of question it is.
+
+SECOND, ONLY ONE BOX IS TICKED. The card lists the sorts of record the file might contain — IRO identity card, IRO case card, Fiche Individuelle, an Italian card, a Schwabing card, an AJDC Belsen card, a CCLJ card. Only DP Karten is marked. So as far as this card goes, the DP card is the only thing the tracing service held for her, and she was not in the Belsen or Italian files. A blank with a reason is worth keeping.
+
+"Entnommen am 17.12.1970" means the document was taken out of the file on 17 December 1970. Files were pulled when somebody asked for them. Nobody in this family knows who asked, or why, twenty-five years after the war.
+
+
 ## Jenta Rapaport registered at Rue Lairesse 88, Liège, during the war
 
 - Type: wartime_registration
@@ -3056,7 +3075,7 @@ This archive publishes disagreements rather than resolving them quietly. A film 
 - **David’s birthplace.** Nadwórna per the birth certificate found in Warsaw; "Cieszyn/Tesin" on the 1946 Brussels DP card, most likely a clerk mishearing.
 - **A birth register filed 1849** where this archive holds 1850.
 
-## Open questions (24)
+## Open questions (25)
 
 - Did Szabse Rapaport die in 1884 or in 1897 — and is he the same man as Shabtai Rappaport, head of the rabbinical court of Dąbrowa?  *(ANSWERED from primary records, 20 August 2026 — 1884)*
 - Why did David go to Palestine first, with nine-year-old Shimon, and leave Lusia and the baby Dov behind in Brussels — even at the cost of a year behind wire in Cyprus?  *(RESOLVED — answered by the memoir, page 63)*
@@ -3077,7 +3096,7 @@ This archive publishes disagreements rather than resolving them quietly. A film 
 - Did Jente Rapaport survive the war, and what became of her line?  *(RESOLVED — Jente survived; lived in Liège with her daughter Szewa in 1946)*
 - Is Markus Türkel (m. Szewa Horowitz, Liège 1946) the same as Mordechai 'Max' Levi-Turkel (m. Margalit Halperin, Palestine 1947)?  *(open — conflicting records)*
 - Which camp in Prague did Lusia come from, and when was she there? Her DP card and the 1945 residence request both say she came from a camp in Prague. Nothing else in this archive — and nothing in her own memoir — mentions Prague at all.  *(open)*
-- Why do both Rapaport DP cards give a wrong birthplace — Haifa for Lusia, Cieszyn for David — and does the fact that Lusia’s stated destination was Palestine bear on it? No source states a reason.  *(open)*
+- Why do both Rapaport DP cards give a wrong birthplace — Haifa for Lusia, Cieszyn for David — and does the fact that Lusia’s stated destination was Palestine bear on it? No source states a reason.  *(open — and a second document now carries the same error)*
 - Can a Weinreb family tree be built for Lusia’s mother’s side? Basia’s answer, 19 August 2026: no, and here is why. The vital records of Dolina are completely lost — which is visible on the genealogy sites too, where almost no trees reach Dolina at all. Many Bolechów families married into Dolina families, and it is the Dolina half that is gone. If it is ever done it will be from commercial, court and notarial records rather than birth registers, and those may still be lying in Ukraine. She sees no chance at present. This is a blank that has a reason, and the reason is the record office, not the research.  *(closed_for_now)*
 - What happened to Lotte? Basia asked the Pilecki Institute. Ms Manowska replied that unfortunately THEY KNOW LITTLE ABOUT THE LWÓW GHETTO, but that she will look through the materials of the "passports of life" project — an article came to mind that she needs to check. Some time has passed since the project ended and she may not remember the details, but the case intrigued her, so she may connect the dots. She was also genuinely grateful for the solving of the mystery of the Griffel brothers’ photographs and their connection to Jacob Griffel. Basia will telephone her on Monday, and even if nothing surfaces about the Lwów ghetto she will discuss Lusia’s story and draw parallels with other ghettos: "We won’t know exactly what happened, but we can learn from her the origins of such situations. BECAUSE SOMEONE MUST HAVE BETRAYED OR DECEIVED HER."
 
@@ -3090,6 +3109,7 @@ That is Lusia’s testimony to how her sister-in-law died, and it names the exac
 WHAT IS STILL OPEN, and must not be closed in a film: this was a criminal racket selling forged AMERICAN papers, and the sellers were themselves the informers. The Berne operation the Pilecki Institute researches issued Latin American passports through a Polish legation. They are not the same thing and no source holds them together. Whether Lotte’s certificate came from some corrupted edge of that world or from a racket that merely imitated it, nobody knows. Ms Manowska should be shown this page.  *(ANSWERED by the memoir this archive already held — one part still open)*
 - David Rapaport is printed in the student lists of the First State Gymnasium in Stanisławów for 1925/26, 1926/27 and 1927/28, and is absent from 1928/29. Why did he leave after Klasa V, at sixteen or seventeen? No source we hold says. (Basia’s note reads simply "Dawid Rapaport is not on the list of students"; the three scans she sent show him on three of the four lists, so she has been asked to confirm the note was about 1928/29 alone.)  *(open)*
 - Basia, 20 August 2026: "As a side note: there is another surname, this time IN THE RAPAPORT LINE, that is connected to the passports. When I me…" — the message breaks off there. Which surname, and connected how? This is the second thread into the wartime foreign-passport operation and it is unanswered.  *(open)*
+- WHO WENT LOOKING FOR LUSIA IN 1970, AND WHY? Her Displaced Persons card was taken out of the tracing-service file on 17 December 1970 — "entnommen am" — and an index card was written to record it, reference T/D 442582. She was alive, living in Haifa, and would live another twenty-six years. Files were pulled when somebody asked. The usual reasons in 1970 were a compensation claim, a paper needed for a pension, or a tracing enquiry from a relative or an organisation. This archive does not know which, and nobody in the family remembers a claim being made. Arolsen may be able to say who requested it — that is the next question to ask them, quoting DocID 68746393.  *(open)*
 
 
 <!-- ===== 09-research-story.md ===== -->
@@ -3240,6 +3260,25 @@ Two days after she registered as a displaced person, a Jewish aid society asked 
 Nineteen years before the century turned violent, a man walked into a notary’s office in Tarnów and paid two crowns so that his wife could pick up his mail. The clerk wrote entry 392: Mojżesz Rapaport, capitalist in Tarnów, legalises his signature on a power of attorney for his wife Menicha to receive postal items. That is the whole document, and it is worth more than its size. This is Moses Saul Rapaport, born 1858, died in Tarnów on 8 November 1933 — David’s grandfather, Dov’s great-grandfather — and the tree records his occupation as "merchant"; the notary wrote "capitalist". And it is the only document this archive holds that names his wife at all: Menycha Leiner has, until today, been a name on a tree with no birth date, no death date and no paper of her own. Here she is, in 1904, being given legal authority over the family post.
 
 > Still unknown: Why did Moses Saul need a notary for this at all — was he travelling, ill, or simply away on business? The entry does not say.
+
+
+## [MEDIUM] Arolsen tracing index card — Lea Rapaport née Weitzner, document pulled 17 December 1970
+
+**Small and quiet, but it is the moment the archive learns that somebody else went looking for Lusia — twenty-five years after the war, and fifty-six years before we did.**
+
+- Source: Arolsen Archives (formerly the International Tracing Service), DocID 68746393. Found online by Basia some months ago and sent on 24 August 2026, once Lusia’s own DP card made sense of it.
+- Scan: https://rapaportfamily.github.io/assets/documents/basia_2026_08_24/arolsen_index_card_lea_rapaport_1970.png
+- What it records: name = RAPAPORT; maiden_name = Weißner — the German spelling of WEITZNER; given_name = Lea; geb_datum_field_contains = Haifa  (the PLACE, written in the DATE box); geb_ort_field_contains = 8.4.1916  (the DATE, written in the PLACE box); father = Elias; mother = Mathilde; reference = T/D 442582; docid = 68746393; entnommen_am = 17.12.1970 — "taken out on", with a clerk’s initials; ticked_on_the_list = DP Karten — and only that one; left_unticked = IRO Identity Card, IRO Case Card, Fiche Individuelle, Italienische Karte, Schwabing-Karte, AJDC-Belsen, CCLJ-Karte
+
+An index card from the tracing service at Arolsen. It is not a record of Lusia’s life; it is a record of somebody LOOKING FOR IT. The card names her exactly as her own Displaced Persons card does — Lea Rapaport, born Weitzner, 8 April 1916, father Elias, mother Mathilde — which is what finally convinced Basia the two belonged together.
+
+Two things on it are worth more than the rest.
+
+FIRST, THE FIELDS ARE SWAPPED. "Geb.-Datum" — date of birth — contains the word Haifa. "Geb.-Ort" — place of birth — contains 8.4.1916. A clerk has put the place in the date box and the date in the place box. This archive has carried an open question about why Lusia’s DP card says she was born in Haifa when she was born in Bolechów. This is a second document carrying the same Haifa, and the first evidence that the two fields have been mishandled by somebody along the way. It does not settle the question. It changes what kind of question it is.
+
+SECOND, ONLY ONE BOX IS TICKED. The card lists the sorts of record the file might contain — IRO identity card, IRO case card, Fiche Individuelle, an Italian card, a Schwabing card, an AJDC Belsen card, a CCLJ card. Only DP Karten is marked. So as far as this card goes, the DP card is the only thing the tracing service held for her, and she was not in the Belsen or Italian files. A blank with a reason is worth keeping.
+
+"Entnommen am 17.12.1970" means the document was taken out of the file on 17 December 1970. Files were pulled when somebody asked for them. Nobody in this family knows who asked, or why, twenty-five years after the war.
 
 
 ## [MEDIUM] David in the school register — printed student lists of the First State Gymnasium, Stanisławów, 1925/26 to 1928/29

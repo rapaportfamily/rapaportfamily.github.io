@@ -1,4 +1,4 @@
-# The documents (137)
+# The documents (138)
 
 Each entry says what the document is, what it tells us, who it concerns, and where the scan is. A film should name and explain every document it shows.
 
@@ -1768,6 +1768,25 @@ Sprawozdanie Dyrekcji I. Gimnazjum Państwowego im. M. Romanowskiego w Stanisła
 Since 6 August this archive has said that the First State Gymnasium in Stanisławów is "where David was a pupil". It held the school’s annual reports, but not the student lists, so the statement was an inference. The lists are now here, and they carry his name three years running: Klasa IV in 1925/26, Klasa IVa in 1926/27 written out as "Rapaport Mendel Dawid", and Klasa Vb in 1927/28. He was born on 25 December 1911, so that is ages thirteen to sixteen. What was an assumption is now a printed record.
 
 He is not on the 1928/29 list, and that is what Basia’s note refers to. Why he left after Klasa V — a change of school, a move, the family’s circumstances, or something else — no source here says. It is written down as a question rather than guessed at, and Basia has been asked to confirm that the sentence was meant about that one year.
+
+
+## Arolsen tracing index card — Lea Rapaport née Weitzner, document pulled 17 December 1970
+
+- Type: tracing_index_card
+- Source: Arolsen Archives (formerly the International Tracing Service), DocID 68746393. Found online by Basia some months ago and sent on 24 August 2026, once Lusia’s own DP card made sense of it.
+- People: Leah Lusha Rapaport (née Weitzner), Elias (Eliyahu) Weitzner, Matel (Mathilde) Weitzner (née Weinreb)
+- Scan: https://rapaportfamily.github.io/assets/documents/basia_2026_08_24/arolsen_index_card_lea_rapaport_1970.png
+- What it records: name = RAPAPORT; maiden_name = Weißner — the German spelling of WEITZNER; given_name = Lea; geb_datum_field_contains = Haifa  (the PLACE, written in the DATE box); geb_ort_field_contains = 8.4.1916  (the DATE, written in the PLACE box); father = Elias; mother = Mathilde; reference = T/D 442582; docid = 68746393; entnommen_am = 17.12.1970 — "taken out on", with a clerk’s initials; ticked_on_the_list = DP Karten — and only that one; left_unticked = IRO Identity Card, IRO Case Card, Fiche Individuelle, Italienische Karte, Schwabing-Karte, AJDC-Belsen, CCLJ-Karte
+
+An index card from the tracing service at Arolsen. It is not a record of Lusia’s life; it is a record of somebody LOOKING FOR IT. The card names her exactly as her own Displaced Persons card does — Lea Rapaport, born Weitzner, 8 April 1916, father Elias, mother Mathilde — which is what finally convinced Basia the two belonged together.
+
+Two things on it are worth more than the rest.
+
+FIRST, THE FIELDS ARE SWAPPED. "Geb.-Datum" — date of birth — contains the word Haifa. "Geb.-Ort" — place of birth — contains 8.4.1916. A clerk has put the place in the date box and the date in the place box. This archive has carried an open question about why Lusia’s DP card says she was born in Haifa when she was born in Bolechów. This is a second document carrying the same Haifa, and the first evidence that the two fields have been mishandled by somebody along the way. It does not settle the question. It changes what kind of question it is.
+
+SECOND, ONLY ONE BOX IS TICKED. The card lists the sorts of record the file might contain — IRO identity card, IRO case card, Fiche Individuelle, an Italian card, a Schwabing card, an AJDC Belsen card, a CCLJ card. Only DP Karten is marked. So as far as this card goes, the DP card is the only thing the tracing service held for her, and she was not in the Belsen or Italian files. A blank with a reason is worth keeping.
+
+"Entnommen am 17.12.1970" means the document was taken out of the file on 17 December 1970. Files were pulled when somebody asked for them. Nobody in this family knows who asked, or why, twenty-five years after the war.
 
 
 ## Jenta Rapaport registered at Rue Lairesse 88, Liège, during the war

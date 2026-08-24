@@ -23,7 +23,7 @@
  "counts": {
   "curated_people": 188,
   "people_with_a_portrait": 12,
-  "documents": 137,
+  "documents": 138,
   "document_types": {
    "dp_card": 2,
    "birth_record": 7,
@@ -70,7 +70,8 @@
    "rescue_list": 1,
    "civil_register": 1,
    "method_note": 1,
-   "press_collection": 1
+   "press_collection": 1,
+   "tracing_index_card": 1
   },
   "rapaport_tree": {
    "people": 1442,
@@ -92,7 +93,7 @@
   "dov_trip_photographs": 120,
   "unidentified_photographs": 60,
   "timeline_events": 45,
-  "open_questions": 24,
+  "open_questions": 25,
   "places": 49
  },
  "data_files": {
@@ -5212,6 +5213,42 @@
    ],
    "people": [
     "David (Memek) Rapaport"
+   ],
+   "external": null,
+   "status": "read",
+   "open_questions": null
+  },
+  {
+   "id": "doc_arolsen_index_card_lea_1970",
+   "type": "tracing_index_card",
+   "title": {
+    "en": "Arolsen tracing index card — Lea Rapaport née Weitzner, document pulled 17 December 1970",
+    "he": "כרטיס אינדקס של ארכיון ארולזן — לאה רפפורט לבית ויצנר, המסמך נשלף ב-17 בדצמבר 1970",
+    "pl": "Karta indeksowa Arolsen — Lea Rapaport z domu Weitzner, dokument wyjęty 17 grudnia 1970",
+    "fr": "Fiche d’index Arolsen — Lea Rapaport née Weitzner, document sorti le 17 décembre 1970"
+   },
+   "summary_en": "An index card from the tracing service at Arolsen. It is not a record of Lusia’s life; it is a record of somebody LOOKING FOR IT. The card names her exactly as her own Displaced Persons card does — Lea Rapaport, born Weitzner, 8 April 1916, father Elias, mother Mathilde — which is what finally convinced Basia the two belonged together.\n\nTwo things on it are worth more than the rest.\n\nFIRST, THE FIELDS ARE SWAPPED. \"Geb.-Datum\" — date of birth — contains the word Haifa. \"Geb.-Ort\" — place of birth — contains 8.4.1916. A clerk has put the place in the date box and the date in the place box. This archive has carried an open question about why Lusia’s DP card says she was born in Haifa when she was born in Bolechów. This is a second document carrying the same Haifa, and the first evidence that the two fields have been mishandled by somebody along the way. It does not settle the question. It changes what kind of question it is.\n\nSECOND, ONLY ONE BOX IS TICKED. The card lists the sorts of record the file might contain — IRO identity card, IRO case card, Fiche Individuelle, an Italian card, a Schwabing card, an AJDC Belsen card, a CCLJ card. Only DP Karten is marked. So as far as this card goes, the DP card is the only thing the tracing service held for her, and she was not in the Belsen or Italian files. A blank with a reason is worth keeping.\n\n\"Entnommen am 17.12.1970\" means the document was taken out of the file on 17 December 1970. Files were pulled when somebody asked for them. Nobody in this family knows who asked, or why, twenty-five years after the war.",
+   "decoded_fields": {
+    "name": "RAPAPORT",
+    "maiden_name": "Weißner — the German spelling of WEITZNER",
+    "given_name": "Lea",
+    "geb_datum_field_contains": "Haifa  (the PLACE, written in the DATE box)",
+    "geb_ort_field_contains": "8.4.1916  (the DATE, written in the PLACE box)",
+    "father": "Elias",
+    "mother": "Mathilde",
+    "reference": "T/D 442582",
+    "docid": "68746393",
+    "entnommen_am": "17.12.1970 — \"taken out on\", with a clerk’s initials",
+    "ticked_on_the_list": "DP Karten — and only that one",
+    "left_unticked": "IRO Identity Card, IRO Case Card, Fiche Individuelle, Italienische Karte, Schwabing-Karte, AJDC-Belsen, CCLJ-Karte"
+   },
+   "files": [
+    "platform/assets/documents/basia_2026_08_24/arolsen_index_card_lea_rapaport_1970.png"
+   ],
+   "people": [
+    "Leah Lusha Rapaport (née Weitzner)",
+    "Elias (Eliyahu) Weitzner",
+    "Matel (Mathilde) Weitzner (née Weinreb)"
    ],
    "external": null,
    "status": "read",
@@ -10508,7 +10545,7 @@
   },
   {
    "id": "h_haifa_birthplace",
-   "status": "open",
+   "status": "open — and a second document now carries the same error",
    "question": {
     "en": "Why do both Rapaport DP cards give a wrong birthplace — Haifa for Lusia, Cieszyn for David — and does the fact that Lusia’s stated destination was Palestine bear on it? No source states a reason.",
     "he": "מדוע שני כרטיסי העקורים של בני רפפורט נוקבים במקום לידה שגוי — חיפה ללוסיה, צ׳ישין לדוד — והאם העובדה שיעדה המוצהר של לוסיה היה פלשתינה נוגעת לכך? שום מקור אינו נוקב בסיבה."
@@ -10518,7 +10555,14 @@
     "doc_lusia_1945_residence_request",
     "doc_lusia_1945_stay_permit_1946",
     "doc_david_dp_card"
-   ]
+   ],
+   "evidence": [
+    "Arolsen tracing index card, DocID 68746393, T/D 442582: the \"Geb.-Datum\" box contains the word HAIFA and the \"Geb.-Ort\" box contains 8.4.1916 — the place and the date are in each other’s fields. Sent by Basia, 24 August 2026."
+   ],
+   "note": {
+    "en": "A second document now carries the Haifa. On the Arolsen index card the place and the date are written into each other’s boxes, which is the first hard evidence that these two fields were being mishandled by the clerks who copied them. That does not tell us how HAIFA got into the record in the first place — Lusia was born in Bolechów, and her husband’s card of the same series says Cieszyn when he was born in Nadwórna. But it moves the question from \"why did she say Haifa\" towards \"who wrote these cards, and how carefully\". Still open.",
+    "he": "מסמך שני נושא כעת את ״חיפה״. בכרטיס האינדקס של ארולזן נכתבו המקום והתאריך זה בתיבתו של זה, וזו הראיה הממשית הראשונה לכך ששני השדות טופלו ברשלנות בידי הפקידים שהעתיקו אותם. אין בכך כדי לומר כיצד הגיעה ״חיפה״ לרשומה מלכתחילה. אך הדבר מסיט את השאלה מ״מדוע אמרה חיפה״ אל ״מי כתב את הכרטיסים האלה, ובאיזו זהירות״. עדיין פתוח."
+   }
   },
   {
    "id": "h_weinreb_dolina_records",
@@ -10566,6 +10610,23 @@
    "sources": [
     "doc_griffel_rescue_list_bucharest"
    ]
+  },
+  {
+   "id": "h_who_searched_for_lusia_1970",
+   "status": "open",
+   "priority": "MEDIUM",
+   "question": {
+    "en": "WHO WENT LOOKING FOR LUSIA IN 1970, AND WHY? Her Displaced Persons card was taken out of the tracing-service file on 17 December 1970 — \"entnommen am\" — and an index card was written to record it, reference T/D 442582. She was alive, living in Haifa, and would live another twenty-six years. Files were pulled when somebody asked. The usual reasons in 1970 were a compensation claim, a paper needed for a pension, or a tracing enquiry from a relative or an organisation. This archive does not know which, and nobody in the family remembers a claim being made. Arolsen may be able to say who requested it — that is the next question to ask them, quoting DocID 68746393.",
+    "he": "מי חיפש את לוסיה ב-1970, ומדוע? כרטיס העקורים שלה נשלף מתיק שירות האיתור ב-17 בדצמבר 1970 — ״entnommen am״ — ונכתב כרטיס אינדקס לתעד זאת, סימוכין T/D 442582. היא הייתה בחיים, גרה בחיפה, ועתידה הייתה לחיות עוד עשרים ושש שנים. תיקים נשלפו כשמישהו ביקש. הסיבות המקובלות ב-1970 היו תביעת פיצויים, מסמך לצורך קצבה, או פניית איתור מקרוב משפחה או מארגון. הארכיון הזה אינו יודע איזו מהן, ואיש במשפחה אינו זוכר שהוגשה תביעה. ייתכן שארולזן יוכלו לומר מי ביקש — זו השאלה הבאה שיש להפנות אליהם, בציון DocID 68746393."
+   },
+   "sources": [
+    "doc_arolsen_index_card_lea_1970",
+    "doc_lusia_1945_dp_card"
+   ],
+   "next_steps": [
+    "Ask the Arolsen Archives who requested the file in December 1970, quoting DocID 68746393 and T/D 442582.",
+    "Ask Dov and the family whether a compensation or pension claim was ever filed in or around 1970."
+   ]
   }
  ],
  "image_folders": {
@@ -10575,7 +10636,7 @@
    "civil_registers": "platform/assets/documents/basia_2026_08/registers/",
    "yad_vashem_pages": "platform/assets/documents/basia_2026_08/yad_vashem/",
    "papers_pdf_doc": "platform/assets/documents/basia_2026_08/papers/",
-   "file_count": 982
+   "file_count": 983
   },
   "jacob_griffel_library": {
    "photographs": "platform/assets/documents/griffel_2026_08/photos/",
