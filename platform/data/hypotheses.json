@@ -899,6 +899,24 @@
     "Ask the Arolsen Archives who requested the file in December 1970, quoting DocID 68746393 and T/D 442582.",
     "Ask Dov and the family whether a compensation or pension claim was ever filed in or around 1970."
    ]
+  },
+  {
+   "id": "h_german_language_press_untouched",
+   "status": "open — offered, not yet taken up",
+   "priority": "MEDIUM",
+   "question": {
+    "en": "THE GERMAN-LANGUAGE PRESS HAS NOT BEEN SEARCHED. Basia, closing the research phase on 24 August 2026: more Griffel material from the interwar press is available, \"and you can also consult the German-language press.\" The 142 notices now on this site come from Polish papers, with a single German one (Posener Tageblatt, 1938). But the family’s businesses ran into Vienna, Korneuburg, Danzig and Bucharest; the Korneuburg refinery was half theirs, the Adlersberg suit was heard in Vienna, and a parallel trial ran there in 1936. Whatever the Viennese and Danzig papers said about all that has never been looked at. This is not a gap in the record — it is a door nobody has opened.",
+    "he": "העיתונות בשפה הגרמנית לא נבדקה. בסיה, בסוגרה את שלב המחקר ב-24 באוגוסט 2026: קיים עוד חומר על גריפל בעיתונות שבין המלחמות, ״ואפשר גם לעיין בעיתונות הגרמנית״. 142 הידיעות שבאתר הזה באות מעיתונים פולניים, ובהן גרמנית אחת בלבד (פוזנר טאגבלאט, 1938). אך עסקי המשפחה הגיעו לווינה, לקורנויבורג, לדנציג ולבוקרשט; מחצית בית הזיקוק בקורנויבורג הייתה שלהם, תביעת אדלרסברג נדונה בווינה, ומשפט מקביל התנהל שם ב-1936. מה שכתבו על כל זה העיתונים הווינאים והדנציגיים מעולם לא נבדק. אין זה חֶסֶר ברשומה — זו דלת שאיש לא פתח."
+   },
+   "sources": [
+    "doc_griffel_press_1866_1946",
+    "doc_basia_closes_the_phase"
+   ],
+   "next_steps": [
+    "ANNO (Austrian Newspapers Online) for the Vienna papers, 1921-1936: Korneuburg, the Adlersberg litigation, the parallel Vienna trial.",
+    "The Danzig papers for Zygmunt Griffel’s timber export, 1923-1939.",
+    "Ask Basia what the remaining Polish interwar material is, before deciding whether to ask her for it."
+   ]
   }
  ]
 }

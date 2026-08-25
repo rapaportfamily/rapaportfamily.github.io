@@ -56,7 +56,7 @@ So the archive did it for him.
 | `01-narrative.md` | The story, ten chapters, with the sources under each paragraph |
 | `02-the-four.md` | David, Lusia, Shimon, Dov — and the generation before them |
 | `03-people.md` | All 188 people in the curated core |
-| `04-documents.md` | All 138 documents: what each one is, what it says, where the scan is |
+| `04-documents.md` | All 139 documents: what each one is, what it says, where the scan is |
 | `05-timeline.md` | 45 dated events |
 | `06-places.md` | 49 places |
 | `07-pictures.md` | Every picture with its caption and its address |
@@ -677,7 +677,7 @@ The wider trees hold far more: 1442 Rapaports across 480 families, and 390 Griff
 
 <!-- ===== 04-documents.md ===== -->
 
-# The documents (138)
+# The documents (139)
 
 Each entry says what the document is, what it tells us, who it concerns, and where the scan is. A film should name and explain every document it shows.
 
@@ -2368,6 +2368,21 @@ And then the outcome, which the film must not soften. Samuel lived, and died in 
 > Open question: Are Minna and Toni at entry 11 the same two girls the tree calls Chaja Mindel and Thea? Both were murdered in 1942 either way.
 
 
+## Basia closes the research phase — 24 August 2026
+
+- Type: research_note
+- Source: Basia, WhatsApp, 24 August 2026
+- What it records: she_is_from = POZNAŃ, in western Poland — not Kraków. The About page said Kraków in all four languages and has been corrected.; pilecki_meeting = She spoke with Ms Manowska and they arranged to meet on Wednesday at about 2 p.m.; Ms Manowska will place the call.; she_read_the_site = She has been following the work and says "Start Here" is very good.; still_available_if_wanted = More Griffel material from the interwar press exists, and the GERMAN-LANGUAGE press has not been searched at all.
+
+On 24 August 2026 Basia ended the research phase in her own words: "This is the end of this project, or project phase, and I won’t add anything more, because now you need to master the information that has already been collected and the threads that have emerged."
+
+It is worth recording as a finding rather than as admin. A year of work by somebody who reads Polish registers for a living has produced more than this family can yet hold in its head, and she is saying the useful thing next is not more paper but understanding the paper we have. The archive as it stands — 138 documents, 142 press notices, two large trees, ninety pages of memoir — is the result.
+
+She left one door open, and it is written down so it does not get lost: more Griffel material from the interwar press is available if the family wants it, and the GERMAN-LANGUAGE press has not been looked at at all. Given that the family’s businesses reached Vienna, Korneuburg, Danzig and Bucharest, that is not a small gap — it is simply one nobody has opened yet.
+
+She also asked for a correction, which is the reason this note exists at all: she is from POZNAŃ, not Kraków. The About page had said Kraków in all four languages. A wrong fact about a living person who gave us her work is worse than a missing one, and it is now right in all four.
+
+
 ## NKVD repressions against residents of the border zone, 1939-1941 (IPN research paper 6066)
 
 - Type: research_paper
@@ -3075,7 +3090,7 @@ This archive publishes disagreements rather than resolving them quietly. A film 
 - **David’s birthplace.** Nadwórna per the birth certificate found in Warsaw; "Cieszyn/Tesin" on the 1946 Brussels DP card, most likely a clerk mishearing.
 - **A birth register filed 1849** where this archive holds 1850.
 
-## Open questions (25)
+## Open questions (26)
 
 - Did Szabse Rapaport die in 1884 or in 1897 — and is he the same man as Shabtai Rappaport, head of the rabbinical court of Dąbrowa?  *(ANSWERED from primary records, 20 August 2026 — 1884)*
 - Why did David go to Palestine first, with nine-year-old Shimon, and leave Lusia and the baby Dov behind in Brussels — even at the cost of a year behind wire in Cyprus?  *(RESOLVED — answered by the memoir, page 63)*
@@ -3110,6 +3125,7 @@ WHAT IS STILL OPEN, and must not be closed in a film: this was a criminal racket
 - David Rapaport is printed in the student lists of the First State Gymnasium in Stanisławów for 1925/26, 1926/27 and 1927/28, and is absent from 1928/29. Why did he leave after Klasa V, at sixteen or seventeen? No source we hold says. (Basia’s note reads simply "Dawid Rapaport is not on the list of students"; the three scans she sent show him on three of the four lists, so she has been asked to confirm the note was about 1928/29 alone.)  *(open)*
 - Basia, 20 August 2026: "As a side note: there is another surname, this time IN THE RAPAPORT LINE, that is connected to the passports. When I me…" — the message breaks off there. Which surname, and connected how? This is the second thread into the wartime foreign-passport operation and it is unanswered.  *(open)*
 - WHO WENT LOOKING FOR LUSIA IN 1970, AND WHY? Her Displaced Persons card was taken out of the tracing-service file on 17 December 1970 — "entnommen am" — and an index card was written to record it, reference T/D 442582. She was alive, living in Haifa, and would live another twenty-six years. Files were pulled when somebody asked. The usual reasons in 1970 were a compensation claim, a paper needed for a pension, or a tracing enquiry from a relative or an organisation. This archive does not know which, and nobody in the family remembers a claim being made. Arolsen may be able to say who requested it — that is the next question to ask them, quoting DocID 68746393.  *(open)*
+- THE GERMAN-LANGUAGE PRESS HAS NOT BEEN SEARCHED. Basia, closing the research phase on 24 August 2026: more Griffel material from the interwar press is available, "and you can also consult the German-language press." The 142 notices now on this site come from Polish papers, with a single German one (Posener Tageblatt, 1938). But the family’s businesses ran into Vienna, Korneuburg, Danzig and Bucharest; the Korneuburg refinery was half theirs, the Adlersberg suit was heard in Vienna, and a parallel trial ran there in 1936. Whatever the Viennese and Danzig papers said about all that has never been looked at. This is not a gap in the record — it is a door nobody has opened.  *(open — offered, not yet taken up)*
 
 
 <!-- ===== 09-research-story.md ===== -->
@@ -3279,6 +3295,22 @@ FIRST, THE FIELDS ARE SWAPPED. "Geb.-Datum" — date of birth — contains the w
 SECOND, ONLY ONE BOX IS TICKED. The card lists the sorts of record the file might contain — IRO identity card, IRO case card, Fiche Individuelle, an Italian card, a Schwabing card, an AJDC Belsen card, a CCLJ card. Only DP Karten is marked. So as far as this card goes, the DP card is the only thing the tracing service held for her, and she was not in the Belsen or Italian files. A blank with a reason is worth keeping.
 
 "Entnommen am 17.12.1970" means the document was taken out of the file on 17 December 1970. Files were pulled when somebody asked for them. Nobody in this family knows who asked, or why, twenty-five years after the war.
+
+
+## [MEDIUM] Basia closes the research phase — 24 August 2026
+
+**If the film needs an ending for the research strand, this is it: the researcher stops, and tells the family the work now is to understand what they already have.**
+
+- Source: Basia, WhatsApp, 24 August 2026
+- What it records: she_is_from = POZNAŃ, in western Poland — not Kraków. The About page said Kraków in all four languages and has been corrected.; pilecki_meeting = She spoke with Ms Manowska and they arranged to meet on Wednesday at about 2 p.m.; Ms Manowska will place the call.; she_read_the_site = She has been following the work and says "Start Here" is very good.; still_available_if_wanted = More Griffel material from the interwar press exists, and the GERMAN-LANGUAGE press has not been searched at all.
+
+On 24 August 2026 Basia ended the research phase in her own words: "This is the end of this project, or project phase, and I won’t add anything more, because now you need to master the information that has already been collected and the threads that have emerged."
+
+It is worth recording as a finding rather than as admin. A year of work by somebody who reads Polish registers for a living has produced more than this family can yet hold in its head, and she is saying the useful thing next is not more paper but understanding the paper we have. The archive as it stands — 138 documents, 142 press notices, two large trees, ninety pages of memoir — is the result.
+
+She left one door open, and it is written down so it does not get lost: more Griffel material from the interwar press is available if the family wants it, and the GERMAN-LANGUAGE press has not been looked at at all. Given that the family’s businesses reached Vienna, Korneuburg, Danzig and Bucharest, that is not a small gap — it is simply one nobody has opened yet.
+
+She also asked for a correction, which is the reason this note exists at all: she is from POZNAŃ, not Kraków. The About page had said Kraków in all four languages. A wrong fact about a living person who gave us her work is worse than a missing one, and it is now right in all four.
 
 
 ## [MEDIUM] David in the school register — printed student lists of the First State Gymnasium, Stanisławów, 1925/26 to 1928/29

@@ -4,14 +4,14 @@
  "counts": {
   "people": 188,
   "faces": 12,
-  "documents": 138,
+  "documents": 139,
   "chapters": 10,
   "events": 45,
   "places": 49,
-  "questions": 25,
+  "questions": 26,
   "answered": 14,
-  "open": 11,
-  "messages": 863,
+  "open": 12,
+  "messages": 866,
   "press": 142,
   "press_from": 1866,
   "press_to": 1946,
@@ -40,8 +40,8 @@
    "fr": "Depuis des années, Dov Rapaport dit la même chose : ce qu’il aurait voulu par dessus tout, c’était voyager avec sa mère. Se tenir avec elle dans les lieux d’où elle venait, l’entendre raconter là où cela s’est passé, et apprendre qui était sa famille.\n\nIl ne le peut pas. Alors Dalia, Dana, Daniel et Doron y sont allés et l’ont fait pour lui.\n\nCe site est ce voyage. Tout y a été trouvé lentement — dans les archives polonaises, à Yad Vashem, dans les registres de naissance, les dossiers de passeports et des journaux vieux de quatre-vingts ans, et dans les quatre-vingt-dix pages que sa mère a dictées en 1986. Là où personne ne sait, il est écrit que personne ne sait.\n\nCi-dessous, tout ce qui s’y trouve, et où le trouver."
   },
   "stat_line": {
-   "en": "138 documents read · 188 people · 1832 in the wider trees · 142 newspaper notices, 1866-1946 · 90 memoir pages · 25 questions, 14 of them answered",
-   "he": "138 מסמכים נקראו · 188 אנשים · 1832 בעצים הרחבים · 142 ידיעות עיתונות, 1866—1946 · 90 עמודי ממואר · 25 שאלות, 14 מהן נענו"
+   "en": "139 documents read · 188 people · 1832 in the wider trees · 142 newspaper notices, 1866-1946 · 90 memoir pages · 26 questions, 14 of them answered",
+   "he": "139 מסמכים נקראו · 188 אנשים · 1832 בעצים הרחבים · 142 ידיעות עיתונות, 1866—1946 · 90 עמודי ממואר · 26 שאלות, 14 מהן נענו"
   }
  },
  "closing": {
@@ -289,7 +289,7 @@
   {
    "route": "#/documents",
    "key": "documents",
-   "count": 138,
+   "count": 139,
    "title": {
     "en": "The documents",
     "he": "המסמכים",
@@ -370,7 +370,7 @@
   {
    "route": "#/hypotheses",
    "key": "hypotheses",
-   "count": 25,
+   "count": 26,
    "title": {
     "en": "What is still open",
     "he": "מה עדיין פתוח",
@@ -397,7 +397,7 @@
   {
    "route": "#/chat",
    "key": "chat",
-   "count": 863,
+   "count": 866,
    "title": {
     "en": "The research chat",
     "he": "צ׳אט המחקר",

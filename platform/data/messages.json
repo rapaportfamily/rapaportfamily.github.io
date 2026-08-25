@@ -1,7 +1,7 @@
 {
  "source_file": "_chat.txt",
  "parsed_at": "2026-08-02T11:12:04.305245Z",
- "message_count": 863,
+ "message_count": 866,
  "messages": [
   {
    "timestamp": "2026-05-04T18:49:00",
@@ -10171,6 +10171,45 @@
    "time": "11:12",
    "author": "Doron",
    "body": "Lucia indeed say they were deceived. Paid huge amount of money for the time and received false documents.",
+   "attachment": null,
+   "system": false,
+   "lang": "en",
+   "author_normalized": "Doron",
+   "pasted_by_doron": true,
+   "note": "Sent on WhatsApp and pasted into the archive by Doron. This is how the chat is normally kept current — he copies the messages across rather than re-exporting and downloading the entire WhatsApp history each time."
+  },
+  {
+   "timestamp": "2026-08-24T18:48:00",
+   "date": "24/08/2026",
+   "time": "18:48",
+   "author": "Basia",
+   "body": "I spoke briefly with Ms. Manowska. We agreed to meet for Wednesday around 2:00 PM. She will be the one calling.\n\nDoron, I’ve been following your work. \"Start Here\" is very good.\nIn the \"About the Project\" tab, please correct something. I’m not from Krakow, but from Poznań, also a fairly large city in western Poland.\n\nThis is the end of this project, or project phase, and I won’t add anything more, because now you need to master the information that has already been collected and the threads that have emerged.\n\nIf any of the threads about the Griffel family published in the interwar press interest you, please know that more material is available. You can also consult the German-language press.",
+   "attachment": null,
+   "system": false,
+   "lang": "en",
+   "author_normalized": "Basia",
+   "pasted_by_doron": true,
+   "note": "Sent on WhatsApp and pasted into the archive by Doron. This is how the chat is normally kept current — he copies the messages across rather than re-exporting and downloading the entire WhatsApp history each time."
+  },
+  {
+   "timestamp": "2026-08-24T19:23:00",
+   "date": "24/08/2026",
+   "time": "19:23",
+   "author": "Doron",
+   "body": "Thank you very much Basia for everything you had done here.\nThis grown to be quiet impressive and very interesting..!\n\nWe are also trying to make a movie using AI.\n\nThis is how we imagined it would be at the end and you are a big part in this.\n\nAppreciate that very much!",
+   "attachment": null,
+   "system": false,
+   "lang": "en",
+   "author_normalized": "Doron",
+   "pasted_by_doron": true,
+   "note": "Sent on WhatsApp and pasted into the archive by Doron. This is how the chat is normally kept current — he copies the messages across rather than re-exporting and downloading the entire WhatsApp history each time."
+  },
+  {
+   "timestamp": "2026-08-24T19:24:00",
+   "date": "24/08/2026",
+   "time": "19:24",
+   "author": "Doron",
+   "body": "And will amend to Poznan.",
    "attachment": null,
    "system": false,
    "lang": "en",

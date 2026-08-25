@@ -118,6 +118,22 @@ SECOND, ONLY ONE BOX IS TICKED. The card lists the sorts of record the file migh
 "Entnommen am 17.12.1970" means the document was taken out of the file on 17 December 1970. Files were pulled when somebody asked for them. Nobody in this family knows who asked, or why, twenty-five years after the war.
 
 
+## [MEDIUM] Basia closes the research phase — 24 August 2026
+
+**If the film needs an ending for the research strand, this is it: the researcher stops, and tells the family the work now is to understand what they already have.**
+
+- Source: Basia, WhatsApp, 24 August 2026
+- What it records: she_is_from = POZNAŃ, in western Poland — not Kraków. The About page said Kraków in all four languages and has been corrected.; pilecki_meeting = She spoke with Ms Manowska and they arranged to meet on Wednesday at about 2 p.m.; Ms Manowska will place the call.; she_read_the_site = She has been following the work and says "Start Here" is very good.; still_available_if_wanted = More Griffel material from the interwar press exists, and the GERMAN-LANGUAGE press has not been searched at all.
+
+On 24 August 2026 Basia ended the research phase in her own words: "This is the end of this project, or project phase, and I won’t add anything more, because now you need to master the information that has already been collected and the threads that have emerged."
+
+It is worth recording as a finding rather than as admin. A year of work by somebody who reads Polish registers for a living has produced more than this family can yet hold in its head, and she is saying the useful thing next is not more paper but understanding the paper we have. The archive as it stands — 138 documents, 142 press notices, two large trees, ninety pages of memoir — is the result.
+
+She left one door open, and it is written down so it does not get lost: more Griffel material from the interwar press is available if the family wants it, and the GERMAN-LANGUAGE press has not been looked at at all. Given that the family’s businesses reached Vienna, Korneuburg, Danzig and Bucharest, that is not a small gap — it is simply one nobody has opened yet.
+
+She also asked for a correction, which is the reason this note exists at all: she is from POZNAŃ, not Kraków. The About page had said Kraków in all four languages. A wrong fact about a living person who gave us her work is worse than a missing one, and it is now right in all four.
+
+
 ## [MEDIUM] David in the school register — printed student lists of the First State Gymnasium, Stanisławów, 1925/26 to 1928/29
 
 - Source: Basia, 23 August 2026 — annual reports of the First State Gymnasium named for M. Romanowski, Stanisławów

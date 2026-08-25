@@ -1,4 +1,4 @@
-# The documents (138)
+# The documents (139)
 
 Each entry says what the document is, what it tells us, who it concerns, and where the scan is. A film should name and explain every document it shows.
 
@@ -1687,6 +1687,21 @@ And then the outcome, which the film must not soften. Samuel lived, and died in 
 > Open question: The last line ends with a dash and the word "Eisig". Chaim Eiss of Zurich was one of the six men of the Ładoś Group who made these passports; "Eisig Chaim" is also a given name that runs through this very family. It could be either. Do not decide it in a film.
 
 > Open question: Are Minna and Toni at entry 11 the same two girls the tree calls Chaja Mindel and Thea? Both were murdered in 1942 either way.
+
+
+## Basia closes the research phase — 24 August 2026
+
+- Type: research_note
+- Source: Basia, WhatsApp, 24 August 2026
+- What it records: she_is_from = POZNAŃ, in western Poland — not Kraków. The About page said Kraków in all four languages and has been corrected.; pilecki_meeting = She spoke with Ms Manowska and they arranged to meet on Wednesday at about 2 p.m.; Ms Manowska will place the call.; she_read_the_site = She has been following the work and says "Start Here" is very good.; still_available_if_wanted = More Griffel material from the interwar press exists, and the GERMAN-LANGUAGE press has not been searched at all.
+
+On 24 August 2026 Basia ended the research phase in her own words: "This is the end of this project, or project phase, and I won’t add anything more, because now you need to master the information that has already been collected and the threads that have emerged."
+
+It is worth recording as a finding rather than as admin. A year of work by somebody who reads Polish registers for a living has produced more than this family can yet hold in its head, and she is saying the useful thing next is not more paper but understanding the paper we have. The archive as it stands — 138 documents, 142 press notices, two large trees, ninety pages of memoir — is the result.
+
+She left one door open, and it is written down so it does not get lost: more Griffel material from the interwar press is available if the family wants it, and the GERMAN-LANGUAGE press has not been looked at at all. Given that the family’s businesses reached Vienna, Korneuburg, Danzig and Bucharest, that is not a small gap — it is simply one nobody has opened yet.
+
+She also asked for a correction, which is the reason this note exists at all: she is from POZNAŃ, not Kraków. The About page had said Kraków in all four languages. A wrong fact about a living person who gave us her work is worse than a missing one, and it is now right in all four.
 
 
 ## NKVD repressions against residents of the border zone, 1939-1941 (IPN research paper 6066)
