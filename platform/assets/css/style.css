@@ -892,6 +892,39 @@ html[dir="rtl"] .person-name-big { font-family: var(--font-hebrew); }
   margin-bottom: 0.6em;
 }
 html[dir="rtl"] .person-dates { font-family: var(--font-hebrew); font-style: normal; }
+/* A SIDE NOTE — a question the family carried, answered beside the person it is
+   about. White surface, blue outline, blue heading: the same card language as the
+   rest of the archive. Only David has one; nobody else's page grows a box. */
+.sidenote {
+  background: var(--paper);
+  border: 1.5px solid var(--accent);
+  border-radius: var(--radius);
+  padding: var(--pad-lg);
+  margin: 1.25rem 0 1.5rem;
+}
+.sidenote h4 { color: var(--accent); margin: 0 0 0.5em 0; }
+.sidenote p { font-size: 0.95rem; line-height: 1.6; color: var(--ink-soft); }
+.sidenote ul { margin: 0.2rem 0 0.9rem; padding-inline-start: 1.15rem; }
+.sidenote li {
+  font-size: 0.9rem; line-height: 1.55; color: var(--ink-soft); margin-bottom: 0.4rem;
+}
+.sidenote .sidenote-caveat {
+  font-size: 0.82rem; color: var(--muted);
+  border-top: 1px solid var(--border); padding-top: 0.7rem; margin: 0 0 0.2rem;
+}
+.sidenote-docs {
+  display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: baseline; margin-top: 0.8rem;
+}
+.sidenote-docs span {
+  font-family: var(--font-mono); font-size: 0.7rem; text-transform: uppercase;
+  letter-spacing: 0.08em; color: var(--muted);
+}
+.sidenote-docs a {
+  font-size: 0.8rem; border: 1px solid var(--border); border-radius: 3px;
+  padding: 0.2rem 0.5rem; color: var(--accent);
+}
+.sidenote-docs a:hover { background: var(--accent); color: var(--paper); border-color: var(--accent); }
+
 .person-note {
   font-size: 0.9rem;
   color: var(--ink-soft);

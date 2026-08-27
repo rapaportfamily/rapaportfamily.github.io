@@ -1889,6 +1889,25 @@ function openPersonModal(id) {
         (isFallback ? `<p class="muted" style="font-size:0.78rem;margin-top:-0.4rem;">${escapeHtml(t('ui.en_fallback'))}</p>` : '');
     })()}
 
+    ${(() => {
+      // A side note answers a question the family carried, in one block, with the
+      // records under it. Only David has one; the field is absent on everyone else.
+      const sn = p.sidenote;
+      if (!sn) return '';
+      const docs = (sn.sources || [])
+        .map(id => (State.data.documents || []).find(d => d.id === id))
+        .filter(Boolean);
+      return `<aside class="sidenote" dir="auto">
+        <h4>${escapeHtml(ml(sn.title))}</h4>
+        <p>${escapeHtml(ml(sn.body))}</p>
+        ${sn.points?.length ? `<ul>${sn.points.map(x => `<li>${escapeHtml(ml(x))}</li>`).join('')}</ul>` : ''}
+        ${sn.caveat ? `<p class="sidenote-caveat">${escapeHtml(ml(sn.caveat))}</p>` : ''}
+        ${docs.length ? `<div class="sidenote-docs"><span>${escapeHtml(t('ui.sources'))}</span>${
+          docs.map(d => `<a href="#" data-doc-link="${escapeHtml(d.id)}">${escapeHtml(ml(d.title))}</a>`).join('')
+        }</div>` : ''}
+      </aside>`;
+    })()}
+
     <div class="detail-section">
       <h4>${escapeHtml(t('ui.born'))} / ${escapeHtml(t('ui.died'))}</h4>
       ${p.birth ? `
@@ -1938,6 +1957,13 @@ function openPersonModal(id) {
 
   showModal(html);
   // Wire up cross-links inside modal
+  document.querySelectorAll('#modal [data-doc-link]').forEach(el => {
+    el.addEventListener('click', (e) => {
+      e.preventDefault();
+      closeModal();
+      location.hash = '#/documents/' + el.dataset.docLink;
+    });
+  });
   document.querySelectorAll('#modal [data-person]').forEach(el => {
     el.addEventListener('click', (e) => {
       e.preventDefault();
